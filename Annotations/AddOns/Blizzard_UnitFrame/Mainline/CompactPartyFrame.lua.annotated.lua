@@ -1,0 +1,32 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L15)
+--- @class CompactPartyFrameMixin
+CompactPartyFrameMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L17)
+function CompactPartyFrameMixin:OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L35)
+function CompactPartyFrameMixin:OnEvent() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L39)
+function CompactPartyFrameMixin:ApplyFunctionToAllFrames(updateSpecifier, func, ...) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L49)
+function CompactPartyFrameMixin:SetFlowSortFunction(flowSortFunc) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L54)
+function CompactPartyFrameMixin:UpdateLayout() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L136)
+function CompactPartyFrameMixin:ShouldShow() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L141)
+function CompactPartyFrameMixin:UpdateVisibility() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L147)
+function CompactPartyFrameMixin:RefreshMembers() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1)
+function CompactPartyFrame_Generate() end

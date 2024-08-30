@@ -1,0 +1,24 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L10)
+--- @class UIWidgetTemplateTextColumnRowMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateTextColumnRowMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L68)
+--- @class UIWidgetTemplateTextColumnRowColumnMixin
+UIWidgetTemplateTextColumnRowColumnMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L12)
+function UIWidgetTemplateTextColumnRowMixin:OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L23)
+function UIWidgetTemplateTextColumnRowMixin:UpdateMouseEnabled() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L27)
+function UIWidgetTemplateTextColumnRowMixin:Setup(widgetInfo, widgetContainer) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L63)
+function UIWidgetTemplateTextColumnRowMixin:OnReset() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L70)
+function UIWidgetTemplateTextColumnRowColumnMixin:Setup(text, fontType, textSizeType, enabledState, hAlign, columnWidth, layoutIndex) end

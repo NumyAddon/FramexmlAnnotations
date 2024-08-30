@@ -1,0 +1,91 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1)
+--- @class LootJournalItemsMixin
+LootJournalItemsMixin = { }
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L63)
+--- @class LootJournalItemSetsMixin
+LootJournalItemSetsMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L266)
+--- @class LootJournalItemSetButtonMixin
+LootJournalItemSetButtonMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L3)
+function LootJournalItemsMixin:OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L11)
+function LootJournalItemsMixin:SetClassAndSpecFilters(classID, specID) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L16)
+function LootJournalItemsMixin:GetClassAndSpecFilters() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L20)
+function LootJournalItemsMixin:OnEvent(event) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L26)
+function LootJournalItemsMixin:SetView(view) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L35)
+function LootJournalItemsMixin:GetActiveList() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L39)
+function LootJournalItemsMixin:Refresh() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L70)
+function LootJournalItemSetsMixin:Refresh() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L83)
+function LootJournalItemSetsMixin:SetupClassDropdown() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L91)
+function LootJournalItemSetsMixin:GetClassAndSpecFilters() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L95)
+function LootJournalItemSetsMixin:GetPreviewClassAndSpec() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L108)
+function LootJournalItemSetsMixin:ShowItemTooltip(button) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L121)
+function LootJournalItemSetsMixin:CheckItemButtonTooltip(button) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L127)
+function LootJournalItemSetsMixin:GetClassFilter() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L132)
+function LootJournalItemSetsMixin:GetSpecFilter() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L137)
+function LootJournalItemSetsMixin:SetClassAndSpecFilters(newClassFilter, newSpecFilter) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L172)
+function LootJournalItemSetsMixin:OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L186)
+function LootJournalItemSetsMixin:OnShow() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L196)
+function LootJournalItemSetsMixin:OnHide() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L200)
+function LootJournalItemSetsMixin:OnEvent(event, ...) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L216)
+function LootJournalItemSetsMixin:ConfigureItemButton(button) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L244)
+function LootJournalItemSetsMixin:UpdateList() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L268)
+function LootJournalItemSetButtonMixin:Init(elementData, configureItemButton) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L43)
+function LootJournalItemButtonTemplate_OnEnter(self) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L55)
+function LootJournalItemButtonTemplate_OnLeave(self) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L232)
+function SortItemSetItems(entry1, entry2) end

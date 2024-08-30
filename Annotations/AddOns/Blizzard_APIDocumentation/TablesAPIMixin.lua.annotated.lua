@@ -1,0 +1,26 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1)
+--- @class TablesAPIMixin : BaseAPIMixin
+TablesAPIMixin = CreateFromMixins(BaseAPIMixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L3)
+function TablesAPIMixin:GetParentName() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L11)
+function TablesAPIMixin:GetType() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L15)
+function TablesAPIMixin:GetPrettyType() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L19)
+function TablesAPIMixin:GetLinkHexColor() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L23)
+function TablesAPIMixin:GetFullName() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L31)
+function TablesAPIMixin:MatchesSearchString(searchString) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L46)
+function TablesAPIMixin:GetDetailedOutputLines() end

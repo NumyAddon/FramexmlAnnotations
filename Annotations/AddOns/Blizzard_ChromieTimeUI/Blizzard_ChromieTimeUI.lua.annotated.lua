@@ -1,0 +1,71 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2)
+--- @class ChromieTimeFrameMixin
+ChromieTimeFrameMixin = { }
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L88)
+--- @class CurrentlySelectedExpansionInfoFrameMixin
+CurrentlySelectedExpansionInfoFrameMixin = { }
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L103)
+--- @class ChromieTimeExpansionButtonMixin
+ChromieTimeExpansionButtonMixin = { }
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L159)
+--- @class ChromieTimeSelectButtonMixin
+ChromieTimeSelectButtonMixin = { }
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L4)
+function ChromieTimeFrameMixin:OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L8)
+function ChromieTimeFrameMixin:OnShow() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L12)
+function ChromieTimeFrameMixin:OnHide() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L30)
+function ChromieTimeFrameMixin:SelectExpansionOption() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L41)
+function ChromieTimeFrameMixin:SetupExpansionButtons() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L53)
+function ChromieTimeFrameMixin:GetExpansionOptionButton(index, optionInfo) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L70)
+function ChromieTimeFrameMixin:SetSelectedExpansion(expansionSelection) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L84)
+function ChromieTimeFrameMixin:GetSelectedExpansion(expansionSelection) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L90)
+function CurrentlySelectedExpansionInfoFrameMixin:SetCurrentlySelectedExpansion(expacSelection) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L97)
+function CurrentlySelectedExpansionInfoFrameMixin:ResetSelection() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L105)
+function ChromieTimeExpansionButtonMixin:SetupButton(buttonInfo) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L128)
+function ChromieTimeExpansionButtonMixin:ClearSelection() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L132)
+function ChromieTimeExpansionButtonMixin:OnClick() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L144)
+function ChromieTimeExpansionButtonMixin:OnEnter() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L155)
+function ChromieTimeExpansionButtonMixin:OnLeave() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L161)
+function ChromieTimeSelectButtonMixin:OnShow() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L165)
+function ChromieTimeSelectButtonMixin:OnClick() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L169)
+function ChromieTimeSelectButtonMixin:UpdateButtonState(enabled) end

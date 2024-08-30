@@ -1,0 +1,11 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L4)
+--- @class TabardModelFrameMixin : ModelFrameMixin
+TabardModelFrameMixin = CreateFromMixins(ModelFrameMixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L6)
+function TabardModelFrameMixin:OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L11)
+function TabardModelFrameMixin:OnUpdate(elapsedTime) end

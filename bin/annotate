@@ -36,6 +36,7 @@ $fileList = [];
 if (is_file($inputDir) && (str_ends_with($inputDir, '.lua') || str_ends_with($inputDir, '.xml'))) {
     $fileList[$inputDir] = pathinfo($inputDir, PATHINFO_EXTENSION);
 } elseif (is_dir($inputDir)) {
+    $inputDir = rtrim($inputDir, '/');
     $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($inputDir));
     $iterator->rewind();
     /** @var $iterator RecursiveDirectoryIterator */
@@ -62,7 +63,7 @@ foreach ($fileList as $filePath => $extension) {
     if ('xml' === $extension) {
         $xmlFileParser->parse($filePath);
     } elseif ('lua' === $extension) {
-        $luaFileParser->parse($filePath, $linkPrefix);
+        $luaFileParser->parse($filePath, $inputDir, $linkPrefix);
     }
     $progressBar->advance();
 }

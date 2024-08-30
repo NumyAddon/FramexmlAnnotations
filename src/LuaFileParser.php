@@ -11,9 +11,13 @@ class LuaFileParser
     /** @var array<string, array<string, string> [filename => [function name => function data]] */
     private array $functions = [];
 
-    public function parse(string $filename, ?string $linkPrefix): void
+    public function parse(string $filename, string $prefixToStrip, ?string $linkPrefix): void
     {
         $fileContents = file_get_contents($filename);
+        if (str_starts_with($filename, $prefixToStrip)) {
+            $linkFilename = substr($filename, strlen($prefixToStrip));
+            $linkPrefix = $linkPrefix ? str_replace('//', '/', $linkPrefix . '/' . $linkFilename) : null;
+        }
 
         $mixins = $this->extractMixins($fileContents, $linkPrefix);
         $functions = $this->extractFunctions($fileContents, $mixins, $linkPrefix);

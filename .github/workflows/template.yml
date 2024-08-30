@@ -100,6 +100,12 @@ jobs:
           extensions: xml, dom
           tools: composer:v2
 
+      - name: Install dependencies
+        if: ${{ steps.check.outputs.skip != 'true' }}
+        run: |
+          set -ex
+          composer install --no-interaction --no-progress --no-suggest --prefer-dist
+
       - name: Create annotations and push
         if: ${{ steps.check.outputs.skip != 'true' }}
         run: |

@@ -1,0 +1,14 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_BNet/BNet.xml#L48)
+--- @class BNToastFrame_TooltipFrame : Frame, TooltipBackdropTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_BNet/BNet.xml#L3)
+--- @class BNToastFrame : ContainedAlertFrame, SocialToastTemplate, BNToastMixin
+--- @field TooltipFrame BNToastFrame_TooltipFrame
+BNToastFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_BNet/BNet.xml#L83)
+--- @class TimeAlertFrame : ContainedAlertFrame, SocialToastTemplate, BNetTimeAlertMixin
+TimeAlertFrame = {}
+

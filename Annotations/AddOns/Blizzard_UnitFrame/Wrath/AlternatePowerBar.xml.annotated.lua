@@ -1,0 +1,10 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Wrath/AlternatePowerBar.xml#L3)
+--- Template
+--- @class AlternatePowerBarTemplate : StatusBar, TextStatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Wrath/AlternatePowerBar.xml#L64)
+--- @class PlayerFrameAlternateManaBar : StatusBar, AlternatePowerBarTemplate
+PlayerFrameAlternateManaBar = {}
+

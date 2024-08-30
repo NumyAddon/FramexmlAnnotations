@@ -47,6 +47,7 @@ jobs:
       - name: Checkout or create latest Annotations branch
         if: ${{ steps.check.outputs.skip != 'true' }}
         run: |
+          set -ex
           git clone "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY" ./.annotations_temp
           cd ./.annotations_temp
           git fetch --prune origin
@@ -75,6 +76,7 @@ jobs:
       - name: Compare local and remote commit hashes
         id: check
         run: |
+          set -ex
           if [[ "${{ inputs.FORCE_UPDATE }}" == "true" ]]; then
             echo "skip=false" >> $GITHUB_OUTPUT
             exit 0
@@ -101,6 +103,7 @@ jobs:
       - name: Create annotations and push
         if: ${{ steps.check.outputs.skip != 'true' }}
         run: |
+          set -ex
           branch=${{ inputs.BRANCH }}
           cd ./.wow-ui-source
           remote_commit_hash=$(git rev-parse HEAD)

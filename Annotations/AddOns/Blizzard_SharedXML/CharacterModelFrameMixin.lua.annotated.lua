@@ -1,0 +1,11 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/CharacterModelFrameMixin.lua#L4)
+--- @class CharacterModelSceneMixin : PanningModelSceneMixin
+CharacterModelSceneMixin = CreateFromMixins(PanningModelSceneMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/CharacterModelFrameMixin.lua#L37)
+function CharacterModelSceneMixin:OnMouseUp(button) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/CharacterModelFrameMixin.lua#L44)
+function CharacterModelSceneMixin:OnReceiveDrag() end

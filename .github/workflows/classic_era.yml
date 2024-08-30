@@ -1,0 +1,12 @@
+name: classic_era
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  build:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic_era

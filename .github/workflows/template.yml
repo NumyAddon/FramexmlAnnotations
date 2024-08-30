@@ -13,6 +13,18 @@ on:
         required: false
         default: false
         type: boolean
+  workflow_dispatch:
+    inputs:
+      BRANCH:
+        description: 'Branch to run the workflow on'
+        required: true
+        default: 'live'
+        type: string
+      FORCE_UPDATE:
+        description: 'Force update the branch'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   build:

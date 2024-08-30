@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L469)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L469)
 --- @class FriendsTabHeaderMixin
 FriendsTabHeaderMixin = {};
 
@@ -1551,43 +1551,43 @@ local regionNames = {
 	[5] = CHINA,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L576)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L576)
 --- @class FriendsTabMixin
 FriendsTabMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L585)
 --- @class FriendsFrameTabMixin
 FriendsFrameTabMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L615)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L615)
 --- @class FriendsFrameInviteTemplateMixin
 FriendsFrameInviteTemplateMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1007)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1007)
 --- @class SummonButtonMixin
 SummonButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1777)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1777)
 --- @class FriendsBroadcastFrameMixin
 FriendsBroadcastFrameMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1969)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1969)
 --- @class FriendsFriendsButtonMixin
 FriendsFriendsButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1976)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1976)
 --- @class IgnoreListButtonMixin
 IgnoreListButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1983)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1983)
 --- @class WhoListButtonMixin
 WhoListButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2004)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2004)
 --- @class FriendsListButtonMixin
 FriendsListButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2231)
 --- @class FriendsFriendsFrameMixin
 FriendsFriendsFrameMixin = {};
 
@@ -2042,386 +2042,386 @@ local inviteTypeToButtonText =
 	["REQUEST_INVITE_CROSS_FACTION"] = REQUEST_INVITE_CROSS_FACTION,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L471)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L471)
 function FriendsTabHeaderMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L549)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L549)
 function FriendsTabHeaderMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L556)
 function FriendsTabHeaderMixin:SetRAFSystemEnabled(rafEnabled) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L578)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L578)
 function FriendsTabMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L587)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L587)
 function FriendsFrameTabMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L617)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L617)
 function FriendsFrameInviteTemplateMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1009)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1009)
 function SummonButtonMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1029)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1029)
 function SummonButtonMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1033)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1033)
 function SummonButtonMixin:OnClick(button, down) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1037)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1037)
 function SummonButtonMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1046)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1046)
 function SummonButtonMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1779)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1779)
 function FriendsBroadcastFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1783)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1783)
 function FriendsBroadcastFrameMixin:ShowFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1791)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1791)
 function FriendsBroadcastFrameMixin:HideFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1797)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1797)
 function FriendsBroadcastFrameMixin:ToggleFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1806)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1806)
 function FriendsBroadcastFrameMixin:UpdateBroadcast() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1812)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1812)
 function FriendsBroadcastFrameMixin:SetBroadcast() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1971)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1971)
 function FriendsFriendsButtonMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1978)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1978)
 function IgnoreListButtonMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1985)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1985)
 function WhoListButtonMixin:OnClick(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1995)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1995)
 function WhoListButtonMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2006)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2006)
 function FriendsListButtonMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2018)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2018)
 function FriendsListButtonMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2199)
 function FriendsListButtonMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2204)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2204)
 function FriendsListButtonMixin:OnClick(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2233)
 function FriendsFriendsFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2254)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2254)
 function FriendsFriendsFrameMixin:OnEvent(event) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2274)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2274)
 function FriendsFriendsFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2297)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2297)
 function FriendsFriendsFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2301)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2301)
 function FriendsFriendsFrameMixin:SendRequest() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2311)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2311)
 function FriendsFriendsFrameMixin:Reset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2378)
 function FriendsFriendsFrameMixin:Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L72)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L72)
 function FriendsFrame_ShowSubFrame(frameName) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L87)
 function FriendsFrame_SummonButton_OnShow (self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L91)
 function FriendsFrame_ShouldShowSummonButton(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L124)
 function FriendsFrame_SummonButton_Update (self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L156)
 function FriendsFrame_ClickSummonButton (self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L173)
 function FriendsFrame_ShowDropdown(name, connected, lineID, chatType, chatFrame, friendsList, isMobile, communityClubID, communityStreamID, communityEpoch, communityPosition, guid) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L198)
 function FriendsFrame_ShowBNDropdown(name, connected, lineID, chatType, chatFrame, friendsList, bnetIDAccount, communityClubID, communityStreamID, communityEpoch, communityPosition, mobile, battleTag) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L223)
 function FriendsFrame_OnLoad(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L338)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L338)
 function FriendsFrame_OnShow(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L388)
 function FriendsFrame_Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L440)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L440)
 function FriendsFrame_UpdateQuickJoinTab(numGroups) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L445)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L445)
 function FriendsFrame_OnHide(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L592)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L592)
 function FriendsListFrame_OnShow(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L595)
 function FriendsListFrame_OnHide(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L599)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L599)
 function FriendsListFrame_SetInviteHeaderAnimPlaying(playing) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L608)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L608)
 function FriendsListFrame_ToggleInvites() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L645)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L645)
 function FriendsList_ClosePendingInviteDialogs() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L651)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L651)
 function FriendsList_CanWhisperFriend(friendType, friendIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L666)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L666)
 function FriendsList_Update(forceUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L776)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L776)
 function FriendsList_CheckRIDWarning() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L795)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L795)
 function IgnoreList_InitButton(button, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L817)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L817)
 function IgnoreList_GetSelected() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L828)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L828)
 function IgnoreList_SetButtonSelected(button, selected) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L836)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L836)
 function IgnoreList_Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L872)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L872)
 function WhoList_InitButton(button, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L908)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L908)
 function WhoListButton_SetSelected(button, selected) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L916)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L916)
 function WhoList_SetSelectedButton(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L944)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L944)
 function WhoList_Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L964)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L964)
 function WhoFrameColumn_SetWidth(frame, width) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L969)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L969)
 function WhoFrameDropdown_OnLoad(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L995)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L995)
 function WhoFrameDropdown_OnShow(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L999)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L999)
 function WhoFrameDropdown_OnEnter(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1003)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1003)
 function WhoFrameDropdown_OnLeave(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1050)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1050)
 function FriendsFrame_OnEvent(self, event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1135)
 function FriendsFrame_SelectFriend(friendType, id) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1162)
 function FriendsFrame_SelectSquelched(squelchType, index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1185)
 function FriendsFrameAddFriendButton_OnClick(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1219)
 function FriendsFrameSendMessageButton_OnClick(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1235)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1235)
 function FriendsFrameMuteButton_OnClick(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1240)
 function FriendsFrameUnsquelchButton_OnClick(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1251)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1251)
 function FriendsFrameIgnorePlayerButton_OnClick(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1265)
 function FriendsFrame_UnIgnore(button, name) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1271)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1271)
 function FriendsFrame_UnBlock(button, blockID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1275)
 function FriendsFrame_RemoveFriend() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1282)
 function FriendsFrame_SendMessage() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1288)
 function FriendsFrame_GroupInvite() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1294)
 function ToggleFriendsFrame(tab) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1324)
 function FriendsFrame_CheckQuickJoinHelpTip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1341)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1341)
 function FriendsFrame_CloseQuickJoinHelpTip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1349)
 function OpenFriendsFrame(tab) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1362)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1362)
 function WhoFrameEditBox_OnEnterPressed(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1367)
 function ShowWhoPanel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1376)
 function ToggleFriendsSubPanel(panelIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1396)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1396)
 function ToggleFriendsPanel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1400)
 function ToggleIgnorePanel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1404)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1404)
 function ToggleRafPanel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1408)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1408)
 function ToggleQuickJoinPanel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1412)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1412)
 function WhoFrame_GetDefaultWhoCommand() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1423)
 function FriendsFrame_GetLastOnline(timeDifference, isAbsolute) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1446)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1446)
 function FriendsFrame_CheckBattlenetStatus() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1484)
 function FriendsFrame_GetFormattedCharacterName(characterName, battleTag, client, timerunningSeasonID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1494)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1494)
 function FriendsFrame_GetBNetAccountNameAndStatus(accountInfo, noCharacterName) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1534)
 function FriendsFrame_GetLastOnlineText(accountInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1573)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1573)
 function FriendsFrame_UpdateFriendInviteHeaderButton(button, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1589)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1589)
 function FriendsFrame_UpdatePartyInviteButton(button, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1600)
 function FriendsFrame_UpdatePartyInviteHeaderButton(button, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1606)
 function FriendsFrame_UpdateFriendInviteButton(button, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1617)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1617)
 function FriendsFrame_FriendButtonSetSelection(button, selected) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1625)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1625)
 function FriendsFrame_UpdateFriendButton(button, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1821)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1821)
 function FriendsFrameBattlenetFrame_HideSubFrames() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1826)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1826)
 function FriendsFrameTooltip_SetLine(line, anchor, text, yOffset) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1851)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1851)
 function AddFriendFrame_OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1865)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1865)
 function AddFriendFrame_ShowInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1873)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1873)
 function AddFriendFrame_ShowEntry() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1912)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1912)
 function AddFriendNameEditBox_OnTextChanged(self, userInput) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1929)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1929)
 function AddFriendEntryFrame_Init(clearText) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1948)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1948)
 function AddFriendFrame_Accept() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1958)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1958)
 function AddFriendFrame_IsValidBattlenetName(text) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2316)
 function FriendsFriends_InitButton(button, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2345)
 function FriendsFriends_SetSelection(friendID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2370)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2370)
 function FriendsFriendsButton_SetSelected(button, selected) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2413)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2413)
 function FriendsFriendsFrame_Close() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2419)
 function FriendsFriendsFrame_Show(bnetIDAccount) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2433)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2433)
 function FriendsFrame_InviteOrRequestToJoin(guid, gameAccountID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2449)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2449)
 function FriendsFrame_BattlenetInviteByIndex(friendIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2484)
 function FriendsFrame_SetupTravelPassDropdown(friendIndex, attachedTo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2543)
 function CanCooperateWithGameAccount(accountInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2554)
 function CanGroupWithAccount(bnetIDAccount) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2567)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2567)
 function FriendsFrame_GetPlayerGUIDFromIndex(index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2579)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2579)
 function FriendsFrame_GetDisplayedInviteTypeAndGuid(index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2605)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2605)
 function FriendsFrame_GetInviteRestriction(index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2646)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2646)
 function FriendsFrame_GetInviteRestrictionText(restriction) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2691)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2691)
 function TravelPassButton_OnEnter(self) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2733)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2733)
 function BattleTagInviteFrame_Show(name) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2740)
 function GlueAddFriendAccept(name) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2748)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2748)
 function IsValidBattlenetName(text) end

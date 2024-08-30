@@ -1,34 +1,34 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L5)
 --- Template
 --- @class CovenantRenownRewardTemplate : Frame, CovenantRenownRewardMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L126)
 --- @class CovenantRenownFrame_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L127)
 --- @class CovenantRenownFrame_LevelSkipButton : Button, RewardTrackSkipLevelUpButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L132)
 --- @class CovenantRenownFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L137)
 --- @class CovenantRenownFrame_HeaderFrame : Frame, CovenantRenownHeaderFrameMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L171)
 --- @class CovenantRenownFrame_CelebrationModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L177)
 --- @class CovenantRenownFrame_TrackFrame : Frame, RewardTrackFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L188)
 --- @class CovenantRenownFrame_LevelModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L194)
 --- @class CovenantRenownFrame_FinalToast : Frame, CovenantCelebrationBannerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L66)
 --- @class CovenantRenownFrame : Frame, CovenantRenownMixin
 --- @field NineSlice CovenantRenownFrame_NineSlice
 --- @field LevelSkipButton CovenantRenownFrame_LevelSkipButton

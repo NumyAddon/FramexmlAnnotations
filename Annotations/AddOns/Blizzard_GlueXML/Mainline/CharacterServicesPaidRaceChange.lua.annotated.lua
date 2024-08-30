@@ -1,4 +1,4 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidRaceChange.lua#L30)
 function DoesClientThinkTheCharacterIsEligibleForPRC(characterID) end

@@ -1,19 +1,19 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L4)
 --- Template
 --- @class UpgradeFrameFeatureLargeTemplate : Frame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L78)
 --- @class StarterEditionPopUp_StarterEditionPopUpUpgradeButton : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L102)
 --- @class StarterEditionPopUp_StarterEditionPopUpExitButton : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L125)
 --- @class StarterEditionPopUp_StarterEditionPopUpFeature1 : Frame, UpgradeFrameFeatureLargeTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L33)
 --- @class StarterEditionPopUp : Frame
 StarterEditionPopUp = {}
 

@@ -1,67 +1,67 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L23)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L23)
 --- @class BehavioralMessagingNotificationMixin
 BehavioralMessagingNotificationMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L103)
 --- @class BehavioralMessagingTrayMixin
 BehavioralMessagingTrayMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L177)
 --- @class BehavioralMessagingDetailsMixin
 BehavioralMessagingDetailsMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L25)
 function BehavioralMessagingNotificationMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L29)
 function BehavioralMessagingNotificationMixin:Init(notificationData, notificationType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L38)
 function BehavioralMessagingNotificationMixin:UpdateText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L52)
 function BehavioralMessagingNotificationMixin:UpdateBackgrounds() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L70)
 function BehavioralMessagingNotificationMixin:Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L75)
 function BehavioralMessagingNotificationMixin:GetCount() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L79)
 function BehavioralMessagingNotificationMixin:PushInstance(id) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L93)
 function BehavioralMessagingNotificationMixin:PopInstance() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L99)
 function BehavioralMessagingNotificationMixin:PeekInstance() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L105)
 function BehavioralMessagingTrayMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L111)
 function BehavioralMessagingTrayMixin:FindNotification(notificationType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L119)
 function BehavioralMessagingTrayMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L148)
 function BehavioralMessagingTrayMixin:EvaluateLayout() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L162)
 function BehavioralMessagingTrayMixin:OnNotificationAchknowledged(notification) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L179)
 function BehavioralMessagingDetailsMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L186)
 function BehavioralMessagingDetailsMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L190)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L190)
 function BehavioralMessagingDetailsMixin:DisplayInternal(titleText, bodyText) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L197)
 function BehavioralMessagingDetailsMixin:DisplayNotification(details, notification) end

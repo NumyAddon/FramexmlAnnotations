@@ -1,43 +1,43 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L7)
 --- @class PlunderstormLobbyFrame_GameEnvironmentToggleFrame : Frame, GameEnvironmentFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L9)
 --- @class PlunderstormLobbyFrame_GameModeDescriptionFrame : Frame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L34)
 --- @class PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton : Button, PlunderstormLobbyFriendButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L85)
 --- @class PlunderstormLobbyFrame_PlunderstormLobbyBackButton : Button, GlueButtonTemplate, PlunderstormLobbyBackButtonButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L95)
 --- @class PlunderstormLobbyFrame_PlunderstormLobbyMenuButton : Button, GlueButtonTemplate, PlunderstormLobbyMenuButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L105)
 --- @class PlunderstormLobbyFrame_GameModeSettingsFrame : Frame, GameModeSettingsFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L111)
 --- @class PlunderstormLobbyFrame_PlunderstormLobbyCustomize : Button, GlueButtonTemplate, PlunderstormCustomizeCharacterButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L121)
 --- @class PlunderstormLobbyFrame_PlunderstormBackground : ModelFFX, PlunderstormBackgroundMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L132)
 --- @class PlunderstormLobbyFrame_MatchmakingQueueFrame : Frame, MatchmakingQueueFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L154)
 --- @class PlunderstormLobbyFrame_SubNoticeFrame_SuscribeButton : Button, GlueButtonTemplate, WoWLabsSubscribeButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L138)
 --- @class PlunderstormLobbyFrame_SubNoticeFrame : Frame
 --- @field SuscribeButton PlunderstormLobbyFrame_SubNoticeFrame_SuscribeButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L170)
 --- @class PlunderstormLobbyFrame_FriendsToastFrame : Frame, TooltipBackdropTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L5)
 --- @class PlunderstormLobbyFrame : Frame, CallbackRegistrantTemplate, PlunderstormLobbyMixin
 --- @field GameEnvironmentToggleFrame PlunderstormLobbyFrame_GameEnvironmentToggleFrame
 --- @field GameModeDescriptionFrame PlunderstormLobbyFrame_GameModeDescriptionFrame

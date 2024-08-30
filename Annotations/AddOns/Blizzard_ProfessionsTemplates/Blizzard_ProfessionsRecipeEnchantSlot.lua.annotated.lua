@@ -1,38 +1,38 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L1)
 --- @class ProfessionsEnchantSlotMixin
 ProfessionsEnchantSlotMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L3)
 function ProfessionsEnchantSlotMixin:Reset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L19)
 function ProfessionsEnchantSlotMixin:Init(transaction, quantityRequired) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L39)
 function ProfessionsEnchantSlotMixin:Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L43)
 function ProfessionsEnchantSlotMixin:SetQuantityAvailableCallback(callback) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L47)
 function ProfessionsEnchantSlotMixin:UpdateAllocationText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L59)
 function ProfessionsEnchantSlotMixin:SetNameText(text) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L63)
 function ProfessionsEnchantSlotMixin:SetUnallocatable(unallocatable) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L67)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L67)
 function ProfessionsEnchantSlotMixin:IsUnallocatable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L71)
 function ProfessionsEnchantSlotMixin:ClearItem() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L81)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L81)
 function ProfessionsEnchantSlotMixin:SetItem(item) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeEnchantSlot.lua#L90)
 function ProfessionsEnchantSlotMixin:SetAllocateIconShown(shown) end

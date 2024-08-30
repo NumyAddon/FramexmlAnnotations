@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L200)
 --- @class TutorialSingleKeyMixin : TutorialMainFrameMixin
 TutorialSingleKeyMixin = CreateFromMixins(TutorialMainFrameMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L1)
 --- @class TutorialMainFrameMixin
 TutorialMainFrameMixin = {};
 TutorialMainFrameMixin.States =
@@ -15,47 +15,47 @@ TutorialMainFrameMixin.States =
 	AnimatingOut	= "animatingOut",
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L17)
 function TutorialMainFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L40)
 function TutorialMainFrameMixin:CINEMATIC_START() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L48)
 function TutorialMainFrameMixin:CINEMATIC_STOP() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L56)
 function TutorialMainFrameMixin:ShowTutorial(content, duration, position) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L74)
 function TutorialMainFrameMixin:HideTutorial(id) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L86)
 function TutorialMainFrameMixin:_SetContent(content) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L115)
 function TutorialMainFrameMixin:_SetPosition(position) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L122)
 function TutorialMainFrameMixin:_SetDesiredContent(content) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L131)
 function TutorialMainFrameMixin:_SetDesiredPosition(position) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L140)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L140)
 function TutorialMainFrameMixin:_AnimateIn() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L166)
 function TutorialMainFrameMixin:_AnimateOut() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L201)
 function TutorialSingleKeyMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L207)
 function TutorialSingleKeyMixin:SetKeyText(keyText) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L217)
 function TutorialSingleKeyMixin:_SetContent(content) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L236)
 function TutorialSingleKeyMixin:HideTutorial(id) end

@@ -1,45 +1,45 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L3)
 --- Template
 --- @class ClubFinderEditBoxScrollFrameTemplate : ScrollFrame, InputScrollFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L16)
 --- Template
 --- @class ClubFinderDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, ClubFinderDropdownMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L42)
 --- @class ClubsFinderJoinClubWarningTemplate_BG : Frame, DialogBorderDarkTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L43)
 --- @class ClubsFinderJoinClubWarningTemplate_Accept : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L54)
 --- @class ClubsFinderJoinClubWarningTemplate_Cancel : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L29)
 --- Template
 --- @class ClubsFinderJoinClubWarningTemplate : Frame, ClubsFinderJoinClubWarningMixin
 --- @field BG ClubsFinderJoinClubWarningTemplate_BG
 --- @field Accept ClubsFinderJoinClubWarningTemplate_Accept
 --- @field Cancel ClubsFinderJoinClubWarningTemplate_Cancel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L73)
 --- @class ClubFinderInvitationsFrameTemplate_WarningDialog : Frame, ClubsFinderJoinClubWarningTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L78)
 --- @class ClubFinderInvitationsFrameTemplate_AcceptButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L100)
 --- @class ClubFinderInvitationsFrameTemplate_ApplyButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L118)
 --- @class ClubFinderInvitationsFrameTemplate_DeclineButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L130)
 --- @class ClubFinderInvitationsFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L71)
 --- Template
 --- @class ClubFinderInvitationsFrameTemplate : Frame, ClubFinderInvitationsFrameMixin
 --- @field WarningDialog ClubFinderInvitationsFrameTemplate_WarningDialog
@@ -48,57 +48,57 @@
 --- @field DeclineButton ClubFinderInvitationsFrameTemplate_DeclineButton
 --- @field InsetFrame ClubFinderInvitationsFrameTemplate_InsetFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L260)
 --- @class ClubsRecruitmentDialogTemplate_BG : Frame, DialogBorderDarkTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L267)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L267)
 --- @class ClubsRecruitmentDialogTemplate_ShouldListClub_Button : CheckButton, ClubFinderCheckboxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L261)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L261)
 --- @class ClubsRecruitmentDialogTemplate_ShouldListClub : Frame
 --- @field Button ClubsRecruitmentDialogTemplate_ShouldListClub_Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L291)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L291)
 --- @class ClubsRecruitmentDialogTemplate_ClubFocusDropdown : DropdownButton, ClubFinderFocusDropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L296)
 --- @class ClubsRecruitmentDialogTemplate_LookingForDropdown : DropdownButton, ClubFinderLookingForDropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L301)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L301)
 --- @class ClubsRecruitmentDialogTemplate_LanguageDropdown : DropdownButton, CommunitiesLanguageDropdown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L378)
 --- @class ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame_RecruitmentMessageInput : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L306)
 --- @class ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame : Frame
 --- @field RecruitmentMessageInput ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame_RecruitmentMessageInput
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L392)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L392)
 --- @class ClubsRecruitmentDialogTemplate_MaxLevelOnly_Button : CheckButton, ClubFinderCheckboxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L386)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L386)
 --- @class ClubsRecruitmentDialogTemplate_MaxLevelOnly : Frame
 --- @field Button ClubsRecruitmentDialogTemplate_MaxLevelOnly_Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L416)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L416)
 --- @class ClubsRecruitmentDialogTemplate_MinIlvlOnly_Button : CheckButton, ClubFinderCheckboxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L431)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L431)
 --- @class ClubsRecruitmentDialogTemplate_MinIlvlOnly_EditBox : EditBox, InputBoxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L410)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L410)
 --- @class ClubsRecruitmentDialogTemplate_MinIlvlOnly : Frame
 --- @field Button ClubsRecruitmentDialogTemplate_MinIlvlOnly_Button
 --- @field EditBox ClubsRecruitmentDialogTemplate_MinIlvlOnly_EditBox
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L464)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L464)
 --- @class ClubsRecruitmentDialogTemplate_Accept : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L479)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L479)
 --- @class ClubsRecruitmentDialogTemplate_Cancel : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L247)
 --- Template
 --- @class ClubsRecruitmentDialogTemplate : Frame, ClubsRecruitmentDialogMixin
 --- @field BG ClubsRecruitmentDialogTemplate_BG
@@ -112,39 +112,39 @@
 --- @field Accept ClubsRecruitmentDialogTemplate_Accept
 --- @field Cancel ClubsRecruitmentDialogTemplate_Cancel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L503)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L503)
 --- @class ClubFinderBigSpecializationCheckboxTemplate_Checkbox : CheckButton, ClubFinderCheckboxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L500)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L500)
 --- Template
 --- @class ClubFinderBigSpecializationCheckboxTemplate : Frame
 --- @field Checkbox ClubFinderBigSpecializationCheckboxTemplate_Checkbox
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L531)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L531)
 --- @class ClubFinderLittleSpecializationCheckboxTemplate_Checkbox : CheckButton, ClubFinderCheckboxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L528)
 --- Template
 --- @class ClubFinderLittleSpecializationCheckboxTemplate : Frame
 --- @field Checkbox ClubFinderLittleSpecializationCheckboxTemplate_Checkbox
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L588)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L588)
 --- @class ClubFinderRequestToJoinTemplate_BG : Frame, DialogBorderDarkTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L653)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L653)
 --- @class ClubFinderRequestToJoinTemplate_MessageFrame_MessageScroll : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L589)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L589)
 --- @class ClubFinderRequestToJoinTemplate_MessageFrame : Frame
 --- @field MessageScroll ClubFinderRequestToJoinTemplate_MessageFrame_MessageScroll
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L660)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L660)
 --- @class ClubFinderRequestToJoinTemplate_Apply : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L679)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L679)
 --- @class ClubFinderRequestToJoinTemplate_Cancel : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L556)
 --- Template
 --- @class ClubFinderRequestToJoinTemplate : Frame, ClubFinderRequestToJoinMixin
 --- @field BG ClubFinderRequestToJoinTemplate_BG
@@ -152,49 +152,49 @@
 --- @field Apply ClubFinderRequestToJoinTemplate_Apply
 --- @field Cancel ClubFinderRequestToJoinTemplate_Cancel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L780)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L780)
 --- @class ClubFinderGuildCardTemplate_RequestJoin : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L698)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L698)
 --- Template
 --- @class ClubFinderGuildCardTemplate : Button, ClubFinderGuildCardMixin
 --- @field RequestJoin ClubFinderGuildCardTemplate_RequestJoin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L800)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L800)
 --- Template
 --- @class ClubFinderLookingForDropdownTemplate : DropdownButton, ClubFinderDropdownTemplate, ClubLookingForDropdownMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L806)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L806)
 --- Template
 --- @class ClubFinderFocusDropdownTemplate : DropdownButton, ClubFinderDropdownTemplate, ClubFocusDropdownMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L812)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L812)
 --- Template
 --- @class ClubFinderFilterDropdownTemplate : DropdownButton, ClubFinderDropdownTemplate, ClubFinderFilterDropdownMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L818)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L818)
 --- Template
 --- @class ClubFinderCheckboxTemplate : CheckButton, ClubFinderCheckboxMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L831)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L831)
 --- @class ClubFinderGuildCardsFrameTemplate_FirstCard : Button, ClubFinderGuildCardTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L836)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L836)
 --- @class ClubFinderGuildCardsFrameTemplate_SecondCard : Button, ClubFinderGuildCardTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L841)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L841)
 --- @class ClubFinderGuildCardsFrameTemplate_ThirdCard : Button, ClubFinderGuildCardTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L846)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L846)
 --- @class ClubFinderGuildCardsFrameTemplate_PreviousPage : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L861)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L861)
 --- @class ClubFinderGuildCardsFrameTemplate_NextPage : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L876)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L876)
 --- @class ClubFinderGuildCardsFrameTemplate_SearchingSpinner : Frame, SpinnerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L829)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L829)
 --- Template
 --- @class ClubFinderGuildCardsFrameTemplate : Frame
 --- @field FirstCard ClubFinderGuildCardsFrameTemplate_FirstCard
@@ -204,70 +204,70 @@
 --- @field NextPage ClubFinderGuildCardsFrameTemplate_NextPage
 --- @field SearchingSpinner ClubFinderGuildCardsFrameTemplate_SearchingSpinner
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L894)
 --- Template
 --- @class ClubFinderRoleTemplate : Frame, ClubFinderRoleMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L986)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L986)
 --- @class ClubFinderCommunitiesCardTemplate_RequestJoin : Frame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L907)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L907)
 --- Template
 --- @class ClubFinderCommunitiesCardTemplate : Button, ClubFinderCommunitiesCardMixin
 --- @field RequestJoin ClubFinderCommunitiesCardTemplate_RequestJoin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1027)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1027)
 --- @class ClubFinderCommunitiesCardFrameTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1033)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1033)
 --- @class ClubFinderCommunitiesCardFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1025)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1025)
 --- Template
 --- @class ClubFinderCommunitiesCardFrameTemplate : Frame
 --- @field ScrollBox ClubFinderCommunitiesCardFrameTemplate_ScrollBox
 --- @field ScrollBar ClubFinderCommunitiesCardFrameTemplate_ScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1044)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1044)
 --- @class ClubFinderOptionsTemplate_PendingTextFrame : Frame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1055)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1055)
 --- @class ClubFinderOptionsTemplate_ClubFilterDropdown : DropdownButton, ClubFinderFilterDropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1056)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1056)
 --- @class ClubFinderOptionsTemplate_ClubSizeDropdown : DropdownButton, ClubFinderDropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1061)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1061)
 --- @class ClubFinderOptionsTemplate_SortByDropdown : DropdownButton, ClubFinderDropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1076)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1076)
 --- @class ClubFinderOptionsTemplate_TankRoleFrame_Checkbox : CheckButton, ClubFinderCheckboxTemplate, ClubFinderRoleCheckboxMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1066)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1066)
 --- @class ClubFinderOptionsTemplate_TankRoleFrame : Frame, ClubFinderRoleTemplate
 --- @field Checkbox ClubFinderOptionsTemplate_TankRoleFrame_Checkbox
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1102)
 --- @class ClubFinderOptionsTemplate_HealerRoleFrame_Checkbox : CheckButton, ClubFinderCheckboxTemplate, ClubFinderRoleCheckboxMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1092)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1092)
 --- @class ClubFinderOptionsTemplate_HealerRoleFrame : Frame, ClubFinderRoleTemplate
 --- @field Checkbox ClubFinderOptionsTemplate_HealerRoleFrame_Checkbox
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1128)
 --- @class ClubFinderOptionsTemplate_DpsRoleFrame_Checkbox : CheckButton, ClubFinderCheckboxTemplate, ClubFinderRoleCheckboxMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1118)
 --- @class ClubFinderOptionsTemplate_DpsRoleFrame : Frame, ClubFinderRoleTemplate
 --- @field Checkbox ClubFinderOptionsTemplate_DpsRoleFrame_Checkbox
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1144)
 --- @class ClubFinderOptionsTemplate_SearchBox : EditBox, SearchBoxTemplate, ClubFinderSearchEditBoxMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1154)
 --- @class ClubFinderOptionsTemplate_Search : Button, UIPanelButtonTemplate, ClubFinderSearchButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1042)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1042)
 --- Template
 --- @class ClubFinderOptionsTemplate : Frame, ClubFinderOptionsMixin
 --- @field PendingTextFrame ClubFinderOptionsTemplate_PendingTextFrame
@@ -280,37 +280,37 @@
 --- @field SearchBox ClubFinderOptionsTemplate_SearchBox
 --- @field Search ClubFinderOptionsTemplate_Search
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1177)
 --- @class ClubFinderGuildAndCommunityFrameTemplate_OptionsList : Frame, ClubFinderOptionsTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1183)
 --- @class ClubFinderGuildAndCommunityFrameTemplate_GuildCards : Frame, ClubFinderGuildCardsFrameTemplate, ClubFinderGuildCardsMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1191)
 --- @class ClubFinderGuildAndCommunityFrameTemplate_CommunityCards : Frame, ClubFinderCommunitiesCardFrameTemplate, ClubFinderCommunitiesCardsMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1197)
 --- @class ClubFinderGuildAndCommunityFrameTemplate_PendingGuildCards : Frame, ClubFinderGuildCardsFrameTemplate, ClubFinderPendingGuildCardsMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1205)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1205)
 --- @class ClubFinderGuildAndCommunityFrameTemplate_PendingCommunityCards : Frame, ClubFinderCommunitiesCardFrameTemplate, ClubFinderPendingCommunitiesCardsMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1212)
 --- @class ClubFinderGuildAndCommunityFrameTemplate_RequestToJoinFrame : Frame, ClubFinderRequestToJoinTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1217)
 --- @class ClubFinderGuildAndCommunityFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1255)
 --- @class ClubFinderGuildAndCommunityFrameTemplate_DisabledFrame : Frame, InsetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1283)
 --- @class ClubFinderGuildAndCommunityFrameTemplate_ClubFinderSearchTab : CheckButton, CommunitiesFrameTabTemplate, ClubFinderTabMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1295)
 --- @class ClubFinderGuildAndCommunityFrameTemplate_ClubFinderPendingTab : CheckButton, CommunitiesFrameTabTemplate, ClubFinderTabMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_Communities/ClubFinder.xml#L1171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1171)
 --- Template
 --- @class ClubFinderGuildAndCommunityFrameTemplate : Frame, ClubFinderGuildAndCommunityMixin
 --- @field OptionsList ClubFinderGuildAndCommunityFrameTemplate_OptionsList

@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlobalFXModelScenes/GlobalFXModelScenes.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlobalFXModelScenes/GlobalFXModelScenes.xml#L3)
 --- @class GlobalFXDialogModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 GlobalFXDialogModelScene = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlobalFXModelScenes/GlobalFXModelScenes.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlobalFXModelScenes/GlobalFXModelScenes.xml#L4)
 --- @class GlobalFXMediumModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 GlobalFXMediumModelScene = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface//AddOns/Blizzard_GlobalFXModelScenes/GlobalFXModelScenes.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlobalFXModelScenes/GlobalFXModelScenes.xml#L5)
 --- @class GlobalFXBackgroundModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 GlobalFXBackgroundModelScene = {}
 

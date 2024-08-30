@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L2)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateAlternatePowerBar.lua#L2)
 --- @class ClassNameplateAlternatePowerBarBaseMixin : AlternatePowerBarBaseMixin
 ClassNameplateAlternatePowerBarBaseMixin = CreateFromMixins(AlternatePowerBarBaseMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateAlternatePowerBar.lua#L6)
 function ClassNameplateAlternatePowerBarBaseMixin:Initialize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateAlternatePowerBar.lua#L12)
 function ClassNameplateAlternatePowerBarBaseMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateAlternatePowerBar.lua#L18)
 function ClassNameplateAlternatePowerBarBaseMixin:AttachBarToUnitUI() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L23)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateAlternatePowerBar.lua#L23)
 function ClassNameplateAlternatePowerBarBaseMixin:RemoveBarFromUnitUI() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateAlternatePowerBar.lua#L29)
 function ClassNameplateAlternatePowerBarBaseMixin:UpdateArt() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateAlternatePowerBar.lua#L37)
 function ClassNameplateAlternatePowerBarBaseMixin:OnOptionsUpdated() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L41)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateAlternatePowerBar.lua#L41)
 function ClassNameplateAlternatePowerBarBaseMixin:OnSizeChanged() end

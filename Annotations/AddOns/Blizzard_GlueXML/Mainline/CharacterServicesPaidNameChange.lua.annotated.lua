@@ -1,4 +1,4 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.lua#L49)
 function DoesClientThinkTheCharacterIsEligibleForPNC(characterID) end

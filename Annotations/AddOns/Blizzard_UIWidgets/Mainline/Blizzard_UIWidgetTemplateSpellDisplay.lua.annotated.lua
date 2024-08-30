@@ -1,45 +1,45 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L19)
 --- @class UIWidgetTemplateSpellDisplayMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateSpellDisplayMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L105)
 --- @class UIWidgetTemplateSpellDisplaySpellMixin
 UIWidgetTemplateSpellDisplaySpellMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L21)
 function UIWidgetTemplateSpellDisplayMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L26)
 function UIWidgetTemplateSpellDisplayMixin:Setup(widgetInfo, widgetContainer) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L50)
 function UIWidgetTemplateSpellDisplayMixin:UpdateRarityPips(spellInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L76)
 function UIWidgetTemplateSpellDisplayMixin:OnReset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L81)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L81)
 function UIWidgetTemplateSpellDisplayMixin:SetFontStringColor(fontColor) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L85)
 function UIWidgetTemplateSpellDisplayMixin:OnUpdate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L99)
 function UIWidgetTemplateSpellDisplayMixin:OnMouseDown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L108)
 function UIWidgetTemplateSpellDisplaySpellMixin:OnUpdate(dt) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L113)
 function UIWidgetTemplateSpellDisplaySpellMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L119)
 function UIWidgetTemplateSpellDisplaySpellMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L128)
 function UIWidgetTemplateSpellDisplaySpellMixin:ShouldContinueOnUpdate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.lua#L133)
 function UIWidgetTemplateSpellDisplaySpellMixin:UpdateCursor() end

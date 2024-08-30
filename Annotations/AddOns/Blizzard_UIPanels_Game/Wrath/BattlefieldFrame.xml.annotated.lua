@@ -1,55 +1,55 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L3)
 --- Template
 --- @class PVPQueueInfoScrollFrameTemplate : ScrollFrame, UIPanelScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L309)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L309)
 --- @class PVPBattlegroundButtonTemplate_status : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L304)
 --- Template
 --- @class PVPBattlegroundButtonTemplate : Button
 --- @field status PVPBattlegroundButtonTemplate_status
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L457)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L457)
 --- @class BattlefieldFrame_BattlegroundType1 : Button, PVPBattlegroundButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L466)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L466)
 --- @class BattlefieldFrame_BattlegroundType2 : Button, PVPBattlegroundButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L475)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L475)
 --- @class BattlefieldFrame_BattlegroundType3 : Button, PVPBattlegroundButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L484)
 --- @class BattlefieldFrame_BattlegroundType4 : Button, PVPBattlegroundButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L493)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L493)
 --- @class BattlefieldFrame_BattlegroundType5 : Button, PVPBattlegroundButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L502)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L502)
 --- @class BattlefieldFrame_BattlefieldFrameTypeScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L551)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L551)
 --- @class BattlefieldFrame_BattlefieldFrameCancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L569)
 --- @class BattlefieldFrame_BattlefieldFrameInfoScrollFrame : ScrollFrame, PVPQueueInfoScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L570)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L570)
 --- @class BattlefieldFrame_BattlefieldFrameJoinButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L585)
 --- @class BattlefieldFrame_BattlefieldFrameGroupJoinButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L607)
 --- @class BattlefieldFrame_BattlefieldFrameCloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L365)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L365)
 --- @class BattlefieldFrame : Frame
 BattlefieldFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L629)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L629)
 --- @class BattlefieldTimerFrame : Frame
 BattlefieldTimerFrame = {}
 

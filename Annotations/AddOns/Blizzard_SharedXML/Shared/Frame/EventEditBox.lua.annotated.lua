@@ -1,68 +1,68 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L1)
 --- @class EventEditBoxMixin : CallbackRegistryMixin
 EventEditBoxMixin = CreateFromMixins(CallbackRegistryMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L16)
 function EventEditBoxMixin:OnLoad_Intrinsic() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L22)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L22)
 function EventEditBoxMixin:OnMouseDown_Intrinsic() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L27)
 function EventEditBoxMixin:OnMouseUp_Intrinsic() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L31)
 function EventEditBoxMixin:OnTabPressed_Intrinsic() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L35)
 function EventEditBoxMixin:OnTextChanged_Intrinsic(userChanged) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L43)
 function EventEditBoxMixin:OnCursorChanged_Intrinsic(x, y, width, height, context) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L52)
 function EventEditBoxMixin:OnEscapePressed_Intrinsic() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L58)
 function EventEditBoxMixin:OnEditFocusGained_Intrinsic() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L75)
 function EventEditBoxMixin:OnEditFocusLost_Intrinsic() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L83)
 function EventEditBoxMixin:GetCursorOffset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L87)
 function EventEditBoxMixin:GetCursorHeight() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L91)
 function EventEditBoxMixin:GetFontHeight() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L95)
 function EventEditBoxMixin:ApplyText(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L122)
 function EventEditBoxMixin:ApplyDefaultText(defaultText) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L128)
 function EventEditBoxMixin:SetDefaultTextEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L132)
 function EventEditBoxMixin:IsDefaultTextEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L136)
 function EventEditBoxMixin:TryApplyDefaultText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L142)
 function EventEditBoxMixin:GetInputText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L149)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L149)
 function EventEditBoxMixin:IsDefaultTextDisplayed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L156)
 function EventEditBoxMixin:ApplyTextColor(color) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L164)
 function EventEditBoxMixin:ApplyDefaultTextColor(color) end

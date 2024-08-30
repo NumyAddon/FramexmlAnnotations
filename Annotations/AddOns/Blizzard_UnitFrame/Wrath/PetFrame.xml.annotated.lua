@@ -1,40 +1,40 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L29)
 --- @class PetFrame_PetFrameDropDown : Frame, UIDropDownMenuTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L40)
 --- @class PetFrame__ : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L38)
 --- @class PetFrame_ : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L103)
 --- @class PetFrame_PetFrameHealthBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L119)
 --- @class PetFrame_PetFrameManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L135)
 --- @class PetFrame_PetFrameDebuff1 : Button, PartyDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L146)
 --- @class PetFrame_PetFrameDebuff2 : Button, PartyDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L157)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L157)
 --- @class PetFrame_PetFrameDebuff3 : Button, PartyDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L168)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L168)
 --- @class PetFrame_PetFrameDebuff4 : Button, PartyDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L179)
 --- @class PetFrame_PetFrameHappiness : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L3)
 --- @class PetFrame : Button, SecureUnitButtonTemplate
 PetFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L243)
 --- @class PetCastingBarFrame : StatusBar, CastingBarFrameTemplate
 PetCastingBarFrame = {}
 

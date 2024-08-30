@@ -1,30 +1,30 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L3)
 --- Template
 --- @class QuestFramePanelTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L89)
 --- Template
 --- @class QuestItemTemplate : Button, LargeItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L118)
 --- Template
 --- @class QuestSpellTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L161)
 --- Template
 --- @class QuestTitleButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L187)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L187)
 --- Template
 --- @class QuestHonorFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L224)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L224)
 --- Template
 --- @class QuestPlayerTitleFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrameTemplates.xml#L283)
 --- Template
 --- @class QuestScrollFrameTemplate : ScrollFrame, UIPanelScrollFrameTemplate
 

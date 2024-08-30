@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L151)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L151)
 --- @class NavButtonTemplate_MenuArrowButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L123)
 --- Template
 --- @class NavButtonTemplate : Button
 --- @field MenuArrowButton NavButtonTemplate_MenuArrowButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L261)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L261)
 --- @class NavBarTemplate_overlay : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L283)
 --- @class NavBarTemplate_NavBarTemplateOverflowButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L303)
 --- @class NavBarTemplate_NavBarTemplateHomeButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L345)
 --- @class NavBarTemplate_KioskOverlay : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L247)
 --- Template
 --- @class NavBarTemplate : Frame
 --- @field overlay NavBarTemplate_overlay

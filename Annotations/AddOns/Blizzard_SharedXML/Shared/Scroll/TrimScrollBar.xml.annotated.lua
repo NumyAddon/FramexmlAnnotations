@@ -1,30 +1,30 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L3)
 --- Template
 --- @class WowTrimScrollBarStepperScripts : Frame, WowTrimScrollBarStepperMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L15)
 --- Template
 --- @class WowTrimScrollBarThumbScripts : Frame, WowScrollBarThumbScriptsMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L42)
 --- @class WowTrimScrollBar_Background : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L70)
 --- @class WowTrimScrollBar_Track_Thumb : EventButton, WowTrimScrollBarThumbScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L64)
 --- @class WowTrimScrollBar_Track : Frame
 --- @field Thumb WowTrimScrollBar_Track_Thumb
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L115)
 --- @class WowTrimScrollBar_Back : EventButton, WowTrimScrollBarStepperScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L136)
 --- @class WowTrimScrollBar_Forward : EventButton, WowTrimScrollBarStepperScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L25)
 --- Template
 --- @class WowTrimScrollBar : EventFrame, VerticalScrollBarTemplate, WowTrimScrollBarMixin
 --- @field Background WowTrimScrollBar_Background
@@ -32,23 +32,23 @@
 --- @field Back WowTrimScrollBar_Back
 --- @field Forward WowTrimScrollBar_Forward
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L180)
 --- @class WowTrimHorizontalScrollBar_Background : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L208)
 --- @class WowTrimHorizontalScrollBar_Track_Thumb : EventButton, WowTrimScrollBarThumbScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L202)
 --- @class WowTrimHorizontalScrollBar_Track : Frame
 --- @field Thumb WowTrimHorizontalScrollBar_Track_Thumb
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L255)
 --- @class WowTrimHorizontalScrollBar_Back : EventButton, WowTrimScrollBarStepperScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L276)
 --- @class WowTrimHorizontalScrollBar_Forward : EventButton, WowTrimScrollBarStepperScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L163)
 --- Template
 --- @class WowTrimHorizontalScrollBar : EventFrame, HorizontalScrollBarTemplate, WowTrimScrollBarMixin
 --- @field Background WowTrimHorizontalScrollBar_Background

@@ -1,348 +1,348 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L257)
 --- @class SettingsControlMixin : SettingsListElementMixin
 SettingsControlMixin = CreateFromMixins(SettingsListElementMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L311)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L311)
 --- @class SettingsCheckBoxMixin : CallbackRegistryMixin, DefaultTooltipMixin
 SettingsCheckBoxMixin = CreateFromMixins(CallbackRegistryMixin, DefaultTooltipMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L341)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L341)
 --- @class SettingsCheckBoxControlMixin : SettingsControlMixin
 SettingsCheckBoxControlMixin = CreateFromMixins(SettingsControlMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L418)
 --- @class SettingsSliderControlMixin : SettingsControlMixin
 SettingsSliderControlMixin = CreateFromMixins(SettingsControlMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L475)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L475)
 --- @class SettingsDropDownControlMixin : SettingsControlMixin
 SettingsDropDownControlMixin = CreateFromMixins(SettingsControlMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L552)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L552)
 --- @class SettingsButtonControlMixin : SettingsListElementMixin
 SettingsButtonControlMixin = CreateFromMixins(SettingsListElementMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L605)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L605)
 --- @class SettingsCheckBoxWithButtonControlMixin : SettingsControlMixin
 SettingsCheckBoxWithButtonControlMixin = CreateFromMixins(SettingsControlMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L698)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L698)
 --- @class SettingsCheckBoxSliderControlMixin : SettingsListElementMixin
 SettingsCheckBoxSliderControlMixin = CreateFromMixins(SettingsListElementMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L807)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L807)
 --- @class SettingsCheckBoxDropDownControlMixin : SettingsListElementMixin
 SettingsCheckBoxDropDownControlMixin = CreateFromMixins(SettingsListElementMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L909)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L909)
 --- @class SettingsSelectionPopoutEntryMixin : SelectionPopoutEntryMixin
 SettingsSelectionPopoutEntryMixin = CreateFromMixins(SelectionPopoutEntryMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1020)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1020)
 --- @class SettingsSelectionPopoutButtonMixin : SelectionPopoutButtonMixin, DefaultTooltipMixin
 SettingsSelectionPopoutButtonMixin = CreateFromMixins(SelectionPopoutButtonMixin, DefaultTooltipMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L7)
 --- @class SettingsListSectionHeaderMixin
 SettingsListSectionHeaderMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L19)
 --- @class DefaultTooltipMixin
 DefaultTooltipMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L73)
 --- @class SettingsElementHierarchyMixin
 SettingsElementHierarchyMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L192)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L192)
 --- @class SettingsListElementMixin
 SettingsListElementMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L957)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L957)
 --- @class SettingsSelectionPopoutDetailsMixin
 SettingsSelectionPopoutDetailsMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1067)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1067)
 --- @class SettingsExpandableSectionMixin
 SettingsExpandableSectionMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L9)
 function SettingsListSectionHeaderMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L21)
 function DefaultTooltipMixin:InitDefaultTooltipScriptHandlers() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L26)
 function DefaultTooltipMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L35)
 function DefaultTooltipMixin:SetTooltipFunc(tooltipFunc) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L39)
 function DefaultTooltipMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L58)
 function DefaultTooltipMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L66)
 function DefaultTooltipMixin:SetCustomTooltipAnchoring(parent, anchoring, xOffset, yOffset) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L75)
 function SettingsElementHierarchyMixin:SetParentInitializer(parentInitializer, modifyPredicate) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L88)
 function SettingsElementHierarchyMixin:GetParentInitializer() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L92)
 function SettingsElementHierarchyMixin:AddModifyPredicate(func) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L99)
 function SettingsElementHierarchyMixin:GetModifyPredicates() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L103)
 function SettingsElementHierarchyMixin:GetEvaluateStateFrameEvents() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L107)
 function SettingsElementHierarchyMixin:AddEvaluateStateFrameEvent(event) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L194)
 function SettingsListElementMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L198)
 function SettingsListElementMixin:DisplayEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L204)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L204)
 function SettingsListElementMixin:GetIndent() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L209)
 function SettingsListElementMixin:SetTooltipFunc(tooltipFunc) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L213)
 function SettingsListElementMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L240)
 function SettingsListElementMixin:Release() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L245)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L245)
 function SettingsListElementMixin:OnSettingValueChanged(setting, value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L248)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L248)
 function SettingsListElementMixin:OnParentSettingValueChanged(setting, value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L252)
 function SettingsListElementMixin:EvaluateState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L259)
 function SettingsControlMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L263)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L263)
 function SettingsControlMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L275)
 function SettingsControlMixin:Release() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L279)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L279)
 function SettingsControlMixin:GetSetting() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L283)
 function SettingsControlMixin:OnSettingValueChanged(setting, value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L287)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L287)
 function SettingsControlMixin:IsEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L300)
 function SettingsControlMixin:ShouldInterceptSetting(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L318)
 function SettingsCheckBoxMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L324)
 function SettingsCheckBoxMixin:Init(value, initTooltip) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L333)
 function SettingsCheckBoxMixin:Release() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L337)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L337)
 function SettingsCheckBoxMixin:SetValue(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L343)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L343)
 function SettingsCheckBoxControlMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L356)
 function SettingsCheckBoxControlMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L370)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L370)
 function SettingsCheckBoxControlMixin:OnSettingValueChanged(setting, value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L376)
 function SettingsCheckBoxControlMixin:OnCheckBoxValueChanged(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L384)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L384)
 function SettingsCheckBoxControlMixin:SetValue(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L393)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L393)
 function SettingsCheckBoxControlMixin:EvaluateState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L413)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L413)
 function SettingsCheckBoxControlMixin:Release() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L420)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L420)
 function SettingsSliderControlMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L432)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L432)
 function SettingsSliderControlMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L446)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L446)
 function SettingsSliderControlMixin:Release() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L451)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L451)
 function SettingsSliderControlMixin:OnSliderValueChanged(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L455)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L455)
 function SettingsSliderControlMixin:OnSettingValueChanged(setting, value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L464)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L464)
 function SettingsSliderControlMixin:SetValue(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L468)
 function SettingsSliderControlMixin:EvaluateState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L477)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L477)
 function SettingsDropDownControlMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L485)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L485)
 function SettingsDropDownControlMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L492)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L492)
 function SettingsDropDownControlMixin:InitDropDown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L519)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L519)
 function SettingsDropDownControlMixin:Release() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L523)
 function SettingsDropDownControlMixin:OnSettingValueChanged(setting, value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L536)
 function SettingsDropDownControlMixin:SetValue(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L543)
 function SettingsDropDownControlMixin:EvaluateState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L554)
 function SettingsButtonControlMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L568)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L568)
 function SettingsButtonControlMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L586)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L586)
 function SettingsButtonControlMixin:Release() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L607)
 function SettingsCheckBoxWithButtonControlMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L624)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L624)
 function SettingsCheckBoxWithButtonControlMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L639)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L639)
 function SettingsCheckBoxWithButtonControlMixin:OnCheckBoxValueChanged(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L652)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L652)
 function SettingsCheckBoxWithButtonControlMixin:Release() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L658)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L658)
 function SettingsCheckBoxWithButtonControlMixin:SetButtonState(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L662)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L662)
 function SettingsCheckBoxWithButtonControlMixin:OnSettingValueChanged(setting, value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L668)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L668)
 function SettingsCheckBoxWithButtonControlMixin:SetValue(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L677)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L677)
 function SettingsCheckBoxWithButtonControlMixin:EvaluateState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L700)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L700)
 function SettingsCheckBoxSliderControlMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L721)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L721)
 function SettingsCheckBoxSliderControlMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L758)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L758)
 function SettingsCheckBoxSliderControlMixin:OnCheckBoxValueChanged(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L771)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L771)
 function SettingsCheckBoxSliderControlMixin:OnSliderValueChanged(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L777)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L777)
 function SettingsCheckBoxSliderControlMixin:EvaluateState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L785)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L785)
 function SettingsCheckBoxSliderControlMixin:Release() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L809)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L809)
 function SettingsCheckBoxDropDownControlMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L825)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L825)
 function SettingsCheckBoxDropDownControlMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L869)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L869)
 function SettingsCheckBoxDropDownControlMixin:OnCheckBoxValueChanged(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L882)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L882)
 function SettingsCheckBoxDropDownControlMixin:OnDropDownValueChanged(option) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L888)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L888)
 function SettingsCheckBoxDropDownControlMixin:Release() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L911)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L911)
 function SettingsSelectionPopoutEntryMixin:GetTooltipText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L915)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L915)
 function SettingsSelectionPopoutEntryMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L933)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L933)
 function SettingsSelectionPopoutEntryMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L951)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L951)
 function SettingsSelectionPopoutEntryMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L959)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L959)
 function SettingsSelectionPopoutDetailsMixin:GetTooltipText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L967)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L967)
 function SettingsSelectionPopoutDetailsMixin:AdjustWidth(multipleColumns, defaultWidth) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L977)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L977)
 function SettingsSelectionPopoutDetailsMixin:SetupDetails(selectionData, index, isSelected, hasAFailedReq, hasALockedChoice) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1001)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1001)
 function SettingsSelectionPopoutDetailsMixin:SetupCustomDetails() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1022)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1022)
 function SettingsSelectionPopoutButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1029)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1029)
 function SettingsSelectionPopoutButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1034)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1034)
 function SettingsSelectionPopoutButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1039)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1039)
 function SettingsSelectionPopoutButtonMixin:SetEnabled_(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1049)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1049)
 function SettingsSelectionPopoutButtonMixin:IsDataMatch(data1, data2) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1053)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1053)
 function SettingsSelectionPopoutButtonMixin:UpdateButtonDetails() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1069)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1069)
 function SettingsExpandableSectionMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1081)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1081)
 function SettingsExpandableSectionMixin:OnExpandedChanged(expanded) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1085)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1085)
 function SettingsExpandableSectionMixin:Init(initializer) end

@@ -1,81 +1,81 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L20)
 --- @class SettingsAdvancedDropdownTemplate_DropDown : Frame, SettingsSelectionPopoutWithButtonsTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L5)
 --- Template
 --- @class SettingsAdvancedDropdownTemplate : Frame, SettingsAdvancedDropdownMixin
 --- @field DropDown SettingsAdvancedDropdownTemplate_DropDown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L46)
 --- @class SettingsAdvancedSliderTemplate_SliderWithSteppers : Frame, MinimalSliderWithSteppersTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L31)
 --- Template
 --- @class SettingsAdvancedSliderTemplate : Frame, SettingsAdvancedSliderMixin
 --- @field SliderWithSteppers SettingsAdvancedSliderTemplate_SliderWithSteppers
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L72)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L72)
 --- @class SettingsAdvancedWideSliderTemplate_SliderWithSteppers : Frame, MinimalSliderWithSteppersTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L57)
 --- Template
 --- @class SettingsAdvancedWideSliderTemplate : Frame, SettingsAdvancedSliderMixin
 --- @field SliderWithSteppers SettingsAdvancedWideSliderTemplate_SliderWithSteppers
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L99)
 --- @class SettingsAdvancedWideCheckBoxSliderTemplate_CheckBox : CheckButton, SettingsCheckBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L104)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L104)
 --- @class SettingsAdvancedWideCheckBoxSliderTemplate_SliderWithSteppers : Frame, MinimalSliderWithSteppersTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L84)
 --- Template
 --- @class SettingsAdvancedWideCheckBoxSliderTemplate : Frame, SettingsAdvancedCheckBoxSliderMixin
 --- @field CheckBox SettingsAdvancedWideCheckBoxSliderTemplate_CheckBox
 --- @field SliderWithSteppers SettingsAdvancedWideCheckBoxSliderTemplate_SliderWithSteppers
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L118)
 --- @class SettingsAdvancedQualityControlsTemplate_ShadowQuality : Frame, SettingsAdvancedDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L124)
 --- @class SettingsAdvancedQualityControlsTemplate_LiquidDetail : Frame, SettingsAdvancedDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L130)
 --- @class SettingsAdvancedQualityControlsTemplate_ParticleDensity : Frame, SettingsAdvancedDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L136)
 --- @class SettingsAdvancedQualityControlsTemplate_SSAO : Frame, SettingsAdvancedDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L142)
 --- @class SettingsAdvancedQualityControlsTemplate_DepthEffects : Frame, SettingsAdvancedDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L148)
 --- @class SettingsAdvancedQualityControlsTemplate_ComputeEffects : Frame, SettingsAdvancedDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L154)
 --- @class SettingsAdvancedQualityControlsTemplate_OutlineMode : Frame, SettingsAdvancedDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L160)
 --- @class SettingsAdvancedQualityControlsTemplate_TextureResolution : Frame, SettingsAdvancedDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L166)
 --- @class SettingsAdvancedQualityControlsTemplate_SpellDensity : Frame, SettingsAdvancedDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L172)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L172)
 --- @class SettingsAdvancedQualityControlsTemplate_ProjectedTextures : Frame, SettingsAdvancedDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L178)
 --- @class SettingsAdvancedQualityControlsTemplate_ViewDistance : Frame, SettingsAdvancedSliderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L184)
 --- @class SettingsAdvancedQualityControlsTemplate_EnvironmentDetail : Frame, SettingsAdvancedSliderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L190)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L190)
 --- @class SettingsAdvancedQualityControlsTemplate_GroundClutter : Frame, SettingsAdvancedSliderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L116)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L116)
 --- Template
 --- @class SettingsAdvancedQualityControlsTemplate : Frame, SettingsAdvancedQualityControlsMixin
 --- @field ShadowQuality SettingsAdvancedQualityControlsTemplate_ShadowQuality
@@ -92,30 +92,30 @@
 --- @field EnvironmentDetail SettingsAdvancedQualityControlsTemplate_EnvironmentDetail
 --- @field GroundClutter SettingsAdvancedQualityControlsTemplate_GroundClutter
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L209)
 --- @class SettingsAdvancedQualitySectionTemplate_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L219)
 --- @class SettingsAdvancedQualitySectionTemplate_RaidTab : Button, MinimalTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L229)
 --- @class SettingsAdvancedQualitySectionTemplate_BaseTab : Button, MinimalTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L242)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L242)
 --- @class SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideSliderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L240)
 --- @class SettingsAdvancedQualitySectionTemplate_BaseQualityControls : Frame, SettingsAdvancedQualityControlsTemplate
 --- @field GraphicsQuality SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L253)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L253)
 --- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideCheckBoxSliderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L251)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L251)
 --- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls : Frame, SettingsAdvancedQualityControlsTemplate
 --- @field GraphicsQuality SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L198)
 --- Template
 --- @class SettingsAdvancedQualitySectionTemplate : EventFrame, SettingsAdvancedQualitySectionMixin
 --- @field NineSlice SettingsAdvancedQualitySectionTemplate_NineSlice

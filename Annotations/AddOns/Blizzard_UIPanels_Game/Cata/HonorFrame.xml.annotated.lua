@@ -1,51 +1,51 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L205)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L205)
 --- @class HonorFrame_HonorFrameCurrentHK : Frame, HonorFrameHKButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L214)
 --- @class HonorFrame_HonorFrameCurrentDK : Frame, HonorFrameDKButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L223)
 --- @class HonorFrame_HonorFrameYesterdayHK : Frame, HonorFrameHKButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L232)
 --- @class HonorFrame_HonorFrameYesterdayContribution : Frame, HonorFrameContributionButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L241)
 --- @class HonorFrame_HonorFrameThisWeekHK : Frame, HonorFrameHKButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L250)
 --- @class HonorFrame_HonorFrameThisWeekContribution : Frame, HonorFrameContributionButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L259)
 --- @class HonorFrame_HonorFrameLastWeekHK : Frame, HonorFrameHKButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L268)
 --- @class HonorFrame_HonorFrameLastWeekContribution : Frame, HonorFrameContributionButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L277)
 --- @class HonorFrame_HonorFrameLastWeekStanding : Frame, HonorFrameStandingButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L286)
 --- @class HonorFrame_HonorFrameLifeTimeHK : Frame, HonorFrameHKButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L295)
 --- @class HonorFrame_HonorFrameLifeTimeDK : Frame, HonorFrameDKButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L304)
 --- @class HonorFrame_HonorFrameLifeTimeRank : Frame, HonorFrameRankButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L313)
 --- @class HonorFrame_HonorFrameRankButton : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L343)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L343)
 --- @class HonorFrame_HonorFrameProgressBar_HonorFrameProgressButton : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L331)
 --- @class HonorFrame_HonorFrameProgressBar : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L3)
 --- @class HonorFrame : Frame
 HonorFrame = {}
 

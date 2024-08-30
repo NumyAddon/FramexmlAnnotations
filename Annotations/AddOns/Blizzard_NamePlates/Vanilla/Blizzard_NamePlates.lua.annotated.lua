@@ -1,112 +1,112 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L1)
 --- @class NamePlateDriverMixin
 NamePlateDriverMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L324)
 --- @class NamePlateBaseMixin
 NamePlateBaseMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L403)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L403)
 --- @class NamePlateBorderTemplateMixin
 NamePlateBorderTemplateMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L3)
 function NamePlateDriverMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L42)
 function NamePlateDriverMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L80)
 function NamePlateDriverMixin:OnNamePlateCreated(namePlateFrameBase) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L84)
 function NamePlateDriverMixin:OnNamePlateCreatedInternal(namePlateFrameBase, template) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L89)
 function NamePlateDriverMixin:AcquireUnitFrame(namePlateFrameBase) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L108)
 function NamePlateDriverMixin:OnForbiddenNamePlateCreated(namePlateFrameBase) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L112)
 function NamePlateDriverMixin:OnNamePlateAdded(namePlateUnitToken) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L125)
 function NamePlateDriverMixin:GetNamePlateTypeFromUnit(unit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L133)
 function NamePlateDriverMixin:ApplyFrameOptions(namePlateFrameBase, namePlateUnitToken) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L147)
 function NamePlateDriverMixin:UpdateInsetsForType(namePlateType, namePlateFrameBase) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L160)
 function NamePlateDriverMixin:OnNamePlateRemoved(namePlateUnitToken) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L169)
 function NamePlateDriverMixin:OnTargetChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L173)
 function NamePlateDriverMixin:OnUnitAuraUpdate(unit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L198)
 function NamePlateDriverMixin:OnRaidTargetUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L212)
 function NamePlateDriverMixin:OnSoftTargetUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L237)
 function NamePlateDriverMixin:OnUnitFactionChanged(unit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L245)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L245)
 function NamePlateDriverMixin:UpdateAllNames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L251)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L251)
 function NamePlateDriverMixin:UpdateAllHealthColor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L257)
 function NamePlateDriverMixin:SetBaseNamePlateSize(width, height) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L266)
 function NamePlateDriverMixin:GetBaseNamePlateWidth() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L270)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L270)
 function NamePlateDriverMixin:GetBaseNamePlateHeight() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L274)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L274)
 function NamePlateDriverMixin:IsUsingLargerNamePlateStyle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L279)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L279)
 function NamePlateDriverMixin:UpdateNamePlateOptions() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L326)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L326)
 function NamePlateBaseMixin:OnAdded(namePlateUnitToken, driverFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L335)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L335)
 function NamePlateBaseMixin:OnRemoved() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L342)
 function NamePlateBaseMixin:OnOptionsUpdated() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L348)
 function NamePlateBaseMixin:ApplyOffsets() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L352)
 function NamePlateBaseMixin:OnSizeChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L367)
 function NamePlateBaseMixin:GetAdditionalInsetPadding(insetWidth, insetHeight) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L378)
 function NamePlateBaseMixin:GetPreferredInsets() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L405)
 function NamePlateBorderTemplateMixin:SetVertexColor(r, g, b, a) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L409)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L409)
 function NamePlateBorderTemplateMixin:SetUnderlineColor(r, g, b, a) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L420)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.lua#L420)
 function NamePlateBorderTemplateMixin:UpdateSizes() end

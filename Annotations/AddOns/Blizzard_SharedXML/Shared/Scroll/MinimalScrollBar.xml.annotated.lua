@@ -1,23 +1,23 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L3)
 --- Template
 --- @class MinimalScrollBarStepperScripts : Frame, MinimalScrollBarStepperScriptsMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L50)
 --- @class MinimalScrollBar_Track_Thumb : EventButton, MinimalScrollBarThumbScriptsMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L23)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L23)
 --- @class MinimalScrollBar_Track : Frame
 --- @field Thumb MinimalScrollBar_Track_Thumb
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L100)
 --- @class MinimalScrollBar_Back : EventButton, MinimalScrollBarStepperScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L119)
 --- @class MinimalScrollBar_Forward : EventButton, MinimalScrollBarStepperScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L15)
 --- Template
 --- @class MinimalScrollBar : EventFrame, VerticalScrollBarTemplate
 --- @field Track MinimalScrollBar_Track

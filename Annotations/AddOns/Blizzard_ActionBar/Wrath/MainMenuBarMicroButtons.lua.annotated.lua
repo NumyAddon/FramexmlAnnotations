@@ -1,54 +1,54 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L458)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L458)
 --- @class CollectionMicroButtonMixin
 CollectionMicroButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L550)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L550)
 --- @class GuildMicroButtonMixin
 GuildMicroButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L468)
 function CollectionMicroButtonMixin:EvaluateAlertVisibility() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L489)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L489)
 function CollectionMicroButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L500)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L500)
 function CollectionMicroButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L537)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L537)
 function CollectionMicroButtonMixin:OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L552)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L552)
 function GuildMicroButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L577)
 function GuildMicroButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L619)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L619)
 function GuildMicroButtonMixin:OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L625)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L625)
 function GuildMicroButtonMixin:UpdateMicroButton() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L668)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L668)
 function GuildMicroButtonMixin:EvaluateAlertVisibility() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L681)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L681)
 function GuildMicroButtonMixin:MarkCommunitiesInvitiationDisplayed(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L686)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L686)
 function GuildMicroButtonMixin:HasUnseenInvitations() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L697)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L697)
 function GuildMicroButtonMixin:UpdateNotificationIcon(self) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L705)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L705)
 function GuildMicroButtonMixin:UpdateTabard(forceUpdate) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L720)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L720)
 function GuildMicroButtonMixin:SetNewClubId(newClubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L724)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.lua#L724)
 function GuildMicroButtonMixin:GetNewClubId() end

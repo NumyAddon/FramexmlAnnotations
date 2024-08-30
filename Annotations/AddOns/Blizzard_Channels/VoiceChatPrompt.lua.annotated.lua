@@ -1,55 +1,55 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L64)
 --- @class VoiceChatActivateChannelPromptMixin
 VoiceChatActivateChannelPromptMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L135)
 --- @class VoiceChatActivateChannelPromptButtonMixin
 VoiceChatActivateChannelPromptButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L143)
 --- @class VoiceChatChannelActivatedNotificationMixin
 VoiceChatChannelActivatedNotificationMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L66)
 function VoiceChatActivateChannelPromptMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L70)
 function VoiceChatActivateChannelPromptMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L74)
 function VoiceChatActivateChannelPromptMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L80)
 function VoiceChatActivateChannelPromptMixin:OnVoiceChannelActivated(channelID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L87)
 function VoiceChatActivateChannelPromptMixin:Setup(channel) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L96)
 function VoiceChatActivateChannelPromptMixin:ShowPrompt(channel) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L109)
 function VoiceChatActivateChannelPromptMixin:CheckActivateChannel(channel) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L126)
 function VoiceChatActivateChannelPromptMixin:ShouldPromptForChannelActivate(channel) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L130)
 function VoiceChatActivateChannelPromptMixin:ActivateChannel() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L137)
 function VoiceChatActivateChannelPromptButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L145)
 function VoiceChatChannelActivatedNotificationMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L151)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L151)
 function VoiceChatChannelActivatedNotificationMixin:OnVoiceChannelActivated(channelID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L160)
 function VoiceChatChannelActivatedNotificationMixin:ListenForChannelActivation(channel) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L165)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L165)
 function VoiceChatChannelActivatedNotificationMixin:Setup() end

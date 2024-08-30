@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L46)
 --- @class TransferRealmEditboxMixin
 TransferRealmEditboxMixin = {};
 
@@ -53,23 +53,23 @@ local PCTDestinationSelectBlock = {
 	ResultsLabel = PCT_FLOW_SLECT_DESTINATION_RESULTS
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L48)
 function TransferRealmEditboxMixin:Initialize(results, wasFromRewind) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L55)
 function TransferRealmEditboxMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L61)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L61)
 function TransferRealmEditboxMixin:OnTextChanged(isUser) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L65)
 function TransferRealmEditboxMixin:SetOnTextChangedCallback(callback) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L69)
 function TransferRealmEditboxMixin:CallOnTextChangedCallback() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L75)
 function TransferRealmEditboxMixin:GetRealmName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L84)
 function TransferRealmEditboxMixin:GetRealmAddress() end

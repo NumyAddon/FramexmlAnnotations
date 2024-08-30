@@ -1,22 +1,22 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L9)
 --- @class GMChatFrame_GMChatTab : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L78)
 --- @class GMChatFrame_GMChatFrameCloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L3)
 --- @class GMChatFrame : ScrollingMessageFrame, FloatingChatFrameTemplate
 GMChatFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L158)
 --- @class GMChatStatusFrame_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L159)
 --- @class GMChatStatusFrame_Pulse : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L129)
 --- @class GMChatStatusFrame : Button
 --- @field NineSlice GMChatStatusFrame_NineSlice
 --- @field Pulse GMChatStatusFrame_Pulse

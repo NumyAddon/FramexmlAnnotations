@@ -1,0 +1,113 @@
+name: template
+
+on:
+  workflow_call:
+    inputs:
+      BRANCH:
+        description: 'Branch to run the workflow on'
+        required: true
+        default: 'live'
+        type: string
+      FORCE_UPDATE:
+        description: 'Force update the branch'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout latest Getho/wow-ui-source
+        if: ${{ steps.check.outputs.skip != 'true' }}
+        uses: actions/checkout@v4
+        with:
+          repository: gethe/wow-ui-source
+          path: ./.wow-ui-source
+          fetch-depth: 1
+          ref: ${{ inputs.BRANCH }}
+
+      - name: Checkout or create latest Annotations branch
+        if: ${{ steps.check.outputs.skip != 'true' }}
+        run: |
+          git clone "https://github.com/NumyAddon/FramexmlAnnotations.git" ./.annotations_temp
+          cd ./.annotations_temp
+          git fetch --prune origin
+          branch_name="${{ inputs.BRANCH }}"
+          git config user.name "GitHub Actions"
+          git config user.email noreply@github.com
+          cleanup() {
+            find . -maxdepth 1 -mindepth 1 ! -name .git -exec rm -rf {} +
+          }
+          if git show-ref --quiet "refs/remotes/origin/${branch_name}"; then
+            echo "Re-using existing branch..."
+            git fetch origin "${branch_name}"
+            git checkout -b "${branch_name}" "origin/${branch_name}"
+            git pull --rebase origin "${branch_name}"
+            git rm -rfq .
+            cleanup
+          else
+            echo "Creating new branch..."
+            cleanup
+            git rm -rfq .
+            git checkout --orphan "${branch_name}"
+            git commit --allow-empty --message "Initialize"
+            git push --set-upstream origin "${branch_name}"
+          fi
+
+      - name: Compare local and remote commit hashes
+        id: check
+        run: |
+          if [[ "${{ inputs.FORCE_UPDATE }}" == "true" ]]; then
+            echo "skip=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          branch=${{ inputs.BRANCH }}
+          cd ./.wow-ui-source
+          remote_commit_hash=$(git rev-parse HEAD)
+          cd ../.annotations_temp
+          local_commit_hash=$(git log --oneline -n1 | grep -Po "Synced to commit \K.*")
+          echo "${branch}: ${local_commit_hash} -> ${remote_commit_hash}"
+          if [[ "${local_commit_hash}" == "${remote_commit_hash}" ]]; then
+            echo "Branch is already up-to-date."
+            echo "skip=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup PHP with composer v2
+        if: ${{ steps.check.outputs.skip != 'true' }}
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: xml, dom
+          tools: composer:v2
+
+      - name: Create annotations and push
+        if: ${{ steps.check.outputs.skip != 'true' }}
+        run: |
+          branch=${{ inputs.BRANCH }}
+          cd ./.wow-ui-source
+          remote_commit_hash=$(git rev-parse HEAD)
+          message="Synced to commit ${remote_commit_hash}"
+          cd ..
+          bin/annotate --inputDir=./.wow-ui-source/Interface --outputDir=./.annotations_temp/Annotations --linkPrefix="https://github.com/Gethe/wow-ui-source/blob/${remote_commit_hash}/Interface"
+          cd ./.annotations_temp
+          git config user.name "GitHub Actions"
+          git config user.email noreply@github.com
+          git add -v .
+          echo "Checking if there are changes to be commited and pushed..."
+          if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
+            if git commit --message "${message}" >/dev/null 2>&1; then
+              echo "Commiting and pushing..."
+              git push --force-with-lease --set-upstream origin "${branch}"
+            else
+              echo "Unable to commit."
+            fi
+          else
+            echo "Nothing to commit."
+          fi
+          echo "Done!"

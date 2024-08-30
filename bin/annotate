@@ -1,0 +1,83 @@
+#!/usr/bin/env php
+<?php
+declare(strict_types=1);
+
+use App\LuaFileParser;
+use App\Registry;
+use App\XmlFileParser;
+use Symfony\Component\Console\Input\ArgvInput;
+use Symfony\Component\Console\Input\InputDefinition;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\ConsoleOutput;
+use Symfony\Component\Console\Style\SymfonyStyle;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$inputDefinition = new InputDefinition();
+$inputDefinition->addOption(
+    new InputOption('outputDir', 'o', InputOption::VALUE_REQUIRED, 'Output directory', './.annotated'),
+);
+$inputDefinition->addOption(
+    new InputOption('inputDir', 'i', InputOption::VALUE_REQUIRED, 'Directory containing the files to annotate', '.'),
+);
+$inputDefinition->addOption(
+    new InputOption('linkPrefix', 'l', InputOption::VALUE_REQUIRED, 'Prefix for links in the output'),
+);
+$input = new ArgvInput(definition: $inputDefinition);
+$output = new ConsoleOutput();
+$io = new SymfonyStyle($input, $output);
+
+$outputDir = $input->getOption('outputDir');
+$inputDir = $input->getOption('inputDir');
+$linkPrefix = $input->getOption('linkPrefix');
+
+// todo: parse tocs instead?
+$fileList = [];
+if (is_file($inputDir) && (str_ends_with($inputDir, '.lua') || str_ends_with($inputDir, '.xml'))) {
+    $fileList[$inputDir] = pathinfo($inputDir, PATHINFO_EXTENSION);
+} elseif (is_dir($inputDir)) {
+    $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($inputDir));
+    $iterator->rewind();
+    /** @var $iterator RecursiveDirectoryIterator */
+    while ($iterator->valid()) {
+        if (
+            !$iterator->isDot() && $iterator->isFile()
+            && ('lua' === $iterator->getExtension() || 'xml' === $iterator->getExtension())
+        ) {
+            $fileList[$iterator->getPath() . '/' . $iterator->getFilename()] = $iterator->getExtension();
+        }
+        $iterator->next();
+    }
+}
+
+$intrinsicRegistry = new Registry();
+$templateRegistry = new Registry();
+$frameRegistry = new Registry();
+$xmlFileParser = new XmlFileParser($intrinsicRegistry, $templateRegistry, $frameRegistry);
+$luaFileParser = new LuaFileParser();
+
+$io->writeln('Parsing files...');
+$progressBar = $io->createProgressBar(count($fileList));
+foreach ($fileList as $filePath => $extension) {
+    if ('xml' === $extension) {
+        $xmlFileParser->parse($filePath);
+    } elseif ('lua' === $extension) {
+        $luaFileParser->parse($filePath, $linkPrefix);
+    }
+    $progressBar->advance();
+}
+$progressBar->finish();
+$io->newLine();
+$io->writeln('Writing annotations...');
+$progressBar = $io->createProgressBar(count($fileList));
+foreach($fileList as $filePath => $extension) {
+    if ('xml' === $extension) {
+        $xmlFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir, $linkPrefix);
+    } elseif ('lua' === $extension) {
+        $luaFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir);
+    }
+    $progressBar->advance();
+}
+$progressBar->finish();
+
+$io->success('Done!');

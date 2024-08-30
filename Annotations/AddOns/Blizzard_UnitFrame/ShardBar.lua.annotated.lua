@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UnitFrame/ShardBar.lua#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UnitFrame/ShardBar.lua#L51)
 --- @class WarlockShardMixin
 WarlockShardMixin = {};
 
@@ -16,14 +16,14 @@ WarlockShardMixin.IncrementSettings = {
 	[9] = { fillAtlas = "UF-SoulShard-Inc9", glowAtlas = "UF-SoulShard-Inc9Glow", fillYOffset = -4.5, glowYOffset = -3 },
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UnitFrame/ShardBar.lua#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UnitFrame/ShardBar.lua#L65)
 function WarlockShardMixin:Setup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UnitFrame/ShardBar.lua#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UnitFrame/ShardBar.lua#L76)
 function WarlockShardMixin:Update(powerAmount, isBarFull) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UnitFrame/ShardBar.lua#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UnitFrame/ShardBar.lua#L133)
 function WarlockShardMixin:UpdateFullPowerVisuals(isBarFull) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UnitFrame/ShardBar.lua#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UnitFrame/ShardBar.lua#L145)
 function WarlockShardMixin:ResetVisuals() end

@@ -1,27 +1,27 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L1)
 --- @class SpellBookHeaderMixin
 SpellBookHeaderMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L9)
 --- @class SpellBookCategoryTabMixin
 SpellBookCategoryTabMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L3)
 function SpellBookHeaderMixin:Init(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L11)
 function SpellBookCategoryTabMixin:EnableNewSpellsGlow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L19)
 function SpellBookCategoryTabMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L25)
 function SpellBookCategoryTabMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L29)
 function SpellBookCategoryTabMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L34)
 function SpellBookCategoryTabMixin:DisplayNewSpellsGlow() end

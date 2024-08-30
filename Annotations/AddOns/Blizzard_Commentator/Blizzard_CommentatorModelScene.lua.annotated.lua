@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L1)
 --- @class CommentatorModelSceneMixin
 CommentatorModelSceneMixin = {}
 
@@ -9,35 +9,35 @@ local CommentatorModelSceneEvents =
 	"COMBAT_LOG_EVENT_UNFILTERED",
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L11)
 function CommentatorModelSceneMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L16)
 function CommentatorModelSceneMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L21)
 function CommentatorModelSceneMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L27)
 function CommentatorModelSceneMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L34)
 function CommentatorModelSceneMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L45)
 function CommentatorModelSceneMixin:IsInitialized() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L49)
 function CommentatorModelSceneMixin:OnUnfilteredCombatLogEvent(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L59)
 function CommentatorModelSceneMixin:Init(unitToken, guid, effectTarget) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L70)
 function CommentatorModelSceneMixin:UpdateModelScene() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L87)
 function CommentatorModelSceneMixin:AddModelSceneEffect(effect) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L93)
 function CommentatorModelSceneMixin:FinishModelSceneEffect(effect) end

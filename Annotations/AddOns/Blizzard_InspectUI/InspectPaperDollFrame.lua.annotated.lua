@@ -1,24 +1,24 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L200)
 --- @class InspectPaperDollFrameTalentsButtonMixin
 InspectPaperDollFrameTalentsButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L225)
 --- @class LevelTextMixin
 LevelTextMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L202)
 function InspectPaperDollFrameTalentsButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L211)
 function InspectPaperDollFrameTalentsButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L221)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L221)
 function InspectPaperDollFrameTalentsButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L227)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L227)
 function LevelTextMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L235)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.lua#L235)
 function LevelTextMixin:OnLeave() end

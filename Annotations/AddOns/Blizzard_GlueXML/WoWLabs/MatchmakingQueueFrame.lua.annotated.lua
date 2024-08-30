@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L3)
 --- @class GameModeSelectionButtonMixin
 GameModeSelectionButtonMixin = {};
 function GameModeSelectionButtonMixin:OnLoad()
@@ -45,11 +45,11 @@ local GameModeSettingsFrameEvents =
 	"CLIENT_FEATURE_STATUS_CHANGED",
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L40)
 --- @class GameModeSettingsFrameMixin
 GameModeSettingsFrameMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L168)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L168)
 --- @class PlunderstormReadyButtonMixin
 PlunderstormReadyButtonMixin = { };
 local PlunderstormReadyButtonEvents =
@@ -57,91 +57,91 @@ local PlunderstormReadyButtonEvents =
 	"LOBBY_MATCHMAKER_PARTY_UPDATE",
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L249)
 --- @class MatchmakingQueueFrameMixin
 MatchmakingQueueFrameMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L314)
 --- @class LeaveQueueButtonMixin
 LeaveQueueButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L4)
 function GameModeSelectionButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L11)
 function GameModeSelectionButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L15)
 function GameModeSelectionButtonMixin:SetSelected(selected) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L26)
 function GameModeSelectionButtonMixin:SetEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L46)
 function GameModeSettingsFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L50)
 function GameModeSettingsFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L58)
 function GameModeSettingsFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L64)
 function GameModeSettingsFrameMixin:OnEvent(event) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L70)
 function GameModeSettingsFrameMixin:OnGameModeSelected(button, gameModeSelected) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L84)
 function GameModeSettingsFrameMixin:UpdateButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L121)
 function GameModeSettingsFrameMixin:IsSelectionActive() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L134)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L134)
 function GameModeSettingsFrameMixin:UpdateGameModeSelection() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L161)
 function GameModeSettingsFrameMixin:SetPlayerReady(isReady) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L174)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L174)
 function PlunderstormReadyButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L179)
 function PlunderstormReadyButtonMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L183)
 function PlunderstormReadyButtonMixin:OnEvent(event) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L189)
 function PlunderstormReadyButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L203)
 function PlunderstormReadyButtonMixin:HasValidQueue() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L225)
 function PlunderstormReadyButtonMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L250)
 function MatchmakingQueueFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L255)
 function MatchmakingQueueFrameMixin:ResetTimer() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L263)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L263)
 function MatchmakingQueueFrameMixin:OnTick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L284)
 function MatchmakingQueueFrameMixin:UpdateTimerText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L289)
 function MatchmakingQueueFrameMixin:StartTimer() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L293)
 function MatchmakingQueueFrameMixin:SetWaiting(waiting) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L298)
 function MatchmakingQueueFrameMixin:SetSquadSize(squadSize) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L315)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L315)
 function LeaveQueueButtonMixin:OnClick() end

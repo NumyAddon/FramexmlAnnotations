@@ -1,66 +1,66 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L48)
 --- @class TimeManagerFrame_TimeManagerStopwatchFrame_TimeManagerStopwatchCheck : CheckButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L33)
 --- @class TimeManagerFrame_TimeManagerStopwatchFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L82)
 --- @class TimeManagerFrame_TimeManagerAlarmTimeFrame_HourDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L87)
 --- @class TimeManagerFrame_TimeManagerAlarmTimeFrame_MinuteDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L92)
 --- @class TimeManagerFrame_TimeManagerAlarmTimeFrame_AMPMDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L67)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L67)
 --- @class TimeManagerFrame_TimeManagerAlarmTimeFrame : Frame
 --- @field HourDropdown TimeManagerFrame_TimeManagerAlarmTimeFrame_HourDropdown
 --- @field MinuteDropdown TimeManagerFrame_TimeManagerAlarmTimeFrame_MinuteDropdown
 --- @field AMPMDropdown TimeManagerFrame_TimeManagerAlarmTimeFrame_AMPMDropdown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L114)
 --- @class TimeManagerFrame_TimeManagerAlarmMessageFrame_TimeManagerAlarmMessageEditBox : EditBox, InputBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L99)
 --- @class TimeManagerFrame_TimeManagerAlarmMessageFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L127)
 --- @class TimeManagerFrame_TimeManagerAlarmEnabledButton : CheckButton, UICheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L139)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L139)
 --- @class TimeManagerFrame_TimeManagerMilitaryTimeCheck : CheckButton, UICheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L154)
 --- @class TimeManagerFrame_TimeManagerLocalTimeCheck : CheckButton, UICheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L3)
 --- @class TimeManagerFrame : Frame, ButtonFrameTemplate
 --- @field AlarmTimeFrame TimeManagerFrame_TimeManagerAlarmTimeFrame
 TimeManagerFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L178)
 --- @class TimeManagerClockButton : Button
 TimeManagerClockButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L230)
 --- @class StopwatchFrame_StopwatchTicker : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L307)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L307)
 --- @class StopwatchFrame_StopwatchTabFrame_StopwatchCloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L265)
 --- @class StopwatchFrame_StopwatchTabFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L318)
 --- @class StopwatchFrame_StopwatchResetButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L329)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L329)
 --- @class StopwatchFrame_StopwatchPlayPauseButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L206)
 --- @class StopwatchFrame : Frame
 StopwatchFrame = {}
 

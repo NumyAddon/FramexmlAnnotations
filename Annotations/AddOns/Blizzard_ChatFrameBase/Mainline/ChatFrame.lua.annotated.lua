@@ -1,23 +1,23 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5751)
 --- @class ChatFrameMenuButtonMixin
 ChatFrameMenuButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5742)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5753)
 function ChatFrameMenuButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5876)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5887)
 function ChatFrameMenuButtonMixin:Reinitialize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5892)
 function ChatFrameMenuButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5892)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5903)
 function ChatFrameMenuButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5896)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5907)
 function ChatFrameMenuButtonMixin:ValidateSelectedLanguage() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5904)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.lua#L5915)
 function ChatFrameMenuButtonMixin:OnClick() end

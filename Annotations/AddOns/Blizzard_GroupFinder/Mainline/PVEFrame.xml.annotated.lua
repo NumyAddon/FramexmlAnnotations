@@ -1,50 +1,50 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L3)
 --- Template
 --- @class GroupFinderGroupButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L147)
 --- @class PVEFrame_PVEFrameLeftInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L154)
 --- @class PVEFrame_PVEFrameTab1 : Button, PanelTabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L164)
 --- @class PVEFrame_PVEFrameTab2 : Button, PanelTabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L172)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L172)
 --- @class PVEFrame_PVEFrameTab3 : Button, PanelTabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L186)
 --- @class PVEFrame_PVEFrameTab4 : Button, PanelTabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L196)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L196)
 --- @class PVEFrame_GroupFinderFrame_GroupFinderFrameGroupButton1 : Button, GroupFinderGroupButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L201)
 --- @class PVEFrame_GroupFinderFrame_GroupFinderFrameGroupButton2 : Button, GroupFinderGroupButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L206)
 --- @class PVEFrame_GroupFinderFrame_GroupFinderFrameGroupButton3 : Button, GroupFinderGroupButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L211)
 --- @class PVEFrame_GroupFinderFrame_GroupFinderFrameGroupButton4 : Button, GroupFinderGroupButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L214)
 --- @class PVEFrame_GroupFinderFrame_LFGListPVEStub : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L194)
 --- @class PVEFrame_GroupFinderFrame : Frame
 --- @field groupButton1 PVEFrame_GroupFinderFrame_GroupFinderFrameGroupButton1
 --- @field groupButton2 PVEFrame_GroupFinderFrame_GroupFinderFrameGroupButton2
 --- @field groupButton3 PVEFrame_GroupFinderFrame_GroupFinderFrameGroupButton3
 --- @field groupButton4 PVEFrame_GroupFinderFrame_GroupFinderFrameGroupButton4
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L231)
 --- @class PVEFrame_shadows : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L56)
 --- @class PVEFrame : Frame, PortraitFrameTemplate, PVEFrameMixin
 --- @field Inset PVEFrame_PVEFrameLeftInset
 --- @field tab1 PVEFrame_PVEFrameTab1

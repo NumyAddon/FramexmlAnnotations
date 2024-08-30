@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L4)
 --- @class FrameStackTooltip : GameTooltip, SharedTooltipTemplate
 FrameStackTooltip = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L17)
 --- Template
 --- @class FrameHighlightTemplate : Frame, AnchorHighlightMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L27)
 --- @class FrameStackHighlight : Frame, FrameHighlightTemplate
 FrameStackHighlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L29)
 --- Template
 --- @class FrameStackAnchorHighlightTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L43)
 --- Template
 --- @class DebugIdentifierFrameNoNameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L56)
 --- Template
 --- @class DebugIdentifierFrameTemplate : Frame, DebugIdentifierFrameNoNameTemplate
 

@@ -1,72 +1,72 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L1)
 --- @class ScrollBoxGridPaddingMixin : ScrollBoxPaddingMixin
 ScrollBoxGridPaddingMixin = CreateFromMixins(ScrollBoxPaddingMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L29)
 --- @class ScrollBoxListGridViewMixin : ScrollBoxListViewMixin
 ScrollBoxListGridViewMixin = CreateFromMixins(ScrollBoxListViewMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L3)
 function ScrollBoxGridPaddingMixin:Init(top, bottom, left, right, horizontalSpacing, verticalSpacing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L9)
 function ScrollBoxGridPaddingMixin:GetHorizontalSpacing() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L13)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L13)
 function ScrollBoxGridPaddingMixin:SetHorizontalSpacing(spacing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L17)
 function ScrollBoxGridPaddingMixin:GetVerticalSpacing() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L21)
 function ScrollBoxGridPaddingMixin:SetVerticalSpacing(spacing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L31)
 function ScrollBoxListGridViewMixin:Init(stride, top, bottom, left, right, horizontalSpacing, verticalSpacing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L37)
 function ScrollBoxListGridViewMixin:SetPadding(top, bottom, left, right, horizontalSpacing, verticalSpacing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L42)
 function ScrollBoxListGridViewMixin:GetHorizontalSpacing() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L46)
 function ScrollBoxListGridViewMixin:GetVerticalSpacing() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L50)
 function ScrollBoxListGridViewMixin:SetStride(stride) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L54)
 function ScrollBoxListGridViewMixin:RequiresFullUpdateOnScrollTargetSizeChange() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L58)
 function ScrollBoxListGridViewMixin:SetHorizontal(isHorizontal) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L64)
 function ScrollBoxListGridViewMixin:GetStride() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L82)
 function ScrollBoxListGridViewMixin:SetStrideExtent(extent) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L86)
 function ScrollBoxListGridViewMixin:GetStrideExtent() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L90)
 function ScrollBoxListGridViewMixin:Layout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L109)
 function ScrollBoxListGridViewMixin:CalculateDataIndices(scrollBox) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L113)
 function ScrollBoxListGridViewMixin:GetExtent(scrollBox) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L117)
 function ScrollBoxListGridViewMixin:RecalculateExtent(scrollBox) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L121)
 function ScrollBoxListGridViewMixin:GetExtentUntil(scrollBox, dataIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L125)
 function ScrollBoxListGridViewMixin:GetPanExtent() end

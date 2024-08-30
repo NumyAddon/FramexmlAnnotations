@@ -1,190 +1,190 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L222)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L222)
 --- @class MainMenuBarBackpackMixin : BaseBagSlotButtonMixin
 MainMenuBarBackpackMixin = CreateFromMixins(BaseBagSlotButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L1)
 --- @class BagSlotItemFlyInMixin
 BagSlotItemFlyInMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L11)
 --- @class BaseBagSlotButtonMixin
 BaseBagSlotButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L382)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L382)
 --- @class CharacterReagentBagMixin
 CharacterReagentBagMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L392)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L392)
 --- @class BagBarExpandToggleMixin
 BagBarExpandToggleMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L426)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L426)
 --- @class BagsBarMixin
 BagsBarMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L3)
 function BagSlotItemFlyInMixin:OnPlay() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L7)
 function BagSlotItemFlyInMixin:OnFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L13)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L13)
 function BaseBagSlotButtonMixin:BagSlotOnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L24)
 function BaseBagSlotButtonMixin:OnLoadInternal() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L43)
 function BaseBagSlotButtonMixin:BagSlotOnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L61)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L61)
 function BaseBagSlotButtonMixin:BagSlotOnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L65)
 function BaseBagSlotButtonMixin:BagSlotOnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L69)
 function BaseBagSlotButtonMixin:BagSlotOnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L85)
 function BaseBagSlotButtonMixin:PutItemInBag() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L89)
 function BaseBagSlotButtonMixin:BagSlotOnDragStart(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L93)
 function BaseBagSlotButtonMixin:BagSlotOnReceiveDrag() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L97)
 function BaseBagSlotButtonMixin:BagSlotOnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L102)
 function BaseBagSlotButtonMixin:OnEnterInternal() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L129)
 function BaseBagSlotButtonMixin:BagSlotOnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L135)
 function BaseBagSlotButtonMixin:UpdateBagMatchesSearch() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L139)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L139)
 function BaseBagSlotButtonMixin:UpdateBagButtonHighlight(containerFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L145)
 function BaseBagSlotButtonMixin:GetItemContextMatchResult() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L149)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L149)
 function BaseBagSlotButtonMixin:GetIsBarExpanded() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L153)
 function BaseBagSlotButtonMixin:GetBagID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L161)
 function BaseBagSlotButtonMixin:HasBagEquipped() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L172)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L172)
 function BaseBagSlotButtonMixin:IsBackpack() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L176)
 function BaseBagSlotButtonMixin:GetSlotAtlases() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L180)
 function BaseBagSlotButtonMixin:UpdateItemContextOverlayTextures(contextMode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L187)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L187)
 function BaseBagSlotButtonMixin:UpdateTextures() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L209)
 function BaseBagSlotButtonMixin:SetItemButtonTexture(texture) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L214)
 function BaseBagSlotButtonMixin:SetItemButtonQuality() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L218)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L218)
 function BaseBagSlotButtonMixin:SetBarExpanded(isExpanded) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L224)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L224)
 function MainMenuBarBackpackMixin:BagSlotOnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L228)
 function MainMenuBarBackpackMixin:BagSlotOnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L232)
 function MainMenuBarBackpackMixin:OnLoadInternal() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L243)
 function MainMenuBarBackpackMixin:OnEnterInternal() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L259)
 function MainMenuBarBackpackMixin:PutItemInBag() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L263)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L263)
 function MainMenuBarBackpackMixin:HasBagEquipped() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L267)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L267)
 function MainMenuBarBackpackMixin:BackpackOnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L292)
 function MainMenuBarBackpackMixin:UpdateFreeSlots() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L304)
 function MainMenuBarBackpackMixin:SetCountShown(shown) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L308)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L308)
 function MainMenuBarBackpackMixin:OnBagUpdate(bagID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L314)
 function MainMenuBarBackpackMixin:OnPlayerEnteringWorld() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L319)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L319)
 function MainMenuBarBackpackMixin:OnAzeriteEmpoweredItemLooted() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L355)
 function MainMenuBarBackpackMixin:IsBackpack() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L359)
 function MainMenuBarBackpackMixin:GetSlotAtlases() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L363)
 function MainMenuBarBackpackMixin:UpdateItemContextOverlayTextures(contextMode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L374)
 function MainMenuBarBackpackMixin:SetBarExpanded(isExpanded) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L378)
 function MainMenuBarBackpackMixin:BagSlotOnDragStart(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L384)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L384)
 function CharacterReagentBagMixin:GetSlotAtlases() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L388)
 function CharacterReagentBagMixin:SetBarExpanded(isExpanded) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L394)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L394)
 function BagBarExpandToggleMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L398)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L398)
 function BagBarExpandToggleMixin:GetRotation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L419)
 function BagBarExpandToggleMixin:UpdateOrientation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L428)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L428)
 function BagsBarMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L445)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L445)
 function BagsBarMixin:GetBagButtonAnchorPoints() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L462)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L462)
 function BagsBarMixin:Layout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L496)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L496)
 function BagsBarMixin:IsHorizontal() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L500)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L500)
 function BagsBarMixin:IsDirectionLeft() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L504)
 function BagsBarMixin:IsDirectionUp() end

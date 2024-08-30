@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L1)
 --- @class VehicleSeatIndicatorMixin
 VehicleSeatIndicatorMixin = {};
 
@@ -235,48 +235,48 @@ local SeatIndicator_PulseTable = {
 	getPosFunc = SeatIndicator_PulseFunc,
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L136)
 --- @class VehicleSeatIndicatorButtonMixin
 VehicleSeatIndicatorButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L3)
 function VehicleSeatIndicatorMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L13)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L13)
 function VehicleSeatIndicatorMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L32)
 function VehicleSeatIndicatorMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L60)
 function VehicleSeatIndicatorMixin:HideButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L70)
 function VehicleSeatIndicatorMixin:GetButton(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L78)
 function VehicleSeatIndicatorMixin:SetupVehicle(vehicleIndicatorID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L117)
 function VehicleSeatIndicatorMixin:UnloadTextures() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L127)
 function VehicleSeatIndicatorMixin:SetIsInEditMode(isInEditMode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L132)
 function VehicleSeatIndicatorMixin:UpdateShownState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L138)
 function VehicleSeatIndicatorButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L143)
 function VehicleSeatIndicatorButtonMixin:OnClick(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L158)
 function VehicleSeatIndicatorButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L220)
 function VehicleSeatIndicatorButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.lua#L233)
 function VehicleSeatIndicatorButtonMixin:Pulse() end

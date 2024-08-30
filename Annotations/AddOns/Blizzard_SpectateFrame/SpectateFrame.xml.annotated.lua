@@ -1,18 +1,18 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L29)
 --- @class SpectateFrame_SpectateFrameArrowLeft : Button, SpectateCycleModeMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L62)
 --- @class SpectateFrame_SpectateFrameArrowRight : Button, SpectateCycleModeMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L95)
 --- @class SpectateFrame_ViewRewardsButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, SpectateViewRewardsButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L110)
 --- @class SpectateFrame_LeaveMatchButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, SpectateLeaveMatchButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L3)
 --- @class SpectateFrame : Frame, SpectateFrameMixin
 --- @field ArrowLeft SpectateFrame_SpectateFrameArrowLeft
 --- @field ArrowRight SpectateFrame_SpectateFrameArrowRight

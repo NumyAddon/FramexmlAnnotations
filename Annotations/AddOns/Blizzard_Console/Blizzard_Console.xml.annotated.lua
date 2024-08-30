@@ -1,54 +1,54 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L3)
 --- Template
 --- @class DeveloperConsoleBackgroundTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L64)
 --- @class DeveloperConsole_EditBox_Background : Frame, DeveloperConsoleBackgroundTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L57)
 --- @class DeveloperConsole_EditBox : EditBox
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L149)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L149)
 --- @class DeveloperConsole_Filters_Background : Frame, DeveloperConsoleBackgroundTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L151)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L151)
 --- @class DeveloperConsole_Filters_ProgressBar : StatusBar, SmoothStatusBarMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L193)
 --- @class DeveloperConsole_Filters_EditBox_ClearTextButton : Button, UIPanelCloseButtonNoScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L166)
 --- @class DeveloperConsole_Filters_EditBox : EditBox
 --- @field ClearTextButton DeveloperConsole_Filters_EditBox_ClearTextButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L122)
 --- @class DeveloperConsole_Filters : Frame
 --- @field Background DeveloperConsole_Filters_Background
 --- @field ProgressBar DeveloperConsole_Filters_ProgressBar
 --- @field EditBox DeveloperConsole_Filters_EditBox
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L208)
 --- @class DeveloperConsole_CheatBrowserToggle : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L282)
 --- @class DeveloperConsole_MessageFrame_CopyNoticeFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L262)
 --- @class DeveloperConsole_MessageFrame : ScrollingMessageFrame
 --- @field CopyNoticeFrame DeveloperConsole_MessageFrame_CopyNoticeFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L320)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L320)
 --- @class DeveloperConsole_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L326)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L326)
 --- @class DeveloperConsole_AutoComplete : Frame, DeveloperConsoleAutoCompleteTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L332)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L332)
 --- @class DeveloperConsole_ResizeButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L36)
 --- @class DeveloperConsole : Frame, DeveloperConsoleMixin
 --- @field EditBox DeveloperConsole_EditBox
 --- @field Filters DeveloperConsole_Filters

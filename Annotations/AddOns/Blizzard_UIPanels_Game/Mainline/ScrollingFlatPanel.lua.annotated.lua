@@ -1,41 +1,41 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L3)
 --- @class ScrollingFlatPanelMixin
 ScrollingFlatPanelMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L5)
 function ScrollingFlatPanelMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L18)
 function ScrollingFlatPanelMixin:OnCloseCallback() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L22)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L22)
 function ScrollingFlatPanelMixin:Open(skipShow) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L35)
 function ScrollingFlatPanelMixin:Resize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L51)
 function ScrollingFlatPanelMixin:GetMaxPossibleWidth() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L55)
 function ScrollingFlatPanelMixin:OnHideAnimFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L59)
 function ScrollingFlatPanelMixin:StopAllAnimations() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L64)
 function ScrollingFlatPanelMixin:PlayOpenAnimation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L71)
 function ScrollingFlatPanelMixin:PlayCloseAnimation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L78)
 function ScrollingFlatPanelMixin:Close() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L84)
 function ScrollingFlatPanelMixin:GetPanelMaxHeight() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.lua#L89)
 function ScrollingFlatPanelMixin:CalculateElementsHeight() end

@@ -1,38 +1,38 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L1)
 --- @class FieldsAPIMixin : BaseAPIMixin
 FieldsAPIMixin = CreateFromMixins(BaseAPIMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L3)
 function FieldsAPIMixin:GetParentName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L14)
 function FieldsAPIMixin:GetType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L18)
 function FieldsAPIMixin:GetLinkHexColor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L22)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L22)
 function FieldsAPIMixin:MatchesSearchString(searchString) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L34)
 function FieldsAPIMixin:GetLuaType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L48)
 function FieldsAPIMixin:GetStrideIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L52)
 function FieldsAPIMixin:IsOptional() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L56)
 function FieldsAPIMixin:GetSingleOutputLine() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L71)
 function FieldsAPIMixin:GetArgumentString(decorateOptionals, includeColorCodes) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L79)
 function FieldsAPIMixin:GetReturnString(decorateOptionals, includeColorCodes) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L83)
 function FieldsAPIMixin:GetPayloadString(decorateOptionals, includeColorCodes) end

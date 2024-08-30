@@ -1,37 +1,37 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L3)
 --- Template
 --- @class PlunderstormBarCapTooltipTemplate : Frame, PlunderstormBarCapTooltipMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L29)
 --- @class PlunderstormOffensiveBarCap_OffensiveTooltipFrame : Frame, PlunderstormBarCapTooltipTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L37)
 --- @class PlunderstormOffensiveBarCap_UtilityTooltipFrame : Frame, PlunderstormBarCapTooltipTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L45)
 --- @class PlunderstormOffensiveBarCap_ItemTooltipFrame : Frame, PlunderstormBarCapTooltipTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L11)
 --- @class PlunderstormOffensiveBarCap : Frame
 --- @field OffensiveTooltipFrame PlunderstormOffensiveBarCap_OffensiveTooltipFrame
 --- @field UtilityTooltipFrame PlunderstormOffensiveBarCap_UtilityTooltipFrame
 --- @field ItemTooltipFrame PlunderstormOffensiveBarCap_ItemTooltipFrame
 PlunderstormOffensiveBarCap = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L74)
 --- @class PlunderstormAttackBarCap_TooltipFrame : Frame, PlunderstormBarCapTooltipTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L56)
 --- @class PlunderstormAttackBarCap : Frame
 --- @field TooltipFrame PlunderstormAttackBarCap_TooltipFrame
 PlunderstormAttackBarCap = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L103)
 --- @class PlunderstormPotionBarCap_TooltipFrame : Frame, PlunderstormBarCapTooltipTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/WoWLabs/CustomActionBarOverlays.xml#L85)
 --- @class PlunderstormPotionBarCap : Frame
 --- @field TooltipFrame PlunderstormPotionBarCap_TooltipFrame
 PlunderstormPotionBarCap = {}

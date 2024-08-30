@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1261)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1261)
 --- @class StaticPopupItemFrameMixin
 StaticPopupItemFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1263)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1263)
 function StaticPopupItemFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1268)
 function StaticPopupItemFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1279)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1279)
 function StaticPopupItemFrameMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1289)
 function StaticPopupItemFrameMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1294)
 function StaticPopupItemFrameMixin:SetCustomOnEnter(customOnEnter) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1298)
 function StaticPopupItemFrameMixin:RetrieveInfo(data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.lua#L1316)
 function StaticPopupItemFrameMixin:DisplayInfo(link, name, color, texture, count, tooltip) end

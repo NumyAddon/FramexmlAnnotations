@@ -1,19 +1,19 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L6)
 --- @class CampaignOverviewTemplate_BorderFrame : Frame, QuestLogBorderFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L15)
 --- @class CampaignOverviewTemplate_Header_BackButton : Button, LoreButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L7)
 --- @class CampaignOverviewTemplate_Header : Frame, CampaignHeaderDisplayTemplate
 --- @field BackButton CampaignOverviewTemplate_Header_BackButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L22)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L22)
 --- @class CampaignOverviewTemplate_ScrollFrame : EventScrollFrame, ScrollFrameTemplate, CampaignOverviewScrollFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L4)
 --- Template
 --- @class CampaignOverviewTemplate : Frame, CampaignOverviewMixin
 --- @field BorderFrame CampaignOverviewTemplate_BorderFrame

@@ -1,48 +1,48 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L250)
 --- @class LargeMoneyInputBoxMixin
 LargeMoneyInputBoxMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L276)
 --- @class LargeMoneyInputFrameMixin
 LargeMoneyInputFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L252)
 function LargeMoneyInputBoxMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L260)
 function LargeMoneyInputBoxMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L264)
 function LargeMoneyInputBoxMixin:SetAmount(amount) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L268)
 function LargeMoneyInputBoxMixin:GetAmount() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L272)
 function LargeMoneyInputBoxMixin:OnTextChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L278)
 function LargeMoneyInputFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L296)
 function LargeMoneyInputFrameMixin:SetNextEditBox(nextEditBox) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L312)
 function LargeMoneyInputFrameMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L318)
 function LargeMoneyInputFrameMixin:SetEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L324)
 function LargeMoneyInputFrameMixin:SetAmount(amount) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L330)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L330)
 function LargeMoneyInputFrameMixin:GetAmount() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L334)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L334)
 function LargeMoneyInputFrameMixin:SetOnValueChangedCallback(callback) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L338)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L338)
 function LargeMoneyInputFrameMixin:OnAmountChanged(callback) end

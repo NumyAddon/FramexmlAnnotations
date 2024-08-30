@@ -1,20 +1,20 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.xml#L4)
 --- Template
 --- @class AzeriteIslandsPlayerToastTextTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.xml#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.xml#L36)
 --- Template
 --- @class AzeriteIslandsPartyToastTextTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.xml#L67)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.xml#L67)
 --- @class AzeriteIslandsToast_PlayerToast : Frame, AzeriteIslandsPlayerToastTextTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.xml#L68)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.xml#L68)
 --- @class AzeriteIslandsToast_PartyToast : Frame, AzeriteIslandsPartyToastTextTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.xml#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.xml#L65)
 --- @class AzeriteIslandsToast : Frame, AzeriteIslandsToastMixin
 --- @field PlayerToast AzeriteIslandsToast_PlayerToast
 --- @field PartyToast AzeriteIslandsToast_PartyToast

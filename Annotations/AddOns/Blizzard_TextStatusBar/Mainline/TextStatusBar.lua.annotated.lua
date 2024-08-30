@@ -1,66 +1,66 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L29)
 --- @class TextStatusBarMixin
 TextStatusBarMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L266)
 --- @class TextStatusBarSparkMixin
 TextStatusBarSparkMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L31)
 function TextStatusBarMixin:InitializeTextStatusBar() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L46)
 function TextStatusBarMixin:SetBarText(text, leftText, rightText) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L61)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L61)
 function TextStatusBarMixin:TextStatusBarOnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L77)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L77)
 function TextStatusBarMixin:UpdateTextString() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L86)
 function TextStatusBarMixin:UpdateTextStringWithValues(textString, value, valueMin, valueMax) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L196)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L196)
 function TextStatusBarMixin:OnStatusBarEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L201)
 function TextStatusBarMixin:OnStatusBarLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L206)
 function TextStatusBarMixin:OnStatusBarValueChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L213)
 function TextStatusBarMixin:OnStatusBarMinMaxChanged(min, max) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L219)
 function TextStatusBarMixin:SetBarTextPrefix(prefix) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L225)
 function TextStatusBarMixin:SetBarTextZeroText(zeroText) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L231)
 function TextStatusBarMixin:ShowStatusBarText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L244)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L244)
 function TextStatusBarMixin:HideStatusBarText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L268)
 function TextStatusBarSparkMixin:Initialize(statusBar) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L279)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L279)
 function TextStatusBarSparkMixin:SetVisuals(visualInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L300)
 function TextStatusBarSparkMixin:GetIsActive() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L304)
 function TextStatusBarSparkMixin:OnBarValuesUpdated() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L310)
 function TextStatusBarSparkMixin:UpdateShown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_TextStatusBar/Mainline/TextStatusBar.lua#L322)
 function TextStatusBarSparkMixin:UpdateSize() end

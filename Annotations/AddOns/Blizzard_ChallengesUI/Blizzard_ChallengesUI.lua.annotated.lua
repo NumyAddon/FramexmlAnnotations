@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L282)
 --- @class ChallengeModeWeeklyChestMixin : WeeklyRewardMixin
 ChallengeModeWeeklyChestMixin = CreateFromMixins(WeeklyRewardMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L93)
 --- @class ChallengesFrameMixin
 ChallengesFrameMixin = {};
 
@@ -422,6 +422,21 @@ function ChallengesDungeonIconMixin:SetUp(mapInfo, isFirst)
     end
 end
 
+local function AddAffixScoreToTooltip(affixInfo)
+	GameTooltip_AddBlankLineToTooltip(GameTooltip);
+	GameTooltip_AddNormalLine(GameTooltip, LFG_LIST_BEST_RUN);
+	GameTooltip_AddColoredLine(GameTooltip, MYTHIC_PLUS_POWER_LEVEL:format(affixInfo.level), HIGHLIGHT_FONT_COLOR);
+
+	local displayZeroHours = affixInfo.durationSec >= SECONDS_PER_HOUR;
+	local durationText = SecondsToClock(affixInfo.durationSec, displayZeroHours);
+
+	if affixInfo.overTime then
+		local overtimeText = DUNGEON_SCORE_OVERTIME_TIME:format(durationText);
+		GameTooltip_AddColoredLine(GameTooltip, overtimeText, LIGHTGRAY_FONT_COLOR);
+	else
+		GameTooltip_AddColoredLine(GameTooltip, durationText, HIGHLIGHT_FONT_COLOR);
+	end
+end
 
 function ChallengesDungeonIconMixin:OnEnter()
     local name = C_ChallengeMode.GetMapUIInfo(self.mapID);
@@ -429,37 +444,21 @@ function ChallengesDungeonIconMixin:OnEnter()
     GameTooltip:SetText(name, 1, 1, 1);
 
     local inTimeInfo, overtimeInfo = C_MythicPlus.GetSeasonBestForMap(self.mapID);
-	local affixScores, overAllScore = C_MythicPlus.GetSeasonBestAffixScoreInfoForMap(self.mapID);
-	local isOverTimeRun = false;
+	local affixScores, overallScore = C_MythicPlus.GetSeasonBestAffixScoreInfoForMap(self.mapID);
 
-	local seasonBestDurationSec, seasonBestLevel, members;
-
-	if(overAllScore and (inTimeInfo or overtimeInfo)) then
-		local color = C_ChallengeMode.GetSpecificDungeonOverallScoreRarityColor(overAllScore);
-		if(not color) then
-			color = HIGHLIGHT_FONT_COLOR;
-		end
-		GameTooltip_AddNormalLine(GameTooltip, DUNGEON_SCORE_TOTAL_SCORE:format(color:WrapTextInColorCode(overAllScore)), GREEN_FONT_COLOR);
+	if overallScore and (inTimeInfo or overtimeInfo) then
+		local color = C_ChallengeMode.GetSpecificDungeonOverallScoreRarityColor(overallScore) or HIGHLIGHT_FONT_COLOR;
+		local overallText = DUNGEON_SCORE_TOTAL_SCORE:format(color:WrapTextInColorCode(overallScore));
+		GameTooltip_AddNormalLine(GameTooltip, overallText, GREEN_FONT_COLOR);
 	end
 
-	if(affixScores and #affixScores > 0) then
-		for _, affixInfo in ipairs(affixScores) do
-			GameTooltip_AddBlankLineToTooltip(GameTooltip);
-			GameTooltip_AddNormalLine(GameTooltip, DUNGEON_SCORE_BEST_AFFIX:format(affixInfo.name));
-			GameTooltip_AddColoredLine(GameTooltip, MYTHIC_PLUS_POWER_LEVEL:format(affixInfo.level), HIGHLIGHT_FONT_COLOR);
-			if(affixInfo.overTime) then
-				if(affixInfo.durationSec >= SECONDS_PER_HOUR) then
-					GameTooltip_AddColoredLine(GameTooltip, DUNGEON_SCORE_OVERTIME_TIME:format(SecondsToClock(affixInfo.durationSec, true)), LIGHTGRAY_FONT_COLOR);
-				else
-					GameTooltip_AddColoredLine(GameTooltip, DUNGEON_SCORE_OVERTIME_TIME:format(SecondsToClock(affixInfo.durationSec, false)), LIGHTGRAY_FONT_COLOR);
-				end
-			else
-				if(affixInfo.durationSec >= SECONDS_PER_HOUR) then
-					GameTooltip_AddColoredLine(GameTooltip, SecondsToClock(affixInfo.durationSec, true), HIGHLIGHT_FONT_COLOR);
-				else
-					GameTooltip_AddColoredLine(GameTooltip, SecondsToClock(affixInfo.durationSec, false), HIGHLIGHT_FONT_COLOR);
-				end
-			end
+	if affixScores then
+		local fastestAffixScore = TableUtil.FindMin(affixScores, function(affixScore)
+			return affixScore.durationSec;
+		end);
+
+		if fastestAffixScore then
+			AddAffixScoreToTooltip(fastestAffixScore);
 		end
 	end
 
@@ -705,179 +704,179 @@ CHALLENGE_MODE_EXTRA_AFFIX_INFO = {
 	},
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L368)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L368)
 --- @class ChallengeModeLegacyWeeklyChestMixin
 ChallengeModeLegacyWeeklyChestMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L477)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L477)
 --- @class ChallengesDungeonIconMixin
 ChallengesDungeonIconMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L553)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L552)
 --- @class ChallengesFrameWeeklyInfoMixin
 ChallengesFrameWeeklyInfoMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L584)
 --- @class ChallengesKeystoneFrameMixin
 ChallengesKeystoneFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L730)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L729)
 --- @class ChallengesKeystoneSlotMixin
 ChallengesKeystoneSlotMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L777)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L776)
 --- @class ChallengesKeystoneFrameAffixMixin
 ChallengesKeystoneFrameAffixMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L844)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L843)
 --- @class ChallengeModeCompleteBannerMixin
 ChallengeModeCompleteBannerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1060)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1059)
 --- @class ChallengeModeBannerPartyMemberMixin
 ChallengeModeBannerPartyMemberMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1090)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1089)
 --- @class DungeonScoreInfoMixin
 DungeonScoreInfoMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L95)
 function ChallengesFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L107)
 function ChallengesFrameMixin:OnEvent(event) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L120)
 function ChallengesFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L138)
 function ChallengesFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L144)
 function ChallengesFrameMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L269)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L269)
 function ChallengesFrameMixin:UpdateTitle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L284)
 function ChallengeModeWeeklyChestMixin:Update(bestMapID, dungeonScore) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L319)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L319)
 function ChallengeModeWeeklyChestMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L359)
 function ChallengeModeWeeklyChestMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L370)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L370)
 function ChallengeModeLegacyWeeklyChestMixin:Update(bestMapID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L409)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L409)
 function ChallengeModeLegacyWeeklyChestMixin:SetupChest(chestFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L459)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L459)
 function ChallengeModeLegacyWeeklyChestMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L479)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L479)
 function ChallengesDungeonIconMixin:SetUp(mapInfo, isFirst) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L525)
 function ChallengesDungeonIconMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L555)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L554)
 function ChallengesFrameWeeklyInfoMixin:SetUp(hasWeeklyRun, bestData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L576)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L575)
 function ChallengesFrameWeeklyInfoMixin:HideAffixes() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L587)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L586)
 function ChallengesKeystoneFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L599)
 function ChallengesKeystoneFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L606)
 function ChallengesKeystoneFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L618)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L617)
 function ChallengesKeystoneFrameMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L642)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L641)
 function ChallengesKeystoneFrameMixin:OnMouseUp() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L648)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L647)
 function ChallengesKeystoneFrameMixin:ShowKeystoneFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L652)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L651)
 function ChallengesKeystoneFrameMixin:CreateAndPositionAffixes(num) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L677)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L676)
 function ChallengesKeystoneFrameMixin:OnKeystoneSlotted() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L717)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L716)
 function ChallengesKeystoneFrameMixin:OnKeystoneRemoved() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L723)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L722)
 function ChallengesKeystoneFrameMixin:StartChallengeMode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L732)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L731)
 function ChallengesKeystoneSlotMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L737)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L736)
 function ChallengesKeystoneSlotMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L749)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L748)
 function ChallengesKeystoneSlotMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L757)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L756)
 function ChallengesKeystoneSlotMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L761)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L760)
 function ChallengesKeystoneSlotMixin:OnReceiveDrag() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L765)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L764)
 function ChallengesKeystoneSlotMixin:OnDragStart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L771)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L770)
 function ChallengesKeystoneSlotMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L792)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L791)
 function ChallengesKeystoneFrameAffixMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L813)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L812)
 function ChallengesKeystoneFrameAffixMixin:SetUp(affixInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L846)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L845)
 function ChallengeModeCompleteBannerMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L852)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L851)
 function ChallengeModeCompleteBannerMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L862)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L861)
 function ChallengeModeCompleteBannerMixin:OnMouseDown(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L872)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L871)
 function ChallengeModeCompleteBannerMixin:PlayBanner(data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L977)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L976)
 function ChallengeModeCompleteBannerMixin:StopBanner() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L987)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L986)
 function ChallengeModeCompleteBannerMixin:GetSortedPartyMembers() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1031)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1030)
 function ChallengeModeCompleteBannerMixin:CreateAndPositionPartyMembers(num) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1038)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1037)
 function ChallengeModeCompleteBannerMixin:PerformAnimOut() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1061)
 function ChallengeModeBannerPartyMemberMixin:SetUp(unitToken) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1092)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1091)
 function DungeonScoreInfoMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1099)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1098)
 function DungeonScoreInfoMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1102)
 function DungeonScoreInfoMixin:OnClick() end

@@ -1,23 +1,23 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L2)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L2)
 --- @class EventScrollFrameMixin : CallbackRegistryMixin
 EventScrollFrameMixin = CreateFromMixins(CallbackRegistryMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L14)
 function EventScrollFrameMixin:OnLoad_Intrinsic() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L18)
 function EventScrollFrameMixin:OnHorizontalScroll_Intrinsic(offset) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L22)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L22)
 function EventScrollFrameMixin:OnVerticalScroll_Intrinsic(offset) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L26)
 function EventScrollFrameMixin:OnScrollRangeChanged_Intrinsic(xrange, yrange) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L30)
 function EventScrollFrameMixin:OnMouseWheel_Intrinsic(direction) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventScrollFrame.lua#L34)
 function EventScrollFrameMixin:OnSizeChanged_Intrinsic(width, height) end

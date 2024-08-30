@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L43)
 --- @class CommentatorSpellTrayMixin
 CommentatorSpellTrayMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L45)
 function CommentatorSpellTrayMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L55)
 function CommentatorSpellTrayMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L60)
 function CommentatorSpellTrayMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L66)
 function CommentatorSpellTrayMixin:SetSpellActive(spellID, isActive) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L80)
 function CommentatorSpellTrayMixin:GetOrCreateSpellCache(spellID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L87)
 function CommentatorSpellTrayMixin:InitSpells(alignment, unitToken) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L124)
 function CommentatorSpellTrayMixin:UpdateAlignment() end

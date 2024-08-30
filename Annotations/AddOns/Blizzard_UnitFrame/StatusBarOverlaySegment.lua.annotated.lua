@@ -1,20 +1,20 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L4)
 --- @class StatusBarOverlaySegmentMixin
 StatusBarOverlaySegmentMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L6)
 function StatusBarOverlaySegmentMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L18)
 function StatusBarOverlaySegmentMixin:Initialize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L45)
 function StatusBarOverlaySegmentMixin:SetStatusBar(statusBar) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L50)
 function StatusBarOverlaySegmentMixin:SetFillColor(color) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.lua#L58)
 function StatusBarOverlaySegmentMixin:UpdateFillPosition(previousTexture, fillValue, xOffsetPercent) end

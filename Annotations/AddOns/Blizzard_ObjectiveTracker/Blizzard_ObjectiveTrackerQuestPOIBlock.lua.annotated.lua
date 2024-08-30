@@ -1,23 +1,23 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L4)
 --- @class ObjectiveTrackerQuestPOIBlockMixin : ObjectiveTrackerAnimBlockMixin
 ObjectiveTrackerQuestPOIBlockMixin = CreateFromMixins(ObjectiveTrackerAnimBlockMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L7)
 function ObjectiveTrackerQuestPOIBlockMixin:OnLayout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L19)
 function ObjectiveTrackerQuestPOIBlockMixin:AddPOIButton(questID, isComplete, isSuperTracked, isWorldQuest) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L33)
 function ObjectiveTrackerQuestPOIBlockMixin:GetPOIButton(style) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L50)
 function ObjectiveTrackerQuestPOIBlockMixin:SetPOIInfo(questID, isComplete, isSuperTracked, isWorldQuest) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L58)
 function ObjectiveTrackerQuestPOIBlockMixin:Free() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerQuestPOIBlock.lua#L63)
 function ObjectiveTrackerQuestPOIBlockMixin:CheckAndReleasePOIButton() end

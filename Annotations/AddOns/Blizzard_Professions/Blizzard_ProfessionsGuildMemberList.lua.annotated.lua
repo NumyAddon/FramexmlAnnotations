@@ -1,27 +1,27 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L1)
 --- @class ProfessionsGuildCrafterButtonMixin
 ProfessionsGuildCrafterButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L18)
 --- @class ProfessionsGuildListingMixin
 ProfessionsGuildListingMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L3)
 function ProfessionsGuildCrafterButtonMixin:Init(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L20)
 function ProfessionsGuildListingMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L39)
 function ProfessionsGuildListingMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L51)
 function ProfessionsGuildListingMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L58)
 function ProfessionsGuildListingMixin:ShowGuildRecipe(skillLineID, recipeID, recipeLevel) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L70)
 function ProfessionsGuildListingMixin:Refresh() end

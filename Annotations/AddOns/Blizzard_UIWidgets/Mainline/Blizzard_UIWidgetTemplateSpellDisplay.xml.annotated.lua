@@ -1,0 +1,14 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.xml#L3)
+--- Template
+--- @class RarityPipTemplate : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.xml#L8)
+--- @class UIWidgetTemplateSpellDisplay_Spell : Frame, UIWidgetBaseSpellTemplate, UIWidgetTemplateSpellDisplaySpellMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateSpellDisplay.xml#L6)
+--- Template
+--- @class UIWidgetTemplateSpellDisplay : Frame, UIWidgetBaseTemplate, UIWidgetTemplateSpellDisplayMixin
+--- @field Spell UIWidgetTemplateSpellDisplay_Spell
+

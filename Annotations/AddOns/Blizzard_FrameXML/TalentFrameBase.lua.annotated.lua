@@ -42,18 +42,3 @@ function PvpTalentSlotMixin:OnClick() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/TalentFrameBase.lua#L332)
 function PvpTalentSlotMixin:OnDragStart() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/TalentFrameBase.lua#L15)
-function TalentFrame_Load(TalentFrame) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/TalentFrameBase.lua#L19)
-function TalentFrame_Clear(TalentFrame) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/TalentFrameBase.lua#L35)
-function TalentFrame_Update(TalentFrame, talentUnit) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/TalentFrameBase.lua#L143)
-function TalentFrame_UpdateRowGlow(talentRow, restartGlow) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/TalentFrameBase.lua#L168)
-function TalentFrame_UpdateSpecInfoCache(cache, inspect, pet, talentGroup) end

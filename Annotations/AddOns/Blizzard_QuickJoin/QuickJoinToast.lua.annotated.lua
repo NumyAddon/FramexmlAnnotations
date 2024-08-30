@@ -152,12 +152,3 @@ function QuickJoinToastThrottleMixin:GetThresholdAtTime(t) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_QuickJoin/QuickJoinToast.lua#L701)
 function QuickJoinToastThrottleMixin:GetTimeOfThreshold(threshold) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_QuickJoin/QuickJoinToast.lua#L515)
-function QuickJoinToast_GetPriority(group, queues, players) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_QuickJoin/QuickJoinToast.lua#L532)
-function QuickJoinToast_GetPriorityFromQueue(queue) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_QuickJoin/QuickJoinToast.lua#L618)
-function QuickJoinToast_GetPriorityFromPlayers(players) end

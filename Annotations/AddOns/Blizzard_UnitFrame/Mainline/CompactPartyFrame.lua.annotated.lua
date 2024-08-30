@@ -27,6 +27,3 @@ function CompactPartyFrameMixin:UpdateVisibility() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.lua#L147)
 function CompactPartyFrameMixin:RefreshMembers() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.lua#L1)
-function CompactPartyFrame_Generate() end

@@ -227,9 +227,3 @@ function MainActionBarDownButtonMixin:OnClick() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.lua#L378)
 function MainActionBarDownButtonMixin:OnLeave() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.lua#L157)
-function MainMenu_GetMovieDownloadProgress(id) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.lua#L176)
-function MainMenuBarPerformanceBarFrame_OnEnter(self) end

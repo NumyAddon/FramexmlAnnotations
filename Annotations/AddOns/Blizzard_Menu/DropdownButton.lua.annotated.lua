@@ -130,9 +130,3 @@ function DropdownButtonProxyMixin:OnMouseDown(...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L415)
 function DropdownButtonProxyMixin:HandlesGlobalMouseEvent(buttonName, event) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L5)
-function IsDropdownButtonIntrinsic(frame) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L9)
-function ValidateIsDropdownButtonIntrinsic(frame) end

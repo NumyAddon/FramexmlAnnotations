@@ -94,12 +94,3 @@ function UnitPositionFrameUpdateSecureMixin:UpdatePlayerPins() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/UnitPositionFrameTemplates.lua#L333)
 function UnitPositionFrameUpdateSecureMixin:SetAppearanceField(unitType, fieldName, fieldValue) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/UnitPositionFrameTemplates.lua#L49)
-function SetPVPAFKQueryDelaySeconds(seconds) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/UnitPositionFrameTemplates.lua#L53)
-function GetIsPVPInactive(unit, timeNowSeconds) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/UnitPositionFrameTemplates.lua#L73)
-function CheckColorOverrideForPVPInactive(unit, timeNow, r, g, b) end

@@ -188,9 +188,3 @@ function BagsBarMixin:IsDirectionLeft() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L503)
 function BagsBarMixin:IsDirectionUp() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L166)
-function BackpackButton_OnModifiedClick(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.lua#L280)
-function CalculateTotalNumberOfFreeBagSlots() end

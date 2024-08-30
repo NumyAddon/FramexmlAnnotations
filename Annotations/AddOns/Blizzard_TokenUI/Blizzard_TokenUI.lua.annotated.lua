@@ -235,6 +235,3 @@ function BackpackTokenMixin:OnLeave() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L597)
 function BackpackTokenMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L387)
-function GetNumWatchedTokens() end

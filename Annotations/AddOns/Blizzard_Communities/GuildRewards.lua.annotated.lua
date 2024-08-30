@@ -44,24 +44,3 @@ function GuildAchievementPointDisplayMixin:OnEnter() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L258)
 function GuildAchievementPointDisplayMixin:OnMouseUp() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L56)
-function CommunitiesGuildRewardsFrame_OnLoad(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L67)
-function CommunitiesGuildRewardsFrame_OnShow(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L71)
-function CommunitiesGuildRewardsFrame_OnEvent(self, event) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L75)
-function CommunitiesGuildRewards_Update(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L90)
-function CommunitiesGuildRewardsButton_OnEnter(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L123)
-function CommunitiesGuildRewardsButton_OnLeave(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L128)
-function CommunitiesGuildRewardsButton_OnClick(self, button) end

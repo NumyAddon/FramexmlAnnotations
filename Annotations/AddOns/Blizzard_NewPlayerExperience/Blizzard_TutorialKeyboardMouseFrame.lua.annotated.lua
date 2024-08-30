@@ -40,6 +40,3 @@ function TutorialWalkMixin:_SetContent(content) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.lua#L133)
 function TutorialWalkMixin:HideTutorial(id) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.lua#L2)
-function KeyboardMouseConfirmButton_OnClick() end

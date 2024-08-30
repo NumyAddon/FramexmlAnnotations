@@ -21,6 +21,3 @@ function SoulbindConduitMixin:Matches(conduit) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduit.lua#L27)
 function SoulbindConduitMixin:GetHyperlink() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduit.lua#L31)
-function SoulbindConduitMixin_Create(conduitID) end

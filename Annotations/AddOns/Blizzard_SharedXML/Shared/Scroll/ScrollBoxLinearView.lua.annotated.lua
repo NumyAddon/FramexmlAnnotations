@@ -90,12 +90,3 @@ function ScrollBoxLinearViewMixin:RecalculateExtent(scrollBox) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L192)
 function ScrollBoxLinearViewMixin:GetExtent(scrollBox) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L17)
-function CreateScrollBoxLinearPadding(top, bottom, left, right, spacing) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L142)
-function CreateScrollBoxListLinearView(top, bottom, left, right, spacing) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L199)
-function CreateScrollBoxLinearView(top, bottom, left, right, spacing) end

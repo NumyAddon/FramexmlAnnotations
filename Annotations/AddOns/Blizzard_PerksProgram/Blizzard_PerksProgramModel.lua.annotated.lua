@@ -88,6 +88,3 @@ function PerksProgramModelSceneContainerFrameMixin:PlayerTryOnOverrideSet(select
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramModel.lua#L769)
 function PerksProgramModelSceneContainerFrameMixin:SetupModelSceneForTransmogs(data, modelSceneID, forceSceneChange) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramModel.lua#L20)
-function PerksProgram_GetPlayerActorLabelTag(useAlternateForm) end

@@ -24,9 +24,3 @@ function PrivateAuraMixin:Update(auraInfo, unit, anchorInfo) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L121)
 function PrivateAuraMixin:UpdateDuration(timeLeft) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L324)
-function RaidBossEmoteFrame_OnLoad(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L352)
-function RaidBossEmoteFrame_OnEvent(self, event, ...) end

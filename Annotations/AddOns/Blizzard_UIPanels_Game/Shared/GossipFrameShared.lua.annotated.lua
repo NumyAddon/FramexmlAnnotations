@@ -90,9 +90,3 @@ function GossipFrameSharedMixin:Update() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L300)
 function GossipFrameSharedMixin:SetGossipTitle(title) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L194)
-function GossipOptionSort(leftInfo, rightInfo) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L305)
-function SelectGossipOption(index) end

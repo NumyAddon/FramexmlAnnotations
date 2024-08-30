@@ -15,6 +15,3 @@ function TemplateInfoCacheMixin:GetTemplateInfo(frameTemplate) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXMLBase/TemplateInfoCache.lua#L32)
 function TemplateInfoCacheMixin:GetTemplateInfos() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXMLBase/TemplateInfoCache.lua#L36)
-function CreateTemplateInfoCache() end

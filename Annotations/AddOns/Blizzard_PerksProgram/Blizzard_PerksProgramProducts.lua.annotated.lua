@@ -110,6 +110,3 @@ function FrozenProductContainerMixin:FreezeDraggedItem() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramProducts.lua#L838)
 function FrozenProductContainerMixin:ShowFreezeBG(show) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramProducts.lua#L225)
-function PerksProgram_TranslateDisplayInfo(perksVendorCategoryID, displayInfo) end

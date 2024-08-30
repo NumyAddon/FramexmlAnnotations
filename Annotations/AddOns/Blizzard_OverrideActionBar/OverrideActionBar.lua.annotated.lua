@@ -45,6 +45,3 @@ function OverrideActionBarMixin:UpdateXpBar(newLevel) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L297)
 function OverrideActionBarMixin:IsShownOverride() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L215)
-function OverrideActionBar_StatusBars_ShowTooltip(self) end

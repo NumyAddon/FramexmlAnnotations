@@ -219,6 +219,3 @@ function ScrollingMessageFrameMixin:UpdateFading() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L722)
 function ScrollingMessageFrameMixin:OnFontObjectUpdated() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L726)
-function IsScrollingMessageFrame(object) end

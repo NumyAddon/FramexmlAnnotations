@@ -176,6 +176,3 @@ function PlayerChoiceFrameMixin:AreOptionsAligned() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.lua#L406)
 function PlayerChoiceFrameMixin:IsLegacy() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.lua#L139)
-function PlayerChoiceGetTextureKitInfo(textureKit) end

@@ -137,6 +137,3 @@ function PVPNewRatingMixin:Init(useAlternateColor) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L319)
 function PVPNewRatingMixin:Populate(rowData, dataIndex) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L339)
-function ConstructPVPMatchTable(tableBuilder, useAlternateColor) end

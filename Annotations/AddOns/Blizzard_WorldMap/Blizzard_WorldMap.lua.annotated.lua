@@ -103,15 +103,3 @@ function WorldMapMixin:ClearFocusedQuestID() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua#L491)
 function WorldMapMixin:PingQuestID(questID) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua#L498)
-function ToggleQuestLog() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua#L502)
-function ToggleWorldMap() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua#L506)
-function OpenWorldMap(mapID) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua#L510)
-function OpenQuestLog(mapID) end

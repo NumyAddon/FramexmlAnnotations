@@ -116,24 +116,3 @@ function GearEnchantAnimationMixin:PlayAndShow() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L459)
 function GearEnchantAnimationMixin:StopAndHide() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L24)
-function ToggleCharacter (tab, onlyShow) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L51)
-function ShowCharacterFrameIfMatchesContext() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L320)
-function CharacterFrameCorruption_OnLoad(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L326)
-function CharacterFrameCorruption_OnEvent(self, event, ...) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L339)
-function CharacterFrameCorruption_UpdateVisibility(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L347)
-function CharacterFrameCorruption_OnEnter(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L396)
-function CharacterFrameCorruption_OnLeave(self) end

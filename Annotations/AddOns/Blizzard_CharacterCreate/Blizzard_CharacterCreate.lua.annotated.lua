@@ -634,6 +634,3 @@ function CharacterCreateStartingZoneArtMixin:OnClick() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.lua#L2238)
 function CharacterCreateStartingZoneButtonMixin:OnCheckButtonClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.lua#L2244)
-function SelectOtherRaceAvailable() end

@@ -28,6 +28,3 @@ function PingSystemTutorialMixin:OnHide() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.lua#L144)
 function PingSystemTutorialMixin:OnShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.lua#L122)
-function PingSystemInitializer(category) end

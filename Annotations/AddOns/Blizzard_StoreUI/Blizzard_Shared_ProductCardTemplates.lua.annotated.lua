@@ -138,27 +138,3 @@ function StoreCardMixin:HideIcon() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L490)
 function StoreCardMixin:UpdateCard(entryID, forceModelUpdate) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L584)
-function StoreProductCardItem_OnEnter(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L598)
-function StoreProductCardItem_OnLeave(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L619)
-function ProductCardBuyButton_OnClick(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L626)
-function ProductCardBuyButton_OnEnter(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L631)
-function ProductCardBuyButton_OnLeave(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L636)
-function StoreProductCardCheckmark_OnEnter(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L655)
-function StoreProductCardCheckmark_OnLeave(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L663)
-function StoreCardDetail_SetLayerAboveModelScene(self) end

@@ -117,6 +117,3 @@ function QuickJoinRoleSelectionMixin:OnAccept() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.lua#L600)
 function QuickJoinRoleSelectionMixin:OnCancel() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.lua#L607)
-function QuickJoin_JoinQueueButtonOnClick(self) end

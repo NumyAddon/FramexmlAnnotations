@@ -37,6 +37,3 @@ function SettingsListMixin:Display(initializers) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L143)
 function SettingsListMixin:ScrollToElementByName(name) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L37)
-function CreateSettingsListSearchCategoryInitializer(category) end

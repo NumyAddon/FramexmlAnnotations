@@ -317,6 +317,3 @@ function CommunitiesMemberListFactionButtonMixin:OnShow() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1752)
 function CommunitiesMemberListFactionButtonMixin:OnEnter() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L903)
-function CommunitiesMemberListColumnDisplay_OnClick(self, columnIndex) end

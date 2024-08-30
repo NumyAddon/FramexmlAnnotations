@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L22)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L22)
 --- @class AsyncCallbackSystemMixin
 AsyncCallbackSystemMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L24)
 function AsyncCallbackSystemMixin:Init(apiType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L47)
 function AsyncCallbackSystemMixin:AddCallback(id, callbackFunction) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L58)
 function AsyncCallbackSystemMixin:AddCancelableCallback(id, callbackFunction) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L70)
 function AsyncCallbackSystemMixin:FireCallbacks(id) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L87)
 function AsyncCallbackSystemMixin:ClearCallbacks(id) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L91)
 function AsyncCallbackSystemMixin:GetCallbacks(id) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L95)
 function AsyncCallbackSystemMixin:GetOrCreateCallbacks(id) end

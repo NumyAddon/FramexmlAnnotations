@@ -1,23 +1,23 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L3)
 --- Template
 --- @class OribosScrollBarButtonScripts : Frame, OribosScrollBarButtonScriptsMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L33)
 --- @class OribosScrollBar_Track_Thumb : EventButton, OribosScrollBarButtonScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L21)
 --- @class OribosScrollBar_Track : Frame
 --- @field Thumb OribosScrollBar_Track_Thumb
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L67)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L67)
 --- @class OribosScrollBar_Back : EventButton, OribosScrollBarButtonScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L100)
 --- @class OribosScrollBar_Forward : EventButton, OribosScrollBarButtonScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L15)
 --- Template
 --- @class OribosScrollBar : EventFrame, VerticalScrollBarTemplate
 --- @field Track OribosScrollBar_Track

@@ -1,32 +1,32 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L1)
 --- @class LandingPageRenownButtonMixin
 LandingPageRenownButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L3)
 function LandingPageRenownButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L9)
 function LandingPageRenownButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L16)
 function LandingPageRenownButtonMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L20)
 function LandingPageRenownButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L24)
 function LandingPageRenownButtonMixin:OnCurrencyUpdate(currencyType, quantity, delta, gainSource, lostSource) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L30)
 function LandingPageRenownButtonMixin:UpdateRenownLevel() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L34)
 function LandingPageRenownButtonMixin:UpdateButtonTextures() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L41)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L41)
 function LandingPageRenownButtonMixin:OnMouseDown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingRenownButton.lua#L45)
 function LandingPageRenownButtonMixin:OnMouseUp() end

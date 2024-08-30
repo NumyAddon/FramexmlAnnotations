@@ -1,20 +1,20 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L84)
 --- @class SoulbindsSelectButtonTemplate_ModelScene_NewAlert : Frame, NewFeatureLabelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L99)
 --- @class SoulbindsSelectButtonTemplate_ModelScene_Active : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L8)
 --- @class SoulbindsSelectButtonTemplate_ModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 --- @field NewAlert SoulbindsSelectButtonTemplate_ModelScene_NewAlert
 --- @field Active SoulbindsSelectButtonTemplate_ModelScene_Active
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L116)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L116)
 --- @class SoulbindsSelectButtonTemplate_FxModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L5)
 --- Template
 --- @class SoulbindsSelectButtonTemplate : Button, SelectableButtonTemplate, SoulbindsSelectButtonMixin
 --- @field ModelScene SoulbindsSelectButtonTemplate_ModelScene

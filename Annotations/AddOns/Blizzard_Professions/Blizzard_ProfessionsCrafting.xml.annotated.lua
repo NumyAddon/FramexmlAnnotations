@@ -1,109 +1,109 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L5)
 --- Template
 --- @class CraftingSearchSMTemplate : Button, SearchBoxListElementMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L49)
 --- Template
 --- @class CraftingSearchAllSMTemplate : Button, SearchBoxListAllButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L51)
 --- Template
 --- @class CraftingSearchLGTemplate : Button, CraftingSearchLGMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L86)
 --- Template
 --- @class ProfessionsGearSlotTemplate : ItemButton, ProfessionsGearSlotTemplateMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L124)
 --- @class ProfessionsCraftingPageTemplate_ConcentrationDisplay : Frame, ProfessionsCurrencyTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L130)
 --- @class ProfessionsCraftingPageTemplate_TutorialButton : Button, MainHelpPlateButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L136)
 --- @class ProfessionsCraftingPageTemplate_RecipeList : Frame, ProfessionsRecipeListTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L163)
 --- @class ProfessionsCraftingPageTemplate_SchematicForm_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L144)
 --- @class ProfessionsCraftingPageTemplate_SchematicForm : Frame, ProfessionsRecipeSchematicFormTemplate
 --- @field NineSlice ProfessionsCraftingPageTemplate_SchematicForm_NineSlice
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L167)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L167)
 --- @class ProfessionsCraftingPageTemplate_MinimizedSearchBox : EditBox, SearchBoxListTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L184)
 --- @class ProfessionsCraftingPageTemplate_MinimizedSearchResults_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L190)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L190)
 --- @class ProfessionsCraftingPageTemplate_MinimizedSearchResults_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L178)
 --- @class ProfessionsCraftingPageTemplate_MinimizedSearchResults : Frame, ButtonFrameTemplate
 --- @field ScrollBox ProfessionsCraftingPageTemplate_MinimizedSearchResults_ScrollBox
 --- @field ScrollBar ProfessionsCraftingPageTemplate_MinimizedSearchResults_ScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L199)
 --- @class ProfessionsCraftingPageTemplate_RankBar : Frame, ProfessionsRankBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L205)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L205)
 --- @class ProfessionsCraftingPageTemplate_CreateButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L209)
 --- @class ProfessionsCraftingPageTemplate_CreateMultipleInputBox : EditBox, NumericInputSpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L219)
 --- @class ProfessionsCraftingPageTemplate_CreateAllButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L226)
 --- @class ProfessionsCraftingPageTemplate_ViewGuildCraftersButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L233)
 --- @class ProfessionsCraftingPageTemplate_GuildFrame : Frame, ProfessionsGuildListingTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L239)
 --- @class ProfessionsCraftingPageTemplate_CraftingOutputLog : Frame, ProfessionsCraftingOutputLogTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L245)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L245)
 --- @class ProfessionsCraftingPageTemplate_Prof0ToolSlot : ItemButton, ProfessionsGearSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L254)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L254)
 --- @class ProfessionsCraftingPageTemplate_Prof0Gear0Slot : ItemButton, ProfessionsGearSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L263)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L263)
 --- @class ProfessionsCraftingPageTemplate_Prof0Gear1Slot : ItemButton, ProfessionsGearSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L273)
 --- @class ProfessionsCraftingPageTemplate_Prof1ToolSlot : ItemButton, ProfessionsGearSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L282)
 --- @class ProfessionsCraftingPageTemplate_Prof1Gear0Slot : ItemButton, ProfessionsGearSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L291)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L291)
 --- @class ProfessionsCraftingPageTemplate_Prof1Gear1Slot : ItemButton, ProfessionsGearSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L301)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L301)
 --- @class ProfessionsCraftingPageTemplate_CookingToolSlot : ItemButton, ProfessionsGearSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L310)
 --- @class ProfessionsCraftingPageTemplate_CookingGear0Slot : ItemButton, ProfessionsGearSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L320)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L320)
 --- @class ProfessionsCraftingPageTemplate_FishingToolSlot : ItemButton, ProfessionsGearSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L350)
 --- @class ProfessionsCraftingPageTemplate_GearSlotDivider : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L362)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L362)
 --- @class ProfessionsCraftingPageTemplate_LinkButton : DropdownButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L380)
 --- @class ProfessionsCraftingPageTemplate_OverlayCastBarAnchor : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L122)
 --- Template
 --- @class ProfessionsCraftingPageTemplate : Frame, ProfessionsCraftingPageMixin
 --- @field ConcentrationDisplay ProfessionsCraftingPageTemplate_ConcentrationDisplay

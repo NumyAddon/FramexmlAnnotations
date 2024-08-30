@@ -1,69 +1,69 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L4)
 --- Template
 --- @class TokenHeaderTemplate : Button, TokenHeaderMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L63)
 --- @class TokenSubHeaderTemplate_ToggleCollapseButton : Button, TokenSubHeaderToggleCollapseButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L60)
 --- Template
 --- @class TokenSubHeaderTemplate : Frame, TruncatedTooltipFontStringWrapperTemplate, TokenSubHeaderMixin
 --- @field ToggleCollapseButton TokenSubHeaderTemplate_ToggleCollapseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L94)
 --- @class TokenEntryTemplate_Content_BackgroundHighlight : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L121)
 --- @class TokenEntryTemplate_Content_AccountWideIcon : Frame, TokenEntryAccountWideIconMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L92)
 --- @class TokenEntryTemplate_Content : Frame
 --- @field BackgroundHighlight TokenEntryTemplate_Content_BackgroundHighlight
 --- @field AccountWideIcon TokenEntryTemplate_Content_AccountWideIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L89)
 --- Template
 --- @class TokenEntryTemplate : Button, TokenEntryMixin
 --- @field Content TokenEntryTemplate_Content
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L182)
 --- @class TokenFrame_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L189)
 --- @class TokenFrame_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L196)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L196)
 --- @class TokenFrame_CurrencyTransferLogToggleButton : Button, CurrencyTransferLogToggleButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L180)
 --- @class TokenFrame : Frame, TokenFrameMixin
 --- @field ScrollBox TokenFrame_ScrollBox
 --- @field ScrollBar TokenFrame_ScrollBar
 --- @field CurrencyTransferLogToggleButton TokenFrame_CurrencyTransferLogToggleButton
 TokenFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L209)
 --- @class CurrencyTransferLog : Frame, CurrencyTransferLogTemplate
 CurrencyTransferLog = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L230)
 --- @class TokenFramePopup_Border : Frame, SecureDialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L231)
 --- @class TokenFramePopup_InactiveCheckbox : CheckButton, UICheckButtonTemplate, InactiveCurrencyCheckboxMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L243)
 --- @class TokenFramePopup_BackpackCheckbox : CheckButton, UICheckButtonTemplate, BackpackCurrencyCheckboxMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L255)
 --- @class TokenFramePopup_CurrencyTransferToggleButton : Button, CurrencyTransferToggleButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L260)
 --- @class TokenFramePopup_$parent.CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L215)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L215)
 --- @class TokenFramePopup : Frame, TokenFramePopupMixin
 --- @field Border TokenFramePopup_Border
 --- @field InactiveCheckbox TokenFramePopup_InactiveCheckbox
@@ -72,14 +72,14 @@ CurrencyTransferLog = {}
 --- @field $parent.CloseButton TokenFramePopup_$parent.CloseButton
 TokenFramePopup = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L271)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L271)
 --- Template
 --- @class BackpackTokenTemplate : Button, BackpackTokenMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L299)
 --- @class BackpackTokenFrameTemplate_Border : Frame, ContainerFrameCurrencyBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L296)
 --- Template
 --- @class BackpackTokenFrameTemplate : Frame, BackpackTokenFrameMixin
 --- @field Border BackpackTokenFrameTemplate_Border

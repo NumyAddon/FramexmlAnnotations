@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L2)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L2)
 --- @class TableInspectorDataProviderMixin
 TableInspectorDataProviderMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L4)
 function TableInspectorDataProviderMixin:Initialize(tableInspector, parent) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L8)
 function TableInspectorDataProviderMixin:RefreshData(focusedTable) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L12)
 function TableInspectorDataProviderMixin:GetFocusedTable() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L16)
 function TableInspectorDataProviderMixin:GetTableInspector() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L20)
 function TableInspectorDataProviderMixin:HideAllLines() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L23)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L23)
 function TableInspectorDataProviderMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L26)
 function TableInspectorDataProviderMixin:GetLines(filter) end

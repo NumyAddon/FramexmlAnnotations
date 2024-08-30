@@ -1,33 +1,33 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L10)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L10)
 --- @class UIWidgetTemplateScenarioHeaderDelvesMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateScenarioHeaderDelvesMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L124)
 --- @class UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin
 UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L20)
 function UIWidgetTemplateScenarioHeaderDelvesMixin:Setup(widgetInfo, widgetContainer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L80)
 function UIWidgetTemplateScenarioHeaderDelvesMixin:ApplyEffects(widgetInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L84)
 function UIWidgetTemplateScenarioHeaderDelvesMixin:UpdateSpellFrameEffects(widgetInfo, spellInfo, spellFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L95)
 function UIWidgetTemplateScenarioHeaderDelvesMixin:CustomDebugSetup(color) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L113)
 function UIWidgetTemplateScenarioHeaderDelvesMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L118)
 function UIWidgetTemplateScenarioHeaderDelvesMixin:OnReset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L126)
 function UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L133)
 function UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin:OnLeave() end

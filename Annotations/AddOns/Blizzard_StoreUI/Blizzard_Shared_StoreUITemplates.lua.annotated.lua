@@ -1,43 +1,43 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L2)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L2)
 --- @class StoreTooltipBackdropMixin
 StoreTooltipBackdropMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L12)
 --- @class StoreBulletPointMixin
 StoreBulletPointMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L51)
 --- @class CategoryTreeScrollContainerMixin
 CategoryTreeScrollContainerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L4)
 function StoreTooltipBackdropMixin:StoreTooltipOnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L13)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L13)
 function StoreBulletPointMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L19)
 function StoreBulletPointMixin:OnHyperlinkEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L27)
 function StoreBulletPointMixin:OnHyperlinkLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L35)
 function StoreBulletPointMixin:OnHyperlinkClick(link) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L52)
 function CategoryTreeScrollContainerMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L215)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L215)
 function CategoryTreeScrollContainerMixin:ExpandSelectFirstChild(node, dataProvider) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L226)
 function CategoryTreeScrollContainerMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L232)
 function CategoryTreeScrollContainerMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L278)
 function CategoryTreeScrollContainerMixin:UpdateCategories() end

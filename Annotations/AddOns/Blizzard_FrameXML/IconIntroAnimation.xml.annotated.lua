@@ -1,22 +1,22 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L3)
 --- Template
 --- @class IconIntroAnimTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L59)
 --- @class IconIntroTemplate_IconIntroTemplateIconTrail3 : Frame, IconIntroAnimTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L65)
 --- @class IconIntroTemplate_IconIntroTemplateIconTrail2 : Frame, IconIntroAnimTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L71)
 --- @class IconIntroTemplate_IconIntroTemplateIconTrail1 : Frame, IconIntroAnimTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L77)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L77)
 --- @class IconIntroTemplate_IconIntroTemplateIcon : Frame, IconIntroAnimTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L56)
 --- Template
 --- @class IconIntroTemplate : Frame
 --- @field trail3 IconIntroTemplate_IconIntroTemplateIconTrail3
@@ -24,7 +24,7 @@
 --- @field trail1 IconIntroTemplate_IconIntroTemplateIconTrail1
 --- @field icon IconIntroTemplate_IconIntroTemplateIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L101)
 --- @class IconIntroTracker : Frame, IconIntroTrackerMixin
 IconIntroTracker = {}
 

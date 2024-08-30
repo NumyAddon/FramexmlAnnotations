@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrames.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrames.xml#L4)
 --- Template
 --- @class AlertFrameTemplate : ContainedAlertFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrames.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrames.xml#L12)
 --- Template
 --- @class AlertContainerTemplate : Frame, AlertContainerMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrames.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrames.xml#L18)
 --- @class AlertFrame : Frame, AlertContainerTemplate, AlertFrameMixin
 AlertFrame = {}
 

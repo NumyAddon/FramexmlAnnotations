@@ -1,42 +1,42 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L14)
 --- Template
 --- @class SecureHandlerBaseTemplate : Frame, SecureFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L22)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L22)
 --- Template
 --- @class SecureHandlerStateTemplate : Frame, SecureFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L31)
 --- Template
 --- @class SecureHandlerAttributeTemplate : Frame, SecureFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L41)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L41)
 --- Template
 --- @class SecureHandlerClickTemplate : Button, SecureHandlerBaseTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L51)
 --- Template
 --- @class SecureHandlerDoubleClickTemplate : Button, SecureHandlerBaseTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L60)
 --- Template
 --- @class SecureHandlerDragTemplate : Frame, SecureHandlerBaseTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L72)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L72)
 --- Template
 --- @class SecureHandlerShowHideTemplate : Frame, SecureHandlerBaseTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L84)
 --- Template
 --- @class SecureHandlerMouseUpDownTemplate : Frame, SecureHandlerBaseTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L96)
 --- Template
 --- @class SecureHandlerMouseWheelTemplate : Frame, SecureHandlerBaseTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/SecureHandlerTemplates.xml#L109)
 --- Template
 --- @class SecureHandlerEnterLeaveTemplate : Frame, SecureHandlerBaseTemplate
 

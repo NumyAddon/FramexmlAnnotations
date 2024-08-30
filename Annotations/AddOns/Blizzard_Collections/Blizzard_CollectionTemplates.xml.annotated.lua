@@ -1,44 +1,44 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L5)
 --- Template
 --- @class CollectionsProgressBarTemplate : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L107)
 --- @class CollectionsSpellButtonTemplate_cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L113)
 --- @class CollectionsSpellButtonTemplate_cooldownWrapper : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L39)
 --- Template
 --- @class CollectionsSpellButtonTemplate : CheckButton, SecureFrameTemplate
 --- @field cooldown CollectionsSpellButtonTemplate_cooldown
 --- @field cooldownWrapper CollectionsSpellButtonTemplate_cooldownWrapper
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L168)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L168)
 --- Template
 --- @class CollectionsBackgroundTemplate : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L370)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L370)
 --- Template
 --- @class CollectionsPageTextTemplate : FontString, GameFontWhite
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L372)
 --- Template
 --- @class CollectionsPrevPageButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L380)
 --- Template
 --- @class CollectionsNextPageButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L392)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L392)
 --- @class CollectionsPagingFrameTemplate_PrevPageButton : Button, CollectionsPrevPageButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L402)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L402)
 --- @class CollectionsPagingFrameTemplate_NextPageButton : Button, CollectionsNextPageButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L388)
 --- Template
 --- @class CollectionsPagingFrameTemplate : Frame, CollectionsPagingMixin
 --- @field PrevPageButton CollectionsPagingFrameTemplate_PrevPageButton

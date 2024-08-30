@@ -1,80 +1,80 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1177)
 --- @class NewPetAlertFrameMixin : ItemAlertFrameMixin
 NewPetAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1209)
 --- @class NewMountAlertFrameMixin : ItemAlertFrameMixin
 NewMountAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1241)
 --- @class NewToyAlertFrameMixin : ItemAlertFrameMixin
 NewToyAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1264)
 --- @class NewRuneforgePowerAlertFrameMixin : ItemAlertFrameMixin, RuneforgePowerBaseMixin
 NewRuneforgePowerAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin, RuneforgePowerBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1307)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1307)
 --- @class NewCosmeticAlertFrameMixin : ItemAlertFrameMixin
 NewCosmeticAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1012)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1012)
 --- @class SkillLineSpecsUnlockedAlertFrameMixin
 SkillLineSpecsUnlockedAlertFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1156)
 --- @class ItemAlertFrameMixin
 ItemAlertFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1014)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1014)
 function SkillLineSpecsUnlockedAlertFrameMixin:SetUp(skillLineID, tradeSkillID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1028)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1028)
 function SkillLineSpecsUnlockedAlertFrameMixin:OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1158)
 function ItemAlertFrameMixin:SetUpDisplay(icon, itemQuality, name, label, overlayAtlas) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1179)
 function NewPetAlertFrameMixin:SetUp(petID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1190)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1190)
 function NewPetAlertFrameMixin:OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1211)
 function NewMountAlertFrameMixin:SetUp(mountID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1219)
 function NewMountAlertFrameMixin:OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1243)
 function NewToyAlertFrameMixin:SetUp(toyID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1250)
 function NewToyAlertFrameMixin:OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1266)
 function NewRuneforgePowerAlertFrameMixin:SetUp(powerID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1270)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1270)
 function NewRuneforgePowerAlertFrameMixin:OnPowerSet(oldPowerID, newPowerID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1276)
 function NewRuneforgePowerAlertFrameMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1282)
 function NewRuneforgePowerAlertFrameMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1288)
 function NewRuneforgePowerAlertFrameMixin:OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1309)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1309)
 function NewCosmeticAlertFrameMixin:SetUp(itemModifiedAppearanceID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1339)
 function NewCosmeticAlertFrameMixin:OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1351)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1351)
 function NewCosmeticAlertFrameMixin:OnRelease() end

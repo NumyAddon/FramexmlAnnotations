@@ -1,36 +1,36 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L160)
 --- @class CollectionMicroButtonMixin
 CollectionMicroButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L245)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L245)
 --- @class EJMicroButtonMixin
 EJMicroButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L170)
 function CollectionMicroButtonMixin:EvaluateAlertVisibility() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L191)
 function CollectionMicroButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L202)
 function CollectionMicroButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L239)
 function CollectionMicroButtonMixin:OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L247)
 function EJMicroButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L260)
 function EJMicroButtonMixin:UpdateLastEvaluations() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L274)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L274)
 function EJMicroButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L278)
 function EJMicroButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L328)
 function EJMicroButtonMixin:OnClick(button, down) end

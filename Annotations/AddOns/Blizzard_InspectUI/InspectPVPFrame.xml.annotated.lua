@@ -1,38 +1,38 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L5)
 --- Template
 --- @class InspectPvpStatTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L39)
 --- Template
 --- @class InspectPvpTalentSlotTemplate : Button, PvpTalentSlotTemplate, InspectPvpTalentSlotMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L79)
 --- @class InspectPVPFrame_RatedBG : Frame, InspectPvpStatTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L89)
 --- @class InspectPVPFrame_Arena2v2 : Frame, InspectPvpStatTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L99)
 --- @class InspectPVPFrame_Arena3v3 : Frame, InspectPvpStatTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L109)
 --- @class InspectPVPFrame_RatedSoloShuffle : Frame, InspectPvpStatTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L119)
 --- @class InspectPVPFrame_RatedBGBlitz : Frame, InspectPvpStatTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L129)
 --- @class InspectPVPFrame_TalentSlot1 : Button, InspectPvpTalentSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L134)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L134)
 --- @class InspectPVPFrame_TalentSlot2 : Button, InspectPvpTalentSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L139)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L139)
 --- @class InspectPVPFrame_TalentSlot3 : Button, InspectPvpTalentSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L46)
 --- @class InspectPVPFrame : Frame
 --- @field RatedBG InspectPVPFrame_RatedBG
 --- @field Arena2v2 InspectPVPFrame_Arena2v2

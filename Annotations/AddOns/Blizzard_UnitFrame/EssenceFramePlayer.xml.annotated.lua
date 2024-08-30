@@ -1,21 +1,21 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L8)
 --- @class EssencePointButtonTemplate_EssenceFilling : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L117)
 --- @class EssencePointButtonTemplate_EssenceFillDone : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L193)
 --- @class EssencePointButtonTemplate_EssenceEmpty : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L204)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L204)
 --- @class EssencePointButtonTemplate_EssenceFull : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L215)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L215)
 --- @class EssencePointButtonTemplate_EssenceDepleting : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L5)
 --- Template
 --- @class EssencePointButtonTemplate : Frame, EssencePointButtonMixin
 --- @field EssenceFilling EssencePointButtonTemplate_EssenceFilling
@@ -24,11 +24,11 @@
 --- @field EssenceFull EssencePointButtonTemplate_EssenceFull
 --- @field EssenceDepleting EssencePointButtonTemplate_EssenceDepleting
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L280)
 --- Template
 --- @class EssencePlayerFrameTemplate : Frame, ClassResourceBarTemplate, EssencePowerBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L294)
 --- @class EssencePlayerFrame : Frame, EssencePlayerFrameTemplate
 EssencePlayerFrame = {}
 

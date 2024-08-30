@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L19)
 --- @class PingFrameMixin
 PingFrameMixin = {};
 
@@ -49,7 +49,7 @@ PingListenerFrameMixin = {
     PingRadialKeyDownDuration = 0.15;
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L253)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L253)
 --- @class PingPinFrameMixin
 PingPinFrameMixin = {};
 
@@ -62,45 +62,45 @@ local PIN_FLIP_BOOK_INFO = {
     ["Threat"] = { sizeX=65, sizeY=75, anchorX=0.5, anchorY=0.9 },
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L372)
 --- @class PingPinFlipBookAnimMixin
 PingPinFlipBookAnimMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L21)
 function PingFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L29)
 function PingFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L35)
 function PingFrameMixin:Initialize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L44)
 function PingFrameMixin:RadialWheelCreated(radialParent) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L50)
 function PingFrameMixin:EvaluateResult(overrideTargetGUID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L268)
 function PingPinFrameMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L272)
 function PingPinFrameMixin:SetPinStyle(uiTextureKit, isWorldPoint) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L302)
 function PingPinFrameMixin:UpdatePinTargetStyle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L315)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L315)
 function PingPinFrameMixin:UpdatePinClampedStyle(state) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L345)
 function PingPinFrameMixin:UpdateClampedArrow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L355)
 function PingPinFrameMixin:AnimateIntro() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L374)
 function PingPinFlipBookAnimMixin:OnPlay() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L380)
 function PingPinFlipBookAnimMixin:OnFinished() end

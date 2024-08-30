@@ -1,17 +1,17 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L50)
 --- @class BlackMarketItemMixin
 BlackMarketItemMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L52)
 function BlackMarketItemMixin:OnClick(buttonName, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L70)
 function BlackMarketItemMixin:Init(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L120)
 function BlackMarketItemMixin:ShouldSelect(selected) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L124)
 function BlackMarketItemMixin:SetSelected(selected) end

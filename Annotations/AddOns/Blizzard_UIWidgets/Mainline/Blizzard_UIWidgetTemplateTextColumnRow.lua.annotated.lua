@@ -1,24 +1,24 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L10)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L10)
 --- @class UIWidgetTemplateTextColumnRowMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateTextColumnRowMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L68)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L68)
 --- @class UIWidgetTemplateTextColumnRowColumnMixin
 UIWidgetTemplateTextColumnRowColumnMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L12)
 function UIWidgetTemplateTextColumnRowMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L23)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L23)
 function UIWidgetTemplateTextColumnRowMixin:UpdateMouseEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L27)
 function UIWidgetTemplateTextColumnRowMixin:Setup(widgetInfo, widgetContainer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L63)
 function UIWidgetTemplateTextColumnRowMixin:OnReset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.lua#L70)
 function UIWidgetTemplateTextColumnRowColumnMixin:Setup(text, fontType, textSizeType, enabledState, hAlign, columnWidth, layoutIndex) end

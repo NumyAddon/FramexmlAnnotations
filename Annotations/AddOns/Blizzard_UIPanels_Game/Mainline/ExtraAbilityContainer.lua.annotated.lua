@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L6)
 --- @class ExtraAbilityContainerMixin
 ExtraAbilityContainerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L8)
 function ExtraAbilityContainerMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L13)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L13)
 function ExtraAbilityContainerMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L18)
 function ExtraAbilityContainerMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L26)
 function ExtraAbilityContainerMixin:AddFrame(frameToAdd, priority) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L55)
 function ExtraAbilityContainerMixin:RemoveFrame(frameToRemove) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L70)
 function ExtraAbilityContainerMixin:UpdateLayoutIndicies() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ExtraAbilityContainer.lua#L78)
 function ExtraAbilityContainerMixin:UpdateShownState() end

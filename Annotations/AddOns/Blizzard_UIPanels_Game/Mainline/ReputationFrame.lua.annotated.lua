@@ -707,12 +707,3 @@ function ReputationDetailWatchFactionCheckboxMixin:OnEnter() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L926)
 function ReputationDetailWatchFactionCheckboxMixin:OnLeave() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L722)
-function ReputationParagonFrame_SetupParagonTooltip(frame) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L768)
-function ReputationParagonWatchBar_OnEnter(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L779)
-function ReputationParagonWatchBar_OnLeave(self) end

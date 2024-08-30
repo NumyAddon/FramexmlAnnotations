@@ -78,9 +78,3 @@ function TransformTreeBaseNodeMixin:ResolveTransform() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TransformTree/TransformTreeBaseNodeMixin.lua#L200)
 function TransformTreeBaseNodeMixin:CheckResolvingError() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TransformTree/TransformTreeBaseNodeMixin.lua#L3)
-function CreateTransformTreeNode(nodeMixin, parentTransform, localPosition, localRotationRadians, localScale, ...) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_TransformTree/TransformTreeBaseNodeMixin.lua#L9)
-function CreateTransformTreeNodeFromWidget(widget, nodeMixin, parentTransform, localPosition, localRotationRadians, localScale, ...) end

@@ -204,6 +204,3 @@ function ProfessionsSpecPerkMixin:UpdateAssets() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.lua#L726)
 function ProfessionSpecEdgeArrowMixin:UpdateState() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.lua#L23)
-function ProfessionDial_GetRelativeRotation(currRank, maxRank, inPct) end

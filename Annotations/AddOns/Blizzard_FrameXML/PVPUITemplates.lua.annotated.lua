@@ -63,6 +63,3 @@ function PVPLootMixin:OnEnter() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.lua#L184)
 function PVPLootMixin:OnLeave() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.lua#L133)
-function PVPGetConquestLevelInfo() end

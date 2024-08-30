@@ -1272,9 +1272,3 @@ function WardrobeCollectionFrameSearchBoxMixin:OnTextChanged() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2616)
 function WardrobeCollectionFrameSearchBoxMixin:OnEnter() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L744)
-function WardrobeTransmogFrame_GetDisplayedSource(slotButton) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2507)
-function WardrobeCollectionFrameModelDropdown_SetFavorite(visualID, setFavorite, confirmed) end

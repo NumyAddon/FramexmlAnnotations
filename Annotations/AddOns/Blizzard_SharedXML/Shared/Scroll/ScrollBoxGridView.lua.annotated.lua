@@ -70,9 +70,3 @@ function ScrollBoxListGridViewMixin:GetExtentUntil(scrollBox, dataIndex) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L125)
 function ScrollBoxListGridViewMixin:GetPanExtent() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L25)
-function CreateScrollBoxGridPadding(top, bottom, left, right, horizontalSpacing, verticalSpacing) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L129)
-function CreateScrollBoxListGridView(stride, top, bottom, left, right, horizontalSpacing, verticalSpacing) end

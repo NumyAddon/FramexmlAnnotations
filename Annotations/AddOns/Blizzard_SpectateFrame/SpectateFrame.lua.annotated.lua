@@ -236,6 +236,3 @@ function SpectateCycleModeMixin:OnClick() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.lua#L219)
 function SpectateCycleModeMixin:SetArrowText(text) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.lua#L138)
-function LeaveMatchUtil_LeaveMatchPopup() end

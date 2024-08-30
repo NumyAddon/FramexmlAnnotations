@@ -33,21 +33,3 @@ function CollectionsPagingMixin:OnMouseWheel(delta) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.lua#L115)
 function CollectionsPagingMixin:Update() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.lua#L1)
-function CollectionsSpellButton_OnLoad(self, updateFunction) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.lua#L8)
-function CollectionsButton_OnEvent(self, event, ...) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.lua#L16)
-function CollectionsSpellButton_OnShow(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.lua#L24)
-function CollectionsSpellButton_OnHide(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.lua#L30)
-function CollectionsSpellButton_UpdateCooldown(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.lua#L130)
-function CollectionItemListButton_SetRedOverlayShown(self, showRedOverlay) end

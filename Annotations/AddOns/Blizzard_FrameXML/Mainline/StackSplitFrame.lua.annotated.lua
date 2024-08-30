@@ -24,15 +24,3 @@ function StackSplitMixin:OnKeyDown(key) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/Mainline/StackSplitFrame.lua#L181)
 function StackSplitMixin:OnKeyUp(key) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/Mainline/StackSplitFrame.lua#L206)
-function StackSplitLeftButton_OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/Mainline/StackSplitFrame.lua#L220)
-function StackSplitRightButton_OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/Mainline/StackSplitFrame.lua#L234)
-function StackSplitOkayButton_OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/Mainline/StackSplitFrame.lua#L242)
-function StackSplitCancelButton_OnClick() end

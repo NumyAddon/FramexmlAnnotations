@@ -108,6 +108,3 @@ function GridLayoutMixin:SetCustomOffsetFunction(func) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L88)
 function GridLayoutMixin:GetCustomOffset(row, col) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L50)
-function CreateAnchor(point, relativeTo, relativePoint, x, y) end

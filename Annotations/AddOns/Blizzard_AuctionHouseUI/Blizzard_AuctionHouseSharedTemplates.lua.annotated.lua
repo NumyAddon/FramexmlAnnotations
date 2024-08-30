@@ -753,6 +753,3 @@ function AuctionHouseFavoriteButtonBaseMixin:UpdateFavoriteState() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSharedTemplates.lua#L773)
 function AuctionHouseFavoriteButtonBaseMixin:IsFavorite() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSharedTemplates.lua#L1)
-function AuctionHouseFavoriteContextMenu(frame, itemKey) end

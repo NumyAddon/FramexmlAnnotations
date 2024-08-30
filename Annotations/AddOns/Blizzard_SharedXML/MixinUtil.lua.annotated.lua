@@ -85,6 +85,3 @@ function DirtiableMixin:SetDirtyMethod(method) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L346)
 function DirtiableMixin:MarkDirty() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L8)
-function DrawLine(texture, canvasFrame, startX, startY, endX, endY, lineWidth, lineFactor, relPoint) end

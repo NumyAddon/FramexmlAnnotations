@@ -1231,6 +1231,3 @@ function CypherEquipmentLevelMixin:OnEvent(event, ...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.lua#L1421)
 function CypherEquipmentLevelMixin:OnEnter() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.lua#L11)
-function OrderHallTalentFrame_ToggleFrame() end

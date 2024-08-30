@@ -46,6 +46,3 @@ function ArtifactTickMixin:OnEnter() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L129)
 function ArtifactTickMixin:OnLeave() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L96)
-function ArtifactBarGetNumArtifactTraitsPurchasableFromXP(pointsSpent, artifactXP, artifactTier) end

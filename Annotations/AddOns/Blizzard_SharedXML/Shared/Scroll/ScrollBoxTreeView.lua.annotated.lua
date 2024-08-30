@@ -84,6 +84,3 @@ function ScrollBoxListTreeListViewMixin:GetLayoutFunction() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxTreeView.lua#L161)
 function ScrollBoxListTreeListViewMixin:Layout() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxTreeView.lua#L165)
-function CreateScrollBoxListTreeListView(indent, top, bottom, left, right, spacing) end

@@ -351,6 +351,3 @@ function MapCanvasMixin:AddMaskableTexture(texture) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1000)
 function MapCanvasMixin:RefreshMaskableTextures() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L328)
-function SquaredDistanceBetweenPoints(firstX, firstY, secondX, secondY) end

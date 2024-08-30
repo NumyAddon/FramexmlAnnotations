@@ -74,6 +74,3 @@ function MawBuffMixin:OnClick() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MawBuffs/Blizzard_MawBuffs.lua#L277)
 function MawBuffMixin:OnLeave() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_MawBuffs/Blizzard_MawBuffs.lua#L3)
-function ShouldShowMawBuffs() end

@@ -489,6 +489,3 @@ function ClickableBindingsEnableMouseoverCastCheckboxMixin:OnClick() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L847)
 function ClickableBindingsEnableMouseoverCastCheckboxMixin:UpdateCheckbox() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L819)
-function ClickBindingFrame_Toggle() end

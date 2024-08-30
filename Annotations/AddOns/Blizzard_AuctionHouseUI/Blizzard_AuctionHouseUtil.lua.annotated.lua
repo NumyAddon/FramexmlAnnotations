@@ -504,9 +504,3 @@ function AuctionHouseBuySystemMixin:GetBidAmount() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseUtil.lua#L210)
 function AuctionHouseBuySystemMixin:GetBuyoutAmount() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseUtil.lua#L51)
-function GetAHFilterCategoryName(category) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseUtil.lua#L55)
-function GetAHFilterName(filter) end

@@ -210,9 +210,3 @@ function LootHistoryFrameMixin:RemoveItemFromQueue() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.lua#L581)
 function LootHistoryFrameMixin:CleanUpPerfectRollAnim() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.lua#L590)
-function ToggleLootHistoryFrame() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.lua#L594)
-function SetLootHistoryFrameToEncounter(encounterID) end

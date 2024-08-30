@@ -30,6 +30,3 @@ function TabGroupMixin:WrapFocusIndex(focusIndex) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/TabGroup.lua#L53)
 function TabGroupMixin:OnTabPressed(preventFocusWrap) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_SharedXML/TabGroup.lua#L74)
-function CreateTabGroup(...) end

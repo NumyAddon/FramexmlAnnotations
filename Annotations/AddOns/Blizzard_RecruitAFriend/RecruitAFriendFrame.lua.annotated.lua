@@ -884,9 +884,3 @@ function RecruitAFriendGenerateOrCopyLinkButtonMixin:OnLeave() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1518)
 function RecruitAFriendGenerateOrCopyLinkButtonMixin:Update(recruitmentInfo, recruitsAreMaxed) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L819)
-function RecruitAFriend_TryCancelAutoClaim() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/703e072b4f993d3242317ee84d6739c80066391b/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1317)
-function RecruitAFriend_TryPlayClaimRewardFanfare(rewardRAFVersion) end

@@ -102,12 +102,3 @@ function RadioButtonGroupMixin:RemoveInternal(button) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/ButtonGroup.lua#L222)
 function DeselectableRadioButtonGroupMixin:CanChangeSelection(button, newSelected) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/ButtonGroup.lua#L183)
-function CreateButtonGroup() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/ButtonGroup.lua#L226)
-function CreateRadioButtonGroup() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/ButtonGroup.lua#L230)
-function CreateDeselectableRadioButtonGroup() end

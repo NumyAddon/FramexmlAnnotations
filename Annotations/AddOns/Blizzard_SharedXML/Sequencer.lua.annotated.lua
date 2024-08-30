@@ -21,6 +21,3 @@ function SequencerMixin:Cancel() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Sequencer.lua#L38)
 function SequencerMixin:Play() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Sequencer.lua#L44)
-function CreateSequencer() end

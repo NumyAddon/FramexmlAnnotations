@@ -1061,9 +1061,3 @@ function ItemUpgradeCostQuantityMixin:OnLeave() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.lua#L1032)
 function ItemUpgradeCostIconMixin:OnEnter() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.lua#L3)
-function ItemUpgradeFrame_Show() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.lua#L10)
-function ItemUpgradeFrame_Hide() end

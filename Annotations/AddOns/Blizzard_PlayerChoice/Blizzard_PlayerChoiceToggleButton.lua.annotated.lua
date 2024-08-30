@@ -76,12 +76,3 @@ function PlayerChoiceRerollButtonMixin:OnClick() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.lua#L229)
 function PlayerChoiceRerollButtonMixin:SetNumRerolls(numRerolls) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.lua#L252)
-function PlayerChoiceToggle_ShouldShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.lua#L256)
-function PlayerChoiceToggle_TryShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.lua#L269)
-function PlayerChoiceToggle_GetActiveToggle() end

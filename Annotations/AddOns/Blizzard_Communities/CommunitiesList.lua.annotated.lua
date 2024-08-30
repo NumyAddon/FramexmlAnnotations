@@ -554,6 +554,3 @@ function CommunitiesListDropdownMixin:OnClubSelected() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Communities/CommunitiesList.lua#L878)
 function CommunitiesListDropdownMixin:UpdateUnreadNotification() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_Communities/CommunitiesList.lua#L14)
-function CreateCommunitiesIconNotificationMarkup(text, xoffset, yoffset) end

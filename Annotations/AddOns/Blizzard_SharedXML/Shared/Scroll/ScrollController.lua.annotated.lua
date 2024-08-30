@@ -132,6 +132,3 @@ function ScrollControllerMixin:IsScrollAllowed() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollController.lua#L140)
 function ScrollControllerMixin:SetScrollAllowed(allowScroll) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollController.lua#L144)
-function IsScrollController(object) end

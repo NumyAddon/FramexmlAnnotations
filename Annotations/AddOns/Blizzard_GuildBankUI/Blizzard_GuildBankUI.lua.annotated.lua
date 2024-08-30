@@ -151,9 +151,3 @@ function GuildBankPopupFrameMixin:CancelButton_OnClick() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L882)
 function GuildBankPopupFrameMixin:OkayButton_OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L749)
-function GuildBankFrame_UpdateLog() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L781)
-function GuildBankFrame_UpdateMoneyLog() end

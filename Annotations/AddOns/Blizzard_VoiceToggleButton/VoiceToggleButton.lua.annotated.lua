@@ -110,9 +110,3 @@ function RosterMemberMuteButtonMixin:IsSilenced() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L265)
 function RosterMemberMuteButtonMixin:ToggleMuted() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L33)
-function VoiceChat_ToggleMutedFromUserAction() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L43)
-function VoiceChat_ToggleDeafenedFromUserAction() end

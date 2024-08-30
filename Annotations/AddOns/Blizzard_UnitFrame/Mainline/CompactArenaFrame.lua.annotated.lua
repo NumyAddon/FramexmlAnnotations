@@ -250,6 +250,3 @@ function StealthedArenaUnitFrameMixin:UpdateName(unitClassInfo) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L595)
 function StealthedArenaUnitFrameMixin:UpdateShownState() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L79)
-function CompactArenaFrame_Generate() end

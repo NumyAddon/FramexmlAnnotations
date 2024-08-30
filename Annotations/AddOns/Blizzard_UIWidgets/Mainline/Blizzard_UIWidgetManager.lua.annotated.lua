@@ -189,6 +189,3 @@ function UIWidgetManagerMixin:RegisterWidgetVisTypeTemplate(visType, templateInf
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetManager.lua#L653)
 function UIWidgetManagerMixin:EnumerateWidgetsByWidgetTag(widgetTag) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetManager.lua#L101)
-function DefaultWidgetLayout(widgetContainerFrame, sortedWidgets, skipContainerLayout, skipHorizontalRowPoolClear) end

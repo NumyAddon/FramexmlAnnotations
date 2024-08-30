@@ -42,12 +42,3 @@ function ColorMixin:GenerateHexColorMarkup() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Color.lua#L62)
 function ColorMixin:WrapTextInColorCode(text) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Color.lua#L3)
-function CreateColor(r, g, b, a) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Color.lua#L66)
-function WrapTextInColorCode(text, colorHexString) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/Color.lua#L70)
-function WrapTextInColor(text, color) end

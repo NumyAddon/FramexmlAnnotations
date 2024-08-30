@@ -207,12 +207,3 @@ function ClassTrialTimerDisplayMixin:OnShow() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ClassTrial/Blizzard_ClassTrial.lua#L351)
 function ClassTrialTimerDisplayMixin:OnLoad() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ClassTrial/Blizzard_ClassTrial.lua#L83)
-function ClassTrial_SetHasAvailableBoost(hasBoost) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ClassTrial/Blizzard_ClassTrial.lua#L87)
-function ClassTrial_ConfirmApplyToken(guid, boostType) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ClassTrial/Blizzard_ClassTrial.lua#L91)
-function ClassTrial_ShowStoreServices(guid, boostType) end

@@ -80,12 +80,3 @@ function LootJournalItemSetsMixin:UpdateList() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L268)
 function LootJournalItemSetButtonMixin:Init(elementData, configureItemButton) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L43)
-function LootJournalItemButtonTemplate_OnEnter(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L55)
-function LootJournalItemButtonTemplate_OnLeave(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L232)
-function SortItemSetItems(entry1, entry2) end

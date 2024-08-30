@@ -156,6 +156,3 @@ function NoCameraControlModelSceneMixin:OnMouseWheel(delta) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.lua#L553)
 function NoZoomModelSceneMixin:OnMouseWheel(delta) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.lua#L157)
-function GetPlayerActorLabelTag() end

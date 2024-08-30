@@ -55,9 +55,3 @@ function ArtifactFrameUnderlayMixin:OnUpdate(elapsed) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L317)
 function ArtifactFrameUnderlayMixin:CalculateDeltas() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L40)
-function ArtifactUI_CanViewArtifact() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L44)
-function ArtifactUI_HasPurchasedAnything() end

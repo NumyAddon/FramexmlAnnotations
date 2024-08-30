@@ -55,12 +55,3 @@ function DirtyFlagsMixin:MarkClean() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXMLBase/Flags.lua#L128)
 function DirtyFlagsMixin:IsDirty(flag) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXMLBase/Flags.lua#L2)
-function Flags_CreateMask(...) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXMLBase/Flags.lua#L11)
-function Flags_CreateMaskFromTable(flagsTable) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedXMLBase/Flags.lua#L102)
-function CreateFlags(initialFlags) end

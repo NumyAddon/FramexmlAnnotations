@@ -313,27 +313,3 @@ function LegendHighlightablePoiPinMixin:OnLegendPinMouseEnter() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L590)
 function LegendHighlightablePoiPinMixin:OnLegendPinMouseLeave() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L272)
-function MapPinHighlight_CreateAnimatedHighlightIfNeeded(parentPin, highlightType) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L300)
-function MapPinHighlight_UpdateAnimatedHighlight(highlightType, parentPin, regionToHighlight, params) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L317)
-function MapPinHighlight_CheckHighlightPin(highlightType, parentPin, regionToHighlight, params) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L329)
-function ClearCachedActivitiesForPlayer() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L336)
-function GetQuestsForPlayerByMapIDCached(mapID) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L347)
-function ClearCachedQuestsForPlayer() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L353)
-function GetAreaPOIsForPlayerByMapIDCached(mapID) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/3271633a56672a076d41f27fdd220ce8e5ad21a1/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L364)
-function ClearCachedAreaPOIsForPlayer() end

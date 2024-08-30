@@ -1,0 +1,53 @@
+name: force update all
+
+on:
+  workflow_dispatch:
+
+jobs:
+  live:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: live
+      FORCE_UPDATE: true
+
+  ptr:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: ptr
+      FORCE_UPDATE: true
+
+  ptr2:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: ptr2
+      FORCE_UPDATE: true
+
+  beta:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: beta
+      FORCE_UPDATE: true
+
+  classic:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic
+      FORCE_UPDATE: true
+
+  classic_ptr:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic_ptr
+      FORCE_UPDATE: true
+
+  classic_era:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic_era
+      FORCE_UPDATE: true
+
+  classic_era_ptr:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic_era_ptr
+      FORCE_UPDATE: true

@@ -67,21 +67,3 @@ function MacroFrameMixin:ShowDetails() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L326)
 function MacroFrameMixin:SaveMacro() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L16)
-function MacroFrame_Show() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L20)
-function MacroFrame_SaveMacro() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L232)
-function MacroFrameSaveButton_OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L243)
-function MacroFrameCancelButton_OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L295)
-function MacroNewButton_OnClick(self, button) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L301)
-function MacroEditButton_OnClick(self, button) end

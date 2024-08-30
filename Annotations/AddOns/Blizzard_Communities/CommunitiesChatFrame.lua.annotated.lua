@@ -78,18 +78,3 @@ function CommunitiesChatMixin:GetCommunitiesFrame() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L457)
 function CommunitiesChatMixin:RefreshMessages(predicate) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L13)
-function GetCommunitiesChatPermissionOptions() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L466)
-function CommunitiesChatEditBox_OnFocusGained(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L471)
-function CommunitiesChatEditBox_OnEnterPressed(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L481)
-function CommunitiesChatEditBox_OnHide(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L487)
-function CommunitiesJumpToUnreadButton_OnClick(self) end

@@ -74,12 +74,3 @@ function TableAttributeLineTitleMixin:Initialize(attributeType) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.lua#L192)
 function TableAttributeLineTitleMixin:MatchesFilter(filter) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.lua#L196)
-function TableAttributeDisplayEditBox_OnEditFocusGained(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.lua#L202)
-function TableAttributeDisplayEditBox_OnEnterPressed(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.lua#L221)
-function TableAttributeDisplayValueButton_OnMouseDown(self) end

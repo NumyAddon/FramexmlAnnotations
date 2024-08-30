@@ -38,6 +38,3 @@ function IconDataProviderMixin:ShouldShowExtraIcons() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L221)
 function IconDataProviderMixin:Release() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L37)
-function IconDataProvider_GetAllIconTypes() end

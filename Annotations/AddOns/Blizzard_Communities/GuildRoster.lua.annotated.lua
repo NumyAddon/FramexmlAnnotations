@@ -24,6 +24,3 @@ function CommunitiesGuildMemberDetailMixin:GetMemberInfo() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/GuildRoster.lua#L49)
 function CommunitiesGuildMemberDetailMixin:DisplayMember(clubId, memberInfo) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/GuildRoster.lua#L142)
-function CommunitiesGuildMemberRankDropdown_Initialize(self) end

@@ -390,15 +390,3 @@ function CommunitiesTicketManagerDialogMixin:SetStreamId(streamId) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.lua#L519)
 function CommunitiesTicketManagerDialogMixin:GetStreamId() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.lua#L29)
-function CommunitiesTicketManagerDialog_Open(clubId, streamId) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.lua#L35)
-function CommunitiesTicketManagerDialog_OnStreamChanged(clubId, streamId) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.lua#L87)
-function CommunitiesTicketManagerDialogUsesDropDown_Initialize(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.lua#L121)
-function CommunitiesTicketManagerDialogExpiresDropDown_Initialize(self) end

@@ -123,6 +123,3 @@ function DeveloperConsoleMixin:SetCommandHistoryIndex(commandHistoryIndex) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L533)
 function DeveloperConsoleMixin:HasSetCommandHistoryIndex() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L537)
-function BlizzardConsoleMessageFrame_OnHyperlinkClick(self, link, text, button) end

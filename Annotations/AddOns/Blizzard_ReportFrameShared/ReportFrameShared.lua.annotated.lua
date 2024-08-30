@@ -133,6 +133,3 @@ function ReportInfoMixin:SetCraftingOrderID(craftingOrderID) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L380)
 function ReportInfoMixin:SetBasicReportInfo(reportType, majorCategory, minorCategoryFlags) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L170)
-function ReportingMajorCategoryDropdownInitialize(self) end

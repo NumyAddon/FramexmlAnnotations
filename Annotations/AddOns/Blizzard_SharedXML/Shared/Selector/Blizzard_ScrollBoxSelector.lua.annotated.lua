@@ -1,44 +1,44 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L2)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L2)
 --- @class ScrollBoxSelectorMixin
 ScrollBoxSelectorMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L4)
 function ScrollBoxSelectorMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L10)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L10)
 function ScrollBoxSelectorMixin:Init() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L30)
 function ScrollBoxSelectorMixin:UpdateSelections() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L37)
 function ScrollBoxSelectorMixin:EnumerateButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L49)
 function ScrollBoxSelectorMixin:SetCustomButtonHeight(customButtonHeight) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L53)
 function ScrollBoxSelectorMixin:GetButtonHeight() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L57)
 function ScrollBoxSelectorMixin:SetCustomStride(customStride) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L61)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L61)
 function ScrollBoxSelectorMixin:GetStride() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L65)
 function ScrollBoxSelectorMixin:SetCustomPadding(top, bottom, left, right, horizontalSpacing, verticalSpacing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L74)
 function ScrollBoxSelectorMixin:GetPadding() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L78)
 function ScrollBoxSelectorMixin:AdjustScrollBarOffsets(offsetX, topOffset, bottomOffset) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L83)
 function ScrollBoxSelectorMixin:ScrollToSelectedIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L88)
 function ScrollBoxSelectorMixin:ScrollToElementDataIndex(...) end

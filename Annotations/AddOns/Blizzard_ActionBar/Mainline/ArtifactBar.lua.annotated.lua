@@ -1,48 +1,48 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L5)
 --- @class ArtifactBarMixin
 ArtifactBarMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L110)
 --- @class ArtifactTickMixin
 ArtifactTickMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L7)
 function ArtifactBarMixin:IsArtifactMaxed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L11)
 function ArtifactBarMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L36)
 function ArtifactBarMixin:UpdateOverlayFrameText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L46)
 function ArtifactBarMixin:AnimatedValueChangedCallback() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L51)
 function ArtifactBarMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L64)
 function ArtifactBarMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L77)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L77)
 function ArtifactBarMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L81)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L81)
 function ArtifactBarMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L87)
 function ArtifactBarMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L92)
 function ArtifactBarMixin:UpdateTick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L111)
 function ArtifactTickMixin:UpdateTick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L121)
 function ArtifactTickMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ActionBar/Mainline/ArtifactBar.lua#L129)
 function ArtifactTickMixin:OnLeave() end

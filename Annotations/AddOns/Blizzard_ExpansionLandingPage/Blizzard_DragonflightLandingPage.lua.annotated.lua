@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L125)
 --- @class DragonridingPanelSkillsButtonMixin : CallbackRegistryMixin
 DragonridingPanelSkillsButtonMixin = CreateFromMixins(CallbackRegistryMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L1)
 --- @class DragonflightLandingOverlayMixin
 DragonflightLandingOverlayMixin = {};
 
@@ -19,38 +19,38 @@ local minimapDisplayInfo = {
 	["description"] = DRAGONFLIGHT_LANDING_PAGE_TOOLTIP,
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L55)
 function DragonflightLandingOverlayMixin:TryCelebrateUnlock() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L79)
 function DragonflightLandingOverlayMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L86)
 function DragonflightLandingOverlayMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L90)
 function DragonflightLandingOverlayMixin:RefreshOverlay() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L94)
 function DragonflightLandingOverlayMixin:RefreshMajorFactionList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L102)
 function DragonflightLandingOverlayMixin:SetUpMajorFactionList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L127)
 function DragonridingPanelSkillsButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L133)
 function DragonridingPanelSkillsButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L140)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L140)
 function DragonridingPanelSkillsButtonMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L144)
 function DragonridingPanelSkillsButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L153)
 function DragonridingPanelSkillsButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L161)
 function DragonridingPanelSkillsButtonMixin:UpdateUnspentGlyphsAnimation() end

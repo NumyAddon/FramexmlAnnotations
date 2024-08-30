@@ -1,33 +1,33 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L5)
 --- Template
 --- @class AuctionHouseItemListLineTemplate : Button, AuctionHouseItemListLineMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L27)
 --- Template
 --- @class AuctionHouseFavoritableLineTemplate : Button, AuctionHouseItemListLineTemplate, AuctionHouseFavoritableLineMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L29)
 --- Template
 --- @class AuctionHouseItemListHeadersTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L50)
 --- @class AuctionHouseItemListTemplate_RefreshFrame : Frame, AuctionHouseRefreshFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L56)
 --- @class AuctionHouseItemListTemplate_HeaderContainer : Frame, AuctionHouseItemListHeadersTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L62)
 --- @class AuctionHouseItemListTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L69)
 --- @class AuctionHouseItemListTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L75)
 --- @class AuctionHouseItemListTemplate_LoadingSpinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L33)
 --- Template
 --- @class AuctionHouseItemListTemplate : Frame, AuctionHouseBackgroundTemplate, AuctionHouseItemListMixin
 --- @field RefreshFrame AuctionHouseItemListTemplate_RefreshFrame

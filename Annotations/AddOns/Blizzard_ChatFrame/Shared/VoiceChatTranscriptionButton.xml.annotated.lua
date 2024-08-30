@@ -1,16 +1,16 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.xml#L3)
 --- Template
 --- @class VoiceChatTranscriptionButtonTemplate : Button, VoiceChatTranscriptionButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.xml#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.xml#L20)
 --- @class VoiceChatTranscriptionTemplate_PendingDots : Frame, VoiceChatDotsTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.xml#L21)
 --- @class VoiceChatTranscriptionTemplate_Button : Button, VoiceChatTranscriptionButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.xml#L17)
 --- Template
 --- @class VoiceChatTranscriptionTemplate : Frame, VoiceChatTranscriptionMixin
 --- @field PendingDots VoiceChatTranscriptionTemplate_PendingDots

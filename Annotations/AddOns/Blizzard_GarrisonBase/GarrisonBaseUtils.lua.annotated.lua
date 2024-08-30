@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L432)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L432)
 --- @class GarrisonFollowerPortraitMixin
 GarrisonFollowerPortraitMixin = { }
 
@@ -183,23 +183,23 @@ local AbilityEventTypes = {
 	Enum.GarrAutoMissionEventType.ApplyAura,
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L434)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L434)
 function GarrisonFollowerPortraitMixin:SetPortraitIcon(iconFileID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L443)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L443)
 function GarrisonFollowerPortraitMixin:SetQuality(quality) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L464)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L464)
 function GarrisonFollowerPortraitMixin:SetQualityColor(r, g, b) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L469)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L469)
 function GarrisonFollowerPortraitMixin:SetNoLevel() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L474)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L474)
 function GarrisonFollowerPortraitMixin:SetLevel(level) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L486)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L486)
 function GarrisonFollowerPortraitMixin:SetILevel(iLevel) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L494)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L494)
 function GarrisonFollowerPortraitMixin:SetupPortrait(followerInfo, showILevel) end

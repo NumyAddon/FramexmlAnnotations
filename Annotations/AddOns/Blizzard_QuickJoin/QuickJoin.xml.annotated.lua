@@ -1,34 +1,34 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L5)
 --- Template
 --- @class QuickJoinButtonMemberTemplate : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L8)
 --- Template
 --- @class QuickJoinButtonQueueTemplate : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L11)
 --- Template
 --- @class QuickJoinButtonTemplate : Button, QuickJoinButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L71)
 --- @class QuickJoinFrame_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L77)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L77)
 --- @class QuickJoinFrame_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L83)
 --- @class QuickJoinFrame_JoinQueueButton : Button, MagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L69)
 --- @class QuickJoinFrame : Frame, QuickJoinMixin
 --- @field ScrollBox QuickJoinFrame_ScrollBox
 --- @field ScrollBar QuickJoinFrame_ScrollBar
 --- @field JoinQueueButton QuickJoinFrame_JoinQueueButton
 QuickJoinFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L108)
 --- @class QuickJoinRoleSelectionFrame : Frame, RoleSelectionTemplate, QuickJoinRoleSelectionMixin
 QuickJoinRoleSelectionFrame = {}
 

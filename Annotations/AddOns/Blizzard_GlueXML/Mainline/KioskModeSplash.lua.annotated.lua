@@ -1,46 +1,46 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L92)
 --- @class KioskModeSplashMixin
 KioskModeSplashMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L141)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L141)
 --- @class NewCharacterButtonMixin
 NewCharacterButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L150)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L150)
 --- @class NewExpansionButtonMixin
 NewExpansionButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L94)
 function KioskModeSplashMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L99)
 function KioskModeSplashMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L107)
 function KioskModeSplashMixin:SetMode(mode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L111)
 function KioskModeSplashMixin:GetModeData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L115)
 function KioskModeSplashMixin:GetMode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L119)
 function KioskModeSplashMixin:GetIDForSelection(type, selection) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L129)
 function KioskModeSplashMixin:SetAutoEnterWorld(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L133)
 function KioskModeSplashMixin:GetAutoEnterWorld() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L137)
 function KioskModeSplashMixin:StartSession() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L143)
 function NewCharacterButtonMixin:OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.lua#L152)
 function NewExpansionButtonMixin:OnClick(button, down) end

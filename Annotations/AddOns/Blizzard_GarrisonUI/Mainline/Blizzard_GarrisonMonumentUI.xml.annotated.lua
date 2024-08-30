@@ -1,19 +1,19 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L39)
 --- @class GarrisonMonumentFrame_Body_Lock : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L33)
 --- @class GarrisonMonumentFrame_Body : Frame
 --- @field Lock GarrisonMonumentFrame_Body_Lock
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L64)
 --- @class GarrisonMonumentFrame_LeftBtn : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L83)
 --- @class GarrisonMonumentFrame_RightBtn : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L3)
 --- @class GarrisonMonumentFrame : Frame
 --- @field Body GarrisonMonumentFrame_Body
 --- @field LeftBtn GarrisonMonumentFrame_LeftBtn

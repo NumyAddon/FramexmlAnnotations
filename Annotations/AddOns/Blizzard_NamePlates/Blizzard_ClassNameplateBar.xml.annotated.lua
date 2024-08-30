@@ -1,19 +1,19 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L5)
 --- Template
 --- @class ClassNameplateBarFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L36)
 --- @class ClassNameplateManaBarFrame_Border : Frame, NamePlateSecondaryBarBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L37)
 --- @class ClassNameplateManaBarFrame_FeedbackFrame : Frame, BuilderSpenderFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L38)
 --- @class ClassNameplateManaBarFrame_FullPowerFrame : Frame, FullResourcePulseFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L18)
 --- @class ClassNameplateManaBarFrame : StatusBar, ClassNameplateBar, ClassNameplateManaBar
 --- @field Border ClassNameplateManaBarFrame_Border
 --- @field FeedbackFrame ClassNameplateManaBarFrame_FeedbackFrame

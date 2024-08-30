@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4265)
 --- @class LFGEditBoxMixin : LFGAuthenticatorMessagingMixin
 LFGEditBoxMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4310)
 --- @class LFGListLockButtonMixin : LFGAuthenticatorMessagingMixin
 LFGListLockButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4320)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4320)
 --- @class LFGListCreationNameMixin : LFGEditBoxMixin
 LFGListCreationNameMixin = CreateFromMixins(LFGEditBoxMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4331)
 --- @class LFGListCreationDescriptionMixin : LFGEditBoxMixin
 LFGListCreationDescriptionMixin = CreateFromMixins(LFGEditBoxMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4355)
 --- @class LFGListCreateGroupDisabledStateButtonMixin : LFGAuthenticatorMessagingMixin
 LFGListCreateGroupDisabledStateButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L1967)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L1967)
 --- @class LFGApplicationBrowseGroupsButtonMixin
 LFGApplicationBrowseGroupsButtonMixin = { };
 function LFGApplicationBrowseGroupsButtonMixin:OnClick()
@@ -1816,71 +1816,71 @@ local roleRemainingKeyLookup = {
 	[Enum.LFGRole.Damage] = "DAMAGER_REMAINING",
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4254)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4254)
 --- @class LFGAuthenticatorMessagingMixin
 LFGAuthenticatorMessagingMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4372)
 --- @class LFGListSearchBackToGroupButtonMixin
 LFGListSearchBackToGroupButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4380)
 --- @class LFGListSearchBackButtonMixin
 LFGListSearchBackButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L1968)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L1968)
 function LFGApplicationBrowseGroupsButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4255)
 function LFGAuthenticatorMessagingMixin:DisplayTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4261)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4261)
 function LFGAuthenticatorMessagingMixin:DisplayStaticPopup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4266)
 function LFGEditBoxMixin:AddToTabCategory(tabCategory, editBox) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4271)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4271)
 function LFGEditBoxMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4277)
 function LFGEditBoxMixin:GetSelectedActivityID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4281)
 function LFGEditBoxMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4293)
 function LFGEditBoxMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4299)
 function LFGEditBoxMixin:OnMouseDown(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4306)
 function LFGEditBoxMixin:OnTabPressed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4312)
 function LFGListLockButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4316)
 function LFGListLockButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4322)
 function LFGListCreationNameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4333)
 function LFGListCreationDescriptionMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4342)
 function LFGListCreationDescriptionMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4357)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4357)
 function LFGListCreateGroupDisabledStateButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4363)
 function LFGListCreateGroupDisabledStateButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4374)
 function LFGListSearchBackToGroupButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4382)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4382)
 function LFGListSearchBackButtonMixin:OnClick() end

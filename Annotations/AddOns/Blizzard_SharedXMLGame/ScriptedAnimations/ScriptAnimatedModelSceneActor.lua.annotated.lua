@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L2)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L2)
 --- @class ScriptAnimatedModelSceneActorMixin
 ScriptAnimatedModelSceneActorMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L4)
 function ScriptAnimatedModelSceneActorMixin:IsActive() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L9)
 function ScriptAnimatedModelSceneActorMixin:GetModelScene() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L13)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L13)
 function ScriptAnimatedModelSceneActorMixin:OnFinish() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L18)
 function ScriptAnimatedModelSceneActorMixin:DeltaUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L62)
 function ScriptAnimatedModelSceneActorMixin:SetEffect(effectDescription, source, target, scaleMultiplier) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L123)
 function ScriptAnimatedModelSceneActorMixin:SetDynamicOffsets(pixelX, pixelY, pixelZ) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L129)
 function ScriptAnimatedModelSceneActorMixin:SetEffectActorOffset(x, y, z) end

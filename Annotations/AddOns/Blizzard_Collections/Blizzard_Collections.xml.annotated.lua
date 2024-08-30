@@ -1,25 +1,25 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L5)
 --- Template
 --- @class CollectionsJournalTab : Button, PanelTabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L20)
 --- @class CollectionsJournal_CollectionsJournalTab1 : Button, CollectionsJournalTab
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L25)
 --- @class CollectionsJournal_CollectionsJournalTab2 : Button, CollectionsJournalTab
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L30)
 --- @class CollectionsJournal_CollectionsJournalTab3 : Button, CollectionsJournalTab
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L35)
 --- @class CollectionsJournal_CollectionsJournalTab4 : Button, CollectionsJournalTab
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L40)
 --- @class CollectionsJournal_CollectionsJournalTab5 : Button, CollectionsJournalTab
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L14)
 --- @class CollectionsJournal : Frame, PortraitFrameTemplate
 --- @field MountsTab CollectionsJournal_CollectionsJournalTab1
 --- @field PetsTab CollectionsJournal_CollectionsJournalTab2

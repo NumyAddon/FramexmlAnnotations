@@ -1,55 +1,55 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L2)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L2)
 --- @class ScenarioDataProviderMixin : MapCanvasDataProviderMixin
 ScenarioDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L51)
 --- @class ScenarioBlobPinMixin : MapCanvasPinMixin
 ScenarioBlobPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L94)
 --- @class ScenarioPinMixin : MapCanvasPinMixin
 ScenarioPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L4)
 function ScenarioDataProviderMixin:OnAdded(mapCanvas) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L14)
 function ScenarioDataProviderMixin:RemoveAllData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L19)
 function ScenarioDataProviderMixin:RefreshAllData(fromOnShow) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L36)
 function ScenarioDataProviderMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L40)
 function ScenarioDataProviderMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L44)
 function ScenarioDataProviderMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L53)
 function ScenarioBlobPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L64)
 function ScenarioBlobPinMixin:OnCanvasSizeChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L68)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L68)
 function ScenarioBlobPinMixin:OnCanvasScaleChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L73)
 function ScenarioBlobPinMixin:MarkDirty() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L80)
 function ScenarioBlobPinMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L86)
 function ScenarioBlobPinMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L96)
 function ScenarioPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L102)
 function ScenarioPinMixin:OnAcquired(info) end

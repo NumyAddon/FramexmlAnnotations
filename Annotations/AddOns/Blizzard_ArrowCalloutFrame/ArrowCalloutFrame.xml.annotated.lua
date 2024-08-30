@@ -1,46 +1,46 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L4)
 --- Template
 --- @class ArrowCalloutPointerUp : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L32)
 --- Template
 --- @class ArrowCalloutPointerDown : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L60)
 --- Template
 --- @class ArrowCalloutPointerLeft : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L88)
 --- Template
 --- @class ArrowCalloutPointerRight : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L122)
 --- @class ArrowCalloutContainerTemplate_Content : Frame, GlowBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L138)
 --- @class ArrowCalloutContainerTemplate_Glow : Frame, BackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L115)
 --- Template
 --- @class ArrowCalloutContainerTemplate : Frame, ResizeLayoutFrame, ArrowCalloutContainerMixin
 --- @field Content ArrowCalloutContainerTemplate_Content
 --- @field Glow ArrowCalloutContainerTemplate_Glow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L171)
 --- @class ArrowCalloutContainerTemplateWithCloseButtonTemplate_CloseButton : Button, UIPanelCloseButton, ArrowCalloutCloseButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L165)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L165)
 --- Template
 --- @class ArrowCalloutContainerTemplateWithCloseButtonTemplate : Frame, ArrowCalloutContainerTemplate
 --- @field CloseButton ArrowCalloutContainerTemplateWithCloseButtonTemplate_CloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L182)
 --- Template
 --- @class WidgetContainerCalloutTemplate : Frame, UIWidgetContainerTemplate, WidgetContainerCalloutTemplateMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L185)
 --- @class ArrowCalloutFrameManager : Frame, ArrowCalloutMixin
 ArrowCalloutFrameManager = {}
 

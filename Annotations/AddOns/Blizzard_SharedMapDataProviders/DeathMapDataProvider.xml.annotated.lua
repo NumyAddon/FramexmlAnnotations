@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.xml#L5)
 --- Template
 --- @class CorpsePinTemplate : Frame, CorpsePinMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.xml#L19)
 --- Template
 --- @class DeathReleasePinTemplate : Frame, CorpsePinTemplate, DeathReleasePinMixin
 

@@ -1,27 +1,27 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L26)
 --- @class RuneforgeFrame_CraftingFrame : Frame, RuneforgeCraftingFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L32)
 --- @class RuneforgeFrame_CreateFrame : Frame, RuneforgeCreateFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L38)
 --- @class RuneforgeFrame_BackgroundModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L45)
 --- @class RuneforgeFrame_OverlayModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L53)
 --- @class RuneforgeFrame_RuneforgeFrameResultTooltip : GameTooltip, RunforgeFrameTooltipTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L55)
 --- @class RuneforgeFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L70)
 --- @class RuneforgeFrame_CurrencyDisplay : Frame, CurrencyDisplayGroupTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.xml#L5)
 --- @class RuneforgeFrame : Frame, RuneforgeFrameMixin
 --- @field CraftingFrame RuneforgeFrame_CraftingFrame
 --- @field CreateFrame RuneforgeFrame_CreateFrame

@@ -1,47 +1,47 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L44)
 --- @class OverrideActionBarMixin
 OverrideActionBarMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L46)
 function OverrideActionBarMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L84)
 function OverrideActionBarMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L105)
 function OverrideActionBarMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L119)
 function OverrideActionBarMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L128)
 function OverrideActionBarMixin:UpdateMicroButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L135)
 function OverrideActionBarMixin:UpdateSkin() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L145)
 function OverrideActionBarMixin:SetSkin(skin) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L156)
 function OverrideActionBarMixin:CalcSize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L195)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L195)
 function OverrideActionBarMixin:GetMicroButtonAnchor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L208)
 function OverrideActionBarMixin:Leave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L232)
 function OverrideActionBarMixin:SetPitchValue(pitch) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L236)
 function OverrideActionBarMixin:Setup(skin, barIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L284)
 function OverrideActionBarMixin:UpdateXpBar(newLevel) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L297)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L297)
 function OverrideActionBarMixin:IsShownOverride() end

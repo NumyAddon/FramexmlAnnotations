@@ -1,34 +1,34 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L5)
 --- Template
 --- @class VoiceChatSpeakerTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L17)
 --- Template
 --- @class ChannelButtonBaseTemplate : Button, ChannelButtonBaseMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L36)
 --- Template
 --- @class ChannelButtonHeaderTemplate : Button, ChannelButtonBaseTemplate, ChannelButtonHeaderMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L53)
 --- @class ChannelButtonTemplate_Speaker : Frame, VoiceChatHeadsetTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L51)
 --- Template
 --- @class ChannelButtonTemplate : Button, ChannelButtonBaseTemplate, ChannelButtonMixin
 --- @field Speaker ChannelButtonTemplate_Speaker
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L62)
 --- Template
 --- @class ChannelButtonTextTemplate : Button, ChannelButtonTemplate, ChannelButtonTextMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L63)
 --- Template
 --- @class ChannelButtonVoiceTemplate : Button, ChannelButtonTemplate, ChannelButtonVoiceMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L64)
 --- Template
 --- @class ChannelButtonCommunityTemplate : Button, ChannelButtonTemplate, ChannelButtonCommunityMixin
 

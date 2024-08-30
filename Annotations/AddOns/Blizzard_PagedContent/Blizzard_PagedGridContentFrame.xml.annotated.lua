@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.xml#L5)
 --- Template
 --- @class PagedCellSizeGridContentFrameTemplate : Frame, PagedContentFrameBaseTemplate, PagedCellSizeGridContentFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.xml#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.xml#L25)
 --- Template
 --- @class PagedNaturalSizeGridContentFrameTemplate : Frame, PagedContentFrameBaseTemplate, PagedNaturalSizeGridContentFrameMixin
 

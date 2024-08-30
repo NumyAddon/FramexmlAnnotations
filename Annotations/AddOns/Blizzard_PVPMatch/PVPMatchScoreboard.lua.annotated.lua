@@ -1,41 +1,41 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L7)
 --- @class PVPMatchScoreboardMixin
 PVPMatchScoreboardMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L9)
 function PVPMatchScoreboardMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L40)
 function PVPMatchScoreboardMixin:Init() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L58)
 function PVPMatchScoreboardMixin:UpdateTabs() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L71)
 function PVPMatchScoreboardMixin:ShutdownPrivate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L77)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L77)
 function PVPMatchScoreboardMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L87)
 function PVPMatchScoreboardMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L91)
 function PVPMatchScoreboardMixin:SetupArtwork(factionIndex, isFactionalMatch) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L107)
 function PVPMatchScoreboardMixin:UpdateTable() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L114)
 function PVPMatchScoreboardMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L118)
 function PVPMatchScoreboardMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L122)
 function PVPMatchScoreboardMixin:OnTabGroupClicked(tab) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L131)
 function PVPMatchScoreboardMixin:BeginShow() end

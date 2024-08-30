@@ -1,19 +1,19 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L3)
 --- Template
 --- @class VoiceChatHeadsetButtonTemplate : Button, VoiceChatHeadsetButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L19)
 --- @class VoiceChatHeadsetTemplate_PendingDots : Frame, VoiceChatDotsTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L25)
 --- @class VoiceChatHeadsetTemplate_Button : Button, VoiceChatHeadsetButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L31)
 --- @class VoiceChatHeadsetTemplate_Transcription : Frame, VoiceChatTranscriptionTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L16)
 --- Template
 --- @class VoiceChatHeadsetTemplate : Frame, VoiceChatHeadsetMixin
 --- @field PendingDots VoiceChatHeadsetTemplate_PendingDots

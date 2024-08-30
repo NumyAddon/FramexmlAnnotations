@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.lua#L285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.lua#L285)
 --- @class AnchorHighlightMixin
 AnchorHighlightMixin = {};
 
@@ -93,8 +93,8 @@ local DebugHighlightColors = {
 	CreateColor(0.1, 0.1, 0.1, 0.5),
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.lua#L287)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.lua#L287)
 function AnchorHighlightMixin:RetrieveAnchorHighlight(pointIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.lua#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.lua#L299)
 function AnchorHighlightMixin:HighlightFrame(baseFrame, showAnchors) end

@@ -1,23 +1,23 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L31)
 --- @class GlueContextMenuMixin
 GlueContextMenuMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L36)
 function GlueContextMenuMixin:Initialize(extraMenuHeight, extraMenuWidth) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L43)
 function GlueContextMenuMixin:OnUpdate(dt) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L56)
 function GlueContextMenuMixin:AddButton(buttonText, buttonFunction) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L79)
 function GlueContextMenuMixin:GetMaximumButtonWidth() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L88)
 function GlueContextMenuMixin:RefreshSize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L99)
 function GlueContextMenuMixin:Reset() end

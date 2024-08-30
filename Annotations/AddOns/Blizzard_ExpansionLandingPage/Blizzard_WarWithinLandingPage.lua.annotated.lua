@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L1)
 --- @class WarWithinLandingOverlayMixin
 WarWithinLandingOverlayMixin = {};
 
@@ -16,20 +16,20 @@ local minimapDisplayInfo = {
 	["anchorOffset"] = { x = 12, y = -152 },
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L54)
 function WarWithinLandingOverlayMixin:TryCelebrateUnlock() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L72)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L72)
 function WarWithinLandingOverlayMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L79)
 function WarWithinLandingOverlayMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L83)
 function WarWithinLandingOverlayMixin:RefreshOverlay() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L87)
 function WarWithinLandingOverlayMixin:RefreshMajorFactionList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/de3fd65621afac528fb8da66858db4f038f626dd/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L95)
 function WarWithinLandingOverlayMixin:SetUpMajorFactionList() end

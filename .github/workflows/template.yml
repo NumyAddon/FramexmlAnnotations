@@ -47,7 +47,7 @@ jobs:
       - name: Checkout or create latest Annotations branch
         if: ${{ steps.check.outputs.skip != 'true' }}
         run: |
-          git clone "https://github.com/NumyAddon/FramexmlAnnotations.git" ./.annotations_temp
+          git clone "git@github.com:NumyAddon/FramexmlAnnotations.git" ./.annotations_temp
           cd ./.annotations_temp
           git fetch --prune origin
           branch_name="${{ inputs.BRANCH }}"

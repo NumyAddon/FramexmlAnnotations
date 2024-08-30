@@ -85,7 +85,7 @@ jobs:
           cd ./.wow-ui-source
           remote_commit_hash=$(git rev-parse HEAD)
           cd ../.annotations_temp
-          local_commit_hash=$(git log --oneline -n1 | grep -Po "Synced to commit \K.*")
+          local_commit_hash=$(git log --oneline -n1 | grep -Po "Synced to commit \K.*" || echo "unknown")
           echo "${branch}: ${local_commit_hash} -> ${remote_commit_hash}"
           if [[ "${local_commit_hash}" == "${remote_commit_hash}" ]]; then
             echo "Branch is already up-to-date."

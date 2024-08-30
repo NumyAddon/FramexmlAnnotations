@@ -1897,6 +1897,3 @@ function WardrobeSetsTransmogMixin:HandleKey(key) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.lua#L4780)
 function WardrobeSetsTransmogMixin:ResetPage() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.lua#L3113)
-function WardrobeCollectionFrameModelDropdown_SetFavorite(visualID, setFavorite, confirmed) end

@@ -33,6 +33,3 @@ function CompositorMixin:Clear() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Menu/Compositor.lua#L467)
 function CompositorMixin:Detach() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Menu/Compositor.lua#L480)
-function CreateCompositor(target) end

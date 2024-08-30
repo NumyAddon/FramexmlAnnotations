@@ -27,6 +27,3 @@ function OrderHallCommandBarMixin:RefreshCategories() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallCommandBar.lua#L145)
 function OrderHallCommandBarMixin:RefreshCurrency() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallCommandBar.lua#L98)
-function OrderHallUpdatePosition() end

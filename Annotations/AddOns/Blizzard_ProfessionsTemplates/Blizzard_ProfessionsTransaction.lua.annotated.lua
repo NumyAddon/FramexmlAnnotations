@@ -252,9 +252,3 @@ function ProfessionsRecipeTransactionMixin:SetUseCharacterInventoryOnly(useChara
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTransaction.lua#L735)
 function ProfessionsRecipeTransactionMixin:ShouldUseCharacterInventoryOnly() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTransaction.lua#L28)
-function CreateAllocation(reagent, quantity) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTransaction.lua#L739)
-function CreateProfessionsRecipeTransaction(recipeSchematic) end

@@ -53,15 +53,3 @@ function VoiceChatChannelActivatedNotificationMixin:ListenForChannelActivation(c
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L165)
 function VoiceChatChannelActivatedNotificationMixin:Setup() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L25)
-function Voice_GetChannelActivatePrompt(channel) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L30)
-function Voice_GetChannelActivatedNotification(channel) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L39)
-function Voice_FormatChannelNotification(channel, notification) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.lua#L48)
-function Voice_GetCommunicationModeNotification(channel) end

@@ -49,6 +49,3 @@ function SettingsAdvancedCheckboxSliderMixin:OnLoad() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L424)
 function SettingsAdvancedDropdownMixin:OnLoad() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L445)
-function CreateAdvancedQualitySectionInitializer(name, settings, raidSettings) end

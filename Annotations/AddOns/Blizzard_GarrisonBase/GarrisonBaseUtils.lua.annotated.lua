@@ -203,24 +203,3 @@ function GarrisonFollowerPortraitMixin:SetILevel(iLevel) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L494)
 function GarrisonFollowerPortraitMixin:SetupPortrait(followerInfo, showILevel) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L338)
-function GetPrimaryGarrisonFollowerType(garrTypeID) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L347)
-function ShouldShowFollowerAbilityBorder(followerTypeID, abilityInfo) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L352)
-function ShouldShowILevelInFollowerList(followerInfo) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L360)
-function IsGarrisonLandingPageFeatured() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L364)
-function ShowGarrisonLandingPage(garrTypeID) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L419)
-function DoesFollowerMatchCurrentGarrisonType(followerType) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L513)
-function GetGarrisonTalentCostString(talentInfo, abbreviate, colorCode) end

@@ -51,9 +51,3 @@ function TooltipDataHandlerMixin:AppendInfo(...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua#L430)
 function TooltipDataHandlerMixin:AppendInfoWithSpacer(...) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua#L224)
-function CreateBaseTooltipInfo(getterName, ...) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua#L437)
-function AddTooltipDataAccessor(handler, accessor, getterName) end

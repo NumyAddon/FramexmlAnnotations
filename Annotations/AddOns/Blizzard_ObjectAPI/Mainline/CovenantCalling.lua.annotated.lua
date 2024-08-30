@@ -27,18 +27,3 @@ function CovenantCallingMixin:GetIcon(covenantData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ObjectAPI/Mainline/CovenantCalling.lua#L47)
 function CovenantCallingMixin:GetBang() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ObjectAPI/Mainline/CovenantCalling.lua#L58)
-function CovenantCalling_Create(bounty) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ObjectAPI/Mainline/CovenantCalling.lua#L107)
-function CovenantCalling_CheckCallings() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ObjectAPI/Mainline/CovenantCalling.lua#L111)
-function CovenantCalling_GetCompletedCount() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ObjectAPI/Mainline/CovenantCalling.lua#L115)
-function CovenantCalling_GetAvailableCount() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ObjectAPI/Mainline/CovenantCalling.lua#L119)
-function CovenantCalling_AreCallingsUnlocked() end

@@ -881,9 +881,3 @@ function DungeonScoreInfoMixin:OnLeave() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1103)
 function DungeonScoreInfoMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1047)
-function ChallengeModeCompleteBanner_OnAnimOutFinished(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1084)
-function MythicPlusSeasonChangeNoticeOnCloseClick(self) end

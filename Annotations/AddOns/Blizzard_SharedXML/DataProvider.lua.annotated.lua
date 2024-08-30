@@ -96,12 +96,3 @@ function DataProviderMixin:ReverseForEach(func) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/DataProvider.lua#L243)
 function DataProviderMixin:Flush() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/DataProvider.lua#L253)
-function CreateDataProvider(tbl) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/DataProvider.lua#L267)
-function CreateDataProviderByIndexCount(indexCount) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/DataProvider.lua#L271)
-function CreateDataProviderWithAssignedKey(tbl, key) end

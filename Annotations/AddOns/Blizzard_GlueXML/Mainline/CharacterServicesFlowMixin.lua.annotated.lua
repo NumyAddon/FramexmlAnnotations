@@ -323,6 +323,3 @@ function CharacterServicesFlowMixin:AllowCharacterReordering() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesFlowMixin.lua#L279)
 function CharacterServicesFlowMixin:CanInitialize() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesFlowMixin.lua#L314)
-function CharacterServicesFlow_ShowFinishConfirmation(data, bodyText, acceptText, cancelText) end

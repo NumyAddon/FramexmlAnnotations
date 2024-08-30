@@ -423,24 +423,3 @@ function HeirloomsMixin:GetSpecFilter() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.lua#L701)
 function HeirloomsMixin:SetClassAndSpecFilters(newClassFilter, newSpecFilter) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.lua#L6)
-function HeirloomsJournal_OnEvent(self, event, ...) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.lua#L16)
-function HeirloomsJournal_OnShow(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.lua#L47)
-function HeirloomsJournal_OnMouseWheel(self, delta) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.lua#L51)
-function HeirloomsJournal_UpdateButton(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.lua#L55)
-function HeirloomsJournalSpellButton_OnEnter(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.lua#L72)
-function HeirloomsJournalSpellButton_OnClick(self, button) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.lua#L715)
-function HeirloomsJournalSearchBox_OnTextChanged(self) end

@@ -1502,6 +1502,3 @@ function ArtifactTitleTemplateMixin:OnUpdate(elapsed) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.lua#L1403)
 function ArtifactTitleTemplateMixin:SetExpandedState(expanded) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.lua#L140)
-function ArtifactsModelTemplate_OnModelLoaded(self) end

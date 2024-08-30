@@ -110,6 +110,3 @@ function NamePlateBorderTemplateMixin:SetUnderlineColor(r, g, b, a) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.lua#L421)
 function NamePlateBorderTemplateMixin:UpdateSizes() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.lua#L425)
-function Nameplate_CastBar_AdjustPosition(self) end

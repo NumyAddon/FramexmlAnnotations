@@ -576,15 +576,3 @@ function CommunitiesListDropDownMenuMixin:OnClubSelected() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Communities/CommunitiesList.lua#L879)
 function CommunitiesListDropDownMenuMixin:UpdateUnreadNotification() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Communities/CommunitiesList.lua#L803)
-function CommunitiesListEntryDropDown_Initialize(self, level) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Communities/CommunitiesList.lua#L826)
-function CommunitiesListEntryDropDown_OnLoad(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Communities/CommunitiesList.lua#L830)
-function CommunitiesListEntryDropDown_OnHide(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Communities/CommunitiesList.lua#L891)
-function CommunitiesListDropDownMenu_Initialize(self) end

@@ -49,9 +49,3 @@ function CommunitiesTicketFrameMixin:AcceptTicket() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.lua#L174)
 function CommunitiesTicketFrameMixin:DeclineTicket() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.lua#L110)
-function CommunitiesInviteButton_OnClick(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.lua#L119)
-function CommunitiesInvitebutton_OnHide(self) end

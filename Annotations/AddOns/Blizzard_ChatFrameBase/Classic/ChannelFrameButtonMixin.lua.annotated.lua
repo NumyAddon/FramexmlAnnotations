@@ -18,6 +18,3 @@ function ChannelFrameButtonMixin:OnClick() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChannelFrameButtonMixin.lua#L51)
 function ChannelFrameButtonMixin:HideTutorial() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChannelFrameButtonMixin.lua#L3)
-function ToggleChannelFrame() end

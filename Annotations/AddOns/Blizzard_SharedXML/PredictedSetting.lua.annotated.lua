@@ -32,9 +32,3 @@ function PredictedToggleMixin:Toggle() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/PredictedSetting.lua#L50)
 function PredictedToggleMixin:UpdateCurrentValue() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/PredictedSetting.lua#L32)
-function CreatePredictedSetting(wrapTable) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_SharedXML/PredictedSetting.lua#L54)
-function CreatePredictedToggle(wrapTable) end

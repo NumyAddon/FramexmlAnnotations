@@ -73,6 +73,3 @@ function TransferRealmEditboxMixin:GetRealmName() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L84)
 function TransferRealmEditboxMixin:GetRealmAddress() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/e6979615c5f9fa07ab72f81723866afbf55abfc5/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidCharacterTransfer.lua#L22)
-function DoesClientThinkTheCharacterIsEligibleForPCT(characterID) end

@@ -179,12 +179,3 @@ function GuildBankPopupEditBoxMixin:OnEscapePressed() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L940)
 function GuildBankPopupEditBoxMixin:OnEnterPressed() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L706)
-function GuildBankFrame_UpdateLog() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L739)
-function GuildBankFrame_UpdateMoneyLog() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L774)
-function GuildBankLogScroll() end

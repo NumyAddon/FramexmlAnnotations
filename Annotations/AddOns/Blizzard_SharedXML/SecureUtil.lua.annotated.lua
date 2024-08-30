@@ -31,9 +31,3 @@ function AutoScalingFontStringMixin:SetMinLineHeight(minLineHeight) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L70)
 function AutoScalingFontStringMixin:ScaleTextToFit() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L107)
-function SetupPlayerForModelScene(modelScene, overrideActorName, itemModifiedAppearanceIDs, sheatheWeapons, autoDress, hideWeapons, useNativeForm) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L133)
-function SetupItemPreviewActor(actor, displayID) end

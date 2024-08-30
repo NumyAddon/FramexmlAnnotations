@@ -66,9 +66,3 @@ function NewNameEditboxMixin:GetNewName() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Shared/CharacterServicesPaidNameChange.lua#L108)
 function NewNameEditboxMixin:SetOnTextChangedCallback(callback) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Shared/CharacterServicesPaidNameChange.lua#L2)
-function toCharacterNameCasing(name) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Shared/CharacterServicesPaidNameChange.lua#L6)
-function RequestAssignPNCForResults(results, isValidationOnly) end

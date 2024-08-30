@@ -12,9 +12,3 @@ function SettingsLayoutMixin:GetLayoutType() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L13)
 function SettingsLayoutMixin:IsVerticalLayout() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L57)
-function CreateVerticalLayout() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L81)
-function CreateCanvasLayout(frame) end

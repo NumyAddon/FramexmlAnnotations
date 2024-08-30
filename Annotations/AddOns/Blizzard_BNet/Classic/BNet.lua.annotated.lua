@@ -76,15 +76,3 @@ function BNetTimeAlertMixin:Start(time) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L328)
 function BNetTimeAlertMixin:OnUpdate(elapsed) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L14)
-function BNet_GetBNetIDAccount(name) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L19)
-function BNet_GetBNetIDAccountFromCharacterName(name) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L344)
-function BNet_GetValidatedCharacterName(characterName, battleTag, client) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L360)
-function BNet_GetValidatedCharacterNameWithClientEmbeddedTexture(characterName, battleTag, texture, fileWidth, fileHeight, texWidth, texHeight, texXOffset, texYOffset) end

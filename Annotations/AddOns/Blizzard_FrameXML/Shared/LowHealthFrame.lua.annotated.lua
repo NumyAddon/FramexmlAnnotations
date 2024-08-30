@@ -30,6 +30,3 @@ function LowHealthFrameMixin:EvaluateVisibleState() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXML/Shared/LowHealthFrame.lua#L170)
 function LowHealthFrameMixin:SetInCombat(inCombat) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXML/Shared/LowHealthFrame.lua#L150)
-function LowHealth_OnUpdate(self) end

@@ -84,12 +84,3 @@ function CommentatorMixin:JoinInstance() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Commentator/Blizzard_Commentator.lua#L537)
 function CommentatorMixin:StopObserving() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Commentator/Blizzard_Commentator.lua#L26)
-function SetFollowCameraTransitionPreset(index) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Commentator/Blizzard_Commentator.lua#L31)
-function CycleFollowCameraTransitionPreset(index) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Commentator/Blizzard_Commentator.lua#L39)
-function SetSpectatorModeForOtherFrames(spectatorMode) end

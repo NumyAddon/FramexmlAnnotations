@@ -26,12 +26,3 @@ function GossipActiveQuestButtonMixin:Setup(...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L81)
 function GossipFrameMixin:SortOrder(leftInfo, rightInfo) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L36)
-function GossipFrameActiveQuestsUpdate(...) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L48)
-function NPCFriendshipStatusBar_Update(frame, factionID --[[ = nil ]]) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L73)
-function NPCFriendshipStatusBar_OnEnter(self) end

@@ -21,6 +21,3 @@ function SettingsKeybindingSectionMixin:OnExpandedChanged(expanded) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Keybindings.lua#L91)
 function SettingsKeybindingSectionMixin:EvaluateVisibility(expanded) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Keybindings.lua#L117)
-function CreateKeybindingSectionInitializer(name, bindingsCategories, requiredSettingName, expanded) end

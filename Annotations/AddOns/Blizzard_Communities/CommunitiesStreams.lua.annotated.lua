@@ -112,12 +112,3 @@ function CommunitiesAddToChatMixin:GetStreamId() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L478)
 function CommunitiesAddToChatMixin:GetCommunitiesFrame() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L343)
-function CommunitiesMassNotificationsSettingsButton_OnClick(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L348)
-function CommunitiesNotificationSettingsDialogOkayButton_OnClick(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L353)
-function CommunitiesNotificationSettingsDialogCancelButton_OnClick(self) end

@@ -21,15 +21,3 @@ function GlueContextMenuMixin:RefreshSize() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L99)
 function GlueContextMenuMixin:Reset() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L12)
-function GlobalGlueContextMenu_GetOwner() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L16)
-function GlobalGlueContextMenu_Acquire(owner, extraMenuHeight, extraMenuWidth) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L23)
-function GlobalGlueContextMenu_IsShown() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.lua#L27)
-function GlobalGlueContextMenu_Release() end

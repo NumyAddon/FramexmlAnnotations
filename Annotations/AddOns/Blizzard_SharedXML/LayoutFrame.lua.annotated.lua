@@ -153,6 +153,3 @@ function StaticGridLayoutFrameMixin:Layout() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L678)
 function StaticGridLayoutFrameMixin:IgnoreLayoutIndex() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L44)
-function LayoutIndexComparator(left, right) end

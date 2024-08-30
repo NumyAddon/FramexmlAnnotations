@@ -43,12 +43,3 @@ function CommunitiesAvatarButtonMixin:Init(avatarIndex) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.lua#L100)
 function CommunitiesAvatarButtonMixin:OnClick(buttonName, down) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.lua#L9)
-function CommunitiesAvatarPicker_OpenDialog(clubType, avatarId, onOkay, onCancel) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.lua#L17)
-function CommunitiesAvatarPicker_CloseDialog() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.lua#L21)
-function CommunitiesAvatarPicker_IsShown() end

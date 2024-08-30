@@ -2156,6 +2156,3 @@ function UnitPopupSelectRoleButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3549)
 function UnitPopupSelectRoleButtonMixin:GetEntries() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2)
-function DisplayUnitPopupTooltip(button, tooltipParams) end

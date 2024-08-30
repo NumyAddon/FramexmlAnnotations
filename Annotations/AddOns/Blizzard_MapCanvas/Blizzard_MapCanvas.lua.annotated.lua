@@ -300,6 +300,3 @@ function MapCanvasMixin:GetGlobalAlpha() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L789)
 function MapCanvasMixin:SetGlobalAlpha(globalAlpha) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L299)
-function SquaredDistanceBetweenPoints(firstX, firstY, secondX, secondY) end

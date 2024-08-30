@@ -1,0 +1,11 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDoubleIconAndText.lua#L10)
+--- @class UIWidgetTemplateDoubleIconAndTextMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateDoubleIconAndTextMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDoubleIconAndText.lua#L17)
+function UIWidgetTemplateDoubleIconAndTextMixin:Setup(widgetInfo, widgetContainer) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDoubleIconAndText.lua#L37)
+function UIWidgetTemplateDoubleIconAndTextMixin:OnLoad() end

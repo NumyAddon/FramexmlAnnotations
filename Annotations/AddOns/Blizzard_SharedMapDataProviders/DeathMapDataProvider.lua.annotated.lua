@@ -1,0 +1,34 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L1)
+--- @class DeathMapDataProviderMixin : MapCanvasDataProviderMixin
+DeathMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L29)
+--- @class CorpsePinMixin : MapCanvasPinMixin
+CorpsePinMixin = CreateFromMixins(MapCanvasPinMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L56)
+--- @class DeathReleasePinMixin : CorpsePinMixin
+DeathReleasePinMixin = CreateFromMixins(CorpsePinMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L3)
+function DeathMapDataProviderMixin:RemoveAllData() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L8)
+function DeathMapDataProviderMixin:RefreshAllData(fromOnShow) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L31)
+function CorpsePinMixin:OnLoad() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L36)
+function CorpsePinMixin:OnAcquired() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L40)
+function CorpsePinMixin:OnMouseEnter() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L52)
+function CorpsePinMixin:OnMouseLeave() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L58)
+function DeathReleasePinMixin:OnMouseEnter() end

@@ -1,0 +1,12 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXML/Classic/StreamingFrame.xml#L28)
+--- @class StreamingIcon_StreamingIconFrame : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXML/Classic/StreamingFrame.xml#L38)
+--- @class StreamingIcon_StreamingIconSpin : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXML/Classic/StreamingFrame.xml#L3)
+--- @class StreamingIcon : Frame
+StreamingIcon = {}
+

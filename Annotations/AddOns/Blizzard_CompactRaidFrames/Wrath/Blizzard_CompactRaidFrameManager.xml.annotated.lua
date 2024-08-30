@@ -1,0 +1,160 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L3)
+--- Template
+--- @class CRFManagerFilterButtonTemplate : Button, UIMenuButtonStretchTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L12)
+--- Template
+--- @class CRFManagerFilterRoleButtonTemplate : Button, CRFManagerFilterButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L21)
+--- Template
+--- @class CRFManagerFilterGroupButtonTemplate : Button, CRFManagerFilterButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L30)
+--- Template
+--- @class CRFManagerRaidIconButtonTemplate : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L194)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerContainerResizeFrame_CompactRaidFrameManagerContainerResizeFrameMover : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L226)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerContainerResizeFrame_CompactRaidFrameManagerContainerResizeFrameResizer : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L129)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerContainerResizeFrame : Frame
+--- @field mover CompactRaidFrameManager_CompactRaidFrameManagerContainerResizeFrame_CompactRaidFrameManagerContainerResizeFrameMover
+--- @field resizer CompactRaidFrameManager_CompactRaidFrameManagerContainerResizeFrame_CompactRaidFrameManagerContainerResizeFrameResizer
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L257)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerToggleButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L317)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameOptionsButton : Button, UIPanelInfoButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L329)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameOptionFlowContainer : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L335)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameProfileSelector : DropdownButton, WowStyle1DropdownTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L355)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterRoleTank : Button, CRFManagerFilterRoleButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L366)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterRoleHealer : Button, CRFManagerFilterRoleButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L377)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterRoleDamager : Button, CRFManagerFilterRoleButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L388)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1 : Button, CRFManagerFilterGroupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L393)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2 : Button, CRFManagerFilterGroupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L398)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3 : Button, CRFManagerFilterGroupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L403)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4 : Button, CRFManagerFilterGroupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L408)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5 : Button, CRFManagerFilterGroupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L413)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6 : Button, CRFManagerFilterGroupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L418)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7 : Button, CRFManagerFilterGroupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L423)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8 : Button, CRFManagerFilterGroupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L341)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions : Frame
+--- @field filterRoleTank CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterRoleTank
+--- @field filterRoleHealer CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterRoleHealer
+--- @field filterRoleDamager CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterRoleDamager
+--- @field filterGroup1 CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1
+--- @field filterGroup2 CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2
+--- @field filterGroup3 CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3
+--- @field filterGroup4 CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4
+--- @field filterGroup5 CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5
+--- @field filterGroup6 CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6
+--- @field filterGroup7 CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7
+--- @field filterGroup8 CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L430)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameLockedModeToggle : Button, UIMenuButtonStretchTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L440)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameHiddenModeToggle : Button, UIMenuButtonStretchTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L450)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameConvertToRaid : Button, UIMenuButtonStretchTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L462)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarker1 : Button, CRFManagerRaidIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L467)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarker2 : Button, CRFManagerRaidIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L472)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarker3 : Button, CRFManagerRaidIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L477)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarker4 : Button, CRFManagerRaidIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L482)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarker5 : Button, CRFManagerRaidIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L487)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarker6 : Button, CRFManagerRaidIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L492)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarker7 : Button, CRFManagerRaidIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L497)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarker8 : Button, CRFManagerRaidIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L502)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarkerRemove : Button, CRFManagerRaidIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L459)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L521)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameLeaderOptions_CompactRaidFrameManagerDisplayFrameLeaderOptionsInitiateRolePoll : Button, UIMenuButtonStretchTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L533)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameLeaderOptions_CompactRaidFrameManagerDisplayFrameLeaderOptionsInitiateReadyCheck : Button, UIMenuButtonStretchTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L518)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameLeaderOptions : Frame
+--- @field rolePollButton CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameLeaderOptions_CompactRaidFrameManagerDisplayFrameLeaderOptionsInitiateRolePoll
+--- @field readyCheckButton CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameLeaderOptions_CompactRaidFrameManagerDisplayFrameLeaderOptionsInitiateReadyCheck
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L547)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameEveryoneIsAssistButton : CheckButton, UICheckButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L284)
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame : Frame
+--- @field optionsFlowContainer CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameOptionFlowContainer
+--- @field profileSelector CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameProfileSelector
+--- @field filterOptions CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions
+--- @field lockedModeToggle CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameLockedModeToggle
+--- @field hiddenModeToggle CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameHiddenModeToggle
+--- @field convertToRaid CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameConvertToRaid
+--- @field raidMarkers CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers
+--- @field leaderOptions CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameLeaderOptions
+--- @field everyoneIsAssistButton CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameEveryoneIsAssistButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CompactRaidFrames/Wrath/Blizzard_CompactRaidFrameManager.xml#L61)
+--- @class CompactRaidFrameManager : Frame
+--- @field containerResizeFrame CompactRaidFrameManager_CompactRaidFrameManagerContainerResizeFrame
+--- @field toggleButton CompactRaidFrameManager_CompactRaidFrameManagerToggleButton
+--- @field displayFrame CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame
+CompactRaidFrameManager = {}
+

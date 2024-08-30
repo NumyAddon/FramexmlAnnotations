@@ -21,6 +21,7 @@ Generated annotations are limited to
    - "methods" for a given mixin
    - inheritence through `CreateFromMixins`
  - Global functions
+   - for now disabled, using Ketho's annotations, and including the wow source as workspace libraries is probably better
 
 prerequisites to run this yourself:
 - PHP 8.3

@@ -109,29 +109,33 @@ class LuaFileParser
             }
         }
 
-        // e.g. `function SomeGlobal_Function()`
-        $functionDeclarations = [];
-        preg_match_all(
-            '/^function ([A-Za-z0-9_]+)\s*\([^)]*\)/m',
-            $fileContents,
-            $functionDeclarations,
-            PREG_SET_ORDER | PREG_OFFSET_CAPTURE,
-        );
-        foreach ($functionDeclarations as $match) {
-            $data = $match[0][0] . ' end';
-            if ($linkPrefix) {
-                $lineNr = $this->getLineNrFromOffset($fileContents, $match[0][1]);
-                $data = "--- [Source]($linkPrefix#L$lineNr)\n$data";
-            }
-
-            $functions[$match[1][0]] = $data;
-        }
+// disabled for now
+//        // e.g. `function SomeGlobal_Function()`
+//        $functionDeclarations = [];
+//        preg_match_all(
+//            '/^function ([A-Za-z0-9_]+)\s*\([^)]*\)/m',
+//            $fileContents,
+//            $functionDeclarations,
+//            PREG_SET_ORDER | PREG_OFFSET_CAPTURE,
+//        );
+//        foreach ($functionDeclarations as $match) {
+//            $data = $match[0][0] . ' end';
+//            if ($linkPrefix) {
+//                $lineNr = $this->getLineNrFromOffset($fileContents, $match[0][1]);
+//                $data = "--- [Source]($linkPrefix#L$lineNr)\n$data";
+//            }
+//
+//            $functions[$match[1][0]] = $data;
+//        }
 
         return $functions;
     }
 
     public function writeAnnotationsToFile(string $filename, string $outDir, string $prefixToStrip): void
     {
+        if (empty($this->mixins[$filename]) && empty($this->functions[$filename])) {
+            return;
+        }
         $data = "--- @meta _\n\n";
         $data .= $this->mixins[$filename] ? implode("\n\n", $this->mixins[$filename]) . "\n\n" : '';
         $data .= $this->functions[$filename] ? implode("\n\n", $this->functions[$filename]) . "\n" : '';

@@ -61,12 +61,12 @@ jobs:
             git fetch origin "${branch_name}"
             git checkout -b "${branch_name}" "origin/${branch_name}"
             git pull --rebase origin "${branch_name}"
-            git rm -rfq .
+            git rm -rfq . || true
             cleanup
           else
             echo "Creating new branch..."
             cleanup
-            git rm -rfq .
+            git rm -rfq . || true
             git checkout --orphan "${branch_name}"
             git commit --allow-empty --message "Initialize"
             git push --set-upstream origin "${branch_name}"

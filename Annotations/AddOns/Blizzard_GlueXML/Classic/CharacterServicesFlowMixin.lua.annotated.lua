@@ -200,6 +200,3 @@ function CharacterServicesFlowMixin:IsWarningAccepted() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesFlowMixin.lua#L261)
 function CharacterServicesFlowMixin:ShouldFinishBehaveLikeNext() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesFlowMixin.lua#L296)
-function CharacterServicesFlow_ShowFinishConfirmation(data, bodyText, acceptText, cancelText) end

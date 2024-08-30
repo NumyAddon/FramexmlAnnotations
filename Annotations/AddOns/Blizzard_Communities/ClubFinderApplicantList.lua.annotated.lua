@@ -93,27 +93,3 @@ function ClubFinderApplicantCancelButtonMixin:OnLeave() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L605)
 function ClubFinderApplicantCancelButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L232)
-function ClubFinderApplicantReport(clubFinderGUID, playerName, playerGUID) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L238)
-function ApplicantRightClickOptionsMenuInitialize(self, level) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L303)
-function ClubFinderApplicantListColumnDisplay_OnClick(self, columnIndex) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L307)
-function ClubFinderApplicantSortFunction(shouldReverse, firstValue, secondValue) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L315)
-function ClubFinderApplicantSpecSortReturnSpecValue(specIds) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L342)
-function ClubFinderApplicantSortFunctionBySpecIds(shouldReverse, firstSpecIds, secondSpecIds) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L547)
-function ClubFinderCancelOrAcceptApplicant(self, shouldInvite, forceAccept) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L569)
-function ClubFinderMessageApplicant(self) end

@@ -48,6 +48,3 @@ function CircularBufferMixin:CalculateElementIndexFromGlobalIndex(globalIndex) e
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L175)
 function CircularBufferMixin:ReplaceElements(elements) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L17)
-function CreateCircularBuffer(maxElements) end

@@ -62,15 +62,3 @@ function KeyBindingButtonMixin:SetSelected(selected) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L547)
 function KeyBindingButtonMixin:OnLoad() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L194)
-function SaveAllCustomBindings(shouldSave) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L200)
-function DisplayUniversalAccessDialogIfRequiredForVoiceChatKeybind(keys) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L217)
-function CreateVoicePushToTalkBindingHandler() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L505)
-function CreateKeybindingEntryInitializer(bindingIndex, search) end

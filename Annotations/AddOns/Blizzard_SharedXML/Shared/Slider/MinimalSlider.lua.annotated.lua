@@ -84,6 +84,3 @@ function MinimalSliderWithSteppersMixin:SetValue(value) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L173)
 function MinimalSliderWithSteppersMixin:Release() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L15)
-function CreateMinimalSliderFormatter(labelType, value) end

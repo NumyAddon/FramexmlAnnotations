@@ -12,6 +12,3 @@ function InterpolatorMixin:GetInterpolateTo() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Interpolator.lua#L81)
 function InterpolatorMixin:Cancel() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Interpolator.lua#L89)
-function CreateInterpolator(interpolateFunc) end

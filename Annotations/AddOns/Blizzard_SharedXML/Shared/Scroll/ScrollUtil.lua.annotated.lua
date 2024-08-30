@@ -107,6 +107,3 @@ function ScrollBoxFactoryInitializerMixin:Resetter(frame) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1195)
 function ScrollBoxFactoryInitializerMixin:IsTemplate(frameTemplate) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L814)
-function CreateScrollBoxDragBehavior(scrollBox) end

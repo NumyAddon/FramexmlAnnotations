@@ -1607,21 +1607,3 @@ function CommunitiesMemberListFactionButtonMixin:OnShow() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1749)
 function CommunitiesMemberListFactionButtonMixin:OnEnter() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L879)
-function CommunitiesMemberListColumnDisplay_OnClick(self, columnIndex) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1471)
-function CommunitiesMemberListDropDown_OnLoad(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1475)
-function CommunitiesMemberListDropDown_OnHide(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1486)
-function CommunitiesMemberListDropdown_Initialize(self, level) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1580)
-function GuildMemberListDropDownMenu_Initialize(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1671)
-function CommunityMemberListDropDownMenu_Initialize(self) end

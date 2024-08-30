@@ -67,6 +67,3 @@ function CharacterFrameMixin:Expand() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.lua#L279)
 function CharacterFrameTabButtonMixin:OnClick(button) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.lua#L29)
-function ToggleCharacter (tab, onlyShow) end

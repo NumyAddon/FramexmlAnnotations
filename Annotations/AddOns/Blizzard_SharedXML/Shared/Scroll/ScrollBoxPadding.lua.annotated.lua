@@ -30,6 +30,3 @@ function ScrollBoxPaddingMixin:GetRight() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxPadding.lua#L59)
 function ScrollBoxPaddingMixin:SetRight(right) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxPadding.lua#L63)
-function CreateScrollBoxPadding(top, bottom, left, right) end

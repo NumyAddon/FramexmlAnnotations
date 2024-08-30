@@ -103,6 +103,3 @@ function LinearizedTreeDataProviderMixin:Invalidate() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L460)
 function LinearizedTreeDataProviderMixin:GetLinearized() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L471)
-function CreateTreeDataProvider() end

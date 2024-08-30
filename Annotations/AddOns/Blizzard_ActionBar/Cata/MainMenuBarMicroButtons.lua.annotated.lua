@@ -34,21 +34,3 @@ function EJMicroButtonMixin:OnEvent(event, ...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L329)
 function EJMicroButtonMixin:OnClick(button, down) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L16)
-function MoveMicroButtons(anchor, anchorTo, relAnchor, x, y, isStacked) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L28)
-function UpdateMicroButtons() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L137)
-function AchievementMicroButton_OnLoad() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L149)
-function AchievementMicroButton_OnEvent(event, ...) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L227)
-function CollectionsMicroButton_SetAlert(tabIndex) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.lua#L232)
-function CollectionsMicroButton_SetAlertShown(shown) end

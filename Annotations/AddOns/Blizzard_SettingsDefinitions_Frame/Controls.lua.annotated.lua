@@ -15,6 +15,3 @@ function AutoLootDropDownControlMixin:OnAutoLootChanged(setting, value) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Controls.lua#L20)
 function AutoLootDropDownControlMixin:UpdateLabel() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Controls.lua#L25)
-function CreateAutoLootInitializer(setting) end

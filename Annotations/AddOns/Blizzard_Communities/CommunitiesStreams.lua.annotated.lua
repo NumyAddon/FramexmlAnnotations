@@ -109,24 +109,3 @@ function CommunitiesAddToChatMixin:OnMouseDown(button) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L483)
 function CommunitiesAddToChatMixin:GetCommunitiesFrame() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L2)
-function CommunitiesStreamDropDownMenu_GetStreamName(clubId, stream) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L23)
-function CommunitiesStreamDropDownMenu_Initialize(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L315)
-function CommunitiesMassNotificationsSettingsButton_OnClick(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L320)
-function CommunitiesNotificationSettingsDialogOkayButton_OnClick(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L325)
-function CommunitiesNotificationSettingsDialogCancelButton_OnClick(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L363)
-function CommunitiesAddToChatDropDown_Initialize(self, level) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L479)
-function CommunitiesAddToChatDropDown_OnLoad(self) end

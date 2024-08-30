@@ -229,6 +229,3 @@ function CommunitiesControlFrameMixin:Update() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1742)
 function CommunitiesControlFrameMixin:GetCommunitiesFrame() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1604)
-function CommunitiesFrameMaximizeMinimizeButton_OnLoad(self) end

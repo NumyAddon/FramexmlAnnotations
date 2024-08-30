@@ -45,12 +45,3 @@ function AuctionCategoryMixin:ClearFlag(flag) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionData.lua#L320)
 function AuctionCategoryMixin:HasFlag(flag) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionData.lua#L185)
-function AuctionFrame_GetDetailColumnString(categoryIndex, subCategoryIndex) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionData.lua#L190)
-function AuctionFrame_DoesCategoryHaveFlag(flag, categoryIndex, subCategoryIndex, subSubCategoryIndex) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionData.lua#L198)
-function AuctionFrame_CreateCategory(name) end

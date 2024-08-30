@@ -31,6 +31,3 @@ function TextToSpeechButtonMixin:OnEnter() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeech.lua#L82)
 function TextToSpeechButtonMixin:OnLeave() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeech.lua#L13)
-function TextToSpeechButtonFrame_OnLoad(self) end

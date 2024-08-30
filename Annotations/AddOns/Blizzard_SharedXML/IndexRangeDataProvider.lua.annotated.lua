@@ -30,6 +30,3 @@ function IndexRangeDataProviderMixin:FindByPredicate(predicate) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/IndexRangeDataProvider.lua#L67)
 function IndexRangeDataProviderMixin:ContainsByPredicate(predicate) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/IndexRangeDataProvider.lua#L71)
-function CreateIndexRangeDataProvider(size) end

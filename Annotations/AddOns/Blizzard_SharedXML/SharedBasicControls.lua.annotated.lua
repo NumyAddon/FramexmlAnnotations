@@ -127,18 +127,3 @@ function BaseNineSliceDialogMixin:Display(title, description, onCloseCvar) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L150)
 function BaseNineSliceDialogMixin:OnCloseClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L22)
-function message(text, force) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L108)
-function BaseExpandableDialogMixin_OnCloseClick(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L158)
-function BaseNineSliceDialog_OnCloseClick(self) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L354)
-function HandleLuaWarning(warnType, warningMessage) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L363)
-function HandleLuaError(errorMessage) end

@@ -81,6 +81,3 @@ function RectangleMixin:SetSize(width, height) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Rectangle.lua#L124)
 function RectangleMixin:SetCenter(x, y) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Rectangle.lua#L3)
-function CreateRectangle(left, right, top, bottom) end

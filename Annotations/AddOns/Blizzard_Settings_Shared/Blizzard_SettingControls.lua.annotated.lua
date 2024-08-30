@@ -346,27 +346,3 @@ function SettingsExpandableSectionMixin:OnExpandedChanged(expanded) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1088)
 function SettingsExpandableSectionMixin:Init(initializer) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L14)
-function CreateSettingsListSectionHeaderInitializer(name) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L594)
-function CreateSettingsButtonInitializer(name, buttonText, buttonClick, tooltip, addSearchTags) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L693)
-function CreateSettingsCheckBoxWithButtonInitializer(setting, buttonText, buttonClick, clickRequiresSet, tooltip) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L794)
-function CreateSettingsCheckBoxSliderInitializer(cbSetting, cbLabel, cbTooltip, sliderSetting, sliderOptions, sliderLabel, sliderTooltip) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L896)
-function CreateSettingsCheckBoxDropDownInitializer(cbSetting, cbLabel, cbTooltip, dropDownSetting, dropDownOptions, dropDownLabel, dropDownTooltip) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1017)
-function CreateSettingsSelectionCustomSelectedData(data, label) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1099)
-function CreateSettingsExpandableSectionInitializer(name) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L1106)
-function CreateSettingsAddOnDisabledLabelInitializer() end

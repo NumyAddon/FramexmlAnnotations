@@ -1,66 +1,66 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L5)
 --- @class NamePlateDriverFrame : Frame, NamePlateDriverMixin
 NamePlateDriverFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L31)
 --- @class NameplateBuffButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L36)
 --- @class NameplateBuffButtonTemplate_CountFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L12)
 --- Template
 --- @class NameplateBuffButtonTemplate : Frame, NameplateBuffButtonTemplateMixin
 --- @field Cooldown NameplateBuffButtonTemplate_Cooldown
 --- @field CountFrame NameplateBuffButtonTemplate_CountFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L54)
 --- Template
 --- @class NamePlateFullBorderTemplate : Frame, NamePlateBorderTemplateMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L100)
 --- Template
 --- @class NamePlateSecondaryBarBorderTemplate : Frame, NamePlateBorderTemplateMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L155)
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_border : Frame, NamePlateFullBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L156)
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_TempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L163)
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L146)
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer : Frame
 --- @field border BaseNamePlateUnitFrameTemplate_HealthBarsContainer_border
 --- @field TempMaxHealthLoss BaseNamePlateUnitFrameTemplate_HealthBarsContainer_TempMaxHealthLoss
 --- @field healthBar BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L194)
 --- @class BaseNamePlateUnitFrameTemplate_castBar : StatusBar, CastingBarFrameAnimsTemplate, CastingBarMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L247)
 --- @class BaseNamePlateUnitFrameTemplate_WidgetContainer : Frame, UIWidgetContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L253)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L253)
 --- @class BaseNamePlateUnitFrameTemplate_BuffFrame : Frame, HorizontalLayoutFrame, NameplateBuffContainerMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L266)
 --- @class BaseNamePlateUnitFrameTemplate_ClassificationFrame : Frame, NamePlateClassificationFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L285)
 --- @class BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame : Frame, NamePlateLevelDiffMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L311)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L311)
 --- @class BaseNamePlateUnitFrameTemplate_RaidTargetFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L322)
 --- @class BaseNamePlateUnitFrameTemplate_SoftTargetFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L136)
 --- Template
 --- @class BaseNamePlateUnitFrameTemplate : Button
 --- @field HealthBarsContainer BaseNamePlateUnitFrameTemplate_HealthBarsContainer
@@ -72,19 +72,19 @@ NamePlateDriverFrame = {}
 --- @field RaidTargetFrame BaseNamePlateUnitFrameTemplate_RaidTargetFrame
 --- @field SoftTargetFrame BaseNamePlateUnitFrameTemplate_SoftTargetFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L375)
 --- @class PersonalFriendlyBuffFrame : Frame, HorizontalLayoutFrame, PersonalFriendlyBuffContainerMixin
 PersonalFriendlyBuffFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L387)
 --- Template
 --- @class NamePlateUnitFrameTemplate : Button, BaseNamePlateUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L388)
 --- Template
 --- @class ForbiddenNamePlateUnitFrameTemplate : Button, BaseNamePlateUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L390)
 --- @class NamePlateTooltip : GameTooltip, GameTooltipTemplate
 NamePlateTooltip = {}
 

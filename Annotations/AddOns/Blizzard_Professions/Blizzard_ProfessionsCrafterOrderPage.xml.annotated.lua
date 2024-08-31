@@ -1,41 +1,41 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L5)
 --- Template
 --- @class ProfessionsCraftingOrderTypeTabTemplate : Button, TabSystemButtonArtTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L32)
 --- Template
 --- @class ProfessionsCrafterOrderListElementTemplate : Button, ProfessionsCrafterOrderListElementMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L56)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_RecipeList : Frame, ProfessionsRecipeListTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L66)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_FavoritesSearchButton : Button, SquareIconButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L72)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L72)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_SearchButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L79)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_BackButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L108)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_HeaderContainer : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L115)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L124)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L130)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L136)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_LoadingSpinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L90)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList : Frame
 --- @field HeaderContainer ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_HeaderContainer
 --- @field NineSlice ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_NineSlice
@@ -43,25 +43,25 @@
 --- @field ScrollBar ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_ScrollBar
 --- @field LoadingSpinner ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_LoadingSpinner
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L162)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_PublicOrdersButton : Button, ProfessionsCraftingOrderTypeTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L170)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_GuildOrdersButton : Button, ProfessionsCraftingOrderTypeTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L178)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_NpcOrdersButton : Button, ProfessionsCraftingOrderTypeTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L186)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_NpcOrdersNewFeature : Frame, NewFeatureLabelNoAnimateTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L191)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_PersonalOrdersButton : Button, ProfessionsCraftingOrderTypeTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L200)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrdersRemainingDisplay : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L54)
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame : Frame
 --- @field RecipeList ProfessionsCraftingOrderPageTemplate_BrowseFrame_RecipeList
 --- @field FavoritesSearchButton ProfessionsCraftingOrderPageTemplate_BrowseFrame_FavoritesSearchButton
@@ -75,10 +75,10 @@
 --- @field PersonalOrdersButton ProfessionsCraftingOrderPageTemplate_BrowseFrame_PersonalOrdersButton
 --- @field OrdersRemainingDisplay ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrdersRemainingDisplay
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L226)
 --- @class ProfessionsCraftingOrderPageTemplate_OrderView : Frame, ProfessionsCrafterOrderViewTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L46)
 --- Template
 --- @class ProfessionsCraftingOrderPageTemplate : Frame, ProfessionsCraftingOrderPageMixin
 --- @field BrowseFrame ProfessionsCraftingOrderPageTemplate_BrowseFrame

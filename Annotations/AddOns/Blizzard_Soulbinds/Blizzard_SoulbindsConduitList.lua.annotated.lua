@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L3)
 --- @class ConduitListCategoryButtonMixin
 ConduitListCategoryButtonMixin = {};
 
@@ -82,11 +82,11 @@ ConduitListConduitButtonMixin.State =
 	Pending = 3,
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L74)
 --- @class ConduitListConduitButtonMixin
 ConduitListConduitButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L342)
 --- @class ConduitListSectionMixin
 ConduitListSectionMixin = {}
 
@@ -236,135 +236,135 @@ local ConduitListEvents =
 	"PLAYER_SPECIALIZATION_CHANGED",
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L480)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L480)
 --- @class ConduitListMixin
 ConduitListMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L15)
 function ConduitListCategoryButtonMixin:Init(conduitType, collapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L29)
 function ConduitListCategoryButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L35)
 function ConduitListCategoryButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L42)
 function ConduitListCategoryButtonMixin:OnMouseDown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L46)
 function ConduitListCategoryButtonMixin:OnMouseUp() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L50)
 function ConduitListCategoryButtonMixin:SetCollapsedVisuals(collapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L58)
 function ConduitListCategoryButtonMixin:SetCollapsed(collapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L90)
 function ConduitListConduitButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L94)
 function ConduitListConduitButtonMixin:Init(conduitData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L166)
 function ConduitListConduitButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L187)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L187)
 function ConduitListConduitButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L191)
 function ConduitListConduitButtonMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L195)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L195)
 function ConduitListConduitButtonMixin:MatchesID(conduitID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L199)
 function ConduitListConduitButtonMixin:PlayUpdateAnimation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L203)
 function ConduitListConduitButtonMixin:UpdateVisuals(state) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L219)
 function ConduitListConduitButtonMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L223)
 function ConduitListConduitButtonMixin:GetState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L245)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L245)
 function ConduitListConduitButtonMixin:OnClick(buttonName) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L273)
 function ConduitListConduitButtonMixin:OnDragStart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L277)
 function ConduitListConduitButtonMixin:CreateCursor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L281)
 function ConduitListConduitButtonMixin:OnEnter(conduitData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L321)
 function ConduitListConduitButtonMixin:OnLeave(collectionData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L337)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L337)
 function ConduitListConduitButtonMixin:SetConduitPulsePlaying(playing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L344)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L344)
 function ConduitListSectionMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L354)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L354)
 function ConduitListSectionMixin:Init(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L438)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L438)
 function ConduitListSectionMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L444)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L444)
 function ConduitListSectionMixin:SetConduitPulsePlaying(playing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L450)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L450)
 function ConduitListSectionMixin:FindConduitButton(conduitID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L458)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L458)
 function ConduitListSectionMixin:PlayUpdateAnim(conduitData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L467)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L467)
 function ConduitListSectionMixin:IsCollapsed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L471)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L471)
 function ConduitListSectionMixin:SetCollapsed(collapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L490)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L490)
 function ConduitListMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L515)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L515)
 function ConduitListMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L528)
 function ConduitListMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L532)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L532)
 function ConduitListMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L536)
 function ConduitListMixin:SetConduitPreview(preview) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L540)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L540)
 function ConduitListMixin:SetConduitListConduitsPulsePlaying(conduitType, playing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L547)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L547)
 function ConduitListMixin:FindListSection(conduitType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L554)
 function ConduitListMixin:Init() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L575)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L575)
 function ConduitListMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L581)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L581)
 function ConduitListMixin:PlayLearnAnimation(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L602)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L602)
 function ConduitListMixin:OnCollectionDataUpdated(conduitData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L640)
 function ConduitListMixin:UpdateCollectionShown(shown) end

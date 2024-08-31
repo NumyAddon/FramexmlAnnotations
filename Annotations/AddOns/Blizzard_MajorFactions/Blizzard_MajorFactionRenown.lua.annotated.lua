@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L188)
 --- @class MajorFactionRenownMixin
 MajorFactionRenownMixin = {};
 
@@ -10,79 +10,79 @@ local MajorFactionRenownEvents = {
 	"UPDATE_FACTION",
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L505)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L505)
 --- @class MajorFactionRenownHeaderFrameMixin
 MajorFactionRenownHeaderFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L528)
 --- @class MajorFactionRenownTrackProgressBarMixin
 MajorFactionRenownTrackProgressBarMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L196)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L196)
 function MajorFactionRenownMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L214)
 function MajorFactionRenownMixin:SetMajorFaction(majorFactionID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L219)
 function MajorFactionRenownMixin:GetCurrentFactionID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L223)
 function MajorFactionRenownMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L234)
 function MajorFactionRenownMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L256)
 function MajorFactionRenownMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L267)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L267)
 function MajorFactionRenownMixin:OnMouseWheel(direction) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L277)
 function MajorFactionRenownMixin:RefreshCurrentFactionData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L283)
 function MajorFactionRenownMixin:SetUpMajorFactionData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L323)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L323)
 function MajorFactionRenownMixin:GetLevels() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L334)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L334)
 function MajorFactionRenownMixin:Refresh(fromOnShow) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L350)
 function MajorFactionRenownMixin:SelectLevel(level, fromOnShow, forceRefresh) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L363)
 function MajorFactionRenownMixin:OnTrackUpdate(leftIndex, centerIndex, rightIndex, isMoving) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L385)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L385)
 function MajorFactionRenownMixin:OnLevelEffectFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L391)
 function MajorFactionRenownMixin:PlayLevelEffect() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L413)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L413)
 function MajorFactionRenownMixin:CancelLevelEffect() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L429)
 function MajorFactionRenownMixin:SetCelebrationSwirlEffects(swirlEffects) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L439)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L439)
 function MajorFactionRenownMixin:SetRewards(level) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L485)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L485)
 function MajorFactionRenownMixin:CheckTutorials() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L507)
 function MajorFactionRenownHeaderFrameMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L524)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L524)
 function MajorFactionRenownHeaderFrameMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L530)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L530)
 function MajorFactionRenownTrackProgressBarMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L534)
 function MajorFactionRenownTrackProgressBarMixin:RefreshBar() end

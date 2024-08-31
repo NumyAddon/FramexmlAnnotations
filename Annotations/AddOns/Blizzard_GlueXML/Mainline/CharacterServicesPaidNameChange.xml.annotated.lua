@@ -1,25 +1,25 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L7)
 --- @class PNCCharacterSelect_ControlsFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L8)
 --- @class PNCCharacterSelect_ResultsFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L4)
 --- @class PNCCharacterSelect : Frame, CharacterServicesBlockTemplate
 --- @field ControlsFrame PNCCharacterSelect_ControlsFrame
 --- @field ResultsFrame PNCCharacterSelect_ResultsFrame
 PNCCharacterSelect = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L30)
 --- @class PNCNameSelect_ControlsFrame_NewNameEditbox : EditBox, CharacterServicesEditBoxHorizontalLabelTemplate, NewNameEditboxMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L19)
 --- @class PNCNameSelect_ControlsFrame : Frame
 --- @field NewNameEditbox PNCNameSelect_ControlsFrame_NewNameEditbox
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L16)
 --- @class PNCNameSelect : Frame, CharacterServicesBlockTemplate
 --- @field ControlsFrame PNCNameSelect_ControlsFrame
 PNCNameSelect = {}

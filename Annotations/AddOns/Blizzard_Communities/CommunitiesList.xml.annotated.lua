@@ -1,22 +1,22 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L5)
 --- Template
 --- @class CommunitiesListEntryTemplate : Button, CommunitiesListEntryMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L160)
 --- @class CommunitiesListFrameTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L166)
 --- @class CommunitiesListFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L172)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L172)
 --- @class CommunitiesListFrameTemplate_FilligreeOverlay : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L245)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L245)
 --- @class CommunitiesListFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L131)
 --- Template
 --- @class CommunitiesListFrameTemplate : Frame, CommunitiesListMixin
 --- @field ScrollBox CommunitiesListFrameTemplate_ScrollBox
@@ -24,10 +24,10 @@
 --- @field FilligreeOverlay CommunitiesListFrameTemplate_FilligreeOverlay
 --- @field InsetFrame CommunitiesListFrameTemplate_InsetFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L266)
 --- @class CommunitiesListDropdownTemplate_NotificationOverlay : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L264)
 --- Template
 --- @class CommunitiesListDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, CommunitiesListDropdownMixin
 --- @field NotificationOverlay CommunitiesListDropdownTemplate_NotificationOverlay

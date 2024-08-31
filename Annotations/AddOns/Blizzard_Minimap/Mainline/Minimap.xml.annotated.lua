@@ -1,58 +1,58 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L15)
 --- @class MinimapCluster_BorderTop : Frame, NineSliceCodeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L25)
 --- @class MinimapCluster_ZoneTextButton : Button, MinimapZoneTextButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L59)
 --- @class MinimapCluster_Tracking_Button : DropdownButton, MiniMapTrackingButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L48)
 --- @class MinimapCluster_Tracking : Frame
 --- @field Button MinimapCluster_Tracking_Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L89)
 --- @class MinimapCluster_IndicatorFrame_MailFrame : Frame, MiniMapMailFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L143)
 --- @class MinimapCluster_IndicatorFrame_CraftingOrderFrame : Frame, MiniMapCraftingOrderFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L80)
 --- @class MinimapCluster_IndicatorFrame : Frame, HorizontalLayoutFrame
 --- @field MailFrame MinimapCluster_IndicatorFrame_MailFrame
 --- @field CraftingOrderFrame MinimapCluster_IndicatorFrame_CraftingOrderFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L181)
 --- @class MinimapCluster_MinimapContainer_Minimap_ZoomHitArea : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L187)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L187)
 --- @class MinimapCluster_MinimapContainer_Minimap_ZoomIn : Button, MinimapZoomInButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L202)
 --- @class MinimapCluster_MinimapContainer_Minimap_ZoomOut : Button, MinimapZoomOutButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L233)
 --- @class MinimapCluster_MinimapContainer_Minimap_MinimapBackdrop_ExpansionLandingPageMinimapButton : Button, ExpansionLandingPageMinimapButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L217)
 --- @class MinimapCluster_MinimapContainer_Minimap_MinimapBackdrop : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L175)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L175)
 --- @class MinimapCluster_MinimapContainer_Minimap : Minimap, MinimapMixin
 --- @field ZoomHitArea MinimapCluster_MinimapContainer_Minimap_ZoomHitArea
 --- @field ZoomIn MinimapCluster_MinimapContainer_Minimap_ZoomIn
 --- @field ZoomOut MinimapCluster_MinimapContainer_Minimap_ZoomOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L169)
 --- @class MinimapCluster_MinimapContainer : Frame
 --- @field Minimap MinimapCluster_MinimapContainer_Minimap
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L393)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L393)
 --- @class MinimapCluster_InstanceDifficulty : Frame, InstanceDifficultyTemplate, InstanceDifficultyMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L3)
 --- @class MinimapCluster : Frame, EditModeMinimapSystemTemplate, ResizeLayoutFrame, MinimapClusterMixin
 --- @field BorderTop MinimapCluster_BorderTop
 --- @field ZoneTextButton MinimapCluster_ZoneTextButton

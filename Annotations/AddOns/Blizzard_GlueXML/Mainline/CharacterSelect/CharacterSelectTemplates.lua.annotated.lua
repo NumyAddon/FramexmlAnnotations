@@ -1,27 +1,27 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L4)
 --- @class CharacterSelectListExpandMixin
 CharacterSelectListExpandMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L26)
 --- @class CharacterSelectToolTrayMixin
 CharacterSelectToolTrayMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L6)
 function CharacterSelectListExpandMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L28)
 function CharacterSelectToolTrayMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L41)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L41)
 function CharacterSelectToolTrayMixin:RegisterToolFrame(toolFrame, insertAtTop) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L61)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L61)
 function CharacterSelectToolTrayMixin:SetToolFrameShown(toolFrame, isEnabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L72)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L72)
 function CharacterSelectToolTrayMixin:UpdateLayoutIndices() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.lua#L90)
 function CharacterSelectToolTrayMixin:SetExpanded(isExpanded, isUserInput) end

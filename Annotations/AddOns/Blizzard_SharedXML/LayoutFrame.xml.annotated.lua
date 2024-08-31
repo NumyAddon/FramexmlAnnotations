@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L3)
 --- Template
 --- @class BaseLayoutFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L9)
 --- Template
 --- @class VerticalLayoutFrame : Frame, BaseLayoutFrameTemplate, LayoutMixin, VerticalLayoutMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L73)
 --- Template
 --- @class HorizontalLayoutFrame : Frame, BaseLayoutFrameTemplate, LayoutMixin, HorizontalLayoutMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L91)
 --- Template
 --- @class ResizeLayoutFrame : Frame, BaseLayoutFrameTemplate, ResizeLayoutMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L117)
 --- Template
 --- @class GridLayoutFrame : Frame, ResizeLayoutFrame, GridLayoutFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L141)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L141)
 --- Template
 --- @class StaticGridLayoutFrame : Frame, BaseLayoutFrameTemplate, StaticGridLayoutFrameMixin
 

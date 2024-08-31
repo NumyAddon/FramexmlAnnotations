@@ -1,23 +1,23 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L25)
 --- @class MajorFactionCelebrationBannerMixin
 MajorFactionCelebrationBannerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L27)
 function MajorFactionCelebrationBannerMixin:CancelIconSwirlEffects() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L31)
 function MajorFactionCelebrationBannerMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L35)
 function MajorFactionCelebrationBannerMixin:SetMajorFactionTextureKit(textureKit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L47)
 function MajorFactionCelebrationBannerMixin:SetMajorFactionExpansionLayoutInfo(expansionLayoutInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L84)
 function MajorFactionCelebrationBannerMixin:AddSwirlEffects(textureKit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionToasts.lua#L95)
 function MajorFactionCelebrationBannerMixin:GetFactionColorByTextureKit(textureKit) end

@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2470)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2470)
 --- @class UIParentManagedFrameMixin
 UIParentManagedFrameMixin = { };
 function UIParentManagedFrameMixin:OnShow()
@@ -1241,39 +1241,39 @@ NUMBER_ABBREVIATION_DATA = {
 	{ breakpoint = 1000,			abbreviation = FIRST_NUMBER_CAP_NO_SPACE,		significandDivisor = 100,		fractionDivisor = 10 },
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2479)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2479)
 --- @class UIParentManagedFrameContainerMixin
 UIParentManagedFrameContainerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2471)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2471)
 function UIParentManagedFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2475)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2475)
 function UIParentManagedFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2481)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2481)
 function UIParentManagedFrameContainerMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2485)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2485)
 function UIParentManagedFrameContainerMixin:UpdateFrame(frame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2496)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2496)
 function UIParentManagedFrameContainerMixin:AddManagedFrame(frame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2513)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2513)
 function UIParentManagedFrameContainerMixin:UpdateManagedFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2523)
 function UIParentManagedFrameContainerMixin:ClearManagedFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2527)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2527)
 function UIParentManagedFrameContainerMixin:RemoveManagedFrame(frame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2545)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2545)
 function UIParentManagedFrameContainerMixin:UpdateManagedFramesAlphaState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2559)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2559)
 function UIParentManagedFrameContainerMixin:AnimOutManagedFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2565)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua#L2565)
 function UIParentManagedFrameContainerMixin:AnimInManagedFrames() end

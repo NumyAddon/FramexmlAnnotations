@@ -1,32 +1,32 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L4)
 --- Template
 --- @class QuickKeybindButtonTemplate : Button, QuickKeybindButtonTemplateMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L18)
 --- @class QuickKeybindTooltip : GameTooltip, SharedTooltipTemplate
 QuickKeybindTooltip = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L47)
 --- @class QuickKeybindFrameTemplate_BG : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L48)
 --- @class QuickKeybindFrameTemplate_Header : Frame, DialogHeaderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L53)
 --- @class QuickKeybindFrameTemplate_UseCharacterBindingsButton : CheckButton, UICheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L58)
 --- @class QuickKeybindFrameTemplate_DefaultsButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L64)
 --- @class QuickKeybindFrameTemplate_CancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L70)
 --- @class QuickKeybindFrameTemplate_OkayButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L20)
 --- Template
 --- @class QuickKeybindFrameTemplate : Button, QuickKeybindFrameMixin
 --- @field BG QuickKeybindFrameTemplate_BG
@@ -36,7 +36,7 @@ QuickKeybindTooltip = {}
 --- @field CancelButton QuickKeybindFrameTemplate_CancelButton
 --- @field OkayButton QuickKeybindFrameTemplate_OkayButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L89)
 --- @class QuickKeybindFrame : Button, QuickKeybindFrameTemplate
 QuickKeybindFrame = {}
 

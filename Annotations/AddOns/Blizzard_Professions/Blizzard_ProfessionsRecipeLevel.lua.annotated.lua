@@ -1,39 +1,39 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L1)
 --- @class ProfessionsRecipeLevelBarMixin
 ProfessionsRecipeLevelBarMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L51)
 --- @class ProfessionsRecipeLevelDropdownMixin
 ProfessionsRecipeLevelDropdownMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L3)
 function ProfessionsRecipeLevelBarMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L7)
 function ProfessionsRecipeLevelBarMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L25)
 function ProfessionsRecipeLevelBarMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L31)
 function ProfessionsRecipeLevelBarMixin:SetExperience(recipeInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L47)
 function ProfessionsRecipeLevelBarMixin:IsMaxLevel() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L53)
 function ProfessionsRecipeLevelDropdownMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L62)
 function ProfessionsRecipeLevelDropdownMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L69)
 function ProfessionsRecipeLevelDropdownMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L73)
 function ProfessionsRecipeLevelDropdownMixin:SetRecipeInfo(recipeInfo, currentLevel) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L99)
 function ProfessionsRecipeLevelDropdownMixin:SetSelectionCallback(callback) end

@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L6)
 --- @class CooldownCircleTrackerMixin
 CooldownCircleTrackerMixin = {};
 
@@ -23,126 +23,126 @@ local CommentatorUnitFrameEvents =
 	"LOSS_OF_CONTROL_COMMENTATOR_UPDATE",
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L14)
 --- @class CommentatorUnitFrameMixin
 CommentatorUnitFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L8)
 function CooldownCircleTrackerMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L34)
 function CommentatorUnitFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L44)
 function CommentatorUnitFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L51)
 function CommentatorUnitFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L55)
 function CommentatorUnitFrameMixin:SetAlignment(alignment) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L82)
 function CommentatorUnitFrameMixin:Init(isAlignedLeft, playerData, teamIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L124)
 function CommentatorUnitFrameMixin:OnUnfilteredCombatLogEvent(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L149)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L149)
 function CommentatorUnitFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L179)
 function CommentatorUnitFrameMixin:OnSizeChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L183)
 function CommentatorUnitFrameMixin:ApplyLossOfControlData(data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L193)
 function CommentatorUnitFrameMixin:ApplyLossOfControlAtIndex(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L198)
 function CommentatorUnitFrameMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L254)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L254)
 function CommentatorUnitFrameMixin:UpdatePlayerNameText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L258)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L258)
 function CommentatorUnitFrameMixin:SetPlayerNameText(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L262)
 function CommentatorUnitFrameMixin:GetPlayerNameText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L272)
 function CommentatorUnitFrameMixin:GetPlayerName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L276)
 function CommentatorUnitFrameMixin:GetGUID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L280)
 function CommentatorUnitFrameMixin:SetClass(class) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L288)
 function CommentatorUnitFrameMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L295)
 function CommentatorUnitFrameMixin:Invalidate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L299)
 function CommentatorUnitFrameMixin:IsInitializing() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L303)
 function CommentatorUnitFrameMixin:SetHP(health) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L311)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L311)
 function CommentatorUnitFrameMixin:SetMaxHP(healthMax) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L318)
 function CommentatorUnitFrameMixin:SetAbsorb(health, totalAbsorb, healthMax) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L330)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L330)
 function CommentatorUnitFrameMixin:UpdateCameraWeight(dead) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L346)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L346)
 function CommentatorUnitFrameMixin:SetLifeState(lifeState) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L366)
 function CommentatorUnitFrameMixin:SetPower(power) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L370)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L370)
 function CommentatorUnitFrameMixin:SetMaxPower(powerMax) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L374)
 function CommentatorUnitFrameMixin:SetPowerType(powerType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L381)
 function CommentatorUnitFrameMixin:GetRole() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L385)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L385)
 function CommentatorUnitFrameMixin:SetSpellActive(trackedSpellID, isActive) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L393)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L393)
 function CommentatorUnitFrameMixin:SetCCRemoverIcon(spellID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L397)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L397)
 function CommentatorUnitFrameMixin:UpdateCCRemover() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L403)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L403)
 function CommentatorUnitFrameMixin:SetRacialAbilityTrackerIcon(spellID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L407)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L407)
 function CommentatorUnitFrameMixin:UpdateRacialAbilityTracker() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L428)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L428)
 function CommentatorUnitFrameMixin:SetCircleTrackerIcon(circleTracker, spellID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L439)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L439)
 function CommentatorUnitFrameMixin:UpdateCircleTracker(circleTracker, infoCallback) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L460)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L460)
 function CommentatorUnitFrameMixin:UpdateCrowdControlAuras() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L492)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L492)
 function CommentatorUnitFrameMixin:UpdateSpellTrays(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L498)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L498)
 function CommentatorUnitFrameMixin:InitSpells() end

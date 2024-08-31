@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L1)
 --- @class SettingsLayoutMixin
 SettingsLayoutMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L5)
 function SettingsLayoutMixin:Init(layoutType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L9)
 function SettingsLayoutMixin:GetLayoutType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L13)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L13)
 function SettingsLayoutMixin:IsVerticalLayout() end

@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L25)
 --- @class AccountSaveFrameMixin
 AccountSaveFrameMixin = {};
 
@@ -10,41 +10,41 @@ AccountSaveFrameMixin.VisualState = {
 	EnabledUnlocked = 3
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L34)
 function AccountSaveFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L45)
 function AccountSaveFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L49)
 function AccountSaveFrameMixin:UpdateAccountState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L91)
 function AccountSaveFrameMixin:OnLockEditBoxTextChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L95)
 function AccountSaveFrameMixin:OnLockEditBoxEnterPressed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L101)
 function AccountSaveFrameMixin:OnLockEditBoxEscapePressed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L105)
 function AccountSaveFrameMixin:OnSaveButtonClicked() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L111)
 function AccountSaveFrameMixin:DoesLockStringMatch() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L115)
 function AccountSaveFrameMixin:SaveAccountData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L125)
 function AccountSaveFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L143)
 function AccountSaveFrameMixin:ProcessAccountSaveError(errorCode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L168)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L168)
 function AccountSaveFrameMixin:OnSizeChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L183)
 function AccountSaveFrameMixin:UpdateSizing() end

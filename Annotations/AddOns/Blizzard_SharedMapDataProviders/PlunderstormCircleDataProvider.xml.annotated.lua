@@ -1,22 +1,22 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L5)
 --- Template
 --- @class PlunderstormCircleBasePinTemplate : Frame, PlunderstormCircleBasePinMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L17)
 --- Template
 --- @class PlunderstormInnerCirclePinTemplate : Frame, PlunderstormCircleBasePinTemplate, PlunderstormInnerCirclePinMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L29)
 --- Template
 --- @class PlunderstormBoundsStripTemplate : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L33)
 --- Template
 --- @class PlunderstormOuterCircleLightningTemplate : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/9dc03db0b77393a2db8a401391fe8df66ed3c217/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L39)
 --- Template
 --- @class PlunderstormOuterCirclePinTemplate : Frame, PlunderstormCircleBasePinTemplate, PlunderstormOuterCirclePinMixin
 

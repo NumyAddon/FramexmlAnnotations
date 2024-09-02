@@ -1,8 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetBelowMinimapFrame.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetBelowMinimapFrame.lua#L1)
 --- @class UIWidgetBelowMinimapContainerMixin
 UIWidgetBelowMinimapContainerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetBelowMinimapFrame.lua#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetBelowMinimapFrame.lua#L28)
 function UIWidgetBelowMinimapContainerMixin:OnLoad() end

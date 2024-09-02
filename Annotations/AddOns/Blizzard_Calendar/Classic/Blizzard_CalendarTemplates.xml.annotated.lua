@@ -1,87 +1,87 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L4)
 --- Template
 --- @class CalendarDayButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L147)
 --- Template
 --- @class CalendarDayEventButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L210)
 --- Template
 --- @class CalendarCloseButtonTemplate : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L231)
 --- Template
 --- @class CalendarEventButtonTemplate : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L234)
 --- Template
 --- @class CalendarEventCloseButtonTemplate : Button, CalendarCloseButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L241)
 --- Template
 --- @class CalendarEventInviteSortButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L272)
 --- @class CalendarEventInviteListTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L273)
 --- @class CalendarEventInviteListTemplate_ScrollBar : EventFrame, WowTrimScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L283)
 --- @class CalendarEventInviteListTemplate_CalendarEventInviteListTemplateNameSortButton : Button, CalendarEventInviteSortButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L297)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L297)
 --- @class CalendarEventInviteListTemplate_CalendarEventInviteListTemplateClassSortButton : Button, CalendarEventInviteSortButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L311)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L311)
 --- @class CalendarEventInviteListTemplate_CalendarEventInviteListTemplateStatusSortButton : Button, CalendarEventInviteSortButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L265)
 --- Template
 --- @class CalendarEventInviteListTemplate : Frame, TooltipBackdropTemplate
 --- @field ScrollBox CalendarEventInviteListTemplate_ScrollBox
 --- @field ScrollBar CalendarEventInviteListTemplate_ScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L327)
 --- Template
 --- @class CalendarEventInviteListButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L380)
 --- Template
 --- @class CalendarViewEventRSVPButtonTemplate : Button, CalendarEventButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L407)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L407)
 --- Template
 --- @class CalendarViewEventInviteListButtonTemplate : Button, CalendarEventInviteListButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L416)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L416)
 --- Template
 --- @class CalendarCreateEventInviteListButtonTemplate : Button, CalendarEventInviteListButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L423)
 --- Template
 --- @class CalendarMassInviteArenaButtonTemplate : Button, CalendarEventButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L441)
 --- Template
 --- @class CalendarModalDialogTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L451)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L451)
 --- Template
 --- @class CalendarModalEventOverlayTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L475)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L475)
 --- Template
 --- @class CalendarEventPickerButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L518)
 --- Template
 --- @class CalendarTexturePickerButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L557)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L557)
 --- Template
 --- @class CalendarClassButtonTemplate : Button
 

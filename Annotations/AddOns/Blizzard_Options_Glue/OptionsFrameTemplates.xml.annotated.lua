@@ -1,27 +1,27 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L9)
 --- Template
 --- @class OptionsFrameTabButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L111)
 --- Template
 --- @class OptionsFrameListTemplate : Frame, TooltipBorderBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L171)
 --- Template
 --- @class OptionsListButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L265)
 --- @class OptionsFrameTemplate_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L266)
 --- @class OptionsFrameTemplate_OptionsFrameTemplateCategoryFrame : Frame, OptionsFrameListTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L281)
 --- @class OptionsFrameTemplate_OptionsFrameTemplatePanelContainer : Frame, TooltipBorderBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L232)
 --- Template
 --- @class OptionsFrameTemplate : Frame
 --- @field Border OptionsFrameTemplate_Border

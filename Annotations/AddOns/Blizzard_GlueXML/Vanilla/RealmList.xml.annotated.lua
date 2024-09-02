@@ -1,18 +1,18 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L3)
 --- Template
 --- @class RealmListTabButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L101)
 --- Template
 --- @class RealmSortButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L177)
 --- Template
 --- @class RealmListRealmButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L260)
 --- @class RealmListUI : ModelFFX
 RealmListUI = {}
 

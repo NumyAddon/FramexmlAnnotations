@@ -1,74 +1,74 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2167)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2167)
 --- @class ChatWindowTabMixin
 ChatWindowTabMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2185)
 --- @class ChatConfigFrameTabManagerMixin
 ChatConfigFrameTabManagerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2260)
 --- @class ChatConfigWideCheckBoxManagerMixin
 ChatConfigWideCheckBoxManagerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2346)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2346)
 --- @class ChatConfigWideCheckBoxMixin
 ChatConfigWideCheckBoxMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2169)
 function ChatWindowTabMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2173)
 function ChatWindowTabMixin:SetChatWindowIndex(chatWindowIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2179)
 function ChatWindowTabMixin:UpdateWidth() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2189)
 function ChatConfigFrameTabManagerMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2193)
 function ChatConfigFrameTabManagerMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2214)
 function ChatConfigFrameTabManagerMixin:UpdateSelection(selectedChatWindowIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2225)
 function ChatConfigFrameTabManagerMixin:UpdateWidth(selectedChatWindowIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2238)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2238)
 function ChatConfigFrameTabManagerMixin:GetMaxTabWidth() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2247)
 function ChatConfigFrameTabManagerMixin:GetCurrentWidth() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2251)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2251)
 function ChatConfigFrameTabManagerMixin:CalculateCurrentWidth() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2262)
 function ChatConfigWideCheckBoxManagerMixin:OnUpdate(dt) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2302)
 function ChatConfigWideCheckBoxManagerMixin:UpdateStates() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2320)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2320)
 function ChatConfigWideCheckBoxManagerMixin:StartMovingEntry(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2326)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2326)
 function ChatConfigWideCheckBoxManagerMixin:StopMovingEntry() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2332)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2332)
 function ChatConfigWideCheckBoxManagerMixin:GetMovingEntry() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2353)
 function ChatConfigWideCheckBoxMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2359)
 function ChatConfigWideCheckBoxMixin:SetState(state) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2363)
 function ChatConfigWideCheckBoxMixin:OnDragStart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/ChatConfigFrame.lua#L2367)
 function ChatConfigWideCheckBoxMixin:LeaveChannel() end

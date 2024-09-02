@@ -1,60 +1,60 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L541)
 --- @class KeyBindingButtonMixin : DefaultTooltipMixin
 KeyBindingButtonMixin = CreateFromMixins(DefaultTooltipMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L264)
 --- @class KeyBindingFrameBindingTemplateMixin
 KeyBindingFrameBindingTemplateMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L270)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L270)
 function KeyBindingFrameBindingTemplateMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L288)
 function KeyBindingFrameBindingTemplateMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L292)
 function KeyBindingFrameBindingTemplateMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L296)
 function KeyBindingFrameBindingTemplateMixin:OnEvent() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L302)
 function KeyBindingFrameBindingTemplateMixin:OnHighlightBinding(showHighlight) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L306)
 function KeyBindingFrameBindingTemplateMixin:DetermineHighlightFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L346)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L346)
 function KeyBindingFrameBindingTemplateMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L354)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L354)
 function KeyBindingFrameBindingTemplateMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L361)
 function KeyBindingFrameBindingTemplateMixin:UpdateBindingState(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L379)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L379)
 function KeyBindingFrameBindingTemplateMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L454)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L454)
 function KeyBindingFrameBindingTemplateMixin:ReparentBindingsToInputBlocker(inputBlocker) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L468)
 function KeyBindingFrameBindingTemplateMixin:UnparentBindingsToInputBlocker(inputBlocker) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L476)
 function KeyBindingFrameBindingTemplateMixin:Release() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L492)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L492)
 function KeyBindingFrameBindingTemplateMixin:RenewBindings() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L497)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L497)
 function KeyBindingFrameBindingTemplateMixin:ClearSelections() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L543)
 function KeyBindingButtonMixin:SetSelected(selected) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L548)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L548)
 function KeyBindingButtonMixin:OnLoad() end

@@ -1,17 +1,17 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua#L5262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua#L5262)
 --- @class ChatFrameMenuButtonMixin
 ChatFrameMenuButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua#L5264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua#L5264)
 function ChatFrameMenuButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua#L5376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua#L5376)
 function ChatFrameMenuButtonMixin:Reinitialize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua#L5380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua#L5380)
 function ChatFrameMenuButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua#L5384)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua#L5384)
 function ChatFrameMenuButtonMixin:OnShow() end

@@ -1,140 +1,140 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L1)
 --- @class SharedReportFrameMixin
 SharedReportFrameMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L201)
 --- @class ReportingFrameMinorCategoryButtonMixin
 ReportingFrameMinorCategoryButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L266)
 --- @class ReportButtonMixin
 ReportButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L351)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L351)
 --- @class ReportInfoMixin
 ReportInfoMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L3)
 function SharedReportFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L15)
 function SharedReportFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L19)
 function SharedReportFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L25)
 function SharedReportFrameMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L36)
 function SharedReportFrameMixin:UpdateThankYouMessage(showThankYouMessage) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L48)
 function SharedReportFrameMixin:SetupDropdownByReportType(reportType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L70)
 function SharedReportFrameMixin:InitiateReport(reportInfo, playerName, playerLocation, isBnetReport, sendReportWithoutDialog) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L80)
 function SharedReportFrameMixin:UpdateHarmfulToMinorsMinorCategoryEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L88)
 function SharedReportFrameMixin:InitiateReportInternal(reportInfo, playerName, playerLocation, isBnetReport, sendReportWithoutDialog) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L120)
 function SharedReportFrameMixin:ReportByType(reportType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L125)
 function SharedReportFrameMixin:CanDisplayMinorCategory(minorCategory) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L128)
 function SharedReportFrameMixin:ShouldDisplayTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L131)
 function SharedReportFrameMixin:ManageButton(button, isActive) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L133)
 function SharedReportFrameMixin:MajorTypeSelected(reportType, majorType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L163)
 function SharedReportFrameMixin:SetMajorType(type) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L167)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L167)
 function SharedReportFrameMixin:AnchorMinorCategory(index, minorCategory) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L180)
 function SharedReportFrameMixin:SendReport() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L197)
 function SharedReportFrameMixin:SetMinorCategoryFlag(flag, flagValue) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L203)
 function ReportingFrameMinorCategoryButtonMixin:SetupButton(minorCategory) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L222)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L222)
 function ReportingFrameMinorCategoryButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L233)
 function ReportingFrameMinorCategoryButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L243)
 function ReportingFrameMinorCategoryButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L247)
 function ReportingFrameMinorCategoryButtonMixin:SetMinorCategoryEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L267)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L267)
 function ReportButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L272)
 function ReportButtonMixin:UpdateButtonState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L277)
 function ReportButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L289)
 function ReportButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L352)
 function ReportInfoMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L365)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L365)
 function ReportInfoMixin:SetMailIndex(mailIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L369)
 function ReportInfoMixin:SetClubFinderGUID(clubFinderGUID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L373)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L373)
 function ReportInfoMixin:SetReportTarget(reportTarget) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L377)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L377)
 function ReportInfoMixin:SetComment(comment) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L381)
 function ReportInfoMixin:SetGroupFinderSearchResultID(groupFinderSearchResultID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L385)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L385)
 function ReportInfoMixin:SetReportedChatInline() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L389)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L389)
 function ReportInfoMixin:SetGroupFinderApplicantID(groupFinderApplicantID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L393)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L393)
 function ReportInfoMixin:SetReportType(reportType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L397)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L397)
 function ReportInfoMixin:SetReportMajorCategory(majorCategory) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L401)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L401)
 function ReportInfoMixin:SetMinorCategoryFlags(minorCategoryFlags) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L405)
 function ReportInfoMixin:SetPetGUID(petGUID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L409)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L409)
 function ReportInfoMixin:SetCraftingOrderID(craftingOrderID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L413)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L413)
 function ReportInfoMixin:SetBasicReportInfo(reportType, majorCategory, minorCategoryFlags) end

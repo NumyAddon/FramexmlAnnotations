@@ -1,16 +1,16 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateDoubleStatusBar.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateDoubleStatusBar.xml#L3)
 --- Template
 --- @class UIWidgetTemplateDoubleStatusBar_StatusBarTemplate : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateDoubleStatusBar.xml#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateDoubleStatusBar.xml#L84)
 --- @class UIWidgetTemplateDoubleStatusBar_LeftBar : StatusBar, UIWidgetTemplateDoubleStatusBar_StatusBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateDoubleStatusBar.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateDoubleStatusBar.xml#L89)
 --- @class UIWidgetTemplateDoubleStatusBar_RightBar : StatusBar, UIWidgetTemplateDoubleStatusBar_StatusBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateDoubleStatusBar.xml#L81)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateDoubleStatusBar.xml#L81)
 --- Template
 --- @class UIWidgetTemplateDoubleStatusBar : Frame, UIWidgetBaseTemplate, UIWidgetTemplateDoubleStatusBarMixin
 --- @field LeftBar UIWidgetTemplateDoubleStatusBar_LeftBar

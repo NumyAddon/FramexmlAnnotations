@@ -1,35 +1,35 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L49)
 --- @class CollectionsPagingMixin
 CollectionsPagingMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L51)
 function CollectionsPagingMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L57)
 function CollectionsPagingMixin:SetMaxPages(maxPages) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L69)
 function CollectionsPagingMixin:GetMaxPages() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L73)
 function CollectionsPagingMixin:SetCurrentPage(page, userAction) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L84)
 function CollectionsPagingMixin:GetCurrentPage() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L88)
 function CollectionsPagingMixin:NextPage() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L92)
 function CollectionsPagingMixin:PreviousPage() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L96)
 function CollectionsPagingMixin:GetPageDelta() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L107)
 function CollectionsPagingMixin:OnMouseWheel(delta) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.lua#L115)
 function CollectionsPagingMixin:Update() end

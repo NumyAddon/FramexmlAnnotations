@@ -1,38 +1,38 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L2)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L2)
 --- @class ItemLocationMixin
 ItemLocationMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L21)
 function ItemLocationMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L27)
 function ItemLocationMixin:SetBagAndSlot(bagID, slotIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L34)
 function ItemLocationMixin:GetBagAndSlot() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L38)
 function ItemLocationMixin:SetEquipmentSlot(equipmentSlotIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L44)
 function ItemLocationMixin:GetEquipmentSlot() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L48)
 function ItemLocationMixin:IsEquipmentSlot() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L52)
 function ItemLocationMixin:IsBagAndSlot() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L56)
 function ItemLocationMixin:HasAnyLocation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L60)
 function ItemLocationMixin:IsEqualToBagAndSlot(otherBagID, otherSlotIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L68)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L68)
 function ItemLocationMixin:IsEqualToEquipmentSlot(otherEquipmentSlotIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L76)
 function ItemLocationMixin:IsEqualTo(otherItemLocation) end

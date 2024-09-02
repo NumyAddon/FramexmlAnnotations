@@ -1,35 +1,35 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L29)
 --- @class ChannelFrame_NewButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L40)
 --- @class ChannelFrame_SettingsButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L51)
 --- @class ChannelFrame_ChannelList : ScrollFrame, ChannelListTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L58)
 --- @class ChannelFrame_LeftInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L65)
 --- @class ChannelFrame_ChannelRoster : Frame, ChannelRosterTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L72)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L72)
 --- @class ChannelFrame_RightInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L92)
 --- @class ChannelFrame_Tutorial_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L102)
 --- @class ChannelFrame_Tutorial_Arrow : Frame, GlowBoxArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L79)
 --- @class ChannelFrame_Tutorial : Frame, GlowBoxTemplate
 --- @field CloseButton ChannelFrame_Tutorial_CloseButton
 --- @field Arrow ChannelFrame_Tutorial_Arrow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L5)
 --- @class ChannelFrame : Frame, ButtonFrameTemplate, ChannelFrameMixin
 --- @field NewButton ChannelFrame_NewButton
 --- @field SettingsButton ChannelFrame_SettingsButton

@@ -1,50 +1,50 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L4)
 --- Template
 --- @class QuestLogTitleButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L101)
 --- Template
 --- @class QuestLogRewardItemTemplate : Button, QuestItemTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L132)
 --- @class QuestLogControlPanel_QuestLogFrameAbandonButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L161)
 --- @class QuestLogControlPanel_QuestLogFrameTrackButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L180)
 --- @class QuestLogControlPanel_QuestFramePushQuestButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L124)
 --- @class QuestLogControlPanel : Frame
 QuestLogControlPanel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L314)
 --- @class QuestLogDetailFrame_QuestLogDetailFrameCloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L323)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L323)
 --- @class QuestLogDetailFrame_QuestLogDetailScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L201)
 --- @class QuestLogDetailFrame : Frame
 QuestLogDetailFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L442)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L442)
 --- @class QuestLogFrame_QuestLogFrameCloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L451)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L451)
 --- @class QuestLogFrame_QuestLogFrameCancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L741)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L741)
 --- @class QuestLogFrame_QuestLogListScrollFrame_QuestLogListScrollFrameScrollBar : Slider, HybridScrollBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L729)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L729)
 --- @class QuestLogFrame_QuestLogListScrollFrame : ScrollFrame, HybridScrollFrameTemplate
 --- @field scrollBar QuestLogFrame_QuestLogListScrollFrame_QuestLogListScrollFrameScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L384)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L384)
 --- @class QuestLogFrame : Frame
 QuestLogFrame = {}
 

@@ -1,39 +1,39 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L14)
 --- @class SettingsListSearchCategoryMixin
 SettingsListSearchCategoryMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L41)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L41)
 --- @class SettingsListMixin
 SettingsListMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L16)
 function SettingsListSearchCategoryMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L21)
 function SettingsListSearchCategoryMixin:OnClick(button, buttonName, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L28)
 function SettingsListSearchCategoryMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L32)
 function SettingsListSearchCategoryMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L43)
 function SettingsListMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L81)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L81)
 function SettingsListMixin:SetInputBlockerShown(shown) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L90)
 function SettingsListMixin:GetInputBlocker() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L98)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L98)
 function SettingsListMixin:RepairDisplay(layout) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L132)
 function SettingsListMixin:Display(initializers) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L143)
 function SettingsListMixin:ScrollToElementByName(name) end

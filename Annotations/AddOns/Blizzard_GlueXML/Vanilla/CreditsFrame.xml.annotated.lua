@@ -1,32 +1,32 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L3)
 --- Template
 --- @class CreditsSpeedButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L8)
 --- Template
 --- @class CreditsFrameSwitchButtonTemplate : Button, GlueButtonSmallTemplateBlue
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L334)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L334)
 --- @class CreditsFrame_CreditsFrameSwitchButton1 : Button, CreditsFrameSwitchButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L339)
 --- @class CreditsFrame_CreditsFrameSwitchButton2 : Button, CreditsFrameSwitchButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L344)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L344)
 --- @class CreditsFrame_CreditsFrameRewindButton : Button, CreditsSpeedButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L355)
 --- @class CreditsFrame_CreditsFramePauseButton : Button, CreditsSpeedButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L366)
 --- @class CreditsFrame_CreditsFramePlayButton : Button, CreditsSpeedButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L377)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L377)
 --- @class CreditsFrame_CreditsFrameFastForwardButton : Button, CreditsSpeedButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L17)
 --- @class CreditsFrame : Frame
 CreditsFrame = {}
 

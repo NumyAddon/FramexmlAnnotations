@@ -1,32 +1,32 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L1)
 --- @class UIErrorsMixin
 UIErrorsMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L3)
 function UIErrorsMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L11)
 function UIErrorsMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L25)
 function UIErrorsMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L101)
 function UIErrorsMixin:FlashFontString(fontString) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L114)
 function UIErrorsMixin:TryFlashingExistingMessage(messageType, message) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L125)
 function UIErrorsMixin:ShouldDisplayMessageType(messageType, message) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L138)
 function UIErrorsMixin:TryDisplayMessage(messageType, message, r, g, b) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L158)
 function UIErrorsMixin:AddExternalErrorMessage(message) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIErrorsFrame/Classic/UIErrorsFrame.lua#L162)
 function UIErrorsMixin:AddExternalWarningMessage(message) end

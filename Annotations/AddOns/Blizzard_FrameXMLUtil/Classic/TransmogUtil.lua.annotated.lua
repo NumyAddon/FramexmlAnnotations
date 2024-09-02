@@ -1,51 +1,51 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L314)
 --- @class TransmogPendingInfoMixin
 TransmogPendingInfoMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L325)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L325)
 --- @class TransmogLocationMixin
 TransmogLocationMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L316)
 function TransmogPendingInfoMixin:Init(pendingType, transmogID, category) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L327)
 function TransmogLocationMixin:Set(slotID, transmogType, modification) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L333)
 function TransmogLocationMixin:IsAppearance() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L337)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L337)
 function TransmogLocationMixin:IsIllusion() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L341)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L341)
 function TransmogLocationMixin:GetSlotID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L345)
 function TransmogLocationMixin:GetSlotName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L349)
 function TransmogLocationMixin:IsEitherHand() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L353)
 function TransmogLocationMixin:IsMainHand() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L358)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L358)
 function TransmogLocationMixin:IsOffHand() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L363)
 function TransmogLocationMixin:IsRanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L368)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L368)
 function TransmogLocationMixin:IsEqual(transmogLocation) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L375)
 function TransmogLocationMixin:GetArmorCategoryID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L380)
 function TransmogLocationMixin:GetLookupKey() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L384)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L384)
 function TransmogLocationMixin:IsSecondary() end

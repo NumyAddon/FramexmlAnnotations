@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L7)
 --- @class CommunitiesInvitationFrameTemplate_AcceptButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L19)
 --- @class CommunitiesInvitationFrameTemplate_DeclineButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L31)
 --- @class CommunitiesInvitationFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L5)
 --- Template
 --- @class CommunitiesInvitationFrameTemplate : Frame, CommunitiesInvitationFrameMixin
 --- @field AcceptButton CommunitiesInvitationFrameTemplate_AcceptButton
 --- @field DeclineButton CommunitiesInvitationFrameTemplate_DeclineButton
 --- @field InsetFrame CommunitiesInvitationFrameTemplate_InsetFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L122)
 --- Template
 --- @class CommunitiesTicketFrameTemplate : Frame, CommunitiesInvitationFrameTemplate, CommunitiesTicketFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.xml#L131)
 --- Template
 --- @class CommunitiesInviteButtonTemplate : Button, UIPanelDynamicResizeButtonTemplate
 

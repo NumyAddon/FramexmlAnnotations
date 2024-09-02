@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L3)
 --- @class NamePlateDriverFrame : Frame, NamePlateDriverMixin
 NamePlateDriverFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L10)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L10)
 --- Template
 --- @class NamePlateFullBorderTemplate : Frame, NamePlateBorderTemplateMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L24)
 --- Template
 --- @class BaseNamePlateUnitFrameTemplate : Button
 --- @field healthBar StatusBar
@@ -16,15 +16,15 @@ NamePlateDriverFrame = {}
 --- @field SoftTargetFrame Frame
 --- @field LevelFrame Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L118)
 --- Template
 --- @class NamePlateUnitFrameTemplate : Button, BaseNamePlateUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L119)
 --- Template
 --- @class ForbiddenNamePlateUnitFrameTemplate : Button, BaseNamePlateUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L121)
 --- @class NamePlateTooltip : GameTooltip, GameTooltipTemplate
 NamePlateTooltip = {}
 

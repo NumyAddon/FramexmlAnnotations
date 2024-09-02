@@ -1,56 +1,56 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L1)
 --- @class HardcorePopUpFrameMixin
 HardcorePopUpFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L62)
 --- @class HardcorePopUpAcceptButtonMixin
 HardcorePopUpAcceptButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L74)
 --- @class HardcorePopUpDeclineButtonMixin
 HardcorePopUpDeclineButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L80)
 --- @class CharacterReincarnatePopUpDialogMixin
 CharacterReincarnatePopUpDialogMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L8)
 function HardcorePopUpFrameMixin:SetBodyText(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L14)
 function HardcorePopUpFrameMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L20)
 function HardcorePopUpFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L27)
 function HardcorePopUpFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L37)
 function HardcorePopUpFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L42)
 function HardcorePopUpFrameMixin:SetRealmInfo(realmInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L46)
 function HardcorePopUpFrameMixin:ShowRealmSelectionWarning() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L54)
 function HardcorePopUpFrameMixin:ShowCharacterCreationWarning() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L64)
 function HardcorePopUpAcceptButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L76)
 function HardcorePopUpDeclineButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L82)
 function CharacterReincarnatePopUpDialogMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L87)
 function CharacterReincarnatePopUpDialogMixin:ShowWarning() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L95)
 function CharacterReincarnatePopUpDialogMixin:OnEvent(event, ...) end

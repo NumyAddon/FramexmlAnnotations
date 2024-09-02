@@ -1,101 +1,101 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L8)
 --- @class CharacterServicesAutoCompleteButtonMixin
 CharacterServicesAutoCompleteButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L53)
 --- @class CharacterServicesEditBoxBaseMixin
 CharacterServicesEditBoxBaseMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L67)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L67)
 --- @class AutoCompleteBoxMixin
 AutoCompleteBoxMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L78)
 --- @class CharacterServicesEditBoxWithAutoCompleteMixin
 CharacterServicesEditBoxWithAutoCompleteMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L10)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L10)
 function CharacterServicesAutoCompleteButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L25)
 function CharacterServicesAutoCompleteButtonMixin:Select() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L33)
 function CharacterServicesAutoCompleteButtonMixin:Next() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L39)
 function CharacterServicesAutoCompleteButtonMixin:Previous() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L45)
 function CharacterServicesAutoCompleteButtonMixin:SetMode(mode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L49)
 function CharacterServicesAutoCompleteButtonMixin:GetMode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L55)
 function CharacterServicesEditBoxBaseMixin:OnEscapePressed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L59)
 function CharacterServicesEditBoxBaseMixin:OnEditFocusLost() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L63)
 function CharacterServicesEditBoxBaseMixin:OnEditFocusGained() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L69)
 function AutoCompleteBoxMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L73)
 function AutoCompleteBoxMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L80)
 function CharacterServicesEditBoxWithAutoCompleteMixin:OnCursorChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L87)
 function CharacterServicesEditBoxWithAutoCompleteMixin:OnTextChanged(userChanged) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L109)
 function CharacterServicesEditBoxWithAutoCompleteMixin:BuildAutoCompleteList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L118)
 function CharacterServicesEditBoxWithAutoCompleteMixin:AddAutoCompleteEntry(value, text, userData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L126)
 function CharacterServicesEditBoxWithAutoCompleteMixin:GetAutoCompleteList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L130)
 function CharacterServicesEditBoxWithAutoCompleteMixin:ClearAutoCompleteList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L134)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L134)
 function CharacterServicesEditBoxWithAutoCompleteMixin:GetAutoCompleteUserDataForPredicate(predicate) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L147)
 function CharacterServicesEditBoxWithAutoCompleteMixin:GetAutoCompleteUserDataForText(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L153)
 function CharacterServicesEditBoxWithAutoCompleteMixin:GetAutoCompleteUserDataForValue(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L159)
 function CharacterServicesEditBoxWithAutoCompleteMixin:GetAutoCompleteEntries(text, cursorPosition) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L180)
 function CharacterServicesEditBoxWithAutoCompleteMixin:UpdateAutoComplete() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L255)
 function CharacterServicesEditBoxWithAutoCompleteMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L259)
 function CharacterServicesEditBoxWithAutoCompleteMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L263)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L263)
 function CharacterServicesEditBoxWithAutoCompleteMixin:IncrementSelection() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L279)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L279)
 function CharacterServicesEditBoxWithAutoCompleteMixin:DecrementSelection() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L291)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L291)
 function CharacterServicesEditBoxWithAutoCompleteMixin:EnterPressed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/CharacterServicesTemplates.lua#L302)
 function CharacterServicesEditBoxWithAutoCompleteMixin:OnKeyDown(key) end

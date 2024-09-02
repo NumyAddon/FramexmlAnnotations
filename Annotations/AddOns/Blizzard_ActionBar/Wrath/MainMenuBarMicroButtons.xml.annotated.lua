@@ -1,67 +1,67 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L3)
 --- Template
 --- @class MainMenuBarMicroButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L53)
 --- @class MicroButtonAlertTemplate_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L67)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L67)
 --- @class MicroButtonAlertTemplate_Arrow : Frame, GlowBoxArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L35)
 --- Template
 --- @class MicroButtonAlertTemplate : Frame, GlowBoxTemplate
 --- @field CloseButton MicroButtonAlertTemplate_CloseButton
 --- @field Arrow MicroButtonAlertTemplate_Arrow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L79)
 --- @class CharacterMicroButton : Button, MainMenuBarMicroButton
 CharacterMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L135)
 --- @class SpellbookMicroButton : Button, MainMenuBarMicroButton
 SpellbookMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L157)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L157)
 --- @class TalentMicroButton : Button, MainMenuBarMicroButton
 TalentMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L181)
 --- @class AchievementMicroButton : Button, MainMenuBarMicroButton
 AchievementMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L204)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L204)
 --- @class QuestLogMicroButton : Button, MainMenuBarMicroButton
 QuestLogMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L226)
 --- @class GuildMicroButton : Button, MainMenuBarMicroButton, GuildMicroButtonMixin
 --- @field NotificationOverlay Frame
 GuildMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L247)
 --- @class SocialsMicroButton : Button, MainMenuBarMicroButton
 SocialsMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L273)
 --- @class CollectionsMicroButton : Button, MainMenuBarMicroButton, CollectionMicroButtonMixin
 CollectionsMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L294)
 --- @class PVPMicroButton : Button, MainMenuBarMicroButton
 PVPMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L374)
 --- @class LFGMicroButton : Button, MainMenuBarMicroButton
 LFGMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L425)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L425)
 --- @class MainMenuMicroButton : Button, MainMenuBarMicroButton
 MainMenuMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L541)
 --- @class HelpMicroButton : Button, MainMenuBarMicroButton
 HelpMicroButton = {}
 

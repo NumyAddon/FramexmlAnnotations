@@ -1,31 +1,31 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L242)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L242)
 --- @class UIButtonFitToTextBehaviorMixin
 UIButtonFitToTextBehaviorMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L254)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L254)
 --- @class UIPanelButtonNoTooltipResizeToFitMixin
 UIPanelButtonNoTooltipResizeToFitMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L283)
 --- @class LoadingSpinnerMixin
 LoadingSpinnerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L244)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L244)
 function UIButtonFitToTextBehaviorMixin:SetTextToFit(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L249)
 function UIButtonFitToTextBehaviorMixin:FitToText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L256)
 function UIPanelButtonNoTooltipResizeToFitMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L262)
 function UIPanelButtonNoTooltipResizeToFitMixin:SetText(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L285)
 function LoadingSpinnerMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L289)
 function LoadingSpinnerMixin:OnHide() end

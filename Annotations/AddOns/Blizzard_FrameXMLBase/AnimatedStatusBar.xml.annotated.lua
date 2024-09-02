@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L3)
 --- Template
 --- @class AnimatedStatusBarGlowLinesTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L20)
 --- Template
 --- @class AnimatedStatusBarTemplate : StatusBar, AnimatedStatusBarMixin
 

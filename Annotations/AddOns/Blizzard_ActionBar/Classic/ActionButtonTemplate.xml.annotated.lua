@@ -1,24 +1,24 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L4)
 --- Template
 --- @class ActionBarFlyoutButton-ArrowUp : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L8)
 --- Template
 --- @class ActionBarFlyoutButton-IconFrame : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L12)
 --- Template
 --- @class ActionBarFlyoutButton-IconShadow : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L94)
 --- @class ActionButtonTemplate_ActionButtonTemplateShine : Frame, AutoCastShineTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L100)
 --- @class ActionButtonTemplate_ActionButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L17)
 --- Template
 --- @class ActionButtonTemplate : CheckButton
 --- @field AutoCastShine ActionButtonTemplate_ActionButtonTemplateShine

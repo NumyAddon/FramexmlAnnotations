@@ -1,73 +1,73 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L3)
 --- Template
 --- @class PaperDollFrameFlyoutTexture : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L16)
 --- @class PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L4)
 --- Template
 --- @class PaperDollItemSlotButtonTemplate : Button, ItemButtonTemplate
 --- @field popoutButton Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L70)
 --- Template
 --- @class StatFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L111)
 --- Template
 --- @class AttributeFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L152)
 --- Template
 --- @class MagicResistanceFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L171)
 --- Template
 --- @class GearSetButtonTemplate : CheckButton, PopupButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L193)
 --- Template
 --- @class GearSetPopupButtonTemplate : CheckButton, SimplePopupButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L222)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L222)
 --- @class PaperDollFrameItemFlyoutButtonTemplate_PaperDollFrameItemFlyoutButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L220)
 --- Template
 --- @class PaperDollFrameItemFlyoutButtonTemplate : Button, ItemButtonTemplate
 --- @field cooldown PaperDollFrameItemFlyoutButtonTemplate_PaperDollFrameItemFlyoutButtonTemplateCooldown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L309)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L309)
 --- @class PaperDollFrame_PlayerTitleDropDown : Frame, UIDropDownMenuTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L238)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L238)
 --- @class PaperDollFrame : Frame
 PaperDollFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1001)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1001)
 --- @class PaperDollFrameItemFlyout : Frame
 --- @field buttonFrame Frame
 PaperDollFrameItemFlyout = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1059)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1059)
 --- @class GearManagerDialog_GearManagerDialogDeleteSet : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1070)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1070)
 --- @class GearManagerDialog_GearManagerDialogEquipSet : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1081)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1081)
 --- @class GearManagerDialog_GearManagerDialogSaveSet : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1129)
 --- @class GearManagerDialog_GearManagerDialogPopup_GearManagerDialogPopupScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1092)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1092)
 --- @class GearManagerDialog_GearManagerDialogPopup : Frame, SelectionFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1051)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1051)
 --- @class GearManagerDialog : Frame, UIPanelDialogTemplate
 GearManagerDialog = {}
 

@@ -1,23 +1,23 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L1)
 --- @class RTTSMixin : SettingsDropDownControlMixin
 RTTSMixin = CreateFromMixins(SettingsDropDownControlMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L3)
 function RTTSMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L10)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L10)
 function RTTSMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L30)
 function RTTSMixin:EvaluateState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L35)
 function RTTSMixin:SetButtonState(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L39)
 function RTTSMixin:OnSettingValueChanged(setting, value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L44)
 function RTTSMixin:Release() end

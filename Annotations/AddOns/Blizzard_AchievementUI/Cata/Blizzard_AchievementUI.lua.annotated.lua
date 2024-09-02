@@ -1,29 +1,29 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1117)
 --- @class AchievementsObjectivesMixin
 AchievementsObjectivesMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1119)
 function AchievementsObjectivesMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1128)
 function AchievementsObjectivesMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1132)
 function AchievementsObjectivesMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1145)
 function AchievementsObjectivesMixin:GetElementAtIndex(template, collection, index, localizer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1159)
 function AchievementsObjectivesMixin:GetCriteria(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1163)
 function AchievementsObjectivesMixin:GetProgressBar(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1167)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1167)
 function AchievementsObjectivesMixin:GetMiniAchievement(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1171)
 function AchievementsObjectivesMixin:GetMeta(index) end

@@ -1,23 +1,23 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L3)
 --- Template
 --- @class QuestPOIDisplayLayerTemplate : Frame, QuestPOIDisplayLayerMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L30)
 --- Template
 --- @class QuestPOINumericTemplate_Display : Frame, QuestPOIDisplayLayerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L17)
 --- Template
 --- @class QuestPOINumericTemplate : Button
 --- @field Display QuestPOINumericTemplate_Display
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L77)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L77)
 --- Template
 --- @class QuestPOICompletedTemplate_Display : Frame, QuestPOIDisplayLayerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L64)
 --- Template
 --- @class QuestPOICompletedTemplate : Button
 --- @field Display QuestPOICompletedTemplate_Display

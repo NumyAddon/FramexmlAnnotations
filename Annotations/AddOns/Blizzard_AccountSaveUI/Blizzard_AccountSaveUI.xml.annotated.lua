@@ -1,12 +1,12 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.xml#L10)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.xml#L10)
 --- @class AccountSaveFrame_Border : Frame, DialogBorderOpaqueTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.xml#L67)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.xml#L67)
 --- @class AccountSaveFrame_SaveButton : Button, UIPanelButtonTemplate, UIButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.xml#L4)
 --- @class AccountSaveFrame : Frame, AccountSaveFrameMixin
 --- @field Border AccountSaveFrame_Border
 --- @field ContentInsets Frame

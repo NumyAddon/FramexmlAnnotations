@@ -16,9 +16,6 @@
 --- Template
 --- @class BonusTrackerProgressBarSmallFlareAnimTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L110)
---- @class BonusTrackerProgressBarTemplate_Bar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L203)
 --- @class BonusTrackerProgressBarTemplate_Flare1 : Frame, BonusTrackerProgressBarFlareAnimTemplate
 
@@ -40,7 +37,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L104)
 --- Template
 --- @class BonusTrackerProgressBarTemplate : Frame, BonusObjectiveTrackerProgressBarMixin
---- @field Bar BonusTrackerProgressBarTemplate_Bar
+--- @field Bar StatusBar
 --- @field Flare1 BonusTrackerProgressBarTemplate_Flare1
 --- @field Flare2 BonusTrackerProgressBarTemplate_Flare2
 --- @field SmallFlare1 BonusTrackerProgressBarTemplate_SmallFlare1

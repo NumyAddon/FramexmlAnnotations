@@ -20,29 +20,10 @@
 --- @class ReputationBarTemplate : StatusBar, ReputationBarMixin
 --- @field BonusIcon ReputationBarTemplate_BonusIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L135)
---- @class ReputationEntryTemplate_Content_ReputationBar : StatusBar, ReputationBarTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L140)
---- @class ReputationEntryTemplate_Content_ParagonIcon : Button, ReputationBarParagonIconMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L179)
---- @class ReputationEntryTemplate_Content_BackgroundHighlight : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L206)
---- @class ReputationEntryTemplate_Content_AccountWideIcon : Frame, ReputationEntryAccountWideIconMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L133)
---- @class ReputationEntryTemplate_Content : Frame
---- @field ReputationBar ReputationEntryTemplate_Content_ReputationBar
---- @field ParagonIcon ReputationEntryTemplate_Content_ParagonIcon
---- @field BackgroundHighlight ReputationEntryTemplate_Content_BackgroundHighlight
---- @field AccountWideIcon ReputationEntryTemplate_Content_AccountWideIcon
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L130)
 --- Template
 --- @class ReputationEntryTemplate : Button, CallbackRegistrantTemplate, ReputationEntryMixin
---- @field Content ReputationEntryTemplate_Content
+--- @field Content Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L250)
 --- @class ReputationFrame_filterDropdown : DropdownButton, WowStyle1DropdownTemplate

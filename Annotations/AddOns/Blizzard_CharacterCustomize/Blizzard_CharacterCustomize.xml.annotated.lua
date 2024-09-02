@@ -52,16 +52,13 @@ CharCustomizeNoHeaderTooltip = {}
 --- Template
 --- @class CharCustomizeOptionSliderTemplate : Frame, SliderWithButtonsAndLabelTemplate, CharCustomizeFrameWithTooltipTemplate, CharCustomizeOptionSliderMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L173)
---- @class CharCustomizeOptionCheckButtonTemplate_Button : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L195)
 --- @class CharCustomizeOptionCheckButtonTemplate_New : Frame, NewFeatureLabelNoAnimateTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L165)
 --- Template
 --- @class CharCustomizeOptionCheckButtonTemplate : Frame, CharCustomizeFrameWithTooltipTemplate, CharCustomizeOptionCheckButtonMixin
---- @field Button CharCustomizeOptionCheckButtonTemplate_Button
+--- @field Button CheckButton
 --- @field New CharCustomizeOptionCheckButtonTemplate_New
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L215)
@@ -92,12 +89,9 @@ CharCustomizeNoHeaderTooltip = {}
 --- @field Dropdown CharCustomizeDropdownWithSteppersAndLabelTemplate_Dropdown
 --- @field New CharCustomizeDropdownWithSteppersAndLabelTemplate_New
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L370)
---- @class CharCustomizeAudioInterface_PlayWaveform_Waveform : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L360)
 --- @class CharCustomizeAudioInterface_PlayWaveform : Frame, TooltipBorderBackdropTemplate
---- @field Waveform CharCustomizeAudioInterface_PlayWaveform_Waveform
+--- @field Waveform StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L380)
 --- @class CharCustomizeAudioInterface_PlayButton : Button, AlphaHighlightButtonTemplate, CharCustomizeAudioInterfacePlayButtonMixin

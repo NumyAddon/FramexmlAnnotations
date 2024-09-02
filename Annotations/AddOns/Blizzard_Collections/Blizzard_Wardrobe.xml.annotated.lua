@@ -1,24 +1,15 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L66)
---- @class WardrobeItemsModelTemplate_Favorite : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L77)
---- @class WardrobeItemsModelTemplate_HideVisual : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L5)
 --- Template
 --- @class WardrobeItemsModelTemplate : DressUpModel, ContentTrackingElementTemplate, WardrobeItemsModelMixin
---- @field Favorite WardrobeItemsModelTemplate_Favorite
---- @field HideVisual WardrobeItemsModelTemplate_HideVisual
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L131)
---- @class WardrobeSetsTransmogModelTemplate_Favorite : Frame
+--- @field Favorite Frame
+--- @field HideVisual Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L100)
 --- Template
 --- @class WardrobeSetsTransmogModelTemplate : DressUpModel, WardrobeSetsTransmogModelMixin
---- @field Favorite WardrobeSetsTransmogModelTemplate_Favorite
+--- @field Favorite Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L156)
 --- Template
@@ -36,13 +27,10 @@
 --- @class WardrobeSetsScrollFrameButtonTemplate : Button, WardrobeSetsScrollFrameButtonMixin
 --- @field IconFrame WardrobeSetsScrollFrameButtonTemplate_IconFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L327)
---- @class WardrobeSetsDetailsItemFrameTemplate_Favorite : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L295)
 --- Template
 --- @class WardrobeSetsDetailsItemFrameTemplate : Frame, WardrobeSetsDetailsItemMixin
---- @field Favorite WardrobeSetsDetailsItemFrameTemplate_Favorite
+--- @field Favorite Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L350)
 --- @class TrackingInterfaceShortcutsFrame : Frame
@@ -54,27 +42,14 @@ TrackingInterfaceShortcutsFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L383)
 --- @class WardrobeCollectionFrame_WardrobeCollectionFrameTab1 : Button, PanelTopTabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L404)
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameTab2_FlashFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L396)
 --- @class WardrobeCollectionFrame_WardrobeCollectionFrameTab2 : Button, PanelTopTabButtonTemplate
---- @field FlashFrame WardrobeCollectionFrame_WardrobeCollectionFrameTab2_FlashFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L517)
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_Spinner : Frame, SpinnerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L501)
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame : Frame
---- @field Spinner WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_Spinner
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L525)
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar : StatusBar
+--- @field FlashFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L446)
 --- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame : Frame, WardrobeCollectionFrameSearchBoxProgressMixin
---- @field LoadingFrame WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame
---- @field ProgressBar WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar
+--- @field LoadingFrame Frame
+--- @field ProgressBar StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L431)
 --- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox : EditBox, SearchBoxTemplate, WardrobeCollectionFrameSearchBoxMixin
@@ -94,9 +69,6 @@ TrackingInterfaceShortcutsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L634)
 --- @class WardrobeCollectionFrame_ItemsCollectionFrame_WeaponDropdown : DropdownButton, WowStyle1DropdownTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L639)
---- @class WardrobeCollectionFrame_ItemsCollectionFrame_SlotsFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L645)
 --- @class WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C1 : DressUpModel, WardrobeItemsModelTemplate
@@ -155,14 +127,11 @@ TrackingInterfaceShortcutsFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L735)
 --- @class WardrobeCollectionFrame_ItemsCollectionFrame_HiddenModel : DressUpModel, WardrobeItemsModelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L740)
---- @class WardrobeCollectionFrame_ItemsCollectionFrame_PendingTransmogFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L614)
 --- @class WardrobeCollectionFrame_ItemsCollectionFrame : Frame, CollectionsBackgroundTemplate, WardrobeItemsCollectionMixin
 --- @field PagingFrame WardrobeCollectionFrame_ItemsCollectionFrame_PagingFrame
 --- @field WeaponDropdown WardrobeCollectionFrame_ItemsCollectionFrame_WeaponDropdown
---- @field SlotsFrame WardrobeCollectionFrame_ItemsCollectionFrame_SlotsFrame
+--- @field SlotsFrame Frame
 --- @field ModelR1C1 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C1
 --- @field ModelR1C2 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C2
 --- @field ModelR1C3 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C3
@@ -182,7 +151,7 @@ TrackingInterfaceShortcutsFrame = {}
 --- @field ModelR3C5 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C5
 --- @field ModelR3C6 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C6
 --- @field HiddenModel WardrobeCollectionFrame_ItemsCollectionFrame_HiddenModel
---- @field PendingTransmogFrame WardrobeCollectionFrame_ItemsCollectionFrame_PendingTransmogFrame
+--- @field PendingTransmogFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L933)
 --- @class WardrobeCollectionFrame_SetsCollectionFrame_LeftInset : Frame, InsetFrameTemplate
@@ -204,24 +173,13 @@ TrackingInterfaceShortcutsFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L967)
 --- @class WardrobeCollectionFrame_SetsCollectionFrame_Model : DressUpModel, WardrobeSetsDetailsModelMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1039)
---- @class WardrobeCollectionFrame_SetsCollectionFrame_DetailsFrame_LimitedSet : Frame, ResizeLayoutFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1067)
---- @class WardrobeCollectionFrame_SetsCollectionFrame_DetailsFrame_VariantSetsDropdown : DropdownButton, WowStyle1DropdownTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L982)
---- @class WardrobeCollectionFrame_SetsCollectionFrame_DetailsFrame : Frame
---- @field LimitedSet WardrobeCollectionFrame_SetsCollectionFrame_DetailsFrame_LimitedSet
---- @field VariantSetsDropdown WardrobeCollectionFrame_SetsCollectionFrame_DetailsFrame_VariantSetsDropdown
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L924)
 --- @class WardrobeCollectionFrame_SetsCollectionFrame : Frame, WardrobeSetsCollectionMixin
 --- @field LeftInset WardrobeCollectionFrame_SetsCollectionFrame_LeftInset
 --- @field RightInset WardrobeCollectionFrame_SetsCollectionFrame_RightInset
 --- @field ListContainer WardrobeCollectionFrame_SetsCollectionFrame_ListContainer
 --- @field Model WardrobeCollectionFrame_SetsCollectionFrame_Model
---- @field DetailsFrame WardrobeCollectionFrame_SetsCollectionFrame_DetailsFrame
+--- @field DetailsFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1097)
 --- @class WardrobeCollectionFrame_SetsTransmogFrame_PagingFrame : Frame, CollectionsPagingFrameTemplate
@@ -250,9 +208,6 @@ TrackingInterfaceShortcutsFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1137)
 --- @class WardrobeCollectionFrame_SetsTransmogFrame_ModelR2C4 : DressUpModel, WardrobeSetsTransmogModelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1142)
---- @class WardrobeCollectionFrame_SetsTransmogFrame_PendingTransmogFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1082)
 --- @class WardrobeCollectionFrame_SetsTransmogFrame : Frame, CollectionsBackgroundTemplate, WardrobeSetsTransmogMixin
 --- @field PagingFrame WardrobeCollectionFrame_SetsTransmogFrame_PagingFrame
@@ -264,7 +219,7 @@ TrackingInterfaceShortcutsFrame = {}
 --- @field ModelR2C2 WardrobeCollectionFrame_SetsTransmogFrame_ModelR2C2
 --- @field ModelR2C3 WardrobeCollectionFrame_SetsTransmogFrame_ModelR2C3
 --- @field ModelR2C4 WardrobeCollectionFrame_SetsTransmogFrame_ModelR2C4
---- @field PendingTransmogFrame WardrobeCollectionFrame_SetsTransmogFrame_PendingTransmogFrame
+--- @field PendingTransmogFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L371)
 --- @class WardrobeCollectionFrame : Frame, WardrobeCollectionFrameMixin
@@ -280,33 +235,18 @@ TrackingInterfaceShortcutsFrame = {}
 --- @field SetsTransmogFrame WardrobeCollectionFrame_SetsTransmogFrame
 WardrobeCollectionFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1388)
---- @class WardrobeTransmogButtonTemplate_UndoButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1426)
---- @class WardrobeTransmogButtonTemplate_PendingFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1459)
---- @class WardrobeTransmogButtonTemplate_AnimFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1329)
 --- Template
 --- @class WardrobeTransmogButtonTemplate : Button, TransmogSlotButtonMixin
---- @field UndoButton WardrobeTransmogButtonTemplate_UndoButton
---- @field PendingFrame WardrobeTransmogButtonTemplate_PendingFrame
---- @field AnimFrame WardrobeTransmogButtonTemplate_AnimFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1582)
---- @class WardrobeTransmogEnchantButtonTemplate_PendingFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1613)
---- @class WardrobeTransmogEnchantButtonTemplate_AnimFrame : Frame
+--- @field UndoButton Button
+--- @field PendingFrame Frame
+--- @field AnimFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1516)
 --- Template
 --- @class WardrobeTransmogEnchantButtonTemplate : Button, TransmogSlotButtonMixin
---- @field PendingFrame WardrobeTransmogEnchantButtonTemplate_PendingFrame
---- @field AnimFrame WardrobeTransmogEnchantButtonTemplate_AnimFrame
+--- @field PendingFrame Frame
+--- @field AnimFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L1702)
 --- @class WardrobeFrame_WardrobeTransmogFrame_ToggleSecondaryAppearanceCheckbox : CheckButton, TransmogToggleSecondaryAppearanceCheckboxMixin

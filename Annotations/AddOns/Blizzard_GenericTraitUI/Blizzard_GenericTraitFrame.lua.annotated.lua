@@ -2,12 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.lua#L107)
 --- @class GenericTraitFrameMixin
-GenericTraitFrameMixin = {};
-
-local GenericTraitFrameEvents = {
-	"TRAIT_SYSTEM_NPC_CLOSED",
-	"TRAIT_TREE_CURRENCY_INFO_UPDATED",
-}
+GenericTraitFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.lua#L416)
 --- @class GenericTraitFrameCurrencyFrameMixin

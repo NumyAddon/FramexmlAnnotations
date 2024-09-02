@@ -7,12 +7,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L87)
 --- @class StaticPopupTemplate_Border : Frame, DialogBorderDarkTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L88)
---- @class StaticPopupTemplate_CoverFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L105)
---- @class StaticPopupTemplate_StaticPopupTemplateExtraFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L106)
 --- @class StaticPopupTemplate_StaticPopupTemplateCloseButton : Button, UIPanelCloseButton
 
@@ -46,9 +40,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L188)
 --- @class StaticPopupTemplate_StaticPopupTemplateItemFrame : ItemButton, StaticPopupItemFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L216)
---- @class StaticPopupTemplate_DarkOverlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L229)
 --- @class StaticPopupTemplate_Spinner : Frame, SpinnerTemplate
 
@@ -56,8 +47,8 @@
 --- Template
 --- @class StaticPopupTemplate : Frame
 --- @field Border StaticPopupTemplate_Border
---- @field CoverFrame StaticPopupTemplate_CoverFrame
---- @field extraFrame StaticPopupTemplate_StaticPopupTemplateExtraFrame
+--- @field CoverFrame Frame
+--- @field extraFrame Frame
 --- @field CloseButton StaticPopupTemplate_StaticPopupTemplateCloseButton
 --- @field button1 StaticPopupTemplate_StaticPopupTemplateButton1
 --- @field button2 StaticPopupTemplate_StaticPopupTemplateButton2
@@ -66,6 +57,6 @@
 --- @field extraButton StaticPopupTemplate_StaticPopupTemplateExtraButton
 --- @field Dropdown StaticPopupTemplate_Dropdown
 --- @field ItemFrame StaticPopupTemplate_StaticPopupTemplateItemFrame
---- @field DarkOverlay StaticPopupTemplate_DarkOverlay
+--- @field DarkOverlay Frame
 --- @field Spinner StaticPopupTemplate_Spinner
 

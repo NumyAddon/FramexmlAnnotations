@@ -94,15 +94,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L320)
 --- @class ProfessionsCraftingPageTemplate_FishingToolSlot : ItemButton, ProfessionsGearSlotTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L350)
---- @class ProfessionsCraftingPageTemplate_GearSlotDivider : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L362)
---- @class ProfessionsCraftingPageTemplate_LinkButton : DropdownButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L380)
---- @class ProfessionsCraftingPageTemplate_OverlayCastBarAnchor : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L122)
 --- Template
 --- @class ProfessionsCraftingPageTemplate : Frame, ProfessionsCraftingPageMixin
@@ -128,7 +119,7 @@
 --- @field CookingToolSlot ProfessionsCraftingPageTemplate_CookingToolSlot
 --- @field CookingGear0Slot ProfessionsCraftingPageTemplate_CookingGear0Slot
 --- @field FishingToolSlot ProfessionsCraftingPageTemplate_FishingToolSlot
---- @field GearSlotDivider ProfessionsCraftingPageTemplate_GearSlotDivider
---- @field LinkButton ProfessionsCraftingPageTemplate_LinkButton
---- @field OverlayCastBarAnchor ProfessionsCraftingPageTemplate_OverlayCastBarAnchor
+--- @field GearSlotDivider Frame
+--- @field LinkButton DropdownButton
+--- @field OverlayCastBarAnchor Frame
 

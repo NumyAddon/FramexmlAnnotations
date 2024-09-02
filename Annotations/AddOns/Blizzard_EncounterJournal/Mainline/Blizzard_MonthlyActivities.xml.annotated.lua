@@ -39,20 +39,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L325)
 --- @class MonthlyActivitiesFrameTemplate_HelpButton : Button, MainHelpPlateButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L381)
---- @class MonthlyActivitiesFrameTemplate_ThresholdBar_BarEnd : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L393)
---- @class MonthlyActivitiesFrameTemplate_ThresholdBar_TextContainer : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L336)
---- @class MonthlyActivitiesFrameTemplate_ThresholdBar : StatusBar
---- @field BarEnd MonthlyActivitiesFrameTemplate_ThresholdBar_BarEnd
---- @field TextContainer MonthlyActivitiesFrameTemplate_ThresholdBar_TextContainer
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L424)
---- @class MonthlyActivitiesFrameTemplate_BarComplete : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L475)
 --- @class MonthlyActivitiesFrameTemplate_FilterList_ScrollBox : Frame, WowScrollBoxList
 
@@ -70,9 +56,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L493)
 --- @class MonthlyActivitiesFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L499)
---- @class MonthlyActivitiesFrameTemplate_HeaderContainer : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L523)
 --- @class MonthlyActivitiesFrameTemplate_ThemeContainer : Frame, MonthlyActivitiesThemeContainerMixin
 
@@ -80,11 +63,11 @@
 --- Template
 --- @class MonthlyActivitiesFrameTemplate : Frame, MonthlyActivitiesFrameMixin
 --- @field HelpButton MonthlyActivitiesFrameTemplate_HelpButton
---- @field ThresholdBar MonthlyActivitiesFrameTemplate_ThresholdBar
---- @field BarComplete MonthlyActivitiesFrameTemplate_BarComplete
+--- @field ThresholdBar StatusBar
+--- @field BarComplete Frame
 --- @field FilterList MonthlyActivitiesFrameTemplate_FilterList
 --- @field ScrollBox MonthlyActivitiesFrameTemplate_ScrollBox
 --- @field ScrollBar MonthlyActivitiesFrameTemplate_ScrollBar
---- @field HeaderContainer MonthlyActivitiesFrameTemplate_HeaderContainer
+--- @field HeaderContainer Frame
 --- @field ThemeContainer MonthlyActivitiesFrameTemplate_ThemeContainer
 

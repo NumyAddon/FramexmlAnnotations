@@ -11,15 +11,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L81)
 --- @class GarrisonRecruitTemplate_PortraitFrame : Frame, GarrisonFollowerPortraitTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L89)
---- @class GarrisonRecruitTemplate_Counter : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L112)
---- @class GarrisonRecruitTemplate_Abilities : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L128)
---- @class GarrisonRecruitTemplate_Traits : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L142)
 --- @class GarrisonRecruitTemplate_Model : CinematicModel, ModelTemplate
 
@@ -30,53 +21,17 @@
 --- Template
 --- @class GarrisonRecruitTemplate : Frame
 --- @field PortraitFrame GarrisonRecruitTemplate_PortraitFrame
---- @field Counter GarrisonRecruitTemplate_Counter
---- @field Abilities GarrisonRecruitTemplate_Abilities
---- @field Traits GarrisonRecruitTemplate_Traits
+--- @field Counter Frame
+--- @field Abilities Frame
+--- @field Traits Frame
 --- @field Model GarrisonRecruitTemplate_Model
 --- @field HireRecruits GarrisonRecruitTemplate_HireRecruits
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L225)
---- @class GarrisonRecruiterFrame_Pick_Radio1 : CheckButton, GarrisonRecruiterRadioButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L233)
---- @class GarrisonRecruiterFrame_Pick_Radio2 : CheckButton, GarrisonRecruiterRadioButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L243)
---- @class GarrisonRecruiterFrame_Pick_ThreatDropdown : DropdownButton, WowStyle1DropdownTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L250)
---- @class GarrisonRecruiterFrame_Pick_Counter : Frame, GarrisonAbilityCounterTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L274)
---- @class GarrisonRecruiterFrame_Pick_ChooseRecruits : Button, MagicButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L192)
---- @class GarrisonRecruiterFrame_Pick : Frame
---- @field Radio1 GarrisonRecruiterFrame_Pick_Radio1
---- @field Radio2 GarrisonRecruiterFrame_Pick_Radio2
---- @field ThreatDropdown GarrisonRecruiterFrame_Pick_ThreatDropdown
---- @field Counter GarrisonRecruiterFrame_Pick_Counter
---- @field ChooseRecruits GarrisonRecruiterFrame_Pick_ChooseRecruits
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L304)
---- @class GarrisonRecruiterFrame_Random_ChooseRecruits : Button, MagicButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L289)
---- @class GarrisonRecruiterFrame_Random : Frame
---- @field ChooseRecruits GarrisonRecruiterFrame_Random_ChooseRecruits
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L333)
---- @class GarrisonRecruiterFrame_UnavailableFrame_ : Button, MagicButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L319)
---- @class GarrisonRecruiterFrame_UnavailableFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L170)
 --- @class GarrisonRecruiterFrame : Frame, ButtonFrameTemplate
---- @field Pick GarrisonRecruiterFrame_Pick
---- @field Random GarrisonRecruiterFrame_Random
---- @field UnavailableFrame GarrisonRecruiterFrame_UnavailableFrame
+--- @field Pick Frame
+--- @field Random Frame
+--- @field UnavailableFrame Frame
 GarrisonRecruiterFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L371)

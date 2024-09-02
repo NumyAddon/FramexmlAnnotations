@@ -43,13 +43,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L592)
 --- @class GarrisonMissionListButtonTemplate_ : Frame, GarrisonMissionListButtonRewardTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L597)
---- @class GarrisonMissionListButtonTemplate_Overlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L395)
 --- Template
 --- @class GarrisonMissionListButtonTemplate : Button
---- @field Overlay GarrisonMissionListButtonTemplate_Overlay
+--- @field Overlay Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L614)
 --- Template
@@ -178,26 +175,16 @@ GarrisonMissionTutorialFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1313)
 --- @class GarrisonMissionListTemplate_MaterialFrame : Frame, MaterialFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1332)
---- @class GarrisonMissionListTemplate_CompleteDialog_BorderFrame : Frame, GarrisonMissionPageBaseTemplate, GarrisonMissionCompleteDialogTemplate, GarrisonMissionTopBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1319)
---- @class GarrisonMissionListTemplate_CompleteDialog : Frame
---- @field BorderFrame GarrisonMissionListTemplate_CompleteDialog_BorderFrame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1246)
 --- Template
 --- @class GarrisonMissionListTemplate : Frame, GarrisonListTemplate, GarrisonMissionListMixin
 --- @field Tab1 GarrisonMissionListTemplate_GarrisonMissionListTemplateTab1
 --- @field Tab2 GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2
 --- @field MaterialFrame GarrisonMissionListTemplate_MaterialFrame
---- @field CompleteDialog GarrisonMissionListTemplate_CompleteDialog
+--- @field CompleteDialog Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1404)
 --- @class GarrisonFollowerTabTemplate_DurabilityFrame : Frame, GarrisonMissionFollowerDurabilityFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1409)
---- @class GarrisonFollowerTabTemplate_QualityFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1424)
 --- @class GarrisonFollowerTabTemplate_PortraitFrame : Frame, GarrisonFollowerPortraitTemplate
@@ -219,35 +206,26 @@ GarrisonMissionTutorialFrame = {}
 --- @field CombatAllySpell1 GarrisonFollowerTabTemplate_AbilitiesFrame_CombatAllySpell1
 --- @field CombatAllySpell2 GarrisonFollowerTabTemplate_AbilitiesFrame_CombatAllySpell2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1527)
---- @class GarrisonFollowerTabTemplate_UpgradeClickTarget : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1538)
---- @class GarrisonFollowerTabTemplate_Source : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1551)
 --- @class GarrisonFollowerTabTemplate_ItemWeapon : Frame, GarrisonFollowerItemButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1556)
 --- @class GarrisonFollowerTabTemplate_ItemArmor : Frame, GarrisonFollowerItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1561)
---- @class GarrisonFollowerTabTemplate_ItemAverageLevel : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1345)
 --- Template
 --- @class GarrisonFollowerTabTemplate : Frame, GarrisonMissionBaseFrameTemplate, GarrisonFollowerTabMixin
 --- @field DurabilityFrame GarrisonFollowerTabTemplate_DurabilityFrame
---- @field QualityFrame GarrisonFollowerTabTemplate_QualityFrame
+--- @field QualityFrame Frame
 --- @field PortraitFrame GarrisonFollowerTabTemplate_PortraitFrame
 --- @field ModelCluster GarrisonFollowerTabTemplate_ModelCluster
 --- @field XPBar GarrisonFollowerTabTemplate_XPBar
 --- @field AbilitiesFrame GarrisonFollowerTabTemplate_AbilitiesFrame
---- @field UpgradeClickTarget GarrisonFollowerTabTemplate_UpgradeClickTarget
---- @field Source GarrisonFollowerTabTemplate_Source
+--- @field UpgradeClickTarget Button
+--- @field Source Frame
 --- @field ItemWeapon GarrisonFollowerTabTemplate_ItemWeapon
 --- @field ItemArmor GarrisonFollowerTabTemplate_ItemArmor
---- @field ItemAverageLevel GarrisonFollowerTabTemplate_ItemAverageLevel
+--- @field ItemAverageLevel Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1647)
 --- @class FollowerMissionPageTemplate_RewardsFrame : Frame, GarrisonFollowerMissionRewardsFrameTemplate, GarrisonMissionPageRewardTemplate
@@ -257,56 +235,13 @@ GarrisonMissionTutorialFrame = {}
 --- @class FollowerMissionPageTemplate : Frame, GarrisonMissionPageBaseTemplate, MissionPageTemplate
 --- @field RewardsFrame FollowerMissionPageTemplate_RewardsFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1677)
---- @class GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame_Encounter1 : Frame, GarrisonEncounterPortraitTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1678)
---- @class GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame_Encounter2 : Frame, GarrisonEncounterPortraitTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1683)
---- @class GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame_Encounter3 : Frame, GarrisonEncounterPortraitTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1691)
---- @class GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame_MechanicsFrame_ : Frame, GarrisonMissionEnemyMechanicTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1688)
---- @class GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame_MechanicsFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1660)
---- @class GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame : Frame
---- @field Encounter1 GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame_Encounter1
---- @field Encounter2 GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame_Encounter2
---- @field Encounter3 GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame_Encounter3
---- @field MechanicsFrame GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame_MechanicsFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1716)
---- @class GarrisonFollowerMissionCompleteStageTemplate_FollowersFrame_Follower1 : Frame, GarrisonLargeFollowerXPFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1721)
---- @class GarrisonFollowerMissionCompleteStageTemplate_FollowersFrame_Follower2 : Frame, GarrisonLargeFollowerXPFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1726)
---- @class GarrisonFollowerMissionCompleteStageTemplate_FollowersFrame_Follower3 : Frame, GarrisonLargeFollowerXPFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1705)
---- @class GarrisonFollowerMissionCompleteStageTemplate_FollowersFrame : Frame
---- @field Follower1 GarrisonFollowerMissionCompleteStageTemplate_FollowersFrame_Follower1
---- @field Follower2 GarrisonFollowerMissionCompleteStageTemplate_FollowersFrame_Follower2
---- @field Follower3 GarrisonFollowerMissionCompleteStageTemplate_FollowersFrame_Follower3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1733)
---- @class GarrisonFollowerMissionCompleteStageTemplate_MissionInfo : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1843)
---- @class GarrisonFollowerMissionCompleteStageTemplate_ItemLevelHitboxFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1655)
 --- Template
 --- @class GarrisonFollowerMissionCompleteStageTemplate : Frame, GarrisonMissionStageTemplate, GarrisonMissionCompleteStageTemplate
---- @field EncountersFrame GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame
---- @field FollowersFrame GarrisonFollowerMissionCompleteStageTemplate_FollowersFrame
---- @field MissionInfo GarrisonFollowerMissionCompleteStageTemplate_MissionInfo
---- @field ItemLevelHitboxFrame GarrisonFollowerMissionCompleteStageTemplate_ItemLevelHitboxFrame
+--- @field EncountersFrame Frame
+--- @field FollowersFrame Frame
+--- @field MissionInfo Frame
+--- @field ItemLevelHitboxFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1871)
 --- @class GarrisonMissionFrame_GarrisonMissionFrameTab1 : Button, GarrisonMissionFrameTabTemplate
@@ -325,76 +260,8 @@ GarrisonMissionTutorialFrame = {}
 --- @field MaterialFrame GarrisonMissionFrame_GarrisonMissionFrameFollowers_MaterialFrame
 --- @field SearchBox GarrisonMissionFrame_GarrisonMissionFrameFollowers_SearchBox
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1912)
---- @class GarrisonMissionFrame_MissionTab_Missions : Frame, GarrisonMissionListTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1915)
---- @class GarrisonMissionFrame_MissionTab_MissionPage_Enemy1 : Frame, GarrisonMissionPageEnemyTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1920)
---- @class GarrisonMissionFrame_MissionTab_MissionPage_Enemy2 : Frame, GarrisonMissionPageEnemyTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1925)
---- @class GarrisonMissionFrame_MissionTab_MissionPage_Enemy3 : Frame, GarrisonMissionPageEnemyTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1930)
---- @class GarrisonMissionFrame_MissionTab_MissionPage_FollowerAnchor : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1937)
---- @class GarrisonMissionFrame_MissionTab_MissionPage_Follower1 : Frame, GarrisonMissionPageFollowerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1942)
---- @class GarrisonMissionFrame_MissionTab_MissionPage_Follower2 : Frame, GarrisonMissionPageFollowerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1947)
---- @class GarrisonMissionFrame_MissionTab_MissionPage_Follower3 : Frame, GarrisonMissionPageFollowerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1952)
---- @class GarrisonMissionFrame_MissionTab_MissionPage_FollowerModel : CinematicModel, GarrisonCinematicModelBaseTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1961)
---- @class GarrisonMissionFrame_MissionTab_MissionPage_EmptyFollowerModel : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1913)
---- @class GarrisonMissionFrame_MissionTab_MissionPage : Button, FollowerMissionPageTemplate, GarrisonMissionPageMixin, GarrisonFollowerMissionPageMixin
---- @field Enemy1 GarrisonMissionFrame_MissionTab_MissionPage_Enemy1
---- @field Enemy2 GarrisonMissionFrame_MissionTab_MissionPage_Enemy2
---- @field Enemy3 GarrisonMissionFrame_MissionTab_MissionPage_Enemy3
---- @field FollowerAnchor GarrisonMissionFrame_MissionTab_MissionPage_FollowerAnchor
---- @field Follower1 GarrisonMissionFrame_MissionTab_MissionPage_Follower1
---- @field Follower2 GarrisonMissionFrame_MissionTab_MissionPage_Follower2
---- @field Follower3 GarrisonMissionFrame_MissionTab_MissionPage_Follower3
---- @field FollowerModel GarrisonMissionFrame_MissionTab_MissionPage_FollowerModel
---- @field EmptyFollowerModel GarrisonMissionFrame_MissionTab_MissionPage_EmptyFollowerModel
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1988)
---- @class GarrisonMissionFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1989)
---- @class GarrisonMissionFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1990)
---- @class GarrisonMissionFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1991)
---- @class GarrisonMissionFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1992)
---- @class GarrisonMissionFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1993)
---- @class GarrisonMissionFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1910)
---- @class GarrisonMissionFrame_MissionTab : Frame
---- @field MissionList GarrisonMissionFrame_MissionTab_Missions
---- @field MissionPage GarrisonMissionFrame_MissionTab_MissionPage
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1996)
 --- @class GarrisonMissionFrame_FollowerTab : Frame, GarrisonFollowerTabTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1997)
---- @class GarrisonMissionFrame_MissionCompleteBackground : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L2012)
 --- @class GarrisonMissionFrame_MissionComplete_Stage : Frame, GarrisonFollowerMissionCompleteStageTemplate
@@ -416,9 +283,9 @@ GarrisonMissionTutorialFrame = {}
 --- @field Tab1 GarrisonMissionFrame_GarrisonMissionFrameTab1
 --- @field Tab2 GarrisonMissionFrame_GarrisonMissionFrameTab2
 --- @field FollowerList GarrisonMissionFrame_GarrisonMissionFrameFollowers
---- @field MissionTab GarrisonMissionFrame_MissionTab
+--- @field MissionTab Frame
 --- @field FollowerTab GarrisonMissionFrame_FollowerTab
---- @field MissionCompleteBackground GarrisonMissionFrame_MissionCompleteBackground
+--- @field MissionCompleteBackground Frame
 --- @field MissionComplete GarrisonMissionFrame_MissionComplete
 GarrisonMissionFrame = {}
 

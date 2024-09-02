@@ -55,9 +55,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L162)
 --- @class AuctionHouseFrame_AuctionHouseFrameAuctionsFrame : Frame, AuctionHouseAuctionsFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L173)
---- @class AuctionHouseFrame_DialogOverlay : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L180)
 --- @class AuctionHouseFrame_BuyDialog : Frame, AuctionHouseBuyDialogTemplate
 
@@ -83,7 +80,7 @@
 --- @field CommoditiesSellList AuctionHouseFrame_CommoditiesSellList
 --- @field WoWTokenSellFrame AuctionHouseFrame_WoWTokenSellFrame
 --- @field AuctionsFrame AuctionHouseFrame_AuctionHouseFrameAuctionsFrame
---- @field DialogOverlay AuctionHouseFrame_DialogOverlay
+--- @field DialogOverlay Button
 --- @field BuyDialog AuctionHouseFrame_BuyDialog
 --- @field DummyMoneyDisplayFrame AuctionHouseFrame_DummyMoneyDisplayFrame
 AuctionHouseFrame = {}

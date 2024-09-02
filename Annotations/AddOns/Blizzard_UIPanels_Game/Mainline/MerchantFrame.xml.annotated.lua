@@ -1,8 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
---- @class MerchantItemTemplate_MerchantItemTemplateItemButton : ItemButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L62)
 --- @class MerchantItemTemplate_MerchantItemTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate
 
@@ -12,7 +9,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L3)
 --- Template
 --- @class MerchantItemTemplate : Frame
---- @field ItemButton MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @field ItemButton ItemButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L117)
 --- @class MerchantFrame_MerchantItem1 : Frame, MerchantItemTemplate
@@ -50,32 +47,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L172)
 --- @class MerchantFrame_MerchantItem12 : Frame, MerchantItemTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L177)
---- @class MerchantFrame_MerchantSellAllJunkButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L210)
---- @class MerchantFrame_MerchantRepairAllButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L270)
---- @class MerchantFrame_MerchantRepairItemButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L308)
---- @class MerchantFrame_MerchantGuildBankRepairButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L425)
---- @class MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemItemButton_UndoFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L420)
---- @class MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemItemButton : ItemButton
---- @field UndoFrame MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemItemButton_UndoFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L466)
---- @class MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemMoneyFrame : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L392)
---- @class MerchantFrame_MerchantBuyBackItem : Frame
---- @field ItemButton MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemItemButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L479)
 --- @class MerchantFrame_MerchantExtraCurrencyInset : Frame, InsetFrameTemplate
 
@@ -90,12 +61,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L505)
 --- @class MerchantFrame_MerchantMoneyFrame : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L510)
---- @class MerchantFrame_MerchantPrevPageButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L538)
---- @class MerchantFrame_MerchantNextPageButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L566)
 --- @class MerchantFrame_MerchantFrameTab1 : Button, PanelTabButtonTemplate

@@ -3,9 +3,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L116)
 --- @class PetitionFrame_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L123)
---- @class PetitionFrame_PetitionNpcNameFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L139)
 --- @class PetitionFrame_PetitionFrameCancelButton : Button, UIPanelButtonTemplate
 

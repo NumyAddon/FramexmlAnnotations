@@ -19,9 +19,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L188)
 --- @class HeroTalentsContainerTemplate_HeroSpecButton : Button, HeroTalentSpecButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L193)
---- @class HeroTalentsContainerTemplate_CurrencyFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L215)
 --- @class HeroTalentsContainerTemplate_CollapseButton : Button, HeroTalentCollapseButtonMixin
 
@@ -49,7 +46,7 @@
 --- Template
 --- @class HeroTalentsContainerTemplate : Frame, HeroTalentsContainerMixin
 --- @field HeroSpecButton HeroTalentsContainerTemplate_HeroSpecButton
---- @field CurrencyFrame HeroTalentsContainerTemplate_CurrencyFrame
+--- @field CurrencyFrame Frame
 --- @field CollapseButton HeroTalentsContainerTemplate_CollapseButton
 --- @field PreviewContainer HeroTalentsContainerTemplate_PreviewContainer
 --- @field ExpandedContainer HeroTalentsContainerTemplate_ExpandedContainer

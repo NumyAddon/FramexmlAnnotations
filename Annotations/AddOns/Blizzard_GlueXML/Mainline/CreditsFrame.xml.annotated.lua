@@ -44,15 +44,6 @@
 --- @field OKButton CreditsExpansionListTemplate_OKButton
 --- @field CancelButton CreditsExpansionListTemplate_CancelButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/Mainline/CreditsFrame.xml#L157)
---- @class CreditsFrame_ScrollFrame_ : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/Mainline/CreditsFrame.xml#L151)
---- @class CreditsFrame_ScrollFrame : ScrollFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/Mainline/CreditsFrame.xml#L173)
---- @class CreditsFrame_ClipFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/Mainline/CreditsFrame.xml#L174)
 --- @class CreditsFrame_Slider : Slider, BackdropTemplate
 
@@ -79,8 +70,8 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/Mainline/CreditsFrame.xml#L124)
 --- @class CreditsFrame : Frame, CreditsFrameMixin
---- @field ScrollFrame CreditsFrame_ScrollFrame
---- @field ClipFrame CreditsFrame_ClipFrame
+--- @field ScrollFrame ScrollFrame
+--- @field ClipFrame Frame
 --- @field Slider CreditsFrame_Slider
 --- @field BackButton CreditsFrame_BackButton
 --- @field ExpansionsButton CreditsFrame_ExpansionsButton

@@ -15,9 +15,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBuyDialog.xml#L55)
 --- @class AuctionHouseBuyDialogTemplate_Border : Frame, DialogBorderDarkTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBuyDialog.xml#L57)
---- @class AuctionHouseBuyDialogTemplate_ItemDisplay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBuyDialog.xml#L72)
 --- @class AuctionHouseBuyDialogTemplate_PriceFrame : Frame, MoneyDisplayFrameTemplate
 
@@ -33,9 +30,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBuyDialog.xml#L95)
 --- @class AuctionHouseBuyDialogTemplate_Notification : Frame, AuctionHouseBuyDialogNotificationFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBuyDialog.xml#L97)
---- @class AuctionHouseBuyDialogTemplate_DarkOverlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBuyDialog.xml#L110)
 --- @class AuctionHouseBuyDialogTemplate_LoadingSpinner : Frame, SpinnerTemplate
 
@@ -43,12 +37,12 @@
 --- Template
 --- @class AuctionHouseBuyDialogTemplate : Frame, AuctionHouseBuyDialogMixin
 --- @field Border AuctionHouseBuyDialogTemplate_Border
---- @field ItemDisplay AuctionHouseBuyDialogTemplate_ItemDisplay
+--- @field ItemDisplay Frame
 --- @field PriceFrame AuctionHouseBuyDialogTemplate_PriceFrame
 --- @field BuyNowButton AuctionHouseBuyDialogTemplate_BuyNowButton
 --- @field CancelButton AuctionHouseBuyDialogTemplate_CancelButton
 --- @field OkayButton AuctionHouseBuyDialogTemplate_OkayButton
 --- @field Notification AuctionHouseBuyDialogTemplate_Notification
---- @field DarkOverlay AuctionHouseBuyDialogTemplate_DarkOverlay
+--- @field DarkOverlay Frame
 --- @field LoadingSpinner AuctionHouseBuyDialogTemplate_LoadingSpinner
 

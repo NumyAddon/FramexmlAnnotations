@@ -24,13 +24,6 @@
 --- @class ReputationThresholdLargeTemplate : Frame, ReputationThresholdMixin
 --- @field Reward ReputationThresholdLargeTemplate_Reward
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_DelvesDashboardUI/Blizzard_DelvesDashboardUI.xml#L281)
---- @class DelvesDashboardFrame_ThresholdBar_BarEnd : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_DelvesDashboardUI/Blizzard_DelvesDashboardUI.xml#L230)
---- @class DelvesDashboardFrame_ThresholdBar : StatusBar
---- @field BarEnd DelvesDashboardFrame_ThresholdBar_BarEnd
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_DelvesDashboardUI/Blizzard_DelvesDashboardUI.xml#L325)
 --- @class DelvesDashboardFrame_ButtonPanelLayoutFrame_CompanionConfigButtonPanel_CompanionModelScene : ModelScene, NoCameraControlModelSceneMixinTemplate, CompanionConfigButtonPanelModelSceneMixin
 
@@ -56,7 +49,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_DelvesDashboardUI/Blizzard_DelvesDashboardUI.xml#L207)
 --- @class DelvesDashboardFrame : Frame, DelvesDashboardFrameMixin
---- @field ThresholdBar DelvesDashboardFrame_ThresholdBar
+--- @field ThresholdBar StatusBar
 --- @field ButtonPanelLayoutFrame DelvesDashboardFrame_ButtonPanelLayoutFrame
 DelvesDashboardFrame = {}
 

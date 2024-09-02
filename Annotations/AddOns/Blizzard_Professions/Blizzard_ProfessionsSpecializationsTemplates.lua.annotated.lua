@@ -10,13 +10,7 @@ ProfessionsSpecPerkMixin = CreateFromMixins(TalentButtonBasicArtMixin, TalentDis
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.lua#L29)
 --- @class ProfessionSpecTabMixin
-ProfessionSpecTabMixin = {};
-
-local ProfessionSpecTabEvents =
-{
-	"TRAIT_NODE_CHANGED",
-	"TRAIT_TREE_CURRENCY_INFO_UPDATED",
-}
+ProfessionSpecTabMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.lua#L724)
 --- @class ProfessionSpecEdgeArrowMixin

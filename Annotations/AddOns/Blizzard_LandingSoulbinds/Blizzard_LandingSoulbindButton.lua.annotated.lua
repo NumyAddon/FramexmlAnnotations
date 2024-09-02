@@ -4,11 +4,6 @@
 --- @class LandingPageSoulbindButtonMixin
 LandingPageSoulbindButtonMixin = {}
 
-local LandingSoulbindButtonEvents =
-{
-	"SOULBIND_ACTIVATED",
-}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingSoulbindButton.lua#L8)
 function LandingPageSoulbindButtonMixin:OnEvent(event, ...) end
 

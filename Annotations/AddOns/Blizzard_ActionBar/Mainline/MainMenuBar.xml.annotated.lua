@@ -12,9 +12,6 @@
 --- Template
 --- @class VerticalDividerTemplate : Frame, NineSliceCodeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L90)
---- @class MainMenuBar_EndCaps : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L130)
 --- @class MainMenuBar_ActionBarPageNumber_UpButton : Button, QuickKeybindButtonTemplate, MainActionBarUpButtonMixin
 
@@ -31,7 +28,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L29)
 --- @class MainMenuBar : Frame, EditModeActionBarTemplate, MainMenuBarMixin
---- @field EndCaps MainMenuBar_EndCaps
+--- @field EndCaps Frame
 --- @field ActionBarPageNumber MainMenuBar_ActionBarPageNumber
 --- @field VehicleLeaveButton MainMenuBar_MainMenuBarVehicleLeaveButton
 MainMenuBar = {}

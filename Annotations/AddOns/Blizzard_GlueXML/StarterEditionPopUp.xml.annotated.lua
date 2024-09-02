@@ -4,12 +4,6 @@
 --- Template
 --- @class UpgradeFrameFeatureLargeTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L78)
---- @class StarterEditionPopUp_StarterEditionPopUpUpgradeButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L102)
---- @class StarterEditionPopUp_StarterEditionPopUpExitButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L125)
 --- @class StarterEditionPopUp_StarterEditionPopUpFeature1 : Frame, UpgradeFrameFeatureLargeTemplate
 

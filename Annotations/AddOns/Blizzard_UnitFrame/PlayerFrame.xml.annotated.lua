@@ -4,12 +4,6 @@
 --- Template
 --- @class PlayerFrameBarSegmentTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L24)
---- @class PlayerFrame_PlayerFrameContainer : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L97)
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HitIndicator : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L115)
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_TempMaxHealthLossDivider : Frame, SecureFrameParentPropagationTemplate, TempMaxHealthLossDividerMixin
 
@@ -69,38 +63,19 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L71)
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain : Frame, SecureFrameParentPropagationTemplate
---- @field HitIndicator PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HitIndicator
+--- @field HitIndicator Frame
 --- @field HealthBarsContainer PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
 --- @field ManaBarArea PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea
 --- @field AlternatePowerBarArea PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_PlayerFrameAlternatePowerBarArea
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L371)
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_ReadyCheck : Frame, ReadyCheckStatusTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L380)
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerRestLoop : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L401)
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerPlayTime : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L421)
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L308)
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual : Frame
---- @field ReadyCheck PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_ReadyCheck
---- @field PlayerRestLoop PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerRestLoop
---- @field PlayerPlayTime PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerPlayTime
---- @field GroupIndicator PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L69)
 --- @class PlayerFrame_PlayerFrameContent : Frame, SecureFrameParentPropagationTemplate
 --- @field PlayerFrameContentMain PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
---- @field PlayerFrameContentContextual PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
+--- @field PlayerFrameContentContextual Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L14)
 --- @class PlayerFrame : Button, SecureUnitButtonTemplate, EditModePlayerFrameSystemTemplate, PingableType_UnitFrameMixin
---- @field PlayerFrameContainer PlayerFrame_PlayerFrameContainer
+--- @field PlayerFrameContainer Frame
 --- @field PlayerFrameContent PlayerFrame_PlayerFrameContent
 PlayerFrame = {}
 

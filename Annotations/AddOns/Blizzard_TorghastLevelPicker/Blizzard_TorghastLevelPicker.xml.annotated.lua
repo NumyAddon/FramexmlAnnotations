@@ -1,16 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L17)
---- @class TorghastPagingContainerTemplate_PreviousPage : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L32)
---- @class TorghastPagingContainerTemplate_NextPage : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L4)
 --- Template
 --- @class TorghastPagingContainerTemplate : Frame, TorghastPagingContainerMixin
---- @field PreviousPage TorghastPagingContainerTemplate_PreviousPage
---- @field NextPage TorghastPagingContainerTemplate_NextPage
+--- @field PreviousPage Button
+--- @field NextPage Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L49)
 --- Template

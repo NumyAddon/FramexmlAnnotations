@@ -48,14 +48,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L278)
 --- @class ArtifactPerksTabTemplate_Model : PlayerModel, ArtifactsModelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L301)
---- @class ArtifactPerksTabTemplate_CrestFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L645)
 --- @class ArtifactPerksTabTemplate_Tier2SlamEffectModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L651)
---- @class ArtifactPerksTabTemplate_DisabledFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L195)
 --- Template
@@ -64,7 +58,7 @@
 --- @field Tier2ForgingScene ArtifactPerksTabTemplate_Tier2ForgingScene
 --- @field AltModel ArtifactPerksTabTemplate_AltModel
 --- @field Model ArtifactPerksTabTemplate_Model
---- @field CrestFrame ArtifactPerksTabTemplate_CrestFrame
+--- @field CrestFrame Frame
 --- @field Tier2SlamEffectModelScene ArtifactPerksTabTemplate_Tier2SlamEffectModelScene
---- @field DisabledFrame ArtifactPerksTabTemplate_DisabledFrame
+--- @field DisabledFrame Frame
 

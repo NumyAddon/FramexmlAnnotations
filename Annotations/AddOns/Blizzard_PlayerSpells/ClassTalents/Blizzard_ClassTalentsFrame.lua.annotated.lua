@@ -6,47 +6,7 @@ ClassTalentsFrameMixin = CreateFromMixins(TalentFrameBaseMixin, ClassTalentImpor
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.lua#L11)
 --- @class ClassTalentCurrencyDisplayMixin
-ClassTalentCurrencyDisplayMixin = {};
-
-function ClassTalentCurrencyDisplayMixin:SetPointTypeText(text)
-	self.CurrencyLabel:SetText(TALENT_FRAME_CURRENCY_DISPLAY_FORMAT_NAME_ONLY:format(text));
-	self:MarkDirty();
-end
-
-function ClassTalentCurrencyDisplayMixin:SetAmount(amount)
-	self.CurrencyAmount:SetText(amount);
-
-	local enabled = not self:IsInspecting() and (amount > 0);
-	local textColor = enabled and GREEN_FONT_COLOR or GRAY_FONT_COLOR;
-	self.CurrencyAmount:SetTextColor(textColor:GetRGBA());
-
-	self:MarkDirty();
-end
-
-function ClassTalentCurrencyDisplayMixin:IsInspecting()
-	return self:GetTalentFrame():IsInspecting();
-end
-
-function ClassTalentCurrencyDisplayMixin:GetTalentFrame()
-	return self:GetParent();
-end
-
-
-ClassTalentsFrameMixin = CreateFromMixins(TalentFrameBaseMixin, ClassTalentImportExportMixin, ClassTalentSearchMixin);
-
-local ClassTalentsFrameEvents = {
-	"TRAIT_CONFIG_CREATED",
-	"ACTIVE_COMBAT_CONFIG_CHANGED",
-	"PLAYER_REGEN_ENABLED",
-	"PLAYER_REGEN_DISABLED",
-	"STARTER_BUILD_ACTIVATION_FAILED",
-	"TRAIT_CONFIG_DELETED",
-	"TRAIT_CONFIG_LIST_UPDATED",
-	"ACTIONBAR_SLOT_CHANGED",
-
-	-- TRAIT_CONFIG_UPDATED is handled with special code. See OnTraitConfigUpdated.
-	-- "TRAIT_CONFIG_UPDATED",
-}
+ClassTalentCurrencyDisplayMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.lua#L13)
 function ClassTalentCurrencyDisplayMixin:SetPointTypeText(text) end

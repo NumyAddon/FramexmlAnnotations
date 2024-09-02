@@ -16,13 +16,10 @@ CharCustomizeTooltip = {}
 --- Template
 --- @class CharacterCreateClassButtonTemplate : CheckButton, CharCustomizeMaskedButtonTemplate, CharacterCreateClassButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L91)
---- @class CharacterCreateRaceButtonTemplate_RaceName : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L82)
 --- Template
 --- @class CharacterCreateRaceButtonTemplate : CheckButton, CharCustomizeMaskedButtonTemplate, CharacterCreateRaceButtonMixin
---- @field RaceName CharacterCreateRaceButtonTemplate_RaceName
+--- @field RaceName Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L109)
 --- Template
@@ -51,12 +48,9 @@ CharCustomizeTooltip = {}
 --- @class CharacterCreateStartingZoneTemplate_ZoneArt : Button, CharCustomizeBaseButtonTemplate, CharacterCreateStartingZoneArtMixin
 --- @field Border CharacterCreateStartingZoneTemplate_ZoneArt_Border
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L209)
---- @class CharacterCreateStartingZoneTemplate_ZoneNameButton_Button : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L204)
 --- @class CharacterCreateStartingZoneTemplate_ZoneNameButton : Frame, ResizeCheckButtonBehaviorTemplate, CharacterCreateStartingZoneButtonMixin
---- @field Button CharacterCreateStartingZoneTemplate_ZoneNameButton_Button
+--- @field Button CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L172)
 --- Template
@@ -99,9 +93,6 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L426)
 --- @class CharacterCreateFrame_RaceAndClassFrame_HordeAlliedRaces : Frame, CharacterCreateVerticalLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L431)
---- @class CharacterCreateFrame_RaceAndClassFrame_Classes : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L439)
 --- @class CharacterCreateFrame_RaceAndClassFrame_ClassTrialCheckButton : Frame, CharCustomizeFrameWithTooltipTemplate, ResizeCheckButtonTemplate, ClassTrialCheckButtonMixin
 
@@ -117,7 +108,7 @@ CharCustomizeTooltip = {}
 --- @field AllianceAlliedRaces CharacterCreateFrame_RaceAndClassFrame_AllianceAlliedRaces
 --- @field HordeRaces CharacterCreateFrame_RaceAndClassFrame_HordeRaces
 --- @field HordeAlliedRaces CharacterCreateFrame_RaceAndClassFrame_HordeAlliedRaces
---- @field Classes CharacterCreateFrame_RaceAndClassFrame_Classes
+--- @field Classes Frame
 --- @field ClassTrialCheckButton CharacterCreateFrame_RaceAndClassFrame_ClassTrialCheckButton
 --- @field RacialAbilityList CharacterCreateFrame_RaceAndClassFrame_RacialAbilityList
 

@@ -8,17 +8,11 @@
 --- Template
 --- @class HideToastAnimGroupTemplate : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L29)
---- @class EventToastAnimationsTemplate_TitleTextMouseOverFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L47)
---- @class EventToastAnimationsTemplate_SubTitleMouseOverFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L23)
 --- Template
 --- @class EventToastAnimationsTemplate : Frame, EventToastAnimationsMixin
---- @field TitleTextMouseOverFrame EventToastAnimationsTemplate_TitleTextMouseOverFrame
---- @field SubTitleMouseOverFrame EventToastAnimationsTemplate_SubTitleMouseOverFrame
+--- @field TitleTextMouseOverFrame Frame
+--- @field SubTitleMouseOverFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L77)
 --- @class EventToastWithIconBaseTemplate_WidgetContainer : Frame, UIWidgetContainerTemplate
@@ -40,13 +34,10 @@
 --- Template
 --- @class EventToastWithIconLargeTextTemplate : Frame, EventToastWithIconBaseTemplate, EventToastWithIconLargeTextMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L224)
---- @class EventToastScenarioBaseToastTemplate_PaddingFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L198)
 --- Template
 --- @class EventToastScenarioBaseToastTemplate : Button, ResizeLayoutFrame, EventToastAnimationsTemplate, EventToastScenarioBaseToastMixin
---- @field PaddingFrame EventToastScenarioBaseToastTemplate_PaddingFrame
+--- @field PaddingFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L358)
 --- @class EventToastScenarioToastTemplate_WidgetContainer : Frame, UIWidgetContainerTemplate
@@ -68,13 +59,10 @@
 --- @field WidgetContainer EventToastScenarioExpandToastTemplate_WidgetContainer
 --- @field ExpandWidgetContainer EventToastScenarioExpandToastTemplate_ExpandWidgetContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L432)
---- @class EventToastChallengeModeToastTemplate_BannerFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L396)
 --- Template
 --- @class EventToastChallengeModeToastTemplate : Frame, EventToastAnimationsTemplate, EventToastChallengeModeToastMixin
---- @field BannerFrame EventToastChallengeModeToastTemplate_BannerFrame
+--- @field BannerFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L485)
 --- @class EventToastManagerFrameTemplateNormal_WidgetContainer : Frame, UIWidgetContainerTemplate

@@ -2,12 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L5)
 --- @class GameMenuFrameMixin
-GameMenuFrameMixin = {};
-
-local GameMenuFrameEvents = {
-	"STORE_STATUS_CHANGED",
-	"TRIAL_STATUS_UPDATE",
-}
+GameMenuFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L12)
 function GameMenuFrameMixin:OnLoad() end

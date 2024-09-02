@@ -23,16 +23,9 @@
 --- @field AlliedRacesFemaleButton AlliedRacesFrame_ModelScene_AlliedRacesFemaleButton
 --- @field ControlFrame AlliedRacesFrame_ModelScene_ControlFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L129)
---- @class AlliedRacesFrame_RaceInfoFrame_ScrollFrame : ScrollFrame, ScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L123)
---- @class AlliedRacesFrame_RaceInfoFrame : Frame
---- @field ScrollFrame AlliedRacesFrame_RaceInfoFrame_ScrollFrame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L63)
 --- @class AlliedRacesFrame : Frame, ButtonFrameTemplate, AlliedRacesFrameMixin
 --- @field ModelScene AlliedRacesFrame_ModelScene
---- @field RaceInfoFrame AlliedRacesFrame_RaceInfoFrame
+--- @field RaceInfoFrame Frame
 AlliedRacesFrame = {}
 

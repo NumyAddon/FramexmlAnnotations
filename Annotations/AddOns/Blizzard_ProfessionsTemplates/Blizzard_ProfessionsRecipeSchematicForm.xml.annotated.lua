@@ -31,21 +31,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L87)
 --- @class ProfessionsRecipeSchematicFormTemplate_Concentrate : Frame, ProfessionsConcentrateContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L96)
---- @class ProfessionsRecipeSchematicFormTemplate_Stars_Star1 : Frame, ProfessionsRecipeFormStarTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L101)
---- @class ProfessionsRecipeSchematicFormTemplate_Stars_Star2 : Frame, ProfessionsRecipeFormStarTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L106)
---- @class ProfessionsRecipeSchematicFormTemplate_Stars_Star3 : Frame, ProfessionsRecipeFormStarTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L93)
---- @class ProfessionsRecipeSchematicFormTemplate_Stars : Frame
---- @field Star1 ProfessionsRecipeSchematicFormTemplate_Stars_Star1
---- @field Star2 ProfessionsRecipeSchematicFormTemplate_Stars_Star2
---- @field Star3 ProfessionsRecipeSchematicFormTemplate_Stars_Star3
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L114)
 --- @class ProfessionsRecipeSchematicFormTemplate_RecipeLevelBar : StatusBar, ProfessionsRecipeLevelBar, ProfessionsRecipeLevelBarMixin
 
@@ -54,9 +39,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L122)
 --- @class ProfessionsRecipeSchematicFormTemplate_Details : Frame, ProfessionsRecipeCrafterDetailsTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L128)
---- @class ProfessionsRecipeSchematicFormTemplate_RecipeSourceButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L157)
 --- @class ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus : Frame, HorizontalLayoutFrame
@@ -73,10 +55,10 @@
 --- @field OptionalReagents ProfessionsRecipeSchematicFormTemplate_OptionalReagents
 --- @field FinishingReagents ProfessionsRecipeSchematicFormTemplate_FinishingReagents
 --- @field Concentrate ProfessionsRecipeSchematicFormTemplate_Concentrate
---- @field Stars ProfessionsRecipeSchematicFormTemplate_Stars
+--- @field Stars Frame
 --- @field RecipeLevelBar ProfessionsRecipeSchematicFormTemplate_RecipeLevelBar
 --- @field RecipeLevelDropdown ProfessionsRecipeSchematicFormTemplate_RecipeLevelDropdown
 --- @field Details ProfessionsRecipeSchematicFormTemplate_Details
---- @field RecipeSourceButton ProfessionsRecipeSchematicFormTemplate_RecipeSourceButton
+--- @field RecipeSourceButton Button
 --- @field FirstCraftBonus ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus
 

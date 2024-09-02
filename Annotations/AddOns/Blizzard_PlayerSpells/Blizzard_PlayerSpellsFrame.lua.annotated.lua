@@ -2,12 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.lua#L1)
 --- @class PlayerSpellsFrameMixin
-PlayerSpellsFrameMixin = {};
-
-local PLAYER_SPELLS_HELP_SYSTEM = "PlayerSpellsHelpSystem"
-
-local PlayerSpellsFrameEvents = {
-}
+PlayerSpellsFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.lua#L12)
 function PlayerSpellsFrameMixin:OnLoad() end

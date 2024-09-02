@@ -1,16 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L83)
---- @class RuneButtonIndividualTemplate_Cooldown : Cooldown
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L93)
---- @class RuneButtonIndividualTemplate_DepleteVisuals : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L4)
 --- Template
 --- @class RuneButtonIndividualTemplate : Frame, RuneButtonMixin
---- @field Cooldown RuneButtonIndividualTemplate_Cooldown
---- @field DepleteVisuals RuneButtonIndividualTemplate_DepleteVisuals
+--- @field Cooldown Cooldown
+--- @field DepleteVisuals Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L191)
 --- @class RuneFrameTemplate_Rune1 : Frame, RuneButtonIndividualTemplate

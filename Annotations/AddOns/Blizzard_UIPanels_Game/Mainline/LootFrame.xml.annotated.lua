@@ -4,13 +4,10 @@
 --- Template
 --- @class LootFrameBaseElementTemplate : Frame, LootFrameBaseElementMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L9)
---- @class LootFrameElementTemplate_Item : ItemButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L7)
 --- Template
 --- @class LootFrameElementTemplate : Frame, LootFrameBaseElementTemplate, LootFrameElementMixin
---- @field Item LootFrameElementTemplate_Item
+--- @field Item ItemButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L71)
 --- Template

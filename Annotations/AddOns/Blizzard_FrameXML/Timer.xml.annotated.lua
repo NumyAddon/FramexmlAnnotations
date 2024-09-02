@@ -1,12 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/Timer.xml#L117)
---- @class StartTimerBar_StartTimerBarStatusBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/Timer.xml#L3)
 --- Template
 --- @class StartTimerBar : Frame
---- @field bar StartTimerBar_StartTimerBarStatusBar
+--- @field bar StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/Timer.xml#L156)
 --- @class TimerTracker : Frame

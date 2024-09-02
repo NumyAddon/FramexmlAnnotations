@@ -6,19 +6,7 @@ AuctionHouseSearchBarMixin = CreateFromMixins(AuctionHouseSystemMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSearchBar.lua#L1)
 --- @class AuctionHouseSearchButtonMixin
-AuctionHouseSearchButtonMixin = {};
-
-function AuctionHouseSearchButtonMixin:OnClick()
-	self:GetParent():StartSearch();
-	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
-end
-
-
-AuctionHouseFavoritesSearchButtonMixin = {};
-
-local AUCTION_HOUSE_FAVORITES_SEARCH_BUTTON_EVENTS = {
-	"AUCTION_HOUSE_FAVORITES_UPDATED",
-}
+AuctionHouseSearchButtonMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSearchBar.lua#L9)
 --- @class AuctionHouseFavoritesSearchButtonMixin

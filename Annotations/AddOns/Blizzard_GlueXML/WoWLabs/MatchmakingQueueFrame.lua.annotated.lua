@@ -2,48 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L3)
 --- @class GameModeSelectionButtonMixin
-GameModeSelectionButtonMixin = {};
-function GameModeSelectionButtonMixin:OnLoad()
-	SelectableButtonMixin.OnLoad(self);
-
-	self.ButtonName:SetText(self.gameModeString);
-	self.Icon:SetAtlas(self.gameModeIcon);
-end
-
-function GameModeSelectionButtonMixin:OnClick()
-	EventRegistry:TriggerEvent("GameMode.Selected", self, self.gameModeSelection);
-end
-
-function GameModeSelectionButtonMixin:SetSelected(selected)
-	SelectableButtonMixin.SetSelectedState(self, selected);
-	if selected then
-		self.Icon:SetAtlas(self.gameModeIconSelected);
-		self.ButtonName:SetTextColor(WHITE_FONT_COLOR:GetRGB());		
-	else
-		self.Icon:SetAtlas(self.gameModeIcon);
-		self.ButtonName:SetTextColor(NORMAL_FONT_COLOR:GetRGB());
-	end
-end
-
-function GameModeSelectionButtonMixin:SetEnabled(enabled)
-	if enabled then
-		self:SetAlpha(1);
-		self.ButtonName:SetTextColor(NORMAL_FONT_COLOR:GetRGB());
-		self:Enable();
-	else
-		self:SetAlpha(0.5);
-		self.ButtonName:SetTextColor(DISABLED_FONT_COLOR:GetRGB());
-		self:Disable();
-	end
-end
-
----------------------------------------------------
--- GAME MODE SETTINGS FRAME MIXIN
-GameModeSettingsFrameMixin = { };
-local GameModeSettingsFrameEvents =
-{
-	"CLIENT_FEATURE_STATUS_CHANGED",
-}
+GameModeSelectionButtonMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L40)
 --- @class GameModeSettingsFrameMixin
@@ -51,11 +10,7 @@ GameModeSettingsFrameMixin = { }
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L168)
 --- @class PlunderstormReadyButtonMixin
-PlunderstormReadyButtonMixin = { };
-local PlunderstormReadyButtonEvents =
-{
-	"LOBBY_MATCHMAKER_PARTY_UPDATE",
-}
+PlunderstormReadyButtonMixin = { }
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L249)
 --- @class MatchmakingQueueFrameMixin

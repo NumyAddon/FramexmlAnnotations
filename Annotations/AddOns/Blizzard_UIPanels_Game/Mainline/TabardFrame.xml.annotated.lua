@@ -1,11 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L37)
---- @class TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateLeftButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L52)
---- @class TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateRightButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L3)
 --- Template
 --- @class TabardFrameCustomizeTemplate : Frame
@@ -24,24 +18,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L233)
 --- @class TabardFrame_TabardFrameCostFrame : Frame, TooltipBackdropTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L278)
---- @class TabardFrame_TabardFrameCustomizationFrame_TabardFrameCustomization1 : Frame, TabardFrameCustomizeTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L288)
---- @class TabardFrame_TabardFrameCustomizationFrame_TabardFrameCustomization2 : Frame, TabardFrameCustomizeTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L298)
---- @class TabardFrame_TabardFrameCustomizationFrame_TabardFrameCustomization3 : Frame, TabardFrameCustomizeTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L308)
---- @class TabardFrame_TabardFrameCustomizationFrame_TabardFrameCustomization4 : Frame, TabardFrameCustomizeTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L318)
---- @class TabardFrame_TabardFrameCustomizationFrame_TabardFrameCustomization5 : Frame, TabardFrameCustomizeTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L266)
---- @class TabardFrame_TabardFrameCustomizationFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L334)
 --- @class TabardFrame_TabardFrameMoneyInset : Frame, InsetFrameTemplate

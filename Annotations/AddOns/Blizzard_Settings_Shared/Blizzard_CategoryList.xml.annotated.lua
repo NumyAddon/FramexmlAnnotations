@@ -20,11 +20,8 @@
 --- Template
 --- @class SettingsCategoryListHeaderTemplate : Frame, SettingsCategoryListHeaderMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.xml#L53)
---- @class SettingsCategoryListButtonTemplate_Toggle : EventButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.xml#L50)
 --- Template
 --- @class SettingsCategoryListButtonTemplate : Button, SettingsCategoryListButtonMixin
---- @field Toggle SettingsCategoryListButtonTemplate_Toggle
+--- @field Toggle EventButton
 

@@ -1,14 +1,11 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_HybridMinimap/Blizzard_HybridMinimap.xml#L30)
---- @class HybridMinimap_MapCanvas_BorderFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_HybridMinimap/Blizzard_HybridMinimap.xml#L31)
 --- @class HybridMinimap_MapCanvas_ScrollContainer : ScrollFrame, MapCanvasFrameScrollContainerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_HybridMinimap/Blizzard_HybridMinimap.xml#L25)
 --- @class HybridMinimap_MapCanvas : Frame, MapCanvasFrameTemplate
---- @field BorderFrame HybridMinimap_MapCanvas_BorderFrame
+--- @field BorderFrame Frame
 --- @field ScrollContainer HybridMinimap_MapCanvas_ScrollContainer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_HybridMinimap/Blizzard_HybridMinimap.xml#L5)

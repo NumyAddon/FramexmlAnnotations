@@ -11,9 +11,6 @@ PVPTimerFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L54)
 --- @class PVPFramePopup_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L55)
---- @class PVPFramePopup_PVPFramePopupMinimizeButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L70)
 --- @class PVPFramePopup_PVPFramePopupAcceptButton : Button, UIPanelButtonTemplate
 
@@ -23,7 +20,7 @@ PVPTimerFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L12)
 --- @class PVPFramePopup : Frame
 --- @field Border PVPFramePopup_Border
---- @field minimizeButton PVPFramePopup_PVPFramePopupMinimizeButton
+--- @field minimizeButton Button
 PVPFramePopup = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L114)
@@ -44,16 +41,13 @@ PVPFramePopup = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L169)
 --- @class PVPRoleCheckPopup_PVPRoleCheckPopupDeclineButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L178)
---- @class PVPRoleCheckPopup_PVPRoleCheckPopupDescription : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L102)
 --- @class PVPRoleCheckPopup : Frame
 --- @field Border PVPRoleCheckPopup_Border
 --- @field TankIcon PVPRoleCheckPopup_PVPRoleCheckPopupRoleButtonTank
 --- @field HealerIcon PVPRoleCheckPopup_PVPRoleCheckPopupRoleButtonHealer
 --- @field DPSIcon PVPRoleCheckPopup_PVPRoleCheckPopupRoleButtonDPS
---- @field Description PVPRoleCheckPopup_PVPRoleCheckPopupDescription
+--- @field Description Frame
 PVPRoleCheckPopup = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L239)
@@ -68,18 +62,12 @@ PVPRoleCheckPopup = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L261)
 --- @class PVPReadyDialog_PVPReadyDialogLeaveQueueButton : Button, UIPanelButtonTemplate, PVPReadyDialogLeaveButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L271)
---- @class PVPReadyDialog_PVPReadyDialogRoleIcon : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L282)
---- @class PVPReadyDialog_PVPReadyDialogInstanceInfoFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L201)
 --- @class PVPReadyDialog : Frame
 --- @field Border PVPReadyDialog_Border
 --- @field enterButton PVPReadyDialog_PVPReadyDialogEnterBattleButton
 --- @field leaveButton PVPReadyDialog_PVPReadyDialogLeaveQueueButton
---- @field roleIcon PVPReadyDialog_PVPReadyDialogRoleIcon
---- @field instanceInfo PVPReadyDialog_PVPReadyDialogInstanceInfoFrame
+--- @field roleIcon Frame
+--- @field instanceInfo Frame
 PVPReadyDialog = {}
 

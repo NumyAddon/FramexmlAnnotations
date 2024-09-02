@@ -7,18 +7,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L95)
 --- @class SpellSearchPreviewContainerTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L102)
---- @class SpellSearchPreviewContainerTemplate_OverflowCount : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L121)
---- @class SpellSearchPreviewContainerTemplate_DefaultResultButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L47)
 --- Template
 --- @class SpellSearchPreviewContainerTemplate : Frame, SpellSearchPreviewContainerMixin
 --- @field ScrollBox SpellSearchPreviewContainerTemplate_ScrollBox
---- @field OverflowCount SpellSearchPreviewContainerTemplate_OverflowCount
---- @field DefaultResultButton SpellSearchPreviewContainerTemplate_DefaultResultButton
+--- @field OverflowCount Frame
+--- @field DefaultResultButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L162)
 --- Template

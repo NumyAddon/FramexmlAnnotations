@@ -24,11 +24,8 @@
 --- Template
 --- @class OptionsFrameTabButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L118)
---- @class OptionsListButtonTemplate_Toggle : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L115)
 --- Template
 --- @class OptionsListButtonTemplate : Button
---- @field Toggle OptionsListButtonTemplate_Toggle
+--- @field Toggle Button
 

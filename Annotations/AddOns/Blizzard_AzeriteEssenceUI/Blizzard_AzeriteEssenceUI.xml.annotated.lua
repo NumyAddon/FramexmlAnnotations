@@ -12,57 +12,27 @@
 --- @field EffectsModelScene AzeriteMilestoneBaseTemplate_EffectsModelScene
 --- @field SwirlContainer AzeriteMilestoneBaseTemplate_SwirlContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L83)
---- @class AzeriteMilestoneMinorSlotTemplate_UnlockedState_PurpleGemModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L40)
---- @class AzeriteMilestoneMinorSlotTemplate_UnlockedState : Frame
---- @field PurpleGemModelScene AzeriteMilestoneMinorSlotTemplate_UnlockedState_PurpleGemModelScene
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L91)
---- @class AzeriteMilestoneMinorSlotTemplate_AvailableState : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L121)
---- @class AzeriteMilestoneMinorSlotTemplate_LockedState : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L37)
 --- Template
 --- @class AzeriteMilestoneMinorSlotTemplate : Frame, AzeriteMilestoneBaseTemplate, AzeriteMilestoneSlotMixin
---- @field UnlockedState AzeriteMilestoneMinorSlotTemplate_UnlockedState
---- @field AvailableState AzeriteMilestoneMinorSlotTemplate_AvailableState
---- @field LockedState AzeriteMilestoneMinorSlotTemplate_LockedState
+--- @field UnlockedState Frame
+--- @field AvailableState Frame
+--- @field LockedState Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L145)
 --- @class AzeriteMilestoneRankedTemplate_EffectsModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L151)
---- @class AzeriteMilestoneRankedTemplate_AvailableState : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L213)
---- @class AzeriteMilestoneRankedTemplate_LockedState : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L142)
 --- Template
 --- @class AzeriteMilestoneRankedTemplate : Frame, AzeriteMilestoneBaseTemplate, AzeriteMilestoneRankedMixin
 --- @field EffectsModelScene AzeriteMilestoneRankedTemplate_EffectsModelScene
---- @field AvailableState AzeriteMilestoneRankedTemplate_AvailableState
---- @field LockedState AzeriteMilestoneRankedTemplate_LockedState
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L313)
---- @class AzeriteMilestoneMajorSlotTemplate_UnlockedState_BlueGemModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L319)
---- @class AzeriteMilestoneMajorSlotTemplate_UnlockedState_PurpleGemModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L241)
---- @class AzeriteMilestoneMajorSlotTemplate_UnlockedState : Frame
---- @field BlueGemModelScene AzeriteMilestoneMajorSlotTemplate_UnlockedState_BlueGemModelScene
---- @field PurpleGemModelScene AzeriteMilestoneMajorSlotTemplate_UnlockedState_PurpleGemModelScene
+--- @field AvailableState Frame
+--- @field LockedState Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L234)
 --- Template
 --- @class AzeriteMilestoneMajorSlotTemplate : Frame, AzeriteMilestoneBaseTemplate, AzeriteMilestoneSlotMixin
---- @field UnlockedState AzeriteMilestoneMajorSlotTemplate_UnlockedState
+--- @field UnlockedState Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L333)
 --- Template
@@ -72,17 +42,11 @@
 --- Template
 --- @class AzeriteEssenceDependencyLineTemplate : Frame, PowerDependencyLineTemplate, AzeriteEssenceDependencyLineMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L438)
---- @class AzeriteEssenceButtonTemplate_ActivatedMarkerMain : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L449)
---- @class AzeriteEssenceButtonTemplate_ActivatedMarkerPassive : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L372)
 --- Template
 --- @class AzeriteEssenceButtonTemplate : Button, AzeriteEssenceButtonMixin
---- @field ActivatedMarkerMain AzeriteEssenceButtonTemplate_ActivatedMarkerMain
---- @field ActivatedMarkerPassive AzeriteEssenceButtonTemplate_ActivatedMarkerPassive
+--- @field ActivatedMarkerMain Frame
+--- @field ActivatedMarkerPassive Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L469)
 --- Template
@@ -91,9 +55,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L528)
 --- Template
 --- @class AzeriteEssenceStarsAnimationFrameTemplate : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L567)
---- @class AzeriteEssenceUI_PowerLevelBadgeFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L606)
 --- @class AzeriteEssenceUI_LeftInset : Frame, InsetFrameTemplate
@@ -128,12 +89,9 @@
 --- @field ScrollBar AzeriteEssenceUI_EssenceList_ScrollBar
 --- @field LearnEssenceModelScene AzeriteEssenceUI_EssenceList_LearnEssenceModelScene
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L702)
---- @class AzeriteEssenceUI_DisabledFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L561)
 --- @class AzeriteEssenceUI : Frame, PortraitFrameTemplate, AzeriteEssenceUIMixin
---- @field PowerLevelBadgeFrame AzeriteEssenceUI_PowerLevelBadgeFrame
+--- @field PowerLevelBadgeFrame Frame
 --- @field LeftInset AzeriteEssenceUI_LeftInset
 --- @field RightInset AzeriteEssenceUI_RightInset
 --- @field ItemModelScene AzeriteEssenceUI_ItemModelScene
@@ -141,7 +99,7 @@
 --- @field StarsAnimationFrame2 AzeriteEssenceUI_StarsAnimationFrame2
 --- @field StarsAnimationFrame3 AzeriteEssenceUI_StarsAnimationFrame3
 --- @field EssenceList AzeriteEssenceUI_EssenceList
---- @field DisabledFrame AzeriteEssenceUI_DisabledFrame
+--- @field DisabledFrame Frame
 AzeriteEssenceUI = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L802)

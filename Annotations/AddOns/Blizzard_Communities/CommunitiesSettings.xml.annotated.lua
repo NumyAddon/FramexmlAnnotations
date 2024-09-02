@@ -15,44 +15,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L115)
 --- @class CommunitiesSettingsDialog_MessageOfTheDay : ScrollFrame, InputScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L140)
---- @class CommunitiesSettingsDialog_CrossFactionToggle_CheckButton : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L134)
 --- @class CommunitiesSettingsDialog_CrossFactionToggle : Frame, CommunitiesSettingsCrossFactionToggleMixin
---- @field CheckButton CommunitiesSettingsDialog_CrossFactionToggle_CheckButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L173)
---- @class CommunitiesSettingsDialog_ShouldListClub_Button : CheckButton, ClubFinderCheckboxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L167)
---- @class CommunitiesSettingsDialog_ShouldListClub : Frame
---- @field Button CommunitiesSettingsDialog_ShouldListClub_Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L203)
---- @class CommunitiesSettingsDialog_AutoAcceptApplications_Button : CheckButton, ClubFinderCheckboxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L197)
---- @class CommunitiesSettingsDialog_AutoAcceptApplications : Frame
---- @field Button CommunitiesSettingsDialog_AutoAcceptApplications_Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L227)
---- @class CommunitiesSettingsDialog_MaxLevelOnly_Button : CheckButton, ClubFinderCheckboxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L221)
---- @class CommunitiesSettingsDialog_MaxLevelOnly : Frame
---- @field Button CommunitiesSettingsDialog_MaxLevelOnly_Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L251)
---- @class CommunitiesSettingsDialog_MinIlvlOnly_Button : CheckButton, ClubFinderCheckboxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L266)
---- @class CommunitiesSettingsDialog_MinIlvlOnly_EditBox : EditBox, InputBoxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L245)
---- @class CommunitiesSettingsDialog_MinIlvlOnly : Frame
---- @field Button CommunitiesSettingsDialog_MinIlvlOnly_Button
---- @field EditBox CommunitiesSettingsDialog_MinIlvlOnly_EditBox
+--- @field CheckButton CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L299)
 --- @class CommunitiesSettingsDialog_ClubFocusDropdown : DropdownButton, ClubFinderFocusDropdownTemplate
@@ -83,10 +48,10 @@
 --- @field ChangeAvatarButton CommunitiesSettingsDialog_ChangeAvatarButton
 --- @field MessageOfTheDay CommunitiesSettingsDialog_MessageOfTheDay
 --- @field CrossFactionToggle CommunitiesSettingsDialog_CrossFactionToggle
---- @field ShouldListClub CommunitiesSettingsDialog_ShouldListClub
---- @field AutoAcceptApplications CommunitiesSettingsDialog_AutoAcceptApplications
---- @field MaxLevelOnly CommunitiesSettingsDialog_MaxLevelOnly
---- @field MinIlvlOnly CommunitiesSettingsDialog_MinIlvlOnly
+--- @field ShouldListClub Frame
+--- @field AutoAcceptApplications Frame
+--- @field MaxLevelOnly Frame
+--- @field MinIlvlOnly Frame
 --- @field ClubFocusDropdown CommunitiesSettingsDialog_ClubFocusDropdown
 --- @field LookingForDropdown CommunitiesSettingsDialog_LookingForDropdown
 --- @field LanguageDropdown CommunitiesSettingsDialog_LanguageDropdown

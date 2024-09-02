@@ -15,31 +15,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L58)
 --- @class SettingsPanel_CategoryList : Frame, SettingsCategoryListTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L72)
---- @class SettingsPanel_Container_SettingsCanvas : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L73)
---- @class SettingsPanel_Container_SettingsList : Frame, SettingsListTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L65)
---- @class SettingsPanel_Container : Frame
---- @field SettingsCanvas SettingsPanel_Container_SettingsCanvas
---- @field SettingsList SettingsPanel_Container_SettingsList
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L76)
 --- @class SettingsPanel_SearchBox : EditBox, SearchBoxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L84)
---- @class SettingsPanel_InputBlocker_ : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L90)
---- @class SettingsPanel_InputBlocker_ : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L97)
---- @class SettingsPanel_InputBlocker_ : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L82)
---- @class SettingsPanel_InputBlocker : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L4)
 --- @class SettingsPanel : Frame, SettingsFrameTemplate, SettingsPanelMixin
@@ -48,9 +25,9 @@
 --- @field CloseButton SettingsPanel_CloseButton
 --- @field ApplyButton SettingsPanel_ApplyButton
 --- @field CategoryList SettingsPanel_CategoryList
---- @field Container SettingsPanel_Container
+--- @field Container Frame
 --- @field SearchBox SettingsPanel_SearchBox
---- @field InputBlocker SettingsPanel_InputBlocker
+--- @field InputBlocker Frame
 SettingsPanel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L115)

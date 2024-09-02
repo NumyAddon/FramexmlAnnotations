@@ -2,19 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L1)
 --- @class WarWithinLandingOverlayMixin
-WarWithinLandingOverlayMixin = {};
-
-local minimapDisplayInfo = {
-	useDefaultButtonSize = true,
-	expansionLandingPageType = Enum.ExpansionLandingPageType.WarWithin,
-	["normalAtlas"] = "warwithin-landingbutton-up",
-	["pushedAtlas"] = "warwithin-landingbutton-down",
-	["highlightAtlas"] = "warwithin-landingbutton-highlight",
-	["glowAtlas"] = "warwithin-landingbutton-glow",
-	["title"] = WAR_WITHIN_LANDING_PAGE_TITLE,
-	["description"] = WAR_WITHIN_LANDING_PAGE_TOOLTIP,
-	["anchorOffset"] = { x = 12, y = -152 },
-}
+WarWithinLandingOverlayMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L54)
 function WarWithinLandingOverlayMixin:TryCelebrateUnlock() end

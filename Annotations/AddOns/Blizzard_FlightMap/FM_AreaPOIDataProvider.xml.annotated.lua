@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FlightMap/FM_AreaPOIDataProvider.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/FM_AreaPOIDataProvider.xml#L5)
 --- Template
 --- @class FlightMap_AreaPOIPinTemplate : Frame, AreaPOIPinTemplate, FlightMap_AreaPOIPinMixin
 

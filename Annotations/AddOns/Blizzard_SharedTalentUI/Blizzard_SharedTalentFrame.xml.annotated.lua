@@ -1,15 +1,15 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L62)
 --- @class TalentFrameBaseTemplate_ButtonsParent : Frame, TalentFrameBaseButtonsParentMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L70)
 --- @class TalentFrameBaseTemplate_SelectionChoiceFrame : Frame, TalentSelectionChoiceFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L86)
 --- @class TalentFrameBaseTemplate_CommitSpinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L5)
 --- Template
 --- @class TalentFrameBaseTemplate : Frame, TalentFrameBaseMixin
 --- @field AnimationHolder Frame

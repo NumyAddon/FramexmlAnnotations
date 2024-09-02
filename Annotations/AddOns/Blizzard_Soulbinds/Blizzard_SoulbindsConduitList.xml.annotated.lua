@@ -1,22 +1,22 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L5)
 --- Template
 --- @class ConduitButtonGlow : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L17)
 --- Template
 --- @class ConduitListConduitButtonTemplate : Button, ConduitListConduitButtonMixin
 --- @field Spec Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L211)
 --- @class ConduitListSectionTemplate_CategoryButton : Button, ConduitListCategoryButtonMixin
 --- @field Container Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L255)
 --- @class ConduitListSectionTemplate_Container : Frame, ResizeLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L203)
 --- Template
 --- @class ConduitListSectionTemplate : EventFrame, ResizeLayoutFrame, ConduitListSectionMixin
 --- @field Spacer Frame
@@ -24,13 +24,13 @@
 --- @field Container ConduitListSectionTemplate_Container
 --- @field Spacer Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L279)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L279)
 --- @class ConduitListTemplate_ScrollBar : EventFrame, OribosScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L285)
 --- @class ConduitListTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L276)
 --- Template
 --- @class ConduitListTemplate : Frame, ConduitListMixin
 --- @field ScrollBar ConduitListTemplate_ScrollBar

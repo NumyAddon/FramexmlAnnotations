@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L3)
 --- Template
 --- @class NonInteractableModelSceneMixinTemplate : ModelScene, ModelSceneMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L9)
 --- Template
 --- @class ModelSceneMixinTemplate : ModelScene, NonInteractableModelSceneMixinTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L18)
 --- Template
 --- @class NoZoomModelSceneMixinTemplate : ModelScene, ModelSceneMixinTemplate, NoZoomModelSceneMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L19)
 --- Template
 --- @class PanningModelSceneMixinTemplate : ModelScene, ModelSceneMixinTemplate, PanningModelSceneMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L20)
 --- Template
 --- @class NoCameraControlModelSceneMixinTemplate : ModelScene, ModelSceneMixinTemplate, NoCameraControlModelSceneMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L21)
 --- Template
 --- @class ModelSceneDropShadowTemplate : Texture
 

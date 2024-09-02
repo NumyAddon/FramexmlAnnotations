@@ -1,12 +1,12 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.xml#L5)
 --- @class UIWidgetTemplateScenarioHeaderTimer_Timer : Frame, UIWidgetTemplateTooltipFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.xml#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.xml#L20)
 --- @class UIWidgetTemplateScenarioHeaderTimer_TimerBar : StatusBar, UIWidgetTemplateTooltipFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.xml#L3)
 --- Template
 --- @class UIWidgetTemplateScenarioHeaderTimer : Frame, UIWidgetBaseScenarioHeaderTemplate, UIWidgetTemplateScenarioHeaderTimerMixin
 --- @field Timer UIWidgetTemplateScenarioHeaderTimer_Timer

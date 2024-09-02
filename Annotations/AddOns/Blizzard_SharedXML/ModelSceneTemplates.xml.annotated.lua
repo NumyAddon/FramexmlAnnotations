@@ -1,30 +1,30 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L3)
 --- Template
 --- @class ModifyOrbitCameraBaseButtonTemplate : Button, ModifyOrbitCameraButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L15)
 --- Template
 --- @class RotateOrbitCameraLeftButtonTemplate : Button, ModifyOrbitCameraBaseButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L30)
 --- Template
 --- @class RotateOrbitCameraRightButtonTemplate : Button, ModifyOrbitCameraBaseButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L45)
 --- Template
 --- @class WrappedModelSceneTemplate : ModelScene, ModelSceneMixinTemplate, WrappedModelSceneMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L66)
 --- Template
 --- @class NonInteractableWrappedModelSceneTemplate : ModelScene, NonInteractableModelSceneMixinTemplate, WrappedModelSceneMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L87)
 --- Template
 --- @class WrappedAndUnwrappedModelScene : ModelScene, WrappedModelSceneTemplate, WrappedAndUnwrappedModelSceneMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L96)
 --- Template
 --- @class NonInteractableWrappedAndUnwrappedModelScene : ModelScene, NonInteractableWrappedModelSceneTemplate, WrappedAndUnwrappedModelSceneMixin
 

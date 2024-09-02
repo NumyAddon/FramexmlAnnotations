@@ -1,31 +1,31 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L5)
 --- Template
 --- @class PVPMatchResultsLoot : Button, PVPLootTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L11)
 --- Template
 --- @class PVPMatchResultsCurrencyRewardTemplate : Button, PVPMatchResultsCurrencyRewardMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L67)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L67)
 --- @class PVPMatchResults_Score : Frame, UIWidgetContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L80)
 --- @class PVPMatchResults_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L421)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L421)
 --- @class PVPMatchResults_buttonContainer_requeueButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L427)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L427)
 --- @class PVPMatchResults_buttonContainer_leaveButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L415)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L415)
 --- @class PVPMatchResults_buttonContainer : Frame, ResizeLayoutFrame
 --- @field requeueButton PVPMatchResults_buttonContainer_requeueButton
 --- @field leaveButton PVPMatchResults_buttonContainer_leaveButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L50)
 --- @class PVPMatchResults : Frame, PVPMatchResultsMixin
 --- @field overlay Frame
 --- @field Score PVPMatchResults_Score

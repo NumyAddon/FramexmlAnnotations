@@ -1,16 +1,16 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L3)
 --- Template
 --- @class StatusTrackingBarContainerTemplate : Frame, StatusTrackingBarContainerMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L41)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L41)
 --- @class StatusTrackingBarManager_MainStatusTrackingBarContainer : Frame, StatusTrackingBarContainerTemplate, EditModeStatusTrackingBar1SystemTemplate, EditModeStatusTrackingBarContainerMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L49)
 --- @class StatusTrackingBarManager_SecondaryStatusTrackingBarContainer : Frame, StatusTrackingBarContainerTemplate, EditModeStatusTrackingBar2SystemTemplate, EditModeStatusTrackingBarContainerMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L35)
 --- @class StatusTrackingBarManager : Frame, StatusTrackingManagerMixin
 --- @field MainStatusTrackingBarContainer StatusTrackingBarManager_MainStatusTrackingBarContainer
 --- @field SecondaryStatusTrackingBarContainer StatusTrackingBarManager_SecondaryStatusTrackingBarContainer

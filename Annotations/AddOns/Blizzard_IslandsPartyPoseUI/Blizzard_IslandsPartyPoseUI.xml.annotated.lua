@@ -1,15 +1,15 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.xml#L19)
 --- @class IslandsPartyPoseFrame_ModelScene : ModelScene, PartyPoseModelFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.xml#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.xml#L24)
 --- @class IslandsPartyPoseFrame_Score : Frame, UIWidgetContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.xml#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.xml#L37)
 --- @class IslandsPartyPoseFrame_LeaveButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.xml#L3)
 --- @class IslandsPartyPoseFrame : Frame, PartyPoseFrameTemplate, IslandsPartyPoseMixin
 --- @field OverlayElements Frame
 --- @field ModelScene IslandsPartyPoseFrame_ModelScene

@@ -1,8 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/GuildNews.lua#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildNews.lua#L5)
 --- @class CommunitiesGuildNewsButtonMixin
 CommunitiesGuildNewsButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Communities/GuildNews.lua#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildNews.lua#L7)
 function CommunitiesGuildNewsButtonMixin:Init(elementData) end

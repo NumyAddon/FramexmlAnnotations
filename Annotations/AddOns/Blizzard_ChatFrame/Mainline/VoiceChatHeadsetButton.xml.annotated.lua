@@ -1,19 +1,19 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L3)
 --- Template
 --- @class VoiceChatHeadsetButtonTemplate : Button, VoiceChatHeadsetButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L19)
 --- @class VoiceChatHeadsetTemplate_PendingDots : Frame, VoiceChatDotsTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L25)
 --- @class VoiceChatHeadsetTemplate_Button : Button, VoiceChatHeadsetButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L31)
 --- @class VoiceChatHeadsetTemplate_Transcription : Frame, VoiceChatTranscriptionTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L16)
 --- Template
 --- @class VoiceChatHeadsetTemplate : Frame, VoiceChatHeadsetMixin
 --- @field PendingDots VoiceChatHeadsetTemplate_PendingDots

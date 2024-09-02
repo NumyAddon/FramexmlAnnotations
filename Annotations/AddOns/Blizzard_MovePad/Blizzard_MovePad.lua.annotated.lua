@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L1)
 --- @class MovePadMixin
 MovePadMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L3)
 function MovePadMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L13)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L13)
 function MovePadMixin:OnDragStart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L20)
 function MovePadMixin:OnDragStop() end

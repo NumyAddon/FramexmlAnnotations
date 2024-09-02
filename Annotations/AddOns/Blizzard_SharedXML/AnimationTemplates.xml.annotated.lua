@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L4)
 --- Template
 --- @class VisibleWhilePlayingAnimGroupTemplate : AnimationGroup, VisibleWhilePlayingAnimGroupMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L14)
 --- Template
 --- @class TargetsVisibleWhilePlayingAnimGroupTemplate : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L24)
 --- Template
 --- @class TargetsHiddenOnFinishedAnimGroupTemplate : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L33)
 --- Template
 --- @class SyncedAnimGroupTemplate : AnimationGroup, SyncedAnimGroupMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L43)
 --- Template
 --- @class AnimateWhileShownTemplate : Frame, AnimateWhileShownMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L51)
 --- Template
 --- @class EasyFrameAnimationsTemplate : Frame, AnimateWhileShownTemplate
 

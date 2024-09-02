@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L42)
 --- @class MajorFactionUnlockToastMixin
 MajorFactionUnlockToastMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L44)
 function MajorFactionUnlockToastMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L48)
 function MajorFactionUnlockToastMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L59)
 function MajorFactionUnlockToastMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L65)
 function MajorFactionUnlockToastMixin:PlayMajorFactionUnlockToast(majorFactionID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L78)
 function MajorFactionUnlockToastMixin:PlayBanner(data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L100)
 function MajorFactionUnlockToastMixin:StopBanner() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.lua#L105)
 function MajorFactionUnlockToastMixin:OnAnimFinished() end

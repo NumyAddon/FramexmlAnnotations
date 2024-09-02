@@ -1,25 +1,25 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L210)
 --- @class TableAttributeDisplayTemplate_FilterBox : EditBox, SearchBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L221)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L221)
 --- @class TableAttributeDisplayTemplate_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L226)
 --- @class TableAttributeDisplayTemplate_TitleButton : Button, TruncatedTooltipScriptTemplate, PanelDragBarTemplate
 --- @field Highlight Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L254)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L254)
 --- @class TableAttributeDisplayTemplate_LinesScrollFrame : ScrollFrame, ScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L274)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L274)
 --- @class TableAttributeDisplayTemplate_ScrollFrameArt : Frame, TooltipBorderBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L280)
 --- @class TableAttributeDisplayTemplate_FrameHighlight : Frame, FrameHighlightTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L5)
 --- Template
 --- @class TableAttributeDisplayTemplate : Frame, TableInspectorMixin
 --- @field OpenParentButton Button
@@ -36,7 +36,7 @@
 --- @field ScrollFrameArt TableAttributeDisplayTemplate_ScrollFrameArt
 --- @field FrameHighlight TableAttributeDisplayTemplate_FrameHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L284)
 --- @class TableAttributeDisplay : Frame, TableAttributeDisplayTemplate
 TableAttributeDisplay = {}
 

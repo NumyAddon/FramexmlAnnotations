@@ -1,32 +1,32 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L5)
 --- @class GameMenuFrameMixin
 GameMenuFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L12)
 function GameMenuFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L19)
 function GameMenuFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L33)
 function GameMenuFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L45)
 function GameMenuFrameMixin:OnEvent() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L49)
 function GameMenuFrameMixin:OnStoreFrameClosed(contextKey) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L55)
 function GameMenuFrameMixin:OnUIPanelHidden(contextKey) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L61)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L61)
 function GameMenuFrameMixin:InitButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L120)
 function GameMenuFrameMixin:SetRatingsButtonShown(shown) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L124)
 function GameMenuFrameMixin:GetRatingsButtonShown() end

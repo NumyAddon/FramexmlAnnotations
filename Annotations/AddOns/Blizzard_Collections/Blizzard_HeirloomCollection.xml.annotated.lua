@@ -1,32 +1,32 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L5)
 --- Template
 --- @class HeirloomHeaderTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L29)
 --- Template
 --- @class HeirloomSpellButtonTemplate : CheckButton, CollectionsSpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L117)
 --- @class HeirloomsJournal_progressBar : StatusBar, CollectionsProgressBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L119)
 --- @class HeirloomsJournal_HeirloomsJournalSearchBox : EditBox, SearchBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L129)
 --- @class HeirloomsJournal_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L135)
 --- @class HeirloomsJournal_ClassDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L141)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L141)
 --- @class HeirloomsJournal_iconsFrame : Frame, CollectionsBackgroundTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L153)
 --- @class HeirloomsJournal_PagingFrame : Frame, CollectionsPagingFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L115)
 --- @class HeirloomsJournal : Frame, HeirloomsMixin
 --- @field progressBar HeirloomsJournal_progressBar
 --- @field SearchBox HeirloomsJournal_HeirloomsJournalSearchBox

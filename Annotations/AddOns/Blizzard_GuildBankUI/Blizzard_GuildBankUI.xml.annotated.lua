@@ -79,9 +79,6 @@
 --- Template
 --- @class GuildBankFrameTabTemplate : Button, PanelTabButtonTemplate, GuildBankFrameTabMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L365)
---- @class GuildBankFrame_Emblem : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L477)
 --- @class GuildBankFrame_Column1 : Frame, GuildBankFrameColumnTemplate
 
@@ -154,41 +151,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L615)
 --- @class GuildBankFrame_GuildBankTab8 : Frame, GuildBankTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L646)
---- @class GuildBankFrame_BuyInfo_GuildBankFrameTabCostMoneyFrame : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L657)
---- @class GuildBankFrame_BuyInfo_PurchaseButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L620)
---- @class GuildBankFrame_BuyInfo : Frame
---- @field PurchaseButton GuildBankFrame_BuyInfo_PurchaseButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L682)
---- @class GuildBankFrame_Log_GuildBankMessageFrame : ScrollingMessageFrame, InlineHyperlinkFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L700)
---- @class GuildBankFrame_Log_ScrollBar : EventFrame, MinimalScrollBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L676)
---- @class GuildBankFrame_Log : Frame
---- @field MessageFrame GuildBankFrame_Log_GuildBankMessageFrame
---- @field ScrollBar GuildBankFrame_Log_ScrollBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L714)
---- @class GuildBankFrame_GuildBankInfo_GuildBankInfoSaveButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L732)
---- @class GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame : ScrollFrame, ScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L708)
---- @class GuildBankFrame_GuildBankInfo : Frame
---- @field SaveButton GuildBankFrame_GuildBankInfo_GuildBankInfoSaveButton
---- @field ScrollFrame GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L167)
 --- @class GuildBankFrame : Frame, BasicFrameTemplate, GuildBankFrameMixin
---- @field Emblem GuildBankFrame_Emblem
+--- @field Emblem Frame
 --- @field Column1 GuildBankFrame_Column1
 --- @field Column2 GuildBankFrame_Column2
 --- @field Column3 GuildBankFrame_Column3
@@ -201,9 +166,9 @@
 --- @field WithdrawMoneyFrame GuildBankFrame_GuildBankWithdrawMoneyFrame
 --- @field DepositButton GuildBankFrame_DepositButton
 --- @field WithdrawButton GuildBankFrame_WithdrawButton
---- @field BuyInfo GuildBankFrame_BuyInfo
---- @field Log GuildBankFrame_Log
---- @field Info GuildBankFrame_GuildBankInfo
+--- @field BuyInfo Frame
+--- @field Log Frame
+--- @field Info Frame
 GuildBankFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L801)

@@ -2,13 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L188)
 --- @class MajorFactionRenownMixin
-MajorFactionRenownMixin = {};
-
-local MajorFactionRenownEvents = {
-	"MAJOR_FACTION_RENOWN_LEVEL_CHANGED",
-	"MAJOR_FACTION_UNLOCKED",
-	"UPDATE_FACTION",
-}
+MajorFactionRenownMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L505)
 --- @class MajorFactionRenownHeaderFrameMixin

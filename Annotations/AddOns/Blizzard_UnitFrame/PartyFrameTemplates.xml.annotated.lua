@@ -73,14 +73,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L338)
 --- @class PartyMemberFrameTemplate_ManaBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L389)
---- @class PartyMemberFrameTemplate_PartyMemberOverlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L429)
 --- @class PartyMemberFrameTemplate_ReadyCheck : Frame, ReadyCheckStatusTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L439)
---- @class PartyMemberFrameTemplate_NotPresentIcon : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L461)
 --- @class PartyMemberFrameTemplate_PetFrame : Button, PartyMemberPetFrameTemplate
@@ -94,9 +88,9 @@
 --- @field PowerBarAlt PartyMemberFrameTemplate_PowerBarAlt
 --- @field HealthBarContainer PartyMemberFrameTemplate_HealthBarContainer
 --- @field ManaBar PartyMemberFrameTemplate_ManaBar
---- @field PartyMemberOverlay PartyMemberFrameTemplate_PartyMemberOverlay
+--- @field PartyMemberOverlay Frame
 --- @field ReadyCheck PartyMemberFrameTemplate_ReadyCheck
---- @field NotPresentIcon PartyMemberFrameTemplate_NotPresentIcon
+--- @field NotPresentIcon Frame
 --- @field PetFrame PartyMemberFrameTemplate_PetFrame
 --- @field AuraFrameContainer PartyMemberFrameTemplate_AuraFrameContainer
 

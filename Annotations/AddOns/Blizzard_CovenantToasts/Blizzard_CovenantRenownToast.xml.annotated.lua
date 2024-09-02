@@ -1,10 +1,7 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.xml#L75)
---- @class CovenantRenownToast_RewardIconMouseOver : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.xml#L3)
 --- @class CovenantRenownToast : Frame, CovenantCelebrationBannerTemplate, CovenantRenownToastMixin
---- @field RewardIconMouseOver CovenantRenownToast_RewardIconMouseOver
+--- @field RewardIconMouseOver Frame
 CovenantRenownToast = {}
 

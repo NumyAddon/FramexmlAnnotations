@@ -13,56 +13,26 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L93)
 --- @class QueueStatusEntryTemplate_DamagersFound : Frame, QueueStatusRoleCountTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L98)
---- @class QueueStatusEntryTemplate_AssignedSpec : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L16)
 --- Template
 --- @class QueueStatusEntryTemplate : Frame
 --- @field HealersFound QueueStatusEntryTemplate_HealersFound
 --- @field TanksFound QueueStatusEntryTemplate_TanksFound
 --- @field DamagersFound QueueStatusEntryTemplate_DamagersFound
---- @field AssignedSpec QueueStatusEntryTemplate_AssignedSpec
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L137)
---- @class EyeTemplate_EyeInitial : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L184)
---- @class EyeTemplate_EyeSearchingLoop : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L202)
---- @class EyeTemplate_EyeMouseOver : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L220)
---- @class EyeTemplate_EyeFoundInitial : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L261)
---- @class EyeTemplate_EyeFoundLoop : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L279)
---- @class EyeTemplate_GlowBackLoop : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L296)
---- @class EyeTemplate_EyePokeInitial : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L314)
---- @class EyeTemplate_EyePokeLoop : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L332)
---- @class EyeTemplate_EyePokeEnd : Frame
+--- @field AssignedSpec Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L124)
 --- Template
 --- @class EyeTemplate : Frame, EyeTemplateMixin
---- @field EyeInitial EyeTemplate_EyeInitial
---- @field EyeSearchingLoop EyeTemplate_EyeSearchingLoop
---- @field EyeMouseOver EyeTemplate_EyeMouseOver
---- @field EyeFoundInitial EyeTemplate_EyeFoundInitial
---- @field EyeFoundLoop EyeTemplate_EyeFoundLoop
---- @field GlowBackLoop EyeTemplate_GlowBackLoop
---- @field EyePokeInitial EyeTemplate_EyePokeInitial
---- @field EyePokeLoop EyeTemplate_EyePokeLoop
---- @field EyePokeEnd EyeTemplate_EyePokeEnd
+--- @field EyeInitial Frame
+--- @field EyeSearchingLoop Frame
+--- @field EyeMouseOver Frame
+--- @field EyeFoundInitial Frame
+--- @field EyeFoundLoop Frame
+--- @field GlowBackLoop Frame
+--- @field EyePokeInitial Frame
+--- @field EyePokeLoop Frame
+--- @field EyePokeEnd Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L384)
 --- @class QueueStatusButton_QueueStatusButtonIcon : Frame, EyeTemplate

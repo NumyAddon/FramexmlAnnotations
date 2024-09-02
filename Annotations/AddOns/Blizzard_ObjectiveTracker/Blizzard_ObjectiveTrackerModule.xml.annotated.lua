@@ -15,12 +15,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.xml#L78)
 --- @class ObjectiveTrackerModuleTemplate_Header : Frame, ObjectiveTrackerModuleHeaderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.xml#L83)
---- @class ObjectiveTrackerModuleTemplate_ContentsFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.xml#L71)
 --- Template
 --- @class ObjectiveTrackerModuleTemplate : Frame, POIButtonOwnerTemplate, ObjectiveTrackerModuleMixin
 --- @field Header ObjectiveTrackerModuleTemplate_Header
---- @field ContentsFrame ObjectiveTrackerModuleTemplate_ContentsFrame
+--- @field ContentsFrame Frame
 

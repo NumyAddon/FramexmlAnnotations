@@ -12,9 +12,6 @@
 --- @class ScenarioSpellFrameTemplate : Frame
 --- @field SpellButton ScenarioSpellFrameTemplate_SpellButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L63)
---- @class ScenarioProgressBarTemplate_Bar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L156)
 --- @class ScenarioProgressBarTemplate_Flare1 : Frame, BonusTrackerProgressBarFlareAnimTemplate
 
@@ -36,7 +33,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L57)
 --- Template
 --- @class ScenarioProgressBarTemplate : Frame, ScenarioTrackerProgressBarMixin
---- @field Bar ScenarioProgressBarTemplate_Bar
+--- @field Bar StatusBar
 --- @field Flare1 ScenarioProgressBarTemplate_Flare1
 --- @field Flare2 ScenarioProgressBarTemplate_Flare2
 --- @field SmallFlare1 ScenarioProgressBarTemplate_SmallFlare1
@@ -62,64 +59,25 @@
 --- @class ScenarioObjectiveTracker_StageBlock : Frame, ScenarioObjectiveTrackerStageMixin
 --- @field WidgetContainer ScenarioObjectiveTracker_StageBlock_WidgetContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L321)
---- @class ScenarioObjectiveTracker_TopWidgetContainerBlock_WidgetContainer : Frame, UIWidgetContainerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L316)
---- @class ScenarioObjectiveTracker_TopWidgetContainerBlock : Frame
---- @field WidgetContainer ScenarioObjectiveTracker_TopWidgetContainerBlock_WidgetContainer
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L333)
---- @class ScenarioObjectiveTracker_BottomWidgetContainerBlock_WidgetContainer : Frame, UIWidgetContainerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L328)
---- @class ScenarioObjectiveTracker_BottomWidgetContainerBlock : Frame
---- @field WidgetContainer ScenarioObjectiveTracker_BottomWidgetContainerBlock_WidgetContainer
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L350)
---- @class ScenarioObjectiveTracker_MawBuffsBlock_Container : Button, MawBuffsContainer
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L344)
---- @class ScenarioObjectiveTracker_MawBuffsBlock : Frame
---- @field Container ScenarioObjectiveTracker_MawBuffsBlock_Container
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L392)
---- @class ScenarioObjectiveTracker_ChallengeModeBlock_StartedDepleted : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L417)
---- @class ScenarioObjectiveTracker_ChallengeModeBlock_TimesUpLootStatus : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L442)
---- @class ScenarioObjectiveTracker_ChallengeModeBlock_DeathCount : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L465)
---- @class ScenarioObjectiveTracker_ChallengeModeBlock_StatusBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L357)
 --- @class ScenarioObjectiveTracker_ChallengeModeBlock : Frame, ScenarioObjectiveTrackerChallengeModeMixin
---- @field StartedDepleted ScenarioObjectiveTracker_ChallengeModeBlock_StartedDepleted
---- @field TimesUpLootStatus ScenarioObjectiveTracker_ChallengeModeBlock_TimesUpLootStatus
---- @field DeathCount ScenarioObjectiveTracker_ChallengeModeBlock_DeathCount
---- @field StatusBar ScenarioObjectiveTracker_ChallengeModeBlock_StatusBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L538)
---- @class ScenarioObjectiveTracker_ProvingGroundsBlock_StatusBar : StatusBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L554)
---- @class ScenarioObjectiveTracker_ProvingGroundsBlock_CountdownAnimFrame : Frame
+--- @field StartedDepleted Frame
+--- @field TimesUpLootStatus Frame
+--- @field DeathCount Frame
+--- @field StatusBar StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L478)
 --- @class ScenarioObjectiveTracker_ProvingGroundsBlock : Frame, ScenarioObjectiveTrackerProvingGroundsMixin
---- @field StatusBar ScenarioObjectiveTracker_ProvingGroundsBlock_StatusBar
---- @field CountdownAnimFrame ScenarioObjectiveTracker_ProvingGroundsBlock_CountdownAnimFrame
+--- @field StatusBar StatusBar
+--- @field CountdownAnimFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L224)
 --- @class ScenarioObjectiveTracker : Frame, ObjectiveTrackerModuleTemplate, ScenarioObjectiveTrackerMixin
 --- @field ObjectivesBlock ScenarioObjectiveTracker_ObjectivesBlock
 --- @field StageBlock ScenarioObjectiveTracker_StageBlock
---- @field TopWidgetContainerBlock ScenarioObjectiveTracker_TopWidgetContainerBlock
---- @field BottomWidgetContainerBlock ScenarioObjectiveTracker_BottomWidgetContainerBlock
---- @field MawBuffsBlock ScenarioObjectiveTracker_MawBuffsBlock
+--- @field TopWidgetContainerBlock Frame
+--- @field BottomWidgetContainerBlock Frame
+--- @field MawBuffsBlock Frame
 --- @field ChallengeModeBlock ScenarioObjectiveTracker_ChallengeModeBlock
 --- @field ProvingGroundsBlock ScenarioObjectiveTracker_ProvingGroundsBlock
 ScenarioObjectiveTracker = {}

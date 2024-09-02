@@ -2,12 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L1)
 --- @class CustomGossipManagerMixin
-CustomGossipManagerMixin = {};
-
-CUSTOM_GOSSIP_FRAME_EVENTS = {
-	"GOSSIP_SHOW",
-	"GOSSIP_CLOSED",
-}
+CustomGossipManagerMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L87)
 --- @class CustomGossipFrameBaseMixin

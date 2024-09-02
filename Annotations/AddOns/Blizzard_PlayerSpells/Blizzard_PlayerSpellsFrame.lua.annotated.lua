@@ -2,13 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.lua#L1)
 --- @class PlayerSpellsFrameMixin
-PlayerSpellsFrameMixin = {};
-
-local PLAYER_SPELLS_HELP_SYSTEM = "PlayerSpellsHelpSystem"
-
-local PlayerSpellsFrameEvents = {
-	"PLAYER_LEAVING_WORLD",
-}
+PlayerSpellsFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.lua#L13)
 function PlayerSpellsFrameMixin:OnLoad() end

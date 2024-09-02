@@ -32,9 +32,6 @@
 --- Template
 --- @class QuestPortrait-StoneSwirls-Top : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L49)
---- @class QuestFrame_QuestNpcNameFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L62)
 --- @class QuestFrame_QuestFrameRewardPanel_QuestFrameCompleteQuestButton : Button, UIPanelButtonTemplate
 
@@ -86,17 +83,8 @@
 --- @field FriendshipStatusBar QuestFrame_FriendshipStatusBar
 QuestFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L329)
---- @class QuestModelScene_QuestNPCModelNameTooltipFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L362)
---- @class QuestModelScene_ModelTextFrame_QuestNPCModelTextScrollFrame : ScrollFrame, ScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L346)
---- @class QuestModelScene_ModelTextFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L285)
 --- @class QuestModelScene : ModelScene, PanningModelSceneMixinTemplate
---- @field ModelTextFrame QuestModelScene_ModelTextFrame
+--- @field ModelTextFrame Frame
 QuestModelScene = {}
 

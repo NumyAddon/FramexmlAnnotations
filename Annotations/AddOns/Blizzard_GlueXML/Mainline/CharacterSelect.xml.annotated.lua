@@ -11,22 +11,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L155)
 --- @class CharacterVASTemplate_Timer : Frame, BaseTextTimer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L171)
---- @class CharacterVASTemplate_GlowSpin : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L187)
---- @class CharacterVASTemplate_GlowPulse : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L206)
---- @class CharacterVASTemplate_Highlight : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L105)
 --- Template
 --- @class CharacterVASTemplate : Button, CharacterVASMixin
 --- @field Timer CharacterVASTemplate_Timer
---- @field GlowSpin CharacterVASTemplate_GlowSpin
---- @field GlowPulse CharacterVASTemplate_GlowPulse
---- @field Highlight CharacterVASTemplate_Highlight
+--- @field GlowSpin Frame
+--- @field GlowPulse Frame
+--- @field Highlight Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L239)
 --- Template
@@ -45,9 +36,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L318)
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectModelFFX : ModelFFX, CharacterSelectModelFFXMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L325)
---- @class CharacterSelect_CharacterSelectUI_LogoHoist : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L342)
 --- @class CharacterSelect_CharacterSelectUI_GameEnvironmentToggleFrame : Frame, GameEnvironmentFrameTemplate, DefaultScaleFrame
 
@@ -58,16 +46,10 @@
 --- @class CharacterSelect_CharacterSelectUI_LimitedTimeEventFrame : Frame, LimitedTimeEventFrameMixin
 --- @field Text CharacterSelect_CharacterSelectUI_LimitedTimeEventFrame_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L410)
---- @class CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeButton_CharSelectAccountUpgradeButtonExpandCollapseButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L439)
---- @class CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeButton_CharSelectAccountUpgradeButtonPointerFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L376)
 --- @class CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeButton : Button, GlueButtonTemplate
---- @field expandCollapseButton CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeButton_CharSelectAccountUpgradeButtonExpandCollapseButton
---- @field PointerFrame CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeButton_CharSelectAccountUpgradeButtonPointerFrame
+--- @field expandCollapseButton Button
+--- @field PointerFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L485)
 --- @class CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeMiniPanel : Frame, UpgradeFrameBorderedTemplate
@@ -87,9 +69,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L593)
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectRotateRight : Button, CharacterSelectRotateButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L602)
---- @class CharacterSelect_CharacterSelectUI_ConfigurationWarnings : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L640)
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectBackButton : Button, GlueButtonTemplate, CharacterSelectBackButtonMixin
 
@@ -104,12 +83,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L698)
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame : Frame, CharacterSelectListTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L705)
---- @class CharacterSelect_CharacterSelectUI_CharSelectServicesCover : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L718)
---- @class CharacterSelect_CharacterSelectUI_WarningText : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L757)
 --- @class CharacterSelect_CharacterSelectUI_UpgradePopupFrame_Timer : Frame, BaseTextTimer
@@ -135,9 +108,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L892)
 --- @class CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_MinimizeButton : Button, UIButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L901)
---- @class CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_CharacterServicesMaster : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L912)
 --- @class CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_BackButton : Button, GlueButtonSmallTemplate
 
@@ -156,24 +126,6 @@
 --- @field NextButton CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_NextButton
 --- @field FinishButton CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_FinishButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L989)
---- @class CharacterSelect_CharacterSelectUI_CharacterUpgradeSecondChanceWarningFrame_CharacterUpgradeSecondChanceWarningBackground_Border : Frame, DialogBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L990)
---- @class CharacterSelect_CharacterSelectUI_CharacterUpgradeSecondChanceWarningFrame_CharacterUpgradeSecondChanceWarningBackground_ConfirmButton : Button, GlueButtonSmallTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1001)
---- @class CharacterSelect_CharacterSelectUI_CharacterUpgradeSecondChanceWarningFrame_CharacterUpgradeSecondChanceWarningBackground_CancelButton : Button, GlueButtonSmallTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L973)
---- @class CharacterSelect_CharacterSelectUI_CharacterUpgradeSecondChanceWarningFrame_CharacterUpgradeSecondChanceWarningBackground : Frame
---- @field Border CharacterSelect_CharacterSelectUI_CharacterUpgradeSecondChanceWarningFrame_CharacterUpgradeSecondChanceWarningBackground_Border
---- @field ConfirmButton CharacterSelect_CharacterSelectUI_CharacterUpgradeSecondChanceWarningFrame_CharacterUpgradeSecondChanceWarningBackground_ConfirmButton
---- @field CancelButton CharacterSelect_CharacterSelectUI_CharacterUpgradeSecondChanceWarningFrame_CharacterUpgradeSecondChanceWarningBackground_CancelButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L967)
---- @class CharacterSelect_CharacterSelectUI_CharacterUpgradeSecondChanceWarningFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1035)
 --- @class CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame_Dropdown : DropdownButton, WowStyle1DropdownTemplate
 
@@ -184,9 +136,6 @@
 --- @class CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame : Frame, TooltipBackdropTemplate
 --- @field Dropdown CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame_Dropdown
 --- @field CreateTemplateButton CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame_CreateTemplateButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1109)
---- @class CharacterSelect_CharacterSelectUI_PlayersOnServer_ActivateFactionChange : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1056)
 --- @class CharacterSelect_CharacterSelectUI_PlayersOnServer : Frame, TooltipBackdropTemplate
@@ -202,14 +151,14 @@
 --- @field NavBar CharacterSelect_CharacterSelectUI_NavBar
 --- @field MapScene CharacterSelect_CharacterSelectUI_CharacterSelectMapScene
 --- @field ModelFFX CharacterSelect_CharacterSelectUI_CharacterSelectModelFFX
---- @field LogoHoist CharacterSelect_CharacterSelectUI_LogoHoist
+--- @field LogoHoist Frame
 --- @field GameEnvironmentToggleFrame CharacterSelect_CharacterSelectUI_GameEnvironmentToggleFrame
 --- @field LimitedTimeEventFrame CharacterSelect_CharacterSelectUI_LimitedTimeEventFrame
---- @field ConfigurationWarnings CharacterSelect_CharacterSelectUI_ConfigurationWarnings
+--- @field ConfigurationWarnings Button
 --- @field ListToggle CharacterSelect_CharacterSelectUI_ListToggle
 --- @field VASTokenContainer CharacterSelect_CharacterSelectUI_VASTokenContainer
 --- @field CharacterList CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame
---- @field WarningText CharacterSelect_CharacterSelectUI_WarningText
+--- @field WarningText Frame
 --- @field ToolTray CharacterSelect_CharacterSelectUI_ToolTray
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1176)
@@ -220,45 +169,11 @@
 --- @field CharacterSelectUI CharacterSelect_CharacterSelectUI
 CharacterSelect = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1237)
---- @class CharacterDeleteDialog_Background_BG : Frame, DialogBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1238)
---- @class CharacterDeleteDialog_Background_Button1 : Button, GlueDialogButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1245)
---- @class CharacterDeleteDialog_Background_Button2 : Button, GlueDialogButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1209)
---- @class CharacterDeleteDialog_Background : Frame
---- @field BG CharacterDeleteDialog_Background_BG
---- @field Button1 CharacterDeleteDialog_Background_Button1
---- @field Button2 CharacterDeleteDialog_Background_Button2
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1252)
---- @class CharacterDeleteDialog_EditBox : EditBox
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1207)
 --- @class CharacterDeleteDialog : Frame, CharacterDeletionDialogMixin
---- @field Background CharacterDeleteDialog_Background
---- @field EditBox CharacterDeleteDialog_EditBox
+--- @field Background Frame
+--- @field EditBox EditBox
 CharacterDeleteDialog = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1315)
---- @class CharacterRenameDialog_CharacterRenameBackground_Border : Frame, DialogBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1316)
---- @class CharacterRenameDialog_CharacterRenameBackground_CharacterRenameButton1 : Button, GlueDialogButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1328)
---- @class CharacterRenameDialog_CharacterRenameBackground_CharacterRenameButton2 : Button, GlueDialogButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1287)
---- @class CharacterRenameDialog_CharacterRenameBackground : Frame
---- @field Border CharacterRenameDialog_CharacterRenameBackground_Border
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1340)
---- @class CharacterRenameDialog_CharacterRenameEditBox : EditBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1285)
 --- @class CharacterRenameDialog : Frame

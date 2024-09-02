@@ -9,13 +9,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L14)
 --- @class AdventuresCompleteScreenTemplate_CombatLog : Frame, CombatLogTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L78)
---- @class AdventuresCompleteScreenTemplate_MissionInfo_EncounterIcon : Frame, SmallCovenantMissionEncounterIconTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L20)
---- @class AdventuresCompleteScreenTemplate_MissionInfo : Frame
---- @field EncounterIcon AdventuresCompleteScreenTemplate_MissionInfo_EncounterIcon
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L86)
 --- @class AdventuresCompleteScreenTemplate_Board : Frame, AdventuresBoardCombatTemplate
 
@@ -39,7 +32,7 @@
 --- @field NineSlice AdventuresCompleteScreenTemplate_NineSlice
 --- @field RewardsScreen AdventuresCompleteScreenTemplate_RewardsScreen
 --- @field AdventuresCombatLog AdventuresCompleteScreenTemplate_CombatLog
---- @field MissionInfo AdventuresCompleteScreenTemplate_MissionInfo
+--- @field MissionInfo Frame
 --- @field Board AdventuresCompleteScreenTemplate_Board
 --- @field ModelScene AdventuresCompleteScreenTemplate_ModelScene
 --- @field CompleteFrame AdventuresCompleteScreenTemplate_CompleteFrame

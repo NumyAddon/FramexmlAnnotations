@@ -2,15 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.lua#L11)
 --- @class IslandsQueueWeeklyQuestMixin
-IslandsQueueWeeklyQuestMixin = { };
-
-local ButtonTooltips =
-{
-	PLAYER_DIFFICULTY1,
-	PLAYER_DIFFICULTY2,
-	PLAYER_DIFFICULTY6,
-	PVP_FLAG,
-}
+IslandsQueueWeeklyQuestMixin = { }
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.lua#L115)
 --- @class IslandsQueueWeeklyQuestRewardMixin

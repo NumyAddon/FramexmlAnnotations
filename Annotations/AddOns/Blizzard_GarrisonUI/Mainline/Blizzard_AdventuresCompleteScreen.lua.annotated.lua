@@ -2,28 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.lua#L6)
 --- @class AdventuresCompleteScreenContinueButtonMixin
-AdventuresCompleteScreenContinueButtonMixin = {};
-
-function AdventuresCompleteScreenContinueButtonMixin:OnClick()
-	self:GetParent():GetParent():AdvanceStage();
-end
-
-AdventuresCompleteScreenSpeedButtonMixin = {};
-
-function AdventuresCompleteScreenSpeedButtonMixin:OnClick()
-	local completeScreen = self:GetParent():GetParent();
-	completeScreen:ToggleReplaySpeed();
-end
-
-function AdventuresCompleteScreenSpeedButtonMixin:SetSpeedUpShown(shown)
-	self.SpeedUp:SetShown(shown);
-end
-
-AdventuresCompleteScreenMixin = {};
-
-local AdventuresCompleteScreenEvents = {
-	"GARRISON_MISSION_COMPLETE_RESPONSE",
-}
+AdventuresCompleteScreenContinueButtonMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.lua#L12)
 --- @class AdventuresCompleteScreenSpeedButtonMixin

@@ -12,19 +12,10 @@
 --- Template
 --- @class ScrollBoxDragLineTemplate : Frame, ScrollBoxDragIndicatorTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.xml#L32)
---- @class ScrollBoxBaseTemplate_DragDelegate : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.xml#L33)
---- @class ScrollBoxBaseTemplate_ScrollTarget : EventFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.xml#L34)
---- @class ScrollBoxBaseTemplate_Shadows : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.xml#L20)
 --- Template
 --- @class ScrollBoxBaseTemplate : Frame, ScrollBoxBaseMixin
---- @field DragDelegate ScrollBoxBaseTemplate_DragDelegate
---- @field ScrollTarget ScrollBoxBaseTemplate_ScrollTarget
---- @field Shadows ScrollBoxBaseTemplate_Shadows
+--- @field DragDelegate Frame
+--- @field ScrollTarget EventFrame
+--- @field Shadows Frame
 

@@ -10,16 +10,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L63)
 --- @class UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateExpandArrow : DropDownToggleButton, DropDownExpandArrowMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L74)
---- @class UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateInvisibleButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L85)
 --- @class UIDropDownMenuButtonTemplate_NewFeature : Frame, NewFeatureLabelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L5)
 --- Template
 --- @class UIDropDownMenuButtonTemplate : Button
---- @field invisibleButton UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateInvisibleButton
+--- @field invisibleButton Button
 --- @field NewFeature UIDropDownMenuButtonTemplate_NewFeature
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L118)

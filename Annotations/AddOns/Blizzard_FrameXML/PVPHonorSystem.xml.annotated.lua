@@ -4,65 +4,36 @@
 --- Template
 --- @class PVPHonorRewardCodeTemplate : Frame, PVPHonorRewardCodeMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L61)
---- @class PVPHonorSystemLargeXPBar_Bar_ExhaustionTick : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L77)
---- @class PVPHonorSystemLargeXPBar_Bar_OverlayFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L29)
 --- @class PVPHonorSystemLargeXPBar_Bar : StatusBar, AnimatedStatusBarTemplate
---- @field ExhaustionTick PVPHonorSystemLargeXPBar_Bar_ExhaustionTick
---- @field OverlayFrame PVPHonorSystemLargeXPBar_Bar_OverlayFrame
+--- @field ExhaustionTick Button
+--- @field OverlayFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L103)
 --- @class PVPHonorSystemLargeXPBar_NextAvailable : Frame, PVPHonorRewardCodeTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L194)
---- @class PVPHonorSystemLargeXPBar_PrestigeReward_Accept : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L131)
---- @class PVPHonorSystemLargeXPBar_PrestigeReward : Frame
---- @field Accept PVPHonorSystemLargeXPBar_PrestigeReward_Accept
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L12)
 --- Template
 --- @class PVPHonorSystemLargeXPBar : Frame
 --- @field Bar PVPHonorSystemLargeXPBar_Bar
 --- @field NextAvailable PVPHonorSystemLargeXPBar_NextAvailable
---- @field PrestigeReward PVPHonorSystemLargeXPBar_PrestigeReward
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L269)
---- @class PVPHonorSystemSmallXPBar_Bar_ExhaustionTick : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L285)
---- @class PVPHonorSystemSmallXPBar_Bar_OverlayFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L296)
---- @class PVPHonorSystemSmallXPBar_Bar_Lock : Frame
+--- @field PrestigeReward Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L236)
 --- @class PVPHonorSystemSmallXPBar_Bar : StatusBar, AnimatedStatusBarTemplate
---- @field ExhaustionTick PVPHonorSystemSmallXPBar_Bar_ExhaustionTick
---- @field OverlayFrame PVPHonorSystemSmallXPBar_Bar_OverlayFrame
---- @field Lock PVPHonorSystemSmallXPBar_Bar_Lock
+--- @field ExhaustionTick Button
+--- @field OverlayFrame Frame
+--- @field Lock Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L332)
 --- @class PVPHonorSystemSmallXPBar_NextAvailable : Frame, PVPHonorRewardCodeTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L423)
---- @class PVPHonorSystemSmallXPBar_PrestigeReward_Accept : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L360)
---- @class PVPHonorSystemSmallXPBar_PrestigeReward : Frame
---- @field Accept PVPHonorSystemSmallXPBar_PrestigeReward_Accept
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L219)
 --- Template
 --- @class PVPHonorSystemSmallXPBar : Frame
 --- @field Bar PVPHonorSystemSmallXPBar_Bar
 --- @field NextAvailable PVPHonorSystemSmallXPBar_NextAvailable
---- @field PrestigeReward PVPHonorSystemSmallXPBar_PrestigeReward
+--- @field PrestigeReward Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L458)
 --- @class HonorLevelUpBanner : Frame

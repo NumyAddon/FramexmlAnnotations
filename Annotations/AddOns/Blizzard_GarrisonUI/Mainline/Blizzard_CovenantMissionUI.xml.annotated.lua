@@ -1,12 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L5)
---- @class CovenantMissionPageEnemyTemplate_MechanicEffect : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L3)
 --- Template
 --- @class CovenantMissionPageEnemyTemplate : Frame, GarrisonMissionPageEnemyTemplate, CovenantMissionPageEnemyMixin
---- @field MechanicEffect CovenantMissionPageEnemyTemplate_MechanicEffect
+--- @field MechanicEffect Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L128)
 --- @class CovenantMissionPageStageTemplate_MouseOverTitleFrame : Frame, ConvenantMissionPageMouseOverTitleMixin
@@ -68,9 +65,6 @@
 --- @field CostFrame CovenantMissionPageTemplate_CostFrame
 --- @field Board CovenantMissionPageTemplate_Board
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L442)
---- @class CovenantMissionFrame_OverlayElements : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L453)
 --- @class CovenantMissionFrame_RaisedBorder : Frame, NineSlicePanelTemplate
 
@@ -101,42 +95,24 @@
 --- @class CovenantMissionFrame_MapTab : Frame, MapCanvasMixin, AdventureMapMixin, OrderHallMissionAdventureMapMixin
 --- @field ScrollContainer CovenantMissionFrame_MapTab_ScrollContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L552)
---- @class CovenantMissionFrame_MissionTab_Missions : Frame, CovenantMissionListTemplate, CovenantMissionListMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L562)
---- @class CovenantMissionFrame_MissionTab_ZoneSupportMissionPageBackground : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L576)
---- @class CovenantMissionFrame_MissionTab_MissionPage : Button, CovenantMissionPageTemplate, GarrisonMissionPageMixin, GarrisonFollowerMissionPageMixin, CovenantFollowerMissionPageMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L550)
---- @class CovenantMissionFrame_MissionTab : Frame
---- @field MissionList CovenantMissionFrame_MissionTab_Missions
---- @field ZoneSupportMissionPageBackground CovenantMissionFrame_MissionTab_ZoneSupportMissionPageBackground
---- @field MissionPage CovenantMissionFrame_MissionTab_MissionPage
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L579)
 --- @class CovenantMissionFrame_FollowerTab : Frame, CovenantFollowerTabTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L584)
---- @class CovenantMissionFrame_MissionCompleteBackground : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L585)
 --- @class CovenantMissionFrame_MissionComplete : Frame, AdventuresCompleteScreenTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L417)
 --- @class CovenantMissionFrame : Frame, GarrisonMissionFrameTemplate, GarrisonUITemplate, GarrisonMission, GarrisonFollowerMission, CovenantMission
---- @field OverlayElements CovenantMissionFrame_OverlayElements
+--- @field OverlayElements Frame
 --- @field RaisedBorder CovenantMissionFrame_RaisedBorder
 --- @field Tab1 CovenantMissionFrame_CovenantMissionFrameTab1
 --- @field Tab2 CovenantMissionFrame_CovenantMissionFrameTab2
 --- @field Tab3 CovenantMissionFrame_CovenantMissionFrameTab3
 --- @field FollowerList CovenantMissionFrame_CovenantMissionFrameFollowers
 --- @field MapTab CovenantMissionFrame_MapTab
---- @field MissionTab CovenantMissionFrame_MissionTab
+--- @field MissionTab Frame
 --- @field FollowerTab CovenantMissionFrame_FollowerTab
---- @field MissionCompleteBackground CovenantMissionFrame_MissionCompleteBackground
+--- @field MissionCompleteBackground Frame
 --- @field MissionComplete CovenantMissionFrame_MissionComplete
 CovenantMissionFrame = {}
 

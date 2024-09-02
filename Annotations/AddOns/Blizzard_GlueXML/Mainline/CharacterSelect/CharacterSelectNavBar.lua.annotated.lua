@@ -2,38 +2,10 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.lua#L1)
 --- @class CharacterSelectNavBarButtonMixin
-CharacterSelectNavBarButtonMixin = {};
+CharacterSelectNavBarButtonMixin = {}
 
-function CharacterSelectNavBarButtonMixin:OnEnter()
-	self.Highlight:Show();
-
-	if self.formatButtonTextCallback then
-		local enabled = true;
-		local highlight = true;
-		self:formatButtonTextCallback(enabled, highlight);
-	end
-end
-
-function CharacterSelectNavBarButtonMixin:OnLeave()
-	self.Highlight:Hide();
-
-	if self.formatButtonTextCallback then
-		local enabled = true;
-		local highlight = false;
-		self:formatButtonTextCallback(enabled, highlight);
-	end
-end
-
-function CharacterSelectNavBarButtonMixin:OnEnable()
-	self.NormalTexture:Show();
-	self.DisabledTexture:Hide();
-end
-
-function CharacterSelectNavBarButtonMixin:OnDisable()
-	self.NormalTexture:Hide();
-	self.DisabledTexture:Show();
-end
-
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.lua#L33)
+--- @class CharacterSelectNavBarMixin
 CharacterSelectNavBarMixin = {
 	NavBarButtonWidthBuffer = 70,
 }
@@ -49,3 +21,21 @@ function CharacterSelectNavBarButtonMixin:OnEnable() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.lua#L28)
 function CharacterSelectNavBarButtonMixin:OnDisable() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.lua#L37)
+function CharacterSelectNavBarMixin:OnLoad() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.lua#L59)
+function CharacterSelectNavBarMixin:SetButtonVisuals() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.lua#L101)
+function CharacterSelectNavBarMixin:UpdateButtonDividerState(button) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.lua#L118)
+function CharacterSelectNavBarMixin:SetStoreButtonEnabled(enabled) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.lua#L127)
+function CharacterSelectNavBarMixin:SetMenuButtonEnabled(enabled) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.lua#L134)
+function CharacterSelectNavBarMixin:SetRealmsButtonEnabled(enabled) end

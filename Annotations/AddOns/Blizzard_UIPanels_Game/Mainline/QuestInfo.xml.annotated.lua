@@ -102,39 +102,27 @@ QuestInfoRequiredMoneyFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L455)
 --- @class QuestInfoRewardsFrame_QuestInfoSkillPointFrame : Button, LargeItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L494)
---- @class QuestInfoRewardsFrame_QuestInfoXPFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L511)
 --- @class QuestInfoRewardsFrame_ArtifactXPFrame : Button, LargeItemButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L531)
 --- @class QuestInfoRewardsFrame_WarModeBonusFrame : Button, LargeItemButtonTemplate, WarModeBonusFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L532)
---- @class QuestInfoRewardsFrame_QuestInfoPlayerTitleFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L574)
---- @class QuestInfoRewardsFrame_QuestInfoItemHighlight : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L418)
 --- @class QuestInfoRewardsFrame : Frame
 --- @field HonorFrame QuestInfoRewardsFrame_HonorFrame
 --- @field MoneyFrame QuestInfoRewardsFrame_QuestInfoMoneyFrame
 --- @field SkillPointFrame QuestInfoRewardsFrame_QuestInfoSkillPointFrame
---- @field XPFrame QuestInfoRewardsFrame_QuestInfoXPFrame
+--- @field XPFrame Frame
 --- @field ArtifactXPFrame QuestInfoRewardsFrame_ArtifactXPFrame
 --- @field WarModeBonusFrame QuestInfoRewardsFrame_WarModeBonusFrame
---- @field TitleFrame QuestInfoRewardsFrame_QuestInfoPlayerTitleFrame
---- @field ItemHighlight QuestInfoRewardsFrame_QuestInfoItemHighlight
+--- @field TitleFrame Frame
+--- @field ItemHighlight Frame
 QuestInfoRewardsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L605)
 --- Template
 --- @class MapQuestInfoSpellHeaderTemplate : FontString, QuestMapRewardsFont
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L630)
---- @class MapQuestInfoRewardsFrame_Header : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L636)
 --- @class MapQuestInfoRewardsFrame_MapQuestInfoRewardsFrameQuestInfoItem1 : Button, SmallQuestRewardItemButtonTemplate
@@ -162,7 +150,7 @@ QuestInfoRewardsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L607)
 --- @class MapQuestInfoRewardsFrame : Frame
---- @field Header MapQuestInfoRewardsFrame_Header
+--- @field Header Frame
 --- @field XPFrame MapQuestInfoRewardsFrame_XPFrame
 --- @field HonorFrame MapQuestInfoRewardsFrame_HonorFrame
 --- @field ArtifactXPFrame MapQuestInfoRewardsFrame_ArtifactXPFrame
@@ -171,12 +159,6 @@ QuestInfoRewardsFrame = {}
 --- @field SkillPointFrame MapQuestInfoRewardsFrame_SkillPointFrame
 --- @field TitleFrame MapQuestInfoRewardsFrame_TitleFrame
 MapQuestInfoRewardsFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L754)
---- @class QuestInfoFrame_QuestInfoSpacerFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L757)
---- @class QuestInfoFrame_QuestInfoSealFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L719)
 --- @class QuestInfoFrame : Frame

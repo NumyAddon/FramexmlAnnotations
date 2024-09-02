@@ -8,9 +8,6 @@
 --- @class ChatFrameTemplate : ScrollingMessageFrame
 --- @field ScrollBar ChatFrameTemplate_ScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.xml#L104)
---- @class ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateLanguage : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.xml#L27)
 --- Template
 --- @class ChatFrameEditBoxTemplate : EditBox, AutoCompleteEditBoxTemplate

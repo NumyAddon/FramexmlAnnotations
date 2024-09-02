@@ -12,17 +12,11 @@
 --- Template
 --- @class AuraContainerTemplate : Frame, AuraContainerMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L80)
---- @class BuffFramePrivateAuraAnchorTemplate_Icon : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L86)
---- @class BuffFramePrivateAuraAnchorTemplate_Duration : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L74)
 --- Template
 --- @class BuffFramePrivateAuraAnchorTemplate : Frame, BuffFramePrivateAuraAnchorMixin
---- @field Icon BuffFramePrivateAuraAnchorTemplate_Icon
---- @field Duration BuffFramePrivateAuraAnchorTemplate_Duration
+--- @field Icon Frame
+--- @field Duration Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L104)
 --- @class AuraFrameTemplate_AuraContainer : Frame, AuraContainerTemplate

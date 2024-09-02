@@ -1,22 +1,13 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L8)
---- @class DeathRecapEntryTemplate_DamageInfo : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L42)
---- @class DeathRecapEntryTemplate_SpellInfo : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L5)
 --- Template
 --- @class DeathRecapEntryTemplate : Frame
---- @field DamageInfo DeathRecapEntryTemplate_DamageInfo
---- @field SpellInfo DeathRecapEntryTemplate_SpellInfo
+--- @field DamageInfo Frame
+--- @field SpellInfo Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L184)
 --- @class DeathRecapFrame_CloseXButton : Button, UIPanelCloseButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L189)
---- @class DeathRecapFrame_DragButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L206)
 --- @class DeathRecapFrame_Recap1 : Frame, DeathRecapEntryTemplate
@@ -39,7 +30,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L85)
 --- @class DeathRecapFrame : Frame
 --- @field CloseXButton DeathRecapFrame_CloseXButton
---- @field DragButton DeathRecapFrame_DragButton
+--- @field DragButton Button
 --- @field Recap1 DeathRecapFrame_Recap1
 --- @field Recap2 DeathRecapFrame_Recap2
 --- @field Recap3 DeathRecapFrame_Recap3

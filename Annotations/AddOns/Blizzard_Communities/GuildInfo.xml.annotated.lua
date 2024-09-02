@@ -19,12 +19,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L206)
 --- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge4 : Frame, CommunitiesGuildChallengeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L211)
---- @class CommunitiesGuildInfoFrameTemplate_EditMOTDButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L229)
---- @class CommunitiesGuildInfoFrameTemplate_EditDetailsButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L247)
 --- @class CommunitiesGuildInfoFrameTemplate_DetailsFrame : ScrollFrame, ScrollFrameTemplate
 
@@ -32,8 +26,8 @@
 --- Template
 --- @class CommunitiesGuildInfoFrameTemplate : Frame
 --- @field MOTDScrollFrame CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateMOTDScrollFrame
---- @field EditMOTDButton CommunitiesGuildInfoFrameTemplate_EditMOTDButton
---- @field EditDetailsButton CommunitiesGuildInfoFrameTemplate_EditDetailsButton
+--- @field EditMOTDButton Button
+--- @field EditDetailsButton Button
 --- @field DetailsFrame CommunitiesGuildInfoFrameTemplate_DetailsFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L302)

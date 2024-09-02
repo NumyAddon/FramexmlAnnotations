@@ -10,16 +10,7 @@ CovenantSanctumUpgradeReservoirMixin = CreateFromMixins(CovenantSanctumUpgradeBa
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.lua#L145)
 --- @class CovenantSanctumUpgradesTabMixin
-CovenantSanctumUpgradesTabMixin = {};
-
-local CovenantSanctumUpgradesEvents = {
-	"CURRENCY_DISPLAY_UPDATE",
-	"GARRISON_TALENT_UPDATE",
-    "GARRISON_TALENT_COMPLETE",
-	"SPELL_TEXT_UPDATE",
-	"GARRISON_TALENT_RESEARCH_STARTED",
-	"BAG_UPDATE",
-}
+CovenantSanctumUpgradesTabMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.lua#L447)
 --- @class CovenantSanctumUpgradeTalentListMixin

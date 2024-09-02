@@ -24,19 +24,13 @@
 --- Template
 --- @class ObjectiveTrackerLineTemplate : Frame, ObjectiveTrackerLineMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.xml#L228)
---- @class ObjectiveTrackerProgressBarTemplate_Bar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.xml#L222)
 --- Template
 --- @class ObjectiveTrackerProgressBarTemplate : Frame, ObjectiveTrackerProgressBarMixin
---- @field Bar ObjectiveTrackerProgressBarTemplate_Bar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.xml#L289)
---- @class ObjectiveTrackerTimerBarTemplate_Bar : StatusBar
+--- @field Bar StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.xml#L274)
 --- Template
 --- @class ObjectiveTrackerTimerBarTemplate : Frame, ObjectiveTrackerTimerBarMixin
---- @field Bar ObjectiveTrackerTimerBarTemplate_Bar
+--- @field Bar StatusBar
 

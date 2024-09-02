@@ -27,14 +27,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.xml#L129)
 --- @class AdventuresPuckAnimatedTemplate_EnemyTargetingIndicatorFrame : Frame, AdventuresTargetingIndicatorTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.xml#L136)
---- @class AdventuresPuckAnimatedTemplate_DeathAnimationFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.xml#L127)
 --- Template
 --- @class AdventuresPuckAnimatedTemplate : Button, AdventuresPuckTemplate
 --- @field EnemyTargetingIndicatorFrame AdventuresPuckAnimatedTemplate_EnemyTargetingIndicatorFrame
---- @field DeathAnimationFrame AdventuresPuckAnimatedTemplate_DeathAnimationFrame
+--- @field DeathAnimationFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.xml#L168)
 --- @class CovenantFollowerPlacer : Frame, AdventuresPuckTemplate, AdventuresFollowerPuckMixin

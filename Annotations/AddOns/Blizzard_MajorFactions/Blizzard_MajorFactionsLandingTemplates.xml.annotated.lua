@@ -21,14 +21,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L139)
 --- @class MajorFactionButtonTemplate_UnlockedState_RenownProgressBar : Cooldown, MajorFactionRenownProgressBarMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L153)
---- @class MajorFactionButtonTemplate_UnlockedState_UnlockFlash : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L69)
 --- @class MajorFactionButtonTemplate_UnlockedState : Button, MajorFactionButtonUnlockedStateMixin
 --- @field WatchFactionButton MajorFactionButtonTemplate_UnlockedState_WatchFactionButton
 --- @field RenownProgressBar MajorFactionButtonTemplate_UnlockedState_RenownProgressBar
---- @field UnlockFlash MajorFactionButtonTemplate_UnlockedState_UnlockFlash
+--- @field UnlockFlash Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L30)
 --- Template

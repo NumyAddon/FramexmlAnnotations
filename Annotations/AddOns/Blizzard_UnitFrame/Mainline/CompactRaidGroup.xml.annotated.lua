@@ -19,15 +19,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L44)
 --- @class CompactRaidGroupTemplate_CompactRaidGroupTemplateMember5 : Button, CompactRaidGroupUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L52)
---- @class CompactRaidGroupTemplate_CompactRaidGroupTemplateTitle : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L61)
---- @class CompactRaidGroupTemplate_CompactRaidGroupTemplateBorderFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L6)
 --- Template
 --- @class CompactRaidGroupTemplate : Frame
---- @field title CompactRaidGroupTemplate_CompactRaidGroupTemplateTitle
---- @field borderFrame CompactRaidGroupTemplate_CompactRaidGroupTemplateBorderFrame
+--- @field title Button
+--- @field borderFrame Frame
 

@@ -2,12 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentSelectionTemplates.lua#L6)
 --- @class TalentSelectionChoiceFrameMixin
-TalentSelectionChoiceFrameMixin = {};
-
-local TalentSelectionChoiceFrameEvents = {
-	"GLOBAL_MOUSE_DOWN",
-	"GLOBAL_MOUSE_UP",
-}
+TalentSelectionChoiceFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentSelectionTemplates.lua#L172)
 --- @class TalentSelectionChoiceMixin

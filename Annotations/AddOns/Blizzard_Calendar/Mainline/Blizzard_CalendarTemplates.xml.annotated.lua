@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L39)
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateOverlayFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L46)
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateDateFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L69)
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateMoreEventsButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L94)
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateDarkFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L4)
 --- Template
 --- @class CalendarDayButtonTemplate : Button

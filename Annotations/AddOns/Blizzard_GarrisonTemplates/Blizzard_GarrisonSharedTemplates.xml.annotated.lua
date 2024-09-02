@@ -1,12 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L46)
---- @class GarrisonUITemplate_GarrCorners : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L5)
 --- Template
 --- @class GarrisonUITemplate : Frame, BaseBasicFrameTemplate
---- @field GarrCorners GarrisonUITemplate_GarrCorners
+--- @field GarrCorners Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L78)
 --- Template
@@ -73,14 +70,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L494)
 --- @class GarrisonMissionFollowerButtonTemplate_ : Frame, GarrisonFollowerListButtonAbilityTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L505)
---- @class GarrisonMissionFollowerButtonTemplate_BusyFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L454)
 --- Template
 --- @class GarrisonMissionFollowerButtonTemplate : Button, GarrisonFollowerButtonTemplate
 --- @field DurabilityFrame GarrisonMissionFollowerButtonTemplate_DurabilityFrame
---- @field BusyFrame GarrisonMissionFollowerButtonTemplate_BusyFrame
+--- @field BusyFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L539)
 --- @class GarrisonMissionFollowerOrCategoryListButtonTemplate_Follower : Button, GarrisonMissionFollowerButtonTemplate, GarrisonMissionFollowerOrCategoryListButtonMixin

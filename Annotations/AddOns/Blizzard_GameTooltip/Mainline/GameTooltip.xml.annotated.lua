@@ -28,13 +28,10 @@
 --- Template
 --- @class TooltipStatusBarTemplate : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L183)
---- @class TooltipProgressBarTemplate_Bar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L180)
 --- Template
 --- @class TooltipProgressBarTemplate : Frame
---- @field Bar TooltipProgressBarTemplate_Bar
+--- @field Bar StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L247)
 --- @class ShoppingTooltip1 : GameTooltip, ShoppingTooltipTemplate

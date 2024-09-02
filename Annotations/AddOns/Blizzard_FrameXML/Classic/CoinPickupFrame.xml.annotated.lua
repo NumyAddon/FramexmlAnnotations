@@ -1,12 +1,12 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L112)
 --- @class CoinPickupFrame_CoinPickupOkayButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L127)
 --- @class CoinPickupFrame_CoinPickupCancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L3)
 --- @class CoinPickupFrame : Frame
 CoinPickupFrame = {}
 

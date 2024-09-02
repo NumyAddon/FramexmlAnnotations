@@ -1,32 +1,32 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L251)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L251)
 --- @class HorizontalResizableCheckButtonMixin
 HorizontalResizableCheckButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L253)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L253)
 function HorizontalResizableCheckButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L257)
 function HorizontalResizableCheckButtonMixin:OnMouseDown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L267)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L267)
 function HorizontalResizableCheckButtonMixin:OnMouseUp() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L272)
 function HorizontalResizableCheckButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L280)
 function HorizontalResizableCheckButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L286)
 function HorizontalResizableCheckButtonMixin:SetChecked(checked) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L293)
 function HorizontalResizableCheckButtonMixin:UpdateCheckState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L300)
 function HorizontalResizableCheckButtonMixin:SetPressed(isPressed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.lua#L305)
 function HorizontalResizableCheckButtonMixin:UpdatePressedState() end

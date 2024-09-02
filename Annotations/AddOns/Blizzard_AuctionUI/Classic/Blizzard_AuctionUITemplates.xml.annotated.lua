@@ -1,51 +1,51 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L3)
 --- Template
 --- @class AuctionRadioButtonTemplate : CheckButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L30)
 --- Template
 --- @class AuctionClassButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L84)
 --- Template
 --- @class AuctionSortButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L158)
 --- Template
 --- @class WowTokenLogColumnHeaderTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L199)
 --- Template
 --- @class WowTokenLogButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L470)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L470)
 --- @class BrowseButtonTemplate_BrowseButtonTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L247)
 --- Template
 --- @class BrowseButtonTemplate : Button
 --- @field PriceTooltipFrame Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L801)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L801)
 --- @class BidButtonTemplate_BidButtonTemplateBuyoutMoneyFrame : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L816)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L816)
 --- @class BidButtonTemplate_BidButtonTemplateCurrentBidMoneyFrame : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L586)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L586)
 --- Template
 --- @class BidButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L1070)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L1070)
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L859)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L859)
 --- Template
 --- @class AuctionsButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L1166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L1166)
 --- Template
 --- @class AuctionTabTemplate : Button, CharacterFrameTabButtonTemplate
 

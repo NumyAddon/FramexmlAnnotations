@@ -1,55 +1,55 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L5)
 --- @class GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L3)
 --- Template
 --- @class GuildBankItemButtonTemplate : Button, ItemButtonTemplate, GuildBankItemButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L29)
 --- @class GuildBankFrameColumnTemplate_Button1 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L34)
 --- @class GuildBankFrameColumnTemplate_Button2 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L39)
 --- @class GuildBankFrameColumnTemplate_Button3 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L44)
 --- @class GuildBankFrameColumnTemplate_Button4 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L49)
 --- @class GuildBankFrameColumnTemplate_Button5 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L54)
 --- @class GuildBankFrameColumnTemplate_Button6 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L59)
 --- @class GuildBankFrameColumnTemplate_Button7 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L64)
 --- @class GuildBankFrameColumnTemplate_Button8 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L69)
 --- @class GuildBankFrameColumnTemplate_Button9 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L74)
 --- @class GuildBankFrameColumnTemplate_Button10 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L79)
 --- @class GuildBankFrameColumnTemplate_Button11 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L84)
 --- @class GuildBankFrameColumnTemplate_Button12 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L89)
 --- @class GuildBankFrameColumnTemplate_Button13 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L94)
 --- @class GuildBankFrameColumnTemplate_Button14 : Button, GuildBankItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L19)
 --- Template
 --- @class GuildBankFrameColumnTemplate : Frame
 --- @field Button1 GuildBankFrameColumnTemplate_Button1
@@ -67,95 +67,95 @@
 --- @field Button13 GuildBankFrameColumnTemplate_Button13
 --- @field Button14 GuildBankFrameColumnTemplate_Button14
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L118)
 --- @class GuildBankTabTemplate_Button : CheckButton, GuildBankTabButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L102)
 --- Template
 --- @class GuildBankTabTemplate : Frame, GuildBankTabMixin
 --- @field Button GuildBankTabTemplate_Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L158)
 --- Template
 --- @class GuildBankFrameTabTemplate : Button, CharacterFrameTabButtonTemplate, GuildBankFrameTabMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L164)
 --- Template
 --- @class GuildBankPopupButtonTemplate : CheckButton, PopupButtonTemplate, GuildBankPopupButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L398)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L398)
 --- @class GuildBankFrame_Column1 : Frame, GuildBankFrameColumnTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L403)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L403)
 --- @class GuildBankFrame_Column2 : Frame, GuildBankFrameColumnTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L408)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L408)
 --- @class GuildBankFrame_Column3 : Frame, GuildBankFrameColumnTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L413)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L413)
 --- @class GuildBankFrame_Column4 : Frame, GuildBankFrameColumnTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L418)
 --- @class GuildBankFrame_Column5 : Frame, GuildBankFrameColumnTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L423)
 --- @class GuildBankFrame_Column6 : Frame, GuildBankFrameColumnTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L428)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L428)
 --- @class GuildBankFrame_Column7 : Frame, GuildBankFrameColumnTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L433)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L433)
 --- @class GuildBankFrame_GuildBankMoneyFrame : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L443)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L443)
 --- @class GuildBankFrame_GuildBankWithdrawMoneyFrame : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L453)
 --- @class GuildBankFrame_ : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L460)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L460)
 --- @class GuildBankFrame_DepositButton : Button, UIPanelButtonTemplate, GuildBankFrameDepositButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L469)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L469)
 --- @class GuildBankFrame_WithdrawButton : Button, UIPanelButtonTemplate, GuildBankFrameWithdrawButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L478)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L478)
 --- @class GuildBankFrame_GuildBankFrameTab1 : Button, GuildBankFrameTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L483)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L483)
 --- @class GuildBankFrame_GuildBankFrameTab2 : Button, GuildBankFrameTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L488)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L488)
 --- @class GuildBankFrame_GuildBankFrameTab3 : Button, GuildBankFrameTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L493)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L493)
 --- @class GuildBankFrame_GuildBankFrameTab4 : Button, GuildBankFrameTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L498)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L498)
 --- @class GuildBankFrame_GuildBankTab1 : Frame, GuildBankTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L503)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L503)
 --- @class GuildBankFrame_GuildBankTab2 : Frame, GuildBankTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L508)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L508)
 --- @class GuildBankFrame_GuildBankTab3 : Frame, GuildBankTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L513)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L513)
 --- @class GuildBankFrame_GuildBankTab4 : Frame, GuildBankTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L518)
 --- @class GuildBankFrame_GuildBankTab5 : Frame, GuildBankTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L523)
 --- @class GuildBankFrame_GuildBankTab6 : Frame, GuildBankTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L528)
 --- @class GuildBankFrame_GuildBankTab7 : Frame, GuildBankTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L533)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L533)
 --- @class GuildBankFrame_GuildBankTab8 : Frame, GuildBankTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L170)
 --- @class GuildBankFrame : Frame, GuildBankFrameMixin
 --- @field Emblem Frame
 --- @field Column1 GuildBankFrame_Column1
@@ -174,19 +174,19 @@
 --- @field Info Frame
 GuildBankFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L834)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L834)
 --- @class GuildBankPopupFrame_GuildBankPopupEditBox : EditBox, GuildBankPopupEditBoxMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L871)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L871)
 --- @class GuildBankPopupFrame_CancelButton : Button, UIPanelButtonTemplate, GuildBankPopupCancelButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L880)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L880)
 --- @class GuildBankPopupFrame_OkayButton : Button, UIPanelButtonTemplate, GuildBankPopupOkayButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L889)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L889)
 --- @class GuildBankPopupFrame_ScrollFrame : ScrollFrame, ListScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L753)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L753)
 --- @class GuildBankPopupFrame : Frame, GuildBankPopupFrameMixin
 --- @field EditBox GuildBankPopupFrame_GuildBankPopupEditBox
 --- @field CancelButton GuildBankPopupFrame_CancelButton

@@ -1,18 +1,18 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L7)
 --- @class GuildBenefitsFrameTemplate_Perks : Frame, CommunitiesGuildPerksFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L14)
 --- @class GuildBenefitsFrameTemplate_Rewards : Frame, CommunitiesGuildRewardsFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L21)
 --- @class GuildBenefitsFrameTemplate_GuildRewardsTutorialButton : Button, GuildRewardsTutorialButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L26)
 --- @class GuildBenefitsFrameTemplate_GuildAchievementPointDisplay : Frame, GuildAchievementPointDisplayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L5)
 --- Template
 --- @class GuildBenefitsFrameTemplate : Frame
 --- @field Perks GuildBenefitsFrameTemplate_Perks
@@ -21,160 +21,160 @@
 --- @field GuildAchievementPointDisplay GuildBenefitsFrameTemplate_GuildAchievementPointDisplay
 --- @field FactionFrame Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L109)
 --- Template
 --- @class ClubFinderPostingExpirationTemplate : Frame
 --- @field InfoButton Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L164)
 --- @class GuildDetailsFrameTemplate_GuildDetailsFrameTemplateInfo : Frame, CommunitiesGuildInfoFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L171)
 --- @class GuildDetailsFrameTemplate_GuildDetailsFrameTemplateNews : Frame, CommunitiesGuildNewsFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L162)
 --- Template
 --- @class GuildDetailsFrameTemplate : Frame
 --- @field Info GuildDetailsFrameTemplate_GuildDetailsFrameTemplateInfo
 --- @field News GuildDetailsFrameTemplate_GuildDetailsFrameTemplateNews
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L233)
 --- Template
 --- @class CommunitiesSubPanelButtonScriptTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L243)
 --- @class CommunitiesControlFrameTemplate_CommunitiesSettingsButton : Button, CommunitiesSettingsButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L259)
 --- @class CommunitiesControlFrameTemplate_GuildControlButton : Button, UIPanelButtonTemplate, CommunitiesSubPanelButtonScriptTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L268)
 --- @class CommunitiesControlFrameTemplate_GuildRecruitmentButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L241)
 --- Template
 --- @class CommunitiesControlFrameTemplate : Frame, CommunitiesControlFrameMixin
 --- @field CommunitiesSettingsButton CommunitiesControlFrameTemplate_CommunitiesSettingsButton
 --- @field GuildControlButton CommunitiesControlFrameTemplate_GuildControlButton
 --- @field GuildRecruitmentButton CommunitiesControlFrameTemplate_GuildRecruitmentButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L355)
 --- @class CommunitiesFrame_MaximizeMinimizeFrame : Frame, MaximizeMinimizeButtonFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L363)
 --- @class CommunitiesFrame_CommunitiesFrameCommunitiesList : Frame, CommunitiesListFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L369)
 --- @class CommunitiesFrame_ChatTab : CheckButton, CommunitiesFrameTabTemplate, CommunitiesChatTabMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L383)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L383)
 --- @class CommunitiesFrame_RosterTab : CheckButton, CommunitiesFrameTabTemplate
 --- @field NotificationOverlay Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L408)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L408)
 --- @class CommunitiesFrame_GuildBenefitsTab : CheckButton, CommunitiesFrameTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L418)
 --- @class CommunitiesFrame_GuildInfoTab : CheckButton, CommunitiesFrameTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L428)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L428)
 --- @class CommunitiesFrame_StreamDropDownMenu : Frame, StreamDropDownMenuTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L434)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L434)
 --- @class CommunitiesFrame_GuildMemberListDropDownMenu : Frame, GuildMemberListDropDownMenuTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L440)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L440)
 --- @class CommunitiesFrame_CommunityMemberListDropDownMenu : Frame, CommunityMemberListDropDownMenuTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L446)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L446)
 --- @class CommunitiesFrame_CommunitiesListDropDownMenu : Frame, CommunitiesListDropDownMenuTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L452)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L452)
 --- @class CommunitiesFrame_VoiceChatHeadset : Frame, VoiceChatHeadsetTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L456)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L456)
 --- @class CommunitiesFrame_CommunitiesCalendarButton : Button, CommunitiesCalendarButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L461)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L461)
 --- @class CommunitiesFrame_MemberList : Frame, CommunitiesMemberListFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L467)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L467)
 --- @class CommunitiesFrame_ApplicantList : Frame, ClubFinderApplicantListFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L473)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L473)
 --- @class CommunitiesFrame_PostingExpirationText : Frame, ClubFinderPostingExpirationTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L478)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L478)
 --- @class CommunitiesFrame_ClubFinderGuildFinderFrame : Frame, ClubFinderGuildAndCommunityFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L489)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L489)
 --- @class CommunitiesFrame_ClubFinderCommunityAndGuildFinderFrame : Frame, ClubFinderGuildAndCommunityFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L495)
 --- @class CommunitiesFrame_Chat : Frame, CommunitiesChatTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L501)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L501)
 --- @class CommunitiesFrame_ChatEditBox : EditBox, CommunitiesChatEditBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L505)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L505)
 --- @class CommunitiesFrame_InvitationFrame : Frame, CommunitiesInvitationFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L517)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L517)
 --- @class CommunitiesFrame_ClubFinderInvitationFrame_RequestToJoinFrame : Frame, ClubFinderRequestToJoinTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L511)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L511)
 --- @class CommunitiesFrame_ClubFinderInvitationFrame : Frame, ClubFinderInvitationsFrameTemplate
 --- @field RequestToJoinFrame CommunitiesFrame_ClubFinderInvitationFrame_RequestToJoinFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L524)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L524)
 --- @class CommunitiesFrame_TicketFrame : Frame, CommunitiesTicketFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L530)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L530)
 --- @class CommunitiesFrame_GuildBenefitsFrame : Frame, GuildBenefitsFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L536)
 --- @class CommunitiesFrame_CommunitiesFrameGuildDetailsFrame : Frame, GuildDetailsFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L542)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L542)
 --- @class CommunitiesFrame_GuildNameAlertFrame : Button, CommunitiesGuildNameChangeAlertFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L543)
 --- @class CommunitiesFrame_GuildNameChangeFrame : Frame, GuildNameChangeFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L544)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L544)
 --- @class CommunitiesFrame_CommunityNameChangeFrame : Frame, CommunityNameChangeFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L545)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L545)
 --- @class CommunitiesFrame_GuildPostingChangeFrame : Frame, GuildPostingChangeFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L546)
 --- @class CommunitiesFrame_CommunityPostingChangeFrame : Frame, CommunityPostingChangeFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L548)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L548)
 --- @class CommunitiesFrame_EditStreamDialog : Frame, CommunitiesEditStreamDialogTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L554)
 --- @class CommunitiesFrame_NotificationSettingsDialog : Frame, CommunitiesNotificationSettingsDialogTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L560)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L560)
 --- @class CommunitiesFrame_RecruitmentDialog : Frame, ClubsRecruitmentDialogTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L565)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L565)
 --- @class CommunitiesFrame_AddToChatButton : DropDownToggleButton, AddToChatButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L572)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L572)
 --- @class CommunitiesFrame_InviteButton : Button, CommunitiesInviteButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L588)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L588)
 --- @class CommunitiesFrame_CommunitiesControlFrame : Frame, CommunitiesControlFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L594)
 --- @class CommunitiesFrame_GuildLogButton : Button, UIPanelButtonTemplate, CommunitiesSubPanelButtonScriptTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L603)
 --- @class CommunitiesFrame_GuildMemberDetailFrame : Frame, CommunitiesGuildMemberDetailFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L304)
 --- @class CommunitiesFrame : Frame, ButtonFrameTemplateMinimizable, CommunitiesFrameMixin
 --- @field PortraitOverlay Frame
 --- @field MaximizeMinimizeFrame CommunitiesFrame_MaximizeMinimizeFrame

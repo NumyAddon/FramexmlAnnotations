@@ -1,45 +1,45 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L3)
 --- Template
 --- @class ExpBar-Divider : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L5)
 --- Template
 --- @class CompanionListButtonTemplate : Button
 --- @field dragButton Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L129)
 --- @class PetJournal_PetCount : Frame, InsetFrameTemplate3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L156)
 --- @class PetJournal_PetJournalLeftInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L169)
 --- @class PetJournal_PetJournalRightInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L175)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L175)
 --- @class PetJournal_PetJournalSearchBox : EditBox, SearchBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L184)
 --- @class PetJournal_PetJournalFilterButton : DropDownToggleButton, UIMenuButtonStretchTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L207)
 --- @class PetJournal_PetJournalFilterDropDown : Frame, UIDropDownMenuTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L212)
 --- @class PetJournal_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L218)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L218)
 --- @class PetJournal_ScrollBar : EventFrame, WowTrimScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L348)
 --- @class PetJournal_PetJournalSummonButton : Button, MagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L365)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L365)
 --- @class PetJournal_PetJournalPetOptionsMenu : Frame, UIDropDownMenuTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L127)
 --- @class PetJournal : Frame
 --- @field PetCount PetJournal_PetCount
 --- @field LeftInset PetJournal_PetJournalLeftInset

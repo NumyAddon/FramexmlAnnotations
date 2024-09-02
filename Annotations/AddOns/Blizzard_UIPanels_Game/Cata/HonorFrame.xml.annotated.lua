@@ -36,15 +36,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L304)
 --- @class HonorFrame_HonorFrameLifeTimeRank : Frame, HonorFrameRankButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L313)
---- @class HonorFrame_HonorFrameRankButton : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L343)
---- @class HonorFrame_HonorFrameProgressBar_HonorFrameProgressButton : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L331)
---- @class HonorFrame_HonorFrameProgressBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/HonorFrame.xml#L3)
 --- @class HonorFrame : Frame
 HonorFrame = {}

@@ -1,8 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/MirrorTimer.xml#L30)
---- @class MirrorTimerTemplate_MirrorTimerTemplateStatusBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/MirrorTimer.xml#L3)
 --- Template
 --- @class MirrorTimerTemplate : Frame

@@ -1,12 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.xml#L7)
---- @class STTTemplate_SubTextContainer : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.xml#L5)
 --- Template
 --- @class STTTemplate : Frame, SettingsCheckBoxControlTemplate, SpeechToTextMixin
---- @field SubTextContainer STTTemplate_SubTextContainer
+--- @field SubTextContainer Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.xml#L29)
 --- @class RTTSTemplate_Button : Button, UIPanelButtonTemplate

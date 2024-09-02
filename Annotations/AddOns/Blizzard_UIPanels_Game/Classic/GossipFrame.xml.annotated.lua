@@ -4,12 +4,6 @@
 --- Template
 --- @class GossipFramePanelTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L92)
---- @class GossipFrame_PortraitContainer : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L108)
---- @class GossipFrame_TitleContainer : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L128)
 --- @class GossipFrame_CloseButton : Button, UIPanelCloseButton
 
@@ -30,8 +24,8 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L83)
 --- @class GossipFrame : Frame, GossipFrameMixin, PortraitFrameMixin
---- @field PortraitContainer GossipFrame_PortraitContainer
---- @field TitleContainer GossipFrame_TitleContainer
+--- @field PortraitContainer Frame
+--- @field TitleContainer Frame
 --- @field CloseButton GossipFrame_CloseButton
 --- @field GreetingPanel GossipFrame_GreetingPanel
 GossipFrame = {}

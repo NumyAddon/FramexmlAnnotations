@@ -4,9 +4,6 @@
 --- Template
 --- @class MovePadCheckboxTemplate : CheckButton, UIPanelSquareButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L21)
---- @class MovePadFrame_MovePadLock : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L45)
 --- @class MovePadFrame_MovePadForward : CheckButton, MovePadCheckboxTemplate
 

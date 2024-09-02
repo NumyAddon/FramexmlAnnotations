@@ -1,24 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L35)
---- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L45)
---- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L24)
---- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon : Frame
---- @field Frame CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame
---- @field Spin CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L63)
---- @class CinematicsButtonTemplate_CinematicsButtonTemplateStatusBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L3)
 --- Template
 --- @class CinematicsButtonTemplate : Button
---- @field StreamingIcon CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon
---- @field StatusBar CinematicsButtonTemplate_CinematicsButtonTemplateStatusBar
+--- @field StreamingIcon Frame
+--- @field StatusBar StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L154)
 --- @class CinematicsFrame_CinematicsFrameCloseButton : Button, GlueCloseButton

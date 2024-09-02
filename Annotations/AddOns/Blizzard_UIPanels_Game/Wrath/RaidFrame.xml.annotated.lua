@@ -21,9 +21,6 @@ RaidParentFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L132)
 --- @class RaidFrame_RaidFrameAllAssistCheckButton : CheckButton, UICheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L169)
---- @class RaidFrame_RaidFrameNotInRaid : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L181)
 --- @class RaidFrame_RaidFrameConvertToRaidButton : Button, UIPanelButtonTemplate
 

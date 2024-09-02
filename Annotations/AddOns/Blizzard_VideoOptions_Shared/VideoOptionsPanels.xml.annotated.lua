@@ -1,24 +1,18 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L8)
---- @class VideoOptionsDropDownMenuTemplate_VideoOptionsDropDownMenuTemplateWarning : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L6)
 --- Template
 --- @class VideoOptionsDropDownMenuTemplate : Frame, UIDropDownMenuTemplate
---- @field warning VideoOptionsDropDownMenuTemplate_VideoOptionsDropDownMenuTemplateWarning
+--- @field warning Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L62)
 --- Template
 --- @class RaidVideoOptionsDropDownMenuTemplate : Frame, VideoOptionsDropDownMenuTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L70)
---- @class VideoOptionsSliderTemplate_VideoOptionsSliderTemplateWarning : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L68)
 --- Template
 --- @class VideoOptionsSliderTemplate : Slider, OptionsSliderTemplate
---- @field warning VideoOptionsSliderTemplate_VideoOptionsSliderTemplateWarning
+--- @field warning Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L122)
 --- Template

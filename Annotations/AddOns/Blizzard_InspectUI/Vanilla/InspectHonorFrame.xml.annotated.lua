@@ -33,15 +33,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L155)
 --- @class InspectHonorFrame_InspectHonorFrameLifeTimeRank : Frame, HonorFrameRankButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L160)
---- @class InspectHonorFrame_InspectHonorFrameRankButton : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L182)
---- @class InspectHonorFrame_InspectHonorFrameProgressBar_InspectHonorFrameProgressButton : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L176)
---- @class InspectHonorFrame_InspectHonorFrameProgressBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L3)
 --- @class InspectHonorFrame : Frame
 InspectHonorFrame = {}

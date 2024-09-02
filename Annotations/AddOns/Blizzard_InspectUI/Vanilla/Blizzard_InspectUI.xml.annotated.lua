@@ -1,8 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L34)
---- @class InspectFrame_InspectNameFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L63)
 --- @class InspectFrame_InspectFrameCloseButton : Button, UIPanelCloseButton
 

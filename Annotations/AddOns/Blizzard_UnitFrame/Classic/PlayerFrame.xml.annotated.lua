@@ -4,28 +4,6 @@
 --- Template
 --- @class PlayerFrameBarSegmentTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L48)
---- @class PlayerFrame__ : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L185)
---- @class PlayerFrame__PlayerFrameReadyCheck : Frame, ReadyCheckStatusTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L194)
---- @class PlayerFrame__PlayerPVPIconHitArea : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L206)
---- @class PlayerFrame__PlayerStatusGlow : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L236)
---- @class PlayerFrame__PlayerPlayTime : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L254)
---- @class PlayerFrame__MultiGroupFrame : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L46)
---- @class PlayerFrame_ : Frame
---- @field MultiGroupFrame PlayerFrame__MultiGroupFrame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L299)
 --- @class PlayerFrame_PlayerFrameHealthBar_MyHealPredictionBar : Frame, PlayerFrameBarSegmentTemplate, MyHealPredictionBarTemplate
 
@@ -42,9 +20,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L332)
 --- @class PlayerFrame_PlayerFrameDropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L341)
---- @class PlayerFrame_PlayerFrameGroupIndicator : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L13)
 --- @class PlayerFrame : Button, SecureUnitButtonTemplate

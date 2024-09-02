@@ -4,17 +4,11 @@
 --- Template
 --- @class WorldStateScoreColumnTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L230)
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateRankButton : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L259)
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateName : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L33)
 --- Template
 --- @class WorldStateScoreTemplate : Frame
---- @field rankButton WorldStateScoreTemplate_WorldStateScoreTemplateRankButton
---- @field name WorldStateScoreTemplate_WorldStateScoreTemplateName
+--- @field rankButton Frame
+--- @field name Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L295)
 --- Template
@@ -85,9 +79,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L832)
 --- @class WorldStateScoreFrame_WorldStateScoreFrameLeaveButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L850)
---- @class WorldStateScoreFrame_WorldStateScoreWinnerFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L403)
 --- @class WorldStateScoreFrame : Frame

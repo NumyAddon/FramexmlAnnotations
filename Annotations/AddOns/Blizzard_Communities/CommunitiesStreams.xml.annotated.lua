@@ -76,11 +76,8 @@
 --- @class AddToChatButtonTemplate : DropDownToggleButton, UIMenuButtonStretchTemplate, CommunitiesAddToChatMixin
 --- @field DropDown AddToChatButtonTemplate_DropDown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L329)
---- @class StreamDropDownMenuTemplate_NotificationOverlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L326)
 --- Template
 --- @class StreamDropDownMenuTemplate : Frame, UIDropDownMenuTemplate, CommunitiesStreamDropDownMixin
---- @field NotificationOverlay StreamDropDownMenuTemplate_NotificationOverlay
+--- @field NotificationOverlay Frame
 

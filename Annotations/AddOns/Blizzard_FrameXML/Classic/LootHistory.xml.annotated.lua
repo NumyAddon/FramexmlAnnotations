@@ -1,38 +1,23 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L94)
---- @class LootHistoryItemTemplate_ToggleButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L3)
 --- Template
 --- @class LootHistoryItemTemplate : Button
---- @field ToggleButton LootHistoryItemTemplate_ToggleButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L167)
---- @class LootHistoryPlayerTemplate_RollIcon : Frame
+--- @field ToggleButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L132)
 --- Template
 --- @class LootHistoryPlayerTemplate : Button
---- @field RollIcon LootHistoryPlayerTemplate_RollIcon
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L230)
---- @class LootHistoryFrame_CloseButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L245)
---- @class LootHistoryFrame_DragButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L262)
---- @class LootHistoryFrame_ResizeButton : Button
+--- @field RollIcon Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L277)
 --- @class LootHistoryFrame_LootHistoryFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L197)
 --- @class LootHistoryFrame : Frame, TooltipBorderedFrameTemplate
---- @field CloseButton LootHistoryFrame_CloseButton
---- @field DragButton LootHistoryFrame_DragButton
---- @field ResizeButton LootHistoryFrame_ResizeButton
+--- @field CloseButton Button
+--- @field DragButton Button
+--- @field ResizeButton Button
 --- @field ScrollFrame LootHistoryFrame_LootHistoryFrameScrollFrame
 LootHistoryFrame = {}
 

@@ -1,11 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L8)
---- @class ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L56)
---- @class ReputationBarTemplate_ReputationBarTemplateReputationBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L3)
 --- Template
 --- @class ReputationBarTemplate : Button
@@ -57,31 +51,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L410)
 --- @class ReputationFrame_ReputationListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L457)
---- @class ReputationFrame_FactionMouseOver : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L469)
---- @class ReputationFrame_StandingMouseOver : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L559)
---- @class ReputationFrame_ReputationDetailFrame_Border : Frame, DialogBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L560)
---- @class ReputationFrame_ReputationDetailFrame_ReputationDetailCloseButton : Button, UIPanelCloseButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L569)
---- @class ReputationFrame_ReputationDetailFrame_ReputationDetailAtWarCheckBox : CheckButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L630)
---- @class ReputationFrame_ReputationDetailFrame_ReputationDetailInactiveCheckBox : CheckButton, OptionsSmallCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L664)
---- @class ReputationFrame_ReputationDetailFrame_ReputationDetailMainScreenCheckBox : CheckButton, OptionsSmallCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L481)
---- @class ReputationFrame_ReputationDetailFrame : Frame
---- @field Border ReputationFrame_ReputationDetailFrame_Border
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L231)
 --- @class ReputationFrame : Frame

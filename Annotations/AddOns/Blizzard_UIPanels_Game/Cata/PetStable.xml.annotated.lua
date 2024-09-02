@@ -40,13 +40,10 @@
 --- Template
 --- @class PetStableSlotTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L108)
---- @class PetStableActiveSlotTemplate_PetStableActiveSlotTemplateLockIcon : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L91)
 --- Template
 --- @class PetStableActiveSlotTemplate : Button, PetStableSlotTemplate
---- @field LockIcon PetStableActiveSlotTemplate_PetStableActiveSlotTemplateLockIcon
+--- @field LockIcon Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L144)
 --- @class PetStableFrame_PetStableLeftInset : Frame, InsetFrameTemplate
@@ -60,12 +57,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L173)
 --- @class PetStableFrame_PetStableModelScene : ModelScene, PanningModelSceneMixinTemplate
 --- @field ControlFrame PetStableFrame_PetStableModelScene_ControlFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L226)
---- @class PetStableFrame_PetStablePetInfo_PetStableDiet : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L187)
---- @class PetStableFrame_PetStablePetInfo : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L246)
 --- @class PetStableFrame_PetStableActivePet1 : Button, PetStableActiveSlotTemplate

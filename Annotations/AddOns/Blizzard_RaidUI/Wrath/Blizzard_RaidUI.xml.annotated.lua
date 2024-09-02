@@ -20,9 +20,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L160)
 --- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck : Frame, ReadyCheckStatusTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L171)
---- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateClass : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L76)
 --- Template
 --- @class RaidGroupButtonTemplate : Button, SecureUnitButtonTemplate
@@ -30,9 +27,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L264)
 --- Template
 --- @class RaidGroupSlotTemplate : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L293)
---- @class RaidGroupTemplate_RaidGroupTemplateLabel : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L315)
 --- @class RaidGroupTemplate_RaidGroupTemplateSlot1 : Button, RaidGroupSlotTemplate
@@ -68,9 +62,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L535)
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTargetFrame : Frame, TooltipBackdropTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L589)
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTarget_ : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L565)
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTarget : StatusBar, TextStatusBar

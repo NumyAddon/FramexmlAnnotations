@@ -4,9 +4,6 @@
 --- Template
 --- @class ReportingFrameMinorCategoryButtonTemplate : CheckButton, ReportingFrameMinorCategoryButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L98)
---- @class SharedReportFrameTemplate_Border : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L99)
 --- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown : Frame, UIDropDownMenuTemplate, ReportingMajorCategoryDropdownMixin
 
@@ -22,7 +19,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L21)
 --- Template
 --- @class SharedReportFrameTemplate : Frame, ResizeLayoutFrame
---- @field Border SharedReportFrameTemplate_Border
+--- @field Border Frame
 --- @field ReportingMajorCategoryDropdown SharedReportFrameTemplate_ReportingMajorCategoryDropdown
 --- @field ReportButton SharedReportFrameTemplate_ReportButton
 --- @field Comment SharedReportFrameTemplate_Comment

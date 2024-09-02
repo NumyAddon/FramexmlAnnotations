@@ -4,19 +4,10 @@
 --- Template
 --- @class UIDropDownCustomMenuEntryTemplate : Frame, UIDropDownCustomMenuEntryMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L48)
---- @class UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateColorSwatch : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L93)
---- @class UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateExpandArrow : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L128)
---- @class UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateInvisibleButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L10)
 --- Template
 --- @class UIDropDownMenuButtonTemplate : Button
---- @field invisibleButton UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateInvisibleButton
+--- @field invisibleButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L173)
 --- @class UIDropDownListTemplate_UIDropDownListTemplateBackdrop : Frame, BackdropTemplate
@@ -52,11 +43,8 @@
 --- Template
 --- @class UIDropDownListTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L284)
---- @class UIDropDownMenuTemplate_UIDropDownMenuTemplateButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L220)
 --- Template
 --- @class UIDropDownMenuTemplate : Frame
---- @field Button UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field Button Button
 

@@ -4,11 +4,6 @@
 --- @class CommentatorModelSceneMixin
 CommentatorModelSceneMixin = {}
 
-local CommentatorModelSceneEvents =
-{
-	"COMBAT_LOG_EVENT_UNFILTERED",
-}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L11)
 function CommentatorModelSceneMixin:OnLoad() end
 

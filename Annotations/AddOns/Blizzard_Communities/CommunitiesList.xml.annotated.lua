@@ -13,9 +13,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L172)
 --- @class CommunitiesListFrameTemplate_EntryDropDown : Frame, UIDropDownMenuTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L178)
---- @class CommunitiesListFrameTemplate_FilligreeOverlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L251)
 --- @class CommunitiesListFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
 
@@ -25,14 +22,11 @@
 --- @field ScrollBox CommunitiesListFrameTemplate_ScrollBox
 --- @field ScrollBar CommunitiesListFrameTemplate_ScrollBar
 --- @field EntryDropDown CommunitiesListFrameTemplate_EntryDropDown
---- @field FilligreeOverlay CommunitiesListFrameTemplate_FilligreeOverlay
+--- @field FilligreeOverlay Frame
 --- @field InsetFrame CommunitiesListFrameTemplate_InsetFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L273)
---- @class CommunitiesListDropDownMenuTemplate_NotificationOverlay : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L270)
 --- Template
 --- @class CommunitiesListDropDownMenuTemplate : Frame, UIDropDownMenuTemplate, CommunitiesListDropDownMenuMixin
---- @field NotificationOverlay CommunitiesListDropDownMenuTemplate_NotificationOverlay
+--- @field NotificationOverlay Frame
 

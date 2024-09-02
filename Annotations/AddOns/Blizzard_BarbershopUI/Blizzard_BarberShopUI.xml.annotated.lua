@@ -8,25 +8,11 @@
 --- Template
 --- @class CharacterCreateGenderButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L92)
---- Template
---- @class BarberShopSelectorTemplate_Prev : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L115)
---- Template
---- @class BarberShopSelectorTemplate_Next : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L82)
 --- Template
 --- @class BarberShopSelectorTemplate : Frame
---- @field Prev BarberShopSelectorTemplate_Prev
---- @field Next BarberShopSelectorTemplate_Next
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L173)
---- @class BarberShopFrame_BarberShopAlternateFormTop : CheckButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L214)
---- @class BarberShopFrame_BarberShopAlternateFormBottom : CheckButton
+--- @field Prev Button
+--- @field Next Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L255)
 --- @class BarberShopFrame_BarberShopFrameMaleButton : CheckButton, CharacterCreateGenderButtonTemplate
@@ -98,9 +84,6 @@ BarberShopBannerFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L591)
 --- @class BarbersChoiceConfirmFrame_BarbersChoiceConfirmFrameBarbersChoiceCancelButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L605)
---- @class BarbersChoiceConfirmFrame_BarbersChoiceBottomPadder : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/dca15c4bf698de206601ef2d55b007f385cac272/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L517)
 --- @class BarbersChoiceConfirmFrame : Frame, VerticalLayoutFrame

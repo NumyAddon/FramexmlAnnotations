@@ -66,7 +66,7 @@ class LuaFileParser
         // e.g. `FooMixin = {\n  Bar = 1,\n  Baz = 2,\n}`
         $nonEmptyMixins = [];
         preg_match_all(
-            '/^(\S+Mixin)\s*=\s*{.*?\n}/ms',
+            '/^(\S+Mixin)\s*=\s*{[^\n}]*\n.*?\n}/ms',
             $fileContents,
             $nonEmptyMixins,
             PREG_SET_ORDER | PREG_OFFSET_CAPTURE,

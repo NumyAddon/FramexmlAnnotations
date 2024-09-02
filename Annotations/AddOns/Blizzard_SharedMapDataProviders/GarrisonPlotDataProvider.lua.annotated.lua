@@ -1,11 +1,11 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedMapDataProviders/GarrisonPlotDataProvider.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/GarrisonPlotDataProvider.lua#L1)
 --- @class GarrisonPlotDataProviderMixin : MapCanvasDataProviderMixin
 GarrisonPlotDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedMapDataProviders/GarrisonPlotDataProvider.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/GarrisonPlotDataProvider.lua#L3)
 function GarrisonPlotDataProviderMixin:RemoveAllData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedMapDataProviders/GarrisonPlotDataProvider.lua#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/GarrisonPlotDataProvider.lua#L7)
 function GarrisonPlotDataProviderMixin:RefreshAllData(fromOnShow) end

@@ -1,9 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L21)
 --- @class PingSystemTutorial_DragBar : Frame, PanelDragBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L6)
 --- @class PingSystemTutorial : Frame, ButtonFrameTemplate, PingSystemTutorialMixin
 --- @field DragBar PingSystemTutorial_DragBar
 --- @field Tutorial1 Frame

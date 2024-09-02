@@ -1,25 +1,25 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L3)
 --- Template
 --- @class ModelSceneControlButtonTemplate : Button, ModelSceneControlButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L49)
 --- @class ModelSceneControlFrameTemplate_zoomInButton : Button, ModelSceneControlButtonTemplate, ModelSceneZoomButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L50)
 --- @class ModelSceneControlFrameTemplate_zoomOutButton : Button, ModelSceneControlButtonTemplate, ModelSceneZoomButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L51)
 --- @class ModelSceneControlFrameTemplate_rotateLeftButton : Button, ModelSceneControlButtonTemplate, ModelScenelRotateButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L52)
 --- @class ModelSceneControlFrameTemplate_rotateRightButton : Button, ModelSceneControlButtonTemplate, ModelScenelRotateButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L53)
 --- @class ModelSceneControlFrameTemplate_resetButton : Button, ModelSceneControlButtonTemplate, ModelSceneResetButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L38)
 --- Template
 --- @class ModelSceneControlFrameTemplate : Frame, ModelSceneControlFrameMixin
 --- @field zoomInButton ModelSceneControlFrameTemplate_zoomInButton

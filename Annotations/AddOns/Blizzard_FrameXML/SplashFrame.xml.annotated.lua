@@ -1,29 +1,29 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L5)
 --- Template
 --- @class SplashFeatureFrameTemplate : Frame, SplashFeatureFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L72)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L72)
 --- @class SplashFrame_BottomCloseButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L83)
 --- @class SplashFrame_TopCloseButton : Button, UIPanelCloseButtonNoScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L93)
 --- @class SplashFrame_TopLeftFeature : Frame, SplashFeatureFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L98)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L98)
 --- @class SplashFrame_BottomLeftFeature : Frame, SplashFeatureFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L135)
 --- @class SplashFrame_RightFeature_StartQuestButton : Button, StartQuestButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L103)
 --- @class SplashFrame_RightFeature : Frame, SplashRightFeatureFrameMixin
 --- @field StartQuestButton SplashFrame_RightFeature_StartQuestButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L25)
 --- @class SplashFrame : Frame, SplashFrameMixin
 --- @field BottomCloseButton SplashFrame_BottomCloseButton
 --- @field TopCloseButton SplashFrame_TopCloseButton

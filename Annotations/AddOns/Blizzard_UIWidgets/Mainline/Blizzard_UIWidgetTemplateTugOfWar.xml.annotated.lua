@@ -1,12 +1,12 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTugOfWar.xml#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTugOfWar.xml#L63)
 --- @class UIWidgetTemplateTugOfWar_LeftIcon : Frame, UIWidgetBaseIconTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTugOfWar.xml#L68)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTugOfWar.xml#L68)
 --- @class UIWidgetTemplateTugOfWar_RightIcon : Frame, UIWidgetBaseIconTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTugOfWar.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTugOfWar.xml#L3)
 --- Template
 --- @class UIWidgetTemplateTugOfWar : Frame, UIWidgetBaseTemplate, UIWidgetTemplateTugOfWarMixin
 --- @field LeftIcon UIWidgetTemplateTugOfWar_LeftIcon

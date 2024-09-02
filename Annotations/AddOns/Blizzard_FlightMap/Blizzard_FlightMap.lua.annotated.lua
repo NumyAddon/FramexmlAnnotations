@@ -1,32 +1,32 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L3)
 --- @class FlightMapMixin
 FlightMapMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L5)
 function FlightMapMixin:SetupTitle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L12)
 function FlightMapMixin:ResetTitleAndPortraitIcon() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L16)
 function FlightMapMixin:UpdateTitleAndPortraitIcon(titleText, portraitIcon) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L21)
 function FlightMapMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L37)
 function FlightMapMixin:OnCanvasScaleChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L51)
 function FlightMapMixin:AddStandardDataProviders() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L86)
 function FlightMapMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L106)
 function FlightMapMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L113)
 function FlightMapMixin:OnEvent(event, ...) end

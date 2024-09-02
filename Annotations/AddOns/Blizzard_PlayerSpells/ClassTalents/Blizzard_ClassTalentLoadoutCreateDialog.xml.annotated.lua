@@ -1,15 +1,15 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutCreateDialog.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutCreateDialog.xml#L12)
 --- @class ClassTalentLoadoutCreateDialog_NameControl : Frame, ClassTalentLoadoutDialogNameControlTemplate, ClassTalentLoadoutCreateDialogNameControlMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutCreateDialog.xml#L22)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutCreateDialog.xml#L22)
 --- @class ClassTalentLoadoutCreateDialog_AcceptButton : Button, ClassTalentLoadoutDialogButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutCreateDialog.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutCreateDialog.xml#L27)
 --- @class ClassTalentLoadoutCreateDialog_CancelButton : Button, ClassTalentLoadoutDialogButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutCreateDialog.xml#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutCreateDialog.xml#L6)
 --- @class ClassTalentLoadoutCreateDialog : Frame, ClassTalentLoadoutDialogTemplate, ClassTalentLoadoutCreateDialogMixin
 --- @field NameControl ClassTalentLoadoutCreateDialog_NameControl
 --- @field AcceptButton ClassTalentLoadoutCreateDialog_AcceptButton

@@ -1,101 +1,101 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L34)
 --- @class AnimaDiversionDataProviderMixin : MapCanvasDataProviderMixin
 AnimaDiversionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L183)
 --- @class AnimaDiversionModelScenePinMixin : MapCanvasPinMixin
 AnimaDiversionModelScenePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L188)
 --- @class AnimaDiversionPinMixin : MapCanvasPinMixin
 AnimaDiversionPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L381)
 --- @class AnimaDiversionConnectionMixin
 AnimaDiversionConnectionMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L36)
 function AnimaDiversionDataProviderMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L40)
 function AnimaDiversionDataProviderMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L45)
 function AnimaDiversionDataProviderMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L49)
 function AnimaDiversionDataProviderMixin:SetupConnectionOnPin(pin) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L57)
 function AnimaDiversionDataProviderMixin:ResetModelScene() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L66)
 function AnimaDiversionDataProviderMixin:AddEffectOnPin(effectID, pin, permanent) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L79)
 function AnimaDiversionDataProviderMixin:ClearEffectOnPin(effectID, pin, onlyTemporaryEffects) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L90)
 function AnimaDiversionDataProviderMixin:ClearEffectOnAllPins(effectID, onlyTemporaryEffects, exemptPin) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L100)
 function AnimaDiversionDataProviderMixin:RemoveAllData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L107)
 function AnimaDiversionDataProviderMixin:CanReinforceNode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L111)
 function AnimaDiversionDataProviderMixin:RefreshAllData(fromOnShow) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L142)
 function AnimaDiversionDataProviderMixin:AddNode(nodeData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L158)
 function AnimaDiversionDataProviderMixin:AddOrigin(position) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L171)
 function AnimaDiversionDataProviderMixin:AddModelScene() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L184)
 function AnimaDiversionModelScenePinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L189)
 function AnimaDiversionPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L199)
 function AnimaDiversionPinMixin:SetupOrigin() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L209)
 function AnimaDiversionPinMixin:IsConnected() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L213)
 function AnimaDiversionPinMixin:SetupNode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L240)
 function AnimaDiversionPinMixin:SetVisualState(state) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L254)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L254)
 function AnimaDiversionPinMixin:SetReinforceState(reinforce, permanent) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L262)
 function AnimaDiversionPinMixin:SetSelectedState(selected, leaveOtherSelections) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L277)
 function AnimaDiversionPinMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L282)
 function AnimaDiversionPinMixin:HaveEnoughAnimaToActivate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L305)
 function AnimaDiversionPinMixin:RefreshTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L355)
 function AnimaDiversionPinMixin:OnMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L359)
 function AnimaDiversionPinMixin:OnClick(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L383)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L383)
 function AnimaDiversionConnectionMixin:Setup(textureKit, origin, pin) end

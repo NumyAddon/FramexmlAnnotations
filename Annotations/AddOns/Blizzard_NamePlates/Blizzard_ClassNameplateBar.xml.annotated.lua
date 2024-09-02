@@ -1,19 +1,19 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L5)
 --- Template
 --- @class ClassNameplateBarFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L36)
 --- @class ClassNameplateManaBarFrame_Border : Frame, NamePlateSecondaryBarBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L37)
 --- @class ClassNameplateManaBarFrame_FeedbackFrame : Frame, BuilderSpenderFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L38)
 --- @class ClassNameplateManaBarFrame_FullPowerFrame : Frame, FullResourcePulseFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L18)
 --- @class ClassNameplateManaBarFrame : StatusBar, ClassNameplateBar, ClassNameplateManaBar
 --- @field Border ClassNameplateManaBarFrame_Border
 --- @field FeedbackFrame ClassNameplateManaBarFrame_FeedbackFrame

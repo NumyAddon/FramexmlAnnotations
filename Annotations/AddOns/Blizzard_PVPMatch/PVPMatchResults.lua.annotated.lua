@@ -1,85 +1,85 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L20)
 --- @class PVPMatchResultsCurrencyRewardMixin
 PVPMatchResultsCurrencyRewardMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L39)
 --- @class PVPMatchResultsMixin
 PVPMatchResultsMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L506)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L506)
 --- @class PVPMatchResultsRatingMixin
 PVPMatchResultsRatingMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L21)
 function PVPMatchResultsCurrencyRewardMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L28)
 function PVPMatchResultsCurrencyRewardMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L35)
 function PVPMatchResultsCurrencyRewardMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L40)
 function PVPMatchResultsMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L108)
 function PVPMatchResultsMixin:Init() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L188)
 function PVPMatchResultsMixin:Shutdown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L200)
 function PVPMatchResultsMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L233)
 function PVPMatchResultsMixin:BeginShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L257)
 function PVPMatchResultsMixin:DisplayRewards() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L373)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L373)
 function PVPMatchResultsMixin:HaveConquestData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L378)
 function PVPMatchResultsMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L390)
 function PVPMatchResultsMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L395)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L395)
 function PVPMatchResultsMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L400)
 function PVPMatchResultsMixin:AddItemReward(item) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L411)
 function PVPMatchResultsMixin:InitHonorFrame(currency) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L419)
 function PVPMatchResultsMixin:InitConquestFrame(currency) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L427)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L427)
 function PVPMatchResultsMixin:InitRatingFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L451)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L451)
 function PVPMatchResultsMixin:SetupArtwork(factionIndex, isFactionalMatch) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L480)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L480)
 function PVPMatchResultsMixin:OnLeaveButtonClicked(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L490)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L490)
 function PVPMatchResultsMixin:OnRequeueButtonClicked(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L497)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L497)
 function PVPMatchResultsMixin:OnTabGroupClicked(tab) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L507)
 function PVPMatchResultsRatingMixin:Init(rating, ratingChange) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L528)
 function PVPMatchResultsRatingMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L548)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L548)
 function PVPMatchResultsRatingMixin:OnLeave() end

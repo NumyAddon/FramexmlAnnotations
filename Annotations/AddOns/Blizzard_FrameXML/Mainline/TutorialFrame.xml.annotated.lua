@@ -1,23 +1,23 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L126)
 --- @class TutorialFrame_TutorialFrameTextScrollFrame : ScrollFrame, ScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L164)
 --- @class TutorialFrame_TutorialFrameCallOut : Frame, BackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L175)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L175)
 --- @class TutorialFrame_TutorialFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L3)
 --- @class TutorialFrame : Frame
 TutorialFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L271)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L271)
 --- @class TutorialFrameAlertButton : Button, UIParentBottomManagedFrameTemplate
 TutorialFrameAlertButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L295)
 --- @class TutorialFrameAlertButtonBadge : Frame
 TutorialFrameAlertButtonBadge = {}
 

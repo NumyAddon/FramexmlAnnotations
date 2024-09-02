@@ -1,30 +1,30 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L5)
 --- Template
 --- @class WardrobeOutfitButtonButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L32)
 --- @class WardrobeOutfitDropdownTemplate_SaveButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L30)
 --- Template
 --- @class WardrobeOutfitDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, WardrobeOutfitDropdownMixin
 --- @field SaveButton WardrobeOutfitDropdownTemplate_SaveButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L69)
 --- @class WardrobeOutfitEditFrame_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L115)
 --- @class WardrobeOutfitEditFrame_AcceptButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L127)
 --- @class WardrobeOutfitEditFrame_CancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L138)
 --- @class WardrobeOutfitEditFrame_DeleteButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L47)
 --- @class WardrobeOutfitEditFrame : Frame, WardrobeOutfitEditFrameMixin
 --- @field Border WardrobeOutfitEditFrame_Border
 --- @field EditBox EditBox
@@ -33,10 +33,10 @@
 --- @field DeleteButton WardrobeOutfitEditFrame_DeleteButton
 WardrobeOutfitEditFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L166)
 --- @class WardrobeOutfitCheckAppearancesFrame_Spinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L163)
 --- @class WardrobeOutfitCheckAppearancesFrame : Frame, WardrobeOutfitCheckAppearancesMixin
 --- @field Spinner WardrobeOutfitCheckAppearancesFrame_Spinner
 WardrobeOutfitCheckAppearancesFrame = {}

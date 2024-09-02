@@ -1,20 +1,20 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L71)
 --- @class GlueParentMixin
 GlueParentMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L73)
 function GlueParentMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L103)
 function GlueParentMixin:OnSecondaryScreenClosed(unused_secondaryScreen, contextKey, openingNewScreen) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L113)
 function GlueParentMixin:OnAddonListClosed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L119)
 function GlueParentMixin:OnStoreFrameClosed(contextKey) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueParent/Mainline/GlueParent.lua#L135)
 function GlueParentMixin:OnEvent(event, ...) end

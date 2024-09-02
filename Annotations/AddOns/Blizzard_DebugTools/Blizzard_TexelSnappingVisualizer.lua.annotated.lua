@@ -1,8 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_DebugTools/Blizzard_TexelSnappingVisualizer.lua#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TexelSnappingVisualizer.lua#L9)
 --- @class TexelSnappingVisualizerMixin
 TexelSnappingVisualizerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_DebugTools/Blizzard_TexelSnappingVisualizer.lua#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TexelSnappingVisualizer.lua#L11)
 function TexelSnappingVisualizerMixin:OnCreated() end

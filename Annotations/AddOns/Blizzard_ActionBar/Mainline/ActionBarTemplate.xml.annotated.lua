@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionBarTemplate.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionBarTemplate.xml#L3)
 --- Template
 --- @class ActionBarButtonContainerTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionBarTemplate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionBarTemplate.xml#L7)
 --- Template
 --- @class ActionBarTemplate : Frame, ResizeLayoutFrame, ActionBarMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/a8545cfc22e4355dab1bf66255a5b87d49099736/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionBarTemplate.xml#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionBarTemplate.xml#L48)
 --- Template
 --- @class EditModeActionBarTemplate : Frame, ActionBarTemplate, EditModeActionBarSystemTemplate, EditModeActionBarMixin
 

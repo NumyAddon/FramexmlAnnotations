@@ -1,25 +1,25 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L6)
 --- Template
 --- @class PaladinPowerBarRuneTemplate : Frame, PaladinPowerBarRune
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L165)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L165)
 --- @class PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune1 : Frame, PaladinPowerBarRuneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L177)
 --- @class PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune2 : Frame, PaladinPowerBarRuneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L189)
 --- @class PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune3 : Frame, PaladinPowerBarRuneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L201)
 --- @class PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune4 : Frame, PaladinPowerBarRuneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L213)
 --- @class PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune5 : Frame, PaladinPowerBarRuneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L98)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L98)
 --- Template
 --- @class PaladinPowerBarFrameTemplate : Frame, ClassResourceBarSelfManagedPointsTemplate, PaladinPowerBar
 --- @field rune1 PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune1
@@ -28,7 +28,7 @@
 --- @field rune4 PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune4
 --- @field rune5 PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune5
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L228)
 --- @class PaladinPowerBarFrame : Frame, PaladinPowerBarFrameTemplate
 PaladinPowerBarFrame = {}
 

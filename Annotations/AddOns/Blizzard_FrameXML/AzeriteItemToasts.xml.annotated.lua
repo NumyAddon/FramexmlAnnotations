@@ -1,19 +1,19 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L5)
 --- Template
 --- @class AzeriteUnlockedItemTemplate : ItemButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L186)
 --- @class AzeriteLevelUpToast_IconEffect : ModelScene, NonInteractableModelSceneMixinTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L192)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L192)
 --- @class AzeriteLevelUpToast_UnlockItemsFrame : Frame, HorizontalLayoutFrame
 --- @field EssenceSlotFrame Frame
 --- @field EssenceStaminaFrame Frame
 --- @field EssenceRankedFrame Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L33)
 --- @class AzeriteLevelUpToast : Frame, AzeriteItemLevelUpToastMixin
 --- @field IconEffect AzeriteLevelUpToast_IconEffect
 --- @field UnlockItemsFrame AzeriteLevelUpToast_UnlockItemsFrame

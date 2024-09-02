@@ -1,17 +1,17 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L15)
 --- @class CovenantCelebrationBannerMixin
 CovenantCelebrationBannerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L17)
 function CovenantCelebrationBannerMixin:CancelIconSwirlEffects() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L21)
 function CovenantCelebrationBannerMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L25)
 function CovenantCelebrationBannerMixin:SetCovenantTextureKit(covenantTextureKit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L39)
 function CovenantCelebrationBannerMixin:AddSwirlEffects(covenantTextureKit) end

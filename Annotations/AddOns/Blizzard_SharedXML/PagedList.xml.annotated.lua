@@ -1,20 +1,20 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L5)
 --- Template
 --- @class PagedListTemplate : Frame, TemplatedListTemplate, PagedListMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L12)
 --- Template
 --- @class PagedListControlButtonTemplate : Button, PagedListControlButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L41)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L41)
 --- @class PagedListHorizontalControlTemplate_BackwardButton : Button, PagedListControlButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L51)
 --- @class PagedListHorizontalControlTemplate_ForwardButton : Button, PagedListControlButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L20)
 --- Template
 --- @class PagedListHorizontalControlTemplate : Frame, HorizontalLayoutFrame, PagedListControlMixin
 --- @field BackwardButton PagedListHorizontalControlTemplate_BackwardButton

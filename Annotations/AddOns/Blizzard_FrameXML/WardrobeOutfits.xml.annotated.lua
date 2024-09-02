@@ -15,9 +15,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L69)
 --- @class WardrobeOutfitEditFrame_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L70)
---- @class WardrobeOutfitEditFrame_EditBox : EditBox
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L115)
 --- @class WardrobeOutfitEditFrame_AcceptButton : Button, UIPanelButtonTemplate
 
@@ -30,7 +27,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L47)
 --- @class WardrobeOutfitEditFrame : Frame, WardrobeOutfitEditFrameMixin
 --- @field Border WardrobeOutfitEditFrame_Border
---- @field EditBox WardrobeOutfitEditFrame_EditBox
+--- @field EditBox EditBox
 --- @field AcceptButton WardrobeOutfitEditFrame_AcceptButton
 --- @field CancelButton WardrobeOutfitEditFrame_CancelButton
 --- @field DeleteButton WardrobeOutfitEditFrame_DeleteButton

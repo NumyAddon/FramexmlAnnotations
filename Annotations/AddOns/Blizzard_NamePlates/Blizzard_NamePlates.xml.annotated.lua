@@ -7,14 +7,11 @@ NamePlateDriverFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L31)
 --- @class NameplateBuffButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L36)
---- @class NameplateBuffButtonTemplate_CountFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L12)
 --- Template
 --- @class NameplateBuffButtonTemplate : Frame, NameplateBuffButtonTemplateMixin
 --- @field Cooldown NameplateBuffButtonTemplate_Cooldown
---- @field CountFrame NameplateBuffButtonTemplate_CountFrame
+--- @field CountFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L54)
 --- Template
@@ -23,21 +20,6 @@ NamePlateDriverFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L100)
 --- Template
 --- @class NamePlateSecondaryBarBorderTemplate : Frame, NamePlateBorderTemplateMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L155)
---- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_border : Frame, NamePlateFullBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L156)
---- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_TempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L163)
---- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar : StatusBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L146)
---- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer : Frame
---- @field border BaseNamePlateUnitFrameTemplate_HealthBarsContainer_border
---- @field TempMaxHealthLoss BaseNamePlateUnitFrameTemplate_HealthBarsContainer_TempMaxHealthLoss
---- @field healthBar BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L194)
 --- @class BaseNamePlateUnitFrameTemplate_castBar : StatusBar, CastingBarFrameAnimsTemplate, CastingBarMixin
@@ -54,23 +36,17 @@ NamePlateDriverFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L285)
 --- @class BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame : Frame, NamePlateLevelDiffMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L311)
---- @class BaseNamePlateUnitFrameTemplate_RaidTargetFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L322)
---- @class BaseNamePlateUnitFrameTemplate_SoftTargetFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L136)
 --- Template
 --- @class BaseNamePlateUnitFrameTemplate : Button
---- @field HealthBarsContainer BaseNamePlateUnitFrameTemplate_HealthBarsContainer
+--- @field HealthBarsContainer Frame
 --- @field castBar BaseNamePlateUnitFrameTemplate_castBar
 --- @field WidgetContainer BaseNamePlateUnitFrameTemplate_WidgetContainer
 --- @field BuffFrame BaseNamePlateUnitFrameTemplate_BuffFrame
 --- @field ClassificationFrame BaseNamePlateUnitFrameTemplate_ClassificationFrame
 --- @field PlayerLevelDiffFrame BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame
---- @field RaidTargetFrame BaseNamePlateUnitFrameTemplate_RaidTargetFrame
---- @field SoftTargetFrame BaseNamePlateUnitFrameTemplate_SoftTargetFrame
+--- @field RaidTargetFrame Frame
+--- @field SoftTargetFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L375)
 --- @class PersonalFriendlyBuffFrame : Frame, HorizontalLayoutFrame, PersonalFriendlyBuffContainerMixin

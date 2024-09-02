@@ -2,13 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.lua#L1)
 --- @class ProfessionsCustomerOrdersBrowsePageMixin
-ProfessionsCustomerOrdersBrowsePageMixin = {};
-
-local ProfessionsCustomerOrdersBrowsePageEvents =
-{
-	"CRAFTINGORDERS_CUSTOMER_OPTIONS_PARSED",
-	"CRAFTINGORDERS_CUSTOMER_FAVORITES_CHANGED",
-}
+ProfessionsCustomerOrdersBrowsePageMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.lua#L23)
 function ProfessionsCustomerOrdersBrowsePageMixin:SetDefaultFilters() end

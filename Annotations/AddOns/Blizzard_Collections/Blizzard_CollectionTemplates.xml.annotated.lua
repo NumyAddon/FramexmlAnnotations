@@ -7,14 +7,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L107)
 --- @class CollectionsSpellButtonTemplate_cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L113)
---- @class CollectionsSpellButtonTemplate_cooldownWrapper : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L39)
 --- Template
 --- @class CollectionsSpellButtonTemplate : CheckButton, SecureFrameTemplate
 --- @field cooldown CollectionsSpellButtonTemplate_cooldown
---- @field cooldownWrapper CollectionsSpellButtonTemplate_cooldownWrapper
+--- @field cooldownWrapper Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L168)
 --- Template

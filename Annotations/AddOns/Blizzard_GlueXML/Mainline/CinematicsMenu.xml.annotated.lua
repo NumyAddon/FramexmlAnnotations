@@ -3,14 +3,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L22)
 --- @class CinematicsMenuButtonTemplate_StreamingIcon : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L28)
---- @class CinematicsMenuButtonTemplate_StatusBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L3)
 --- Template
 --- @class CinematicsMenuButtonTemplate : Button, TemplatedListElementTemplate, CinematicsMenuButtonMixin
 --- @field StreamingIcon CinematicsMenuButtonTemplate_StreamingIcon
---- @field StatusBar CinematicsMenuButtonTemplate_StatusBar
+--- @field StatusBar StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L88)
 --- @class CinematicsMenu_CloseButton : Button, UIPanelCloseButtonNoScripts

@@ -6,11 +6,7 @@ RuneforgeLegendaryPowerLootJournalMixin = CreateFromMixins(RuneforgePowerBaseMix
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournal.lua#L66)
 --- @class LootJournalMixin
-LootJournalMixin = {};
-
-local LootJournalEvents = {
-	"NEW_RUNEFORGE_POWER_ADDED",
-}
+LootJournalMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournal.lua#L16)
 function RuneforgeLegendaryPowerLootJournalMixin:Init(elementData) end

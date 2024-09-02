@@ -8,9 +8,6 @@
 --- @class ClassTrainerSkillButtonTemplate : Button
 --- @field money ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateMoneyFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L127)
---- @class ClassTrainerFrame_ClassTrainerStatusBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L177)
 --- @class ClassTrainerFrame_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 

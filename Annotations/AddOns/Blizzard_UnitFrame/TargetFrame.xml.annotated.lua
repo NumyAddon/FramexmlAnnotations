@@ -28,9 +28,6 @@
 --- @class TargetBuffFrameTemplate : Frame
 --- @field Cooldown TargetBuffFrameTemplate_TargetBuffFrameTemplateCooldown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L149)
---- @class TargetFrameTemplate_TargetFrameContainer : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L223)
 --- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer_TempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
 
@@ -66,30 +63,15 @@
 --- @field HealthBarsContainer TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer
 --- @field ManaBar TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_ManaBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L409)
---- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual_buffs : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L412)
---- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual_debuffs : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L415)
---- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual_NumericalThreat : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L347)
---- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual : Frame
---- @field buffs TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual_buffs
---- @field debuffs TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual_debuffs
---- @field NumericalThreat TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual_NumericalThreat
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L191)
 --- @class TargetFrameTemplate_TargetFrameContent : Frame, SecureFrameParentPropagationTemplate
 --- @field TargetFrameContentMain TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain
---- @field TargetFrameContentContextual TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual
+--- @field TargetFrameContentContextual Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L143)
 --- Template
 --- @class TargetFrameTemplate : Button, SecureUnitButtonTemplate, TargetFrameMixin, PingableType_UnitFrameMixin
---- @field TargetFrameContainer TargetFrameTemplate_TargetFrameContainer
+--- @field TargetFrameContainer Frame
 --- @field TargetFrameContent TargetFrameTemplate_TargetFrameContent
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L463)

@@ -11,14 +11,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L141)
 --- @class WeeklyRewardActivityTemplate_ItemFrame : Button, WeeklyRewardActivityItemFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L146)
---- @class WeeklyRewardActivityTemplate_UnselectedFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L86)
 --- Template
 --- @class WeeklyRewardActivityTemplate : Frame, WeeklyRewardsActivityMixin
 --- @field ItemFrame WeeklyRewardActivityTemplate_ItemFrame
---- @field UnselectedFrame WeeklyRewardActivityTemplate_UnselectedFrame
+--- @field UnselectedFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L185)
 --- Template
@@ -50,9 +47,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L292)
 --- @class WeeklyRewardOverlayTemplate_ModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L293)
---- @class WeeklyRewardOverlayTemplate_ : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L263)
 --- Template
 --- @class WeeklyRewardOverlayTemplate : Frame, WeeklyRewardOverlayMixin
@@ -61,12 +55,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L347)
 --- @class WeeklyRewardsFrame_NineSlice : Frame, WeeklyRewardsNineSliceTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L349)
---- @class WeeklyRewardsFrame_Blackout : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L366)
---- @class WeeklyRewardsFrame_HeaderFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L403)
 --- @class WeeklyRewardsFrame_RaidFrame : Frame, WeeklyRewardActivityTypeTemplate
@@ -86,13 +74,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L469)
 --- @class WeeklyRewardsFrame_ConcessionFrame_RewardsFrame : Frame, HorizontalLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L495)
---- @class WeeklyRewardsFrame_ConcessionFrame_UnselectedFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L424)
 --- @class WeeklyRewardsFrame_ConcessionFrame : Frame, WeeklyRewardsConcessionMixin
 --- @field RewardsFrame WeeklyRewardsFrame_ConcessionFrame_RewardsFrame
---- @field UnselectedFrame WeeklyRewardsFrame_ConcessionFrame_UnselectedFrame
+--- @field UnselectedFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L513)
 --- @class WeeklyRewardsFrame_SelectRewardButton : Button, UIPanelButtonTemplate
@@ -103,8 +88,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L311)
 --- @class WeeklyRewardsFrame : Frame, WeeklyRewardsMixin
 --- @field NineSlice WeeklyRewardsFrame_NineSlice
---- @field Blackout WeeklyRewardsFrame_Blackout
---- @field HeaderFrame WeeklyRewardsFrame_HeaderFrame
+--- @field Blackout Frame
+--- @field HeaderFrame Frame
 --- @field RaidFrame WeeklyRewardsFrame_RaidFrame
 --- @field MythicFrame WeeklyRewardsFrame_MythicFrame
 --- @field PVPFrame WeeklyRewardsFrame_PVPFrame

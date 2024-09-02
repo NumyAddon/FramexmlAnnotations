@@ -1,24 +1,18 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L69)
---- @class GarrisonTalentButtonTemplate_Cooldown : Cooldown
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L5)
 --- Template
 --- @class GarrisonTalentButtonTemplate : Button, GarrisonTalentButtonMixin
---- @field Cooldown GarrisonTalentButtonTemplate_Cooldown
+--- @field Cooldown Cooldown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L112)
 --- @class GarrisonTalentButtonAnimationTemplate_SwirlContainer : Frame, PowerSwirlAnimationTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L117)
---- @class GarrisonTalentButtonAnimationTemplate_HighlightFlash : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L109)
 --- Template
 --- @class GarrisonTalentButtonAnimationTemplate : Frame, GarrisonTalentButtonAnimationMixin
 --- @field SwirlContainer GarrisonTalentButtonAnimationTemplate_SwirlContainer
---- @field HighlightFlash GarrisonTalentButtonAnimationTemplate_HighlightFlash
+--- @field HighlightFlash Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L153)
 --- Template
@@ -43,14 +37,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L242)
 --- @class OrderHallTalentFrame_FriendshipStatusBar : StatusBar, NPCFriendshipStatusBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L247)
---- @class OrderHallTalentFrame_OverlayElements : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L258)
 --- @class OrderHallTalentFrame_Currency : Frame, ResizeLayoutFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L280)
---- @class OrderHallTalentFrame_CurrencyHitTest : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L294)
 --- @class OrderHallTalentFrame_Inset : Frame, InsetFrameTemplate
@@ -67,9 +55,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L177)
 --- @class OrderHallTalentFrame : Frame, PortraitFrameTemplate, OrderHallTalentFrameMixin
 --- @field FriendshipStatusBar OrderHallTalentFrame_FriendshipStatusBar
---- @field OverlayElements OrderHallTalentFrame_OverlayElements
+--- @field OverlayElements Frame
 --- @field Currency OrderHallTalentFrame_Currency
---- @field CurrencyHitTest OrderHallTalentFrame_CurrencyHitTest
+--- @field CurrencyHitTest Frame
 --- @field Inset OrderHallTalentFrame_Inset
 --- @field BackButton OrderHallTalentFrame_BackButton
 --- @field CypherEquipmentLevel OrderHallTalentFrame_CypherEquipmentLevel

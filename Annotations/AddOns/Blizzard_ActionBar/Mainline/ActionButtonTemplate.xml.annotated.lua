@@ -32,33 +32,21 @@ ActionBarButtonUsableWatcherFrame = {}
 --- Template
 --- @class ActionButtonProfessionOverlayTemplate : Frame, ActionBarActionEventsFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L93)
---- @class ActionButtonCastingAnimFrameTemplate_Fill : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L131)
---- @class ActionButtonCastingAnimFrameTemplate_EndBurst : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L87)
 --- Template
 --- @class ActionButtonCastingAnimFrameTemplate : Frame, ActionButtonCastingAnimFrameMixin
---- @field Fill ActionButtonCastingAnimFrameTemplate_Fill
---- @field EndBurst ActionButtonCastingAnimFrameTemplate_EndBurst
+--- @field Fill Frame
+--- @field EndBurst Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L167)
 --- Template
 --- @class ActionButtonTargetReticleFrameTemplate : Frame, ActionButtonTargetReticleFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L206)
---- @class ActionButtonInterruptTemplate_Highlight : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L234)
---- @class ActionButtonInterruptTemplate_Base : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L204)
 --- Template
 --- @class ActionButtonInterruptTemplate : Frame, ActionButtonInterruptFrameMixin
---- @field Highlight ActionButtonInterruptTemplate_Highlight
---- @field Base ActionButtonInterruptTemplate_Base
+--- @field Highlight Frame
+--- @field Base Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L263)
 --- Template
@@ -87,9 +75,6 @@ ActionBarButtonUsableWatcherFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L356)
 --- @class ActionButtonTemplate_TextOverlayContainer : Frame, ActionButtonTextOverlayContainerMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L376)
---- @class ActionButtonTemplate_FlyoutArrowContainer : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L401)
 --- @class ActionButtonTemplate_AutoCastOverlay : Frame, AutoCastOverlayTemplate
 
@@ -100,7 +85,7 @@ ActionBarButtonUsableWatcherFrame = {}
 --- Template
 --- @class ActionButtonTemplate : CheckButton, ActionButtonSpellFXTemplate, BaseActionButtonMixin
 --- @field TextOverlayContainer ActionButtonTemplate_TextOverlayContainer
---- @field FlyoutArrowContainer ActionButtonTemplate_FlyoutArrowContainer
+--- @field FlyoutArrowContainer Frame
 --- @field AutoCastOverlay ActionButtonTemplate_AutoCastOverlay
 --- @field cooldown ActionButtonTemplate_ActionButtonTemplateCooldown
 

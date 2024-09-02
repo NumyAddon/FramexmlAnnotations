@@ -12,13 +12,10 @@
 --- @class MountEquipmentButtonTemplate : Button, MountEquipmentButtonMixin
 --- @field NewAlert MountEquipmentButtonTemplate_NewAlert
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L148)
---- @class MountListButtonTemplate_DragButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L80)
 --- Template
 --- @class MountListButtonTemplate : Button
---- @field DragButton MountListButtonTemplate_DragButton
+--- @field DragButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L192)
 --- Template
@@ -30,9 +27,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L260)
 --- @class MountJournal_ToggleDynamicFlightFlyoutButton : Button, MountJournalToggleDynamicFlightFlyoutButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L346)
---- @class MountJournal_DynamicFlightFlyout_Background : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L374)
 --- @class MountJournal_DynamicFlightFlyout_OpenDynamicFlightSkillTreeButton : Button, DynamicFlightFlyoutButtonTemplate, MountJournalOpenDynamicFlightSkillTreeButtonMixin
 
@@ -41,7 +35,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L335)
 --- @class MountJournal_DynamicFlightFlyout : Frame, VerticalLayoutFrame
---- @field Background MountJournal_DynamicFlightFlyout_Background
+--- @field Background Frame
 --- @field OpenDynamicFlightSkillTreeButton MountJournal_DynamicFlightFlyout_OpenDynamicFlightSkillTreeButton
 --- @field DynamicFlightModeButton MountJournal_DynamicFlightFlyout_DynamicFlightModeButton
 
@@ -71,29 +65,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L511)
 --- @class MountJournal_MountCount : Frame, InsetFrameTemplate3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L556)
---- @class MountJournal_MountDisplay_ShadowOverlay : Frame, ShadowOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L557)
---- @class MountJournal_MountDisplay_InfoButton : Button, InlineHyperlinkFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L619)
---- @class MountJournal_MountDisplay_ModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L624)
---- @class MountJournal_MountDisplay_ModelScene_TogglePlayer : CheckButton, UICheckButtonTemplate, PlayerPreviewToggle
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L613)
---- @class MountJournal_MountDisplay_ModelScene : ModelScene, WrappedAndUnwrappedModelScene
---- @field ControlFrame MountJournal_MountDisplay_ModelScene_ControlFrame
---- @field TogglePlayer MountJournal_MountDisplay_ModelScene_TogglePlayer
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L532)
---- @class MountJournal_MountDisplay : Frame
---- @field ShadowOverlay MountJournal_MountDisplay_ShadowOverlay
---- @field InfoButton MountJournal_MountDisplay_InfoButton
---- @field ModelScene MountJournal_MountDisplay_ModelScene
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L658)
 --- @class MountJournal_ScrollBox : Frame, WowScrollBoxList
 
@@ -114,7 +85,7 @@
 --- @field searchBox MountJournal_MountJournalSearchBox
 --- @field FilterDropdown MountJournal_FilterDropdown
 --- @field MountCount MountJournal_MountCount
---- @field MountDisplay MountJournal_MountDisplay
+--- @field MountDisplay Frame
 --- @field ScrollBox MountJournal_ScrollBox
 --- @field ScrollBar MountJournal_ScrollBar
 --- @field MountButton MountJournal_MountJournalMountButton

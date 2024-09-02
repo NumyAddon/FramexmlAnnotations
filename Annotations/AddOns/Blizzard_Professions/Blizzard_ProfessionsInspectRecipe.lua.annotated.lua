@@ -2,13 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsInspectRecipe.lua#L1)
 --- @class InspectRecipeMixin
-InspectRecipeMixin = {};
-
-local InspectRecipeEvents =
-{
-	"BAG_UPDATE",
-	"BAG_UPDATE_DELAYED",
-}
+InspectRecipeMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsInspectRecipe.lua#L9)
 function InspectRecipeMixin:OnLoad() end

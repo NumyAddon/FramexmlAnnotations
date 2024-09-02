@@ -2,30 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemChannelMixin.lua#L1)
 --- @class AzeriteEmpoweredItemChannelMixin
-AzeriteEmpoweredItemChannelMixin = {};
-
-local REVEAL_SIZE_BY_TIER = {
-	[3] = {
-		278,
-		368,
-		591,
-	},
-
-	[4] = {
-		188,
-		278,
-		368,
-		591,
-	},
-	
-	[5] = {
-		96,
-		188,
-		278,
-		368,
-		591,
-	},	
-}
+AzeriteEmpoweredItemChannelMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemChannelMixin.lua#L26)
 function AzeriteEmpoweredItemChannelMixin:Reset() end

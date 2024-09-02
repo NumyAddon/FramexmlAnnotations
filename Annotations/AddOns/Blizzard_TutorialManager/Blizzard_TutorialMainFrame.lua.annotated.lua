@@ -6,14 +6,7 @@ TutorialSingleKeyMixin = CreateFromMixins(TutorialMainFrameMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L1)
 --- @class TutorialMainFrameMixin
-TutorialMainFrameMixin = {};
-TutorialMainFrameMixin.States =
-{
-	Hidden			= "hidden",
-	AnimatingIn		= "animatingIn",
-	Visible			= "visible",
-	AnimatingOut	= "animatingOut",
-}
+TutorialMainFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L17)
 function TutorialMainFrameMixin:OnLoad() end

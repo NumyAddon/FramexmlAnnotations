@@ -8,13 +8,10 @@
 --- Template
 --- @class AuctionHouseFavoritesSearchButtonTemplate : Button, SquareIconButtonTemplate, AuctionHouseFavoritesSearchButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSearchBar.xml#L22)
---- @class AuctionHouseFilterButtonTemplate_ClearFiltersButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSearchBar.xml#L20)
 --- Template
 --- @class AuctionHouseFilterButtonTemplate : DropdownButton, WowStyle1FilterDropdownTemplate, AuctionHouseFilterButtonMixin
---- @field ClearFiltersButton AuctionHouseFilterButtonTemplate_ClearFiltersButton
+--- @field ClearFiltersButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSearchBar.xml#L40)
 --- Template

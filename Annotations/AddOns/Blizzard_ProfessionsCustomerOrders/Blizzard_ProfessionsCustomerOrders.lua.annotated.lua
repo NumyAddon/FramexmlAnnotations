@@ -2,26 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.lua#L10)
 --- @class ProfessionsCustomerOrdersFrameTabMixin
-ProfessionsCustomerOrdersFrameTabMixin = {};
-
-function ProfessionsCustomerOrdersFrameTabMixin:OnClick()
-    CallMethodOnNearestAncestor(self, "SelectMode", self.mode);
-	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB);
-end
-
-function ProfessionsCustomerOrdersFrameTabMixin:OnShow()
-    local absoluteSize = nil;
-    local MIN_TAB_WIDTH = 70;
-    local TAB_PADDING = 20;
-	PanelTemplates_TabResize(self, TAB_PADDING, absoluteSize, MIN_TAB_WIDTH);
-end
-
-ProfessionsCustomerOrdersMixin = {};
-
-local ProfessionsCustomerOrdersEvents =
-{
-    "PLAYER_MONEY",
-}
+ProfessionsCustomerOrdersFrameTabMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.lua#L24)
 --- @class ProfessionsCustomerOrdersMixin

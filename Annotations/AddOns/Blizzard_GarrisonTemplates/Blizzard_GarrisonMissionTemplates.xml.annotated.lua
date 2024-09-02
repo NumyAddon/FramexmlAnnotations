@@ -21,20 +21,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L288)
 --- @class GarrisonMissionPageRewardTemplate_Reward2 : Frame, GarrisonMissionRewardEffectsTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L293)
---- @class GarrisonMissionPageRewardTemplate_MissionXPTooltipHitBox : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L303)
---- @class GarrisonMissionPageRewardTemplate_TooltipHitBox : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L230)
 --- Template
 --- @class GarrisonMissionPageRewardTemplate : Frame
 --- @field OvermaxItem GarrisonMissionPageRewardTemplate_OvermaxItem
 --- @field Reward1 GarrisonMissionPageRewardTemplate_Reward1
 --- @field Reward2 GarrisonMissionPageRewardTemplate_Reward2
---- @field MissionXPTooltipHitBox GarrisonMissionPageRewardTemplate_MissionXPTooltipHitBox
---- @field TooltipHitBox GarrisonMissionPageRewardTemplate_TooltipHitBox
+--- @field MissionXPTooltipHitBox Frame
+--- @field TooltipHitBox Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L331)
 --- Template
@@ -112,9 +106,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L734)
 --- @class MissionPageTemplate_ItemLevelHitboxFrame : Frame, GarrisonMissionPageItemLevelHitboxFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L739)
---- @class MissionPageTemplate_BuffsFrameAnchor : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L745)
 --- @class MissionPageTemplate_BuffsFrame : Frame, GarrisonMissionPartyBuffsFrameTemplate
 
@@ -130,7 +121,7 @@
 --- @field CloseButton MissionPageTemplate_CloseButton
 --- @field Stage MissionPageTemplate_Stage
 --- @field ItemLevelHitboxFrame MissionPageTemplate_ItemLevelHitboxFrame
---- @field BuffsFrameAnchor MissionPageTemplate_BuffsFrameAnchor
+--- @field BuffsFrameAnchor Frame
 --- @field BuffsFrame MissionPageTemplate_BuffsFrame
 --- @field CostFrame MissionPageTemplate_CostFrame
 
@@ -202,21 +193,15 @@
 --- Template
 --- @class GarrisonMissionChanceFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1157)
---- @class GarrisonMissionBonusRewardsTemplate_ChestModel_ClickFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1078)
 --- @class GarrisonMissionBonusRewardsTemplate_ChestModel : CinematicModel, GarrisonCinematicModelBaseTemplate
---- @field ClickFrame GarrisonMissionBonusRewardsTemplate_ChestModel_ClickFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1179)
---- @class GarrisonMissionBonusRewardsTemplate_Saturated : Frame
+--- @field ClickFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1058)
 --- Template
 --- @class GarrisonMissionBonusRewardsTemplate : Frame
 --- @field ChestModel GarrisonMissionBonusRewardsTemplate_ChestModel
---- @field Saturated GarrisonMissionBonusRewardsTemplate_Saturated
+--- @field Saturated Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1265)
 --- @class GarrisonMissionCompleteStageTemplate_ModelLeft : Frame, GarrisonMissionCompleteModelCluster
@@ -227,16 +212,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1275)
 --- @class GarrisonMissionCompleteStageTemplate_ModelMiddle : Frame, GarrisonMissionCompleteModelCluster
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1280)
---- @class GarrisonMissionCompleteStageTemplate_Miss : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1262)
 --- Template
 --- @class GarrisonMissionCompleteStageTemplate : Frame
 --- @field ModelLeft GarrisonMissionCompleteStageTemplate_ModelLeft
 --- @field ModelRight GarrisonMissionCompleteStageTemplate_ModelRight
 --- @field ModelMiddle GarrisonMissionCompleteStageTemplate_ModelMiddle
---- @field Miss GarrisonMissionCompleteStageTemplate_Miss
+--- @field Miss Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1336)
 --- @class GarrisonMissionCompleteTemplate_NextMissionButton : Button, UIPanelButtonTemplate

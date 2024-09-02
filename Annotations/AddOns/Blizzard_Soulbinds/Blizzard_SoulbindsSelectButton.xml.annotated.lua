@@ -3,13 +3,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L84)
 --- @class SoulbindsSelectButtonTemplate_ModelScene_NewAlert : Frame, NewFeatureLabelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L99)
---- @class SoulbindsSelectButtonTemplate_ModelScene_Active : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L8)
 --- @class SoulbindsSelectButtonTemplate_ModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 --- @field NewAlert SoulbindsSelectButtonTemplate_ModelScene_NewAlert
---- @field Active SoulbindsSelectButtonTemplate_ModelScene_Active
+--- @field Active Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.xml#L116)
 --- @class SoulbindsSelectButtonTemplate_FxModelScene : ModelScene, ScriptAnimatedModelSceneTemplate

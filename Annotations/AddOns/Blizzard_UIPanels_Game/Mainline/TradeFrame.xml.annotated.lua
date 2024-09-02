@@ -8,22 +8,13 @@
 --- Template
 --- @class TradeItemTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L58)
---- @class RecipientTradeItemTemplate_RecipientTradeItemTemplateItemButton : ItemButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L56)
 --- Template
 --- @class RecipientTradeItemTemplate : Frame, TradeItemTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L99)
---- @class PlayerTradeItemTemplate_PlayerTradeItemTemplateItemButton : ItemButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L97)
 --- Template
 --- @class PlayerTradeItemTemplate : Frame, TradeItemTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L182)
---- @class TradeFrame_ : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L200)
 --- @class TradeFrame_RecipientOverlay : Frame, ResizeLayoutFrame

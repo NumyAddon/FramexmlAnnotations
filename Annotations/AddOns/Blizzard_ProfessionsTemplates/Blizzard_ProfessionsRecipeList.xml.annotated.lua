@@ -36,15 +36,9 @@
 --- @class ProfessionsRecipeListCategoryTemplate : Button, ProfessionsRecipeListCategoryMixin
 --- @field RankBar ProfessionsRecipeListCategoryTemplate_RankBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L154)
---- @class ProfessionsRecipeListRecipeTemplate_SkillUps : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L176)
---- @class ProfessionsRecipeListRecipeTemplate_LockedIcon : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L151)
 --- Template
 --- @class ProfessionsRecipeListRecipeTemplate : Button, ProfessionsRecipeListRecipeMixin
---- @field SkillUps ProfessionsRecipeListRecipeTemplate_SkillUps
---- @field LockedIcon ProfessionsRecipeListRecipeTemplate_LockedIcon
+--- @field SkillUps Button
+--- @field LockedIcon Button
 

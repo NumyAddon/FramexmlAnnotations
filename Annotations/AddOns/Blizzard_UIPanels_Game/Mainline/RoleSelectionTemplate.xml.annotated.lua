@@ -1,12 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/RoleSelectionTemplate.xml#L6)
---- @class RoleSelectionRoleTemplate_CheckButton : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/RoleSelectionTemplate.xml#L3)
 --- Template
 --- @class RoleSelectionRoleTemplate : Button, RoleSelectionRoleMixin
---- @field CheckButton RoleSelectionRoleTemplate_CheckButton
+--- @field CheckButton CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/RoleSelectionTemplate.xml#L67)
 --- @class RoleSelectionTemplate_Border : Frame, DialogBorderTemplate

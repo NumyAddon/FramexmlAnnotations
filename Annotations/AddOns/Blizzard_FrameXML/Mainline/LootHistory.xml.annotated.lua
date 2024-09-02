@@ -1,32 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L14)
---- @class LootHistoryElementTemplate_Item : ItemButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L22)
---- @class LootHistoryElementTemplate_BackgroundArtFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L32)
---- @class LootHistoryElementTemplate_WinningRollInfo : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L53)
---- @class LootHistoryElementTemplate_PendingRollInfo : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L88)
---- @class LootHistoryElementTemplate_AllPassedInfo : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L111)
---- @class LootHistoryElementTemplate_PlayerRoll : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L3)
 --- Template
 --- @class LootHistoryElementTemplate : Frame, LootHistoryElementMixin
---- @field Item LootHistoryElementTemplate_Item
---- @field BackgroundArtFrame LootHistoryElementTemplate_BackgroundArtFrame
---- @field WinningRollInfo LootHistoryElementTemplate_WinningRollInfo
---- @field PendingRollInfo LootHistoryElementTemplate_PendingRollInfo
---- @field AllPassedInfo LootHistoryElementTemplate_AllPassedInfo
---- @field PlayerRoll LootHistoryElementTemplate_PlayerRoll
+--- @field Item ItemButton
+--- @field BackgroundArtFrame Frame
+--- @field WinningRollInfo Frame
+--- @field PendingRollInfo Frame
+--- @field AllPassedInfo Frame
+--- @field PlayerRoll Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L143)
 --- Template
@@ -52,23 +34,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L231)
 --- @class GroupLootHistoryFrame_EncounterDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L237)
---- @class GroupLootHistoryFrame_Timer : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L259)
---- @class GroupLootHistoryFrame_ResizeButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L277)
---- @class GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L365)
---- @class GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollTopFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L271)
 --- Template
 --- @class GroupLootHistoryFrame_PerfectAnimFrame : Frame, LootHistoryElementTemplate, LootHistoryElementAnimationMixin
---- @field PerfectRollFrame GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollFrame
---- @field PerfectRollTopFrame GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollTopFrame
+--- @field PerfectRollFrame Frame
+--- @field PerfectRollTopFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L190)
 --- @class GroupLootHistoryFrame : Frame, DefaultPanelFlatTemplate, LootHistoryFrameMixin
@@ -76,8 +46,8 @@
 --- @field ScrollBox GroupLootHistoryFrame_ScrollBox
 --- @field ScrollBar GroupLootHistoryFrame_ScrollBar
 --- @field EncounterDropdown GroupLootHistoryFrame_EncounterDropdown
---- @field Timer GroupLootHistoryFrame_Timer
---- @field ResizeButton GroupLootHistoryFrame_ResizeButton
+--- @field Timer Frame
+--- @field ResizeButton Button
 --- @field PerfectAnimFrame GroupLootHistoryFrame_PerfectAnimFrame
 GroupLootHistoryFrame = {}
 

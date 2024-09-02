@@ -7,16 +7,9 @@ BattlefieldMapTab = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L64)
 --- @class BattlefieldMapFrame_ScrollContainer : ScrollFrame, MapCanvasFrameScrollContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L120)
---- @class BattlefieldMapFrame_BorderFrame_CloseButton : Button, UIPanelCloseButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L70)
---- @class BattlefieldMapFrame_BorderFrame : Frame
---- @field CloseButton BattlefieldMapFrame_BorderFrame_CloseButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L58)
 --- @class BattlefieldMapFrame : Frame, MapCanvasFrameTemplate, BattlefieldMapMixin
 --- @field ScrollContainer BattlefieldMapFrame_ScrollContainer
---- @field BorderFrame BattlefieldMapFrame_BorderFrame
+--- @field BorderFrame Frame
 BattlefieldMapFrame = {}
 

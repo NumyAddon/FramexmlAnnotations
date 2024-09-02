@@ -4,13 +4,10 @@
 --- Template
 --- @class StableActivePetButtonTemplate : Button, StableActivePetButtonTemplateMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L105)
---- @class StableStabledPetButtonTemplate_Portrait : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L68)
 --- Template
 --- @class StableStabledPetButtonTemplate : Button, StableStabledPetButtonTemplateMixin
---- @field Portrait StableStabledPetButtonTemplate_Portrait
+--- @field Portrait Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L154)
 --- Template
@@ -76,24 +73,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L485)
 --- @class StableFrame_StabledPetList_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L508)
---- @class StableFrame_StabledPetList_FilterBar_SearchBox : EditBox, SearchBoxTemplate, StableSearchBoxMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L518)
---- @class StableFrame_StabledPetList_FilterBar_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L492)
---- @class StableFrame_StabledPetList_FilterBar : Frame
---- @field SearchBox StableFrame_StabledPetList_FilterBar_SearchBox
---- @field FilterDropdown StableFrame_StabledPetList_FilterBar_FilterDropdown
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L426)
 --- @class StableFrame_StabledPetList : Frame, StableStabledPetListMixin
 --- @field ListCounter StableFrame_StabledPetList_ListCounter
 --- @field Inset StableFrame_StabledPetList_Inset
 --- @field ScrollBox StableFrame_StabledPetList_ScrollBox
 --- @field ScrollBar StableFrame_StabledPetList_ScrollBar
---- @field FilterBar StableFrame_StabledPetList_FilterBar
+--- @field FilterBar Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L561)
 --- @class StableFrame_ActivePetList_PetButton1 : Button, StableActivePetButtonTemplate
@@ -110,9 +96,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L585)
 --- @class StableFrame_ActivePetList_PetButton5 : Button, StableActivePetButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L591)
---- @class StableFrame_ActivePetList_Divider : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L609)
 --- @class StableFrame_ActivePetList_BeastMasterSecondaryPetButton : Button, StableActivePetButtonTemplate, StableBeastMasterSecondaryPetButtonMixin
 
@@ -123,7 +106,7 @@
 --- @field PetButton3 StableFrame_ActivePetList_PetButton3
 --- @field PetButton4 StableFrame_ActivePetList_PetButton4
 --- @field PetButton5 StableFrame_ActivePetList_PetButton5
---- @field Divider StableFrame_ActivePetList_Divider
+--- @field Divider Frame
 --- @field BeastMasterSecondaryPetButton StableFrame_ActivePetList_BeastMasterSecondaryPetButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L229)

@@ -12,21 +12,11 @@
 --- Template
 --- @class DockManagerOverflowListTemplate : Frame, TooltipBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L151)
---- @class DockManagerTemplate_DockManagerTemplateOverflowButton_DockManagerTemplateOverflowButtonList : Frame, DockManagerOverflowListTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L145)
---- @class DockManagerTemplate_DockManagerTemplateOverflowButton : Button
---- @field list DockManagerTemplate_DockManagerTemplateOverflowButton_DockManagerTemplateOverflowButtonList
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L172)
---- @class DockManagerTemplate_DockManagerTemplateScrollFrame : ScrollFrame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L135)
 --- Template
 --- @class DockManagerTemplate : Frame
---- @field overflowButton DockManagerTemplate_DockManagerTemplateOverflowButton
---- @field scrollFrame DockManagerTemplate_DockManagerTemplateScrollFrame
+--- @field overflowButton Button
+--- @field scrollFrame ScrollFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L200)
 --- Template
@@ -36,28 +26,13 @@
 --- Template
 --- @class ChatTabArtTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L282)
---- @class ChatTabTemplate_ChatTabTemplateFlash : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L277)
 --- Template
 --- @class ChatTabTemplate : Button, ChatTabArtTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L378)
---- @class FloatingChatFrameTemplate_FloatingChatFrameTemplateClickAnywhereButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L391)
---- @class FloatingChatFrameTemplate_FloatingChatFrameTemplateResizeButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L433)
---- @class FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L430)
 --- @class FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame : Frame, FloatingBorderedFrame
---- @field minimizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L450)
---- @class FloatingChatFrameTemplate_ScrollToBottomButton : Button
+--- @field minimizeButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L471)
 --- @class FloatingChatFrameTemplate_FloatingChatFrameTemplateEditBox : EditBox, ChatFrameEditBoxTemplate
@@ -65,14 +40,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L364)
 --- Template
 --- @class FloatingChatFrameTemplate : ScrollingMessageFrame, ChatFrameTemplate, FloatingBorderedFrame
---- @field clickAnywhereButton FloatingChatFrameTemplate_FloatingChatFrameTemplateClickAnywhereButton
---- @field ResizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateResizeButton
+--- @field clickAnywhereButton Button
+--- @field ResizeButton Button
 --- @field buttonFrame FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field ScrollToBottomButton FloatingChatFrameTemplate_ScrollToBottomButton
+--- @field ScrollToBottomButton Button
 --- @field editBox FloatingChatFrameTemplate_FloatingChatFrameTemplateEditBox
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L575)
---- @class FloatingChatFrameMinimizedTemplate_FloatingChatFrameMinimizedTemplateMaximizeButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L512)
 --- Template

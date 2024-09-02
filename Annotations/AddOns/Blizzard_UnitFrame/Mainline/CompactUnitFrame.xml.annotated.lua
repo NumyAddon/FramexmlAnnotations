@@ -24,14 +24,8 @@
 --- Template
 --- @class CompactUnitPrivateAuraAnchorTemplate : Frame, CompactUnitPrivateAuraAnchorMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L113)
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L120)
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateTempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L127)
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar : StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L134)
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff1 : Button, CompactBuffTemplate
@@ -81,19 +75,16 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L160)
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff3 : Button, CompactDispelDebuffTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L161)
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L70)
 --- Template
 --- @class CompactUnitFrameTemplate : Button, SecureUnitButtonTemplate, PingableUnitFrameTemplate
---- @field healthBar CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar
+--- @field healthBar StatusBar
 --- @field TempMaxHealthLoss CompactUnitFrameTemplate_CompactUnitFrameTemplateTempMaxHealthLoss
---- @field powerBar CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar
+--- @field powerBar StatusBar
 --- @field Debuff1 CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff1
 --- @field Debuff2 CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff2
 --- @field Debuff3 CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff3
 --- @field PrivateAuraAnchor1 CompactUnitFrameTemplate_PrivateAuraAnchor1
 --- @field PrivateAuraAnchor2 CompactUnitFrameTemplate_PrivateAuraAnchor2
---- @field centerStatusIcon CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon
+--- @field centerStatusIcon Button
 

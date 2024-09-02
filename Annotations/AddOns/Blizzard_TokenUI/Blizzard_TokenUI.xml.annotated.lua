@@ -12,21 +12,10 @@
 --- @class TokenSubHeaderTemplate : Frame, TruncatedTooltipFontStringWrapperTemplate, TokenSubHeaderMixin
 --- @field ToggleCollapseButton TokenSubHeaderTemplate_ToggleCollapseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L94)
---- @class TokenEntryTemplate_Content_BackgroundHighlight : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L121)
---- @class TokenEntryTemplate_Content_AccountWideIcon : Frame, TokenEntryAccountWideIconMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L92)
---- @class TokenEntryTemplate_Content : Frame
---- @field BackgroundHighlight TokenEntryTemplate_Content_BackgroundHighlight
---- @field AccountWideIcon TokenEntryTemplate_Content_AccountWideIcon
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L89)
 --- Template
 --- @class TokenEntryTemplate : Button, TokenEntryMixin
---- @field Content TokenEntryTemplate_Content
+--- @field Content Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L182)
 --- @class TokenFrame_ScrollBox : Frame, WowScrollBoxList

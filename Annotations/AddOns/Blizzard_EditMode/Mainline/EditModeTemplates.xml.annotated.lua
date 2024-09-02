@@ -44,13 +44,10 @@
 --- @class EditModeSettingSliderTemplate : Frame, EditModeSettingSliderMixin
 --- @field Slider EditModeSettingSliderTemplate_Slider
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.xml#L142)
---- @class EditModeSettingCheckboxTemplate_Button : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.xml#L136)
 --- Template
 --- @class EditModeSettingCheckboxTemplate : Frame, ResizeLayoutFrame, EditModeSettingCheckboxMixin
---- @field Button EditModeSettingCheckboxTemplate_Button
+--- @field Button CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.xml#L171)
 --- Template

@@ -6,13 +6,7 @@ ProfessionsCustomerOrderListElementMixin = CreateFromMixins(TableBuilderRowMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.lua#L59)
 --- @class ProfessionsCustomerOrdersMyOrdersMixin
-ProfessionsCustomerOrdersMyOrdersMixin = {};
-
-local myOrdersPageEvents =
-{
-	"CRAFTINGORDERS_CAN_REQUEST",
-	"CRAFTINGORDERS_ORDER_CANCEL_RESPONSE",
-}
+ProfessionsCustomerOrdersMyOrdersMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.lua#L4)
 function ProfessionsCustomerOrderListElementMixin:OnLineEnter() end

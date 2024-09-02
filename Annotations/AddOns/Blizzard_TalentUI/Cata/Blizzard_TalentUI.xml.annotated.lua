@@ -134,48 +134,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L503)
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateTalent28 : Button, PlayerTalentButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L505)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateArrow : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L542)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateHeaderIcon : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L696)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryRoleIcon : Frame, PlayerTalentFrameRoleIconTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L707)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryRoleIcon2 : Frame, PlayerTalentFrameRoleIconTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L718)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryActiveBonus1 : Frame, PlayerTalentActiveBonusTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L724)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBonus1 : Frame, PlayerTalentPassiveBonusTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L730)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBonus2 : Frame, PlayerTalentPassiveBonusTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L736)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBonus3 : Frame, PlayerTalentPassiveBonusTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L742)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBonus4 : Frame, PlayerTalentPassiveBonusTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L748)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBonus5 : Frame, PlayerTalentPassiveBonusTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L755)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription : ScrollFrame, HybridScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L604)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary : Frame
---- @field RoleIcon PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryRoleIcon
---- @field RoleIcon2 PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryRoleIcon2
---- @field Description PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L783)
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateInactiveShadow : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L812)
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSelectTreeButton : Button, UIPanelButtonTemplate
 
@@ -184,9 +142,9 @@
 --- @class PlayerTalentFramePanelTemplate : Frame, InsetFrameTemplate2
 --- @field RoleIcon PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateRoleIcon
 --- @field RoleIcon2 PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateRoleIcon2
---- @field HeaderIcon PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateHeaderIcon
---- @field Summary PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary
---- @field InactiveShadow PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateInactiveShadow
+--- @field HeaderIcon Frame
+--- @field Summary Frame
+--- @field InactiveShadow Frame
 --- @field SelectTreeButton PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSelectTreeButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L870)
@@ -212,21 +170,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L949)
 --- @class PlayerTalentFrame_PlayerTalentFrameLearnButton : Button, MagicButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L993)
---- @class PlayerTalentFrame_PlayerTalentFrameHeaderFrame_PlayerTalentFrameHeaderHelpBox_PlayerTalentFrameHeaderHelpBoxArrow1 : Frame, GlowBoxArrowTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L999)
---- @class PlayerTalentFrame_PlayerTalentFrameHeaderFrame_PlayerTalentFrameHeaderHelpBox_PlayerTalentFrameHeaderHelpBoxArrow2 : Frame, GlowBoxArrowTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1004)
---- @class PlayerTalentFrame_PlayerTalentFrameHeaderFrame_PlayerTalentFrameHeaderHelpBox_PlayerTalentFrameHeaderHelpBoxArrow3 : Frame, GlowBoxArrowTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L986)
---- @class PlayerTalentFrame_PlayerTalentFrameHeaderFrame_PlayerTalentFrameHeaderHelpBox : Frame, GlowBoxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L969)
---- @class PlayerTalentFrame_PlayerTalentFrameHeaderFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L835)
 --- @class PlayerTalentFrame : Frame, ButtonFrameTemplate
@@ -257,23 +200,11 @@ PlayerTalentFrame = {}
 --- @class PlayerTalentFrameTalents : Frame
 PlayerTalentFrameTalents = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1166)
---- @class PlayerTalentFramePetTalents_PlayerTalentFramePetModel_PlayerTalentFramePetModelRotateLeftButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1189)
---- @class PlayerTalentFramePetTalents_PlayerTalentFramePetModel_PlayerTalentFramePetModelRotateRightButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1208)
 --- @class PlayerTalentFramePetTalents_PlayerTalentFramePetModel_PlayerTalentFramePetShadowOverlay : Frame, ShadowOverlayTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1154)
 --- @class PlayerTalentFramePetTalents_PlayerTalentFramePetModel : PlayerModel, ModelWithZoomTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1249)
---- @class PlayerTalentFramePetTalents_PlayerTalentFramePetInfo_PlayerTalentFramePetDiet : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1211)
---- @class PlayerTalentFramePetTalents_PlayerTalentFramePetInfo : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1395)
 --- @class PlayerTalentFramePetTalents_PlayerTalentFramePetPanel_PlayerTalentFramePetPanelRoleIcon : Frame, PlayerTalentFrameRoleIconTemplate
@@ -353,17 +284,11 @@ PlayerTalentFrameTalents = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1428)
 --- @class PlayerTalentFramePetTalents_PlayerTalentFramePetPanel_PlayerTalentFramePetPanelTalent24 : Button, PetTalentButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1430)
---- @class PlayerTalentFramePetTalents_PlayerTalentFramePetPanel_PlayerTalentFramePetPanelArrow : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1467)
---- @class PlayerTalentFramePetTalents_PlayerTalentFramePetPanel_PlayerTalentFramePetPanelHeaderIcon : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1287)
 --- @class PlayerTalentFramePetTalents_PlayerTalentFramePetPanel : Frame, InsetFrameTemplate2
 --- @field RoleIcon PlayerTalentFramePetTalents_PlayerTalentFramePetPanel_PlayerTalentFramePetPanelRoleIcon
 --- @field RoleIcon2 PlayerTalentFramePetTalents_PlayerTalentFramePetPanel_PlayerTalentFramePetPanelRoleIcon2
---- @field HeaderIcon PlayerTalentFramePetTalents_PlayerTalentFramePetPanel_PlayerTalentFramePetPanelHeaderIcon
+--- @field HeaderIcon Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L1143)
 --- @class PlayerTalentFramePetTalents : Frame

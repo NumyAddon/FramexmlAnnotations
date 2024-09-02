@@ -50,13 +50,6 @@ TicketStatusFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L264)
 --- @class ReportCheatingDialog_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L337)
---- @class ReportCheatingDialog_ReportCheatingDialogCommentFrame_ReportCheatingDialogCommentFrameEditBox : EditBox
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L265)
---- @class ReportCheatingDialog_ReportCheatingDialogCommentFrame : Frame
---- @field EditBox ReportCheatingDialog_ReportCheatingDialogCommentFrame_ReportCheatingDialogCommentFrameEditBox
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L376)
 --- @class ReportCheatingDialog_ReportCheatingDialogReportButton : Button, UIPanelButtonTemplate
 
@@ -66,7 +59,7 @@ TicketStatusFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L246)
 --- @class ReportCheatingDialog : Frame
 --- @field Border ReportCheatingDialog_Border
---- @field CommentFrame ReportCheatingDialog_ReportCheatingDialogCommentFrame
+--- @field CommentFrame Frame
 --- @field reportButton ReportCheatingDialog_ReportCheatingDialogReportButton
 ReportCheatingDialog = {}
 

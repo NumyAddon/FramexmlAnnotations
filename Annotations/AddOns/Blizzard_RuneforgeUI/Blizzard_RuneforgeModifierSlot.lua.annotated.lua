@@ -10,14 +10,7 @@ RuneforgeModifierFrameMixin = CreateFromMixins(RuneforgeSystemMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeModifierSlot.lua#L127)
 --- @class RuneforgeModifierSelectionMixin
-RuneforgeModifierSelectionMixin = {};
-
-local RuneforgeModifierSelectionState = {
-	Available = 1,
-	Unavailable = 2,
-	SelectedInOtherSlot = 3,
-	SelectedInThisSlot = 4,
-}
+RuneforgeModifierSelectionMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeModifierSlot.lua#L226)
 --- @class RuneforgeModifierSelectorFrameMixin

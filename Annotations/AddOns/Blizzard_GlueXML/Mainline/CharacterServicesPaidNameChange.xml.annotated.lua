@@ -1,26 +1,13 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L7)
---- @class PNCCharacterSelect_ControlsFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L8)
---- @class PNCCharacterSelect_ResultsFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L4)
 --- @class PNCCharacterSelect : Frame, CharacterServicesBlockTemplate
---- @field ControlsFrame PNCCharacterSelect_ControlsFrame
---- @field ResultsFrame PNCCharacterSelect_ResultsFrame
+--- @field ControlsFrame Frame
+--- @field ResultsFrame Frame
 PNCCharacterSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L30)
---- @class PNCNameSelect_ControlsFrame_NewNameEditbox : EditBox, CharacterServicesEditBoxHorizontalLabelTemplate, NewNameEditboxMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L19)
---- @class PNCNameSelect_ControlsFrame : Frame
---- @field NewNameEditbox PNCNameSelect_ControlsFrame_NewNameEditbox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidNameChange.xml#L16)
 --- @class PNCNameSelect : Frame, CharacterServicesBlockTemplate
---- @field ControlsFrame PNCNameSelect_ControlsFrame
+--- @field ControlsFrame Frame
 PNCNameSelect = {}
 

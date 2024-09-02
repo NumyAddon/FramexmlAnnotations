@@ -4,20 +4,14 @@
 --- Template
 --- @class BlackMarketColumnButtonTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L107)
---- @class BlackMarketItemTemplate_Item : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L177)
---- @class BlackMarketItemTemplate_TimeLeft : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L215)
 --- @class BlackMarketItemTemplate_CurrentBid : Frame, SmallMoneyFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L39)
 --- Template
 --- @class BlackMarketItemTemplate : Button, BlackMarketItemMixin
---- @field Item BlackMarketItemTemplate_Item
---- @field TimeLeft BlackMarketItemTemplate_TimeLeft
+--- @field Item Button
+--- @field TimeLeft Button
 --- @field CurrentBid BlackMarketItemTemplate_CurrentBid
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L239)
@@ -39,21 +33,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L259)
 --- Template
 --- @class WoodFrameTemplate : Frame, BaseBasicFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L423)
---- @class BlackMarketFrame_HotDeal_Item : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L480)
---- @class BlackMarketFrame_HotDeal_TimeLeft : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L506)
---- @class BlackMarketFrame_HotDeal_HotItemCurrentBidMoneyFrame : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L356)
---- @class BlackMarketFrame_HotDeal : Frame
---- @field Item BlackMarketFrame_HotDeal_Item
---- @field TimeLeft BlackMarketFrame_HotDeal_TimeLeft
---- @field BlackMarketHotItemBidPrice BlackMarketFrame_HotDeal_HotItemCurrentBidMoneyFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L535)
 --- @class BlackMarketFrame_ColumnName : Frame, BlackMarketColumnButtonTemplate
@@ -96,7 +75,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/725f65883c2218d88a07b52675dae49ecf78a154/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L332)
 --- @class BlackMarketFrame : Frame, WoodFrameTemplate
---- @field HotDeal BlackMarketFrame_HotDeal
+--- @field HotDeal Frame
 --- @field ColumnName BlackMarketFrame_ColumnName
 --- @field ColumnLevel BlackMarketFrame_ColumnLevel
 --- @field ColumnType BlackMarketFrame_ColumnType

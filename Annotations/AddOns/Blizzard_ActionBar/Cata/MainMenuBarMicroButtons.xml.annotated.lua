@@ -36,12 +36,9 @@ AchievementMicroButton = {}
 --- @class QuestLogMicroButton : Button, MainMenuBarMicroButton
 QuestLogMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L238)
---- @class GuildMicroButton_NotificationOverlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L226)
 --- @class GuildMicroButton : Button, MainMenuBarMicroButton, GuildMicroButtonMixin
---- @field NotificationOverlay GuildMicroButton_NotificationOverlay
+--- @field NotificationOverlay Frame
 GuildMicroButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L247)

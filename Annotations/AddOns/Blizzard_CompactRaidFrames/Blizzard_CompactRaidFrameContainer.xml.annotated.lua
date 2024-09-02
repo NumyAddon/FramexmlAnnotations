@@ -1,10 +1,7 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L7)
---- @class CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L4)
 --- @class CompactRaidFrameContainer : Frame
---- @field borderFrame CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame
+--- @field borderFrame Frame
 CompactRaidFrameContainer = {}
 

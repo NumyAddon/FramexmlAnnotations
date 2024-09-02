@@ -258,51 +258,6 @@ InterfaceOptionsActionBarsPanel = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1907)
 --- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelNonCombatCreature : CheckButton, InterfaceOptionsCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1935)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelFriendly_InterfaceOptionsNamesPanelFriendlyPlayerNames : CheckButton, InterfaceOptionsCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1951)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelFriendly_InterfaceOptionsNamesPanelFriendlyMinions : CheckButton, InterfaceOptionsSmallCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1923)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelFriendly : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1981)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelEnemy_InterfaceOptionsNamesPanelEnemyPlayerNames : CheckButton, InterfaceOptionsCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1997)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelEnemy_InterfaceOptionsNamesPanelEnemyMinions : CheckButton, InterfaceOptionsSmallCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1969)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelEnemy : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2040)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelUnitNameplates_InterfaceOptionsNamesPanelUnitNameplatesShowAll : CheckButton, InterfaceOptionsCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2052)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelUnitNameplates_InterfaceOptionsNamesPanelUnitNameplatesEnemies : CheckButton, InterfaceOptionsCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2074)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelUnitNameplates_InterfaceOptionsNamesPanelUnitNameplatesEnemyMinions : CheckButton, InterfaceOptionsSmallCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2086)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelUnitNameplates_InterfaceOptionsNamesPanelUnitNameplatesEnemyMinus : CheckButton, InterfaceOptionsSmallCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2098)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelUnitNameplates_InterfaceOptionsNamesPanelUnitNameplatesFriends : CheckButton, InterfaceOptionsCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2120)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelUnitNameplates_InterfaceOptionsNamesPanelUnitNameplatesFriendlyMinions : CheckButton, InterfaceOptionsSmallCheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2132)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelUnitNameplates_InterfaceOptionsNamesPanelUnitNameplatesMotionDropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2165)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelUnitNameplates_InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSlider : Slider, OptionsSliderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2015)
---- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelUnitNameplates : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1811)
 --- @class InterfaceOptionsNamesPanel : Frame
 InterfaceOptionsNamesPanel = {}
@@ -409,9 +364,6 @@ InterfaceOptionsMousePanel = {}
 --- @field CursorSizeDropdown InterfaceOptionsAccessibilityPanel_InterfaceOptionsAccessibilityPanelCursorSizeDropdown
 InterfaceOptionsAccessibilityPanel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2867)
---- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L3019)
 --- @class InterfaceOptionsColorblindPanel_InterfaceOptionsColorblindPanelColorFilterDropDown : Frame, UIDropDownMenuTemplate
 
@@ -420,12 +372,9 @@ InterfaceOptionsAccessibilityPanel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2854)
 --- @class InterfaceOptionsColorblindPanel : Frame
---- @field ColorblindFilterExamples InterfaceOptionsColorblindPanel_ColorblindFilterExamples
+--- @field ColorblindFilterExamples Frame
 --- @field ColorblindFilterDropDown InterfaceOptionsColorblindPanel_InterfaceOptionsColorblindPanelColorFilterDropDown
 InterfaceOptionsColorblindPanel = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L3096)
---- @class SocialBrowserFrame_SocialBrowser : Browser
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L3090)
 --- @class SocialBrowserFrame : Frame, BasicFrameTemplate

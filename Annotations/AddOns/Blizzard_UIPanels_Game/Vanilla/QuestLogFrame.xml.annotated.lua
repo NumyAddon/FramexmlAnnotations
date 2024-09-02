@@ -8,18 +8,6 @@
 --- Template
 --- @class QuestLogRewardItemTemplate : Button, QuestItemTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L255)
---- @class QuestLogFrame_QuestLogExpandButtonFrame_QuestLogCollapseAllButton : Button, QuestLogTitleButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L243)
---- @class QuestLogFrame_QuestLogExpandButtonFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L315)
---- @class QuestLogFrame_QuestLogTrack : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L361)
---- @class QuestLogFrame_EmptyQuestLogFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L433)
 --- @class QuestLogFrame_QuestLogFrameCloseButton : Button, UIPanelCloseButton
 
@@ -31,9 +19,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L490)
 --- @class QuestLogFrame_QuestFramePushQuestButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L513)
---- @class QuestLogFrame_QuestLogHighlightFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L526)
 --- @class QuestLogFrame_QuestLogTitle1 : Button, QuestLogTitleButtonTemplate

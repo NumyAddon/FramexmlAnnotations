@@ -1,12 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.xml#L74)
---- @class WorldQuestPinTemplate_TimeLowFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.xml#L5)
 --- Template
 --- @class WorldQuestPinTemplate : Frame, WorldQuestPinMixin
---- @field TimeLowFrame WorldQuestPinTemplate_TimeLowFrame
+--- @field TimeLowFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.xml#L88)
 --- Template

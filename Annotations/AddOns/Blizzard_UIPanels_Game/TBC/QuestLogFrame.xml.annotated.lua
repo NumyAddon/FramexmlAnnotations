@@ -8,24 +8,6 @@
 --- Template
 --- @class QuestLogRewardItemTemplate : Button, QuestItemTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L214)
---- @class QuestLogFrame_QuestLogExpandButtonFrame_QuestLogCollapseAllButton : Button, QuestLogTitleButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L202)
---- @class QuestLogFrame_QuestLogExpandButtonFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L274)
---- @class QuestLogFrame_QuestLogTrack : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L320)
---- @class QuestLogFrame_EmptyQuestLogFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L513)
---- @class QuestLogFrame_QuestLogCount_DailyQuestCountButton : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L393)
---- @class QuestLogFrame_QuestLogCount : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L534)
 --- @class QuestLogFrame_QuestLogFrameCloseButton : Button, UIPanelCloseButton
 
@@ -37,9 +19,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L591)
 --- @class QuestLogFrame_QuestFramePushQuestButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L614)
---- @class QuestLogFrame_QuestLogHighlightFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L627)
 --- @class QuestLogFrame_QuestLogTitle1 : Button, QuestLogTitleButtonTemplate

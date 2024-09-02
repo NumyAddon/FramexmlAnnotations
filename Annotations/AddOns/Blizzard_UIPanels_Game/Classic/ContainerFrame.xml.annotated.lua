@@ -138,23 +138,14 @@ AzeriteItemInBagHelpBox = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- @class ContainerFrameTemplate_ContainerFrameTemplateItem36 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
---- @class ContainerFrameTemplate_ContainerFrameTemplatePortraitButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
---- @class ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
 --- @class ContainerFrameTemplate_ContainerFrameTemplateCloseButton : Button, UIPanelCloseButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L459)
---- @class ContainerFrameTemplate_ClickableTitleFrame : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L201)
 --- Template
 --- @class ContainerFrameTemplate : Frame
---- @field PortraitButton ContainerFrameTemplate_ContainerFrameTemplatePortraitButton
---- @field ClickableTitleFrame ContainerFrameTemplate_ClickableTitleFrame
+--- @field PortraitButton Button
+--- @field ClickableTitleFrame Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L495)
 --- @class ContainerFrame1 : Frame, ContainerFrameTemplate

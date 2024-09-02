@@ -37,23 +37,8 @@ QuestLogDetailFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L451)
 --- @class QuestLogFrame_QuestLogFrameCancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L468)
---- @class QuestLogFrame_QuestLogFrameShowMapButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L537)
---- @class QuestLogFrame_EmptyQuestLogFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L711)
---- @class QuestLogFrame_QuestLogCount_QuestLogDailyQuestCountMouseOverFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L598)
---- @class QuestLogFrame_QuestLogCount : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L741)
 --- @class QuestLogFrame_QuestLogListScrollFrame_QuestLogListScrollFrameScrollBar : Slider, HybridScrollBarTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L761)
---- @class QuestLogFrame_QuestLogListScrollFrame_QuestLogHighlightFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L729)
 --- @class QuestLogFrame_QuestLogListScrollFrame : ScrollFrame, HybridScrollFrameTemplate

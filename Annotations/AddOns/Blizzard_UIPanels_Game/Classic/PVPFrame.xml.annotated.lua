@@ -1,14 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L74)
---- @class PVPFrame_PVPFrameHonor : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L130)
---- @class PVPFrame_PVPFrameArena : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L187)
---- @class PVPFrame_PVPHonor : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L292)
 --- @class PVPFrame_PVPTeam1Standard : Frame, PVPTeamStandardTemplate
 
@@ -35,9 +26,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L377)
 --- @class PVPFrame_PVPTeam3 : Button, PVPTeamBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L406)
---- @class PVPFrame_PVPFrameToggleButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L3)
 --- @class PVPFrame : Frame
@@ -96,9 +84,6 @@ PVPFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L786)
 --- @class PVPTeamDetails_PVPTeamDetailsAddTeamMember : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L805)
---- @class PVPTeamDetails_PVPTeamDetailsToggleButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L447)
 --- @class PVPTeamDetails : Frame

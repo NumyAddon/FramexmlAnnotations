@@ -16,9 +16,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L114)
 --- @class MacroFrame_MacroFrameScrollFrame : ScrollFrame, MacroFrameScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L145)
---- @class MacroFrame_MacroFrameTextButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L156)
 --- @class MacroFrame_MacroCancelButton : Button, UIPanelButtonTemplate
 

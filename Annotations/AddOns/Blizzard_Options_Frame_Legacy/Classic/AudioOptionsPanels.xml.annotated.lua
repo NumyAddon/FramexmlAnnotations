@@ -100,21 +100,6 @@ AudioOptionsSoundPanel = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L845)
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatMicSensitivity : Slider, OptionsSliderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L880)
---- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice_ToggleTest : Button, OptionsButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L912)
---- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice_VUMeter_Status : StatusBar, TextStatusBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L899)
---- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice_VUMeter : Frame, OptionsBoxTemplate
---- @field Status AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice_VUMeter_Status
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L865)
---- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice : Frame
---- @field ToggleTest AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice_ToggleTest
---- @field VUMeter AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice_VUMeter
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L930)
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelChatModeDropdown : Frame, OptionsDropdownTemplate
 
@@ -126,7 +111,7 @@ AudioOptionsSoundPanel = {}
 --- @field MicDeviceDropdown AudioOptionsVoicePanel_AudioOptionsVoicePanelMicDeviceDropdown
 --- @field VoiceChatMicVolume AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatMicVolume
 --- @field VoiceChatMicSensitivity AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatMicSensitivity
---- @field TestInputDevice AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice
+--- @field TestInputDevice Frame
 --- @field ChatModeDropdown AudioOptionsVoicePanel_AudioOptionsVoicePanelChatModeDropdown
 AudioOptionsVoicePanel = {}
 

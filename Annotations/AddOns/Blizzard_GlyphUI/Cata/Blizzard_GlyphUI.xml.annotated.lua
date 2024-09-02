@@ -19,12 +19,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L321)
 --- @class GlyphFrame_GlyphFrameSideInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L338)
---- @class GlyphFrame_GlyphFrameClearInfoFrame : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L377)
---- @class GlyphFrame_GlyphFrameSearchBox : EditBox
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L459)
 --- @class GlyphFrame_GlyphFrameFilterDropDown : Frame, UIDropDownMenuTemplate
 
@@ -73,7 +67,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L258)
 --- @class GlyphFrame : Frame
 --- @field sideInset GlyphFrame_GlyphFrameSideInset
---- @field clearInfo GlyphFrame_GlyphFrameClearInfoFrame
+--- @field clearInfo Button
 --- @field scrollFrame GlyphFrame_GlyphFrameScrollFrame
 GlyphFrame = {}
 

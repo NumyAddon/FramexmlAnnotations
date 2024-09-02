@@ -1,12 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L142)
---- @class MountListButtonTemplate_DragButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L80)
 --- Template
 --- @class MountListButtonTemplate : Button
---- @field DragButton MountListButtonTemplate_DragButton
+--- @field DragButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L231)
 --- @class MountJournal_LeftInset : Frame, InsetFrameTemplate
@@ -26,29 +23,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L342)
 --- @class MountJournal_MountCount : Frame, InsetFrameTemplate3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L387)
---- @class MountJournal_MountDisplay_ShadowOverlay : Frame, ShadowOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L388)
---- @class MountJournal_MountDisplay_InfoButton : Button, InlineHyperlinkFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L450)
---- @class MountJournal_MountDisplay_ModelScene_RotateLeftButton : Button, RotateOrbitCameraLeftButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L451)
---- @class MountJournal_MountDisplay_ModelScene_RotateRightButton : Button, RotateOrbitCameraRightButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L444)
---- @class MountJournal_MountDisplay_ModelScene : ModelScene, WrappedAndUnwrappedModelScene
---- @field RotateLeftButton MountJournal_MountDisplay_ModelScene_RotateLeftButton
---- @field RotateRightButton MountJournal_MountDisplay_ModelScene_RotateRightButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L363)
---- @class MountJournal_MountDisplay : Frame
---- @field ShadowOverlay MountJournal_MountDisplay_ShadowOverlay
---- @field InfoButton MountJournal_MountDisplay_InfoButton
---- @field ModelScene MountJournal_MountDisplay_ModelScene
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L485)
 --- @class MountJournal_ScrollBox : Frame, WowScrollBoxList
 
@@ -67,7 +41,7 @@
 --- @field RightInset MountJournal_RightInset
 --- @field searchBox MountJournal_MountJournalSearchBox
 --- @field MountCount MountJournal_MountCount
---- @field MountDisplay MountJournal_MountDisplay
+--- @field MountDisplay Frame
 --- @field ScrollBox MountJournal_ScrollBox
 --- @field ScrollBar MountJournal_ScrollBar
 --- @field MountButton MountJournal_MountJournalMountButton

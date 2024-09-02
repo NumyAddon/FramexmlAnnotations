@@ -20,12 +20,6 @@
 --- Template
 --- @class CompactDispelDebuffTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L184)
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar : StatusBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L191)
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L198)
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff1 : Button, CompactBuffTemplate
 
@@ -53,18 +47,15 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L206)
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff3 : Button, CompactDispelDebuffTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L207)
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L241)
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDropDown : Frame, UIDropDownMenuTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L141)
 --- Template
 --- @class CompactUnitFrameTemplate : Button, SecureUnitButtonTemplate
---- @field healthBar CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar
---- @field powerBar CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar
---- @field centerStatusIcon CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon
+--- @field healthBar StatusBar
+--- @field powerBar StatusBar
+--- @field centerStatusIcon Button
 --- @field dropDown CompactUnitFrameTemplate_CompactUnitFrameTemplateDropDown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L260)

@@ -4,9 +4,6 @@
 --- Template
 --- @class GlueDialogButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueDialogs/Classic/GlueDialog.xml#L69)
---- @class GlueDialog_GlueDialogBackground_GlueDialogHTML : SimpleHTML
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueDialogs/Classic/GlueDialog.xml#L89)
 --- @class GlueDialog_GlueDialogBackground_GlueDialogButton1 : Button, GlueDialogButtonTemplate
 
@@ -22,14 +19,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueDialogs/Classic/GlueDialog.xml#L29)
 --- @class GlueDialog_GlueDialogBackground : Frame, BackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueDialogs/Classic/GlueDialog.xml#L108)
---- @class GlueDialog_GlueDialogEditBox : EditBox
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueDialogs/Classic/GlueDialog.xml#L155)
---- @class GlueDialog_Cover : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_GlueDialogs/Classic/GlueDialog.xml#L27)
 --- @class GlueDialog : Frame
---- @field Cover GlueDialog_Cover
+--- @field Cover Frame
 GlueDialog = {}
 

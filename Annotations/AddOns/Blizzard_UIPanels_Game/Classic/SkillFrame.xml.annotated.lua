@@ -1,8 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
---- @class SkillStatusBarTemplate_SkillStatusBarTemplateBorder : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L3)
 --- Template
 --- @class SkillStatusBarTemplate : StatusBar
@@ -10,12 +7,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L65)
 --- Template
 --- @class SkillLabelTemplate : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L264)
---- @class SkillFrame_SkillFrameExpandButtonFrame_SkillFrameCollapseAllButton : Button, SkillLabelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L214)
---- @class SkillFrame_SkillFrameExpandButtonFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L289)
 --- @class SkillFrame_SkillFrameCancelButton : Button, UIPanelButtonTemplate

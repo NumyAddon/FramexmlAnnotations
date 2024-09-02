@@ -67,15 +67,6 @@
 --- Template
 --- @class WatchFrameLineTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L200)
---- @class WatchFrame_WatchFrameHeader : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L223)
---- @class WatchFrame_WatchFrameCollapseExpandButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L244)
---- @class WatchFrame_WatchFrameLines : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L192)
 --- @class WatchFrame : Frame
 WatchFrame = {}

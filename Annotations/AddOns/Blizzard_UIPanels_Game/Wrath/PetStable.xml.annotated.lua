@@ -4,18 +4,6 @@
 --- Template
 --- @class PetStableSlotTemplate : CheckButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L198)
---- @class PetStableFrame_PetStableModel_PetStableModelRotateRightButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L223)
---- @class PetStableFrame_PetStableModel_PetStableModelRotateLeftButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L244)
---- @class PetStableFrame_PetStableModel_PetStablePetInfo : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L172)
---- @class PetStableFrame_PetStableModel : PlayerModel
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L277)
 --- @class PetStableFrame_PetStableCurrentPet : CheckButton, PetStableSlotTemplate
 

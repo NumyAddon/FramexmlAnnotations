@@ -4,9 +4,6 @@
 --- Template
 --- @class ReputationHeaderTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
---- @class ReputationBarTemplate_ReputationBarTemplateAtWarCheck : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L53)
 --- Template
 --- @class ReputationBarTemplate : StatusBar
@@ -104,17 +101,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L548)
 --- @class ReputationFrame_ReputationListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L595)
---- @class ReputationFrame_FactionMouseOver : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L607)
---- @class ReputationFrame_StandingMouseOver : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L700)
 --- @class ReputationFrame_ReputationDetailFrame_ReputationDetailCloseButton : Button, UIPanelCloseButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L714)
---- @class ReputationFrame_ReputationDetailFrame_ReputationDetailAtWarCheckBox : CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L771)
 --- @class ReputationFrame_ReputationDetailFrame_ReputationDetailInactiveCheckBox : CheckButton, OptionsSmallCheckButtonTemplate

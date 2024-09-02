@@ -2,18 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L43)
 --- @class IconDataProviderMixin
-IconDataProviderMixin = {};
-
-IconDataProviderIconType = EnumUtil.MakeEnum(
-	"Spell",
-	"Item"
-);
-
-IconDataProviderExtraType = {
-	Spellbook = 1,
-	Equipment = 2,
-	None = 3,
-}
+IconDataProviderMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L123)
 function IconDataProviderMixin:Init(type, extraIconsOnly, requestedIconTypes) end

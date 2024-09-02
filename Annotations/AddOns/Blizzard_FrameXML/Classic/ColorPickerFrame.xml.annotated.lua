@@ -16,9 +16,6 @@ ColorPickerFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L224)
 --- @class OpacityFrame_OpacityFrameSlider : Slider, BackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L284)
---- @class OpacityFrame_OpacityFrameCloseButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L209)
 --- @class OpacityFrame : Frame, BackdropTemplate
 OpacityFrame = {}

@@ -4,9 +4,6 @@
 --- Template
 --- @class GameTooltipCommonTemplate : GameTooltip
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L222)
---- @class GameTooltipTemplate_GameTooltipTemplateStatusBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L22)
 --- Template
 --- @class GameTooltipTemplate : GameTooltip, GameTooltipCommonTemplate, TooltipBackdropTemplate
@@ -23,11 +20,8 @@
 --- Template
 --- @class TooltipStatusBarTemplate : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L438)
---- @class TooltipProgressBarTemplate_Bar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L435)
 --- Template
 --- @class TooltipProgressBarTemplate : Frame
---- @field Bar TooltipProgressBarTemplate_Bar
+--- @field Bar StatusBar
 

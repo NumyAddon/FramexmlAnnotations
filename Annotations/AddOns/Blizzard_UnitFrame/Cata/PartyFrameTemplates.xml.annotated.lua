@@ -16,12 +16,6 @@
 --- Template
 --- @class PartyPetDebuffFrameTemplate : Frame, PartyDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L103)
---- @class PartyMemberPetFrameTemplate__ : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L101)
---- @class PartyMemberPetFrameTemplate_ : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L122)
 --- @class PartyMemberPetFrameTemplate_PartyMemberPetFrameTemplateHealthBar : StatusBar, TextStatusBar
 
@@ -47,12 +41,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L222)
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplatePowerBarAlt : Frame, UnitPowerBarAltTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L229)
---- @class PartyMemberFrameTemplate__ : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L227)
---- @class PartyMemberFrameTemplate_ : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L302)
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateHealthBar_MyHealPredictionBar : Frame, PartyFrameBarSegmentTemplate, MyHealPredictionBarTemplate
 
@@ -69,9 +57,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L344)
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateReadyCheck : Frame, ReadyCheckStatusTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L354)
---- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateNotPresentIcon : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L376)
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateDebuff1 : Button, PartyDebuffFrameTemplate
@@ -93,5 +78,5 @@
 --- @class PartyMemberFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field HealthBar PartyMemberFrameTemplate_PartyMemberFrameTemplateHealthBar
 --- @field ManaBar PartyMemberFrameTemplate_PartyMemberFrameTemplateManaBar
---- @field notPresentIcon PartyMemberFrameTemplate_PartyMemberFrameTemplateNotPresentIcon
+--- @field notPresentIcon Frame
 

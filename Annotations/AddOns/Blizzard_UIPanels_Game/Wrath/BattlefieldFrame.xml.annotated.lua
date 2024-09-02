@@ -4,13 +4,10 @@
 --- Template
 --- @class PVPQueueInfoScrollFrameTemplate : ScrollFrame, UIPanelScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L309)
---- @class PVPBattlegroundButtonTemplate_status : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L304)
 --- Template
 --- @class PVPBattlegroundButtonTemplate : Button
---- @field status PVPBattlegroundButtonTemplate_status
+--- @field status Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L457)
 --- @class BattlefieldFrame_BattlegroundType1 : Button, PVPBattlegroundButtonTemplate

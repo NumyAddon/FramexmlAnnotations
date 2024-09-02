@@ -4,21 +4,9 @@
 --- Template
 --- @class OptionsFrameTabButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame/OptionsFrameTemplates.xml#L142)
---- @class OptionsFrameListTemplate_OptionsFrameListTemplateList_OptionsFrameListTemplateListScrollBar : Slider, UIPanelScrollBarTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame/OptionsFrameTemplates.xml#L161)
---- @class OptionsFrameListTemplate_OptionsFrameListTemplateList_OptionsFrameListTemplateListScrollChildFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame/OptionsFrameTemplates.xml#L116)
---- @class OptionsFrameListTemplate_OptionsFrameListTemplateList : ScrollFrame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame/OptionsFrameTemplates.xml#L111)
 --- Template
 --- @class OptionsFrameListTemplate : Frame, TooltipBorderBackdropTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame/OptionsFrameTemplates.xml#L174)
---- @class OptionsListButtonTemplate_OptionsListButtonTemplateToggle : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Options_Frame/OptionsFrameTemplates.xml#L169)
 --- Template

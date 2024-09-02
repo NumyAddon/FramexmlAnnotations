@@ -47,13 +47,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L249)
 --- @class ClubsRecruitmentDialogTemplate_BG : Frame, DialogBorderDarkTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L256)
---- @class ClubsRecruitmentDialogTemplate_ShouldListClub_Button : CheckButton, ClubFinderCheckboxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L250)
---- @class ClubsRecruitmentDialogTemplate_ShouldListClub : Frame
---- @field Button ClubsRecruitmentDialogTemplate_ShouldListClub_Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L280)
 --- @class ClubsRecruitmentDialogTemplate_ClubFinderClubFocusDropdown : Frame, ClubFinderFocusDropdownTemplate
 
@@ -62,31 +55,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L302)
 --- @class ClubsRecruitmentDialogTemplate_ClubFinderLanguageDropdown : Frame, UIDropDownMenuTemplate, ClubFinderLanguageDropdownMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L390)
---- @class ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame_RecruitmentMessageInput : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L318)
---- @class ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame : Frame
---- @field RecruitmentMessageInput ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame_RecruitmentMessageInput
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L404)
---- @class ClubsRecruitmentDialogTemplate_MaxLevelOnly_Button : CheckButton, ClubFinderCheckboxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L398)
---- @class ClubsRecruitmentDialogTemplate_MaxLevelOnly : Frame
---- @field Button ClubsRecruitmentDialogTemplate_MaxLevelOnly_Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L428)
---- @class ClubsRecruitmentDialogTemplate_MinIlvlOnly_Button : CheckButton, ClubFinderCheckboxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L443)
---- @class ClubsRecruitmentDialogTemplate_MinIlvlOnly_EditBox : EditBox, InputBoxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L422)
---- @class ClubsRecruitmentDialogTemplate_MinIlvlOnly : Frame
---- @field Button ClubsRecruitmentDialogTemplate_MinIlvlOnly_Button
---- @field EditBox ClubsRecruitmentDialogTemplate_MinIlvlOnly_EditBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L476)
 --- @class ClubsRecruitmentDialogTemplate_Accept : Button, UIPanelButtonTemplate
@@ -98,13 +66,13 @@
 --- Template
 --- @class ClubsRecruitmentDialogTemplate : Frame, ClubsRecruitmentDialogMixin
 --- @field BG ClubsRecruitmentDialogTemplate_BG
---- @field ShouldListClub ClubsRecruitmentDialogTemplate_ShouldListClub
+--- @field ShouldListClub Frame
 --- @field ClubFocusDropdown ClubsRecruitmentDialogTemplate_ClubFinderClubFocusDropdown
 --- @field LookingForDropdown ClubsRecruitmentDialogTemplate_ClubFinderLookingForDropdown
 --- @field LanguageDropdown ClubsRecruitmentDialogTemplate_ClubFinderLanguageDropdown
---- @field RecruitmentMessageFrame ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame
---- @field MaxLevelOnly ClubsRecruitmentDialogTemplate_MaxLevelOnly
---- @field MinIlvlOnly ClubsRecruitmentDialogTemplate_MinIlvlOnly
+--- @field RecruitmentMessageFrame Frame
+--- @field MaxLevelOnly Frame
+--- @field MinIlvlOnly Frame
 --- @field Accept ClubsRecruitmentDialogTemplate_Accept
 --- @field Cancel ClubsRecruitmentDialogTemplate_Cancel
 
@@ -127,13 +95,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L603)
 --- @class ClubFinderRequestToJoinTemplate_BG : Frame, DialogBorderDarkTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L668)
---- @class ClubFinderRequestToJoinTemplate_MessageFrame_MessageScroll : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L604)
---- @class ClubFinderRequestToJoinTemplate_MessageFrame : Frame
---- @field MessageScroll ClubFinderRequestToJoinTemplate_MessageFrame_MessageScroll
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L675)
 --- @class ClubFinderRequestToJoinTemplate_Apply : Button, UIPanelButtonTemplate
 
@@ -144,7 +105,7 @@
 --- Template
 --- @class ClubFinderRequestToJoinTemplate : Frame, ClubFinderRequestToJoinMixin
 --- @field BG ClubFinderRequestToJoinTemplate_BG
---- @field MessageFrame ClubFinderRequestToJoinTemplate_MessageFrame
+--- @field MessageFrame Frame
 --- @field Apply ClubFinderRequestToJoinTemplate_Apply
 --- @field Cancel ClubFinderRequestToJoinTemplate_Cancel
 
@@ -181,12 +142,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L868)
 --- @class ClubFinderGuildCardsFrameTemplate_ThirdCard : Frame, ClubFinderGuildCardTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L873)
---- @class ClubFinderGuildCardsFrameTemplate_PreviousPage : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L888)
---- @class ClubFinderGuildCardsFrameTemplate_NextPage : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L903)
 --- @class ClubFinderGuildCardsFrameTemplate_SearchingSpinner : Frame, SpinnerTemplate
 
@@ -196,16 +151,13 @@
 --- @field FirstCard ClubFinderGuildCardsFrameTemplate_FirstCard
 --- @field SecondCard ClubFinderGuildCardsFrameTemplate_SecondCard
 --- @field ThirdCard ClubFinderGuildCardsFrameTemplate_ThirdCard
---- @field PreviousPage ClubFinderGuildCardsFrameTemplate_PreviousPage
---- @field NextPage ClubFinderGuildCardsFrameTemplate_NextPage
+--- @field PreviousPage Button
+--- @field NextPage Button
 --- @field SearchingSpinner ClubFinderGuildCardsFrameTemplate_SearchingSpinner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L921)
 --- Template
 --- @class ClubFinderRoleTemplate : Frame, ClubFinderRoleMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1013)
---- @class ClubFinderCommunitiesCardTemplate_RequestJoin : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1038)
 --- @class ClubFinderCommunitiesCardTemplate_RightClickDropdown : Frame, UIDropDownMenuTemplate
@@ -213,7 +165,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L934)
 --- Template
 --- @class ClubFinderCommunitiesCardTemplate : Button, ClubFinderCommunitiesCardMixin
---- @field RequestJoin ClubFinderCommunitiesCardTemplate_RequestJoin
+--- @field RequestJoin Frame
 --- @field RightClickDropdown ClubFinderCommunitiesCardTemplate_RightClickDropdown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1057)
@@ -227,9 +179,6 @@
 --- @class ClubFinderCommunitiesCardFrameTemplate : Frame
 --- @field ScrollBox ClubFinderCommunitiesCardFrameTemplate_ScrollBox
 --- @field ScrollBar ClubFinderCommunitiesCardFrameTemplate_ScrollBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1074)
---- @class ClubFinderOptionsTemplate_PendingTextFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1085)
 --- @class ClubFinderOptionsTemplate_ClubFinderFilterDropdown : Frame, ClubFinderFilterDropdownTemplate
@@ -270,7 +219,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1072)
 --- Template
 --- @class ClubFinderOptionsTemplate : Frame, ClubFinderOptionsMixin
---- @field PendingTextFrame ClubFinderOptionsTemplate_PendingTextFrame
+--- @field PendingTextFrame Frame
 --- @field ClubFilterDropdown ClubFinderOptionsTemplate_ClubFinderFilterDropdown
 --- @field ClubSizeDropdown ClubFinderOptionsTemplate_ClubFinderSizeDropdown
 --- @field SortByDropdown ClubFinderOptionsTemplate_ClubFinderSortByDropdown

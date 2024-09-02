@@ -16,9 +16,6 @@
 --- Template
 --- @class DialogButtonHighlightTexture : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L29)
---- @class DialogBoxFrame_DialogBoxFrameButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L21)
 --- Template
 --- @class DialogBoxFrame : Frame, BackdropTemplate
@@ -32,9 +29,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L160)
 --- @class BasicMessageDialog_Border : Frame, DialogBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L161)
---- @class BasicMessageDialog_BasicMessageDialogButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L144)
 --- @class BasicMessageDialog : Frame
@@ -54,12 +48,6 @@ BasicMessageDialog = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L245)
 --- @class ScriptErrorsFrame_Reload : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L254)
---- @class ScriptErrorsFrame_PreviousError : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L271)
---- @class ScriptErrorsFrame_NextError : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L288)
 --- @class ScriptErrorsFrame_Close : Button, UIPanelButtonTemplate
 
@@ -68,8 +56,8 @@ BasicMessageDialog = {}
 --- @field DragArea ScriptErrorsFrame_DragArea
 --- @field ScrollFrame ScriptErrorsFrame_ScrollFrame
 --- @field Reload ScriptErrorsFrame_Reload
---- @field PreviousError ScriptErrorsFrame_PreviousError
---- @field NextError ScriptErrorsFrame_NextError
+--- @field PreviousError Button
+--- @field NextError Button
 --- @field Close ScriptErrorsFrame_Close
 ScriptErrorsFrame = {}
 
@@ -85,23 +73,10 @@ ScriptErrorsFrame = {}
 --- @class BaseExpandableDialog : Frame, BaseExpandableDialogMixin
 --- @field CloseButton BaseExpandableDialog_CloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L367)
---- @class BaseNineSliceDialog_Underlay : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L386)
---- @class BaseNineSliceDialog_Border : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L437)
---- @class BaseNineSliceDialog_Contents_CloseButton : Button, SharedButtonLargeTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L387)
---- @class BaseNineSliceDialog_Contents : Frame
---- @field CloseButton BaseNineSliceDialog_Contents_CloseButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L349)
 --- Template
 --- @class BaseNineSliceDialog : Frame, ResizeLayoutFrame, DefaultScaleFrame, BaseNineSliceDialogMixin
---- @field Underlay BaseNineSliceDialog_Underlay
---- @field Border BaseNineSliceDialog_Border
---- @field Contents BaseNineSliceDialog_Contents
+--- @field Underlay Frame
+--- @field Border Frame
+--- @field Contents Frame
 

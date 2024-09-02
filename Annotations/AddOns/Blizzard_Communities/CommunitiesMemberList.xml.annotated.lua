@@ -1,8 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L8)
---- @class CommunitiesMemberListEntryTemplate_NameFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L36)
 --- @class CommunitiesMemberListEntryTemplate_SelfDeafenButton : Button, RosterSelfDeafenButtonTemplate
 
@@ -15,29 +12,19 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L51)
 --- @class CommunitiesMemberListEntryTemplate_CancelInvitationButton : Button, UIMenuButtonStretchTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L135)
---- @class CommunitiesMemberListEntryTemplate_ProfessionHeader_AllRecipes : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L81)
---- @class CommunitiesMemberListEntryTemplate_ProfessionHeader : Button
---- @field AllRecipes CommunitiesMemberListEntryTemplate_ProfessionHeader_AllRecipes
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L172)
 --- @class CommunitiesMemberListEntryTemplate_FactionButton : Button, CommunitiesMemberListFactionButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L5)
 --- Template
 --- @class CommunitiesMemberListEntryTemplate : Button, CommunitiesMemberListEntryMixin
---- @field NameFrame CommunitiesMemberListEntryTemplate_NameFrame
+--- @field NameFrame Frame
 --- @field SelfDeafenButton CommunitiesMemberListEntryTemplate_SelfDeafenButton
 --- @field SelfMuteButton CommunitiesMemberListEntryTemplate_SelfMuteButton
 --- @field MemberMuteButton CommunitiesMemberListEntryTemplate_MemberMuteButton
 --- @field CancelInvitationButton CommunitiesMemberListEntryTemplate_CancelInvitationButton
---- @field ProfessionHeader CommunitiesMemberListEntryTemplate_ProfessionHeader
+--- @field ProfessionHeader Button
 --- @field FactionButton CommunitiesMemberListEntryTemplate_FactionButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L255)
---- @class CommunitiesMemberListFrameTemplate_WatermarkFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L276)
 --- @class CommunitiesMemberListFrameTemplate_ShowOfflineButton : CheckButton, UICheckButtonTemplate
@@ -60,7 +47,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L244)
 --- Template
 --- @class CommunitiesMemberListFrameTemplate : Frame, CommunitiesMemberListMixin
---- @field WatermarkFrame CommunitiesMemberListFrameTemplate_WatermarkFrame
+--- @field WatermarkFrame Frame
 --- @field ShowOfflineButton CommunitiesMemberListFrameTemplate_ShowOfflineButton
 --- @field ColumnDisplay CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @field ScrollBox CommunitiesMemberListFrameTemplate_ScrollBox
@@ -68,13 +55,10 @@
 --- @field DropDown CommunitiesMemberListFrameTemplate_DropDown
 --- @field InsetFrame CommunitiesMemberListFrameTemplate_InsetFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L378)
---- @class CommunitiesFrameMemberListDropDownMenuTemplate_NotificationOverlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L375)
 --- Template
 --- @class CommunitiesFrameMemberListDropDownMenuTemplate : Frame, UIDropDownMenuTemplate, CommunitiesFrameMemberListDropDownMenuMixin
---- @field NotificationOverlay CommunitiesFrameMemberListDropDownMenuTemplate_NotificationOverlay
+--- @field NotificationOverlay Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1db216056cbb2809630e6b6257e0fe792834ac11/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L409)
 --- Template

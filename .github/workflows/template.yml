@@ -116,7 +116,7 @@ jobs:
           remote_commit_hash=$(git rev-parse HEAD)
           message="Synced to commit ${remote_commit_hash}"
           cd ..
-          bin/annotate --inputDir=./.wow-ui-source/Interface --outputDir=./.annotations_temp/Annotations --linkPrefix="https://github.com/Gethe/wow-ui-source/blob/${remote_commit_hash}/Interface"
+          bin/annotate --inputDir=./.wow-ui-source/Interface --outputDir=./.annotations_temp/Annotations --linkPrefix="https://github.com/Gethe/wow-ui-source/blob/${branch}/Interface"
           cd ./.annotations_temp
           git config user.name "GitHub Actions"
           git config user.email noreply@github.com

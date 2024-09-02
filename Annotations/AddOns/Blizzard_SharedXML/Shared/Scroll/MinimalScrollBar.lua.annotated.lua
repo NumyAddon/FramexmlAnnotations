@@ -1,30 +1,30 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L2)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L2)
 --- @class MinimalScrollBarStepperScriptsMixin : ButtonStateBehaviorMixin
 MinimalScrollBarStepperScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L28)
 --- @class MinimalScrollBarThumbScriptsMixin : ButtonStateBehaviorMixin
 MinimalScrollBarThumbScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L4)
 function MinimalScrollBarStepperScriptsMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L13)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L13)
 function MinimalScrollBarStepperScriptsMixin:GetAtlas() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L24)
 function MinimalScrollBarStepperScriptsMixin:OnButtonStateChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L30)
 function MinimalScrollBarThumbScriptsMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L36)
 function MinimalScrollBarThumbScriptsMixin:GetAtlas() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L47)
 function MinimalScrollBarThumbScriptsMixin:OnButtonStateChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L54)
 function MinimalScrollBarThumbScriptsMixin:OnSizeChanged(width, height) end

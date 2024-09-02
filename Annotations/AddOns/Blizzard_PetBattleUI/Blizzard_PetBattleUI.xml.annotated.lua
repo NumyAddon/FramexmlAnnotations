@@ -1,109 +1,109 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L5)
 --- Template
 --- @class DebugTexture : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L8)
 --- Template
 --- @class DebugTextureBlack : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L11)
 --- Template
 --- @class PetBattleUnitFrameUnclickable : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L17)
 --- Template
 --- @class PetBattleUnitFrame : Frame, PetBattleUnitFrameUnclickable
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L22)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L22)
 --- Template
 --- @class PetBattleAuraTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L56)
 --- Template
 --- @class PetBattleAuraHolderTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L62)
 --- Template
 --- @class PetBattleUnitTooltipAuraTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L97)
 --- Template
 --- @class PetBattlePetSelectionButtonTemplate : Button, PetBattleUnitFrame
 --- @field PetModel PlayerModel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L237)
 --- Template
 --- @class PetBattleMiniUnitFrameAlly : Button, PetBattleUnitFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L302)
 --- Template
 --- @class PetBattleMiniUnitFrameEnemy : Button, PetBattleUnitFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L367)
 --- Template
 --- @class PetBattleUnitTooltipPetTypeStrengthTemplate : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L371)
 --- Template
 --- @class PetBattleUnitTooltipTemplate : Frame, PetBattleUnitFrameUnclickable, TooltipBackdropTemplate
 --- @field PetType Frame
 --- @field Debuffs Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L622)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L622)
 --- Template
 --- @class PetBattleActionButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L693)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L693)
 --- Template
 --- @class PetBattleAbilityButtonTemplate : Button, PetBattleActionButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L795)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L795)
 --- @class PetBattleFrame_EnemyPadBuffFrame : Frame, PetBattleAuraHolderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L811)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L811)
 --- @class PetBattleFrame_EnemyPadDebuffFrame : Frame, PetBattleAuraHolderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L827)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L827)
 --- @class PetBattleFrame_AllyPadBuffFrame : Frame, PetBattleAuraHolderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L843)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L843)
 --- @class PetBattleFrame_AllyPadDebuffFrame : Frame, PetBattleAuraHolderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L859)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L859)
 --- @class PetBattleFrame_EnemyBuffFrame : Frame, PetBattleAuraHolderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L875)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L875)
 --- @class PetBattleFrame_EnemyDebuffFrame : Frame, PetBattleAuraHolderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L891)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L891)
 --- @class PetBattleFrame_AllyBuffFrame : Frame, PetBattleAuraHolderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L907)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L907)
 --- @class PetBattleFrame_AllyDebuffFrame : Frame, PetBattleAuraHolderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L923)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L923)
 --- @class PetBattleFrame_ActiveAlly : Button, PetBattleUnitFrame
 --- @field PetType Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1090)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1090)
 --- @class PetBattleFrame_ActiveEnemy : Button, PetBattleUnitFrame
 --- @field PetType Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1257)
 --- @class PetBattleFrame_Ally2 : Button, PetBattleMiniUnitFrameAlly
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1262)
 --- @class PetBattleFrame_Ally3 : Button, PetBattleMiniUnitFrameAlly
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1267)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1267)
 --- @class PetBattleFrame_Enemy2 : Button, PetBattleMiniUnitFrameEnemy
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1272)
 --- @class PetBattleFrame_Enemy3 : Button, PetBattleMiniUnitFrameEnemy
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L701)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L701)
 --- @class PetBattleFrame : Frame
 --- @field WeatherFrame Frame
 --- @field EnemyPadBuffFrame PetBattleFrame_EnemyPadBuffFrame
@@ -123,15 +123,15 @@
 --- @field BottomFrame Frame
 PetBattleFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1600)
 --- @class PetBattlePrimaryUnitTooltip : Frame, PetBattleUnitTooltipTemplate
 PetBattlePrimaryUnitTooltip = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1601)
 --- @class PetBattlePrimaryAbilityTooltip : Frame, SharedPetBattleAbilityTooltipTemplate
 PetBattlePrimaryAbilityTooltip = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1607)
 --- @class StartSplash : Frame
 --- @field SplashTexture Frame
 --- @field SplashText Frame

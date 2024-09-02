@@ -1,18 +1,18 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L5)
 --- Template
 --- @class PVPConquestRewardButton : Button, PVPConquestRewardMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L52)
 --- Template
 --- @class PVPHonorRewardTemplate : Button, PVPHonorRewardMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L106)
 --- Template
 --- @class PVPRatedTierTemplate : Frame, PVPRatedTierMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L134)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L134)
 --- Template
 --- @class PVPLootTemplate : Button, LootItemExtended, PVPLootMixin
 

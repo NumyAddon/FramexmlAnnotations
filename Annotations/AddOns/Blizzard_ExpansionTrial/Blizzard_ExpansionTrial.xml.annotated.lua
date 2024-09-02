@@ -1,16 +1,16 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L5)
 --- Template
 --- @class ExpansionTrialCheckPointLevelHeaderTemplate : Frame, ResizeLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L99)
 --- @class ExpansionTrialCheckPointDialog_GainedLevelContainer : Frame, ExpansionTrialCheckPointLevelHeaderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L109)
 --- @class ExpansionTrialCheckPointDialog_Button : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L34)
 --- @class ExpansionTrialCheckPointDialog : Frame, BaseExpandableDialog, VerticalLayoutFrame, ExpansionTrialCheckPointDialogMixin
 --- @field EatAllInput Frame
 --- @field GainedLevelContainer ExpansionTrialCheckPointDialog_GainedLevelContainer

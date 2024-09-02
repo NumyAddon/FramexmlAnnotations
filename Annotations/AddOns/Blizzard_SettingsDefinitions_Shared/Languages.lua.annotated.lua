@@ -1,26 +1,26 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L80)
 --- @class SettingsLanguageDropdownControlMixin : BaseLanguageDropdownControlMixin
 SettingsLanguageDropdownControlMixin = CreateFromMixins(BaseLanguageDropdownControlMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L82)
 --- @class SettingsAudioLocaleDropdownMixin : BaseLanguageDropdownControlMixin
 SettingsAudioLocaleDropdownMixin = CreateFromMixins(BaseLanguageDropdownControlMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L99)
 --- @class LanguageRestartNeededMixin : SettingsListElementMixin
 LanguageRestartNeededMixin = CreateFromMixins(SettingsListElementMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L32)
 --- @class SettingsLanguageDropdownMixin
 SettingsLanguageDropdownMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L34)
 function SettingsLanguageDropdownMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L84)
 function SettingsAudioLocaleDropdownMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L101)
 function LanguageRestartNeededMixin:EvaluateState() end

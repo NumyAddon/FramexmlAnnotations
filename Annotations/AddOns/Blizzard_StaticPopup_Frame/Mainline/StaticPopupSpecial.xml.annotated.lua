@@ -1,15 +1,15 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupSpecial.xml#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupSpecial.xml#L24)
 --- @class PetBattleQueueReadyFrame_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupSpecial.xml#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupSpecial.xml#L25)
 --- @class PetBattleQueueReadyFrame_AcceptButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupSpecial.xml#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupSpecial.xml#L37)
 --- @class PetBattleQueueReadyFrame_DeclineButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupSpecial.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupSpecial.xml#L5)
 --- @class PetBattleQueueReadyFrame : Frame
 --- @field Border PetBattleQueueReadyFrame_Border
 --- @field AcceptButton PetBattleQueueReadyFrame_AcceptButton

@@ -1,35 +1,35 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L4)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L4)
 --- Template
 --- @class WowScrollBoxList : Frame, ScrollBoxBaseTemplate, ScrollBoxListMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L12)
 --- Template
 --- @class WowScrollBox : Frame, ScrollBoxBaseTemplate, ScrollBoxMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L14)
 --- Template
 --- @class VerticalScrollBarTemplate : EventFrame, ScrollBarBaseTemplate, ScrollBarMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L15)
 --- Template
 --- @class HorizontalScrollBarTemplate : EventFrame, ScrollBarBaseTemplate, ScrollBarMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L27)
 --- @class ScrollingEditBoxTemplate_ScrollBox : Frame, WowScrollBox
 --- @field EditBox EventEditBox
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L21)
 --- Template
 --- @class ScrollingEditBoxTemplate : Frame, ScrollingEditBoxMixin
 --- @field ScrollBox ScrollingEditBoxTemplate_ScrollBox
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L46)
 --- @class ScrollingFontTemplate_ScrollBox : Frame, WowScrollBox
 --- @field FontStringContainer Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L44)
 --- Template
 --- @class ScrollingFontTemplate : Frame, ScrollingFontMixin
 --- @field ScrollBox ScrollingFontTemplate_ScrollBox

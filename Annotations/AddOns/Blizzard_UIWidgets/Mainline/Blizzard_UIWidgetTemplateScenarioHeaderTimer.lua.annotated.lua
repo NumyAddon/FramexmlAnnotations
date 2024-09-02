@@ -1,8 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.lua#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.lua#L12)
 --- @class UIWidgetTemplateScenarioHeaderTimerMixin : UIWidgetBaseTemplateMixin, UIWidgetBaseScenarioHeaderTemplateMixin
 UIWidgetTemplateScenarioHeaderTimerMixin = CreateFromMixins(UIWidgetBaseTemplateMixin, UIWidgetBaseScenarioHeaderTemplateMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.lua#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.lua#L14)
 function UIWidgetTemplateScenarioHeaderTimerMixin:Setup(widgetInfo, widgetContainer) end

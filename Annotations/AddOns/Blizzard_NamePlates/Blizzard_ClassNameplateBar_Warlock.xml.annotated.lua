@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/b59795b582bae148a013053f7345eb5c39350263/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Warlock.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Warlock.xml#L5)
 --- @class ClassNameplateBarWarlockFrame : Frame, WarlockPowerFrameTemplate, ClassNameplateBar, ClassNameplateBarWarlock
 ClassNameplateBarWarlockFrame = {}
 

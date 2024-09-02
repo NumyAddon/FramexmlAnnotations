@@ -4,14 +4,11 @@
 --- Template
 --- @class SpellFlyoutButtonTemplate : CheckButton, SmallActionButtonTemplate, SecureFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Mainline/SpellFlyout.xml#L76)
---- @class SpellFlyout_Background : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Mainline/SpellFlyout.xml#L89)
 --- @class SpellFlyout_SpellFlyoutButton1 : CheckButton, SpellFlyoutButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ActionBar/Mainline/SpellFlyout.xml#L74)
 --- @class SpellFlyout : Frame, SecureFrameTemplate, ResizeLayoutFrame
---- @field Background SpellFlyout_Background
+--- @field Background Frame
 SpellFlyout = {}
 

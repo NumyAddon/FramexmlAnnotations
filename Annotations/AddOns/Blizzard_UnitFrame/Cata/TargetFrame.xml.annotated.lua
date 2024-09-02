@@ -25,9 +25,6 @@
 --- Template
 --- @class TargetBuffFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L178)
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L297)
 --- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_MyHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, MyHealPredictionBarTemplate
 
@@ -42,23 +39,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L318)
 --- @class TargetFrameTemplate_TargetFrameTemplateManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L334)
---- @class TargetFrameTemplate_TargetFrameTemplateBuffs : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L337)
---- @class TargetFrameTemplate_TargetFrameTemplateDebuffs : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L340)
---- @class TargetFrameTemplate_TargetFrameTemplateNumericalThreat : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L140)
 --- Template
 --- @class TargetFrameTemplate : Button, SecureUnitButtonTemplate
---- @field textureFrame TargetFrameTemplate_TargetFrameTemplateTextureFrame
+--- @field textureFrame Frame
 --- @field HealthBar TargetFrameTemplate_TargetFrameTemplateHealthBar
 --- @field PowerBar TargetFrameTemplate_TargetFrameTemplateManaBar
---- @field buffs TargetFrameTemplate_TargetFrameTemplateBuffs
---- @field debuffs TargetFrameTemplate_TargetFrameTemplateDebuffs
+--- @field buffs Frame
+--- @field debuffs Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L380)
 --- @class BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt : Frame, UnitPowerBarAltTemplate
@@ -67,9 +55,6 @@
 --- Template
 --- @class BossTargetFrameTemplate : Button, TargetFrameTemplate
 --- @field powerBarAlt BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L428)
---- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateTextureFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L456)
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateHealthBar : StatusBar, TextStatusBar

@@ -1,12 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L52)
---- @class BossBannerLootFrameTemplate_IconHitBox : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L6)
 --- Template
 --- @class BossBannerLootFrameTemplate : Frame
---- @field IconHitBox BossBannerLootFrameTemplate_IconHitBox
+--- @field IconHitBox Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L263)
 --- @class BossBanner_ : Frame, BossBannerLootFrameTemplate

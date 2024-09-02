@@ -8,31 +8,18 @@ KioskDialogHeaderFont = {}
 --- @class KioskFrame : Frame, KioskFrameMixin
 KioskFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L23)
---- @class KioskSessionDialogTemplate_Dialog : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L14)
 --- Template
 --- @class KioskSessionDialogTemplate : Frame
---- @field Dialog KioskSessionDialogTemplate_Dialog
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L59)
---- @class KioskSessionStartedDialog_Content_ContinueButton : Button, SharedButtonLargeTemplate, KioskSessionStartedDialogButtonMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L43)
---- @class KioskSessionStartedDialog_Content : Frame
---- @field ContinueButton KioskSessionStartedDialog_Content_ContinueButton
+--- @field Dialog Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L41)
 --- @class KioskSessionStartedDialog : Frame, KioskSessionDialogTemplate
---- @field Content KioskSessionStartedDialog_Content
+--- @field Content Frame
 KioskSessionStartedDialog = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L74)
---- @class KioskSessionFinishedDialog_Content : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L72)
 --- @class KioskSessionFinishedDialog : Frame, KioskSessionDialogTemplate, KioskSessionFinishedDialogMixin
---- @field Content KioskSessionFinishedDialog_Content
+--- @field Content Frame
 KioskSessionFinishedDialog = {}
 

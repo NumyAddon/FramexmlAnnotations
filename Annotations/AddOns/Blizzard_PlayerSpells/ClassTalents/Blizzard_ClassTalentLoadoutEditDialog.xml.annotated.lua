@@ -3,12 +3,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.xml#L12)
 --- @class ClassTalentLoadoutEditDialog_NameControl : Frame, ClassTalentLoadoutDialogNameControlTemplate, ClassTalentLoadoutEditDialogNameControlMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.xml#L29)
---- @class ClassTalentLoadoutEditDialog_UsesSharedActionBars_CheckButton : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.xml#L21)
 --- @class ClassTalentLoadoutEditDialog_UsesSharedActionBars : Button, UseSharedActionBarsMixin
---- @field CheckButton ClassTalentLoadoutEditDialog_UsesSharedActionBars_CheckButton
+--- @field CheckButton CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.xml#L55)
 --- @class ClassTalentLoadoutEditDialog_AcceptButton : Button, ClassTalentLoadoutDialogButtonTemplate

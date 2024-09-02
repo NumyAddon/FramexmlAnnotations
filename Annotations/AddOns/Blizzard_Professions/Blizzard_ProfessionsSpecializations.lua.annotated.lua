@@ -6,16 +6,7 @@ ProfessionsDetailedSpecPathMixin = CreateFromMixins(ProfessionsSpecPathMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L30)
 --- @class ProfessionsSpecFrameMixin
-ProfessionsSpecFrameMixin = {};
-
-function ProfessionsSpecFrameMixin:GetDesiredPageWidth()
-	return 1144;
-end
-
--- The intention is for only UI_PROFESSION_SPEC_DIAL_LOCKIN (207714) to be played.
-local SuppressedSoundsOnUnlockPath = {
-	SOUNDKIT.UI_PROFESSION_SPEC_PERK_EARNED, 
-}
+ProfessionsSpecFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L32)
 function ProfessionsSpecFrameMixin:GetDesiredPageWidth() end

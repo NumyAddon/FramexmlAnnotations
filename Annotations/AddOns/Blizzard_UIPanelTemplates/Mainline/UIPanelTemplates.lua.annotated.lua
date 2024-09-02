@@ -6,36 +6,7 @@ CurrencyDisplayMixin = CreateFromMixins(CurrencyTemplateMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L59)
 --- @class RoleCountMixin
-RoleCountMixin = {};
-
-function RoleCountMixin:OnShow()
-	self:Refresh();
-	FrameUtil.RegisterFrameForEvents(self, ROLE_COUNT_EVENTS);
-end
-
-function RoleCountMixin:OnHide()
-	FrameUtil.UnregisterFrameForEvents(self, ROLE_COUNT_EVENTS);
-end
-
-function RoleCountMixin:OnEvent()
-	self:Refresh();
-end
-
-function RoleCountMixin:Refresh()
-	local counts = GetGroupMemberCountsForDisplay();
-	self.DamagerCount:SetText(counts.DAMAGER);
-	self.HealerCount:SetText(counts.HEALER);
-	self.TankCount:SetText(counts.TANK);
-end
-
--- SquareButton template code
-SQUARE_BUTTON_TEXCOORDS = {
-	["UP"] = {     0.45312500,    0.64062500,     0.01562500,     0.20312500};
-	["DOWN"] = {   0.45312500,    0.64062500,     0.20312500,     0.01562500};
-	["LEFT"] = {   0.23437500,    0.42187500,     0.01562500,     0.20312500};
-	["RIGHT"] = {  0.42187500,    0.23437500,     0.01562500,     0.20312500};
-	["DELETE"] = { 0.01562500,    0.20312500,     0.01562500,     0.20312500};
-}
+RoleCountMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L243)
 --- @class CurrencyTemplateMixin

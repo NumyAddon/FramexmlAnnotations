@@ -10,13 +10,10 @@
 --- @class InstanceDifficultyTemplate_Guild : Frame, VerticalLayoutFrame, GuildInstanceDifficultyMixin
 --- @field Instance InstanceDifficultyTemplate_Guild_Instance
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L178)
---- @class InstanceDifficultyTemplate_ChallengeMode : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L4)
 --- Template
 --- @class InstanceDifficultyTemplate : Frame, InstanceDifficultyMixin
 --- @field Default InstanceDifficultyTemplate_Default
 --- @field Guild InstanceDifficultyTemplate_Guild
---- @field ChallengeMode InstanceDifficultyTemplate_ChallengeMode
+--- @field ChallengeMode Frame
 

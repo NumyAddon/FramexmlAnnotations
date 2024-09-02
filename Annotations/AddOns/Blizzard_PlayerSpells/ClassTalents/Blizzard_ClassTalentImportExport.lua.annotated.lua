@@ -2,24 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentImportExport.lua#L50)
 --- @class ClassTalentImportExportMixin
-ClassTalentImportExportMixin = {};
-
-ClassTalentImportExportMixin.bitWidthHeaderVersion = 8;
-ClassTalentImportExportMixin.bitWidthSpecID = 16;
-ClassTalentImportExportMixin.bitWidthRanksPurchased = 6;
-
-StaticPopupDialogs["LOADOUT_IMPORT_ERROR_DIALOG"] = {
-	text = "%s",
-	button1 = OKAY,
-	button2 = nil,
-	timeout = 0,
-	OnAccept = function()
-	end,
-	OnCancel = function()
-	end,
-	whileDead = 1,
-	hideOnEscape = 1,
-}
+ClassTalentImportExportMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentImportExport.lua#L70)
 function ClassTalentImportExportMixin:WriteLoadoutContent(exportStream, configID, treeID) end

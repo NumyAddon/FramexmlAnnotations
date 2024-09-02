@@ -56,11 +56,8 @@
 --- @field EnemyContainer AdventuresBoardTemplate_EnemyContainer
 --- @field FollowerContainer AdventuresBoardTemplate_FollowerContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L152)
---- @class AdventuresBoardCombatTemplate_TextContainer : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L150)
 --- Template
 --- @class AdventuresBoardCombatTemplate : Frame, AdventuresBoardTemplate, AdventuresBoardCombatMixin
---- @field TextContainer AdventuresBoardCombatTemplate_TextContainer
+--- @field TextContainer Frame
 

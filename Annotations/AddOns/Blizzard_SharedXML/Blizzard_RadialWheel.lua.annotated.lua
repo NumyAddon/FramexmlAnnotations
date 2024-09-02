@@ -2,25 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.lua#L281)
 --- @class RadialWheelButtonMixin
-RadialWheelButtonMixin = {};
-
-local buttonAnimValues = {
-    Intro = {
-        duration = 0.2;
-        distanceLarge = -20;
-        distanceSmall = -10;
-    },
-    Outro = {
-        duration = 0.13;
-        distanceLarge = -20;
-        distanceSmall = -10;
-    },
-    CooldownDone = {
-        duration = 0.2;
-        distanceLarge = -10;
-        distanceSmall = -10;
-    },
-}
+RadialWheelButtonMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.lua#L472)
 --- @class RadialWheelButtonCooldownDoneAnimMixin

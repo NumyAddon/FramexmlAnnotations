@@ -94,17 +94,11 @@ GarrisonShipyardMapMissionTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L926)
 --- @class GarrisonShipMissionCompleteEnemyTemplate_CheckFrame : Frame, GarrisonEncounterPortraitCheckTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L934)
---- @class GarrisonShipMissionCompleteEnemyTemplate_MechanicsFrame_ : Frame, GarrisonMissionEnemyMechanicTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L931)
---- @class GarrisonShipMissionCompleteEnemyTemplate_MechanicsFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L893)
 --- Template
 --- @class GarrisonShipMissionCompleteEnemyTemplate : Frame
 --- @field CheckFrame GarrisonShipMissionCompleteEnemyTemplate_CheckFrame
---- @field MechanicsFrame GarrisonShipMissionCompleteEnemyTemplate_MechanicsFrame
+--- @field MechanicsFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L977)
 --- @class GarrisonShipMissionEnemyTemplate_ : Button, GarrisonMissionEnemyLargeMechanicTemplate
@@ -131,57 +125,21 @@ GarrisonShipyardMapMissionTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1103)
 --- @class GarrisonShipFollowerButtonTemplate_ : Frame, GarrisonFollowerListButtonAbilityTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1114)
---- @class GarrisonShipFollowerButtonTemplate_BusyFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1030)
 --- Template
 --- @class GarrisonShipFollowerButtonTemplate : Button
---- @field BusyFrame GarrisonShipFollowerButtonTemplate_BusyFrame
+--- @field BusyFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1150)
 --- @class GarrisonShipFollowerPlacer : Frame
 GarrisonShipFollowerPlacer = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1182)
---- @class GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter1 : Frame, GarrisonShipMissionCompleteEnemyTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1183)
---- @class GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter2 : Frame, GarrisonShipMissionCompleteEnemyTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1188)
---- @class GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter3 : Frame, GarrisonShipMissionCompleteEnemyTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1165)
---- @class GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame : Frame
---- @field Encounter1 GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter1
---- @field Encounter2 GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter2
---- @field Encounter3 GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1206)
---- @class GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower1 : Frame, GarrisonShipMissionCompleteFollowerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1211)
---- @class GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower2 : Frame, GarrisonShipMissionCompleteFollowerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1216)
---- @class GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower3 : Frame, GarrisonShipMissionCompleteFollowerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1195)
---- @class GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame : Frame
---- @field Follower1 GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower1
---- @field Follower2 GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower2
---- @field Follower3 GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1223)
---- @class GarrisonShipyardMissionCompleteStageTemplate_MissionInfo : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1163)
 --- Template
 --- @class GarrisonShipyardMissionCompleteStageTemplate : Frame, GarrisonMissionStageTemplate, GarrisonMissionCompleteStageTemplate
---- @field EncountersFrame GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame
---- @field FollowersFrame GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame
---- @field MissionInfo GarrisonShipyardMissionCompleteStageTemplate_MissionInfo
+--- @field EncountersFrame Frame
+--- @field FollowersFrame Frame
+--- @field MissionInfo Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1310)
 --- Template
@@ -198,9 +156,6 @@ GarrisonShipFollowerPlacer = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1394)
 --- Template
 --- @class GarrisonShipEquipmentTemplate : Button, GarrisonEquipmentTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1498)
---- @class GarrisonShipyardFollowerTabTemplate_QualityFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1513)
 --- @class GarrisonShipyardFollowerTabTemplate_XPBar : StatusBar, GarrisonFollowerXPBarTemplate
@@ -231,7 +186,7 @@ GarrisonShipFollowerPlacer = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1419)
 --- Template
 --- @class GarrisonShipyardFollowerTabTemplate : Frame, GarrisonBaseInfoBoxTemplate
---- @field QualityFrame GarrisonShipyardFollowerTabTemplate_QualityFrame
+--- @field QualityFrame Frame
 --- @field XPBar GarrisonShipyardFollowerTabTemplate_XPBar
 --- @field Model GarrisonShipyardFollowerTabTemplate_Model
 --- @field Trait1 GarrisonShipyardFollowerTabTemplate_Trait1
@@ -256,84 +211,8 @@ GarrisonShipFollowerPlacer = {}
 --- @field MaterialFrame GarrisonShipyardFrame_GarrisonShipyardFrameFollowers_MaterialFrame
 --- @field SearchBox GarrisonShipyardFrame_GarrisonShipyardFrameFollowers_SearchBox
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1745)
---- @class GarrisonShipyardFrame_MissionTab_MissionList_FogFrame1 : Frame, FogFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1746)
---- @class GarrisonShipyardFrame_MissionTab_MissionList_FogFrame2 : Frame, FogFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1747)
---- @class GarrisonShipyardFrame_MissionTab_MissionList_FogFrame3 : Frame, FogFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1762)
---- @class GarrisonShipyardFrame_MissionTab_MissionList_CompleteDialog_BorderFrame : Frame, GarrisonShipyardMissionPageBaseTemplate, GarrisonMissionCompleteDialogTemplate, GarrisonShipyardTopBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1749)
---- @class GarrisonShipyardFrame_MissionTab_MissionList_CompleteDialog : Frame
---- @field BorderFrame GarrisonShipyardFrame_MissionTab_MissionList_CompleteDialog_BorderFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1732)
---- @class GarrisonShipyardFrame_MissionTab_MissionList : Frame, GarrisonShipyardMissionListMixin
---- @field FogFrame1 GarrisonShipyardFrame_MissionTab_MissionList_FogFrame1
---- @field FogFrame2 GarrisonShipyardFrame_MissionTab_MissionList_FogFrame2
---- @field FogFrame3 GarrisonShipyardFrame_MissionTab_MissionList_FogFrame3
---- @field CompleteDialog GarrisonShipyardFrame_MissionTab_MissionList_CompleteDialog
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1782)
---- @class GarrisonShipyardFrame_MissionTab_MissionPage_Enemy1 : Frame, GarrisonShipMissionEnemyTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1787)
---- @class GarrisonShipyardFrame_MissionTab_MissionPage_Enemy2 : Frame, GarrisonShipMissionEnemyTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1792)
---- @class GarrisonShipyardFrame_MissionTab_MissionPage_Enemy3 : Frame, GarrisonShipMissionEnemyTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1797)
---- @class GarrisonShipyardFrame_MissionTab_MissionPage_Follower1 : Frame, GarrisonShipMissionFollowerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1802)
---- @class GarrisonShipyardFrame_MissionTab_MissionPage_Follower2 : Frame, GarrisonShipMissionFollowerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1807)
---- @class GarrisonShipyardFrame_MissionTab_MissionPage_Follower3 : Frame, GarrisonShipMissionFollowerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1780)
---- @class GarrisonShipyardFrame_MissionTab_MissionPage : Button, ShipyardMissionPageTemplate, GarrisonMissionPageMixin
---- @field Enemy1 GarrisonShipyardFrame_MissionTab_MissionPage_Enemy1
---- @field Enemy2 GarrisonShipyardFrame_MissionTab_MissionPage_Enemy2
---- @field Enemy3 GarrisonShipyardFrame_MissionTab_MissionPage_Enemy3
---- @field Follower1 GarrisonShipyardFrame_MissionTab_MissionPage_Follower1
---- @field Follower2 GarrisonShipyardFrame_MissionTab_MissionPage_Follower2
---- @field Follower3 GarrisonShipyardFrame_MissionTab_MissionPage_Follower3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1825)
---- @class GarrisonShipyardFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1826)
---- @class GarrisonShipyardFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1827)
---- @class GarrisonShipyardFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1828)
---- @class GarrisonShipyardFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1829)
---- @class GarrisonShipyardFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1830)
---- @class GarrisonShipyardFrame_MissionTab_ : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1730)
---- @class GarrisonShipyardFrame_MissionTab : Frame
---- @field MissionList GarrisonShipyardFrame_MissionTab_MissionList
---- @field MissionPage GarrisonShipyardFrame_MissionTab_MissionPage
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1835)
 --- @class GarrisonShipyardFrame_FollowerTab : Frame, GarrisonShipyardFollowerTabTemplate, GarrisonShipyardFollowerTabMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1838)
---- @class GarrisonShipyardFrame_MissionCompleteBackground : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1853)
 --- @class GarrisonShipyardFrame_MissionComplete_Stage : Frame, GarrisonShipyardMissionCompleteStageTemplate
@@ -362,9 +241,9 @@ GarrisonShipFollowerPlacer = {}
 --- @field Tab1 GarrisonShipyardFrame_GarrisonShipyardFrameTab1
 --- @field Tab2 GarrisonShipyardFrame_GarrisonShipyardFrameTab2
 --- @field FollowerList GarrisonShipyardFrame_GarrisonShipyardFrameFollowers
---- @field MissionTab GarrisonShipyardFrame_MissionTab
+--- @field MissionTab Frame
 --- @field FollowerTab GarrisonShipyardFrame_FollowerTab
---- @field MissionCompleteBackground GarrisonShipyardFrame_MissionCompleteBackground
+--- @field MissionCompleteBackground Frame
 --- @field MissionComplete GarrisonShipyardFrame_MissionComplete
 --- @field BorderFrame GarrisonShipyardFrame_BorderFrame
 GarrisonShipyardFrame = {}

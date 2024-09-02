@@ -16,33 +16,21 @@ AlertFrameSystemsRegistrar = {}
 --- Template
 --- @class WorldQuestFrameRewardTemplate : Button, DungeonCompletionAlertFrameRewardTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L130)
---- @class DungeonCompletionAlertFrameTemplate_glowFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L43)
 --- Template
 --- @class DungeonCompletionAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
---- @field glowFrame DungeonCompletionAlertFrameTemplate_glowFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L260)
---- @class AchievementAlertFrameTemplate_Icon : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L290)
---- @class AchievementAlertFrameTemplate_Shield : Frame
+--- @field glowFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L163)
 --- Template
 --- @class AchievementAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
---- @field Icon AchievementAlertFrameTemplate_Icon
---- @field Shield AchievementAlertFrameTemplate_Shield
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L398)
---- @class CriteriaAlertFrameTemplate_Icon : Frame
+--- @field Icon Frame
+--- @field Shield Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L321)
 --- Template
 --- @class CriteriaAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
---- @field Icon CriteriaAlertFrameTemplate_Icon
+--- @field Icon Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L434)
 --- Template
@@ -52,13 +40,10 @@ AlertFrameSystemsRegistrar = {}
 --- Template
 --- @class ScenarioLegionInvasionAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L689)
---- @class ScenarioAlertFrameTemplate_glowFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L607)
 --- Template
 --- @class ScenarioAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
---- @field glowFrame ScenarioAlertFrameTemplate_glowFrame
+--- @field glowFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L719)
 --- Template
@@ -116,13 +101,10 @@ AlertFrameSystemsRegistrar = {}
 --- Template
 --- @class GarrisonMissionAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1776)
---- @class GarrisonFollowerAlertFrameTemplate_Arrows : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1700)
 --- Template
 --- @class GarrisonFollowerAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
---- @field Arrows GarrisonFollowerAlertFrameTemplate_Arrows
+--- @field Arrows Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1864)
 --- @class GarrisonStandardFollowerAlertFrameTemplate_PortraitFrame : Frame, GarrisonFollowerPortraitTemplate, GarrisonFollowerPortraitMixin
@@ -136,14 +118,10 @@ AlertFrameSystemsRegistrar = {}
 --- Template
 --- @class GarrisonShipFollowerAlertFrameTemplate : ContainedAlertFrame, GarrisonFollowerAlertFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1936)
---- Template
---- @class GarrisonStandardMissionAlertFrameTemplate_EncounterIcon : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1910)
 --- Template
 --- @class GarrisonStandardMissionAlertFrameTemplate : ContainedAlertFrame, GarrisonMissionAlertFrameTemplate
---- @field EncounterIcon GarrisonStandardMissionAlertFrameTemplate_EncounterIcon
+--- @field EncounterIcon Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1982)
 --- Template
@@ -201,11 +179,8 @@ AlertFrameSystemsRegistrar = {}
 --- @field LeftModelScene NewCosmeticAlertFrameTemplate_LeftModelScene
 --- @field RightModelScene NewCosmeticAlertFrameTemplate_RightModelScene
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2772)
---- @class MonthlyActivityFrameTemplate_Icon : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2695)
 --- Template
 --- @class MonthlyActivityFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
---- @field Icon MonthlyActivityFrameTemplate_Icon
+--- @field Icon Frame
 

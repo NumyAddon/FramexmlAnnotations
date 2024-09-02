@@ -6,18 +6,7 @@ DragonridingPanelSkillsButtonMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L1)
 --- @class DragonflightLandingOverlayMixin
-DragonflightLandingOverlayMixin = {};
-
-local minimapDisplayInfo = {
-	useDefaultButtonSize = true,
-	expansionLandingPageType = Enum.ExpansionLandingPageType.Dragonflight,
-	["normalAtlas"] = "dragonflight-landingbutton-up",
-	["pushedAtlas"] = "dragonflight-landingbutton-down",
-	["highlightAtlas"] = "dragonflight-landingbutton-circlehighlight",
-	["glowAtlas"] = "dragonflight-landingbutton-circleglow",
-	["title"] = DRAGONFLIGHT_LANDING_PAGE_TITLE,
-	["description"] = DRAGONFLIGHT_LANDING_PAGE_TOOLTIP,
-}
+DragonflightLandingOverlayMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.lua#L55)
 function DragonflightLandingOverlayMixin:TryCelebrateUnlock() end

@@ -11,9 +11,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L35)
 --- @class AnimaDiversionFrame_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L45)
---- @class AnimaDiversionFrame_BorderFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L51)
 --- @class AnimaDiversionFrame_ScrollContainer : ScrollFrame, MapCanvasFrameScrollContainerTemplate
 
@@ -48,7 +45,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L29)
 --- @class AnimaDiversionFrame : Frame, MapCanvasFrameTemplate, AnimaDiversionFrameMixin
 --- @field NineSlice AnimaDiversionFrame_NineSlice
---- @field BorderFrame AnimaDiversionFrame_BorderFrame
+--- @field BorderFrame Frame
 --- @field ScrollContainer AnimaDiversionFrame_ScrollContainer
 --- @field CloseButton AnimaDiversionFrame_CloseButton
 --- @field AnimaDiversionCurrencyFrame AnimaDiversionFrame_AnimaDiversionCurrencyFrame

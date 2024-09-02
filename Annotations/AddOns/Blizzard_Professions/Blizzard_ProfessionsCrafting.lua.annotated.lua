@@ -10,26 +10,7 @@ ProfessionsCraftingPageMixin = CreateFromMixins(ProfessionsRecipeListPanelMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua#L7)
 --- @class CraftingSearchLGMixin
-CraftingSearchLGMixin = {};
-
-function CraftingSearchLGMixin:Init(recipeInfo)
-	self.Name:SetText(recipeInfo.name);
-	self.Icon:SetTexture(recipeInfo.icon);
-end
-
-ProfessionsCraftingPageMixin = CreateFromMixins(ProfessionsRecipeListPanelMixin);
-
-local ProfessionsCraftingPageEvents =
-{
-	"TRADE_SKILL_DATA_SOURCE_CHANGING",
-	"TRADE_SKILL_DATA_SOURCE_CHANGED",
-	"UPDATE_TRADESKILL_CAST_STOPPED",
-	"TRADE_SKILL_CLOSE",
-	"BAG_UPDATE",
-	"BAG_UPDATE_DELAYED",
-	"UNIT_SPELLCAST_INTERRUPTED",
-	"UNIT_SPELLCAST_FAILED",
-}
+CraftingSearchLGMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua#L9)
 function CraftingSearchLGMixin:Init(recipeInfo) end

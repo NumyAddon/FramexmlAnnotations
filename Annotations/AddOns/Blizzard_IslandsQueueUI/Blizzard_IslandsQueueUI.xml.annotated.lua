@@ -12,20 +12,14 @@
 --- @field Leave IslandsQueueFrameTutorialTemplate_Leave
 --- @field CloseButton IslandsQueueFrameTutorialTemplate_CloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L73)
---- @class IslandsQueueFrameWeeklyQuestFrameTemplate_StatusBar : StatusBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L80)
---- @class IslandsQueueFrameWeeklyQuestFrameTemplate_OverlayFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L113)
 --- @class IslandsQueueFrameWeeklyQuestFrameTemplate_QuestReward : Button, IslandsQueueWeeklyQuestRewardMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L61)
 --- Template
 --- @class IslandsQueueFrameWeeklyQuestFrameTemplate : Frame, IslandsQueueWeeklyQuestMixin
---- @field StatusBar IslandsQueueFrameWeeklyQuestFrameTemplate_StatusBar
---- @field OverlayFrame IslandsQueueFrameWeeklyQuestFrameTemplate_OverlayFrame
+--- @field StatusBar StatusBar
+--- @field OverlayFrame Frame
 --- @field QuestReward IslandsQueueFrameWeeklyQuestFrameTemplate_QuestReward
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L161)
@@ -40,13 +34,10 @@
 --- @class IslandsQueueScreenDifficultySelector : Frame, IslandsQueueFrameDifficultyMixin
 --- @field QueueButton IslandsQueueScreenDifficultySelector_QueueButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L273)
---- @class IslandsQueueFrameIslandCardTemplate_TitleScroll : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L271)
 --- Template
 --- @class IslandsQueueFrameIslandCardTemplate : Frame
---- @field TitleScroll IslandsQueueFrameIslandCardTemplate_TitleScroll
+--- @field TitleScroll Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L292)
 --- @class IslandsQueueFrameCardFrameTemplate_CenterCard : Frame, IslandsQueueFrameIslandCardTemplate
@@ -64,9 +55,6 @@
 --- @field LeftCard IslandsQueueFrameCardFrameTemplate_LeftCard
 --- @field RightCard IslandsQueueFrameCardFrameTemplate_RightCard
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L398)
---- @class IslandsQueueFrame_TitleBanner : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L418)
 --- @class IslandsQueueFrame_IslandCardsFrame : Frame, IslandsQueueFrameCardFrameTemplate
 
@@ -79,20 +67,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L433)
 --- @class IslandsQueueFrame_TutorialFrame : Frame, IslandsQueueFrameTutorialTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L438)
---- @class IslandsQueueFrame_ArtOverlayFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L475)
 --- @class IslandsQueueFrame_HelpButton : Button, MainHelpPlateButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L331)
 --- @class IslandsQueueFrame : Frame, PortraitFrameTemplate, IslandsQueueFrameMixin
---- @field TitleBanner IslandsQueueFrame_TitleBanner
+--- @field TitleBanner Frame
 --- @field IslandCardsFrame IslandsQueueFrame_IslandCardsFrame
 --- @field DifficultySelectorFrame IslandsQueueFrame_DifficultySelectorFrame
 --- @field WeeklyQuest IslandsQueueFrame_WeeklyQuest
 --- @field TutorialFrame IslandsQueueFrame_TutorialFrame
---- @field ArtOverlayFrame IslandsQueueFrame_ArtOverlayFrame
+--- @field ArtOverlayFrame Frame
 --- @field HelpButton IslandsQueueFrame_HelpButton
 IslandsQueueFrame = {}
 

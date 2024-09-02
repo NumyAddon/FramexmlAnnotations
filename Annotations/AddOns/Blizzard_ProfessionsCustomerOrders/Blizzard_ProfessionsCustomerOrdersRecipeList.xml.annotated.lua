@@ -1,15 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeList.xml#L13)
---- @class ProfessionsCustomerOrdersRecipeListElementTemplate_FavoriteButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeList.xml#L5)
 --- Template
 --- @class ProfessionsCustomerOrdersRecipeListElementTemplate : Button, ProfessionsCustomerOrdersRecipeListElementMixin
---- @field FavoriteButton ProfessionsCustomerOrdersRecipeListElementTemplate_FavoriteButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeList.xml#L49)
---- @class ProfessionsCustomerOrdersRecipeListTemplate_HeaderContainer : Frame
+--- @field FavoriteButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeList.xml#L56)
 --- @class ProfessionsCustomerOrdersRecipeListTemplate_NineSlice : Frame, NineSlicePanelTemplate
@@ -23,7 +17,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeList.xml#L37)
 --- Template
 --- @class ProfessionsCustomerOrdersRecipeListTemplate : Frame, ProfessionsCustomerOrdersRecipeListMixin
---- @field HeaderContainer ProfessionsCustomerOrdersRecipeListTemplate_HeaderContainer
+--- @field HeaderContainer Frame
 --- @field NineSlice ProfessionsCustomerOrdersRecipeListTemplate_NineSlice
 --- @field ScrollBox ProfessionsCustomerOrdersRecipeListTemplate_ScrollBox
 --- @field ScrollBar ProfessionsCustomerOrdersRecipeListTemplate_ScrollBar

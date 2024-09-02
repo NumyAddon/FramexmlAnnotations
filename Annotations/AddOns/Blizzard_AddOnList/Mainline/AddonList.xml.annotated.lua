@@ -1,19 +1,13 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L28)
---- @class AddonListEntryTemplate_Security : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L45)
---- @class AddonListEntryTemplate_Enabled : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L74)
 --- @class AddonListEntryTemplate_AddonListEntryTemplateLoad : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L3)
 --- Template
 --- @class AddonListEntryTemplate : Button
---- @field Security AddonListEntryTemplate_Security
---- @field Enabled AddonListEntryTemplate_Enabled
+--- @field Security Button
+--- @field Enabled CheckButton
 --- @field LoadAddonButton AddonListEntryTemplate_AddonListEntryTemplateLoad
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L112)
@@ -31,9 +25,6 @@ AddonDialog = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L140)
 --- @class AddonList_Dropdown : DropdownButton, WowStyle1DropdownTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L145)
---- @class AddonList_AddonListForceLoad : CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L180)
 --- @class AddonList_AddonListCancelButton : Button, SharedButtonSmallTemplate

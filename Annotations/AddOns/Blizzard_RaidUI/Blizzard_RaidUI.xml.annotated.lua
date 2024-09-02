@@ -25,9 +25,6 @@
 --- Template
 --- @class RaidGroupSlotTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L241)
---- @class RaidGroupTemplate_RaidGroupTemplateLabel : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L249)
 --- @class RaidGroupTemplate_RaidGroupTemplateSlot1 : Button, RaidGroupSlotTemplate
 
@@ -62,9 +59,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L451)
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTargetFrame : Frame, TooltipBackdropTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L501)
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTarget_ : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L479)
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTarget : StatusBar, TextStatusBar

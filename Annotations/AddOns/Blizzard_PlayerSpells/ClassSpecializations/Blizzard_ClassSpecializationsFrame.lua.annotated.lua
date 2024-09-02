@@ -4,10 +4,6 @@
 --- @class ClassSpecFrameMixin
 ClassSpecFrameMixin={}
 
-local ClassSpecFrameUnitEvents = {
-	"UNIT_LEVEL"
-}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.lua#L316)
 --- @class ClassSpecContentFrameMixin
 ClassSpecContentFrameMixin={}

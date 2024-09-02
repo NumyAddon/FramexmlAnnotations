@@ -1,11 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/CoinPickupFrame.xml#L45)
---- @class CoinPickupFrame_CoinPickupLeftButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/CoinPickupFrame.xml#L57)
---- @class CoinPickupFrame_CoinPickupRightButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/Mainline/CoinPickupFrame.xml#L69)
 --- @class CoinPickupFrame_CoinPickupOkayButton : Button, UIPanelButtonTemplate
 

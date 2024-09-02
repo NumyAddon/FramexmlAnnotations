@@ -29,14 +29,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L215)
 --- @class CovenantMissionFollowerButtonTemplate_ : Frame, GarrisonFollowerListButtonAbilityTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L226)
---- @class CovenantMissionFollowerButtonTemplate_BusyFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L193)
 --- Template
 --- @class CovenantMissionFollowerButtonTemplate : Button, CovenantFollowerButtonTemplate
 --- @field DurabilityFrame CovenantMissionFollowerButtonTemplate_DurabilityFrame
---- @field BusyFrame CovenantMissionFollowerButtonTemplate_BusyFrame
+--- @field BusyFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L260)
 --- @class CovenantMissionFollowerOrCategoryListButtonTemplate_Follower : Button, CovenantMissionFollowerButtonTemplate, GarrisonMissionFollowerOrCategoryListButtonMixin
@@ -65,13 +62,10 @@
 --- @field PortraitFrame CovenantMissionPageFollowerTemplate_PortraitFrame
 --- @field Durability CovenantMissionPageFollowerTemplate_Durability
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L446)
---- @class CovenantMissionBaseFrameTemplate_RaisedFrameEdges : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L367)
 --- Template
 --- @class CovenantMissionBaseFrameTemplate : Frame
---- @field RaisedFrameEdges CovenantMissionBaseFrameTemplate_RaisedFrameEdges
+--- @field RaisedFrameEdges Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L507)
 --- Template
@@ -83,17 +77,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L598)
 --- @class CovenantFollowerTabTemplate_UpgradeClickTarget : Button, GarrisonFollowerUpgradeClickTargetTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L615)
---- @class CovenantFollowerTabTemplate_HealFollowerFrame_HealFollowerButtonTemplate : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L626)
---- @class CovenantFollowerTabTemplate_HealFollowerFrame_CostFrame : Frame, GarrisonMissionPageCostFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L604)
---- @class CovenantFollowerTabTemplate_HealFollowerFrame : Frame
---- @field HealFollowerButton CovenantFollowerTabTemplate_HealFollowerFrame_HealFollowerButtonTemplate
---- @field CostFrame CovenantFollowerTabTemplate_HealFollowerFrame_CostFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L634)
 --- @class CovenantFollowerTabTemplate_ModelCluster : ScrollFrame, GarrisonFollowerTabModelCluster
@@ -108,7 +91,7 @@
 --- Template
 --- @class CovenantFollowerTabTemplate : Frame, CovenantMissionBaseFrameTemplate, GarrisonFollowerTabMixin, CovenantFollowerTabMixin
 --- @field UpgradeClickTarget CovenantFollowerTabTemplate_UpgradeClickTarget
---- @field HealFollowerFrame CovenantFollowerTabTemplate_HealFollowerFrame
+--- @field HealFollowerFrame Frame
 --- @field ModelCluster CovenantFollowerTabTemplate_ModelCluster
 --- @field StatsFrame CovenantFollowerTabTemplate_StatsFrame
 --- @field AbilitiesFrame CovenantFollowerTabTemplate_AbilitiesFrame
@@ -131,31 +114,21 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L727)
 --- @class CovenantFollowerListTemplate_ScrollBar : EventFrame, OribosScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L743)
---- @class CovenantFollowerListTemplate_ElevatedFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L709)
 --- Template
 --- @class CovenantFollowerListTemplate : Frame
 --- @field ScrollBox CovenantFollowerListTemplate_ScrollBox
 --- @field ScrollBar CovenantFollowerListTemplate_ScrollBar
---- @field ElevatedFrame CovenantFollowerListTemplate_ElevatedFrame
+--- @field ElevatedFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L773)
 --- @class CovenantMissionListTemplate_MaterialFrame : Frame, MaterialFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L807)
---- @class CovenantMissionListTemplate_CompleteDialog_BorderFrame : Frame, GarrisonMissionPageBaseTemplate, GarrisonMissionCompleteDialogTemplate, GarrisonMissionTopBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L794)
---- @class CovenantMissionListTemplate_CompleteDialog : Frame
---- @field BorderFrame CovenantMissionListTemplate_CompleteDialog_BorderFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L758)
 --- Template
 --- @class CovenantMissionListTemplate : Frame, CovenantListWideFrameTemplate, GarrisonMissionListMixin, CovenantMissionListMixin
 --- @field MaterialFrame CovenantMissionListTemplate_MaterialFrame
---- @field CompleteDialog CovenantMissionListTemplate_CompleteDialog
+--- @field CompleteDialog Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L824)
 --- Template
@@ -175,14 +148,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L1017)
 --- @class CovenantMissionListButtonTemplate_EncounterIcon : Frame, CovenantMissionEncounterIconTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L1022)
---- @class CovenantMissionListButtonTemplate_Overlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L960)
 --- Template
 --- @class CovenantMissionListButtonTemplate : Button
 --- @field EncounterIcon CovenantMissionListButtonTemplate_EncounterIcon
---- @field Overlay CovenantMissionListButtonTemplate_Overlay
+--- @field Overlay Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L1043)
 --- Template

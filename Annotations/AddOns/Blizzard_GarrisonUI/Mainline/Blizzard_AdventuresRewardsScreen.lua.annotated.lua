@@ -2,16 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.lua#L1)
 --- @class AdventuresRewardsScreenMixin
-AdventuresRewardsScreenMixin = {};
-
-local followerXPTable = {};
-
-local CovenantVictorySoundKits = {
-	NightFae = SOUNDKIT.UI_ADVENTURES_ADVENTURE_SUCCESS_NIGHTFAE,
-	Kyrian = SOUNDKIT.UI_ADVENTURES_ADVENTURE_SUCCESS_KYRIAN,
-	Necrolord = SOUNDKIT.UI_ADVENTURES_ADVENTURE_SUCCESS_NECROLORD,
-	Venthyr = SOUNDKIT.UI_ADVENTURES_ADVENTURE_SUCCESS_VENTHYR,
-}
+AdventuresRewardsScreenMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.lua#L152)
 --- @class AdventuresRewardsScreenContinueButtonMixin

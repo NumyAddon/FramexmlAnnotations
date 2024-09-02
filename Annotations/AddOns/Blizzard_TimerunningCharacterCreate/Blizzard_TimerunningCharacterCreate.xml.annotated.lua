@@ -1,39 +1,18 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L7)
---- @class TimerunningCreateCharacterButtonGlowTemplate_FrameBase : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L14)
---- @class TimerunningCreateCharacterButtonGlowTemplate_RotatingGlow : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L4)
 --- Template
 --- @class TimerunningCreateCharacterButtonGlowTemplate : Frame, EasyFrameAnimationsTemplate, TimerunningCreateCharacterButtonGlowMixin
---- @field FrameBase TimerunningCreateCharacterButtonGlowTemplate_FrameBase
---- @field RotatingGlow TimerunningCreateCharacterButtonGlowTemplate_RotatingGlow
+--- @field FrameBase Frame
+--- @field RotatingGlow Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L50)
 --- @class TimerunningCreateCharacterButtonGlow : Frame, TimerunningCreateCharacterButtonGlowTemplate
 TimerunningCreateCharacterButtonGlow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L169)
---- @class TimerunningFirstTimeDialog_InfoPanel_CloseButton : Button, UIPanelCloseButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L180)
---- @class TimerunningFirstTimeDialog_InfoPanel_CreateButton_Glow : Frame, TimerunningCreateCharacterButtonGlowTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L174)
---- @class TimerunningFirstTimeDialog_InfoPanel_CreateButton : Button, GlueButtonSmallTemplate
---- @field Glow TimerunningFirstTimeDialog_InfoPanel_CreateButton_Glow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L72)
---- @class TimerunningFirstTimeDialog_InfoPanel : Frame
---- @field CloseButton TimerunningFirstTimeDialog_InfoPanel_CloseButton
---- @field CreateButton TimerunningFirstTimeDialog_InfoPanel_CreateButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L63)
 --- @class TimerunningFirstTimeDialog : Frame, TimerunningFirstTimeDialogMixin
---- @field InfoPanel TimerunningFirstTimeDialog_InfoPanel
+--- @field InfoPanel Frame
 TimerunningFirstTimeDialog = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L199)
@@ -48,29 +27,17 @@ TimerunningFirstTimeDialog = {}
 --- Template
 --- @class TimerunningChoiceSandCornersTemplate : Frame, AnimateWhileShownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L280)
---- @class TimerunningChoiceFrameGlowTemplate_FrameBase : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L295)
---- @class TimerunningChoiceFrameGlowTemplate_RotatingGlow : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L278)
 --- Template
 --- @class TimerunningChoiceFrameGlowTemplate : Frame, AnimateWhileShownTemplate
---- @field FrameBase TimerunningChoiceFrameGlowTemplate_FrameBase
---- @field RotatingGlow TimerunningChoiceFrameGlowTemplate_RotatingGlow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L324)
---- @class TimerunningEventBannerGlowTemplate_FrameBase : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L342)
---- @class TimerunningEventBannerGlowTemplate_RotatingGlow : Frame
+--- @field FrameBase Frame
+--- @field RotatingGlow Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L322)
 --- Template
 --- @class TimerunningEventBannerGlowTemplate : Frame, AnimateWhileShownTemplate
---- @field FrameBase TimerunningEventBannerGlowTemplate_FrameBase
---- @field RotatingGlow TimerunningEventBannerGlowTemplate_RotatingGlow
+--- @field FrameBase Frame
+--- @field RotatingGlow Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L396)
 --- @class TimerunningChoicePopup_TimerunningChoiceDialogCreateStandard_SelectButton : Button, GlueButtonSmallTemplate

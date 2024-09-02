@@ -28,17 +28,10 @@
 --- Template
 --- @class CurrencyTransferCancelButtonTemplate : Button, UIPanelButtonTemplate, CurrencyTransferCancelButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L124)
---- @class CurrencyTransferBalancePreviewTemplate_BalanceInfo_TransferCostDisplay : Button, CurrencyTransferCostDisplayMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L98)
---- @class CurrencyTransferBalancePreviewTemplate_BalanceInfo : Frame
---- @field TransferCostDisplay CurrencyTransferBalancePreviewTemplate_BalanceInfo_TransferCostDisplay
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L92)
 --- Template
 --- @class CurrencyTransferBalancePreviewTemplate : Frame, CurrencyTransferBalancePreviewMixin
---- @field BalanceInfo CurrencyTransferBalancePreviewTemplate_BalanceInfo
+--- @field BalanceInfo Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L191)
 --- @class CurrencyTransferMenuTemplate_ConfirmButton : Button, CurrencyTransferConfirmButtonTemplate
@@ -80,13 +73,10 @@
 --- @class CurrencyTransferMenu : Frame, CurrencyTransferMenuTemplate
 CurrencyTransferMenu = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L297)
---- @class CurrencyTransferLogEntryTemplate_BackgroundHighlight : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L259)
 --- Template
 --- @class CurrencyTransferLogEntryTemplate : Frame, CurrencyTransferLogEntryMixin
---- @field BackgroundHighlight CurrencyTransferLogEntryTemplate_BackgroundHighlight
+--- @field BackgroundHighlight Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L332)
 --- Template

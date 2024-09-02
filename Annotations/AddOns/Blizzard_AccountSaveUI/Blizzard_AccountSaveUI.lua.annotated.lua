@@ -2,13 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L25)
 --- @class AccountSaveFrameMixin
-AccountSaveFrameMixin = {};
-
-AccountSaveFrameMixin.VisualState = {
-	Disabled = 1,
-	EnabledLocked = 2,
-	EnabledUnlocked = 3
-}
+AccountSaveFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.lua#L34)
 function AccountSaveFrameMixin:OnLoad() end

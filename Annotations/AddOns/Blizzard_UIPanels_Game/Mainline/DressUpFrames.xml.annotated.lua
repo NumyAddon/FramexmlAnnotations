@@ -67,9 +67,6 @@ TransmogAndMountDressupFrame = {}
 --- @class DressUpFrame_ModelScene : ModelScene, PanningModelSceneMixinTemplate
 --- @field ControlFrame DressUpFrame_ModelScene_ControlFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L335)
---- @class DressUpFrame_ToggleOutfitDetailsButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L361)
 --- @class DressUpFrame_SetSelectionPanel : Frame, DressUpFrameTransmogSetTemplate
 
@@ -87,7 +84,7 @@ TransmogAndMountDressupFrame = {}
 --- @field OutfitDropdown DressUpFrame_DressUpFrameOutfitDropdown
 --- @field MaximizeMinimizeFrame DressUpFrame_MaximizeMinimizeFrame
 --- @field ModelScene DressUpFrame_ModelScene
---- @field ToggleOutfitDetailsButton DressUpFrame_ToggleOutfitDetailsButton
+--- @field ToggleOutfitDetailsButton Button
 --- @field SetSelectionPanel DressUpFrame_SetSelectionPanel
 --- @field OutfitDetailsPanel DressUpFrame_OutfitDetailsPanel
 --- @field ResetButton DressUpFrame_DressUpFrameResetButton

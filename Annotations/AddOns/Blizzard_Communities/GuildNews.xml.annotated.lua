@@ -8,19 +8,10 @@
 --- Template
 --- @class CommunitiesGuildNewsButtonTemplate : Button, CommunitiesGuildNewsButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L181)
---- @class CommunitiesGuildNewsBossModelTemplate_TextFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L88)
 --- Template
 --- @class CommunitiesGuildNewsBossModelTemplate : PlayerModel
---- @field TextFrame CommunitiesGuildNewsBossModelTemplate_TextFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L297)
---- @class CommunitiesGuildNewsFrameTemplate_SetFiltersButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L317)
---- @class CommunitiesGuildNewsFrameTemplate_GMImpeachButton : Button
+--- @field TextFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L350)
 --- @class CommunitiesGuildNewsFrameTemplate_ScrollBox : Frame, WowScrollBoxList
@@ -34,8 +25,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L255)
 --- Template
 --- @class CommunitiesGuildNewsFrameTemplate : Frame
---- @field SetFiltersButton CommunitiesGuildNewsFrameTemplate_SetFiltersButton
---- @field GMImpeachButton CommunitiesGuildNewsFrameTemplate_GMImpeachButton
+--- @field SetFiltersButton Button
+--- @field GMImpeachButton Button
 --- @field ScrollBox CommunitiesGuildNewsFrameTemplate_ScrollBox
 --- @field ScrollBar CommunitiesGuildNewsFrameTemplate_ScrollBar
 --- @field BossModel CommunitiesGuildNewsFrameTemplate_BossModel

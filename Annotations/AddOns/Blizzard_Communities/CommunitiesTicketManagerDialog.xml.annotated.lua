@@ -12,9 +12,6 @@
 --- @field CopyLinkButton CommunitiesTicketEntryTemplate_CopyLinkButton
 --- @field RevokeButton CommunitiesTicketEntryTemplate_RevokeButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L104)
---- @class CommunitiesTicketManagerScrollFrameTemplate_ArtOverlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L126)
 --- @class CommunitiesTicketManagerScrollFrameTemplate_ScrollBox : Frame, WowScrollBoxList
 
@@ -27,7 +24,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L102)
 --- Template
 --- @class CommunitiesTicketManagerScrollFrameTemplate : Frame, CommunitiesTicketManagerScrollFrameMixin
---- @field ArtOverlay CommunitiesTicketManagerScrollFrameTemplate_ArtOverlay
+--- @field ArtOverlay Frame
 --- @field ScrollBox CommunitiesTicketManagerScrollFrameTemplate_ScrollBox
 --- @field ScrollBar CommunitiesTicketManagerScrollFrameTemplate_ScrollBar
 --- @field ColumnDisplay CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay

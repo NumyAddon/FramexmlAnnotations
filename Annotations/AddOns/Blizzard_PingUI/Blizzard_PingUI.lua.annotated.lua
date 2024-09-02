@@ -2,69 +2,21 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L19)
 --- @class PingFrameMixin
-PingFrameMixin = {};
-
-function PingFrameMixin:OnLoad()
-    RadialWheelFrameMixin.OnLoad(self);
-
-	C_PingSecure.SetPingRadialWheelCreatedCallback(function(...) self:RadialWheelCreated(...) end);
-
-    self:RegisterEvent("PLAYER_ENTERING_WORLD");
-end
-
-function PingFrameMixin:OnEvent(event, ...)
-    if event == "PLAYER_ENTERING_WORLD" then
-		self:Initialize();
-	end
-end
-
-function PingFrameMixin:Initialize()
-    if self.initialized then
-		return;
-	end
-
-	C_PingSecure.CreateFrame();
-	self.initialized = true;
-end
-
-function PingFrameMixin:RadialWheelCreated(radialParent)
-    self.radialParent = radialParent;
-    self:ClearAllPoints();
-    self:SetPoint("CENTER", self.radialParent);
-end
-
-function PingFrameMixin:EvaluateResult(overrideTargetGUID)
-    local result = self:SelectionEnd();
-
-    -- If cancel was selected result is nil.
-    if result then
-        PingManager:SendPing(result.type, overrideTargetGUID, PingListenerFrame.startX, PingListenerFrame.startY);
-    else
-        -- Ping cancelled.
-        PingManager:CancelPendingPing();
-    end
-end
-
-PingListenerFrameMixin = {
-    PingRadialKeyDownDuration = 0.15;
-}
+PingFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L253)
 --- @class PingPinFrameMixin
-PingPinFrameMixin = {};
-
-local PIN_FLIP_BOOK_INFO = {
-    ["Assist"] = { sizeX=81, sizeY=48, anchorX=-17.5, anchorY=4 },
-    ["Attack"] = { sizeX=55, sizeY=70, anchorX=-12.2, anchorY=-14 },
-    ["OnMyWay"] = { sizeX=50, sizeY=68, anchorX=0, anchorY=10.5 },
-    ["Warning"] = { sizeX=32, sizeY=80.5, anchorX=0, anchorY=1.5 },
-    ["NonThreat"] = { sizeX=65, sizeY=75, anchorX=0.3, anchorY=0.9 },
-    ["Threat"] = { sizeX=65, sizeY=75, anchorX=0.5, anchorY=0.9 },
-}
+PingPinFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L372)
 --- @class PingPinFlipBookAnimMixin
 PingPinFlipBookAnimMixin = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L62)
+--- @class PingListenerFrameMixin
+PingListenerFrameMixin = {
+    PingRadialKeyDownDuration = 0.15;
+}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L21)
 function PingFrameMixin:OnLoad() end
@@ -80,6 +32,57 @@ function PingFrameMixin:RadialWheelCreated(radialParent) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L50)
 function PingFrameMixin:EvaluateResult(overrideTargetGUID) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L66)
+function PingListenerFrameMixin:OnLoad() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L76)
+function PingListenerFrameMixin:PingCooldownStarted(cooldownInfo) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L82)
+function PingListenerFrameMixin:OnPendingPingOffScreen() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L87)
+function PingListenerFrameMixin:OnMouseDown() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L95)
+function PingListenerFrameMixin:OnMouseUp() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L105)
+function PingListenerFrameMixin:OnDragStart() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L118)
+function PingListenerFrameMixin:OnDragStop() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L126)
+function PingListenerFrameMixin:OnEnter() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L142)
+function PingListenerFrameMixin:OnLeave() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L146)
+function PingListenerFrameMixin:TogglePingListener(enabled) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L193)
+function PingListenerFrameMixin:SetupCooldownTimer() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L206)
+function PingListenerFrameMixin:GetPingMode() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L210)
+function PingListenerFrameMixin:SetCursorPositions() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L215)
+function PingListenerFrameMixin:BeginPendingPing() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L234)
+function PingListenerFrameMixin:EndPendingPing() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L241)
+function PingListenerFrameMixin:CancelPendingPing() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L248)
+function PingListenerFrameMixin:ClearPendingPingInfo() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L268)
 function PingPinFrameMixin:OnUpdate(elapsed) end

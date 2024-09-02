@@ -1,20 +1,11 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.xml#L6)
---- @class MoneyInputFrameTemplate_MoneyInputFrameTemplateGold : EditBox
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.xml#L80)
---- @class MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver : EditBox
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.xml#L155)
---- @class MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper : EditBox
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.xml#L3)
 --- Template
 --- @class MoneyInputFrameTemplate : Frame
---- @field gold MoneyInputFrameTemplate_MoneyInputFrameTemplateGold
---- @field silver MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver
---- @field copper MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper
+--- @field gold EditBox
+--- @field silver EditBox
+--- @field copper EditBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.xml#L241)
 --- Template

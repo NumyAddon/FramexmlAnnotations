@@ -47,9 +47,6 @@ ContainerFrameContainer = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
 --- @class ContainerFrameTemplate_ContainerFrameTemplatePortraitButton : DropdownButton, ContainerFramePortraitButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L241)
---- @class ContainerFrameTemplate_FilterIcon : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L257)
 --- @class ContainerFrameTemplate_ : Button, ContainerFramePortraitButtonRouterTemplate
 
@@ -57,7 +54,7 @@ ContainerFrameContainer = {}
 --- Template
 --- @class ContainerFrameTemplate : Frame, PortraitFrameFlatTemplate, ContainerFrameMixin
 --- @field PortraitButton ContainerFrameTemplate_ContainerFrameTemplatePortraitButton
---- @field FilterIcon ContainerFrameTemplate_FilterIcon
+--- @field FilterIcon Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L267)
 --- Template

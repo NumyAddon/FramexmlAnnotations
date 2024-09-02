@@ -2,14 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.lua#L5)
 --- @class AnimaDiversionFrameMixin
-AnimaDiversionFrameMixin = { }; 
-
-local fullGemsTextureKitAnimationEffectId = {
-	["Kyrian"] = 24,
-	["Venthyr"] = 27,
-	["NightFae"] = 30,
-	["Necrolord"] = 33, 
-}
+AnimaDiversionFrameMixin = { }
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.lua#L336)
 --- @class AnimaDiversionCurrencyFrameMixin

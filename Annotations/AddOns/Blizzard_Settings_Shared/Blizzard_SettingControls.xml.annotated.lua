@@ -72,11 +72,8 @@
 --- Template
 --- @class SettingsDropdownWithButtonsTemplate : Frame, Metal2DropdownWithSteppersAndLabelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L177)
---- @class SettingsExpandableSectionTemplate_Button : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L174)
 --- Template
 --- @class SettingsExpandableSectionTemplate : EventFrame, SettingsExpandableSectionMixin
---- @field Button SettingsExpandableSectionTemplate_Button
+--- @field Button Button
 

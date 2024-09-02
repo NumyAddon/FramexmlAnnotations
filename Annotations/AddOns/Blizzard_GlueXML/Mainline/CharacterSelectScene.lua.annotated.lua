@@ -4,11 +4,6 @@
 --- @class CharacterSelectSceneMixin
 CharacterSelectSceneMixin = {}
 
-local CharacterSelectSceneEvents = {
-	"CHARACTER_LIST_UPDATE",
-	"UPDATE_SELECTED_CHARACTER",
-}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelectScene.lua#L17)
 function CharacterSelectSceneMixin:OnLoad() end
 

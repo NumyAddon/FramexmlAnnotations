@@ -16,9 +16,6 @@
 --- Template
 --- @class RewardTrackSkipLevelUpButtonTemplate : Button, SharedGoldRedButtonSmallTemplate, RewardTrackSkipLevelUpButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L126)
---- @class RewardTrackFrameTemplate_ClipFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L137)
 --- @class RewardTrackFrameTemplate_LeftButton : Button, RewardTrackButtonTemplate
 
@@ -34,7 +31,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L123)
 --- Template
 --- @class RewardTrackFrameTemplate : Frame, RewardTrackFrameMixin
---- @field ClipFrame RewardTrackFrameTemplate_ClipFrame
+--- @field ClipFrame Frame
 --- @field LeftButton RewardTrackFrameTemplate_LeftButton
 --- @field JumpLeftButton RewardTrackFrameTemplate_JumpLeftButton
 --- @field RightButton RewardTrackFrameTemplate_RightButton

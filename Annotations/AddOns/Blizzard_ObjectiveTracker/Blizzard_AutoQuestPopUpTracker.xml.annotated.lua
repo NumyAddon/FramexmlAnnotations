@@ -40,15 +40,8 @@
 --- Template
 --- @class QuestIcon-WhiteFlash : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L206)
---- @class AutoQuestPopUpBlockTemplate_Contents_FlashFrame : Frame, AutoQuestPopupFlashFrameMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L51)
---- @class AutoQuestPopUpBlockTemplate_Contents : Frame
---- @field FlashFrame AutoQuestPopUpBlockTemplate_Contents_FlashFrame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L45)
 --- Template
 --- @class AutoQuestPopUpBlockTemplate : Frame, AutoQuestPopupBlockMixin
---- @field Contents AutoQuestPopUpBlockTemplate_Contents
+--- @field Contents Frame
 

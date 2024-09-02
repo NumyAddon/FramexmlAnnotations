@@ -2,20 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_ExpansionLandingPage.lua#L8)
 --- @class ExpansionLandingPageMixin
-ExpansionLandingPageMixin = {};
-
-ExpansionLandingPageEvents = {
-	"ACHIEVEMENT_EARNED",
-	"MAJOR_FACTION_UNLOCKED",
-	"NEW_MOUNT_ADDED",
-	"PLAYER_LEVEL_UP",
-	"PLAYER_LOGIN",
-	"QUEST_REMOVED",
-	"QUEST_TURNED_IN",
-	"ZONE_CHANGED",
-	"ZONE_CHANGED_INDOORS",
-	"ZONE_CHANGED_NEW_AREA",
-}
+ExpansionLandingPageMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_ExpansionLandingPage.lua#L23)
 function ExpansionLandingPageMixin:OnLoad() end

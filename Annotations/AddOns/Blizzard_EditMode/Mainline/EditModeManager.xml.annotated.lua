@@ -12,9 +12,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L50)
 --- @class EditModeManagerFrame_LayoutDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L55)
---- @class EditModeManagerFrame_MagnetismPreviewLinesContainer : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L64)
 --- @class EditModeManagerFrame_Grid : Frame, EditModeGridMixin
 
@@ -149,7 +146,7 @@
 --- @field Tutorial EditModeManagerFrame_Tutorial
 --- @field CloseButton EditModeManagerFrame_CloseButton
 --- @field LayoutDropdown EditModeManagerFrame_LayoutDropdown
---- @field MagnetismPreviewLinesContainer EditModeManagerFrame_MagnetismPreviewLinesContainer
+--- @field MagnetismPreviewLinesContainer Frame
 --- @field Grid EditModeManagerFrame_Grid
 --- @field ShowGridCheckButton EditModeManagerFrame_ShowGridCheckButton
 --- @field GridSpacingSlider EditModeManagerFrame_GridSpacingSlider

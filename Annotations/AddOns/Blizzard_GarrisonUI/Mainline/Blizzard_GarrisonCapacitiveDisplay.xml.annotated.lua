@@ -8,46 +8,20 @@
 --- Template
 --- @class GarrisonCapacitiveWorkOrderTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L196)
---- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame_Follower : Frame, GarrisonFollowerPortraitTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L167)
---- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame : Frame
---- @field Follower GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame_Follower
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L214)
---- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ : Button, GarrisonCapacitiveItemButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L127)
---- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay : Frame
---- @field ShipmentIconFrame GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L221)
---- @class GarrisonCapacitiveDisplayFrame_FinishedGlow : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L245)
 --- @class GarrisonCapacitiveDisplayFrame_StartWorkOrderButton : Button, MagicButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L254)
 --- @class GarrisonCapacitiveDisplayFrame_CreateAllWorkOrdersButton : Button, MagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L263)
---- @class GarrisonCapacitiveDisplayFrame_DecrementButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L279)
---- @class GarrisonCapacitiveDisplayFrame_Count : EditBox
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L325)
---- @class GarrisonCapacitiveDisplayFrame_IncrementButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L122)
 --- @class GarrisonCapacitiveDisplayFrame : Frame, ButtonFrameTemplate
---- @field CapacitiveDisplay GarrisonCapacitiveDisplayFrame_CapacitiveDisplay
---- @field FinishedGlow GarrisonCapacitiveDisplayFrame_FinishedGlow
+--- @field CapacitiveDisplay Frame
+--- @field FinishedGlow Frame
 --- @field StartWorkOrderButton GarrisonCapacitiveDisplayFrame_StartWorkOrderButton
 --- @field CreateAllWorkOrdersButton GarrisonCapacitiveDisplayFrame_CreateAllWorkOrdersButton
---- @field DecrementButton GarrisonCapacitiveDisplayFrame_DecrementButton
---- @field Count GarrisonCapacitiveDisplayFrame_Count
---- @field IncrementButton GarrisonCapacitiveDisplayFrame_IncrementButton
+--- @field DecrementButton Button
+--- @field Count EditBox
+--- @field IncrementButton Button
 GarrisonCapacitiveDisplayFrame = {}
 

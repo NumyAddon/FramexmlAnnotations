@@ -1,12 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L7)
---- @class RolePollRoleButtonTemplate_checkButton : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L4)
 --- Template
 --- @class RolePollRoleButtonTemplate : Button
---- @field checkButton RolePollRoleButtonTemplate_checkButton
+--- @field checkButton CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/91421dcf13fb2f764aeed1caa4124100fbce7d25/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L57)
 --- @class RolePollPopup_Border : Frame, DialogBorderTemplate

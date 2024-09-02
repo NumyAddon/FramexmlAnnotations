@@ -12,14 +12,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L167)
 --- @class InspectTalentFrame_InspectTalentFrameCloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L176)
---- @class InspectTalentFrame_InspectTalentFramePointsBar : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L259)
 --- @class InspectTalentFrame_InspectTalentFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L427)
---- @class InspectTalentFrame_InspectTalentFrameScrollButtonOverlay : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L3)
 --- @class InspectTalentFrame : Frame

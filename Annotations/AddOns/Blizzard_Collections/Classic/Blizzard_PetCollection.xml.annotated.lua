@@ -4,17 +4,10 @@
 --- Template
 --- @class ExpBar-Divider : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L93)
---- @class CompanionListButtonTemplate_dragButton_Cooldown : Cooldown, CooldownFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L77)
---- @class CompanionListButtonTemplate_dragButton : Button
---- @field Cooldown CompanionListButtonTemplate_dragButton_Cooldown
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L5)
 --- Template
 --- @class CompanionListButtonTemplate : Button
---- @field dragButton CompanionListButtonTemplate_dragButton
+--- @field dragButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L129)
 --- @class PetJournal_PetCount : Frame, InsetFrameTemplate3
@@ -40,29 +33,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L218)
 --- @class PetJournal_ScrollBar : EventFrame, WowTrimScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L239)
---- @class PetJournal_PetJournalPetCard_ShadowOverlay : Frame, ShadowOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L240)
---- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L332)
---- @class PetJournal_PetJournalPetCard_modelScene_RotateLeftButton : Button, RotateOrbitCameraLeftButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L333)
---- @class PetJournal_PetJournalPetCard_modelScene_RotateRightButton : Button, RotateOrbitCameraRightButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L326)
---- @class PetJournal_PetJournalPetCard_modelScene : ModelScene, WrappedAndUnwrappedModelScene
---- @field RotateLeftButton PetJournal_PetJournalPetCard_modelScene_RotateLeftButton
---- @field RotateRightButton PetJournal_PetJournalPetCard_modelScene_RotateRightButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L225)
---- @class PetJournal_PetJournalPetCard : Frame
---- @field ShadowOverlay PetJournal_PetJournalPetCard_ShadowOverlay
---- @field PetInfo PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo
---- @field modelScene PetJournal_PetJournalPetCard_modelScene
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L348)
 --- @class PetJournal_PetJournalSummonButton : Button, MagicButtonTemplate
 
@@ -77,7 +47,7 @@
 --- @field searchBox PetJournal_PetJournalSearchBox
 --- @field ScrollBox PetJournal_ScrollBox
 --- @field ScrollBar PetJournal_ScrollBar
---- @field PetCard PetJournal_PetJournalPetCard
+--- @field PetCard Frame
 --- @field SummonButton PetJournal_PetJournalSummonButton
 --- @field petOptionsMenu PetJournal_PetJournalPetOptionsMenu
 PetJournal = {}

@@ -72,17 +72,11 @@
 --- Template
 --- @class SecureDialogBorderOpaqueTemplate : Frame, SecureDialogBorderNoCenterTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L403)
---- @class LoadingSpinnerTemplate_BackgroundFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L415)
---- @class LoadingSpinnerTemplate_AnimFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L400)
 --- Template
 --- @class LoadingSpinnerTemplate : Frame, LoadingSpinnerMixin
---- @field BackgroundFrame LoadingSpinnerTemplate_BackgroundFrame
---- @field AnimFrame LoadingSpinnerTemplate_AnimFrame
+--- @field BackgroundFrame Frame
+--- @field AnimFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L439)
 --- Template

@@ -12,19 +12,13 @@
 --- @class BehavioralMessagingTray : Frame, HorizontalLayoutFrame, BehavioralMessagingTrayMixin
 BehavioralMessagingTray = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L96)
---- @class BehavioralMessagingDetails_Border : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L97)
---- @class BehavioralMessagingDetails_Body : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L124)
 --- @class BehavioralMessagingDetails_CloseButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L41)
 --- @class BehavioralMessagingDetails : Frame, BehavioralMessagingDetailsMixin
---- @field Border BehavioralMessagingDetails_Border
---- @field Body BehavioralMessagingDetails_Body
+--- @field Border Frame
+--- @field Body Frame
 --- @field CloseButton BehavioralMessagingDetails_CloseButton
 BehavioralMessagingDetails = {}
 

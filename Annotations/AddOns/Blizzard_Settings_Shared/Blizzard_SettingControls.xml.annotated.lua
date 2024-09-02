@@ -80,11 +80,8 @@
 --- Template
 --- @class SettingsTextDropDownControlTemplate : Frame, SettingsDropDownControlTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L204)
---- @class SettingsExpandableSectionTemplate_Button : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L201)
 --- Template
 --- @class SettingsExpandableSectionTemplate : EventFrame, SettingsExpandableSectionMixin
---- @field Button SettingsExpandableSectionTemplate_Button
+--- @field Button Button
 

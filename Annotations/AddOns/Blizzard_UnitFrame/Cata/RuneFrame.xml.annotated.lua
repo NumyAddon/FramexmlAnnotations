@@ -3,15 +3,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L17)
 --- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L27)
---- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateBorder : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L47)
---- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateShine : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L62)
---- @class RuneButtonIndividualTemplate_ : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L3)
 --- Template
 --- @class RuneButtonIndividualTemplate : Button

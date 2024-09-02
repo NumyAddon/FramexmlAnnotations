@@ -32,9 +32,6 @@
 --- Template
 --- @class QuestPortrait-StoneSwirls-Top : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L59)
---- @class QuestFrame_QuestNpcNameFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L75)
 --- @class QuestFrame_QuestFrameCloseButton : Button, UIPanelCloseButton
 
@@ -86,15 +83,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L36)
 --- @class QuestFrame : Frame
 QuestFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L607)
---- @class QuestNPCModel_QuestNPCModelNameTooltipFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L669)
---- @class QuestNPCModel_QuestNPCModelTextFrame_QuestNPCModelTextScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L624)
---- @class QuestNPCModel_QuestNPCModelTextFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L509)
 --- @class QuestNPCModel : PlayerModel

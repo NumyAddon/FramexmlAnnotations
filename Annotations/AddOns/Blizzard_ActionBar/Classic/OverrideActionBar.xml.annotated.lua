@@ -4,27 +4,6 @@
 --- Template
 --- @class OverrideActionBarButtonTemplate : CheckButton, ActionBarButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L177)
---- @class OverrideActionBar_OverrideActionBarPitchFrame_OverrideActionBarPitchFramePitchUpButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L202)
---- @class OverrideActionBar_OverrideActionBarPitchFrame_OverrideActionBarPitchFramePitchDownButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L126)
---- @class OverrideActionBar_OverrideActionBarPitchFrame : Frame
---- @field PitchUpButton OverrideActionBar_OverrideActionBarPitchFrame_OverrideActionBarPitchFramePitchUpButton
---- @field PitchDownButton OverrideActionBar_OverrideActionBarPitchFrame_OverrideActionBarPitchFramePitchDownButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L268)
---- @class OverrideActionBar_OverrideActionBarLeaveFrame_OverrideActionBarLeaveFrameLeaveButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L242)
---- @class OverrideActionBar_OverrideActionBarLeaveFrame : Frame
---- @field LeaveButton OverrideActionBar_OverrideActionBarLeaveFrame_OverrideActionBarLeaveFrameLeaveButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L339)
---- @class OverrideActionBar_OverrideActionBarExpBar_OverrideActionBarExpBarOverlayFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L303)
 --- @class OverrideActionBar_OverrideActionBarExpBar : StatusBar, TextStatusBar
 
@@ -54,8 +33,8 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L16)
 --- @class OverrideActionBar : Frame
---- @field pitchFrame OverrideActionBar_OverrideActionBarPitchFrame
---- @field leaveFrame OverrideActionBar_OverrideActionBarLeaveFrame
+--- @field pitchFrame Frame
+--- @field leaveFrame Frame
 --- @field xpBar OverrideActionBar_OverrideActionBarExpBar
 --- @field healthBar OverrideActionBar_OverrideActionBarHealthBar
 --- @field powerBar OverrideActionBar_OverrideActionBarPowerBar

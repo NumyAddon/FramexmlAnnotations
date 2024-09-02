@@ -20,17 +20,11 @@
 --- Template
 --- @class WorldMapNavBarTemplate : Frame, NavBarTemplate, WorldMapNavBarMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L115)
---- @class WorldMapSidePanelToggleTemplate_OpenButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L144)
---- @class WorldMapSidePanelToggleTemplate_CloseButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L112)
 --- Template
 --- @class WorldMapSidePanelToggleTemplate : Frame, WorldMapSidePanelToggleMixin
---- @field OpenButton WorldMapSidePanelToggleTemplate_OpenButton
---- @field CloseButton WorldMapSidePanelToggleTemplate_CloseButton
+--- @field OpenButton Button
+--- @field CloseButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L176)
 --- Template

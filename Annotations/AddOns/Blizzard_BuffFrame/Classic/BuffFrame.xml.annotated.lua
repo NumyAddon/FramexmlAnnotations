@@ -24,9 +24,6 @@ BuffFrame = {}
 --- @class ConsolidatedBuffs : Button, AuraButtonTemplate
 ConsolidatedBuffs = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L141)
---- @class ConsolidatedBuffsTooltip_ConsolidatedBuffsContainer : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L135)
 --- @class ConsolidatedBuffsTooltip : Frame, TooltipBackdropTemplate
 ConsolidatedBuffsTooltip = {}

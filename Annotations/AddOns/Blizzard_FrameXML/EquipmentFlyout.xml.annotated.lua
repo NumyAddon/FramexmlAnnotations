@@ -16,23 +16,9 @@
 --- Template
 --- @class EquipmentFlyoutPopoutButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L56)
---- @class EquipmentFlyoutFrame_EquipmentFlyoutFrameButtons : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L104)
---- @class EquipmentFlyoutFrame_NavigationFrame_PrevButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L119)
---- @class EquipmentFlyoutFrame_NavigationFrame_NextButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L79)
---- @class EquipmentFlyoutFrame_NavigationFrame : Frame
---- @field PrevButton EquipmentFlyoutFrame_NavigationFrame_PrevButton
---- @field NextButton EquipmentFlyoutFrame_NavigationFrame_NextButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L40)
 --- @class EquipmentFlyoutFrame : Frame
---- @field buttonFrame EquipmentFlyoutFrame_EquipmentFlyoutFrameButtons
---- @field NavigationFrame EquipmentFlyoutFrame_NavigationFrame
+--- @field buttonFrame Frame
+--- @field NavigationFrame Frame
 EquipmentFlyoutFrame = {}
 

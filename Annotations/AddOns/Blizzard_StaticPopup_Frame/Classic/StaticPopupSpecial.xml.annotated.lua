@@ -12,13 +12,6 @@
 --- @field DeclineButton PetBattleQueueReadyFrame_DeclineButton
 PetBattleQueueReadyFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L148)
---- @class PlayerReportFrame_Comment_ScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L84)
---- @class PlayerReportFrame_Comment : Frame
---- @field ScrollFrame PlayerReportFrame_Comment_ScrollFrame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L208)
 --- @class PlayerReportFrame_ReportButton : Button, UIPanelButtonTemplate
 
@@ -27,7 +20,7 @@ PetBattleQueueReadyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L62)
 --- @class PlayerReportFrame : Frame, BackdropTemplate, PlayerReportFrameMixin
---- @field Comment PlayerReportFrame_Comment
+--- @field Comment Frame
 --- @field ReportButton PlayerReportFrame_ReportButton
 --- @field CancelButton PlayerReportFrame_CancelButton
 PlayerReportFrame = {}

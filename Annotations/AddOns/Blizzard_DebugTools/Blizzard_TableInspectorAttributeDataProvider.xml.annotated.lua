@@ -16,13 +16,10 @@
 --- Template
 --- @class TableAttributeLineFixedValueTemplate : Frame, TableAttributeLineBaseTemplate, TruncatedTooltipScriptTemplate, TableAttributeLineFixedValueMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.xml#L57)
---- @class TableAttributeLineEditableTemplate_Value : EditBox
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.xml#L55)
 --- Template
 --- @class TableAttributeLineEditableTemplate : Frame, TableAttributeLineBaseTemplate, TableAttributeLineEditableMixin
---- @field Value TableAttributeLineEditableTemplate_Value
+--- @field Value EditBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.xml#L86)
 --- @class TableAttributeLineReferenceTemplate_ValueButton : Button, TruncatedTooltipScriptTemplate

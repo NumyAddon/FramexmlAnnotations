@@ -6,11 +6,7 @@ KeyBindingButtonMixin = CreateFromMixins(DefaultTooltipMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L264)
 --- @class KeyBindingFrameBindingTemplateMixin
-KeyBindingFrameBindingTemplateMixin = {};
-
-local KeyBindingFrameBindingTemplateEvents = {
-	"UPDATE_BINDINGS",
-}
+KeyBindingFrameBindingTemplateMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L270)
 function KeyBindingFrameBindingTemplateMixin:OnLoad() end

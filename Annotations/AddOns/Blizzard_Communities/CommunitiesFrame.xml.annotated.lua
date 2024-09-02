@@ -12,13 +12,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L26)
 --- @class GuildBenefitsFrameTemplate_GuildAchievementPointDisplay : Frame, GuildAchievementPointDisplayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L46)
---- @class GuildBenefitsFrameTemplate_FactionFrame_Bar : Frame, CommunitiesGuildProgressBarTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L31)
---- @class GuildBenefitsFrameTemplate_FactionFrame : Frame
---- @field Bar GuildBenefitsFrameTemplate_FactionFrame_Bar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L5)
 --- Template
 --- @class GuildBenefitsFrameTemplate : Frame
@@ -26,15 +19,12 @@
 --- @field Rewards GuildBenefitsFrameTemplate_Rewards
 --- @field GuildRewardsTutorialButton GuildBenefitsFrameTemplate_GuildRewardsTutorialButton
 --- @field GuildAchievementPointDisplay GuildBenefitsFrameTemplate_GuildAchievementPointDisplay
---- @field FactionFrame GuildBenefitsFrameTemplate_FactionFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L125)
---- @class ClubFinderPostingExpirationTemplate_InfoButton : Button
+--- @field FactionFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L109)
 --- Template
 --- @class ClubFinderPostingExpirationTemplate : Frame
---- @field InfoButton ClubFinderPostingExpirationTemplate_InfoButton
+--- @field InfoButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L164)
 --- @class GuildDetailsFrameTemplate_GuildDetailsFrameTemplateInfo : Frame, CommunitiesGuildInfoFrameTemplate
@@ -68,9 +58,6 @@
 --- @field GuildControlButton CommunitiesControlFrameTemplate_GuildControlButton
 --- @field GuildRecruitmentButton CommunitiesControlFrameTemplate_GuildRecruitmentButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L310)
---- @class CommunitiesFrame_PortraitOverlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L355)
 --- @class CommunitiesFrame_MaximizeMinimizeFrame : Frame, MaximizeMinimizeButtonFrameTemplate
 
@@ -80,12 +67,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L369)
 --- @class CommunitiesFrame_ChatTab : CheckButton, CommunitiesFrameTabTemplate, CommunitiesChatTabMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L393)
---- @class CommunitiesFrame_RosterTab_NotificationOverlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L383)
 --- @class CommunitiesFrame_RosterTab : CheckButton, CommunitiesFrameTabTemplate
---- @field NotificationOverlay CommunitiesFrame_RosterTab_NotificationOverlay
+--- @field NotificationOverlay Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L408)
 --- @class CommunitiesFrame_GuildBenefitsTab : CheckButton, CommunitiesFrameTabTemplate
@@ -192,7 +176,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L304)
 --- @class CommunitiesFrame : Frame, ButtonFrameTemplateMinimizable, CommunitiesFrameMixin
---- @field PortraitOverlay CommunitiesFrame_PortraitOverlay
+--- @field PortraitOverlay Frame
 --- @field MaximizeMinimizeFrame CommunitiesFrame_MaximizeMinimizeFrame
 --- @field CommunitiesList CommunitiesFrame_CommunitiesFrameCommunitiesList
 --- @field ChatTab CommunitiesFrame_ChatTab

@@ -29,9 +29,6 @@
 --- @field CloseButton ChannelFrame_Tutorial_CloseButton
 --- @field Arrow ChannelFrame_Tutorial_Arrow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L122)
---- @class ChannelFrame_Dropdown : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1a17de72caf6d5a70e70e86d27ca7942c37fec87/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L5)
 --- @class ChannelFrame : Frame, ButtonFrameTemplate, ChannelFrameMixin
 --- @field NewButton ChannelFrame_NewButton
@@ -41,6 +38,6 @@
 --- @field ChannelRoster ChannelFrame_ChannelRoster
 --- @field RightInset ChannelFrame_RightInset
 --- @field Tutorial ChannelFrame_Tutorial
---- @field Dropdown ChannelFrame_Dropdown
+--- @field Dropdown Frame
 ChannelFrame = {}
 

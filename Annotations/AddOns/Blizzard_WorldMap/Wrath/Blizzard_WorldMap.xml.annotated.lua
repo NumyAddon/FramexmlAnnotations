@@ -12,18 +12,6 @@
 --- @class WorldMapScreenAnchor : Frame
 WorldMapScreenAnchor = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L40)
---- @class WorldMapFrame_BlackoutFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L53)
---- @class WorldMapFrame_MiniBorderFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L92)
---- @class WorldMapFrame_WorldMapTitleButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L110)
---- @class WorldMapFrame_BorderFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L269)
 --- @class WorldMapFrame_WorldMapContinentDropdown : DropdownButton, WowStyle1DropdownTemplate
 
@@ -35,9 +23,6 @@ WorldMapScreenAnchor = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L349)
 --- @class WorldMapFrame_WorldMapZoomOutButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L366)
---- @class WorldMapFrame_WorldMapMagnifyingGlassButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L409)
 --- @class WorldMapFrame_WorldMapFrameCloseButton : Button, UIPanelCloseButton
@@ -53,9 +38,9 @@ WorldMapScreenAnchor = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L28)
 --- @class WorldMapFrame : Frame, WorldMapFrameTemplate
---- @field BlackoutFrame WorldMapFrame_BlackoutFrame
---- @field MiniBorderFrame WorldMapFrame_MiniBorderFrame
---- @field BorderFrame WorldMapFrame_BorderFrame
+--- @field BlackoutFrame Frame
+--- @field MiniBorderFrame Frame
+--- @field BorderFrame Frame
 --- @field ContinentDropdown WorldMapFrame_WorldMapContinentDropdown
 --- @field ZoneDropdown WorldMapFrame_WorldMapZoneDropdown
 --- @field MinimapDropdown WorldMapFrame_WorldMapZoneMinimapDropdown

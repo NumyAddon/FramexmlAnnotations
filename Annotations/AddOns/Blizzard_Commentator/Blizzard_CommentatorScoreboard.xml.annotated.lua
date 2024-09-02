@@ -14,17 +14,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.xml#L41)
 --- @class CommentatorScoreboardTemplate_ScoreRight : Frame, CommentatorScoreboardScoreTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.xml#L46)
---- @class CommentatorScoreboardTemplate_Clock : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.xml#L65)
---- @class CommentatorScoreboardTemplate_Dampener : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.xml#L26)
 --- Template
 --- @class CommentatorScoreboardTemplate : Frame, CommentatorScoreboardMixin
 --- @field ScoreLeft CommentatorScoreboardTemplate_ScoreLeft
 --- @field ScoreRight CommentatorScoreboardTemplate_ScoreRight
---- @field Clock CommentatorScoreboardTemplate_Clock
---- @field Dampener CommentatorScoreboardTemplate_Dampener
+--- @field Clock Frame
+--- @field Dampener Frame
 

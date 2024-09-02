@@ -4,12 +4,6 @@
 --- Template
 --- @class ArenaCastingBarFrameTemplate : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L81)
---- @class ArenaEnemyPetFrameTemplate__ : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L79)
---- @class ArenaEnemyPetFrameTemplate_ : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L101)
 --- @class ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateHealthBar : StatusBar, TextStatusBar
 
@@ -19,12 +13,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L57)
 --- Template
 --- @class ArenaEnemyPetFrameTemplate : Button, SecureUnitButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L159)
---- @class ArenaPrepFrameTemplate__ : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L157)
---- @class ArenaPrepFrameTemplate_ : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- @class ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar : StatusBar, TextStatusBar
@@ -40,27 +28,14 @@
 --- @class ArenaPrepFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field CastingBar ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L305)
---- @class ArenaEnemyFrameTemplate__ : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L303)
---- @class ArenaEnemyFrameTemplate_ : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L315)
 --- @class ArenaEnemyFrameTemplate_ArenaEnemyFrameTemplatePetFrame : Button, ArenaEnemyPetFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L327)
---- @class ArenaEnemyFrameTemplate_CC_Cooldown : Cooldown, CooldownFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L316)
---- @class ArenaEnemyFrameTemplate_CC : Frame
---- @field Cooldown ArenaEnemyFrameTemplate_CC_Cooldown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
 --- Template
 --- @class ArenaEnemyFrameTemplate : Button, ArenaPrepFrameTemplate
 --- @field petFrame ArenaEnemyFrameTemplate_ArenaEnemyFrameTemplatePetFrame
---- @field CC ArenaEnemyFrameTemplate_CC
+--- @field CC Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L345)
 --- @class ArenaPrepFrames_ArenaPrepFrame1 : Button, ArenaPrepFrameTemplate

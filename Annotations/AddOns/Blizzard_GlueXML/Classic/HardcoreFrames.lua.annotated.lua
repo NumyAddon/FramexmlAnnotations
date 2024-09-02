@@ -2,12 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L1)
 --- @class HardcorePopUpFrameMixin
-HardcorePopUpFrameMixin = {};
-
-HARDCORE_POPUP_SCREEN = {
-    REALM_SELECT        = 1,
-    CHARACTER_SELECT    = 2,
-}
+HardcorePopUpFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.lua#L62)
 --- @class HardcorePopUpAcceptButtonMixin

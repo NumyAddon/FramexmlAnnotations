@@ -1,16 +1,7 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L162)
---- @class ClassTrainerFrame_ClassTrainerExpandButtonFrame_ClassTrainerCollapseAllButton : Button, ClassTrainerSkillButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L118)
---- @class ClassTrainerFrame_ClassTrainerExpandButtonFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L184)
 --- @class ClassTrainerFrame_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L189)
---- @class ClassTrainerFrame_ClassTrainerSkillHighlightFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L202)
 --- @class ClassTrainerFrame_ClassTrainerSkill1 : Button, ClassTrainerSkillButtonTemplate

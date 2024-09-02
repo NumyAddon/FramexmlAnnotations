@@ -4,17 +4,10 @@
 --- Template
 --- @class ExpBar-Divider : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L93)
---- @class CompanionListButtonTemplate_dragButton_Cooldown : Cooldown, CooldownFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L77)
---- @class CompanionListButtonTemplate_dragButton : Button
---- @field Cooldown CompanionListButtonTemplate_dragButton_Cooldown
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L5)
 --- Template
 --- @class CompanionListButtonTemplate : Button
---- @field dragButton CompanionListButtonTemplate_dragButton
+--- @field dragButton Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L129)
 --- @class PetJournal_PetCount : Frame, InsetFrameTemplate3
@@ -37,29 +30,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L196)
 --- @class PetJournal_ScrollBar : EventFrame, WowTrimScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L217)
---- @class PetJournal_PetJournalPetCard_ShadowOverlay : Frame, ShadowOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L218)
---- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L310)
---- @class PetJournal_PetJournalPetCard_modelScene_RotateLeftButton : Button, RotateOrbitCameraLeftButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L311)
---- @class PetJournal_PetJournalPetCard_modelScene_RotateRightButton : Button, RotateOrbitCameraRightButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L304)
---- @class PetJournal_PetJournalPetCard_modelScene : ModelScene, WrappedAndUnwrappedModelScene
---- @field RotateLeftButton PetJournal_PetJournalPetCard_modelScene_RotateLeftButton
---- @field RotateRightButton PetJournal_PetJournalPetCard_modelScene_RotateRightButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L203)
---- @class PetJournal_PetJournalPetCard : Frame
---- @field ShadowOverlay PetJournal_PetJournalPetCard_ShadowOverlay
---- @field PetInfo PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo
---- @field modelScene PetJournal_PetJournalPetCard_modelScene
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L326)
 --- @class PetJournal_PetJournalSummonButton : Button, MagicButtonTemplate
 
@@ -72,7 +42,7 @@
 --- @field FilterDropdown PetJournal_FilterDropdown
 --- @field ScrollBox PetJournal_ScrollBox
 --- @field ScrollBar PetJournal_ScrollBar
---- @field PetCard PetJournal_PetJournalPetCard
+--- @field PetCard Frame
 --- @field SummonButton PetJournal_PetJournalSummonButton
 PetJournal = {}
 

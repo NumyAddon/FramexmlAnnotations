@@ -23,18 +23,9 @@ SideDressUpFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L156)
 --- @class DressUpFrame_DressUpFrameResetButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L180)
---- @class DressUpFrame_DressUpModelFrame_DressUpModelFrameRotateRightButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L201)
---- @class DressUpFrame_DressUpModelFrame_DressUpModelFrameRotateLeftButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L168)
---- @class DressUpFrame_DressUpModelFrame : DressUpModel
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L125)
 --- @class DressUpFrame : Frame
 --- @field ResetButton DressUpFrame_DressUpFrameResetButton
---- @field DressUpModel DressUpFrame_DressUpModelFrame
+--- @field DressUpModel DressUpModel
 DressUpFrame = {}
 

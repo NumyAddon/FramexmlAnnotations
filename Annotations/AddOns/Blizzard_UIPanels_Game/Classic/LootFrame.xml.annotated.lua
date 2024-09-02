@@ -20,18 +20,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L118)
 --- @class LootFrame_LootButton4 : Button, LootButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L123)
---- @class LootFrame_LootFrameUpButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L136)
---- @class LootFrame_LootFrameDownButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L70)
 --- @class LootFrame : Frame, ButtonFrameTemplate
 LootFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L226)
---- @class GroupLootFrameTemplate_IconFrame : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L273)
 --- @class GroupLootFrameTemplate_NeedButton : Button, LootRollButtonTemplate
@@ -42,17 +33,14 @@ LootFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L303)
 --- @class GroupLootFrameTemplate_GreedButton : Button, LootRollButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L316)
---- @class GroupLootFrameTemplate_Timer : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L157)
 --- Template
 --- @class GroupLootFrameTemplate : Frame, BackdropTemplate
---- @field IconFrame GroupLootFrameTemplate_IconFrame
+--- @field IconFrame Button
 --- @field NeedButton GroupLootFrameTemplate_NeedButton
 --- @field PassButton GroupLootFrameTemplate_PassButton
 --- @field GreedButton GroupLootFrameTemplate_GreedButton
---- @field Timer GroupLootFrameTemplate_Timer
+--- @field Timer StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L356)
 --- @class GroupLootContainer : Frame
@@ -78,9 +66,6 @@ GroupLootFrame4 = {}
 --- Template
 --- @class MasterLooterPlayerTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L414)
---- @class MasterLooterFrame_Item : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L470)
 --- @class MasterLooterFrame_player1 : Button, MasterLooterPlayerTemplate
 
@@ -89,7 +74,7 @@ GroupLootFrame4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L408)
 --- @class MasterLooterFrame : Frame, TooltipBorderedFrameTemplate
---- @field Item MasterLooterFrame_Item
+--- @field Item Frame
 --- @field player1 MasterLooterFrame_player1
 MasterLooterFrame = {}
 

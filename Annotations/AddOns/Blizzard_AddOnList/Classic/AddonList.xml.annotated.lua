@@ -1,11 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L28)
---- @class AddonListEntryTemplate_AddonListEntryTemplateSecurity : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L45)
---- @class AddonListEntryTemplate_AddonListEntryTemplateEnabled : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L74)
 --- @class AddonListEntryTemplate_AddonListEntryTemplateLoad : Button, UIPanelButtonTemplate
 
@@ -29,9 +23,6 @@ AddonDialog = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L140)
 --- @class AddonList_Dropdown : DropdownButton, WowStyle1DropdownTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L145)
---- @class AddonList_AddonListForceLoad : CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L182)
 --- @class AddonList_AddonListCancelButton : Button, MagicButtonTemplate

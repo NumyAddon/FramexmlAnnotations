@@ -3,9 +3,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L48)
 --- @class TutorialFrame_TutorialFrameCheckButton : CheckButton, UICheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L76)
---- @class TutorialFrame_TutorialFrameOkayButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L3)
 --- @class TutorialFrame : Frame, BackdropTemplate
 TutorialFrame = {}

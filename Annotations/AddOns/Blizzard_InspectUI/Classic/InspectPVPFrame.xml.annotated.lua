@@ -1,14 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L74)
---- @class InspectPVPFrame_InspectPVPFrameHonor : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L131)
---- @class InspectPVPFrame_InspectPVPFrameArena : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L189)
---- @class InspectPVPFrame_InspectPVPHonor : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L298)
 --- @class InspectPVPFrame_InspectPVPTeam1Standard : Frame, PVPTeamStandardTemplate
 

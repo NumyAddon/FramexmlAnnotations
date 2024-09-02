@@ -4,12 +4,6 @@
 --- Template
 --- @class StaticPopupButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L98)
---- @class StaticPopupTemplate_CoverFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L115)
---- @class StaticPopupTemplate_StaticPopupTemplateExtraFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L116)
 --- @class StaticPopupTemplate_StaticPopupTemplateCloseButton : Button, UIPanelCloseButton
 
@@ -43,17 +37,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L222)
 --- @class StaticPopupTemplate_StaticPopupTemplateItemFrame : ItemButton, StaticPopupItemFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L273)
---- @class StaticPopupTemplate_DarkOverlay : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L286)
 --- @class StaticPopupTemplate_Spinner : Frame, SpinnerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L50)
 --- Template
 --- @class StaticPopupTemplate : Frame, BackdropTemplate
---- @field CoverFrame StaticPopupTemplate_CoverFrame
---- @field extraFrame StaticPopupTemplate_StaticPopupTemplateExtraFrame
+--- @field CoverFrame Frame
+--- @field extraFrame Frame
 --- @field CloseButton StaticPopupTemplate_StaticPopupTemplateCloseButton
 --- @field button1 StaticPopupTemplate_StaticPopupTemplateButton1
 --- @field button2 StaticPopupTemplate_StaticPopupTemplateButton2
@@ -62,7 +53,7 @@
 --- @field extraButton StaticPopupTemplate_StaticPopupTemplateExtraButton
 --- @field Dropdown StaticPopupTemplate_Dropdown
 --- @field ItemFrame StaticPopupTemplate_StaticPopupTemplateItemFrame
---- @field DarkOverlay StaticPopupTemplate_DarkOverlay
+--- @field DarkOverlay Frame
 --- @field Spinner StaticPopupTemplate_Spinner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L310)

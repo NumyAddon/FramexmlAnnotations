@@ -20,12 +20,6 @@
 --- Template
 --- @class CompactDispelDebuffTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L184)
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar : StatusBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L191)
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L198)
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff1 : Button, CompactBuffTemplate
 
@@ -53,15 +47,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L206)
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff3 : Button, CompactDispelDebuffTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L207)
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L141)
 --- Template
 --- @class CompactUnitFrameTemplate : Button, SecureUnitButtonTemplate
---- @field healthBar CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar
---- @field powerBar CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar
---- @field centerStatusIcon CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon
+--- @field healthBar StatusBar
+--- @field powerBar StatusBar
+--- @field centerStatusIcon Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L248)
 --- Template

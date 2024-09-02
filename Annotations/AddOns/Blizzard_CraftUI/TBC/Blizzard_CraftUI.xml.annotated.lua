@@ -14,21 +14,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L209)
 --- @class CraftFrame_CraftFrameAvailableFilterCheckButton : CheckButton, UICheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L282)
---- @class CraftFrame_CraftRankFrame_CraftRankFrameBorder : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L240)
---- @class CraftFrame_CraftRankFrame : StatusBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L353)
---- @class CraftFrame_CraftExpandButtonFrame_CraftCollapseAllButton : Button, ClassTrainerSkillButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L309)
---- @class CraftFrame_CraftExpandButtonFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L375)
---- @class CraftFrame_CraftHighlightFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L388)
 --- @class CraftFrame_Craft1 : Button, CraftButtonTemplate
 

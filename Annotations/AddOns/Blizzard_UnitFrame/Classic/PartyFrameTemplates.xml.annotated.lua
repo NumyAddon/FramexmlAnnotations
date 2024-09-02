@@ -12,12 +12,6 @@
 --- Template
 --- @class PartyPetDebuffFrameTemplate : Frame, PartyDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L97)
---- @class PartyMemberPetFrameTemplate__ : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L95)
---- @class PartyMemberPetFrameTemplate_ : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L116)
 --- @class PartyMemberPetFrameTemplate_PartyMemberPetFrameTemplateHealthBar : StatusBar, TextStatusBar
 
@@ -37,12 +31,6 @@
 --- Template
 --- @class PartyMemberPetFrameTemplate : Button, SecureUnitButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L206)
---- @class PartyMemberFrameTemplate__ : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L204)
---- @class PartyMemberFrameTemplate_ : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L273)
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateHealthBar : StatusBar, TextStatusBar
 
@@ -51,9 +39,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L314)
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateReadyCheck : Frame, ReadyCheckStatusTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L324)
---- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateNotPresentIcon : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L346)
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateDebuff1 : Button, PartyDebuffFrameTemplate
@@ -75,5 +60,5 @@
 --- @class PartyMemberFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field HealthBar PartyMemberFrameTemplate_PartyMemberFrameTemplateHealthBar
 --- @field ManaBar PartyMemberFrameTemplate_PartyMemberFrameTemplateManaBar
---- @field notPresentIcon PartyMemberFrameTemplate_PartyMemberFrameTemplateNotPresentIcon
+--- @field notPresentIcon Frame
 

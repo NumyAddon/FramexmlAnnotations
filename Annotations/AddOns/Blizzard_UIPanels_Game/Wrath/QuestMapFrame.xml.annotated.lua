@@ -24,27 +24,13 @@
 --- Template
 --- @class QuestDetailsButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L180)
---- @class QuestMapFrame_QuestScrollFrame_DetailFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L160)
 --- @class QuestMapFrame_QuestScrollFrame : ScrollFrame, ScrollFrameTemplate
---- @field DetailFrame QuestMapFrame_QuestScrollFrame_DetailFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L197)
---- @class QuestMapFrame_DetailsFrame_RewardsFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L203)
---- @class QuestMapFrame_DetailsFrame_QuestMapDetailsScrollFrame : EventScrollFrame, UIPanelScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L191)
---- @class QuestMapFrame_DetailsFrame : Frame
---- @field RewardsFrame QuestMapFrame_DetailsFrame_RewardsFrame
---- @field ScrollFrame QuestMapFrame_DetailsFrame_QuestMapDetailsScrollFrame
+--- @field DetailFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L157)
 --- @class QuestMapFrame : Frame, QuestLogMixin
 --- @field QuestsFrame QuestMapFrame_QuestScrollFrame
---- @field DetailsFrame QuestMapFrame_DetailsFrame
+--- @field DetailsFrame Frame
 QuestMapFrame = {}
 

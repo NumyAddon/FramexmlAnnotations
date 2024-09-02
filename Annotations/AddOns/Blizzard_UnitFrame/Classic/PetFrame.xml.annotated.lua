@@ -1,11 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L32)
---- @class PetFrame__ : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L30)
---- @class PetFrame_ : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L95)
 --- @class PetFrame_PetFrameHealthBar : StatusBar, TextStatusBar
 
@@ -23,9 +17,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L160)
 --- @class PetFrame_PetFrameBuff4 : Button, PartyBuffFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L171)
---- @class PetFrame_PetFrameHappiness : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L4)
 --- @class PetFrame : Button, SecureUnitButtonTemplate

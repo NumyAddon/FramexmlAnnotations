@@ -2,31 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.lua#L52)
 --- @class CharacterFrameMixin
-CharacterFrameMixin = {};
-
-function CharacterFrameMixin:ShowSubFrame(frameName)
-	for index, value in pairs(CHARACTERFRAME_SUBFRAMES) do
-		if ( value ~= frameName ) then
-			_G[value]:Hide();	
-		end	
-	end 
-	for index, value in pairs(CHARACTERFRAME_SUBFRAMES) do
-		if ( value == frameName ) then
-			_G[value]:Show()
-			self.activeSubframe = frameName;
-		end	
-	end 
-end
-
-local CharacterFrameEvents = {
-	"UNIT_NAME_UPDATE",
-	"PLAYER_PVP_RANK_CHANGED",
-	"PREVIEW_TALENT_POINTS_CHANGED",
-	"PLAYER_TALENT_UPDATE",
-	"ACTIVE_TALENT_GROUP_CHANGED",
-	"UNIT_PORTRAIT_UPDATE",
-	"PORTRAITS_UPDATED"
-}
+CharacterFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.lua#L277)
 --- @class CharacterFrameTabButtonMixin

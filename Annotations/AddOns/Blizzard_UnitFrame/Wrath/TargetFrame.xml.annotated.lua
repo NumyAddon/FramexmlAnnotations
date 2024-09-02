@@ -21,39 +21,24 @@
 --- Template
 --- @class TargetBuffFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/TargetFrame.xml#L172)
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/TargetFrame.xml#L285)
 --- @class TargetFrameTemplate_TargetFrameTemplateHealthBar : StatusBar, TextStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/TargetFrame.xml#L305)
 --- @class TargetFrameTemplate_TargetFrameTemplateManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/TargetFrame.xml#L321)
---- @class TargetFrameTemplate_TargetFrameTemplateBuffs : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/TargetFrame.xml#L324)
---- @class TargetFrameTemplate_TargetFrameTemplateDebuffs : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/TargetFrame.xml#L327)
---- @class TargetFrameTemplate_TargetFrameTemplateNumericalThreat : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/TargetFrame.xml#L134)
 --- Template
 --- @class TargetFrameTemplate : Button, SecureUnitButtonTemplate
---- @field textureFrame TargetFrameTemplate_TargetFrameTemplateTextureFrame
+--- @field textureFrame Frame
 --- @field HealthBar TargetFrameTemplate_TargetFrameTemplateHealthBar
 --- @field PowerBar TargetFrameTemplate_TargetFrameTemplateManaBar
---- @field buffs TargetFrameTemplate_TargetFrameTemplateBuffs
---- @field debuffs TargetFrameTemplate_TargetFrameTemplateDebuffs
+--- @field buffs Frame
+--- @field debuffs Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/TargetFrame.xml#L365)
 --- Template
 --- @class BossTargetFrameTemplate : Button, TargetFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/TargetFrame.xml#L403)
---- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateTextureFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Wrath/TargetFrame.xml#L431)
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateHealthBar : StatusBar, TextStatusBar

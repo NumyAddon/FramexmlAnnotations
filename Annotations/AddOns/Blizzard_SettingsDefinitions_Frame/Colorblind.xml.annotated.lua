@@ -8,11 +8,8 @@
 --- Template
 --- @class ColorblindItemQualityTemplate2 : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Colorblind.xml#L17)
---- @class ColorblindSelectorTemplate_ColorblindExamples : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Colorblind.xml#L14)
 --- Template
 --- @class ColorblindSelectorTemplate : Frame, ColorblindSelectorMixin
---- @field ColorblindExamples ColorblindSelectorTemplate_ColorblindExamples
+--- @field ColorblindExamples Frame
 

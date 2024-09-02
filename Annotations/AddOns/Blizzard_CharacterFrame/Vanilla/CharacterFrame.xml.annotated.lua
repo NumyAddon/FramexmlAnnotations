@@ -80,9 +80,6 @@
 --- Template
 --- @class CharacterStatFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L172)
---- @class CharacterFrame_CharacterNameFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L202)
 --- @class CharacterFrame_CharacterFrameCloseButton : Button, UIPanelCloseButton
 

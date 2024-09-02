@@ -1,31 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L228)
---- @class CalendarFrame_CalendarTodayFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L259)
---- @class CalendarFrame_CalendarPrevMonthButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L272)
---- @class CalendarFrame_CalendarNextMonthButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L285)
 --- @class CalendarFrame_FilterButton : DropdownButton, WowStyle1FilterDropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L290)
 --- @class CalendarFrame_CalendarCloseButton : Button, UIPanelCloseButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L304)
---- @class CalendarFrame_CalendarModalDummy_CalendarFrameBlocker : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L312)
---- @class CalendarFrame_CalendarModalDummy_CalendarEventFrameBlocker : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L298)
---- @class CalendarFrame_CalendarModalDummy : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L324)
---- @class CalendarFrame_CalendarFrameModalOverlay : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L5)
 --- @class CalendarFrame : Frame
@@ -76,9 +55,6 @@ CalendarViewHolidayFrame = {}
 --- @field ScrollingFont CalendarViewRaidFrame_ScrollingFont
 CalendarViewRaidFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L428)
---- @class CalendarViewEventFrame_HeaderFrame : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L484)
 --- @class CalendarViewEventFrame_Border : Frame, DialogBorderDarkTemplate
 
@@ -96,36 +72,15 @@ CalendarViewRaidFrame = {}
 --- @field ScrollingFont CalendarViewEventFrame_CalendarViewEventDescriptionContainer_ScrollingFont
 --- @field ScrollBar CalendarViewEventFrame_CalendarViewEventDescriptionContainer_ScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L541)
---- @class CalendarViewEventFrame_CalendarViewEventInviteListSection_CalendarViewEventAcceptButton : Button, CalendarViewEventRSVPButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L548)
---- @class CalendarViewEventFrame_CalendarViewEventInviteListSection_CalendarViewEventTentativeButton : Button, CalendarViewEventRSVPButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L555)
---- @class CalendarViewEventFrame_CalendarViewEventInviteListSection_CalendarViewEventDeclineButton : Button, CalendarViewEventRSVPButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L565)
---- @class CalendarViewEventFrame_CalendarViewEventInviteListSection_CalendarViewEventRemoveButton : Button, CalendarEventButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L572)
---- @class CalendarViewEventFrame_CalendarViewEventInviteListSection_CalendarViewEventInviteList : Frame, CalendarEventInviteListTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L519)
---- @class CalendarViewEventFrame_CalendarViewEventInviteListSection : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L585)
 --- @class CalendarViewEventFrame_CalendarViewEventCloseButton : Button, CalendarEventCloseButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L587)
 --- @class CalendarViewEventFrame_CalendarViewEventFrameModalOverlay : Frame, CalendarModalEventOverlayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L588)
---- @class CalendarViewEventFrame_CalendarViewEventFrameRetrievingFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L422)
 --- @class CalendarViewEventFrame : Frame
---- @field HeaderFrame CalendarViewEventFrame_HeaderFrame
+--- @field HeaderFrame Button
 --- @field Border CalendarViewEventFrame_Border
 --- @field Header CalendarViewEventFrame_Header
 CalendarViewEventFrame = {}
@@ -157,24 +112,6 @@ CalendarViewEventFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L726)
 --- @class CalendarCreateEventFrame_CommunityDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L748)
---- @class CalendarCreateEventFrame_CalendarCreateEventInviteListSection_CalendarCreateEventAutoApproveCheck : CheckButton, UICheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L764)
---- @class CalendarCreateEventFrame_CalendarCreateEventInviteListSection_CalendarCreateEventLockEventCheck : CheckButton, UICheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L780)
---- @class CalendarCreateEventFrame_CalendarCreateEventInviteListSection_CalendarCreateEventInviteList : Frame, CalendarEventInviteListTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L788)
---- @class CalendarCreateEventFrame_CalendarCreateEventInviteListSection_CalendarCreateEventInviteEdit : EditBox, InputBoxTemplate, AutoCompleteEditBoxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L824)
---- @class CalendarCreateEventFrame_CalendarCreateEventInviteListSection_CalendarCreateEventInviteButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L731)
---- @class CalendarCreateEventFrame_CalendarCreateEventInviteListSection : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L847)
 --- @class CalendarCreateEventFrame_CalendarCreateEventDescriptionContainer_ScrollingEditBox : Frame, ScrollingEditBoxTemplate
 
@@ -200,9 +137,6 @@ CalendarViewEventFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L950)
 --- @class CalendarCreateEventFrame_CalendarCreateEventFrameModalOverlay : Frame, CalendarModalEventOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L951)
---- @class CalendarCreateEventFrame_CalendarCreateEventFrameRetrievingFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L632)
 --- @class CalendarCreateEventFrame : Frame
@@ -299,9 +233,6 @@ CalendarEventPickerFrame = {}
 --- @field ScrollBox CalendarTexturePickerFrame_ScrollBox
 --- @field ScrollBar CalendarTexturePickerFrame_ScrollBar
 CalendarTexturePickerFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L1250)
---- @class CalendarClassButtonContainer_CalendarClassTotalsButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L1247)
 --- @class CalendarClassButtonContainer : Frame

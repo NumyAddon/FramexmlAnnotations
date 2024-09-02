@@ -412,17 +412,11 @@
 --- Template
 --- @class CapProgressBarDividerTemplate : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1547)
---- @class CapProgressBarTemplate_CapProgressBarTemplateCap1Marker : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1563)
---- @class CapProgressBarTemplate_CapProgressBarTemplateCap2Marker : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1463)
 --- Template
 --- @class CapProgressBarTemplate : Frame
---- @field cap1Marker CapProgressBarTemplate_CapProgressBarTemplateCap1Marker
---- @field cap2Marker CapProgressBarTemplate_CapProgressBarTemplateCap2Marker
+--- @field cap1Marker Frame
+--- @field cap2Marker Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1659)
 --- Template

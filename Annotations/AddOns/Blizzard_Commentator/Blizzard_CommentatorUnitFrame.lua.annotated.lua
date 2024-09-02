@@ -2,26 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L3)
 --- @class CooldownCircleTrackerMixin
-CooldownCircleTrackerMixin = {};
-
-function CooldownCircleTrackerMixin:OnLoad()
-	local seconds = 60;
-	self.Cooldown:SetCountdownAbbrevThreshold(seconds);
-	self.Cooldown:SetSwipeColor(0, 0, 0, .7);
-end
-
-CommentatorUnitFrameMixin = {};
-
-local CommentatorUnitFrameEvents =
-{
-	"COMBAT_LOG_EVENT_UNFILTERED",
-	"ARENA_COOLDOWNS_UPDATE",
-	"ARENA_CROWD_CONTROL_SPELL_UPDATE",
-	"COMMENTATOR_PLAYER_UPDATE",
-	"COMMENTATOR_PLAYER_NAME_OVERRIDE_UPDATE",
-	"LOSS_OF_CONTROL_COMMENTATOR_ADDED",
-	"LOSS_OF_CONTROL_COMMENTATOR_UPDATE",
-}
+CooldownCircleTrackerMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L11)
 --- @class CommentatorUnitFrameMixin

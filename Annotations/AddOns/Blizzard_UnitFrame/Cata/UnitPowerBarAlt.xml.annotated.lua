@@ -47,14 +47,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L152)
 --- @class UnitPowerBarAltTemplate_UnitPowerBarAltTemplateCounterBar : Frame, UnitPowerBarAltCounterTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L157)
---- @class UnitPowerBarAltTemplate_UnitPowerBarAltTemplateStatusFrame : StatusBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L135)
 --- Template
 --- @class UnitPowerBarAltTemplate : Frame, UnitPowerBarAltTexturableTemplate
 --- @field counterBar UnitPowerBarAltTemplate_UnitPowerBarAltTemplateCounterBar
---- @field statusFrame UnitPowerBarAltTemplate_UnitPowerBarAltTemplateStatusFrame
+--- @field statusFrame StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L201)
 --- @class PlayerPowerBarAlt : Frame, UnitPowerBarAltTemplate

@@ -1,14 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L60)
---- @class HardcorePopUpFrame_Border : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L67)
---- @class HardcorePopUpFrame_ScrollBox_Text : SimpleHTML
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L61)
 --- @class HardcorePopUpFrame_ScrollBox : Frame, WowScrollBox
---- @field Text HardcorePopUpFrame_ScrollBox_Text
+--- @field Text SimpleHTML
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L76)
 --- @class HardcorePopUpFrame_ScrollBar : EventFrame, MinimalScrollBar
@@ -21,7 +15,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L4)
 --- @class HardcorePopUpFrame : Frame, DefaultScaleFrame, HardcorePopUpFrameMixin
---- @field Border HardcorePopUpFrame_Border
+--- @field Border Frame
 --- @field ScrollBox HardcorePopUpFrame_ScrollBox
 --- @field ScrollBar HardcorePopUpFrame_ScrollBar
 --- @field AcceptButton HardcorePopUpFrame_AcceptButton
@@ -39,9 +33,6 @@ HardcorePopUpFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L112)
 --- @class CharacterReincarnatePopUpDialog_CharacterReincarnatePopUpBackground : Frame, BackdropTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L183)
---- @class CharacterReincarnatePopUpDialog_CharacterReincarnatePopUpEditBox : EditBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L110)
 --- @class CharacterReincarnatePopUpDialog : Frame, CharacterReincarnatePopUpDialogMixin

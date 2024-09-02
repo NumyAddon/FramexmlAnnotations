@@ -21,34 +21,22 @@
 --- Template
 --- @class TargetBuffFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L166)
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L249)
 --- @class TargetFrameTemplate_TargetFrameTemplateHealthBar : StatusBar, TextStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L269)
 --- @class TargetFrameTemplate_TargetFrameTemplateManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L285)
---- @class TargetFrameTemplate_TargetFrameTemplateBuffs : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L288)
---- @class TargetFrameTemplate_TargetFrameTemplateDebuffs : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L135)
 --- Template
 --- @class TargetFrameTemplate : Button, SecureUnitButtonTemplate
---- @field textureFrame TargetFrameTemplate_TargetFrameTemplateTextureFrame
---- @field buffs TargetFrameTemplate_TargetFrameTemplateBuffs
---- @field debuffs TargetFrameTemplate_TargetFrameTemplateDebuffs
+--- @field textureFrame Frame
+--- @field buffs Frame
+--- @field debuffs Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L303)
 --- Template
 --- @class BossTargetFrameTemplate : Button, TargetFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L341)
---- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateTextureFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L369)
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateHealthBar : StatusBar, TextStatusBar

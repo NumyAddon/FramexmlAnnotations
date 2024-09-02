@@ -14,9 +14,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L154)
 --- @class EngravingFrame_EngravingFrameSideInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L171)
---- @class EngravingFrame_EngravingFrameSearchBox : EditBox
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L235)
 --- @class EngravingFrame_FilterDropdown : DropdownButton, WowStyle1DropdownTemplate
 
@@ -25,9 +22,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L240)
 --- @class EngravingFrame_EngravingFrameScrollFrame : ScrollFrame, HybridScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L265)
---- @class EngravingFrame_EngravingFrameCollectedFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L282)
 --- @class EngravingFrame_EngravingFrameHeader1 : Button, RuneHeaderButtonTemplate
@@ -80,6 +74,6 @@
 --- @field sideInset EngravingFrame_EngravingFrameSideInset
 --- @field FilterDropdown EngravingFrame_FilterDropdown
 --- @field scrollFrame EngravingFrame_EngravingFrameScrollFrame
---- @field collected EngravingFrame_EngravingFrameCollectedFrame
+--- @field collected Frame
 EngravingFrame = {}
 

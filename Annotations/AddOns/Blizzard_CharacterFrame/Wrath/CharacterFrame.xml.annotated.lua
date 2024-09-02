@@ -76,9 +76,6 @@
 --- Template
 --- @class CharacterStatFrameCategoryTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L132)
---- @class CharacterFrame_CharacterNameFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L162)
 --- @class CharacterFrame_CharacterFrameCloseButton : Button, UIPanelCloseButton
 

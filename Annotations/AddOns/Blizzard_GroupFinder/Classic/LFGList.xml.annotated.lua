@@ -14,18 +14,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L32)
 --- @class LFGListGroupDataDisplayTemplate_RoleCount : Frame, RoleCountNoScriptsTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L34)
---- @class LFGListGroupDataDisplayTemplate_Enumerate : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L70)
---- @class LFGListGroupDataDisplayTemplate_PlayerCount : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L29)
 --- Template
 --- @class LFGListGroupDataDisplayTemplate : Frame
 --- @field RoleCount LFGListGroupDataDisplayTemplate_RoleCount
---- @field Enumerate LFGListGroupDataDisplayTemplate_Enumerate
---- @field PlayerCount LFGListGroupDataDisplayTemplate_PlayerCount
+--- @field Enumerate Frame
+--- @field PlayerCount Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L90)
 --- Template
@@ -35,25 +29,13 @@
 --- Template
 --- @class LFGListEntryCreationActivityListTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L161)
---- @class LFGListApplicantMemberTemplate_FriendIcon : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L188)
---- @class LFGListApplicantMemberTemplate_RoleIcon1 : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L206)
---- @class LFGListApplicantMemberTemplate_RoleIcon2 : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L224)
---- @class LFGListApplicantMemberTemplate_RoleIcon3 : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L138)
 --- Template
 --- @class LFGListApplicantMemberTemplate : DropDownToggleButton
---- @field FriendIcon LFGListApplicantMemberTemplate_FriendIcon
---- @field RoleIcon1 LFGListApplicantMemberTemplate_RoleIcon1
---- @field RoleIcon2 LFGListApplicantMemberTemplate_RoleIcon2
---- @field RoleIcon3 LFGListApplicantMemberTemplate_RoleIcon3
+--- @field FriendIcon Frame
+--- @field RoleIcon1 Button
+--- @field RoleIcon2 Button
+--- @field RoleIcon3 Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L278)
 --- @class LFGListApplicantTemplate_Member1 : Button, LFGListApplicantMemberTemplate
@@ -79,13 +61,10 @@
 --- @field InviteButtonSmall LFGListApplicantTemplate_InviteButtonSmall
 --- @field Spinner LFGListApplicantTemplate_Spinner
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L388)
---- @class LFGListRoleButtonTemplate_CheckButton : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L380)
 --- Template
 --- @class LFGListRoleButtonTemplate : Button
---- @field CheckButton LFGListRoleButtonTemplate_CheckButton
+--- @field CheckButton CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L427)
 --- Template
@@ -115,29 +94,20 @@
 --- @class LFGListEditBoxTemplate : EditBox, InputBoxInstructionsTemplate, LFGEditBoxMixin
 --- @field LockButton LFGListEditBoxTemplate_LockButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L568)
---- @class LFGListOptionCheckButtonTemplate_CheckButton : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L548)
 --- Template
 --- @class LFGListOptionCheckButtonTemplate : Frame
---- @field CheckButton LFGListOptionCheckButtonTemplate_CheckButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L636)
---- @class LFGListRequirementTemplate_CheckButton : CheckButton
+--- @field CheckButton CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L664)
 --- @class LFGListRequirementTemplate_EditBox : EditBox, LFGListEditBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L685)
---- @class LFGListRequirementTemplate_WarningFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L612)
 --- Template
 --- @class LFGListRequirementTemplate : Frame
---- @field CheckButton LFGListRequirementTemplate_CheckButton
+--- @field CheckButton CheckButton
 --- @field EditBox LFGListRequirementTemplate_EditBox
---- @field WarningFrame LFGListRequirementTemplate_WarningFrame
+--- @field WarningFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L727)
 --- Template
@@ -230,15 +200,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1155)
 --- @class LFGListFrame_SearchPanel_FilterButton : DropdownButton, WowStyle1FilterDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1199)
---- @class LFGListFrame_SearchPanel_AutoCompleteFrame_ : Button, LFGListSearchAutoCompleteButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1160)
---- @class LFGListFrame_SearchPanel_AutoCompleteFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1207)
---- @class LFGListFrame_SearchPanel_RefreshButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1244)
 --- @class LFGListFrame_SearchPanel_ResultsInset : Frame, InsetFrameTemplate
 
@@ -268,8 +229,8 @@
 --- @class LFGListFrame_SearchPanel : Frame, LFGListPanelTemplate
 --- @field SearchBox LFGListFrame_SearchPanel_SearchBox
 --- @field FilterButton LFGListFrame_SearchPanel_FilterButton
---- @field AutoCompleteFrame LFGListFrame_SearchPanel_AutoCompleteFrame
---- @field RefreshButton LFGListFrame_SearchPanel_RefreshButton
+--- @field AutoCompleteFrame Frame
+--- @field RefreshButton Button
 --- @field ResultsInset LFGListFrame_SearchPanel_ResultsInset
 --- @field ScrollBox LFGListFrame_SearchPanel_ScrollBox
 --- @field ScrollBar LFGListFrame_SearchPanel_ScrollBar
@@ -278,17 +239,11 @@
 --- @field BackToGroupButton LFGListFrame_SearchPanel_BackToGroupButton
 --- @field SignUpButton LFGListFrame_SearchPanel_SignUpButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1362)
---- @class LFGListFrame_ApplicationViewer_DescriptionFrame : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1386)
 --- @class LFGListFrame_ApplicationViewer_DataDisplay : Frame, LFGListGroupDataDisplayTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1401)
 --- @class LFGListFrame_ApplicationViewer_VoiceChatFrame : Frame, LFGListVoiceChatIcon
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1406)
---- @class LFGListFrame_ApplicationViewer_AutoAcceptButton : CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1439)
 --- @class LFGListFrame_ApplicationViewer_Inset : Frame, InsetFrameTemplate
@@ -305,9 +260,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1476)
 --- @class LFGListFrame_ApplicationViewer_LFGApplicationViewerRatingColumnHeader : Button, LFGListColumnHeaderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1482)
---- @class LFGListFrame_ApplicationViewer_RefreshButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1520)
 --- @class LFGListFrame_ApplicationViewer_ScrollBox : Frame, WowScrollBoxList
 
@@ -323,72 +275,27 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1564)
 --- @class LFGListFrame_ApplicationViewer_BrowseGroupsButton : Button, LFGListButtonTemplate, LFGApplicationBrowseGroupsButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1573)
---- @class LFGListFrame_ApplicationViewer_UnempoweredCover : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1330)
 --- @class LFGListFrame_ApplicationViewer : Frame, LFGListPanelTemplate
---- @field DescriptionFrame LFGListFrame_ApplicationViewer_DescriptionFrame
+--- @field DescriptionFrame Frame
 --- @field DataDisplay LFGListFrame_ApplicationViewer_DataDisplay
 --- @field VoiceChatFrame LFGListFrame_ApplicationViewer_VoiceChatFrame
---- @field AutoAcceptButton LFGListFrame_ApplicationViewer_AutoAcceptButton
+--- @field AutoAcceptButton CheckButton
 --- @field Inset LFGListFrame_ApplicationViewer_Inset
 --- @field NameColumnHeader LFGListFrame_ApplicationViewer_NameColumnHeader
 --- @field RoleColumnHeader LFGListFrame_ApplicationViewer_RoleColumnHeader
 --- @field ItemLevelColumnHeader LFGListFrame_ApplicationViewer_ItemLevelColumnHeader
 --- @field RatingColumnHeader LFGListFrame_ApplicationViewer_LFGApplicationViewerRatingColumnHeader
---- @field RefreshButton LFGListFrame_ApplicationViewer_RefreshButton
+--- @field RefreshButton Button
 --- @field ScrollBox LFGListFrame_ApplicationViewer_ScrollBox
 --- @field ScrollBar LFGListFrame_ApplicationViewer_ScrollBar
 --- @field RemoveEntryButton LFGListFrame_ApplicationViewer_RemoveEntryButton
 --- @field EditButton LFGListFrame_ApplicationViewer_EditButton
 --- @field BrowseGroupsButton LFGListFrame_ApplicationViewer_BrowseGroupsButton
---- @field UnempoweredCover LFGListFrame_ApplicationViewer_UnempoweredCover
+--- @field UnempoweredCover Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1667)
 --- @class LFGListFrame_EntryCreation_Inset : Frame, InsetFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1703)
---- @class LFGListFrame_EntryCreation_WorkingCover_Spinner : Frame, LoadingSpinnerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1682)
---- @class LFGListFrame_EntryCreation_WorkingCover : Frame
---- @field Spinner LFGListFrame_EntryCreation_WorkingCover_Spinner
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1739)
---- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_Border : Frame, DialogBorderNoCenterTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1740)
---- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_EntryBox : EditBox, LFGListEditBoxTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1759)
---- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_ScrollBox : Frame, WowScrollBoxList
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1765)
---- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_ScrollBar : EventFrame, MinimalScrollBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1771)
---- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_BorderFrame : Frame, TooltipBackdropTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1777)
---- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_SelectButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1789)
---- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_CancelButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1723)
---- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog : Frame
---- @field Border LFGListFrame_EntryCreation_ActivityFinder_Dialog_Border
---- @field EntryBox LFGListFrame_EntryCreation_ActivityFinder_Dialog_EntryBox
---- @field ScrollBox LFGListFrame_EntryCreation_ActivityFinder_Dialog_ScrollBox
---- @field ScrollBar LFGListFrame_EntryCreation_ActivityFinder_Dialog_ScrollBar
---- @field BorderFrame LFGListFrame_EntryCreation_ActivityFinder_Dialog_BorderFrame
---- @field SelectButton LFGListFrame_EntryCreation_ActivityFinder_Dialog_SelectButton
---- @field CancelButton LFGListFrame_EntryCreation_ActivityFinder_Dialog_CancelButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1710)
---- @class LFGListFrame_EntryCreation_ActivityFinder : Frame
---- @field Dialog LFGListFrame_EntryCreation_ActivityFinder_Dialog
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1808)
 --- @class LFGListFrame_EntryCreation_Name : EditBox, LFGListEditBoxTemplate
@@ -443,8 +350,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/1959db0ba84dca24f844537dd40fcb39a3d821ad/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1633)
 --- @class LFGListFrame_EntryCreation : Frame, LFGListPanelTemplate
 --- @field Inset LFGListFrame_EntryCreation_Inset
---- @field WorkingCover LFGListFrame_EntryCreation_WorkingCover
---- @field ActivityFinder LFGListFrame_EntryCreation_ActivityFinder
+--- @field WorkingCover Frame
+--- @field ActivityFinder Frame
 --- @field Name LFGListFrame_EntryCreation_Name
 --- @field GroupDropdown LFGListFrame_EntryCreation_LFGListEntryCreationGroupDropdown
 --- @field ActivityDropdown LFGListFrame_EntryCreation_LFGListEntryCreationActivityDropdown

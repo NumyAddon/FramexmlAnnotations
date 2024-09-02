@@ -95,11 +95,18 @@ class XmlFileParser
         file_put_contents($targetFile, $data);
     }
 
+    private function childHasInterestingData(Frame $child): bool
+    {
+        return !empty($child->getInherits()) || !empty($child->getMixins()) || !empty($child->getKeyValues());
+    }
+
     private function writeFrame(Frame $frame, ?string $linkPrefix): string
     {
         $data = '';
         foreach ($frame->getChildren() as $child) {
-            $data .= $this->writeFrame($child, $linkPrefix);
+            if ($this->childHasInterestingData($child)) {
+                $data .= $this->writeFrame($child, $linkPrefix);
+            }
         }
 
         if ($linkPrefix) {
@@ -124,7 +131,11 @@ class XmlFileParser
         }
         foreach ($frame->getChildren() as $child) {
             if ($child->getParentKey()) {
-                $data .= '--- @field ' . $child->getParentKey() . ' ' . $child->getClassName() . "\n";
+                if ($this->childHasInterestingData($child)) {
+                    $data .= '--- @field ' . $child->getParentKey() . ' ' . $child->getClassName() . "\n";
+                } else {
+                    $data .= '--- @field ' . $child->getParentKey() . ' ' . $child->getType() . "\n";
+                }
             }
         }
         if ($frame->isRootNode() && $frame::class === Frame::class) {

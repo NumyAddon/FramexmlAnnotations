@@ -20,24 +20,24 @@
 --- @field CheckButton CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L299)
---- @class CommunitiesSettingsDialog_ClubFinderFocusDropdown : Frame, ClubFinderFocusDropdownTemplate
+--- @class CommunitiesSettingsDialog_ClubFocusDropdown : DropdownButton, ClubFinderFocusDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L305)
---- @class CommunitiesSettingsDialog_ClubFinderLookingForDropdown : Frame, UIDropDownMenuTemplate, LookingForDropdownMixin
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L304)
+--- @class CommunitiesSettingsDialog_LookingForDropdown : DropdownButton, ClubFinderLookingForDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L321)
---- @class CommunitiesSettingsDialog_ClubFinderLanguageDropdown : Frame, UIDropDownMenuTemplate, ClubFinderLanguageDropdownMixin
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L309)
+--- @class CommunitiesSettingsDialog_LanguageDropdown : DropdownButton, CommunitiesLanguageDropdown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L337)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L314)
 --- @class CommunitiesSettingsDialog_Description : ScrollFrame, InputScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L332)
 --- @class CommunitiesSettingsDialog_Delete : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L364)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L341)
 --- @class CommunitiesSettingsDialog_Accept : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L352)
 --- @class CommunitiesSettingsDialog_Cancel : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L5)
@@ -52,16 +52,16 @@
 --- @field AutoAcceptApplications Frame
 --- @field MaxLevelOnly Frame
 --- @field MinIlvlOnly Frame
---- @field ClubFocusDropdown CommunitiesSettingsDialog_ClubFinderFocusDropdown
---- @field LookingForDropdown CommunitiesSettingsDialog_ClubFinderLookingForDropdown
---- @field LanguageDropdown CommunitiesSettingsDialog_ClubFinderLanguageDropdown
+--- @field ClubFocusDropdown CommunitiesSettingsDialog_ClubFocusDropdown
+--- @field LookingForDropdown CommunitiesSettingsDialog_LookingForDropdown
+--- @field LanguageDropdown CommunitiesSettingsDialog_LanguageDropdown
 --- @field Description CommunitiesSettingsDialog_Description
 --- @field Delete CommunitiesSettingsDialog_Delete
 --- @field Accept CommunitiesSettingsDialog_Accept
 --- @field Cancel CommunitiesSettingsDialog_Cancel
 CommunitiesSettingsDialog = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L393)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L370)
 --- Template
 --- @class CommunitiesSettingsButtonTemplate : Button, UIPanelDynamicResizeButtonTemplate
 

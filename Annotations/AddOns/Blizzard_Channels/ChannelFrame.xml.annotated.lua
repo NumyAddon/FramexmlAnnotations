@@ -38,6 +38,5 @@
 --- @field ChannelRoster ChannelFrame_ChannelRoster
 --- @field RightInset ChannelFrame_RightInset
 --- @field Tutorial ChannelFrame_Tutorial
---- @field Dropdown Frame
 ChannelFrame = {}
 

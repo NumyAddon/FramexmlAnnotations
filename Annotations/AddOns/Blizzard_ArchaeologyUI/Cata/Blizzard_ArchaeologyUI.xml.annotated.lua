@@ -13,14 +13,14 @@
 --- @class KeystoneTemplate : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L261)
---- @class ArchaeologyFrame_ArchaeologyFrameRaceFilter : Frame, UIDropDownMenuTemplate
+--- @class ArchaeologyFrame_ArchaeologyFrameRaceFilter : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L907)
 --- @class ArchaeologyFrame_ArchaeologyFrameInfoButton : Button, UIPanelInfoButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L236)
 --- @class ArchaeologyFrame : Frame, ButtonFrameTemplate
---- @field raceFilterDropDown ArchaeologyFrame_ArchaeologyFrameRaceFilter
+--- @field RaceFilterDropdown ArchaeologyFrame_ArchaeologyFrameRaceFilter
 --- @field rankBar StatusBar
 --- @field tab1 Button
 --- @field tab2 Button

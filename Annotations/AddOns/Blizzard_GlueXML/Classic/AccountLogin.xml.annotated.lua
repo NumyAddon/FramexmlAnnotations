@@ -28,10 +28,10 @@
 --- @field Border KoreanRatings_Border
 KoreanRatings = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L149)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L160)
 --- @class ChinaAgeAppropriatenessWarning_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L150)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L161)
 --- @class ChinaAgeAppropriatenessWarning_OkayButton : Button, GlueButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L126)
@@ -40,7 +40,7 @@ KoreanRatings = {}
 --- @field OkayButton ChinaAgeAppropriatenessWarning_OkayButton
 ChinaAgeAppropriatenessWarning = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L177)
 --- @class AccountLogin : Frame
 --- @field UI Frame
 AccountLogin = {}

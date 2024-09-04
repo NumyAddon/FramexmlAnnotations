@@ -19,10 +19,10 @@ TokenFrame = {}
 --- @class TokenFramePopup_Border : Frame, SecureDialogBorderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L213)
---- @class TokenFramePopup_TokenFramePopupInactiveCheckBox : CheckButton, OptionsSmallCheckButtonTemplate
+--- @class TokenFramePopup_TokenFramePopupInactiveCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L247)
---- @class TokenFramePopup_TokenFramePopupBackpackCheckBox : CheckButton, OptionsSmallCheckButtonTemplate
+--- @class TokenFramePopup_TokenFramePopupBackpackCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L285)
 --- @class TokenFramePopup_TokenFramePopupCloseButton : Button, UIPanelCloseButton

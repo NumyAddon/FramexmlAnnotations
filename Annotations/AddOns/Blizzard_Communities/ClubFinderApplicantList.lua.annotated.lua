@@ -4,92 +4,89 @@
 --- @class ClubFinderApplicantEntryMixin
 ClubFinderApplicantEntryMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L252)
 --- @class ClubFinderApplicantListMixin
 ClubFinderApplicantListMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L532)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L508)
 --- @class ClubFinderApplicantInviteButtonMixin
 ClubFinderApplicantInviteButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L570)
 --- @class ClubFinderApplicantCancelButtonMixin
 ClubFinderApplicantCancelButtonMixin = { }
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L45)
-function ClubFinderApplicantEntryMixin:OnLoad() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L49)
 function ClubFinderApplicantEntryMixin:GetApplicantName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L49)
 function ClubFinderApplicantEntryMixin:GetApplicantStatus() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L53)
 function ClubFinderApplicantEntryMixin:GetPlayerGUID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L61)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L57)
 function ClubFinderApplicantEntryMixin:GetClubGUID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L65)
-function ClubFinderApplicantEntryMixin:OnMouseDown(button) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L61)
+function ClubFinderApplicantEntryMixin:OnMouseUp(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L72)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L86)
 function ClubFinderApplicantEntryMixin:UpdateMemberInfo(info) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L211)
 function ClubFinderApplicantEntryMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L242)
 function ClubFinderApplicantEntryMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L254)
 function ClubFinderApplicantListMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L266)
 function ClubFinderApplicantListMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L271)
 function ClubFinderApplicantListMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L274)
 function ClubFinderApplicantListMixin:ResetColumnSort() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L329)
 function ClubFinderApplicantListMixin:SortByColumnIndex(columnIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L367)
 function ClubFinderApplicantListMixin:GuildMemberUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L410)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L386)
 function ClubFinderApplicantListMixin:CommunitiesMemberUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L437)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L413)
 function ClubFinderApplicantListMixin:SetApplicantRefreshTicker(clubType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L447)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L423)
 function ClubFinderApplicantListMixin:CancelRefreshTicker() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L429)
 function ClubFinderApplicantListMixin:BuildList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L499)
 function ClubFinderApplicantListMixin:RefreshLayout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L533)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L509)
 function ClubFinderApplicantInviteButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L519)
 function ClubFinderApplicantInviteButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L566)
 function ClubFinderApplicantInviteButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L571)
 function ClubFinderApplicantCancelButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L577)
 function ClubFinderApplicantCancelButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L605)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L581)
 function ClubFinderApplicantCancelButtonMixin:OnClick() end

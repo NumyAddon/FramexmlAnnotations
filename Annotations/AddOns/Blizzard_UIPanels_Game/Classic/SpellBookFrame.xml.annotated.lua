@@ -33,7 +33,7 @@
 --- @class SpellBookFrame_SpellBookCloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L384)
---- @class SpellBookFrame_ShowAllSpellRanksCheckBox : CheckButton, OptionsSmallCheckButtonTemplate
+--- @class SpellBookFrame_ShowAllSpellRanksCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L204)
 --- @class SpellBookFrame : Frame

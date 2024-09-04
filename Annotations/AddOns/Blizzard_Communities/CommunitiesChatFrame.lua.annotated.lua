@@ -49,32 +49,32 @@ function CommunitiesChatMixin:GetChatColor() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L292)
 function CommunitiesChatMixin:FormatMessage(clubId, streamId, message) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L332)
 function CommunitiesChatMixin:AddDateNotification(calendarTime, backfill) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L343)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L347)
 function CommunitiesChatMixin:AddUnreadNotification(backfill) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L354)
 function CommunitiesChatMixin:AddNotification(notification, atlas, r, g, b, backfill) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L365)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L369)
 function CommunitiesChatMixin:AddBroadcastMessage(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L379)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L383)
 function CommunitiesChatMixin:AddUpcomingEventMessages(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L404)
 function CommunitiesChatMixin:AddOngoingEventMessages(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L416)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L420)
 function CommunitiesChatMixin:AddMessage(clubId, streamId, message, backfill) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L440)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L444)
 function CommunitiesChatMixin:RegisterForMemberUpdate(clubId, memberId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L457)
 function CommunitiesChatMixin:GetCommunitiesFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L457)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L461)
 function CommunitiesChatMixin:RefreshMessages(predicate) end

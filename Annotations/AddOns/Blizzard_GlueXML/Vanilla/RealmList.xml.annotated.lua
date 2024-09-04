@@ -12,7 +12,7 @@
 --- Template
 --- @class RealmListRealmButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L266)
 --- @class RealmListUI : ModelFFX
 RealmListUI = {}
 

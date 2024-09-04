@@ -56,10 +56,10 @@
 --- @class ReputationFrame_ReputationDetailFrame_ReputationDetailCloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L694)
---- @class ReputationFrame_ReputationDetailFrame_ReputationDetailInactiveCheckBox : CheckButton, OptionsSmallCheckButtonTemplate
+--- @class ReputationFrame_ReputationDetailFrame_ReputationDetailInactiveCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L728)
---- @class ReputationFrame_ReputationDetailFrame_ReputationDetailMainScreenCheckBox : CheckButton, OptionsSmallCheckButtonTemplate
+--- @class ReputationFrame_ReputationDetailFrame_ReputationDetailMainScreenCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L543)
 --- @class ReputationFrame_ReputationDetailFrame : Frame, BackdropTemplate

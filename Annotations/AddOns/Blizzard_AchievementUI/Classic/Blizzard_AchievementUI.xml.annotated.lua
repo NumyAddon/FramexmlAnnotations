@@ -106,6 +106,9 @@ AchievementFrameAchievementsObjectives = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AchievementUI/Classic/Blizzard_AchievementUI.xml#L3180)
 --- @class AchievementFrame_AchievementFrameTab2 : Button, AchievementFrameTabButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AchievementUI/Classic/Blizzard_AchievementUI.xml#L3197)
+--- @class AchievementFrame_AchievementFrameFilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AchievementUI/Classic/Blizzard_AchievementUI.xml#L2035)
 --- @class AchievementFrame : Frame, BackdropTemplate
 AchievementFrame = {}

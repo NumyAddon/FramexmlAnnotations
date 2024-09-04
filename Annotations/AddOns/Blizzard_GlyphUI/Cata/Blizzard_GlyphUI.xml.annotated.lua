@@ -20,54 +20,55 @@
 --- @class GlyphFrame_GlyphFrameSideInset : Frame, InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L459)
---- @class GlyphFrame_GlyphFrameFilterDropDown : Frame, UIDropDownMenuTemplate
+--- @class GlyphFrame_FilterDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L479)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L471)
 --- @class GlyphFrame_GlyphFrameScrollFrame_GlyphFrameScrollFrameScrollBar : Slider, HybridScrollBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L472)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L464)
 --- @class GlyphFrame_GlyphFrameScrollFrame : ScrollFrame, HybridScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L489)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L481)
 --- @class GlyphFrame_GlyphFrameGlyph2 : Button, GlyphTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L494)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L486)
 --- @class GlyphFrame_GlyphFrameGlyph3 : Button, GlyphTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L499)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L491)
 --- @class GlyphFrame_GlyphFrameGlyph5 : Button, GlyphTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L506)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L498)
 --- @class GlyphFrame_GlyphFrameGlyph1 : Button, GlyphTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L511)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L503)
 --- @class GlyphFrame_GlyphFrameGlyph4 : Button, GlyphTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L508)
 --- @class GlyphFrame_GlyphFrameGlyph6 : Button, GlyphTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L515)
 --- @class GlyphFrame_GlyphFrameGlyph7 : Button, GlyphTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L520)
 --- @class GlyphFrame_GlyphFrameGlyph8 : Button, GlyphTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L533)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L525)
 --- @class GlyphFrame_GlyphFrameGlyph9 : Button, GlyphTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L539)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L531)
 --- @class GlyphFrame_GlyphFrameHeader1 : Button, GlyphHeaderButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L533)
 --- @class GlyphFrame_GlyphFrameHeader2 : Button, GlyphHeaderButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L535)
 --- @class GlyphFrame_GlyphFrameHeader3 : Button, GlyphHeaderButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L258)
 --- @class GlyphFrame : Frame
 --- @field sideInset GlyphFrame_GlyphFrameSideInset
 --- @field clearInfo Button
+--- @field FilterDropdown GlyphFrame_FilterDropdown
 --- @field scrollFrame GlyphFrame_GlyphFrameScrollFrame
 GlyphFrame = {}
 

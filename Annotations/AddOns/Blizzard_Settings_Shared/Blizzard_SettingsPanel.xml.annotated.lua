@@ -30,7 +30,7 @@
 --- @field InputBlocker Frame
 SettingsPanel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L116)
---- @class SettingsTooltip : GameTooltip, SharedTooltipTemplate, DefaultScaleFrame
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L115)
+--- @class SettingsTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate
 SettingsTooltip = {}
 

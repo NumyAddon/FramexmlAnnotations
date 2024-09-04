@@ -8,79 +8,71 @@
 --- Template
 --- @class SettingsListSectionHeaderTemplate : Frame, SettingsListSectionHeaderMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L29)
 --- Template
 --- @class SettingsAddOnDisabledLabelTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L49)
 --- @class SettingsListElementTemplate_Tooltip : Frame, DefaultTooltipMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L63)
 --- @class SettingsListElementTemplate_NewFeature : Frame, NewFeatureLabelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L42)
 --- Template
 --- @class SettingsListElementTemplate : Frame, SettingsListElementMixin
 --- @field Tooltip SettingsListElementTemplate_Tooltip
 --- @field NewFeature SettingsListElementTemplate_NewFeature
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L72)
 --- Template
---- @class SettingsCheckBoxTemplate : CheckButton, SettingsCheckBoxMixin
+--- @class SettingsCheckboxTemplate : CheckButton, SettingsCheckboxMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L90)
 --- Template
---- @class SettingsCheckBoxControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckBoxControlMixin
+--- @class SettingsCheckboxControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckboxControlMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L97)
 --- Template
 --- @class SettingsSliderControlTemplate : Frame, SettingsListElementTemplate, SettingsSliderControlMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L104)
 --- Template
---- @class SettingsDropDownControlTemplate : Frame, SettingsListElementTemplate, SettingsDropDownControlMixin
+--- @class SettingsDropdownButtonTemplate : Button, DarkMenuElementTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L117)
+--- Template
+--- @class SettingsDropdownControlTemplate : Frame, SettingsListElementTemplate, SettingsDropdownControlMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L124)
 --- Template
 --- @class SettingButtonControlTemplate : Frame, SettingsListElementTemplate, SettingsButtonControlMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L131)
 --- Template
---- @class SettingsCheckBoxWithButtonControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckBoxWithButtonControlMixin
+--- @class SettingsCheckboxWithButtonControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckboxWithButtonControlMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L138)
 --- Template
---- @class SettingsCheckBoxSliderControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckBoxSliderControlMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L133)
---- Template
---- @class SettingsCheckBoxDropDownControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckBoxDropDownControlMixin
+--- @class SettingsCheckboxSliderControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckboxSliderControlMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L145)
---- @class SettingsSelectionPopoutEntryTemplate_SelectionDetails : Frame, SettingsSelectionPopoutDetailsMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L140)
 --- Template
---- @class SettingsSelectionPopoutEntryTemplate : Button, SelectionPopoutEntryTemplate, SettingsSelectionPopoutEntryMixin
---- @field SelectionDetails SettingsSelectionPopoutEntryTemplate_SelectionDetails
+--- @class SettingsCheckboxDropdownControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckboxDropdownControlMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L181)
---- @class SettingsSelectionPopoutWithButtonsTemplate_Button_SelectionDetails : Frame, SettingsSelectionPopoutDetailsMixin
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L154)
+--- @class Metal2DropdownWithSteppersAndLabelTemplate_Dropdown : DropdownButton, WowStyle2DropdownTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L152)
+--- Template
+--- @class Metal2DropdownWithSteppersAndLabelTemplate : Frame, DropdownWithSteppersTemplate, DropdownWithSteppersAndLabelMixin
+--- @field Dropdown Metal2DropdownWithSteppersAndLabelTemplate_Dropdown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L172)
---- @class SettingsSelectionPopoutWithButtonsTemplate_Button : EventButton, SelectionPopoutButtonTemplate, SettingsSelectionPopoutButtonMixin
---- @field SelectionDetails SettingsSelectionPopoutWithButtonsTemplate_Button_SelectionDetails
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L166)
 --- Template
---- @class SettingsSelectionPopoutWithButtonsTemplate : Frame, SelectionPopoutWithButtonsTemplate
---- @field Button SettingsSelectionPopoutWithButtonsTemplate_Button
+--- @class SettingsDropdownWithButtonsTemplate : Frame, Metal2DropdownWithSteppersAndLabelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L194)
---- Template
---- @class SettingsTextDropDownControlTemplate : Frame, SettingsDropDownControlTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L174)
 --- Template
 --- @class SettingsExpandableSectionTemplate : EventFrame, SettingsExpandableSectionMixin
 --- @field Button Button

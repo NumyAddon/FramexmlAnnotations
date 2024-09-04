@@ -22,7 +22,7 @@
 --- @class CinematicsFrame_CinematicsButton4 : Button, CinematicsButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L197)
---- @class CinematicsFrame_CinematicSubtitlesCheckBox : CheckButton, GlueCheckButtonTemplate
+--- @class CinematicsFrame_CinematicSubtitlesCheckbox : CheckButton, GlueCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L121)
 --- @class CinematicsFrame : Frame, BackdropTemplate

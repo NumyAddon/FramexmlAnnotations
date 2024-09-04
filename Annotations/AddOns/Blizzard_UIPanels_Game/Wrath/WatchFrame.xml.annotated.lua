@@ -75,11 +75,3 @@ WatchFrame = {}
 --- Template
 --- @class WatchFrameAutoQuestPopUpTemplate : ScrollFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L489)
---- @class WatchFrameHeaderDropDown : Frame, UIDropDownMenuTemplate
-WatchFrameHeaderDropDown = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L497)
---- @class WatchFrameDropDown : Frame, UIDropDownMenuTemplate
-WatchFrameDropDown = {}
-

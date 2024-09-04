@@ -14,53 +14,53 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L48)
 --- Template
---- @class UnitPopupVoiceLevelsTemplate : Frame, UIDropDownCustomMenuEntryTemplate, UnitPopupVoiceLevelsMixin
+--- @class UnitPopupVoiceLevelsTemplate : Frame, UnitPopupVoiceLevelsMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L59)
---- @class UnitPopupVoiceSpeakerVolume_Text : Frame, UnitPopupVoiceTextTemplate
+--- @class UnitPopupVoiceSpeakerVolumeTemplate_Text : Frame, UnitPopupVoiceTextTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L60)
---- @class UnitPopupVoiceSpeakerVolume_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleDeafenMixin
+--- @class UnitPopupVoiceSpeakerVolumeTemplate_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleDeafenMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L61)
---- @class UnitPopupVoiceSpeakerVolume_Slider : Slider, UnitPopupVoiceSliderTemplate, UnitPopupVoiceSpeakerVolumeSliderMixin
+--- @class UnitPopupVoiceSpeakerVolumeTemplate_Slider : Slider, UnitPopupVoiceSliderTemplate, UnitPopupVoiceSpeakerVolumeSliderMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L56)
---- @class UnitPopupVoiceSpeakerVolume : Frame, UnitPopupVoiceLevelsTemplate
---- @field Text UnitPopupVoiceSpeakerVolume_Text
---- @field Toggle UnitPopupVoiceSpeakerVolume_Toggle
---- @field Slider UnitPopupVoiceSpeakerVolume_Slider
-UnitPopupVoiceSpeakerVolume = {}
+--- Template
+--- @class UnitPopupVoiceSpeakerVolumeTemplate : Frame, UnitPopupVoiceLevelsTemplate
+--- @field Text UnitPopupVoiceSpeakerVolumeTemplate_Text
+--- @field Toggle UnitPopupVoiceSpeakerVolumeTemplate_Toggle
+--- @field Slider UnitPopupVoiceSpeakerVolumeTemplate_Slider
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L68)
---- @class UnitPopupVoiceMicrophoneVolume_Text : Frame, UnitPopupVoiceTextTemplate
+--- @class UnitPopupVoiceMicrophoneVolumeTemplate_Text : Frame, UnitPopupVoiceTextTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L69)
---- @class UnitPopupVoiceMicrophoneVolume_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleMuteMixin
+--- @class UnitPopupVoiceMicrophoneVolumeTemplate_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleMuteMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L70)
---- @class UnitPopupVoiceMicrophoneVolume_Slider : Slider, UnitPopupVoiceSliderTemplate, UnitPopupVoiceMicrophoneVolumeSliderMixin
+--- @class UnitPopupVoiceMicrophoneVolumeTemplate_Slider : Slider, UnitPopupVoiceSliderTemplate, UnitPopupVoiceMicrophoneVolumeSliderMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L65)
---- @class UnitPopupVoiceMicrophoneVolume : Frame, UnitPopupVoiceLevelsTemplate
---- @field Text UnitPopupVoiceMicrophoneVolume_Text
---- @field Toggle UnitPopupVoiceMicrophoneVolume_Toggle
---- @field Slider UnitPopupVoiceMicrophoneVolume_Slider
-UnitPopupVoiceMicrophoneVolume = {}
+--- Template
+--- @class UnitPopupVoiceMicrophoneVolumeTemplate : Frame, UnitPopupVoiceLevelsTemplate
+--- @field Text UnitPopupVoiceMicrophoneVolumeTemplate_Text
+--- @field Toggle UnitPopupVoiceMicrophoneVolumeTemplate_Toggle
+--- @field Slider UnitPopupVoiceMicrophoneVolumeTemplate_Slider
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L77)
---- @class UnitPopupVoiceUserVolume_Text : Frame, UnitPopupVoiceTextTemplate
+--- @class UnitPopupVoiceUserVolumeTemplate_Text : Frame, UnitPopupVoiceTextTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L78)
---- @class UnitPopupVoiceUserVolume_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleUserMuteMixin
+--- @class UnitPopupVoiceUserVolumeTemplate_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleUserMuteMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L79)
---- @class UnitPopupVoiceUserVolume_Slider : Slider, UnitPopupVoiceSliderTemplate, UnitPopupVoiceUserVolumeSliderMixin, UnitPopupVoiceMemberInfoMixin
+--- @class UnitPopupVoiceUserVolumeTemplate_Slider : Slider, UnitPopupVoiceSliderTemplate, UnitPopupVoiceUserVolumeSliderMixin, UnitPopupVoiceMemberInfoMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L74)
---- @class UnitPopupVoiceUserVolume : Frame, UnitPopupVoiceLevelsTemplate
---- @field Text UnitPopupVoiceUserVolume_Text
---- @field Toggle UnitPopupVoiceUserVolume_Toggle
---- @field Slider UnitPopupVoiceUserVolume_Slider
-UnitPopupVoiceUserVolume = {}
+--- Template
+--- @class UnitPopupVoiceUserVolumeTemplate : Frame, UnitPopupVoiceLevelsTemplate
+--- @field Text UnitPopupVoiceUserVolumeTemplate_Text
+--- @field Toggle UnitPopupVoiceUserVolumeTemplate_Toggle
+--- @field Slider UnitPopupVoiceUserVolumeTemplate_Slider
 

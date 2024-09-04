@@ -22,22 +22,16 @@
 --- @class PetJournal_PetJournalSearchBox : EditBox, SearchBoxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L184)
---- @class PetJournal_PetJournalFilterButton : DropDownToggleButton, UIMenuButtonStretchTemplate
+--- @class PetJournal_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L207)
---- @class PetJournal_PetJournalFilterDropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L190)
 --- @class PetJournal_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L218)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L196)
 --- @class PetJournal_ScrollBar : EventFrame, WowTrimScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L326)
 --- @class PetJournal_PetJournalSummonButton : Button, MagicButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L365)
---- @class PetJournal_PetJournalPetOptionsMenu : Frame, UIDropDownMenuTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L127)
 --- @class PetJournal : Frame
@@ -45,10 +39,10 @@
 --- @field LeftInset PetJournal_PetJournalLeftInset
 --- @field RightInset PetJournal_PetJournalRightInset
 --- @field searchBox PetJournal_PetJournalSearchBox
+--- @field FilterDropdown PetJournal_FilterDropdown
 --- @field ScrollBox PetJournal_ScrollBox
 --- @field ScrollBar PetJournal_ScrollBar
 --- @field PetCard Frame
 --- @field SummonButton PetJournal_PetJournalSummonButton
---- @field petOptionsMenu PetJournal_PetJournalPetOptionsMenu
 PetJournal = {}
 

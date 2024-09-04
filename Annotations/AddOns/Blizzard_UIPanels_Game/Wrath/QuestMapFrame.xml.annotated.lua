@@ -25,9 +25,6 @@
 --- @class QuestDetailsButtonTemplate : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L160)
---- @class QuestMapFrame_QuestMapQuestOptionsDropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L161)
 --- @class QuestMapFrame_QuestScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field DetailFrame Frame
 

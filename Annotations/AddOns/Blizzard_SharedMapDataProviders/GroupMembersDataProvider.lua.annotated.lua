@@ -67,6 +67,3 @@ function GroupMembersPinMixin:OnCanvasScaleChanged() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/GroupMembersDataProvider.lua#L151)
 function GroupMembersPinMixin:OnCanvasClicked(button, cursorX, cursorY) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/GroupMembersDataProvider.lua#L178)
-function GroupMembersPinMixin:InitializeReportDropDown() end

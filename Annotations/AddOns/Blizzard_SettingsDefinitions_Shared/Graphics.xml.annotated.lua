@@ -1,12 +1,12 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L20)
---- @class SettingsAdvancedDropdownTemplate_DropDown : Frame, SettingsSelectionPopoutWithButtonsTemplate
+--- @class SettingsAdvancedDropdownTemplate_Control : Frame, SettingsDropdownWithButtonsTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L5)
 --- Template
 --- @class SettingsAdvancedDropdownTemplate : Frame, SettingsAdvancedDropdownMixin
---- @field DropDown SettingsAdvancedDropdownTemplate_DropDown
+--- @field Control SettingsAdvancedDropdownTemplate_Control
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L46)
 --- @class SettingsAdvancedSliderTemplate_SliderWithSteppers : Frame, MinimalSliderWithSteppersTemplate
@@ -25,16 +25,16 @@
 --- @field SliderWithSteppers SettingsAdvancedWideSliderTemplate_SliderWithSteppers
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L99)
---- @class SettingsAdvancedWideCheckBoxSliderTemplate_CheckBox : CheckButton, SettingsCheckBoxTemplate
+--- @class SettingsAdvancedWideCheckboxSliderTemplate_Checkbox : CheckButton, SettingsCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L104)
---- @class SettingsAdvancedWideCheckBoxSliderTemplate_SliderWithSteppers : Frame, MinimalSliderWithSteppersTemplate
+--- @class SettingsAdvancedWideCheckboxSliderTemplate_SliderWithSteppers : Frame, MinimalSliderWithSteppersTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L84)
 --- Template
---- @class SettingsAdvancedWideCheckBoxSliderTemplate : Frame, SettingsAdvancedCheckBoxSliderMixin
---- @field CheckBox SettingsAdvancedWideCheckBoxSliderTemplate_CheckBox
---- @field SliderWithSteppers SettingsAdvancedWideCheckBoxSliderTemplate_SliderWithSteppers
+--- @class SettingsAdvancedWideCheckboxSliderTemplate : Frame, SettingsAdvancedCheckboxSliderMixin
+--- @field Checkbox SettingsAdvancedWideCheckboxSliderTemplate_Checkbox
+--- @field SliderWithSteppers SettingsAdvancedWideCheckboxSliderTemplate_SliderWithSteppers
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L118)
 --- @class SettingsAdvancedQualityControlsTemplate_ShadowQuality : Frame, SettingsAdvancedDropdownTemplate
@@ -109,7 +109,7 @@
 --- @field GraphicsQuality SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L253)
---- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideCheckBoxSliderTemplate
+--- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideCheckboxSliderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L251)
 --- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls : Frame, SettingsAdvancedQualityControlsTemplate

@@ -30,7 +30,7 @@
 --- @class CommunitiesEditStreamDialogTemplate_Description : ScrollFrame, InputScrollFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L143)
---- @class CommunitiesEditStreamDialogTemplate_TypeCheckBox : CheckButton, UICheckButtonTemplate
+--- @class CommunitiesEditStreamDialogTemplate_TypeCheckbox : CheckButton, UICheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L154)
 --- @class CommunitiesEditStreamDialogTemplate_Accept : Button, UIPanelButtonTemplate
@@ -47,7 +47,7 @@
 --- @field BG CommunitiesEditStreamDialogTemplate_BG
 --- @field NameEdit CommunitiesEditStreamDialogTemplate_NameEdit
 --- @field Description CommunitiesEditStreamDialogTemplate_Description
---- @field TypeCheckBox CommunitiesEditStreamDialogTemplate_TypeCheckBox
+--- @field TypeCheckbox CommunitiesEditStreamDialogTemplate_TypeCheckbox
 --- @field Accept CommunitiesEditStreamDialogTemplate_Accept
 --- @field Delete CommunitiesEditStreamDialogTemplate_Delete
 --- @field Cancel CommunitiesEditStreamDialogTemplate_Cancel
@@ -56,28 +56,24 @@
 --- @class CommunitiesNotificationSettingsDialogTemplate_Selector : Frame, SelectionFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L205)
---- @class CommunitiesNotificationSettingsDialogTemplate_CommunitiesListDropDownMenu : Frame, CommunitiesListDropDownMenuTemplate
+--- @class CommunitiesNotificationSettingsDialogTemplate_CommunitiesListDropdown : DropdownButton, CommunitiesListDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L210)
 --- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L179)
 --- Template
 --- @class CommunitiesNotificationSettingsDialogTemplate : Frame, CommunitiesNotificationSettingsDialogMixin
 --- @field Selector CommunitiesNotificationSettingsDialogTemplate_Selector
---- @field CommunitiesListDropDownMenu CommunitiesNotificationSettingsDialogTemplate_CommunitiesListDropDownMenu
+--- @field CommunitiesListDropdown CommunitiesNotificationSettingsDialogTemplate_CommunitiesListDropdown
 --- @field ScrollFrame CommunitiesNotificationSettingsDialogTemplate_ScrollFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L313)
---- @class AddToChatButtonTemplate_DropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L289)
 --- Template
---- @class AddToChatButtonTemplate : DropDownToggleButton, UIMenuButtonStretchTemplate, CommunitiesAddToChatMixin
---- @field DropDown AddToChatButtonTemplate_DropDown
+--- @class AddToChatButtonTemplate : DropdownButton, UIMenuButtonStretchTemplate, CommunitiesAddToChatMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L326)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L315)
 --- Template
---- @class StreamDropDownMenuTemplate : Frame, UIDropDownMenuTemplate, CommunitiesStreamDropDownMixin
+--- @class StreamDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, CommunitiesStreamDropdownMixin
 --- @field NotificationOverlay Frame
 

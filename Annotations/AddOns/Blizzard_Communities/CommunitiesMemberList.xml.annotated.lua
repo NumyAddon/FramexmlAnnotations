@@ -39,9 +39,6 @@
 --- @class CommunitiesMemberListFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L347)
---- @class CommunitiesMemberListFrameTemplate_DropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L353)
 --- @class CommunitiesMemberListFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L244)
@@ -52,19 +49,18 @@
 --- @field ColumnDisplay CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @field ScrollBox CommunitiesMemberListFrameTemplate_ScrollBox
 --- @field ScrollBar CommunitiesMemberListFrameTemplate_ScrollBar
---- @field DropDown CommunitiesMemberListFrameTemplate_DropDown
 --- @field InsetFrame CommunitiesMemberListFrameTemplate_InsetFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L369)
 --- Template
---- @class CommunitiesFrameMemberListDropDownMenuTemplate : Frame, UIDropDownMenuTemplate, CommunitiesFrameMemberListDropDownMenuMixin
+--- @class CommunitiesFrameMemberListDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, CommunitiesFrameMemberListDropdownMixin
 --- @field NotificationOverlay Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L409)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L402)
 --- Template
---- @class GuildMemberListDropDownMenuTemplate : Frame, CommunitiesFrameMemberListDropDownMenuTemplate, GuildMemberListDropDownMenuMixin
+--- @class GuildMemberListDropdownTemplate : DropdownButton, CommunitiesFrameMemberListDropdownTemplate, GuildMemberListDropdownMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L403)
 --- Template
---- @class CommunityMemberListDropDownMenuTemplate : Frame, CommunitiesFrameMemberListDropDownMenuTemplate, CommunityMemberListDropDownMenuMixin
+--- @class CommunityMemberListDropdownTemplate : DropdownButton, CommunitiesFrameMemberListDropdownTemplate, CommunityMemberListDropdownMixin
 

@@ -14,7 +14,7 @@
 --- @class SocialContractFrame_DeclineButton : Button, UIPanelButtonTemplate, SocialContractDeclineButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/SocialContract.xml#L3)
---- @class SocialContractFrame : Frame, DefaultScaleFrame, SocialContractFrameMixin
+--- @class SocialContractFrame : Frame, SocialContractFrameMixin
 --- @field Border Frame
 --- @field ScrollBox SocialContractFrame_ScrollBox
 --- @field ScrollBar SocialContractFrame_ScrollBar

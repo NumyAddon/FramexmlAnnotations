@@ -4,19 +4,23 @@
 --- Template
 --- @class GlueMenuFrameButtonTemplate : Button, GlueButtonSmallTemplateBlue
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L37)
+--- @class GlueMenuFrame_OptionsButton_New : Frame, NewFeatureLabelTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L32)
 --- @class GlueMenuFrame_OptionsButton : Button, GlueMenuFrameButtonTemplate
+--- @field New GlueMenuFrame_OptionsButton_New
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L51)
 --- @class GlueMenuFrame_CreditsButton : Button, GlueMenuFrameButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L62)
 --- @class GlueMenuFrame_CinematicsButton : Button, GlueMenuFrameButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L73)
 --- @class GlueMenuFrame_ExitGameButton : Button, GlueMenuFrameButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L83)
 --- @class GlueMenuFrame_CloseButton : Button, GlueMenuFrameButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L8)

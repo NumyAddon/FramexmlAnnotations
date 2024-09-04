@@ -93,6 +93,6 @@ PartyMemberFrame4 = {}
 PartyMemberBuffTooltip = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrame.xml#L266)
---- @class PartyMemberBackground : Frame
+--- @class PartyMemberBackground : Frame, BackdropTemplate
 PartyMemberBackground = {}
 

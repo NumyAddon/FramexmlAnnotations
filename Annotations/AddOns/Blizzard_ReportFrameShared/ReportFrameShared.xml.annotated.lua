@@ -4,19 +4,19 @@
 --- Template
 --- @class ReportingFrameMinorCategoryButtonTemplate : CheckButton, ReportingFrameMinorCategoryButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L97)
---- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown : Frame, UIDropDownMenuTemplate, ReportingMajorCategoryDropdownMixin
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L99)
+--- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L114)
 --- @class SharedReportFrameTemplate_ReportButton : Button, UIPanelButtonTemplate, ReportButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L125)
 --- @class SharedReportFrameTemplate_Comment : ScrollFrame, InputScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L133)
 --- @class SharedReportFrameTemplate_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L21)
 --- Template
 --- @class SharedReportFrameTemplate : Frame, ResizeLayoutFrame
 --- @field Border Frame

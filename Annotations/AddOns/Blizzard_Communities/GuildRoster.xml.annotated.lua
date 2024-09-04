@@ -13,7 +13,7 @@
 --- @class CommunitiesGuildMemberDetailFrameTemplate_GroupInviteButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L113)
---- @class CommunitiesGuildMemberDetailFrameTemplate_RankDropdown : Frame, UIDropDownMenuTemplate
+--- @class CommunitiesGuildMemberDetailFrameTemplate_RankDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L118)
 --- @class CommunitiesGuildMemberDetailFrameTemplate_NoteBackground : Frame, TooltipBackdropTemplate

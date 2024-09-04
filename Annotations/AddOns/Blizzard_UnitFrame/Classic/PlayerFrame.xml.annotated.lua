@@ -18,9 +18,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L316)
 --- @class PlayerFrame_PlayerFrameManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L332)
---- @class PlayerFrame_PlayerFrameDropDown : Frame, UIDropDownMenuTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L13)
 --- @class PlayerFrame : Button, SecureUnitButtonTemplate
 --- @field HealthBar PlayerFrame_PlayerFrameHealthBar

@@ -29,4 +29,4 @@ function HelpFrameMixin:OnEvent(event, ...) end
 function HelpFrameMixin:OnError(msg) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.lua#L104)
-function HelpFrameMixin:ShowFrame(key) end
+function HelpFrameMixin:ShowFrame(key, contextKey) end

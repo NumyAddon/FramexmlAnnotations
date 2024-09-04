@@ -36,29 +36,29 @@
 --- @class CommunitiesTicketManagerDialog_Copy : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L383)
---- @class CommunitiesTicketManagerDialog_ExpiresDropDownMenu : Frame, UIDropDownMenuTemplate
+--- @class CommunitiesTicketManagerDialog_ExpiresDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L389)
---- @class CommunitiesTicketManagerDialog_UsesDropDownMenu : Frame, UIDropDownMenuTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L388)
+--- @class CommunitiesTicketManagerDialog_UsesDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L395)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L393)
 --- @class CommunitiesTicketManagerDialog_GenerateLinkButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L404)
 --- @class CommunitiesTicketManagerDialog_MaximizeButton : Button, UIPanelSquareButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L417)
 --- @class CommunitiesTicketManagerDialog_InviteManager : Frame, CommunitiesTicketManagerScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L425)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L423)
 --- @class CommunitiesTicketManagerDialog_Close : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L192)
 --- @class CommunitiesTicketManagerDialog : Frame, CommunitiesTicketManagerDialogMixin
 --- @field LinkToChat CommunitiesTicketManagerDialog_LinkToChat
 --- @field Copy CommunitiesTicketManagerDialog_Copy
---- @field ExpiresDropDownMenu CommunitiesTicketManagerDialog_ExpiresDropDownMenu
---- @field UsesDropDownMenu CommunitiesTicketManagerDialog_UsesDropDownMenu
+--- @field ExpiresDropdown CommunitiesTicketManagerDialog_ExpiresDropdown
+--- @field UsesDropdown CommunitiesTicketManagerDialog_UsesDropdown
 --- @field GenerateLinkButton CommunitiesTicketManagerDialog_GenerateLinkButton
 --- @field MaximizeButton CommunitiesTicketManagerDialog_MaximizeButton
 --- @field InviteManager CommunitiesTicketManagerDialog_InviteManager

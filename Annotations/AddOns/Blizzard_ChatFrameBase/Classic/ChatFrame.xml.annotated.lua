@@ -8,11 +8,3 @@
 --- Template
 --- @class ChatFrameEditBoxTemplate : EditBox, AutoCompleteEditBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.xml#L147)
---- @class ChatChannelDropDown : Frame, UIDropDownMenuTemplate
-ChatChannelDropDown = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.xml#L148)
---- @class ChatBNPlayerDropDown : Frame, UIDropDownMenuTemplate
-ChatBNPlayerDropDown = {}
-

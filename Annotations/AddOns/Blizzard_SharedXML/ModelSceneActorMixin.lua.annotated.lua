@@ -1,53 +1,53 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L2)
 --- @class ModelSceneActorMixin
 ModelSceneActorMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L5)
 function ModelSceneActorMixin:ApplyFromModelSceneActorInfo(actorInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L67)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L43)
 function ModelSceneActorMixin:OnModelCleared() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L47)
 function ModelSceneActorMixin:SetOnSizeChangedCallback(onSizeChangedCallback) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L51)
 function ModelSceneActorMixin:GetOnSizeChangedCallback() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L55)
 function ModelSceneActorMixin:SetOnModelLoadedCallback(onModelLoadedCallback) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L59)
 function ModelSceneActorMixin:GetOnModelLoadedCallback() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L63)
 function ModelSceneActorMixin:SetNormalizedScaleAggressiveness(normalizedScaleAggressiveness) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L70)
 function ModelSceneActorMixin:GetNormalizedScaleAggressiveness() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L98)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L74)
 function ModelSceneActorMixin:SetRequestedScale(requestedScale) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L81)
 function ModelSceneActorMixin:GetRequestedScale() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L86)
 function ModelSceneActorMixin:CalculateNormalizedScale(normalizedScaleAggressiveness) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L111)
 function ModelSceneActorMixin:OnReleased() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L140)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L116)
 function ModelSceneActorMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L120)
 function ModelSceneActorMixin:OnModelLoaded() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L128)
 function ModelSceneActorMixin:UpdateScale() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneActorMixin.lua#L140)
 function ModelSceneActorMixin:MarkScaleDirty() end

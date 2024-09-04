@@ -26,13 +26,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L239)
 --- @class CommunitiesGuildRewardsFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L245)
---- @class CommunitiesGuildRewardsFrameTemplate_DropDown : Frame, UIDropDownMenuTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L213)
 --- Template
 --- @class CommunitiesGuildRewardsFrameTemplate : Frame
 --- @field ScrollBox CommunitiesGuildRewardsFrameTemplate_ScrollBox
 --- @field ScrollBar CommunitiesGuildRewardsFrameTemplate_ScrollBar
---- @field DropDown CommunitiesGuildRewardsFrameTemplate_DropDown
 

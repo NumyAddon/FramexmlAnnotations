@@ -1,8 +1,8 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L1)
---- @class RTTSMixin : SettingsDropDownControlMixin
-RTTSMixin = CreateFromMixins(SettingsDropDownControlMixin)
+--- @class RTTSMixin : SettingsDropdownControlMixin
+RTTSMixin = CreateFromMixins(SettingsDropdownControlMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.lua#L3)
 function RTTSMixin:OnLoad() end

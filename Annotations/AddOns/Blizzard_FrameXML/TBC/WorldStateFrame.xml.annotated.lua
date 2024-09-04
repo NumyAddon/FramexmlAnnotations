@@ -63,27 +63,24 @@
 --- @class WorldStateScoreFrame_WorldStateScoreColumn7 : Button, WorldStateScoreColumnTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L770)
---- @class WorldStateScoreFrame_WorldStateButtonDropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L771)
 --- @class WorldStateScoreFrame_WorldStateScoreButton1 : Frame, WorldStateScoreTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L776)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L775)
 --- @class WorldStateScoreFrame_WorldStateScoreScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L832)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L831)
 --- @class WorldStateScoreFrame_WorldStateScoreFrameCloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L841)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L840)
 --- @class WorldStateScoreFrame_WorldStateScoreFrameTab1 : Button, WorldStateScoreFrameTabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L853)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L852)
 --- @class WorldStateScoreFrame_WorldStateScoreFrameTab2 : Button, WorldStateScoreFrameTabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L865)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L864)
 --- @class WorldStateScoreFrame_WorldStateScoreFrameTab3 : Button, WorldStateScoreFrameTabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L876)
 --- @class WorldStateScoreFrame_WorldStateScoreFrameLeaveButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L422)

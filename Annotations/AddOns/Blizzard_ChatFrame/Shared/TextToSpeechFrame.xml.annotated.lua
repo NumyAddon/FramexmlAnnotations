@@ -16,26 +16,11 @@
 --- Template
 --- @class TextToSpeechChatTypeCheckButtonTemplate : CheckButton, TextToSpeechCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L109)
---- @class TextToSpeechFrameTtsVoicePickerTemplate_ : Frame, TooltipBackdropTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L115)
---- @class TextToSpeechFrameTtsVoicePickerTemplate_ScrollBox : Frame, WowScrollBoxList
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L121)
---- @class TextToSpeechFrameTtsVoicePickerTemplate_ScrollBar : EventFrame, MinimalScrollBar
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L106)
---- Template
---- @class TextToSpeechFrameTtsVoicePickerTemplate : Frame, UIDropDownCustomMenuEntryTemplate
---- @field ScrollBox TextToSpeechFrameTtsVoicePickerTemplate_ScrollBox
---- @field ScrollBar TextToSpeechFrameTtsVoicePickerTemplate_ScrollBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L134)
 --- Template
 --- @class TextToSpeechSliderTemplate : Slider, UISliderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L157)
 --- Template
 --- @class TextToSpeechFrameTemplate : Frame
 --- @field PanelContainer Frame

@@ -20,9 +20,11 @@
 --- @class MagicResistanceFrameTemplate : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L215)
---- @class PaperDollFrame_PlayerTitleDropDown : Frame, UIDropDownMenuTemplate
+--- @class PaperDollFrame_PlayerTitleDropdown : Frame, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L144)
 --- @class PaperDollFrame : Frame
+--- @field TitleDropdown PaperDollFrame_PlayerTitleDropdown
+--- @field Attributes Frame
 PaperDollFrame = {}
 

@@ -22,7 +22,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L118)
 --- Template
---- @class GuildPermissionCheckBoxTemplate : CheckButton
+--- @class GuildPermissionCheckboxTemplate : CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L140)
 --- Template
@@ -37,11 +37,11 @@
 --- @class GuildControlUI_GuildControlUICloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L342)
---- @class GuildControlUI_GuildControlUINavigationDropDown : Frame, UIDropDownMenuTemplate
+--- @class GuildControlUI_GuildControlUINavigationDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L307)
 --- @class GuildControlUI : Frame, TranslucentFrameTemplate
---- @field dropdown GuildControlUI_GuildControlUINavigationDropDown
+--- @field dropdown GuildControlUI_GuildControlUINavigationDropdown
 --- @field orderFrame Frame
 --- @field bankTabFrame Frame
 --- @field rankPermFrame Frame

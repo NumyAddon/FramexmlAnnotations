@@ -4,79 +4,70 @@
 --- @class WorldMapFloorNavigationFrameMixin
 WorldMapFloorNavigationFrameMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L43)
 --- @class WorldMapTrackingOptionsButtonMixin
 WorldMapTrackingOptionsButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L120)
 --- @class WorldMapNavBarMixin
 WorldMapNavBarMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L166)
 --- @class WorldMapNavBarButtonMixin
 WorldMapNavBarButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L190)
 --- @class WorldMapSidePanelToggleMixin
 WorldMapSidePanelToggleMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L207)
 --- @class WorldMapZoneTimerMixin
 WorldMapZoneTimerMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L3)
-function WorldMapFloorNavigationFrameMixin:OnLoad() end
+function WorldMapFloorNavigationFrameMixin:RefreshMenu(mapID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L37)
 function WorldMapFloorNavigationFrameMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L19)
-function WorldMapFloorNavigationFrameMixin:InitializeDropDown() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L45)
+function WorldMapTrackingOptionsButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L47)
-function WorldMapTrackingOptionsButtonMixin:OnLoad() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L54)
-function WorldMapTrackingOptionsButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L88)
 function WorldMapTrackingOptionsButtonMixin:OnMouseDown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L93)
 function WorldMapTrackingOptionsButtonMixin:OnMouseUp() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L98)
 function WorldMapTrackingOptionsButtonMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L78)
-function WorldMapTrackingOptionsButtonMixin:OnSelection(value, checked) end
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L102)
-function WorldMapTrackingOptionsButtonMixin:InitializeDropDown() end
+function WorldMapTrackingOptionsButtonMixin:OnSelection(cvar, checked) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L126)
 function WorldMapNavBarMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L140)
 function WorldMapNavBarMixin:GoToMap(mapID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L227)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L144)
 function WorldMapNavBarMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L251)
-function WorldMapNavBarButtonMixin:GetDropDownList() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L168)
+function WorldMapNavBarButtonMixin:GetDropdownList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L269)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L186)
 function WorldMapNavBarButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L192)
 function WorldMapSidePanelToggleMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L197)
 function WorldMapSidePanelToggleMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L209)
 function WorldMapZoneTimerMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L222)
 function WorldMapZoneTimerMixin:Refresh() end

@@ -57,41 +57,41 @@
 --- @class ChatConfigSmallCheckButtonTemplate : CheckButton, ChatConfigBaseCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L248)
---- @class ChatConfigCheckBoxTemplate_ChatConfigCheckBoxTemplateCheck : CheckButton, ChatConfigCheckButtonTemplate
+--- @class ChatConfigCheckboxTemplate_ChatConfigCheckboxTemplateCheck : CheckButton, ChatConfigCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L242)
 --- Template
---- @class ChatConfigCheckBoxTemplate : Frame, TooltipBackdropTemplate
---- @field CheckButton ChatConfigCheckBoxTemplate_ChatConfigCheckBoxTemplateCheck
+--- @class ChatConfigCheckboxTemplate : Frame, TooltipBackdropTemplate
+--- @field CheckButton ChatConfigCheckboxTemplate_ChatConfigCheckboxTemplateCheck
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L260)
 --- Template
---- @class ChatConfigCheckBoxSmallTemplate : Frame, ChatConfigCheckBoxTemplate
+--- @class ChatConfigCheckboxSmallTemplate : Frame, ChatConfigCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L263)
 --- Template
---- @class ChatConfigCheckBoxWithSwatchTemplate : Frame, ChatConfigCheckBoxTemplate
+--- @class ChatConfigCheckboxWithSwatchTemplate : Frame, ChatConfigCheckboxTemplate
 --- @field ColorSwatch Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L296)
 --- Template
---- @class ChatConfigWideCheckBoxWithSwatchTemplate : Frame, ChatConfigCheckBoxWithSwatchTemplate
+--- @class ChatConfigWideCheckboxWithSwatchTemplate : Frame, ChatConfigCheckboxWithSwatchTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L334)
---- @class MovableChatConfigWideCheckBoxWithSwatchTemplate_MovableChatConfigWideCheckBoxWithSwatchTemplateColorClasses : CheckButton, ChatConfigBaseCheckButtonTemplate
+--- @class MovableChatConfigWideCheckboxWithSwatchTemplate_MovableChatConfigWideCheckboxWithSwatchTemplateColorClasses : CheckButton, ChatConfigBaseCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L305)
 --- Template
---- @class MovableChatConfigWideCheckBoxWithSwatchTemplate : Frame, ChatConfigWideCheckBoxWithSwatchTemplate, ChatConfigWideCheckBoxMixin
+--- @class MovableChatConfigWideCheckboxWithSwatchTemplate : Frame, ChatConfigWideCheckboxWithSwatchTemplate, ChatConfigWideCheckboxMixin
 --- @field CloseChannel Button
 --- @field ArtOverlay Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L360)
---- @class ChatConfigCheckBoxWithSwatchAndClassColorTemplate_ChatConfigCheckBoxWithSwatchAndClassColorTemplateColorClasses : CheckButton, ChatConfigBaseCheckButtonTemplate
+--- @class ChatConfigCheckboxWithSwatchAndClassColorTemplate_ChatConfigCheckboxWithSwatchAndClassColorTemplateColorClasses : CheckButton, ChatConfigBaseCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L355)
 --- Template
---- @class ChatConfigCheckBoxWithSwatchAndClassColorTemplate : Frame, ChatConfigCheckBoxWithSwatchTemplate
+--- @class ChatConfigCheckboxWithSwatchAndClassColorTemplate : Frame, ChatConfigCheckboxWithSwatchTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L377)
 --- Template

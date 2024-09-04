@@ -21,7 +21,3 @@
 --- @field ScrollFrame LootHistoryFrame_LootHistoryFrameScrollFrame
 LootHistoryFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L306)
---- @class LootHistoryDropDown : Frame, UIDropDownMenuTemplate
-LootHistoryDropDown = {}
-

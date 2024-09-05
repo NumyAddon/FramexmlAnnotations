@@ -21,3 +21,6 @@ function WarWithinLandingOverlayMixin:RefreshMajorFactionList() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L95)
 function WarWithinLandingOverlayMixin:SetUpMajorFactionList() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.lua#L112)
+function WarWithinLandingOverlayMixin:GetMinimapInsetInfo() end

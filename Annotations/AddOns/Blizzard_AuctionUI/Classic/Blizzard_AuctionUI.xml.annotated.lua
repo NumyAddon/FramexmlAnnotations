@@ -19,10 +19,10 @@
 --- @class AuctionFrame : Frame
 AuctionFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2519)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2520)
 --- @class AuctionProgressFrame_AuctionProgressBar : StatusBar, CastingBarFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2462)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2463)
 --- @class AuctionProgressFrame : Frame
 AuctionProgressFrame = {}
 

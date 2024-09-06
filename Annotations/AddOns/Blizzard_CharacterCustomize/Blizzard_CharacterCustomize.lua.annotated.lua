@@ -20,35 +20,35 @@ CharCustomizeZoomButtonMixin = CreateFromMixins(CharCustomizeClickOrHoldButtonMi
 --- @class CharCustomizeRotateButtonMixin : CharCustomizeClickOrHoldButtonMixin
 CharCustomizeRotateButtonMixin = CreateFromMixins(CharCustomizeClickOrHoldButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L322)
 --- @class CharCustomizeAlteredFormButtonMixin : CharCustomizeMaskedButtonMixin
 CharCustomizeAlteredFormButtonMixin = CreateFromMixins(CharCustomizeMaskedButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L338)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L348)
 --- @class CharCustomizeCategoryButtonMixin : CharCustomizeMaskedButtonMixin
 CharCustomizeCategoryButtonMixin = CreateFromMixins(CharCustomizeMaskedButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L410)
 --- @class CharCustomizeShapeshiftFormButtonMixin : CharCustomizeCategoryButtonMixin
 CharCustomizeShapeshiftFormButtonMixin = CreateFromMixins(CharCustomizeCategoryButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L429)
 --- @class CharCustomizeRidingDrakeButtonMixin : CharCustomizeCategoryButtonMixin
 CharCustomizeRidingDrakeButtonMixin = CreateFromMixins(CharCustomizeCategoryButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L437)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L447)
 --- @class CharCustomizeBodyTypeButtonMixin : CharCustomizeMaskedButtonMixin
 CharCustomizeBodyTypeButtonMixin = CreateFromMixins(CharCustomizeMaskedButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L475)
 --- @class CharCustomizeOptionSliderMixin : CharCustomizeOptionFrameBaseMixin, SliderWithButtonsAndLabelMixin, CharCustomizeFrameWithTooltipMixin
 CharCustomizeOptionSliderMixin = CreateFromMixins(CharCustomizeOptionFrameBaseMixin, SliderWithButtonsAndLabelMixin, CharCustomizeFrameWithTooltipMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L533)
 --- @class CharCustomizeOptionCheckButtonMixin : CharCustomizeOptionFrameBaseMixin, CharCustomizeFrameWithTooltipMixin
 CharCustomizeOptionCheckButtonMixin = CreateFromMixins(CharCustomizeOptionFrameBaseMixin, CharCustomizeFrameWithTooltipMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L744)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L754)
 --- @class CharCustomizeDropdownWithSteppersAndLabelMixin : CharCustomizeOptionFrameBaseMixin, CharCustomizeFrameWithTooltipMixin
 CharCustomizeDropdownWithSteppersAndLabelMixin = CreateFromMixins(CharCustomizeOptionFrameBaseMixin, CharCustomizeFrameWithTooltipMixin)
 
@@ -80,31 +80,31 @@ CharCustomizeClickOrHoldButtonMixin = {}
 --- @class CharCustomizeFrameWithExpandableTooltipMixin
 CharCustomizeFrameWithExpandableTooltipMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L559)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L569)
 --- @class CharCustomizeAudioInterfacePlayButtonMixin
 CharCustomizeAudioInterfacePlayButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L605)
 --- @class CharCustomizeAudioInterfaceMuteButtonMixin
 CharCustomizeAudioInterfaceMuteButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L645)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L655)
 --- @class CharCustomizeAudioInterfaceMixin
 CharCustomizeAudioInterfaceMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L998)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1006)
 --- @class CharCustomizeDropdownElementDetailsMixin
 CharCustomizeDropdownElementDetailsMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1204)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1221)
 --- @class CharCustomizeDropdownMixin
 CharCustomizeDropdownMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1245)
 --- @class CharCustomizeDropdownElementMixin
 CharCustomizeDropdownElementMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1251)
 --- @class CharCustomizeMixin
 CharCustomizeMixin = {}
 
@@ -273,353 +273,362 @@ function CharCustomizeFrameWithExpandableTooltipMixin:AddPostTooltipLine(lineTex
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L288)
 function CharCustomizeFrameWithExpandableTooltipMixin:AddExtraStuffToTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L312)
+function CharCustomizeFrameWithExpandableTooltipMixin:OnMouseUp(button) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L324)
 function CharCustomizeAlteredFormButtonMixin:SetupAlteredFormButton(raceData, isSelected, isAlteredForm, layoutIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L338)
 function CharCustomizeAlteredFormButtonMixin:SetupAnchors(tooltip) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L343)
 function CharCustomizeAlteredFormButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L350)
 function CharCustomizeCategoryButtonMixin:SetCategory(categoryData, selectedCategoryID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L382)
 function CharCustomizeCategoryButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L402)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L412)
 function CharCustomizeShapeshiftFormButtonMixin:SetupAnchors(tooltip) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L407)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L417)
 function CharCustomizeShapeshiftFormButtonMixin:SetCategory(categoryData, selectedCategoryID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L421)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L431)
 function CharCustomizeRidingDrakeButtonMixin:SetupAnchors(tooltip) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L426)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L436)
 function CharCustomizeRidingDrakeButtonMixin:SetCategory(categoryData, selectedCategoryID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L439)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L449)
 function CharCustomizeBodyTypeButtonMixin:SetBodyType(bodyTypeID, selecteBodyTypeID, layoutIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L460)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L470)
 function CharCustomizeBodyTypeButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L467)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L477)
 function CharCustomizeOptionSliderMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L471)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L481)
 function CharCustomizeOptionSliderMixin:SetupAnchors(tooltip) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L486)
 function CharCustomizeOptionSliderMixin:SetupOption(optionData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L486)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L496)
 function CharCustomizeOptionSliderMixin:OnSliderValueChanged(value, userInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L525)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L535)
 function CharCustomizeOptionCheckButtonMixin:SetupOption(optionData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L551)
 function CharCustomizeOptionCheckButtonMixin:OnCheckButtonClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L561)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L571)
 function CharCustomizeAudioInterfacePlayButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L570)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L580)
 function CharCustomizeAudioInterfacePlayButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L575)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L585)
 function CharCustomizeAudioInterfacePlayButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L579)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L589)
 function CharCustomizeAudioInterfacePlayButtonMixin:GetStateTextures() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L588)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L598)
 function CharCustomizeAudioInterfacePlayButtonMixin:UpdateStateTextures() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L597)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L607)
 function CharCustomizeAudioInterfaceMuteButtonMixin:CharCustomizeAudioInterfaceMuteButton_OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L611)
 function CharCustomizeAudioInterfaceMuteButtonMixin:GetStateTextures() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L609)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L619)
 function CharCustomizeAudioInterfaceMuteButtonMixin:UpdateStateTextures() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L616)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L626)
 function CharCustomizeAudioInterfaceMuteButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L632)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L642)
 function CharCustomizeAudioInterfaceMuteButtonMixin:GetTooltipText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L636)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L646)
 function CharCustomizeAudioInterfaceMuteButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L641)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L651)
 function CharCustomizeAudioInterfaceMuteButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L647)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L657)
 function CharCustomizeAudioInterfaceMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L656)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L666)
 function CharCustomizeAudioInterfaceMixin:SetupAudio(soundKit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L669)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L679)
 function CharCustomizeAudioInterfaceMixin:IsPlaying() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L673)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L683)
 function CharCustomizeAudioInterfaceMixin:PlayAudioInternal() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L680)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L690)
 function CharCustomizeAudioInterfaceMixin:PlayAudio(soundKit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L702)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L712)
 function CharCustomizeAudioInterfaceMixin:StopAudio() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L722)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L732)
 function CharCustomizeAudioInterfaceMixin:OnPlaybackFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L732)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L742)
 function CharCustomizeAudioInterfaceMixin:CheckResumePlayback() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L750)
 function CharCustomizeAudioInterfaceMixin:OnAudioPlayingTick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L746)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L756)
 function CharCustomizeDropdownWithSteppersAndLabelMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L756)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L766)
 function CharCustomizeDropdownWithSteppersAndLabelMixin:SetupAnchors(tooltip) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L974)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L982)
 function CharCustomizeDropdownWithSteppersAndLabelMixin:GetOrCreateWarningTexture(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L984)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L992)
 function CharCustomizeDropdownWithSteppersAndLabelMixin:GetWarningTexture() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L988)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L996)
 function CharCustomizeDropdownWithSteppersAndLabelMixin:SetMissingOptionWarningEnabled(externallyEnabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1000)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1008)
 function CharCustomizeDropdownElementDetailsMixin:GetTooltipText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1013)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1021)
 function CharCustomizeDropdownElementDetailsMixin:AdjustWidth(multipleColumns, hasALockedChoice) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1053)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1061)
 function CharCustomizeDropdownElementDetailsMixin:GetFontColors(choiceData, isSelected, hasAFailedReq) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1068)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1076)
 function CharCustomizeDropdownElementDetailsMixin:UpdateFontColors(choiceData, isSelected, hasAFailedReq) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1079)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1087)
 function CharCustomizeDropdownElementDetailsMixin:SetShowAsNew(showAsNew) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1103)
 function CharCustomizeDropdownElementDetailsMixin:UpdateText(choiceData, isSelected, hasAFailedReq, hideNumber, hasColors) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1140)
 function CharCustomizeDropdownElementDetailsMixin:Init(choiceData, index, isSelected, hasAFailedReq, hasALockedChoice, clampNameSize) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1221)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1238)
 function CharCustomizeDropdownMixin:OnDisable() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1247)
 function CharCustomizeDropdownElementMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1253)
 function CharCustomizeMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1277)
 function CharCustomizeMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1289)
 function CharCustomizeMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1293)
 function CharCustomizeMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1300)
 function CharCustomizeMixin:AttachToParentFrame(parentFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1306)
 function CharCustomizeMixin:SetOptionsSpacingConfiguration(topFrame, bottomFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1311)
 function CharCustomizeMixin:OnButtonClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1315)
 function CharCustomizeMixin:SetCustomizationChoice(optionID, choiceID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1319)
 function CharCustomizeMixin:PreviewCustomizationChoice(optionID, choiceID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1323)
 function CharCustomizeMixin:ResetCustomizationPreview(clearSavedChoices) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1327)
 function CharCustomizeMixin:MarkCustomizationChoiceAsSeen(choiceID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1331)
 function CharCustomizeMixin:MarkCustomizationOptionAsSeen(optionID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1335)
 function CharCustomizeMixin:SaveSeenChoices() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1339)
 function CharCustomizeMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1344)
 function CharCustomizeMixin:NeedsCategorySelected() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1341)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1358)
 function CharCustomizeMixin:NeedsSubcategorySelected() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1372)
 function CharCustomizeMixin:GetAlteredFormsButtonPool() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1380)
 function CharCustomizeMixin:UpdateAlteredFormButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1405)
 function CharCustomizeMixin:SetSelectedData(selectedRaceData, selectedSexID, viewingAlteredForm) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1396)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1413)
 function CharCustomizeMixin:SetViewingAlteredForm(viewingAlteredForm) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1428)
 function CharCustomizeMixin:ClearViewingShapeshiftForm() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1416)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1433)
 function CharCustomizeMixin:SetViewingShapeshiftForm(formID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1440)
 function CharCustomizeMixin:ClearViewingChrModel() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1428)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1445)
 function CharCustomizeMixin:SetViewingChrModel(chrModelID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1435)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1452)
 function CharCustomizeMixin:SetCharacterSex(sexID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1439)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1456)
 function CharCustomizeMixin:RefreshCustomizations() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1446)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1463)
 function CharCustomizeMixin:GetFirstValidSubcategory() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1458)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1475)
 function CharCustomizeMixin:GetFirstValidCategory() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1478)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1495)
 function CharCustomizeMixin:GetCategory(categoryIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1482)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1499)
 function CharCustomizeMixin:GetCategories() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1486)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1503)
 function CharCustomizeMixin:SetCustomizations(categories) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1512)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1529)
 function CharCustomizeMixin:GetOptionPool(optionType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1539)
 function CharCustomizeMixin:GetCategoryPool(categoryData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1532)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1549)
 function CharCustomizeMixin:ReleaseNonDraggingSliders() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1553)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1570)
 function CharCustomizeMixin:ReleaseClosedDropdowns() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1572)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1589)
 function CharCustomizeMixin:UpdateOptionButtons(forceReset) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1695)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1713)
 function CharCustomizeMixin:GetBestCategoryData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1704)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1722)
 function CharCustomizeMixin:UpdateModelDressState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1709)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1727)
 function CharCustomizeMixin:UpdateCameraDistanceOffset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1714)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1732)
 function CharCustomizeMixin:UpdateZoomButtonStates() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1733)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1751)
 function CharCustomizeMixin:UpdateCameraMode(keepCustomZoom) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1739)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1757)
 function CharCustomizeMixin:SetSelectedCategory(categoryData, keepState) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1759)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1777)
 function CharCustomizeMixin:SetSelectedSubcategory(categoryData, keepState) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1776)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1794)
 function CharCustomizeMixin:HasSelectedSubcategory() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1780)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1798)
 function CharCustomizeMixin:GetSelectedSubcategory() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1784)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1802)
 function CharCustomizeMixin:IsSelectedSubcategory(subcategoryData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1792)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1810)
 function CharCustomizeMixin:HasSelectedCategory() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1814)
 function CharCustomizeMixin:GetSelectedCategory() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1800)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1818)
 function CharCustomizeMixin:IsSelectedCategory(categoryData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1817)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1835)
 function CharCustomizeMixin:ResetCharacterRotation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1821)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1839)
 function CharCustomizeMixin:OnMouseWheel(delta) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1825)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1843)
 function CharCustomizeMixin:ZoomCamera(zoomAmount) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1830)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1848)
 function CharCustomizeMixin:RotateCharacter(rotationAmount) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1834)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1852)
 function CharCustomizeMixin:RandomizeAppearance() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1838)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1856)
 function CharCustomizeMixin:ResetPreviewIfDirty() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1845)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1863)
 function CharCustomizeMixin:PreviewChoice(optionData, choiceData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1857)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1875)
 function CharCustomizeMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1861)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1879)
 function CharCustomizeMixin:AddMissingOptions() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1873)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1891)
 function CharCustomizeMixin:AddMissingOption(categoryIndex, optionIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1899)
 function CharCustomizeMixin:GetMissingOptions() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1885)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1903)
 function CharCustomizeMixin:HasMissingOptions() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1889)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1907)
 function CharCustomizeMixin:GetNextMissingOption() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1897)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1915)
 function CharCustomizeMixin:HighlightNextMissingOption() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1912)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1930)
 function CharCustomizeMixin:DisableMissingOptionWarnings() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1916)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1934)
 function CharCustomizeMixin:SetMissingOptionWarningEnabled(enabled) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1938)
+function CharCustomizeMixin:ToggleTooltipsExpanded() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L1942)
+function CharCustomizeMixin:GetTooltipsExpanded() end

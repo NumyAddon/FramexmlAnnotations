@@ -8,7 +8,7 @@ CommunitiesGuildRewardsButtonMixin = {}
 --- @class CommunitiesGuildFactionBarMixin
 CommunitiesGuildFactionBarMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L242)
 --- @class GuildAchievementPointDisplayMixin
 GuildAchievementPointDisplayMixin = {}
 
@@ -33,14 +33,14 @@ function CommunitiesGuildFactionBarMixin:OnEvent(event) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L205)
 function CommunitiesGuildFactionBarMixin:UpdateFaction() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L221)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L224)
 function CommunitiesGuildFactionBarMixin:SetProgress(currentValue, maxValue) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L244)
 function GuildAchievementPointDisplayMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L255)
 function GuildAchievementPointDisplayMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L258)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L261)
 function GuildAchievementPointDisplayMixin:OnMouseUp() end

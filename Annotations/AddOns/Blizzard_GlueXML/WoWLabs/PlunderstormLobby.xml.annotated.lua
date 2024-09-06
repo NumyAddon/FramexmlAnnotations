@@ -28,7 +28,7 @@
 --- @class PlunderstormLobbyFrame_FriendsToastFrame : Frame, TooltipBackdropTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L5)
---- @class PlunderstormLobbyFrame : Frame, CallbackRegistrantTemplate, DefaultScaleFrame, PlunderstormLobbyMixin
+--- @class PlunderstormLobbyFrame : Frame, CallbackRegistrantTemplate, PlunderstormLobbyMixin
 --- @field GameEnvironmentToggleFrame PlunderstormLobbyFrame_GameEnvironmentToggleFrame
 --- @field GameModeDescriptionFrame Frame
 --- @field PlunderstormLobbyFriendsButton PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton

@@ -16,11 +16,11 @@ ClickBindingFramePortraitMixin = {}
 --- @class ClickBindingFrameMixin
 ClickBindingFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L798)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L807)
 --- @class ClickBindingTutorialMixin
 ClickBindingTutorialMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L817)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L826)
 --- @class ClickableBindingsEnableMouseoverCastCheckboxMixin
 ClickableBindingsEnableMouseoverCastCheckboxMixin = {}
 
@@ -96,44 +96,44 @@ function ClickBindingFrameMixin:SetFocusedFrame(frame) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L677)
 function ClickBindingFrameMixin:ClearFocusedFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L689)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L698)
 function ClickBindingFrameMixin:GetFocusedFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L693)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L702)
 function ClickBindingFrameMixin:FillNewSlot(actionType, actionID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L712)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L721)
 function ClickBindingFrameMixin:AddNewAction(actionType, actionID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L735)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L744)
 function ClickBindingFrameMixin:SetUnboundText(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L741)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L750)
 function ClickBindingFrameMixin:ClearUnboundText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L745)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L754)
 function ClickBindingFrameMixin:SetIconHighlightsShown(show) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L754)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L763)
 function ClickBindingFrameMixin:ResetToDefaultProfile() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L775)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L784)
 function ClickBindingFrameMixin:UpdateMouseoverCastUI() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L800)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L809)
 function ClickBindingTutorialMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L805)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L814)
 function ClickBindingTutorialMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L819)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L828)
 function ClickableBindingsEnableMouseoverCastCheckboxMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L824)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L833)
 function ClickableBindingsEnableMouseoverCastCheckboxMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L828)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L837)
 function ClickableBindingsEnableMouseoverCastCheckboxMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L838)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L847)
 function ClickableBindingsEnableMouseoverCastCheckboxMixin:UpdateCheckbox() end

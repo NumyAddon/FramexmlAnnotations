@@ -46,9 +46,3 @@ function AreaPOIEventPinMixin:SetTexture() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaPOIEventDataProvider.lua#L77)
 function AreaPOIEventPinMixin:IsSuperTrackingExternallyHandled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaPOIEventDataProvider.lua#L81)
-function AreaPOIEventPinMixin:OnLegendPinMouseEnter() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaPOIEventDataProvider.lua#L85)
-function AreaPOIEventPinMixin:OnLegendPinMouseLeave() end

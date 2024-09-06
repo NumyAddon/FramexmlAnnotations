@@ -17,24 +17,22 @@
 --- @class CharacterSelectListCharacterTemplate_Arrow : Frame, CharacterServicesArrowTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L118)
---- @class CharacterSelectListCharacterTemplate_UpgradeIcon : Frame, CharacterSelectListServicesProcessingIconMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L133)
 --- @class CharacterSelectListCharacterTemplate_PaidService : Button, CharacterSelectListPaidServiceMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L289)
---- @class CharacterSelectListCharacterTemplate_InnerContent_MailIndicationButton : Button, CharacterSelectListMailIndicationButtonMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L317)
---- @class CharacterSelectListCharacterTemplate_InnerContent_UpButton : Button, CharacterSelectListMoveButtonTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L304)
+--- @class CharacterSelectListCharacterTemplate_InnerContent_NotificationButton : Button, CharacterSelectListNotificationButtonMixin
+--- @field IconFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L331)
+--- @class CharacterSelectListCharacterTemplate_InnerContent_UpButton : Button, CharacterSelectListMoveButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L345)
 --- @class CharacterSelectListCharacterTemplate_InnerContent_DownButton : Button, CharacterSelectListMoveButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L186)
 --- @class CharacterSelectListCharacterTemplate_InnerContent : Frame, CharacterSelectListCharacterInnerContentMixin
 --- @field Text Frame
---- @field MailIndicationButton CharacterSelectListCharacterTemplate_InnerContent_MailIndicationButton
+--- @field NotificationButton CharacterSelectListCharacterTemplate_InnerContent_NotificationButton
 --- @field UpButton CharacterSelectListCharacterTemplate_InnerContent_UpButton
 --- @field DownButton CharacterSelectListCharacterTemplate_InnerContent_DownButton
 
@@ -42,11 +40,11 @@
 --- Template
 --- @class CharacterSelectListCharacterTemplate : Button, CharacterSelectListCharacterMixin
 --- @field Arrow CharacterSelectListCharacterTemplate_Arrow
---- @field UpgradeIcon CharacterSelectListCharacterTemplate_UpgradeIcon
 --- @field PaidService CharacterSelectListCharacterTemplate_PaidService
+--- @field RestoreCharacterServiceFrame Frame
 --- @field InnerContent CharacterSelectListCharacterTemplate_InnerContent
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L404)
 --- Template
 --- @class CharacterSelectListEmptyCharacterTemplate : Button, CharacterSelectListEmptyCharacterMixin
 --- @field InnerContent Frame

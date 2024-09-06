@@ -12,10 +12,6 @@ PVPSpecialEventLabelMixin = CreateFromMixins(NewFeatureLabelMixin)
 --- @class PVPStandardRewardMixin : CallbackRegistryMixin
 PVPStandardRewardMixin = CreateFromMixins(CallbackRegistryMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2126)
---- @class PVPWeeklyChestMixin : WeeklyRewardMixin
-PVPWeeklyChestMixin = CreateFromMixins(WeeklyRewardMixin)
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L23)
 --- @class PVPCasualActivityButtonMixin
 PVPCasualActivityButtonMixin = {}
@@ -40,23 +36,23 @@ PVPConquestBarMixin = { }
 --- @class NewPvpSeasonMixin
 NewPvpSeasonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2131)
 --- @class PVPWeeklyCasualPanelMixin
 PVPWeeklyCasualPanelMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2224)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2137)
 --- @class PVPWeeklyRatedPanelMixin
 PVPWeeklyRatedPanelMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2202)
 --- @class PVPQuestRewardMixin
 PVPQuestRewardMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2424)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2320)
 --- @class PVPTalentPrestigeLevelDialogCloseButtonMixin
 PVPTalentPrestigeLevelDialogCloseButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2430)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2326)
 --- @class PVPRewardRoleShortageBonusMixin
 PVPRewardRoleShortageBonusMixin = {}
 
@@ -195,65 +191,53 @@ function PVPConquestBarMixin:SetDisabled(disabled) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2073)
 function NewPvpSeasonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2127)
-function PVPWeeklyChestMixin:GetState() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2139)
-function PVPWeeklyChestMixin:OnShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2155)
-function PVPWeeklyChestMixin:OnEnter() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2190)
-function PVPWeeklyChestMixin:OnMouseUp(...) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2204)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2132)
 function PVPWeeklyCasualPanelMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2139)
 function PVPWeeklyRatedPanelMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2144)
 function PVPWeeklyRatedPanelMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2235)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2148)
 function PVPWeeklyRatedPanelMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2154)
 function PVPWeeklyRatedPanelMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2308)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2204)
 function PVPQuestRewardMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2208)
 function PVPQuestRewardMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2212)
 function PVPQuestRewardMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2218)
 function PVPQuestRewardMixin:Init(questID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2404)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2300)
 function PVPQuestRewardMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2415)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2311)
 function PVPQuestRewardMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2426)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2322)
 function PVPTalentPrestigeLevelDialogCloseButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2432)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2328)
 function PVPRewardRoleShortageBonusMixin:Init(rewardInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2443)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2339)
 function PVPRewardRoleShortageBonusMixin:HasRewardInfo() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2447)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2343)
 function PVPRewardRoleShortageBonusMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2349)
 function PVPRewardRoleShortageBonusMixin:RefreshTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.lua#L2359)
 function PVPRewardRoleShortageBonusMixin:OnLeave() end

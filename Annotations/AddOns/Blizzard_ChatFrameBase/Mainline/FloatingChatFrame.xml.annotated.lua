@@ -63,86 +63,82 @@ ChatFrame1Tab = {}
 ChatFrame1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L643)
---- @class ChatFrameMenuButton : Button, ChatFrameMenuButtonMixin
+--- @class ChatFrameMenuButton : DropdownButton, ChatFrameMenuButtonMixin
 ChatFrameMenuButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L658)
---- @class ChatMenu : Frame, UIMenuTemplate
-ChatMenu = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L667)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L659)
 --- @class ChatFrame2Tab : Button, ChatTabTemplate
 ChatFrame2Tab = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L668)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L660)
 --- @class ChatFrame2 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L677)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L669)
 --- @class ChatFrame3Tab : Button, ChatTabTemplate
 ChatFrame3Tab = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L678)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L670)
 --- @class ChatFrame3 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L679)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L671)
 --- @class ChatFrame4Tab : Button, ChatTabTemplate
 ChatFrame4Tab = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L680)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L672)
 --- @class ChatFrame4 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L681)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L673)
 --- @class ChatFrame5Tab : Button, ChatTabTemplate
 ChatFrame5Tab = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L682)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L674)
 --- @class ChatFrame5 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L683)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L675)
 --- @class ChatFrame6Tab : Button, ChatTabTemplate
 ChatFrame6Tab = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L684)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L676)
 --- @class ChatFrame6 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L685)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L677)
 --- @class ChatFrame7Tab : Button, ChatTabTemplate
 ChatFrame7Tab = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L686)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L678)
 --- @class ChatFrame7 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L687)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L679)
 --- @class ChatFrame8Tab : Button, ChatTabTemplate
 ChatFrame8Tab = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L688)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L680)
 --- @class ChatFrame8 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L689)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L681)
 --- @class ChatFrame9Tab : Button, ChatTabTemplate
 ChatFrame9Tab = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L690)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L682)
 --- @class ChatFrame9 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L691)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L683)
 --- @class ChatFrame10Tab : Button, ChatTabTemplate
 ChatFrame10Tab = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L692)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L684)
 --- @class ChatFrame10 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L695)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L687)
 --- @class FloatingChatFrameManager : Frame
 FloatingChatFrameManager = {}
 

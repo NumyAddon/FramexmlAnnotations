@@ -10,8 +10,8 @@ function UIWidgetTemplateDoubleStateIconRowMixin:Setup(widgetInfo, widgetContain
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDoubleStateIconRow.lua#L33)
 function UIWidgetTemplateDoubleStateIconRowMixin:SetupIcons(widgetContainer, icons, textureKit, leftAlign, tooltipLoc) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDoubleStateIconRow.lua#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDoubleStateIconRow.lua#L74)
 function UIWidgetTemplateDoubleStateIconRowMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDoubleStateIconRow.lua#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDoubleStateIconRow.lua#L78)
 function UIWidgetTemplateDoubleStateIconRowMixin:OnReset() end

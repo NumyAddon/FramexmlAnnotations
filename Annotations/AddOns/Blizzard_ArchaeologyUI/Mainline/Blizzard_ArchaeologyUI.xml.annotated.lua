@@ -16,7 +16,7 @@
 --- @class ArchaeologyFrame_ArchaeologyFrameRaceFilter : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L907)
---- @class ArchaeologyFrame_ArchaeologyFrameInfoButton : Button, UIPanelInfoButton
+--- @class ArchaeologyFrame_ArchaeologyFrameInfoButton : Button, MainHelpPlateButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L236)
 --- @class ArchaeologyFrame : Frame, ButtonFrameTemplate

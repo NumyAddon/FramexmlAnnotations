@@ -12,11 +12,11 @@ GameModeSettingsFrameMixin = { }
 --- @class PlunderstormReadyButtonMixin
 PlunderstormReadyButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L248)
 --- @class MatchmakingQueueFrameMixin
 MatchmakingQueueFrameMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L313)
 --- @class LeaveQueueButtonMixin
 LeaveQueueButtonMixin = {}
 
@@ -71,32 +71,32 @@ function PlunderstormReadyButtonMixin:OnEvent(event) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L189)
 function PlunderstormReadyButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L202)
 function PlunderstormReadyButtonMixin:HasValidQueue() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L224)
 function PlunderstormReadyButtonMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L249)
 function MatchmakingQueueFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L254)
 function MatchmakingQueueFrameMixin:ResetTimer() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L263)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L262)
 function MatchmakingQueueFrameMixin:OnTick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L283)
 function MatchmakingQueueFrameMixin:UpdateTimerText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L288)
 function MatchmakingQueueFrameMixin:StartTimer() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L292)
 function MatchmakingQueueFrameMixin:SetWaiting(waiting) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L297)
 function MatchmakingQueueFrameMixin:SetSquadSize(squadSize) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L315)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.lua#L314)
 function LeaveQueueButtonMixin:OnClick() end

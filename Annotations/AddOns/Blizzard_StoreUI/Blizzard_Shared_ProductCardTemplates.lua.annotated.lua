@@ -133,8 +133,8 @@ function StoreCardMixin:GetDefaultIconName() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L407)
 function StoreCardMixin:ShowIcon(displayData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L477)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L483)
 function StoreCardMixin:HideIcon() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L490)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L496)
 function StoreCardMixin:UpdateCard(entryID, forceModelUpdate) end

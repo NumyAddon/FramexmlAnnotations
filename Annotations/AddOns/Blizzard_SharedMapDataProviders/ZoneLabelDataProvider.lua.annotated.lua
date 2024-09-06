@@ -31,11 +31,11 @@ function ZoneLabelDataProviderMixin:OnFadeInFinished() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ZoneLabelDataProvider.lua#L111)
 function ZoneLabelDataProviderMixin:CalculateAnchorsForAreaTrigger(areaTrigger) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ZoneLabelDataProvider.lua#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ZoneLabelDataProvider.lua#L190)
 function ZoneLabelDataProviderMixin:OnAreaEnclosedChanged(areaTrigger, areaEnclosed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ZoneLabelDataProvider.lua#L196)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ZoneLabelDataProvider.lua#L206)
 function ZoneLabelDataProviderMixin:AddZone(zoneMapID, zoneName, left, right, top, bottom) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ZoneLabelDataProvider.lua#L222)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ZoneLabelDataProvider.lua#L232)
 function ZoneLabelDataProviderMixin:AddTopLevelAreaTrigger(isContinent) end

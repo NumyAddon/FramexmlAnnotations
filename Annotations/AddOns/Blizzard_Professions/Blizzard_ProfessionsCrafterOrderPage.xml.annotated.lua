@@ -8,7 +8,7 @@
 --- Template
 --- @class ProfessionsCrafterOrderListElementTemplate : Button, ProfessionsCrafterOrderListElementMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L221)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L226)
 --- @class ProfessionsCraftingOrderPageTemplate_OrderView : Frame, ProfessionsCrafterOrderViewTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L46)

@@ -85,5 +85,6 @@ QuestFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L285)
 --- @class QuestModelScene : ModelScene, PanningModelSceneMixinTemplate
+--- @field ModelTextFrame Frame
 QuestModelScene = {}
 

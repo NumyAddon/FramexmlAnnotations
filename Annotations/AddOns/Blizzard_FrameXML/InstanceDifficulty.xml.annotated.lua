@@ -3,10 +3,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L7)
 --- @class InstanceDifficultyTemplate_Default : Frame, VerticalLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L99)
 --- @class InstanceDifficultyTemplate_Guild_Instance : Frame, HorizontalLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L65)
 --- @class InstanceDifficultyTemplate_Guild : Frame, VerticalLayoutFrame, GuildInstanceDifficultyMixin
 --- @field Instance InstanceDifficultyTemplate_Guild_Instance
 

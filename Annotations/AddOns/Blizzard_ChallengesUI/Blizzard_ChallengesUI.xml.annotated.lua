@@ -56,10 +56,10 @@ ChallengeModeCompleteBanner = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L769)
 --- @class ChallengesFrame_WeeklyInfo : ScrollFrame, ChallengesFrameWeeklyInfoMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L962)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L963)
 --- @class ChallengesFrame_ : Frame, ChallengesDungeonIconFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L963)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L964)
 --- @class ChallengesFrame_SeasonChangeNoticeFrame : Frame, MythicPlusSeasonChangesNoticeTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L761)

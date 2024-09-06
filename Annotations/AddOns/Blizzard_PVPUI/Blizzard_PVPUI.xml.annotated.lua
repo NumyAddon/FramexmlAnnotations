@@ -122,23 +122,31 @@
 --- @field Reward PVPRatedActivityButtonTemplate_Reward
 --- @field Tier PVPRatedActivityButtonTemplate_Tier
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L815)
+--- @class HonorLevelDisplayTemplate_DropDown : Frame, UIDropDownMenuTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L816)
+--- @class HonorLevelDisplayTemplate_NextRewardLevel : Button, PVPHonorRewardTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L773)
 --- Template
---- @class PVPWeeklyChestTemplate : Frame, PVPWeeklyChestMixin
+--- @class HonorLevelDisplayTemplate : Cooldown, PVPUIHonorLevelDisplayMixin
+--- @field DropDown HonorLevelDisplayTemplate_DropDown
+--- @field NextRewardLevel HonorLevelDisplayTemplate_NextRewardLevel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L831)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L834)
 --- Template
 --- @class PVPRoleButtonTemplate : Frame, LFGRoleButtonWithShortageRewardTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L837)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L840)
 --- @class PVPUIFrame : Frame
 PVPUIFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1708)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1641)
 --- @class ConquestTooltip : Frame, TooltipBackdropTemplate, ResizeLayoutFrame
 ConquestTooltip = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1789)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1722)
 --- @class PvPObjectiveBannerFrame : Frame
 PvPObjectiveBannerFrame = {}
 

@@ -8,7 +8,7 @@ DeathMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 --- @class CorpsePinMixin : MapCanvasPinMixin
 CorpsePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L56)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L55)
 --- @class DeathReleasePinMixin : CorpsePinMixin
 DeathReleasePinMixin = CreateFromMixins(CorpsePinMixin)
 
@@ -21,14 +21,14 @@ function DeathMapDataProviderMixin:RefreshAllData(fromOnShow) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L31)
 function CorpsePinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L35)
 function CorpsePinMixin:OnAcquired() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L39)
 function CorpsePinMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L51)
 function CorpsePinMixin:OnMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L57)
 function DeathReleasePinMixin:OnMouseEnter() end

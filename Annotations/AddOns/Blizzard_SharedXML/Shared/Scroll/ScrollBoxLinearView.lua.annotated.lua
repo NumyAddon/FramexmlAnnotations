@@ -86,7 +86,10 @@ function ScrollBoxLinearViewMixin:GetPanExtent() end
 function ScrollBoxLinearViewMixin:RequiresFullUpdateOnScrollTargetSizeChange() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L180)
+function ScrollBoxLinearViewMixin:GetDataScrollOffset(scrollBox) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L184)
 function ScrollBoxLinearViewMixin:RecalculateExtent(scrollBox) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L192)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L196)
 function ScrollBoxLinearViewMixin:GetExtent(scrollBox) end

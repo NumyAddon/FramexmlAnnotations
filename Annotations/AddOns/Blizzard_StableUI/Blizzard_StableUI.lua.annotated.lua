@@ -1,329 +1,329 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L695)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L696)
 --- @class StableBeastMasterSecondaryPetButtonMixin : StableActivePetButtonTemplateMixin
 StableBeastMasterSecondaryPetButtonMixin = CreateFromMixins(StableActivePetButtonTemplateMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1023)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1024)
 --- @class StablePetModelSceneMixin : PanningModelSceneMixin
 StablePetModelSceneMixin = CreateFromMixins(PanningModelSceneMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L192)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L193)
 --- @class StableFrameMixin
 StableFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L351)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L352)
 --- @class StableTogglePetButtonMixin
 StableTogglePetButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L392)
 --- @class StableReleasePetButtonMixin
 StableReleasePetButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L401)
 --- @class StablePetFavoriteButtonMixin
 StablePetFavoriteButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L427)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L428)
 --- @class StableActivePetListMixin
 StableActivePetListMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L459)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L460)
 --- @class StablePetNameBoxMixin
 StablePetNameBoxMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L467)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L468)
 --- @class StablePetNameEditButtonMixin
 StablePetNameEditButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L480)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L481)
 --- @class StableStabledPetButtonTemplateMixin
 StableStabledPetButtonTemplateMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L553)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L554)
 --- @class StableSearchBoxMixin
 StableSearchBoxMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L574)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L575)
 --- @class StableActivePetButtonTemplateMixin
 StableActivePetButtonTemplateMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L724)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L725)
 --- @class StablePetInfoMixin
 StablePetInfoMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L739)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L740)
 --- @class StablePetTypeStringMixin
 StablePetTypeStringMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L759)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L760)
 --- @class StabledPetListCategoryMixin
 StabledPetListCategoryMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L775)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L776)
 --- @class StableStabledPetListMixin
 StableStabledPetListMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1017)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1018)
 --- @class StableTutorialButtonMixin
 StableTutorialButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1070)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1071)
 --- @class StablePetAbilityMixin
 StablePetAbilityMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1114)
 --- @class StablePetAbilitiesListMixin
 StablePetAbilitiesListMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L195)
 function StableFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L218)
 function StableFrameMixin:InitFilterDropdown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L258)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L259)
 function StableFrameMixin:OnPetSelected(pet) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L266)
 function StableFrameMixin:OnPetSwapRequested(originSlot, destinationSlot, reverseSelectedDisplay) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L282)
 function StableFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L287)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L288)
 function StableFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L297)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L298)
 function StableFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L311)
 function StableFrameMixin:RefreshSelectedPetData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L320)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L321)
 function StableFrameMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L337)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L338)
 function StableFrameMixin:SetupPetCounter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L354)
 function StableTogglePetButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L360)
 function StableTogglePetButtonMixin:OnEvent(event) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L368)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L369)
 function StableTogglePetButtonMixin:OnPetSelected(pet) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L379)
 function StableTogglePetButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L393)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L394)
 function StableReleasePetButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L402)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L403)
 function StablePetFavoriteButtonMixin:IsFavorited() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L407)
 function StablePetFavoriteButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L412)
 function StablePetFavoriteButtonMixin:SetFavorited(favorited) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L419)
 function StablePetFavoriteButtonMixin:ToggleFavorited() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L422)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L423)
 function StablePetFavoriteButtonMixin:RefreshVisuals() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L430)
 function StableActivePetListMixin:GetPet(activePetSlot) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L433)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L434)
 function StableActivePetListMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L461)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L462)
 function StablePetNameBoxMixin:SetPet(petData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L469)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L470)
 function StablePetNameEditButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L482)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L483)
 function StableStabledPetButtonTemplateMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L488)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L489)
 function StableStabledPetButtonTemplateMixin:OnPetSelected(pet) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L500)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L501)
 function StableStabledPetButtonTemplateMixin:OnFavoritesUpdated() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L505)
 function StableStabledPetButtonTemplateMixin:RefreshFavoriteIcon() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L508)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L509)
 function StableStabledPetButtonTemplateMixin:OnDragStart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L512)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L513)
 function StableStabledPetButtonTemplateMixin:OnReceiveDrag() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L519)
 function StableStabledPetButtonTemplateMixin:StablePet(originSlot, destSlot) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L524)
 function StableStabledPetButtonTemplateMixin:SetPet(petData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L535)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L536)
 function StableStabledPetButtonTemplateMixin:OnClick(mouseButton) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L555)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L556)
 function StableSearchBoxMixin:GetSearchString() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L559)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L560)
 function StableSearchBoxMixin:StartSearch() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L564)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L565)
 function StableSearchBoxMixin:OnEnterPressed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L570)
 function StableSearchBoxMixin:OnTextChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L576)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L577)
 function StableActivePetButtonTemplateMixin:SetLocked(locked) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L582)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L583)
 function StableActivePetButtonTemplateMixin:SetDesaturated(desaturate) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L587)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L588)
 function StableActivePetButtonTemplateMixin:SetPet(petData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L601)
 function StableActivePetButtonTemplateMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L604)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L605)
 function StableActivePetButtonTemplateMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L609)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L610)
 function StableActivePetButtonTemplateMixin:OnPetSelected(pet) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L614)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L615)
 function StableActivePetButtonTemplateMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L619)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L620)
 function StableActivePetButtonTemplateMixin:OnClick(mouseButton) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L641)
 function StableActivePetButtonTemplateMixin:RefreshTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L660)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L661)
 function StableActivePetButtonTemplateMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L668)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L669)
 function StableActivePetButtonTemplateMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L675)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L676)
 function StableActivePetButtonTemplateMixin:OnDragStart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L681)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L682)
 function StableActivePetButtonTemplateMixin:OnReceiveDrag() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L685)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L686)
 function StableActivePetButtonTemplateMixin:TryAcceptPetSwap() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L697)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L698)
 function StableBeastMasterSecondaryPetButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L703)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L704)
 function StableBeastMasterSecondaryPetButtonMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L707)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L708)
 function StableBeastMasterSecondaryPetButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L713)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L714)
 function StableBeastMasterSecondaryPetButtonMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L726)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L727)
 function StablePetInfoMixin:SetPet(petData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L741)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L742)
 function StablePetTypeStringMixin:GetPetInfoFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L745)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L746)
 function StablePetTypeStringMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L755)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L756)
 function StablePetTypeStringMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L761)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L762)
 function StabledPetListCategoryMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L765)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L766)
 function StabledPetListCategoryMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L769)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L770)
 function StabledPetListCategoryMixin:SetCollapseState(collapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L777)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L778)
 function StableStabledPetListMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L830)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L831)
 function StableStabledPetListMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L836)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L837)
 function StableStabledPetListMixin:SetSortMode(sortMode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L843)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L844)
 function StableStabledPetListMixin:ToggleShowExoticOnly() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L848)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L849)
 function StableStabledPetListMixin:SetSearchString(string) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L852)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L853)
 function StableStabledPetListMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L873)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L874)
 function StableStabledPetListMixin:BuildListCategories() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L911)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L912)
 function StableStabledPetListMixin:UpdateDisplayedPets() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L972)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L973)
 function StableStabledPetListMixin:PetPassesSearch(pet) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1008)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1009)
 function StableFrameMixin:ToggleHelpPlates() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1019)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1020)
 function StableTutorialButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1025)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1026)
 function StablePetModelSceneMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1030)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1031)
 function StablePetModelSceneMixin:OnMouseDown(mouseButton) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1037)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1038)
 function StablePetModelSceneMixin:SetPet(pet) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1047)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1048)
 function StablePetModelSceneMixin:UpdatePetModel(pet) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1063)
 function StablePetModelSceneMixin:OnModelLoaded(actor) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1066)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1067)
 function StablePetModelSceneMixin:UpdateBackgroundForPet(pet) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1072)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1073)
 function StablePetAbilityMixin:Initialize(spellID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1090)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1091)
 function StablePetAbilityMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1106)
 function StablePetAbilityMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1116)
 function StablePetAbilitiesListMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1130)
 function StablePetAbilitiesListMixin:OnPetSelected(pet) end

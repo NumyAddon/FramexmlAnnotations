@@ -22,11 +22,11 @@ function FlightMapMixin:OnCanvasScaleChanged() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L51)
 function FlightMapMixin:AddStandardDataProviders() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L86)
 function FlightMapMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L104)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L106)
 function FlightMapMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L113)
 function FlightMapMixin:OnEvent(event, ...) end

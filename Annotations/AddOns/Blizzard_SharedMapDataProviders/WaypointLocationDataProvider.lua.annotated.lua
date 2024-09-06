@@ -4,7 +4,7 @@
 --- @class WaypointLocationDataProviderMixin : MapCanvasDataProviderMixin
 WaypointLocationDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L111)
 --- @class WaypointLocationPinMixin : MapCanvasPinMixin
 WaypointLocationPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
@@ -44,23 +44,23 @@ function WaypointLocationDataProviderMixin:OnWayPointLocationToggleUpdate(isActi
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L106)
 function WaypointLocationDataProviderMixin:CanPlacePin() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L113)
 function WaypointLocationPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L116)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L117)
 function WaypointLocationPinMixin:OnAcquired() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L126)
 function WaypointLocationPinMixin:OnMouseDownAction() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L130)
 function WaypointLocationPinMixin:OnMouseUpAction() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L134)
 function WaypointLocationPinMixin:OnMouseClickAction(mouseButton) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L149)
 function WaypointLocationPinMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L157)
 function WaypointLocationPinMixin:OnMouseLeave() end

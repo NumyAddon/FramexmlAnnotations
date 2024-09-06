@@ -16,14 +16,14 @@ function ContentTrackingPinMixin:Init(dataProvider, trackableMapInfo, isWaypoint
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ContentTrackingDataProvider.lua#L130)
 function ContentTrackingPinMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ContentTrackingDataProvider.lua#L149)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ContentTrackingDataProvider.lua#L154)
 function ContentTrackingPinMixin:OnMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ContentTrackingDataProvider.lua#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ContentTrackingDataProvider.lua#L160)
 function ContentTrackingPinMixin:OnMouseClickAction(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ContentTrackingDataProvider.lua#L159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ContentTrackingDataProvider.lua#L164)
 function ContentTrackingPinMixin:OnMouseDownAction() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ContentTrackingDataProvider.lua#L164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ContentTrackingDataProvider.lua#L169)
 function ContentTrackingPinMixin:OnMouseUpAction() end

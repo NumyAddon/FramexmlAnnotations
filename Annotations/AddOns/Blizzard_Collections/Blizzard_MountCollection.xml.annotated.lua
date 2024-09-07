@@ -226,29 +226,69 @@ MountJournalSearchBox["searchIcon"] = MountJournalSearchBoxSearchIcon -- inherit
 --- @field Count MountJournal_MountCount_Count
 --- @field Label MountJournal_MountCount_Label
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L277)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L282)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L290)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L298)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L306)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L312)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L318)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L324)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L559)
 --- child of 
 --- @class MountJournal_MountDisplay_ShadowOverlay : Frame, ShadowOverlayTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L570)
 --- child of 
---- @class MountJournal_MountDisplay_InfoButton_Icon : Texture
-Icon = {}
+--- @class MountJournal_MountDisplay_InfoButton_MountJournalIcon : Texture
+MountJournalIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L578)
 --- child of 
---- @class MountJournal_MountDisplay_InfoButton_Name : FontString, GameFontHighlightLarge
-Name = {}
+--- @class MountJournal_MountDisplay_InfoButton_MountJournalName : FontString, GameFontHighlightLarge
+MountJournalName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L584)
 --- child of 
---- @class MountJournal_MountDisplay_InfoButton_Source : FontString, GameFontHighlight
-Source = {}
+--- @class MountJournal_MountDisplay_InfoButton_MountJournalSource : FontString, GameFontHighlight
+MountJournalSource = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L590)
 --- child of 
---- @class MountJournal_MountDisplay_InfoButton_Lore : FontString, GameFontNormal
-Lore = {}
+--- @class MountJournal_MountDisplay_InfoButton_MountJournalLore : FontString, GameFontNormal
+MountJournalLore = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L598)
 --- child of 
@@ -258,10 +298,10 @@ Lore = {}
 --- child of 
 --- @class MountJournal_MountDisplay_InfoButton : Button, InlineHyperlinkFrameTemplate
 --- @field hasIconHyperlinks boolean # true
---- @field Icon MountJournal_MountDisplay_InfoButton_Icon
---- @field Name MountJournal_MountDisplay_InfoButton_Name
---- @field Source MountJournal_MountDisplay_InfoButton_Source
---- @field Lore MountJournal_MountDisplay_InfoButton_Lore
+--- @field Icon MountJournal_MountDisplay_InfoButton_MountJournalIcon
+--- @field Name MountJournal_MountDisplay_InfoButton_MountJournalName
+--- @field Source MountJournal_MountDisplay_InfoButton_MountJournalSource
+--- @field Lore MountJournal_MountDisplay_InfoButton_MountJournalLore
 --- @field New MountJournal_MountDisplay_InfoButton_New
 --- @field NewGlow Texture
 
@@ -272,6 +312,11 @@ Lore = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L635)
 --- child of 
 --- @class MountJournal_MountDisplay_ModelScene_TogglePlayer_TogglePlayerText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+MountJournalText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L627)
 --- child of 
@@ -310,6 +355,7 @@ Lore = {}
 --- child of MountJournal
 --- @class MountJournal_MountJournalMountButton : Button, MagicButtonTemplate
 MountJournalMountButton = {}
+MountJournalMountButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L217)
 --- @class MountJournal : Frame

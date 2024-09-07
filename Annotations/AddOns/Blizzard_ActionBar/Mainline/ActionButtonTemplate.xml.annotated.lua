@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L3)
 --- Template
---- @class ActionBarFlyoutButton-IconFrame : Texture
+--- @class ActionBarFlyoutButton_IconFrame : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L21)
 --- child of ActionBarButtonSpellActivationAlert
@@ -151,17 +151,17 @@ ActionBarButtonUsableWatcherFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L359)
 --- child of 
---- @class ActionButtonTemplate_TextOverlayContainer_HotKey : FontString, NumberFontNormalSmallGray
+--- @class ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateHotKey : FontString, NumberFontNormalSmallGray
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L365)
 --- child of 
---- @class ActionButtonTemplate_TextOverlayContainer_Count : FontString, NumberFontNormal
+--- @class ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateCount : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L356)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_TextOverlayContainer : Frame, ActionButtonTextOverlayContainerMixin
---- @field HotKey ActionButtonTemplate_TextOverlayContainer_HotKey
---- @field Count ActionButtonTemplate_TextOverlayContainer_Count
+--- @field HotKey ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateHotKey
+--- @field Count ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateCount
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L376)
 --- child of ActionButtonTemplate

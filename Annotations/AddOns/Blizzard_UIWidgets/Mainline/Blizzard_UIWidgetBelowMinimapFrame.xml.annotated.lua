@@ -5,5 +5,7 @@
 --- @field verticalAnchorPoint string # "TOPRIGHT"
 UIWidgetBelowMinimapContainerFrame = {}
 UIWidgetBelowMinimapContainerFrame["verticalAnchorPoint"] = "TOPRIGHT"
+UIWidgetBelowMinimapContainerFrame["showAndHideOnWidgetSetRegistration"] = true -- inherited
+UIWidgetBelowMinimapContainerFrame["isManagedFrame"] = true -- inherited
 UIWidgetBelowMinimapContainerFrame["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
 

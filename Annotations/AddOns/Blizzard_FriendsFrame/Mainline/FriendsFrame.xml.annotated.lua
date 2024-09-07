@@ -189,6 +189,11 @@
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastButton : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L3272)
+--- child of  (created in template UIPanelInfoButton)
+--- @type Texture
+FriendsFrameBattlenetFrameTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L566)
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton : Button, UIPanelInfoButton
@@ -307,36 +312,39 @@ FriendsTabHeader["maxTabWidth"] = 110
 --- child of FriendsListFrame
 --- @class FriendsFrame_FriendsListFrame_FriendsFrameAddFriendButton : Button, FriendsFrameButtonTemplate_BottomLeft
 FriendsFrameAddFriendButton = {}
+FriendsFrameAddFriendButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L768)
 --- child of FriendsListFrame
 --- @class FriendsFrame_FriendsListFrame_FriendsFrameSendMessageButton : Button, FriendsFrameButtonTemplate_BottomRight
 FriendsFrameSendMessageButton = {}
+FriendsFrameSendMessageButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L819)
 --- child of 
---- @class FriendsFrame_FriendsListFrame_RIDWarning_ContinueButton : Button, UIPanelButtonTemplate
-ContinueButton = {}
+--- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFrameContinueButton : Button, UIPanelButtonTemplate
+FriendsListFrameContinueButton = {}
+FriendsListFrameContinueButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L785)
 --- child of 
---- @class FriendsFrame_FriendsListFrame_RIDWarning_Left : Texture
-Left = {}
+--- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFrameLeft : Texture
+FriendsListFrameLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L792)
 --- child of 
---- @class FriendsFrame_FriendsListFrame_RIDWarning_BattlenetIcon : Texture
-BattlenetIcon = {}
+--- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFrameBattlenetIcon : Texture
+FriendsListFrameBattlenetIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L799)
 --- child of 
---- @class FriendsFrame_FriendsListFrame_RIDWarning_PlayerIcon : Texture
-PlayerIcon = {}
+--- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFramePlayerIcon : Texture
+FriendsListFramePlayerIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L804)
 --- child of 
---- @class FriendsFrame_FriendsListFrame_RIDWarning_Title : FontString, GameFontNormal
-Title = {}
+--- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFrameTitle : FontString, GameFontNormal
+FriendsListFrameTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L810)
 --- child of 
@@ -366,11 +374,13 @@ FriendsListFrame = {}
 --- child of IgnoreListFrame
 --- @class FriendsFrame_IgnoreListFrame_FriendsFrameIgnorePlayerButton : Button, FriendsFrameButtonTemplate_BottomLeft
 FriendsFrameIgnorePlayerButton = {}
+FriendsFrameIgnorePlayerButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L861)
 --- child of IgnoreListFrame
 --- @class FriendsFrame_IgnoreListFrame_FriendsFrameUnsquelchButton : Button, FriendsFrameButtonTemplate_BottomRight
 FriendsFrameUnsquelchButton = {}
+FriendsFrameUnsquelchButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L866)
 --- child of IgnoreListFrame
@@ -524,16 +534,19 @@ WhoFrameColumnHeader4["HighlightTexture"] = WhoFrameColumnHeader4HighlightTextur
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameGroupInviteButton : Button, FriendsFrameButtonTemplate_BottomRight
 WhoFrameGroupInviteButton = {}
+WhoFrameGroupInviteButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L972)
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameAddFriendButton : Button, UIPanelButtonTemplate
 WhoFrameAddFriendButton = {}
+WhoFrameAddFriendButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L983)
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameWhoButton : Button, UIPanelButtonTemplate
 WhoFrameWhoButton = {}
+WhoFrameWhoButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L996)
 --- child of WhoFrame
@@ -687,6 +700,16 @@ FriendsFrameIcon = {}
 --- @class FriendsFrame_FriendsFrameTitleText : FontString, GameFontNormal
 FriendsFrameTitleText = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1148)
 --- child of FriendsFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -698,6 +721,9 @@ FriendsFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field FriendsTabHeader FriendsFrame_FriendsTabHeader
 FriendsFrame = {}
 FriendsFrame["FriendsTabHeader"] = FriendsTabHeader
+FriendsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+FriendsFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+FriendsFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 FriendsFrame["Inset"] = FriendsFrameInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1223)
@@ -708,6 +734,7 @@ FriendsFrame["Inset"] = FriendsFrameInset -- inherited
 --- child of AddFriendInfoFrame
 --- @class AddFriendFrame_AddFriendInfoFrame_AddFriendInfoFrameContinueButton : Button, UIPanelButtonTemplate
 AddFriendInfoFrameContinueButton = {}
+AddFriendInfoFrameContinueButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1236)
 --- child of AddFriendInfoFrame
@@ -787,11 +814,13 @@ AddFriendNameEditBox = {}
 --- child of AddFriendEntryFrame
 --- @class AddFriendFrame_AddFriendEntryFrame_AddFriendEntryFrameAcceptButton : Button, UIPanelButtonTemplate
 AddFriendEntryFrameAcceptButton = {}
+AddFriendEntryFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1441)
 --- child of AddFriendEntryFrame
 --- @class AddFriendFrame_AddFriendEntryFrame_AddFriendEntryFrameCancelButton : Button, UIPanelButtonTemplate
 AddFriendEntryFrameCancelButton = {}
+AddFriendEntryFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1299)
 --- child of AddFriendEntryFrame

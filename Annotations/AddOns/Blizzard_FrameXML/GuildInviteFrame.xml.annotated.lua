@@ -19,11 +19,13 @@
 --- child of GuildInviteFrame
 --- @class GuildInviteFrame_GuildInviteFrameJoinButton : Button, UIPanelButtonTemplate
 GuildInviteFrameJoinButton = {}
+GuildInviteFrameJoinButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L126)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrame_GuildInviteFrameDeclineButton : Button, UIPanelButtonTemplate
 GuildInviteFrameDeclineButton = {}
+GuildInviteFrameDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L11)
 --- child of GuildInviteFrame

@@ -6,31 +6,31 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L8)
 --- Template
---- @class UI-PaperOverlay-AbilityTextBG : Texture
+--- @class UI_PaperOverlay_AbilityTextBG : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L12)
 --- Template
---- @class UI-PaperOverlay-Bullet : Texture
+--- @class UI_PaperOverlay_Bullet : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L16)
 --- Template
---- @class UI-PaperOverlay-Check : Texture
+--- @class UI_PaperOverlay_Check : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L20)
 --- Template
---- @class UI-PaperOverlay-PaperHeader-SelectUp-Mid : Texture
+--- @class UI_PaperOverlay_PaperHeader_SelectUp_Mid : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L24)
 --- Template
---- @class UI-PaperOverlay-AbilityTextBottomBorder : Texture
+--- @class UI_PaperOverlay_AbilityTextBottomBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L28)
 --- Template
---- @class UI-PaperOverlay-PaperHeader-SelectUp-Left : Texture
+--- @class UI_PaperOverlay_PaperHeader_SelectUp_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L32)
 --- Template
---- @class UI-PaperOverlay-PaperHeader-SelectUp-Right : Texture
+--- @class UI_PaperOverlay_PaperHeader_SelectUp_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L38)
 --- Template
@@ -38,111 +38,111 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L44)
 --- Template
---- @class !UI-Frame-RightTile : Texture
+--- @class !UI_Frame_RightTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L47)
 --- Template
---- @class !UI-Frame-LeftTile : Texture
+--- @class !UI_Frame_LeftTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L50)
 --- Template
---- @class !UI-Frame-InnerRightTile : Texture
+--- @class !UI_Frame_InnerRightTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L53)
 --- Template
---- @class !UI-Frame-InnerLeftTile : Texture
+--- @class !UI_Frame_InnerLeftTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L58)
 --- Template
---- @class _UI-Frame-BtnBotTile : Texture
+--- @class _UI_Frame_BtnBotTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L61)
 --- Template
---- @class _UI-Frame-Bot : Texture
+--- @class _UI_Frame_Bot : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L64)
 --- Template
---- @class _UI-Frame-InnerTopTile : Texture
+--- @class _UI_Frame_InnerTopTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L67)
 --- Template
---- @class _UI-Frame-InnerBotTile : Texture
+--- @class _UI_Frame_InnerBotTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L70)
 --- Template
---- @class _UI-Frame-TitleTileBg : Texture
+--- @class _UI_Frame_TitleTileBg : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L73)
 --- Template
---- @class _UI-Frame-TitleTile : Texture
+--- @class _UI_Frame_TitleTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L76)
 --- Template
---- @class _UI-Frame-TopTileStreaks : Texture
+--- @class _UI_Frame_TopTileStreaks : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L85)
 --- Template
---- @class UI-Frame-Portrait : Texture
+--- @class UI_Frame_Portrait : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L88)
 --- Template
---- @class UI-Frame-TopCornerRight : Texture
+--- @class UI_Frame_TopCornerRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L91)
 --- Template
---- @class UI-Frame-BtnDivRight : Texture
+--- @class UI_Frame_BtnDivRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L94)
 --- Template
---- @class UI-Frame-InnerTopRight : Texture
+--- @class UI_Frame_InnerTopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L97)
 --- Template
---- @class UI-Frame-TopLeftCorner : Texture
+--- @class UI_Frame_TopLeftCorner : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L100)
 --- Template
---- @class UI-Frame-InnerTopLeft : Texture
+--- @class UI_Frame_InnerTopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L103)
 --- Template
---- @class UI-Frame-InnerBotLeftCorner : Texture
+--- @class UI_Frame_InnerBotLeftCorner : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L106)
 --- Template
---- @class UI-Frame-InnerBotRight : Texture
+--- @class UI_Frame_InnerBotRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L109)
 --- Template
---- @class UI-Frame-BotCornerLeft : Texture
+--- @class UI_Frame_BotCornerLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L112)
 --- Template
---- @class UI-Frame-TopCornerLeft : Texture
+--- @class UI_Frame_TopCornerLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L115)
 --- Template
---- @class UI-Frame-BtnDivMiddle : Texture
+--- @class UI_Frame_BtnDivMiddle : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L118)
 --- Template
---- @class UI-Frame-BotCornerRight : Texture
+--- @class UI_Frame_BotCornerRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L121)
 --- Template
---- @class UI-Frame-TopCornerRightSimple : Texture
+--- @class UI_Frame_TopCornerRightSimple : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L124)
 --- Template
---- @class UI-Frame-BtnDivLeft : Texture
+--- @class UI_Frame_BtnDivLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L127)
 --- Template
---- @class UI-Frame-InnerSplitLeft : Texture
+--- @class UI_Frame_InnerSplitLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L130)
 --- Template
---- @class UI-Frame-InnerSplitRight : Texture
+--- @class UI_Frame_InnerSplitRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L134)
 --- Template
@@ -154,95 +154,95 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L142)
 --- Template
---- @class HelpPlateArrow-GlowDOWN : Texture
+--- @class HelpPlateArrow_GlowDOWN : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L146)
 --- Template
---- @class HelpPlateArrow-GlowUP : Texture
+--- @class HelpPlateArrow_GlowUP : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L150)
 --- Template
---- @class HelpPlateArrow-Shadow : Texture
+--- @class HelpPlateArrow_Shadow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L154)
 --- Template
---- @class HelpPlateBox-Glow-BottomRight : Texture
+--- @class HelpPlateBox_Glow_BottomRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L158)
 --- Template
---- @class HelpPlateBox-Glow-TopLeft : Texture
+--- @class HelpPlateBox_Glow_TopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L162)
 --- Template
---- @class HelpPlateBox-Glow-TopRight : Texture
+--- @class HelpPlateBox_Glow_TopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L166)
 --- Template
---- @class HelpPlateBox-Glow-BottomLeft : Texture
+--- @class HelpPlateBox_Glow_BottomLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L170)
 --- Template
---- @class !HelpPlateBox-Glow-Right : Texture
+--- @class !HelpPlateBox_Glow_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L174)
 --- Template
---- @class !HelpPlateBox-Glow-Left : Texture
+--- @class !HelpPlateBox_Glow_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L178)
 --- Template
---- @class _HelpPlateBox-Glow-Bottom : Texture
+--- @class _HelpPlateBox_Glow_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L182)
 --- Template
---- @class _HelpPlateBox-Glow-Top : Texture
+--- @class _HelpPlateBox_Glow_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L186)
 --- Template
---- @class HelpPlateBox-Shadow-BottomRight : Texture
+--- @class HelpPlateBox_Shadow_BottomRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L190)
 --- Template
---- @class HelpPlateBox-Shadow-TopLeft : Texture
+--- @class HelpPlateBox_Shadow_TopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L194)
 --- Template
---- @class HelpPlateBox-Shadow-TopRight : Texture
+--- @class HelpPlateBox_Shadow_TopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L198)
 --- Template
---- @class HelpPlateBox-Shadow-BottomLeft : Texture
+--- @class HelpPlateBox_Shadow_BottomLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L202)
 --- Template
---- @class !HelpPlateBox-Shadow-Left : Texture
+--- @class !HelpPlateBox_Shadow_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L206)
 --- Template
---- @class !HelpPlateBox-Shadow-Right : Texture
+--- @class !HelpPlateBox_Shadow_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L210)
 --- Template
---- @class _HelpPlateBox-Shadow-Top : Texture
+--- @class _HelpPlateBox_Shadow_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L214)
 --- Template
---- @class _HelpPlateBox-Shadow-Bottom : Texture
+--- @class _HelpPlateBox_Shadow_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L218)
 --- Template
---- @class !HelpPlateBox-Right : Texture
+--- @class !HelpPlateBox_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L222)
 --- Template
---- @class !HelpPlateBox-Left : Texture
+--- @class !HelpPlateBox_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L226)
 --- Template
---- @class _HelpPlateBox-Top : Texture
+--- @class _HelpPlateBox_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L230)
 --- Template
---- @class _HelpPlateBox-Bottom : Texture
+--- @class _HelpPlateBox_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L235)
 --- Template
@@ -540,12 +540,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L954)
 --- child of 
---- @class DefaultPanelBaseTemplate_TitleContainer_TitleText : FontString, GameFontNormal
+--- @class DefaultPanelBaseTemplate_TitleContainer_DefaultPanelBaseTemplateTitleText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L946)
 --- child of DefaultPanelBaseTemplate
 --- @class DefaultPanelBaseTemplate_TitleContainer : Frame
---- @field TitleText DefaultPanelBaseTemplate_TitleContainer_TitleText
+--- @field TitleText DefaultPanelBaseTemplate_TitleContainer_DefaultPanelBaseTemplateTitleText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L964)
 --- child of DefaultPanelBaseTemplate
@@ -589,12 +589,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1046)
 --- child of 
---- @class PortraitFrameBaseTemplate_TitleContainer_TitleText : FontString, GameFontNormal
+--- @class PortraitFrameBaseTemplate_TitleContainer_PortraitFrameBaseTemplateTitleText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1038)
 --- child of PortraitFrameBaseTemplate
 --- @class PortraitFrameBaseTemplate_TitleContainer : Frame
---- @field TitleText PortraitFrameBaseTemplate_TitleContainer_TitleText
+--- @field TitleText PortraitFrameBaseTemplate_TitleContainer_PortraitFrameBaseTemplateTitleText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1006)
 --- Template
@@ -1327,11 +1327,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2957)
 --- Template
---- @class UI-Common-SearchIconFrameLg : Texture
+--- @class UI_Common_SearchIconFrameLg : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2962)
 --- Template
---- @class UI-Common-SearchBarHighlightLg : Texture
+--- @class UI_Common_SearchBarHighlightLg : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2979)
 --- child of SearchBoxListAllButtonTemplate

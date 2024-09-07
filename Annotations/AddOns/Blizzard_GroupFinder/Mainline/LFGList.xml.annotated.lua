@@ -346,6 +346,17 @@
 --- @field Label LFGListFrame_NothingAvailable_Label
 --- @field Label LFGListFrame_NothingAvailable_Label
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+LFGListFrameClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+LFGListFrameSearchIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1036)
 --- child of 
 --- @class LFGListFrame_SearchPanel_SearchBox : EditBox, SearchBoxTemplate

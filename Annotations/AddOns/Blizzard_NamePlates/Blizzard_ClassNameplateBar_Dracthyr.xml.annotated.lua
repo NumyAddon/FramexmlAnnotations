@@ -5,6 +5,9 @@
 --- @field shouldShowBarFunc any # ClassNameplateBarDracthyr.SetupDracthyr
 ClassNameplateBarDracthyrFrame = {}
 ClassNameplateBarDracthyrFrame["shouldShowBarFunc"] = ClassNameplateBarDracthyr.SetupDracthyr
+ClassNameplateBarDracthyrFrame["isManagedFrame"] = true -- inherited
+ClassNameplateBarDracthyrFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+ClassNameplateBarDracthyrFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarDracthyrFrame["powerToken"] = "ESSENCE" -- inherited
 ClassNameplateBarDracthyrFrame["scale"] = ".75" -- inherited
 

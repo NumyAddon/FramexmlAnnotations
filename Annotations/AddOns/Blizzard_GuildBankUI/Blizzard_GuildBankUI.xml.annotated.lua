@@ -220,6 +220,21 @@ GuildBankMoneyLimitLabel = {}
 --- @class GuildBankFrame_MoneyFrameBG_GuildBankMoneyUnlimitedLabel : FontString, GameFontHighlightSmall
 GuildBankMoneyUnlimitedLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1484)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+GuildBankFrameLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1492)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+GuildBankFrameRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1500)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+GuildBankFrameMiddle = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L512)
 --- child of GuildBankFrame
 --- @class GuildBankFrame_MoneyFrameBG : Frame, ThinGoldEdgeTemplate
@@ -427,6 +442,7 @@ GuildBankMessageFrame["tooltipFrame"] = GameTooltip -- inherited
 --- child of GuildBankInfo
 --- @class GuildBankFrame_GuildBankInfo_GuildBankInfoSaveButton : Button, UIPanelButtonTemplate
 GuildBankInfoSaveButton = {}
+GuildBankInfoSaveButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L732)
 --- child of GuildBankInfo
@@ -578,7 +594,21 @@ GuildBankPopupFrame = {}
 GuildBankPopupFrame["editBoxHeaderText"] = GUILDBANK_POPUP_TEXT
 GuildBankPopupFrame["editBoxHeaderText"] =  -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1504)
+--- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+BagSearchBoxTemplateClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1495)
+--- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- @type Texture
+BagSearchBoxTemplateSearchIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L810)
 --- @class GuildItemSearchBox : EditBox, BagSearchBoxTemplate
 GuildItemSearchBox = {}
+GuildItemSearchBox["instructionText"] = SEARCH -- inherited
+GuildItemSearchBox["clearButton"] = BagSearchBoxTemplateClearButton -- inherited
+GuildItemSearchBox["searchIcon"] = BagSearchBoxTemplateSearchIcon -- inherited
 

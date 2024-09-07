@@ -24,6 +24,16 @@
 --- child of ChannelFrame
 --- @class ChannelFrame_RightInset : Frame, InsetFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L1148)
 --- child of ChannelFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -40,5 +50,8 @@ ChannelFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field RightInset ChannelFrame_RightInset
 --- @field Icon Texture
 ChannelFrame = {}
+ChannelFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ChannelFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+ChannelFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 ChannelFrame["Inset"] = ChannelFrameInset -- inherited
 

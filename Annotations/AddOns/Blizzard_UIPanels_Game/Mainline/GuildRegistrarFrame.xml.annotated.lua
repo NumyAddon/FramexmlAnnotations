@@ -18,6 +18,7 @@ GuildRegistrarNpcNameFrame = {}
 --- child of GuildRegistrarGreetingFrame
 --- @class GuildRegistrarFrame_GuildRegistrarGreetingFrame_GuildRegistrarFrameGoodbyeButton : Button, UIPanelButtonTemplate
 GuildRegistrarFrameGoodbyeButton = {}
+GuildRegistrarFrameGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L136)
 --- child of GuildRegistrarButton1 (created in template QuestTitleButtonTemplate)
@@ -78,11 +79,13 @@ GuildRegistrarMoneyFrame["GoldButton"] = GuildRegistrarMoneyFrameGoldButton -- i
 --- child of GuildRegistrarPurchaseFrame
 --- @class GuildRegistrarFrame_GuildRegistrarPurchaseFrame_GuildRegistrarFrameCancelButton : Button, UIPanelButtonTemplate
 GuildRegistrarFrameCancelButton = {}
+GuildRegistrarFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L143)
 --- child of GuildRegistrarPurchaseFrame
 --- @class GuildRegistrarFrame_GuildRegistrarPurchaseFrame_GuildRegistrarFramePurchaseButton : Button, UIPanelButtonTemplate
 GuildRegistrarFramePurchaseButton = {}
+GuildRegistrarFramePurchaseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L174)
 --- child of GuildRegistrarPurchaseFrame
@@ -119,6 +122,16 @@ GuildRegistrarFrameBg = {}
 --- @class GuildRegistrarFrame_GuildRegistrarText : FontString, QuestFont
 GuildRegistrarText = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L1148)
 --- child of GuildRegistrarFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -131,5 +144,8 @@ GuildRegistrarFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field Bg GuildRegistrarFrame_GuildRegistrarFrameBg
 GuildRegistrarFrame = {}
 GuildRegistrarFrame["Bg"] = GuildRegistrarFrameBg
+GuildRegistrarFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+GuildRegistrarFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+GuildRegistrarFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 GuildRegistrarFrame["Inset"] = GuildRegistrarFrameInset -- inherited
 

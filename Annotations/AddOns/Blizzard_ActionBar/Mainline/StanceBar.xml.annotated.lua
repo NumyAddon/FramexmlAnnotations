@@ -9,4 +9,5 @@
 --- @field buttonTemplate string # "StanceButtonTemplate"
 StanceBar = {}
 StanceBar["buttonTemplate"] = "StanceButtonTemplate"
+StanceBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 

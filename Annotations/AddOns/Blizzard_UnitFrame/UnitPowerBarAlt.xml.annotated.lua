@@ -107,8 +107,19 @@
 --- @field layoutIndex number # 6
 EncounterBar = {}
 EncounterBar["layoutIndex"] = 6
+EncounterBar["isManagedFrame"] = true -- inherited
 EncounterBar["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 EncounterBar["system"] = Enum.EditModeSystem.EncounterBar -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L10)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFill = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L16)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L96)
 --- child of PlayerPowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -173,6 +184,8 @@ PlayerPowerBarAltStatusFrame["text"] = UnitPowerBarAltTemplateStatusFrameText
 --- @field layoutIndex number # 6
 PlayerPowerBarAlt = {}
 PlayerPowerBarAlt["layoutIndex"] = 6
+PlayerPowerBarAlt["fill"] = UnitPowerBarAltTemplateFill -- inherited
+PlayerPowerBarAlt["flash"] = UnitPowerBarAltTemplateFlash -- inherited
 PlayerPowerBarAlt["counterBar"] = PlayerPowerBarAltCounterBar -- inherited
 PlayerPowerBarAlt["statusFrame"] = PlayerPowerBarAltStatusFrame -- inherited
 

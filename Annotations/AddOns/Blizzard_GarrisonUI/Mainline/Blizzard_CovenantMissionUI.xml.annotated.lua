@@ -260,8 +260,8 @@ CovenantMissionFrameFollowers["followerTemplate"] = "CovenantMissionFollowerOrCa
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L552)
 --- child of 
---- @class CovenantMissionFrame_MissionTab_Missions : Frame, CovenantMissionListTemplate, CovenantMissionListMixin
-Missions = {}
+--- @class CovenantMissionFrame_MissionTab_CovenantMissionFrameMissions : Frame, CovenantMissionListTemplate, CovenantMissionListMixin
+CovenantMissionFrameMissions = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L562)
 --- child of 
@@ -275,13 +275,18 @@ Missions = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L550)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrame_MissionTab : Frame
---- @field MissionList CovenantMissionFrame_MissionTab_Missions
+--- @field MissionList CovenantMissionFrame_MissionTab_CovenantMissionFrameMissions
 --- @field ZoneSupportMissionPageBackground CovenantMissionFrame_MissionTab_ZoneSupportMissionPageBackground
 --- @field MissionPage CovenantMissionFrame_MissionTab_MissionPage
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L579)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrame_FollowerTab : Frame, CovenantFollowerTabTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L14)
+--- child of  (created in template AdventuresCompleteScreenTemplate)
+--- @type AdventuresCompleteScreenTemplate_CombatLog
+CombatLog = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L585)
 --- child of CovenantMissionFrame

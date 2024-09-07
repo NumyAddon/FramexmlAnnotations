@@ -43,6 +43,16 @@ RaidParentFrameTab1 = {}
 --- @class RaidParentFrame_RaidParentFrameTab2 : Button, PanelTabButtonTemplate
 RaidParentFrameTab2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1148)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -52,6 +62,9 @@ RaidParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L96)
 --- @class RaidParentFrame : Frame, ButtonFrameTemplate
 RaidParentFrame = {}
+RaidParentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+RaidParentFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+RaidParentFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 RaidParentFrame["Inset"] = RaidParentFrameInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L141)
@@ -83,11 +96,13 @@ RaidFrameNotInRaid = {}
 --- child of RaidFrame
 --- @class RaidFrame_RaidFrameConvertToRaidButton : Button, UIPanelButtonTemplate
 RaidFrameConvertToRaidButton = {}
+RaidFrameConvertToRaidButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L207)
 --- child of RaidFrame
 --- @class RaidFrame_RaidFrameRaidInfoButton : Button, UIPanelButtonTemplate
 RaidFrameRaidInfoButton = {}
+RaidFrameRaidInfoButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L249)
 --- child of RaidInfoFrame
@@ -155,11 +170,13 @@ RaidInfoCloseButton = {}
 --- child of RaidInfoFrame
 --- @class RaidFrame_RaidInfoFrame_RaidInfoExtendButton : Button, UIPanelButtonTemplate
 RaidInfoExtendButton = {}
+RaidInfoExtendButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L311)
 --- child of RaidInfoFrame
 --- @class RaidFrame_RaidInfoFrame_RaidInfoCancelButton : Button, UIPanelButtonTemplate
 RaidInfoCancelButton = {}
+RaidInfoCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L232)
 --- child of RaidInfoFrame

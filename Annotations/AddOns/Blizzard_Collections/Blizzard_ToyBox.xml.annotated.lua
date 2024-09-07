@@ -8,6 +8,17 @@
 --- child of ToyBox
 --- @class ToyBox_progressBar : StatusBar, CollectionsProgressBarTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+ToyBoxClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+ToyBoxSearchIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L30)
 --- child of ToyBox
 --- @class ToyBox_searchBox : EditBox, SearchBoxTemplate

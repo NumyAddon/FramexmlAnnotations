@@ -2,43 +2,43 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L4)
 --- Template
---- @class AutoQuest-QuestLogIcon : Texture
+--- @class AutoQuest_QuestLogIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L8)
 --- Template
---- @class AutoQuestToastBorder-TopLeft : Texture
+--- @class AutoQuestToastBorder_TopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L12)
 --- Template
---- @class AutoQuestToastBorder-TopRight : Texture
+--- @class AutoQuestToastBorder_TopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L16)
 --- Template
---- @class AutoQuestToastBorder-BotLeft : Texture
+--- @class AutoQuestToastBorder_BotLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L20)
 --- Template
---- @class AutoQuestToastBorder-BotRight : Texture
+--- @class AutoQuestToastBorder_BotRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L24)
 --- Template
---- @class TrackerButton-AutoComplete-Up : Texture
+--- @class TrackerButton_AutoComplete_Up : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L28)
 --- Template
---- @class TrackerButton-AutoComplete-Down : Texture
+--- @class TrackerButton_AutoComplete_Down : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L32)
 --- Template
---- @class QuestIcon-Exclamation : Texture
+--- @class QuestIcon_Exclamation : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L36)
 --- Template
---- @class QuestIcon-QuestionMark : Texture
+--- @class QuestIcon_QuestionMark : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L40)
 --- Template
---- @class QuestIcon-WhiteFlash : Texture
+--- @class QuestIcon_WhiteFlash : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L209)
 --- child of 

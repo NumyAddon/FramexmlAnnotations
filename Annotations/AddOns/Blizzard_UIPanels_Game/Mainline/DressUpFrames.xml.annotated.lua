@@ -58,6 +58,11 @@ SideDressUpFrame["BGTopLeft"] = SideDressUpFrameBackgroundTop
 SideDressUpFrame["BGBottomLeft"] = SideDressUpFrameBackgroundBot
 SideDressUpFrame["hasOutfitControls"] = false
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+TransmogAndMountDressupFrameText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L141)
 --- child of TransmogAndMountDressupFrame
 --- @class TransmogAndMountDressupFrame_ShowMountCheckButton : CheckButton, UICheckButtonTemplate
@@ -130,6 +135,7 @@ DressUpFrameOutfitDropdown["width"] = 163
 --- child of DressUpFrame
 --- @class DressUpFrame_DressUpFrameCancelButton : Button, UIPanelButtonTemplate, DressUpModelFrameCancelButtonMixin
 DressUpFrameCancelButton = {}
+DressUpFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L323)
 --- child of 
@@ -159,11 +165,28 @@ DressUpFrameCancelButton = {}
 --- child of DressUpFrame
 --- @class DressUpFrame_DressUpFrameResetButton : Button, UIPanelButtonTemplate, DressUpModelFrameResetButtonMixin
 DressUpFrameResetButton = {}
+DressUpFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L414)
 --- child of DressUpFrame
 --- @class DressUpFrame_LinkButton : DropdownButton, UIPanelButtonTemplate, DressUpModelFrameLinkButtonMixin
 --- @field menuPointX number # 15
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L1148)
+--- child of ButtonFrameTemplateMinimizable (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+ButtonFrameTemplateMinimizableInset = {}
+ButtonFrameTemplateMinimizableInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L272)
 --- @class DressUpFrame : Frame, ButtonFrameTemplateMinimizable, DressUpModelFrameMixin
@@ -182,4 +205,7 @@ DressUpFrame["OutfitDropdown"] = DressUpFrameOutfitDropdown
 DressUpFrame["ResetButton"] = DressUpFrameResetButton
 DressUpFrame["hasOutfitControls"] = true
 DressUpFrame["layoutType"] = "PortraitFrameTemplateMinimizable" -- inherited
+DressUpFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+DressUpFrame["Bg"] = ButtonFrameTemplateBg -- inherited
+DressUpFrame["Inset"] = ButtonFrameTemplateMinimizableInset -- inherited
 

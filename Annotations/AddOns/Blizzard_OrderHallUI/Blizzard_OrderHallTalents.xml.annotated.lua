@@ -149,6 +149,11 @@
 --- child of OrderHallTalentFrame
 --- @class OrderHallTalentFrame_Tick8 : FontString, OrderHallTalentFrameTick
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1095)
 --- child of OrderHallTalentFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
@@ -175,5 +180,7 @@ OrderHallTalentFrameCloseButton = {}
 --- @field Tick7 OrderHallTalentFrame_Tick7
 --- @field Tick8 OrderHallTalentFrame_Tick8
 OrderHallTalentFrame = {}
+OrderHallTalentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+OrderHallTalentFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 OrderHallTalentFrame["CloseButton"] = OrderHallTalentFrameCloseButton -- inherited
 

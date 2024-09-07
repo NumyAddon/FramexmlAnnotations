@@ -72,4 +72,5 @@ MainMenuBarVehicleLeaveButton["system"] = Enum.EditModeSystem.VehicleLeaveButton
 MainMenuBar = {}
 MainMenuBar["VehicleLeaveButton"] = MainMenuBarVehicleLeaveButton
 MainMenuBar["buttonTemplate"] = "MainBarActionBarButtonTemplate"
+MainMenuBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 

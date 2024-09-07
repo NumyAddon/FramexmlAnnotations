@@ -5,6 +5,9 @@
 --- @field resourceBarMixin any # ClassNameplateBar
 ClassNameplateBarRogueFrame = {}
 ClassNameplateBarRogueFrame["resourceBarMixin"] = ClassNameplateBar
+ClassNameplateBarRogueFrame["isManagedFrame"] = true -- inherited
+ClassNameplateBarRogueFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+ClassNameplateBarRogueFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarRogueFrame["powerToken"] = "COMBO_POINTS" -- inherited
 ClassNameplateBarRogueFrame["scale"] = ".75" -- inherited
 

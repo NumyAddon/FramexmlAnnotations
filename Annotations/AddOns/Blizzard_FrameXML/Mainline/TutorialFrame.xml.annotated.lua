@@ -19,8 +19,8 @@ TutorialTextBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L167)
 --- child of 
---- @class Pulser : Alpha
-Pulser = {}
+--- @class TutorialFrameCallOutPulser : Alpha
+TutorialFrameCallOutPulser = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L166)
 --- child of TutorialFrameCallOut
@@ -200,6 +200,7 @@ TutorialFrame["onCloseCallback"] = TutorialFrame_Hide
 --- @field layoutIndex number # 24
 TutorialFrameAlertButton = {}
 TutorialFrameAlertButton["layoutIndex"] = 24
+TutorialFrameAlertButton["isManagedFrame"] = true -- inherited
 TutorialFrameAlertButton["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L305)

@@ -5,4 +5,5 @@
 --- @field layoutIndex number # 5
 UIWidgetPowerBarContainerFrame = {}
 UIWidgetPowerBarContainerFrame["layoutIndex"] = 5
+UIWidgetPowerBarContainerFrame["showAndHideOnWidgetSetRegistration"] = true -- inherited
 

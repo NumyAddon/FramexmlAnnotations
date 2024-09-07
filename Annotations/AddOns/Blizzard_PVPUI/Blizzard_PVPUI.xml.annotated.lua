@@ -340,6 +340,11 @@ PVPTalentPrestigeLevelDialogCloseButton = {}
 --- child of PVPTalentPrestigeLevelDialog
 --- @class PVPUIFrame_PVPQueueFrame_PVPTalentPrestigeLevelDialog_Warning : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L873)
 --- child of PVPQueueFrame
 --- @class PVPUIFrame_PVPQueueFrame_PVPTalentPrestigeLevelDialog : Frame, PortraitFrameTemplateNoCloseButton
@@ -359,6 +364,8 @@ PVPTalentPrestigeLevelDialogCloseButton = {}
 --- @field PrestigeIcon Texture
 PVPTalentPrestigeLevelDialog = {}
 PVPTalentPrestigeLevelDialog["CloseButton"] = PVPTalentPrestigeLevelDialogCloseButton
+PVPTalentPrestigeLevelDialog["layoutType"] = "PortraitFrameTemplate" -- inherited
+PVPTalentPrestigeLevelDialog["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1036)
 --- child of PVPQueueFrameCategoryButton1
@@ -451,6 +458,46 @@ HonorFrameTypeDropdown = {}
 --- @class PVPUIFrame_PVPQueueFrame_HonorFrame_BonusFrame_BrawlButton2 : Button, PVPCasualStandardButtonTemplate
 --- @field isSpecialBrawl boolean # true
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1214)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+HonorFrameTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1220)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+HonorFrameTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1226)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+HonorFrameBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1232)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+HonorFrameBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1238)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+HonorFrameTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1245)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+HonorFrameBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1252)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+HonorFrameLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1259)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+HonorFrameRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1206)
 --- child of 
 --- @class PVPUIFrame_PVPQueueFrame_HonorFrame_BonusFrame_ShadowOverlay : Frame, ShadowOverlaySmallTemplate
@@ -470,6 +517,7 @@ HonorFrameTypeDropdown = {}
 --- child of HonorFrame
 --- @class PVPUIFrame_PVPQueueFrame_HonorFrame_HonorFrameQueueButton : Button, MagicButtonTemplate
 HonorFrameQueueButton = {}
+HonorFrameQueueButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1076)
 --- child of PVPQueueFrame
@@ -536,6 +584,46 @@ HonorFrame["QueueButton"] = HonorFrameQueueButton
 --- @class PVPUIFrame_PVPQueueFrame_ConquestFrame_RatedBG : Button, PVPRatedActivityButtonTemplate
 --- @field toolTipTitle any # PVP_RATED_BATTLEGROUNDS
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1214)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+ConquestFrameTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1220)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+ConquestFrameTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1226)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+ConquestFrameBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1232)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+ConquestFrameBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1238)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+ConquestFrameTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1245)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+ConquestFrameBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1252)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+ConquestFrameLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1259)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+ConquestFrameRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1339)
 --- child of ConquestFrame
 --- @class PVPUIFrame_PVPQueueFrame_ConquestFrame_ShadowOverlay : Frame, ShadowOverlaySmallTemplate
@@ -544,6 +632,7 @@ HonorFrame["QueueButton"] = HonorFrameQueueButton
 --- child of ConquestFrame
 --- @class PVPUIFrame_PVPQueueFrame_ConquestFrame_ConquestJoinButton : Button, MagicButtonTemplate
 ConquestJoinButton = {}
+ConquestJoinButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1376)
 --- child of 
@@ -552,6 +641,91 @@ ConquestJoinButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1382)
 --- child of 
 --- @class PVPUIFrame_PVPQueueFrame_ConquestFrame_NoSeason_Info : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L595)
+--- child of  (created in template GlowBoxTemplate)
+--- @type Texture
+ConquestFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L608)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
+ConquestFrameGlowTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L613)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
+ConquestFrameGlowTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L619)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
+ConquestFrameGlowBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L625)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
+ConquestFrameGlowBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L631)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
+ConquestFrameGlowTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L637)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
+ConquestFrameGlowBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L643)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
+ConquestFrameGlowLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L649)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
+ConquestFrameGlowRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L657)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
+ConquestFrameShadowTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L662)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
+ConquestFrameShadowTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L668)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
+ConquestFrameShadowBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L674)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
+ConquestFrameShadowBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L680)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
+ConquestFrameShadowTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L686)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
+ConquestFrameShadowBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L692)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
+ConquestFrameShadowLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L698)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
+ConquestFrameShadowRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1366)
 --- child of ConquestFrame
@@ -562,6 +736,91 @@ ConquestJoinButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1401)
 --- child of 
 --- @class PVPUIFrame_PVPQueueFrame_ConquestFrame_Disabled_Info : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L595)
+--- child of  (created in template GlowBoxTemplate)
+--- @type Texture
+ConquestFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L608)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
+ConquestFrameGlowTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L613)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
+ConquestFrameGlowTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L619)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
+ConquestFrameGlowBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L625)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
+ConquestFrameGlowBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L631)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
+ConquestFrameGlowTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L637)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
+ConquestFrameGlowBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L643)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
+ConquestFrameGlowLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L649)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
+ConquestFrameGlowRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L657)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
+ConquestFrameShadowTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L662)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
+ConquestFrameShadowTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L668)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
+ConquestFrameShadowBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L674)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
+ConquestFrameShadowBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L680)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
+ConquestFrameShadowTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L686)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
+ConquestFrameShadowBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L692)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
+ConquestFrameShadowLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L698)
+--- child of  (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
+ConquestFrameShadowRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1391)
 --- child of ConquestFrame

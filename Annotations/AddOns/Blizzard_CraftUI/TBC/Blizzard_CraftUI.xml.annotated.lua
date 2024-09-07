@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
---- child of CraftButtonTemplate
---- @class CraftButtonTemplate_CraftButtonTemplateCost : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L9)
---- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
---- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L41)
---- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
---- @type Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L3)
 --- Template
 --- @class CraftButtonTemplate : Button, ClassTrainerSkillButtonTemplate

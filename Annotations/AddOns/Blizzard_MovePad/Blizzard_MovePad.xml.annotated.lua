@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L200)
---- child of MovePadCheckboxTemplate (created in template UIPanelSquareButton)
---- @type Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L5)
 --- Template
 --- @class MovePadCheckboxTemplate : CheckButton, UIPanelSquareButton

@@ -11,6 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MapLegendFrame.xml#L24)
 --- child of MapLegendFrameTemplate
 --- @class MapLegendFrameTemplate_MapLegendScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarX number # 8
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MapLegendFrame.xml#L8)

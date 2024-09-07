@@ -7,6 +7,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgePowerList.xml#L5)
 --- Template
 --- @class RuneforgePowerButtonTemplate : Button, RuneforgePowerButtonMixin
+--- @field tooltipOffsetX number # -15
 --- @field CovenantSigil RuneforgePowerButtonTemplate_CovenantSigil
 --- @field Icon Texture
 --- @field UnavailableOverlay Texture
@@ -15,6 +16,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgePowerList.xml#L56)
 --- Template
 --- @class RuneforgePowerSlotTemplate : Button, RuneforgePowerButtonTemplate, RuneforgePowerSlotMixin
+--- @field tooltipOffsetX number # -22
 --- @field SelectedTexture Texture
 --- @field ErrorTexture Texture
 

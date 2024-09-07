@@ -157,6 +157,23 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L394)
 --- child of WeeklyRewardConfirmSelectionTemplate
 --- @class WeeklyRewardConfirmSelectionTemplate_CurrencyFrame : Frame, CurrencyHorizontalLayoutFrameTemplate
+--- @field fixedHeight number # 24
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L250)
+--- child of  (created in template LargeItemButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L256)
+--- child of  (created in template LargeItemButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L264)
+--- child of  (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L296)
+--- child of  (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L402)
 --- child of WeeklyRewardConfirmSelectionTemplate
@@ -165,10 +182,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L430)
 --- child of 
 --- @class WeeklyRewardConfirmSelectionTemplate_AlsoItemsFrame_Text : FontString, GameFontHighlight
+--- @field layoutIndex number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L416)
 --- child of WeeklyRewardConfirmSelectionTemplate
 --- @class WeeklyRewardConfirmSelectionTemplate_AlsoItemsFrame : Frame, HorizontalLayoutFrame
+--- @field spacing number # 6
 --- @field Text WeeklyRewardConfirmSelectionTemplate_AlsoItemsFrame_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L391)
@@ -256,14 +275,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L675)
 --- child of 
 --- @class WeeklyRewardsFrame_ConcessionFrame_RewardsFrame_Label : FontString, GameFontNormal
+--- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L681)
 --- child of 
 --- @class WeeklyRewardsFrame_ConcessionFrame_RewardsFrame_Text : FontString, GameFontHighlight
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L664)
 --- child of 
 --- @class WeeklyRewardsFrame_ConcessionFrame_RewardsFrame : Frame, HorizontalLayoutFrame
+--- @field fixedHeight number # 24
 --- @field Label WeeklyRewardsFrame_ConcessionFrame_RewardsFrame_Label
 --- @field Text WeeklyRewardsFrame_ConcessionFrame_RewardsFrame_Text
 
@@ -278,6 +300,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L616)
 --- child of WeeklyRewardsFrame
 --- @class WeeklyRewardsFrame_ConcessionFrame : Frame, WeeklyRewardsConcessionMixin
+--- @field type any # Enum.WeeklyRewardChestThresholdType.Concession
 --- @field RewardsFrame WeeklyRewardsFrame_ConcessionFrame_RewardsFrame
 --- @field UnselectedFrame WeeklyRewardsFrame_ConcessionFrame_UnselectedFrame
 --- @field Background Texture
@@ -329,8 +352,10 @@ WeeklyRewardsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L742)
 --- @class WeeklyRewardExpirationWarningDialog : Frame, GreatVaultRetirementWarningFrameMixin
+--- @field layoutType string # "TooltipMixedLayout"
 --- @field NineSlice WeeklyRewardExpirationWarningDialog_NineSlice
 --- @field WarningIcon Texture
 --- @field Description WeeklyRewardExpirationWarningDialog_Description
 WeeklyRewardExpirationWarningDialog = {}
+WeeklyRewardExpirationWarningDialog["layoutType"] = "TooltipMixedLayout"
 

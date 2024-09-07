@@ -51,4 +51,8 @@ LowerBlackBar = {}
 --- @field UpperBlackBar CinematicFrame_UpperBlackBar
 --- @field LowerBlackBar CinematicFrame_LowerBlackBar
 CinematicFrame = {}
+CinematicFrame["raidBossEmoteFrame"] = CinematicFrameRaidBossEmoteFrame
+CinematicFrame["closeDialog"] = CinematicFrameCloseDialog
+CinematicFrame["UpperBlackBar"] = UpperBlackBar
+CinematicFrame["LowerBlackBar"] = LowerBlackBar
 

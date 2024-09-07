@@ -38,6 +38,22 @@
 --- @class BlackMarketItemTemplate_TimeLeft : Button
 --- @field Text BlackMarketItemTemplate_TimeLeft_Text
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L110)
+--- child of  (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L138)
+--- child of  (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L162)
+--- child of  (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L186)
+--- child of  (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L215)
 --- child of BlackMarketItemTemplate
 --- @class BlackMarketItemTemplate_CurrentBid : Frame, SmallMoneyFrameTemplate
@@ -159,12 +175,36 @@
 --- child of HotItemCurrentBidMoneyFrame
 --- @class BlackMarketFrame_HotDeal_HotItemCurrentBidMoneyFrame_YourBid : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L110)
+--- child of HotItemCurrentBidMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+HotItemCurrentBidMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L138)
+--- child of HotItemCurrentBidMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+HotItemCurrentBidMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L162)
+--- child of HotItemCurrentBidMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+HotItemCurrentBidMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L186)
+--- child of HotItemCurrentBidMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+HotItemCurrentBidMoneyFrameGoldButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L506)
 --- child of 
 --- @class BlackMarketFrame_HotDeal_HotItemCurrentBidMoneyFrame : Frame, SmallMoneyFrameTemplate
 --- @field CurrentBid BlackMarketFrame_HotDeal_HotItemCurrentBidMoneyFrame_CurrentBid
 --- @field YourBid BlackMarketFrame_HotDeal_HotItemCurrentBidMoneyFrame_YourBid
 HotItemCurrentBidMoneyFrame = {}
+HotItemCurrentBidMoneyFrame["trialErrorButton"] = HotItemCurrentBidMoneyFrameTrialErrorButton -- inherited
+HotItemCurrentBidMoneyFrame["CopperButton"] = HotItemCurrentBidMoneyFrameCopperButton -- inherited
+HotItemCurrentBidMoneyFrame["SilverButton"] = HotItemCurrentBidMoneyFrameSilverButton -- inherited
+HotItemCurrentBidMoneyFrame["GoldButton"] = HotItemCurrentBidMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L363)
 --- child of 
@@ -246,14 +286,53 @@ HotItemCurrentBidMoneyFrame = {}
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_ScrollBar : EventFrame, MinimalScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1484)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1492)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1500)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+Middle = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L635)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_MoneyFrameBorder : Frame, ThinGoldEdgeTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L110)
+--- child of BlackMarketMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+BlackMarketMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L138)
+--- child of BlackMarketMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+BlackMarketMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L162)
+--- child of BlackMarketMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+BlackMarketMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L186)
+--- child of BlackMarketMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+BlackMarketMoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L641)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_BlackMarketMoneyFrame : Frame, SmallMoneyFrameTemplate
 BlackMarketMoneyFrame = {}
+BlackMarketMoneyFrame["trialErrorButton"] = BlackMarketMoneyFrameTrialErrorButton -- inherited
+BlackMarketMoneyFrame["CopperButton"] = BlackMarketMoneyFrameCopperButton -- inherited
+BlackMarketMoneyFrame["SilverButton"] = BlackMarketMoneyFrameSilverButton -- inherited
+BlackMarketMoneyFrame["GoldButton"] = BlackMarketMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L653)
 --- child of BlackMarketFrame
@@ -263,14 +342,54 @@ BlackMarketMoneyFrame = {}
 --- child of BlackMarketBidPrice
 --- @class  : FontString, GameFontHighlightSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L6)
+--- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
+--- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateGold
+--- @field left Texture
+--- @field right Texture
+--- @field texture Texture
+--- @field label FontString
+BlackMarketBidPriceGold = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L80)
+--- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
+--- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver
+--- @field left Texture
+--- @field right Texture
+--- @field texture Texture
+--- @field label FontString
+BlackMarketBidPriceSilver = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L155)
+--- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
+--- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper
+--- @field left Texture
+--- @field right Texture
+--- @field texture Texture
+--- @field label FontString
+BlackMarketBidPriceCopper = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L662)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_BlackMarketBidPrice : Frame, MoneyInputFrameTemplate
 BlackMarketBidPrice = {}
+BlackMarketBidPrice["gold"] = BlackMarketBidPriceGold -- inherited
+BlackMarketBidPrice["silver"] = BlackMarketBidPriceSilver -- inherited
+BlackMarketBidPrice["copper"] = BlackMarketBidPriceCopper -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L348)
 --- child of BlackMarketFrame
 --- @class  : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L262)
+--- child of BlackMarketFrame (created in template WoodFrameTemplate)
+--- @type Texture
+BlackMarketFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L268)
+--- child of BlackMarketFrame (created in template WoodFrameTemplate)
+--- @type WoodFrameTemplate_WoodFrameTemplateTitleBg
+BlackMarketFrameTitleBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L332)
 --- @class BlackMarketFrame : Frame, WoodFrameTemplate

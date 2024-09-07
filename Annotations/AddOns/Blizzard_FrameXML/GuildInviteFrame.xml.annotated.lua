@@ -70,8 +70,62 @@ GuildInviteFrameTabardBorder = {}
 --- @class GuildInviteFrame_GuildInviteFrameTabardRing : Texture
 GuildInviteFrameTabardRing = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1154)
+--- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
+--- @type Texture
+GuildInviteFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1163)
+--- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopLeftCorner
+GuildInviteFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1168)
+--- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopRightCorner
+GuildInviteFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1173)
+--- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomLeftCorner
+GuildInviteFrameBottomLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1178)
+--- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomRightCorner
+GuildInviteFrameBottomRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1183)
+--- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopBorder
+GuildInviteFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1189)
+--- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomBorder
+GuildInviteFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1195)
+--- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateLeftBorder
+GuildInviteFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1201)
+--- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateRightBorder
+GuildInviteFrameRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L4)
 --- @class GuildInviteFrame : Frame, TranslucentFrameTemplate
 --- @field Points GuildInviteFrame_Points
 GuildInviteFrame = {}
+GuildInviteFrame["Bg"] = GuildInviteFrameBg -- inherited
+GuildInviteFrame["TopLeftCorner"] = GuildInviteFrameTopLeftCorner -- inherited
+GuildInviteFrame["TopRightCorner"] = GuildInviteFrameTopRightCorner -- inherited
+GuildInviteFrame["BottomLeftCorner"] = GuildInviteFrameBottomLeftCorner -- inherited
+GuildInviteFrame["BottomRightCorner"] = GuildInviteFrameBottomRightCorner -- inherited
+GuildInviteFrame["TopBorder"] = GuildInviteFrameTopBorder -- inherited
+GuildInviteFrame["BottomBorder"] = GuildInviteFrameBottomBorder -- inherited
+GuildInviteFrame["LeftBorder"] = GuildInviteFrameLeftBorder -- inherited
+GuildInviteFrame["RightBorder"] = GuildInviteFrameRightBorder -- inherited
 

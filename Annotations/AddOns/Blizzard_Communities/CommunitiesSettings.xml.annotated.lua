@@ -19,6 +19,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L115)
 --- child of CommunitiesSettingsDialog
 --- @class CommunitiesSettingsDialog_MessageOfTheDay : ScrollFrame, InputScrollFrameTemplate
+--- @field maxLetters number # 250
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L140)
 --- child of 
@@ -115,6 +116,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L314)
 --- child of CommunitiesSettingsDialog
 --- @class CommunitiesSettingsDialog_Description : ScrollFrame, InputScrollFrameTemplate
+--- @field maxLetters number # 250
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L332)
 --- child of CommunitiesSettingsDialog

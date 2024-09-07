@@ -51,6 +51,16 @@
 --- @field Frame Texture
 --- @field Flash UIWidgetFillUpFrameTemplate_Flash
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateFillUpFrames.xml#L104)
+--- child of UIWidgetTemplateFillUpFrames
+--- @class UIWidgetTemplateFillUpFrames_DecorLeft : Texture
+--- @field layoutIndex number # 0
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateFillUpFrames.xml#L110)
+--- child of UIWidgetTemplateFillUpFrames
+--- @class UIWidgetTemplateFillUpFrames_DecorRight : Texture
+--- @field layoutIndex number # 10
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateFillUpFrames.xml#L130)
 --- child of UIWidgetTemplateFillUpFrames
 --- @class UIWidgetTemplateFillUpFrames_DecorFlipbookAnim : AnimationGroup, DecorFlipbookAnimMixin
@@ -58,8 +68,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateFillUpFrames.xml#L101)
 --- Template
 --- @class UIWidgetTemplateFillUpFrames : Frame, UIWidgetBaseTemplate, HorizontalLayoutFrame, UIWidgetTemplateFillUpFramesMixin
---- @field DecorLeft Texture
---- @field DecorRight Texture
+--- @field DecorLeft UIWidgetTemplateFillUpFrames_DecorLeft
+--- @field DecorRight UIWidgetTemplateFillUpFrames_DecorRight
 --- @field DecorFlipbookLeft Texture
 --- @field DecorFlipbookRight Texture
 --- @field DecorFlipbookAnim UIWidgetTemplateFillUpFrames_DecorFlipbookAnim

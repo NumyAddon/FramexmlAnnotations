@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L5)
 --- Template
 --- @class PlayerFrameBarSegmentTemplate : Frame
+--- @field fillAtlas string # "UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L24)
 --- child of PlayerFrame
@@ -100,6 +101,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L245)
 --- child of 
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_ManaCostPredictionBar : Frame, ManaCostPredictionBarTemplate
+--- @field fillAtlas string # "UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L250)
 --- child of 
@@ -239,24 +241,33 @@ PlayerPVPTimerText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L14)
 --- @class PlayerFrame : Button, SecureUnitButtonTemplate, EditModePlayerFrameSystemTemplate, PingableType_UnitFrameMixin
+--- @field disablePortraitMask boolean # true
 --- @field PlayerFrameContainer PlayerFrame_PlayerFrameContainer
 --- @field PlayerFrameContent PlayerFrame_PlayerFrameContent
 PlayerFrame = {}
+PlayerFrame["disablePortraitMask"] = true
+PlayerFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Player -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L481)
 --- Template
 --- @class PlayerFrameBottomManagedFrameTemplate : Frame, UIParentManagedFrameTemplate
+--- @field layoutParent any # PlayerFrameBottomManagedFramesContainer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L496)
 --- child of PlayerFrameManagedContainerTemplate
 --- @class PlayerFrameManagedContainerTemplate_BottomManagedLayoutContainer : Frame, HorizontalLayoutFrame
+--- @field layoutIndex number # 500
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L489)
 --- Template
 --- @class PlayerFrameManagedContainerTemplate : Frame, VerticalLayoutFrame, UIParentManagedFrameContainerMixin
+--- @field spacing number # 2
 --- @field BottomManagedLayoutContainer PlayerFrameManagedContainerTemplate_BottomManagedLayoutContainer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L510)
 --- @class PlayerFrameBottomManagedFramesContainer : Frame, PlayerFrameManagedContainerTemplate, PlayerFrameBottomManagedFramesContainerMixin
+--- @field fixedWidth number # 160
 PlayerFrameBottomManagedFramesContainer = {}
+PlayerFrameBottomManagedFramesContainer["fixedWidth"] = 160
+PlayerFrameBottomManagedFramesContainer["spacing"] = 2 -- inherited
 

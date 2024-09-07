@@ -4,6 +4,7 @@
 --- @class ChatFrameChannelButton : Button, VoiceToggleButtonTemplate, ChannelFrameButtonMixin
 --- @field Flash Texture
 ChatFrameChannelButton = {}
+ChatFrameChannelButton["fixedWidth"] = 27 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/FloatingChatFrameVoiceChat.xml#L18)
 --- @class ChatFrameToggleVoiceDeafenButton : Button, ToggleVoiceDeafenButtonTemplate

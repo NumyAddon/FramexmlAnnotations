@@ -10,4 +10,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_SelectorUI.xml#L31)
 --- Template
 --- @class SelectorTemplate : Frame, SelectorMixin
+--- @field templateType string # "BUTTON"
 

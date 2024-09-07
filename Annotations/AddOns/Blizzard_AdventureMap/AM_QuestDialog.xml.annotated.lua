@@ -24,6 +24,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L104)
 --- child of AdventureMapQuestChoiceDialog
 --- @class AdventureMapQuestChoiceDialog_Details : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarHideIfUnscrollable boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L152)
 --- child of AdventureMapQuestChoiceDialog

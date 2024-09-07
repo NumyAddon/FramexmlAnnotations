@@ -52,6 +52,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.xml#L129)
 --- child of AdventuresPuckAnimatedTemplate
 --- @class AdventuresPuckAnimatedTemplate_EnemyTargetingIndicatorFrame : Frame, AdventuresTargetingIndicatorTemplate
+--- @field targetingTextureAtlas string # "Adventures-Target-Indicator"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.xml#L152)
 --- child of 

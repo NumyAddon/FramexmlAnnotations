@@ -13,18 +13,25 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.xml#L40)
 --- child of 
 --- @class GameModeSettingsFrameTemplate_QueueContainer_Solo : Button, GameModeSelectionButtonTemplate
+--- @field layoutIndex number # 1
+--- @field gameModeSelection string # "solo"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.xml#L54)
 --- child of 
 --- @class GameModeSettingsFrameTemplate_QueueContainer_Duo : Button, GameModeSelectionButtonTemplate
+--- @field layoutIndex number # 2
+--- @field gameModeSelection string # "duo"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.xml#L68)
 --- child of 
 --- @class GameModeSettingsFrameTemplate_QueueContainer_Trio : Button, GameModeSelectionButtonTemplate
+--- @field layoutIndex number # 3
+--- @field gameModeSelection string # "trio"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/MatchmakingQueueFrame.xml#L27)
 --- child of GameModeSettingsFrameTemplate
 --- @class GameModeSettingsFrameTemplate_QueueContainer : Frame, GridLayoutFrame
+--- @field childXPadding number # 0
 --- @field Solo GameModeSettingsFrameTemplate_QueueContainer_Solo
 --- @field Duo GameModeSettingsFrameTemplate_QueueContainer_Duo
 --- @field Trio GameModeSettingsFrameTemplate_QueueContainer_Trio

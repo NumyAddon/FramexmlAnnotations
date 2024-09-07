@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L3)
 --- Template
 --- @class UIWidgetTemplateTooltipFrame : Frame, UIWidgetTemplateTooltipFrameMixin
+--- @field defaultTooltipAnchor string # "ANCHOR_BOTTOMLEFT"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L16)
 --- Template
@@ -119,6 +120,26 @@
 --- child of UIWidgetBaseControlZoneTemplate
 --- @class UIWidgetBaseControlZoneTemplate_Progress : Cooldown
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L257)
+--- child of UIWidgetBaseControlZoneTemplate
+--- @class UIWidgetBaseControlZoneTemplate_DangerGlowBackground : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L274)
+--- child of UIWidgetBaseControlZoneTemplate
+--- @class UIWidgetBaseControlZoneTemplate_DangerGlowOverlay : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L282)
+--- child of UIWidgetBaseControlZoneTemplate
+--- @class UIWidgetBaseControlZoneTemplate_CapturedGlow : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L290)
+--- child of UIWidgetBaseControlZoneTemplate
+--- @class UIWidgetBaseControlZoneTemplate_CapturedGlowStar : Texture
+--- @field ignoreInLayout boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L322)
 --- child of UIWidgetBaseControlZoneTemplate
 --- @class UIWidgetBaseControlZoneTemplate_DangerGlowAnim : AnimationGroup
@@ -132,11 +153,11 @@
 --- @class UIWidgetBaseControlZoneTemplate : Frame, UIWidgetTemplateTooltipFrame, ResizeLayoutFrame, UIWidgetBaseControlZoneTemplateMixin
 --- @field UncapturedSection UIWidgetBaseControlZoneTemplate_UncapturedSection
 --- @field Progress UIWidgetBaseControlZoneTemplate_Progress
---- @field DangerGlowBackground Texture
+--- @field DangerGlowBackground UIWidgetBaseControlZoneTemplate_DangerGlowBackground
 --- @field Zone Texture
---- @field DangerGlowOverlay Texture
---- @field CapturedGlow Texture
---- @field CapturedGlowStar Texture
+--- @field DangerGlowOverlay UIWidgetBaseControlZoneTemplate_DangerGlowOverlay
+--- @field CapturedGlow UIWidgetBaseControlZoneTemplate_CapturedGlow
+--- @field CapturedGlowStar UIWidgetBaseControlZoneTemplate_CapturedGlowStar
 --- @field DangerGlowAnim UIWidgetBaseControlZoneTemplate_DangerGlowAnim
 --- @field CapturedGlowAnim UIWidgetBaseControlZoneTemplate_CapturedGlowAnim
 
@@ -160,9 +181,14 @@
 --- @class UIWidgetBaseCircularStatusBarTemplate : Frame, UIWidgetTemplateTooltipFrame, UIWidgetBaseCircularStatusBarTemplateMixin
 --- @field Progress UIWidgetBaseCircularStatusBarTemplate_Progress
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L9)
+--- child of UIWidgetBaseItemEmbeddedTooltipTemplate (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L388)
 --- Template
 --- @class UIWidgetBaseItemEmbeddedTooltipTemplate : GameTooltip, GameTooltipTemplate
+--- @field IsEmbedded boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L403)
 --- child of UIWidgetBaseItemTemplate

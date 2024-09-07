@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L81)
 --- child of CompanionConfigSlotTemplate
 --- @class CompanionConfigSlotTemplate_NewLabel : Frame, NewFeatureLabelTemplate
+--- @field animateGlow boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L92)
 --- child of CompanionConfigSlotTemplate
@@ -110,14 +111,17 @@ CompanionInfoGLine = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L323)
 --- child of DelvesCompanionConfigurationFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionCombatRoleSlot : Button, CompanionConfigSlotTemplate
+--- @field type string # "Role"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L332)
 --- child of DelvesCompanionConfigurationFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionCombatTrinketSlot : Button, CompanionConfigSlotTemplate
+--- @field type string # "Combat"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L341)
 --- child of DelvesCompanionConfigurationFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionUtilityTrinketSlot : Button, CompanionConfigSlotTemplate
+--- @field type string # "Utility"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L358)
 --- child of 
@@ -141,4 +145,5 @@ CompanionInfoGLine = {}
 --- @field CompanionConfigShowAbilitiesButton DelvesCompanionConfigurationFrame_CompanionConfigShowAbilitiesButton
 --- @field Background Texture
 DelvesCompanionConfigurationFrame = {}
+DelvesCompanionConfigurationFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 

@@ -21,6 +21,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/ServerAlert.xml#L23)
 --- child of ServerAlertBoxTemplate
 --- @class ServerAlertBoxTemplate_ServerAlertBoxTemplateScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarTemplate string # "MinimalScrollBar"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/ServerAlert.xml#L14)
 --- child of ServerAlertBoxTemplate
@@ -32,6 +33,11 @@
 --- @field Background ServerAlertBoxTemplate_Background
 --- @field ScrollFrame ServerAlertBoxTemplate_ServerAlertBoxTemplateScrollFrame
 --- @field Title ServerAlertBoxTemplate_Title
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/ServerAlert.xml#L23)
+--- child of  (created in template ServerAlertBoxTemplate)
+--- @type ServerAlertBoxTemplate_ServerAlertBoxTemplateScrollFrame
+--- @field scrollBarTemplate string # "MinimalScrollBar"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/ServerAlert.xml#L58)
 --- child of ServerAlertTemplate

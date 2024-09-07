@@ -4,6 +4,10 @@
 --- child of GarrisonRecruiterRadioButtonTemplate
 --- @class GarrisonRecruiterRadioButtonTemplate_Text : FontString, GameFontHighlightLeft
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L455)
+--- child of GarrisonRecruiterRadioButtonTemplate (created in template UIRadioButtonTemplate)
+--- @type UIRadioButtonTemplate_UIRadioButtonTemplateText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L3)
 --- Template
 --- @class GarrisonRecruiterRadioButtonTemplate : CheckButton, UIRadioButtonTemplate
@@ -158,6 +162,12 @@
 --- @class GarrisonRecruiterFrame_UnavailableFrame : Frame
 --- @field Title GarrisonRecruiterFrame_UnavailableFrame_Title
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L1148)
+--- child of GarrisonRecruiterFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+GarrisonRecruiterFrameInset = {}
+GarrisonRecruiterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L170)
 --- @class GarrisonRecruiterFrame : Frame, ButtonFrameTemplate
 --- @field Pick GarrisonRecruiterFrame_Pick
@@ -166,6 +176,18 @@
 --- @field BG Texture
 --- @field PortraitTexture Texture
 GarrisonRecruiterFrame = {}
+GarrisonRecruiterFrame["Inset"] = GarrisonRecruiterFrameInset -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+ClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+SearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L371)
 --- child of 
@@ -174,6 +196,7 @@ GarrisonRecruiterFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L362)
 --- child of GarrisonRecruitSelectFrame
 --- @class GarrisonRecruitSelectFrame_FollowerList : Frame, GarrisonListTemplateHeader, GarrisonFollowerList
+--- @field canExpand boolean # true
 --- @field SearchBox GarrisonRecruitSelectFrame_FollowerList_SearchBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L437)

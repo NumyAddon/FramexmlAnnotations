@@ -119,6 +119,7 @@ MiniMapLFGFrameBorder = {}
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame : Button, MiniMapButtonTemplate
 --- @field eye MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameIcon
 MiniMapLFGFrame = {}
+MiniMapLFGFrame["eye"] = MiniMapLFGFrameIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L468)
 --- child of MinimapBackdrop
@@ -212,6 +213,9 @@ GuildInstanceDifficultyHanger = {}
 --- @field emblem MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyEmblem
 --- @field border MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyBorder
 GuildInstanceDifficulty = {}
+GuildInstanceDifficulty["background"] = GuildInstanceDifficultyBackground
+GuildInstanceDifficulty["emblem"] = GuildInstanceDifficultyEmblem
+GuildInstanceDifficulty["border"] = GuildInstanceDifficultyBorder
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L45)
 --- child of MinimapCluster

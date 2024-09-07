@@ -149,6 +149,11 @@
 --- child of OrderHallTalentFrame
 --- @class OrderHallTalentFrame_Tick8 : FontString, OrderHallTalentFrameTick
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1095)
+--- child of OrderHallTalentFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+OrderHallTalentFrameCloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L177)
 --- @class OrderHallTalentFrame : Frame, PortraitFrameTemplate, OrderHallTalentFrameMixin
 --- @field FriendshipStatusBar OrderHallTalentFrame_FriendshipStatusBar
@@ -170,4 +175,5 @@
 --- @field Tick7 OrderHallTalentFrame_Tick7
 --- @field Tick8 OrderHallTalentFrame_Tick8
 OrderHallTalentFrame = {}
+OrderHallTalentFrame["CloseButton"] = OrderHallTalentFrameCloseButton -- inherited
 

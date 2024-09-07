@@ -139,6 +139,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L219)
 --- Template
 --- @class PVPHonorSystemSmallXPBar : Frame
+--- @field isSmall boolean # true
 --- @field Bar PVPHonorSystemSmallXPBar_Bar
 --- @field NextAvailable PVPHonorSystemSmallXPBar_NextAvailable
 --- @field PrestigeReward PVPHonorSystemSmallXPBar_PrestigeReward

@@ -4,6 +4,10 @@
 --- Template
 --- @class UIDropDownCustomMenuEntryTemplate : Frame, UIDropDownCustomMenuEntryMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L7)
+--- child of UIDropDownMenuButtonTemplateColorSwatch (created in template ColorSwatchTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L45)
 --- child of UIDropDownMenuButtonTemplate
 --- @class UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateColorSwatch : Button, ColorSwatchTemplate
@@ -31,6 +35,38 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L119)
 --- child of UIDropDownListTemplate
 --- @class UIDropDownListTemplate_UIDropDownListTemplateMenuBackdrop : Frame, TooltipBackdropTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L7)
+--- child of UIDropDownListTemplateButton1ColorSwatch (created in template ColorSwatchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L45)
+--- child of UIDropDownListTemplateButton1 (created in template UIDropDownMenuButtonTemplate)
+--- @type UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateColorSwatch
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L63)
+--- child of UIDropDownListTemplateButton1 (created in template UIDropDownMenuButtonTemplate)
+--- @type UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateExpandArrow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L74)
+--- child of UIDropDownListTemplateButton1 (created in template UIDropDownMenuButtonTemplate)
+--- @type Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L9)
+--- child of UIDropDownListTemplateButton1 (created in template UIDropDownMenuButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L12)
+--- child of UIDropDownListTemplateButton1 (created in template UIDropDownMenuButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L21)
+--- child of UIDropDownListTemplateButton1 (created in template UIDropDownMenuButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L30)
+--- child of UIDropDownListTemplateButton1 (created in template UIDropDownMenuButtonTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L120)
 --- child of UIDropDownListTemplate

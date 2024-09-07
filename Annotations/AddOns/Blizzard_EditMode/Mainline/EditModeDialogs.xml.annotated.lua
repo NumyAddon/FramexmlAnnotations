@@ -15,6 +15,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L24)
 --- Template
 --- @class CharacterSpecificLayoutCheckButtonTemplate : Frame, EditModeCheckButtonTemplate
+--- @field labelText any # HUD_EDIT_MODE_CHARACTER_SPECIFIC_LAYOUT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L46)
 --- child of EditModeNewLayoutDialog
@@ -31,6 +32,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L57)
 --- child of EditModeNewLayoutDialog
 --- @class EditModeNewLayoutDialog_AcceptButton : Button, EditModeDialogButton
+--- @field disabledTooltip any # HUD_EDIT_MODE_ERROR_ENTER_NAME
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L65)
 --- child of EditModeNewLayoutDialog
@@ -57,6 +59,7 @@ EditModeNewLayoutDialog = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L104)
 --- child of EditModeImportLayoutDialog
 --- @class EditModeImportLayoutDialog_ImportBox : ScrollFrame, InputScrollFrameTemplate
+--- @field maxLetters number # 2000
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L115)
 --- child of EditModeImportLayoutDialog
@@ -69,6 +72,7 @@ EditModeNewLayoutDialog = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L125)
 --- child of EditModeImportLayoutDialog
 --- @class EditModeImportLayoutDialog_AcceptButton : Button, EditModeDialogButton
+--- @field disabledTooltip any # HUD_EDIT_MODE_ERROR_ENTER_IMPORT_STRING_AND_NAME
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L133)
 --- child of EditModeImportLayoutDialog
@@ -114,6 +118,7 @@ EditModeImportLayoutDialog = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L177)
 --- child of EditModeImportLayoutLinkDialog
 --- @class EditModeImportLayoutLinkDialog_AcceptButton : Button, EditModeDialogButton
+--- @field disabledTooltip any # HUD_EDIT_MODE_ERROR_ENTER_NAME
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L185)
 --- child of EditModeImportLayoutLinkDialog
@@ -178,24 +183,34 @@ EditModeUnsavedChangesDialog = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L267)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_Border : Frame, DialogBorderTranslucentTemplate
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L272)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_CloseButton : Button, UIPanelCloseButton
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L280)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_Settings : Frame, VerticalLayoutFrame
+--- @field spacing number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L297)
 --- child of 
 --- @class EditModeSystemSettingsDialog_Buttons_RevertChangesButton : Button, EditModeSystemSettingsDialogButtonTemplate
+--- @field layoutIndex number # 1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L305)
+--- child of 
+--- @class EditModeSystemSettingsDialog_Buttons_Divider : Texture
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L289)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_Buttons : Frame, VerticalLayoutFrame
+--- @field spacing number # 2
 --- @field RevertChangesButton EditModeSystemSettingsDialog_Buttons_RevertChangesButton
---- @field Divider Texture
+--- @field Divider EditModeSystemSettingsDialog_Buttons_Divider
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L259)
 --- child of EditModeSystemSettingsDialog
@@ -203,10 +218,12 @@ EditModeUnsavedChangesDialog = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L248)
 --- @class EditModeSystemSettingsDialog : Frame, EditModeDialogTemplate, ResizeLayoutFrame, EditModeSystemSettingsDialogMixin
+--- @field widthPadding number # 40
 --- @field Border EditModeSystemSettingsDialog_Border
 --- @field CloseButton EditModeSystemSettingsDialog_CloseButton
 --- @field Settings EditModeSystemSettingsDialog_Settings
 --- @field Buttons EditModeSystemSettingsDialog_Buttons
 --- @field Title EditModeSystemSettingsDialog_Title
 EditModeSystemSettingsDialog = {}
+EditModeSystemSettingsDialog["widthPadding"] = 40
 

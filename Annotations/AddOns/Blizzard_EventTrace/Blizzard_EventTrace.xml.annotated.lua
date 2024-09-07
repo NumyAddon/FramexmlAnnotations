@@ -127,6 +127,17 @@
 --- child of 
 --- @class EventTrace_Log_Bar_DiscardAllButton : Button, EventTraceMenuButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+ClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+SearchIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L250)
 --- child of 
 --- Template
@@ -219,6 +230,12 @@
 --- @field ScrollBox EventTrace_Filter_ScrollBox
 --- @field ScrollBar EventTrace_Filter_ScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1148)
+--- child of EventTrace (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+EventTraceInset = {}
+EventTraceInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L168)
 --- @class EventTrace : Frame, ButtonFrameTemplate, EventTracePanelMixin
 --- @field TitleBar EventTrace_TitleBar
@@ -227,6 +244,7 @@
 --- @field Log EventTrace_Log
 --- @field Filter EventTrace_Filter
 EventTrace = {}
+EventTrace["Inset"] = EventTraceInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L385)
 --- @class EventTraceTooltip : GameTooltip, SharedTooltipTemplate

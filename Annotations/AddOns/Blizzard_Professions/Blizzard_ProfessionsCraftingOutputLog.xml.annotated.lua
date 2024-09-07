@@ -72,4 +72,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.xml#L134)
 --- Template
 --- @class ProfessionsCraftingOutputLogTemplate : Frame, ScrollingFlatPanelTemplate, ProfessionsCraftingOutputLogMixin
+--- @field panelTitle any # PROFESSIONS_CRAFT_OUTPUT_TITLE
 

@@ -27,6 +27,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L118)
 --- child of CommunitiesGuildMemberDetailFrameTemplate
 --- @class CommunitiesGuildMemberDetailFrameTemplate_NoteBackground : Frame, TooltipBackdropTemplate
+--- @field backdropColorAlpha number # 0.25
 --- @field PersonalNoteText CommunitiesGuildMemberDetailFrameTemplate_NoteBackground_PersonalNoteText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L155)
@@ -36,6 +37,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L148)
 --- child of CommunitiesGuildMemberDetailFrameTemplate
 --- @class CommunitiesGuildMemberDetailFrameTemplate_OfficerNoteBackground : Frame, TooltipBackdropTemplate
+--- @field backdropColorAlpha number # 0.25
 --- @field OfficerNoteText CommunitiesGuildMemberDetailFrameTemplate_OfficerNoteBackground_OfficerNoteText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L9)

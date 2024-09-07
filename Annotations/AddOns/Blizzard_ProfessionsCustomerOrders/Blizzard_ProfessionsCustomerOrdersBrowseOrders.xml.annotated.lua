@@ -4,6 +4,15 @@
 --- child of 
 --- @class ProfessionsCustomerOrdersBrowseOrdersTemplate_SearchBar_FavoritesSearchButton : Button, SquareIconButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.xml#L30)
 --- child of 
 --- @class ProfessionsCustomerOrdersBrowseOrdersTemplate_SearchBar_SearchBox : EditBox, SearchBoxTemplate
@@ -35,6 +44,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.xml#L6)
 --- Template
 --- @class ProfessionsCustomerOrdersBrowseOrdersTemplate : Frame, ProfessionsCustomerOrdersBrowsePageMixin
+--- @field mode any # ProfessionsCustomerOrdersMode.Browse
 --- @field SearchBar ProfessionsCustomerOrdersBrowseOrdersTemplate_SearchBar
 --- @field CategoryList ProfessionsCustomerOrdersBrowseOrdersTemplate_CategoryList
 --- @field RecipeList ProfessionsCustomerOrdersBrowseOrdersTemplate_RecipeList

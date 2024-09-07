@@ -45,6 +45,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L177)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_TrackFrame : Frame, RewardTrackFrameTemplate
+--- @field elementTemplate string # "RenownLevelTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L188)
 --- child of CovenantRenownFrame

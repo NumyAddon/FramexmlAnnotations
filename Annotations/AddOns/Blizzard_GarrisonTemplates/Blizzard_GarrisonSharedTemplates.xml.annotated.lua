@@ -125,6 +125,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L423)
 --- Template
 --- @class GarrisonFollowerListButtonAbilityTemplate : Frame
+--- @field followerTypeID number # 1
 --- @field Icon Texture
 --- @field Name GarrisonFollowerListButtonAbilityTemplate_Name
 
@@ -179,6 +180,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L547)
 --- Template
 --- @class MaterialFrameTemplate : Frame
+--- @field currencyType number # 824
 --- @field BG Texture
 --- @field Materials MaterialFrameTemplate_Materials
 --- @field Icon Texture
@@ -230,10 +232,12 @@ GarrisonTruncationFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L686)
 --- Template
 --- @class GarrisonThreatCountersFrameTemplate : Frame
+--- @field listName string # "FollowerList"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L705)
 --- @class GarrisonThreatCountersFrame : Frame, GarrisonThreatCountersFrameTemplate
 GarrisonThreatCountersFrame = {}
+GarrisonThreatCountersFrame["listName"] = "FollowerList" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L711)
 --- child of GarrisonConfirmFollowerAbilityUpgradeFrame

@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.xml#L12)
 --- child of ClassTalentLoadoutEditDialog
 --- @class ClassTalentLoadoutEditDialog_NameControl : Frame, ClassTalentLoadoutDialogNameControlTemplate, ClassTalentLoadoutEditDialogNameControlMixin
+--- @field labelText any # HUD_CLASS_TALENTS_EDIT_LOADOUT_DIALOG_EDIT_BOX_LABEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.xml#L29)
 --- child of 
@@ -32,10 +33,13 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.xml#L6)
 --- @class ClassTalentLoadoutEditDialog : Frame, ClassTalentLoadoutDialogTemplate, ClassTalentLoadoutEditDialogMixin
+--- @field titleText any # HUD_CLASS_TALENTS_EDIT_LOADOUT_DIALOG_TITLE
 --- @field NameControl ClassTalentLoadoutEditDialog_NameControl
 --- @field UsesSharedActionBars ClassTalentLoadoutEditDialog_UsesSharedActionBars
 --- @field AcceptButton ClassTalentLoadoutEditDialog_AcceptButton
 --- @field DeleteButton ClassTalentLoadoutEditDialog_DeleteButton
 --- @field CancelButton ClassTalentLoadoutEditDialog_CancelButton
 ClassTalentLoadoutEditDialog = {}
+ClassTalentLoadoutEditDialog["titleText"] = HUD_CLASS_TALENTS_EDIT_LOADOUT_DIALOG_TITLE
+ClassTalentLoadoutEditDialog["titleText"] =  -- inherited
 

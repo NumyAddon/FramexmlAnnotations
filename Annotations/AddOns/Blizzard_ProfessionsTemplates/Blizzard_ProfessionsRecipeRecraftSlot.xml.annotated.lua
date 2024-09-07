@@ -13,6 +13,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.xml#L20)
 --- child of ProfessionsRecraftSlotTemplate
 --- @class ProfessionsRecraftSlotTemplate_InputSlot : ItemButton, ProfessionsRecraftInputSlotMixin
+--- @field alwaysShowProfessionsQuality boolean # true
 --- @field Glow ProfessionsRecraftSlotTemplate_InputSlot_Glow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.xml#L67)
@@ -33,11 +34,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.xml#L89)
 --- child of ProfessionsRecraftSlotTemplate
 --- @class ProfessionsRecraftSlotTemplate_OutputSlot : ItemButton, ProfessionsRecraftOutputSlotMixin
+--- @field alwaysShowProfessionsQuality boolean # true
 --- @field ItemFrame Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.xml#L5)
 --- Template
 --- @class ProfessionsRecraftSlotTemplate : Frame, ProfessionsRecraftSlotMixin
+--- @field hideBackdrop boolean # false
 --- @field InputSlot ProfessionsRecraftSlotTemplate_InputSlot
 --- @field AnimatedArrow ProfessionsRecraftSlotTemplate_AnimatedArrow
 --- @field DimArrow ProfessionsRecraftSlotTemplate_DimArrow

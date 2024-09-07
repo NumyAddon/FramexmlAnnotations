@@ -8,6 +8,21 @@
 --- child of 
 --- @class AuctionHouseFrame_MoneyFrameBorder_MoneyFrame : Frame, MoneyDisplayFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L1484)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L1492)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L1500)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+Middle = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L18)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_MoneyFrameBorder : Frame, ThinGoldEdgeTemplate
@@ -16,17 +31,23 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L45)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_AuctionHouseFrameBuyTab : Button, AuctionHouseFrameDisplayModeTabTemplate
+--- @field displayMode any # AuctionHouseFrameDisplayMode.Buy
 AuctionHouseFrameBuyTab = {}
+AuctionHouseFrameBuyTab["displayMode"] = AuctionHouseFrameDisplayMode.Buy
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L53)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_AuctionHouseFrameSellTab : Button, AuctionHouseFrameDisplayModeTabTemplate
+--- @field displayMode any # AuctionHouseFrameDisplayMode.ItemSell
 AuctionHouseFrameSellTab = {}
+AuctionHouseFrameSellTab["displayMode"] = AuctionHouseFrameDisplayMode.ItemSell
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L61)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_AuctionHouseFrameAuctionsTab : Button, AuctionHouseFrameDisplayModeTabTemplate
+--- @field displayMode any # AuctionHouseFrameDisplayMode.Auctions
 AuctionHouseFrameAuctionsTab = {}
+AuctionHouseFrameAuctionsTab["displayMode"] = AuctionHouseFrameDisplayMode.Auctions
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L72)
 --- child of AuctionHouseFrame
@@ -59,6 +80,7 @@ AuctionHouseFrameAuctionsTab = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L127)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_ItemSellList : Frame, AuctionHouseItemListTemplate
+--- @field backgroundAtlas string # "auctionhouse-background-sell-right"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L140)
 --- child of AuctionHouseFrame
@@ -72,10 +94,22 @@ AuctionHouseFrameAuctionsTab = {}
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_WoWTokenSellFrame : Frame, WoWTokenSellFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L57)
+--- child of AuctionHouseFrameAuctionsFrame (created in template AuctionHouseAuctionsFrameTemplate)
+--- @type AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateAuctionsTab
+AuctionHouseFrameAuctionsFrameAuctionsTab = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L63)
+--- child of AuctionHouseFrameAuctionsFrame (created in template AuctionHouseAuctionsFrameTemplate)
+--- @type AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateBidsTab
+AuctionHouseFrameAuctionsFrameBidsTab = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L162)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_AuctionHouseFrameAuctionsFrame : Frame, AuctionHouseAuctionsFrameTemplate
 AuctionHouseFrameAuctionsFrame = {}
+AuctionHouseFrameAuctionsFrame["AuctionsTab"] = AuctionHouseFrameAuctionsFrameAuctionsTab -- inherited
+AuctionHouseFrameAuctionsFrame["BidsTab"] = AuctionHouseFrameAuctionsFrameBidsTab -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L180)
 --- child of AuctionHouseFrame
@@ -84,6 +118,12 @@ AuctionHouseFrameAuctionsFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L188)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_DummyMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
+--- @field hideCopper boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L1095)
+--- child of AuctionHouseFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+AuctionHouseFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L5)
 --- @class AuctionHouseFrame : Frame, PortraitFrameTemplate, AuctionHouseFrameMixin
@@ -108,4 +148,9 @@ AuctionHouseFrameAuctionsFrame = {}
 --- @field BuyDialog AuctionHouseFrame_BuyDialog
 --- @field DummyMoneyDisplayFrame AuctionHouseFrame_DummyMoneyDisplayFrame
 AuctionHouseFrame = {}
+AuctionHouseFrame["BuyTab"] = AuctionHouseFrameBuyTab
+AuctionHouseFrame["SellTab"] = AuctionHouseFrameSellTab
+AuctionHouseFrame["AuctionsTab"] = AuctionHouseFrameAuctionsTab
+AuctionHouseFrame["AuctionsFrame"] = AuctionHouseFrameAuctionsFrame
+AuctionHouseFrame["CloseButton"] = AuctionHouseFrameCloseButton -- inherited
 

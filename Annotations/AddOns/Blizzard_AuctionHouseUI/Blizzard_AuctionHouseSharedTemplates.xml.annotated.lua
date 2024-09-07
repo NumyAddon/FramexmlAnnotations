@@ -7,12 +7,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSharedTemplates.xml#L5)
 --- Template
 --- @class AuctionHouseBackgroundTemplate : Frame, AuctionHouseBackgroundMixin
+--- @field layoutType string # "InsetFrameTemplate"
 --- @field NineSlice AuctionHouseBackgroundTemplate_NineSlice
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSharedTemplates.xml#L36)
 --- Template
 --- @class AuctionHouseItemDisplayBaseTemplate : Button, AuctionHouseBackgroundTemplate, AuctionHouseItemDisplayMixin
+--- @field itemButtonXOffset number # 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSharedTemplates.xml#L57)
 --- child of AuctionHouseItemDisplayTemplate
@@ -44,6 +46,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSharedTemplates.xml#L87)
 --- Template
 --- @class AuctionHouseInteractableItemDisplayTemplate : Button, AuctionHouseItemDisplayBaseTemplate, AuctionHouseInteractableItemDisplayMixin
+--- @field itemButtonXOffset number # 10
 --- @field ItemButton AuctionHouseInteractableItemDisplayTemplate_ItemButton
 --- @field Name AuctionHouseInteractableItemDisplayTemplate_Name
 
@@ -64,6 +67,30 @@
 --- @class AuctionHouseRefreshFrameTemplate : Frame, AuctionHouseRefreshFrameMixin
 --- @field RefreshButton AuctionHouseRefreshFrameTemplate_RefreshButton
 --- @field TotalQuantity AuctionHouseRefreshFrameTemplate_TotalQuantity
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSharedTemplates.xml#L6)
+--- child of  (created in template MoneyInputFrameTemplate)
+--- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateGold
+--- @field left Texture
+--- @field right Texture
+--- @field texture Texture
+--- @field label FontString
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSharedTemplates.xml#L80)
+--- child of  (created in template MoneyInputFrameTemplate)
+--- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver
+--- @field left Texture
+--- @field right Texture
+--- @field texture Texture
+--- @field label FontString
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSharedTemplates.xml#L155)
+--- child of  (created in template MoneyInputFrameTemplate)
+--- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper
+--- @field left Texture
+--- @field right Texture
+--- @field texture Texture
+--- @field label FontString
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSharedTemplates.xml#L164)
 --- child of AuctionHouseBidFrameTemplate

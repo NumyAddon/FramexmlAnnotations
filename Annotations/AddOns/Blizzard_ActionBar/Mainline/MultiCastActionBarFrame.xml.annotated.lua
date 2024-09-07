@@ -46,6 +46,8 @@ MultiCastFlyoutFrameMiddle = {}
 --- @field top MultiCastActionBarFrame_MultiCastFlyoutFrame_MultiCastFlyoutFrameTop
 --- @field middle MultiCastActionBarFrame_MultiCastFlyoutFrame_MultiCastFlyoutFrameMiddle
 MultiCastFlyoutFrame = {}
+MultiCastFlyoutFrame["top"] = MultiCastFlyoutFrameTop
+MultiCastFlyoutFrame["middle"] = MultiCastFlyoutFrameMiddle
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L195)
 --- child of MultiCastActionBarFrame
@@ -58,11 +60,22 @@ MultiCastFlyoutFrameOpenButton = {}
 --- @class MultiCastActionBarFrame_MultiCastSummonSpellButton_MultiCastSummonSpellButtonFlyoutButton : Button
 MultiCastSummonSpellButtonFlyoutButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L74)
+--- child of MultiCastSummonSpellButton (created in template MultiCastSpellButton)
+--- @type MultiCastSpellButton_MultiCastSpellButtonHotKey
+MultiCastSummonSpellButtonHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L82)
+--- child of MultiCastSummonSpellButton (created in template MultiCastSpellButton)
+--- @type Texture
+MultiCastSummonSpellButtonHighlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L215)
 --- child of MultiCastActionBarFrame
 --- @class MultiCastActionBarFrame_MultiCastSummonSpellButton : CheckButton, MultiCastSpellButton
 --- @field flyoutButton MultiCastActionBarFrame_MultiCastSummonSpellButton_MultiCastSummonSpellButtonFlyoutButton
 MultiCastSummonSpellButton = {}
+MultiCastSummonSpellButton["flyoutButton"] = MultiCastSummonSpellButtonFlyoutButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L261)
 --- child of MultiCastActionBarFrame
@@ -159,6 +172,16 @@ MultiCastActionButton12 = {}
 --- @class MultiCastActionBarFrame_MultiCastActionPage3 : Frame
 MultiCastActionPage3 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L74)
+--- child of MultiCastRecallSpellButton (created in template MultiCastSpellButton)
+--- @type MultiCastSpellButton_MultiCastSpellButtonHotKey
+MultiCastRecallSpellButtonHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L82)
+--- child of MultiCastRecallSpellButton (created in template MultiCastSpellButton)
+--- @type Texture
+MultiCastRecallSpellButtonHighlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L365)
 --- child of MultiCastActionBarFrame
 --- @class MultiCastActionBarFrame_MultiCastRecallSpellButton : CheckButton, MultiCastSpellButton
@@ -166,5 +189,8 @@ MultiCastRecallSpellButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L128)
 --- @class MultiCastActionBarFrame : Frame, UIParentBottomManagedFrameTemplate
+--- @field layoutIndex number # 203
 MultiCastActionBarFrame = {}
+MultiCastActionBarFrame["layoutIndex"] = 203
+MultiCastActionBarFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 

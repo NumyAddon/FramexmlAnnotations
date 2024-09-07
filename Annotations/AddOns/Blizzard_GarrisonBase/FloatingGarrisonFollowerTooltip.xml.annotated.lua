@@ -175,6 +175,7 @@ FloatingGarrisonShipyardFollowerTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L278)
 --- Template
 --- @class GarrisonFollowerAbilityTooltipTemplate : Frame, TooltipBackdropTemplate
+--- @field abilityFrameHeightBase number # 30
 --- @field Icon Texture
 --- @field Name GarrisonFollowerAbilityTooltipTemplate_Name
 --- @field Description GarrisonFollowerAbilityTooltipTemplate_Description
@@ -194,6 +195,7 @@ FloatingGarrisonShipyardFollowerTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L336)
 --- Template
 --- @class GarrisonFollowerAbilityWithoutCountersTooltipTemplate : Frame, TooltipBackdropTemplate
+--- @field abilityFrameHeightBase number # 30
 --- @field Icon Texture
 --- @field Name GarrisonFollowerAbilityWithoutCountersTooltipTemplate_Name
 --- @field Description GarrisonFollowerAbilityWithoutCountersTooltipTemplate_Description
@@ -214,6 +216,7 @@ FloatingGarrisonShipyardFollowerTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L377)
 --- Template
 --- @class GarrisonFollowerMissionAbilityWithoutCountersTooltipTemplate : Frame, TooltipBackdropTemplate
+--- @field abilityFrameHeightBase number # 46
 --- @field Header GarrisonFollowerMissionAbilityWithoutCountersTooltipTemplate_Header
 --- @field Icon Texture
 --- @field Name GarrisonFollowerMissionAbilityWithoutCountersTooltipTemplate_Name
@@ -228,6 +231,7 @@ FloatingGarrisonShipyardFollowerTooltip = {}
 --- @class FloatingGarrisonFollowerAbilityTooltip : Frame, GarrisonFollowerAbilityTooltipTemplate
 --- @field CloseButton FloatingGarrisonFollowerAbilityTooltip_CloseButton
 FloatingGarrisonFollowerAbilityTooltip = {}
+FloatingGarrisonFollowerAbilityTooltip["abilityFrameHeightBase"] = 30 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L472)
 --- child of FloatingGarrisonMissionTooltip
@@ -257,4 +261,5 @@ FloatingGarrisonFollowerAbilityTooltip = {}
 --- @field RewardsLabel FloatingGarrisonMissionTooltip_RewardsLabel
 --- @field Rewards FloatingGarrisonMissionTooltip_Rewards
 FloatingGarrisonMissionTooltip = {}
+FloatingGarrisonMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 

@@ -17,6 +17,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L35)
 --- child of AnimaDiversionFrame
 --- @class AnimaDiversionFrame_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "UniqueCornersLayout"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L51)
 --- child of AnimaDiversionFrame
@@ -77,4 +78,5 @@
 --- @field ReinforceProgressFrame AnimaDiversionFrame_ReinforceProgressFrame
 --- @field ReinforceInfoFrame AnimaDiversionFrame_ReinforceInfoFrame
 AnimaDiversionFrame = {}
+AnimaDiversionFrame["debugInspectionSystem"] = "MapCanvas" -- inherited
 

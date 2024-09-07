@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L51)
 --- child of PlayerChoiceGenericPowerChoiceOptionTemplate
 --- @class PlayerChoiceGenericPowerChoiceOptionTemplate_BackgroundContainer : Frame
+--- @field ignoreInLayout string # "true"
 --- @field Background Texture
 --- @field BackgroundGlow Texture
 --- @field LineGlow Texture
@@ -21,6 +22,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L127)
 --- child of PlayerChoiceGenericPowerChoiceOptionTemplate
 --- @class PlayerChoiceGenericPowerChoiceOptionTemplate_Header : Frame, PlayerChoiceBaseCenteredFrame, ResizeLayoutFrame
+--- @field layoutIndex number # 1
 --- @field Text PlayerChoiceGenericPowerChoiceOptionTemplate_Header_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L144)
@@ -50,6 +52,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L4)
 --- Template
 --- @class PlayerChoiceGenericPowerChoiceOptionTemplate : Frame, PlayerChoicePowerChoiceTemplate, PlayerChoiceGenericPowerChoiceOptionTemplateMixin
+--- @field minOptionHeight number # 345
 --- @field BackgroundContainer PlayerChoiceGenericPowerChoiceOptionTemplate_BackgroundContainer
 --- @field Header PlayerChoiceGenericPowerChoiceOptionTemplate_Header
 --- @field ArtworkGlow1 Texture

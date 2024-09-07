@@ -17,6 +17,10 @@
 --- @field QualityOverlay Texture
 --- @field AddIcon Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.xml#L97)
 --- child of ProfessionsReagentSlotBaseTemplate
 --- @class ProfessionsReagentSlotBaseTemplate_Checkbox : CheckButton, UICheckButtonTemplate

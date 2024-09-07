@@ -25,6 +25,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L125)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_Comment : ScrollFrame, InputScrollFrameTemplate
+--- @field maxLetters number # 127
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L133)
 --- child of SharedReportFrameTemplate
@@ -46,6 +47,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L21)
 --- Template
 --- @class SharedReportFrameTemplate : Frame, ResizeLayoutFrame
+--- @field fixedWidth number # 400
 --- @field Border Frame
 --- @field ReportingMajorCategoryDropdown SharedReportFrameTemplate_ReportingMajorCategoryDropdown
 --- @field ReportButton SharedReportFrameTemplate_ReportButton

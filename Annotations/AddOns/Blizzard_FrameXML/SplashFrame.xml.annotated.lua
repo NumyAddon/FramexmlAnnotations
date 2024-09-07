@@ -47,6 +47,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L116)
 --- child of 
 --- @class SplashFrame_RightFeature_Title : FontString, Game72Font, AutoScalingFontStringMixin
+--- @field minLineHeight number # 18
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L103)
 --- child of SplashFrame

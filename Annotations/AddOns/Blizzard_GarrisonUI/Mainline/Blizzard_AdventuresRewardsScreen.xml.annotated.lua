@@ -73,14 +73,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L235)
 --- child of 
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_RewardsEarnedFrame : Frame, HorizontalLayoutFrame
+--- @field expand boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L245)
 --- child of 
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_FollowerExperienceEarnedFrame : Frame, HorizontalLayoutFrame
+--- @field expand boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L226)
 --- child of 
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame : Frame, HorizontalLayoutFrame
+--- @field expand boolean # true
 --- @field RewardsEarnedFrame AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_RewardsEarnedFrame
 --- @field FollowerExperienceEarnedFrame AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_FollowerExperienceEarnedFrame
 

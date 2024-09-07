@@ -15,10 +15,34 @@
 --- @field icon Texture
 --- @field count CompactAuraTemplate_CompactAuraTemplateCount
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L18)
+--- child of CompactDebuffTemplate (created in template CompactAuraTemplate)
+--- @type CompactAuraTemplate_CompactAuraTemplateCooldown
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L7)
+--- child of CompactDebuffTemplate (created in template CompactAuraTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L10)
+--- child of CompactDebuffTemplate (created in template CompactAuraTemplate)
+--- @type CompactAuraTemplate_CompactAuraTemplateCount
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L28)
 --- Template
 --- @class CompactDebuffTemplate : Button, CompactAuraTemplate, CompactDebuffMixin
 --- @field border Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L18)
+--- child of CompactBuffTemplate (created in template CompactAuraTemplate)
+--- @type CompactAuraTemplate_CompactAuraTemplateCooldown
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L7)
+--- child of CompactBuffTemplate (created in template CompactAuraTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L10)
+--- child of CompactBuffTemplate (created in template CompactAuraTemplate)
+--- @type CompactAuraTemplate_CompactAuraTemplateCount
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L49)
 --- Template
@@ -79,13 +103,25 @@
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff8 : Button, CompactBuffTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L31)
+--- child of CompactUnitFrameTemplateDebuff1 (created in template CompactDebuffTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L142)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff1 : Button, CompactDebuffTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L31)
+--- child of CompactUnitFrameTemplateDebuff2 (created in template CompactDebuffTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L143)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff2 : Button, CompactDebuffTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L31)
+--- child of CompactUnitFrameTemplateDebuff3 (created in template CompactDebuffTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L144)
 --- child of CompactUnitFrameTemplate
@@ -94,18 +130,32 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L145)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_PrivateAuraAnchor1 : Frame, CompactUnitPrivateAuraAnchorTemplate
+--- @field auraIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L150)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_PrivateAuraAnchor2 : Frame, CompactUnitPrivateAuraAnchorTemplate
+--- @field auraIndex number # 2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L58)
+--- child of CompactUnitFrameTemplateDispelDebuff1 (created in template CompactDispelDebuffTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L158)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff1 : Button, CompactDispelDebuffTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L58)
+--- child of CompactUnitFrameTemplateDispelDebuff2 (created in template CompactDispelDebuffTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L159)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff2 : Button, CompactDispelDebuffTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L58)
+--- child of CompactUnitFrameTemplateDispelDebuff3 (created in template CompactDispelDebuffTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L160)
 --- child of CompactUnitFrameTemplate

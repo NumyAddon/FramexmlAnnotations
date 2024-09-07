@@ -1,28 +1,47 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L9)
+--- child of Tooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L88)
+--- child of  (created in template InternalEmbeddedItemTooltipTemplate)
+--- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateTooltip
+--- @field IsEmbedded boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L101)
+--- child of  (created in template InternalEmbeddedItemTooltipTemplate)
+--- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateGarrisonFollowerTooltip
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L49)
 --- child of CampaignTooltipTemplate
 --- @class CampaignTooltipTemplate_ItemTooltip : Frame, InternalEmbeddedItemTooltipTemplate
+--- @field layoutIndex number # 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L15)
 --- child of CampaignTooltipTemplate
 --- @class CampaignTooltipTemplate_Title : FontString, GameFontHighlightMedium
+--- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L22)
 --- child of CampaignTooltipTemplate
 --- @class CampaignTooltipTemplate_ChapterTitle : FontString, GameFontNormal
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L30)
 --- child of CampaignTooltipTemplate
 --- @class CampaignTooltipTemplate_Description : FontString, GameFontHighlight
+--- @field layoutIndex number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L38)
 --- child of CampaignTooltipTemplate
 --- @class CampaignTooltipTemplate_CompleteRewardText : FontString, GameFontNormal
+--- @field layoutIndex number # 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L3)
 --- Template
 --- @class CampaignTooltipTemplate : Frame, VerticalLayoutFrame, TooltipBackdropTemplate, CampaignTooltipMixin
+--- @field expand boolean # true
 --- @field ItemTooltip CampaignTooltipTemplate_ItemTooltip
 --- @field Title CampaignTooltipTemplate_Title
 --- @field ChapterTitle CampaignTooltipTemplate_ChapterTitle
@@ -45,24 +64,33 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L93)
 --- child of CampaignHeaderDisplayTemplate
 --- @class CampaignHeaderDisplayTemplate_Text : FontString, Game15Font_Shadow, AutoScalingFontStringMixin
+--- @field minLineHeight number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L102)
 --- child of CampaignHeaderDisplayTemplate
 --- @class CampaignHeaderDisplayTemplate_Progress : FontString, SystemFont_Shadow_Small2
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L112)
 --- child of CampaignHeaderDisplayTemplate
 --- @class CampaignHeaderDisplayTemplate_HighlightTexture : Texture, QuestLogHighlightTextureTemplate
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L123)
+--- child of CampaignHeaderDisplayTemplate
+--- @class CampaignHeaderDisplayTemplate_TopFiligree : Texture
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L78)
 --- Template
 --- @class CampaignHeaderDisplayTemplate : Frame, ResizeLayoutFrame, CampaignHeaderDisplayMixin
+--- @field fixedWidth number # 304
 --- @field NextObjective CampaignHeaderDisplayTemplate_NextObjective
 --- @field Background Texture
 --- @field Text CampaignHeaderDisplayTemplate_Text
 --- @field Progress CampaignHeaderDisplayTemplate_Progress
 --- @field HighlightTexture CampaignHeaderDisplayTemplate_HighlightTexture
---- @field TopFiligree Texture
+--- @field TopFiligree CampaignHeaderDisplayTemplate_TopFiligree
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L179)
 --- child of CampaignHeaderTemplate
@@ -73,12 +101,18 @@
 --- @class CampaignHeaderTemplate_LoreButton : Button, LoreButtonTemplate
 --- @field Glow Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L168)
+--- child of CampaignHeaderTemplate
+--- @class CampaignHeaderTemplate_SelectedHighlight : Texture
+--- @field ignoreInLayout boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L160)
 --- Template
 --- @class CampaignHeaderTemplate : Frame, CampaignHeaderDisplayTemplate, CampaignHeaderMixin, CampaignHeaderCollapsibleMixin, CampaignHeaderTooltipableMixin
+--- @field fixedWidth number # 304
 --- @field CollapseButton CampaignHeaderTemplate_CollapseButton
 --- @field LoreButton CampaignHeaderTemplate_LoreButton
---- @field SelectedHighlight Texture
+--- @field SelectedHighlight CampaignHeaderTemplate_SelectedHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L216)
 --- child of CampaignHeaderMinimalTemplate
@@ -91,10 +125,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L240)
 --- child of CampaignHeaderMinimalTemplate
 --- @class CampaignHeaderMinimalTemplate_Text : FontString, Game15Font_Shadow, AutoScalingFontStringMixin
+--- @field minLineHeight number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L208)
 --- Template
 --- @class CampaignHeaderMinimalTemplate : Button, ResizeLayoutFrame, QuestLogHeaderCodeMixin, CampaignHeaderMinimalMixin, CampaignHeaderCollapsibleMixin
+--- @field leftPadding number # 11
 --- @field CollapseButton CampaignHeaderMinimalTemplate_CollapseButton
 --- @field Background Texture
 --- @field Highlight CampaignHeaderMinimalTemplate_Highlight

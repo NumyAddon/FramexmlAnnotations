@@ -65,6 +65,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L106)
 --- Template
 --- @class InputScrollFrameTemplate : ScrollFrame, ScrollFrameTemplate
+--- @field maxLetters number # 0
 --- @field TopLeftTex Texture
 --- @field TopRightTex Texture
 --- @field TopTex Texture
@@ -83,6 +84,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L210)
 --- Template
 --- @class UIPanelButtonNoTooltipTemplate : Button, UIButtonFitToTextBehaviorMixin
+--- @field fitTextCanWidthDecrease boolean # true
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
@@ -90,6 +92,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L258)
 --- Template
 --- @class UIPanelButtonNoTooltipResizeToFitTemplate : Button, UIPanelButtonNoTooltipTemplate, ResizeLayoutFrame, UIPanelButtonNoTooltipResizeToFitMixin
+--- @field fixedHeight number # 22
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L277)
 --- child of SelectionFrameTemplate
@@ -102,6 +105,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L268)
 --- Template
 --- @class SelectionFrameTemplate : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "SelectionFrameTemplate"
 --- @field CancelButton SelectionFrameTemplate_CancelButton
 --- @field OkayButton SelectionFrameTemplate_OkayButton
 

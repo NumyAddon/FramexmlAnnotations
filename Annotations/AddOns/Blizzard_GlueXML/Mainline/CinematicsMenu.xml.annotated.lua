@@ -21,6 +21,11 @@
 --- child of CinematicsMenu
 --- @class CinematicsMenu_CloseButton : Button, UIPanelCloseButtonNoScripts
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L7)
+--- child of  (created in template GlueCheckButtonTemplate)
+--- @type GlueCheckButtonTemplate_GlueCheckButtonTemplateText
+Text = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L93)
 --- child of CinematicsMenu
 --- @class CinematicsMenu_SubtitlesCheckbox : CheckButton, GlueCheckButtonTemplate, CinematicsMenuSubtitlesCheckboxMixin
@@ -41,6 +46,16 @@
 --- child of CinematicsMenu
 --- @class CinematicsMenu_SubtitlesLabel : FontString, GlueFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L971)
+--- child of CinematicsMenu (created in template DefaultPanelTemplate)
+--- @type Texture
+CinematicsMenuBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L979)
+--- child of CinematicsMenu (created in template DefaultPanelTemplate)
+--- @type DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks
+CinematicsMenuTopTileStreaks = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L73)
 --- @class CinematicsMenu : Frame, DefaultPanelTemplate, CinematicsMenuMixin
 --- @field CloseButton CinematicsMenu_CloseButton
@@ -50,4 +65,6 @@
 --- @field PageControl CinematicsMenu_PageControl
 --- @field SubtitlesLabel CinematicsMenu_SubtitlesLabel
 CinematicsMenu = {}
+CinematicsMenu["Bg"] = CinematicsMenuBg -- inherited
+CinematicsMenu["TopTileStreaks"] = CinematicsMenuTopTileStreaks -- inherited
 

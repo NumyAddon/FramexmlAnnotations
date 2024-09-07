@@ -43,18 +43,31 @@ RaidParentFrameTab1 = {}
 --- @class RaidParentFrame_RaidParentFrameTab2 : Button, PanelTabButtonTemplate
 RaidParentFrameTab2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1148)
+--- child of RaidParentFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+RaidParentFrameInset = {}
+RaidParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L96)
 --- @class RaidParentFrame : Frame, ButtonFrameTemplate
 RaidParentFrame = {}
+RaidParentFrame["Inset"] = RaidParentFrameInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L141)
 --- child of RaidFrame
 --- @class RaidFrame_RoleCount : Frame, RoleCountTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L501)
+--- child of RaidFrameAllAssistCheckButton (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+RaidFrameAllAssistCheckButtonText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L146)
 --- child of RaidFrame
 --- @class RaidFrame_RaidFrameAllAssistCheckButton : CheckButton, UICheckButtonTemplate
 RaidFrameAllAssistCheckButton = {}
+RaidFrameAllAssistCheckButton["Text"] = RaidFrameAllAssistCheckButtonText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L186)
 --- child of RaidFrameNotInRaid
@@ -83,11 +96,42 @@ RaidFrameRaidInfoButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L250)
 --- child of RaidInfoFrame
 --- @class RaidFrame_RaidInfoFrame_Header : Frame, DialogHeaderTemplate
+--- @field textString any # RAID_INFORMATION
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L7)
+--- child of RaidInfoInstanceLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoInstanceLabelLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L15)
+--- child of RaidInfoInstanceLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoInstanceLabelRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L23)
+--- child of RaidInfoInstanceLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoInstanceLabelMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L255)
 --- child of RaidInfoFrame
 --- @class RaidFrame_RaidInfoFrame_RaidInfoInstanceLabel : Frame, RaidInfoHeaderTemplate
 RaidInfoInstanceLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L7)
+--- child of RaidInfoIDLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoIDLabelLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L15)
+--- child of RaidInfoIDLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoIDLabelRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L23)
+--- child of RaidInfoIDLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoIDLabelMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L266)
 --- child of RaidInfoFrame

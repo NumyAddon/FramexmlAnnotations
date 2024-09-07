@@ -17,6 +17,21 @@
 --- child of 
 --- @class GossipFrame_GreetingPanel_ScrollBar : EventFrame, MinimalScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L16)
+--- child of  (created in template GossipFramePanelTemplate)
+--- @type Texture
+MaterialTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L22)
+--- child of  (created in template GossipFramePanelTemplate)
+--- @type Texture
+MaterialBotLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L28)
+--- child of  (created in template GossipFramePanelTemplate)
+--- @type Texture
+MaterialBotRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L49)
 --- child of GossipFrame
 --- @class GossipFrame_GreetingPanel : Frame, GossipFramePanelTemplate
@@ -28,12 +43,19 @@
 --- child of GossipFrame
 --- @class GossipFrame_FriendshipStatusBar : StatusBar, NPCFriendshipStatusBarTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L1148)
+--- child of GossipFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+GossipFrameInset = {}
+GossipFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L37)
 --- @class GossipFrame : Frame, ButtonFrameTemplate, GossipFrameMixin
 --- @field GreetingPanel GossipFrame_GreetingPanel
 --- @field FriendshipStatusBar GossipFrame_FriendshipStatusBar
 --- @field Background Texture
 GossipFrame = {}
+GossipFrame["Inset"] = GossipFrameInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L90)
 --- Template

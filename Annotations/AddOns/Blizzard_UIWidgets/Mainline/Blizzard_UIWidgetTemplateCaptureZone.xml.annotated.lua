@@ -1,6 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateCaptureZone.xml#L5)
+--- child of UIWidgetTemplateCaptureZone
 --- @class UIWidgetTemplateCaptureZone_Zone : Frame, UIWidgetBaseControlZoneTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateCaptureZone.xml#L3)

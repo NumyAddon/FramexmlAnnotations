@@ -19,20 +19,48 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L58)
 --- Template
 --- @class ContainerFramePortraitButtonTemplate : DropdownButton, ContainerFramePortraitButtonMixin
+--- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L147)
+--- child of ContainerFrameItemButtonTemplate
 --- @class ContainerFrameItemButtonTemplate_ContainerFrameItemButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L96)
+--- child of ContainerFrameItemButtonTemplate
+--- @class ContainerFrameItemButtonTemplate_ContainerFrameItemButtonTemplateIconQuestTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L86)
+--- child of ContainerFrameItemButtonTemplate
+--- @class ContainerFrameItemButtonTemplate_newitemglowAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L90)
+--- child of ContainerFrameItemButtonTemplate
+--- @class ContainerFrameItemButtonTemplate_flashAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L77)
 --- Template
 --- @class ContainerFrameItemButtonTemplate : ItemButton, EnchantingItemButtonAnimTemplate, ContainerFrameItemButtonMixin
 --- @field Cooldown ContainerFrameItemButtonTemplate_ContainerFrameItemButtonTemplateCooldown
+--- @field IconQuestTexture ContainerFrameItemButtonTemplate_ContainerFrameItemButtonTemplateIconQuestTexture
+--- @field UpgradeIcon Texture
+--- @field flash Texture
+--- @field NewItemTexture Texture
+--- @field BattlepayItemTexture Texture
+--- @field BagIndicator Texture
+--- @field ExtendedSlot Texture
+--- @field JunkIcon Texture
+--- @field newitemglowAnim ContainerFrameItemButtonTemplate_newitemglowAnim
+--- @field flashAnim ContainerFrameItemButtonTemplate_flashAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L161)
 --- Template
 --- @class ContainerFrameCurrencyBorderTemplate : Frame, ContainerFrameCurrencyBorderMixin
+--- @field Left Texture
+--- @field Right Texture
+--- @field Middle Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L195)
+--- child of ContainerMoneyFrameTemplate
 --- @class ContainerMoneyFrameTemplate_Border : Frame, ContainerFrameCurrencyBorderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L190)
@@ -45,16 +73,28 @@
 ContainerFrameContainer = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
+--- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_ContainerFrameTemplatePortraitButton : DropdownButton, ContainerFramePortraitButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L241)
+--- child of ContainerFrameTemplate
+--- @class ContainerFrameTemplate_FilterIcon : Frame
+--- @field Icon Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L257)
---- @class ContainerFrameTemplate_ : Button, ContainerFramePortraitButtonRouterTemplate
+--- child of ContainerFrameTemplate
+--- @class  : Button, ContainerFramePortraitButtonRouterTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
+--- child of ContainerFrameTemplate
+--- @class ContainerFrameTemplate_ContainerFrameTemplateBackground1Slot : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L218)
 --- Template
 --- @class ContainerFrameTemplate : Frame, PortraitFrameFlatTemplate, ContainerFrameMixin
 --- @field PortraitButton ContainerFrameTemplate_ContainerFrameTemplatePortraitButton
---- @field FilterIcon Frame
+--- @field FilterIcon ContainerFrameTemplate_FilterIcon
+--- @field Background1Slot ContainerFrameTemplate_ContainerFrameTemplateBackground1Slot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L267)
 --- Template
@@ -65,6 +105,7 @@ ContainerFrameContainer = {}
 --- @class ContainerFrameReagentBagTemplate : Frame, ContainerFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L281)
+--- child of ContainerFrameBackpackTemplate
 --- @class ContainerFrameBackpackTemplate_ContainerFrameBackpackTemplateMoneyFrame : Frame, ContainerMoneyFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L279)
@@ -125,12 +166,16 @@ ContainerFrame12 = {}
 ContainerFrame13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L309)
+--- child of ContainerFrameCombinedBags
 --- @class ContainerFrameCombinedBags_ContainerFrameCombinedBagsPortraitButton : DropdownButton, ContainerFramePortraitButtonTemplate
+ContainerFrameCombinedBagsPortraitButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L310)
---- @class ContainerFrameCombinedBags_ : Button, ContainerFramePortraitButtonRouterTemplate
+--- child of ContainerFrameCombinedBags
+--- @class  : Button, ContainerFramePortraitButtonRouterTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L311)
+--- child of ContainerFrameCombinedBags
 --- @class ContainerFrameCombinedBags_MoneyFrame : Frame, ContainerMoneyFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L303)

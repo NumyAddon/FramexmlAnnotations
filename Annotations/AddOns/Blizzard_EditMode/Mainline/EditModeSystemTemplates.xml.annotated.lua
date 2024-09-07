@@ -8,23 +8,40 @@
 --- Template
 --- @class EditModeSystemSelectionBaseTemplate : Frame, NineSliceCodeTemplate, EditModeSystemSelectionBaseMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L29)
+--- child of EditModeSystemSelectionTemplate
+--- @class EditModeSystemSelectionTemplate_Label : FontString, GameFontHighlightLarge, ShrinkUntilTruncateFontStringMixin
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L26)
 --- Template
 --- @class EditModeSystemSelectionTemplate : Frame, EditModeSystemSelectionBaseTemplate, EditModeSystemSelectionMixin
+--- @field Label EditModeSystemSelectionTemplate_Label
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L38)
+--- child of EditModeSystemSelectionDoubleLabelTemplate
+--- @class EditModeSystemSelectionDoubleLabelTemplate_HorizontalLabel : FontString, GameFontHighlightLarge, ShrinkUntilTruncateFontStringMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L40)
+--- child of EditModeSystemSelectionDoubleLabelTemplate
+--- @class EditModeSystemSelectionDoubleLabelTemplate_VerticalLabel : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L35)
 --- Template
 --- @class EditModeSystemSelectionDoubleLabelTemplate : Frame, EditModeSystemSelectionBaseTemplate, EditModeSystemSelectionDoubleLabelMixin
+--- @field HorizontalLabel EditModeSystemSelectionDoubleLabelTemplate_HorizontalLabel
+--- @field VerticalLabel EditModeSystemSelectionDoubleLabelTemplate_VerticalLabel
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L56)
---- @class EditModeActionBarSystemTemplate_ : Frame, EditModeSystemSelectionDoubleLabelTemplate
+--- child of EditModeActionBarSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionDoubleLabelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L49)
 --- Template
 --- @class EditModeActionBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeActionBarSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L65)
---- @class EditModeUnitFrameSystemTemplate_ : Frame, EditModeSystemSelectionDoubleLabelTemplate
+--- child of EditModeUnitFrameSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionDoubleLabelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L60)
 --- Template
@@ -39,51 +56,59 @@
 --- @class EditModeArenaUnitFrameSystemTemplate : Frame, EditModeUnitFrameSystemTemplate, EditModeArenaUnitFrameSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L95)
---- @class EditModeMinimapSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeMinimapSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L89)
 --- Template
 --- @class EditModeMinimapSystemTemplate : Frame, EditModeSystemTemplate, EditModeMinimapSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L106)
---- @class EditModeCastBarSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeCastBarSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L99)
 --- Template
 --- @class EditModeCastBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeCastBarSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L117)
---- @class EditModeEncounterBarSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeEncounterBarSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L110)
 --- Template
 --- @class EditModeEncounterBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeEncounterBarSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L128)
---- @class EditModeExtraAbilitiesSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeExtraAbilitiesSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L121)
 --- Template
 --- @class EditModeExtraAbilitiesSystemTemplate : Frame, EditModeSystemTemplate, EditModeExtraAbilitiesSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L138)
---- @class EditModeAuraFrameSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeAuraFrameSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L132)
 --- Template
 --- @class EditModeAuraFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeAuraFrameSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L149)
---- @class EditModeTalkingHeadFrameSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeTalkingHeadFrameSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L142)
 --- Template
 --- @class EditModeTalkingHeadFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeTalkingHeadFrameSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L159)
---- @class EditModeChatFrameSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeChatFrameSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L165)
+--- child of EditModeChatFrameSystemTemplate
 --- @class EditModeChatFrameSystemTemplate_EditModeResizeButton : Button, EditModeChatFrameResizeButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L153)
@@ -92,49 +117,56 @@
 --- @field EditModeResizeButton EditModeChatFrameSystemTemplate_EditModeResizeButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L189)
---- @class EditModeVehicleLeaveButtonSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeVehicleLeaveButtonSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L181)
 --- Template
 --- @class EditModeVehicleLeaveButtonSystemTemplate : Frame, EditModeSystemTemplate, EditModeVehicleLeaveButtonSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L204)
---- @class EditModeLootFrameSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeLootFrameSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L197)
 --- Template
 --- @class EditModeLootFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeLootFrameSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L214)
---- @class EditModeHudTooltipSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeHudTooltipSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L208)
 --- Template
 --- @class EditModeHudTooltipSystemTemplate : Frame, EditModeSystemTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L225)
---- @class EditModeObjectiveTrackerSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeObjectiveTrackerSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L218)
 --- Template
 --- @class EditModeObjectiveTrackerSystemTemplate : Frame, EditModeSystemTemplate, EditModeObjectiveTrackerSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L235)
---- @class EditModeMicroMenuSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeMicroMenuSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L229)
 --- Template
 --- @class EditModeMicroMenuSystemTemplate : Frame, EditModeSystemTemplate, EditModeMicroMenuSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L245)
---- @class EditModeBagsSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeBagsSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L239)
 --- Template
 --- @class EditModeBagsSystemTemplate : Frame, EditModeSystemTemplate, EditModeBagsSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L254)
---- @class EditModeStatusTrackingBarSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeStatusTrackingBarSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L249)
 --- Template
@@ -149,7 +181,8 @@
 --- @class EditModeStatusTrackingBar2SystemTemplate : Frame, EditModeStatusTrackingBarSystemTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L282)
---- @class EditModeDurabilityFrameSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeDurabilityFrameSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L275)
 --- Template
@@ -164,21 +197,24 @@
 --- @class EditModePetFrameSystemTemplate : Frame, EditModeUnitFrameSystemTemplate, EditModePetFrameSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L308)
---- @class EditModeTimerBarsSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeTimerBarsSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L301)
 --- Template
 --- @class EditModeTimerBarsSystemTemplate : Frame, EditModeSystemTemplate, EditModeTimerBarsSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L319)
---- @class EditModeVehicleSeatIndicatorSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeVehicleSeatIndicatorSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L312)
 --- Template
 --- @class EditModeVehicleSeatIndicatorSystemTemplate : Frame, EditModeSystemTemplate, EditModeVehicleSeatIndicatorSystemMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L330)
---- @class EditModeArchaeologyBarSystemTemplate_ : Frame, EditModeSystemSelectionTemplate
+--- child of EditModeArchaeologyBarSystemTemplate
+--- @class  : Frame, EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L323)
 --- Template

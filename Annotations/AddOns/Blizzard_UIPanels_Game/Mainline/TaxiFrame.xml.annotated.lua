@@ -4,6 +4,11 @@
 --- Template
 --- @class TaxiButtonTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TaxiFrame.xml#L32)
+--- child of TaxiFrame
+--- @class TaxiFrame_TaxiRouteMap : Frame
+TaxiRouteMap = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TaxiFrame.xml#L26)
 --- @class TaxiFrame : Frame, BasicFrameTemplateWithInset
 TaxiFrame = {}

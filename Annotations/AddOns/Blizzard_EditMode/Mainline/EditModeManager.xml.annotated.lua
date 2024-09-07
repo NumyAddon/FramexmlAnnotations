@@ -1,106 +1,145 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L24)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_Border : Frame, DialogBorderTranslucentTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L29)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_Tutorial : Button, MainHelpPlateButton, EditModeManagerTutorialMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L42)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_CloseButton : Button, UIPanelCloseButton, EditModeUnsavedChangesCheckerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L50)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_LayoutDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L64)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_Grid : Frame, EditModeGridMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L90)
+--- child of 
+--- @class EditModeManagerFrame_ShowGridCheckButton_Label : FontString, GameFontHighlightMedium
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L79)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_ShowGridCheckButton : Frame, EditModeCheckButtonTemplate
+--- @field Label EditModeManagerFrame_ShowGridCheckButton_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L104)
+--- child of 
 --- @class EditModeManagerFrame_GridSpacingSlider_Slider : Frame, MinimalSliderWithSteppersTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L99)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_GridSpacingSlider : Frame, ResizeLayoutFrame, EditModeGridSpacingSliderMixin
 --- @field Slider EditModeManagerFrame_GridSpacingSlider_Slider
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L115)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_EnableSnapCheckButton : Frame, EditModeCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L124)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_EnableAdvancedOptionsCheckButton : Frame, EditModeCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L231)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_BorderArt : Frame, NineSliceCodeTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L244)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_TargetAndFocus : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L253)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_PetFrame : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L260)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_PartyFrames : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L269)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_BossFrames : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L278)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_RaidFrames : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L287)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ArenaFrames : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L296)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_BuffsAndDebuffs : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L305)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_CastBar : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L314)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_StanceBar : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L321)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ExtraAbilities : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L328)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_PetActionBar : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L335)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_PossessActionBar : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L342)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_EncounterBar : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L351)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_TalkingHeadFrame : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L360)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_StatusTrackingBar2 : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L367)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_VehicleLeaveButton : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L374)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_HudTooltip : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L381)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_DurabilityFrame : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L388)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_TimerBars : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L395)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_VehicleSeatIndicator : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L402)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ArchaeologyBar : Frame, EditModeManagerSettingCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L409)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_LootFrame : Frame, EditModeManagerSettingCheckButtonTemplate, EditModeLootFrameCheckButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L142)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer : ScrollFrame, ResizeLayoutFrame, ScrollFrameTemplate
 --- @field BorderArt EditModeManagerFrame_AccountSettings_SettingsContainer_BorderArt
 --- @field TargetAndFocus EditModeManagerFrame_AccountSettings_SettingsContainer_TargetAndFocus
@@ -126,19 +165,37 @@
 --- @field ArchaeologyBar EditModeManagerFrame_AccountSettings_SettingsContainer_ArchaeologyBar
 --- @field LootFrame EditModeManagerFrame_AccountSettings_SettingsContainer_LootFrame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L433)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_Expander_Label : FontString, GameFontHighlightMedium
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L419)
+--- child of 
 --- @class EditModeManagerFrame_AccountSettings_Expander : Frame, ResizeLayoutFrame
+--- @field Divider Texture
+--- @field Label EditModeManagerFrame_AccountSettings_Expander_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L133)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_AccountSettings : Frame, VerticalLayoutFrame, EditModeAccountSettingsMixin
 --- @field SettingsContainer EditModeManagerFrame_AccountSettings_SettingsContainer
 --- @field Expander EditModeManagerFrame_AccountSettings_Expander
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L452)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_SaveChangesButton : Button, EditModeManagerFrameButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L457)
+--- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_RevertAllChangesButton : Button, EditModeManagerFrameButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L13)
+--- child of EditModeManagerFrame
+--- @class EditModeManagerFrame_Title : FontString, GameFontHighlightLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L18)
+--- child of EditModeManagerFrame
+--- @class EditModeManagerFrame_LayoutLabel : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L4)
 --- @class EditModeManagerFrame : Frame, ResizeLayoutFrame, EditModeManagerFrameMixin
@@ -155,5 +212,7 @@
 --- @field AccountSettings EditModeManagerFrame_AccountSettings
 --- @field SaveChangesButton EditModeManagerFrame_SaveChangesButton
 --- @field RevertAllChangesButton EditModeManagerFrame_RevertAllChangesButton
+--- @field Title EditModeManagerFrame_Title
+--- @field LayoutLabel EditModeManagerFrame_LayoutLabel
 EditModeManagerFrame = {}
 

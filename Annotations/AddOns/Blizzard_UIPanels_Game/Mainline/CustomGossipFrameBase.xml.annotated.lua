@@ -4,9 +4,20 @@
 --- Template
 --- @class CustomGossipOptionButtonBaseTemplate : Button, CustomGossipOptionButtonBaseMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.xml#L15)
+--- child of CustomGossipFrameBaseTemplate
+--- @class CustomGossipFrameBaseTemplate_Title : FontString, DestinyFontHuge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.xml#L20)
+--- child of CustomGossipFrameBaseTemplate
+--- @class CustomGossipFrameBaseTemplate_GossipText : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.xml#L8)
 --- Template
 --- @class CustomGossipFrameBaseTemplate : Frame, CustomGossipFrameBaseMixin
+--- @field Background Texture
+--- @field Title CustomGossipFrameBaseTemplate_Title
+--- @field GossipText CustomGossipFrameBaseTemplate_GossipText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.xml#L33)
 --- Template

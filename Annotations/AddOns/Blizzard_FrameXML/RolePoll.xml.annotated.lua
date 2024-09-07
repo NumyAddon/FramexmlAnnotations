@@ -6,22 +6,37 @@
 --- @field checkButton CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L57)
+--- child of RolePollPopup
 --- @class RolePollPopup_Border : Frame, DialogBorderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L58)
+--- child of RolePollPopup
 --- @class RolePollPopup_RolePollPopupCloseButton : Button, UIPanelCloseButtonNoScripts
+RolePollPopupCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L69)
+--- child of RolePollPopup
 --- @class RolePollPopup_RolePollPopupRoleButtonTank : Button, RolePollRoleButtonTemplate
+RolePollPopupRoleButtonTank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L83)
+--- child of RolePollPopup
 --- @class RolePollPopup_RolePollPopupRoleButtonHealer : Button, RolePollRoleButtonTemplate
+RolePollPopupRoleButtonHealer = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L97)
+--- child of RolePollPopup
 --- @class RolePollPopup_RolePollPopupRoleButtonDPS : Button, RolePollRoleButtonTemplate
+RolePollPopupRoleButtonDPS = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L111)
+--- child of RolePollPopup
 --- @class RolePollPopup_RolePollPopupAcceptButton : Button, UIPanelButtonTemplate
+RolePollPopupAcceptButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L49)
+--- child of RolePollPopup
+--- @class  : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L45)
 --- @class RolePollPopup : Frame

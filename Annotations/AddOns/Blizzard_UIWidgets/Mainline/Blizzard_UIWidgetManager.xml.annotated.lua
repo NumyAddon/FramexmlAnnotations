@@ -9,9 +9,11 @@ UIWidgetManager = {}
 --- @class UIWidgetHorizontalWidgetContainerTemplate : Frame, ResizeLayoutFrame, UIWidgetHorizontalWidgetContainerMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetManager.xml#L33)
+--- child of UIWidgetContainerNoResizeTemplate
 --- @class UIWidgetContainerNoResizeTemplate_FrontModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetManager.xml#L46)
+--- child of UIWidgetContainerNoResizeTemplate
 --- @class UIWidgetContainerNoResizeTemplate_BackModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetManager.xml#L18)

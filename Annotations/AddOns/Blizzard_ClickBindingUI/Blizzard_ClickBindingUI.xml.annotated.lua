@@ -1,56 +1,131 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L62)
+--- child of ClickBindingLineTemplate
 --- @class ClickBindingLineTemplate_DeleteButton : Button, UIMenuButtonStretchTemplate
+--- @field Icon Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L22)
+--- child of ClickBindingLineTemplate
+--- @class ClickBindingLineTemplate_Name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L28)
+--- child of ClickBindingLineTemplate
+--- @class ClickBindingLineTemplate_BindingText : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L5)
 --- Template
 --- @class ClickBindingLineTemplate : Button, ClickBindingLineMixin
 --- @field DeleteButton ClickBindingLineTemplate_DeleteButton
+--- @field Background Texture
+--- @field Icon Texture
+--- @field Name ClickBindingLineTemplate_Name
+--- @field BindingText ClickBindingLineTemplate_BindingText
+--- @field NewOutline Texture
+--- @field IconHighlight Texture
+--- @field FrameHighlight Texture
+--- @field EmptySlotIconHighlight Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L94)
+--- child of ClickBindingHeaderTemplate
+--- @class ClickBindingHeaderTemplate_Name : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L90)
 --- Template
 --- @class ClickBindingHeaderTemplate : Frame, ClickBindingHeaderMixin
+--- @field Name ClickBindingHeaderTemplate_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L104)
 --- Template
 --- @class ClickBindingFramePortraitTemplate : Button, ClickBindingFramePortraitMixin
+--- @field Portrait Texture
+--- @field Frame Texture
+--- @field UnselectedFrame Texture
+--- @field UnselectedFrame Texture
+--- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L153)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_ScrollBoxBackground : Frame, TooltipBackdropTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L163)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_ScrollBox : Button, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L169)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L175)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_SaveButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L181)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_AddBindingButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L187)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_ResetButton : Button, UIPanelButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L213)
+--- child of 
+--- @class ClickBindingFrame_EnableMouseoverCastCheckbox_Label : FontString, GameFontHighlightMedium
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L193)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_EnableMouseoverCastCheckbox : CheckButton, ClickableBindingsEnableMouseoverCastCheckboxMixin
+--- @field Label ClickBindingFrame_EnableMouseoverCastCheckbox_Label
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L227)
+--- child of 
+--- @class ClickBindingFrame_MouseoverCastKeyDropdown_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L221)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_MouseoverCastKeyDropdown : DropdownButton, WowStyle1DropdownTemplate
+--- @field Label ClickBindingFrame_MouseoverCastKeyDropdown_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L240)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_PlayerSpellsPortrait : Button, ClickBindingFramePortraitTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L250)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_MacrosPortrait : Button, ClickBindingFramePortraitTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L276)
+--- child of 
+--- @class ClickBindingFrame_TutorialFrame_SummaryText : FontString, GameFontHighlightLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L281)
+--- child of 
+--- @class ClickBindingFrame_TutorialFrame_InfoText : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L287)
+--- child of 
+--- @class ClickBindingFrame_TutorialFrame_AlternateText : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L292)
+--- child of 
+--- @class ClickBindingFrame_TutorialFrame_ThrallName : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L259)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_TutorialFrame : Frame, PortraitFrameTemplate, ClickBindingTutorialMixin
+--- @field Tutorial Texture
+--- @field SummaryText ClickBindingFrame_TutorialFrame_SummaryText
+--- @field InfoText ClickBindingFrame_TutorialFrame_InfoText
+--- @field AlternateText ClickBindingFrame_TutorialFrame_AlternateText
+--- @field ThrallName ClickBindingFrame_TutorialFrame_ThrallName
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L304)
+--- child of ClickBindingFrame
 --- @class ClickBindingFrame_TutorialButton : Button, MainHelpPlateButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L312)
+--- child of ClickBindingFrame
+--- @class ClickBindingFrame_UnboundText : FontString, GameFontRed
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L147)
 --- @class ClickBindingFrame : Frame, PortraitFrameTemplate, ClickBindingFrameMixin
@@ -66,5 +141,6 @@
 --- @field MacrosPortrait ClickBindingFrame_MacrosPortrait
 --- @field TutorialFrame ClickBindingFrame_TutorialFrame
 --- @field TutorialButton ClickBindingFrame_TutorialButton
+--- @field UnboundText ClickBindingFrame_UnboundText
 ClickBindingFrame = {}
 

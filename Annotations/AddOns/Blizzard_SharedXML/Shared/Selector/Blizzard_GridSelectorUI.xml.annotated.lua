@@ -1,6 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_GridSelectorUI.xml#L5)
+--- child of GridSelectorFrameTemplate
 --- @class GridSelectorFrameTemplate_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_GridSelectorUI.xml#L3)

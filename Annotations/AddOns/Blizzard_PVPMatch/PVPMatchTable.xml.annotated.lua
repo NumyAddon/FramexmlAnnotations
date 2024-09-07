@@ -3,14 +3,23 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L5)
 --- Template
 --- @class PVPTableRowTemplate : Frame, PVPRowMixin
+--- @field backgroundLeft Texture
+--- @field backgroundRight Texture
+--- @field backgroundCenter Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L35)
+--- child of PVPStringTemplate
+--- @class PVPStringTemplate_text : FontString, Game12Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L31)
 --- Template
 --- @class PVPStringTemplate : Frame
+--- @field text PVPStringTemplate_text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L39)
 --- Template
 --- @class PVPIconTemplate : Frame
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L52)
 --- Template

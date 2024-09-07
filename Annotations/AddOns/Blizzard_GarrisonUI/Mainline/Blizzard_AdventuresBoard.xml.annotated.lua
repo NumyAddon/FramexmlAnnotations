@@ -1,16 +1,30 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L13)
+--- child of AdventuresBoardAuraIcon
+--- @class AdventuresBoardAuraIcon_FadeIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L17)
+--- child of AdventuresBoardAuraIcon
+--- @class AdventuresBoardAuraIcon_FadeOut : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L3)
 --- Template
 --- @class AdventuresBoardAuraIcon : Frame, AdventuresBoardAuraIconMixin
+--- @field IconTexture Texture
+--- @field FadeIn AdventuresBoardAuraIcon_FadeIn
+--- @field FadeOut AdventuresBoardAuraIcon_FadeOut
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L38)
+--- child of AdventuresBoardAuraContainerTemplate
 --- @class AdventuresBoardAuraContainerTemplate_BuffIcon : Frame, AdventuresBoardAuraIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L45)
+--- child of AdventuresBoardAuraContainerTemplate
 --- @class AdventuresBoardAuraContainerTemplate_DebuffIcon : Frame, AdventuresBoardAuraIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L52)
+--- child of AdventuresBoardAuraContainerTemplate
 --- @class AdventuresBoardAuraContainerTemplate_HealingIcon : Frame, AdventuresBoardAuraIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L32)
@@ -21,12 +35,15 @@
 --- @field HealingIcon AdventuresBoardAuraContainerTemplate_HealingIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L77)
+--- child of AdventuresBoardEmptySocketTemplate
 --- @class AdventuresBoardEmptySocketTemplate_EnemyTargetingIndicatorFrame : Frame, AdventuresTargetingIndicatorTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L83)
+--- child of AdventuresBoardEmptySocketTemplate
 --- @class AdventuresBoardEmptySocketTemplate_FriendlyTargetingIndicatorFrame : Frame, AdventuresFriendlyTargetingIndicatorTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L85)
+--- child of AdventuresBoardEmptySocketTemplate
 --- @class AdventuresBoardEmptySocketTemplate_AuraContainer : Frame, AdventuresBoardAuraContainerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L67)
@@ -35,6 +52,8 @@
 --- @field EnemyTargetingIndicatorFrame AdventuresBoardEmptySocketTemplate_EnemyTargetingIndicatorFrame
 --- @field FriendlyTargetingIndicatorFrame AdventuresBoardEmptySocketTemplate_FriendlyTargetingIndicatorFrame
 --- @field AuraContainer AdventuresBoardEmptySocketTemplate_AuraContainer
+--- @field SocketTexture Texture
+--- @field TutorialRing Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L98)
 --- Template
@@ -44,11 +63,23 @@
 --- Template
 --- @class FollowerEmptySocketTemplate : Frame, AdventuresBoardEmptySocketTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L121)
+--- child of 
+--- @class AdventuresBoardTemplate_EnemyContainer_FadeOut : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L115)
+--- child of AdventuresBoardTemplate
 --- @class AdventuresBoardTemplate_EnemyContainer : Frame, ResizeLayoutFrame
+--- @field FadeOut AdventuresBoardTemplate_EnemyContainer_FadeOut
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L138)
+--- child of 
+--- @class AdventuresBoardTemplate_FollowerContainer_FadeIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L132)
+--- child of AdventuresBoardTemplate
 --- @class AdventuresBoardTemplate_FollowerContainer : Frame, ResizeLayoutFrame
+--- @field FadeIn AdventuresBoardTemplate_FollowerContainer_FadeIn
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L106)
 --- Template

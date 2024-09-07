@@ -13,6 +13,7 @@
 --- @class UIParentRightManagedFrameTemplate : Frame, UIParentManagedFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.xml#L70)
+--- child of UIParentManagedFrameContainer
 --- @class UIParentManagedFrameContainer_BottomManagedLayoutContainer : Frame, HorizontalLayoutFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.xml#L64)

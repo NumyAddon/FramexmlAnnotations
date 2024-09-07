@@ -170,12 +170,39 @@ class XmlFileParser
             || !empty($child->getChildren());
     }
 
-    private function writeFrame(Frame $frame, ?string $linkPrefix): string
+    private function writeFrame(Frame $frame, ?string $linkPrefix, ?string $typeOverride = null): string
     {
         $data = '';
+        $globalChildrenWithParentKey = [];
         foreach ($frame->getChildren() as $child) {
             if ($this->childHasInterestingData($child)) {
                 $data .= $this->writeFrame($child, $linkPrefix);
+                if ($child->getName() && $child->getParentKey()) {
+                    $globalChildrenWithParentKey[$child->getParentKey()] = $child->getName();
+                }
+            }
+        }
+        $inheritedKeyValues = [];
+        foreach ($frame->getInherits() as $templateName) {
+            $template = $this->templateRegistry->get($templateName);
+            if (!$template) {
+                continue;
+            }
+            foreach ($template->getKeyValues() as $key => $value) {
+                $inheritedKeyValues[$key] = $value;
+            }
+            foreach ($template->getChildren() as $child) {
+                $clone = $child->withParent($frame);
+                if (!empty($clone->getName())) { // will create a global
+                    $data .= $this->writeFrame(
+                        $clone,
+                        $linkPrefix,
+                        $this->childHasInterestingData($child) ? $child->getClassName() : $child->getType(), // this must be $child rather than $clone
+                    );
+                    if($clone->getParentKey()) {
+                        $inheritedKeyValues[$clone->getParentKey()] = [$clone->getName()];
+                    }
+                }
             }
         }
 
@@ -183,24 +210,32 @@ class XmlFileParser
             $data .= "--- [Source]($linkPrefix#L" . $frame->getLineNumber() . ")\n";
         }
         if ($frame->getParent()) {
-            $data .= '--- child of ' . $frame->getParent()->getName() . "\n";
+            $data .= '--- child of ' . $frame->getParent()->getName();
+            if ($frame->getOriginalParent() && $frame->getOriginalParent() !== $frame->getParent()) {
+                $data .= ' (created in template ' . $frame->getOriginalParent()->getName() . ')';
+            }
+            $data .= "\n";
         }
         if ($frame instanceof Intrinsic) {
             $data .= "--- Intrinsic\n";
         } elseif ($frame instanceof Template) {
             $data .= "--- Template\n";
         }
-        $data .= '--- @class ' . $frame->getClassName() . ' : ' . $frame->getType();
-        foreach ($frame->getInherits() as $inherit) {
-            $data .= ', ' . $inherit;
-        }
-        foreach ($frame->getMixins() as $mixin) {
-            $data .= ', ' . $mixin;
+        if ($typeOverride) {
+            $data .= '--- @type ' . $typeOverride;
+        } else {
+            $data .= '--- @class ' . $frame->getClassName() . ' : ' . $frame->getType();
+            foreach ($frame->getInherits() as $inherit) {
+                $data .= ', ' . $inherit;
+            }
+            foreach ($frame->getMixins() as $mixin) {
+                $data .= ', ' . $mixin;
+            }
         }
         $data .= "\n";
 
         foreach ($frame->getKeyValues() as $key => $value) {
-            $data .= '--- @field ' . $key . ' ' . $value . "\n";
+            $data .= '--- @field ' . $key . ' ' . $value[1] . ' # ' . $value[0] . "\n";
         }
         foreach ($frame->getChildren() as $child) {
             if ($child->getParentKey()) {
@@ -213,8 +248,14 @@ class XmlFileParser
         }
         if ($frame->getName() && $frame->getRootNode()::class === Frame::class) {
             $data .= $frame->getName() . " = {}\n";
-            foreach ($frame->getKeyValues() as $key => $value) {
+            foreach ($globalChildrenWithParentKey as $key => $value) {
                 $data .= $frame->getName() . '["' . $key . '"] = ' . $value . "\n";
+            }
+            foreach ($frame->getKeyValues() as $key => $value) {
+                $data .= $frame->getName() . '["' . $key . '"] = ' . $value[0] . "\n";
+            }
+            foreach ($inheritedKeyValues as $key => $value) {
+                $data .= $frame->getName() . '["' . $key . '"] = ' . $value[0] . " -- inherited\n";
             }
         }
 

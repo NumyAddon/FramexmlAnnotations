@@ -4,17 +4,21 @@ declare(strict_types=1);
 
 namespace App;
 
+use RuntimeException;
 use SimpleXMLElement;
 
 class Frame
 {
+    private readonly ?self $originalParent;
+
     public function __construct(
         private readonly string $name,
         private readonly string $type,
         private readonly SimpleXMLElement $xmlElement,
-        private readonly ?self $parent = null,
+        private ?self $parent = null,
         private array $children = [],
     ) {
+        $this->originalParent = $parent;
     }
 
     public function isRootNode(): bool
@@ -55,6 +59,19 @@ class Frame
     public function getParent(): ?self
     {
         return $this->parent;
+    }
+
+    public function withParent(self $parent): self
+    {
+        $clone = clone $this;
+        $clone->parent = $parent;
+
+        return $clone;
+    }
+
+    public function getOriginalParent(): ?self
+    {
+        return $this->originalParent;
     }
 
     public function getParentKey(): ?string
@@ -102,7 +119,7 @@ class Frame
     }
 
     /**
-     * @return array<string, string> [key => formattedValue] value is formatted to be written directly into lua
+     * @return array<string, array{1: string, 2: string}> [key => [formattedValue, type]] value is formatted to be written directly into lua
      */
     public function getKeyValues(): array
     {
@@ -111,18 +128,31 @@ class Frame
         }
         $keyValues = [];
         foreach ($this->xmlElement->KeyValues as $child) {
-            $key = (string) $child->attributes()['key'] ?? '';
-            $value = (string) $child->attributes()['value'] ?? '';
-            $type = (string) $child->attributes()['type'] ?? 'string';
+            if (!isset($child->KeyValue)) {
+                continue;
+            }
+            $keyValue = $child->KeyValue;
+            $key = (string) $keyValue->attributes()['key'] ?? '';
+            $value = (string) $keyValue->attributes()['value'] ?? '';
+            $type = (string) $keyValue->attributes()['type'] ?: 'string';
             if ($key === '') {
                 continue;
             }
             $value = match($type) {
-                'number', 'global' => $value,
-                'boolean' => $value === 'true',
-                default => json_encode($value), // json_encodes adds quotes to the string
+                'number', 'global', 'boolean' => $value,
+                'nil' => 'nil',
+                'string' => json_encode($value), // json_encodes adds quotes to the string
+                default => throw new RuntimeException("Unknown type: $type"),
             };
-            $keyValues[$key] = $value;
+            $type = match($type) {
+                'number' => 'number',
+                'boolean' => 'boolean',
+                'global' => 'any',
+                'nil' => 'nil',
+                'string' => 'string',
+                default => throw new RuntimeException("Unknown type: $type"),
+            };
+            $keyValues[$key] = [$value, $type];
         }
 
         return $keyValues;

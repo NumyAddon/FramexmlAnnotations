@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
---- child of BattlefieldButtonTemplate
---- @class BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L3)
 --- Template
 --- @class BattlefieldButtonTemplate : Button

@@ -72,23 +72,11 @@
 --- Template
 --- @class Char-Inner-Right : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L88)
---- child of CharacterStatFrameCategoryTemplate
---- @class CharacterStatFrameCategoryTemplate_Title : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L77)
 --- Template
 --- @class CharacterStatFrameCategoryTemplate : Frame
 --- @field Background Texture
 --- @field Title CharacterStatFrameCategoryTemplate_Title
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L112)
---- child of CharacterStatFrameTemplate
---- @class CharacterStatFrameTemplate_Label : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L117)
---- child of CharacterStatFrameTemplate
---- @class CharacterStatFrameTemplate_Value : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L101)
 --- Template

@@ -30,18 +30,6 @@ VideoOptionsFrameClassic = {}
 --- @class VideoOptionsFrame_VideoOptionsFrameReset : Button, GlueButtonSmallTemplateBlue
 VideoOptionsFrameReset = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L10)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L18)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L30)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L142)
 --- child of OptionsFrameListTemplateList
 --- @class OptionsFrameListTemplate_OptionsFrameListTemplateList_OptionsFrameListTemplateListScrollBar : Slider, UIPanelScrollBarTemplate

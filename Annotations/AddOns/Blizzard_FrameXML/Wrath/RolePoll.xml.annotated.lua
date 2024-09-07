@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Wrath/RolePoll.xml#L15)
---- child of RolePollRoleButtonTemplate
---- @class RolePollRoleButtonTemplate_checkButton : CheckButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Wrath/RolePoll.xml#L3)
 --- Template
 --- @class RolePollRoleButtonTemplate : Button

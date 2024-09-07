@@ -8,14 +8,6 @@
 --- child of AccountSaveFrame
 --- @class AccountSaveFrame_AlertIcon : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.xml#L38)
---- child of 
---- @class  : FontString, GlueFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.xml#L39)
---- child of 
---- @class  : FontString, GlueFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.xml#L28)
 --- child of AccountSaveFrame
 --- @class AccountSaveFrame_Text : SimpleHTML

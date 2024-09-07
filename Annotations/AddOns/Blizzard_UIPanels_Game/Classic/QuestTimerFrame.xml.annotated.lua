@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/QuestTimerFrame.xml#L9)
---- child of QuestTimerTemplate
---- @class QuestTimerTemplate_QuestTimerTemplateText : FontString, GameFontHighlightSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/QuestTimerFrame.xml#L3)
 --- Template
 --- @class QuestTimerTemplate : Button

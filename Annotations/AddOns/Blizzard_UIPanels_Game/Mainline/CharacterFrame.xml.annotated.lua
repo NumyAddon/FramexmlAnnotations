@@ -72,32 +72,96 @@
 --- Template
 --- @class Char-Inner-Right : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L88)
+--- child of CharacterStatFrameCategoryTemplate
+--- @class CharacterStatFrameCategoryTemplate_Title : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L77)
 --- Template
 --- @class CharacterStatFrameCategoryTemplate : Frame
+--- @field Background Texture
+--- @field Title CharacterStatFrameCategoryTemplate_Title
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L112)
+--- child of CharacterStatFrameTemplate
+--- @class CharacterStatFrameTemplate_Label : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L117)
+--- child of CharacterStatFrameTemplate
+--- @class CharacterStatFrameTemplate_Value : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L101)
 --- Template
 --- @class CharacterStatFrameTemplate : Frame
+--- @field Background Texture
+--- @field Label CharacterStatFrameTemplate_Label
+--- @field Value CharacterStatFrameTemplate_Value
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L141)
 --- Template
 --- @class CharacterFrameTabTemplate : Button, PanelTabButtonTemplate, CharacterFrameTabButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L159)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab1 : Button, CharacterFrameTabTemplate
+CharacterFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L170)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab2 : Button, CharacterFrameTabTemplate
+CharacterFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L181)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab3 : Button, CharacterFrameTabTemplate
+CharacterFrameTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L192)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameInsetRight : Frame, InsetFrameTemplate
+CharacterFrameInsetRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L214)
+--- child of CharacterStatsPane
+--- @class CharacterFrame_CharacterStatsPane_ItemLevelCategory : Frame, CharacterStatFrameCategoryTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L244)
+--- child of 
+--- @class CharacterFrame_CharacterStatsPane_ItemLevelFrame_Corruption : Frame
+--- @field Eye Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L236)
+--- child of 
+--- @class CharacterFrame_CharacterStatsPane_ItemLevelFrame_Value : FontString, Game15Font_o1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L222)
+--- child of CharacterStatsPane
+--- @class CharacterFrame_CharacterStatsPane_ItemLevelFrame : Frame
+--- @field Corruption CharacterFrame_CharacterStatsPane_ItemLevelFrame_Corruption
+--- @field Background Texture
+--- @field Value CharacterFrame_CharacterStatsPane_ItemLevelFrame_Value
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L278)
+--- child of CharacterStatsPane
+--- @class CharacterFrame_CharacterStatsPane_AttributesCategory : Frame, CharacterStatFrameCategoryTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L286)
+--- child of CharacterStatsPane
+--- @class CharacterFrame_CharacterStatsPane_EnhancementsCategory : Frame, CharacterStatFrameCategoryTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L199)
+--- child of CharacterFrame
+--- @class CharacterFrame_CharacterStatsPane : Frame
+--- @field ItemLevelCategory CharacterFrame_CharacterStatsPane_ItemLevelCategory
+--- @field ItemLevelFrame CharacterFrame_CharacterStatsPane_ItemLevelFrame
+--- @field AttributesCategory CharacterFrame_CharacterStatsPane_AttributesCategory
+--- @field EnhancementsCategory CharacterFrame_CharacterStatsPane_EnhancementsCategory
+--- @field ClassBackground Texture
+CharacterStatsPane = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L147)
 --- @class CharacterFrame : Frame, ButtonFrameTemplate, CharacterFrameMixin
 --- @field InsetRight CharacterFrame_CharacterFrameInsetRight
+--- @field Background Texture
 CharacterFrame = {}
 

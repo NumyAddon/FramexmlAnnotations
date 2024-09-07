@@ -1,37 +1,104 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L14)
+--- child of PerksProgramFrame
 --- @class PerksProgramFrame_PerksProgramTooltip : GameTooltip, GameTooltipTemplate, DefaultScaleFrame
+PerksProgramTooltip = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L32)
+--- child of 
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_ScrollBox : Frame, WowScrollBoxList
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L38)
+--- child of 
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_ScrollBar : EventFrame, MinimalScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L26)
+--- child of 
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer : Frame
+--- @field ScrollBox PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_ScrollBox
+--- @field ScrollBar PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_ScrollBar
+--- @field PerksDividerTop Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L265)
+--- child of 
+--- @class  : Texture, store-itemicon-border-glowspin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L269)
+--- child of 
+--- @class PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame_GlowSpin_SpinAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L262)
+--- child of 
+--- @class PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame_GlowSpin : Frame
+--- @field SpinAnim PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame_GlowSpin_SpinAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L277)
+--- child of 
+--- @class  : Texture, store-itemicon-border-glowpulse
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L280)
+--- child of 
+--- @class  : Texture, store-itemicon-border-glowpulse
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L284)
+--- child of 
+--- @class PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame_GlowPulse_PulseAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L274)
+--- child of 
+--- @class PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame_GlowPulse : Frame
+--- @field PulseAnim PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame_GlowPulse_PulseAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L252)
+--- child of 
+--- @class PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame_Text : FontString, Game32Font_Shadow2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L238)
+--- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame : Frame, PerksProgramCurrencyFrameMixin
---- @field GlowSpin Frame
---- @field GlowPulse Frame
+--- @field GlowSpin PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame_GlowSpin
+--- @field GlowPulse PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame_GlowPulse
+--- @field Icon Texture
+--- @field Text PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L298)
+--- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramFilter : DropdownButton, WowStyle2DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L315)
+--- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DetailsFrame : Frame, PerksProgramDetailsFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L325)
+--- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DividerFrame : Frame, PerksProgramDividerFrameMixin
+--- @field PerksDividerShort Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L361)
+--- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L362)
+--- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer_ScrollBar : EventFrame, MinimalScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L352)
+--- child of 
+--- @class  : FontString, GameFontNormalMed3
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L342)
+--- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer : Frame, PerksProgramSetDetailsListMixin
 --- @field ScrollBox PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer_ScrollBox
 --- @field ScrollBar PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer_ScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L373)
+--- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_Border : Frame, NineSlicePanelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L307)
+--- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame : Frame, VerticalLayoutFrame
 --- @field DetailsFrame PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DetailsFrame
 --- @field DividerFrame PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DividerFrame
@@ -39,81 +106,162 @@
 --- @field Border PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_Border
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L20)
+--- child of PerksProgramFrame
 --- @class PerksProgramFrame_ProductsFrame : Frame, PerksProgramProductsFrameMixin
---- @field ProductsScrollBoxContainer Frame
+--- @field ProductsScrollBoxContainer PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer
 --- @field PerksProgramCurrencyFrame PerksProgramFrame_ProductsFrame_PerksProgramCurrencyFrame
 --- @field PerksProgramFilter PerksProgramFrame_ProductsFrame_PerksProgramFilter
 --- @field PerksProgramProductDetailsContainerFrame PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame
+--- @field LeftBackgroundOverlay Texture
+--- @field RightBackgroundOverlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L415)
+--- child of 
 --- @class PerksProgramFrame_ModelSceneContainerFrame_AlteredFormButton : CheckButton, RingedMaskedButtonTemplate, PerksProgramAlteredFormButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L432)
+--- child of 
 --- @class PerksProgramFrame_ModelSceneContainerFrame_NormalFormButton : CheckButton, RingedMaskedButtonTemplate, PerksProgramAlteredFormButtonMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L482)
+--- child of 
+--- @class PerksProgramFrame_ModelSceneContainerFrame_ToyOverlayFrame_DetailsFrame : Frame, PerksProgramToyDetailsFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L450)
+--- child of 
+--- @class PerksProgramFrame_ModelSceneContainerFrame_ToyOverlayFrame : Frame
+--- @field DetailsFrame PerksProgramFrame_ModelSceneContainerFrame_ToyOverlayFrame_DetailsFrame
+--- @field toyBackground Texture
+--- @field Icon Texture
+--- @field IconBorder Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L489)
+--- child of 
 --- @class PerksProgramFrame_ModelSceneContainerFrame_MainModelScene : ModelScene, NoZoomModelSceneMixinTemplate
+--- @field dropShadow Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L505)
+--- child of 
 --- @class PerksProgramFrame_ModelSceneContainerFrame_PlayerModelScene : ModelScene, NoZoomModelSceneMixinTemplate
+--- @field dropShadow Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L521)
+--- child of 
 --- @class PerksProgramFrame_ModelSceneContainerFrame_CelebrateModelScene : ModelScene, NoZoomModelSceneMixinTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L408)
+--- child of PerksProgramFrame
 --- @class PerksProgramFrame_ModelSceneContainerFrame : Frame, PerksProgramModelSceneContainerFrameMixin
 --- @field AlteredFormButton PerksProgramFrame_ModelSceneContainerFrame_AlteredFormButton
 --- @field NormalFormButton PerksProgramFrame_ModelSceneContainerFrame_NormalFormButton
---- @field ToyOverlayFrame Frame
+--- @field ToyOverlayFrame PerksProgramFrame_ModelSceneContainerFrame_ToyOverlayFrame
 --- @field MainModelScene PerksProgramFrame_ModelSceneContainerFrame_MainModelScene
 --- @field PlayerModelScene PerksProgramFrame_ModelSceneContainerFrame_PlayerModelScene
 --- @field CelebrateModelScene PerksProgramFrame_ModelSceneContainerFrame_CelebrateModelScene
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L540)
+--- child of 
 --- @class PerksProgramFrame_FooterFrame_LeaveButton : Button, PerksProgramButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L560)
+--- child of 
 --- @class PerksProgramFrame_FooterFrame_PurchaseButton_Spinner : Frame, SpinnerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L550)
+--- child of 
 --- @class PerksProgramFrame_FooterFrame_PurchaseButton : Button, PerksProgramButtonTemplate, PerksProgramPurchaseButtonMixin
 --- @field Spinner PerksProgramFrame_FooterFrame_PurchaseButton_Spinner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L569)
+--- child of 
 --- @class PerksProgramFrame_FooterFrame_RefundButton : Button, PerksProgramButtonTemplate, PerksProgramRefundButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L579)
+--- child of 
 --- @class PerksProgramFrame_FooterFrame_ErrorIndicator : Frame, PerksProgramErrorIndicatorMixin
+--- @field ErrorIcon Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L600)
+--- child of 
+--- @class PerksProgramFrame_FooterFrame_RotateButtonContainer_RotateLeftButton : Button, PerksModelSceneControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L610)
+--- child of 
+--- @class PerksProgramFrame_FooterFrame_RotateButtonContainer_RotateRightButton : Button, PerksModelSceneControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L594)
+--- child of 
+--- @class PerksProgramFrame_FooterFrame_RotateButtonContainer : Frame
+--- @field RotateLeftButton PerksProgramFrame_FooterFrame_RotateButtonContainer_RotateLeftButton
+--- @field RotateRightButton PerksProgramFrame_FooterFrame_RotateButtonContainer_RotateRightButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L622)
+--- child of 
 --- @class PerksProgramFrame_FooterFrame_TogglePlayerPreview : CheckButton, PerksProgramCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L633)
+--- child of 
 --- @class PerksProgramFrame_FooterFrame_ToggleMountSpecial : CheckButton, PerksProgramCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L645)
+--- child of 
 --- @class PerksProgramFrame_FooterFrame_ToggleHideArmor : CheckButton, PerksProgramCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L656)
+--- child of 
 --- @class PerksProgramFrame_FooterFrame_ToggleAttackAnimation : CheckButton, PerksProgramCheckboxTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L675)
+--- child of 
+--- @class PerksProgramFrame_FooterFrame_PurchasedHistoryFrame_RefundText : FontString, GameFontNormalMed3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L688)
+--- child of 
+--- @class PerksProgramFrame_FooterFrame_PurchasedHistoryFrame_PurchasedText : FontString, GameFontNormalMed3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L667)
+--- child of 
+--- @class PerksProgramFrame_FooterFrame_PurchasedHistoryFrame : Frame
+--- @field RefundText PerksProgramFrame_FooterFrame_PurchasedHistoryFrame_RefundText
+--- @field RefundIcon Texture
+--- @field PurchasedText PerksProgramFrame_FooterFrame_PurchasedHistoryFrame_PurchasedText
+--- @field PurchasedIcon Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L533)
+--- child of PerksProgramFrame
 --- @class PerksProgramFrame_FooterFrame : Frame, PerksProgramFooterFrameMixin
 --- @field LeaveButton PerksProgramFrame_FooterFrame_LeaveButton
 --- @field PurchaseButton PerksProgramFrame_FooterFrame_PurchaseButton
 --- @field RefundButton PerksProgramFrame_FooterFrame_RefundButton
 --- @field ErrorIndicator PerksProgramFrame_FooterFrame_ErrorIndicator
---- @field RotateButtonContainer Frame
+--- @field RotateButtonContainer PerksProgramFrame_FooterFrame_RotateButtonContainer
 --- @field TogglePlayerPreview PerksProgramFrame_FooterFrame_TogglePlayerPreview
 --- @field ToggleMountSpecial PerksProgramFrame_FooterFrame_ToggleMountSpecial
 --- @field ToggleHideArmor PerksProgramFrame_FooterFrame_ToggleHideArmor
 --- @field ToggleAttackAnimation PerksProgramFrame_FooterFrame_ToggleAttackAnimation
---- @field PurchasedHistoryFrame Frame
+--- @field PurchasedHistoryFrame PerksProgramFrame_FooterFrame_PurchasedHistoryFrame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L712)
+--- child of 
+--- @class PerksProgramFrame_ThemeContainer_ProductList : Frame
+--- @field Top Texture
+--- @field Bottom Texture
+--- @field Left Texture
+--- @field Right Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L723)
+--- child of 
+--- @class PerksProgramFrame_ThemeContainer_ProductDetails : Frame
+--- @field Top Texture
+--- @field Bottom Texture
+--- @field Left Texture
+--- @field Right Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L710)
+--- child of PerksProgramFrame
 --- @class PerksProgramFrame_ThemeContainer : Frame, PerksProgramThemeContainerMixin
---- @field ProductList Frame
---- @field ProductDetails Frame
+--- @field ProductList PerksProgramFrame_ThemeContainer_ProductList
+--- @field ProductDetails PerksProgramFrame_ThemeContainer_ProductDetails
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L4)
 --- @class PerksProgramFrame : Frame, DefaultScaleFrame, PerksProgramMixin

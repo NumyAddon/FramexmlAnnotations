@@ -2,6 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/FloatingChatFrameVoiceChat.xml#L4)
 --- @class ChatFrameChannelButton : Button, VoiceToggleButtonTemplate, ChannelFrameButtonMixin
+--- @field Flash Texture
 ChatFrameChannelButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/FloatingChatFrameVoiceChat.xml#L18)

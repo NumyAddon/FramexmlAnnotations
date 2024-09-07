@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_SelectorUI.xml#L3)
 --- Template
 --- @class SelectorButtonTemplate : Button, SelectorButtonMixin
+--- @field SelectedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_SelectorUI.xml#L31)
 --- Template

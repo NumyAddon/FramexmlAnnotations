@@ -1,11 +1,21 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.xml#L20)
+--- child of CharacterSelectNavBarButtonTemplate
+--- @class CharacterSelectNavBarButtonTemplate_Highlight : Frame
+--- @field Backdrop Texture
+--- @field Line Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.xml#L3)
 --- Template
 --- @class CharacterSelectNavBarButtonTemplate : Button, CharacterSelectNavBarButtonMixin
---- @field Highlight Frame
+--- @field Highlight CharacterSelectNavBarButtonTemplate_Highlight
+--- @field NormalTexture Texture
+--- @field DisabledTexture Texture
+--- @field Bar Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.xml#L57)
+--- child of CharacterSelectNavBarTemplate
 --- @class CharacterSelectNavBarTemplate_ButtonTray : Frame, HorizontalButtonTrayTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.xml#L54)

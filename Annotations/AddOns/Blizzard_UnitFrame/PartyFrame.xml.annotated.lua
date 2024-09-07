@@ -1,6 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrame.xml#L16)
+--- child of PartyFrame
 --- @class PartyFrame_Background : Frame, BackdropTemplate, PartyMemberBackgroundMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrame.xml#L6)

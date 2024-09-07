@@ -1,6 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.xml#L11)
+--- child of ObjectiveTrackerFrame
 --- @class ObjectiveTrackerFrame_Header : Frame, ObjectiveTrackerContainerHeaderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.xml#L3)

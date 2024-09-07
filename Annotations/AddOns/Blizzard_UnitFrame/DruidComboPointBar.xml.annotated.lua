@@ -1,8 +1,27 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L64)
+--- child of DruidComboPointTemplate
+--- @class DruidComboPointTemplate_activateAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L78)
+--- child of DruidComboPointTemplate
+--- @class DruidComboPointTemplate_deactivateAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L5)
 --- Template
 --- @class DruidComboPointTemplate : Frame, DruidComboPointMixin
+--- @field BG_Shadow Texture
+--- @field BG_Active Texture
+--- @field BG_Inactive Texture
+--- @field BG_Glow Texture
+--- @field Point_Deplete Texture
+--- @field Point_Icon Texture
+--- @field FX_RingGlow Texture
+--- @field FB_Slash Texture
+--- @field Smoke Texture
+--- @field activateAnim DruidComboPointTemplate_activateAnim
+--- @field deactivateAnim DruidComboPointTemplate_deactivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L91)
 --- Template

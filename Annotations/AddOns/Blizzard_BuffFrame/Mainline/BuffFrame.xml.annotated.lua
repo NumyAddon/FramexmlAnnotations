@@ -1,8 +1,26 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L13)
+--- child of AuraButtonArtTemplate
+--- @class AuraButtonArtTemplate_Count : FontString, NumberFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L18)
+--- child of AuraButtonArtTemplate
+--- @class AuraButtonArtTemplate_Duration : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L38)
+--- child of AuraButtonArtTemplate
+--- @class AuraButtonArtTemplate_Symbol : FontString, TextStatusBarText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L3)
 --- Template
 --- @class AuraButtonArtTemplate : Frame
+--- @field Icon Texture
+--- @field Count AuraButtonArtTemplate_Count
+--- @field Duration AuraButtonArtTemplate_Duration
+--- @field DebuffBorder Texture
+--- @field TempEnchantBorder Texture
+--- @field Symbol AuraButtonArtTemplate_Symbol
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L48)
 --- Template
@@ -19,6 +37,7 @@
 --- @field Duration Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L104)
+--- child of AuraFrameTemplate
 --- @class AuraFrameTemplate_AuraContainer : Frame, AuraContainerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L96)
@@ -27,6 +46,7 @@
 --- @field AuraContainer AuraFrameTemplate_AuraContainer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L127)
+--- child of BuffFrame
 --- @class BuffFrame_CollapseAndExpandButton : CheckButton, CollapseAndExpandButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L116)
@@ -35,9 +55,11 @@
 BuffFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L174)
+--- child of DebuffFrame
 --- @class DebuffFrame_privateAuraAnchor1 : Frame, BuffFramePrivateAuraAnchorTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L179)
+--- child of DebuffFrame
 --- @class DebuffFrame_privateAuraAnchor2 : Frame, BuffFramePrivateAuraAnchorTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L162)
@@ -47,10 +69,16 @@ BuffFrame = {}
 DebuffFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L208)
+--- child of DeadlyDebuffFrame
 --- @class DeadlyDebuffFrame_Debuff : Button, AuraButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L198)
+--- child of DeadlyDebuffFrame
+--- @class DeadlyDebuffFrame_WarningText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L191)
 --- @class DeadlyDebuffFrame : Frame, DeadlyDebuffFrameMixin
 --- @field Debuff DeadlyDebuffFrame_Debuff
+--- @field WarningText DeadlyDebuffFrame_WarningText
 DeadlyDebuffFrame = {}
 

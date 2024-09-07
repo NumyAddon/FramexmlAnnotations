@@ -1,16 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L42)
---- child of CalendarDayButtonTemplateOverlayFrame
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateOverlayFrame_CalendarDayButtonTemplateOverlayFrameTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L39)
 --- child of CalendarDayButtonTemplate
 --- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateOverlayFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L55)
---- child of CalendarDayButtonTemplateDateFrame
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateDateFrame_CalendarDayButtonTemplateDateFrameBackground : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L61)
 --- child of CalendarDayButtonTemplateDateFrame
@@ -24,37 +16,13 @@
 --- child of CalendarDayButtonTemplate
 --- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateMoreEventsButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L101)
---- child of CalendarDayButtonTemplateDarkFrame
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateDarkFrame_CalendarDayButtonTemplateDarkFrameTop : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L108)
---- child of CalendarDayButtonTemplateDarkFrame
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateDarkFrame_CalendarDayButtonTemplateDarkFrameBottom : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L94)
 --- child of CalendarDayButtonTemplate
 --- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateDarkFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L11)
---- child of CalendarDayButtonTemplate
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateEventTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L20)
---- child of CalendarDayButtonTemplate
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateEventBackgroundTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L29)
---- child of CalendarDayButtonTemplate
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplatePendingInviteTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L4)
 --- Template
 --- @class CalendarDayButtonTemplate : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L151)
---- child of CalendarDayEventButtonTemplate
---- @class CalendarDayEventButtonTemplate_CalendarDayEventButtonTemplateBlack : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L164)
 --- child of CalendarDayEventButtonTemplate
@@ -79,10 +47,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L225)
 --- Template
 --- @class CalendarEventCloseButtonTemplate : Button, CalendarCloseButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L236)
---- child of CalendarEventInviteSortButtonTemplate
---- @class CalendarEventInviteSortButtonTemplate_CalendarEventInviteSortButtonTemplateDirection : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L232)
 --- Template
@@ -135,14 +99,10 @@
 --- @field Status CalendarEventInviteListButtonTemplate_Status
 --- @field Class CalendarEventInviteListButtonTemplate_Class
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L372)
---- child of CalendarViewEventRSVPButtonTemplate
---- @class CalendarViewEventRSVPButtonTemplate_CalendarViewEventRSVPButtonTemplateFlashTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L368)
 --- Template
 --- @class CalendarViewEventRSVPButtonTemplate : Button, CalendarEventButtonTemplate
---- @field flashTexture CalendarViewEventRSVPButtonTemplate_CalendarViewEventRSVPButtonTemplateFlashTexture
+--- @field flashTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L389)
 --- Template

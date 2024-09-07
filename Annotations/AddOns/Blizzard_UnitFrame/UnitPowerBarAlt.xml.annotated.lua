@@ -1,20 +1,12 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L10)
---- child of UnitPowerBarAltTexturableTemplate
---- @class UnitPowerBarAltTexturableTemplate_UnitPowerBarAltTexturableTemplateFill : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L16)
---- child of UnitPowerBarAltTexturableTemplate
---- @class UnitPowerBarAltTexturableTemplate_UnitPowerBarAltTexturableTemplateFlash : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L4)
 --- Template
 --- @class UnitPowerBarAltTexturableTemplate : Frame
 --- @field background Texture
---- @field fill UnitPowerBarAltTexturableTemplate_UnitPowerBarAltTexturableTemplateFill
+--- @field fill Texture
 --- @field frame Texture
---- @field flash UnitPowerBarAltTexturableTemplate_UnitPowerBarAltTexturableTemplateFlash
+--- @field flash Texture
 --- @field spark Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L23)

@@ -100,23 +100,11 @@
 --- @field Background Texture
 --- @field Name FriendsFrameFriendPartyInviteTemplate_Name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L307)
---- child of 
---- @class FriendsListButtonTemplate_travelPassButton_NormalTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L316)
---- child of 
---- @class FriendsListButtonTemplate_travelPassButton_HighlightTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L300)
 --- child of FriendsListButtonTemplate
 --- @class FriendsListButtonTemplate_travelPassButton : Button
---- @field NormalTexture FriendsListButtonTemplate_travelPassButton_NormalTexture
---- @field HighlightTexture FriendsListButtonTemplate_travelPassButton_HighlightTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L336)
---- child of 
---- @class FriendsListButtonTemplate_summonButton_HighlightTexture : Texture
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L331)
 --- child of FriendsListButtonTemplate
@@ -185,29 +173,13 @@
 --- @field Level WhoListButtonTemplate_Level
 --- @field Class WhoListButtonTemplate_Class
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L445)
---- child of WhoFrameColumnHeaderTemplate
---- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L452)
---- child of WhoFrameColumnHeaderTemplate
---- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L459)
---- child of WhoFrameColumnHeaderTemplate
---- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L482)
---- child of WhoFrameColumnHeaderTemplate
---- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateHighlightTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L441)
 --- Template
 --- @class WhoFrameColumnHeaderTemplate : Button
---- @field Left WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateLeft
---- @field Middle WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateMiddle
---- @field Right WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateRight
---- @field HighlightTexture WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateHighlightTexture
+--- @field Left Texture
+--- @field Middle Texture
+--- @field Right Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L489)
 --- Template

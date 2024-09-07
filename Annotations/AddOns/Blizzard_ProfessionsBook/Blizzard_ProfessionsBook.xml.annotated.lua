@@ -4,10 +4,6 @@
 --- child of ProfessionButtonTemplate
 --- @class ProfessionButtonTemplate_ProfessionButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L7)
---- child of ProfessionButtonTemplate
---- @class ProfessionButtonTemplate_ProfessionButtonTemplateIconTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L9)
 --- child of ProfessionButtonTemplate
 --- @class ProfessionButtonTemplate_ProfessionButtonTemplateSpellName : FontString, GameFontNormal
@@ -16,32 +12,20 @@
 --- child of ProfessionButtonTemplate
 --- @class ProfessionButtonTemplate_ProfessionButtonTemplateSubSpellName : FontString, NewSubSpellFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L23)
---- child of ProfessionButtonTemplate
---- @class ProfessionButtonTemplate_ProfessionButtonTemplateNameFrame : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L60)
---- child of ProfessionButtonTemplate
---- @class ProfessionButtonTemplate_ProfessionButtonTemplateHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L3)
 --- Template
 --- @class ProfessionButtonTemplate : CheckButton, SecureFrameTemplate, ProfessionSpellButtonMixin
 --- @field cooldown ProfessionButtonTemplate_ProfessionButtonTemplateCooldown
---- @field IconTexture ProfessionButtonTemplate_ProfessionButtonTemplateIconTexture
+--- @field IconTexture Texture
 --- @field spellString ProfessionButtonTemplate_ProfessionButtonTemplateSpellName
 --- @field subSpellString ProfessionButtonTemplate_ProfessionButtonTemplateSubSpellName
 --- @field Flash Texture
---- @field highlightTexture ProfessionButtonTemplate_ProfessionButtonTemplateHighlight
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L67)
---- child of ProfessionTrialCapTemplate
---- @class ProfessionTrialCapTemplate_ProfessionTrialCapTemplateLockedIndicator : Texture
+--- @field highlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L63)
 --- Template
 --- @class ProfessionTrialCapTemplate : Frame
---- @field lockedIndicator ProfessionTrialCapTemplate_ProfessionTrialCapTemplateLockedIndicator
+--- @field lockedIndicator Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L133)
 --- child of ProfessionStatusBarTemplate
@@ -51,32 +35,12 @@
 --- child of ProfessionStatusBarTemplate
 --- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateRank : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L91)
---- child of ProfessionStatusBarTemplate
---- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L98)
---- child of ProfessionStatusBarTemplate
---- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L107)
---- child of ProfessionStatusBarTemplate
---- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateBGLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L114)
---- child of ProfessionStatusBarTemplate
---- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateBGRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L121)
---- child of ProfessionStatusBarTemplate
---- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateBGMiddle : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L82)
 --- Template
 --- @class ProfessionStatusBarTemplate : StatusBar
 --- @field capped ProfessionStatusBarTemplate_ProfessionStatusBarTemplateCapped
 --- @field rankText ProfessionStatusBarTemplate_ProfessionStatusBarTemplateRank
---- @field capRight ProfessionStatusBarTemplate_ProfessionStatusBarTemplateRight
+--- @field capRight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L205)
 --- child of PrimaryProfessionTemplate
@@ -115,14 +79,6 @@
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_PrimaryProfessionTemplateRank : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L187)
---- child of PrimaryProfessionTemplate
---- @class PrimaryProfessionTemplate_PrimaryProfessionTemplateIconBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L196)
---- child of PrimaryProfessionTemplate
---- @class PrimaryProfessionTemplate_PrimaryProfessionTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L151)
 --- Template
 --- @class PrimaryProfessionTemplate : Frame
@@ -135,7 +91,7 @@
 --- @field missingHeader PrimaryProfessionTemplate_PrimaryProfessionTemplateMissing
 --- @field missingText PrimaryProfessionTemplate_missingText
 --- @field rank PrimaryProfessionTemplate_PrimaryProfessionTemplateRank
---- @field icon PrimaryProfessionTemplate_PrimaryProfessionTemplateIcon
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L252)
 --- child of SecondaryProfessionTemplate

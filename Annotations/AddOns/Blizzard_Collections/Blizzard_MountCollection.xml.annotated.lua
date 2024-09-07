@@ -23,10 +23,6 @@
 --- @field DragTargetHighlight Texture
 --- @field NotifyDragTargetAnim MountEquipmentButtonTemplate_NotifyDragTargetAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L158)
---- child of 
---- @class MountListButtonTemplate_DragButton_Highlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L148)
 --- child of MountListButtonTemplate
 --- @class MountListButtonTemplate_DragButton : Button

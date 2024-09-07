@@ -648,8 +648,8 @@ GlyphFrame["clearInfo"] = GlyphFrameClearInfoFrame
 GlyphFrame["scrollFrame"] = GlyphFrameScrollFrame
 GlyphFrame["background"] = GlyphFrameBackground
 GlyphFrame["glow"] = GlyphFrameGlow
-GlyphFrame["levelOverlay1"] = $LevelOverlay1
-GlyphFrame["levelOverlayText1"] = $LevelOverlayText1
-GlyphFrame["levelOverlay2"] = $LevelOverlay2
-GlyphFrame["levelOverlayText2"] = $LevelOverlayText2
+GlyphFrame["levelOverlay1"] = _G["$LevelOverlay1"]
+GlyphFrame["levelOverlayText1"] = _G["$LevelOverlayText1"]
+GlyphFrame["levelOverlay2"] = _G["$LevelOverlay2"]
+GlyphFrame["levelOverlayText2"] = _G["$LevelOverlayText2"]
 

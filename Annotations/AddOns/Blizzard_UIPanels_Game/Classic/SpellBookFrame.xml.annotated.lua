@@ -207,7 +207,7 @@ SpellButton1Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton1 (created in template SpellButtonTemplate)
@@ -299,7 +299,7 @@ SpellButton1Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton1 : CheckButton, SpellButtonTemplate
 SpellButton1 = {}
 SpellButton1["cooldown"] = SpellButton1Cooldown -- inherited
-SpellButton1["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton1["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton1["EmptySlot"] = SpellButton1Background -- inherited
 SpellButton1["TextBackground"] = SpellButton1TextBackground -- inherited
 SpellButton1["TextBackground2"] = SpellButton1TextBackground2 -- inherited
@@ -328,7 +328,7 @@ SpellButton2Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton2 (created in template SpellButtonTemplate)
@@ -420,7 +420,7 @@ SpellButton2Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton2 : CheckButton, SpellButtonTemplate
 SpellButton2 = {}
 SpellButton2["cooldown"] = SpellButton2Cooldown -- inherited
-SpellButton2["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton2["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton2["EmptySlot"] = SpellButton2Background -- inherited
 SpellButton2["TextBackground"] = SpellButton2TextBackground -- inherited
 SpellButton2["TextBackground2"] = SpellButton2TextBackground2 -- inherited
@@ -449,7 +449,7 @@ SpellButton3Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton3 (created in template SpellButtonTemplate)
@@ -541,7 +541,7 @@ SpellButton3Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton3 : CheckButton, SpellButtonTemplate
 SpellButton3 = {}
 SpellButton3["cooldown"] = SpellButton3Cooldown -- inherited
-SpellButton3["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton3["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton3["EmptySlot"] = SpellButton3Background -- inherited
 SpellButton3["TextBackground"] = SpellButton3TextBackground -- inherited
 SpellButton3["TextBackground2"] = SpellButton3TextBackground2 -- inherited
@@ -570,7 +570,7 @@ SpellButton4Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton4 (created in template SpellButtonTemplate)
@@ -662,7 +662,7 @@ SpellButton4Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton4 : CheckButton, SpellButtonTemplate
 SpellButton4 = {}
 SpellButton4["cooldown"] = SpellButton4Cooldown -- inherited
-SpellButton4["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton4["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton4["EmptySlot"] = SpellButton4Background -- inherited
 SpellButton4["TextBackground"] = SpellButton4TextBackground -- inherited
 SpellButton4["TextBackground2"] = SpellButton4TextBackground2 -- inherited
@@ -691,7 +691,7 @@ SpellButton5Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton5 (created in template SpellButtonTemplate)
@@ -783,7 +783,7 @@ SpellButton5Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton5 : CheckButton, SpellButtonTemplate
 SpellButton5 = {}
 SpellButton5["cooldown"] = SpellButton5Cooldown -- inherited
-SpellButton5["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton5["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton5["EmptySlot"] = SpellButton5Background -- inherited
 SpellButton5["TextBackground"] = SpellButton5TextBackground -- inherited
 SpellButton5["TextBackground2"] = SpellButton5TextBackground2 -- inherited
@@ -812,7 +812,7 @@ SpellButton6Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton6 (created in template SpellButtonTemplate)
@@ -904,7 +904,7 @@ SpellButton6Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton6 : CheckButton, SpellButtonTemplate
 SpellButton6 = {}
 SpellButton6["cooldown"] = SpellButton6Cooldown -- inherited
-SpellButton6["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton6["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton6["EmptySlot"] = SpellButton6Background -- inherited
 SpellButton6["TextBackground"] = SpellButton6TextBackground -- inherited
 SpellButton6["TextBackground2"] = SpellButton6TextBackground2 -- inherited
@@ -933,7 +933,7 @@ SpellButton7Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton7 (created in template SpellButtonTemplate)
@@ -1025,7 +1025,7 @@ SpellButton7Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton7 : CheckButton, SpellButtonTemplate
 SpellButton7 = {}
 SpellButton7["cooldown"] = SpellButton7Cooldown -- inherited
-SpellButton7["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton7["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton7["EmptySlot"] = SpellButton7Background -- inherited
 SpellButton7["TextBackground"] = SpellButton7TextBackground -- inherited
 SpellButton7["TextBackground2"] = SpellButton7TextBackground2 -- inherited
@@ -1054,7 +1054,7 @@ SpellButton8Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton8 (created in template SpellButtonTemplate)
@@ -1146,7 +1146,7 @@ SpellButton8Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton8 : CheckButton, SpellButtonTemplate
 SpellButton8 = {}
 SpellButton8["cooldown"] = SpellButton8Cooldown -- inherited
-SpellButton8["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton8["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton8["EmptySlot"] = SpellButton8Background -- inherited
 SpellButton8["TextBackground"] = SpellButton8TextBackground -- inherited
 SpellButton8["TextBackground2"] = SpellButton8TextBackground2 -- inherited
@@ -1175,7 +1175,7 @@ SpellButton9Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton9 (created in template SpellButtonTemplate)
@@ -1267,7 +1267,7 @@ SpellButton9Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton9 : CheckButton, SpellButtonTemplate
 SpellButton9 = {}
 SpellButton9["cooldown"] = SpellButton9Cooldown -- inherited
-SpellButton9["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton9["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton9["EmptySlot"] = SpellButton9Background -- inherited
 SpellButton9["TextBackground"] = SpellButton9TextBackground -- inherited
 SpellButton9["TextBackground2"] = SpellButton9TextBackground2 -- inherited
@@ -1296,7 +1296,7 @@ SpellButton10Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton10 (created in template SpellButtonTemplate)
@@ -1388,7 +1388,7 @@ SpellButton10Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton10 : CheckButton, SpellButtonTemplate
 SpellButton10 = {}
 SpellButton10["cooldown"] = SpellButton10Cooldown -- inherited
-SpellButton10["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton10["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton10["EmptySlot"] = SpellButton10Background -- inherited
 SpellButton10["TextBackground"] = SpellButton10TextBackground -- inherited
 SpellButton10["TextBackground2"] = SpellButton10TextBackground2 -- inherited
@@ -1417,7 +1417,7 @@ SpellButton11Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton11 (created in template SpellButtonTemplate)
@@ -1509,7 +1509,7 @@ SpellButton11Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton11 : CheckButton, SpellButtonTemplate
 SpellButton11 = {}
 SpellButton11["cooldown"] = SpellButton11Cooldown -- inherited
-SpellButton11["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton11["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton11["EmptySlot"] = SpellButton11Background -- inherited
 SpellButton11["TextBackground"] = SpellButton11TextBackground -- inherited
 SpellButton11["TextBackground2"] = SpellButton11TextBackground2 -- inherited
@@ -1538,7 +1538,7 @@ SpellButton12Cooldown = {}
 --- @type SpellButtonTemplate_textureTrainBook
 --- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
-$textureTrainBook["Icon"] = $textureTrainBookTrainBook
+_G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L99)
 --- child of SpellButton12 (created in template SpellButtonTemplate)
@@ -1630,7 +1630,7 @@ SpellButton12Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton12 : CheckButton, SpellButtonTemplate
 SpellButton12 = {}
 SpellButton12["cooldown"] = SpellButton12Cooldown -- inherited
-SpellButton12["TrainBook"] = _G["$textureTrainBook"] -- inherited
+SpellButton12["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
 SpellButton12["EmptySlot"] = SpellButton12Background -- inherited
 SpellButton12["TextBackground"] = SpellButton12TextBackground -- inherited
 SpellButton12["TextBackground2"] = SpellButton12TextBackground2 -- inherited

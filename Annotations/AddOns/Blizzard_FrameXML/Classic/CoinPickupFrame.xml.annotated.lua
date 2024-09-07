@@ -14,11 +14,13 @@ CoinPickupRightButton = {}
 --- child of CoinPickupFrame
 --- @class CoinPickupFrame_CoinPickupOkayButton : Button, UIPanelButtonTemplate
 CoinPickupOkayButton = {}
+CoinPickupOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L127)
 --- child of CoinPickupFrame
 --- @class CoinPickupFrame_CoinPickupCancelButton : Button, UIPanelButtonTemplate
 CoinPickupCancelButton = {}
+CoinPickupCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L17)
 --- child of CoinPickupFrame

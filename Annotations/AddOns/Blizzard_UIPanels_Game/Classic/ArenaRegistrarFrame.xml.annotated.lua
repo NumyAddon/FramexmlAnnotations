@@ -19,6 +19,7 @@ ArenaRegistrarFrameCloseButton = {}
 --- child of ArenaRegistrarGreetingFrame
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarFrameGoodbyeButton : Button, UIPanelButtonTemplate
 ArenaRegistrarFrameGoodbyeButton = {}
+ArenaRegistrarFrameGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
 --- child of ArenaRegistrarButton1 (created in template QuestTitleButtonTemplate)
@@ -122,11 +123,13 @@ ArenaRegistrarMoneyFrame["GoldButton"] = ArenaRegistrarMoneyFrameGoldButton -- i
 --- child of ArenaRegistrarPurchaseFrame
 --- @class ArenaRegistrarFrame_ArenaRegistrarPurchaseFrame_ArenaRegistrarFrameCancelButton : Button, UIPanelButtonTemplate
 ArenaRegistrarFrameCancelButton = {}
+ArenaRegistrarFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L220)
 --- child of ArenaRegistrarPurchaseFrame
 --- @class ArenaRegistrarFrame_ArenaRegistrarPurchaseFrame_ArenaRegistrarFramePurchaseButton : Button, UIPanelButtonTemplate
 ArenaRegistrarFramePurchaseButton = {}
+ArenaRegistrarFramePurchaseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L229)
 --- child of ArenaRegistrarPurchaseFrame
@@ -277,26 +280,31 @@ PVPBannerFrameCustomization2 = {}
 --- child of PVPBannerFrameCustomizationFrame
 --- @class PVPBannerFrame_PVPBannerFrameCustomizationFrame_PVPColorPickerButton1 : Button, GameMenuButtonTemplate
 PVPColorPickerButton1 = {}
+PVPColorPickerButton1["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L684)
 --- child of PVPBannerFrameCustomizationFrame
 --- @class PVPBannerFrame_PVPBannerFrameCustomizationFrame_PVPColorPickerButton2 : Button, GameMenuButtonTemplate
 PVPColorPickerButton2 = {}
+PVPColorPickerButton2["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L701)
 --- child of PVPBannerFrameCustomizationFrame
 --- @class PVPBannerFrame_PVPBannerFrameCustomizationFrame_PVPColorPickerButton3 : Button, GameMenuButtonTemplate
 PVPColorPickerButton3 = {}
+PVPColorPickerButton3["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L718)
 --- child of PVPBannerFrameCustomizationFrame
 --- @class PVPBannerFrame_PVPBannerFrameCustomizationFrame_PVPBannerFrameCancelButton : Button, UIPanelButtonTemplate
 PVPBannerFrameCancelButton = {}
+PVPBannerFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L738)
 --- child of PVPBannerFrameCustomizationFrame
 --- @class PVPBannerFrame_PVPBannerFrameCustomizationFrame_PVPBannerFrameSaveButton : Button, UIPanelButtonTemplate
 PVPBannerFrameSaveButton = {}
+PVPBannerFrameSaveButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L624)
 --- child of PVPBannerFrameCustomizationFrame
@@ -312,11 +320,13 @@ PVPBannerFrameCustomizationFrame = {}
 --- child of PVPBannerFrame
 --- @class PVPBannerFrame_PVPBannerFrameAcceptButton : Button, UIPanelButtonTemplate
 PVPBannerFrameAcceptButton = {}
+PVPBannerFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L772)
 --- child of PVPBannerFrame
 --- @class PVPBannerFrame_PVPBannerFrameCancelButton : Button, UIPanelButtonTemplate
 PVPBannerFrameCancelButton = {}
+PVPBannerFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L789)
 --- child of PVPBannerFrame

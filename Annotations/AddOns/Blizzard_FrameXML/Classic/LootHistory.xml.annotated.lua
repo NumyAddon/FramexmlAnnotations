@@ -107,6 +107,7 @@ LootHistoryFrameScrollFrame["ScrollBar"] = LootHistoryFrameScrollFrameScrollBar 
 --- @field Divider Texture
 LootHistoryFrame = {}
 LootHistoryFrame["ScrollFrame"] = LootHistoryFrameScrollFrame
+LootHistoryFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 LootHistoryFrame["backdropColorAlpha"] = 0.8 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L284)

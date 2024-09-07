@@ -174,35 +174,947 @@ OverrideActionBarPowerBar["PowerBarBG"] = OverrideActionBarPowerBarBackground
 OverrideActionBarPowerBar["PowerBarOverlay"] = OverrideActionBarPowerBarOverlay
 OverrideActionBarPowerBar["parentKey"] = OverrideActionBarPowerBarText
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L15)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L22)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L29)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L36)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L43)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L50)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L57)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L64)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L71)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L78)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L85)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L92)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L99)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L106)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L113)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L120)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L94)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+ActionBarButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L100)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+ActionBarButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L23)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L26)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L27)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+ActionBarButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L32)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+ActionBarButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L39)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+ActionBarButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L40)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+ActionBarButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L46)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+ActionBarButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L53)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+ActionBarButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L59)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L110)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateNormalTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L523)
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton1 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton1 = {}
+OverrideActionBarButton1["AutoCastShine"] = ActionBarButtonTemplateShine -- inherited
+OverrideActionBarButton1["cooldown"] = ActionBarButtonTemplateCooldown -- inherited
+OverrideActionBarButton1["icon"] = ActionBarButtonTemplateIcon -- inherited
+OverrideActionBarButton1["Flash"] = ActionBarButtonTemplateFlash -- inherited
+OverrideActionBarButton1["FlyoutBorder"] = ActionBarButtonTemplateFlyoutBorder -- inherited
+OverrideActionBarButton1["FlyoutBorderShadow"] = ActionBarButtonTemplateFlyoutBorderShadow -- inherited
+OverrideActionBarButton1["FlyoutArrow"] = ActionBarButtonTemplateFlyoutArrow -- inherited
+OverrideActionBarButton1["HotKey"] = ActionBarButtonTemplateHotKey -- inherited
+OverrideActionBarButton1["Count"] = ActionBarButtonTemplateCount -- inherited
+OverrideActionBarButton1["Name"] = ActionBarButtonTemplateName -- inherited
+OverrideActionBarButton1["Border"] = ActionBarButtonTemplateBorder -- inherited
+OverrideActionBarButton1["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L15)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L22)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L29)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L36)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L43)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L50)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L57)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L64)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L71)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L78)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L85)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L92)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L99)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L106)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L113)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L120)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L94)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+ActionBarButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L100)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+ActionBarButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L23)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L26)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L27)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+ActionBarButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L32)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+ActionBarButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L39)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+ActionBarButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L40)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+ActionBarButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L46)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+ActionBarButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L53)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+ActionBarButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L59)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L110)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L528)
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton2 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton2 = {}
+OverrideActionBarButton2["AutoCastShine"] = ActionBarButtonTemplateShine -- inherited
+OverrideActionBarButton2["cooldown"] = ActionBarButtonTemplateCooldown -- inherited
+OverrideActionBarButton2["icon"] = ActionBarButtonTemplateIcon -- inherited
+OverrideActionBarButton2["Flash"] = ActionBarButtonTemplateFlash -- inherited
+OverrideActionBarButton2["FlyoutBorder"] = ActionBarButtonTemplateFlyoutBorder -- inherited
+OverrideActionBarButton2["FlyoutBorderShadow"] = ActionBarButtonTemplateFlyoutBorderShadow -- inherited
+OverrideActionBarButton2["FlyoutArrow"] = ActionBarButtonTemplateFlyoutArrow -- inherited
+OverrideActionBarButton2["HotKey"] = ActionBarButtonTemplateHotKey -- inherited
+OverrideActionBarButton2["Count"] = ActionBarButtonTemplateCount -- inherited
+OverrideActionBarButton2["Name"] = ActionBarButtonTemplateName -- inherited
+OverrideActionBarButton2["Border"] = ActionBarButtonTemplateBorder -- inherited
+OverrideActionBarButton2["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L15)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L22)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L29)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L36)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L43)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L50)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L57)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L64)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L71)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L78)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L85)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L92)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L99)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L106)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L113)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L120)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L94)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+ActionBarButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L100)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+ActionBarButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L23)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L26)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L27)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+ActionBarButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L32)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+ActionBarButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L39)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+ActionBarButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L40)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+ActionBarButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L46)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+ActionBarButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L53)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+ActionBarButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L59)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L110)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L533)
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton3 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton3 = {}
+OverrideActionBarButton3["AutoCastShine"] = ActionBarButtonTemplateShine -- inherited
+OverrideActionBarButton3["cooldown"] = ActionBarButtonTemplateCooldown -- inherited
+OverrideActionBarButton3["icon"] = ActionBarButtonTemplateIcon -- inherited
+OverrideActionBarButton3["Flash"] = ActionBarButtonTemplateFlash -- inherited
+OverrideActionBarButton3["FlyoutBorder"] = ActionBarButtonTemplateFlyoutBorder -- inherited
+OverrideActionBarButton3["FlyoutBorderShadow"] = ActionBarButtonTemplateFlyoutBorderShadow -- inherited
+OverrideActionBarButton3["FlyoutArrow"] = ActionBarButtonTemplateFlyoutArrow -- inherited
+OverrideActionBarButton3["HotKey"] = ActionBarButtonTemplateHotKey -- inherited
+OverrideActionBarButton3["Count"] = ActionBarButtonTemplateCount -- inherited
+OverrideActionBarButton3["Name"] = ActionBarButtonTemplateName -- inherited
+OverrideActionBarButton3["Border"] = ActionBarButtonTemplateBorder -- inherited
+OverrideActionBarButton3["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L15)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L22)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L29)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L36)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L43)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L50)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L57)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L64)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L71)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L78)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L85)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L92)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L99)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L106)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L113)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L120)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L94)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+ActionBarButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L100)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+ActionBarButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L23)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L26)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L27)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+ActionBarButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L32)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+ActionBarButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L39)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+ActionBarButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L40)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+ActionBarButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L46)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+ActionBarButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L53)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+ActionBarButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L59)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L110)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L538)
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton4 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton4 = {}
+OverrideActionBarButton4["AutoCastShine"] = ActionBarButtonTemplateShine -- inherited
+OverrideActionBarButton4["cooldown"] = ActionBarButtonTemplateCooldown -- inherited
+OverrideActionBarButton4["icon"] = ActionBarButtonTemplateIcon -- inherited
+OverrideActionBarButton4["Flash"] = ActionBarButtonTemplateFlash -- inherited
+OverrideActionBarButton4["FlyoutBorder"] = ActionBarButtonTemplateFlyoutBorder -- inherited
+OverrideActionBarButton4["FlyoutBorderShadow"] = ActionBarButtonTemplateFlyoutBorderShadow -- inherited
+OverrideActionBarButton4["FlyoutArrow"] = ActionBarButtonTemplateFlyoutArrow -- inherited
+OverrideActionBarButton4["HotKey"] = ActionBarButtonTemplateHotKey -- inherited
+OverrideActionBarButton4["Count"] = ActionBarButtonTemplateCount -- inherited
+OverrideActionBarButton4["Name"] = ActionBarButtonTemplateName -- inherited
+OverrideActionBarButton4["Border"] = ActionBarButtonTemplateBorder -- inherited
+OverrideActionBarButton4["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L15)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L22)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L29)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L36)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L43)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L50)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L57)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L64)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L71)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L78)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L85)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L92)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L99)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L106)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L113)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L120)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L94)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+ActionBarButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L100)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+ActionBarButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L23)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L26)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L27)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+ActionBarButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L32)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+ActionBarButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L39)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+ActionBarButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L40)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+ActionBarButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L46)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+ActionBarButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L53)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+ActionBarButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L59)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L110)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L543)
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton5 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton5 = {}
+OverrideActionBarButton5["AutoCastShine"] = ActionBarButtonTemplateShine -- inherited
+OverrideActionBarButton5["cooldown"] = ActionBarButtonTemplateCooldown -- inherited
+OverrideActionBarButton5["icon"] = ActionBarButtonTemplateIcon -- inherited
+OverrideActionBarButton5["Flash"] = ActionBarButtonTemplateFlash -- inherited
+OverrideActionBarButton5["FlyoutBorder"] = ActionBarButtonTemplateFlyoutBorder -- inherited
+OverrideActionBarButton5["FlyoutBorderShadow"] = ActionBarButtonTemplateFlyoutBorderShadow -- inherited
+OverrideActionBarButton5["FlyoutArrow"] = ActionBarButtonTemplateFlyoutArrow -- inherited
+OverrideActionBarButton5["HotKey"] = ActionBarButtonTemplateHotKey -- inherited
+OverrideActionBarButton5["Count"] = ActionBarButtonTemplateCount -- inherited
+OverrideActionBarButton5["Name"] = ActionBarButtonTemplateName -- inherited
+OverrideActionBarButton5["Border"] = ActionBarButtonTemplateBorder -- inherited
+OverrideActionBarButton5["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L15)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L22)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L29)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L36)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L43)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L50)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L57)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L64)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L71)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L78)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L85)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L92)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L99)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L106)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L113)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L120)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+ActionBarButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L94)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+ActionBarButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L100)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+ActionBarButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L23)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L26)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L27)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+ActionBarButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L32)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+ActionBarButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L39)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+ActionBarButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L40)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+ActionBarButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L46)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+ActionBarButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L53)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+ActionBarButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L59)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L110)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+ActionBarButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L548)
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton6 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton6 = {}
+OverrideActionBarButton6["AutoCastShine"] = ActionBarButtonTemplateShine -- inherited
+OverrideActionBarButton6["cooldown"] = ActionBarButtonTemplateCooldown -- inherited
+OverrideActionBarButton6["icon"] = ActionBarButtonTemplateIcon -- inherited
+OverrideActionBarButton6["Flash"] = ActionBarButtonTemplateFlash -- inherited
+OverrideActionBarButton6["FlyoutBorder"] = ActionBarButtonTemplateFlyoutBorder -- inherited
+OverrideActionBarButton6["FlyoutBorderShadow"] = ActionBarButtonTemplateFlyoutBorderShadow -- inherited
+OverrideActionBarButton6["FlyoutArrow"] = ActionBarButtonTemplateFlyoutArrow -- inherited
+OverrideActionBarButton6["HotKey"] = ActionBarButtonTemplateHotKey -- inherited
+OverrideActionBarButton6["Count"] = ActionBarButtonTemplateCount -- inherited
+OverrideActionBarButton6["Name"] = ActionBarButtonTemplateName -- inherited
+OverrideActionBarButton6["Border"] = ActionBarButtonTemplateBorder -- inherited
+OverrideActionBarButton6["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L36)
 --- child of OverrideActionBar

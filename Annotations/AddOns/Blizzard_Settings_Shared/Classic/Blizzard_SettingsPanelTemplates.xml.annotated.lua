@@ -6,7 +6,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Classic/Blizzard_SettingsPanelTemplates.xml#L18)
 --- child of 
---- @class SettingsFrameTemplate_NineSlice_TitleBg : Texture, _UI-Frame-TitleTileBg
+--- @class SettingsFrameTemplate_NineSlice_SettingsFrameTemplateTitleBg : Texture, _UI-Frame-TitleTileBg
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Classic/Blizzard_SettingsPanelTemplates.xml#L26)
 --- child of 
@@ -16,7 +16,7 @@
 --- child of SettingsFrameTemplate
 --- @class SettingsFrameTemplate_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # "ButtonFrameTemplateNoPortrait"
---- @field TitleBg SettingsFrameTemplate_NineSlice_TitleBg
+--- @field TitleBg SettingsFrameTemplate_NineSlice_SettingsFrameTemplateTitleBg
 --- @field Text SettingsFrameTemplate_NineSlice_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Classic/Blizzard_SettingsPanelTemplates.xml#L36)

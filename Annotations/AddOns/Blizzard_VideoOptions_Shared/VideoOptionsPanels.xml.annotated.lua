@@ -54,85 +54,469 @@
 --- @class Advanced__Advanced_BufferingDropDown_Advanced_BufferingDropDownLabel : FontString, OptionsFontSmall
 Advanced_BufferingDropDownLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L284)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+VideoOptionsDropDownMenuTemplateButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L226)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L239)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L248)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L257)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+VideoOptionsDropDownMenuTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L271)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L8)
+--- child of AdvancedVideoOptionsDropDownMenuTemplate (created in template VideoOptionsDropDownMenuTemplate)
+--- @type VideoOptionsDropDownMenuTemplate_VideoOptionsDropDownMenuTemplateWarning
+AdvancedVideoOptionsDropDownMenuTemplateWarning = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1018)
 --- child of Advanced_
 --- @class Advanced__Advanced_BufferingDropDown : Frame, AdvancedVideoOptionsDropDownMenuTemplate
 Advanced_BufferingDropDown = {}
+Advanced_BufferingDropDown["Button"] = VideoOptionsDropDownMenuTemplateButton -- inherited
+Advanced_BufferingDropDown["Left"] = VideoOptionsDropDownMenuTemplateLeft -- inherited
+Advanced_BufferingDropDown["Middle"] = VideoOptionsDropDownMenuTemplateMiddle -- inherited
+Advanced_BufferingDropDown["Right"] = VideoOptionsDropDownMenuTemplateRight -- inherited
+Advanced_BufferingDropDown["Text"] = VideoOptionsDropDownMenuTemplateText -- inherited
+Advanced_BufferingDropDown["Icon"] = VideoOptionsDropDownMenuTemplateIcon -- inherited
+Advanced_BufferingDropDown["warning"] = AdvancedVideoOptionsDropDownMenuTemplateWarning -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1044)
 --- child of Advanced_FilteringDropDown
 --- @class Advanced__Advanced_FilteringDropDown_Advanced_FilteringDropDownLabel : FontString, OptionsFontSmall
 Advanced_FilteringDropDownLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L284)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+VideoOptionsDropDownMenuTemplateButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L226)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L239)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L248)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L257)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+VideoOptionsDropDownMenuTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L271)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L8)
+--- child of AdvancedVideoOptionsDropDownMenuTemplate (created in template VideoOptionsDropDownMenuTemplate)
+--- @type VideoOptionsDropDownMenuTemplate_VideoOptionsDropDownMenuTemplateWarning
+AdvancedVideoOptionsDropDownMenuTemplateWarning = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1034)
 --- child of Advanced_
 --- @class Advanced__Advanced_FilteringDropDown : Frame, AdvancedVideoOptionsDropDownMenuTemplate
 Advanced_FilteringDropDown = {}
+Advanced_FilteringDropDown["Button"] = VideoOptionsDropDownMenuTemplateButton -- inherited
+Advanced_FilteringDropDown["Left"] = VideoOptionsDropDownMenuTemplateLeft -- inherited
+Advanced_FilteringDropDown["Middle"] = VideoOptionsDropDownMenuTemplateMiddle -- inherited
+Advanced_FilteringDropDown["Right"] = VideoOptionsDropDownMenuTemplateRight -- inherited
+Advanced_FilteringDropDown["Text"] = VideoOptionsDropDownMenuTemplateText -- inherited
+Advanced_FilteringDropDown["Icon"] = VideoOptionsDropDownMenuTemplateIcon -- inherited
+Advanced_FilteringDropDown["warning"] = AdvancedVideoOptionsDropDownMenuTemplateWarning -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1062)
 --- child of Advanced_RTShadowQualityDropDown
 --- @class Advanced__Advanced_RTShadowQualityDropDown_Advanced_RTShadowQualityDropDownLabel : FontString, OptionsFontSmall
 Advanced_RTShadowQualityDropDownLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L284)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+VideoOptionsDropDownMenuTemplateButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L226)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L239)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L248)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L257)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+VideoOptionsDropDownMenuTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L271)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L8)
+--- child of AdvancedVideoOptionsDropDownMenuTemplate (created in template VideoOptionsDropDownMenuTemplate)
+--- @type VideoOptionsDropDownMenuTemplate_VideoOptionsDropDownMenuTemplateWarning
+AdvancedVideoOptionsDropDownMenuTemplateWarning = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1052)
 --- child of Advanced_
 --- @class Advanced__Advanced_RTShadowQualityDropDown : Frame, AdvancedVideoOptionsDropDownMenuTemplate
 Advanced_RTShadowQualityDropDown = {}
+Advanced_RTShadowQualityDropDown["Button"] = VideoOptionsDropDownMenuTemplateButton -- inherited
+Advanced_RTShadowQualityDropDown["Left"] = VideoOptionsDropDownMenuTemplateLeft -- inherited
+Advanced_RTShadowQualityDropDown["Middle"] = VideoOptionsDropDownMenuTemplateMiddle -- inherited
+Advanced_RTShadowQualityDropDown["Right"] = VideoOptionsDropDownMenuTemplateRight -- inherited
+Advanced_RTShadowQualityDropDown["Text"] = VideoOptionsDropDownMenuTemplateText -- inherited
+Advanced_RTShadowQualityDropDown["Icon"] = VideoOptionsDropDownMenuTemplateIcon -- inherited
+Advanced_RTShadowQualityDropDown["warning"] = AdvancedVideoOptionsDropDownMenuTemplateWarning -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1080)
 --- child of Advanced_MultisampleAntiAliasingDropDown
 --- @class Advanced__Advanced_MultisampleAntiAliasingDropDown_Advanced_MultisampleAntiAliasingDropDownLabel : FontString, OptionsFontSmall
 Advanced_MultisampleAntiAliasingDropDownLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L284)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+VideoOptionsDropDownMenuTemplateButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L226)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L239)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L248)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L257)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+VideoOptionsDropDownMenuTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L271)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L8)
+--- child of AdvancedVideoOptionsDropDownMenuTemplate (created in template VideoOptionsDropDownMenuTemplate)
+--- @type VideoOptionsDropDownMenuTemplate_VideoOptionsDropDownMenuTemplateWarning
+AdvancedVideoOptionsDropDownMenuTemplateWarning = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1070)
 --- child of Advanced_
 --- @class Advanced__Advanced_MultisampleAntiAliasingDropDown : Frame, AdvancedVideoOptionsDropDownMenuTemplate
 Advanced_MultisampleAntiAliasingDropDown = {}
+Advanced_MultisampleAntiAliasingDropDown["Button"] = VideoOptionsDropDownMenuTemplateButton -- inherited
+Advanced_MultisampleAntiAliasingDropDown["Left"] = VideoOptionsDropDownMenuTemplateLeft -- inherited
+Advanced_MultisampleAntiAliasingDropDown["Middle"] = VideoOptionsDropDownMenuTemplateMiddle -- inherited
+Advanced_MultisampleAntiAliasingDropDown["Right"] = VideoOptionsDropDownMenuTemplateRight -- inherited
+Advanced_MultisampleAntiAliasingDropDown["Text"] = VideoOptionsDropDownMenuTemplateText -- inherited
+Advanced_MultisampleAntiAliasingDropDown["Icon"] = VideoOptionsDropDownMenuTemplateIcon -- inherited
+Advanced_MultisampleAntiAliasingDropDown["warning"] = AdvancedVideoOptionsDropDownMenuTemplateWarning -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1098)
 --- child of Advanced_MultisampleAlphaTest
 --- @class Advanced__Advanced_MultisampleAlphaTest_Advanced_MultisampleAlphaTestLabel : FontString, OptionsFontSmall
 Advanced_MultisampleAlphaTestLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L284)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+VideoOptionsDropDownMenuTemplateButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L226)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L239)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L248)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L257)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+VideoOptionsDropDownMenuTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L271)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L8)
+--- child of AdvancedVideoOptionsDropDownMenuTemplate (created in template VideoOptionsDropDownMenuTemplate)
+--- @type VideoOptionsDropDownMenuTemplate_VideoOptionsDropDownMenuTemplateWarning
+AdvancedVideoOptionsDropDownMenuTemplateWarning = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1088)
 --- child of Advanced_
 --- @class Advanced__Advanced_MultisampleAlphaTest : Frame, AdvancedVideoOptionsDropDownMenuTemplate
 Advanced_MultisampleAlphaTest = {}
+Advanced_MultisampleAlphaTest["Button"] = VideoOptionsDropDownMenuTemplateButton -- inherited
+Advanced_MultisampleAlphaTest["Left"] = VideoOptionsDropDownMenuTemplateLeft -- inherited
+Advanced_MultisampleAlphaTest["Middle"] = VideoOptionsDropDownMenuTemplateMiddle -- inherited
+Advanced_MultisampleAlphaTest["Right"] = VideoOptionsDropDownMenuTemplateRight -- inherited
+Advanced_MultisampleAlphaTest["Text"] = VideoOptionsDropDownMenuTemplateText -- inherited
+Advanced_MultisampleAlphaTest["Icon"] = VideoOptionsDropDownMenuTemplateIcon -- inherited
+Advanced_MultisampleAlphaTest["warning"] = AdvancedVideoOptionsDropDownMenuTemplateWarning -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1116)
 --- child of Advanced_PostProcessAntiAliasingDropDown
 --- @class Advanced__Advanced_PostProcessAntiAliasingDropDown_Advanced_PostProcessAntiAliasingDropDownLabel : FontString, OptionsFontSmall
 Advanced_PostProcessAntiAliasingDropDownLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L284)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+VideoOptionsDropDownMenuTemplateButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L226)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L239)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L248)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L257)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+VideoOptionsDropDownMenuTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L271)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L8)
+--- child of AdvancedVideoOptionsDropDownMenuTemplate (created in template VideoOptionsDropDownMenuTemplate)
+--- @type VideoOptionsDropDownMenuTemplate_VideoOptionsDropDownMenuTemplateWarning
+AdvancedVideoOptionsDropDownMenuTemplateWarning = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1106)
 --- child of Advanced_
 --- @class Advanced__Advanced_PostProcessAntiAliasingDropDown : Frame, AdvancedVideoOptionsDropDownMenuTemplate
 Advanced_PostProcessAntiAliasingDropDown = {}
+Advanced_PostProcessAntiAliasingDropDown["Button"] = VideoOptionsDropDownMenuTemplateButton -- inherited
+Advanced_PostProcessAntiAliasingDropDown["Left"] = VideoOptionsDropDownMenuTemplateLeft -- inherited
+Advanced_PostProcessAntiAliasingDropDown["Middle"] = VideoOptionsDropDownMenuTemplateMiddle -- inherited
+Advanced_PostProcessAntiAliasingDropDown["Right"] = VideoOptionsDropDownMenuTemplateRight -- inherited
+Advanced_PostProcessAntiAliasingDropDown["Text"] = VideoOptionsDropDownMenuTemplateText -- inherited
+Advanced_PostProcessAntiAliasingDropDown["Icon"] = VideoOptionsDropDownMenuTemplateIcon -- inherited
+Advanced_PostProcessAntiAliasingDropDown["warning"] = AdvancedVideoOptionsDropDownMenuTemplateWarning -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1130)
 --- child of Advanced_ResampleQualityDropDown
 --- @class Advanced__Advanced_ResampleQualityDropDown_Advanced_ResampleQualityDropDownLabel : FontString, OptionsFontSmall
 Advanced_ResampleQualityDropDownLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L284)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+VideoOptionsDropDownMenuTemplateButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L226)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L239)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L248)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L257)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+VideoOptionsDropDownMenuTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L271)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L8)
+--- child of AdvancedVideoOptionsDropDownMenuTemplate (created in template VideoOptionsDropDownMenuTemplate)
+--- @type VideoOptionsDropDownMenuTemplate_VideoOptionsDropDownMenuTemplateWarning
+AdvancedVideoOptionsDropDownMenuTemplateWarning = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1124)
 --- child of Advanced_
 --- @class Advanced__Advanced_ResampleQualityDropDown : Frame, AdvancedVideoOptionsDropDownMenuTemplate
 Advanced_ResampleQualityDropDown = {}
+Advanced_ResampleQualityDropDown["Button"] = VideoOptionsDropDownMenuTemplateButton -- inherited
+Advanced_ResampleQualityDropDown["Left"] = VideoOptionsDropDownMenuTemplateLeft -- inherited
+Advanced_ResampleQualityDropDown["Middle"] = VideoOptionsDropDownMenuTemplateMiddle -- inherited
+Advanced_ResampleQualityDropDown["Right"] = VideoOptionsDropDownMenuTemplateRight -- inherited
+Advanced_ResampleQualityDropDown["Text"] = VideoOptionsDropDownMenuTemplateText -- inherited
+Advanced_ResampleQualityDropDown["Icon"] = VideoOptionsDropDownMenuTemplateIcon -- inherited
+Advanced_ResampleQualityDropDown["warning"] = AdvancedVideoOptionsDropDownMenuTemplateWarning -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1148)
 --- child of Advanced_GraphicsAPIDropDown
 --- @class Advanced__Advanced_GraphicsAPIDropDown_Advanced_GraphicsAPIDropDownLabel : FontString, OptionsFontSmall
 Advanced_GraphicsAPIDropDownLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L284)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+VideoOptionsDropDownMenuTemplateButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L226)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L239)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L248)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L257)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+VideoOptionsDropDownMenuTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L271)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L8)
+--- child of AdvancedVideoOptionsDropDownMenuTemplate (created in template VideoOptionsDropDownMenuTemplate)
+--- @type VideoOptionsDropDownMenuTemplate_VideoOptionsDropDownMenuTemplateWarning
+AdvancedVideoOptionsDropDownMenuTemplateWarning = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1138)
 --- child of Advanced_
 --- @class Advanced__Advanced_GraphicsAPIDropDown : Frame, AdvancedVideoOptionsDropDownMenuTemplate
 Advanced_GraphicsAPIDropDown = {}
+Advanced_GraphicsAPIDropDown["Button"] = VideoOptionsDropDownMenuTemplateButton -- inherited
+Advanced_GraphicsAPIDropDown["Left"] = VideoOptionsDropDownMenuTemplateLeft -- inherited
+Advanced_GraphicsAPIDropDown["Middle"] = VideoOptionsDropDownMenuTemplateMiddle -- inherited
+Advanced_GraphicsAPIDropDown["Right"] = VideoOptionsDropDownMenuTemplateRight -- inherited
+Advanced_GraphicsAPIDropDown["Text"] = VideoOptionsDropDownMenuTemplateText -- inherited
+Advanced_GraphicsAPIDropDown["Icon"] = VideoOptionsDropDownMenuTemplateIcon -- inherited
+Advanced_GraphicsAPIDropDown["warning"] = AdvancedVideoOptionsDropDownMenuTemplateWarning -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1162)
 --- child of Advanced_AdapterDropDown
 --- @class Advanced__Advanced_AdapterDropDown_Advanced_AdapterDropDownLabel : FontString, OptionsFontSmall
 Advanced_AdapterDropDownLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L284)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+VideoOptionsDropDownMenuTemplateButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L226)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L239)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L248)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L257)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+VideoOptionsDropDownMenuTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L271)
+--- child of VideoOptionsDropDownMenuTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+VideoOptionsDropDownMenuTemplateIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L8)
 --- child of Advanced_AdapterDropDown (created in template VideoOptionsDropDownMenuTemplate)
@@ -143,12 +527,38 @@ Advanced_AdapterDropDownWarning = {}
 --- child of Advanced_
 --- @class Advanced__Advanced_AdapterDropDown : Frame, VideoOptionsDropDownMenuTemplate
 Advanced_AdapterDropDown = {}
+Advanced_AdapterDropDown["Button"] = VideoOptionsDropDownMenuTemplateButton -- inherited
+Advanced_AdapterDropDown["Left"] = VideoOptionsDropDownMenuTemplateLeft -- inherited
+Advanced_AdapterDropDown["Middle"] = VideoOptionsDropDownMenuTemplateMiddle -- inherited
+Advanced_AdapterDropDown["Right"] = VideoOptionsDropDownMenuTemplateRight -- inherited
+Advanced_AdapterDropDown["Text"] = VideoOptionsDropDownMenuTemplateText -- inherited
+Advanced_AdapterDropDown["Icon"] = VideoOptionsDropDownMenuTemplateIcon -- inherited
 Advanced_AdapterDropDown["warning"] = Advanced_AdapterDropDownWarning -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1179)
 --- child of Advanced_UIScaleSlider
 --- @class Advanced__Advanced_UIScaleSlider_Advanced_UIScaleSliderTick : FontString, OptionsFontHighlightSmall
 Advanced_UIScaleSliderTick = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L84)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+VideoOptionsSliderTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L89)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+VideoOptionsSliderTemplateLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L98)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+VideoOptionsSliderTemplateHigh = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L70)
 --- child of Advanced_UIScaleSlider (created in template VideoOptionsSliderTemplate)
@@ -159,12 +569,43 @@ Advanced_UIScaleSliderWarning = {}
 --- child of Advanced_
 --- @class Advanced__Advanced_UIScaleSlider : Slider, VideoOptionsSliderTemplate
 Advanced_UIScaleSlider = {}
+Advanced_UIScaleSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+Advanced_UIScaleSlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
+Advanced_UIScaleSlider["type"] = CONTROLTYPE_SLIDER -- inherited
+Advanced_UIScaleSlider["Text"] = VideoOptionsSliderTemplateText -- inherited
+Advanced_UIScaleSlider["Low"] = VideoOptionsSliderTemplateLow -- inherited
+Advanced_UIScaleSlider["High"] = VideoOptionsSliderTemplateHigh -- inherited
 Advanced_UIScaleSlider["warning"] = Advanced_UIScaleSliderWarning -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L65)
+--- child of VideoOptionsSmallCheckButtonTemplate (created in template OptionsSmallCheckButtonTemplate)
+--- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+VideoOptionsSmallCheckButtonTemplateText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1229)
 --- child of Advanced_
 --- @class Advanced__Advanced_UseUIScale : CheckButton, VideoOptionsSmallCheckButtonTemplate
 Advanced_UseUIScale = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L84)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+VideoOptionsSliderTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L89)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+VideoOptionsSliderTemplateLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L98)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+VideoOptionsSliderTemplateHigh = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L70)
 --- child of Advanced_MaxFPSSlider (created in template VideoOptionsSliderTemplate)
@@ -175,12 +616,43 @@ Advanced_MaxFPSSliderWarning = {}
 --- child of Advanced_
 --- @class Advanced__Advanced_MaxFPSSlider : Slider, VideoOptionsSliderTemplate
 Advanced_MaxFPSSlider = {}
+Advanced_MaxFPSSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+Advanced_MaxFPSSlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
+Advanced_MaxFPSSlider["type"] = CONTROLTYPE_SLIDER -- inherited
+Advanced_MaxFPSSlider["Text"] = VideoOptionsSliderTemplateText -- inherited
+Advanced_MaxFPSSlider["Low"] = VideoOptionsSliderTemplateLow -- inherited
+Advanced_MaxFPSSlider["High"] = VideoOptionsSliderTemplateHigh -- inherited
 Advanced_MaxFPSSlider["warning"] = Advanced_MaxFPSSliderWarning -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L65)
+--- child of VideoOptionsSmallCheckButtonTemplate (created in template OptionsSmallCheckButtonTemplate)
+--- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+VideoOptionsSmallCheckButtonTemplateText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1307)
 --- child of Advanced_
 --- @class Advanced__Advanced_MaxFPSCheckBox : CheckButton, VideoOptionsSmallCheckButtonTemplate
 Advanced_MaxFPSCheckBox = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L84)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+VideoOptionsSliderTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L89)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+VideoOptionsSliderTemplateLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L98)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+VideoOptionsSliderTemplateHigh = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L70)
 --- child of Advanced_MaxFPSBKSlider (created in template VideoOptionsSliderTemplate)
@@ -191,12 +663,43 @@ Advanced_MaxFPSBKSliderWarning = {}
 --- child of Advanced_
 --- @class Advanced__Advanced_MaxFPSBKSlider : Slider, VideoOptionsSliderTemplate
 Advanced_MaxFPSBKSlider = {}
+Advanced_MaxFPSBKSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+Advanced_MaxFPSBKSlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
+Advanced_MaxFPSBKSlider["type"] = CONTROLTYPE_SLIDER -- inherited
+Advanced_MaxFPSBKSlider["Text"] = VideoOptionsSliderTemplateText -- inherited
+Advanced_MaxFPSBKSlider["Low"] = VideoOptionsSliderTemplateLow -- inherited
+Advanced_MaxFPSBKSlider["High"] = VideoOptionsSliderTemplateHigh -- inherited
 Advanced_MaxFPSBKSlider["warning"] = Advanced_MaxFPSBKSliderWarning -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L65)
+--- child of VideoOptionsSmallCheckButtonTemplate (created in template OptionsSmallCheckButtonTemplate)
+--- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+VideoOptionsSmallCheckButtonTemplateText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1371)
 --- child of Advanced_
 --- @class Advanced__Advanced_MaxFPSBKCheckBox : CheckButton, VideoOptionsSmallCheckButtonTemplate
 Advanced_MaxFPSBKCheckBox = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L84)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+VideoOptionsSliderTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L89)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+VideoOptionsSliderTemplateLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L98)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+VideoOptionsSliderTemplateHigh = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L70)
 --- child of Advanced_ContrastSlider (created in template VideoOptionsSliderTemplate)
@@ -207,7 +710,33 @@ Advanced_ContrastSliderWarning = {}
 --- child of Advanced_
 --- @class Advanced__Advanced_ContrastSlider : Slider, VideoOptionsSliderTemplate
 Advanced_ContrastSlider = {}
+Advanced_ContrastSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+Advanced_ContrastSlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
+Advanced_ContrastSlider["type"] = CONTROLTYPE_SLIDER -- inherited
+Advanced_ContrastSlider["Text"] = VideoOptionsSliderTemplateText -- inherited
+Advanced_ContrastSlider["Low"] = VideoOptionsSliderTemplateLow -- inherited
+Advanced_ContrastSlider["High"] = VideoOptionsSliderTemplateHigh -- inherited
 Advanced_ContrastSlider["warning"] = Advanced_ContrastSliderWarning -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L84)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+VideoOptionsSliderTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L89)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+VideoOptionsSliderTemplateLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L98)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+VideoOptionsSliderTemplateHigh = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L70)
 --- child of Advanced_BrightnessSlider (created in template VideoOptionsSliderTemplate)
@@ -218,7 +747,33 @@ Advanced_BrightnessSliderWarning = {}
 --- child of Advanced_
 --- @class Advanced__Advanced_BrightnessSlider : Slider, VideoOptionsSliderTemplate
 Advanced_BrightnessSlider = {}
+Advanced_BrightnessSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+Advanced_BrightnessSlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
+Advanced_BrightnessSlider["type"] = CONTROLTYPE_SLIDER -- inherited
+Advanced_BrightnessSlider["Text"] = VideoOptionsSliderTemplateText -- inherited
+Advanced_BrightnessSlider["Low"] = VideoOptionsSliderTemplateLow -- inherited
+Advanced_BrightnessSlider["High"] = VideoOptionsSliderTemplateHigh -- inherited
 Advanced_BrightnessSlider["warning"] = Advanced_BrightnessSliderWarning -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L84)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+VideoOptionsSliderTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L89)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+VideoOptionsSliderTemplateLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L98)
+--- child of VideoOptionsSliderTemplate (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+VideoOptionsSliderTemplateHigh = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L70)
 --- child of Advanced_GammaSlider (created in template VideoOptionsSliderTemplate)
@@ -229,6 +784,12 @@ Advanced_GammaSliderWarning = {}
 --- child of Advanced_
 --- @class Advanced__Advanced_GammaSlider : Slider, VideoOptionsSliderTemplate
 Advanced_GammaSlider = {}
+Advanced_GammaSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+Advanced_GammaSlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
+Advanced_GammaSlider["type"] = CONTROLTYPE_SLIDER -- inherited
+Advanced_GammaSlider["Text"] = VideoOptionsSliderTemplateText -- inherited
+Advanced_GammaSlider["Low"] = VideoOptionsSliderTemplateLow -- inherited
+Advanced_GammaSlider["High"] = VideoOptionsSliderTemplateHigh -- inherited
 Advanced_GammaSlider["warning"] = Advanced_GammaSliderWarning -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L997)

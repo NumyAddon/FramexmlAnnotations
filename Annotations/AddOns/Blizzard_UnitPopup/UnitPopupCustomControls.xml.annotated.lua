@@ -25,6 +25,11 @@
 --- child of UnitPopupVoiceSpeakerVolume
 --- @class UnitPopupVoiceSpeakerVolume_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleDeafenMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L494)
+--- child of PropertySliderTemplate (created in template UISliderTemplate)
+--- @type Texture
+PropertySliderTemplateThumb = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L61)
 --- child of UnitPopupVoiceSpeakerVolume
 --- @class UnitPopupVoiceSpeakerVolume_Slider : Slider, UnitPopupVoiceSliderTemplate, UnitPopupVoiceSpeakerVolumeSliderMixin
@@ -44,6 +49,11 @@ UnitPopupVoiceSpeakerVolume = {}
 --- child of UnitPopupVoiceMicrophoneVolume
 --- @class UnitPopupVoiceMicrophoneVolume_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleMuteMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L494)
+--- child of PropertySliderTemplate (created in template UISliderTemplate)
+--- @type Texture
+PropertySliderTemplateThumb = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L70)
 --- child of UnitPopupVoiceMicrophoneVolume
 --- @class UnitPopupVoiceMicrophoneVolume_Slider : Slider, UnitPopupVoiceSliderTemplate, UnitPopupVoiceMicrophoneVolumeSliderMixin
@@ -62,6 +72,11 @@ UnitPopupVoiceMicrophoneVolume = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L78)
 --- child of UnitPopupVoiceUserVolume
 --- @class UnitPopupVoiceUserVolume_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleUserMuteMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L494)
+--- child of PropertySliderTemplate (created in template UISliderTemplate)
+--- @type Texture
+PropertySliderTemplateThumb = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L79)
 --- child of UnitPopupVoiceUserVolume

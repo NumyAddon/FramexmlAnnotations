@@ -58,6 +58,7 @@ ItemRefShoppingTooltip1Texture3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L3)
 --- @class ItemRefShoppingTooltip1 : GameTooltip, ShoppingTooltipTemplate
 ItemRefShoppingTooltip1 = {}
+ItemRefShoppingTooltip1["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L268)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
@@ -117,6 +118,7 @@ ItemRefShoppingTooltip2Texture3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L4)
 --- @class ItemRefShoppingTooltip2 : GameTooltip, ShoppingTooltipTemplate
 ItemRefShoppingTooltip2 = {}
+ItemRefShoppingTooltip2["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L17)
 --- child of ItemRefTooltip
@@ -261,4 +263,5 @@ ItemRefTooltipTexture10 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L5)
 --- @class ItemRefTooltip : GameTooltip, GameTooltipTemplate
 ItemRefTooltip = {}
+ItemRefTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 

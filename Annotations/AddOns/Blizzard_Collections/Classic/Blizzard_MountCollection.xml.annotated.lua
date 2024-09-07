@@ -27,9 +27,99 @@
 --- @field new MountListButtonTemplate_new
 --- @field newGlow Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L796)
+--- child of  (created in template InsetFrameTemplate)
+--- @type Texture
+MountJournalBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L804)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
+MountJournalInsetTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L809)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
+MountJournalInsetTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L815)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
+MountJournalInsetBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L821)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
+MountJournalInsetBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L827)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
+MountJournalInsetTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L833)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
+MountJournalInsetBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L839)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
+MountJournalInsetLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L845)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
+MountJournalInsetRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L231)
 --- child of MountJournal
 --- @class MountJournal_LeftInset : Frame, InsetFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L796)
+--- child of  (created in template InsetFrameTemplate)
+--- @type Texture
+MountJournalBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L804)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
+MountJournalInsetTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L809)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
+MountJournalInsetTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L815)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
+MountJournalInsetBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L821)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
+MountJournalInsetBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L827)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
+MountJournalInsetTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L833)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
+MountJournalInsetBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L839)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
+MountJournalInsetLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L845)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
+MountJournalInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L295)
 --- child of MountJournal
@@ -170,29 +260,69 @@ MountJournalFilterDropDown["Icon"] = MountJournalFilterDropDownIcon -- inherited
 --- @field Count MountJournal_MountCount_Count
 --- @field Label MountJournal_MountCount_Label
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L266)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L271)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L279)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L287)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L295)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L301)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L307)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L313)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+MountJournalRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L387)
 --- child of 
 --- @class MountJournal_MountDisplay_ShadowOverlay : Frame, ShadowOverlayTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L398)
 --- child of 
---- @class MountJournal_MountDisplay_InfoButton_Icon : Texture
-Icon = {}
+--- @class MountJournal_MountDisplay_InfoButton_MountJournalIcon : Texture
+MountJournalIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L406)
 --- child of 
---- @class MountJournal_MountDisplay_InfoButton_Name : FontString, GameFontHighlightLarge
-Name = {}
+--- @class MountJournal_MountDisplay_InfoButton_MountJournalName : FontString, GameFontHighlightLarge
+MountJournalName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L412)
 --- child of 
---- @class MountJournal_MountDisplay_InfoButton_Source : FontString, GameFontHighlight
-Source = {}
+--- @class MountJournal_MountDisplay_InfoButton_MountJournalSource : FontString, GameFontHighlight
+MountJournalSource = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L418)
 --- child of 
---- @class MountJournal_MountDisplay_InfoButton_Lore : FontString, GameFontNormal
-Lore = {}
+--- @class MountJournal_MountDisplay_InfoButton_MountJournalLore : FontString, GameFontNormal
+MountJournalLore = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L426)
 --- child of 
@@ -202,10 +332,10 @@ Lore = {}
 --- child of 
 --- @class MountJournal_MountDisplay_InfoButton : Button, InlineHyperlinkFrameTemplate
 --- @field hasIconHyperlinks boolean # true
---- @field Icon MountJournal_MountDisplay_InfoButton_Icon
---- @field Name MountJournal_MountDisplay_InfoButton_Name
---- @field Source MountJournal_MountDisplay_InfoButton_Source
---- @field Lore MountJournal_MountDisplay_InfoButton_Lore
+--- @field Icon MountJournal_MountDisplay_InfoButton_MountJournalIcon
+--- @field Name MountJournal_MountDisplay_InfoButton_MountJournalName
+--- @field Source MountJournal_MountDisplay_InfoButton_MountJournalSource
+--- @field Lore MountJournal_MountDisplay_InfoButton_MountJournalLore
 --- @field New MountJournal_MountDisplay_InfoButton_New
 --- @field NewGlow Texture
 
@@ -249,6 +379,7 @@ Lore = {}
 --- child of MountJournal
 --- @class MountJournal_MountJournalMountButton : Button, MagicButtonTemplate
 MountJournalMountButton = {}
+MountJournalMountButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L284)
 --- child of MountJournalMountOptionsMenu (created in template UIDropDownMenuTemplate)

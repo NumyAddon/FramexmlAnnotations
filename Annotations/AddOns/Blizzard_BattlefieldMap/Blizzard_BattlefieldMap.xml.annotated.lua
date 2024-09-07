@@ -1,5 +1,37 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L284)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+BattlefieldMapTabButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L226)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+BattlefieldMapTabLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L239)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+BattlefieldMapTabMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L248)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+BattlefieldMapTabRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L257)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+BattlefieldMapTabText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L271)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+BattlefieldMapTabIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L36)
 --- child of BattlefieldMapTab
 --- @class BattlefieldMapTab_OptionsDropDown : Frame, UIDropDownMenuTemplate

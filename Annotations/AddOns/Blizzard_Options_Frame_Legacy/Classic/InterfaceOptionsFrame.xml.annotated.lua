@@ -8,16 +8,19 @@
 --- child of InterfaceOptionsFrame
 --- @class InterfaceOptionsFrame_InterfaceOptionsFrameCancel : Button, UIPanelButtonTemplate
 InterfaceOptionsFrameCancel = {}
+InterfaceOptionsFrameCancel["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L68)
 --- child of InterfaceOptionsFrame
 --- @class InterfaceOptionsFrame_InterfaceOptionsFrameOkay : Button, UIPanelButtonTemplate
 InterfaceOptionsFrameOkay = {}
+InterfaceOptionsFrameOkay["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L79)
 --- child of InterfaceOptionsFrame
 --- @class InterfaceOptionsFrame_InterfaceOptionsFrameDefaults : Button, UIPanelButtonTemplate
 InterfaceOptionsFrameDefaults = {}
+InterfaceOptionsFrameDefaults["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L142)
 --- child of OptionsFrameListTemplateList
@@ -34,6 +37,8 @@ InterfaceOptionsFrameCategoriesList = {}
 --- @field labelText any # CATEGORY
 InterfaceOptionsFrameCategories = {}
 InterfaceOptionsFrameCategories["labelText"] = CATEGORY
+InterfaceOptionsFrameCategories["layoutType"] = "TooltipDefaultLayout" -- inherited
+InterfaceOptionsFrameCategories["backdropColorAlpha"] = 0 -- inherited
 InterfaceOptionsFrameCategories["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L142)
@@ -51,6 +56,8 @@ InterfaceOptionsFrameAddOnsList = {}
 --- @field labelText any # ADDONS
 InterfaceOptionsFrameAddOns = {}
 InterfaceOptionsFrameAddOns["labelText"] = ADDONS
+InterfaceOptionsFrameAddOns["layoutType"] = "TooltipDefaultLayout" -- inherited
+InterfaceOptionsFrameAddOns["backdropColorAlpha"] = 0 -- inherited
 InterfaceOptionsFrameAddOns["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L128)
@@ -59,6 +66,7 @@ InterfaceOptionsFrameAddOns["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- inh
 --- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
 InterfaceOptionsFramePanelContainer = {}
 InterfaceOptionsFramePanelContainer["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR
+InterfaceOptionsFramePanelContainer["layoutType"] = "TooltipDefaultLayout" -- inherited
 InterfaceOptionsFramePanelContainer["backdropColorAlpha"] = 0 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L13)

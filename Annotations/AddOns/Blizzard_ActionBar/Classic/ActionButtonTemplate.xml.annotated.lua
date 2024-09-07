@@ -2,15 +2,15 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L4)
 --- Template
---- @class ActionBarFlyoutButton-ArrowUp : Texture
+--- @class ActionBarFlyoutButton_ArrowUp : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L8)
 --- Template
---- @class ActionBarFlyoutButton-IconFrame : Texture
+--- @class ActionBarFlyoutButton_IconFrame : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L12)
 --- Template
---- @class ActionBarFlyoutButton-IconShadow : Texture
+--- @class ActionBarFlyoutButton_IconShadow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L94)
 --- child of ActionButtonTemplate

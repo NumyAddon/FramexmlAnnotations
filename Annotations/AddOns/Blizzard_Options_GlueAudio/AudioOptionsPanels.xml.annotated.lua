@@ -41,6 +41,8 @@ AudioOptionsSoundPanelPlaybackTitle = {}
 --- @field backdropColor any # VERY_DARK_GRAY_COLOR
 AudioOptionsSoundPanelPlayback = {}
 AudioOptionsSoundPanelPlayback["backdropColor"] = VERY_DARK_GRAY_COLOR
+AudioOptionsSoundPanelPlayback["layoutType"] = "TooltipDefaultLayout" -- inherited
+AudioOptionsSoundPanelPlayback["backdropColorAlpha"] = 0 -- inherited
 AudioOptionsSoundPanelPlayback["backdropColor"] = GRAY_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L32)
@@ -144,6 +146,8 @@ AudioOptionsSoundPanelHardwareTitle = {}
 --- @field backdropColor any # VERY_DARK_GRAY_COLOR
 AudioOptionsSoundPanelHardware = {}
 AudioOptionsSoundPanelHardware["backdropColor"] = VERY_DARK_GRAY_COLOR
+AudioOptionsSoundPanelHardware["layoutType"] = "TooltipDefaultLayout" -- inherited
+AudioOptionsSoundPanelHardware["backdropColorAlpha"] = 0 -- inherited
 AudioOptionsSoundPanelHardware["backdropColor"] = GRAY_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L296)
@@ -301,12 +305,19 @@ AudioOptionsSoundPanelVolumeTitle = {}
 --- @field backdropColor any # VERY_DARK_GRAY_COLOR
 AudioOptionsSoundPanelVolume = {}
 AudioOptionsSoundPanelVolume["backdropColor"] = VERY_DARK_GRAY_COLOR
+AudioOptionsSoundPanelVolume["layoutType"] = "TooltipDefaultLayout" -- inherited
+AudioOptionsSoundPanelVolume["backdropColorAlpha"] = 0 -- inherited
 AudioOptionsSoundPanelVolume["backdropColor"] = GRAY_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L434)
 --- child of AudioOptionsSoundPanelMasterVolume
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelMasterVolume_AudioOptionsSoundPanelMasterVolumeLabel : FontString, OptionsFontSmall
 AudioOptionsSoundPanelMasterVolumeLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L84)
 --- child of AudioOptionsSoundPanelMasterVolume (created in template OptionsSliderTemplate)
@@ -327,6 +338,8 @@ AudioOptionsSoundPanelMasterVolumeHigh = {}
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelMasterVolume : Slider, OptionsSliderTemplate
 AudioOptionsSoundPanelMasterVolume = {}
+AudioOptionsSoundPanelMasterVolume["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+AudioOptionsSoundPanelMasterVolume["Thumb"] = OptionsSliderTemplateThumb -- inherited
 AudioOptionsSoundPanelMasterVolume["type"] = CONTROLTYPE_SLIDER -- inherited
 AudioOptionsSoundPanelMasterVolume["Text"] = AudioOptionsSoundPanelMasterVolumeText -- inherited
 AudioOptionsSoundPanelMasterVolume["Low"] = AudioOptionsSoundPanelMasterVolumeLow -- inherited
@@ -336,6 +349,11 @@ AudioOptionsSoundPanelMasterVolume["High"] = AudioOptionsSoundPanelMasterVolumeH
 --- child of AudioOptionsSoundPanelSoundVolume
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundVolume_AudioOptionsSoundPanelSoundVolumeLabel : FontString, OptionsFontSmallLeft
 AudioOptionsSoundPanelSoundVolumeLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L84)
 --- child of AudioOptionsSoundPanelSoundVolume (created in template OptionsSliderTemplate)
@@ -356,6 +374,8 @@ AudioOptionsSoundPanelSoundVolumeHigh = {}
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundVolume : Slider, OptionsSliderTemplate
 AudioOptionsSoundPanelSoundVolume = {}
+AudioOptionsSoundPanelSoundVolume["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+AudioOptionsSoundPanelSoundVolume["Thumb"] = OptionsSliderTemplateThumb -- inherited
 AudioOptionsSoundPanelSoundVolume["type"] = CONTROLTYPE_SLIDER -- inherited
 AudioOptionsSoundPanelSoundVolume["Text"] = AudioOptionsSoundPanelSoundVolumeText -- inherited
 AudioOptionsSoundPanelSoundVolume["Low"] = AudioOptionsSoundPanelSoundVolumeLow -- inherited
@@ -365,6 +385,11 @@ AudioOptionsSoundPanelSoundVolume["High"] = AudioOptionsSoundPanelSoundVolumeHig
 --- child of AudioOptionsSoundPanelMusicVolume
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelMusicVolume_AudioOptionsSoundPanelMusicVolumeLabel : FontString, OptionsFontSmallLeft
 AudioOptionsSoundPanelMusicVolumeLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L84)
 --- child of AudioOptionsSoundPanelMusicVolume (created in template OptionsSliderTemplate)
@@ -385,6 +410,8 @@ AudioOptionsSoundPanelMusicVolumeHigh = {}
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelMusicVolume : Slider, OptionsSliderTemplate
 AudioOptionsSoundPanelMusicVolume = {}
+AudioOptionsSoundPanelMusicVolume["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+AudioOptionsSoundPanelMusicVolume["Thumb"] = OptionsSliderTemplateThumb -- inherited
 AudioOptionsSoundPanelMusicVolume["type"] = CONTROLTYPE_SLIDER -- inherited
 AudioOptionsSoundPanelMusicVolume["Text"] = AudioOptionsSoundPanelMusicVolumeText -- inherited
 AudioOptionsSoundPanelMusicVolume["Low"] = AudioOptionsSoundPanelMusicVolumeLow -- inherited
@@ -394,6 +421,11 @@ AudioOptionsSoundPanelMusicVolume["High"] = AudioOptionsSoundPanelMusicVolumeHig
 --- child of AudioOptionsSoundPanelAmbienceVolume
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelAmbienceVolume_AudioOptionsSoundPanelAmbienceVolumeLabel : FontString, OptionsFontSmallLeft
 AudioOptionsSoundPanelAmbienceVolumeLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L84)
 --- child of AudioOptionsSoundPanelAmbienceVolume (created in template OptionsSliderTemplate)
@@ -414,6 +446,8 @@ AudioOptionsSoundPanelAmbienceVolumeHigh = {}
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelAmbienceVolume : Slider, OptionsSliderTemplate
 AudioOptionsSoundPanelAmbienceVolume = {}
+AudioOptionsSoundPanelAmbienceVolume["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+AudioOptionsSoundPanelAmbienceVolume["Thumb"] = OptionsSliderTemplateThumb -- inherited
 AudioOptionsSoundPanelAmbienceVolume["type"] = CONTROLTYPE_SLIDER -- inherited
 AudioOptionsSoundPanelAmbienceVolume["Text"] = AudioOptionsSoundPanelAmbienceVolumeText -- inherited
 AudioOptionsSoundPanelAmbienceVolume["Low"] = AudioOptionsSoundPanelAmbienceVolumeLow -- inherited
@@ -423,6 +457,11 @@ AudioOptionsSoundPanelAmbienceVolume["High"] = AudioOptionsSoundPanelAmbienceVol
 --- child of AudioOptionsSoundPanelDialogVolume
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelDialogVolume_AudioOptionsSoundPanelDialogVolumeLabel : FontString, OptionsFontSmallLeft
 AudioOptionsSoundPanelDialogVolumeLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L84)
 --- child of AudioOptionsSoundPanelDialogVolume (created in template OptionsSliderTemplate)
@@ -443,6 +482,8 @@ AudioOptionsSoundPanelDialogVolumeHigh = {}
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelDialogVolume : Slider, OptionsSliderTemplate
 AudioOptionsSoundPanelDialogVolume = {}
+AudioOptionsSoundPanelDialogVolume["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+AudioOptionsSoundPanelDialogVolume["Thumb"] = OptionsSliderTemplateThumb -- inherited
 AudioOptionsSoundPanelDialogVolume["type"] = CONTROLTYPE_SLIDER -- inherited
 AudioOptionsSoundPanelDialogVolume["Text"] = AudioOptionsSoundPanelDialogVolumeText -- inherited
 AudioOptionsSoundPanelDialogVolume["Low"] = AudioOptionsSoundPanelDialogVolumeLow -- inherited

@@ -284,20 +284,160 @@ GuildBankWithdrawMoneyFrame["GoldButton"] = GuildBankWithdrawMoneyFrameGoldButto
 --- child of GuildBankFrame
 --- @class GuildBankFrame_WithdrawButton : Button, UIPanelButtonTemplate, GuildBankFrameWithdrawButtonMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L9)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateLeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L22)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateMiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L31)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateRightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L40)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L49)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L58)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateHighlightTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L478)
 --- child of GuildBankFrame
 --- @class GuildBankFrame_GuildBankFrameTab1 : Button, GuildBankFrameTabTemplate
 GuildBankFrameTab1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L9)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateLeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L22)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateMiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L31)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateRightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L40)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L49)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L58)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateHighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L483)
 --- child of GuildBankFrame
 --- @class GuildBankFrame_GuildBankFrameTab2 : Button, GuildBankFrameTabTemplate
 GuildBankFrameTab2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L9)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateLeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L22)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateMiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L31)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateRightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L40)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L49)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L58)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateHighlightTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L488)
 --- child of GuildBankFrame
 --- @class GuildBankFrame_GuildBankFrameTab3 : Button, GuildBankFrameTabTemplate
 GuildBankFrameTab3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L9)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateLeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L22)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateMiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L31)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateRightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L40)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L49)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L58)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
+--- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+GuildBankFrameTabTemplateHighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L493)
 --- child of GuildBankFrame
@@ -403,10 +543,34 @@ GuildBankFrameTabCost = {}
 GuildBankMessageFrame = {}
 GuildBankMessageFrame["tooltipFrame"] = GameTooltip -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L615)
 --- child of 
 --- @class GuildBankFrame_Log_GuildBankTransactionsScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 GuildBankTransactionsScrollFrame = {}
+GuildBankTransactionsScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L594)
 --- child of GuildBankFrame
@@ -418,6 +582,7 @@ GuildBankTransactionsScrollFrame = {}
 --- child of GuildBankInfo
 --- @class GuildBankFrame_GuildBankInfo_GuildBankInfoSaveButton : Button, UIPanelButtonTemplate
 GuildBankInfoSaveButton = {}
+GuildBankInfoSaveButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L10)
 --- child of GuildBankInfoScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
@@ -576,6 +741,44 @@ GuildBankPopupEditBox = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L880)
 --- child of GuildBankPopupFrame
 --- @class GuildBankPopupFrame_OkayButton : Button, UIPanelButtonTemplate, GuildBankPopupOkayButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L171)
+--- child of  (created in template ListScrollFrameTemplate)
+--- @type Texture
+GuildBankPopupFrameTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L176)
+--- child of  (created in template ListScrollFrameTemplate)
+--- @type Texture
+GuildBankPopupFrameBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L181)
+--- child of  (created in template ListScrollFrameTemplate)
+--- @type Texture
+GuildBankPopupFrameMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L889)
 --- child of GuildBankPopupFrame

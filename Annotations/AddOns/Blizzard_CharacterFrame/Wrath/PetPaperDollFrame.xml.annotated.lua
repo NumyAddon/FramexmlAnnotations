@@ -47,6 +47,7 @@ PetPaperDollPetInfo = {}
 --- child of PetPaperDollFramePetFrame
 --- @class PetPaperDollFrame_PetPaperDollFramePetFrame_PetPaperDollCloseButton : Button, UIPanelButtonTemplate
 PetPaperDollCloseButton = {}
+PetPaperDollCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
@@ -317,6 +318,7 @@ CompanionModelFrame = {}
 --- child of PetPaperDollFrameCompanionFrame
 --- @class PetPaperDollFrame_PetPaperDollFrameCompanionFrame_CompanionSummonButton : Button, GameMenuButtonTemplate
 CompanionSummonButton = {}
+CompanionSummonButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L13)
 --- child of CompanionButton1 (created in template CompanionButtonTemplate)

@@ -107,6 +107,7 @@ GlueTooltipTextRight5 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L101)
 --- @class GlueTooltip : Frame, GlueTooltipTemplate
 GlueTooltip = {}
+GlueTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 GlueTooltip["TextLeft1"] = GlueTooltipTextLeft1 -- inherited
 GlueTooltip["TextRight1"] = GlueTooltipTextRight1 -- inherited
 GlueTooltip["TextLeft2"] = GlueTooltipTextLeft2 -- inherited

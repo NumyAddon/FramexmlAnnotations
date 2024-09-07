@@ -152,7 +152,7 @@ PVPTeam1DataWinLossLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L321)
 --- child of PVPTeam1Data (created in template PVPTeamDataTemplate)
---- @type PVPTeamDataTemplate_PVPTeamDataTemplate-
+--- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
 PVPTeam1Data- = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L330)
@@ -287,7 +287,7 @@ PVPTeam2DataWinLossLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L321)
 --- child of PVPTeam2Data (created in template PVPTeamDataTemplate)
---- @type PVPTeamDataTemplate_PVPTeamDataTemplate-
+--- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
 PVPTeam2Data- = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L330)
@@ -422,7 +422,7 @@ PVPTeam3DataWinLossLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L321)
 --- child of PVPTeam3Data (created in template PVPTeamDataTemplate)
---- @type PVPTeamDataTemplate_PVPTeamDataTemplate-
+--- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
 PVPTeam3Data- = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L330)
@@ -710,7 +710,7 @@ PVPTeamDetailsButton1Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -768,7 +768,7 @@ PVPTeamDetailsButton2Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -826,7 +826,7 @@ PVPTeamDetailsButton3Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -884,7 +884,7 @@ PVPTeamDetailsButton4Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -942,7 +942,7 @@ PVPTeamDetailsButton5Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1000,7 +1000,7 @@ PVPTeamDetailsButton6Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1058,7 +1058,7 @@ PVPTeamDetailsButton7Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1116,7 +1116,7 @@ PVPTeamDetailsButton8Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1174,7 +1174,7 @@ PVPTeamDetailsButton9Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1232,7 +1232,7 @@ PVPTeamDetailsButton10Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1261,6 +1261,7 @@ PVPTeamDetailsButton10 = {}
 --- child of PVPTeamDetails
 --- @class PVPTeamDetails_PVPTeamDetailsAddTeamMember : Button, UIPanelButtonTemplate
 PVPTeamDetailsAddTeamMember = {}
+PVPTeamDetailsAddTeamMember["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L805)
 --- child of PVPTeamDetails
@@ -1299,7 +1300,7 @@ PVPTeamDetailsWinLossLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L545)
 --- child of PVPTeamDetails
---- @class PVPTeamDetails_PVPTeamDetails- : FontString, GameFontHighlightSmall
+--- @class PVPTeamDetails_PVPTeamDetails_ : FontString, GameFontHighlightSmall
 PVPTeamDetails- = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrame.xml#L554)

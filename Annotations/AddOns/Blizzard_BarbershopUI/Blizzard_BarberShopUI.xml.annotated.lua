@@ -69,6 +69,26 @@ BarberShopAlternateFormBottomHighlight = {}
 --- @class BarberShopFrame_BarberShopAlternateFormBottom : CheckButton
 BarberShopAlternateFormBottom = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L7)
+--- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
+--- @type FontString
+CharacterCreateGenderButtonTemplateHighlightText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L18)
+--- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+CharacterCreateGenderButtonTemplateShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L27)
+--- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+CharacterCreateGenderButtonTemplateBevelEdge = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L34)
+--- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+CharacterCreateGenderButtonTemplateDisableTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L80)
 --- child of BarberShopFrameMaleButton (created in template CharacterCreateGenderButtonTemplate)
 --- @type Texture
@@ -80,6 +100,26 @@ BarberShopFrameMaleButtonNormalTexture = {}
 --- @field layoutIndex number # 1
 BarberShopFrameMaleButton = {}
 BarberShopFrameMaleButton["layoutIndex"] = 1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L7)
+--- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
+--- @type FontString
+CharacterCreateGenderButtonTemplateHighlightText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L18)
+--- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+CharacterCreateGenderButtonTemplateShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L27)
+--- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+CharacterCreateGenderButtonTemplateBevelEdge = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L34)
+--- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+CharacterCreateGenderButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L80)
 --- child of BarberShopFrameFemaleButton (created in template CharacterCreateGenderButtonTemplate)
@@ -173,11 +213,13 @@ BarberShopFrameMoneyFrame["GoldButton"] = BarberShopFrameMoneyFrameGoldButton --
 --- @field layoutIndex number # 12
 BarberShopFrameOkayButton = {}
 BarberShopFrameOkayButton["layoutIndex"] = 12
+BarberShopFrameOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L437)
 --- child of BarberShopFrame
 --- @class BarberShopFrame_BarberShopFrameCancelButton : Button, UIPanelButtonTemplate
 BarberShopFrameCancelButton = {}
+BarberShopFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L454)
 --- child of BarberShopFrame
@@ -185,6 +227,7 @@ BarberShopFrameCancelButton = {}
 --- @field layoutIndex number # 13
 BarberShopFrameResetButton = {}
 BarberShopFrameResetButton["layoutIndex"] = 13
+BarberShopFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L140)
 --- @class BarberShopFrame : Frame, VerticalLayoutFrame
@@ -252,6 +295,7 @@ BarbersChoiceConfirmFrameMoneyFrame["GoldButton"] = BarbersChoiceConfirmFrameMon
 --- @field layoutIndex number # 3
 BarbersChoiceConfirmFrameBarbersChoiceOkayButton = {}
 BarbersChoiceConfirmFrameBarbersChoiceOkayButton["layoutIndex"] = 3
+BarbersChoiceConfirmFrameBarbersChoiceOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L591)
 --- child of BarbersChoiceConfirmFrame
@@ -259,6 +303,7 @@ BarbersChoiceConfirmFrameBarbersChoiceOkayButton["layoutIndex"] = 3
 --- @field layoutIndex number # 4
 BarbersChoiceConfirmFrameBarbersChoiceCancelButton = {}
 BarbersChoiceConfirmFrameBarbersChoiceCancelButton["layoutIndex"] = 4
+BarbersChoiceConfirmFrameBarbersChoiceCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L605)
 --- child of BarbersChoiceConfirmFrame

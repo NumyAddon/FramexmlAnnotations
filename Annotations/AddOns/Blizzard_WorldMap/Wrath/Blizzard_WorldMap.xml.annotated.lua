@@ -239,6 +239,7 @@ WorldMapZoneMinimapDropDown["Icon"] = WorldMapZoneMinimapDropDownIcon -- inherit
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapZoomOutButton : Button, UIPanelButtonTemplate
 WorldMapZoomOutButton = {}
+WorldMapZoomOutButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L383)
 --- child of WorldMapFrame

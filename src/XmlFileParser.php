@@ -176,15 +176,15 @@ class XmlFileParser
         $data = '';
         $globalChildrenWithParentKey = [];
         $inheritedKeyValues = [];
-        if ($shouldWriteGlobal) {
-            foreach ($frame->getChildren() as $child) {
-                if ($this->childHasInterestingData($child)) {
-                    $data .= $this->writeFrame($child, $linkPrefix);
-                    if ($child->getName() && $child->getParentKey()) {
-                        $globalChildrenWithParentKey[$child->getParentKey()] = $child->getName();
-                    }
+        foreach ($frame->getChildren() as $child) {
+            if ($this->childHasInterestingData($child)) {
+                $data .= $this->writeFrame($child, $linkPrefix);
+                if ($shouldWriteGlobal && $child->getName() && $child->getParentKey()) {
+                    $globalChildrenWithParentKey[$child->getParentKey()] = $child->getName();
                 }
             }
+        }
+        if ($shouldWriteGlobal) {
             foreach ($frame->getInherits() as $templateName) {
                 $template = $this->templateRegistry->get($templateName);
                 if (!$template) {

@@ -33,6 +33,7 @@
 --- @field Selected Texture
 --- @field Name StableStabledPetButtonTemplate_Name
 --- @field Type StableStabledPetButtonTemplate_Type
+--- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L158)
 --- child of StableStabledPetListCategoryButtonTemplate
@@ -77,10 +78,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L332)
 --- child of 
 --- @class StableFrame_PetModelScene_PetInfo_FavoriteButton : CheckButton, StablePetFavoriteButtonMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L362)
 --- child of 
 --- @class StableFrame_PetModelScene_PetInfo_NameBox_EditButton : Button, StablePetNameEditButtonMixin
+--- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L351)
 --- child of 

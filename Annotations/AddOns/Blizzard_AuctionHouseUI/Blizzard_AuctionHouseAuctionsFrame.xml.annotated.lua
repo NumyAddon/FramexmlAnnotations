@@ -15,6 +15,7 @@
 --- @field Icon Texture
 --- @field IconBorder Texture
 --- @field SelectedHighlight Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L57)
 --- child of AuctionHouseAuctionsFrameTemplate

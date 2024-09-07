@@ -60,6 +60,7 @@
 --- @class CovenantPreviewFrame_InfoPanel_CovenantFeatureFrame_CovenantFeatureButton : Button, CovenantFeatureButtonMixin
 --- @field Icon Texture
 --- @field CircleMask MaskTexture
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantPreviewUI/Blizzard_CovenantPreviewUI.xml#L236)
 --- child of 

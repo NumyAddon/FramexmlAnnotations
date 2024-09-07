@@ -93,6 +93,7 @@
 --- @field IconTexture Texture
 --- @field Count GuildBankTabTemplate_Button_Count
 --- @field SearchOverlay Texture
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L104)
 --- Template

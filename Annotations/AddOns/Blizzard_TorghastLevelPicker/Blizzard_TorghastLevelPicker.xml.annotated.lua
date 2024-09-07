@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L17)
+--- child of TorghastPagingContainerTemplate
+--- @class TorghastPagingContainerTemplate_PreviousPage : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L32)
+--- child of TorghastPagingContainerTemplate
+--- @class TorghastPagingContainerTemplate_NextPage : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L8)
 --- child of TorghastPagingContainerTemplate
 --- @class TorghastPagingContainerTemplate_CurrentPage : FontString, GameFontHighlight
@@ -7,8 +15,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L4)
 --- Template
 --- @class TorghastPagingContainerTemplate : Frame, TorghastPagingContainerMixin
---- @field PreviousPage Button
---- @field NextPage Button
+--- @field PreviousPage TorghastPagingContainerTemplate_PreviousPage
+--- @field NextPage TorghastPagingContainerTemplate_NextPage
 --- @field CurrentPage TorghastPagingContainerTemplate_CurrentPage
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L102)
@@ -56,6 +64,7 @@
 --- @field Icon Texture
 --- @field Title TorghastLevelPickerOptionButtonTemplate_Title
 --- @field SelectedBorder Texture
+--- @field HighlightBorder Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L218)
 --- child of TorghastLevelPickerFrame

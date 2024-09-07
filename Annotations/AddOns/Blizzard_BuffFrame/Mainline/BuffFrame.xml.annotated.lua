@@ -48,6 +48,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L127)
 --- child of BuffFrame
 --- @class BuffFrame_CollapseAndExpandButton : CheckButton, CollapseAndExpandButtonMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L116)
 --- @class BuffFrame : Frame, AuraFrameTemplate, BuffFrameMixin

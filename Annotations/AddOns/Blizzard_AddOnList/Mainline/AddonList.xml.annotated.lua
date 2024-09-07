@@ -1,5 +1,18 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L43)
+--- child of 
+--- @class AddonListEntryTemplate_Security_Icon : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L28)
+--- child of AddonListEntryTemplate
+--- @class AddonListEntryTemplate_Security : Button
+--- @field Icon AddonListEntryTemplate_Security_Icon
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L45)
+--- child of AddonListEntryTemplate
+--- @class AddonListEntryTemplate_Enabled : CheckButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L74)
 --- child of AddonListEntryTemplate
 --- @class AddonListEntryTemplate_AddonListEntryTemplateLoad : Button, UIPanelButtonTemplate
@@ -19,8 +32,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L3)
 --- Template
 --- @class AddonListEntryTemplate : Button
---- @field Security Button
---- @field Enabled CheckButton
+--- @field Security AddonListEntryTemplate_Security
+--- @field Enabled AddonListEntryTemplate_Enabled
 --- @field LoadAddonButton AddonListEntryTemplate_AddonListEntryTemplateLoad
 --- @field Title AddonListEntryTemplate_AddonListEntryTemplateTitle
 --- @field Status AddonListEntryTemplate_AddonListEntryTemplateStatus

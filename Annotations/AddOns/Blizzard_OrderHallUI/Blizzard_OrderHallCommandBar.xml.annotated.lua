@@ -11,6 +11,11 @@
 --- @field Count OrderHallClassSpecCategoryTemplate_Count
 --- @field TroopPortraitCover Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallCommandBar.xml#L87)
+--- child of OrderHallCommandBar
+--- @class OrderHallCommandBar_WorldMapButton : Button
+--- @field Normal Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallCommandBar.xml#L52)
 --- child of OrderHallCommandBar
 --- @class OrderHallCommandBar_Currency : FontString, GameFontHighlight
@@ -22,7 +27,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallCommandBar.xml#L34)
 --- @class OrderHallCommandBar : Frame, OrderHallCommandBarMixin
 --- @field CurrencyHitTest Frame
---- @field WorldMapButton Button
+--- @field WorldMapButton OrderHallCommandBar_WorldMapButton
 --- @field Background Texture
 --- @field ClassIcon Texture
 --- @field Currency OrderHallCommandBar_Currency

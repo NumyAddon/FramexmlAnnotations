@@ -28,6 +28,10 @@
 --- Template
 --- @class ProfessionSpecEdgeArrowTemplate : Frame, TalentEdgeArrowTemplate, ProfessionSpecEdgeArrowMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.xml#L104)
+--- child of ProfessionsSpecPathTemplate
+--- @class ProfessionsSpecPathTemplate_ProgressBar : Cooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.xml#L167)
 --- child of ProfessionsSpecPathTemplate
 --- @class ProfessionsSpecPathTemplate_AvailableGlowAnim : AnimationGroup
@@ -35,7 +39,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.xml#L86)
 --- Template
 --- @class ProfessionsSpecPathTemplate : Button, TalentButtonCircleTemplate
---- @field ProgressBar Cooldown
+--- @field ProgressBar ProfessionsSpecPathTemplate_ProgressBar
 --- @field ProgressBarBackground Texture
 --- @field ProgressBarAvailableGlow Texture
 --- @field IconMouseoverHighlight Texture

@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L69)
+--- child of GarrisonTalentButtonTemplate
+--- @class GarrisonTalentButtonTemplate_Cooldown : Cooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L83)
 --- child of GarrisonTalentButtonTemplate
 --- @class GarrisonTalentButtonTemplate_TalentDoneAnim : AnimationGroup
@@ -7,7 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L5)
 --- Template
 --- @class GarrisonTalentButtonTemplate : Button, GarrisonTalentButtonMixin
---- @field Cooldown Cooldown
+--- @field Cooldown GarrisonTalentButtonTemplate_Cooldown
 --- @field MajorGlow Texture
 --- @field Icon Texture
 --- @field AlphaIconOverlay Texture

@@ -25,6 +25,10 @@
 --- child of RealmSortButtonTemplate
 --- @class RealmSortButtonTemplate_RealmSortButtonTemplateMiddle : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/RealmList.xml#L106)
+--- child of RealmSortButtonTemplate
+--- @class RealmSortButtonTemplate_RealmSortButtonTemplateArrow : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/RealmList.xml#L73)
 --- Template
 --- @class RealmSortButtonTemplate : Button

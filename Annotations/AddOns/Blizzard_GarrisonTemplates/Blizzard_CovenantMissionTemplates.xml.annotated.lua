@@ -61,6 +61,7 @@
 --- @field ILevel CovenantFollowerButtonTemplate_ILevel
 --- @field Status CovenantFollowerButtonTemplate_Status
 --- @field Selection Texture
+--- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L205)
 --- child of CovenantMissionFollowerButtonTemplate

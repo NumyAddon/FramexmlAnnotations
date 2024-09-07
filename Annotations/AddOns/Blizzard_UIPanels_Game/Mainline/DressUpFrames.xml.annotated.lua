@@ -130,6 +130,10 @@ DressUpFrameCancelButton = {}
 --- @class DressUpFrame_ModelScene : ModelScene, PanningModelSceneMixinTemplate
 --- @field ControlFrame DressUpFrame_ModelScene_ControlFrame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L335)
+--- child of DressUpFrame
+--- @class DressUpFrame_ToggleOutfitDetailsButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L361)
 --- child of DressUpFrame
 --- @class DressUpFrame_SetSelectionPanel : Frame, DressUpFrameTransmogSetTemplate
@@ -154,7 +158,7 @@ DressUpFrameResetButton = {}
 --- @field OutfitDropdown DressUpFrame_DressUpFrameOutfitDropdown
 --- @field MaximizeMinimizeFrame DressUpFrame_MaximizeMinimizeFrame
 --- @field ModelScene DressUpFrame_ModelScene
---- @field ToggleOutfitDetailsButton Button
+--- @field ToggleOutfitDetailsButton DressUpFrame_ToggleOutfitDetailsButton
 --- @field SetSelectionPanel DressUpFrame_SetSelectionPanel
 --- @field OutfitDetailsPanel DressUpFrame_OutfitDetailsPanel
 --- @field ResetButton DressUpFrame_DressUpFrameResetButton

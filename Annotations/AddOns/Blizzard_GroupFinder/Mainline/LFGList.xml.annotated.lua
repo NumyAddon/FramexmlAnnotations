@@ -84,6 +84,18 @@
 --- @class LFGListApplicantMemberTemplate_FriendIcon : Frame
 --- @field Icon Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L206)
+--- child of LFGListApplicantMemberTemplate
+--- @class LFGListApplicantMemberTemplate_RoleIcon1 : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L224)
+--- child of LFGListApplicantMemberTemplate
+--- @class LFGListApplicantMemberTemplate_RoleIcon2 : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L242)
+--- child of LFGListApplicantMemberTemplate
+--- @class LFGListApplicantMemberTemplate_RoleIcon3 : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L160)
 --- child of LFGListApplicantMemberTemplate
 --- @class LFGListApplicantMemberTemplate_Name : FontString, GameFontNormalSmall
@@ -100,9 +112,9 @@
 --- Template
 --- @class LFGListApplicantMemberTemplate : Button
 --- @field FriendIcon LFGListApplicantMemberTemplate_FriendIcon
---- @field RoleIcon1 Button
---- @field RoleIcon2 Button
---- @field RoleIcon3 Button
+--- @field RoleIcon1 LFGListApplicantMemberTemplate_RoleIcon1
+--- @field RoleIcon2 LFGListApplicantMemberTemplate_RoleIcon2
+--- @field RoleIcon3 LFGListApplicantMemberTemplate_RoleIcon3
 --- @field Name LFGListApplicantMemberTemplate_Name
 --- @field ItemLevel LFGListApplicantMemberTemplate_ItemLevel
 --- @field Rating LFGListApplicantMemberTemplate_Rating
@@ -144,10 +156,14 @@
 --- @field Background Texture
 --- @field Status LFGListApplicantTemplate_Status
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L407)
+--- child of LFGListRoleButtonTemplate
+--- @class LFGListRoleButtonTemplate_CheckButton : CheckButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L399)
 --- Template
 --- @class LFGListRoleButtonTemplate : Button
---- @field CheckButton CheckButton
+--- @field CheckButton LFGListRoleButtonTemplate_CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L446)
 --- Template
@@ -155,6 +171,7 @@
 --- @field Icon Texture
 --- @field Cover Texture
 --- @field SelectedTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L489)
 --- Template
@@ -178,6 +195,10 @@
 --- @class LFGListEditBoxTemplate : EditBox, InputBoxInstructionsTemplate, LFGEditBoxMixin
 --- @field LockButton LFGListEditBoxTemplate_LockButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L575)
+--- child of LFGListOptionCheckButtonTemplate
+--- @class LFGListOptionCheckButtonTemplate_CheckButton : CheckButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L566)
 --- child of LFGListOptionCheckButtonTemplate
 --- @class LFGListOptionCheckButtonTemplate_Label : FontString, GameFontHighlightSmall
@@ -185,8 +206,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L555)
 --- Template
 --- @class LFGListOptionCheckButtonTemplate : Frame
---- @field CheckButton CheckButton
+--- @field CheckButton LFGListOptionCheckButtonTemplate_CheckButton
 --- @field Label LFGListOptionCheckButtonTemplate_Label
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L643)
+--- child of LFGListRequirementTemplate
+--- @class LFGListRequirementTemplate_CheckButton : CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L671)
 --- child of LFGListRequirementTemplate
@@ -204,7 +229,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L619)
 --- Template
 --- @class LFGListRequirementTemplate : Frame
---- @field CheckButton CheckButton
+--- @field CheckButton LFGListRequirementTemplate_CheckButton
 --- @field EditBox LFGListRequirementTemplate_EditBox
 --- @field WarningFrame LFGListRequirementTemplate_WarningFrame
 --- @field Label LFGListRequirementTemplate_Label
@@ -215,6 +240,7 @@
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L835)
 --- child of LFGListSearchEntryTemplate

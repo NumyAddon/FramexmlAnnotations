@@ -32,6 +32,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L105)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_FavoriteButton : CheckButton, ProfessionsFavoriteButtonMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L114)
 --- child of ProfessionsCustomerOrderFormTemplate
@@ -135,6 +137,12 @@
 --- child of 
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyInputFrame : Frame, LargeMoneyInputFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L395)
+--- child of 
+--- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_ViewListingsButton : Button
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L408)
 --- child of 
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
@@ -193,7 +201,7 @@
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer : Frame
 --- @field NoteEditBox ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox
 --- @field TipMoneyInputFrame ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyInputFrame
---- @field ViewListingsButton Button
+--- @field ViewListingsButton ProfessionsCustomerOrderFormTemplate_PaymentContainer_ViewListingsButton
 --- @field TipMoneyDisplayFrame ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyDisplayFrame
 --- @field DurationDropdown ProfessionsCustomerOrderFormTemplate_PaymentContainer_DurationDropdown
 --- @field TimeRemainingDisplay ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemainingDisplay

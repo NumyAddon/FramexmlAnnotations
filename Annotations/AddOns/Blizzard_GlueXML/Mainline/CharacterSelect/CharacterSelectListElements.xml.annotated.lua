@@ -10,6 +10,7 @@
 --- @field Highlight Texture
 --- @field Text CharacterSelectListGroupTemplate_Header_Text
 --- @field Icon Texture
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L72)
 --- child of CharacterSelectListGroupTemplate
@@ -38,10 +39,13 @@
 --- @class CharacterSelectListCharacterTemplate_PaidService : Button, CharacterSelectListPaidServiceMixin
 --- @field VASIcon Texture
 --- @field GoldBorder Texture
+--- @field Texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L170)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_RestoreCharacterServiceFrame_Button : Button, RestoreCharacterServiceButtonMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L155)
 --- child of CharacterSelectListCharacterTemplate
@@ -82,14 +86,18 @@
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_NotificationButton : Button, CharacterSelectListNotificationButtonMixin
 --- @field IconFrame CharacterSelectListCharacterTemplate_InnerContent_NotificationButton_IconFrame
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L331)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_UpButton : Button, CharacterSelectListMoveButtonTemplate
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L345)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_DownButton : Button, CharacterSelectListMoveButtonTemplate
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L186)
 --- child of CharacterSelectListCharacterTemplate

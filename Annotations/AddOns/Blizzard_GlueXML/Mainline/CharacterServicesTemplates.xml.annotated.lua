@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesTemplates.xml#L9)
+--- child of CharacterServicesAutoCompleteButtonTemplate
+--- @class  : Texture, UIPanelButtonHighlightTexture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesTemplates.xml#L3)
 --- Template
 --- @class CharacterServicesAutoCompleteButtonTemplate : Button, CharacterServicesAutoCompleteButtonMixin

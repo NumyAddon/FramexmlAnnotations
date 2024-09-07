@@ -219,4 +219,6 @@
 --- Template
 --- @class PerksModelSceneControlButtonTemplate : Button, PerksModelSceneControlButtonMixin
 --- @field Icon Texture
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 

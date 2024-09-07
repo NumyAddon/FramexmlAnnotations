@@ -486,6 +486,7 @@ CharacterSelectServerAlertFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1091)
 --- child of PlayersOnServer
 --- @class CharacterSelect_CharacterSelectUI_VisibilityFramesContainer_PlayersOnServer_ActivateFactionChange : Button
+--- @field texture Texture
 ActivateFactionChange = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1045)

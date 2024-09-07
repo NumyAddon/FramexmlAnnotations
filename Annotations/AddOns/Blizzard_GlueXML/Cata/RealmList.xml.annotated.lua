@@ -24,6 +24,10 @@
 --- child of RealmListTabButtonTemplate
 --- @class RealmListTabButtonTemplate_RealmListTabButtonTemplateRight : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/RealmList.xml#L86)
+--- child of RealmListTabButtonTemplate
+--- @class RealmListTabButtonTemplate_RealmListTabButtonTemplateHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/RealmList.xml#L3)
 --- Template
 --- @class RealmListTabButtonTemplate : Button
@@ -39,6 +43,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/RealmList.xml#L122)
 --- child of RealmSortButtonTemplate
 --- @class RealmSortButtonTemplate_RealmSortButtonTemplateMiddle : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/RealmList.xml#L144)
+--- child of RealmSortButtonTemplate
+--- @class RealmSortButtonTemplate_RealmSortButtonTemplateArrow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/RealmList.xml#L101)
 --- Template

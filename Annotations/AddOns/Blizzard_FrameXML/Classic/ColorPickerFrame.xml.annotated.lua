@@ -42,6 +42,11 @@ ColorPickerFrameHeader = {}
 --- child of ColorPickerFrame
 --- @class  : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L172)
+--- child of ColorPickerFrame
+--- @class ColorPickerFrame_ColorPickerWheel : Texture
+ColorPickerWheel = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L3)
 --- @class ColorPickerFrame : ColorSelect, BackdropTemplate, ColorPickerFrameMixin
 ColorPickerFrame = {}

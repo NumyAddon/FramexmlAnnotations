@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L18)
+--- child of StanceButtonTemplate
+--- @class StanceButtonTemplate_StanceButtonTemplateNormalTexture2 : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L3)
 --- Template
 --- @class StanceButtonTemplate : CheckButton, SecureFrameTemplate, ActionButtonTemplate

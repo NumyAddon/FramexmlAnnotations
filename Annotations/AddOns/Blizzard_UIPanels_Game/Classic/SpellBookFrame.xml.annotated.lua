@@ -36,6 +36,14 @@
 --- child of SpellButtonTemplate
 --- @class SpellButtonTemplate_SpellButtonTemplateAutoCastable : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L188)
+--- child of SpellButtonTemplate
+--- @class SpellButtonTemplate_SpellButtonTemplateNormalTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L201)
+--- child of SpellButtonTemplate
+--- @class SpellButtonTemplate_SpellButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L87)
 --- Template
 --- @class SpellButtonTemplate : CheckButton, SecureFrameTemplate

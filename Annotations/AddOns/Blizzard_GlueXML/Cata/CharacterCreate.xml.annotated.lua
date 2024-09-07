@@ -24,13 +24,25 @@
 --- child of CharacterCreateRaceButtonTemplate
 --- @class CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText : FontString, GlueFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L84)
+--- child of CharacterCreateRaceButtonTemplate
+--- @class CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L66)
 --- Template
 --- @class CharacterCreateRaceButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L97)
+--- child of CharacterCreateClassButtonTemplate
+--- @class CharacterCreateClassButtonTemplate_CharacterCreateClassButtonTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L86)
 --- Template
 --- @class CharacterCreateClassButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L122)
+--- child of CharacterCreateGenderButtonTemplate
+--- @class CharacterCreateGenderButtonTemplate_CharacterCreateGenderButtonTemplateNormalTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L99)
 --- Template
@@ -358,6 +370,11 @@ CharacterCreateAlternateFormTopPortrait = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateAlternateFormTop_CharacterCreateAlternateFormTopTop : Texture
 CharacterCreateAlternateFormTopTop = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L1005)
+--- child of CharacterCreateAlternateFormTop
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateAlternateFormTop_CharacterCreateAlternateFormTopHighlight : Texture
+CharacterCreateAlternateFormTopHighlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L979)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateAlternateFormTop : CheckButton
@@ -372,6 +389,11 @@ CharacterCreateAlternateFormBottomPortrait = {}
 --- child of CharacterCreateAlternateFormBottom
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateAlternateFormBottom_Bottom : Texture
 Bottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L1046)
+--- child of CharacterCreateAlternateFormBottom
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateAlternateFormBottom_CharacterCreateAlternateFormBottomHighlight : Texture
+CharacterCreateAlternateFormBottomHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L1020)
 --- child of CharacterCreateFrame

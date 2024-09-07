@@ -4,6 +4,10 @@
 --- child of BattlefieldButtonTemplate
 --- @class BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
+--- child of BattlefieldButtonTemplate
+--- @class BattlefieldButtonTemplate_BattlefieldButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L3)
 --- Template
 --- @class BattlefieldButtonTemplate : Button

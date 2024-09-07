@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L28)
+--- child of ReputationHeaderTemplate
+--- @class ReputationHeaderTemplate_ReputationHeaderTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L3)
 --- Template
 --- @class ReputationHeaderTemplate : Button

@@ -44,6 +44,10 @@
 --- child of UIServiceButtonTemplate
 --- @class UIServiceButtonTemplate_UIServiceButtonTemplateSubText : FontString, SystemFont_Shadow_Small
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L142)
+--- child of UIServiceButtonTemplate
+--- @class UIServiceButtonTemplate_UIServiceButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L80)
 --- Template
 --- @class UIServiceButtonTemplate : Button

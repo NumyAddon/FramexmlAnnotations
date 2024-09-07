@@ -32,6 +32,10 @@
 --- child of TokenButtonTemplate
 --- @class TokenButtonTemplate_TokenButtonTemplateExpandIcon : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L142)
+--- child of TokenButtonTemplate
+--- @class TokenButtonTemplate_TokenButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L3)
 --- Template
 --- @class TokenButtonTemplate : Button

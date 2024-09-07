@@ -45,10 +45,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L98)
 --- child of CharSelectCharacterButtonTemplate
 --- @class CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveUp : Button, CharSelectMoveButtonTemplate
+--- @field normalTexture Texture
+--- @field highlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L120)
 --- child of CharSelectCharacterButtonTemplate
 --- @class CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveDown : Button, CharSelectMoveButtonTemplate
+--- @field normalTexture Texture
+--- @field highlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L63)
 --- Template
@@ -62,6 +66,7 @@
 --- @class CharSelectPaidServiceTemplate : Button
 --- @field VASIcon Texture
 --- @field GoldBorder Texture
+--- @field texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L257)
 --- child of UpgradeFrameBorderedTemplate
@@ -742,6 +747,7 @@ CharacterTemplatesFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L1800)
 --- child of PlayersOnServer
 --- @class CharacterSelect_CharacterSelectUI_PlayersOnServer_ActivateFactionChange : Button
+--- @field texture Texture
 ActivateFactionChange = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L1754)

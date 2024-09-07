@@ -1,9 +1,17 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/PromotionFrame.xml#L28)
+--- child of PromotionFrame
+--- @class PromotionFrame_UpgradeButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/PromotionFrame.xml#L51)
+--- child of PromotionFrame
+--- @class PromotionFrame_PlayButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/PromotionFrame.xml#L3)
 --- @class PromotionFrame : Frame
---- @field UpgradeButton Button
---- @field PlayButton Button
+--- @field UpgradeButton PromotionFrame_UpgradeButton
+--- @field PlayButton PromotionFrame_PlayButton
 --- @field Artwork Texture
 --- @field Logo Texture
 PromotionFrame = {}

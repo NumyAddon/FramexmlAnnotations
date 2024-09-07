@@ -12,6 +12,10 @@
 --- child of PetActionButtonTemplate
 --- @class PetActionButtonTemplate_SpellHighlightAnim : AnimationGroup
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L69)
+--- child of PetActionButtonTemplate
+--- @class PetActionButtonTemplate_PetActionButtonTemplateNormalTexture2 : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L3)
 --- Template
 --- @class PetActionButtonTemplate : CheckButton, SecureFrameTemplate, ActionButtonTemplate

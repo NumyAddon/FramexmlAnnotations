@@ -43,6 +43,10 @@
 --- child of CommunitiesGuildRewardsButtonTemplate
 --- @class CommunitiesGuildRewardsButtonTemplate_SubText : FontString, SystemFont_Shadow_Small
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L196)
+--- child of CommunitiesGuildRewardsButtonTemplate
+--- @class CommunitiesGuildRewardsButtonTemplate_CommunitiesGuildRewardsButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L137)
 --- Template
 --- @class CommunitiesGuildRewardsButtonTemplate : Button, CommunitiesGuildRewardsButtonMixin

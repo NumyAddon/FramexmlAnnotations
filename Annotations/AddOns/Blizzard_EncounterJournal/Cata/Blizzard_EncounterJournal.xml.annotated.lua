@@ -336,6 +336,14 @@
 --- child of EJButtonTemplate
 --- @class EJButtonTemplate_HighRight : Texture, UI-EJ-FilterButtonHighlight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L366)
+--- child of EJButtonTemplate
+--- @class  : Texture, _FilterButtonUp-Mid
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L368)
+--- child of EJButtonTemplate
+--- @class  : Texture, _FilterButtonHighlight-Mid
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L319)
 --- Template
 --- @class EJButtonTemplate : Button, EJButtonMixin
@@ -367,6 +375,14 @@
 --- child of EncounterInstanceButtonTemplate
 --- @class EncounterInstanceButtonTemplate_EncounterInstanceButtonTemplateRange : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L417)
+--- child of EncounterInstanceButtonTemplate
+--- @class  : Texture, UI-EJ-DungeonButton-Up
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L421)
+--- child of EncounterInstanceButtonTemplate
+--- @class  : Texture, UI-EJ-DungeonButton-Highlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L385)
 --- Template
 --- @class EncounterInstanceButtonTemplate : Button
@@ -383,6 +399,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L485)
 --- child of EncounterSearchSMTemplate
 --- @class EncounterSearchSMTemplate_name : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L495)
+--- child of EncounterSearchSMTemplate
+--- @class  : Texture, _SearchBarSm
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L459)
 --- Template
@@ -412,6 +432,14 @@
 --- child of EncounterSearchLGTemplate
 --- @class EncounterSearchLGTemplate_resultType : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L566)
+--- child of EncounterSearchLGTemplate
+--- @class  : Texture, _SearchBarLg
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L570)
+--- child of EncounterSearchLGTemplate
+--- @class  : Texture, UI-Common-SearchBarHighlightLg
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L526)
 --- Template
 --- @class EncounterSearchLGTemplate : Button, EncounterSearchResultLGMixin
@@ -424,6 +452,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L595)
 --- child of EncounterCreatureButtonTemplate
 --- @class EncounterCreatureButtonTemplate_EncounterCreatureButtonTemplateCreature : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L603)
+--- child of EncounterCreatureButtonTemplate
+--- @class  : Texture, UI-EJ-BossModelButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L604)
+--- child of EncounterCreatureButtonTemplate
+--- @class  : Texture, UI-EJ-BossModelButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L591)
 --- Template
@@ -439,9 +475,25 @@
 --- @class  : Frame
 --- @field creature Creature
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L665)
+--- child of EncounterBossButtonTemplate
+--- @class  : Texture, UI-EJ-BossButton-Up
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L669)
+--- child of EncounterBossButtonTemplate
+--- @class  : Texture, UI-EJ-BossButton-Highlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L640)
 --- Template
 --- @class EncounterBossButtonTemplate : Button, EncounterBossButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L690)
+--- child of EncounterTabTemplate
+--- @class  : Texture, UI-EJ-Tab-UnSelected
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L693)
+--- child of EncounterTabTemplate
+--- @class  : Texture, UI-EJ-Tab-Highlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L688)
 --- Template
@@ -450,6 +502,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L708)
 --- child of EncounterDifficultyTemplate
 --- @class EncounterDifficultyTemplate_EncounterDifficultyTemplateSelected : Texture, UI-EJ-FilterButtonSelect
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L715)
+--- child of EncounterDifficultyTemplate
+--- @class  : Texture, UI-EJ-FilterButtonUp
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L719)
+--- child of EncounterDifficultyTemplate
+--- @class  : Texture, UI-EJ-FilterButtonHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L704)
 --- Template
@@ -924,6 +984,14 @@ EncounterJournalEncounterFrameInstanceFrame = {}
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoInstanceButton_EncounterJournalEncounterFrameInfoInstanceButtonIcon : Texture
 EncounterJournalEncounterFrameInfoInstanceButtonIcon = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1646)
+--- child of EncounterJournalEncounterFrameInfoInstanceButton
+--- @class  : Texture, UI-EJ-BossModelButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1647)
+--- child of EncounterJournalEncounterFrameInfoInstanceButton
+--- @class  : Texture, UI-EJ-BossModelButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1631)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoInstanceButton : Button
@@ -1020,6 +1088,14 @@ EncounterJournalEncounterFrameInfoDifficultyDD = {}
 --- child of EncounterJournalEncounterFrameInfoResetButton
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoResetButton_EncounterJournalEncounterFrameInfoResetButtonTexture : Texture, UI-EJ-ReturnToDefault
 EncounterJournalEncounterFrameInfoResetButtonTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1810)
+--- child of EncounterJournalEncounterFrameInfoResetButton
+--- @class  : Texture, UI-EJ-FilterButtonUp
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1812)
+--- child of EncounterJournalEncounterFrameInfoResetButton
+--- @class  : Texture, UI-EJ-FilterButtonHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1796)
 --- child of EncounterJournalEncounterFrameInfo

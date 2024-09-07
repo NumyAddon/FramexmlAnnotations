@@ -20,6 +20,10 @@
 --- child of CommunitiesSettingsDialog
 --- @class CommunitiesSettingsDialog_MessageOfTheDay : ScrollFrame, InputScrollFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L140)
+--- child of 
+--- @class CommunitiesSettingsDialog_CrossFactionToggle_CheckButton : CheckButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L154)
 --- child of 
 --- @class CommunitiesSettingsDialog_CrossFactionToggle_Label : FontString, GameFontHighlight
@@ -27,7 +31,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L134)
 --- child of CommunitiesSettingsDialog
 --- @class CommunitiesSettingsDialog_CrossFactionToggle : Frame, CommunitiesSettingsCrossFactionToggleMixin
---- @field CheckButton CheckButton
+--- @field CheckButton CommunitiesSettingsDialog_CrossFactionToggle_CheckButton
 --- @field Label CommunitiesSettingsDialog_CrossFactionToggle_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L173)

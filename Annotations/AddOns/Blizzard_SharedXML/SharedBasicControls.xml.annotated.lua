@@ -16,6 +16,14 @@
 --- Template
 --- @class DialogButtonHighlightTexture : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L39)
+--- child of DialogBoxFrameButton
+--- @class  : Texture, DialogButtonNormalTexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L41)
+--- child of DialogBoxFrameButton
+--- @class  : Texture, DialogButtonHighlightTexture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L29)
 --- child of DialogBoxFrame
 --- @class DialogBoxFrame_DialogBoxFrameButton : Button
@@ -81,6 +89,14 @@
 --- child of BasicMessageDialog
 --- @class BasicMessageDialog_Border : Frame, DialogBorderTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L171)
+--- child of BasicMessageDialogButton
+--- @class  : Texture, DialogButtonNormalTexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L173)
+--- child of BasicMessageDialogButton
+--- @class  : Texture, DialogButtonHighlightTexture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L161)
 --- child of BasicMessageDialog
 --- @class BasicMessageDialog_BasicMessageDialogButton : Button
@@ -112,6 +128,14 @@ BasicMessageDialog = {}
 --- child of ScriptErrorsFrame
 --- @class ScriptErrorsFrame_Reload : Button, UIPanelButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L254)
+--- child of ScriptErrorsFrame
+--- @class ScriptErrorsFrame_PreviousError : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L271)
+--- child of ScriptErrorsFrame
+--- @class ScriptErrorsFrame_NextError : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L288)
 --- child of ScriptErrorsFrame
 --- @class ScriptErrorsFrame_Close : Button, UIPanelButtonTemplate
@@ -121,8 +145,8 @@ BasicMessageDialog = {}
 --- @field DragArea ScriptErrorsFrame_DragArea
 --- @field ScrollFrame ScriptErrorsFrame_ScrollFrame
 --- @field Reload ScriptErrorsFrame_Reload
---- @field PreviousError Button
---- @field NextError Button
+--- @field PreviousError ScriptErrorsFrame_PreviousError
+--- @field NextError ScriptErrorsFrame_NextError
 --- @field Close ScriptErrorsFrame_Close
 --- @field IndexLabel FontString
 ScriptErrorsFrame = {}

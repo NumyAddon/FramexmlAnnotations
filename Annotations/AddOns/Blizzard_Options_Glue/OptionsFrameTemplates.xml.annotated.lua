@@ -24,6 +24,10 @@
 --- child of OptionsFrameTabButtonTemplate
 --- @class OptionsFrameTabButtonTemplate_OptionsFrameTabButtonTemplateRight : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L96)
+--- child of OptionsFrameTabButtonTemplate
+--- @class OptionsFrameTabButtonTemplate_OptionsFrameTabButtonTemplateHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L9)
 --- Template
 --- @class OptionsFrameTabButtonTemplate : Button
@@ -43,6 +47,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L111)
 --- Template
 --- @class OptionsFrameListTemplate : Frame, TooltipBorderBackdropTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L197)
+--- child of OptionsListButtonTemplateToggle
+--- @class OptionsListButtonTemplate_OptionsListButtonTemplateToggle_OptionsListButtonTemplateToggleNormalTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L199)
+--- child of OptionsListButtonTemplateToggle
+--- @class OptionsListButtonTemplate_OptionsListButtonTemplateToggle_OptionsListButtonTemplateToggleHighlightTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Glue/OptionsFrameTemplates.xml#L176)
 --- child of OptionsListButtonTemplate

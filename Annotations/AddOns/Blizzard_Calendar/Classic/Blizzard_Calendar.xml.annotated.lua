@@ -25,6 +25,16 @@ CalendarPrevMonthButton = {}
 --- @class CalendarFrame_CalendarNextMonthButton : Button
 CalendarNextMonthButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L330)
+--- child of CalendarFilterButton
+--- @class CalendarFrame_CalendarFilterFrame_CalendarFilterButton_CalendarFilterButtonNormalTexture : Texture
+CalendarFilterButtonNormalTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L348)
+--- child of CalendarFilterButton
+--- @class CalendarFrame_CalendarFilterFrame_CalendarFilterButton_CalendarFilterButtonHighlightTexture : Texture
+CalendarFilterButtonHighlightTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L322)
 --- child of CalendarFilterFrame
 --- @class CalendarFrame_CalendarFilterFrame_CalendarFilterButton : DropDownToggleButton

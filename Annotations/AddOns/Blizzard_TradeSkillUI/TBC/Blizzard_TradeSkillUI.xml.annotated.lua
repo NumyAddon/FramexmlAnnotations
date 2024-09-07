@@ -33,6 +33,11 @@ TradeSearchInputBoxMiddle = {}
 --- @class TradeSkillFrame_TradeSearchInputBox : EditBox
 TradeSearchInputBox = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/TBC/Blizzard_TradeSkillUI.xml#L305)
+--- child of TradeSkillRankFrameBorder
+--- @class TradeSkillFrame_TradeSkillRankFrame_TradeSkillRankFrameBorder_TradeSkillRankFrameBorderNormal : Texture
+TradeSkillRankFrameBorderNormal = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/TBC/Blizzard_TradeSkillUI.xml#L294)
 --- child of TradeSkillRankFrame
 --- @class TradeSkillFrame_TradeSkillRankFrame_TradeSkillRankFrameBorder : Button

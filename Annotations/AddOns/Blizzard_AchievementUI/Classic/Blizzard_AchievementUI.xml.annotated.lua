@@ -977,6 +977,16 @@ AchievementFrameTab1 = {}
 --- @class AchievementFrame_AchievementFrameTab2 : Button, AchievementFrameTabButtonTemplate
 AchievementFrameTab2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Classic/Blizzard_AchievementUI.xml#L3231)
+--- child of AchievementFrameFilterDropDownButton
+--- @class AchievementFrame_AchievementFrameFilterDropDown_AchievementFrameFilterDropDownButton_AchievementFrameFilterDropDownButtonNormalTexture : Texture
+AchievementFrameFilterDropDownButtonNormalTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Classic/Blizzard_AchievementUI.xml#L3255)
+--- child of AchievementFrameFilterDropDownButton
+--- @class AchievementFrame_AchievementFrameFilterDropDown_AchievementFrameFilterDropDownButton_AchievementFrameFilterDropDownButtonHighlightTexture : Texture
+AchievementFrameFilterDropDownButtonHighlightTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Classic/Blizzard_AchievementUI.xml#L3218)
 --- child of AchievementFrameFilterDropDown
 --- @class AchievementFrame_AchievementFrameFilterDropDown_AchievementFrameFilterDropDownButton : Button

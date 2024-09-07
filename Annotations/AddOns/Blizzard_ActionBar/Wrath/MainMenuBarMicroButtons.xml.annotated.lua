@@ -1,20 +1,37 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L12)
+--- child of MainMenuBarMicroButton
+--- @class MainMenuBarMicroButton_MainMenuBarMicroButtonFlash : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L3)
 --- Template
 --- @class MainMenuBarMicroButton : Button
+--- @field Flash MainMenuBarMicroButton_MainMenuBarMicroButtonFlash
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L53)
+--- child of MicroButtonAlertTemplate
 --- @class MicroButtonAlertTemplate_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L67)
+--- child of MicroButtonAlertTemplate
 --- @class MicroButtonAlertTemplate_Arrow : Frame, GlowBoxArrowTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L44)
+--- child of MicroButtonAlertTemplate
+--- @class MicroButtonAlertTemplate_Text : FontString, GameFontHighlightLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L35)
 --- Template
 --- @class MicroButtonAlertTemplate : Frame, GlowBoxTemplate
 --- @field CloseButton MicroButtonAlertTemplate_CloseButton
 --- @field Arrow MicroButtonAlertTemplate_Arrow
+--- @field Text MicroButtonAlertTemplate_Text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L89)
+--- child of CharacterMicroButton
+--- @class CharacterMicroButton_MicroButtonPortrait : Texture
+MicroButtonPortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L79)
 --- @class CharacterMicroButton : Button, MainMenuBarMicroButton
@@ -49,13 +66,24 @@ SocialsMicroButton = {}
 --- @class CollectionsMicroButton : Button, MainMenuBarMicroButton, CollectionMicroButtonMixin
 CollectionsMicroButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L304)
+--- child of PVPMicroButton
+--- @class PVPMicroButton_PVPMicroButtonTexture : Texture
+PVPMicroButtonTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L294)
 --- @class PVPMicroButton : Button, MainMenuBarMicroButton
+--- @field texture PVPMicroButton_PVPMicroButtonTexture
 PVPMicroButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L374)
 --- @class LFGMicroButton : Button, MainMenuBarMicroButton
 LFGMicroButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L431)
+--- child of MainMenuMicroButton
+--- @class MainMenuMicroButton_MainMenuBarPerformanceBar : Texture
+MainMenuBarPerformanceBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L425)
 --- @class MainMenuMicroButton : Button, MainMenuBarMicroButton

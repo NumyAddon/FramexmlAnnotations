@@ -3,6 +3,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L5)
 --- Template
 --- @class VoiceChatSpeakerTemplate : Button
+--- @field Icon Texture
+--- @field Flash Texture
+--- @field Muted Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L17)
 --- Template
@@ -11,8 +14,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L36)
 --- Template
 --- @class ChannelButtonHeaderTemplate : Button, ChannelButtonBaseTemplate, ChannelButtonHeaderMixin
+--- @field Collapsed Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L53)
+--- child of ChannelButtonTemplate
 --- @class ChannelButtonTemplate_Speaker : Frame, VoiceChatHeadsetTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L51)

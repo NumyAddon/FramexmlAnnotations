@@ -4,4 +4,5 @@
 --- Template
 --- @class UIWidgetTemplateScenarioHeaderCurrenciesAndBackground : Frame, UIWidgetBaseTemplate, UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin
 --- @field CurrencyContainer Frame
+--- @field Frame Texture
 

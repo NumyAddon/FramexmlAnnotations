@@ -7,4 +7,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.xml#L7)
 --- Template
 --- @class ScenarioPinTemplate : Frame, ScenarioPinMixin
+--- @field Icon Texture
 

@@ -9,6 +9,7 @@ WorldMapCompareTooltip1 = {}
 WorldMapCompareTooltip2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L7)
+--- child of WorldMapTooltip
 --- @class WorldMapTooltip_ItemTooltip : Frame, InternalEmbeddedItemTooltipTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L5)

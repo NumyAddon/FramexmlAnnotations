@@ -4,6 +4,7 @@
 --- child of DropDownList1 (created in template UIDropDownListTemplate)
 --- @type UIDropDownListTemplate_UIDropDownListTemplateBackdrop
 DropDownList1Backdrop = {}
+DropDownList1Backdrop["layoutType"] = "Dialog" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L119)
 --- child of DropDownList1 (created in template UIDropDownListTemplate)
@@ -69,6 +70,7 @@ DropDownList1["Border"] = DropDownList1Backdrop -- inherited
 --- child of DropDownList2 (created in template UIDropDownListTemplate)
 --- @type UIDropDownListTemplate_UIDropDownListTemplateBackdrop
 DropDownList2Backdrop = {}
+DropDownList2Backdrop["layoutType"] = "Dialog" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L119)
 --- child of DropDownList2 (created in template UIDropDownListTemplate)
@@ -134,6 +136,7 @@ DropDownList2["Border"] = DropDownList2Backdrop -- inherited
 --- child of DropDownList3 (created in template UIDropDownListTemplate)
 --- @type UIDropDownListTemplate_UIDropDownListTemplateBackdrop
 DropDownList3Backdrop = {}
+DropDownList3Backdrop["layoutType"] = "Dialog" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L119)
 --- child of DropDownList3 (created in template UIDropDownListTemplate)

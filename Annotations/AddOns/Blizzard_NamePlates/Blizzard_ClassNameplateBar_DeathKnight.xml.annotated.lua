@@ -6,5 +6,7 @@
 DeathKnightResourceOverlayFrame = {}
 DeathKnightResourceOverlayFrame["scale"] = 0.65
 DeathKnightResourceOverlayFrame["scale"] = ".75" -- inherited
+DeathKnightResourceOverlayFrame["isManagedFrame"] = true -- inherited
+DeathKnightResourceOverlayFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 DeathKnightResourceOverlayFrame["spacing"] = -1 -- inherited
 

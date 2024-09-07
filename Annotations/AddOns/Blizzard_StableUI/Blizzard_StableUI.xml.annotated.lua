@@ -71,6 +71,46 @@
 --- child of 
 --- @class StableFrame_PetModelScene_Inset : Frame, InsetFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L277)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+StableFrameTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L282)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+StableFrameTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L290)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+StableFrameBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L298)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+StableFrameBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L306)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+StableFrameTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L312)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+StableFrameBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L318)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+StableFrameLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L324)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+StableFrameRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L284)
 --- child of 
 --- @class StableFrame_PetModelScene_PetModelSceneShadow : Frame, ShadowOverlayTemplate
@@ -168,6 +208,17 @@
 --- child of 
 --- @class StableFrame_StabledPetList_ScrollBar : EventFrame, MinimalScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+StableFrameClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+StableFrameSearchIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L508)
 --- child of 
 --- @class StableFrame_StabledPetList_FilterBar_SearchBox : EditBox, SearchBoxTemplate, StableSearchBoxMixin
@@ -245,6 +296,11 @@
 --- @field ActivePetListBGBar Texture
 --- @field ListName StableFrame_ActivePetList_ListName
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1095)
 --- child of StableFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
@@ -262,5 +318,7 @@ StableFrameCloseButton = {}
 --- @field Topper Texture
 StableFrame = {}
 StableFrame["portraitIcon"] = "Interface\\Icons\\ClassIcon_Hunter"
+StableFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+StableFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 StableFrame["CloseButton"] = StableFrameCloseButton -- inherited
 

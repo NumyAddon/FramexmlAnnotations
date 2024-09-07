@@ -113,6 +113,16 @@
 --- child of 
 --- @class ClickBindingFrame_TutorialFrame_ThrallName : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1095)
+--- child of  (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ClickBindingFrameCloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L259)
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_TutorialFrame : Frame, PortraitFrameTemplate, ClickBindingTutorialMixin
@@ -130,6 +140,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L312)
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_UnboundText : FontString, GameFontRed
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1095)
 --- child of ClickBindingFrame (created in template PortraitFrameTemplate)
@@ -152,5 +167,7 @@ ClickBindingFrameCloseButton = {}
 --- @field TutorialButton ClickBindingFrame_TutorialButton
 --- @field UnboundText ClickBindingFrame_UnboundText
 ClickBindingFrame = {}
+ClickBindingFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ClickBindingFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 ClickBindingFrame["CloseButton"] = ClickBindingFrameCloseButton -- inherited
 

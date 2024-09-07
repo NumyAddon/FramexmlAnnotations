@@ -31,11 +31,13 @@ ReadyCheckPortrait = {}
 --- child of ReadyCheckListenerFrame
 --- @class ReadyCheckFrame_ReadyCheckListenerFrame_ReadyCheckFrameYesButton : Button, UIPanelButtonTemplate
 ReadyCheckFrameYesButton = {}
+ReadyCheckFrameYesButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L92)
 --- child of ReadyCheckListenerFrame
 --- @class ReadyCheckFrame_ReadyCheckListenerFrame_ReadyCheckFrameNoButton : Button, UIPanelButtonTemplate
 ReadyCheckFrameNoButton = {}
+ReadyCheckFrameNoButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L35)
 --- child of ReadyCheckListenerFrame

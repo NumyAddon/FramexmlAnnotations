@@ -39,11 +39,13 @@
 --- child of AddonDialogBackground
 --- @class AddonDialog_AddonDialogBackground_AddonDialogButton1 : Button, UIPanelButtonTemplate
 AddonDialogButton1 = {}
+AddonDialogButton1["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L115)
 --- child of AddonDialogBackground
 --- @class AddonDialog_AddonDialogBackground_AddonDialogButton2 : Button, UIPanelButtonTemplate
 AddonDialogButton2 = {}
+AddonDialogButton2["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L103)
 --- child of AddonDialogBackground
@@ -54,6 +56,7 @@ AddonDialogText = {}
 --- child of AddonDialog
 --- @class AddonDialog_AddonDialogBackground : Frame, DialogBorderTemplate
 AddonDialogBackground = {}
+AddonDialogBackground["layoutType"] = "Dialog" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L97)
 --- @class AddonDialog : Frame
@@ -76,21 +79,25 @@ AddonListForceLoad = {}
 --- child of AddonList
 --- @class AddonList_AddonListCancelButton : Button, SharedButtonSmallTemplate
 AddonListCancelButton = {}
+AddonListCancelButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L191)
 --- child of AddonList
 --- @class AddonList_AddonListOkayButton : Button, SharedButtonSmallTemplate
 AddonListOkayButton = {}
+AddonListOkayButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L202)
 --- child of AddonList
 --- @class AddonList_AddonListEnableAllButton : Button, SharedButtonSmallTemplate
 AddonListEnableAllButton = {}
+AddonListEnableAllButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L211)
 --- child of AddonList
 --- @class AddonList_AddonListDisableAllButton : Button, SharedButtonSmallTemplate
 AddonListDisableAllButton = {}
+AddonListDisableAllButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L220)
 --- child of AddonList
@@ -99,6 +106,16 @@ AddonListDisableAllButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L226)
 --- child of AddonList
 --- @class AddonList_ScrollBar : EventFrame, MinimalScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1148)
 --- child of AddonList (created in template ButtonFrameTemplate)
@@ -120,5 +137,8 @@ AddonList["CancelButton"] = AddonListCancelButton
 AddonList["OkayButton"] = AddonListOkayButton
 AddonList["EnableAllButton"] = AddonListEnableAllButton
 AddonList["DisableAllButton"] = AddonListDisableAllButton
+AddonList["layoutType"] = "PortraitFrameTemplate" -- inherited
+AddonList["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+AddonList["Bg"] = ButtonFrameTemplateBg -- inherited
 AddonList["Inset"] = AddonListInset -- inherited
 

@@ -182,6 +182,7 @@ CharSelectAccountUpgradeButton["expandCollapseButton"] = CharSelectAccountUpgrad
 CharSelectAccountUpgradeButton["PointerFrame"] = CharSelectAccountUpgradeButtonPointerFrame
 CharSelectAccountUpgradeButton["TopChain1"] = CharSelectAccountUpgradeButtonChains1
 CharSelectAccountUpgradeButton["TopChain2"] = CharSelectAccountUpgradeButtonChains2
+CharSelectAccountUpgradeButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L492)
 --- child of CharSelectAccountUpgradeMiniPanel
@@ -347,6 +348,7 @@ CharSelectAccountUpgradePanel["logo"] = CharSelectAccountUpgradePanelUpgradeLogo
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CharSelectEnterWorldButton : Button, GlueButtonBigTemplate
 CharSelectEnterWorldButton = {}
+CharSelectEnterWorldButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L584)
 --- child of CharacterSelectUI
@@ -354,6 +356,7 @@ CharSelectEnterWorldButton = {}
 --- @field iconAtlas string # "common-icon-rotateleft"
 CharacterSelectRotateLeft = {}
 CharacterSelectRotateLeft["iconAtlas"] = "common-icon-rotateleft"
+CharacterSelectRotateLeft["iconSize"] = 24 -- inherited
 CharacterSelectRotateLeft["onClickSoundKit"] = SOUNDKIT.IG_INVENTORY_ROTATE_CHARACTER -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L593)
@@ -362,6 +365,7 @@ CharacterSelectRotateLeft["onClickSoundKit"] = SOUNDKIT.IG_INVENTORY_ROTATE_CHAR
 --- @field iconAtlas string # "common-icon-rotateright"
 CharacterSelectRotateRight = {}
 CharacterSelectRotateRight["iconAtlas"] = "common-icon-rotateright"
+CharacterSelectRotateRight["iconSize"] = 24 -- inherited
 CharacterSelectRotateRight["onClickSoundKit"] = SOUNDKIT.IG_INVENTORY_ROTATE_CHARACTER -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L613)
@@ -379,11 +383,13 @@ CharacterSelectRotateRight["onClickSoundKit"] = SOUNDKIT.IG_INVENTORY_ROTATE_CHA
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectBackButton : Button, GlueButtonTemplate, CharacterSelectBackButtonMixin
 --- @field Arrow Texture
 CharacterSelectBackButton = {}
+CharacterSelectBackButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L657)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CopyCharacterButton : Button, GlueButtonSmallTemplate, CopyCharacterButtonMixin
 CopyCharacterButton = {}
+CopyCharacterButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L677)
 --- child of 
@@ -409,6 +415,7 @@ CopyCharacterButton = {}
 --- @type CharacterSelectListTemplate_CharSelectCreateCharacterButton
 --- @field NewFeatureFrame CharacterSelectListTemplate_CharSelectCreateCharacterButton_NewFeatureFrame
 CharSelectCreateCharacterButton = {}
+CharSelectCreateCharacterButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L78)
 --- child of CharacterSelectCharacterFrame (created in template CharacterSelectListTemplate)
@@ -755,11 +762,13 @@ CharacterDeleteDialog = {}
 --- child of CharacterRenameBackground
 --- @class CharacterRenameDialog_CharacterRenameBackground_CharacterRenameButton1 : Button, GlueDialogButtonTemplate
 CharacterRenameButton1 = {}
+CharacterRenameButton1["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1328)
 --- child of CharacterRenameBackground
 --- @class CharacterRenameDialog_CharacterRenameBackground_CharacterRenameButton2 : Button, GlueDialogButtonTemplate
 CharacterRenameButton2 = {}
+CharacterRenameButton2["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1294)
 --- child of CharacterRenameBackground
@@ -864,6 +873,16 @@ CopyCharacterFrameRegionID = {}
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_ScrollBar : EventFrame, MinimalScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1148)
 --- child of CopyCharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -883,5 +902,8 @@ CopyCharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field ScrollBar CopyCharacterFrame_ScrollBar
 CopyCharacterFrame = {}
 CopyCharacterFrame["RegionID"] = CopyCharacterFrameRegionID
+CopyCharacterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+CopyCharacterFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+CopyCharacterFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 CopyCharacterFrame["Inset"] = CopyCharacterFrameInset -- inherited
 

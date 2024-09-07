@@ -49,6 +49,7 @@ PetFrameHealAbsorbBar["fillColor"] = HEALTHBAR_HEAL_ABSORB_COLOR -- inherited
 --- @class PetFrame_PetFrameHealthBar_PetFrameTotalAbsorbBar : Frame, PetFrameBarSegmentTemplate, TotalAbsorbBarTemplate
 PetFrameTotalAbsorbBar = {}
 PetFrameTotalAbsorbBar["fillAtlas"] = "UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health-Status" -- inherited
+PetFrameTotalAbsorbBar["tiledFillOverlaySize"] = 32 -- inherited
 PetFrameTotalAbsorbBar["fillColor"] = HEALTHBAR_TOTAL_ABSORB_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L98)
@@ -145,7 +146,9 @@ PetAttackModeTexture = {}
 PetFrame = {}
 PetFrame["Portrait"] = PetPortrait
 PetFrame["layoutIndex"] = 48
+PetFrame["isManagedFrame"] = true -- inherited
 PetFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+PetFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 PetFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Pet -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L190)

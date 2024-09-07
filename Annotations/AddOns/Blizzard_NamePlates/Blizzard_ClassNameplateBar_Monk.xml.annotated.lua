@@ -5,6 +5,9 @@
 --- @field resourceBarMixin any # ClassNameplateBar
 ClassNameplateBarWindwalkerMonkFrame = {}
 ClassNameplateBarWindwalkerMonkFrame["resourceBarMixin"] = ClassNameplateBar
+ClassNameplateBarWindwalkerMonkFrame["isManagedFrame"] = true -- inherited
+ClassNameplateBarWindwalkerMonkFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+ClassNameplateBarWindwalkerMonkFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarWindwalkerMonkFrame["powerToken"] = "CHI" -- inherited
 ClassNameplateBarWindwalkerMonkFrame["scale"] = ".75" -- inherited
 

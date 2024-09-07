@@ -15,6 +15,46 @@
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_Inset : Frame, InsetFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1214)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+SubscriptionInterstitialFrameTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1220)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+SubscriptionInterstitialFrameTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1226)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+SubscriptionInterstitialFrameBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1232)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+SubscriptionInterstitialFrameBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1238)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+SubscriptionInterstitialFrameTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1245)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+SubscriptionInterstitialFrameBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1252)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+SubscriptionInterstitialFrameLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1259)
+--- child of  (created in template ShadowOverlaySmallTemplate)
+--- @type Texture
+SubscriptionInterstitialFrameRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L59)
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_ShadowOverlay : Frame, ShadowOverlaySmallTemplate
@@ -98,6 +138,7 @@ SubscriptionInterstitialFrameTopTileStreaks = {}
 --- @field CloseButton SubscriptionInterstitialFrame_CloseButton
 --- @field ClosePanelButton SubscriptionInterstitialFrame_ClosePanelButton
 SubscriptionInterstitialFrame = {}
+SubscriptionInterstitialFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 SubscriptionInterstitialFrame["Bg"] = SubscriptionInterstitialFrameBg -- inherited
 SubscriptionInterstitialFrame["TopTileStreaks"] = SubscriptionInterstitialFrameTopTileStreaks -- inherited
 

@@ -9,4 +9,5 @@
 --- @field buttonTemplate string # "PossessButtonTemplate"
 PossessActionBar = {}
 PossessActionBar["buttonTemplate"] = "PossessButtonTemplate"
+PossessActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 

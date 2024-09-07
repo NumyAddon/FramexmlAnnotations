@@ -347,6 +347,7 @@ InboxNextPageButton = {}
 --- child of InboxFrame
 --- @class MailFrame_InboxFrame_OpenAllMail : Button, UIPanelButtonTemplate, OpenAllMailMixin
 OpenAllMail = {}
+OpenAllMail["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L295)
 --- child of InboxFrame
@@ -672,15 +673,27 @@ SendMailMoney["gold"] = SendMailMoneyGold -- inherited
 SendMailMoney["silver"] = SendMailMoneySilver -- inherited
 SendMailMoney["copper"] = SendMailMoneyCopper -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L455)
+--- child of SendMailRadioButtonTemplate (created in template UIRadioButtonTemplate)
+--- @type UIRadioButtonTemplate_UIRadioButtonTemplateText
+SendMailRadioButtonTemplateText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L741)
 --- child of SendMailMoneyButton
 --- @class MailFrame_SendMailFrame_SendMailMoneyButton_SendMailSendMoneyButton : CheckButton, SendMailRadioButtonTemplate
 SendMailSendMoneyButton = {}
+SendMailSendMoneyButton["text"] = SendMailRadioButtonTemplateText -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L455)
+--- child of SendMailRadioButtonTemplate (created in template UIRadioButtonTemplate)
+--- @type UIRadioButtonTemplate_UIRadioButtonTemplateText
+SendMailRadioButtonTemplateText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L751)
 --- child of SendMailMoneyButton
 --- @class MailFrame_SendMailFrame_SendMailMoneyButton_SendMailCODButton : CheckButton, SendMailRadioButtonTemplate
 SendMailCODButton = {}
+SendMailCODButton["text"] = SendMailRadioButtonTemplateText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L720)
 --- child of SendMailMoneyButton
@@ -751,11 +764,13 @@ SendMailMoneyFrame["GoldButton"] = SendMailMoneyFrameGoldButton -- inherited
 --- child of SendMailFrame
 --- @class MailFrame_SendMailFrame_SendMailCancelButton : Button, UIPanelButtonTemplate
 SendMailCancelButton = {}
+SendMailCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L792)
 --- child of SendMailFrame
 --- @class MailFrame_SendMailFrame_SendMailMailButton : Button, UIPanelButtonTemplate
 SendMailMailButton = {}
+SendMailMailButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L808)
 --- child of SendMailFrameLockSendMail
@@ -807,6 +822,16 @@ MailFrameTab2 = {}
 --- @class MailFrame_MailFrameTrialError : FontString, GameFontNormal
 MailFrameTrialError = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1148)
 --- child of MailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -818,12 +843,16 @@ MailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field trialError MailFrame_MailFrameTrialError
 MailFrame = {}
 MailFrame["trialError"] = MailFrameTrialError
+MailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+MailFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+MailFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 MailFrame["Inset"] = MailFrameInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L929)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailReportSpamButton : Button, UIPanelButtonTemplate
 OpenMailReportSpamButton = {}
+OpenMailReportSpamButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L945)
 --- child of OpenMailSender
@@ -946,16 +975,19 @@ OpenMailMoneyButton = {}
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailCancelButton : Button, UIPanelButtonTemplate
 OpenMailCancelButton = {}
+OpenMailCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1306)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailDeleteButton : Button, UIPanelButtonTemplate
 OpenMailDeleteButton = {}
+OpenMailDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1315)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailReplyButton : Button, UIPanelButtonTemplate
 OpenMailReplyButton = {}
+OpenMailReplyButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L883)
 --- child of OpenMailFrame
@@ -987,6 +1019,16 @@ OpenMailSubject = {}
 --- @class OpenMailFrame_OpenMailHorizontalBarLeft : Texture
 OpenMailHorizontalBarLeft = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1148)
 --- child of OpenMailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -996,5 +1038,8 @@ OpenMailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L877)
 --- @class OpenMailFrame : Frame, ButtonFrameTemplate
 OpenMailFrame = {}
+OpenMailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+OpenMailFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+OpenMailFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 OpenMailFrame["Inset"] = OpenMailFrameInset -- inherited
 

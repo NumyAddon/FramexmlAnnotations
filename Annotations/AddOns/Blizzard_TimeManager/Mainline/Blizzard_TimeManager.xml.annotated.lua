@@ -102,6 +102,16 @@ TimeManagerFrameTicker = {}
 --- child of TimeManagerFrame
 --- @class  : FontString, GameFontWhite
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L1148)
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -113,6 +123,9 @@ TimeManagerFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field AlarmTimeFrame TimeManagerFrame_TimeManagerAlarmTimeFrame
 TimeManagerFrame = {}
 TimeManagerFrame["AlarmTimeFrame"] = TimeManagerAlarmTimeFrame
+TimeManagerFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+TimeManagerFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+TimeManagerFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 TimeManagerFrame["Inset"] = TimeManagerFrameInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L188)

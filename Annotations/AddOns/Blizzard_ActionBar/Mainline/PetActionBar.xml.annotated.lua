@@ -15,4 +15,5 @@
 --- @field buttonTemplate string # "PetActionButtonTemplate"
 PetActionBar = {}
 PetActionBar["buttonTemplate"] = "PetActionButtonTemplate"
+PetActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 

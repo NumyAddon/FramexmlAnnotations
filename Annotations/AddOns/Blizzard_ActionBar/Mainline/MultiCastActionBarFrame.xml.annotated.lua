@@ -192,5 +192,6 @@ MultiCastRecallSpellButton = {}
 --- @field layoutIndex number # 203
 MultiCastActionBarFrame = {}
 MultiCastActionBarFrame["layoutIndex"] = 203
+MultiCastActionBarFrame["isManagedFrame"] = true -- inherited
 MultiCastActionBarFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 

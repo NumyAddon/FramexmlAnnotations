@@ -79,19 +79,19 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L239)
 --- Template
---- @class _WoodFrameTile-Top : Texture
+--- @class _WoodFrameTile_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L244)
 --- Template
---- @class _WoodFrameTile-Bottom : Texture
+--- @class _WoodFrameTile_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L249)
 --- Template
---- @class !WoodFrameTile-Left : Texture
+--- @class !WoodFrameTile_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L254)
 --- Template
---- @class !WoodFrameTile-Right : Texture
+--- @class !WoodFrameTile_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L268)
 --- child of WoodFrameTemplate
@@ -269,6 +269,21 @@ HotItemCurrentBidMoneyFrame["GoldButton"] = HotItemCurrentBidMoneyFrameGoldButto
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L629)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_ScrollBar : EventFrame, MinimalScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1484)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+BlackMarketFrameLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1492)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+BlackMarketFrameRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1500)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+BlackMarketFrameMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L635)
 --- child of BlackMarketFrame

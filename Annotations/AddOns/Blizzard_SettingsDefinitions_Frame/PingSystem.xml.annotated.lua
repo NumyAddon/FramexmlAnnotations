@@ -63,6 +63,16 @@
 --- @field ImageBounds PingSystemTutorial_Tutorial4_ImageBounds
 --- @field TutorialHeader PingSystemTutorial_Tutorial4_TutorialHeader
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1148)
 --- child of PingSystemTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -78,5 +88,8 @@ PingSystemTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field Tutorial4 PingSystemTutorial_Tutorial4
 --- @field Tutorial Texture
 PingSystemTutorial = {}
+PingSystemTutorial["layoutType"] = "PortraitFrameTemplate" -- inherited
+PingSystemTutorial["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+PingSystemTutorial["Bg"] = ButtonFrameTemplateBg -- inherited
 PingSystemTutorial["Inset"] = PingSystemTutorialInset -- inherited
 

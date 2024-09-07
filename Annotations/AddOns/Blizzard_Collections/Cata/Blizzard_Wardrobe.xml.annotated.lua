@@ -91,14 +91,14 @@ WardrobeCollectionFrameTab1["minWidth"] = 57
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L346)
 --- child of 
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_Text : FontString, GameFontHighlight
-Text = {}
+--- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_WardrobeCollectionFrameSearchBoxText : FontString, GameFontHighlight
+WardrobeCollectionFrameSearchBoxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L339)
 --- child of 
 --- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame : Frame
 --- @field Spinner WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_Spinner
---- @field Text WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_Text
+--- @field Text WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_WardrobeCollectionFrameSearchBoxText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L379)
 --- child of 
@@ -450,10 +450,94 @@ WardrobeCollectionFrame["SearchBox"] = WardrobeCollectionFrameSearchBox
 --- child of 
 --- @class WardrobeFrame_WardrobeTransmogFrame_Model_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1211)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+WardrobeTransmogFrameTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1218)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+WardrobeTransmogFrameTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1225)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+WardrobeTransmogFrameBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1232)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+WardrobeTransmogFrameBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1239)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+WardrobeTransmogFrameTopMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1247)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+WardrobeTransmogFrameMiddleLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1255)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+WardrobeTransmogFrameMiddleRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1263)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+WardrobeTransmogFrameBottomMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1271)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+WardrobeTransmogFrameMiddleMiddle = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1197)
 --- child of 
 --- @class WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton : Button, UIMenuButtonStretchTemplate, WardrobeTransmogClearAllPendingButtonMixin
 --- @field Icon Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L100)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomInButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
+--- @field zoomIn boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L109)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomOutButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
+--- @field zoomIn boolean # false
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L118)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton : Button, ModelControlButtonTemplate, ModelControlPanButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L124)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
+--- @field rotateDirection string # "left"
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L133)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
+--- @field rotateDirection string # "right"
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L142)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateResetButton : Button, ModelControlButtonTemplate, ModelControlResetButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L67)
+--- child of  (created in template ModelWithControlsTemplate)
+--- @type ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame
+--- @field panButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton
+--- @field rotateLeftButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton
+--- @field rotateRightButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton
+WardrobeTransmogFrameControlFrame = {}
+WardrobeTransmogFrameControlFrame["panButton"] = ModelWithControlsTemplateControlFramePanButton
+WardrobeTransmogFrameControlFrame["rotateLeftButton"] = ModelWithControlsTemplateControlFrameRotateLeftButton
+WardrobeTransmogFrameControlFrame["rotateRightButton"] = ModelWithControlsTemplateControlFrameRotateRightButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1179)
 --- child of WardrobeTransmogFrame
@@ -599,6 +683,11 @@ WardrobeTransmogMoneyFrame["GoldButton"] = WardrobeTransmogMoneyFrameGoldButton 
 WardrobeTransmogFrame = {}
 WardrobeTransmogFrame["MoneyFrame"] = WardrobeTransmogMoneyFrame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1095)
 --- child of WardrobeFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
@@ -607,5 +696,7 @@ WardrobeFrameCloseButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1096)
 --- @class WardrobeFrame : Frame, PortraitFrameTemplate, WardrobeFrameMixin
 WardrobeFrame = {}
+WardrobeFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+WardrobeFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 WardrobeFrame["CloseButton"] = WardrobeFrameCloseButton -- inherited
 

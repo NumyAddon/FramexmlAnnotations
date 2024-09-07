@@ -44,6 +44,7 @@ HelpFrameTopTileStreaks = {}
 --- @field SpinnerOverlay HelpFrame_SpinnerOverlay
 HelpFrame = {}
 HelpFrame["Browser"] = HelpBrowser
+HelpFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 HelpFrame["Bg"] = HelpFrameBg -- inherited
 HelpFrame["TopTileStreaks"] = HelpFrameTopTileStreaks -- inherited
 
@@ -60,6 +61,7 @@ HelpFrame["TopTileStreaks"] = HelpFrameTopTileStreaks -- inherited
 --- @field CookiesButton BrowserSettingsTooltip_CookiesButton
 --- @field Title BrowserSettingsTooltip_Title
 BrowserSettingsTooltip = {}
+BrowserSettingsTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 BrowserSettingsTooltip["backdropColorAlpha"] = 0.8 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L143)
@@ -70,6 +72,7 @@ HelpOpenWebTicketButton = {}
 --- child of TicketStatusFrame
 --- @class TicketStatusFrame_TicketStatusFrameButton : Button, HelpFrameContainerFrameTemplate
 TicketStatusFrameButton = {}
+TicketStatusFrameButton["layoutType"] = "TooltipDefaultLayout" -- inherited
 TicketStatusFrameButton["backdropColor"] = BLACK_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L188)
@@ -161,11 +164,13 @@ ReportCheatingDialogCommentFrame["EditBox"] = ReportCheatingDialogCommentFrameEd
 --- child of ReportCheatingDialog
 --- @class ReportCheatingDialog_ReportCheatingDialogReportButton : Button, UIPanelButtonTemplate
 ReportCheatingDialogReportButton = {}
+ReportCheatingDialogReportButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L389)
 --- child of ReportCheatingDialog
 --- @class ReportCheatingDialog_ReportCheatingDialogCancelButton : Button, UIPanelButtonTemplate
 ReportCheatingDialogCancelButton = {}
+ReportCheatingDialogCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L250)
 --- child of ReportCheatingDialog

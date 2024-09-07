@@ -146,6 +146,7 @@
 --- @class FloatingGarrisonFollowerTooltip : Frame, GarrisonFollowerTooltipTemplate
 --- @field CloseButton FloatingGarrisonFollowerTooltip_CloseButton
 FloatingGarrisonFollowerTooltip = {}
+FloatingGarrisonFollowerTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L264)
 --- child of FloatingGarrisonShipyardFollowerTooltip
@@ -155,6 +156,7 @@ FloatingGarrisonFollowerTooltip = {}
 --- @class FloatingGarrisonShipyardFollowerTooltip : Frame, GarrisonShipyardFollowerTooltipTemplate
 --- @field CloseButton FloatingGarrisonShipyardFollowerTooltip_CloseButton
 FloatingGarrisonShipyardFollowerTooltip = {}
+FloatingGarrisonShipyardFollowerTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L288)
 --- child of GarrisonFollowerAbilityTooltipTemplate
@@ -231,6 +233,7 @@ FloatingGarrisonShipyardFollowerTooltip = {}
 --- @class FloatingGarrisonFollowerAbilityTooltip : Frame, GarrisonFollowerAbilityTooltipTemplate
 --- @field CloseButton FloatingGarrisonFollowerAbilityTooltip_CloseButton
 FloatingGarrisonFollowerAbilityTooltip = {}
+FloatingGarrisonFollowerAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 FloatingGarrisonFollowerAbilityTooltip["abilityFrameHeightBase"] = 30 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L472)

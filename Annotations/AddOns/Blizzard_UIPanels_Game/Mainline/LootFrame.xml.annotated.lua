@@ -48,11 +48,17 @@
 --- @class LootFrameMoneyElementTemplate : Frame, LootFrameElementTemplate, LootFrameElementMixin
 --- @field Text LootFrameMoneyElementTemplate_Text
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L991)
+--- child of ScrollingFlatPanelTemplate (created in template DefaultPanelFlatTemplate)
+--- @type DefaultPanelFlatTemplate_DefaultPanelFlatTemplateBg
+ScrollingFlatPanelTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L110)
 --- @class LootFrame : Frame, ScrollingFlatPanelTemplate, EditModeLootFrameSystemTemplate, LootFrameMixin
 --- @field panelTitle any # ITEMS
 LootFrame = {}
 LootFrame["panelTitle"] = ITEMS
 LootFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
+LootFrame["Bg"] = ScrollingFlatPanelTemplateBg -- inherited
 LootFrame["system"] = Enum.EditModeSystem.LootFrame -- inherited
 

@@ -179,5 +179,6 @@ GroupLootHistoryFrameBg = {}
 --- @field NoInfoString GroupLootHistoryFrame_NoInfoString
 GroupLootHistoryFrame = {}
 GroupLootHistoryFrame["panelMaxHeight"] = 590
+GroupLootHistoryFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 GroupLootHistoryFrame["Bg"] = GroupLootHistoryFrameBg -- inherited
 

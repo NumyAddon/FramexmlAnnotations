@@ -124,6 +124,7 @@
 --- @field MainFrame TalkingHeadFrame_MainFrame
 TalkingHeadFrame = {}
 TalkingHeadFrame["layoutIndex"] = 8
+TalkingHeadFrame["isManagedFrame"] = true -- inherited
 TalkingHeadFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 TalkingHeadFrame["system"] = Enum.EditModeSystem.TalkingHeadFrame -- inherited
 

@@ -21,11 +21,13 @@ PVPFramePopupMinimizeButton = {}
 --- child of PVPFramePopup
 --- @class PVPFramePopup_PVPFramePopupAcceptButton : Button, UIPanelButtonTemplate
 PVPFramePopupAcceptButton = {}
+PVPFramePopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L82)
 --- child of PVPFramePopup
 --- @class PVPFramePopup_PVPFramePopupDeclineButton : Button, UIPanelButtonTemplate
 PVPFramePopupDeclineButton = {}
+PVPFramePopupDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L16)
 --- child of PVPFramePopup
@@ -94,11 +96,13 @@ PVPRoleCheckPopupRoleButtonDPS["role"] = "DAMAGER"
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopup_PVPRoleCheckPopupAcceptButton : Button, UIPanelButtonTemplate
 PVPRoleCheckPopupAcceptButton = {}
+PVPRoleCheckPopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L169)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopup_PVPRoleCheckPopupDeclineButton : Button, UIPanelButtonTemplate
 PVPRoleCheckPopupDeclineButton = {}
+PVPRoleCheckPopupDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L185)
 --- child of PVPRoleCheckPopupDescription
@@ -142,11 +146,13 @@ PVPReadyDialogCloseButton = {}
 --- child of PVPReadyDialog
 --- @class PVPReadyDialog_PVPReadyDialogEnterBattleButton : Button, UIPanelButtonTemplate, PVPReadyDialogEnterButtonMixin
 PVPReadyDialogEnterBattleButton = {}
+PVPReadyDialogEnterBattleButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L261)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialog_PVPReadyDialogLeaveQueueButton : Button, UIPanelButtonTemplate, PVPReadyDialogLeaveButtonMixin
 PVPReadyDialogLeaveQueueButton = {}
+PVPReadyDialogLeaveQueueButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L278)
 --- child of PVPReadyDialogRoleIcon

@@ -719,6 +719,17 @@ GarrisonMissionFrameTab2 = {}
 --- child of GarrisonMissionFrameFollowers
 --- @class GarrisonMissionFrame_GarrisonMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+GarrisonMissionFrameFollowersClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+GarrisonMissionFrameFollowersSearchIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1894)
 --- child of GarrisonMissionFrameFollowers
 --- @class GarrisonMissionFrame_GarrisonMissionFrameFollowers_SearchBox : EditBox, SearchBoxTemplate
@@ -733,9 +744,9 @@ GarrisonMissionFrameFollowers = {}
 GarrisonMissionFrameFollowers["showUncollected"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1261)
---- child of Missions (created in template GarrisonMissionListTemplate)
+--- child of GarrisonMissionFrameMissions (created in template GarrisonMissionListTemplate)
 --- @type GarrisonMissionListTemplate_GarrisonMissionListTemplateTab1
-MissionsTab1 = {}
+GarrisonMissionFrameMissionsTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1279)
 --- child of GarrisonMissionListTemplateTab2
@@ -746,20 +757,20 @@ MissionsTab1 = {}
 --- @class GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1266)
---- child of Missions (created in template GarrisonMissionListTemplate)
+--- child of GarrisonMissionFrameMissions (created in template GarrisonMissionListTemplate)
 --- @type GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2
 --- @field MissionStart Texture
 --- @field MissionStartText GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartText
 --- @field GlowHighlight Texture
 --- @field MissionStartAnim GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartAnim
-MissionsTab2 = {}
+GarrisonMissionFrameMissionsTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1912)
 --- child of 
---- @class GarrisonMissionFrame_MissionTab_Missions : Frame, GarrisonMissionListTemplate
-Missions = {}
-Missions["Tab1"] = MissionsTab1 -- inherited
-Missions["Tab2"] = MissionsTab2 -- inherited
+--- @class GarrisonMissionFrame_MissionTab_GarrisonMissionFrameMissions : Frame, GarrisonMissionListTemplate
+GarrisonMissionFrameMissions = {}
+GarrisonMissionFrameMissions["Tab1"] = GarrisonMissionFrameMissionsTab1 -- inherited
+GarrisonMissionFrameMissions["Tab2"] = GarrisonMissionFrameMissionsTab2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1915)
 --- child of 
@@ -834,7 +845,7 @@ Missions["Tab2"] = MissionsTab2 -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1910)
 --- child of GarrisonMissionFrame
 --- @class GarrisonMissionFrame_MissionTab : Frame
---- @field MissionList GarrisonMissionFrame_MissionTab_Missions
+--- @field MissionList GarrisonMissionFrame_MissionTab_GarrisonMissionFrameMissions
 --- @field MissionPage GarrisonMissionFrame_MissionTab_MissionPage
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1996)

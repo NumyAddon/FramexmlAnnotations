@@ -43,10 +43,46 @@ ScenarioQueueFrameRandomScrollFrame["scrollBarX"] = 4
 ScenarioQueueFrameRandom = {}
 ScenarioQueueFrameRandom["ScrollFrame"] = ScenarioQueueFrameRandomScrollFrame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L254)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateEnableButton
+ScenarioSpecificChoiceTemplateEnableButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L265)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateExpandOrCollapseButton
+ScenarioSpecificChoiceTemplateExpandOrCollapseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L225)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type Texture
+ScenarioSpecificChoiceTemplateHeroicIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L232)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceLevel
+ScenarioSpecificChoiceTemplateInstanceLevel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L237)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceName
+ScenarioSpecificChoiceTemplateInstanceName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L244)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type Texture
+ScenarioSpecificChoiceTemplateLockedIndicator = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L110)
 --- child of ScenarioQueueFrameSpecific
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameSpecific_ScenarioQueueFrameSpecificButton1 : Frame, ScenarioSpecificChoiceTemplate
 ScenarioQueueFrameSpecificButton1 = {}
+ScenarioQueueFrameSpecificButton1["enableButton"] = ScenarioSpecificChoiceTemplateEnableButton -- inherited
+ScenarioQueueFrameSpecificButton1["expandOrCollapseButton"] = ScenarioSpecificChoiceTemplateExpandOrCollapseButton -- inherited
+ScenarioQueueFrameSpecificButton1["heroicIcon"] = ScenarioSpecificChoiceTemplateHeroicIcon -- inherited
+ScenarioQueueFrameSpecificButton1["level"] = ScenarioSpecificChoiceTemplateInstanceLevel -- inherited
+ScenarioQueueFrameSpecificButton1["instanceName"] = ScenarioSpecificChoiceTemplateInstanceName -- inherited
+ScenarioQueueFrameSpecificButton1["lockedIndicator"] = ScenarioSpecificChoiceTemplateLockedIndicator -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L126)
 --- child of ScenarioQueueFrameSpecificScrollFrame
@@ -58,10 +94,34 @@ ScenarioQueueFrameSpecificScrollFrameScrollBackgroundTopLeft = {}
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameSpecific_ScenarioQueueFrameSpecificScrollFrame_ScenarioQueueFrameSpecificScrollFrameScrollBackgroundBottomRight : Texture
 ScenarioQueueFrameSpecificScrollFrameScrollBackgroundBottomRight = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L115)
 --- child of ScenarioQueueFrameSpecific
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameSpecific_ScenarioQueueFrameSpecificScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 ScenarioQueueFrameSpecificScrollFrame = {}
+ScenarioQueueFrameSpecificScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L108)
 --- child of ScenarioQueueFrame
@@ -76,11 +136,13 @@ ScenarioQueueFrameSpecific["ScrollFrame"] = ScenarioQueueFrameSpecificScrollFram
 --- child of ScenarioQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
 --- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateBackfillButton
 ScenarioQueueFramePartyBackfillBackfillButton = {}
+ScenarioQueueFramePartyBackfillBackfillButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1108)
 --- child of ScenarioQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
 --- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateNoBackfillButton
 ScenarioQueueFramePartyBackfillNoBackfillButton = {}
+ScenarioQueueFramePartyBackfillNoBackfillButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1082)
 --- child of ScenarioQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
@@ -204,6 +266,7 @@ ScenarioQueueFrameCooldownFrame["time"] = ScenarioQueueFrameCooldownFrameTime --
 --- child of ScenarioQueueFrame
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameFindGroupButton : Button, MagicButtonTemplate
 ScenarioQueueFrameFindGroupButton = {}
+ScenarioQueueFrameFindGroupButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L49)
 --- child of ScenarioQueueFrame

@@ -39,7 +39,15 @@ class Frame
     public function getName(): string
     {
         if ($this->parent && str_contains($this->name, '$parent')) {
-            return str_replace('$parent', $this->parent->getName(), $this->name);
+            $parent = $this;
+            $parentName = '';
+            while ($parent = $parent->getParent()) {
+                $parentName = $parent->getName();
+                if ($parentName) {
+                    break;
+                }
+            }
+            return str_replace('$parent', $parentName, $this->name);
         }
 
         return $this->name;
@@ -53,7 +61,11 @@ class Frame
             return null;
         }
 
-        return $prefix === '' ? $name : $prefix . '_' . $name;
+        return str_replace(
+            ['$', ' ', '-', '.'],
+            ['', '_', '_', '_'],
+            $prefix === '' ? $name : $prefix . '_' . $name,
+        );
     }
 
     public function getParent(): ?self

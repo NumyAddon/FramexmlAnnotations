@@ -43,6 +43,15 @@
 --- @class TableAttributeDisplayTemplate_DynamicUpdateButton : CheckButton
 --- @field Label TableAttributeDisplayTemplate_DynamicUpdateButton_Label
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L1262)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L1253)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L210)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_FilterBox : EditBox, SearchBoxTemplate
@@ -68,6 +77,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L254)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_LinesScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarHideIfUnscrollable boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L274)
 --- child of TableAttributeDisplayTemplate

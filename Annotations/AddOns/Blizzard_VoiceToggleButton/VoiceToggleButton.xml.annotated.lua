@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.xml#L3)
 --- Template
 --- @class VoiceToggleButtonTemplate : Button, PropertyButtonTemplate, VoiceToggleButtonMixin
+--- @field fixedWidth number # 27
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.xml#L25)
 --- Template
@@ -15,6 +16,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.xml#L28)
 --- Template
 --- @class RosterVoiceToggleButtonTemplate : Button, VoiceToggleButtonTemplate
+--- @field fixedWidth number # 14
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.xml#L50)
 --- Template

@@ -47,11 +47,36 @@ LevelUpDisplayLevelFrameLevel = {}
 --- @field reachedText LevelUpDisplay_LevelUpDisplayLevelFrame_reachedText
 --- @field levelUp LevelUpDisplay_LevelUpDisplayLevelFrame_levelUp
 LevelUpDisplayLevelFrame = {}
+LevelUpDisplayLevelFrame["levelText"] = LevelUpDisplayLevelFrameLevel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L31)
+--- child of LevelUpDisplaySpellFrame (created in template LevelUpSkillTemplate)
+--- @type Texture
+LevelUpDisplaySpellFrameIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L37)
+--- child of LevelUpDisplaySpellFrame (created in template LevelUpSkillTemplate)
+--- @type LevelUpSkillTemplate_LevelUpSkillTemplateName
+LevelUpDisplaySpellFrameName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L42)
+--- child of LevelUpDisplaySpellFrame (created in template LevelUpSkillTemplate)
+--- @type LevelUpSkillTemplate_LevelUpSkillTemplateSubText
+LevelUpDisplaySpellFrameSubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L50)
+--- child of LevelUpDisplaySpellFrame (created in template LevelUpSkillTemplate)
+--- @type Texture
+LevelUpDisplaySpellFrameSubIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L187)
 --- child of LevelUpDisplay
 --- @class LevelUpDisplay_LevelUpDisplaySpellFrame : Frame, LevelUpSkillTemplate
 LevelUpDisplaySpellFrame = {}
+LevelUpDisplaySpellFrame["icon"] = LevelUpDisplaySpellFrameIcon -- inherited
+LevelUpDisplaySpellFrame["name"] = LevelUpDisplaySpellFrameName -- inherited
+LevelUpDisplaySpellFrame["flavorText"] = LevelUpDisplaySpellFrameSubText -- inherited
+LevelUpDisplaySpellFrame["subIcon"] = LevelUpDisplaySpellFrameSubIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L80)
 --- child of LevelUpDisplayBlackBg
@@ -98,11 +123,39 @@ LevelUpDisplayGLine = {}
 --- @field gLine LevelUpDisplay_LevelUpDisplayGLine
 --- @field hideAnim LevelUpDisplay_hideAnim
 LevelUpDisplay = {}
+LevelUpDisplay["levelFrame"] = LevelUpDisplayLevelFrame
+LevelUpDisplay["spellFrame"] = LevelUpDisplaySpellFrame
+LevelUpDisplay["gLine2"] = LevelUpDisplayGLine2
+LevelUpDisplay["gLine"] = LevelUpDisplayGLine
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L31)
+--- child of LevelUpDisplaySideUnlockFrame1 (created in template LevelUpSkillTemplate)
+--- @type Texture
+LevelUpDisplaySideUnlockFrame1Icon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L37)
+--- child of LevelUpDisplaySideUnlockFrame1 (created in template LevelUpSkillTemplate)
+--- @type LevelUpSkillTemplate_LevelUpSkillTemplateName
+LevelUpDisplaySideUnlockFrame1Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L42)
+--- child of LevelUpDisplaySideUnlockFrame1 (created in template LevelUpSkillTemplate)
+--- @type LevelUpSkillTemplate_LevelUpSkillTemplateSubText
+LevelUpDisplaySideUnlockFrame1SubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L50)
+--- child of LevelUpDisplaySideUnlockFrame1 (created in template LevelUpSkillTemplate)
+--- @type Texture
+LevelUpDisplaySideUnlockFrame1SubIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L266)
 --- child of LevelUpDisplaySide
 --- @class LevelUpDisplaySide_LevelUpDisplaySideUnlockFrame1 : Frame, LevelUpSkillTemplate
 LevelUpDisplaySideUnlockFrame1 = {}
+LevelUpDisplaySideUnlockFrame1["icon"] = LevelUpDisplaySideUnlockFrame1Icon -- inherited
+LevelUpDisplaySideUnlockFrame1["name"] = LevelUpDisplaySideUnlockFrame1Name -- inherited
+LevelUpDisplaySideUnlockFrame1["flavorText"] = LevelUpDisplaySideUnlockFrame1SubText -- inherited
+LevelUpDisplaySideUnlockFrame1["subIcon"] = LevelUpDisplaySideUnlockFrame1SubIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L228)
 --- child of LevelUpDisplaySide
@@ -145,4 +198,7 @@ LevelUpDisplaySideLevel = {}
 --- @field fadeIn LevelUpDisplaySide_fadeIn
 --- @field fadeOut LevelUpDisplaySide_fadeOut
 LevelUpDisplaySide = {}
+LevelUpDisplaySide["goldBG"] = LevelUpDisplaySideGoldBg
+LevelUpDisplaySide["dot"] = LevelUpDisplaySideDot
+LevelUpDisplaySide["levelText"] = LevelUpDisplaySideLevel
 

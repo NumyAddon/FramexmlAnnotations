@@ -116,12 +116,14 @@ WatchFrameLinesAutoQuestShadowFadeIn = {}
 --- @class WatchFrame_WatchFrameLines_WatchFrameLinesAutoQuestShadow : Texture, QuestTracker-Shadow
 --- @field FadeIn WatchFrame_WatchFrameLines_WatchFrameLinesAutoQuestShadow_WatchFrameLinesAutoQuestShadowFadeIn
 WatchFrameLinesAutoQuestShadow = {}
+WatchFrameLinesAutoQuestShadow["FadeIn"] = WatchFrameLinesAutoQuestShadowFadeIn
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L244)
 --- child of WatchFrame
 --- @class WatchFrame_WatchFrameLines : Frame
 --- @field AutoQuestShadow WatchFrame_WatchFrameLines_WatchFrameLinesAutoQuestShadow
 WatchFrameLines = {}
+WatchFrameLines["AutoQuestShadow"] = WatchFrameLinesAutoQuestShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L192)
 --- @class WatchFrame : Frame

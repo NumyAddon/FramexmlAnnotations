@@ -31,6 +31,22 @@
 --- @field Shadow Texture
 --- @field Label CommunitiesGuildProgressBarTemplate_Label
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L159)
+--- child of CommunitiesGuildRewardsButtonTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L185)
+--- child of CommunitiesGuildRewardsButtonTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L225)
+--- child of CommunitiesGuildRewardsButtonTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L265)
+--- child of CommunitiesGuildRewardsButtonTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L140)
 --- child of CommunitiesGuildRewardsButtonTemplate
 --- @class CommunitiesGuildRewardsButtonTemplate_CommunitiesGuildRewardsButtonTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate

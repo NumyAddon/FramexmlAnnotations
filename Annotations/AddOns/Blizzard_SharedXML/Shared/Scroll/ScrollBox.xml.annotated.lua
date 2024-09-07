@@ -22,6 +22,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.xml#L20)
 --- Template
 --- @class ScrollBoxBaseTemplate : Frame, ScrollBoxBaseMixin
+--- @field canInterpolateScroll boolean # false
 --- @field DragDelegate Frame
 --- @field ScrollTarget EventFrame
 --- @field Shadows ScrollBoxBaseTemplate_Shadows

@@ -93,15 +93,27 @@ WorldMapMagnifyingGlassButton = {}
 --- @class WorldMapFrame_WorldMapFrameCloseButton : Button, UIPanelCloseButton
 WorldMapFrameCloseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L21)
+--- child of WorldMapTrackQuest (created in template OptionsSmallCheckButtonTemplate)
+--- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+WorldMapTrackQuestText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L418)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapTrackQuest : CheckButton, OptionsSmallCheckButtonTemplate
 WorldMapTrackQuest = {}
+WorldMapTrackQuest["Text"] = WorldMapTrackQuestText -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L21)
+--- child of WorldMapQuestShowObjectives (created in template OptionsSmallCheckButtonTemplate)
+--- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+WorldMapQuestShowObjectivesText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L438)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapQuestShowObjectives : CheckButton, OptionsSmallCheckButtonTemplate
 WorldMapQuestShowObjectives = {}
+WorldMapQuestShowObjectives["Text"] = WorldMapQuestShowObjectivesText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L458)
 --- child of WorldMapFrame
@@ -117,4 +129,7 @@ WorldMapQuestShowObjectives = {}
 --- @field MinimapDropdown WorldMapFrame_WorldMapZoneMinimapDropdown
 --- @field MaximizeMinimizeFrame WorldMapFrame_MaximizeMinimizeFrame
 WorldMapFrame = {}
+WorldMapFrame["ContinentDropdown"] = WorldMapContinentDropdown
+WorldMapFrame["ZoneDropdown"] = WorldMapZoneDropdown
+WorldMapFrame["MinimapDropdown"] = WorldMapZoneMinimapDropdown
 

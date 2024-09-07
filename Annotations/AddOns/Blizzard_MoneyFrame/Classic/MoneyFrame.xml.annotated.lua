@@ -51,13 +51,25 @@
 --- Template
 --- @class SmallDenominationTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MoneyFrame/Classic/MoneyFrame.xml#L347)
+--- child of SmallAlternateCurrencyFrameTemplateItem1 (created in template SmallDenominationTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MoneyFrame/Classic/MoneyFrame.xml#L366)
 --- child of SmallAlternateCurrencyFrameTemplate
 --- @class SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1 : Button, SmallDenominationTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MoneyFrame/Classic/MoneyFrame.xml#L347)
+--- child of SmallAlternateCurrencyFrameTemplateItem2 (created in template SmallDenominationTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MoneyFrame/Classic/MoneyFrame.xml#L375)
 --- child of SmallAlternateCurrencyFrameTemplate
 --- @class SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2 : Button, SmallDenominationTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MoneyFrame/Classic/MoneyFrame.xml#L347)
+--- child of SmallAlternateCurrencyFrameTemplateItem3 (created in template SmallDenominationTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MoneyFrame/Classic/MoneyFrame.xml#L384)
 --- child of SmallAlternateCurrencyFrameTemplate

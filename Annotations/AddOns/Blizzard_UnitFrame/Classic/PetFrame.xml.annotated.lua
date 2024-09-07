@@ -68,20 +68,40 @@ PetFrameHealthBar = {}
 --- @class PetFrame_PetFrameManaBar : StatusBar, TextStatusBar
 PetFrameManaBar = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L13)
+--- child of PetFrameBuff1 (created in template PartyBuffFrameTemplate)
+--- @type Texture
+PetFrameBuff1Icon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L127)
 --- child of PetFrame
 --- @class PetFrame_PetFrameBuff1 : Button, PartyBuffFrameTemplate
 PetFrameBuff1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L13)
+--- child of PetFrameBuff2 (created in template PartyBuffFrameTemplate)
+--- @type Texture
+PetFrameBuff2Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L138)
 --- child of PetFrame
 --- @class PetFrame_PetFrameBuff2 : Button, PartyBuffFrameTemplate
 PetFrameBuff2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L13)
+--- child of PetFrameBuff3 (created in template PartyBuffFrameTemplate)
+--- @type Texture
+PetFrameBuff3Icon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L149)
 --- child of PetFrame
 --- @class PetFrame_PetFrameBuff3 : Button, PartyBuffFrameTemplate
 PetFrameBuff3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L13)
+--- child of PetFrameBuff4 (created in template PartyBuffFrameTemplate)
+--- @type Texture
+PetFrameBuff4Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L160)
 --- child of PetFrame

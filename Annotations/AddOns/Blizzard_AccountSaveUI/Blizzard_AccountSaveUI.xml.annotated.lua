@@ -19,6 +19,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.xml#L28)
 --- child of AccountSaveFrame
 --- @class AccountSaveFrame_Text : SimpleHTML
+--- @field scrollable boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AccountSaveUI/Blizzard_AccountSaveUI.xml#L41)
 --- child of AccountSaveFrame

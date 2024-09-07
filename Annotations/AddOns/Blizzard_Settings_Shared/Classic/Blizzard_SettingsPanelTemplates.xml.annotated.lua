@@ -15,6 +15,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Classic/Blizzard_SettingsPanelTemplates.xml#L12)
 --- child of SettingsFrameTemplate
 --- @class SettingsFrameTemplate_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "ButtonFrameTemplateNoPortrait"
 --- @field TitleBg SettingsFrameTemplate_NineSlice_TitleBg
 --- @field Text SettingsFrameTemplate_NineSlice_Text
 

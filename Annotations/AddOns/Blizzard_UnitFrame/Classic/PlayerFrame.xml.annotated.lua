@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L4)
 --- Template
 --- @class PlayerFrameBarSegmentTemplate : Frame
+--- @field fillTexture string # "Interface\\TargetingFrame\\UI-StatusBar"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L51)
 --- child of 
@@ -118,6 +119,11 @@ PlayerAttackIcon = {}
 --- child of 
 --- @class  : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L7)
+--- child of PlayerFrameReadyCheck (created in template ReadyCheckStatusTemplate)
+--- @type Texture
+PlayerFrameReadyCheckTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L185)
 --- child of 
 --- @class PlayerFrameReadyCheck : Frame, ReadyCheckStatusTemplate
@@ -229,4 +235,6 @@ PlayerPortrait = {}
 --- @field HealthBar PlayerFrame_PlayerFrameHealthBar
 --- @field ManaBar PlayerFrame_PlayerFrameManaBar
 PlayerFrame = {}
+PlayerFrame["HealthBar"] = PlayerFrameHealthBar
+PlayerFrame["ManaBar"] = PlayerFrameManaBar
 

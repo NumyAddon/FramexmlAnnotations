@@ -1,5 +1,33 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L9)
+--- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L22)
+--- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L31)
+--- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L40)
+--- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L49)
+--- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L58)
+--- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L113)
+--- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L3)
 --- Template
 --- @class CollectionsJournalTab : Button, CharacterFrameTabButtonTemplate
@@ -24,7 +52,13 @@ CollectionsJournalTab3 = {}
 --- @class CollectionsJournal_CollectionsJournalTab4 : Button, CollectionsJournalTab
 CollectionsJournalTab4 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L657)
+--- child of CollectionsJournal (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+CollectionsJournalCloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L12)
 --- @class CollectionsJournal : Frame, PortraitFrameTemplate
 CollectionsJournal = {}
+CollectionsJournal["CloseButton"] = CollectionsJournalCloseButton -- inherited
 

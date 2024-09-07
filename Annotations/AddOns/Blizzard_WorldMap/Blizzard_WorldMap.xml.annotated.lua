@@ -106,4 +106,7 @@ WorldMapFrameCloseButton = {}
 --- @field MinimapDropdown WorldMapFrame_WorldMapZoneMinimapDropdown
 --- @field MaximizeMinimizeFrame WorldMapFrame_MaximizeMinimizeFrame
 WorldMapFrame = {}
+WorldMapFrame["ContinentDropdown"] = WorldMapContinentDropdown
+WorldMapFrame["ZoneDropdown"] = WorldMapZoneDropdown
+WorldMapFrame["MinimapDropdown"] = WorldMapZoneMinimapDropdown
 

@@ -15,10 +15,34 @@ ItemTextScrollFrameBottom = {}
 --- @class ItemTextFrame_ItemTextScrollFrame_ItemTextScrollFrameMiddle : Texture
 ItemTextScrollFrameMiddle = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L10)
+--- child of ItemTextScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+ItemTextScrollFrameScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L18)
+--- child of ItemTextScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+ItemTextScrollFrameScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L30)
+--- child of ItemTextScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+ItemTextScrollFrameScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L46)
+--- child of ItemTextScrollFrame (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+ItemTextScrollFrameScrollBar = {}
+ItemTextScrollFrameScrollBar["ScrollUpButton"] = ItemTextScrollFrameScrollBarScrollUpButton -- inherited
+ItemTextScrollFrameScrollBar["ScrollDownButton"] = ItemTextScrollFrameScrollBarScrollDownButton -- inherited
+ItemTextScrollFrameScrollBar["ThumbTexture"] = ItemTextScrollFrameScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L116)
 --- child of ItemTextFrame
 --- @class ItemTextFrame_ItemTextScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 ItemTextScrollFrame = {}
+ItemTextScrollFrame["ScrollBar"] = ItemTextScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L177)
 --- child of ItemTextFrame

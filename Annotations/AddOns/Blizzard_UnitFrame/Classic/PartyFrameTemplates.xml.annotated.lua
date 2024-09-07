@@ -8,6 +8,14 @@
 --- Template
 --- @class PartyDebuffFrameTemplate : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L35)
+--- child of PartyPetDebuffFrameTemplate (created in template PartyDebuffFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L38)
+--- child of PartyPetDebuffFrameTemplate (created in template PartyDebuffFrameTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L57)
 --- Template
 --- @class PartyPetDebuffFrameTemplate : Frame, PartyDebuffFrameTemplate
@@ -68,6 +76,10 @@
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateManaBar : StatusBar, TextStatusBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L7)
+--- child of PartyMemberFrameTemplateReadyCheck (created in template ReadyCheckStatusTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L314)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateReadyCheck : Frame, ReadyCheckStatusTemplate
@@ -78,21 +90,81 @@
 --- @field texture Texture
 --- @field Border Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L35)
+--- child of PartyMemberFrameTemplateDebuff1 (created in template PartyDebuffFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L38)
+--- child of PartyMemberFrameTemplateDebuff1 (created in template PartyDebuffFrameTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L346)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateDebuff1 : Button, PartyDebuffFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L35)
+--- child of PartyMemberFrameTemplateDebuff2 (created in template PartyDebuffFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L38)
+--- child of PartyMemberFrameTemplateDebuff2 (created in template PartyDebuffFrameTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L351)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateDebuff2 : Button, PartyDebuffFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L35)
+--- child of PartyMemberFrameTemplateDebuff3 (created in template PartyDebuffFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L38)
+--- child of PartyMemberFrameTemplateDebuff3 (created in template PartyDebuffFrameTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L356)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateDebuff3 : Button, PartyDebuffFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L35)
+--- child of PartyMemberFrameTemplateDebuff4 (created in template PartyDebuffFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L38)
+--- child of PartyMemberFrameTemplateDebuff4 (created in template PartyDebuffFrameTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L361)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateDebuff4 : Button, PartyDebuffFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L122)
+--- child of PartyMemberFrameTemplatePetFrame (created in template PartyMemberPetFrameTemplate)
+--- @type PartyMemberPetFrameTemplate_PartyMemberPetFrameTemplateHealthBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L134)
+--- child of PartyMemberFrameTemplatePetFrame (created in template PartyMemberPetFrameTemplate)
+--- @type PartyMemberPetFrameTemplate_PartyMemberPetFrameTemplateDebuff1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L139)
+--- child of PartyMemberFrameTemplatePetFrame (created in template PartyMemberPetFrameTemplate)
+--- @type PartyMemberPetFrameTemplate_PartyMemberPetFrameTemplateDebuff2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L144)
+--- child of PartyMemberFrameTemplatePetFrame (created in template PartyMemberPetFrameTemplate)
+--- @type PartyMemberPetFrameTemplate_PartyMemberPetFrameTemplateDebuff3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L149)
+--- child of PartyMemberFrameTemplatePetFrame (created in template PartyMemberPetFrameTemplate)
+--- @type PartyMemberPetFrameTemplate_PartyMemberPetFrameTemplateDebuff4
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L86)
+--- child of PartyMemberFrameTemplatePetFrame (created in template PartyMemberPetFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L92)
+--- child of PartyMemberFrameTemplatePetFrame (created in template PartyMemberPetFrameTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L366)
 --- child of PartyMemberFrameTemplate

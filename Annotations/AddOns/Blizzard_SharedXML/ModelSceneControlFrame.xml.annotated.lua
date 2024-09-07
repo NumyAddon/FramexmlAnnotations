@@ -30,6 +30,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L38)
 --- Template
 --- @class ModelSceneControlFrameTemplate : Frame, ModelSceneControlFrameMixin
+--- @field enableZoom boolean # true
 --- @field zoomInButton ModelSceneControlFrameTemplate_zoomInButton
 --- @field zoomOutButton ModelSceneControlFrameTemplate_zoomOutButton
 --- @field rotateLeftButton ModelSceneControlFrameTemplate_rotateLeftButton

@@ -54,7 +54,67 @@
 --- @field TextLeft5 GlueTooltipTemplate_GlueTooltipTemplateTextLeft5
 --- @field TextRight5 GlueTooltipTemplate_GlueTooltipTemplateTextRight5
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L9)
+--- child of GlueTooltip (created in template GlueTooltipTemplate)
+--- @type GlueTooltipTemplate_GlueTooltipTemplateTextLeft1
+GlueTooltipTextLeft1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L18)
+--- child of GlueTooltip (created in template GlueTooltipTemplate)
+--- @type GlueTooltipTemplate_GlueTooltipTemplateTextRight1
+GlueTooltipTextRight1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L27)
+--- child of GlueTooltip (created in template GlueTooltipTemplate)
+--- @type GlueTooltipTemplate_GlueTooltipTemplateTextLeft2
+GlueTooltipTextLeft2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L36)
+--- child of GlueTooltip (created in template GlueTooltipTemplate)
+--- @type GlueTooltipTemplate_GlueTooltipTemplateTextRight2
+GlueTooltipTextRight2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L45)
+--- child of GlueTooltip (created in template GlueTooltipTemplate)
+--- @type GlueTooltipTemplate_GlueTooltipTemplateTextLeft3
+GlueTooltipTextLeft3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L54)
+--- child of GlueTooltip (created in template GlueTooltipTemplate)
+--- @type GlueTooltipTemplate_GlueTooltipTemplateTextRight3
+GlueTooltipTextRight3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L63)
+--- child of GlueTooltip (created in template GlueTooltipTemplate)
+--- @type GlueTooltipTemplate_GlueTooltipTemplateTextLeft4
+GlueTooltipTextLeft4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L72)
+--- child of GlueTooltip (created in template GlueTooltipTemplate)
+--- @type GlueTooltipTemplate_GlueTooltipTemplateTextRight4
+GlueTooltipTextRight4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L81)
+--- child of GlueTooltip (created in template GlueTooltipTemplate)
+--- @type GlueTooltipTemplate_GlueTooltipTemplateTextLeft5
+GlueTooltipTextLeft5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L86)
+--- child of GlueTooltip (created in template GlueTooltipTemplate)
+--- @type GlueTooltipTemplate_GlueTooltipTemplateTextRight5
+GlueTooltipTextRight5 = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueTooltip.xml#L101)
 --- @class GlueTooltip : Frame, GlueTooltipTemplate
 GlueTooltip = {}
+GlueTooltip["TextLeft1"] = GlueTooltipTextLeft1 -- inherited
+GlueTooltip["TextRight1"] = GlueTooltipTextRight1 -- inherited
+GlueTooltip["TextLeft2"] = GlueTooltipTextLeft2 -- inherited
+GlueTooltip["TextRight2"] = GlueTooltipTextRight2 -- inherited
+GlueTooltip["TextLeft3"] = GlueTooltipTextLeft3 -- inherited
+GlueTooltip["TextRight3"] = GlueTooltipTextRight3 -- inherited
+GlueTooltip["TextLeft4"] = GlueTooltipTextLeft4 -- inherited
+GlueTooltip["TextRight4"] = GlueTooltipTextRight4 -- inherited
+GlueTooltip["TextLeft5"] = GlueTooltipTextLeft5 -- inherited
+GlueTooltip["TextRight5"] = GlueTooltipTextRight5 -- inherited
 

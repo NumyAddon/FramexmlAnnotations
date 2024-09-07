@@ -28,7 +28,19 @@ RaidWarningFrameSlot2 = {}
 --- @class RaidWarningFrame : Frame
 RaidWarningFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/RaidWarning.xml#L9)
+--- child of RaidBossEmoteFrame (created in template RaidBossEmoteFrameTemplate)
+--- @type RaidBossEmoteFrameTemplate_RaidBossEmoteFrameTemplateSlot1
+RaidBossEmoteFrameSlot1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/RaidWarning.xml#L15)
+--- child of RaidBossEmoteFrame (created in template RaidBossEmoteFrameTemplate)
+--- @type RaidBossEmoteFrameTemplate_RaidBossEmoteFrameTemplateSlot2
+RaidBossEmoteFrameSlot2 = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/RaidWarning.xml#L59)
 --- @class RaidBossEmoteFrame : Frame, RaidBossEmoteFrameTemplate
 RaidBossEmoteFrame = {}
+RaidBossEmoteFrame["slot1"] = RaidBossEmoteFrameSlot1 -- inherited
+RaidBossEmoteFrame["slot2"] = RaidBossEmoteFrameSlot2 -- inherited
 

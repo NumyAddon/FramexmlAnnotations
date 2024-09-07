@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L468)
+--- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L5)
 --- Template
 --- @class OptionsBaseCheckButtonTemplate : CheckButton, UICheckButtonTemplate
@@ -21,6 +25,18 @@
 --- Template
 --- @class InterfaceOptionsBaseCheckButtonTemplate : CheckButton, OptionsBaseCheckButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L6)
+--- child of OptionsSliderTemplate (created in template UISliderTemplateWithLabels)
+--- @type UISliderTemplateWithLabels_UISliderTemplateWithLabelsText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L11)
+--- child of OptionsSliderTemplate (created in template UISliderTemplateWithLabels)
+--- @type UISliderTemplateWithLabels_UISliderTemplateWithLabelsLow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L16)
+--- child of OptionsSliderTemplate (created in template UISliderTemplateWithLabels)
+--- @type UISliderTemplateWithLabels_UISliderTemplateWithLabelsHigh
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L37)
 --- Template
 --- @class OptionsSliderTemplate : Slider, UISliderTemplateWithLabels
@@ -28,6 +44,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L41)
 --- Template
 --- @class OptionsFrameTabButtonTemplate : Button
+--- @field deselectedTextY number # -3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L118)
 --- child of OptionsListButtonTemplate

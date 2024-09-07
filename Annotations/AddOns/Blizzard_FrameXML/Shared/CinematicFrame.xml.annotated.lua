@@ -4,10 +4,22 @@
 --- Template
 --- @class CinematicDialogButtonTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L9)
+--- child of CinematicFrameRaidBossEmoteFrame (created in template RaidBossEmoteFrameTemplate)
+--- @type RaidBossEmoteFrameTemplate_RaidBossEmoteFrameTemplateSlot1
+CinematicFrameRaidBossEmoteFrameSlot1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L15)
+--- child of CinematicFrameRaidBossEmoteFrame (created in template RaidBossEmoteFrameTemplate)
+--- @type RaidBossEmoteFrameTemplate_RaidBossEmoteFrameTemplateSlot2
+CinematicFrameRaidBossEmoteFrameSlot2 = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L43)
 --- child of CinematicFrame
 --- @class CinematicFrame_CinematicFrameRaidBossEmoteFrame : Frame, RaidBossEmoteFrameTemplate
 CinematicFrameRaidBossEmoteFrame = {}
+CinematicFrameRaidBossEmoteFrame["slot1"] = CinematicFrameRaidBossEmoteFrameSlot1 -- inherited
+CinematicFrameRaidBossEmoteFrame["slot2"] = CinematicFrameRaidBossEmoteFrameSlot2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L64)
 --- child of CinematicFrameCloseDialog
@@ -51,4 +63,8 @@ LowerBlackBar = {}
 --- @field UpperBlackBar CinematicFrame_UpperBlackBar
 --- @field LowerBlackBar CinematicFrame_LowerBlackBar
 CinematicFrame = {}
+CinematicFrame["raidBossEmoteFrame"] = CinematicFrameRaidBossEmoteFrame
+CinematicFrame["closeDialog"] = CinematicFrameCloseDialog
+CinematicFrame["UpperBlackBar"] = UpperBlackBar
+CinematicFrame["LowerBlackBar"] = LowerBlackBar
 

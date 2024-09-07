@@ -32,6 +32,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/ArchaeologyProgressBar.xml#L5)
 --- @class ArcheologyDigsiteProgressBar : Frame, ArcheologyDigsiteProgressBarMixin
+--- @field layoutIndex number # 7
 --- @field FillBar ArcheologyDigsiteProgressBar_FillBar
 --- @field BarTitle ArcheologyDigsiteProgressBar_BarTitle
 --- @field BarBorderAndOverlay Texture
@@ -42,4 +43,5 @@
 --- @field AnimOut ArcheologyDigsiteProgressBar_AnimOut
 --- @field AnimOutAndTriggerToast ArcheologyDigsiteProgressBar_AnimOutAndTriggerToast
 ArcheologyDigsiteProgressBar = {}
+ArcheologyDigsiteProgressBar["layoutIndex"] = 7
 

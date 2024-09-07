@@ -42,9 +42,14 @@
 --- child of TextToSpeechSliderTemplate
 --- @class TextToSpeechSliderTemplate_TextToSpeechSliderTemplateHigh : FontString, GameFontHighlightSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L494)
+--- child of TextToSpeechSliderTemplate (created in template UISliderTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L106)
 --- Template
 --- @class TextToSpeechSliderTemplate : Slider, UISliderTemplate
+--- @field type any # CONTROLTYPE_SLIDER
 --- @field Text TextToSpeechSliderTemplate_TextToSpeechSliderTemplateText
 --- @field Low TextToSpeechSliderTemplate_TextToSpeechSliderTemplateLow
 --- @field High TextToSpeechSliderTemplate_TextToSpeechSliderTemplateHigh
@@ -81,6 +86,10 @@
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFramePlaySampleButton : Button, UIPanelButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L85)
+--- child of  (created in template TextToSpeechCheckButtonSlimTemplate)
+--- @type TextToSpeechCheckButtonSlimTemplate_TextToSpeechCheckButtonSlimTemplateText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L249)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_UseAlternateVoiceForSystemMessagesCheckButton : CheckButton, TextToSpeechCheckButtonSlimTemplate
@@ -97,6 +106,18 @@
 --- child of TextToSpeechFrameAdjustRateSlider
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustRateSlider_TextToSpeechFrameAdjustRateSliderLabel : FontString, GameFontHighlight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L113)
+--- child of TextToSpeechFrameAdjustRateSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L118)
+--- child of TextToSpeechFrameAdjustRateSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateLow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L127)
+--- child of TextToSpeechFrameAdjustRateSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateHigh
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L272)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustRateSlider : Slider, TextToSpeechSliderTemplate
@@ -106,6 +127,18 @@
 --- child of TextToSpeechFrameAdjustVolumeSlider
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustVolumeSlider_TextToSpeechFrameAdjustVolumeSliderLabel : FontString, GameFontHighlight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L113)
+--- child of TextToSpeechFrameAdjustVolumeSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L118)
+--- child of TextToSpeechFrameAdjustVolumeSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateLow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L127)
+--- child of TextToSpeechFrameAdjustVolumeSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateHigh
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L291)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustVolumeSlider : Slider, TextToSpeechSliderTemplate
@@ -114,6 +147,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L171)
 --- child of TextToSpeechFrameTemplate
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer : Frame
+--- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
 --- @field PlaySoundSeparatingChatLinesCheckButton TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_PlaySoundSeparatingChatLinesCheckButton
 --- @field AddCharacterNameToSpeechCheckButton TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_AddCharacterNameToSpeechCheckButton
 --- @field PlayActivitySoundWhenNotFocusedCheckButton TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_PlayActivitySoundWhenNotFocusedCheckButton

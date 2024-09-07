@@ -4,6 +4,14 @@
 --- child of CraftButtonTemplate
 --- @class CraftButtonTemplate_CraftButtonTemplateCost : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L9)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L41)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L3)
 --- Template
 --- @class CraftButtonTemplate : Button, ClassTrainerSkillButtonTemplate
@@ -16,10 +24,16 @@
 --- child of CraftFrame
 --- @class CraftFrame_Dropdown : DropdownButton, WowStyle1DropdownTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L468)
+--- child of CraftFrameAvailableFilterCheckButton (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+CraftFrameAvailableFilterCheckButtonText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L209)
 --- child of CraftFrame
 --- @class CraftFrame_CraftFrameAvailableFilterCheckButton : CheckButton, UICheckButtonTemplate
 CraftFrameAvailableFilterCheckButton = {}
+CraftFrameAvailableFilterCheckButton["Text"] = CraftFrameAvailableFilterCheckButtonText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L293)
 --- child of CraftRankFrameBorder
@@ -50,6 +64,16 @@ CraftRankFrameBackground = {}
 --- child of CraftFrame
 --- @class CraftFrame_CraftRankFrame : StatusBar
 CraftRankFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L9)
+--- child of CraftCollapseAllButton (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+CraftCollapseAllButtonSubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L41)
+--- child of CraftCollapseAllButton (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+CraftCollapseAllButtonHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L353)
 --- child of CraftExpandButtonFrame
@@ -86,40 +110,80 @@ CraftHighlight = {}
 --- @class CraftFrame_CraftHighlightFrame : Frame
 CraftHighlightFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
+--- child of Craft1 (created in template CraftButtonTemplate)
+--- @type CraftButtonTemplate_CraftButtonTemplateCost
+Craft1Cost = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L388)
 --- child of CraftFrame
 --- @class CraftFrame_Craft1 : Button, CraftButtonTemplate
 Craft1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
+--- child of Craft2 (created in template CraftButtonTemplate)
+--- @type CraftButtonTemplate_CraftButtonTemplateCost
+Craft2Cost = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L397)
 --- child of CraftFrame
 --- @class CraftFrame_Craft2 : Button, CraftButtonTemplate
 Craft2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
+--- child of Craft3 (created in template CraftButtonTemplate)
+--- @type CraftButtonTemplate_CraftButtonTemplateCost
+Craft3Cost = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L406)
 --- child of CraftFrame
 --- @class CraftFrame_Craft3 : Button, CraftButtonTemplate
 Craft3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
+--- child of Craft4 (created in template CraftButtonTemplate)
+--- @type CraftButtonTemplate_CraftButtonTemplateCost
+Craft4Cost = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L415)
 --- child of CraftFrame
 --- @class CraftFrame_Craft4 : Button, CraftButtonTemplate
 Craft4 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
+--- child of Craft5 (created in template CraftButtonTemplate)
+--- @type CraftButtonTemplate_CraftButtonTemplateCost
+Craft5Cost = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L424)
 --- child of CraftFrame
 --- @class CraftFrame_Craft5 : Button, CraftButtonTemplate
 Craft5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
+--- child of Craft6 (created in template CraftButtonTemplate)
+--- @type CraftButtonTemplate_CraftButtonTemplateCost
+Craft6Cost = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L433)
 --- child of CraftFrame
 --- @class CraftFrame_Craft6 : Button, CraftButtonTemplate
 Craft6 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
+--- child of Craft7 (created in template CraftButtonTemplate)
+--- @type CraftButtonTemplate_CraftButtonTemplateCost
+Craft7Cost = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L442)
 --- child of CraftFrame
 --- @class CraftFrame_Craft7 : Button, CraftButtonTemplate
 Craft7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
+--- child of Craft8 (created in template CraftButtonTemplate)
+--- @type CraftButtonTemplate_CraftButtonTemplateCost
+Craft8Cost = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L451)
 --- child of CraftFrame
@@ -130,6 +194,16 @@ Craft8 = {}
 --- child of CraftFrame
 --- @class CraftFrame_CraftListScrollFrame : ScrollFrame, ClassTrainerListScrollFrameTemplate
 CraftListScrollFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L84)
+--- child of CraftDetailScrollFrame (created in template ClassTrainerDetailScrollFrameTemplate)
+--- @type Texture
+CraftDetailScrollFrameTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L97)
+--- child of CraftDetailScrollFrame (created in template ClassTrainerDetailScrollFrameTemplate)
+--- @type Texture
+CraftDetailScrollFrameBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L491)
 --- child of CraftFrame

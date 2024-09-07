@@ -10,11 +10,102 @@ SideDressUpModelResetButton = {}
 --- @class SideDressUpFrame_SideDressUpModel_SideDressUpModelCloseButton : Button, UIPanelCloseButton
 SideDressUpModelCloseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameZoomInButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameZoomInButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L107)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomInButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameZoomOutButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameZoomOutButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L125)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomOutButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFramePanButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFramePanButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L143)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameRotateLeftButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameRotateLeftButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L163)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameRotateRightButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameRotateRightButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L179)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameRotateResetButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameRotateResetButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L195)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateResetButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L75)
+--- child of SideDressUpModel (created in template ModelWithControlsTemplate)
+--- @type ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame
+--- @field panButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton
+--- @field rotateLeftButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton
+--- @field rotateRightButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton
+SideDressUpModelControlFrame = {}
+SideDressUpModelControlFrame["panButton"] = ModelWithControlsTemplateControlFramePanButton
+SideDressUpModelControlFrame["rotateLeftButton"] = ModelWithControlsTemplateControlFrameRotateLeftButton
+SideDressUpModelControlFrame["rotateRightButton"] = ModelWithControlsTemplateControlFrameRotateRightButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L52)
 --- child of SideDressUpFrame
 --- @class SideDressUpFrame_SideDressUpModel : DressUpModel, ModelWithControlsTemplate
 --- @field ResetButton SideDressUpFrame_SideDressUpModel_SideDressUpModelResetButton
 SideDressUpModel = {}
+SideDressUpModel["ResetButton"] = SideDressUpModelResetButton
+SideDressUpModel["controlFrame"] = SideDressUpModelControlFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L9)
 --- child of SideDressUpFrame
@@ -36,6 +127,8 @@ SideDressUpFrameBackgroundBot = {}
 --- @field BGTopLeft SideDressUpFrame_SideDressUpFrameBackgroundTop
 --- @field BGBottomLeft SideDressUpFrame_SideDressUpFrameBackgroundBot
 SideDressUpFrame = {}
+SideDressUpFrame["BGTopLeft"] = SideDressUpFrameBackgroundTop
+SideDressUpFrame["BGBottomLeft"] = SideDressUpFrameBackgroundBot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L134)
 --- child of DressUpFrame
@@ -112,4 +205,11 @@ DressUpFrameBackgroundBot = {}
 --- @field BGBottomLeft DressUpFrame_DressUpFrameBackgroundBot
 --- @field BGBottomRight DressUpFrame_DressUpFrameBackgroundBot
 DressUpFrame = {}
+DressUpFrame["ResetButton"] = DressUpFrameResetButton
+DressUpFrame["DressUpModel"] = DressUpModelFrame
+DressUpFrame["TitleText"] = DressUpFrameTitleText
+DressUpFrame["BGTopLeft"] = DressUpFrameBackgroundTopLeft
+DressUpFrame["BGTopRight"] = DressUpFrameBackgroundTopRight
+DressUpFrame["BGBottomLeft"] = DressUpFrameBackgroundBot
+DressUpFrame["BGBottomRight"] = DressUpFrameBackgroundBot
 

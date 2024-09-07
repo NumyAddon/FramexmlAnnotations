@@ -36,6 +36,14 @@
 --- child of WorldMapNavBarTemplate
 --- @class WorldMapNavBarTemplate_InsetBorderRight : Texture, !UI-Frame-InnerRightTile
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L158)
+--- child of WorldMapNavBarTemplate (created in template NavBarTemplate)
+--- @type NavBarTemplate_NavBarTemplateOverflowButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L175)
+--- child of WorldMapNavBarTemplate (created in template NavBarTemplate)
+--- @type NavBarTemplate_NavBarTemplateHomeButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L62)
 --- Template
 --- @class WorldMapNavBarTemplate : Frame, NavBarTemplate, WorldMapNavBarMixin

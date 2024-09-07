@@ -9,6 +9,7 @@ ItemRefShoppingTooltip1 = {}
 ItemRefShoppingTooltip2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L11)
+--- child of ItemRefTooltip
 --- @class ItemRefTooltip_CloseButton : Button, UIPanelCloseButtonNoScripts
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L5)

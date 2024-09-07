@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_QuestObjectiveTracker.xml#L4)
 --- Template
 --- @class QuestObjectiveWaypointLineTemplate : Frame, ObjectiveTrackerLineTemplate
+--- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_QuestObjectiveTracker.xml#L24)
 --- Template

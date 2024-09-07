@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WorldMap/WM_DebugDataProvider.xml#L5)
 --- Template
 --- @class WorldMap_DebugObjectPinTemplate : Frame, WorldMap_DebugObjectPinMixin
+--- @field Texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WorldMap/WM_DebugDataProvider.xml#L13)
 --- Template

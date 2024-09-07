@@ -3,13 +3,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L5)
 --- Template
 --- @class ScrappingMachineItemSlot : Button, ScrappingMachineItemSlotMixin
+--- @field Icon Texture
+--- @field IconBorder Texture
+--- @field IconOverlay Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L61)
+--- child of ScrappingMachineFrame
+--- @class ScrappingMachineFrame_ItemSlots : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L72)
+--- child of ScrappingMachineFrame
 --- @class ScrappingMachineFrame_ScrapButton : Button, MagicButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L45)
 --- @class ScrappingMachineFrame : Frame, ButtonFrameTemplate, ScrappingMachineMixin
---- @field ItemSlots Frame
+--- @field ItemSlots ScrappingMachineFrame_ItemSlots
 --- @field ScrapButton ScrappingMachineFrame_ScrapButton
+--- @field Background Texture
 ScrappingMachineFrame = {}
 

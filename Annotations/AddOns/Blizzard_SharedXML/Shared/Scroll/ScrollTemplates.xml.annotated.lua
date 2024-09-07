@@ -17,6 +17,7 @@
 --- @class HorizontalScrollBarTemplate : EventFrame, ScrollBarBaseTemplate, ScrollBarMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L27)
+--- child of ScrollingEditBoxTemplate
 --- @class ScrollingEditBoxTemplate_ScrollBox : Frame, WowScrollBox
 --- @field EditBox EventEditBox
 
@@ -25,9 +26,15 @@
 --- @class ScrollingEditBoxTemplate : Frame, ScrollingEditBoxMixin
 --- @field ScrollBox ScrollingEditBoxTemplate_ScrollBox
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L48)
+--- child of 
+--- @class ScrollingFontTemplate_ScrollBox_FontStringContainer : Frame
+--- @field FontString FontString
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L46)
+--- child of ScrollingFontTemplate
 --- @class ScrollingFontTemplate_ScrollBox : Frame, WowScrollBox
---- @field FontStringContainer Frame
+--- @field FontStringContainer ScrollingFontTemplate_ScrollBox_FontStringContainer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L44)
 --- Template

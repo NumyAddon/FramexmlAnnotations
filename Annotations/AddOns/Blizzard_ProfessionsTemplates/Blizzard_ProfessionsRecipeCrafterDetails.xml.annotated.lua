@@ -1,52 +1,210 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L12)
+--- child of ProfessionsCrafterDetailsStatLineTemplate
+--- @class ProfessionsCrafterDetailsStatLineTemplate_LeftLabel : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L18)
+--- child of ProfessionsCrafterDetailsStatLineTemplate
+--- @class ProfessionsCrafterDetailsStatLineTemplate_RightLabel : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L5)
 --- Template
 --- @class ProfessionsCrafterDetailsStatLineTemplate : Frame, ProfessionsCrafterDetailsStatLineMixin
+--- @field LeftLabel ProfessionsCrafterDetailsStatLineTemplate_LeftLabel
+--- @field RightLabel ProfessionsCrafterDetailsStatLineTemplate_RightLabel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L48)
+--- child of 
+--- @class ProfessionsQualityMeterCapTemplate_AppearIcon_Anim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L52)
+--- child of 
+--- @class ProfessionsQualityMeterCapTemplate_AppearIcon_ScaleUp : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L57)
+--- child of 
+--- @class ProfessionsQualityMeterCapTemplate_AppearIcon_ScaleUpQuick : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L42)
+--- child of ProfessionsQualityMeterCapTemplate
+--- @class ProfessionsQualityMeterCapTemplate_AppearIcon : Texture
+--- @field Anim ProfessionsQualityMeterCapTemplate_AppearIcon_Anim
+--- @field ScaleUp ProfessionsQualityMeterCapTemplate_AppearIcon_ScaleUp
+--- @field ScaleUpQuick ProfessionsQualityMeterCapTemplate_AppearIcon_ScaleUpQuick
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L69)
+--- child of 
+--- @class ProfessionsQualityMeterCapTemplate_DissolveIcon_Anim : AnimationGroup
+--- @field Flipbook FlipBook
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L63)
+--- child of ProfessionsQualityMeterCapTemplate
+--- @class ProfessionsQualityMeterCapTemplate_DissolveIcon : Texture
+--- @field Anim ProfessionsQualityMeterCapTemplate_DissolveIcon_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L32)
 --- Template
 --- @class ProfessionsQualityMeterCapTemplate : Frame
+--- @field Icon Texture
+--- @field AppearIcon ProfessionsQualityMeterCapTemplate_AppearIcon
+--- @field DissolveIcon ProfessionsQualityMeterCapTemplate_DissolveIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L151)
+--- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines_DifficultyStatLine : Frame, ProfessionsCrafterDetailsStatLineTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L158)
+--- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines_SkillStatLine : Frame, ProfessionsCrafterDetailsStatLineTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L165)
+--- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines_ConcentrationStatLine : Frame, ProfessionsCrafterDetailsStatLineTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L142)
+--- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines : Frame, VerticalLayoutFrame
 --- @field DifficultyStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_DifficultyStatLine
 --- @field SkillStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_SkillStatLine
 --- @field ConcentrationStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_ConcentrationStatLine
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L210)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center_Fill_Bar_Flipbook : AnimationGroup
+--- @field Flipbook FlipBook
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L205)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center_Fill_Bar : Texture
+--- @field Flipbook ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center_Fill_Bar_Flipbook
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L239)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center_Fill_TransitionOut : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L244)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center_Fill_TransitionOutLate : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L198)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center_Fill : Frame
+--- @field Bar ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center_Fill_Bar
+--- @field BarHighlight Texture
+--- @field BarMask MaskTexture
+--- @field BarHighlightMask MaskTexture
+--- @field TransitionOut ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center_Fill_TransitionOut
+--- @field TransitionOutLate ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center_Fill_TransitionOutLate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L183)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center : Frame
+--- @field Fill ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center_Fill
+--- @field Background Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L266)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_DividerGlow_TransitionIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L270)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_DividerGlow_TransitionOut : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L253)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_DividerGlow : Frame
+--- @field DividerGlow Texture
+--- @field TransitionIn ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_DividerGlow_TransitionIn
+--- @field TransitionOut ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_DividerGlow_TransitionOut
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L276)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Border : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L300)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Marker_TransitionIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L304)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Marker_TransitionOut : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L308)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Marker_TransitionOutLate : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L288)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Marker : Frame
+--- @field Marker Texture
+--- @field TransitionIn ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Marker_TransitionIn
+--- @field TransitionOut ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Marker_TransitionOut
+--- @field TransitionOutLate ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Marker_TransitionOutLate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L337)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Flare_FlareTransitionIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L344)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Flare_FxTransitionOut : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L314)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Flare : Frame
+--- @field Fx Frame
+--- @field Flare Texture
+--- @field FlareTransitionIn ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Flare_FlareTransitionIn
+--- @field FxTransitionOut ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Flare_FxTransitionOut
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L351)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_InteriorMask : Frame
+--- @field GlowMask MaskTexture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L366)
+--- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Left : Frame, ProfessionsQualityMeterCapTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L372)
+--- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Right : Frame, ProfessionsQualityMeterCapTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L175)
+--- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter : Frame, ProfessionsQualityMeterMixin
---- @field Center Frame
---- @field DividerGlow Frame
---- @field Border Frame
---- @field Marker Frame
---- @field Flare Frame
---- @field InteriorMask Frame
+--- @field Center ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center
+--- @field DividerGlow ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_DividerGlow
+--- @field Border ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Border
+--- @field Marker ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Marker
+--- @field Flare ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Flare
+--- @field InteriorMask ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_InteriorMask
 --- @field Left ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Left
 --- @field Right ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Right
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L408)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer_Label : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L400)
+--- child of 
+--- @class ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer : Frame
+--- @field Label ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer_Label
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L418)
+--- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_ConcentrateContainer : Frame, ProfessionsConcentrateContainerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L392)
+--- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer : Frame, HorizontalLayoutFrame
---- @field FinishingReagentSlotContainer Frame
+--- @field FinishingReagentSlotContainer ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer
 --- @field ConcentrateContainer ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_ConcentrateContainer
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L125)
+--- child of ProfessionsRecipeCrafterDetailsTemplate
+--- @class ProfessionsRecipeCrafterDetailsTemplate_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L78)
 --- Template
@@ -55,4 +213,10 @@
 --- @field QualityMeter ProfessionsRecipeCrafterDetailsTemplate_QualityMeter
 --- @field Spacer Frame
 --- @field CraftingChoicesContainer ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer
+--- @field BackgroundTop Texture
+--- @field BackgroundBottom Texture
+--- @field BackgroundMiddle Texture
+--- @field BackgroundMinimized Texture
+--- @field Label ProfessionsRecipeCrafterDetailsTemplate_Label
+--- @field Line Texture
 

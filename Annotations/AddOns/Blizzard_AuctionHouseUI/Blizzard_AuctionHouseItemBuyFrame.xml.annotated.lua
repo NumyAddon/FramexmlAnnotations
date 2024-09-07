@@ -1,18 +1,23 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemBuyFrame.xml#L8)
+--- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_BackButton : Button, UIPanelButtonTemplate, AuctionHouseCommoditiesBackButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemBuyFrame.xml#L17)
+--- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_ItemDisplay : Button, AuctionHouseItemDisplayTemplate, AuctionHouseItemBuyItemDisplayMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemBuyFrame.xml#L30)
+--- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_BuyoutFrame : Frame, AuctionHouseBuyoutFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemBuyFrame.xml#L35)
+--- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_BidFrame : Frame, AuctionHouseBidFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemBuyFrame.xml#L40)
+--- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_ItemList : Frame, AuctionHouseItemListTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemBuyFrame.xml#L5)

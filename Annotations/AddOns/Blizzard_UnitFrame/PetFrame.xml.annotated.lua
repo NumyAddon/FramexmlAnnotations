@@ -4,30 +4,133 @@
 --- Template
 --- @class PetFrameBarSegmentTemplate : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L67)
+--- child of 
+--- @class PetHitIndicator : FontString, NumberFontNormalHuge
+PetHitIndicator = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L74)
+--- child of 
+--- @class PetName : FontString, GameFontNormalSmall
+PetName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L64)
+--- child of 
+--- @class  : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L62)
+--- child of PetFrame
+--- @class  : Frame
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L91)
+--- child of PetFrameHealthBar
 --- @class PetFrame_PetFrameHealthBar_PetFrameMyHealPredictionBar : Frame, PetFrameBarSegmentTemplate, MyHealPredictionBarTemplate
+PetFrameMyHealPredictionBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L92)
+--- child of PetFrameHealthBar
 --- @class PetFrame_PetFrameHealthBar_PetFrameOtherHealPredictionBar : Frame, PetFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
+PetFrameOtherHealPredictionBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L93)
+--- child of PetFrameHealthBar
 --- @class PetFrame_PetFrameHealthBar_PetFrameHealAbsorbBar : Frame, PetFrameBarSegmentTemplate, HealAbsorbBarTemplate
+PetFrameHealAbsorbBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L94)
+--- child of PetFrameHealthBar
 --- @class PetFrame_PetFrameHealthBar_PetFrameTotalAbsorbBar : Frame, PetFrameBarSegmentTemplate, TotalAbsorbBarTemplate
+PetFrameTotalAbsorbBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L98)
+--- child of PetFrameHealthBar
+--- @class PetFrame_PetFrameHealthBar_PetFrameOverAbsorbGlow : Texture, OverAbsorbGlowTemplate
+PetFrameOverAbsorbGlow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L99)
+--- child of PetFrameHealthBar
+--- @class PetFrame_PetFrameHealthBar_PetFrameOverHealAbsorbGlow : Texture, OverHealAbsorbGlowTemplate
+PetFrameOverHealAbsorbGlow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L102)
+--- child of PetFrameHealthBar
+--- @class PetFrame_PetFrameHealthBar_PetFrameHealthBarText : FontString, TextStatusBarText
+PetFrameHealthBarText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L107)
+--- child of PetFrameHealthBar
+--- @class PetFrame_PetFrameHealthBar_PetFrameHealthBarTextLeft : FontString, TextStatusBarText
+PetFrameHealthBarTextLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L112)
+--- child of PetFrameHealthBar
+--- @class PetFrame_PetFrameHealthBar_PetFrameHealthBarTextRight : FontString, TextStatusBarText
+PetFrameHealthBarTextRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L120)
+--- child of PetFrameHealthBar
+--- @class PetFrame_PetFrameHealthBar_PetFrameHealthBarMask : MaskTexture
+PetFrameHealthBarMask = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L85)
+--- child of PetFrame
 --- @class PetFrame_PetFrameHealthBar : StatusBar, TextStatusBar, PetHealthBarMixin
+PetFrameHealthBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L141)
+--- child of PetFrameManaBar
+--- @class PetFrame_PetFrameManaBar_PetFrameManaBarText : FontString, TextStatusBarText
+PetFrameManaBarText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L146)
+--- child of PetFrameManaBar
+--- @class PetFrame_PetFrameManaBar_PetFrameManaBarTextLeft : FontString, TextStatusBarText
+PetFrameManaBarTextLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L151)
+--- child of PetFrameManaBar
+--- @class PetFrame_PetFrameManaBar_PetFrameManaBarTextRight : FontString, TextStatusBarText
+PetFrameManaBarTextRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L159)
+--- child of PetFrameManaBar
+--- @class PetFrame_PetFrameManaBar_PetFrameManaBarMask : MaskTexture
+PetFrameManaBarMask = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L134)
+--- child of PetFrame
 --- @class PetFrame_PetFrameManaBar : StatusBar, TextStatusBar, PetManaBarMixin
+PetFrameManaBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L171)
+--- child of PetFrame
 --- @class PetFrame_AuraFrameContainer : Frame, HorizontalLayoutFrame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L25)
+--- child of PetFrame
+--- @class PetFrame_PetPortrait : Texture
+PetPortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L42)
+--- child of PetFrame
+--- @class PetFrame_PetFrameTexture : Texture
+PetFrameTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L49)
+--- child of PetFrame
+--- @class PetFrame_PetFrameFlash : Texture
+PetFrameFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L54)
+--- child of PetFrame
+--- @class PetFrame_PetAttackModeTexture : Texture
+PetAttackModeTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L12)
 --- @class PetFrame : Button, PlayerFrameBottomManagedFrameTemplate, SecureUnitButtonTemplate, EditModePetFrameSystemTemplate, PingableUnitFrameTemplate, PetFrameMixin
 --- @field AuraFrameContainer PetFrame_AuraFrameContainer
+--- @field Portrait PetFrame_PetPortrait
+--- @field PortraitMask MaskTexture
 PetFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L190)

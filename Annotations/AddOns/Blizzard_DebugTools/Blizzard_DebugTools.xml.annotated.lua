@@ -15,12 +15,19 @@ FrameStackHighlight = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L29)
 --- Template
 --- @class FrameStackAnchorHighlightTemplate : Frame
+--- @field AnchorPoint Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L43)
 --- Template
 --- @class DebugIdentifierFrameNoNameTemplate : Frame
+--- @field DebugHighlight Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L59)
+--- child of DebugIdentifierFrameTemplate
+--- @class DebugIdentifierFrameTemplate_DebugName : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L56)
 --- Template
 --- @class DebugIdentifierFrameTemplate : Frame, DebugIdentifierFrameNoNameTemplate
+--- @field DebugName DebugIdentifierFrameTemplate_DebugName
 

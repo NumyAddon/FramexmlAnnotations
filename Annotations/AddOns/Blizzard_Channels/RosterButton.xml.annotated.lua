@@ -24,4 +24,6 @@
 --- @field MemberMuteButton ChannelRosterButtonTemplate_MemberMuteButton
 --- @field Name ChannelRosterButtonTemplate_Name
 --- @field Rank Texture
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 

@@ -51,6 +51,8 @@
 --- @field InnerHighlightTexture Texture
 --- @field CanSlotAnim ArtifactsRelicSlotTemplate_CanSlotAnim
 --- @field GlowAnim ArtifactsRelicSlotTemplate_GlowAnim
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L159)
 --- child of ArtifactFloatingRankStringTemplate

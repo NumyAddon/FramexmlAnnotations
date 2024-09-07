@@ -9,6 +9,7 @@
 --- @class ScenarioSpellFrameTemplate_SpellButton : Button, ScenarioSpellButtonMixin
 --- @field Cooldown ScenarioSpellFrameTemplate_SpellButton_Cooldown
 --- @field Icon Texture
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L8)
 --- child of ScenarioSpellFrameTemplate
@@ -93,6 +94,7 @@
 --- Template
 --- @class ScenarioObjectiveTrackerFindGroupButtonTemplate : Button, ScenarioObjectiveTrackerFindGroupButtonMixin
 --- @field Icon Texture
+--- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L226)
 --- child of ScenarioObjectiveTracker

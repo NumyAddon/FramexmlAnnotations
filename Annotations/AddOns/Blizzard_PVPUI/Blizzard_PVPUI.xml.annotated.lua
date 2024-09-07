@@ -40,6 +40,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L165)
 --- Template
 --- @class PVPInstanceListHeaderButtonTemplate : Button
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L224)
 --- child of PVPInstanceListEntryButtonTemplate
@@ -63,6 +65,7 @@
 --- @field InfoText PVPInstanceListEntryButtonTemplate_InfoText
 --- @field NameText PVPInstanceListEntryButtonTemplate_NameText
 --- @field Border Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L277)
 --- child of PVPWarGameButtonTemplate
@@ -192,6 +195,8 @@
 --- @field Anchor Texture
 --- @field Title PVPCasualActivityButton_Title
 --- @field LevelRequirement PVPCasualActivityButton_LevelRequirement
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L673)
 --- child of PVPCasualStandardButtonTemplate
@@ -247,6 +252,8 @@
 --- @field TeamTypeText PVPRatedActivityButtonTemplate_TeamTypeText
 --- @field TierIcon Texture
 --- @field CurrentRating PVPRatedActivityButtonTemplate_CurrentRating
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L815)
 --- child of HonorLevelDisplayTemplate

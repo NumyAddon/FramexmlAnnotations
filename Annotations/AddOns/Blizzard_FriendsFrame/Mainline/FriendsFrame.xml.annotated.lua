@@ -100,6 +100,24 @@
 --- @field Background Texture
 --- @field Name FriendsFrameFriendPartyInviteTemplate_Name
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L307)
+--- child of 
+--- @class FriendsListButtonTemplate_travelPassButton_NormalTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L316)
+--- child of 
+--- @class FriendsListButtonTemplate_travelPassButton_HighlightTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L300)
+--- child of FriendsListButtonTemplate
+--- @class FriendsListButtonTemplate_travelPassButton : Button
+--- @field NormalTexture FriendsListButtonTemplate_travelPassButton_NormalTexture
+--- @field HighlightTexture FriendsListButtonTemplate_travelPassButton_HighlightTexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L336)
+--- child of 
+--- @class FriendsListButtonTemplate_summonButton_HighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L331)
 --- child of FriendsListButtonTemplate
 --- @class FriendsListButtonTemplate_summonButton : Button, ActionButtonTemplate, SummonButtonMixin
@@ -115,7 +133,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L256)
 --- Template
 --- @class FriendsListButtonTemplate : Button, FriendsListButtonMixin
---- @field travelPassButton Button
+--- @field travelPassButton FriendsListButtonTemplate_travelPassButton
 --- @field summonButton FriendsListButtonTemplate_summonButton
 --- @field background Texture
 --- @field status Texture
@@ -123,6 +141,7 @@
 --- @field name FriendsListButtonTemplate_name
 --- @field info FriendsListButtonTemplate_info
 --- @field Favorite Texture
+--- @field highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L366)
 --- child of IgnoreListButtonTemplate
@@ -178,16 +197,25 @@
 --- child of WhoFrameColumnHeaderTemplate
 --- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateRight : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L482)
+--- child of WhoFrameColumnHeaderTemplate
+--- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L441)
 --- Template
 --- @class WhoFrameColumnHeaderTemplate : Button
 --- @field Left WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateLeft
 --- @field Middle WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateMiddle
 --- @field Right WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateRight
+--- @field HighlightTexture WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateHighlightTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L489)
 --- Template
 --- @class FriendsFrameTabTemplate : Button, PanelTabButtonTemplate, FriendsFrameTabMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L552)
+--- child of FriendsFrameBattlenetFrame
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L566)
 --- child of FriendsFrameBattlenetFrame
@@ -260,7 +288,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L520)
 --- child of FriendsTabHeader
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame : Frame
---- @field BroadcastButton Button
+--- @field BroadcastButton FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastButton
 --- @field UnavailableInfoButton FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton
 --- @field BroadcastFrame FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame
 --- @field UnavailableInfoFrame FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoFrame

@@ -1,5 +1,21 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L90)
+--- child of TableAttributeDisplayTemplate
+--- @class TableAttributeDisplayTemplate_OpenParentButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L103)
+--- child of TableAttributeDisplayTemplate
+--- @class TableAttributeDisplayTemplate_NavigateBackwardButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L116)
+--- child of TableAttributeDisplayTemplate
+--- @class TableAttributeDisplayTemplate_NavigateForwardButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L129)
+--- child of TableAttributeDisplayTemplate
+--- @class TableAttributeDisplayTemplate_DuplicateButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L148)
 --- child of 
 --- @class TableAttributeDisplayTemplate_VisibilityButton_Label : FontString, GameFontWhite
@@ -64,10 +80,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L5)
 --- Template
 --- @class TableAttributeDisplayTemplate : Frame, TableInspectorMixin
---- @field OpenParentButton Button
---- @field NavigateBackwardButton Button
---- @field NavigateForwardButton Button
---- @field DuplicateButton Button
+--- @field OpenParentButton TableAttributeDisplayTemplate_OpenParentButton
+--- @field NavigateBackwardButton TableAttributeDisplayTemplate_NavigateBackwardButton
+--- @field NavigateForwardButton TableAttributeDisplayTemplate_NavigateForwardButton
+--- @field DuplicateButton TableAttributeDisplayTemplate_DuplicateButton
 --- @field VisibilityButton TableAttributeDisplayTemplate_VisibilityButton
 --- @field HighlightButton TableAttributeDisplayTemplate_HighlightButton
 --- @field DynamicUpdateButton TableAttributeDisplayTemplate_DynamicUpdateButton

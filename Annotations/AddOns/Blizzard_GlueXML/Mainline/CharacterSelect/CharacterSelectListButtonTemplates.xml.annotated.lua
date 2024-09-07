@@ -10,4 +10,6 @@
 --- Template
 --- @class CharSelectLockedButtonTemplate : Button, CharacterSelectLockedButtonMixin
 --- @field TooltipAnchor Texture
+--- @field Icon Texture
+--- @field Highlight Texture
 

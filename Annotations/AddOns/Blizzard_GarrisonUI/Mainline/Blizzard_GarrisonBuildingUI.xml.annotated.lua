@@ -48,10 +48,14 @@
 --- @field Icon Texture
 --- @field Selected Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L487)
+--- child of 
+--- @class GarrisonPlotTemplate_Timer_Cooldown : Cooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L473)
 --- child of GarrisonPlotTemplate
 --- @class GarrisonPlotTemplate_Timer : Frame
---- @field Cooldown Cooldown
+--- @field Cooldown GarrisonPlotTemplate_Timer_Cooldown
 --- @field BG Texture
 --- @field CompleteRing Texture
 
@@ -181,6 +185,10 @@ GarrisonBuildingFrameTutorialButton = {}
 --- @field NoFollowerText GarrisonBuildingFrame_GarrisonBuildingFrameFollowers_NoFollowerText
 GarrisonBuildingFrameFollowers = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L786)
+--- child of 
+--- @class GarrisonBuildingFrame_InfoBox_Timer_Cooldown : Cooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L793)
 --- child of 
 --- @class GarrisonBuildingFrame_InfoBox_Timer_Cancel : Button
@@ -189,7 +197,7 @@ GarrisonBuildingFrameFollowers = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L758)
 --- child of 
 --- @class GarrisonBuildingFrame_InfoBox_Timer : Frame
---- @field Cooldown Cooldown
+--- @field Cooldown GarrisonBuildingFrame_InfoBox_Timer_Cooldown
 --- @field Cancel GarrisonBuildingFrame_InfoBox_Timer_Cancel
 --- @field CompleteMouseOver Frame
 --- @field Glow Texture

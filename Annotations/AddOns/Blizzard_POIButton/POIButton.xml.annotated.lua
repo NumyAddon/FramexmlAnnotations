@@ -15,4 +15,5 @@
 --- @field Display POIButtonTemplate_Display
 --- @field HighlightTexture Texture
 --- @field Glow Texture
+--- @field NormalTexture Texture
 

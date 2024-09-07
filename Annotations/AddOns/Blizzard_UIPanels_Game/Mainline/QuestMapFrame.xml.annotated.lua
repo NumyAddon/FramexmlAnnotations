@@ -198,6 +198,10 @@ QuestLogPopupDetailFrame = {}
 --- @field Edge Texture
 QuestScrollFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L645)
+--- child of 
+--- @class QuestMapFrame_QuestSessionManagement_ExecuteSessionCommand : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L660)
 --- child of 
 --- @class QuestMapFrame_QuestSessionManagement_SessionActiveFrame : Frame
@@ -214,7 +218,7 @@ QuestScrollFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L638)
 --- child of QuestMapFrame
 --- @class QuestMapFrame_QuestSessionManagement : Frame, QuestSessionManagementMixin
---- @field ExecuteSessionCommand Button
+--- @field ExecuteSessionCommand QuestMapFrame_QuestSessionManagement_ExecuteSessionCommand
 --- @field SessionActiveFrame QuestMapFrame_QuestSessionManagement_SessionActiveFrame
 --- @field BG Texture
 --- @field CommandText QuestMapFrame_QuestSessionManagement_CommandText

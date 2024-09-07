@@ -4,6 +4,7 @@
 --- child of NavButtonTemplate
 --- @class NavButtonTemplate_MenuArrowButton : DropdownButton
 --- @field Art Texture
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/NavigationBar.xml#L123)
 --- Template

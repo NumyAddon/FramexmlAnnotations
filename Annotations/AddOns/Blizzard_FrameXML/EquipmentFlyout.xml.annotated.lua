@@ -28,6 +28,14 @@
 --- @field bg1 EquipmentFlyoutFrame_EquipmentFlyoutFrameButtons_bg1
 EquipmentFlyoutFrameButtons = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L104)
+--- child of 
+--- @class EquipmentFlyoutFrame_NavigationFrame_PrevButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L119)
+--- child of 
+--- @class EquipmentFlyoutFrame_NavigationFrame_NextButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L86)
 --- child of 
 --- @class EquipmentFlyoutFrame_NavigationFrame_BottomBackground : Texture, EquipmentFlyoutTexture
@@ -43,8 +51,8 @@ EquipmentFlyoutFrameButtons = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L79)
 --- child of EquipmentFlyoutFrame
 --- @class EquipmentFlyoutFrame_NavigationFrame : Frame
---- @field PrevButton Button
---- @field NextButton Button
+--- @field PrevButton EquipmentFlyoutFrame_NavigationFrame_PrevButton
+--- @field NextButton EquipmentFlyoutFrame_NavigationFrame_NextButton
 --- @field BottomBackground EquipmentFlyoutFrame_NavigationFrame_BottomBackground
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L44)

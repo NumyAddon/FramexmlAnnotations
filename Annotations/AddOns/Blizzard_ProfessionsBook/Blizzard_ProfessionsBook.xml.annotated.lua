@@ -20,6 +20,10 @@
 --- child of ProfessionButtonTemplate
 --- @class ProfessionButtonTemplate_ProfessionButtonTemplateNameFrame : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L60)
+--- child of ProfessionButtonTemplate
+--- @class ProfessionButtonTemplate_ProfessionButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L3)
 --- Template
 --- @class ProfessionButtonTemplate : CheckButton, SecureFrameTemplate, ProfessionSpellButtonMixin
@@ -28,6 +32,7 @@
 --- @field spellString ProfessionButtonTemplate_ProfessionButtonTemplateSpellName
 --- @field subSpellString ProfessionButtonTemplate_ProfessionButtonTemplateSubSpellName
 --- @field Flash Texture
+--- @field highlightTexture ProfessionButtonTemplate_ProfessionButtonTemplateHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L67)
 --- child of ProfessionTrialCapTemplate

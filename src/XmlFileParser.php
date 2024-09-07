@@ -172,35 +172,41 @@ class XmlFileParser
 
     private function writeFrame(Frame $frame, ?string $linkPrefix, ?string $typeOverride = null): string
     {
+        $shouldWriteGlobal = $frame->getName() && $frame->getRootNode()::class === Frame::class;
         $data = '';
         $globalChildrenWithParentKey = [];
-        foreach ($frame->getChildren() as $child) {
-            if ($this->childHasInterestingData($child)) {
-                $data .= $this->writeFrame($child, $linkPrefix);
-                if ($child->getName() && $child->getParentKey()) {
-                    $globalChildrenWithParentKey[$child->getParentKey()] = $child->getName();
+        $inheritedKeyValues = [];
+        if ($shouldWriteGlobal) {
+            foreach ($frame->getChildren() as $child) {
+                if ($this->childHasInterestingData($child)) {
+                    $data .= $this->writeFrame($child, $linkPrefix);
+                    if ($child->getName() && $child->getParentKey()) {
+                        $globalChildrenWithParentKey[$child->getParentKey()] = $child->getName();
+                    }
                 }
             }
-        }
-        $inheritedKeyValues = [];
-        foreach ($frame->getInherits() as $templateName) {
-            $template = $this->templateRegistry->get($templateName);
-            if (!$template) {
-                continue;
-            }
-            foreach ($template->getKeyValues() as $key => $value) {
-                $inheritedKeyValues[$key] = $value;
-            }
-            foreach ($template->getChildren() as $child) {
-                $clone = $child->withParent($frame);
-                if (!empty($clone->getName())) { // will create a global
-                    $data .= $this->writeFrame(
-                        $clone,
-                        $linkPrefix,
-                        $this->childHasInterestingData($child) ? $child->getClassName() : $child->getType(), // this must be $child rather than $clone
-                    );
-                    if($clone->getParentKey()) {
-                        $inheritedKeyValues[$clone->getParentKey()] = [$clone->getName()];
+            foreach ($frame->getInherits() as $templateName) {
+                $template = $this->templateRegistry->get($templateName);
+                if (!$template) {
+                    continue;
+                }
+                foreach ($template->getKeyValues() as $key => $value) {
+                    $inheritedKeyValues[$key] = $value;
+                }
+                foreach ($template->getChildren() as $child) {
+                    $clone = $child->withParent($frame);
+                    if (!empty($clone->getName())) { // will create a global
+                        $data .= $this->writeFrame(
+                            $clone,
+                            $linkPrefix,
+                            // this must be $child rather than $clone
+                            $this->childHasInterestingData($child)
+                                ? $child->getClassName()
+                                : $child->getType(),
+                        );
+                        if ($clone->getParentKey()) {
+                            $inheritedKeyValues[$clone->getParentKey()] = [$clone->getName()];
+                        }
                     }
                 }
             }
@@ -246,7 +252,7 @@ class XmlFileParser
                 }
             }
         }
-        if ($frame->getName() && $frame->getRootNode()::class === Frame::class) {
+        if ($shouldWriteGlobal) {
             $data .= $frame->getName() . " = {}\n";
             foreach ($globalChildrenWithParentKey as $key => $value) {
                 $data .= $frame->getName() . '["' . $key . '"] = ' . $value . "\n";

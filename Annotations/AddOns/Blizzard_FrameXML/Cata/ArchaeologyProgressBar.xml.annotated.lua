@@ -8,6 +8,10 @@
 --- child of ArcheologyDigsiteProgressBar
 --- @class ArcheologyDigsiteProgressBar_BarTitle : FontString, GameFontWhiteSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Cata/ArchaeologyProgressBar.xml#L71)
+--- child of 
+--- @class ArcheologyDigsiteProgressBar_Flash_AnimIn : AnimationGroup, ArcheologyDigsiteProgressBarFlashAnimInMixin
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Cata/ArchaeologyProgressBar.xml#L64)
 --- child of ArcheologyDigsiteProgressBar
 --- Template

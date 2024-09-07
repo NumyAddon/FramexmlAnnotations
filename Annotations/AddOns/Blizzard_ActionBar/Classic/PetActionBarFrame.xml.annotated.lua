@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L22)
+--- child of PetActionButtonTemplate
+--- @class PetActionButtonTemplate_PetActionButtonTemplateShine : Frame, AutoCastShineTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L30)
+--- child of PetActionButtonTemplate
+--- @class PetActionButtonTemplate_SpellHighlightAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L3)
 --- Template
 --- @class PetActionButtonTemplate : CheckButton, SecureFrameTemplate, ActionButtonTemplate

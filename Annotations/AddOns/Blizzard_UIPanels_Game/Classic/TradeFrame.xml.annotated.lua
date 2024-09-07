@@ -4,14 +4,26 @@
 --- Template
 --- @class TradeHighlightTemplate : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L49)
+--- child of TradeItemTemplate
+--- @class TradeItemTemplate_TradeItemTemplateName : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L31)
 --- Template
 --- @class TradeItemTemplate : Frame
 --- @field SlotTexture Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L60)
+--- child of RecipientTradeItemTemplate
+--- @class RecipientTradeItemTemplate_RecipientTradeItemTemplateItemButton : Button, ItemButtonTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L58)
 --- Template
 --- @class RecipientTradeItemTemplate : Frame, TradeItemTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L103)
+--- child of PlayerTradeItemTemplate
+--- @class PlayerTradeItemTemplate_PlayerTradeItemTemplateItemButton : Button, ItemButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L101)
 --- Template

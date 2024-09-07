@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueParent/Classic/GlueParent.xml#L14)
+--- child of 
+--- @class GlueParent_GlueParentScreenFrame_OptionsResetFrame_Text : FontString, GlueFontRedLarge
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueParent/Classic/GlueParent.xml#L7)
 --- child of GlueParentScreenFrame
 --- @class GlueParent_GlueParentScreenFrame_OptionsResetFrame : Frame

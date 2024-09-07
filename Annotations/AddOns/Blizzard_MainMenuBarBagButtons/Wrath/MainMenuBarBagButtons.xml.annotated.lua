@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Wrath/MainMenuBarBagButtons.xml#L5)
+--- child of ItemAnimTemplate
+--- @class ItemAnimTemplate_flyin : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Wrath/MainMenuBarBagButtons.xml#L3)
 --- Template
 --- @class ItemAnimTemplate : Frame

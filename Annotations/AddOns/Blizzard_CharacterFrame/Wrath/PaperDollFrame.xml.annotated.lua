@@ -4,16 +4,48 @@
 --- Template
 --- @class PaperDollFrameFlyoutTexture : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonTemplate
+--- @class PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L17)
+--- child of PaperDollItemSlotButtonTemplate
+--- @class PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L4)
 --- Template
 --- @class PaperDollItemSlotButtonTemplate : Button, ItemButtonTemplate
 --- @field popoutButton PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
 --- @field ignoreTexture Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L93)
+--- child of StatFrameTemplateStat
+--- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L84)
+--- child of StatFrameTemplate
+--- @class StatFrameTemplate_StatFrameTemplateStat : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L76)
+--- child of StatFrameTemplate
+--- @class StatFrameTemplate_StatFrameTemplateLabel : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L70)
 --- Template
 --- @class StatFrameTemplate : Frame
 --- @field Label StatFrameTemplate_StatFrameTemplateLabel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L134)
+--- child of AttributeFrameTemplateStat
+--- @class AttributeFrameTemplate_AttributeFrameTemplateStat_AttributeFrameTemplateStatText : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L125)
+--- child of AttributeFrameTemplate
+--- @class AttributeFrameTemplate_AttributeFrameTemplateStat : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L117)
+--- child of AttributeFrameTemplate
+--- @class AttributeFrameTemplate_AttributeFrameTemplateLabel : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L111)
 --- Template
@@ -31,6 +63,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L193)
 --- Template
 --- @class GearSetPopupButtonTemplate : CheckButton, SimplePopupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L222)
+--- child of PaperDollFrameItemFlyoutButtonTemplate
+--- @class PaperDollFrameItemFlyoutButtonTemplate_PaperDollFrameItemFlyoutButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L220)
 --- Template

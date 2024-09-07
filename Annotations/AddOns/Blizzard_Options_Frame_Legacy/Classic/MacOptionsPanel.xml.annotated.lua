@@ -34,6 +34,11 @@ MacKeyboardOptionsPanelDisplayHeaderUnderline = {}
 --- @class MacKeyboardOptionsPanel : Frame
 MacKeyboardOptionsPanel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/MacOptionsPanel.xml#L104)
+--- child of 
+--- @class Name : FontString, GameFontHighlightSmall
+Name = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/MacOptionsPanel.xml#L101)
 --- child of FolderPickerButton01
 --- @class  : Frame

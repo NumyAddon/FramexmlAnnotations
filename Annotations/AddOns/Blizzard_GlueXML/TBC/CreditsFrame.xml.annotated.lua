@@ -26,6 +26,23 @@
 --- @field Selection Texture
 --- @field Highlight Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L53)
+--- child of CreditsExpansionListTemplate
+--- @class CreditsExpansionListTemplate_Header : Frame, DialogHeaderTemplate
+--- @field textString any # EXPANSION
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L58)
+--- child of CreditsExpansionListTemplate
+--- @class CreditsExpansionListTemplate_Border : Frame, DialogBorderTranslucentTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L59)
+--- child of CreditsExpansionListTemplate
+--- @class CreditsExpansionListTemplate_OKButton : Button, GlueButtonSmallTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L70)
+--- child of CreditsExpansionListTemplate
+--- @class CreditsExpansionListTemplate_CancelButton : Button, GlueButtonSmallTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L50)
 --- Template
 --- @class CreditsExpansionListTemplate : Frame, CreditsExpansionListMixin

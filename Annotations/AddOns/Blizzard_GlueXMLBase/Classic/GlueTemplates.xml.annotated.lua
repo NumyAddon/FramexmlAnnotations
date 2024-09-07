@@ -12,9 +12,25 @@
 --- Template
 --- @class GlueScrollBarButton : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L36)
+--- child of GlueScrollUpButtonTemplate
+--- @class  : Texture, GlueScrollBarButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L39)
+--- child of GlueScrollUpButtonTemplate
+--- @class  : Texture, GlueScrollBarButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L32)
 --- Template
 --- @class GlueScrollUpButtonTemplate : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L45)
+--- child of GlueScrollDownButtonTemplate
+--- @class  : Texture, GlueScrollBarButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L48)
+--- child of GlueScrollDownButtonTemplate
+--- @class  : Texture, GlueScrollBarButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L41)
 --- Template
@@ -24,9 +40,21 @@
 --- Template
 --- @class GluePanelButtonDisabledDownTexture : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L57)
+--- child of GluePanelButtonGrayTemplate
+--- @class  : Texture, GluePanelButtonDisabledTexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L60)
+--- child of GluePanelButtonGrayTemplate
+--- @class  : Texture, GluePanelButtonHighlightTexture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L53)
 --- Template
 --- @class GluePanelButtonGrayTemplate : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L68)
+--- child of GlueCheckButtonTemplate
+--- @class GlueCheckButtonTemplate_GlueCheckButtonTemplateText : FontString, GlueFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L62)
 --- Template
@@ -46,11 +74,27 @@
 --- @field checkedRight Texture
 --- @field checkedMiddle Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L190)
+--- child of GlueScrollBarTemplate
+--- @class GlueScrollBarTemplate_GlueScrollBarTemplateScrollUpButton : Button, GlueScrollUpButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L202)
+--- child of GlueScrollBarTemplate
+--- @class GlueScrollBarTemplate_GlueScrollBarTemplateScrollDownButton : Button, GlueScrollDownButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L228)
+--- child of GlueScrollBarTemplate
+--- @class  : Texture, GlueScrollBarButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L185)
 --- Template
 --- @class GlueScrollBarTemplate : Slider
 --- @field ScrollUpButton GlueScrollBarTemplate_GlueScrollBarTemplateScrollUpButton
 --- @field ScrollDownButton GlueScrollBarTemplate_GlueScrollBarTemplateScrollDownButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L237)
+--- child of GlueScrollFrameTemplate
+--- @class GlueScrollFrameTemplate_GlueScrollFrameTemplateScrollBar : Slider, GlueScrollBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L235)
 --- Template

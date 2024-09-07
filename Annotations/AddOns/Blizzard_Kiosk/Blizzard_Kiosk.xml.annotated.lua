@@ -13,6 +13,14 @@ KioskFrame = {}
 --- @class KioskSessionStartedDialog_Dialog : Frame
 --- @field Bg Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L59)
+--- child of 
+--- @class KioskSessionStartedDialog_Content_ContinueButton : Button, UIPanelButtonTemplate, KioskSessionStartedDialogButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L50)
+--- child of 
+--- @class KioskSessionStartedDialog_Content_kiosk-start-dialog : FontString, SystemFont_Large
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L36)
 --- child of KioskSessionStartedDialog
 --- @class KioskSessionStartedDialog_Content : Frame
@@ -25,6 +33,18 @@ KioskFrame = {}
 --- @field Dialog KioskSessionStartedDialog_Dialog
 --- @field Content KioskSessionStartedDialog_Content
 KioskSessionStartedDialog = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L97)
+--- child of 
+--- @class KioskSessionFinishedDialog_Dialog_Title : FontString, KioskDialogHeaderFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L103)
+--- child of 
+--- @class KioskSessionFinishedDialog_Dialog_SubTitle : FontString, SystemFont_WTF2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L109)
+--- child of 
+--- @class KioskSessionFinishedDialog_Dialog_Body : FontString, SystemFont_Large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L82)
 --- child of KioskSessionFinishedDialog

@@ -8,6 +8,14 @@
 --- Template
 --- @class ActionBarButtonTemplate : CheckButton, ActionBarButtonCodeTemplate, ActionButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L62)
+--- child of ActionBarButtonSpellActivationAlert
+--- @class ActionBarButtonSpellActivationAlert_animIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L105)
+--- child of ActionBarButtonSpellActivationAlert
+--- @class ActionBarButtonSpellActivationAlert_animOut : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L60)
 --- Template
 --- @class ActionBarButtonSpellActivationAlert : Frame

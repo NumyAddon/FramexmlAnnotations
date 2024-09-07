@@ -4,9 +4,17 @@
 --- Template
 --- @class AudioOptionsBaseCheckButtonTemplate : CheckButton, OptionsBaseCheckButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L24)
+--- child of AudioOptionsCheckButtonTemplate
+--- @class AudioOptionsCheckButtonTemplate_AudioOptionsCheckButtonTemplateText : FontString, OptionsFont
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L21)
 --- Template
 --- @class AudioOptionsCheckButtonTemplate : CheckButton, AudioOptionsBaseCheckButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L39)
+--- child of AudioOptionsSmallCheckButtonTemplate
+--- @class AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText : FontString, OptionsFontSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsPanels.xml#L36)
 --- Template

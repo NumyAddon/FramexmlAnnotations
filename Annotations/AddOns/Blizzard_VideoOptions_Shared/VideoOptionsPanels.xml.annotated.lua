@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L8)
+--- child of VideoOptionsDropDownMenuTemplate
+--- @class VideoOptionsDropDownMenuTemplate_VideoOptionsDropDownMenuTemplateWarning : Frame
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L6)
 --- Template
 --- @class VideoOptionsDropDownMenuTemplate : Frame, UIDropDownMenuTemplate
@@ -9,6 +13,10 @@
 --- Template
 --- @class RaidVideoOptionsDropDownMenuTemplate : Frame, VideoOptionsDropDownMenuTemplate
 --- @field raid boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L70)
+--- child of VideoOptionsSliderTemplate
+--- @class VideoOptionsSliderTemplate_VideoOptionsSliderTemplateWarning : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_VideoOptions_Shared/VideoOptionsPanels.xml#L68)
 --- Template

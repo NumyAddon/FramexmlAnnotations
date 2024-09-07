@@ -12,6 +12,14 @@
 --- @field Bottom Texture
 --- @field Top Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.xml#L85)
+--- child of CommentatorNamePlateTemplate
+--- @class CommentatorNamePlateTemplate_CCCooldown : Cooldown, CommentatorNPRadialCooldownTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.xml#L72)
+--- child of CommentatorNamePlateTemplate
+--- @class CommentatorNamePlateTemplate_CCText : FontString, CommentatorFontSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.xml#L57)
 --- Template
 --- @class CommentatorNamePlateTemplate : Button, NamePlateUnitFrameTemplate, CommentatorNamePlateMixin

@@ -14,11 +14,25 @@
 --- @class SettingsLanguagesPopoutDetailsTemplate : Frame, SettingsLanguagePopoutDetailsMixin
 --- @field Texture Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L31)
+--- child of SettingsLanguagePopoutEntryTemplate
+--- @class SettingsLanguagePopoutEntryTemplate_SelectionDetails : Frame, SettingsLanguagesPopoutDetailsTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L26)
 --- Template
 --- @class SettingsLanguagePopoutEntryTemplate : Button, SelectionPopoutEntryTemplate, SettingsLanguagePopoutEntryMixin
 --- @field defaultWidth number # 225
 --- @field SelectionDetails SettingsLanguagePopoutEntryTemplate_SelectionDetails
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L60)
+--- child of 
+--- @class SettingsLanguagePopoutWithButtonsTemplate_Button_SelectionDetails : Frame, SettingsLanguagesPopoutDetailsTemplate, ResizeLayoutFrame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L51)
+--- child of SettingsLanguagePopoutWithButtonsTemplate
+--- @class SettingsLanguagePopoutWithButtonsTemplate_Button : EventButton, SelectionPopoutButtonTemplate, SettingsLanguagePopoutButtonMixin
+--- @field selectionEntryTemplates string # "SettingsLanguagePopoutEntryTemplate"
+--- @field SelectionDetails SettingsLanguagePopoutWithButtonsTemplate_Button_SelectionDetails
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L45)
 --- Template

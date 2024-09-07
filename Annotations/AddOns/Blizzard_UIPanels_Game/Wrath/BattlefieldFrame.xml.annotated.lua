@@ -7,6 +7,11 @@
 --- @field scrollBarArtTop Texture
 --- @field scrollBarArtBottom Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L309)
+--- child of PVPBattlegroundButtonTemplate
+--- @class PVPBattlegroundButtonTemplate_status : Frame
+--- @field texture Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L304)
 --- Template
 --- @class PVPBattlegroundButtonTemplate : Button

@@ -1,10 +1,23 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L15)
+--- child of BankItemButtonGenericTemplate
+--- @class BankItemButtonGenericTemplate_BankItemButtonGenericTemplateCooldown : Cooldown, CooldownFrameTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L3)
 --- Template
 --- @class BankItemButtonGenericTemplate : Button, ItemButtonTemplate
 --- @field Cooldown BankItemButtonGenericTemplate_BankItemButtonGenericTemplateCooldown
 --- @field IconQuestTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L41)
+--- child of BankItemButtonBagTemplate
+--- @class BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L42)
+--- child of BankItemButtonBagTemplate
+--- @class BankItemButtonBagTemplate_BankItemButtonBagTemplateHighlightFrame : Frame
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L39)
 --- Template

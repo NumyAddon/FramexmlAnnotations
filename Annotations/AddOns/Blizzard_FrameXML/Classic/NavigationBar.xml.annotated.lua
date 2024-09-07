@@ -1,5 +1,11 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L151)
+--- child of NavButtonTemplate
+--- @class NavButtonTemplate_MenuArrowButton : Button
+--- @field Art Texture
+--- @field NormalTexture Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L123)
 --- Template
 --- @class NavButtonTemplate : Button
@@ -7,6 +13,22 @@
 --- @field arrowUp Texture
 --- @field arrowDown Texture
 --- @field selected Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L261)
+--- child of NavBarTemplate
+--- @class NavBarTemplate_overlay : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L283)
+--- child of NavBarTemplate
+--- @class NavBarTemplate_NavBarTemplateOverflowButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L303)
+--- child of NavBarTemplate
+--- @class NavBarTemplate_NavBarTemplateHomeButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L345)
+--- child of NavBarTemplate
+--- @class NavBarTemplate_KioskOverlay : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L247)
 --- Template

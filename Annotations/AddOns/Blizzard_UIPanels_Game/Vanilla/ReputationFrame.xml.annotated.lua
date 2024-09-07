@@ -4,6 +4,18 @@
 --- Template
 --- @class ReputationHeaderTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- child of ReputationBarTemplate
+--- @class ReputationBarTemplate_ReputationBarTemplateAtWarCheck : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- child of ReputationBarTemplate
+--- @class ReputationBarTemplate_ReputationBarTemplateFactionName : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
+--- child of ReputationBarTemplate
+--- @class ReputationBarTemplate_ReputationBarTemplateFactionStanding : FontString, GameFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L53)
 --- Template
 --- @class ReputationBarTemplate : StatusBar

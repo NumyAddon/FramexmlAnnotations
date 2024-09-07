@@ -9,6 +9,10 @@
 --- Template
 --- @class QuestItemTemplate : Button, LargeItemButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrameTemplates.xml#L144)
+--- child of QuestSpellTemplate
+--- @class QuestSpellTemplate_QuestSpellTemplateName : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrameTemplates.xml#L118)
 --- Template
 --- @class QuestSpellTemplate : Button

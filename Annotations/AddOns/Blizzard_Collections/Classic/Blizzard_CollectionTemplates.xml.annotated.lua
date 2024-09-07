@@ -1,10 +1,35 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L10)
+--- child of CollectionsProgressBarTemplate
+--- @class CollectionsProgressBarTemplate_text : FontString, TextStatusBarText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L3)
 --- Template
 --- @class CollectionsProgressBarTemplate : StatusBar
 --- @field text CollectionsProgressBarTemplate_text
 --- @field border Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L105)
+--- child of CollectionsSpellButtonTemplate
+--- @class CollectionsSpellButtonTemplate_cooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L111)
+--- child of CollectionsSpellButtonTemplate
+--- @class CollectionsSpellButtonTemplate_cooldownWrapper : Frame
+--- @field slotFavorite Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L63)
+--- child of CollectionsSpellButtonTemplate
+--- @class CollectionsSpellButtonTemplate_name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L72)
+--- child of CollectionsSpellButtonTemplate
+--- @class CollectionsSpellButtonTemplate_new : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L125)
+--- child of CollectionsSpellButtonTemplate
+--- @class CollectionsSpellButtonTemplate_IconFadeIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L37)
 --- Template
@@ -62,6 +87,18 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L378)
 --- Template
 --- @class CollectionsNextPageButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L390)
+--- child of CollectionsPagingFrameTemplate
+--- @class CollectionsPagingFrameTemplate_PrevPageButton : Button, CollectionsPrevPageButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L400)
+--- child of CollectionsPagingFrameTemplate
+--- @class CollectionsPagingFrameTemplate_NextPageButton : Button, CollectionsNextPageButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L413)
+--- child of CollectionsPagingFrameTemplate
+--- @class CollectionsPagingFrameTemplate_PageText : FontString, CollectionsPageTextTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_CollectionTemplates.xml#L386)
 --- Template

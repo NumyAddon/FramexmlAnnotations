@@ -1,10 +1,75 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L6)
+--- child of StaticPopupButtonTemplate
+--- @class StaticPopupButtonTemplate_PulseAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L3)
 --- Template
 --- @class StaticPopupButtonTemplate : Button
 --- @field Flash Texture
 --- @field PulseAnim StaticPopupButtonTemplate_PulseAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L97)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_CoverFrame : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L115)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateCloseButton : Button, UIPanelCloseButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L124)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateButton1 : Button, StaticPopupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L125)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateButton2 : Button, StaticPopupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L126)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateButton3 : Button, StaticPopupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L127)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateButton4 : Button, StaticPopupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L128)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateExtraButton : Button, StaticPopupButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L177)
+--- child of StaticPopupTemplateEditBox
+--- @class StaticPopupTemplate_StaticPopupTemplateEditBox_Instructions : FontString, GameFontDisableSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L129)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateEditBox : EditBox, AutoCompleteEditBoxTemplate
+--- @field Instructions StaticPopupTemplate_StaticPopupTemplateEditBox_Instructions
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L199)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L211)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateMoneyInputFrame : Frame, MoneyInputFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L246)
+--- child of StaticPopupTemplateItemFrame
+--- @class StaticPopupTemplate_StaticPopupTemplateItemFrame_StaticPopupTemplateItemFrameText : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L216)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateItemFrame : Button, ItemButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L59)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateText : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L71)
+--- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_SubText : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/Classic/StaticPopup.xml#L50)
 --- Template

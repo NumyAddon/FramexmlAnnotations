@@ -1,5 +1,19 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateIconAndText.xml#L17)
+--- child of UIWidgetTemplateIconAndText
+--- @class UIWidgetTemplateIconAndText_DynamicIconButton : Frame, UIWidgetTemplateTooltipFrame
+--- @field Icon Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateIconAndText.xml#L33)
+--- child of UIWidgetTemplateIconAndText
+--- @class UIWidgetTemplateIconAndText_Flash : Frame
+--- @field Texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateIconAndText.xml#L13)
+--- child of UIWidgetTemplateIconAndText
+--- @class UIWidgetTemplateIconAndText_Text : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateIconAndText.xml#L3)
 --- Template
 --- @class UIWidgetTemplateIconAndText : Frame, UIWidgetBaseTemplate, UIWidgetTemplateIconAndTextMixin

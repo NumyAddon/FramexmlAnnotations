@@ -4,6 +4,29 @@
 --- Template
 --- @class ExpBar-Divider : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L93)
+--- child of 
+--- @class CompanionListButtonTemplate_dragButton_Cooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L77)
+--- child of CompanionListButtonTemplate
+--- @class CompanionListButtonTemplate_dragButton : Button
+--- @field Cooldown CompanionListButtonTemplate_dragButton_Cooldown
+--- @field ActiveTexture Texture
+--- @field favorite Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L35)
+--- child of CompanionListButtonTemplate
+--- @class CompanionListButtonTemplate_name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L41)
+--- child of CompanionListButtonTemplate
+--- @class CompanionListButtonTemplate_subName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L59)
+--- child of CompanionListButtonTemplate
+--- @class CompanionListButtonTemplate_new : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L5)
 --- Template
 --- @class CompanionListButtonTemplate : Button
@@ -18,6 +41,14 @@
 --- @field selectedTexture Texture
 --- @field new CompanionListButtonTemplate_new
 --- @field newGlow Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L136)
+--- child of 
+--- @class PetJournal_PetCount_Count : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L141)
+--- child of 
+--- @class PetJournal_PetCount_Label : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L129)
 --- child of PetJournal
@@ -315,6 +346,14 @@ PetJournalPetCardPetInfo["icon"] = PetJournalPetCardPetInfoIcon
 PetJournalPetCardPetInfo["name"] = PetJournalPetCardPetInfoName
 PetJournalPetCardPetInfo["subName"] = PetJournalPetCardPetInfoSubName
 PetJournalPetCardPetInfo["favorite"] = PetJournalPetCardPetInfoFavorite
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L332)
+--- child of 
+--- @class PetJournal_PetJournalPetCard_modelScene_RotateLeftButton : Button, RotateOrbitCameraLeftButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L333)
+--- child of 
+--- @class PetJournal_PetJournalPetCard_modelScene_RotateRightButton : Button, RotateOrbitCameraRightButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L326)
 --- child of PetJournalPetCard

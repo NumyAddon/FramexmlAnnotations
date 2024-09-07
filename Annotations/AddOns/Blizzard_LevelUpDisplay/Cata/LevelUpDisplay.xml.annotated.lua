@@ -1,5 +1,22 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L37)
+--- child of LevelUpSkillTemplate
+--- @class LevelUpSkillTemplate_LevelUpSkillTemplateName : FontString, GameFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L42)
+--- child of LevelUpSkillTemplate
+--- @class LevelUpSkillTemplate_LevelUpSkillTemplateSubText : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L8)
+--- child of LevelUpSkillTemplate
+--- @class LevelUpSkillTemplate_sideAnimIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L16)
+--- child of LevelUpSkillTemplate
+--- @class LevelUpSkillTemplate_showAnim : AnimationGroup
+--- @field anim2 Alpha
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L6)
 --- Template
 --- @class LevelUpSkillTemplate : Frame

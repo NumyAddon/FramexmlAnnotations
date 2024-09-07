@@ -4,10 +4,18 @@
 --- Template
 --- @class InterfaceOptionsBaseCheckButtonTemplate : CheckButton, OptionsBaseCheckButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L22)
+--- child of InterfaceOptionsCheckButtonTemplate
+--- @class InterfaceOptionsCheckButtonTemplate_InterfaceOptionsCheckButtonTemplateText : FontString, GameFontHighlightLeft
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L19)
 --- Template
 --- @class InterfaceOptionsCheckButtonTemplate : CheckButton, InterfaceOptionsBaseCheckButtonTemplate
 --- @field Text InterfaceOptionsCheckButtonTemplate_InterfaceOptionsCheckButtonTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L37)
+--- child of InterfaceOptionsSmallCheckButtonTemplate
+--- @class InterfaceOptionsSmallCheckButtonTemplate_InterfaceOptionsSmallCheckButtonTemplateText : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L34)
 --- Template
@@ -2081,6 +2089,54 @@ InterfaceOptionsAccessibilityPanel["RemoteTextToSpeechVoicePlaySample"] = Interf
 InterfaceOptionsAccessibilityPanel["MotionSicknessDropdown"] = InterfaceOptionsAccessibilityPanelMotionSicknessDropdown
 InterfaceOptionsAccessibilityPanel["ShakeIntensityDropdown"] = InterfaceOptionsAccessibilityPanelShakeIntensityDropdown
 InterfaceOptionsAccessibilityPanel["CursorSizeDropdown"] = InterfaceOptionsAccessibilityPanelCursorSizeDropdown
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2874)
+--- child of 
+--- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples_Instructions : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2892)
+--- child of 
+--- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples_HostileLabel : FontString, OptionsFontSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2904)
+--- child of 
+--- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples_NeutralLabel : FontString, OptionsFontSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2916)
+--- child of 
+--- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples_FriendlyLabel : FontString, OptionsFontSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2923)
+--- child of 
+--- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples_ExampleIcon1 : Texture, ColorblindExampleIconTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2929)
+--- child of 
+--- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples_ExampleIcon2 : Texture, ColorblindExampleIconTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2935)
+--- child of 
+--- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples_ExampleIcon3 : Texture, ColorblindExampleIconTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2941)
+--- child of 
+--- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples_ExampleIcon4 : Texture, ColorblindExampleIconTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2947)
+--- child of 
+--- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples_ExampleIcon5 : Texture, ColorblindExampleIconTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2953)
+--- child of 
+--- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples_ExampleIcon6 : Texture, ColorblindExampleIconTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2959)
+--- child of 
+--- @class InterfaceOptionsColorblindPanel_ColorblindFilterExamples_ItemQualityText : FontString, OptionsFontSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2966)
+--- child of 
+--- @class  : FontString, ColorblindItemQualityTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2867)
 --- child of InterfaceOptionsColorblindPanel

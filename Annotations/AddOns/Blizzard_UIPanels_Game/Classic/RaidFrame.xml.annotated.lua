@@ -1,9 +1,25 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RaidFrame.xml#L31)
+--- child of RaidInfoHeaderTemplate
+--- @class RaidInfoHeaderTemplate_text : FontString, GameFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RaidFrame.xml#L3)
 --- Template
 --- @class RaidInfoHeaderTemplate : Frame
 --- @field text RaidInfoHeaderTemplate_text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RaidFrame.xml#L45)
+--- child of RaidInfoInstanceTemplate
+--- @class RaidInfoInstanceTemplate_RaidInfoInstanceTemplateName : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RaidFrame.xml#L54)
+--- child of RaidInfoInstanceTemplate
+--- @class RaidInfoInstanceTemplate_RaidInfoInstanceTemplateID : FontString, GameFontDisableSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RaidFrame.xml#L63)
+--- child of RaidInfoInstanceTemplate
+--- @class RaidInfoInstanceTemplate_RaidInfoInstanceTemplateReset : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RaidFrame.xml#L39)
 --- Template

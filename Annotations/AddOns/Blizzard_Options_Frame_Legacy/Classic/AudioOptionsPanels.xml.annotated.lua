@@ -4,9 +4,17 @@
 --- Template
 --- @class AudioOptionsBaseCheckButtonTemplate : CheckButton, OptionsBaseCheckButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L17)
+--- child of AudioOptionsCheckButtonTemplate
+--- @class AudioOptionsCheckButtonTemplate_AudioOptionsCheckButtonTemplateText : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L14)
 --- Template
 --- @class AudioOptionsCheckButtonTemplate : CheckButton, AudioOptionsBaseCheckButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- child of AudioOptionsSmallCheckButtonTemplate
+--- @class AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L29)
 --- Template
@@ -616,6 +624,10 @@ AudioOptionsVoicePanelVoiceChatMicSensitivity["High"] = AudioOptionsVoicePanelVo
 --- child of AudioOptionsVoicePanelTestInputDevice
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice_ToggleTest : Button, OptionsButtonTemplate
 --- @field Texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L912)
+--- child of 
+--- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice_VUMeter_Status : StatusBar, TextStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L899)
 --- child of AudioOptionsVoicePanelTestInputDevice

@@ -1,5 +1,17 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/RuneFrame.xml#L8)
+--- child of RuneButtonIndividualTemplate
+--- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateCooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/RuneFrame.xml#L18)
+--- child of RuneButtonIndividualTemplate
+--- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateBorder : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/RuneFrame.xml#L38)
+--- child of RuneButtonIndividualTemplate
+--- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateShine : Frame
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/RuneFrame.xml#L3)
 --- Template
 --- @class RuneButtonIndividualTemplate : Button

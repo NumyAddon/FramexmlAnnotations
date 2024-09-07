@@ -1,5 +1,18 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L142)
+--- child of MountListButtonTemplate
+--- @class MountListButtonTemplate_DragButton : Button
+--- @field ActiveTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L109)
+--- child of MountListButtonTemplate
+--- @class MountListButtonTemplate_name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L125)
+--- child of MountListButtonTemplate
+--- @class MountListButtonTemplate_new : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L80)
 --- Template
 --- @class MountListButtonTemplate : Button
@@ -143,11 +156,76 @@ MountJournalFilterDropDown["Right"] = MountJournalFilterDropDownRight -- inherit
 MountJournalFilterDropDown["Text"] = MountJournalFilterDropDownText -- inherited
 MountJournalFilterDropDown["Icon"] = MountJournalFilterDropDownIcon -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L349)
+--- child of 
+--- @class MountJournal_MountCount_Count : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L354)
+--- child of 
+--- @class MountJournal_MountCount_Label : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L342)
 --- child of MountJournal
 --- @class MountJournal_MountCount : Frame, InsetFrameTemplate3
 --- @field Count MountJournal_MountCount_Count
 --- @field Label MountJournal_MountCount_Label
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L387)
+--- child of 
+--- @class MountJournal_MountDisplay_ShadowOverlay : Frame, ShadowOverlayTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L398)
+--- child of 
+--- @class MountJournal_MountDisplay_InfoButton_Icon : Texture
+Icon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L406)
+--- child of 
+--- @class MountJournal_MountDisplay_InfoButton_Name : FontString, GameFontHighlightLarge
+Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L412)
+--- child of 
+--- @class MountJournal_MountDisplay_InfoButton_Source : FontString, GameFontHighlight
+Source = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L418)
+--- child of 
+--- @class MountJournal_MountDisplay_InfoButton_Lore : FontString, GameFontNormal
+Lore = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L426)
+--- child of 
+--- @class MountJournal_MountDisplay_InfoButton_New : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L388)
+--- child of 
+--- @class MountJournal_MountDisplay_InfoButton : Button, InlineHyperlinkFrameTemplate
+--- @field hasIconHyperlinks boolean # true
+--- @field Icon MountJournal_MountDisplay_InfoButton_Icon
+--- @field Name MountJournal_MountDisplay_InfoButton_Name
+--- @field Source MountJournal_MountDisplay_InfoButton_Source
+--- @field Lore MountJournal_MountDisplay_InfoButton_Lore
+--- @field New MountJournal_MountDisplay_InfoButton_New
+--- @field NewGlow Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L450)
+--- child of 
+--- @class MountJournal_MountDisplay_ModelScene_RotateLeftButton : Button, RotateOrbitCameraLeftButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L451)
+--- child of 
+--- @class MountJournal_MountDisplay_ModelScene_RotateRightButton : Button, RotateOrbitCameraRightButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L444)
+--- child of 
+--- @class MountJournal_MountDisplay_ModelScene : ModelScene, WrappedAndUnwrappedModelScene
+--- @field RotateLeftButton MountJournal_MountDisplay_ModelScene_RotateLeftButton
+--- @field RotateRightButton MountJournal_MountDisplay_ModelScene_RotateRightButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L378)
+--- child of 
+--- @class MountJournal_MountDisplay_NoMounts : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L363)
 --- child of MountJournal

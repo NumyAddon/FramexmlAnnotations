@@ -12,6 +12,42 @@
 --- Template
 --- @class ActionBarFlyoutButton-IconShadow : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L94)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_ActionButtonTemplateShine : Frame, AutoCastShineTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L100)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_ActionButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L27)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_ActionButtonTemplateFlyoutBorder : Texture, ActionBarFlyoutButton-IconFrame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L32)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow : Texture, ActionBarFlyoutButton-IconShadow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L39)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_ActionButtonTemplateFlyoutArrow : Texture, ActionBarFlyoutButton-ArrowUp
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L40)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_ActionButtonTemplateHotKey : FontString, LetterAndNumberFontNormalSmallGray
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L46)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_ActionButtonTemplateCount : FontString, NumberFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L53)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_ActionButtonTemplateName : FontString, GameFontHighlightSmallOutline
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L88)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_SpellHighlightAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L17)
 --- Template
 --- @class ActionButtonTemplate : CheckButton

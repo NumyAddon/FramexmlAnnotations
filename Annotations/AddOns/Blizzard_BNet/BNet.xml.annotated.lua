@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BNet/BNet.xml#L55)
+--- child of 
+--- @class BNToastFrame_TooltipFrame_Text : FontString, FriendsFont_Small
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BNet/BNet.xml#L48)
 --- child of BNToastFrame
 --- @class BNToastFrame_TooltipFrame : Frame, TooltipBackdropTemplate

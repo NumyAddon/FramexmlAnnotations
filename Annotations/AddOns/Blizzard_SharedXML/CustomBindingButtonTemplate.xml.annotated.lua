@@ -5,6 +5,10 @@
 --- @class CustomBindingButtonTemplate : Button, UIMenuButtonStretchTemplate, CustomBindingButtonMixin
 --- @field selectedHighlight Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/CustomBindingButtonTemplate.xml#L30)
+--- child of CustomBindingButtonTemplateWithLabel
+--- @class CustomBindingButtonTemplateWithLabel_KeyLabel : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/CustomBindingButtonTemplate.xml#L27)
 --- Template
 --- @class CustomBindingButtonTemplateWithLabel : Button, CustomBindingButtonTemplate

@@ -1,5 +1,10 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L67)
+--- child of 
+--- @class HardcorePopUpFrame_ScrollBox_Text : SimpleHTML
+--- @field scrollable boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L61)
 --- child of HardcorePopUpFrame
 --- @class HardcorePopUpFrame_ScrollBox : Frame, WowScrollBox

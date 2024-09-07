@@ -72,6 +72,10 @@
 --- Template
 --- @class Char-Inner-Right : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L88)
+--- child of CharacterStatFrameCategoryTemplate
+--- @class CharacterStatFrameCategoryTemplate_Title : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L77)
 --- Template
 --- @class CharacterStatFrameCategoryTemplate : Frame

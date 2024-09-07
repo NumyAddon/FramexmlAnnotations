@@ -1,5 +1,31 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L35)
+--- child of CinematicsButtonTemplateStreamingIcon
+--- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame : Frame
+--- @field Background Texture
+--- @field Alpha Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L45)
+--- child of CinematicsButtonTemplateStreamingIcon
+--- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin : Frame
+--- @field Spinner Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L26)
+--- child of CinematicsButtonTemplateStreamingIcon
+--- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_Loop : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L24)
+--- child of CinematicsButtonTemplate
+--- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon : Frame
+--- @field Frame CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame
+--- @field Spin CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin
+--- @field Loop CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_Loop
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L63)
+--- child of CinematicsButtonTemplate
+--- @class CinematicsButtonTemplate_CinematicsButtonTemplateStatusBar : StatusBar
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L3)
 --- Template
 --- @class CinematicsButtonTemplate : Button

@@ -22,6 +22,10 @@
 PetBattleQueueReadyFrame = {}
 PetBattleQueueReadyFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L148)
+--- child of 
+--- @class PlayerReportFrame_Comment_ScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L84)
 --- child of PlayerReportFrame
 --- @class PlayerReportFrame_Comment : Frame

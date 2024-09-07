@@ -5,10 +5,30 @@
 --- @class KeyBindingFrameBindingButtonTemplate : Button, UIMenuButtonStretchTemplate
 --- @field selectedHighlight Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L30)
+--- child of KeyBindingFrameBindingButtonTemplateWithLabel
+--- @class KeyBindingFrameBindingButtonTemplateWithLabel_KeyLabel : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L27)
 --- Template
 --- @class KeyBindingFrameBindingButtonTemplateWithLabel : Button, KeyBindingFrameBindingButtonTemplate
 --- @field KeyLabel KeyBindingFrameBindingButtonTemplateWithLabel_KeyLabel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L56)
+--- child of KeyBindingFrameBindingTemplate
+--- @class KeyBindingFrameBindingTemplate_KeyBindingFrameBindingTemplateKey1Button : Button, KeyBindingFrameBindingButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L62)
+--- child of KeyBindingFrameBindingTemplate
+--- @class KeyBindingFrameBindingTemplate_KeyBindingFrameBindingTemplateKey2Button : Button, KeyBindingFrameBindingButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L42)
+--- child of KeyBindingFrameBindingTemplate
+--- @class KeyBindingFrameBindingTemplate_description : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L48)
+--- child of KeyBindingFrameBindingTemplate
+--- @class KeyBindingFrameBindingTemplate_header : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L38)
 --- Template
@@ -21,6 +41,15 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L70)
 --- Template
 --- @class KeybindingsCategoryListButtonTemplate : Button, OptionsListButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L133)
+--- child of 
+--- @class KeyBindingFrame_header_RockBg : Texture
+RockBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L141)
+--- child of 
+--- @class KeyBindingFrame_header_text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L126)
 --- child of KeyBindingFrame

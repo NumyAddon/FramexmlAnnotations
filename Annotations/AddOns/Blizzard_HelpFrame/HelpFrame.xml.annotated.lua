@@ -5,6 +5,10 @@
 --- @class HelpFrameContainerFrameTemplate : Frame, TooltipBackdropTemplate
 --- @field backdropColor any # BLACK_FONT_COLOR
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L11)
+--- child of BrowserTemplate
+--- @class BrowserTemplate_BrowserInset : Frame, InsetFrameTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L9)
 --- Template
 --- @class BrowserTemplate : Browser

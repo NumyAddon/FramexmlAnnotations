@@ -1,5 +1,29 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L28)
+--- child of AddonListEntryTemplate
+--- @class AddonListEntryTemplate_AddonListEntryTemplateSecurity : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L45)
+--- child of AddonListEntryTemplate
+--- @class AddonListEntryTemplate_AddonListEntryTemplateEnabled : CheckButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L74)
+--- child of AddonListEntryTemplate
+--- @class AddonListEntryTemplate_AddonListEntryTemplateLoad : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
+--- child of AddonListEntryTemplate
+--- @class AddonListEntryTemplate_AddonListEntryTemplateTitle : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L13)
+--- child of AddonListEntryTemplate
+--- @class AddonListEntryTemplate_AddonListEntryTemplateStatus : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L19)
+--- child of AddonListEntryTemplate
+--- @class AddonListEntryTemplate_AddonListEntryTemplateReload : FontString, GameFontRed
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L3)
 --- Template
 --- @class AddonListEntryTemplate : Button

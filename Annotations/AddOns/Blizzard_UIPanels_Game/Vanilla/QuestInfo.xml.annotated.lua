@@ -28,6 +28,14 @@
 --- Template
 --- @class QuestInfoRewardFollowerCodeTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L123)
+--- child of LargeQuestInfoRewardFollowerTemplate
+--- @class LargeQuestInfoRewardFollowerTemplate_PortraitFrame : Frame, GarrisonFollowerPortraitTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L114)
+--- child of LargeQuestInfoRewardFollowerTemplate
+--- @class LargeQuestInfoRewardFollowerTemplate_Name : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L93)
 --- Template
 --- @class LargeQuestInfoRewardFollowerTemplate : Button, QuestInfoRewardFollowerCodeTemplate
@@ -35,6 +43,14 @@
 --- @field BG Texture
 --- @field Class Texture
 --- @field Name LargeQuestInfoRewardFollowerTemplate_Name
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L167)
+--- child of SmallQuestInfoRewardFollowerTemplate
+--- @class SmallQuestInfoRewardFollowerTemplate_PortraitFrame : Frame, GarrisonFollowerPortraitTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L158)
+--- child of SmallQuestInfoRewardFollowerTemplate
+--- @class SmallQuestInfoRewardFollowerTemplate_Name : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L137)
 --- Template
@@ -303,6 +319,21 @@ MapQuestInfoRewardsFrameQuestInfoItem1 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L495)
 --- child of MapQuestInfoRewardsFrame
 --- @class MapQuestInfoRewardsFrame_MoneyFrame : Button, SmallItemButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L499)
+--- child of 
+--- @class MapQuestInfoRewardsFrame_SkillPointFrame_SkillPointBg : Texture
+SkillPointBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L505)
+--- child of 
+--- @class MapQuestInfoRewardsFrame_SkillPointFrame_SkillPointBgGlow : Texture
+SkillPointBgGlow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L511)
+--- child of 
+--- @class MapQuestInfoRewardsFrame_SkillPointFrame_Points : FontString, GameFontNormal
+Points = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L496)
 --- child of MapQuestInfoRewardsFrame

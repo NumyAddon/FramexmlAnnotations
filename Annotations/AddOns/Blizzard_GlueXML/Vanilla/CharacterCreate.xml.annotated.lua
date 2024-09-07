@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
+--- child of CharacterCreateIconButtonTemplate
+--- @class CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText : FontString, GlueFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L3)
 --- Template
 --- @class CharacterCreateIconButtonTemplate : CheckButton
@@ -15,6 +19,18 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L82)
 --- Template
 --- @class CharacterCreateGenderButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L160)
+--- child of CharacterCustomizationFrameTemplate
+--- @class CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateRightButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L176)
+--- child of CharacterCustomizationFrameTemplate
+--- @class CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateLeftButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L148)
+--- child of CharacterCustomizationFrameTemplate
+--- @class CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText : FontString, GlueFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L106)
 --- Template

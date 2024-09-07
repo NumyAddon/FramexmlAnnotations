@@ -10,6 +10,12 @@ use SimpleXMLElement;
 class XmlFileParser
 {
     private const string TYPE_ANIMATION_GROUP = 'AnimationGroup';
+    /**
+     * @var array<string, string> [alias => type]
+     */
+    private const array TYPE_ALIASSES = [
+        'FontFamily' => 'Font',
+    ];
 
     /**
      * @var array<string, Registry<Frame>> $perFileRegistry [filename => Registry<Frame>]
@@ -48,6 +54,9 @@ class XmlFileParser
         $isTemplate = (string) ($node->attributes()['virtual'] ?? '') === 'true';
 
         $type = $node->getName();
+        if (isset(self::TYPE_ALIASSES[$type])) {
+            $type = self::TYPE_ALIASSES[$type];
+        }
         $frame = null;
         if ($isIntrinsic) {
             $frame = new Intrinsic($name, $type, $node, $parent);

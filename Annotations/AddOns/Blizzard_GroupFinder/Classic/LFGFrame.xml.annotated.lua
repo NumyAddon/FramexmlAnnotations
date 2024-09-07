@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGFrame.xml#L6)
+--- child of LFGRoleButtonTemplate
+--- @class LFGRoleButtonTemplate_checkButton : CheckButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGFrame.xml#L30)
 --- child of LFGRoleButtonTemplate
 --- @class LFGRoleButtonTemplate_lockedIndicator : Frame
@@ -11,7 +15,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGFrame.xml#L3)
 --- Template
 --- @class LFGRoleButtonTemplate : Button
---- @field checkButton CheckButton
+--- @field checkButton LFGRoleButtonTemplate_checkButton
 --- @field lockedIndicator LFGRoleButtonTemplate_lockedIndicator
 --- @field alert LFGRoleButtonTemplate_alert
 
@@ -76,6 +80,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGFrame.xml#L254)
 --- child of LFGSpecificChoiceTemplate
 --- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateEnableButton : CheckButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGFrame.xml#L279)
+--- child of LFGSpecificChoiceTemplateExpandOrCollapseButton
+--- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateExpandOrCollapseButton_LFGSpecificChoiceTemplateExpandOrCollapseButtonHighlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGFrame.xml#L265)
 --- child of LFGSpecificChoiceTemplate

@@ -115,6 +115,10 @@
 --- child of GearSetButtonTemplate
 --- @class GearSetButtonTemplate_GearSetButtonTemplateSelectedBar : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L326)
+--- child of GearSetButtonTemplate
+--- @class GearSetButtonTemplate_GearSetButtonTemplateIcon : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L157)
 --- Template
 --- @class GearSetButtonTemplate : Button
@@ -130,10 +134,16 @@
 --- @field SpecIcon Texture
 --- @field HighlightBar GearSetButtonTemplate_GearSetButtonTemplateHighlightBar
 --- @field SelectedBar GearSetButtonTemplate_GearSetButtonTemplateSelectedBar
+--- @field icon GearSetButtonTemplate_GearSetButtonTemplateIcon
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L340)
+--- child of GearSetPopupButtonTemplate
+--- @class GearSetPopupButtonTemplate_GearSetPopupButtonTemplateIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L334)
 --- Template
 --- @class GearSetPopupButtonTemplate : CheckButton, SimplePopupButtonTemplate
+--- @field Icon GearSetPopupButtonTemplate_GearSetPopupButtonTemplateIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L350)
 --- Template

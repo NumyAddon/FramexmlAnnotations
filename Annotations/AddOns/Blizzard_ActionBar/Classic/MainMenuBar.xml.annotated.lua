@@ -158,6 +158,7 @@ MainMenuBarPerformanceBarFrameButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L526)
 --- child of MainMenuBar
 --- @class MainMenuBar_MainMenuBarVehicleLeaveButton : Button
+--- @field Highlight Texture
 MainMenuBarVehicleLeaveButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L107)
@@ -168,6 +169,16 @@ MainMenuBarVehicleLeaveButton = {}
 --- @class MainMenuBar : Frame
 --- @field slideOut MainMenuBar_slideOut
 MainMenuBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L570)
+--- child of ExhaustionTick
+--- @class ExhaustionTick_ExhaustionTickNormal : Texture
+ExhaustionTickNormal = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L571)
+--- child of ExhaustionTick
+--- @class ExhaustionTick_ExhaustionTickHighlight : Texture
+ExhaustionTickHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L554)
 --- @class ExhaustionTick : Button

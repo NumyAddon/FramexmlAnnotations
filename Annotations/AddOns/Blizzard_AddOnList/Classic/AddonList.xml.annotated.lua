@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L43)
+--- child of AddonListEntryTemplateSecurity
+--- @class AddonListEntryTemplate_AddonListEntryTemplateSecurity_AddonListEntryTemplateSecurityIcon : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L28)
 --- child of AddonListEntryTemplate
 --- @class AddonListEntryTemplate_AddonListEntryTemplateSecurity : Button

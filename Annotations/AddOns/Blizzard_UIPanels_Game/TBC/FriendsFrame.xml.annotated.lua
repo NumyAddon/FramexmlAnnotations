@@ -33,9 +33,21 @@
 --- @field Background Texture
 --- @field Name FriendsFrameFriendInviteTemplate_Name
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L165)
+--- child of FriendsFrameButtonTemplateTravelPassButton
+--- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateTravelPassButton_FriendsFrameButtonTemplateTravelPassButtonNormalTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L177)
+--- child of FriendsFrameButtonTemplateTravelPassButton
+--- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateTravelPassButton_FriendsFrameButtonTemplateTravelPassButtonHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L158)
 --- child of FriendsFrameButtonTemplate
 --- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateTravelPassButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L196)
+--- child of FriendsFrameButtonTemplateSummonButton
+--- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateSummonButton_FriendsFrameButtonTemplateSummonButtonHighlightTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L191)
 --- child of FriendsFrameButtonTemplate
@@ -76,6 +88,7 @@
 --- @field gameIcon FriendsFrameButtonTemplate_FriendsFrameButtonTemplateGameIcon
 --- @field name FriendsFrameButtonTemplate_FriendsFrameButtonTemplateName
 --- @field info FriendsFrameButtonTemplate_FriendsFrameButtonTemplateInfo
+--- @field highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L266)
 --- child of FriendsFrameIgnoreButtonTemplate
@@ -127,12 +140,17 @@
 --- child of WhoFrameColumnHeaderTemplate
 --- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateRight : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L409)
+--- child of WhoFrameColumnHeaderTemplate
+--- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L368)
 --- Template
 --- @class WhoFrameColumnHeaderTemplate : Button
 --- @field Left WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateLeft
 --- @field Middle WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateMiddle
 --- @field Right WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateRight
+--- @field HighlightTexture WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateHighlightTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L422)
 --- child of FriendsFrameGuildPlayerStatusButtonTemplate
@@ -224,6 +242,10 @@ FriendsDropDown = {}
 --- @class FriendsFrame_TravelPassDropDown : Frame, UIDropDownMenuTemplate
 TravelPassDropDown = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L799)
+--- child of FriendsFrameBattlenetFrame
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L822)
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton : Button, UIPanelInfoButton
@@ -286,7 +308,7 @@ ScrollFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L767)
 --- child of FriendsTabHeader
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame : Frame
---- @field BroadcastButton Button
+--- @field BroadcastButton FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastButton
 --- @field UnavailableInfoButton FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton
 --- @field BroadcastFrame FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame
 --- @field UnavailableInfoFrame FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoFrame

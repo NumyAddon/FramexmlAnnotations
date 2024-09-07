@@ -22,6 +22,11 @@ CraftFrameFilterDropDown = {}
 --- @class CraftFrame_CraftFrameAvailableFilterCheckButton : CheckButton, UICheckButtonTemplate
 CraftFrameAvailableFilterCheckButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L298)
+--- child of CraftRankFrameBorder
+--- @class CraftFrame_CraftRankFrame_CraftRankFrameBorder_CraftRankFrameBorderNormal : Texture
+CraftRankFrameBorderNormal = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L287)
 --- child of CraftRankFrame
 --- @class CraftFrame_CraftRankFrame_CraftRankFrameBorder : Button

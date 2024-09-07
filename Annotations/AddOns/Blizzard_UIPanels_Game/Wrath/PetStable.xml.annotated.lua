@@ -8,6 +8,10 @@
 --- child of PetStableSlotTemplate
 --- @class PetStableSlotTemplate_PetStableSlotTemplateBackground : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L55)
+--- child of PetStableSlotTemplate
+--- @class PetStableSlotTemplate_PetStableSlotTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L3)
 --- Template
 --- @class PetStableSlotTemplate : CheckButton

@@ -51,6 +51,10 @@
 --- @field SilverButton SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
 --- @field GoldButton SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MoneyFrame/Classic/MoneyFrame.xml#L347)
+--- child of SmallDenominationTemplate
+--- @class SmallDenominationTemplate_SmallDenominationTemplateTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MoneyFrame/Classic/MoneyFrame.xml#L324)
 --- Template
 --- @class SmallDenominationTemplate : Button

@@ -4,6 +4,10 @@
 --- Template
 --- @class AutoCompleteEditBoxTemplate : EditBox
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AutoComplete/Classic/AutoComplete.xml#L30)
+--- child of AutoCompleteButtonTemplate
+--- @class  : Texture, UIPanelButtonHighlightTexture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AutoComplete/Classic/AutoComplete.xml#L16)
 --- Template
 --- @class AutoCompleteButtonTemplate : Button

@@ -176,6 +176,10 @@
 --- child of PVPTeamDetailsFrameColumnHeaderTemplate
 --- @class PVPTeamDetailsFrameColumnHeaderTemplate_PVPTeamDetailsFrameColumnHeaderTemplateRight : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L553)
+--- child of PVPTeamDetailsFrameColumnHeaderTemplate
+--- @class PVPTeamDetailsFrameColumnHeaderTemplate_PVPTeamDetailsFrameColumnHeaderTemplateHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L500)
 --- Template
 --- @class PVPTeamDetailsFrameColumnHeaderTemplate : Button
@@ -185,10 +189,15 @@
 --- @class PVPBattlegroundButtonTemplate_status : Frame
 --- @field texture Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L594)
+--- child of PVPBattlegroundButtonTemplate
+--- @class PVPBattlegroundButtonTemplate_PVPBattlegroundButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L568)
 --- Template
 --- @class PVPBattlegroundButtonTemplate : Button
 --- @field status PVPBattlegroundButtonTemplate_status
+--- @field highlight PVPBattlegroundButtonTemplate_PVPBattlegroundButtonTemplateHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L616)
 --- child of PVPArenaTeamFlagTemplate
@@ -229,6 +238,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L708)
 --- Template
 --- @class WarGameHeaderTemplate : Button
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L769)
 --- child of WarGameButtonTemplate
@@ -252,4 +263,5 @@
 --- @field InfoText WarGameButtonTemplate_InfoText
 --- @field NameText WarGameButtonTemplate_NameText
 --- @field Border Texture
+--- @field HighlightTexture Texture
 

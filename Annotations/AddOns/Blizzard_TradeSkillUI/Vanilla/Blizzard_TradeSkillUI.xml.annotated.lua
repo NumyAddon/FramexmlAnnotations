@@ -8,6 +8,11 @@
 --- Template
 --- @class TradeSkillItemTemplate : Button, QuestItemTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L219)
+--- child of TradeSkillRankFrameBorder
+--- @class TradeSkillFrame_TradeSkillRankFrame_TradeSkillRankFrameBorder_TradeSkillRankFrameBorderNormal : Texture
+TradeSkillRankFrameBorderNormal = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L208)
 --- child of TradeSkillRankFrame
 --- @class TradeSkillFrame_TradeSkillRankFrame_TradeSkillRankFrameBorder : Button

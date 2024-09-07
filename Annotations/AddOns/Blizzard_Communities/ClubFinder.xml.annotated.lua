@@ -402,6 +402,14 @@
 --- child of ClubFinderGuildCardsFrameTemplate
 --- @class ClubFinderGuildCardsFrameTemplate_ThirdCard : Frame, ClubFinderGuildCardTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L873)
+--- child of ClubFinderGuildCardsFrameTemplate
+--- @class ClubFinderGuildCardsFrameTemplate_PreviousPage : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L888)
+--- child of ClubFinderGuildCardsFrameTemplate
+--- @class ClubFinderGuildCardsFrameTemplate_NextPage : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L910)
 --- child of 
 --- @class ClubFinderGuildCardsFrameTemplate_SearchingSpinner_Label : FontString, GameFontNormalLarge
@@ -417,8 +425,8 @@
 --- @field FirstCard ClubFinderGuildCardsFrameTemplate_FirstCard
 --- @field SecondCard ClubFinderGuildCardsFrameTemplate_SecondCard
 --- @field ThirdCard ClubFinderGuildCardsFrameTemplate_ThirdCard
---- @field PreviousPage Button
---- @field NextPage Button
+--- @field PreviousPage ClubFinderGuildCardsFrameTemplate_PreviousPage
+--- @field NextPage ClubFinderGuildCardsFrameTemplate_NextPage
 --- @field SearchingSpinner ClubFinderGuildCardsFrameTemplate_SearchingSpinner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L921)
@@ -481,6 +489,7 @@
 --- @field Focus ClubFinderCommunitiesCardTemplate_Focus
 --- @field CommunityLogo Texture
 --- @field CircleMask MaskTexture
+--- @field HighlightBackground Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1057)
 --- child of ClubFinderCommunitiesCardFrameTemplate

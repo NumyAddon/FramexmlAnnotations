@@ -20,30 +20,60 @@ ArenaRegistrarFrameCloseButton = {}
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarFrameGoodbyeButton : Button, UIPanelButtonTemplate
 ArenaRegistrarFrameGoodbyeButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- child of ArenaRegistrarButton1 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+ArenaRegistrarButton1QuestIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L118)
 --- child of ArenaRegistrarGreetingFrame
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarButton1 : Button, QuestTitleButtonTemplate
 ArenaRegistrarButton1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- child of ArenaRegistrarButton2 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+ArenaRegistrarButton2QuestIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L128)
 --- child of ArenaRegistrarGreetingFrame
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarButton2 : Button, QuestTitleButtonTemplate
 ArenaRegistrarButton2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- child of ArenaRegistrarButton3 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+ArenaRegistrarButton3QuestIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L138)
 --- child of ArenaRegistrarGreetingFrame
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarButton3 : Button, QuestTitleButtonTemplate
 ArenaRegistrarButton3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- child of ArenaRegistrarButton4 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+ArenaRegistrarButton4QuestIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L148)
 --- child of ArenaRegistrarGreetingFrame
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarButton4 : Button, QuestTitleButtonTemplate
 ArenaRegistrarButton4 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- child of ArenaRegistrarButton5 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+ArenaRegistrarButton5QuestIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L162)
 --- child of ArenaRegistrarGreetingFrame
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarButton5 : Button, QuestTitleButtonTemplate
 ArenaRegistrarButton5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- child of ArenaRegistrarButton6 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+ArenaRegistrarButton6QuestIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L172)
 --- child of ArenaRegistrarGreetingFrame
@@ -65,10 +95,28 @@ RegistrationText = {}
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame : Frame
 ArenaRegistrarGreetingFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L18)
+--- child of ArenaRegistrarMoneyFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_MoneyFrameTemplateCopperButton
+ArenaRegistrarMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L57)
+--- child of ArenaRegistrarMoneyFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_MoneyFrameTemplateSilverButton
+ArenaRegistrarMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L96)
+--- child of ArenaRegistrarMoneyFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_MoneyFrameTemplateGoldButton
+ArenaRegistrarMoneyFrameGoldButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L201)
 --- child of ArenaRegistrarPurchaseFrame
 --- @class ArenaRegistrarFrame_ArenaRegistrarPurchaseFrame_ArenaRegistrarMoneyFrame : Frame, MoneyFrameTemplate
 ArenaRegistrarMoneyFrame = {}
+ArenaRegistrarMoneyFrame["CopperButton"] = ArenaRegistrarMoneyFrameCopperButton -- inherited
+ArenaRegistrarMoneyFrame["SilverButton"] = ArenaRegistrarMoneyFrameSilverButton -- inherited
+ArenaRegistrarMoneyFrame["GoldButton"] = ArenaRegistrarMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L209)
 --- child of ArenaRegistrarPurchaseFrame
@@ -155,10 +203,70 @@ PVPBannerFrameStandardEmblem = {}
 --- @class PVPBannerFrame_PVPBannerFrameStandard : Frame
 PVPBannerFrameStandard = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L312)
+--- child of PVPBannerFrameCustomization1 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type PVPBannerFrameCustomizeTemplate_PVPBannerFrameCustomizeTemplateLeftButton
+PVPBannerFrameCustomization1LeftButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L331)
+--- child of PVPBannerFrameCustomization1 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type PVPBannerFrameCustomizeTemplate_PVPBannerFrameCustomizeTemplateRightButton
+PVPBannerFrameCustomization1RightButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L272)
+--- child of PVPBannerFrameCustomization1 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type Texture
+PVPBannerFrameCustomization1Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L285)
+--- child of PVPBannerFrameCustomization1 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type Texture
+PVPBannerFrameCustomization1Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L292)
+--- child of PVPBannerFrameCustomization1 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type Texture
+PVPBannerFrameCustomization1Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L299)
+--- child of PVPBannerFrameCustomization1 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type PVPBannerFrameCustomizeTemplate_PVPBannerFrameCustomizeTemplateText
+PVPBannerFrameCustomization1Text = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L639)
 --- child of PVPBannerFrameCustomizationFrame
 --- @class PVPBannerFrame_PVPBannerFrameCustomizationFrame_PVPBannerFrameCustomization1 : Frame, PVPBannerFrameCustomizeTemplate
 PVPBannerFrameCustomization1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L312)
+--- child of PVPBannerFrameCustomization2 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type PVPBannerFrameCustomizeTemplate_PVPBannerFrameCustomizeTemplateLeftButton
+PVPBannerFrameCustomization2LeftButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L331)
+--- child of PVPBannerFrameCustomization2 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type PVPBannerFrameCustomizeTemplate_PVPBannerFrameCustomizeTemplateRightButton
+PVPBannerFrameCustomization2RightButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L272)
+--- child of PVPBannerFrameCustomization2 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type Texture
+PVPBannerFrameCustomization2Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L285)
+--- child of PVPBannerFrameCustomization2 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type Texture
+PVPBannerFrameCustomization2Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L292)
+--- child of PVPBannerFrameCustomization2 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type Texture
+PVPBannerFrameCustomization2Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L299)
+--- child of PVPBannerFrameCustomization2 (created in template PVPBannerFrameCustomizeTemplate)
+--- @type PVPBannerFrameCustomizeTemplate_PVPBannerFrameCustomizeTemplateText
+PVPBannerFrameCustomization2Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L653)
 --- child of PVPBannerFrameCustomizationFrame

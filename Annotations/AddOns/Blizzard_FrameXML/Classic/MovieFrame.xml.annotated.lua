@@ -15,6 +15,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MovieFrame.xml#L20)
 --- child of MovieFrame
 --- @class MovieFrame_CloseDialog : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field ConfirmButton MovieFrame_CloseDialog_ConfirmButton
 --- @field ResumeButton MovieFrame_CloseDialog_ResumeButton
 

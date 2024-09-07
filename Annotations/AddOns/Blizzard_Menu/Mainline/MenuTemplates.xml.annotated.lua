@@ -22,6 +22,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Menu/Mainline/MenuTemplates.xml#L41)
 --- Template
 --- @class WowStyle1FilterDropdownTemplate : DropdownButton, WowStyle1FilterDropdownMixin
+--- @field text any # FILTER
 --- @field ResetButton WowStyle1FilterDropdownTemplate_ResetButton
 --- @field Background Texture
 --- @field Text WowStyle1FilterDropdownTemplate_Text

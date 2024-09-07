@@ -36,35 +36,212 @@ TabardModel = {}
 --- @class TabardFrame_TabardFrameCostFrame_TabardFrameCostMoneyFrame_TabardFrameCostLabel : FontString, GameFontHighlight
 TabardFrameCostLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L159)
+--- child of TabardFrameCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+TabardFrameCostMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L185)
+--- child of TabardFrameCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+TabardFrameCostMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L225)
+--- child of TabardFrameCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+TabardFrameCostMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L265)
+--- child of TabardFrameCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+TabardFrameCostMoneyFrameGoldButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L302)
 --- child of TabardFrameCostFrame
 --- @class TabardFrame_TabardFrameCostFrame_TabardFrameCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 TabardFrameCostMoneyFrame = {}
+TabardFrameCostMoneyFrame["trialErrorButton"] = TabardFrameCostMoneyFrameTrialErrorButton -- inherited
+TabardFrameCostMoneyFrame["CopperButton"] = TabardFrameCostMoneyFrameCopperButton -- inherited
+TabardFrameCostMoneyFrame["SilverButton"] = TabardFrameCostMoneyFrameSilverButton -- inherited
+TabardFrameCostMoneyFrame["GoldButton"] = TabardFrameCostMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L292)
 --- child of TabardFrame
 --- @class TabardFrame_TabardFrameCostFrame : Frame, TooltipBackdropTemplate
+--- @field backdropColor any # TOOLTIP_DEFAULT_BACKGROUND_COLOR
 TabardFrameCostFrame = {}
+TabardFrameCostFrame["backdropColor"] = TOOLTIP_DEFAULT_BACKGROUND_COLOR
+TabardFrameCostFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L37)
+--- child of TabardFrameCustomization1 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateLeftButton
+TabardFrameCustomization1LeftButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L52)
+--- child of TabardFrameCustomization1 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateRightButton
+TabardFrameCustomization1RightButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L7)
+--- child of TabardFrameCustomization1 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization1Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L14)
+--- child of TabardFrameCustomization1 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization1Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L21)
+--- child of TabardFrameCustomization1 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization1Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L28)
+--- child of TabardFrameCustomization1 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateText
+TabardFrameCustomization1Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L337)
 --- child of TabardFrameCustomizationFrame
 --- @class TabardFrame_TabardFrameCustomizationFrame_TabardFrameCustomization1 : Frame, TabardFrameCustomizeTemplate
 TabardFrameCustomization1 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L37)
+--- child of TabardFrameCustomization2 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateLeftButton
+TabardFrameCustomization2LeftButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L52)
+--- child of TabardFrameCustomization2 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateRightButton
+TabardFrameCustomization2RightButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L7)
+--- child of TabardFrameCustomization2 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization2Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L14)
+--- child of TabardFrameCustomization2 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization2Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L21)
+--- child of TabardFrameCustomization2 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization2Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L28)
+--- child of TabardFrameCustomization2 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateText
+TabardFrameCustomization2Text = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L347)
 --- child of TabardFrameCustomizationFrame
 --- @class TabardFrame_TabardFrameCustomizationFrame_TabardFrameCustomization2 : Frame, TabardFrameCustomizeTemplate
 TabardFrameCustomization2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L37)
+--- child of TabardFrameCustomization3 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateLeftButton
+TabardFrameCustomization3LeftButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L52)
+--- child of TabardFrameCustomization3 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateRightButton
+TabardFrameCustomization3RightButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L7)
+--- child of TabardFrameCustomization3 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization3Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L14)
+--- child of TabardFrameCustomization3 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization3Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L21)
+--- child of TabardFrameCustomization3 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization3Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L28)
+--- child of TabardFrameCustomization3 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateText
+TabardFrameCustomization3Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L357)
 --- child of TabardFrameCustomizationFrame
 --- @class TabardFrame_TabardFrameCustomizationFrame_TabardFrameCustomization3 : Frame, TabardFrameCustomizeTemplate
 TabardFrameCustomization3 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L37)
+--- child of TabardFrameCustomization4 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateLeftButton
+TabardFrameCustomization4LeftButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L52)
+--- child of TabardFrameCustomization4 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateRightButton
+TabardFrameCustomization4RightButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L7)
+--- child of TabardFrameCustomization4 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization4Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L14)
+--- child of TabardFrameCustomization4 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization4Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L21)
+--- child of TabardFrameCustomization4 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization4Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L28)
+--- child of TabardFrameCustomization4 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateText
+TabardFrameCustomization4Text = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L367)
 --- child of TabardFrameCustomizationFrame
 --- @class TabardFrame_TabardFrameCustomizationFrame_TabardFrameCustomization4 : Frame, TabardFrameCustomizeTemplate
 TabardFrameCustomization4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L37)
+--- child of TabardFrameCustomization5 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateLeftButton
+TabardFrameCustomization5LeftButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L52)
+--- child of TabardFrameCustomization5 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateRightButton
+TabardFrameCustomization5RightButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L7)
+--- child of TabardFrameCustomization5 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization5Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L14)
+--- child of TabardFrameCustomization5 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization5Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L21)
+--- child of TabardFrameCustomization5 (created in template TabardFrameCustomizeTemplate)
+--- @type Texture
+TabardFrameCustomization5Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L28)
+--- child of TabardFrameCustomization5 (created in template TabardFrameCustomizeTemplate)
+--- @type TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateText
+TabardFrameCustomization5Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L377)
 --- child of TabardFrameCustomizationFrame
@@ -81,10 +258,34 @@ TabardFrameCustomizationBorder = {}
 --- @class TabardFrame_TabardFrameCustomizationFrame : Frame
 TabardFrameCustomizationFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L159)
+--- child of TabardFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+TabardFrameMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L185)
+--- child of TabardFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+TabardFrameMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L225)
+--- child of TabardFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+TabardFrameMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L265)
+--- child of TabardFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+TabardFrameMoneyFrameGoldButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L392)
 --- child of TabardFrame
 --- @class TabardFrame_TabardFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 TabardFrameMoneyFrame = {}
+TabardFrameMoneyFrame["trialErrorButton"] = TabardFrameMoneyFrameTrialErrorButton -- inherited
+TabardFrameMoneyFrame["CopperButton"] = TabardFrameMoneyFrameCopperButton -- inherited
+TabardFrameMoneyFrame["SilverButton"] = TabardFrameMoneyFrameSilverButton -- inherited
+TabardFrameMoneyFrame["GoldButton"] = TabardFrameMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L397)
 --- child of TabardFrame

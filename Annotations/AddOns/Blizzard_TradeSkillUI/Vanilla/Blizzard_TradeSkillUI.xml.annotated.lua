@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L9)
+--- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L41)
+--- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L3)
 --- Template
 --- @class TradeSkillSkillButtonTemplate : Button, ClassTrainerSkillButtonTemplate
@@ -37,6 +45,16 @@ TradeSkillRankFrameBackground = {}
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillRankFrame : StatusBar
 TradeSkillRankFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L9)
+--- child of TradeSkillCollapseAllButton (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+TradeSkillCollapseAllButtonSubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L41)
+--- child of TradeSkillCollapseAllButton (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+TradeSkillCollapseAllButtonHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L279)
 --- child of TradeSkillExpandButtonFrame
@@ -128,6 +146,16 @@ TradeSkillSkill8 = {}
 --- @class TradeSkillFrame_TradeSkillListScrollFrame : ScrollFrame, ClassTrainerListScrollFrameTemplate
 TradeSkillListScrollFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L84)
+--- child of TradeSkillDetailScrollFrame (created in template ClassTrainerDetailScrollFrameTemplate)
+--- @type Texture
+TradeSkillDetailScrollFrameTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L97)
+--- child of TradeSkillDetailScrollFrame (created in template ClassTrainerDetailScrollFrameTemplate)
+--- @type Texture
+TradeSkillDetailScrollFrameBottom = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L422)
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillDetailScrollFrame : ScrollFrame, ClassTrainerDetailScrollFrameTemplate
@@ -208,4 +236,6 @@ TradeSkillHorizontalBarLeft = {}
 --- @field InvSlotDropdown TradeSkillFrame_TradeSkillInvSlotDropdown
 --- @field SubClassDropdown TradeSkillFrame_TradeSkillSubClassDropdown
 TradeSkillFrame = {}
+TradeSkillFrame["InvSlotDropdown"] = TradeSkillInvSlotDropdown
+TradeSkillFrame["SubClassDropdown"] = TradeSkillSubClassDropdown
 

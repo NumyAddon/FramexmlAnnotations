@@ -109,10 +109,16 @@ MiniMapTrackingShine = {}
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapTracking : Frame
 MiniMapTracking = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/Minimap.xml#L32)
+--- child of MiniMapLFGFrameIcon (created in template EyeTemplate)
+--- @type Texture
+MiniMapLFGFrameIconTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/Minimap.xml#L505)
 --- child of MiniMapLFGFrame
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameIcon : Frame, EyeTemplate
 MiniMapLFGFrameIcon = {}
+MiniMapLFGFrameIcon["Texture"] = MiniMapLFGFrameIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/TBC/Minimap.xml#L490)
 --- child of MiniMapLFGFrame

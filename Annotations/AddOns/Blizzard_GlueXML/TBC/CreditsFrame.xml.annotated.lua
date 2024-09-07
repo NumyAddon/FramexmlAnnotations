@@ -29,6 +29,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L53)
 --- child of CreditsExpansionListTemplate
 --- @class CreditsExpansionListTemplate_Header : Frame, DialogHeaderTemplate
+--- @field textString any # EXPANSION
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L58)
 --- child of CreditsExpansionListTemplate
@@ -57,6 +58,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L379)
 --- child of CreditsFrame
 --- @class CreditsFrame_Slider : Slider, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_SLIDER_8_8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L399)
 --- child of CreditsFrame

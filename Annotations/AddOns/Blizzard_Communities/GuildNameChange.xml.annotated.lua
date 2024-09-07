@@ -8,6 +8,74 @@
 --- child of CommunitiesGuildNameChangeAlertFrameTemplate
 --- @class CommunitiesGuildNameChangeAlertFrameTemplate_ClickText : FontString, GameFontDisableSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2081)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2094)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2099)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2105)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2111)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2117)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2123)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2129)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2135)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2143)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2148)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2154)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2160)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2166)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2172)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2178)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L2184)
+--- child of CommunitiesGuildNameChangeAlertFrameTemplate (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNameChange.xml#L4)
 --- Template
 --- @class CommunitiesGuildNameChangeAlertFrameTemplate : Button, GlowBoxTemplate

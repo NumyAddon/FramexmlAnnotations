@@ -39,6 +39,26 @@ Portrait = {}
 --- child of 
 --- @class GossipFrame_GreetingPanel_ScrollBar : EventFrame, WowTrimScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L44)
+--- child of  (created in template GossipFramePanelTemplate)
+--- @type Texture
+MaterialTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L56)
+--- child of  (created in template GossipFramePanelTemplate)
+--- @type Texture
+MaterialTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L64)
+--- child of  (created in template GossipFramePanelTemplate)
+--- @type Texture
+MaterialBotLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L72)
+--- child of  (created in template GossipFramePanelTemplate)
+--- @type Texture
+MaterialBotRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L133)
 --- child of GossipFrame
 --- @class GossipFrame_GreetingPanel : Frame, GossipFramePanelTemplate

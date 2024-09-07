@@ -29,24 +29,175 @@
 --- Template
 --- @class RaidInfoInstanceTemplate : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L9)
+--- child of RaidParentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab1LeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L22)
+--- child of RaidParentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab1MiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L31)
+--- child of RaidParentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab1RightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L40)
+--- child of RaidParentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab1Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L49)
+--- child of RaidParentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab1Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L58)
+--- child of RaidParentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab1Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L113)
+--- child of RaidParentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab1HighlightTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L86)
 --- child of RaidParentFrame
 --- @class RaidParentFrame_RaidParentFrameTab1 : Button, CharacterFrameTabButtonTemplate
 RaidParentFrameTab1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L9)
+--- child of RaidParentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab2LeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L22)
+--- child of RaidParentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab2MiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L31)
+--- child of RaidParentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab2RightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L40)
+--- child of RaidParentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab2Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L49)
+--- child of RaidParentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab2Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L58)
+--- child of RaidParentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab2Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L113)
+--- child of RaidParentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+RaidParentFrameTab2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L99)
 --- child of RaidParentFrame
 --- @class RaidParentFrame_RaidParentFrameTab2 : Button, CharacterFrameTabButtonTemplate
 RaidParentFrameTab2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L796)
+--- child of RaidParentFrameInset (created in template InsetFrameTemplate)
+--- @type Texture
+RaidParentFrameInsetBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L804)
+--- child of RaidParentFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
+RaidParentFrameInsetInsetTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L809)
+--- child of RaidParentFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
+RaidParentFrameInsetInsetTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L815)
+--- child of RaidParentFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
+RaidParentFrameInsetInsetBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L821)
+--- child of RaidParentFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
+RaidParentFrameInsetInsetBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L827)
+--- child of RaidParentFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
+RaidParentFrameInsetInsetTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L833)
+--- child of RaidParentFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
+RaidParentFrameInsetInsetBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L839)
+--- child of RaidParentFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
+RaidParentFrameInsetInsetLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L845)
+--- child of RaidParentFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
+RaidParentFrameInsetInsetRightBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L888)
+--- child of RaidParentFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+RaidParentFrameInset = {}
+RaidParentFrameInset["Bg"] = RaidParentFrameInsetBg -- inherited
+RaidParentFrameInset["InsetBorderTopLeft"] = RaidParentFrameInsetInsetTopLeftCorner -- inherited
+RaidParentFrameInset["InsetBorderTopRight"] = RaidParentFrameInsetInsetTopRightCorner -- inherited
+RaidParentFrameInset["InsetBorderBottomLeft"] = RaidParentFrameInsetInsetBotLeftCorner -- inherited
+RaidParentFrameInset["InsetBorderBottomRight"] = RaidParentFrameInsetInsetBotRightCorner -- inherited
+RaidParentFrameInset["InsetBorderTop"] = RaidParentFrameInsetInsetTopBorder -- inherited
+RaidParentFrameInset["InsetBorderBottom"] = RaidParentFrameInsetInsetBottomBorder -- inherited
+RaidParentFrameInset["InsetBorderLeft"] = RaidParentFrameInsetInsetLeftBorder -- inherited
+RaidParentFrameInset["InsetBorderRight"] = RaidParentFrameInsetInsetRightBorder -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L869)
+--- child of RaidParentFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
+RaidParentFrameBtnCornerLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L874)
+--- child of RaidParentFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
+RaidParentFrameBtnCornerRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L879)
+--- child of RaidParentFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
+RaidParentFrameButtonBottomBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L84)
 --- @class RaidParentFrame : Frame, ButtonFrameTemplate
 RaidParentFrame = {}
+RaidParentFrame["Inset"] = RaidParentFrameInset -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L468)
+--- child of RaidFrameAllAssistCheckButton (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+RaidFrameAllAssistCheckButtonText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L132)
 --- child of RaidFrame
 --- @class RaidFrame_RaidFrameAllAssistCheckButton : CheckButton, UICheckButtonTemplate
 RaidFrameAllAssistCheckButton = {}
+RaidFrameAllAssistCheckButton["Text"] = RaidFrameAllAssistCheckButtonText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L172)
 --- child of RaidFrameNotInRaid
@@ -68,10 +219,40 @@ RaidFrameConvertToRaidButton = {}
 --- @class RaidFrame_RaidFrameRaidInfoButton : Button, UIPanelButtonTemplate
 RaidFrameRaidInfoButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L6)
+--- child of RaidInfoInstanceLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoInstanceLabelLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L14)
+--- child of RaidInfoInstanceLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoInstanceLabelRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L22)
+--- child of RaidInfoInstanceLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoInstanceLabelMiddle = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L281)
 --- child of RaidInfoFrame
 --- @class RaidFrame_RaidInfoFrame_RaidInfoInstanceLabel : Frame, RaidInfoHeaderTemplate
 RaidInfoInstanceLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L6)
+--- child of RaidInfoIDLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoIDLabelLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L14)
+--- child of RaidInfoIDLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoIDLabelRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L22)
+--- child of RaidInfoIDLabel (created in template RaidInfoHeaderTemplate)
+--- @type Texture
+RaidInfoIDLabelMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L298)
 --- child of RaidInfoFrame
@@ -93,10 +274,34 @@ RaidInfoScrollFrameTop = {}
 --- @class RaidFrame_RaidInfoFrame_RaidInfoScrollFrame_RaidInfoScrollFrameBottom : Texture
 RaidInfoScrollFrameBottom = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L10)
+--- child of RaidInfoScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+RaidInfoScrollFrameScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L18)
+--- child of RaidInfoScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+RaidInfoScrollFrameScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L30)
+--- child of RaidInfoScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+RaidInfoScrollFrameScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L46)
+--- child of RaidInfoScrollFrame (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+RaidInfoScrollFrameScrollBar = {}
+RaidInfoScrollFrameScrollBar["ScrollUpButton"] = RaidInfoScrollFrameScrollBarScrollUpButton -- inherited
+RaidInfoScrollFrameScrollBar["ScrollDownButton"] = RaidInfoScrollFrameScrollBarScrollDownButton -- inherited
+RaidInfoScrollFrameScrollBar["ThumbTexture"] = RaidInfoScrollFrameScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L320)
 --- child of RaidInfoFrame
 --- @class RaidFrame_RaidInfoFrame_RaidInfoScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 RaidInfoScrollFrame = {}
+RaidInfoScrollFrame["ScrollBar"] = RaidInfoScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L551)
 --- child of RaidInfoFrame
@@ -131,7 +336,9 @@ RaidInfoHeader = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L211)
 --- child of RaidFrame
 --- @class RaidFrame_RaidInfoFrame : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DARK_DIALOG_32_32
 RaidInfoFrame = {}
+RaidInfoFrame["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L130)
 --- @class RaidFrame : Frame

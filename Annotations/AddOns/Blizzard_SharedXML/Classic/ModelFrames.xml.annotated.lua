@@ -18,25 +18,79 @@
 --- Template
 --- @class ModelWithZoomTemplate : PlayerModel, ModelTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameZoomInButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameZoomInButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L107)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomInButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameZoomOutButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameZoomOutButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L125)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomOutButton : Button, ModelControlButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFramePanButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFramePanButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L143)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameRotateLeftButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameRotateLeftButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L163)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton : Button, ModelControlButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameRotateRightButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameRotateRightButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L179)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameRotateResetButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameRotateResetButton (created in template ModelControlButtonTemplate)
+--- Template
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L195)
 --- child of ModelWithControlsTemplateControlFrame

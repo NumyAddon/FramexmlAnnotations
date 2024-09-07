@@ -104,10 +104,16 @@ MiniMapTrackingIconOverlay = {}
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapTracking : Frame
 MiniMapTracking = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Wrath/Minimap.xml#L32)
+--- child of MiniMapLFGFrameIcon (created in template EyeTemplate)
+--- @type Texture
+MiniMapLFGFrameIconTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Wrath/Minimap.xml#L474)
 --- child of MiniMapLFGFrame
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameIcon : Frame, EyeTemplate
 MiniMapLFGFrameIcon = {}
+MiniMapLFGFrameIcon["Texture"] = MiniMapLFGFrameIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Wrath/Minimap.xml#L459)
 --- child of MiniMapLFGFrame
@@ -119,6 +125,7 @@ MiniMapLFGFrameBorder = {}
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame : Button, MiniMapButtonTemplate
 --- @field eye MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameIcon
 MiniMapLFGFrame = {}
+MiniMapLFGFrame["eye"] = MiniMapLFGFrameIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Wrath/Minimap.xml#L490)
 --- child of MinimapBackdrop

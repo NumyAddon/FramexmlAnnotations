@@ -27,18 +27,21 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/Scroll/TrimScrollBar.xml#L91)
 --- child of WowClassicScrollBar
 --- @class WowClassicScrollBar_Back : EventButton, WowTrimScrollBarStepperScripts
+--- @field direction any # ScrollControllerMixin.Directions.Decrease
 --- @field Texture Texture
 --- @field Overlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/Scroll/TrimScrollBar.xml#L112)
 --- child of WowClassicScrollBar
 --- @class WowClassicScrollBar_Forward : EventButton, WowTrimScrollBarStepperScripts
+--- @field direction any # ScrollControllerMixin.Directions.Increase
 --- @field Texture Texture
 --- @field Overlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/Scroll/TrimScrollBar.xml#L5)
 --- Template
 --- @class WowClassicScrollBar : EventFrame, VerticalScrollBarTemplate, WowTrimScrollBarMixin
+--- @field minThumbExtent number # 24
 --- @field Background WowClassicScrollBar_Background
 --- @field Track WowClassicScrollBar_Track
 --- @field Back WowClassicScrollBar_Back

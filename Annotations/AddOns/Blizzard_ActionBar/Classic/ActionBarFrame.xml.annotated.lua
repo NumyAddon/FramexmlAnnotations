@@ -4,6 +4,118 @@
 --- Template
 --- @class ActionBarButtonCodeTemplate : CheckButton, SecureActionButtonTemplate, ActionBarActionButtonMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
+--- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L26)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L110)
+--- child of ActionBarButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L58)
 --- Template
 --- @class ActionBarButtonTemplate : CheckButton, ActionBarButtonCodeTemplate, ActionButtonTemplate

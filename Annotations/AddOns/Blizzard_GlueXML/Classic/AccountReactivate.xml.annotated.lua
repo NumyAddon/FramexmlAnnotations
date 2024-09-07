@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountReactivate.xml#L3)
 --- Template
 --- @class ReactivateDialogBackground : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountReactivate.xml#L44)
 --- child of ReactivateAccountDialog
@@ -22,6 +23,7 @@
 --- @field Title ReactivateAccountDialog_Title
 --- @field Description ReactivateAccountDialog_Description
 ReactivateAccountDialog = {}
+ReactivateAccountDialog["backdropInfo"] = BACKDROP_DIALOG_32_32 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountReactivate.xml#L84)
 --- child of AccountReactivationInProgressDialog
@@ -38,6 +40,7 @@ ReactivateAccountDialog = {}
 --- @field Line Texture
 --- @field Notice AccountReactivationInProgressDialog_Notice
 AccountReactivationInProgressDialog = {}
+AccountReactivationInProgressDialog["backdropInfo"] = BACKDROP_DIALOG_32_32 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountReactivate.xml#L166)
 --- child of GoldReactivateConfirmationDialog
@@ -87,6 +90,7 @@ AccountReactivationInProgressDialog = {}
 --- @field LogoutNotice GoldReactivateConfirmationDialog_LogoutNotice
 --- @field CautionText GoldReactivateConfirmationDialog_CautionText
 GoldReactivateConfirmationDialog = {}
+GoldReactivateConfirmationDialog["backdropInfo"] = BACKDROP_DIALOG_32_32 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountReactivate.xml#L244)
 --- child of TokenReactivateConfirmationDialog
@@ -121,6 +125,7 @@ GoldReactivateConfirmationDialog = {}
 --- @field Expires TokenReactivateConfirmationDialog_Expires
 --- @field LogoutNotice TokenReactivateConfirmationDialog_LogoutNotice
 TokenReactivateConfirmationDialog = {}
+TokenReactivateConfirmationDialog["backdropInfo"] = BACKDROP_DIALOG_32_32 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountReactivate.xml#L304)
 --- child of SubscriptionRequestDialog
@@ -150,4 +155,5 @@ TokenReactivateConfirmationDialog = {}
 --- @field Text SubscriptionRequestDialog_Text
 --- @field ButtonDivider SubscriptionRequestDialog_ButtonDivider
 SubscriptionRequestDialog = {}
+SubscriptionRequestDialog["backdropInfo"] = BACKDROP_DIALOG_32_32 -- inherited
 

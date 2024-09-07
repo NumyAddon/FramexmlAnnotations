@@ -56,20 +56,141 @@
 --- @field Count PetJournal_PetCount_Count
 --- @field Label PetJournal_PetCount_Label
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L796)
+--- child of PetJournalLeftInset (created in template InsetFrameTemplate)
+--- @type Texture
+PetJournalLeftInsetBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L804)
+--- child of PetJournalLeftInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
+PetJournalLeftInsetInsetTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L809)
+--- child of PetJournalLeftInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
+PetJournalLeftInsetInsetTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L815)
+--- child of PetJournalLeftInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
+PetJournalLeftInsetInsetBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L821)
+--- child of PetJournalLeftInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
+PetJournalLeftInsetInsetBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L827)
+--- child of PetJournalLeftInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
+PetJournalLeftInsetInsetTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L833)
+--- child of PetJournalLeftInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
+PetJournalLeftInsetInsetBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L839)
+--- child of PetJournalLeftInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
+PetJournalLeftInsetInsetLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L845)
+--- child of PetJournalLeftInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
+PetJournalLeftInsetInsetRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L156)
 --- child of PetJournal
 --- @class PetJournal_PetJournalLeftInset : Frame, InsetFrameTemplate
 PetJournalLeftInset = {}
+PetJournalLeftInset["Bg"] = PetJournalLeftInsetBg -- inherited
+PetJournalLeftInset["InsetBorderTopLeft"] = PetJournalLeftInsetInsetTopLeftCorner -- inherited
+PetJournalLeftInset["InsetBorderTopRight"] = PetJournalLeftInsetInsetTopRightCorner -- inherited
+PetJournalLeftInset["InsetBorderBottomLeft"] = PetJournalLeftInsetInsetBotLeftCorner -- inherited
+PetJournalLeftInset["InsetBorderBottomRight"] = PetJournalLeftInsetInsetBotRightCorner -- inherited
+PetJournalLeftInset["InsetBorderTop"] = PetJournalLeftInsetInsetTopBorder -- inherited
+PetJournalLeftInset["InsetBorderBottom"] = PetJournalLeftInsetInsetBottomBorder -- inherited
+PetJournalLeftInset["InsetBorderLeft"] = PetJournalLeftInsetInsetLeftBorder -- inherited
+PetJournalLeftInset["InsetBorderRight"] = PetJournalLeftInsetInsetRightBorder -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L796)
+--- child of PetJournalRightInset (created in template InsetFrameTemplate)
+--- @type Texture
+PetJournalRightInsetBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L804)
+--- child of PetJournalRightInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
+PetJournalRightInsetInsetTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L809)
+--- child of PetJournalRightInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
+PetJournalRightInsetInsetTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L815)
+--- child of PetJournalRightInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
+PetJournalRightInsetInsetBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L821)
+--- child of PetJournalRightInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
+PetJournalRightInsetInsetBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L827)
+--- child of PetJournalRightInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
+PetJournalRightInsetInsetTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L833)
+--- child of PetJournalRightInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
+PetJournalRightInsetInsetBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L839)
+--- child of PetJournalRightInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
+PetJournalRightInsetInsetLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L845)
+--- child of PetJournalRightInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
+PetJournalRightInsetInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L169)
 --- child of PetJournal
 --- @class PetJournal_PetJournalRightInset : Frame, InsetFrameTemplate
 PetJournalRightInset = {}
+PetJournalRightInset["Bg"] = PetJournalRightInsetBg -- inherited
+PetJournalRightInset["InsetBorderTopLeft"] = PetJournalRightInsetInsetTopLeftCorner -- inherited
+PetJournalRightInset["InsetBorderTopRight"] = PetJournalRightInsetInsetTopRightCorner -- inherited
+PetJournalRightInset["InsetBorderBottomLeft"] = PetJournalRightInsetInsetBotLeftCorner -- inherited
+PetJournalRightInset["InsetBorderBottomRight"] = PetJournalRightInsetInsetBotRightCorner -- inherited
+PetJournalRightInset["InsetBorderTop"] = PetJournalRightInsetInsetTopBorder -- inherited
+PetJournalRightInset["InsetBorderBottom"] = PetJournalRightInsetInsetBottomBorder -- inherited
+PetJournalRightInset["InsetBorderLeft"] = PetJournalRightInsetInsetLeftBorder -- inherited
+PetJournalRightInset["InsetBorderRight"] = PetJournalRightInsetInsetRightBorder -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1262)
+--- child of PetJournalSearchBox (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+PetJournalSearchBoxClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1253)
+--- child of PetJournalSearchBox (created in template SearchBoxTemplate)
+--- @type Texture
+PetJournalSearchBoxSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L175)
 --- child of PetJournal
 --- @class PetJournal_PetJournalSearchBox : EditBox, SearchBoxTemplate
 PetJournalSearchBox = {}
+PetJournalSearchBox["clearButton"] = PetJournalSearchBoxClearButton -- inherited
+PetJournalSearchBox["searchIcon"] = PetJournalSearchBoxSearchIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L184)
 --- child of PetJournal
@@ -82,6 +203,46 @@ PetJournalSearchBox = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L196)
 --- child of PetJournal
 --- @class PetJournal_ScrollBar : EventFrame, WowTrimScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L266)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+TopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L271)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+TopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L279)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+BottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L287)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+BottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L295)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+Top = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L301)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+Bottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L307)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L313)
+--- child of  (created in template ShadowOverlayTemplate)
+--- @type Texture
+Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L217)
 --- child of PetJournalPetCard
@@ -122,6 +283,10 @@ PetJournalPetCardPetInfoFavorite = {}
 --- @field new PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_new
 --- @field newGlow Texture
 PetJournalPetCardPetInfo = {}
+PetJournalPetCardPetInfo["icon"] = PetJournalPetCardPetInfoIcon
+PetJournalPetCardPetInfo["name"] = PetJournalPetCardPetInfoName
+PetJournalPetCardPetInfo["subName"] = PetJournalPetCardPetInfoSubName
+PetJournalPetCardPetInfo["favorite"] = PetJournalPetCardPetInfoFavorite
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L310)
 --- child of 
@@ -145,6 +310,7 @@ PetJournalPetCardPetInfo = {}
 --- @field modelScene PetJournal_PetJournalPetCard_modelScene
 --- @field PetBackground Texture
 PetJournalPetCard = {}
+PetJournalPetCard["PetInfo"] = PetJournalPetCardPetInfo
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L326)
 --- child of PetJournal
@@ -163,4 +329,9 @@ PetJournalSummonButton = {}
 --- @field PetCard PetJournal_PetJournalPetCard
 --- @field SummonButton PetJournal_PetJournalSummonButton
 PetJournal = {}
+PetJournal["LeftInset"] = PetJournalLeftInset
+PetJournal["RightInset"] = PetJournalRightInset
+PetJournal["searchBox"] = PetJournalSearchBox
+PetJournal["PetCard"] = PetJournalPetCard
+PetJournal["SummonButton"] = PetJournalSummonButton
 

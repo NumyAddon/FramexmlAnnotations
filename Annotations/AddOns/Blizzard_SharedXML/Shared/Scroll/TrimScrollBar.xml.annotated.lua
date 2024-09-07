@@ -18,6 +18,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L70)
 --- child of 
 --- @class WowTrimScrollBar_Track_Thumb : EventButton, WowTrimScrollBarThumbScripts
+--- @field mouseDownSoundKitID any # SOUNDKIT.U_CHAT_SCROLL_BUTTON
 --- @field Middle Texture
 --- @field Begin Texture
 --- @field End Texture
@@ -30,18 +31,21 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L115)
 --- child of WowTrimScrollBar
 --- @class WowTrimScrollBar_Back : EventButton, WowTrimScrollBarStepperScripts
+--- @field direction any # ScrollControllerMixin.Directions.Decrease
 --- @field Texture Texture
 --- @field Overlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L136)
 --- child of WowTrimScrollBar
 --- @class WowTrimScrollBar_Forward : EventButton, WowTrimScrollBarStepperScripts
+--- @field direction any # ScrollControllerMixin.Directions.Increase
 --- @field Texture Texture
 --- @field Overlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L25)
 --- Template
 --- @class WowTrimScrollBar : EventFrame, VerticalScrollBarTemplate, WowTrimScrollBarMixin
+--- @field minThumbExtent number # 23
 --- @field Background WowTrimScrollBar_Background
 --- @field Track WowTrimScrollBar_Track
 --- @field Back WowTrimScrollBar_Back
@@ -58,6 +62,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L208)
 --- child of 
 --- @class WowTrimHorizontalScrollBar_Track_Thumb : EventButton, WowTrimScrollBarThumbScripts
+--- @field isHorizontal boolean # true
 --- @field Middle Texture
 --- @field Begin Texture
 --- @field End Texture
@@ -70,18 +75,21 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L255)
 --- child of WowTrimHorizontalScrollBar
 --- @class WowTrimHorizontalScrollBar_Back : EventButton, WowTrimScrollBarStepperScripts
+--- @field direction any # ScrollControllerMixin.Directions.Decrease
 --- @field Texture Texture
 --- @field Overlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L276)
 --- child of WowTrimHorizontalScrollBar
 --- @class WowTrimHorizontalScrollBar_Forward : EventButton, WowTrimScrollBarStepperScripts
+--- @field direction any # ScrollControllerMixin.Directions.Increase
 --- @field Texture Texture
 --- @field Overlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L163)
 --- Template
 --- @class WowTrimHorizontalScrollBar : EventFrame, HorizontalScrollBarTemplate, WowTrimScrollBarMixin
+--- @field minThumbExtent number # 23
 --- @field Background WowTrimHorizontalScrollBar_Background
 --- @field Track WowTrimHorizontalScrollBar_Track
 --- @field Back WowTrimHorizontalScrollBar_Back

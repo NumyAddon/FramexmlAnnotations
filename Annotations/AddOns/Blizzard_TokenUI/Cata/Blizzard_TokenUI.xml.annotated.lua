@@ -16,10 +16,22 @@
 --- @field categoryRight Texture
 --- @field categoryMiddle Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L51)
+--- child of TokenFrameContainerScrollBar (created in template HybridScrollBarTemplate)
+--- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
+TokenFrameContainerScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L60)
+--- child of TokenFrameContainerScrollBar (created in template HybridScrollBarTemplate)
+--- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
+TokenFrameContainerScrollBarScrollDownButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L152)
 --- child of TokenFrameContainer
 --- @class TokenFrame_TokenFrameContainer_TokenFrameContainerScrollBar : Slider, HybridScrollBarTemplate
 TokenFrameContainerScrollBar = {}
+TokenFrameContainerScrollBar["ScrollUpButton"] = TokenFrameContainerScrollBarScrollUpButton -- inherited
+TokenFrameContainerScrollBar["ScrollDownButton"] = TokenFrameContainerScrollBarScrollDownButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L149)
 --- child of TokenFrame
@@ -34,15 +46,27 @@ TokenFrame = {}
 --- child of TokenFramePopup
 --- @class TokenFramePopup_Border : Frame, SecureDialogBorderTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L21)
+--- child of TokenFramePopupInactiveCheckbox (created in template OptionsSmallCheckButtonTemplate)
+--- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+TokenFramePopupInactiveCheckboxText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L213)
 --- child of TokenFramePopup
 --- @class TokenFramePopup_TokenFramePopupInactiveCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
 TokenFramePopupInactiveCheckbox = {}
+TokenFramePopupInactiveCheckbox["Text"] = TokenFramePopupInactiveCheckboxText -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L21)
+--- child of TokenFramePopupBackpackCheckbox (created in template OptionsSmallCheckButtonTemplate)
+--- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+TokenFramePopupBackpackCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L247)
 --- child of TokenFramePopup
 --- @class TokenFramePopup_TokenFramePopupBackpackCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
 TokenFramePopupBackpackCheckbox = {}
+TokenFramePopupBackpackCheckbox["Text"] = TokenFramePopupBackpackCheckboxText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L285)
 --- child of TokenFramePopup
@@ -74,15 +98,45 @@ TokenFramePopup = {}
 --- @field count BackpackTokenTemplate_BackpackTokenTemplateCount
 --- @field icon Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L407)
+--- child of BackpackTokenFrameToken1 (created in template BackpackTokenTemplate)
+--- @type BackpackTokenTemplate_BackpackTokenTemplateCount
+BackpackTokenFrameToken1Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L415)
+--- child of BackpackTokenFrameToken1 (created in template BackpackTokenTemplate)
+--- @type Texture
+BackpackTokenFrameToken1Icon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L356)
 --- child of BackpackTokenFrame
 --- @class BackpackTokenFrame_BackpackTokenFrameToken1 : Button, BackpackTokenTemplate
 BackpackTokenFrameToken1 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L407)
+--- child of BackpackTokenFrameToken2 (created in template BackpackTokenTemplate)
+--- @type BackpackTokenTemplate_BackpackTokenTemplateCount
+BackpackTokenFrameToken2Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L415)
+--- child of BackpackTokenFrameToken2 (created in template BackpackTokenTemplate)
+--- @type Texture
+BackpackTokenFrameToken2Icon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L363)
 --- child of BackpackTokenFrame
 --- @class BackpackTokenFrame_BackpackTokenFrameToken2 : Button, BackpackTokenTemplate
 BackpackTokenFrameToken2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L407)
+--- child of BackpackTokenFrameToken3 (created in template BackpackTokenTemplate)
+--- @type BackpackTokenTemplate_BackpackTokenTemplateCount
+BackpackTokenFrameToken3Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L415)
+--- child of BackpackTokenFrameToken3 (created in template BackpackTokenTemplate)
+--- @type Texture
+BackpackTokenFrameToken3Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L370)
 --- child of BackpackTokenFrame

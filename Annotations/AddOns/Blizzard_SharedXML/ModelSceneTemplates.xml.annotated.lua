@@ -3,14 +3,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L3)
 --- Template
 --- @class ModifyOrbitCameraBaseButtonTemplate : Button, ModifyOrbitCameraButtonMixin
+--- @field interpolationEnabled boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L15)
 --- Template
 --- @class RotateOrbitCameraLeftButtonTemplate : Button, ModifyOrbitCameraBaseButtonTemplate
+--- @field cameraMode any # ORBIT_CAMERA_MOUSE_MODE_YAW_ROTATION
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L30)
 --- Template
 --- @class RotateOrbitCameraRightButtonTemplate : Button, ModifyOrbitCameraBaseButtonTemplate
+--- @field cameraMode any # ORBIT_CAMERA_MOUSE_MODE_YAW_ROTATION
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L60)
 --- child of WrappedModelSceneTemplate
@@ -20,6 +23,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L45)
 --- Template
 --- @class WrappedModelSceneTemplate : ModelScene, ModelSceneMixinTemplate, WrappedModelSceneMixin
+--- @field normalIntensity number # 0.75
 --- @field UnwrapAnim WrappedModelSceneTemplate_UnwrapAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L81)
@@ -30,6 +34,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L66)
 --- Template
 --- @class NonInteractableWrappedModelSceneTemplate : ModelScene, NonInteractableModelSceneMixinTemplate, WrappedModelSceneMixin
+--- @field normalIntensity number # 0.75
 --- @field UnwrapAnim NonInteractableWrappedModelSceneTemplate_UnwrapAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L89)

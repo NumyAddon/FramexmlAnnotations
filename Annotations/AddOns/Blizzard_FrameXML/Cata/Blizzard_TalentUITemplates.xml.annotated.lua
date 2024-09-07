@@ -28,6 +28,30 @@
 --- child of TalentButtonTemplate
 --- @class TalentButtonTemplate_TalentButtonTemplateRank : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/Blizzard_TalentUITemplates.xml#L85)
+--- child of TalentButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/Blizzard_TalentUITemplates.xml#L88)
+--- child of TalentButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateCount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/Blizzard_TalentUITemplates.xml#L97)
+--- child of TalentButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateStock
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/Blizzard_TalentUITemplates.xml#L108)
+--- child of TalentButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/Blizzard_TalentUITemplates.xml#L127)
+--- child of TalentButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/Blizzard_TalentUITemplates.xml#L135)
+--- child of TalentButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/Blizzard_TalentUITemplates.xml#L19)
 --- Template
 --- @class TalentButtonTemplate : Button, ItemButtonTemplate

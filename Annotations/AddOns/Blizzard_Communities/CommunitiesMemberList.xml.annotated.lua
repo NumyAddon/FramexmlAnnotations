@@ -23,6 +23,42 @@
 --- child of CommunitiesMemberListEntryTemplate
 --- @class CommunitiesMemberListEntryTemplate_MemberMuteButton : Button, RosterMemberMuteButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L985)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L992)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L999)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1006)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1013)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1021)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1029)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1037)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1045)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L51)
 --- child of CommunitiesMemberListEntryTemplate
 --- @class CommunitiesMemberListEntryTemplate_CancelInvitationButton : Button, UIMenuButtonStretchTemplate
@@ -100,6 +136,10 @@
 --- @field Watermark Texture
 --- @field WatermarkCircleMask MaskTexture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L468)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L276)
 --- child of CommunitiesMemberListFrameTemplate
 --- @class CommunitiesMemberListFrameTemplate_ShowOfflineButton : CheckButton, UICheckButtonTemplate
@@ -127,6 +167,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L290)
 --- child of CommunitiesMemberListFrameTemplate
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay : Frame, ColumnDisplayTemplate
+--- @field sortingFunction any # CommunitiesMemberListColumnDisplay_OnClick
 --- @field InsetBorderTopLeft CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopLeft
 --- @field InsetBorderTopRight CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopRight
 --- @field InsetBorderBottomLeft CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderBottomLeft
@@ -141,6 +182,42 @@
 --- child of CommunitiesMemberListFrameTemplate
 --- @class CommunitiesMemberListFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 --- @field Background Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L796)
+--- child of  (created in template InsetFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L804)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L809)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L815)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L821)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L827)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L833)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L839)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L845)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L347)
 --- child of CommunitiesMemberListFrameTemplate

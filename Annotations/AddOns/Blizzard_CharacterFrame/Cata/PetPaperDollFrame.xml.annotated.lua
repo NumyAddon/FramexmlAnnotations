@@ -38,10 +38,54 @@ PetModelFrameRotateRightButton = {}
 --- @class PetPaperDollFrame_PetModelFrame_PetPaperDollPetInfo : Frame
 PetPaperDollPetInfo = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L266)
+--- child of PetModelFrameShadowOverlay (created in template ShadowOverlayTemplate)
+--- @type Texture
+PetModelFrameShadowOverlayTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L271)
+--- child of PetModelFrameShadowOverlay (created in template ShadowOverlayTemplate)
+--- @type Texture
+PetModelFrameShadowOverlayTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L279)
+--- child of PetModelFrameShadowOverlay (created in template ShadowOverlayTemplate)
+--- @type Texture
+PetModelFrameShadowOverlayBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L287)
+--- child of PetModelFrameShadowOverlay (created in template ShadowOverlayTemplate)
+--- @type Texture
+PetModelFrameShadowOverlayBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L295)
+--- child of PetModelFrameShadowOverlay (created in template ShadowOverlayTemplate)
+--- @type Texture
+PetModelFrameShadowOverlayTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L301)
+--- child of PetModelFrameShadowOverlay (created in template ShadowOverlayTemplate)
+--- @type Texture
+PetModelFrameShadowOverlayBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L307)
+--- child of PetModelFrameShadowOverlay (created in template ShadowOverlayTemplate)
+--- @type Texture
+PetModelFrameShadowOverlayLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L313)
+--- child of PetModelFrameShadowOverlay (created in template ShadowOverlayTemplate)
+--- @type Texture
+PetModelFrameShadowOverlayRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L192)
 --- child of PetModelFrame
 --- @class PetPaperDollFrame_PetModelFrame_PetModelFrameShadowOverlay : Frame, ShadowOverlayTemplate
 PetModelFrameShadowOverlay = {}
+PetModelFrameShadowOverlay["TopLeft"] = PetModelFrameShadowOverlayTopLeft -- inherited
+PetModelFrameShadowOverlay["TopRight"] = PetModelFrameShadowOverlayTopRight -- inherited
+PetModelFrameShadowOverlay["BottomLeft"] = PetModelFrameShadowOverlayBottomLeft -- inherited
+PetModelFrameShadowOverlay["BottomRight"] = PetModelFrameShadowOverlayBottomRight -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L121)
 --- child of PetPaperDollFrame

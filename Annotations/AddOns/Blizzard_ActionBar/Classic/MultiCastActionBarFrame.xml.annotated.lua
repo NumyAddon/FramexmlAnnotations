@@ -15,6 +15,118 @@
 --- child of MultiCastSpellButton
 --- @class MultiCastSpellButton_MultiCastSpellButtonHotKey : FontString, NumberFontNormalSmallGray
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L15)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L22)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L29)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L36)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L43)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L50)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L57)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L64)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L71)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L78)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L85)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L92)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L99)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L106)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L113)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L120)
+--- child of MultiCastSpellButtonShine (created in template AutoCastShineTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L94)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L100)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L23)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L26)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L27)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L32)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L39)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L40)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L46)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L53)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L59)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L110)
+--- child of MultiCastSpellButton (created in template ActionButtonTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L69)
 --- Template
 --- @class MultiCastSpellButton : CheckButton, SecureFrameTemplate, ActionButtonTemplate
@@ -46,6 +158,8 @@ MultiCastFlyoutFrameMiddle = {}
 --- @field top MultiCastActionBarFrame_MultiCastFlyoutFrame_MultiCastFlyoutFrameTop
 --- @field middle MultiCastActionBarFrame_MultiCastFlyoutFrame_MultiCastFlyoutFrameMiddle
 MultiCastFlyoutFrame = {}
+MultiCastFlyoutFrame["top"] = MultiCastFlyoutFrameTop
+MultiCastFlyoutFrame["middle"] = MultiCastFlyoutFrameMiddle
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L213)
 --- child of MultiCastActionBarFrame
@@ -58,11 +172,22 @@ MultiCastFlyoutFrameOpenButton = {}
 --- @class MultiCastActionBarFrame_MultiCastSummonSpellButton_MultiCastSummonSpellButtonFlyoutButton : Button
 MultiCastSummonSpellButtonFlyoutButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L82)
+--- child of MultiCastSummonSpellButton (created in template MultiCastSpellButton)
+--- @type MultiCastSpellButton_MultiCastSpellButtonHotKey
+MultiCastSummonSpellButtonHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L96)
+--- child of MultiCastSummonSpellButton (created in template MultiCastSpellButton)
+--- @type Texture
+MultiCastSummonSpellButtonHighlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L233)
 --- child of MultiCastActionBarFrame
 --- @class MultiCastActionBarFrame_MultiCastSummonSpellButton : CheckButton, MultiCastSpellButton
 --- @field flyoutButton MultiCastActionBarFrame_MultiCastSummonSpellButton_MultiCastSummonSpellButtonFlyoutButton
 MultiCastSummonSpellButton = {}
+MultiCastSummonSpellButton["flyoutButton"] = MultiCastSummonSpellButtonFlyoutButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L285)
 --- child of MultiCastActionBarFrame
@@ -158,6 +283,16 @@ MultiCastActionButton12 = {}
 --- child of MultiCastActionBarFrame
 --- @class MultiCastActionBarFrame_MultiCastActionPage3 : Frame
 MultiCastActionPage3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L82)
+--- child of MultiCastRecallSpellButton (created in template MultiCastSpellButton)
+--- @type MultiCastSpellButton_MultiCastSpellButtonHotKey
+MultiCastRecallSpellButtonHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L96)
+--- child of MultiCastRecallSpellButton (created in template MultiCastSpellButton)
+--- @type Texture
+MultiCastRecallSpellButtonHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L465)
 --- child of MultiCastActionBarFrame

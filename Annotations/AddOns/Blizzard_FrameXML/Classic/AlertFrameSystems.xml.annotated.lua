@@ -453,6 +453,7 @@ AlertFrameSystemsRegistrar = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L884)
 --- Template
 --- @class LootWonAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
+--- @field numArrows number # 5
 --- @field Background Texture
 --- @field PvPBackground Texture
 --- @field RatedPvPBackground Texture
@@ -533,6 +534,7 @@ AlertFrameSystemsRegistrar = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L1098)
 --- Template
 --- @class LootUpgradeFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
+--- @field numArrows number # 5
 --- @field Background Texture
 --- @field BaseQualityBorder Texture
 --- @field Icon Texture
@@ -821,6 +823,7 @@ AlertFrameSystemsRegistrar = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L1841)
 --- child of GarrisonFollowerAlertFrameTemplate
 --- @class GarrisonFollowerAlertFrameTemplate_Arrows : Frame
+--- @field numArrows number # 5
 --- @field Arrow1 GarrisonFollowerAlertFrameTemplate_Arrows_Arrow1
 --- @field Arrow2 GarrisonFollowerAlertFrameTemplate_Arrows_Arrow2
 --- @field Arrow3 GarrisonFollowerAlertFrameTemplate_Arrows_Arrow3

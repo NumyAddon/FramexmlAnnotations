@@ -104,10 +104,16 @@ MiniMapTrackingIconOverlay = {}
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapTracking : Frame
 MiniMapTracking = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L32)
+--- child of MiniMapLFGFrameIcon (created in template EyeTemplate)
+--- @type Texture
+MiniMapLFGFrameIconTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L452)
 --- child of MiniMapLFGFrame
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameIcon : Frame, EyeTemplate
 MiniMapLFGFrameIcon = {}
+MiniMapLFGFrameIcon["Texture"] = MiniMapLFGFrameIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L437)
 --- child of MiniMapLFGFrame
@@ -119,6 +125,7 @@ MiniMapLFGFrameBorder = {}
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame : Button, MiniMapButtonTemplate
 --- @field eye MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameIcon
 MiniMapLFGFrame = {}
+MiniMapLFGFrame["eye"] = MiniMapLFGFrameIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L468)
 --- child of MinimapBackdrop
@@ -212,6 +219,9 @@ GuildInstanceDifficultyHanger = {}
 --- @field emblem MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyEmblem
 --- @field border MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyBorder
 GuildInstanceDifficulty = {}
+GuildInstanceDifficulty["background"] = GuildInstanceDifficultyBackground
+GuildInstanceDifficulty["emblem"] = GuildInstanceDifficultyEmblem
+GuildInstanceDifficulty["border"] = GuildInstanceDifficultyBorder
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L45)
 --- child of MinimapCluster

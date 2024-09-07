@@ -224,6 +224,51 @@
 --- child of CommunitiesGuildNewsFiltersFrame
 --- @class CommunitiesGuildNewsFiltersFrame_Title : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1331)
+--- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
+--- @type Texture
+CommunitiesGuildNewsFiltersFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1340)
+--- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopLeftCorner
+CommunitiesGuildNewsFiltersFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1345)
+--- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopRightCorner
+CommunitiesGuildNewsFiltersFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1350)
+--- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomLeftCorner
+CommunitiesGuildNewsFiltersFrameBottomLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1355)
+--- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomRightCorner
+CommunitiesGuildNewsFiltersFrameBottomRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1360)
+--- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopBorder
+CommunitiesGuildNewsFiltersFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1366)
+--- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomBorder
+CommunitiesGuildNewsFiltersFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1372)
+--- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateLeftBorder
+CommunitiesGuildNewsFiltersFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1378)
+--- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateRightBorder
+CommunitiesGuildNewsFiltersFrameRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L384)
 --- @class CommunitiesGuildNewsFiltersFrame : Frame, TranslucentFrameTemplate
 --- @field CloseButton CommunitiesGuildNewsFiltersFrame_CloseButton
@@ -236,4 +281,13 @@
 --- @field LegendaryItemLooted CommunitiesGuildNewsFiltersFrame_LegendaryItemLooted
 --- @field Title CommunitiesGuildNewsFiltersFrame_Title
 CommunitiesGuildNewsFiltersFrame = {}
+CommunitiesGuildNewsFiltersFrame["Bg"] = CommunitiesGuildNewsFiltersFrameBg -- inherited
+CommunitiesGuildNewsFiltersFrame["TopLeftCorner"] = CommunitiesGuildNewsFiltersFrameTopLeftCorner -- inherited
+CommunitiesGuildNewsFiltersFrame["TopRightCorner"] = CommunitiesGuildNewsFiltersFrameTopRightCorner -- inherited
+CommunitiesGuildNewsFiltersFrame["BottomLeftCorner"] = CommunitiesGuildNewsFiltersFrameBottomLeftCorner -- inherited
+CommunitiesGuildNewsFiltersFrame["BottomRightCorner"] = CommunitiesGuildNewsFiltersFrameBottomRightCorner -- inherited
+CommunitiesGuildNewsFiltersFrame["TopBorder"] = CommunitiesGuildNewsFiltersFrameTopBorder -- inherited
+CommunitiesGuildNewsFiltersFrame["BottomBorder"] = CommunitiesGuildNewsFiltersFrameBottomBorder -- inherited
+CommunitiesGuildNewsFiltersFrame["LeftBorder"] = CommunitiesGuildNewsFiltersFrameLeftBorder -- inherited
+CommunitiesGuildNewsFiltersFrame["RightBorder"] = CommunitiesGuildNewsFiltersFrameRightBorder -- inherited
 

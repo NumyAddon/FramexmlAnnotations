@@ -1,5 +1,14 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1262)
+--- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1253)
+--- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L4)
 --- Template
 --- @class BagSearchBoxTemplate : EditBox, SearchBoxTemplate
@@ -11,6 +20,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L19)
 --- Template
 --- @class AnimatedShineTemplate : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L159)
+--- child of UIServiceButtonTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L185)
+--- child of UIServiceButtonTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L225)
+--- child of UIServiceButtonTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L265)
+--- child of UIServiceButtonTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L83)
 --- child of UIServiceButtonTemplate
@@ -608,6 +633,10 @@
 --- @field BorderTopMiddle Texture
 --- @field BorderBottomMiddle Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L657)
+--- child of EtherealFrameTemplate (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1203)
 --- Template
 --- @class EtherealFrameTemplate : Frame, PortraitFrameTemplate
@@ -778,6 +807,91 @@ HelpPlate = {}
 --- child of HelpPlateTooltip
 --- @class HelpPlateTooltip_LingerAndFade : AnimationGroup
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2081)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type Texture
+HelpPlateTooltipBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2094)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
+HelpPlateTooltipGlowTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2099)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
+HelpPlateTooltipGlowTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2105)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
+HelpPlateTooltipGlowBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2111)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
+HelpPlateTooltipGlowBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2117)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
+HelpPlateTooltipGlowTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2123)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
+HelpPlateTooltipGlowBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2129)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
+HelpPlateTooltipGlowLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2135)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
+HelpPlateTooltipGlowRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2143)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
+HelpPlateTooltipShadowTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2148)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
+HelpPlateTooltipShadowTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2154)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
+HelpPlateTooltipShadowBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2160)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
+HelpPlateTooltipShadowBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2166)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
+HelpPlateTooltipShadowTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2172)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
+HelpPlateTooltipShadowBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2178)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
+HelpPlateTooltipShadowLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2184)
+--- child of HelpPlateTooltip (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
+HelpPlateTooltipShadowRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1711)
 --- @class HelpPlateTooltip : Frame, GlowBoxTemplate
 --- @field Text HelpPlateTooltip_Text
@@ -791,6 +905,23 @@ HelpPlate = {}
 --- @field ArrowGlowLEFT HelpPlateTooltip_ArrowGlowLEFT
 --- @field LingerAndFade HelpPlateTooltip_LingerAndFade
 HelpPlateTooltip = {}
+HelpPlateTooltip["BG"] = HelpPlateTooltipBg -- inherited
+HelpPlateTooltip["GlowTopLeft"] = HelpPlateTooltipGlowTopLeft -- inherited
+HelpPlateTooltip["GlowTopRight"] = HelpPlateTooltipGlowTopRight -- inherited
+HelpPlateTooltip["GlowBottomLeft"] = HelpPlateTooltipGlowBottomLeft -- inherited
+HelpPlateTooltip["GlowBottomRight"] = HelpPlateTooltipGlowBottomRight -- inherited
+HelpPlateTooltip["GlowTop"] = HelpPlateTooltipGlowTop -- inherited
+HelpPlateTooltip["GlowBottom"] = HelpPlateTooltipGlowBottom -- inherited
+HelpPlateTooltip["GlowLeft"] = HelpPlateTooltipGlowLeft -- inherited
+HelpPlateTooltip["GlowRight"] = HelpPlateTooltipGlowRight -- inherited
+HelpPlateTooltip["ShadowTopLeft"] = HelpPlateTooltipShadowTopLeft -- inherited
+HelpPlateTooltip["ShadowTopRight"] = HelpPlateTooltipShadowTopRight -- inherited
+HelpPlateTooltip["ShadowBottomLeft"] = HelpPlateTooltipShadowBottomLeft -- inherited
+HelpPlateTooltip["ShadowBottomRight"] = HelpPlateTooltipShadowBottomRight -- inherited
+HelpPlateTooltip["ShadowTop"] = HelpPlateTooltipShadowTop -- inherited
+HelpPlateTooltip["ShadowBottom"] = HelpPlateTooltipShadowBottom -- inherited
+HelpPlateTooltip["ShadowLeft"] = HelpPlateTooltipShadowLeft -- inherited
+HelpPlateTooltip["ShadowRight"] = HelpPlateTooltipShadowRight -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1823)
 --- child of HelpPlateButton
@@ -816,10 +947,15 @@ HelpPlateTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1861)
 --- Template
 --- @class InlineHyperlinkFrameTemplate : Frame
+--- @field tooltipFrame any # GameTooltip
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1875)
 --- child of UIExpandingButtonTemplate
 --- @class UIExpandingButtonTemplate_Label : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L200)
+--- child of UIExpandingButtonTemplate (created in template UIPanelSquareButton)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1872)
 --- Template

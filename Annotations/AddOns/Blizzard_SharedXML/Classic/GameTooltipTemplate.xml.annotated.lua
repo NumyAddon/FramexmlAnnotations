@@ -118,6 +118,22 @@
 --- child of TooltipMoneyFrameTemplate
 --- @class TooltipMoneyFrameTemplate_TooltipMoneyFrameTemplateSuffixText : FontString, GameFontHighlight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L159)
+--- child of TooltipMoneyFrameTemplate (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L185)
+--- child of TooltipMoneyFrameTemplate (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L225)
+--- child of TooltipMoneyFrameTemplate (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L265)
+--- child of TooltipMoneyFrameTemplate (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L366)
 --- Template
 --- @class TooltipMoneyFrameTemplate : Frame, SmallMoneyFrameTemplate

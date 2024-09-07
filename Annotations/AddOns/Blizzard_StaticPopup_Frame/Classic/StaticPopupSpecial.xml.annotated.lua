@@ -14,11 +14,36 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L3)
 --- @class PetBattleQueueReadyFrame : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field AcceptButton PetBattleQueueReadyFrame_AcceptButton
 --- @field DeclineButton PetBattleQueueReadyFrame_DeclineButton
 --- @field Art Texture
 --- @field Label PetBattleQueueReadyFrame_Label
 PetBattleQueueReadyFrame = {}
+PetBattleQueueReadyFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L10)
+--- child of ScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+ScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L18)
+--- child of ScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+ScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L30)
+--- child of ScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+ScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L46)
+--- child of  (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+ScrollBar = {}
+ScrollBar["ScrollUpButton"] = ScrollBarScrollUpButton -- inherited
+ScrollBar["ScrollDownButton"] = ScrollBarScrollDownButton -- inherited
+ScrollBar["ThumbTexture"] = ScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L148)
 --- child of 
@@ -56,10 +81,12 @@ PetBattleQueueReadyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L62)
 --- @class PlayerReportFrame : Frame, BackdropTemplate, PlayerReportFrameMixin
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field Comment PlayerReportFrame_Comment
 --- @field ReportButton PlayerReportFrame_ReportButton
 --- @field CancelButton PlayerReportFrame_CancelButton
 --- @field Title PlayerReportFrame_Title
 --- @field Name PlayerReportFrame_Name
 PlayerReportFrame = {}
+PlayerReportFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 

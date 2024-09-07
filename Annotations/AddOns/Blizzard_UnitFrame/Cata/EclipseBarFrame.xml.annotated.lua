@@ -87,4 +87,13 @@ EclipseBarFramePowertext = {}
 --- @field moonActivate EclipseBarFrame_moonActivate
 --- @field moonDeactivate EclipseBarFrame_moonDeactivate
 EclipseBarFrame = {}
+EclipseBarFrame["sun"] = EclipseBarFrameSun
+EclipseBarFrame["moon"] = EclipseBarFrameMoon
+EclipseBarFrame["darkSun"] = EclipseBarFrameDarkSun
+EclipseBarFrame["darkMoon"] = EclipseBarFrameDarkMoon
+EclipseBarFrame["sunBar"] = EclipseBarFrameSunBar
+EclipseBarFrame["moonBar"] = EclipseBarFrameMoonBar
+EclipseBarFrame["marker"] = EclipseBarFrameMarker
+EclipseBarFrame["glow"] = EclipseBarFrameGlow
+EclipseBarFrame["powerText"] = EclipseBarFramePowertext
 

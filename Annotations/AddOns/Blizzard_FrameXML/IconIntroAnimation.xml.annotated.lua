@@ -17,17 +17,65 @@
 --- @field flyin IconIntroAnimTemplate_flyin
 --- @field glow IconIntroAnimTemplate_glow
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L38)
+--- child of IconIntroTemplateIconTrail3 (created in template IconIntroAnimTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L40)
+--- child of IconIntroTemplateIconTrail3 (created in template IconIntroAnimTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L44)
+--- child of IconIntroTemplateIconTrail3 (created in template IconIntroAnimTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L59)
 --- child of IconIntroTemplate
 --- @class IconIntroTemplate_IconIntroTemplateIconTrail3 : Frame, IconIntroAnimTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L38)
+--- child of IconIntroTemplateIconTrail2 (created in template IconIntroAnimTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L40)
+--- child of IconIntroTemplateIconTrail2 (created in template IconIntroAnimTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L44)
+--- child of IconIntroTemplateIconTrail2 (created in template IconIntroAnimTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L65)
 --- child of IconIntroTemplate
 --- @class IconIntroTemplate_IconIntroTemplateIconTrail2 : Frame, IconIntroAnimTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L38)
+--- child of IconIntroTemplateIconTrail1 (created in template IconIntroAnimTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L40)
+--- child of IconIntroTemplateIconTrail1 (created in template IconIntroAnimTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L44)
+--- child of IconIntroTemplateIconTrail1 (created in template IconIntroAnimTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L71)
 --- child of IconIntroTemplate
 --- @class IconIntroTemplate_IconIntroTemplateIconTrail1 : Frame, IconIntroAnimTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L38)
+--- child of IconIntroTemplateIcon (created in template IconIntroAnimTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L40)
+--- child of IconIntroTemplateIcon (created in template IconIntroAnimTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L44)
+--- child of IconIntroTemplateIcon (created in template IconIntroAnimTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L77)
 --- child of IconIntroTemplate

@@ -3,10 +3,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L26)
 --- child of SettingsPanel
 --- @class SettingsPanel_GameTab : Button, MinimalTabTemplate
+--- @field tabText any # SETTINGS_TAB_GAME
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L36)
 --- child of SettingsPanel
 --- @class SettingsPanel_AddOnsTab : Button, MinimalTabTemplate
+--- @field tabText any # SETTINGS_TAB_ADDONS
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L46)
 --- child of SettingsPanel
@@ -29,6 +31,17 @@
 --- @class SettingsPanel_Container : Frame
 --- @field SettingsCanvas Frame
 --- @field SettingsList SettingsPanel_Container_SettingsList
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1256)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+ClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1247)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+SearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L76)
 --- child of SettingsPanel
@@ -57,5 +70,7 @@ SettingsPanel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L116)
 --- @class SettingsTooltip : GameTooltip, SharedTooltipTemplate, DefaultScaleFrame
+--- @field maxScale any # .75
 SettingsTooltip = {}
+SettingsTooltip["maxScale"] = .75
 

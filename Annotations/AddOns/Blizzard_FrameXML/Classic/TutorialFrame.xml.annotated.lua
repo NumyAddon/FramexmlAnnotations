@@ -5,10 +5,16 @@
 --- @class TutorialFrame_TutorialFrameCheckButton_TutorialFrameCheckboxText : FontString, GameFontNormalSmall
 TutorialFrameCheckboxText = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L468)
+--- child of TutorialFrameCheckButton (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+TutorialFrameCheckButtonText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L48)
 --- child of TutorialFrame
 --- @class TutorialFrame_TutorialFrameCheckButton : CheckButton, UICheckButtonTemplate
 TutorialFrameCheckButton = {}
+TutorialFrameCheckButton["Text"] = TutorialFrameCheckButtonText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L92)
 --- child of TutorialFrameOkayButton
@@ -35,7 +41,9 @@ TutorialFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L3)
 --- @class TutorialFrame : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_TUTORIAL_16_16
 TutorialFrame = {}
+TutorialFrame["backdropInfo"] = BACKDROP_TUTORIAL_16_16
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L114)
 --- Template

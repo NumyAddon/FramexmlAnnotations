@@ -49,4 +49,5 @@ CompactRaidFrameContainerBorderFrame = {}
 --- @class CompactRaidFrameContainer : Frame
 --- @field borderFrame CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame
 CompactRaidFrameContainer = {}
+CompactRaidFrameContainer["borderFrame"] = CompactRaidFrameContainerBorderFrame
 

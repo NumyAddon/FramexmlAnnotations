@@ -28,39 +28,138 @@ PetStableModel = {}
 --- child of PetStableCurrentPet
 --- @class  : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L44)
+--- child of PetStableCurrentPet (created in template PetStableSlotTemplate)
+--- @type Texture
+PetStableCurrentPetIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L47)
+--- child of PetStableCurrentPet (created in template PetStableSlotTemplate)
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
+PetStableCurrentPetBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L54)
+--- child of PetStableCurrentPet (created in template PetStableSlotTemplate)
+--- @type Texture
+PetStableCurrentPetChecked = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L286)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableCurrentPet : CheckButton, PetStableSlotTemplate
 PetStableCurrentPet = {}
+PetStableCurrentPet["Background"] = PetStableCurrentPetBackground -- inherited
+PetStableCurrentPet["Checked"] = PetStableCurrentPetChecked -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L318)
 --- child of PetStableStabledPet1
 --- @class  : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L44)
+--- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
+--- @type Texture
+PetStableStabledPet1IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L47)
+--- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
+PetStableStabledPet1Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L54)
+--- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
+--- @type Texture
+PetStableStabledPet1Checked = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L308)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet1 : CheckButton, PetStableSlotTemplate
 PetStableStabledPet1 = {}
+PetStableStabledPet1["Background"] = PetStableStabledPet1Background -- inherited
+PetStableStabledPet1["Checked"] = PetStableStabledPet1Checked -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L44)
+--- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
+--- @type Texture
+PetStableStabledPet2IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L47)
+--- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
+PetStableStabledPet2Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L54)
+--- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
+--- @type Texture
+PetStableStabledPet2Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L330)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet2 : CheckButton, PetStableSlotTemplate
 PetStableStabledPet2 = {}
+PetStableStabledPet2["Background"] = PetStableStabledPet2Background -- inherited
+PetStableStabledPet2["Checked"] = PetStableStabledPet2Checked -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L339)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStablePurchaseButton : Button, UIPanelButtonTemplate
 PetStablePurchaseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L159)
+--- child of PetStableMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+PetStableMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L185)
+--- child of PetStableMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+PetStableMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L225)
+--- child of PetStableMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+PetStableMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L265)
+--- child of PetStableMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+PetStableMoneyFrameGoldButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L356)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableMoneyFrame : Frame, SmallMoneyFrameTemplate
 PetStableMoneyFrame = {}
+PetStableMoneyFrame["trialErrorButton"] = PetStableMoneyFrameTrialErrorButton -- inherited
+PetStableMoneyFrame["CopperButton"] = PetStableMoneyFrameCopperButton -- inherited
+PetStableMoneyFrame["SilverButton"] = PetStableMoneyFrameSilverButton -- inherited
+PetStableMoneyFrame["GoldButton"] = PetStableMoneyFrameGoldButton -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L159)
+--- child of PetStableCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+PetStableCostMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L185)
+--- child of PetStableCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+PetStableCostMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L225)
+--- child of PetStableCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+PetStableCostMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L265)
+--- child of PetStableCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+PetStableCostMoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L370)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 PetStableCostMoneyFrame = {}
+PetStableCostMoneyFrame["trialErrorButton"] = PetStableCostMoneyFrameTrialErrorButton -- inherited
+PetStableCostMoneyFrame["CopperButton"] = PetStableCostMoneyFrameCopperButton -- inherited
+PetStableCostMoneyFrame["SilverButton"] = PetStableCostMoneyFrameSilverButton -- inherited
+PetStableCostMoneyFrame["GoldButton"] = PetStableCostMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L385)
 --- child of PetStableFrame

@@ -46,11 +46,17 @@ PVPFramePopupTimer = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L10)
 --- @class PVPFramePopup : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field closeButton PVPFramePopup_PVPFramePopupCloseButton
 --- @field ringIcon PVPFramePopup_PVPFramePopupRingIcon
 --- @field title PVPFramePopup_PVPFramePopupTitle
 --- @field timer PVPFramePopup_PVPFramePopupTimer
 PVPFramePopup = {}
+PVPFramePopup["closeButton"] = PVPFramePopupCloseButton
+PVPFramePopup["ringIcon"] = PVPFramePopupRingIcon
+PVPFramePopup["title"] = PVPFramePopupTitle
+PVPFramePopup["timer"] = PVPFramePopupTimer
+PVPFramePopup["backdropInfo"] = BACKDROP_DIALOG_32_32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L148)
 --- child of PVPReadyDialog
@@ -87,6 +93,7 @@ PVPReadyDialogAlertIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L101)
 --- @class PVPReadyDialog : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DARK_DIALOG_32_32
 --- @field CoverFrame PVPReadyDialog_CoverFrame
 --- @field extraFrame PVPReadyDialog_PVPReadyDialogExtraFrame
 --- @field enterButton PVPReadyDialog_PVPReadyDialogEnterBattleButton
@@ -95,4 +102,9 @@ PVPReadyDialogAlertIcon = {}
 --- @field SubText PVPReadyDialog_SubText
 --- @field Separator Texture
 PVPReadyDialog = {}
+PVPReadyDialog["extraFrame"] = PVPReadyDialogExtraFrame
+PVPReadyDialog["enterButton"] = PVPReadyDialogEnterBattleButton
+PVPReadyDialog["hideButton"] = PVPReadyDialogHideButton
+PVPReadyDialog["text"] = PVPReadyDialogText
+PVPReadyDialog["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32
 

@@ -109,6 +109,47 @@
 --- @field DaysUntilExpire ClubFinderPostingExpirationTemplate_DaysUntilExpire
 --- @field ExpiredText ClubFinderPostingExpirationTemplate_ExpiredText
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L163)
+--- child of GuildDetailsFrameTemplateInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateMOTDScrollFrame
+--- @field scrollBarHideTrackIfThumbExceedsTrack boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L191)
+--- child of GuildDetailsFrameTemplateInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L196)
+--- child of GuildDetailsFrameTemplateInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L201)
+--- child of GuildDetailsFrameTemplateInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L206)
+--- child of GuildDetailsFrameTemplateInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge4
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L69)
+--- child of GuildDetailsFrameTemplateInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L85)
+--- child of GuildDetailsFrameTemplateInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L119)
+--- child of GuildDetailsFrameTemplateInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L126)
+--- child of GuildDetailsFrameTemplateInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L142)
+--- child of GuildDetailsFrameTemplateInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateHeader1Label
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L164)
 --- child of GuildDetailsFrameTemplate
 --- @class GuildDetailsFrameTemplate_GuildDetailsFrameTemplateInfo : Frame, CommunitiesGuildInfoFrameTemplate
@@ -179,6 +220,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L259)
 --- child of CommunitiesControlFrameTemplate
 --- @class CommunitiesControlFrameTemplate_GuildControlButton : Button, UIPanelButtonTemplate, CommunitiesSubPanelButtonScriptTemplate
+--- @field frame any # GuildControlUI
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L268)
 --- child of CommunitiesControlFrameTemplate
@@ -212,6 +254,7 @@ CommunitiesFrameCommunitiesList = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L369)
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_ChatTab : CheckButton, CommunitiesFrameTabTemplate, CommunitiesChatTabMixin
+--- @field tooltip any # COMMUNITIES_CHAT_TAB_TOOLTIP
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L393)
 --- child of 
@@ -221,15 +264,18 @@ CommunitiesFrameCommunitiesList = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L383)
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_RosterTab : CheckButton, CommunitiesFrameTabTemplate
+--- @field tooltip any # COMMUNITIES_ROSTER_TAB_TOOLTIP
 --- @field NotificationOverlay CommunitiesFrame_RosterTab_NotificationOverlay
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L408)
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_GuildBenefitsTab : CheckButton, CommunitiesFrameTabTemplate
+--- @field tooltip any # COMMUNITIES_GUILD_BENEFITS_TAB_TOOLTIP
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L418)
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_GuildInfoTab : CheckButton, CommunitiesFrameTabTemplate
+--- @field tooltip any # COMMUNITIES_GUILD_INFO_TAB_TOOLTIP
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L428)
 --- child of CommunitiesFrame
@@ -277,6 +323,11 @@ ClubFinderGuildFinderFrame = {}
 --- @class CommunitiesFrame_ClubFinderCommunityAndGuildFinderFrame : Frame, ClubFinderGuildAndCommunityFrameTemplate
 ClubFinderCommunityAndGuildFinderFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L30)
+--- child of  (created in template CommunitiesChatTemplate)
+--- @type CommunitiesChatTemplate_JumpToUnreadButton
+JumpToUnreadButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L495)
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_Chat : Frame, CommunitiesChatTemplate
@@ -306,10 +357,78 @@ ClubFinderCommunityAndGuildFinderFrame = {}
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_GuildBenefitsFrame : Frame, GuildBenefitsFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L163)
+--- child of CommunitiesFrameGuildDetailsFrameInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateMOTDScrollFrame
+--- @field scrollBarHideTrackIfThumbExceedsTrack boolean # true
+CommunitiesFrameGuildDetailsFrameInfoMOTDScrollFrame = {}
+CommunitiesFrameGuildDetailsFrameInfoMOTDScrollFrame["scrollBarHideTrackIfThumbExceedsTrack"] = true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L191)
+--- child of CommunitiesFrameGuildDetailsFrameInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge1
+CommunitiesFrameGuildDetailsFrameInfoChallenge1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L196)
+--- child of CommunitiesFrameGuildDetailsFrameInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge2
+CommunitiesFrameGuildDetailsFrameInfoChallenge2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L201)
+--- child of CommunitiesFrameGuildDetailsFrameInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge3
+CommunitiesFrameGuildDetailsFrameInfoChallenge3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L206)
+--- child of CommunitiesFrameGuildDetailsFrameInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge4
+CommunitiesFrameGuildDetailsFrameInfoChallenge4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L69)
+--- child of CommunitiesFrameGuildDetailsFrameInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type Texture
+CommunitiesFrameGuildDetailsFrameInfoBar1Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L85)
+--- child of CommunitiesFrameGuildDetailsFrameInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type Texture
+CommunitiesFrameGuildDetailsFrameInfoBar2Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L119)
+--- child of CommunitiesFrameGuildDetailsFrameInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type Texture
+CommunitiesFrameGuildDetailsFrameInfoHeader2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L126)
+--- child of CommunitiesFrameGuildDetailsFrameInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type Texture
+CommunitiesFrameGuildDetailsFrameInfoHeader3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L142)
+--- child of CommunitiesFrameGuildDetailsFrameInfo (created in template CommunitiesGuildInfoFrameTemplate)
+--- @type CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateHeader1Label
+CommunitiesFrameGuildDetailsFrameInfoHeader1Label = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L164)
+--- child of CommunitiesFrameGuildDetailsFrame (created in template GuildDetailsFrameTemplate)
+--- @type GuildDetailsFrameTemplate_GuildDetailsFrameTemplateInfo
+CommunitiesFrameGuildDetailsFrameInfo = {}
+CommunitiesFrameGuildDetailsFrameInfo["MOTDScrollFrame"] = CommunitiesFrameGuildDetailsFrameInfoMOTDScrollFrame -- inherited
+CommunitiesFrameGuildDetailsFrameInfo["Bar1Left"] = CommunitiesFrameGuildDetailsFrameInfoBar1Left -- inherited
+CommunitiesFrameGuildDetailsFrameInfo["Header2"] = CommunitiesFrameGuildDetailsFrameInfoHeader2 -- inherited
+CommunitiesFrameGuildDetailsFrameInfo["Header1Label"] = CommunitiesFrameGuildDetailsFrameInfoHeader1Label -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L171)
+--- child of CommunitiesFrameGuildDetailsFrame (created in template GuildDetailsFrameTemplate)
+--- @type GuildDetailsFrameTemplate_GuildDetailsFrameTemplateNews
+CommunitiesFrameGuildDetailsFrameNews = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L536)
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_CommunitiesFrameGuildDetailsFrame : Frame, GuildDetailsFrameTemplate
 CommunitiesFrameGuildDetailsFrame = {}
+CommunitiesFrameGuildDetailsFrame["Info"] = CommunitiesFrameGuildDetailsFrameInfo -- inherited
+CommunitiesFrameGuildDetailsFrame["News"] = CommunitiesFrameGuildDetailsFrameNews -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L542)
 --- child of CommunitiesFrame
@@ -339,6 +458,107 @@ CommunitiesFrameGuildDetailsFrame = {}
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_NotificationSettingsDialog : Frame, CommunitiesNotificationSettingsDialogTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L280)
+--- child of  (created in template ClubsRecruitmentDialogTemplate)
+--- @type ClubsRecruitmentDialogTemplate_ClubFinderClubFocusDropdown
+ClubFinderClubFocusDropdown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L293)
+--- child of ClubFinderLookingForDropdown
+--- @class ClubsRecruitmentDialogTemplate_ClubFinderLookingForDropdown_Label : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L284)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+ClubFinderLookingForDropdownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L226)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLookingForDropdownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L239)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLookingForDropdownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L248)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLookingForDropdownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L257)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+ClubFinderLookingForDropdownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L271)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLookingForDropdownIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L286)
+--- child of  (created in template ClubsRecruitmentDialogTemplate)
+--- @type ClubsRecruitmentDialogTemplate_ClubFinderLookingForDropdown
+--- @field Label ClubsRecruitmentDialogTemplate_ClubFinderLookingForDropdown_Label
+ClubFinderLookingForDropdown = {}
+ClubFinderLookingForDropdown["Button"] = ClubFinderLookingForDropdownButton -- inherited
+ClubFinderLookingForDropdown["Left"] = ClubFinderLookingForDropdownLeft -- inherited
+ClubFinderLookingForDropdown["Middle"] = ClubFinderLookingForDropdownMiddle -- inherited
+ClubFinderLookingForDropdown["Right"] = ClubFinderLookingForDropdownRight -- inherited
+ClubFinderLookingForDropdown["Text"] = ClubFinderLookingForDropdownText -- inherited
+ClubFinderLookingForDropdown["Icon"] = ClubFinderLookingForDropdownIcon -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L309)
+--- child of ClubFinderLanguageDropdown
+--- @class ClubsRecruitmentDialogTemplate_ClubFinderLanguageDropdown_Label : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L284)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+ClubFinderLanguageDropdownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L226)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLanguageDropdownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L239)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLanguageDropdownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L248)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLanguageDropdownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L257)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+ClubFinderLanguageDropdownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L271)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLanguageDropdownIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L302)
+--- child of  (created in template ClubsRecruitmentDialogTemplate)
+--- @type ClubsRecruitmentDialogTemplate_ClubFinderLanguageDropdown
+--- @field Label ClubsRecruitmentDialogTemplate_ClubFinderLanguageDropdown_Label
+ClubFinderLanguageDropdown = {}
+ClubFinderLanguageDropdown["Button"] = ClubFinderLanguageDropdownButton -- inherited
+ClubFinderLanguageDropdown["Left"] = ClubFinderLanguageDropdownLeft -- inherited
+ClubFinderLanguageDropdown["Middle"] = ClubFinderLanguageDropdownMiddle -- inherited
+ClubFinderLanguageDropdown["Right"] = ClubFinderLanguageDropdownRight -- inherited
+ClubFinderLanguageDropdown["Text"] = ClubFinderLanguageDropdownText -- inherited
+ClubFinderLanguageDropdown["Icon"] = ClubFinderLanguageDropdownIcon -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L560)
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_RecruitmentDialog : Frame, ClubsRecruitmentDialogTemplate
@@ -358,6 +578,7 @@ CommunitiesFrameGuildDetailsFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L594)
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_GuildLogButton : Button, UIPanelButtonTemplate, CommunitiesSubPanelButtonScriptTemplate
+--- @field frame any # CommunitiesGuildLogFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L603)
 --- child of CommunitiesFrame
@@ -404,4 +625,9 @@ CommunitiesFrameGuildDetailsFrame = {}
 --- @field GuildLogButton CommunitiesFrame_GuildLogButton
 --- @field GuildMemberDetailFrame CommunitiesFrame_GuildMemberDetailFrame
 CommunitiesFrame = {}
+CommunitiesFrame["CommunitiesList"] = CommunitiesFrameCommunitiesList
+CommunitiesFrame["GuildFinderFrame"] = ClubFinderGuildFinderFrame
+CommunitiesFrame["CommunityFinderFrame"] = ClubFinderCommunityAndGuildFinderFrame
+CommunitiesFrame["GuildDetailsFrame"] = CommunitiesFrameGuildDetailsFrame
+CommunitiesFrame["layoutType"] = "PortraitFrameTemplateMinimizable" -- inherited
 

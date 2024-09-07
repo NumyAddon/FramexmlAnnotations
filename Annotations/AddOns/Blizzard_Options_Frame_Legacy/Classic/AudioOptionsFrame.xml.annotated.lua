@@ -15,7 +15,53 @@ AudioOptionsFrameOkay = {}
 --- @class AudioOptionsFrame_AudioOptionsFrameDefaults : Button, UIPanelButtonTemplate
 AudioOptionsFrameDefaults = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsFrame.xml#L10)
+--- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsFrame.xml#L18)
+--- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsFrame.xml#L30)
+--- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsFrame.xml#L142)
+--- child of OptionsFrameListTemplateList
+--- @class OptionsFrameListTemplate_OptionsFrameListTemplateList_OptionsFrameListTemplateListScrollBar : Slider, UIPanelScrollBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsFrame.xml#L116)
+--- child of AudioOptionsFrameCategoryFrame (created in template OptionsFrameListTemplate)
+--- @type OptionsFrameListTemplate_OptionsFrameListTemplateList
+AudioOptionsFrameCategoryFrameList = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsFrame.xml#L266)
+--- child of AudioOptionsFrame (created in template OptionsFrameTemplate)
+--- @type OptionsFrameTemplate_OptionsFrameTemplateCategoryFrame
+AudioOptionsFrameCategoryFrame = {}
+AudioOptionsFrameCategoryFrame["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsFrame.xml#L284)
+--- child of AudioOptionsFrame (created in template OptionsFrameTemplate)
+--- @type OptionsFrameTemplate_OptionsFrameTemplatePanelContainer
+--- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
+AudioOptionsFramePanelContainer = {}
+AudioOptionsFramePanelContainer["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR
+AudioOptionsFramePanelContainer["backdropColorAlpha"] = 0 -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsFrame.xml#L242)
+--- child of AudioOptionsFrame (created in template OptionsFrameTemplate)
+--- @type Texture
+AudioOptionsFrameHeader = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsFrame.xml#L254)
+--- child of AudioOptionsFrame (created in template OptionsFrameTemplate)
+--- @type OptionsFrameTemplate_OptionsFrameTemplateHeaderText
+AudioOptionsFrameHeaderText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsFrame.xml#L5)
 --- @class AudioOptionsFrame : Frame, OptionsFrameTemplate
 AudioOptionsFrame = {}
+AudioOptionsFrame["backdropInfo"] = BACKDROP_DIALOG_32_32 -- inherited
 

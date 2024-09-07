@@ -56,5 +56,7 @@ GameMenuFrameHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GameMenu/Classic/GameMenuFrame.xml#L3)
 --- @class GameMenuFrame : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 GameMenuFrame = {}
+GameMenuFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 

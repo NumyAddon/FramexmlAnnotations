@@ -36,16 +36,48 @@
 --- child of OptionsSliderTemplate
 --- @class OptionsSliderTemplate_OptionsSliderTemplateHigh : FontString, GameFontHighlightSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/OptionsPanelTemplates.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/OptionsPanelTemplates.xml#L77)
 --- Template
 --- @class OptionsSliderTemplate : Slider, HorizontalSliderTemplate
+--- @field type any # CONTROLTYPE_SLIDER
 --- @field Text OptionsSliderTemplate_OptionsSliderTemplateText
 --- @field Low OptionsSliderTemplate_OptionsSliderTemplateLow
 --- @field High OptionsSliderTemplate_OptionsSliderTemplateHigh
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/OptionsPanelTemplates.xml#L284)
+--- child of OptionsDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/OptionsPanelTemplates.xml#L226)
+--- child of OptionsDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/OptionsPanelTemplates.xml#L239)
+--- child of OptionsDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/OptionsPanelTemplates.xml#L248)
+--- child of OptionsDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/OptionsPanelTemplates.xml#L257)
+--- child of OptionsDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/OptionsPanelTemplates.xml#L271)
+--- child of OptionsDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/OptionsPanelTemplates.xml#L127)
 --- Template
 --- @class OptionsDropdownTemplate : Frame, UIDropDownMenuTemplate
+--- @field type any # CONTROLTYPE_DROPDOWN
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/OptionsPanelTemplates.xml#L139)
 --- child of OptionsBoxTemplate
@@ -54,4 +86,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/OptionsPanelTemplates.xml#L132)
 --- Template
 --- @class OptionsBoxTemplate : Frame, TooltipBorderBackdropTemplate
+--- @field backdropColor any # GRAY_FONT_COLOR
 

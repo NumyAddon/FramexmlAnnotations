@@ -26,7 +26,9 @@ OpacitySliderFrameText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L89)
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_OpacitySliderFrame : Slider, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_SLIDER_8_8
 OpacitySliderFrame = {}
+OpacitySliderFrame["backdropInfo"] = BACKDROP_SLIDER_8_8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L15)
 --- child of ColorPickerFrame
@@ -49,7 +51,9 @@ ColorPickerWheel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L3)
 --- @class ColorPickerFrame : ColorSelect, BackdropTemplate, ColorPickerFrameMixin
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 ColorPickerFrame = {}
+ColorPickerFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L240)
 --- child of OpacityFrameSlider
@@ -67,7 +71,9 @@ OpacityFrameSliderText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L224)
 --- child of OpacityFrame
 --- @class OpacityFrame_OpacityFrameSlider : Slider, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_SLIDER_8_8
 OpacityFrameSlider = {}
+OpacityFrameSlider["backdropInfo"] = BACKDROP_SLIDER_8_8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L284)
 --- child of OpacityFrame
@@ -76,5 +82,7 @@ OpacityFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L209)
 --- @class OpacityFrame : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 OpacityFrame = {}
+OpacityFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 

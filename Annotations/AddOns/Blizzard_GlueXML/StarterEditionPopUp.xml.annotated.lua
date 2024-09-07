@@ -20,10 +20,27 @@ StarterEditionPopUpUpgradeButton = {}
 --- @class StarterEditionPopUp_StarterEditionPopUpExitButton : Button
 StarterEditionPopUpExitButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L8)
+--- child of StarterEditionPopUpFeature1 (created in template UpgradeFrameFeatureLargeTemplate)
+--- @type Texture
+StarterEditionPopUpFeature1IconFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L17)
+--- child of StarterEditionPopUpFeature1 (created in template UpgradeFrameFeatureLargeTemplate)
+--- @type UpgradeFrameFeatureLargeTemplate_UpgradeFrameFeatureLargeTemplateText
+StarterEditionPopUpFeature1Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L23)
+--- child of StarterEditionPopUpFeature1 (created in template UpgradeFrameFeatureLargeTemplate)
+--- @type Texture
+StarterEditionPopUpFeature1Icon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L125)
 --- child of StarterEditionPopUp
 --- @class StarterEditionPopUp_StarterEditionPopUpFeature1 : Frame, UpgradeFrameFeatureLargeTemplate
 StarterEditionPopUpFeature1 = {}
+StarterEditionPopUpFeature1["text"] = StarterEditionPopUpFeature1Text -- inherited
+StarterEditionPopUpFeature1["icon"] = StarterEditionPopUpFeature1Icon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L41)
 --- child of StarterEditionPopUp

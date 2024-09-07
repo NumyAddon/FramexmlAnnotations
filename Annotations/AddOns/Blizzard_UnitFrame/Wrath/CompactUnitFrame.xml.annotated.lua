@@ -15,10 +15,34 @@
 --- @field icon Texture
 --- @field count CompactAuraTemplate_CompactAuraTemplateCount
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L24)
+--- child of CompactDebuffTemplate (created in template CompactAuraTemplate)
+--- @type CompactAuraTemplate_CompactAuraTemplateCooldown
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L9)
+--- child of CompactDebuffTemplate (created in template CompactAuraTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L12)
+--- child of CompactDebuffTemplate (created in template CompactAuraTemplate)
+--- @type CompactAuraTemplate_CompactAuraTemplateCount
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L38)
 --- Template
 --- @class CompactDebuffTemplate : Button, CompactAuraTemplate
 --- @field border Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L24)
+--- child of CompactBuffTemplate (created in template CompactAuraTemplate)
+--- @type CompactAuraTemplate_CompactAuraTemplateCooldown
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L9)
+--- child of CompactBuffTemplate (created in template CompactAuraTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L12)
+--- child of CompactBuffTemplate (created in template CompactAuraTemplate)
+--- @type CompactAuraTemplate_CompactAuraTemplateCount
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L85)
 --- Template
@@ -51,25 +75,49 @@
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff3 : Button, CompactBuffTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L41)
+--- child of CompactUnitFrameTemplateDebuff1 (created in template CompactDebuffTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L201)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff1 : Button, CompactDebuffTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L41)
+--- child of CompactUnitFrameTemplateDebuff2 (created in template CompactDebuffTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L202)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff2 : Button, CompactDebuffTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L41)
+--- child of CompactUnitFrameTemplateDebuff3 (created in template CompactDebuffTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L203)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff3 : Button, CompactDebuffTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L112)
+--- child of CompactUnitFrameTemplateDispelDebuff1 (created in template CompactDispelDebuffTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L204)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff1 : Button, CompactDispelDebuffTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L112)
+--- child of CompactUnitFrameTemplateDispelDebuff2 (created in template CompactDispelDebuffTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L205)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff2 : Button, CompactDispelDebuffTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L112)
+--- child of CompactUnitFrameTemplateDispelDebuff3 (created in template CompactDispelDebuffTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L206)
 --- child of CompactUnitFrameTemplate
@@ -80,6 +128,32 @@
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon : Button
 --- @field texture Texture
 --- @field border Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L284)
+--- child of CompactUnitFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L226)
+--- child of CompactUnitFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L239)
+--- child of CompactUnitFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L248)
+--- child of CompactUnitFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L257)
+--- child of CompactUnitFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L271)
+--- child of CompactUnitFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L241)
 --- child of CompactUnitFrameTemplate

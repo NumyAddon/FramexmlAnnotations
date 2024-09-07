@@ -32,6 +32,10 @@
 --- child of OptionsSliderTemplate
 --- @class OptionsSliderTemplate_OptionsSliderTemplateHigh : FontString, OptionsFontSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Glue/OptionsPanelTemplates.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Glue/OptionsPanelTemplates.xml#L72)
 --- Template
 --- @class OptionsSliderTemplate : Slider, HorizontalSliderTemplate
@@ -43,4 +47,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Glue/OptionsPanelTemplates.xml#L119)
 --- Template
 --- @class OptionsBoxTemplate : Frame, TooltipBorderBackdropTemplate
+--- @field backdropColor any # GRAY_FONT_COLOR
 

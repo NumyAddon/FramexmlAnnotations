@@ -59,14 +59,27 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L273)
 --- child of CalendarEventInviteListTemplate
 --- @class CalendarEventInviteListTemplate_ScrollBar : EventFrame, WowTrimScrollBar
+--- @field hideBackground boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L245)
+--- child of CalendarEventInviteListTemplateNameSortButton (created in template CalendarEventInviteSortButtonTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L283)
 --- child of CalendarEventInviteListTemplate
 --- @class CalendarEventInviteListTemplate_CalendarEventInviteListTemplateNameSortButton : Button, CalendarEventInviteSortButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L245)
+--- child of CalendarEventInviteListTemplateClassSortButton (created in template CalendarEventInviteSortButtonTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L297)
 --- child of CalendarEventInviteListTemplate
 --- @class CalendarEventInviteListTemplate_CalendarEventInviteListTemplateClassSortButton : Button, CalendarEventInviteSortButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L245)
+--- child of CalendarEventInviteListTemplateStatusSortButton (created in template CalendarEventInviteSortButtonTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L311)
 --- child of CalendarEventInviteListTemplate
@@ -75,6 +88,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L265)
 --- Template
 --- @class CalendarEventInviteListTemplate : Frame, TooltipBackdropTemplate
+--- @field backdropColor any # BLACK_FONT_COLOR
 --- @field ScrollBox CalendarEventInviteListTemplate_ScrollBox
 --- @field ScrollBar CalendarEventInviteListTemplate_ScrollBar
 

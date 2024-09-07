@@ -8,30 +8,90 @@
 --- Template
 --- @class ArenaButtonTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L9)
+--- child of ArenaZone1 (created in template ArenaButtonTemplate)
+--- @type ArenaButtonTemplate_ArenaButtonTemplateStatus
+ArenaZone1Status = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L32)
+--- child of ArenaZone1 (created in template ArenaButtonTemplate)
+--- @type Texture
+ArenaZone1Highlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L167)
 --- child of ArenaFrame
 --- @class ArenaFrame_ArenaZone1 : Button, ArenaButtonTemplate
 ArenaZone1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L9)
+--- child of ArenaZone2 (created in template ArenaButtonTemplate)
+--- @type ArenaButtonTemplate_ArenaButtonTemplateStatus
+ArenaZone2Status = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L32)
+--- child of ArenaZone2 (created in template ArenaButtonTemplate)
+--- @type Texture
+ArenaZone2Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L176)
 --- child of ArenaFrame
 --- @class ArenaFrame_ArenaZone2 : Button, ArenaButtonTemplate
 ArenaZone2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L9)
+--- child of ArenaZone3 (created in template ArenaButtonTemplate)
+--- @type ArenaButtonTemplate_ArenaButtonTemplateStatus
+ArenaZone3Status = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L32)
+--- child of ArenaZone3 (created in template ArenaButtonTemplate)
+--- @type Texture
+ArenaZone3Highlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L185)
 --- child of ArenaFrame
 --- @class ArenaFrame_ArenaZone3 : Button, ArenaButtonTemplate
 ArenaZone3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L9)
+--- child of ArenaZone4 (created in template ArenaButtonTemplate)
+--- @type ArenaButtonTemplate_ArenaButtonTemplateStatus
+ArenaZone4Status = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L32)
+--- child of ArenaZone4 (created in template ArenaButtonTemplate)
+--- @type Texture
+ArenaZone4Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L194)
 --- child of ArenaFrame
 --- @class ArenaFrame_ArenaZone4 : Button, ArenaButtonTemplate
 ArenaZone4 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L9)
+--- child of ArenaZone5 (created in template ArenaButtonTemplate)
+--- @type ArenaButtonTemplate_ArenaButtonTemplateStatus
+ArenaZone5Status = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L32)
+--- child of ArenaZone5 (created in template ArenaButtonTemplate)
+--- @type Texture
+ArenaZone5Highlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L203)
 --- child of ArenaFrame
 --- @class ArenaFrame_ArenaZone5 : Button, ArenaButtonTemplate
 ArenaZone5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L9)
+--- child of ArenaZone6 (created in template ArenaButtonTemplate)
+--- @type ArenaButtonTemplate_ArenaButtonTemplateStatus
+ArenaZone6Status = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L32)
+--- child of ArenaZone6 (created in template ArenaButtonTemplate)
+--- @type Texture
+ArenaZone6Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L212)
 --- child of ArenaFrame

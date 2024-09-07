@@ -11,6 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/ServerAlert.xml#L16)
 --- child of ServerAlertTemplate
 --- @class ServerAlertTemplate_ServerAlertTemplateScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarTemplate string # "MinimalScrollBar"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/ServerAlert.xml#L6)
 --- child of ServerAlertTemplate

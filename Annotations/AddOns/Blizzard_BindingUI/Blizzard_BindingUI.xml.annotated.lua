@@ -1,5 +1,41 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L985)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L992)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L999)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1006)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1013)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1021)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1029)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1037)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1045)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L4)
 --- Template
 --- @class KeyBindingFrameBindingButtonTemplate : Button, UIMenuButtonStretchTemplate
@@ -38,6 +74,10 @@
 --- @field description KeyBindingFrameBindingTemplate_description
 --- @field header KeyBindingFrameBindingTemplate_header
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L174)
+--- child of KeybindingsCategoryListButtonTemplate (created in template OptionsListButtonTemplate)
+--- @type OptionsListButtonTemplate_OptionsListButtonTemplateToggle
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L70)
 --- Template
 --- @class KeybindingsCategoryListButtonTemplate : Button, OptionsListButtonTemplate
@@ -51,10 +91,60 @@ RockBg = {}
 --- child of 
 --- @class KeyBindingFrame_header_text : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1331)
+--- child of  (created in template TranslucentFrameTemplate)
+--- @type Texture
+Bg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1340)
+--- child of  (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopLeftCorner
+TopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1345)
+--- child of  (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopRightCorner
+TopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1350)
+--- child of  (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomLeftCorner
+BottomLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1355)
+--- child of  (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomRightCorner
+BottomRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1360)
+--- child of  (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopBorder
+TopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1366)
+--- child of  (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomBorder
+BottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1372)
+--- child of  (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateLeftBorder
+LeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1378)
+--- child of  (created in template TranslucentFrameTemplate)
+--- @type TranslucentFrameTemplate_TranslucentFrameTemplateRightBorder
+RightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L126)
 --- child of KeyBindingFrame
 --- @class KeyBindingFrame_header : Frame, TranslucentFrameTemplate
 --- @field text KeyBindingFrame_header_text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L468)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L149)
 --- child of KeyBindingFrame
@@ -76,14 +166,39 @@ RockBg = {}
 --- child of KeyBindingFrame
 --- @class KeyBindingFrame_defaultsButton : Button, UIPanelButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L10)
+--- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L18)
+--- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L30)
+--- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L142)
+--- child of OptionsFrameListTemplateList
+--- @class OptionsFrameListTemplate_OptionsFrameListTemplateList_OptionsFrameListTemplateListScrollBar : Slider, UIPanelScrollBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L116)
+--- child of KeyBindingFrameCategoryList (created in template OptionsFrameListTemplate)
+--- @type OptionsFrameListTemplate_OptionsFrameListTemplateList
+KeyBindingFrameCategoryListList = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L200)
 --- child of KeyBindingFrame
 --- @class KeyBindingFrame_KeyBindingFrameCategoryList : Frame, OptionsFrameListTemplate
+--- @field labelText any # CATEGORY
 KeyBindingFrameCategoryList = {}
+KeyBindingFrameCategoryList["labelText"] = CATEGORY
+KeyBindingFrameCategoryList["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L210)
 --- child of KeyBindingFrame
 --- @class KeyBindingFrame_bindingsContainer : Frame, TooltipBorderBackdropTemplate
+--- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L220)
 --- child of KeyBindingFrame
@@ -112,6 +227,7 @@ KeyBindingFrameScrollFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L79)
 --- @class KeyBindingFrame : Button, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field header KeyBindingFrame_header
 --- @field characterSpecificButton KeyBindingFrame_characterSpecificButton
 --- @field unbindButton KeyBindingFrame_unbindButton
@@ -128,4 +244,7 @@ KeyBindingFrameScrollFrame = {}
 --- @field bottomSeparator Texture
 --- @field outputText KeyBindingFrame_outputText
 KeyBindingFrame = {}
+KeyBindingFrame["categoryList"] = KeyBindingFrameCategoryList
+KeyBindingFrame["scrollFrame"] = KeyBindingFrameScrollFrame
+KeyBindingFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 

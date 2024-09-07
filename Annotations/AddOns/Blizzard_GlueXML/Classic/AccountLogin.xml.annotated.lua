@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L3)
 --- Template
 --- @class AccountLoginBackdropTemplate : Frame, TooltipBackdropTemplate
+--- @field layoutType string # "TooltipGluesLayout"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L11)
 --- Template
@@ -164,10 +165,18 @@ AccountLoginCommunityButton = {}
 --- @class AccountLogin_UI_SaveAccountNameCheckButton : CheckButton
 --- @field Label AccountLogin_UI_SaveAccountNameCheckButton_Label
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L16)
+--- child of ServerAlertFrame (created in template ServerAlertTemplate)
+--- @type ServerAlertTemplate_ServerAlertTemplateScrollFrame
+--- @field scrollBarTemplate string # "MinimalScrollBar"
+ServerAlertFrameScrollFrame = {}
+ServerAlertFrameScrollFrame["scrollBarTemplate"] = "MinimalScrollBar"
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L489)
 --- child of 
 --- @class AccountLogin_UI_ServerAlertFrame : Frame, ServerAlertTemplate
 ServerAlertFrame = {}
+ServerAlertFrame["ScrollFrame"] = ServerAlertFrameScrollFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L542)
 --- child of 
@@ -201,6 +210,23 @@ ServerAlertFrame = {}
 --- child of 
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button8 : Button, AccountNameButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L190)
+--- child of WoWAccountSelectDialogScrollFrameScrollBar (created in template GlueScrollBarTemplate)
+--- @type GlueScrollBarTemplate_GlueScrollBarTemplateScrollUpButton
+WoWAccountSelectDialogScrollFrameScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L202)
+--- child of WoWAccountSelectDialogScrollFrameScrollBar (created in template GlueScrollBarTemplate)
+--- @type GlueScrollBarTemplate_GlueScrollBarTemplateScrollDownButton
+WoWAccountSelectDialogScrollFrameScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L237)
+--- child of WoWAccountSelectDialogScrollFrame (created in template GlueScrollFrameTemplate)
+--- @type GlueScrollFrameTemplate_GlueScrollFrameTemplateScrollBar
+WoWAccountSelectDialogScrollFrameScrollBar = {}
+WoWAccountSelectDialogScrollFrameScrollBar["ScrollUpButton"] = WoWAccountSelectDialogScrollFrameScrollBarScrollUpButton -- inherited
+WoWAccountSelectDialogScrollFrameScrollBar["ScrollDownButton"] = WoWAccountSelectDialogScrollFrameScrollBarScrollDownButton -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L582)
 --- child of 
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_Container_WoWAccountSelectDialogScrollFrame : ScrollFrame, GlueScrollFrameTemplate
@@ -209,6 +235,7 @@ WoWAccountSelectDialogScrollFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L533)
 --- child of 
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_Container : Frame, TooltipBorderBackdropTemplate
+--- @field layoutType string # "TooltipGluesLayout"
 --- @field Button1 AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button1
 --- @field Button2 AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button2
 --- @field Button3 AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button3
@@ -238,6 +265,7 @@ WoWAccountSelectDialogScrollFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L510)
 --- child of 
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field Container AccountLogin_UI_WoWAccountSelectDialog_Background_Container
 --- @field AcceptButton AccountLogin_UI_WoWAccountSelectDialog_Background_AcceptButton
 --- @field CancelButton AccountLogin_UI_WoWAccountSelectDialog_Background_CancelButton
@@ -276,6 +304,7 @@ WoWAccountSelectDialogScrollFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L656)
 --- child of 
 --- @class AccountLogin_UI_CaptchaEntryDialog_Background : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field EditBox AccountLogin_UI_CaptchaEntryDialog_Background_EditBox
 --- @field OkayButton AccountLogin_UI_CaptchaEntryDialog_Background_OkayButton
 --- @field CancelButton AccountLogin_UI_CaptchaEntryDialog_Background_CancelButton
@@ -315,6 +344,7 @@ WoWAccountSelectDialogScrollFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L753)
 --- child of 
 --- @class AccountLogin_UI_TokenEntryDialog_Background : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field EditBox AccountLogin_UI_TokenEntryDialog_Background_EditBox
 --- @field OkayButton AccountLogin_UI_TokenEntryDialog_Background_OkayButton
 --- @field CancelButton AccountLogin_UI_TokenEntryDialog_Background_CancelButton
@@ -326,10 +356,48 @@ WoWAccountSelectDialogScrollFrame = {}
 --- @class AccountLogin_UI_TokenEntryDialog : Frame
 --- @field Background AccountLogin_UI_TokenEntryDialog_Background
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L284)
+--- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+AccountLoginDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L226)
+--- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AccountLoginDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L239)
+--- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AccountLoginDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L248)
+--- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AccountLoginDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L257)
+--- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+AccountLoginDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L271)
+--- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AccountLoginDropDownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L833)
 --- child of 
 --- @class AccountLogin_UI_AccountLoginDropDown : Frame, UIDropDownMenuTemplate
 AccountLoginDropDown = {}
+AccountLoginDropDown["Button"] = AccountLoginDropDownButton -- inherited
+AccountLoginDropDown["Left"] = AccountLoginDropDownLeft -- inherited
+AccountLoginDropDown["Middle"] = AccountLoginDropDownMiddle -- inherited
+AccountLoginDropDown["Right"] = AccountLoginDropDownRight -- inherited
+AccountLoginDropDown["Text"] = AccountLoginDropDownText -- inherited
+AccountLoginDropDown["Icon"] = AccountLoginDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L198)
 --- child of 

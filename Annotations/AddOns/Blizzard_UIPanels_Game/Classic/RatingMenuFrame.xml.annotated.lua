@@ -41,5 +41,7 @@ RatingMenuCrime = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L3)
 --- @class RatingMenuFrame : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 RatingMenuFrame = {}
+RatingMenuFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 

@@ -8,9 +8,49 @@
 --- Template
 --- @class ActionBarButtonTemplate : CheckButton, ActionBarButtonCodeTemplate, ActionButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- child of ActionBarButtonSpellActivationAlert
+--- @class ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertSpark : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L127)
+--- child of ActionBarButtonSpellActivationAlert
+--- @class ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertInnerGlow : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L133)
+--- child of ActionBarButtonSpellActivationAlert
+--- @class ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertInnerGlowOver : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L140)
+--- child of ActionBarButtonSpellActivationAlert
+--- @class ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertOuterGlow : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L146)
+--- child of ActionBarButtonSpellActivationAlert
+--- @class ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertOuterGlowOver : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L155)
+--- child of ActionBarButtonSpellActivationAlert
+--- @class ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertAnts : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L62)
+--- child of ActionBarButtonSpellActivationAlert
+--- @class ActionBarButtonSpellActivationAlert_animIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L105)
+--- child of ActionBarButtonSpellActivationAlert
+--- @class ActionBarButtonSpellActivationAlert_animOut : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L60)
 --- Template
 --- @class ActionBarButtonSpellActivationAlert : Frame
+--- @field spark ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertSpark
+--- @field innerGlow ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertInnerGlow
+--- @field innerGlowOver ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertInnerGlowOver
+--- @field outerGlow ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertOuterGlow
+--- @field outerGlowOver ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertOuterGlowOver
+--- @field ants ActionBarButtonSpellActivationAlert_ActionBarButtonSpellActivationAlertAnts
+--- @field animIn ActionBarButtonSpellActivationAlert_animIn
+--- @field animOut ActionBarButtonSpellActivationAlert_animOut
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L172)
 --- @class ActionBarButtonEventsFrame : Frame

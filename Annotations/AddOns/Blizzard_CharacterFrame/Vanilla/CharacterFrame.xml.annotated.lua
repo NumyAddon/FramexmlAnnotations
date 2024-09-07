@@ -72,31 +72,75 @@
 --- Template
 --- @class Char-Inner-Right : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L88)
+--- child of CharacterStatFrameCategoryTemplate
+--- @class CharacterStatFrameCategoryTemplate_Title : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L77)
 --- Template
 --- @class CharacterStatFrameCategoryTemplate : Frame
+--- @field Background Texture
+--- @field Title CharacterStatFrameCategoryTemplate_Title
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L112)
+--- child of CharacterStatFrameTemplate
+--- @class CharacterStatFrameTemplate_Label : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L117)
+--- child of CharacterStatFrameTemplate
+--- @class CharacterStatFrameTemplate_Value : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L101)
 --- Template
 --- @class CharacterStatFrameTemplate : Frame
+--- @field Background Texture
+--- @field Label CharacterStatFrameTemplate_Label
+--- @field Value CharacterStatFrameTemplate_Value
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L185)
+--- child of CharacterNameFrame
+--- @class CharacterFrame_CharacterNameFrame_CharacterNameText : FontString, GameFontNormal
+CharacterNameText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L172)
+--- child of CharacterFrame
+--- @class CharacterFrame_CharacterNameFrame : Frame
+CharacterNameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L202)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameCloseButton : Button, UIPanelCloseButton
+CharacterFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L216)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab1 : Button, CharacterFrameTabButtonTemplate
+CharacterFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L232)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab2 : Button, CharacterFrameTabButtonTemplate
+CharacterFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L248)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab3 : Button, CharacterFrameTabButtonTemplate
+CharacterFrameTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L264)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab4 : Button, CharacterFrameTabButtonTemplate
+CharacterFrameTab4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L280)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab5 : Button, CharacterFrameTabButtonTemplate
+CharacterFrameTab5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L157)
+--- child of CharacterFrame
+--- @class CharacterFrame_CharacterFramePortrait : Texture
+CharacterFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L141)
 --- @class CharacterFrame : Frame

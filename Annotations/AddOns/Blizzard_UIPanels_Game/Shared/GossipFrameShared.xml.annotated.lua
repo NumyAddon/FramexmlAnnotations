@@ -12,9 +12,14 @@
 --- Template
 --- @class GossipTitleOptionButtonTemplate : Button, GossipTitleButtonTemplate, GossipOptionButtonMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.xml#L22)
+--- child of GossipGreetingTextTemplate
+--- @class GossipGreetingTextTemplate_GreetingText : FontString, QuestFont
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.xml#L18)
 --- Template
 --- @class GossipGreetingTextTemplate : Frame, GossipGreetingTextMixin
+--- @field GreetingText GossipGreetingTextTemplate_GreetingText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.xml#L31)
 --- Template

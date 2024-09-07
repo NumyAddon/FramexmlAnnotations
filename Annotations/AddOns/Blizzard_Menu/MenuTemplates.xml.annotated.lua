@@ -11,6 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.xml#L4)
 --- Template
 --- @class WowStyle2DropdownTemplate : DropdownButton, WowStyle2DropdownMixin
+--- @field menuMixin any # MenuStyle2Mixin
 --- @field ResetButton WowStyle2DropdownTemplate_ResetButton
 --- @field Background Texture
 --- @field Arrow Texture

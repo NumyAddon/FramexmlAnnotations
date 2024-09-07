@@ -48,6 +48,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L134)
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_TrackFrame : Frame, RewardTrackFrameTemplate
+--- @field rewardButtonXOffset number # 30
 --- @field Glow Texture
 --- @field Title MajorFactionRenownFrame_TrackFrame_Title
 --- @field AccountWideLabel MajorFactionRenownFrame_TrackFrame_AccountWideLabel

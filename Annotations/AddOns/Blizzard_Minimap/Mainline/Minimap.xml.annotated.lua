@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L15)
 --- child of MinimapCluster
 --- @class MinimapCluster_BorderTop : Frame, NineSliceCodeTemplate
+--- @field layoutType string # "UniqueCornersLayout"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L32)
 --- child of 
@@ -16,6 +17,7 @@ MinimapZoneText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L59)
 --- child of 
 --- @class MinimapCluster_Tracking_Button : DropdownButton, MiniMapTrackingButtonMixin
+--- @field menuPoint string # "TOPRIGHT"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L48)
 --- child of MinimapCluster
@@ -39,6 +41,7 @@ MiniMapMailIcon = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L89)
 --- child of 
 --- @class MinimapCluster_IndicatorFrame_MailFrame : Frame, MiniMapMailFrameMixin
+--- @field layoutIndex number # 1
 --- @field MailIcon MinimapCluster_IndicatorFrame_MailFrame_MiniMapMailIcon
 --- @field NewMailFlipbook Texture
 --- @field MailReminderFlipbook Texture
@@ -53,10 +56,12 @@ MiniMapCraftingOrderIcon = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L143)
 --- child of 
 --- @class MinimapCluster_IndicatorFrame_CraftingOrderFrame : Frame, MiniMapCraftingOrderFrameMixin
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L80)
 --- child of MinimapCluster
 --- @class MinimapCluster_IndicatorFrame : Frame, HorizontalLayoutFrame
+--- @field fixedWidth number # 20
 --- @field MailFrame MinimapCluster_IndicatorFrame_MailFrame
 --- @field CraftingOrderFrame MinimapCluster_IndicatorFrame_CraftingOrderFrame
 
@@ -87,6 +92,7 @@ MiniMapCraftingOrderIcon = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L233)
 --- child of MinimapBackdrop
 --- @class MinimapCluster_MinimapContainer_Minimap_MinimapBackdrop_ExpansionLandingPageMinimapButton : Button, ExpansionLandingPageMinimapButtonMixin
+--- @field defaultOffsetX number # -3
 --- @field AlertBG Texture
 --- @field LoopingGlow Texture
 --- @field SideToastGlow Texture
@@ -97,6 +103,7 @@ MiniMapCraftingOrderIcon = {}
 --- @field MinimapPulseAnim MinimapCluster_MinimapContainer_Minimap_MinimapBackdrop_ExpansionLandingPageMinimapButton_MinimapPulseAnim
 --- @field MinimapAlertAnim MinimapCluster_MinimapContainer_Minimap_MinimapBackdrop_ExpansionLandingPageMinimapButton_MinimapAlertAnim
 ExpansionLandingPageMinimapButton = {}
+ExpansionLandingPageMinimapButton["defaultOffsetX"] = -3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L224)
 --- child of MinimapBackdrop
@@ -127,6 +134,7 @@ Minimap = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L3)
 --- @class MinimapCluster : Frame, EditModeMinimapSystemTemplate, ResizeLayoutFrame, MinimapClusterMixin
+--- @field widthPadding number # 20
 --- @field BorderTop MinimapCluster_BorderTop
 --- @field ZoneTextButton MinimapCluster_ZoneTextButton
 --- @field Tracking MinimapCluster_Tracking
@@ -134,4 +142,6 @@ Minimap = {}
 --- @field MinimapContainer MinimapCluster_MinimapContainer
 --- @field InstanceDifficulty MinimapCluster_InstanceDifficulty
 MinimapCluster = {}
+MinimapCluster["widthPadding"] = 20
+MinimapCluster["system"] = Enum.EditModeSystem.Minimap -- inherited
 

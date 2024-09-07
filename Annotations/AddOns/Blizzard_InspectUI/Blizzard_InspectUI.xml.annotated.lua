@@ -15,7 +15,14 @@ InspectFrameTab2 = {}
 --- @class InspectFrame_InspectFrameTab3 : Button, PanelTabButtonTemplate
 InspectFrameTab3 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L1148)
+--- child of InspectFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+InspectFrameInset = {}
+InspectFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L4)
 --- @class InspectFrame : Frame, ButtonFrameTemplate
 InspectFrame = {}
+InspectFrame["Inset"] = InspectFrameInset -- inherited
 

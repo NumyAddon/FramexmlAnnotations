@@ -67,4 +67,8 @@ InspectGuildFrameGuildNumMembers = {}
 --- @field guildLevel InspectGuildFrame_InspectGuildFrameGuildLevel
 --- @field guildNumMembers InspectGuildFrame_InspectGuildFrameGuildNumMembers
 InspectGuildFrame = {}
+InspectGuildFrame["guildName"] = InspectGuildFrameGuildName
+InspectGuildFrame["guildRealmName"] = InspectGuildFrameGuildRealmName
+InspectGuildFrame["guildLevel"] = InspectGuildFrameGuildLevel
+InspectGuildFrame["guildNumMembers"] = InspectGuildFrameGuildNumMembers
 

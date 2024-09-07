@@ -1,5 +1,41 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L1211)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L1218)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L1225)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L1232)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L1239)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L1247)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L1255)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L1263)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L1271)
+--- child of KeyBindingFrameBindingButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L5)
 --- Template
 --- @class KeyBindingFrameBindingButtonTemplate : Button, UIMenuButtonStretchTemplate, KeyBindingButtonMixin
@@ -17,10 +53,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L59)
 --- child of KeyBindingFrameBindingTemplate
 --- @class KeyBindingFrameBindingTemplate_Button1 : Button, KeyBindingFrameBindingButtonTemplate
+--- @field SlotIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L68)
 --- child of KeyBindingFrameBindingTemplate
 --- @class KeyBindingFrameBindingTemplate_Button2 : Button, KeyBindingFrameBindingButtonTemplate
+--- @field SlotIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L46)
 --- child of KeyBindingFrameBindingTemplate

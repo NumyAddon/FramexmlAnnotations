@@ -60,13 +60,25 @@
 --- child of CalendarEventInviteListTemplate
 --- @class CalendarEventInviteListTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L236)
+--- child of CalendarEventInviteListTemplateNameSortButton (created in template CalendarEventInviteSortButtonTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L271)
 --- child of CalendarEventInviteListTemplate
 --- @class CalendarEventInviteListTemplate_CalendarEventInviteListTemplateNameSortButton : Button, CalendarEventInviteSortButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L236)
+--- child of CalendarEventInviteListTemplateClassSortButton (created in template CalendarEventInviteSortButtonTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L285)
 --- child of CalendarEventInviteListTemplate
 --- @class CalendarEventInviteListTemplate_CalendarEventInviteListTemplateClassSortButton : Button, CalendarEventInviteSortButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L236)
+--- child of CalendarEventInviteListTemplateStatusSortButton (created in template CalendarEventInviteSortButtonTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L299)
 --- child of CalendarEventInviteListTemplate
@@ -75,6 +87,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_CalendarTemplates.xml#L256)
 --- Template
 --- @class CalendarEventInviteListTemplate : Frame, TooltipBackdropTemplate
+--- @field backdropColor any # BLACK_FONT_COLOR
 --- @field ScrollBox CalendarEventInviteListTemplate_ScrollBox
 --- @field ScrollBar CalendarEventInviteListTemplate_ScrollBar
 

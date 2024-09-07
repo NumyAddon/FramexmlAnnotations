@@ -16,6 +16,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Audio.xml#L24)
 --- child of VoiceTestMicrophoneTemplate
 --- @class VoiceTestMicrophoneTemplate_VUMeter : Frame, TooltipBorderBackdropTemplate
+--- @field backdropBorderColor any # DARKGRAY_COLOR
 --- @field Status VoiceTestMicrophoneTemplate_VUMeter_Status
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Audio.xml#L5)

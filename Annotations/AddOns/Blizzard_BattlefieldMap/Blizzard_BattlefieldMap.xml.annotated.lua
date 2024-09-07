@@ -33,4 +33,5 @@ BattlefieldMapTab = {}
 --- @field ScrollContainer BattlefieldMapFrame_ScrollContainer
 --- @field BorderFrame BattlefieldMapFrame_BorderFrame
 BattlefieldMapFrame = {}
+BattlefieldMapFrame["debugInspectionSystem"] = "MapCanvas" -- inherited
 

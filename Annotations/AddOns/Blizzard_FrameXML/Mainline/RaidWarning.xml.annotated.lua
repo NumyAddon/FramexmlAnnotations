@@ -30,7 +30,9 @@ RaidWarningFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/RaidWarning.xml#L55)
 --- @class RaidBossEmoteFrame : Frame, RaidBossEmoteFrameTemplate
+--- @field controlPrivateAnchor boolean # true
 RaidBossEmoteFrame = {}
+RaidBossEmoteFrame["controlPrivateAnchor"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/RaidWarning.xml#L64)
 --- @class PrivateRaidBossEmoteFrameAnchor : Frame, PingTopLevelPassThroughAttributeTemplate, PrivateRaidBossEmoteFrameAnchorMixin

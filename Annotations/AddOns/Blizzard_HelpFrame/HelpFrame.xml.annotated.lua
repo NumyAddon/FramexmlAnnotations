@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L3)
 --- Template
 --- @class HelpFrameContainerFrameTemplate : Frame, TooltipBackdropTemplate
+--- @field backdropColor any # BLACK_FONT_COLOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L11)
 --- child of BrowserTemplate
@@ -26,12 +27,25 @@ HelpBrowser = {}
 --- child of HelpFrame
 --- @class HelpFrame_SpinnerOverlay : Frame, SpinnerTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L971)
+--- child of HelpFrame (created in template DefaultPanelTemplate)
+--- @type Texture
+HelpFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L979)
+--- child of HelpFrame (created in template DefaultPanelTemplate)
+--- @type DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks
+HelpFrameTopTileStreaks = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L37)
 --- @class HelpFrame : Frame, DefaultPanelTemplate, HelpFrameMixin
 --- @field CloseButton HelpFrame_CloseButton
 --- @field Browser HelpFrame_HelpBrowser
 --- @field SpinnerOverlay HelpFrame_SpinnerOverlay
 HelpFrame = {}
+HelpFrame["Browser"] = HelpBrowser
+HelpFrame["Bg"] = HelpFrameBg -- inherited
+HelpFrame["TopTileStreaks"] = HelpFrameTopTileStreaks -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L90)
 --- child of BrowserSettingsTooltip
@@ -46,6 +60,7 @@ HelpFrame = {}
 --- @field CookiesButton BrowserSettingsTooltip_CookiesButton
 --- @field Title BrowserSettingsTooltip_Title
 BrowserSettingsTooltip = {}
+BrowserSettingsTooltip["backdropColorAlpha"] = 0.8 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L143)
 --- @class HelpOpenWebTicketButton : Button
@@ -55,6 +70,7 @@ HelpOpenWebTicketButton = {}
 --- child of TicketStatusFrame
 --- @class TicketStatusFrame_TicketStatusFrameButton : Button, HelpFrameContainerFrameTemplate
 TicketStatusFrameButton = {}
+TicketStatusFrameButton["backdropColor"] = BLACK_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L188)
 --- child of TicketStatusFrame
@@ -139,6 +155,7 @@ ReportCheatingDialogCommentFrameMiddle = {}
 --- @class ReportCheatingDialog_ReportCheatingDialogCommentFrame : Frame
 --- @field EditBox ReportCheatingDialog_ReportCheatingDialogCommentFrame_ReportCheatingDialogCommentFrameEditBox
 ReportCheatingDialogCommentFrame = {}
+ReportCheatingDialogCommentFrame["EditBox"] = ReportCheatingDialogCommentFrameEditBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L376)
 --- child of ReportCheatingDialog
@@ -166,4 +183,6 @@ ReportCheatingDialogText1 = {}
 --- @field CommentFrame ReportCheatingDialog_ReportCheatingDialogCommentFrame
 --- @field reportButton ReportCheatingDialog_ReportCheatingDialogReportButton
 ReportCheatingDialog = {}
+ReportCheatingDialog["CommentFrame"] = ReportCheatingDialogCommentFrame
+ReportCheatingDialog["reportButton"] = ReportCheatingDialogReportButton
 

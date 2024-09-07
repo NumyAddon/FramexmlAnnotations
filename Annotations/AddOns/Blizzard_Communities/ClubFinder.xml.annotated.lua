@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L3)
 --- Template
 --- @class ClubFinderEditBoxScrollFrameTemplate : ScrollFrame, InputScrollFrameTemplate
+--- @field maxLetters number # 400
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L19)
 --- child of ClubFinderDropdownTemplate
@@ -136,6 +137,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L378)
 --- child of 
 --- @class ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame_RecruitmentMessageInput : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
+--- @field maxLetters number # 250
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L369)
 --- child of 
@@ -256,6 +258,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L653)
 --- child of 
 --- @class ClubFinderRequestToJoinTemplate_MessageFrame_MessageScroll : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
+--- @field instructions any # CLUB_FINDER_RECRUITING_NOTE
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L589)
 --- child of ClubFinderRequestToJoinTemplate
@@ -365,14 +368,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L800)
 --- Template
 --- @class ClubFinderLookingForDropdownTemplate : DropdownButton, ClubFinderDropdownTemplate, ClubLookingForDropdownMixin
+--- @field labelText any # CLUB_FINDER_LOOKING_FOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L806)
 --- Template
 --- @class ClubFinderFocusDropdownTemplate : DropdownButton, ClubFinderDropdownTemplate, ClubFocusDropdownMixin
+--- @field labelText any # CLUB_FINDER_FOCUS
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L812)
 --- Template
 --- @class ClubFinderFilterDropdownTemplate : DropdownButton, ClubFinderDropdownTemplate, ClubFinderFilterDropdownMixin
+--- @field labelText any # FILTER
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L818)
 --- Template
@@ -504,10 +510,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1056)
 --- child of ClubFinderOptionsTemplate
 --- @class ClubFinderOptionsTemplate_ClubSizeDropdown : DropdownButton, ClubFinderDropdownTemplate
+--- @field labelText any # CLUB_FINDER_GUILD_SIZE
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1061)
 --- child of ClubFinderOptionsTemplate
 --- @class ClubFinderOptionsTemplate_SortByDropdown : DropdownButton, ClubFinderDropdownTemplate
+--- @field labelText any # CLUB_FINDER_SORT_BY
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1076)
 --- child of 
@@ -538,6 +546,15 @@
 --- @class ClubFinderOptionsTemplate_DpsRoleFrame : Frame, ClubFinderRoleTemplate
 --- @field Checkbox ClubFinderOptionsTemplate_DpsRoleFrame_Checkbox
 --- @field Icon Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1144)
 --- child of ClubFinderOptionsTemplate
@@ -615,10 +632,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1283)
 --- child of ClubFinderGuildAndCommunityFrameTemplate
 --- @class ClubFinderGuildAndCommunityFrameTemplate_ClubFinderSearchTab : CheckButton, CommunitiesFrameTabTemplate, ClubFinderTabMixin
+--- @field tooltip any # SEARCH
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1295)
 --- child of ClubFinderGuildAndCommunityFrameTemplate
 --- @class ClubFinderGuildAndCommunityFrameTemplate_ClubFinderPendingTab : CheckButton, CommunitiesFrameTabTemplate, ClubFinderTabMixin
+--- @field iconTexture string # "Interface\/Icons\/inv_misc_notepicture1c"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1171)
 --- Template

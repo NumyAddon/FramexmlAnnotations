@@ -3,10 +3,20 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L24)
 --- child of ProfessionsRecipeListTemplate
 --- @class ProfessionsRecipeListTemplate_BackgroundNineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "InsetFrameTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L34)
 --- child of ProfessionsRecipeListTemplate
 --- @class ProfessionsRecipeListTemplate_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L40)
 --- child of ProfessionsRecipeListTemplate
@@ -27,6 +37,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L5)
 --- Template
 --- @class ProfessionsRecipeListTemplate : Frame, ProfessionsRecipeListMixin
+--- @field hideCraftableCount boolean # false
 --- @field BackgroundNineSlice ProfessionsRecipeListTemplate_BackgroundNineSlice
 --- @field FilterDropdown ProfessionsRecipeListTemplate_FilterDropdown
 --- @field SearchBox ProfessionsRecipeListTemplate_SearchBox

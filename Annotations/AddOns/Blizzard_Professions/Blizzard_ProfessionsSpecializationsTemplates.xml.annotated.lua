@@ -7,6 +7,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.xml#L5)
 --- Template
 --- @class ProfessionSpecTabTemplate : Button, TabSystemButtonArtTemplate, ProfessionSpecTabMixin
+--- @field isTabOnTop boolean # true
 --- @field StateIcon Texture
 --- @field StateIconGlow Texture
 --- @field BottomBorderGlow Texture
@@ -32,6 +33,11 @@
 --- child of ProfessionsSpecPathTemplate
 --- @class ProfessionsSpecPathTemplate_ProgressBar : Cooldown
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.xml#L143)
+--- child of ProfessionsSpecPathTemplate
+--- @class ProfessionsSpecPathTemplate_SelectedOverlay : Texture
+--- @field selected boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.xml#L167)
 --- child of ProfessionsSpecPathTemplate
 --- @class ProfessionsSpecPathTemplate_AvailableGlowAnim : AnimationGroup
@@ -39,12 +45,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.xml#L86)
 --- Template
 --- @class ProfessionsSpecPathTemplate : Button, TalentButtonCircleTemplate
+--- @field iconSize number # 46
 --- @field ProgressBar ProfessionsSpecPathTemplate_ProgressBar
 --- @field ProgressBarBackground Texture
 --- @field ProgressBarAvailableGlow Texture
 --- @field IconMouseoverHighlight Texture
 --- @field IconMouseoverHighlightMask MaskTexture
---- @field SelectedOverlay Texture
+--- @field SelectedOverlay ProfessionsSpecPathTemplate_SelectedOverlay
 --- @field MouseoverOverlay Texture
 --- @field LockedIcon Texture
 --- @field AvailableGlowAnim ProfessionsSpecPathTemplate_AvailableGlowAnim

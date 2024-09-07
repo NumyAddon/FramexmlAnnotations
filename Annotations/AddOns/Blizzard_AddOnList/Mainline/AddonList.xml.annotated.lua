@@ -100,6 +100,12 @@ AddonListDisableAllButton = {}
 --- child of AddonList
 --- @class AddonList_ScrollBar : EventFrame, MinimalScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1148)
+--- child of AddonList (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+AddonListInset = {}
+AddonListInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L134)
 --- @class AddonList : Frame, ButtonFrameTemplate
 --- @field Dropdown AddonList_Dropdown
@@ -110,4 +116,9 @@ AddonListDisableAllButton = {}
 --- @field ScrollBox AddonList_ScrollBox
 --- @field ScrollBar AddonList_ScrollBar
 AddonList = {}
+AddonList["CancelButton"] = AddonListCancelButton
+AddonList["OkayButton"] = AddonListOkayButton
+AddonList["EnableAllButton"] = AddonListEnableAllButton
+AddonList["DisableAllButton"] = AddonListDisableAllButton
+AddonList["Inset"] = AddonListInset -- inherited
 

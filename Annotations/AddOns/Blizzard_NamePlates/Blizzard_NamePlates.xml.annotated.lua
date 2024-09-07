@@ -76,6 +76,7 @@ NamePlateDriverFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L194)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_castBar : StatusBar, CastingBarFrameAnimsTemplate, CastingBarMixin
+--- @field iconWhenNoninterruptible boolean # true
 --- @field Background Texture
 --- @field Text BaseNamePlateUnitFrameTemplate_castBar_Text
 --- @field BorderShield Texture
@@ -90,6 +91,7 @@ NamePlateDriverFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L253)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_BuffFrame : Frame, HorizontalLayoutFrame, NameplateBuffContainerMixin
+--- @field spacing number # 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L266)
 --- child of BaseNamePlateUnitFrameTemplate
@@ -127,6 +129,7 @@ NamePlateDriverFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L136)
 --- Template
 --- @class BaseNamePlateUnitFrameTemplate : Button
+--- @field disableMouse boolean # true
 --- @field HealthBarsContainer BaseNamePlateUnitFrameTemplate_HealthBarsContainer
 --- @field castBar BaseNamePlateUnitFrameTemplate_castBar
 --- @field WidgetContainer BaseNamePlateUnitFrameTemplate_WidgetContainer
@@ -142,7 +145,9 @@ NamePlateDriverFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L375)
 --- @class PersonalFriendlyBuffFrame : Frame, HorizontalLayoutFrame, PersonalFriendlyBuffContainerMixin
+--- @field spacing number # 4
 PersonalFriendlyBuffFrame = {}
+PersonalFriendlyBuffFrame["spacing"] = 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L387)
 --- Template
@@ -152,7 +157,14 @@ PersonalFriendlyBuffFrame = {}
 --- Template
 --- @class ForbiddenNamePlateUnitFrameTemplate : Button, BaseNamePlateUnitFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L9)
+--- child of NamePlateTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
+NamePlateTooltipStatusBar = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L390)
 --- @class NamePlateTooltip : GameTooltip, GameTooltipTemplate
 NamePlateTooltip = {}
+NamePlateTooltip["supportsDataRefresh"] = true -- inherited
+NamePlateTooltip["StatusBar"] = NamePlateTooltipStatusBar -- inherited
 

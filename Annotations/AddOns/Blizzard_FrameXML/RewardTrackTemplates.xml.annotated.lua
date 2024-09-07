@@ -34,18 +34,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L137)
 --- child of RewardTrackFrameTemplate
 --- @class RewardTrackFrameTemplate_LeftButton : Button, RewardTrackButtonTemplate
+--- @field direction number # -1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L145)
 --- child of RewardTrackFrameTemplate
 --- @class RewardTrackFrameTemplate_JumpLeftButton : Button, RewardTrackJumpButtonTemplate
+--- @field direction number # -1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L153)
 --- child of RewardTrackFrameTemplate
 --- @class RewardTrackFrameTemplate_RightButton : Button, RewardTrackButtonTemplate
+--- @field direction number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L161)
 --- child of RewardTrackFrameTemplate
 --- @class RewardTrackFrameTemplate_JumpRightButton : Button, RewardTrackJumpButtonTemplate
+--- @field direction number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L123)
 --- Template

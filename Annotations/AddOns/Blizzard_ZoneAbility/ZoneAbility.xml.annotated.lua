@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.xml#L15)
 --- child of ZoneAbilityFrameTemplate
 --- @class ZoneAbilityFrameTemplate_SpellButtonContainer : Frame, ManagedHorizontalLayoutFrameTemplate
+--- @field spacing number # 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.xml#L3)
 --- Template

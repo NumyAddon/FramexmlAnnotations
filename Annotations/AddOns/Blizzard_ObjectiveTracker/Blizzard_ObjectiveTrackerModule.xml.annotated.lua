@@ -7,10 +7,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.xml#L46)
 --- child of ObjectiveTrackerModuleHeaderTemplate
 --- @class ObjectiveTrackerModuleHeaderTemplate_MinimizeButton : Button, ObjectiveTrackerModuleMinimizeButtonTemplate
+--- @field buttonType string # "module"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.xml#L22)
 --- child of ObjectiveTrackerModuleHeaderTemplate
 --- @class ObjectiveTrackerModuleHeaderTemplate_Text : FontString, ObjectiveTrackerHeaderFont, AutoScalingFontStringMixin
+--- @field minLineHeight number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.xml#L56)
 --- child of ObjectiveTrackerModuleHeaderTemplate

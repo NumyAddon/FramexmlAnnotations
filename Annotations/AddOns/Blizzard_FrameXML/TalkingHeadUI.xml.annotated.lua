@@ -27,6 +27,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L41)
 --- child of 
 --- @class TalkingHeadFrame_TextFrame_Text : FontString, GameFontHighlightLarge, AutoScalingFontStringMixin
+--- @field minLineHeight number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L54)
 --- child of 
@@ -115,10 +116,14 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L5)
 --- @class TalkingHeadFrame : ContainedAlertFrame, UIParentBottomManagedFrameTemplate, EditModeTalkingHeadFrameSystemTemplate, TalkingHeadFrameMixin
+--- @field layoutIndex number # 8
 --- @field NameFrame TalkingHeadFrame_NameFrame
 --- @field TextFrame TalkingHeadFrame_TextFrame
 --- @field BackgroundFrame TalkingHeadFrame_BackgroundFrame
 --- @field PortraitFrame TalkingHeadFrame_PortraitFrame
 --- @field MainFrame TalkingHeadFrame_MainFrame
 TalkingHeadFrame = {}
+TalkingHeadFrame["layoutIndex"] = 8
+TalkingHeadFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+TalkingHeadFrame["system"] = Enum.EditModeSystem.TalkingHeadFrame -- inherited
 

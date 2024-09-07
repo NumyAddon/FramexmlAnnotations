@@ -23,6 +23,42 @@
 --- child of CommunitiesMemberListEntryTemplate
 --- @class CommunitiesMemberListEntryTemplate_MemberMuteButton : Button, RosterMemberMuteButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1211)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1218)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1225)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1232)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1239)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1247)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1255)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1263)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L1271)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L51)
 --- child of CommunitiesMemberListEntryTemplate
 --- @class CommunitiesMemberListEntryTemplate_CancelInvitationButton : Button, UIMenuButtonStretchTemplate
@@ -100,6 +136,10 @@
 --- @field Watermark Texture
 --- @field WatermarkCircleMask MaskTexture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L276)
 --- child of CommunitiesMemberListFrameTemplate
 --- @class CommunitiesMemberListFrameTemplate_ShowOfflineButton : CheckButton, UICheckButtonTemplate
@@ -127,6 +167,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L290)
 --- child of CommunitiesMemberListFrameTemplate
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay : Frame, ColumnDisplayTemplate
+--- @field sortingFunction any # CommunitiesMemberListColumnDisplay_OnClick
 --- @field InsetBorderTopLeft CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopLeft
 --- @field InsetBorderTopRight CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopRight
 --- @field InsetBorderBottomLeft CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderBottomLeft

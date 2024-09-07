@@ -14,6 +14,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L32)
 --- Template
 --- @class ClassSpecFrameTemplate : Frame, HorizontalLayoutFrame, ClassSpecFrameMixin
+--- @field disabledOverlayAlpha number # 0.8
 --- @field DisabledOverlay ClassSpecFrameTemplate_DisabledOverlay
 --- @field BlackBG Texture
 --- @field Background Texture
@@ -64,6 +65,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L65)
 --- Template
 --- @class ClassSpecContentFrameTemplate : Frame, ClassSpecContentFrameMixin
+--- @field expand boolean # true
 --- @field ActivateButton ClassSpecContentFrameTemplate_ActivateButton
 --- @field AnimationHolder ClassSpecContentFrameTemplate_AnimationHolder
 --- @field HoverBackground Texture

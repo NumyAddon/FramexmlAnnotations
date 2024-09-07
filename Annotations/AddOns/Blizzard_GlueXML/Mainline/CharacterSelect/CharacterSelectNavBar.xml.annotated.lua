@@ -17,6 +17,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.xml#L57)
 --- child of CharacterSelectNavBarTemplate
 --- @class CharacterSelectNavBarTemplate_ButtonTray : Frame, HorizontalButtonTrayTemplate
+--- @field expand boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectNavBar.xml#L54)
 --- Template

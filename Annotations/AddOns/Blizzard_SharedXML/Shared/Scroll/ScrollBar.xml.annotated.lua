@@ -3,4 +3,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBar.xml#L3)
 --- Template
 --- @class ScrollBarBaseTemplate : EventFrame, ScrollBarMixin
+--- @field canInterpolateScroll boolean # false
 

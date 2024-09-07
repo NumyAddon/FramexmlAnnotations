@@ -7,6 +7,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L5)
 --- Template
 --- @class ProfessionsCraftingOrderTypeTabTemplate : Button, TabSystemButtonArtTemplate
+--- @field isTabOnTop boolean # true
 --- @field Glow Texture
 --- @field GlowAnim ProfessionsCraftingOrderTypeTabTemplate_GlowAnim
 
@@ -18,6 +19,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L56)
 --- child of 
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_RecipeList : Frame, ProfessionsRecipeListTemplate
+--- @field hideCraftableCount boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L66)
 --- child of 
@@ -34,6 +36,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L115)
 --- child of 
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "InsetFrameTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L124)
 --- child of 
@@ -60,14 +63,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L162)
 --- child of 
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_PublicOrdersButton : Button, ProfessionsCraftingOrderTypeTabTemplate
+--- @field orderType any # Enum.CraftingOrderType.Public
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L170)
 --- child of 
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_GuildOrdersButton : Button, ProfessionsCraftingOrderTypeTabTemplate
+--- @field orderType any # Enum.CraftingOrderType.Guild
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L178)
 --- child of 
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_NpcOrdersButton : Button, ProfessionsCraftingOrderTypeTabTemplate
+--- @field orderType any # Enum.CraftingOrderType.Npc
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L186)
 --- child of 
@@ -76,6 +82,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L191)
 --- child of 
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_PersonalOrdersButton : Button, ProfessionsCraftingOrderTypeTabTemplate
+--- @field orderType any # Enum.CraftingOrderType.Personal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L214)
 --- child of 

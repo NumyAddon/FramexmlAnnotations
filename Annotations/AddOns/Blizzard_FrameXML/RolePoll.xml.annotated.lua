@@ -49,6 +49,7 @@ RolePollPopupAcceptButton = {}
 --- @field Border RolePollPopup_Border
 --- @field acceptButton RolePollPopup_RolePollPopupAcceptButton
 RolePollPopup = {}
+RolePollPopup["acceptButton"] = RolePollPopupAcceptButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L126)
 --- @class RoleChangedFrame : Frame

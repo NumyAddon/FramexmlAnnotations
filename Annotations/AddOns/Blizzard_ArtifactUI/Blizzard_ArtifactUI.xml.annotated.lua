@@ -74,4 +74,6 @@ ArtifactFrameTab2 = {}
 --- @field CloseButton ArtifactFrame_CloseButton
 --- @field Background Texture
 ArtifactFrame = {}
+ArtifactFrame["PerksTabButton"] = ArtifactFrameTab1
+ArtifactFrame["AppearancesTabButton"] = ArtifactFrameTab2
 

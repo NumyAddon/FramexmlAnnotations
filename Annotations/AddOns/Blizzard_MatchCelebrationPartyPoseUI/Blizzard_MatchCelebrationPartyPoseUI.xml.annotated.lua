@@ -12,18 +12,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.xml#L24)
 --- child of MatchCelebrationPartyPoseFrame
 --- @class MatchCelebrationPartyPoseFrame_Score : Frame, UIWidgetContainerTemplate
+--- @field showAndHideOnWidgetSetRegistration boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.xml#L45)
 --- child of 
 --- @class MatchCelebrationPartyPoseFrame_ButtonContainer_LeaveButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, MatchCelebrationMainButtonMixin
+--- @field layoutIndex number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.xml#L54)
 --- child of 
 --- @class MatchCelebrationPartyPoseFrame_ButtonContainer_ExtraButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, MatchCelebrationExtraButtonMixin
+--- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.xml#L37)
 --- child of MatchCelebrationPartyPoseFrame
 --- @class MatchCelebrationPartyPoseFrame_ButtonContainer : Frame, HorizontalLayoutFrame
+--- @field spacing number # 100
 --- @field LeaveButton MatchCelebrationPartyPoseFrame_ButtonContainer_LeaveButton
 --- @field ExtraButton MatchCelebrationPartyPoseFrame_ButtonContainer_ExtraButton
 

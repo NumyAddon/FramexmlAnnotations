@@ -14,6 +14,16 @@ PartyPoseDialogSpinner = {}
 --- @field ModelScene GluePartyPoseFrame_ModelScene
 GluePartyPoseFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/GluePartyPoseUI.xml#L25)
+--- child of PartyMemberNameTemplate
+--- @class PartyMemberNameTemplate_LeaderIcon : Texture
+--- @field align string # "center"
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/GluePartyPoseUI.xml#L31)
+--- child of PartyMemberNameTemplate
+--- @class PartyMemberNameTemplate_RenownLevelIcon : Texture
+--- @field align string # "center"
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/GluePartyPoseUI.xml#L38)
 --- child of PartyMemberNameTemplate
 --- @class PartyMemberNameTemplate_RenownLevel : FontString, GameFontNormalLarge2
@@ -21,15 +31,22 @@ GluePartyPoseFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/GluePartyPoseUI.xml#L44)
 --- child of PartyMemberNameTemplate
 --- @class PartyMemberNameTemplate_MemberName : FontString, GlueFontNormalGigantor
+--- @field align string # "center"
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/GluePartyPoseUI.xml#L52)
+--- child of PartyMemberNameTemplate
+--- @class PartyMemberNameTemplate_ReadyCheck : Texture
+--- @field align string # "center"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/GluePartyPoseUI.xml#L18)
 --- Template
 --- @class PartyMemberNameTemplate : Frame, HorizontalLayoutFrame
---- @field LeaderIcon Texture
---- @field RenownLevelIcon Texture
+--- @field spacing number # 2
+--- @field LeaderIcon PartyMemberNameTemplate_LeaderIcon
+--- @field RenownLevelIcon PartyMemberNameTemplate_RenownLevelIcon
 --- @field RenownLevel PartyMemberNameTemplate_RenownLevel
 --- @field MemberName PartyMemberNameTemplate_MemberName
---- @field ReadyCheck Texture
+--- @field ReadyCheck PartyMemberNameTemplate_ReadyCheck
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/GluePartyPoseUI.xml#L66)
 --- child of PartyMemberFrameTemplate

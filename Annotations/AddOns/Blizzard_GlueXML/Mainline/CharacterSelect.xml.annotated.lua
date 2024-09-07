@@ -88,6 +88,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L241)
 --- Template
 --- @class CharacterSelectRotateButtonTemplate : Button, CommonSquareIconButtonTemplate
+--- @field onClickSoundKit any # SOUNDKIT.IG_INVENTORY_ROTATE_CHARACTER
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L305)
 --- child of CharacterSelectUI
@@ -120,6 +121,7 @@ LogoHoist = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L362)
 --- child of 
 --- @class CharacterSelect_CharacterSelectUI_LimitedTimeEventFrame_Text : Frame, NewFeatureLabelNoAnimateTemplate
+--- @field label any # LIMITED_TIME_EVENT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L343)
 --- child of CharacterSelectUI
@@ -176,6 +178,10 @@ CharSelectAccountUpgradeButtonGlow = {}
 --- @field TopChain1 CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeButton_CharSelectAccountUpgradeButtonChains1
 --- @field TopChain2 CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeButton_CharSelectAccountUpgradeButtonChains2
 CharSelectAccountUpgradeButton = {}
+CharSelectAccountUpgradeButton["expandCollapseButton"] = CharSelectAccountUpgradeButtonExpandCollapseButton
+CharSelectAccountUpgradeButton["PointerFrame"] = CharSelectAccountUpgradeButtonPointerFrame
+CharSelectAccountUpgradeButton["TopChain1"] = CharSelectAccountUpgradeButtonChains1
+CharSelectAccountUpgradeButton["TopChain2"] = CharSelectAccountUpgradeButtonChains2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L492)
 --- child of CharSelectAccountUpgradeMiniPanel
@@ -192,17 +198,76 @@ CharSelectAccountUpgradeMiniPanelBanner = {}
 --- @class CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeMiniPanel_CharSelectAccountUpgradeMiniPanelUpgradeLogo : Texture
 CharSelectAccountUpgradeMiniPanelUpgradeLogo = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L6)
+--- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradeMiniPanelBorderTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L13)
+--- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradeMiniPanelBorderTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L20)
+--- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradeMiniPanelBorderBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L27)
+--- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradeMiniPanelBorderBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L34)
+--- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradeMiniPanelBorderBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L41)
+--- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradeMiniPanelBorderTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L49)
+--- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradeMiniPanelBorderLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L56)
+--- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradeMiniPanelBorderRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L485)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeMiniPanel : Frame, UpgradeFrameBorderedTemplate
 --- @field banner CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeMiniPanel_CharSelectAccountUpgradeMiniPanelBanner
 --- @field logo CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeMiniPanel_CharSelectAccountUpgradeMiniPanelUpgradeLogo
 CharSelectAccountUpgradeMiniPanel = {}
+CharSelectAccountUpgradeMiniPanel["banner"] = CharSelectAccountUpgradeMiniPanelBanner
+CharSelectAccountUpgradeMiniPanel["logo"] = CharSelectAccountUpgradeMiniPanelUpgradeLogo
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L71)
+--- child of CharSelectAccountUpgradePanelFeature1 (created in template UpgradeFrameFeatureTemplate)
+--- @type Texture
+CharSelectAccountUpgradePanelFeature1IconFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L80)
+--- child of CharSelectAccountUpgradePanelFeature1 (created in template UpgradeFrameFeatureTemplate)
+--- @type UpgradeFrameFeatureTemplate_UpgradeFrameFeatureTemplateText
+CharSelectAccountUpgradePanelFeature1Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L86)
+--- child of CharSelectAccountUpgradePanelFeature1 (created in template UpgradeFrameFeatureTemplate)
+--- @type Texture
+CharSelectAccountUpgradePanelFeature1Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L562)
 --- child of CharSelectAccountUpgradePanel
 --- @class CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradePanel_CharSelectAccountUpgradePanelFeature1 : Frame, UpgradeFrameFeatureTemplate
 CharSelectAccountUpgradePanelFeature1 = {}
+CharSelectAccountUpgradePanelFeature1["text"] = CharSelectAccountUpgradePanelFeature1Text -- inherited
+CharSelectAccountUpgradePanelFeature1["icon"] = CharSelectAccountUpgradePanelFeature1Icon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L526)
 --- child of CharSelectAccountUpgradePanel
@@ -229,12 +294,54 @@ CharSelectAccountUpgradePanelBanner = {}
 --- @class CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradePanel_CharSelectAccountUpgradePanelUpgradeLogo : Texture
 CharSelectAccountUpgradePanelUpgradeLogo = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L6)
+--- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradePanelBorderTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L13)
+--- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradePanelBorderTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L20)
+--- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradePanelBorderBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L27)
+--- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradePanelBorderBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L34)
+--- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradePanelBorderBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L41)
+--- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradePanelBorderTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L49)
+--- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradePanelBorderLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L56)
+--- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
+--- @type Texture
+CharSelectAccountUpgradePanelBorderRight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L519)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradePanel : Frame, UpgradeFrameBorderedTemplate
 --- @field banner CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradePanel_CharSelectAccountUpgradePanelBanner
 --- @field logo CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradePanel_CharSelectAccountUpgradePanelUpgradeLogo
 CharSelectAccountUpgradePanel = {}
+CharSelectAccountUpgradePanel["banner"] = CharSelectAccountUpgradePanelBanner
+CharSelectAccountUpgradePanel["logo"] = CharSelectAccountUpgradePanelUpgradeLogo
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L569)
 --- child of CharacterSelectUI
@@ -244,12 +351,18 @@ CharSelectEnterWorldButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L584)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectRotateLeft : Button, CharacterSelectRotateButtonTemplate
+--- @field iconAtlas string # "common-icon-rotateleft"
 CharacterSelectRotateLeft = {}
+CharacterSelectRotateLeft["iconAtlas"] = "common-icon-rotateleft"
+CharacterSelectRotateLeft["onClickSoundKit"] = SOUNDKIT.IG_INVENTORY_ROTATE_CHARACTER -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L593)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectRotateRight : Button, CharacterSelectRotateButtonTemplate
+--- @field iconAtlas string # "common-icon-rotateright"
 CharacterSelectRotateRight = {}
+CharacterSelectRotateRight["iconAtlas"] = "common-icon-rotateright"
+CharacterSelectRotateRight["onClickSoundKit"] = SOUNDKIT.IG_INVENTORY_ROTATE_CHARACTER -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L613)
 --- child of 
@@ -285,11 +398,32 @@ CopyCharacterButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L688)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_VASTokenContainer : Frame, HorizontalLayoutFrame
+--- @field spacing number # 0
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L58)
+--- child of CharSelectCreateCharacterButton
+--- @class CharacterSelectListTemplate_CharSelectCreateCharacterButton_NewFeatureFrame : Frame, NewFeatureLabelNoAnimateTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L52)
+--- child of CharacterSelectCharacterFrame (created in template CharacterSelectListTemplate)
+--- @type CharacterSelectListTemplate_CharSelectCreateCharacterButton
+--- @field NewFeatureFrame CharacterSelectListTemplate_CharSelectCreateCharacterButton_NewFeatureFrame
+CharSelectCreateCharacterButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L78)
+--- child of CharacterSelectCharacterFrame (created in template CharacterSelectListTemplate)
+--- @type CharacterSelectListTemplate_CharSelectUndeleteCharacterButton
+--- @field tooltipText any # UNDELETE_TOOLTIP
+CharSelectUndeleteCharacterButton = {}
+CharSelectUndeleteCharacterButton["tooltipText"] = UNDELETE_TOOLTIP
+CharSelectUndeleteCharacterButton["buttonArtKit"] = "128-RedButton-Refresh" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L698)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame : Frame, CharacterSelectListTemplate
 CharacterSelectCharacterFrame = {}
+CharacterSelectCharacterFrame["CreateCharacterButton"] = CharSelectCreateCharacterButton -- inherited
+CharacterSelectCharacterFrame["UndeleteButton"] = CharSelectUndeleteCharacterButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L705)
 --- child of CharacterSelectUI
@@ -356,6 +490,7 @@ UpgradePopupFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L892)
 --- child of CharSelectServicesFlowFrame
 --- @class CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_MinimizeButton : Button, UIButtonTemplate
+--- @field buttonArtKit string # "128-redbutton-minus"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L901)
 --- child of CharSelectServicesFlowFrame
@@ -452,9 +587,12 @@ CharacterUpgradeSecondChanceWarningFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1015)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame : Frame, TooltipBackdropTemplate
+--- @field layoutType string # "TooltipGluesLayout"
 --- @field Dropdown CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame_Dropdown
 --- @field CreateTemplateButton CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame_CreateTemplateButton
 CharacterTemplatesFrame = {}
+CharacterTemplatesFrame["layoutType"] = "TooltipGluesLayout"
+CharacterTemplatesFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1109)
 --- child of PlayersOnServer
@@ -485,6 +623,7 @@ ActivateFactionChange = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1056)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_PlayersOnServer : Frame, TooltipBackdropTemplate
+--- @field layoutType string # "TooltipGluesLayout"
 --- @field HordeText CharacterSelect_CharacterSelectUI_PlayersOnServer_HordeText
 --- @field AllianceText CharacterSelect_CharacterSelectUI_PlayersOnServer_AllianceText
 --- @field HordeCount CharacterSelect_CharacterSelectUI_PlayersOnServer_HordeCount
@@ -492,6 +631,8 @@ ActivateFactionChange = {}
 --- @field HordeStar Texture
 --- @field AllianceStar Texture
 PlayersOnServer = {}
+PlayersOnServer["layoutType"] = "TooltipGluesLayout"
+PlayersOnServer["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1142)
 --- child of CharacterSelectUI
@@ -539,6 +680,10 @@ REALM_HIDDEN_ALERT = {}
 --- @field FadeIn CharacterSelect_CharacterSelectUI_FadeIn
 --- @field MapFadeIn CharacterSelect_CharacterSelectUI_MapFadeIn
 CharacterSelectUI = {}
+CharacterSelectUI["MapScene"] = CharacterSelectMapScene
+CharacterSelectUI["ModelFFX"] = CharacterSelectModelFFX
+CharacterSelectUI["LogoHoist"] = LogoHoist
+CharacterSelectUI["CharacterList"] = CharacterSelectCharacterFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1184)
 --- child of GameRoomBillingFrame
@@ -548,7 +693,10 @@ GameRoomBillingFrameText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1176)
 --- child of CharacterSelect
 --- @class CharacterSelect_GameRoomBillingFrame : Frame, TooltipBackdropTemplate
+--- @field layoutType string # "TooltipGluesLayout"
 GameRoomBillingFrame = {}
+GameRoomBillingFrame["layoutType"] = "TooltipGluesLayout"
+GameRoomBillingFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L260)
 --- @class CharacterSelect : Frame, CallbackRegistrantTemplate, CharacterSelectFrameMixin
@@ -557,6 +705,7 @@ GameRoomBillingFrame = {}
 --- @field RightBlackBar Texture
 --- @field TopBlackBar Texture
 CharacterSelect = {}
+CharacterSelect["CharacterSelectUI"] = CharacterSelectUI
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1237)
 --- child of 
@@ -715,6 +864,12 @@ CopyCharacterFrameRegionID = {}
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_ScrollBar : EventFrame, MinimalScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1148)
+--- child of CopyCharacterFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+CopyCharacterFrameInset = {}
+CopyCharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1431)
 --- @class CopyCharacterFrame : Frame, ButtonFrameTemplate
 --- @field SearchButton CopyCharacterFrame_SearchButton
@@ -727,4 +882,6 @@ CopyCharacterFrameRegionID = {}
 --- @field ScrollBox CopyCharacterFrame_ScrollBox
 --- @field ScrollBar CopyCharacterFrame_ScrollBar
 CopyCharacterFrame = {}
+CopyCharacterFrame["RegionID"] = CopyCharacterFrameRegionID
+CopyCharacterFrame["Inset"] = CopyCharacterFrameInset -- inherited
 

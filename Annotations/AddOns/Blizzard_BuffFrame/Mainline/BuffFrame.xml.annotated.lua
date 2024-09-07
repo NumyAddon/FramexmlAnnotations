@@ -29,10 +29,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L61)
 --- Template
 --- @class AuraContainerTemplate : Frame, AuraContainerMixin
+--- @field isHorizontal boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L74)
 --- Template
 --- @class BuffFramePrivateAuraAnchorTemplate : Frame, BuffFramePrivateAuraAnchorMixin
+--- @field isAuraAnchor boolean # true
 --- @field Icon Frame
 --- @field Duration Frame
 
@@ -53,22 +55,28 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L116)
 --- @class BuffFrame : Frame, AuraFrameTemplate, BuffFrameMixin
+--- @field exampleAuraType string # "Buff"
 --- @field CollapseAndExpandButton BuffFrame_CollapseAndExpandButton
 BuffFrame = {}
+BuffFrame["exampleAuraType"] = "Buff"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L174)
 --- child of DebuffFrame
 --- @class DebuffFrame_privateAuraAnchor1 : Frame, BuffFramePrivateAuraAnchorTemplate
+--- @field auraIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L179)
 --- child of DebuffFrame
 --- @class DebuffFrame_privateAuraAnchor2 : Frame, BuffFramePrivateAuraAnchorTemplate
+--- @field auraIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L162)
 --- @class DebuffFrame : Frame, AuraFrameTemplate, DebuffFrameMixin
+--- @field exampleAuraType string # "Debuff"
 --- @field privateAuraAnchor1 DebuffFrame_privateAuraAnchor1
 --- @field privateAuraAnchor2 DebuffFrame_privateAuraAnchor2
 DebuffFrame = {}
+DebuffFrame["exampleAuraType"] = "Debuff"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L208)
 --- child of DeadlyDebuffFrame

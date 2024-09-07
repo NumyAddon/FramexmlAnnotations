@@ -20,6 +20,10 @@
 --- @field Icon Texture
 --- @field Name CraftingSearchSMTemplate_Name
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L2977)
+--- child of CraftingSearchAllSMTemplate (created in template SearchBoxListAllButtonTemplate)
+--- @type SearchBoxListAllButtonTemplate_SearchBoxListAllButtonTemplateText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L49)
 --- Template
 --- @class CraftingSearchAllSMTemplate : Button, SearchBoxListAllButtonTemplate
@@ -70,13 +74,49 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L144)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_SchematicForm : Frame, ProfessionsRecipeSchematicFormTemplate
+--- @field layoutType string # "InsetFrameTemplate"
 --- @field NineSlice ProfessionsCraftingPageTemplate_SchematicForm_NineSlice
 --- @field Background Texture
 --- @field MinimalBackground Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L2870)
+--- child of SearchBoxListTemplateSearchProgressLoading
+--- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_spinner : Frame, SpinnerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L2861)
+--- child of SearchBoxListTemplateSearchProgressLoading
+--- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_SearchBoxListTemplateSearchProgressLoadingText : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L2854)
+--- child of SearchBoxListTemplateSearchProgress
+--- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading : Frame
+--- @field spinner SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_spinner
+--- @field text SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_SearchBoxListTemplateSearchProgressLoadingText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L2894)
+--- child of SearchBoxListTemplateSearchProgressBar
+--- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar_text : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L2878)
+--- child of SearchBoxListTemplateSearchProgress
+--- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar : StatusBar
+--- @field barBackground Texture
+--- @field text SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar_text
+--- @field barBorderLeft Texture
+--- @field barBorderRight Texture
+--- @field barBorderCenter Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L2836)
+--- child of  (created in template SearchBoxListTemplate)
+--- @type SearchBoxListTemplate_SearchBoxListTemplateSearchProgress
+--- @field loading SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading
+--- @field bar SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar
+--- @field background Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L167)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_MinimizedSearchBox : EditBox, SearchBoxListTemplate
+--- @field buttonTemplate string # "CraftingSearchSMTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L184)
 --- child of 
@@ -85,6 +125,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L190)
 --- child of 
 --- @class ProfessionsCraftingPageTemplate_MinimizedSearchResults_ScrollBar : EventFrame, MinimalScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L1148)
+--- child of  (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L178)
 --- child of ProfessionsCraftingPageTemplate
@@ -103,6 +147,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L209)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_CreateMultipleInputBox : EditBox, NumericInputSpinnerTemplate
+--- @field clampIfInputExceedsRange boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L219)
 --- child of ProfessionsCraftingPageTemplate
@@ -123,38 +168,47 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L245)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_Prof0ToolSlot : ItemButton, ProfessionsGearSlotTemplate
+--- @field slotName string # "Prof0ToolSlot"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L254)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_Prof0Gear0Slot : ItemButton, ProfessionsGearSlotTemplate
+--- @field slotName string # "Prof0Gear0Slot"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L263)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_Prof0Gear1Slot : ItemButton, ProfessionsGearSlotTemplate
+--- @field slotName string # "Prof0Gear1Slot"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L273)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_Prof1ToolSlot : ItemButton, ProfessionsGearSlotTemplate
+--- @field slotName string # "Prof1ToolSlot"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L282)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_Prof1Gear0Slot : ItemButton, ProfessionsGearSlotTemplate
+--- @field slotName string # "Prof1Gear0Slot"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L291)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_Prof1Gear1Slot : ItemButton, ProfessionsGearSlotTemplate
+--- @field slotName string # "Prof1Gear1Slot"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L301)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_CookingToolSlot : ItemButton, ProfessionsGearSlotTemplate
+--- @field slotName string # "CookingToolSlot"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L310)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_CookingGear0Slot : ItemButton, ProfessionsGearSlotTemplate
+--- @field slotName string # "CookingGear0Slot"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L320)
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_FishingToolSlot : ItemButton, ProfessionsGearSlotTemplate
+--- @field slotName string # "FishingToolSlot"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L350)
 --- child of ProfessionsCraftingPageTemplate

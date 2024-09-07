@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L5)
 --- Template
 --- @class AzeriteUnlockedItemTemplate : ItemButton
+--- @field topPadding number # 0
 --- @field AzeriteTexture Texture
 --- @field icon Texture
 --- @field IconBorder Texture
@@ -15,17 +16,20 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L197)
 --- child of 
 --- @class AzeriteLevelUpToast_UnlockItemsFrame_EssenceSlotFrame : Frame
+--- @field layoutIndex number # 10
 --- @field GlassCover Texture
 --- @field Ring Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L211)
 --- child of 
 --- @class AzeriteLevelUpToast_UnlockItemsFrame_EssenceStaminaFrame : Frame
+--- @field layoutIndex number # 11
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L222)
 --- child of 
 --- @class AzeriteLevelUpToast_UnlockItemsFrame_EssenceRankedFrame : Frame
+--- @field layoutIndex number # 12
 --- @field Icon Texture
 --- @field DiamondMask MaskTexture
 --- @field Border Texture

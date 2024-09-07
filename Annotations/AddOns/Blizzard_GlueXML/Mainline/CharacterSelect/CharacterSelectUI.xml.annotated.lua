@@ -23,10 +23,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectUI.xml#L53)
 --- child of CharacterFooterFrameTemplate
 --- @class CharacterFooterFrameTemplate_RotateLeft : Button, CharacterSelectRotateButtonTemplate
+--- @field iconAtlas string # "common-icon-rotateleft"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectUI.xml#L62)
 --- child of CharacterFooterFrameTemplate
 --- @class CharacterFooterFrameTemplate_RotateRight : Button, CharacterSelectRotateButtonTemplate
+--- @field iconAtlas string # "common-icon-rotateright"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectUI.xml#L50)
 --- Template

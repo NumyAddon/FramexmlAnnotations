@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L8)
 --- child of GlowEmitterTemplate
 --- @class GlowEmitterTemplate_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "IdenticalCornersLayoutNoCenter"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L36)
 --- child of GlowEmitterTemplate

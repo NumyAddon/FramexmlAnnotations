@@ -15,10 +15,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L21)
 --- Template
 --- @class ItemUpgradeTooltipTemplate : GameTooltip, SharedTooltipTemplate, ItemUpgradePreviewMixin
+--- @field textLeft1Font string # "GameTooltipText"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L31)
 --- child of ItemUpgradePreviewTemplate
 --- @class ItemUpgradePreviewTemplate_GlowNineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "IdenticalCornersLayoutNoCenter"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L37)
 --- child of ItemUpgradePreviewTemplate
@@ -72,6 +74,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L301)
 --- child of 
 --- @class ItemUpgradeFrame_ItemInfo_Dropdown : DropdownButton, WowStyle1DropdownTemplate
+--- @field resizeToText boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L274)
 --- child of 
@@ -101,17 +104,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L315)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_ItemUpgradeFrameLeftItemPreviewFrame : GameTooltip, ItemUpgradePreviewTemplate
+--- @field isUpgrade boolean # false
 ItemUpgradeFrameLeftItemPreviewFrame = {}
+ItemUpgradeFrameLeftItemPreviewFrame["isUpgrade"] = false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L324)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_ItemUpgradeFrameRightItemPreviewFrame : GameTooltip, ItemUpgradePreviewTemplate
+--- @field isUpgrade boolean # true
 ItemUpgradeFrameRightItemPreviewFrame = {}
+ItemUpgradeFrameRightItemPreviewFrame["isUpgrade"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L333)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_ItemUpgradeFrameItemHoverPreviewFrame : GameTooltip, ItemUpgradeTooltipTemplate
 ItemUpgradeFrameItemHoverPreviewFrame = {}
+ItemUpgradeFrameItemHoverPreviewFrame["textLeft1Font"] = "GameTooltipText" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L350)
 --- child of 
@@ -136,7 +144,23 @@ ItemUpgradeFrameItemHoverPreviewFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L388)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_UpgradeCostFrame : Frame, CurrencyHorizontalLayoutFrameTemplate
+--- @field quantityFontObject string # "ItemUpgradeCostQuantityTemplate"
 --- @field BGTex Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L1484)
+--- child of ItemUpgradeFramePlayerCurrenciesBorder (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+ItemUpgradeFramePlayerCurrenciesBorderLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L1492)
+--- child of ItemUpgradeFramePlayerCurrenciesBorder (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+ItemUpgradeFramePlayerCurrenciesBorderRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L1500)
+--- child of ItemUpgradeFramePlayerCurrenciesBorder (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+ItemUpgradeFramePlayerCurrenciesBorderMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L407)
 --- child of ItemUpgradeFrame
@@ -146,6 +170,7 @@ ItemUpgradeFramePlayerCurrenciesBorder = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L414)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_PlayerCurrencies : Frame, CurrencyHorizontalLayoutFrameTemplate
+--- @field fixedHeight number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L426)
 --- child of 
@@ -180,6 +205,11 @@ ItemUpgradeFramePlayerCurrenciesBorder = {}
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_IdleGlowSlide : AnimationGroup
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L1095)
+--- child of ItemUpgradeFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ItemUpgradeFrameCloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L144)
 --- @class ItemUpgradeFrame : Frame, PortraitFrameTemplate, ItemUpgradeMixin
 --- @field UpgradeItemButton ItemUpgradeFrame_UpgradeItemButton
@@ -209,4 +239,9 @@ ItemUpgradeFramePlayerCurrenciesBorder = {}
 --- @field MicaFleckSheenSlide ItemUpgradeFrame_MicaFleckSheenSlide
 --- @field IdleGlowSlide ItemUpgradeFrame_IdleGlowSlide
 ItemUpgradeFrame = {}
+ItemUpgradeFrame["LeftItemPreviewFrame"] = ItemUpgradeFrameLeftItemPreviewFrame
+ItemUpgradeFrame["RightItemPreviewFrame"] = ItemUpgradeFrameRightItemPreviewFrame
+ItemUpgradeFrame["ItemHoverPreviewFrame"] = ItemUpgradeFrameItemHoverPreviewFrame
+ItemUpgradeFrame["PlayerCurrenciesBorder"] = ItemUpgradeFramePlayerCurrenciesBorder
+ItemUpgradeFrame["CloseButton"] = ItemUpgradeFrameCloseButton -- inherited
 

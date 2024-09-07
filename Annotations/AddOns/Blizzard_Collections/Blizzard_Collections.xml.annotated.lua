@@ -29,6 +29,11 @@ CollectionsJournalTab4 = {}
 --- @class CollectionsJournal_CollectionsJournalTab5 : Button, CollectionsJournalTab
 CollectionsJournalTab5 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L1095)
+--- child of CollectionsJournal (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+CollectionsJournalCloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L14)
 --- @class CollectionsJournal : Frame, PortraitFrameTemplate
 --- @field MountsTab CollectionsJournal_CollectionsJournalTab1
@@ -37,4 +42,10 @@ CollectionsJournalTab5 = {}
 --- @field HeirloomsTab CollectionsJournal_CollectionsJournalTab4
 --- @field WardrobeTab CollectionsJournal_CollectionsJournalTab5
 CollectionsJournal = {}
+CollectionsJournal["MountsTab"] = CollectionsJournalTab1
+CollectionsJournal["PetsTab"] = CollectionsJournalTab2
+CollectionsJournal["ToysTab"] = CollectionsJournalTab3
+CollectionsJournal["HeirloomsTab"] = CollectionsJournalTab4
+CollectionsJournal["WardrobeTab"] = CollectionsJournalTab5
+CollectionsJournal["CloseButton"] = CollectionsJournalCloseButton -- inherited
 

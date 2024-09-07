@@ -12,6 +12,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.xml#L17)
 --- Template
 --- @class POIButtonTemplate : Button, POIButtonMixin
+--- @field shouldShowGlow boolean # true
 --- @field Display POIButtonTemplate_Display
 --- @field HighlightTexture Texture
 --- @field Glow Texture

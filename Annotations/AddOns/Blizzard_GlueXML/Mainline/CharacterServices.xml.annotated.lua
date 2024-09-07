@@ -34,6 +34,10 @@
 --- child of CharacterUpgradeSelectSpecRadioButtonTemplate
 --- @class CharacterUpgradeSelectSpecRadioButtonTemplate_Recommended : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L477)
+--- child of CharacterUpgradeSelectSpecRadioButtonTemplate (created in template UIRadialButtonTemplate)
+--- @type UIRadialButtonTemplate_UIRadialButtonTemplateText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L47)
 --- Template
 --- @class CharacterUpgradeSelectSpecRadioButtonTemplate : CheckButton, UIRadialButtonTemplate, CharacterUpgradeSelectSpecRadioButtonMixin
@@ -49,6 +53,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L147)
 --- child of CharacterUpgradeSelectFactionRadioButtonTemplate
 --- @class CharacterUpgradeSelectFactionRadioButtonTemplate_CharacterUpgradeSelectFactionRadioButtonTemplateFactionName : FontString, GameFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L477)
+--- child of CharacterUpgradeSelectFactionRadioButtonTemplate (created in template UIRadialButtonTemplate)
+--- @type UIRadialButtonTemplate_UIRadialButtonTemplateText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L117)
 --- Template
@@ -160,13 +168,45 @@ CharacterUpgradeMaxCharactersFrame = {}
 --- @field ControlsFrame Frame
 CharacterUpgradeSelectSpecFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L120)
+--- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- @type Texture
+FactionOverlay = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L141)
+--- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- @type Texture
+FactionIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L147)
+--- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- @type CharacterUpgradeSelectFactionRadioButtonTemplate_CharacterUpgradeSelectFactionRadioButtonTemplateFactionName
+FactionName = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L314)
 --- child of 
 --- @class CharacterUpgradeSelectFactionFrame_ControlsFrame_HordeButton : CheckButton, CharacterUpgradeSelectFactionRadioButtonTemplate
+--- @field factionID number # 0
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L120)
+--- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- @type Texture
+FactionOverlay = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L141)
+--- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- @type Texture
+FactionIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L147)
+--- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- @type CharacterUpgradeSelectFactionRadioButtonTemplate_CharacterUpgradeSelectFactionRadioButtonTemplateFactionName
+FactionName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L322)
 --- child of 
 --- @class CharacterUpgradeSelectFactionFrame_ControlsFrame_AllianceButton : CheckButton, CharacterUpgradeSelectFactionRadioButtonTemplate
+--- @field factionID number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L312)
 --- child of CharacterUpgradeSelectFactionFrame
@@ -182,6 +222,7 @@ CharacterUpgradeSelectFactionFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L376)
 --- child of RPEUpgradeMinimizedFrame
 --- @class RPEUpgradeMinimizedFrame_ExpandButton : Button, UIButtonTemplate
+--- @field buttonArtKit string # "128-redbutton-plus"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L367)
 --- child of RPEUpgradeMinimizedFrame

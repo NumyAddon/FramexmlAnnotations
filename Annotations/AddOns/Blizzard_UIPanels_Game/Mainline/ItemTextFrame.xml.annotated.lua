@@ -3,7 +3,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L57)
 --- child of ItemTextFrame
 --- @class ItemTextFrame_ItemTextScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarX number # 7
 ItemTextScrollFrame = {}
+ItemTextScrollFrame["scrollBarX"] = 7
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L82)
 --- child of ItemTextFrame
@@ -58,7 +60,14 @@ ItemTextMaterialBotRight = {}
 --- @class ItemTextFrame_ItemTextCurrentPage : FontString, GameFontNormal
 ItemTextCurrentPage = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L1148)
+--- child of ItemTextFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+ItemTextFrameInset = {}
+ItemTextFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L3)
 --- @class ItemTextFrame : Frame, ButtonFrameTemplate
 ItemTextFrame = {}
+ItemTextFrame["Inset"] = ItemTextFrameInset -- inherited
 

@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L37)
 --- child of ChromieTimeExpansionButtonTemplate
 --- @class ChromieTimeExpansionButtonTemplate_RecommendLabel : Frame, NewFeatureLabelTemplate
+--- @field animateGlow boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L17)
 --- child of ChromieTimeExpansionButtonTemplate
@@ -65,6 +66,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L55)
 --- @class ChromieTimeFrame : Frame, ChromieTimeFrameMixin
+--- @field layoutType string # "WoodenNeutralFrameTemplate"
 --- @field NineSlice ChromieTimeFrame_NineSlice
 --- @field Background ChromieTimeFrame_Background
 --- @field Title ChromieTimeFrame_Title
@@ -73,4 +75,5 @@
 --- @field CurrentlySelectedExpansionInfoFrame ChromieTimeFrame_CurrentlySelectedExpansionInfoFrame
 --- @field OptionsFrame Frame
 ChromieTimeFrame = {}
+ChromieTimeFrame["layoutType"] = "WoodenNeutralFrameTemplate"
 

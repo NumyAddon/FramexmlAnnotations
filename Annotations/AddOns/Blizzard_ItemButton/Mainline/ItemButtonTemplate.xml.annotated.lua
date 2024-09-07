@@ -11,6 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L5)
 --- Intrinsic
 --- @class ItemButton : Button, ItemButtonMixin
+--- @field showMatchHighlight boolean # true
 --- @field icon Texture
 --- @field Count ItemButton_ItemButtonCount
 --- @field Stock ItemButton_ItemButtonStock
@@ -77,6 +78,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L243)
 --- Template
 --- @class LargeItemButtonTemplate : Button
+--- @field largeItemButton boolean # true
 --- @field Icon Texture
 --- @field NameFrame Texture
 --- @field Name LargeItemButtonTemplate_LargeItemButtonTemplateName
@@ -96,6 +98,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L305)
 --- Template
 --- @class SmallItemButtonTemplate : Button
+--- @field smallItemButton boolean # true
 --- @field Icon Texture
 --- @field NameFrame Texture
 --- @field Name SmallItemButtonTemplate_Name

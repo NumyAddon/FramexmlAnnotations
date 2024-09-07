@@ -19,6 +19,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.xml#L3)
 --- Template
 --- @class RadialWheelButtonTemplate : Frame, RadialWheelButtonMixin
+--- @field ignoreScaleChangesOnSelect boolean # false
 --- @field SelectedTexture Texture
 --- @field Icon Texture
 --- @field IconGlow Texture
@@ -34,6 +35,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.xml#L66)
 --- child of RadialWheelFrameTemplate
 --- @class RadialWheelFrameTemplate_CancelButton : Frame, RadialWheelButtonTemplate
+--- @field ignoreScaleChangesOnSelect boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.xml#L97)
 --- child of 

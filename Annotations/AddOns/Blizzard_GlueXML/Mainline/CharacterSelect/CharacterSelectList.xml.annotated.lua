@@ -1,5 +1,14 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L28)
 --- child of CharacterSelectListTemplate
 --- @class CharacterSelectListTemplate_SearchBox : EditBox, SearchBoxTemplate, CharSelectSearchMixin
@@ -24,10 +33,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L65)
 --- child of CharacterSelectListTemplate
 --- @class CharacterSelectListTemplate_DeleteCharacterButton : Button, UIButtonTemplate
+--- @field buttonArtKit string # "128-redbutton-delete"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L78)
 --- child of CharacterSelectListTemplate
 --- @class CharacterSelectListTemplate_CharSelectUndeleteCharacterButton : Button, BigRedRefreshButtonTemplate
+--- @field tooltipText any # UNDELETE_TOOLTIP
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L90)
 --- child of CharacterSelectListTemplate

@@ -22,6 +22,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.xml#L58)
 --- Template
 --- @class CommunitiesChatEditBoxTemplate : EditBox
+--- @field supportsSlashCommands boolean # false
 --- @field Left Texture
 --- @field Right Texture
 --- @field Mid Texture

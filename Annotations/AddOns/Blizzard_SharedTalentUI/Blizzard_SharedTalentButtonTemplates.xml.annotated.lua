@@ -3,10 +3,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L23)
 --- child of TalentButtonSearchIconTemplate
 --- @class TalentButtonSearchIconTemplate_GlowAnim : AnimationGroup, SyncedAnimGroupTemplate
+--- @field syncKey string # "TraitSearchIcon"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L5)
 --- Template
 --- @class TalentButtonSearchIconTemplate : Frame, AnimateWhileShownTemplate, TalentButtonSearchIconMixin
+--- @field mouseoverSize number # 10
 --- @field Icon Texture
 --- @field OverlayIcon Texture
 --- @field Mouseover Texture
@@ -19,6 +21,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L184)
 --- child of TalentButtonArtTemplate
 --- @class TalentButtonArtTemplate_SearchIcon : Frame, TalentButtonSearchIconTemplate
+--- @field mouseoverSize number # 18
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L93)
 --- child of TalentButtonArtTemplate
@@ -83,6 +86,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L241)
 --- Template
 --- @class TalentButtonChoiceTemplate : Button, TalentButtonArtTemplate, TalentButtonSplitIconMixin
+--- @field GetEdgeDiameterOffset any # TalentButtonArtMixin.GetChoiceEdgeDiameterOffset
 --- @field Icon2 Texture
 --- @field IconSplitMask MaskTexture
 --- @field Icon2Mask MaskTexture
@@ -90,6 +94,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L281)
 --- Template
 --- @class TalenButtonOldCircleTemplate : Button, TalentButtonBasicArtTemplate
+--- @field sizingAdjustment any # TalentButtonBasicArtMixin.SizingAdjustment.Circle
 --- @field BorderShadow Texture
 --- @field StateBorder Texture
 --- @field Border2 Texture
@@ -103,16 +108,20 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L367)
 --- Template
 --- @class TalentButtonCircleTemplate : Button, TalentButtonArtTemplate
+--- @field GetEdgeDiameterOffset any # TalentButtonArtMixin.GetCircleEdgeDiameterOffset
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L375)
 --- Template
 --- @class TalentButtonSquareTemplate : Button, TalentButtonArtTemplate
+--- @field GetEdgeDiameterOffset any # TalentButtonArtMixin.GetSquareEdgeDiameterOffset
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L383)
 --- Template
 --- @class TalentButtonLargeSquareTemplate : Button, TalentButtonArtTemplate
+--- @field artSet any # TalentButtonArtMixin.ArtSet.LargeSquare
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L391)
 --- Template
 --- @class TalentButtonLargeCircleTemplate : Button, TalentButtonArtTemplate
+--- @field artSet any # TalentButtonArtMixin.ArtSet.LargeCircle
 

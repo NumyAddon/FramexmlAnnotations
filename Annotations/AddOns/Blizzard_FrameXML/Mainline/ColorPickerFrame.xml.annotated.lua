@@ -20,7 +20,9 @@ OpacityFrameSliderText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L10)
 --- child of OpacityFrame
 --- @class OpacityFrame_OpacityFrameSlider : Slider, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_SLIDER_8_8
 OpacityFrameSlider = {}
+OpacityFrameSlider["backdropInfo"] = BACKDROP_SLIDER_8_8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L50)
 --- child of OpacityFrame
@@ -39,6 +41,7 @@ OpacityFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L82)
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_Header : Frame, DialogHeaderTemplate
+--- @field textString any # COLOR_PICKER
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L87)
 --- child of ColorPickerFrame

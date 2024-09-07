@@ -17,14 +17,6 @@
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L90)
---- child of 
---- @class MajorFactionRenownFrame_HeaderFrame_RenownProgressBar : Cooldown, MajorFactionRenownTrackProgressBarMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L107)
---- child of 
---- @class MajorFactionRenownFrame_HeaderFrame_Level : FontString, Game24Font
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L84)
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_HeaderFrame : Frame, MajorFactionRenownHeaderFrameMixin
@@ -36,14 +28,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L128)
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_CelebrationModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L147)
---- child of 
---- @class MajorFactionRenownFrame_TrackFrame_Title : FontString, Fancy40Font, AutoScalingFontStringMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L156)
---- child of 
---- @class MajorFactionRenownFrame_TrackFrame_AccountWideLabel : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L134)
 --- child of MajorFactionRenownFrame

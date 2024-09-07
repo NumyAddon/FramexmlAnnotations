@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Spinner.xml#L12)
---- child of SpinnerTemplate
---- @class SpinnerTemplate_Anim : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Spinner.xml#L3)
 --- Template
 --- @class SpinnerTemplate : Frame, SpinnerMixin

@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_ExpansionLandingPage.xml#L6)
---- child of LandingPageExpansionOverlayTemplate
---- @class LandingPageExpansionOverlayTemplate_CloseButton : Button, UIPanelCloseButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_ExpansionLandingPage.xml#L3)
 --- Template
 --- @class LandingPageExpansionOverlayTemplate : Frame

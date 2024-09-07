@@ -18,10 +18,6 @@
 --- @class PlayerChoiceFrame_Background : Frame
 --- @field BackgroundTile Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L94)
---- child of 
---- @class PlayerChoiceFrame_Title_Text : FontString, SystemFont_Large
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L66)
 --- child of PlayerChoiceFrame
 --- @class PlayerChoiceFrame_Title : Frame

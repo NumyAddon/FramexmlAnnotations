@@ -1,19 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L146)
---- child of MythicPlusSeasonChangesNoticeTemplate
---- @class MythicPlusSeasonChangesNoticeTemplate_Affix : Frame, ChallengesKeystoneFrameAffixTemplate
---- @field AffixBorder Texture
---- @field Portrait Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L170)
---- child of MythicPlusSeasonChangesNoticeTemplate
---- @class MythicPlusSeasonChangesNoticeTemplate_Leave : Button, UIPanelButtonNoTooltipTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L116)
---- child of MythicPlusSeasonChangesNoticeTemplate
---- @class MythicPlusSeasonChangesNoticeTemplate_NewSeason : FontString, Game40Font
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L4)
 --- Template
 --- @class MythicPlusSeasonChangesNoticeTemplate : Frame
@@ -40,10 +26,6 @@
 --- @field SeasonDescription FontString
 --- @field SeasonDescription2 FontString
 --- @field SeasonDescription3 FontString
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L188)
---- child of ChallengesKeystoneFrameAffixTemplate
---- @class ChallengesKeystoneFrameAffixTemplate_Percent : FontString, SystemFont_Shadow_Large_Outline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L183)
 --- Template
@@ -154,18 +136,6 @@
 --- @field RunesSmallAnim ChallengesKeystoneFrame_RunesSmallAnim
 ChallengesKeystoneFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L543)
---- child of ChallengeModeBannerPartyMemberTemplate
---- @class ChallengeModeBannerPartyMemberTemplate_Name : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L551)
---- child of ChallengeModeBannerPartyMemberTemplate
---- @class ChallengeModeBannerPartyMemberTemplate_AnimIn : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L554)
---- child of ChallengeModeBannerPartyMemberTemplate
---- @class ChallengeModeBannerPartyMemberTemplate_AnimOut : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L522)
 --- Template
 --- @class ChallengeModeBannerPartyMemberTemplate : Frame, ChallengeModeBannerPartyMemberMixin
@@ -229,10 +199,6 @@ ChallengesKeystoneFrame = {}
 --- @field AnimIn ChallengeModeCompleteBanner_AnimIn
 --- @field AnimOut ChallengeModeCompleteBanner_AnimOut
 ChallengeModeCompleteBanner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L741)
---- child of ChallengesDungeonIconFrameTemplate
---- @class ChallengesDungeonIconFrameTemplate_HighestLevel : FontString, SystemFont_Huge1_Outline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L726)
 --- Template

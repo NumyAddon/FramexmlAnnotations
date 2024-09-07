@@ -1,27 +1,11 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L83)
---- child of ArchaeologyRaceTemplate
---- @class ArchaeologyRaceTemplate_raceName : FontString, SystemFont_Med1
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L74)
---- child of ArchaeologyRaceTemplate
---- @class ArchaeologyRaceTemplate_readyAnim : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L72)
 --- Template
 --- @class ArchaeologyRaceTemplate : Button
 --- @field raceName ArchaeologyRaceTemplate_raceName
 --- @field glow Texture
 --- @field readyAnim ArchaeologyRaceTemplate_readyAnim
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
---- child of ArchaeologyArtifactTemplate
---- @class ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName : FontString, SystemFont_Med1
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
---- child of ArchaeologyArtifactTemplate
---- @class ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText : FontString, SystemFont_Med1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L124)
 --- Template

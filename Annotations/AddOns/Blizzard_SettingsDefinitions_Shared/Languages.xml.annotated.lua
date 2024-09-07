@@ -5,11 +5,6 @@
 --- @class SettingsLanguageDropdownTemplate : DropdownButton, WowStyle2DropdownTemplate, SettingsLanguageDropdownMixin
 --- @field Language Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L19)
---- child of SettingsLanguageDropdownWithSteppersAndLabelTemplate
---- @class SettingsLanguageDropdownWithSteppersAndLabelTemplate_Dropdown : DropdownButton, SettingsLanguageDropdownTemplate
---- @field menuPoint string # "TOPRIGHT"
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L17)
 --- Template
 --- @class SettingsLanguageDropdownWithSteppersAndLabelTemplate : Frame, DropdownWithSteppersTemplate, DropdownWithSteppersAndLabelMixin

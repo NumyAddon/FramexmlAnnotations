@@ -1,32 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L250)
---- child of DelveRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
---- @type Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L256)
---- child of DelveRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
---- @type Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L264)
---- child of DelveRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L296)
---- child of DelveRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L4)
 --- Template
 --- @class DelveRewardItemButtonTemplate : Button, LargeItemButtonTemplate, DelveRewardsButtonMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L50)
---- child of BountifulWidgetAnimationTemplate
---- @class BountifulWidgetAnimationTemplate_FadeIn : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L54)
---- child of BountifulWidgetAnimationTemplate
---- @class BountifulWidgetAnimationTemplate_RaysTranslation : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L14)
 --- Template
@@ -61,10 +37,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L136)
 --- child of DelvesDifficultyPickerFrame
 --- @class DelvesDifficultyPickerFrame_EnterDelveButton : Button, UIPanelButtonTemplate, DelvesDifficultyPickerEnterDelveButtonMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L158)
---- child of 
---- @class DelvesDifficultyPickerFrame_DelveRewardsContainerFrame_RewardText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L150)
 --- child of DelvesDifficultyPickerFrame

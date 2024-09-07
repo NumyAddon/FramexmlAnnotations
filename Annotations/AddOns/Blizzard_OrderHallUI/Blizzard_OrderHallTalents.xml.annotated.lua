@@ -1,13 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L69)
---- child of GarrisonTalentButtonTemplate
---- @class GarrisonTalentButtonTemplate_Cooldown : Cooldown
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L83)
---- child of GarrisonTalentButtonTemplate
---- @class GarrisonTalentButtonTemplate_TalentDoneAnim : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L5)
 --- Template
 --- @class GarrisonTalentButtonTemplate : Button, GarrisonTalentButtonMixin
@@ -24,22 +16,6 @@
 --- @field DoneGlow Texture
 --- @field CooldownFinishedTexture Texture
 --- @field TalentDoneAnim GarrisonTalentButtonTemplate_TalentDoneAnim
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L112)
---- child of GarrisonTalentButtonAnimationTemplate
---- @class GarrisonTalentButtonAnimationTemplate_SwirlContainer : Frame, PowerSwirlAnimationTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L139)
---- child of 
---- @class GarrisonTalentButtonAnimationTemplate_HighlightFlash_Anim : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L117)
---- child of GarrisonTalentButtonAnimationTemplate
---- @class GarrisonTalentButtonAnimationTemplate_HighlightFlash : Frame
---- @field Icon Texture
---- @field Square Texture
---- @field Square2 Texture
---- @field Anim GarrisonTalentButtonAnimationTemplate_HighlightFlash_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L109)
 --- Template
@@ -60,10 +36,6 @@
 --- Template
 --- @class GarrisonTalentChoiceTemplate : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L166)
---- child of GarrisonTalentArrowTemplate
---- @class GarrisonTalentArrowTemplate_Pulse : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L164)
 --- Template
 --- @class GarrisonTalentArrowTemplate : Texture
@@ -82,10 +54,6 @@
 --- @class OrderHallTalentFrame_OverlayElements : Frame
 --- @field CornerLogo Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L265)
---- child of 
---- @class OrderHallTalentFrame_Currency_Text : FontString, SystemFont_Shadow_Med2
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L258)
 --- child of OrderHallTalentFrame
 --- @class OrderHallTalentFrame_Currency : Frame, ResizeLayoutFrame
@@ -99,10 +67,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L300)
 --- child of OrderHallTalentFrame
 --- @class OrderHallTalentFrame_BackButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L319)
---- child of 
---- @class OrderHallTalentFrame_CypherEquipmentLevel_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L312)
 --- child of OrderHallTalentFrame

@@ -12,10 +12,6 @@
 --- child of NPE_TutorialMainFrame_Frame
 --- @class  : Texture, NPE_TutorialLine
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialMainFrame.xml#L62)
---- child of 
---- @class  : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialMainFrame.xml#L56)
 --- child of NPE_TutorialMainFrame_Frame
 --- @class  : Texture

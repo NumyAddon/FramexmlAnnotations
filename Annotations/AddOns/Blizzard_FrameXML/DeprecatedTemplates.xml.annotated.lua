@@ -1,16 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L501)
---- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L5)
 --- Template
 --- @class OptionsBaseCheckButtonTemplate : CheckButton, UICheckButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L21)
---- child of OptionsSmallCheckButtonTemplate
---- @class OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L18)
 --- Template
@@ -25,18 +17,6 @@
 --- Template
 --- @class InterfaceOptionsBaseCheckButtonTemplate : CheckButton, OptionsBaseCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L533)
---- child of OptionsSliderTemplate (created in template UISliderTemplateWithLabels)
---- @type UISliderTemplateWithLabels_UISliderTemplateWithLabelsText
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L538)
---- child of OptionsSliderTemplate (created in template UISliderTemplateWithLabels)
---- @type UISliderTemplateWithLabels_UISliderTemplateWithLabelsLow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L543)
---- child of OptionsSliderTemplate (created in template UISliderTemplateWithLabels)
---- @type UISliderTemplateWithLabels_UISliderTemplateWithLabelsHigh
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L37)
 --- Template
 --- @class OptionsSliderTemplate : Slider, UISliderTemplateWithLabels
@@ -45,10 +25,6 @@
 --- Template
 --- @class OptionsFrameTabButtonTemplate : Button
 --- @field deselectedTextY number # -3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L118)
---- child of OptionsListButtonTemplate
---- @class OptionsListButtonTemplate_Toggle : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L115)
 --- Template

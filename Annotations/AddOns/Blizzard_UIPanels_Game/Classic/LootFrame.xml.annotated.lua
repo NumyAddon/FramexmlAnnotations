@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L9)
---- child of LootButtonTemplate
---- @class LootButtonTemplate_LootButtonTemplateNameFrame : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L15)
 --- child of LootButtonTemplate
 --- @class LootButtonTemplate_LootButtonTemplateText : FontString, GameFontNormal
@@ -96,25 +92,9 @@ LootFrame = {}
 --- @class GroupLootFrameTemplate_Timer : StatusBar
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L161)
---- child of GroupLootFrameTemplate
---- @class GroupLootFrameTemplate_GroupLootFrameTemplateSlotTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L173)
---- child of GroupLootFrameTemplate
---- @class GroupLootFrameTemplate_GroupLootFrameTemplateNameFrame : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L185)
 --- child of GroupLootFrameTemplate
 --- @class GroupLootFrameTemplate_GroupLootFrameTemplateName : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L199)
---- child of GroupLootFrameTemplate
---- @class GroupLootFrameTemplate_GroupLootFrameTemplateDecoration : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L211)
---- child of GroupLootFrameTemplate
---- @class GroupLootFrameTemplate_GroupLootFrameTemplateCorner : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L157)
 --- Template

@@ -43,22 +43,6 @@
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_TitleText : FontString, GameFontNormalMed1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L69)
---- child of CommunitiesGuildInfoFrameTemplate
---- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateBar1Left : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L85)
---- child of CommunitiesGuildInfoFrameTemplate
---- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateBar2Left : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L119)
---- child of CommunitiesGuildInfoFrameTemplate
---- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateHeader2 : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L126)
---- child of CommunitiesGuildInfoFrameTemplate
---- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateHeader3 : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L142)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateHeader1Label : FontString, GameFontNormal
@@ -79,10 +63,10 @@
 --- @field EditDetailsButton Button
 --- @field DetailsFrame CommunitiesGuildInfoFrameTemplate_DetailsFrame
 --- @field TitleText CommunitiesGuildInfoFrameTemplate_TitleText
---- @field Bar1Left CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateBar1Left
+--- @field Bar1Left Texture
 --- @field HorizontalBar Texture
 --- @field Header1 Texture
---- @field Header2 CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateHeader2
+--- @field Header2 Texture
 --- @field BG Texture
 --- @field Header1Label CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateHeader1Label
 --- @field Header2Label CommunitiesGuildInfoFrameTemplate_Header2Label

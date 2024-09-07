@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L31)
---- child of LevelUpSkillTemplate
---- @class LevelUpSkillTemplate_LevelUpSkillTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L37)
 --- child of LevelUpSkillTemplate
 --- @class LevelUpSkillTemplate_LevelUpSkillTemplateName : FontString, GameFontNormalLarge
@@ -11,10 +7,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L42)
 --- child of LevelUpSkillTemplate
 --- @class LevelUpSkillTemplate_LevelUpSkillTemplateSubText : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L50)
---- child of LevelUpSkillTemplate
---- @class LevelUpSkillTemplate_LevelUpSkillTemplateSubIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L8)
 --- child of LevelUpSkillTemplate
@@ -28,10 +20,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_LevelUpDisplay/Cata/LevelUpDisplay.xml#L6)
 --- Template
 --- @class LevelUpSkillTemplate : Frame
---- @field icon LevelUpSkillTemplate_LevelUpSkillTemplateIcon
+--- @field icon Texture
 --- @field name LevelUpSkillTemplate_LevelUpSkillTemplateName
 --- @field flavorText LevelUpSkillTemplate_LevelUpSkillTemplateSubText
---- @field subIcon LevelUpSkillTemplate_LevelUpSkillTemplateSubIcon
+--- @field subIcon Texture
 --- @field sideAnimIn LevelUpSkillTemplate_sideAnimIn
 --- @field showAnim LevelUpSkillTemplate_showAnim
 

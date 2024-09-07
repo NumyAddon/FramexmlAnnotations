@@ -1,13 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L12)
---- child of MainMenuBarMicroButton
---- @class MainMenuBarMicroButton_MainMenuBarMicroButtonFlash : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L3)
 --- Template
 --- @class MainMenuBarMicroButton : Button
---- @field Flash MainMenuBarMicroButton_MainMenuBarMicroButtonFlash
+--- @field Flash Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L53)
 --- child of MicroButtonAlertTemplate

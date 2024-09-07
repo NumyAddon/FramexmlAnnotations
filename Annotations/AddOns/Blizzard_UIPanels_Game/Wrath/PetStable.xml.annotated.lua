@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L9)
---- child of PetStableSlotTemplate
---- @class PetStableSlotTemplate_PetStableSlotTemplateIconTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L12)
---- child of PetStableSlotTemplate
---- @class PetStableSlotTemplate_PetStableSlotTemplateBackground : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L55)
---- child of PetStableSlotTemplate
---- @class PetStableSlotTemplate_PetStableSlotTemplateNormalTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L3)
 --- Template
 --- @class PetStableSlotTemplate : CheckButton

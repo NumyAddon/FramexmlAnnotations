@@ -1,19 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L7)
---- child of ModelControlButtonTemplate
---- @class ModelControlButtonTemplate_ModelControlButtonTemplateBg : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L16)
---- child of ModelControlButtonTemplate
---- Template
---- @class ModelControlButtonTemplate_ModelControlButtonTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L3)
 --- Template
 --- @class ModelControlButtonTemplate : Button
---- @field bg ModelControlButtonTemplate_ModelControlButtonTemplateBg
---- @field icon ModelControlButtonTemplate_ModelControlButtonTemplateIcon
+--- @field bg Texture
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L54)
 --- Template
@@ -50,18 +41,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L195)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateResetButton : Button, ModelControlButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L82)
---- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L89)
---- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L96)
---- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameMiddle : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L75)
 --- child of ModelWithControlsTemplate

@@ -14,14 +14,10 @@
 --- child of BankItemButtonBagTemplate
 --- @class BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L45)
---- child of BankItemButtonBagTemplateHighlightFrame
---- @class BankItemButtonBagTemplate_BankItemButtonBagTemplateHighlightFrame_BankItemButtonBagTemplateHighlightFrameTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L42)
 --- child of BankItemButtonBagTemplate
 --- @class BankItemButtonBagTemplate_BankItemButtonBagTemplateHighlightFrame : Frame
---- @field HighlightTexture BankItemButtonBagTemplate_BankItemButtonBagTemplateHighlightFrame_BankItemButtonBagTemplateHighlightFrameTexture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L39)
 --- Template

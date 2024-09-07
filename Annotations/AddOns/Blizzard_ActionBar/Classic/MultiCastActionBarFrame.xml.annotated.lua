@@ -15,22 +15,14 @@
 --- child of MultiCastSpellButton
 --- @class MultiCastSpellButton_MultiCastSpellButtonHotKey : FontString, NumberFontNormalSmallGray
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L96)
---- child of MultiCastSpellButton
---- @class MultiCastSpellButton_MultiCastSpellButtonHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L69)
 --- Template
 --- @class MultiCastSpellButton : CheckButton, SecureFrameTemplate, ActionButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L122)
---- child of MultiCastFlyoutButtonTemplate
---- @class MultiCastFlyoutButtonTemplate_MultiCastFlyoutButtonTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L113)
 --- Template
 --- @class MultiCastFlyoutButtonTemplate : CheckButton
---- @field icon MultiCastFlyoutButtonTemplate_MultiCastFlyoutButtonTemplateIcon
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L185)
 --- child of MultiCastFlyoutFrame

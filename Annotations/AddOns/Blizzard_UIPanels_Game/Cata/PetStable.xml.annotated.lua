@@ -36,23 +36,15 @@
 --- Template
 --- @class PetStable-StableBG : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
---- child of PetStableSlotTemplate
---- @class PetStableSlotTemplate_PetStableSlotTemplateIconTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableSlotTemplate
 --- @class PetStableSlotTemplate_PetStableSlotTemplateBackground : Texture, PetStable-StableSlot
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
---- child of PetStableSlotTemplate
---- @class PetStableSlotTemplate_PetStableSlotTemplateChecked : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L40)
 --- Template
 --- @class PetStableSlotTemplate : Button
 --- @field Background PetStableSlotTemplate_PetStableSlotTemplateBackground
---- @field Checked PetStableSlotTemplate_PetStableSlotTemplateChecked
+--- @field Checked Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L111)
 --- child of PetStableActiveSlotTemplateLockIcon

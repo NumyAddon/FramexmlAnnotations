@@ -31,10 +31,6 @@ AzeriteItemInBagHelpBox = {}
 --- child of ContainerFrameItemButtonTemplate
 --- @class ContainerFrameItemButtonTemplate_ContainerFrameItemButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L83)
---- child of ContainerFrameItemButtonTemplate
---- @class ContainerFrameItemButtonTemplate_ContainerFrameItemButtonTemplateIconQuestTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L73)
 --- child of ContainerFrameItemButtonTemplate
 --- @class ContainerFrameItemButtonTemplate_newitemglowAnim : AnimationGroup
@@ -207,10 +203,6 @@ AzeriteItemInBagHelpBox = {}
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_ContainerFrameTemplateItem36 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
---- child of ContainerFrameTemplate
---- @class ContainerFrameTemplate_ContainerFrameTemplatePortraitButton : Button
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton : Button
@@ -221,40 +213,16 @@ AzeriteItemInBagHelpBox = {}
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_ContainerFrameTemplateCloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L205)
---- child of ContainerFrameTemplate
---- @class ContainerFrameTemplate_ContainerFrameTemplatePortrait : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
---- child of ContainerFrameTemplate
---- @class ContainerFrameTemplate_ContainerFrameTemplateBackgroundTop : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
---- child of ContainerFrameTemplate
---- @class ContainerFrameTemplate_ContainerFrameTemplateBackgroundMiddle1 : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
---- child of ContainerFrameTemplate
---- @class ContainerFrameTemplate_ContainerFrameTemplateBackgroundMiddle2 : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
---- child of ContainerFrameTemplate
---- @class ContainerFrameTemplate_ContainerFrameTemplateBackgroundBottom : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_ContainerFrameTemplateName : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
---- child of ContainerFrameTemplate
---- @class ContainerFrameTemplate_ContainerFrameTemplateBackground1Slot : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L201)
 --- Template
 --- @class ContainerFrameTemplate : Frame
---- @field PortraitButton ContainerFrameTemplate_ContainerFrameTemplatePortraitButton
+--- @field PortraitButton Button
 --- @field ClickableTitleFrame Button
---- @field Portrait ContainerFrameTemplate_ContainerFrameTemplatePortrait
+--- @field Portrait Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L495)
 --- @class ContainerFrame1 : Frame, ContainerFrameTemplate

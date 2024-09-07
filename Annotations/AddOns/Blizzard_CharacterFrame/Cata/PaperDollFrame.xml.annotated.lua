@@ -47,31 +47,15 @@
 --- child of PlayerTitleButtonTemplate
 --- @class PlayerTitleButtonTemplate_PlayerTitleButtonTemplateBgBottom : Texture, Char-Stat-Top
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L110)
---- child of PlayerTitleButtonTemplate
---- @class PlayerTitleButtonTemplate_PlayerTitleButtonTemplateBgMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L119)
---- child of PlayerTitleButtonTemplate
---- @class PlayerTitleButtonTemplate_PlayerTitleButtonTemplateStripe : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L127)
---- child of PlayerTitleButtonTemplate
---- @class PlayerTitleButtonTemplate_PlayerTitleButtonTemplateCheck : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L137)
---- child of PlayerTitleButtonTemplate
---- @class PlayerTitleButtonTemplate_PlayerTitleButtonTemplateSelectedBar : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L91)
 --- Template
 --- @class PlayerTitleButtonTemplate : Button
 --- @field BgTop PlayerTitleButtonTemplate_PlayerTitleButtonTemplateBgTop
 --- @field BgBottom PlayerTitleButtonTemplate_PlayerTitleButtonTemplateBgBottom
---- @field BgMiddle PlayerTitleButtonTemplate_PlayerTitleButtonTemplateBgMiddle
---- @field Stripe PlayerTitleButtonTemplate_PlayerTitleButtonTemplateStripe
---- @field Check PlayerTitleButtonTemplate_PlayerTitleButtonTemplateCheck
---- @field SelectedBar PlayerTitleButtonTemplate_PlayerTitleButtonTemplateSelectedBar
+--- @field BgMiddle Texture
+--- @field Stripe Texture
+--- @field Check Texture
+--- @field SelectedBar Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L236)
 --- child of GearSetButtonTemplate
@@ -91,33 +75,9 @@
 --- child of GearSetButtonTemplate
 --- @class GearSetButtonTemplate_GearSetButtonTemplateBgBottom : Texture, Char-Stat-Top
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L174)
---- child of GearSetButtonTemplate
---- @class GearSetButtonTemplate_GearSetButtonTemplateBgMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L183)
---- child of GearSetButtonTemplate
---- @class GearSetButtonTemplate_GearSetButtonTemplateStripe : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L191)
---- child of GearSetButtonTemplate
---- @class GearSetButtonTemplate_GearSetButtonTemplateCheck : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L201)
 --- child of GearSetButtonTemplate
 --- @class GearSetButtonTemplate_GearSetButtonTemplateText : FontString, GameFontNormalLeft
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L224)
---- child of GearSetButtonTemplate
---- @class GearSetButtonTemplate_GearSetButtonTemplateHighlightBar : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L229)
---- child of GearSetButtonTemplate
---- @class GearSetButtonTemplate_GearSetButtonTemplateSelectedBar : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L326)
---- child of GearSetButtonTemplate
---- @class GearSetButtonTemplate_GearSetButtonTemplateIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L157)
 --- Template
@@ -126,24 +86,20 @@
 --- @field EditButton GearSetButtonTemplate_GearSetButtonTemplateEditButton
 --- @field BgTop GearSetButtonTemplate_GearSetButtonTemplateBgTop
 --- @field BgBottom GearSetButtonTemplate_GearSetButtonTemplateBgBottom
---- @field BgMiddle GearSetButtonTemplate_GearSetButtonTemplateBgMiddle
---- @field Stripe GearSetButtonTemplate_GearSetButtonTemplateStripe
---- @field Check GearSetButtonTemplate_GearSetButtonTemplateCheck
+--- @field BgMiddle Texture
+--- @field Stripe Texture
+--- @field Check Texture
 --- @field text GearSetButtonTemplate_GearSetButtonTemplateText
 --- @field SpecRing Texture
 --- @field SpecIcon Texture
---- @field HighlightBar GearSetButtonTemplate_GearSetButtonTemplateHighlightBar
---- @field SelectedBar GearSetButtonTemplate_GearSetButtonTemplateSelectedBar
---- @field icon GearSetButtonTemplate_GearSetButtonTemplateIcon
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L340)
---- child of GearSetPopupButtonTemplate
---- @class GearSetPopupButtonTemplate_GearSetPopupButtonTemplateIcon : Texture
+--- @field HighlightBar Texture
+--- @field SelectedBar Texture
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L334)
 --- Template
 --- @class GearSetPopupButtonTemplate : CheckButton, SimplePopupButtonTemplate
---- @field Icon GearSetPopupButtonTemplate_GearSetPopupButtonTemplateIcon
+--- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L350)
 --- Template

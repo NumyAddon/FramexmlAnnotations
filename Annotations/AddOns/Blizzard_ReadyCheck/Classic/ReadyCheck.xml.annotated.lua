@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReadyCheck/Classic/ReadyCheck.xml#L7)
---- child of ReadyCheckStatusTemplate
---- @class ReadyCheckStatusTemplate_ReadyCheckStatusTemplateTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReadyCheck/Classic/ReadyCheck.xml#L3)
 --- Template
 --- @class ReadyCheckStatusTemplate : Frame

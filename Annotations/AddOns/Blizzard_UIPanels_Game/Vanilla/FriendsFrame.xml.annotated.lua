@@ -33,21 +33,9 @@
 --- @field Background Texture
 --- @field Name FriendsFrameFriendInviteTemplate_Name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L162)
---- child of FriendsFrameButtonTemplateTravelPassButton
---- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateTravelPassButton_FriendsFrameButtonTemplateTravelPassButtonNormalTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L174)
---- child of FriendsFrameButtonTemplateTravelPassButton
---- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateTravelPassButton_FriendsFrameButtonTemplateTravelPassButtonHighlightTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L155)
 --- child of FriendsFrameButtonTemplate
 --- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateTravelPassButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L193)
---- child of FriendsFrameButtonTemplateSummonButton
---- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateSummonButton_FriendsFrameButtonTemplateSummonButtonHighlightTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L188)
 --- child of FriendsFrameButtonTemplate
@@ -56,18 +44,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L116)
 --- child of FriendsFrameButtonTemplate
 --- @class FriendsFrameButtonTemplate_text : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L117)
---- child of FriendsFrameButtonTemplate
---- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateBackground : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L126)
---- child of FriendsFrameButtonTemplate
---- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateStatus : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L132)
---- child of FriendsFrameButtonTemplate
---- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateGameIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L138)
 --- child of FriendsFrameButtonTemplate
@@ -83,9 +59,9 @@
 --- @field travelPassButton FriendsFrameButtonTemplate_FriendsFrameButtonTemplateTravelPassButton
 --- @field summonButton FriendsFrameButtonTemplate_FriendsFrameButtonTemplateSummonButton
 --- @field text FriendsFrameButtonTemplate_text
---- @field background FriendsFrameButtonTemplate_FriendsFrameButtonTemplateBackground
---- @field status FriendsFrameButtonTemplate_FriendsFrameButtonTemplateStatus
---- @field gameIcon FriendsFrameButtonTemplate_FriendsFrameButtonTemplateGameIcon
+--- @field background Texture
+--- @field status Texture
+--- @field gameIcon Texture
 --- @field name FriendsFrameButtonTemplate_FriendsFrameButtonTemplateName
 --- @field info FriendsFrameButtonTemplate_FriendsFrameButtonTemplateInfo
 --- @field highlight Texture
@@ -128,29 +104,13 @@
 --- Template
 --- @class FriendsFrameWhoButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L369)
---- child of WhoFrameColumnHeaderTemplate
---- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L376)
---- child of WhoFrameColumnHeaderTemplate
---- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L383)
---- child of WhoFrameColumnHeaderTemplate
---- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L406)
---- child of WhoFrameColumnHeaderTemplate
---- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateHighlightTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L365)
 --- Template
 --- @class WhoFrameColumnHeaderTemplate : Button
---- @field Left WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateLeft
---- @field Middle WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateMiddle
---- @field Right WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateRight
---- @field HighlightTexture WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateHighlightTexture
+--- @field Left Texture
+--- @field Middle Texture
+--- @field Right Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L419)
 --- child of FriendsFrameGuildPlayerStatusButtonTemplate
@@ -195,18 +155,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L506)
 --- Template
 --- @class FriendsFrameGuildStatusButtonTemplate : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L587)
---- child of GuildFrameColumnHeaderTemplate
---- @class GuildFrameColumnHeaderTemplate_GuildFrameColumnHeaderTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L596)
---- child of GuildFrameColumnHeaderTemplate
---- @class GuildFrameColumnHeaderTemplate_GuildFrameColumnHeaderTemplateMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L605)
---- child of GuildFrameColumnHeaderTemplate
---- @class GuildFrameColumnHeaderTemplate_GuildFrameColumnHeaderTemplateRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L581)
 --- Template

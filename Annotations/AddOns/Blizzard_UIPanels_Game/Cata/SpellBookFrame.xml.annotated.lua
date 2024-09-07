@@ -65,14 +65,6 @@
 --- child of SpellButtonTemplate
 --- @class SpellButtonTemplate_SpellButtonTemplateTextBackground2 : Texture, Spellbook-TextBackground
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L116)
---- child of SpellButtonTemplate
---- @class SpellButtonTemplate_SpellButtonTemplateIconTextureBg : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L121)
---- child of SpellButtonTemplate
---- @class SpellButtonTemplate_SpellButtonTemplateIconTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L122)
 --- child of SpellButtonTemplate
 --- @class SpellButtonTemplate_SpellButtonTemplateSpellName : FontString, GameFontNormal
@@ -101,25 +93,9 @@
 --- child of SpellButtonTemplate
 --- @class SpellButtonTemplate_SpellButtonTemplateTrainSlotFrame : Texture, Spellbook-TrainSlot
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L164)
---- child of SpellButtonTemplate
---- @class SpellButtonTemplate_SpellButtonTemplateAutoCastable : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L178)
---- child of SpellButtonTemplate
---- @class SpellButtonTemplate_SpellButtonTemplateFlyoutArrow : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L187)
 --- child of SpellButtonTemplate
 --- @class SpellButtonTemplate_SpellButtonTemplateTrainTextBackground : Texture, Spellbook-TrainTextBackground
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L223)
---- child of SpellButtonTemplate
---- @class SpellButtonTemplate_SpellButtonTemplateNormalTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L236)
---- child of SpellButtonTemplate
---- @class SpellButtonTemplate_SpellButtonTemplateHighlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L95)
 --- Template
@@ -129,24 +105,20 @@
 --- @field EmptySlot SpellButtonTemplate_SpellButtonTemplateBackground
 --- @field TextBackground SpellButtonTemplate_SpellButtonTemplateTextBackground
 --- @field TextBackground2 SpellButtonTemplate_SpellButtonTemplateTextBackground2
---- @field IconTextureBg SpellButtonTemplate_SpellButtonTemplateIconTextureBg
---- @field IconTexture SpellButtonTemplate_SpellButtonTemplateIconTexture
+--- @field IconTextureBg Texture
+--- @field IconTexture Texture
 --- @field SpellName SpellButtonTemplate_SpellButtonTemplateSpellName
 --- @field SpellSubName SpellButtonTemplate_SpellButtonTemplateSubSpellName
 --- @field RequiredLevelString SpellButtonTemplate_SpellButtonTemplateRequiredLevelString
 --- @field SeeTrainerString SpellButtonTemplate_SpellButtonTemplateSeeTrainerString
 --- @field UnlearnedFrame SpellButtonTemplate_SpellButtonTemplateUnlearnedSlotFrame
 --- @field TrainFrame SpellButtonTemplate_SpellButtonTemplateTrainSlotFrame
---- @field FlyoutArrow SpellButtonTemplate_SpellButtonTemplateFlyoutArrow
+--- @field FlyoutArrow Texture
 --- @field TrainTextBackground SpellButtonTemplate_SpellButtonTemplateTrainTextBackground
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L278)
 --- child of ProfessionButtonTemplate
 --- @class ProfessionButtonTemplate_ProfessionButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L243)
---- child of ProfessionButtonTemplate
---- @class ProfessionButtonTemplate_ProfessionButtonTemplateIconTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L245)
 --- child of ProfessionButtonTemplate
@@ -156,32 +128,20 @@
 --- child of ProfessionButtonTemplate
 --- @class ProfessionButtonTemplate_ProfessionButtonTemplateSubSpellName : FontString, NewSubSpellFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L259)
---- child of ProfessionButtonTemplate
---- @class ProfessionButtonTemplate_ProfessionButtonTemplateNameFrame : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L296)
---- child of ProfessionButtonTemplate
---- @class ProfessionButtonTemplate_ProfessionButtonTemplateHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L239)
 --- Template
 --- @class ProfessionButtonTemplate : CheckButton, SecureFrameTemplate, SpellButtonMixin
 --- @field cooldown ProfessionButtonTemplate_ProfessionButtonTemplateCooldown
---- @field IconTexture ProfessionButtonTemplate_ProfessionButtonTemplateIconTexture
+--- @field IconTexture Texture
 --- @field spellString ProfessionButtonTemplate_ProfessionButtonTemplateSpellName
 --- @field subSpellString ProfessionButtonTemplate_ProfessionButtonTemplateSubSpellName
 --- @field Flash Texture
---- @field highlightTexture ProfessionButtonTemplate_ProfessionButtonTemplateHighlight
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L303)
---- child of ProfessionTrialCapTemplate
---- @class ProfessionTrialCapTemplate_ProfessionTrialCapTemplateLockedIndicator : Texture
+--- @field highlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L299)
 --- Template
 --- @class ProfessionTrialCapTemplate : Frame
---- @field lockedIndicator ProfessionTrialCapTemplate_ProfessionTrialCapTemplateLockedIndicator
+--- @field lockedIndicator Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L369)
 --- child of ProfessionStatusBarTemplate
@@ -191,32 +151,12 @@
 --- child of ProfessionStatusBarTemplate
 --- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateRank : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L327)
---- child of ProfessionStatusBarTemplate
---- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L334)
---- child of ProfessionStatusBarTemplate
---- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L343)
---- child of ProfessionStatusBarTemplate
---- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateBGLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L350)
---- child of ProfessionStatusBarTemplate
---- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateBGRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L357)
---- child of ProfessionStatusBarTemplate
---- @class ProfessionStatusBarTemplate_ProfessionStatusBarTemplateBGMiddle : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L318)
 --- Template
 --- @class ProfessionStatusBarTemplate : StatusBar
 --- @field capped ProfessionStatusBarTemplate_ProfessionStatusBarTemplateCapped
 --- @field rankText ProfessionStatusBarTemplate_ProfessionStatusBarTemplateRank
---- @field capRight ProfessionStatusBarTemplate_ProfessionStatusBarTemplateRight
+--- @field capRight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L441)
 --- child of PrimaryProfessionTemplate
@@ -255,14 +195,6 @@
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_PrimaryProfessionTemplateRank : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L423)
---- child of PrimaryProfessionTemplate
---- @class PrimaryProfessionTemplate_PrimaryProfessionTemplateIconBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L432)
---- child of PrimaryProfessionTemplate
---- @class PrimaryProfessionTemplate_PrimaryProfessionTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L387)
 --- Template
 --- @class PrimaryProfessionTemplate : Frame
@@ -275,7 +207,7 @@
 --- @field missingHeader PrimaryProfessionTemplate_PrimaryProfessionTemplateMissing
 --- @field missingText PrimaryProfessionTemplate_missingText
 --- @field rank PrimaryProfessionTemplate_PrimaryProfessionTemplateRank
---- @field icon PrimaryProfessionTemplate_PrimaryProfessionTemplateIcon
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L488)
 --- child of SecondaryProfessionTemplate

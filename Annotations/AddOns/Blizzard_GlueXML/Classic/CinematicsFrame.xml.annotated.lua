@@ -1,23 +1,15 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L38)
---- child of CinematicsButtonTemplateStreamingIconFrame
---- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame_CinematicsButtonTemplateStreamingIconFrameBackground : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L35)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame : Frame
---- @field Background CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame_CinematicsButtonTemplateStreamingIconFrameBackground
+--- @field Background Texture
 --- @field Alpha Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L48)
---- child of CinematicsButtonTemplateStreamingIconSpin
---- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin_CinematicsButtonTemplateStreamingIconSpinSpinner : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L45)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin : Frame
---- @field Spinner CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin_CinematicsButtonTemplateStreamingIconSpinSpinner
+--- @field Spinner Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L26)
 --- child of CinematicsButtonTemplateStreamingIcon
@@ -30,29 +22,17 @@
 --- @field Spin CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin
 --- @field Loop CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_Loop
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L70)
---- child of CinematicsButtonTemplateStatusBar
---- @class CinematicsButtonTemplate_CinematicsButtonTemplateStatusBar_CinematicsButtonTemplateStatusBarBg : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L63)
 --- child of CinematicsButtonTemplate
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStatusBar : StatusBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L8)
---- child of CinematicsButtonTemplate
---- @class CinematicsButtonTemplate_CinematicsButtonTemplatePlayButton : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L14)
---- child of CinematicsButtonTemplate
---- @class CinematicsButtonTemplate_CinematicsButtonTemplateDownloadIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L3)
 --- Template
 --- @class CinematicsButtonTemplate : Button
 --- @field StreamingIcon CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon
 --- @field StatusBar CinematicsButtonTemplate_CinematicsButtonTemplateStatusBar
---- @field PlayButton CinematicsButtonTemplate_CinematicsButtonTemplatePlayButton
---- @field DownloadIcon CinematicsButtonTemplate_CinematicsButtonTemplateDownloadIcon
+--- @field PlayButton Texture
+--- @field DownloadIcon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L154)
 --- child of CinematicsFrame

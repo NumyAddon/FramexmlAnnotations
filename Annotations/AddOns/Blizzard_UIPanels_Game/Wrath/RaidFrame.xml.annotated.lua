@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L6)
---- child of RaidInfoHeaderTemplate
---- @class RaidInfoHeaderTemplate_RaidInfoHeaderTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L14)
---- child of RaidInfoHeaderTemplate
---- @class RaidInfoHeaderTemplate_RaidInfoHeaderTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L22)
---- child of RaidInfoHeaderTemplate
---- @class RaidInfoHeaderTemplate_RaidInfoHeaderTemplateMiddle : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L31)
 --- child of RaidInfoHeaderTemplate
 --- @class RaidInfoHeaderTemplate_text : FontString, GameFontHighlightSmall

@@ -4,14 +4,6 @@
 --- child of CompanionButtonTemplate
 --- @class CompanionButtonTemplate_CompanionButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L9)
---- child of CompanionButtonTemplate
---- @class CompanionButtonTemplate_CompanionButtonTemplateActiveTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L43)
---- child of CompanionButtonTemplate
---- @class CompanionButtonTemplate_CompanionButtonTemplateHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L3)
 --- Template
 --- @class CompanionButtonTemplate : CheckButton, SecureFrameTemplate

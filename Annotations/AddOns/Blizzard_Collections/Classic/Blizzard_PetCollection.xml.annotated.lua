@@ -8,20 +8,12 @@
 --- child of 
 --- @class CompanionListButtonTemplate_dragButton_Cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L85)
---- child of 
---- @class CompanionListButtonTemplate_dragButton_Favorite : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L95)
---- child of 
---- @class CompanionListButtonTemplate_dragButton_Highlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L77)
 --- child of CompanionListButtonTemplate
 --- @class CompanionListButtonTemplate_dragButton : Button
 --- @field Cooldown CompanionListButtonTemplate_dragButton_Cooldown
 --- @field ActiveTexture Texture
---- @field favorite CompanionListButtonTemplate_dragButton_Favorite
+--- @field favorite Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L35)
 --- child of CompanionListButtonTemplate

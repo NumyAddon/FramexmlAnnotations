@@ -4,18 +4,6 @@
 --- child of CharacterCreateIconButtonTemplate
 --- @class CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText : FontString, GlueFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L20)
---- child of CharacterCreateIconButtonTemplate
---- @class CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateShadow : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L29)
---- child of CharacterCreateIconButtonTemplate
---- @class CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateBevelEdge : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L36)
---- child of CharacterCreateIconButtonTemplate
---- @class CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateDisableTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L3)
 --- Template
 --- @class CharacterCreateIconButtonTemplate : CheckButton
@@ -24,25 +12,13 @@
 --- child of CharacterCreateRaceButtonTemplate
 --- @class CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText : FontString, GlueFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L84)
---- child of CharacterCreateRaceButtonTemplate
---- @class CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateNormalTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L66)
 --- Template
 --- @class CharacterCreateRaceButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L97)
---- child of CharacterCreateClassButtonTemplate
---- @class CharacterCreateClassButtonTemplate_CharacterCreateClassButtonTemplateNormalTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L86)
 --- Template
 --- @class CharacterCreateClassButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L122)
---- child of CharacterCreateGenderButtonTemplate
---- @class CharacterCreateGenderButtonTemplate_CharacterCreateGenderButtonTemplateNormalTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L99)
 --- Template
@@ -55,18 +31,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L194)
 --- child of CharacterCustomizationFrameTemplate
 --- @class CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateLeftButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L130)
---- child of CharacterCustomizationFrameTemplate
---- @class CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L143)
---- child of CharacterCustomizationFrameTemplate
---- @class CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L156)
---- child of CharacterCustomizationFrameTemplate
---- @class CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateMiddle : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L166)
 --- child of CharacterCustomizationFrameTemplate

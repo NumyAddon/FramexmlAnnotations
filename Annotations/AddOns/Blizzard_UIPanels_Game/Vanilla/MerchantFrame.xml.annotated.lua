@@ -12,14 +12,6 @@
 --- child of MerchantItemTemplate
 --- @class MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame : Frame, SmallAlternateCurrencyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L7)
---- child of MerchantItemTemplate
---- @class MerchantItemTemplate_MerchantItemTemplateSlotTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L13)
---- child of MerchantItemTemplate
---- @class MerchantItemTemplate_MerchantItemTemplateNameFrame : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L19)
 --- child of MerchantItemTemplate
 --- @class MerchantItemTemplate_MerchantItemTemplateName : FontString, GameFontNormalSmall

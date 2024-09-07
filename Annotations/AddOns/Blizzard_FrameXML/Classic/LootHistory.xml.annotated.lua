@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L113)
---- child of 
---- @class LootHistoryItemTemplate_ToggleButton_Highlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L94)
 --- child of LootHistoryItemTemplate
 --- @class LootHistoryItemTemplate_ToggleButton : Button

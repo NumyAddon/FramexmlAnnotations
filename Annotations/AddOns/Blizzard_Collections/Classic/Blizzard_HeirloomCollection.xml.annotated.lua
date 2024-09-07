@@ -1,21 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L14)
---- child of HeirloomHeaderTemplate
---- @class HeirloomHeaderTemplate_text : FontString, Fancy16Font
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L3)
 --- Template
 --- @class HeirloomHeaderTemplate : Frame
 --- @field text HeirloomHeaderTemplate_text
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L30)
---- child of HeirloomSpellButtonTemplate
---- @class HeirloomSpellButtonTemplate_special : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L65)
---- child of HeirloomSpellButtonTemplate
---- @class HeirloomSpellButtonTemplate_upgradeGlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L27)
 --- Template
@@ -48,51 +36,6 @@ HeirloomsJournalSearchBoxSearchIcon = {}
 HeirloomsJournalSearchBox = {}
 HeirloomsJournalSearchBox["clearButton"] = HeirloomsJournalSearchBoxClearButton -- inherited
 HeirloomsJournalSearchBox["searchIcon"] = HeirloomsJournalSearchBoxSearchIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L985)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-TopLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L992)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-TopRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L999)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-BottomLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1006)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-BottomRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1013)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-TopMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1021)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-MiddleLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1029)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-MiddleRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1037)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-BottomMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1045)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-MiddleMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L112)
 --- child of HeirloomsJournal

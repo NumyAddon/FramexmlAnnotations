@@ -22,26 +22,11 @@
 --- child of SettingsPanel
 --- @class SettingsPanel_CategoryList : Frame, SettingsCategoryListTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L73)
---- child of 
---- @class SettingsPanel_Container_SettingsList : Frame, SettingsListTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L65)
 --- child of SettingsPanel
 --- @class SettingsPanel_Container : Frame
 --- @field SettingsCanvas Frame
 --- @field SettingsList SettingsPanel_Container_SettingsList
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1256)
---- child of  (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
-ClearButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1247)
---- child of  (created in template SearchBoxTemplate)
---- @type Texture
-SearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L76)
 --- child of SettingsPanel

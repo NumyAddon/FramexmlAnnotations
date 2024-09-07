@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L15)
---- child of VoiceChatPromptTemplate
---- @class VoiceChatPromptTemplate_Text : FontString, FriendsFont_Normal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L17)
---- child of VoiceChatPromptTemplateGlowFrame (created in template SocialToastGlowTemplate)
---- @type SocialToastGlowTemplate_SocialToastGlowTemplateAnimIn
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L55)
---- child of VoiceChatPromptTemplate (created in template SocialToastTemplate)
---- @type SocialToastTemplate_SocialToastTemplateGlowFrame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L5)
 --- Template
 --- @class VoiceChatPromptTemplate : ContainedAlertFrame, SocialToastTemplate

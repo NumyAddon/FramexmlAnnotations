@@ -1,13 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L15)
---- child of RuneSpellButtonTemplate
---- @class RuneSpellButtonTemplate_RuneSpellButtonTemplateName : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L22)
---- child of RuneSpellButtonTemplate
---- @class RuneSpellButtonTemplate_RuneSpellButtonTemplateTypeName : FontString, GameFontNormalSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L5)
 --- Template
 --- @class RuneSpellButtonTemplate : Button
@@ -16,18 +8,6 @@
 --- @field typeName RuneSpellButtonTemplate_RuneSpellButtonTemplateTypeName
 --- @field selectedTex Texture
 --- @field disabledBG Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L94)
---- child of RuneHeaderButtonTemplate
---- @class RuneHeaderButtonTemplate_RuneHeaderButtonTemplateExpandedIcon : Texture, Char-Stat-Minus
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L99)
---- child of RuneHeaderButtonTemplate
---- @class RuneHeaderButtonTemplate_RuneHeaderButtonTemplateCollapsedIcon : Texture, Char-Stat-Plus
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L111)
---- child of RuneHeaderButtonTemplate
---- @class RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L64)
 --- Template

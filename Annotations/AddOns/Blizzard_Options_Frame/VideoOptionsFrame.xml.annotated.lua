@@ -25,18 +25,6 @@ VideoOptionsFrameDefaults = {}
 --- @class VideoOptionsFrame_VideoOptionsFrameClassic : Button, UIPanelButtonTemplate
 VideoOptionsFrameClassic = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/VideoOptionsFrame.xml#L10)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/VideoOptionsFrame.xml#L18)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/VideoOptionsFrame.xml#L30)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame/VideoOptionsFrame.xml#L142)
 --- child of OptionsFrameListTemplateList
 --- @class OptionsFrameListTemplate_OptionsFrameListTemplateList_OptionsFrameListTemplateListScrollBar : Slider, UIPanelScrollBarTemplate

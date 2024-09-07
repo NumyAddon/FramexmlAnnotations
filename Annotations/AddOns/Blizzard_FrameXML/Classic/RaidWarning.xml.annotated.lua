@@ -1,13 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/RaidWarning.xml#L9)
---- child of RaidBossEmoteFrameTemplate
---- @class RaidBossEmoteFrameTemplate_RaidBossEmoteFrameTemplateSlot1 : FontString, GameFontNormalHuge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/RaidWarning.xml#L15)
---- child of RaidBossEmoteFrameTemplate
---- @class RaidBossEmoteFrameTemplate_RaidBossEmoteFrameTemplateSlot2 : FontString, GameFontNormalHuge
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/RaidWarning.xml#L3)
 --- Template
 --- @class RaidBossEmoteFrameTemplate : Frame

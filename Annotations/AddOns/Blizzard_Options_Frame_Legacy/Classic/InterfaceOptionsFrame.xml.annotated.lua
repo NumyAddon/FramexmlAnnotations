@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L174)
---- child of InterfaceOptionsListButtonTemplate (created in template OptionsListButtonTemplate)
---- @type OptionsListButtonTemplate_OptionsListButtonTemplateToggle
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L5)
 --- Template
 --- @class InterfaceOptionsListButtonTemplate : Button, OptionsListButtonTemplate
@@ -23,18 +19,6 @@ InterfaceOptionsFrameOkay = {}
 --- @class InterfaceOptionsFrame_InterfaceOptionsFrameDefaults : Button, UIPanelButtonTemplate
 InterfaceOptionsFrameDefaults = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L10)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L18)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L30)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L142)
 --- child of OptionsFrameListTemplateList
 --- @class OptionsFrameListTemplate_OptionsFrameListTemplateList_OptionsFrameListTemplateListScrollBar : Slider, UIPanelScrollBarTemplate
@@ -51,18 +35,6 @@ InterfaceOptionsFrameCategoriesList = {}
 InterfaceOptionsFrameCategories = {}
 InterfaceOptionsFrameCategories["labelText"] = CATEGORY
 InterfaceOptionsFrameCategories["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L10)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L18)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L30)
---- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/InterfaceOptionsFrame.xml#L142)
 --- child of OptionsFrameListTemplateList

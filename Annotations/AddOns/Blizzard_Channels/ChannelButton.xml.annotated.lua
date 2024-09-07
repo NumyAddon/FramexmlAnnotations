@@ -20,10 +20,6 @@
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L53)
---- child of ChannelButtonTemplate
---- @class ChannelButtonTemplate_Speaker : Frame, VoiceChatHeadsetTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L51)
 --- Template
 --- @class ChannelButtonTemplate : Button, ChannelButtonBaseTemplate, ChannelButtonMixin

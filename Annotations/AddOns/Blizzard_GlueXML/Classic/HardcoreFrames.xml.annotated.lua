@@ -1,9 +1,14 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L67)
+--- child of 
+--- @class HardcorePopUpFrame_ScrollBox_Text : SimpleHTML
+--- @field scrollable boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L61)
 --- child of HardcorePopUpFrame
 --- @class HardcorePopUpFrame_ScrollBox : Frame, WowScrollBox
---- @field Text SimpleHTML
+--- @field Text HardcorePopUpFrame_ScrollBox_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L76)
 --- child of HardcorePopUpFrame
@@ -69,7 +74,9 @@ CharacterReincarnatePopUpAlertIcon = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L112)
 --- child of CharacterReincarnatePopUpDialog
 --- @class CharacterReincarnatePopUpDialog_CharacterReincarnatePopUpBackground : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 CharacterReincarnatePopUpBackground = {}
+CharacterReincarnatePopUpBackground["backdropInfo"] = BACKDROP_DIALOG_32_32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/HardcoreFrames.xml#L183)
 --- child of CharacterReincarnatePopUpDialog

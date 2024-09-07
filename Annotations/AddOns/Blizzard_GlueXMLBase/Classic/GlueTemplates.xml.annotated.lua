@@ -92,6 +92,14 @@
 --- @field ScrollUpButton GlueScrollBarTemplate_GlueScrollBarTemplateScrollUpButton
 --- @field ScrollDownButton GlueScrollBarTemplate_GlueScrollBarTemplateScrollDownButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L190)
+--- child of GlueScrollFrameTemplateScrollBar (created in template GlueScrollBarTemplate)
+--- @type GlueScrollBarTemplate_GlueScrollBarTemplateScrollUpButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L202)
+--- child of GlueScrollFrameTemplateScrollBar (created in template GlueScrollBarTemplate)
+--- @type GlueScrollBarTemplate_GlueScrollBarTemplateScrollDownButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L237)
 --- child of GlueScrollFrameTemplate
 --- @class GlueScrollFrameTemplate_GlueScrollFrameTemplateScrollBar : Slider, GlueScrollBarTemplate

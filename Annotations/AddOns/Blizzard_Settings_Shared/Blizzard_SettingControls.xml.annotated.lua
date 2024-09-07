@@ -86,11 +86,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L145)
 --- child of SettingsSelectionPopoutEntryTemplate
 --- @class SettingsSelectionPopoutEntryTemplate_SelectionDetails : Frame, SettingsSelectionPopoutDetailsMixin
+--- @field selectionNamePadding number # 14
 --- @field SelectionName FontString
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L140)
 --- Template
 --- @class SettingsSelectionPopoutEntryTemplate : Button, SelectionPopoutEntryTemplate, SettingsSelectionPopoutEntryMixin
+--- @field defaultWidth number # 225
 --- @field SelectionDetails SettingsSelectionPopoutEntryTemplate_SelectionDetails
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L181)
@@ -101,16 +103,19 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L172)
 --- child of SettingsSelectionPopoutWithButtonsTemplate
 --- @class SettingsSelectionPopoutWithButtonsTemplate_Button : EventButton, SelectionPopoutButtonTemplate, SettingsSelectionPopoutButtonMixin
+--- @field selectionEntryTemplates string # "SettingsSelectionPopoutEntryTemplate"
 --- @field SelectionDetails SettingsSelectionPopoutWithButtonsTemplate_Button_SelectionDetails
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L166)
 --- Template
 --- @class SettingsSelectionPopoutWithButtonsTemplate : Frame, SelectionPopoutWithButtonsTemplate
+--- @field decrementOffsetX number # 4
 --- @field Button SettingsSelectionPopoutWithButtonsTemplate_Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L194)
 --- Template
 --- @class SettingsTextDropDownControlTemplate : Frame, SettingsDropDownControlTemplate
+--- @field dropDownType string # "Frame"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L204)
 --- child of SettingsExpandableSectionTemplate

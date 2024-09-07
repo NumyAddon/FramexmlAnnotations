@@ -60,9 +60,14 @@
 --- child of TextToSpeechSliderTemplate
 --- @class TextToSpeechSliderTemplate_TextToSpeechSliderTemplateHigh : FontString, GameFontHighlightSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L494)
+--- child of TextToSpeechSliderTemplate (created in template UISliderTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L134)
 --- Template
 --- @class TextToSpeechSliderTemplate : Slider, UISliderTemplate
+--- @field type any # CONTROLTYPE_SLIDER
 --- @field Text TextToSpeechSliderTemplate_TextToSpeechSliderTemplateText
 --- @field Low TextToSpeechSliderTemplate_TextToSpeechSliderTemplateLow
 --- @field High TextToSpeechSliderTemplate_TextToSpeechSliderTemplateHigh
@@ -91,9 +96,36 @@
 --- child of TextToSpeechFrameTtsVoiceDropdown
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameTtsVoiceDropdown_TextToSpeechFrameTtsVoiceDropdownMoreVoicesLabel : FontString, GameFontHighlightSmallLeft
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L284)
+--- child of TextToSpeechFrameTtsVoiceDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L226)
+--- child of TextToSpeechFrameTtsVoiceDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L239)
+--- child of TextToSpeechFrameTtsVoiceDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L248)
+--- child of TextToSpeechFrameTtsVoiceDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L257)
+--- child of TextToSpeechFrameTtsVoiceDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L271)
+--- child of TextToSpeechFrameTtsVoiceDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L245)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameTtsVoiceDropdown : Frame, UIDropDownMenuTemplate
+--- @field hideBackdrops boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L271)
 --- child of TextToSpeechFrameTemplatePanelContainer
@@ -103,13 +135,44 @@
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFramePlaySampleButton : Button, UIPanelButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L85)
+--- child of  (created in template TextToSpeechCheckButtonSlimTemplate)
+--- @type TextToSpeechCheckButtonSlimTemplate_TextToSpeechCheckButtonSlimTemplateText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L286)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_UseAlternateVoiceForSystemMessagesCheckButton : CheckButton, TextToSpeechCheckButtonSlimTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L284)
+--- child of TextToSpeechFrameTtsVoiceAlternateDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L226)
+--- child of TextToSpeechFrameTtsVoiceAlternateDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L239)
+--- child of TextToSpeechFrameTtsVoiceAlternateDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L248)
+--- child of TextToSpeechFrameTtsVoiceAlternateDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L257)
+--- child of TextToSpeechFrameTtsVoiceAlternateDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L271)
+--- child of TextToSpeechFrameTtsVoiceAlternateDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L295)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameTtsVoiceAlternateDropdown : Frame, UIDropDownMenuTemplate
+--- @field hideBackdrops boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L303)
 --- child of TextToSpeechFrameTemplatePanelContainer
@@ -123,6 +186,18 @@
 --- child of TextToSpeechFrameAdjustRateSlider
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustRateSlider_TextToSpeechFrameAdjustRateSliderLabel : FontString, GameFontHighlight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L141)
+--- child of TextToSpeechFrameAdjustRateSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L146)
+--- child of TextToSpeechFrameAdjustRateSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateLow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L155)
+--- child of TextToSpeechFrameAdjustRateSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateHigh
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L318)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustRateSlider : Slider, TextToSpeechSliderTemplate
@@ -132,6 +207,18 @@
 --- child of TextToSpeechFrameAdjustVolumeSlider
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustVolumeSlider_TextToSpeechFrameAdjustVolumeSliderLabel : FontString, GameFontHighlight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L141)
+--- child of TextToSpeechFrameAdjustVolumeSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L146)
+--- child of TextToSpeechFrameAdjustVolumeSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateLow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L155)
+--- child of TextToSpeechFrameAdjustVolumeSlider (created in template TextToSpeechSliderTemplate)
+--- @type TextToSpeechSliderTemplate_TextToSpeechSliderTemplateHigh
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L337)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustVolumeSlider : Slider, TextToSpeechSliderTemplate
@@ -140,6 +227,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L199)
 --- child of TextToSpeechFrameTemplate
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer : Frame
+--- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
 --- @field PlaySoundSeparatingChatLinesCheckButton TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_PlaySoundSeparatingChatLinesCheckButton
 --- @field AddCharacterNameToSpeechCheckButton TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_AddCharacterNameToSpeechCheckButton
 --- @field PlayActivitySoundWhenNotFocusedCheckButton TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_PlayActivitySoundWhenNotFocusedCheckButton

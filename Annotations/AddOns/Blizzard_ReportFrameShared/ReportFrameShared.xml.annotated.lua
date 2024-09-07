@@ -13,6 +13,32 @@
 --- child of 
 --- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown_Label : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L284)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L226)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L239)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L248)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L257)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L271)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L97)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown : Frame, UIDropDownMenuTemplate, ReportingMajorCategoryDropdownMixin
@@ -25,6 +51,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L124)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_Comment : ScrollFrame, InputScrollFrameTemplate
+--- @field maxLetters number # 255
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L132)
 --- child of SharedReportFrameTemplate
@@ -46,6 +73,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L19)
 --- Template
 --- @class SharedReportFrameTemplate : Frame, ResizeLayoutFrame
+--- @field fixedWidth number # 400
 --- @field Border Frame
 --- @field ReportingMajorCategoryDropdown SharedReportFrameTemplate_ReportingMajorCategoryDropdown
 --- @field ReportButton SharedReportFrameTemplate_ReportButton

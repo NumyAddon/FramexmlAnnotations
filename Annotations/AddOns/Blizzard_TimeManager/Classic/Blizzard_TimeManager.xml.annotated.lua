@@ -15,20 +15,134 @@ TimeManagerStopwatchFrameText = {}
 --- @class TimeManagerFrame_TimeManagerStopwatchFrame : Frame
 TimeManagerStopwatchFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L284)
+--- child of TimeManagerAlarmHourDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+TimeManagerAlarmHourDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L226)
+--- child of TimeManagerAlarmHourDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmHourDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L239)
+--- child of TimeManagerAlarmHourDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmHourDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L248)
+--- child of TimeManagerAlarmHourDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmHourDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L257)
+--- child of TimeManagerAlarmHourDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+TimeManagerAlarmHourDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L271)
+--- child of TimeManagerAlarmHourDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmHourDropDownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L87)
 --- child of TimeManagerAlarmTimeFrame
 --- @class TimeManagerFrame_TimeManagerAlarmTimeFrame_TimeManagerAlarmHourDropDown : Frame, UIDropDownMenuTemplate
 TimeManagerAlarmHourDropDown = {}
+TimeManagerAlarmHourDropDown["Button"] = TimeManagerAlarmHourDropDownButton -- inherited
+TimeManagerAlarmHourDropDown["Left"] = TimeManagerAlarmHourDropDownLeft -- inherited
+TimeManagerAlarmHourDropDown["Middle"] = TimeManagerAlarmHourDropDownMiddle -- inherited
+TimeManagerAlarmHourDropDown["Right"] = TimeManagerAlarmHourDropDownRight -- inherited
+TimeManagerAlarmHourDropDown["Text"] = TimeManagerAlarmHourDropDownText -- inherited
+TimeManagerAlarmHourDropDown["Icon"] = TimeManagerAlarmHourDropDownIcon -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L284)
+--- child of TimeManagerAlarmMinuteDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+TimeManagerAlarmMinuteDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L226)
+--- child of TimeManagerAlarmMinuteDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmMinuteDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L239)
+--- child of TimeManagerAlarmMinuteDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmMinuteDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L248)
+--- child of TimeManagerAlarmMinuteDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmMinuteDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L257)
+--- child of TimeManagerAlarmMinuteDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+TimeManagerAlarmMinuteDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L271)
+--- child of TimeManagerAlarmMinuteDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmMinuteDropDownIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L92)
 --- child of TimeManagerAlarmTimeFrame
 --- @class TimeManagerFrame_TimeManagerAlarmTimeFrame_TimeManagerAlarmMinuteDropDown : Frame, UIDropDownMenuTemplate
 TimeManagerAlarmMinuteDropDown = {}
+TimeManagerAlarmMinuteDropDown["Button"] = TimeManagerAlarmMinuteDropDownButton -- inherited
+TimeManagerAlarmMinuteDropDown["Left"] = TimeManagerAlarmMinuteDropDownLeft -- inherited
+TimeManagerAlarmMinuteDropDown["Middle"] = TimeManagerAlarmMinuteDropDownMiddle -- inherited
+TimeManagerAlarmMinuteDropDown["Right"] = TimeManagerAlarmMinuteDropDownRight -- inherited
+TimeManagerAlarmMinuteDropDown["Text"] = TimeManagerAlarmMinuteDropDownText -- inherited
+TimeManagerAlarmMinuteDropDown["Icon"] = TimeManagerAlarmMinuteDropDownIcon -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L284)
+--- child of TimeManagerAlarmAMPMDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+TimeManagerAlarmAMPMDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L226)
+--- child of TimeManagerAlarmAMPMDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmAMPMDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L239)
+--- child of TimeManagerAlarmAMPMDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmAMPMDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L248)
+--- child of TimeManagerAlarmAMPMDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmAMPMDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L257)
+--- child of TimeManagerAlarmAMPMDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+TimeManagerAlarmAMPMDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L271)
+--- child of TimeManagerAlarmAMPMDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+TimeManagerAlarmAMPMDropDownIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L97)
 --- child of TimeManagerAlarmTimeFrame
 --- @class TimeManagerFrame_TimeManagerAlarmTimeFrame_TimeManagerAlarmAMPMDropDown : Frame, UIDropDownMenuTemplate
 TimeManagerAlarmAMPMDropDown = {}
+TimeManagerAlarmAMPMDropDown["Button"] = TimeManagerAlarmAMPMDropDownButton -- inherited
+TimeManagerAlarmAMPMDropDown["Left"] = TimeManagerAlarmAMPMDropDownLeft -- inherited
+TimeManagerAlarmAMPMDropDown["Middle"] = TimeManagerAlarmAMPMDropDownMiddle -- inherited
+TimeManagerAlarmAMPMDropDown["Right"] = TimeManagerAlarmAMPMDropDownRight -- inherited
+TimeManagerAlarmAMPMDropDown["Text"] = TimeManagerAlarmAMPMDropDownText -- inherited
+TimeManagerAlarmAMPMDropDown["Icon"] = TimeManagerAlarmAMPMDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L74)
 --- child of TimeManagerAlarmTimeFrame
@@ -60,20 +174,38 @@ TimeManagerAlarmMessageLabel = {}
 --- @class TimeManagerFrame_TimeManagerAlarmMessageFrame : Frame
 TimeManagerAlarmMessageFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L468)
+--- child of TimeManagerAlarmEnabledButton (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+TimeManagerAlarmEnabledButtonText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L132)
 --- child of TimeManagerFrame
 --- @class TimeManagerFrame_TimeManagerAlarmEnabledButton : CheckButton, UICheckButtonTemplate
 TimeManagerAlarmEnabledButton = {}
+TimeManagerAlarmEnabledButton["Text"] = TimeManagerAlarmEnabledButtonText -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L468)
+--- child of TimeManagerMilitaryTimeCheck (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+TimeManagerMilitaryTimeCheckText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L144)
 --- child of TimeManagerFrame
 --- @class TimeManagerFrame_TimeManagerMilitaryTimeCheck : CheckButton, UICheckButtonTemplate
 TimeManagerMilitaryTimeCheck = {}
+TimeManagerMilitaryTimeCheck["Text"] = TimeManagerMilitaryTimeCheckText -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L468)
+--- child of TimeManagerLocalTimeCheck (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+TimeManagerLocalTimeCheckText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L159)
 --- child of TimeManagerFrame
 --- @class TimeManagerFrame_TimeManagerLocalTimeCheck : CheckButton, UICheckButtonTemplate
 TimeManagerLocalTimeCheck = {}
+TimeManagerLocalTimeCheck["Text"] = TimeManagerLocalTimeCheckText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L10)
 --- child of TimeManagerFrame
@@ -89,9 +221,84 @@ TimeManagerFrameTicker = {}
 --- child of TimeManagerFrame
 --- @class  : FontString, GameFontWhite
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L796)
+--- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
+--- @type Texture
+TimeManagerFrameInsetBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L804)
+--- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
+TimeManagerFrameInsetInsetTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L809)
+--- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
+TimeManagerFrameInsetInsetTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L815)
+--- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
+TimeManagerFrameInsetInsetBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L821)
+--- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
+TimeManagerFrameInsetInsetBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L827)
+--- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
+TimeManagerFrameInsetInsetTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L833)
+--- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
+TimeManagerFrameInsetInsetBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L839)
+--- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
+TimeManagerFrameInsetInsetLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L845)
+--- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
+TimeManagerFrameInsetInsetRightBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L888)
+--- child of TimeManagerFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+TimeManagerFrameInset = {}
+TimeManagerFrameInset["Bg"] = TimeManagerFrameInsetBg -- inherited
+TimeManagerFrameInset["InsetBorderTopLeft"] = TimeManagerFrameInsetInsetTopLeftCorner -- inherited
+TimeManagerFrameInset["InsetBorderTopRight"] = TimeManagerFrameInsetInsetTopRightCorner -- inherited
+TimeManagerFrameInset["InsetBorderBottomLeft"] = TimeManagerFrameInsetInsetBotLeftCorner -- inherited
+TimeManagerFrameInset["InsetBorderBottomRight"] = TimeManagerFrameInsetInsetBotRightCorner -- inherited
+TimeManagerFrameInset["InsetBorderTop"] = TimeManagerFrameInsetInsetTopBorder -- inherited
+TimeManagerFrameInset["InsetBorderBottom"] = TimeManagerFrameInsetInsetBottomBorder -- inherited
+TimeManagerFrameInset["InsetBorderLeft"] = TimeManagerFrameInsetInsetLeftBorder -- inherited
+TimeManagerFrameInset["InsetBorderRight"] = TimeManagerFrameInsetInsetRightBorder -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L869)
+--- child of TimeManagerFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
+TimeManagerFrameBtnCornerLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L874)
+--- child of TimeManagerFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
+TimeManagerFrameBtnCornerRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L879)
+--- child of TimeManagerFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
+TimeManagerFrameButtonBottomBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L3)
 --- @class TimeManagerFrame : Frame, ButtonFrameTemplate
 TimeManagerFrame = {}
+TimeManagerFrame["Inset"] = TimeManagerFrameInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L198)
 --- child of TimeManagerClockButton

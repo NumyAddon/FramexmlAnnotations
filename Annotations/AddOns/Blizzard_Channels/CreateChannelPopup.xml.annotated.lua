@@ -26,6 +26,11 @@
 --- @class CreateChannelPopup_Password : EditBox, CreateChannelPopupEditBoxTemplate
 --- @field Label CreateChannelPopup_Password_Label
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L468)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+Text = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L85)
 --- child of CreateChannelPopup
 --- @class CreateChannelPopup_UseVoiceChat : CheckButton, UICheckButtonTemplate
@@ -48,6 +53,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L27)
 --- @class CreateChannelPopup : Frame, BackdropTemplate, CreateChannelPopupMixin
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field Name CreateChannelPopup_Name
 --- @field Password CreateChannelPopup_Password
 --- @field UseVoiceChat CreateChannelPopup_UseVoiceChat
@@ -58,4 +64,5 @@
 --- @field Titlebar Texture
 --- @field Corner Texture
 CreateChannelPopup = {}
+CreateChannelPopup["backdropInfo"] = BACKDROP_DIALOG_32_32
 

@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L429)
+--- child of MovePadCheckboxTemplate (created in template UIPanelSquareButton)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L5)
 --- Template
 --- @class MovePadCheckboxTemplate : CheckButton, UIPanelSquareButton
@@ -14,10 +18,16 @@ MovePadLock = {}
 --- @class MovePadFrame_MovePadForward : CheckButton, MovePadCheckboxTemplate
 MovePadForward = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L429)
+--- child of MovePadJump (created in template UIPanelSquareButton)
+--- @type Texture
+MovePadJumpIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L77)
 --- child of MovePadFrame
 --- @class MovePadFrame_MovePadJump : Button, UIPanelSquareButton
 MovePadJump = {}
+MovePadJump["icon"] = MovePadJumpIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L101)
 --- child of MovePadFrame
@@ -46,5 +56,8 @@ MovePadStrafeRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L12)
 --- @class MovePadFrame : Frame, TooltipBackdropTemplate, MovePadMixin
+--- @field backdropColorAlpha number # 0.5
 MovePadFrame = {}
+MovePadFrame["backdropColorAlpha"] = 0.5
+MovePadFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 

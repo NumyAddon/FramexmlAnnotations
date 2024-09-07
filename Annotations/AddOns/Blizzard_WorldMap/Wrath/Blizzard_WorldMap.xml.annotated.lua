@@ -37,10 +37,48 @@ MiniWorldMapTitle = {}
 --- child of WorldMapFrame
 --- @class WorldMapFrame_MiniBorderFrame : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L284)
+--- child of WorldMapTitleDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+WorldMapTitleDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L226)
+--- child of WorldMapTitleDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapTitleDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L239)
+--- child of WorldMapTitleDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapTitleDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L248)
+--- child of WorldMapTitleDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapTitleDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L257)
+--- child of WorldMapTitleDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+WorldMapTitleDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L271)
+--- child of WorldMapTitleDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapTitleDropDownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L92)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapTitleDropDown : Frame, UIDropDownMenuTemplate
 WorldMapTitleDropDown = {}
+WorldMapTitleDropDown["Button"] = WorldMapTitleDropDownButton -- inherited
+WorldMapTitleDropDown["Left"] = WorldMapTitleDropDownLeft -- inherited
+WorldMapTitleDropDown["Middle"] = WorldMapTitleDropDownMiddle -- inherited
+WorldMapTitleDropDown["Right"] = WorldMapTitleDropDownRight -- inherited
+WorldMapTitleDropDown["Text"] = WorldMapTitleDropDownText -- inherited
+WorldMapTitleDropDown["Icon"] = WorldMapTitleDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L101)
 --- child of WorldMapFrame
@@ -60,28 +98,142 @@ WorldMapTitle = {}
 --- child of WorldMapContinentDropDown
 --- @class  : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L284)
+--- child of WorldMapContinentDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+WorldMapContinentDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L226)
+--- child of WorldMapContinentDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapContinentDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L239)
+--- child of WorldMapContinentDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapContinentDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L248)
+--- child of WorldMapContinentDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapContinentDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L257)
+--- child of WorldMapContinentDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+WorldMapContinentDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L271)
+--- child of WorldMapContinentDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapContinentDropDownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L278)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapContinentDropDown : Frame, UIDropDownMenuTemplate
 WorldMapContinentDropDown = {}
+WorldMapContinentDropDown["Button"] = WorldMapContinentDropDownButton -- inherited
+WorldMapContinentDropDown["Left"] = WorldMapContinentDropDownLeft -- inherited
+WorldMapContinentDropDown["Middle"] = WorldMapContinentDropDownMiddle -- inherited
+WorldMapContinentDropDown["Right"] = WorldMapContinentDropDownRight -- inherited
+WorldMapContinentDropDown["Text"] = WorldMapContinentDropDownText -- inherited
+WorldMapContinentDropDown["Icon"] = WorldMapContinentDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L318)
 --- child of WorldMapZoneDropDown
 --- @class  : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L284)
+--- child of WorldMapZoneDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+WorldMapZoneDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L226)
+--- child of WorldMapZoneDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapZoneDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L239)
+--- child of WorldMapZoneDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapZoneDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L248)
+--- child of WorldMapZoneDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapZoneDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L257)
+--- child of WorldMapZoneDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+WorldMapZoneDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L271)
+--- child of WorldMapZoneDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapZoneDropDownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L308)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapZoneDropDown : Frame, UIDropDownMenuTemplate
 WorldMapZoneDropDown = {}
+WorldMapZoneDropDown["Button"] = WorldMapZoneDropDownButton -- inherited
+WorldMapZoneDropDown["Left"] = WorldMapZoneDropDownLeft -- inherited
+WorldMapZoneDropDown["Middle"] = WorldMapZoneDropDownMiddle -- inherited
+WorldMapZoneDropDown["Right"] = WorldMapZoneDropDownRight -- inherited
+WorldMapZoneDropDown["Text"] = WorldMapZoneDropDownText -- inherited
+WorldMapZoneDropDown["Icon"] = WorldMapZoneDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L348)
 --- child of WorldMapZoneMinimapDropDown
 --- @class  : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L284)
+--- child of WorldMapZoneMinimapDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+WorldMapZoneMinimapDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L226)
+--- child of WorldMapZoneMinimapDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapZoneMinimapDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L239)
+--- child of WorldMapZoneMinimapDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapZoneMinimapDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L248)
+--- child of WorldMapZoneMinimapDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapZoneMinimapDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L257)
+--- child of WorldMapZoneMinimapDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+WorldMapZoneMinimapDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L271)
+--- child of WorldMapZoneMinimapDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+WorldMapZoneMinimapDropDownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L338)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapZoneMinimapDropDown : Frame, UIDropDownMenuTemplate
 WorldMapZoneMinimapDropDown = {}
+WorldMapZoneMinimapDropDown["Button"] = WorldMapZoneMinimapDropDownButton -- inherited
+WorldMapZoneMinimapDropDown["Left"] = WorldMapZoneMinimapDropDownLeft -- inherited
+WorldMapZoneMinimapDropDown["Middle"] = WorldMapZoneMinimapDropDownMiddle -- inherited
+WorldMapZoneMinimapDropDown["Right"] = WorldMapZoneMinimapDropDownRight -- inherited
+WorldMapZoneMinimapDropDown["Text"] = WorldMapZoneMinimapDropDownText -- inherited
+WorldMapZoneMinimapDropDown["Icon"] = WorldMapZoneMinimapDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L366)
 --- child of WorldMapFrame
@@ -98,10 +250,20 @@ WorldMapMagnifyingGlassButton = {}
 --- @class WorldMapFrame_WorldMapFrameCloseButton : Button, UIPanelCloseButton
 WorldMapFrameCloseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L50)
+--- child of WorldMapTrackQuest (created in template OptionsCheckButtonTemplate)
+--- @type OptionsCheckButtonTemplate_OptionsCheckButtonTemplateText
+WorldMapTrackQuestText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L435)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapTrackQuest : CheckButton, OptionsCheckButtonTemplate
 WorldMapTrackQuest = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L50)
+--- child of WorldMapQuestShowObjectives (created in template OptionsCheckButtonTemplate)
+--- @type OptionsCheckButtonTemplate_OptionsCheckButtonTemplateText
+WorldMapQuestShowObjectivesText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L455)
 --- child of WorldMapFrame
@@ -121,4 +283,6 @@ WorldMapQuestShowObjectives = {}
 --- @field ZoneDropDown WorldMapFrame_WorldMapZoneDropDown
 --- @field MaximizeMinimizeFrame WorldMapFrame_MaximizeMinimizeFrame
 WorldMapFrame = {}
+WorldMapFrame["ContinentDropDown"] = WorldMapContinentDropDown
+WorldMapFrame["ZoneDropDown"] = WorldMapZoneDropDown
 

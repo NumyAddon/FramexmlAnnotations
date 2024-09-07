@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L5)
 --- Template
 --- @class ClubFinderEditBoxScrollFrameTemplate : ScrollFrame, InputScrollFrameTemplate
+--- @field maxLetters number # 400
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L31)
 --- child of ClubsFinderJoinClubWarningTemplate
@@ -43,6 +44,42 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L107)
 --- child of ClubFinderInvitationsFrameTemplate
 --- @class ClubFinderInvitationsFrameTemplate_DeclineButton : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L796)
+--- child of  (created in template InsetFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L804)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L809)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L815)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L821)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L827)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L833)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L839)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L845)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L119)
 --- child of ClubFinderInvitationsFrameTemplate
@@ -120,6 +157,32 @@
 --- child of ClubFinderLookingForDropdown
 --- @class ClubsRecruitmentDialogTemplate_ClubFinderLookingForDropdown_Label : FontString, GameFontHighlight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L284)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L226)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L239)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L248)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L257)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L271)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L286)
 --- child of ClubsRecruitmentDialogTemplate
 --- @class ClubsRecruitmentDialogTemplate_ClubFinderLookingForDropdown : Frame, UIDropDownMenuTemplate, LookingForDropdownMixin
@@ -129,6 +192,32 @@
 --- child of ClubFinderLanguageDropdown
 --- @class ClubsRecruitmentDialogTemplate_ClubFinderLanguageDropdown_Label : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L284)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L226)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L239)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L248)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L257)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L271)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L302)
 --- child of ClubsRecruitmentDialogTemplate
 --- @class ClubsRecruitmentDialogTemplate_ClubFinderLanguageDropdown : Frame, UIDropDownMenuTemplate, ClubFinderLanguageDropdownMixin
@@ -137,6 +226,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L390)
 --- child of 
 --- @class ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame_RecruitmentMessageInput : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
+--- @field maxLetters number # 250
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L381)
 --- child of 
@@ -257,6 +347,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L668)
 --- child of 
 --- @class ClubFinderRequestToJoinTemplate_MessageFrame_MessageScroll : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
+--- @field instructions any # CLUB_FINDER_RECRUITING_NOTE
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L604)
 --- child of ClubFinderRequestToJoinTemplate
@@ -322,6 +413,32 @@
 --- child of ClubFinderGuildCardTemplate
 --- @class ClubFinderGuildCardTemplate_RequestJoin : Button, UIPanelButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L284)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L226)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L239)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L248)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L257)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L271)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L807)
 --- child of ClubFinderGuildCardTemplate
 --- @class ClubFinderGuildCardTemplate_RightClickDropdown : Frame, UIDropDownMenuTemplate
@@ -372,6 +489,32 @@
 --- child of ClubFinderFocusDropdownTemplate
 --- @class ClubFinderFocusDropdownTemplate_Label : FontString, GameFontHighlight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L284)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L226)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L239)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L248)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L257)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L271)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L817)
 --- Template
 --- @class ClubFinderFocusDropdownTemplate : Frame, UIDropDownMenuTemplate, ClubFocusDropdownMixin
@@ -380,6 +523,32 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L835)
 --- child of ClubFinderFilterDropdownTemplate
 --- @class ClubFinderFilterDropdownTemplate_Label : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L284)
+--- child of ClubFinderFilterDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L226)
+--- child of ClubFinderFilterDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L239)
+--- child of ClubFinderFilterDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L248)
+--- child of ClubFinderFilterDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L257)
+--- child of ClubFinderFilterDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L271)
+--- child of ClubFinderFilterDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L831)
 --- Template
@@ -444,6 +613,32 @@
 --- @field InvitedString ClubFinderCommunitiesCardTemplate_RequestJoin_InvitedString
 --- @field Highlight Texture
 --- @field AddTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L284)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L226)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L239)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L248)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L257)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L271)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1038)
 --- child of ClubFinderCommunitiesCardTemplate
@@ -522,6 +717,32 @@
 --- child of ClubFinderSizeDropdown
 --- @class ClubFinderOptionsTemplate_ClubFinderSizeDropdown_Label : FontString, GameFontHighlight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L284)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L226)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L239)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L248)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L257)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L271)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1090)
 --- child of ClubFinderOptionsTemplate
 --- @class ClubFinderOptionsTemplate_ClubFinderSizeDropdown : Frame, UIDropDownMenuTemplate, ClubSizeDropdownMixin
@@ -530,6 +751,32 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1113)
 --- child of ClubFinderSortByDropdown
 --- @class ClubFinderOptionsTemplate_ClubFinderSortByDropdown_Label : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L284)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L226)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L239)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L248)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L257)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L271)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1106)
 --- child of ClubFinderOptionsTemplate
@@ -566,6 +813,15 @@
 --- @field CheckBox ClubFinderOptionsTemplate_DpsRoleFrame_CheckBox
 --- @field Icon Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1256)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1247)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1200)
 --- child of ClubFinderOptionsTemplate
 --- @class ClubFinderOptionsTemplate_SearchBox : EditBox, SearchBoxTemplate, ClubFinderSearchEditBoxMixin
@@ -586,6 +842,80 @@
 --- @field DpsRoleFrame ClubFinderOptionsTemplate_DpsRoleFrame
 --- @field SearchBox ClubFinderOptionsTemplate_SearchBox
 --- @field Search ClubFinderOptionsTemplate_Search
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1085)
+--- child of  (created in template ClubFinderOptionsTemplate)
+--- @type ClubFinderOptionsTemplate_ClubFinderFilterDropdown
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1097)
+--- child of ClubFinderSizeDropdown
+--- @class ClubFinderOptionsTemplate_ClubFinderSizeDropdown_Label : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L284)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L226)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L239)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L248)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L257)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L271)
+--- child of ClubFinderSizeDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1090)
+--- child of  (created in template ClubFinderOptionsTemplate)
+--- @type ClubFinderOptionsTemplate_ClubFinderSizeDropdown
+--- @field Label ClubFinderOptionsTemplate_ClubFinderSizeDropdown_Label
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1113)
+--- child of ClubFinderSortByDropdown
+--- @class ClubFinderOptionsTemplate_ClubFinderSortByDropdown_Label : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L284)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L226)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L239)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L248)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L257)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L271)
+--- child of ClubFinderSortByDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1106)
+--- child of  (created in template ClubFinderOptionsTemplate)
+--- @type ClubFinderOptionsTemplate_ClubFinderSortByDropdown
+--- @field Label ClubFinderOptionsTemplate_ClubFinderSortByDropdown_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1233)
 --- child of ClubFinderGuildAndCommunityFrameTemplate
@@ -619,6 +949,42 @@
 --- child of 
 --- @class ClubFinderGuildAndCommunityFrameTemplate_InsetFrame_ErrorDescription : FontString, GameFontNormalMed1
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L796)
+--- child of  (created in template InsetFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L804)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L809)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L815)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L821)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L827)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L833)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L839)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L845)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1273)
 --- child of ClubFinderGuildAndCommunityFrameTemplate
 --- @class ClubFinderGuildAndCommunityFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
@@ -633,6 +999,42 @@
 --- child of 
 --- @class ClubFinderGuildAndCommunityFrameTemplate_DisabledFrame_Description : FontString, GameFontNormalMed1
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L796)
+--- child of  (created in template InsetFrameTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L804)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L809)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L815)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L821)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L827)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L833)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L839)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L845)
+--- child of  (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1311)
 --- child of ClubFinderGuildAndCommunityFrameTemplate
 --- @class ClubFinderGuildAndCommunityFrameTemplate_DisabledFrame : Frame, InsetFrameTemplate
@@ -642,10 +1044,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1339)
 --- child of ClubFinderGuildAndCommunityFrameTemplate
 --- @class ClubFinderGuildAndCommunityFrameTemplate_ClubFinderSearchTab : CheckButton, CommunitiesFrameTabTemplate, ClubFinderTabMixin
+--- @field tooltip any # SEARCH
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1351)
 --- child of ClubFinderGuildAndCommunityFrameTemplate
 --- @class ClubFinderGuildAndCommunityFrameTemplate_ClubFinderPendingTab : CheckButton, CommunitiesFrameTabTemplate, ClubFinderTabMixin
+--- @field iconTexture string # "Interface\/Icons\/inv_misc_notepicture1c"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1227)
 --- Template

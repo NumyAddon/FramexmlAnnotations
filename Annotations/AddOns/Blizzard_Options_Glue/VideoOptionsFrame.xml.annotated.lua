@@ -30,7 +30,53 @@ VideoOptionsFrameClassic = {}
 --- @class VideoOptionsFrame_VideoOptionsFrameReset : Button, GlueButtonSmallTemplateBlue
 VideoOptionsFrameReset = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L10)
+--- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L18)
+--- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L30)
+--- child of OptionsFrameListTemplateListScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L142)
+--- child of OptionsFrameListTemplateList
+--- @class OptionsFrameListTemplate_OptionsFrameListTemplateList_OptionsFrameListTemplateListScrollBar : Slider, UIPanelScrollBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L116)
+--- child of VideoOptionsFrameCategoryFrame (created in template OptionsFrameListTemplate)
+--- @type OptionsFrameListTemplate_OptionsFrameListTemplateList
+VideoOptionsFrameCategoryFrameList = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L266)
+--- child of VideoOptionsFrame (created in template OptionsFrameTemplate)
+--- @type OptionsFrameTemplate_OptionsFrameTemplateCategoryFrame
+VideoOptionsFrameCategoryFrame = {}
+VideoOptionsFrameCategoryFrame["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L284)
+--- child of VideoOptionsFrame (created in template OptionsFrameTemplate)
+--- @type OptionsFrameTemplate_OptionsFrameTemplatePanelContainer
+--- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
+VideoOptionsFramePanelContainer = {}
+VideoOptionsFramePanelContainer["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR
+VideoOptionsFramePanelContainer["backdropColorAlpha"] = 0 -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L242)
+--- child of VideoOptionsFrame (created in template OptionsFrameTemplate)
+--- @type Texture
+VideoOptionsFrameHeader = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L254)
+--- child of VideoOptionsFrame (created in template OptionsFrameTemplate)
+--- @type OptionsFrameTemplate_OptionsFrameTemplateHeaderText
+VideoOptionsFrameHeaderText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L7)
 --- @class VideoOptionsFrame : Frame, OptionsFrameTemplate
 VideoOptionsFrame = {}
+VideoOptionsFrame["backdropInfo"] = BACKDROP_DIALOG_32_32 -- inherited
 

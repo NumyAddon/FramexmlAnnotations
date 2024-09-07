@@ -50,6 +50,13 @@ OverrideActionBarPitchFramePitchMarker = {}
 --- @field PitchButtonBG OverrideActionBar_OverrideActionBarPitchFrame_OverrideActionBarPitchFramePitchButtonBG
 --- @field PitchMarker OverrideActionBar_OverrideActionBarPitchFrame_OverrideActionBarPitchFramePitchMarker
 OverrideActionBarPitchFrame = {}
+OverrideActionBarPitchFrame["PitchUpButton"] = OverrideActionBarPitchFramePitchUpButton
+OverrideActionBarPitchFrame["PitchDownButton"] = OverrideActionBarPitchFramePitchDownButton
+OverrideActionBarPitchFrame["Divider1"] = OverrideActionBarPitchFrameDivider1
+OverrideActionBarPitchFrame["PitchOverlay"] = OverrideActionBarPitchFramePitchOverlay
+OverrideActionBarPitchFrame["PitchBG"] = OverrideActionBarPitchFramePitchBG
+OverrideActionBarPitchFrame["PitchButtonBG"] = OverrideActionBarPitchFramePitchButtonBG
+OverrideActionBarPitchFrame["PitchMarker"] = OverrideActionBarPitchFramePitchMarker
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L268)
 --- child of OverrideActionBarLeaveFrame
@@ -73,6 +80,9 @@ OverrideActionBarLeaveFrameExitBG = {}
 --- @field Divider3 OverrideActionBar_OverrideActionBarLeaveFrame_OverrideActionBarLeaveFrameDivider3
 --- @field ExitBG OverrideActionBar_OverrideActionBarLeaveFrame_OverrideActionBarLeaveFrameExitBG
 OverrideActionBarLeaveFrame = {}
+OverrideActionBarLeaveFrame["LeaveButton"] = OverrideActionBarLeaveFrameLeaveButton
+OverrideActionBarLeaveFrame["Divider3"] = OverrideActionBarLeaveFrameDivider3
+OverrideActionBarLeaveFrame["ExitBG"] = OverrideActionBarLeaveFrameExitBG
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L346)
 --- child of OverrideActionBarExpBarOverlayFrame
@@ -84,6 +94,7 @@ OverrideActionBarExpBarOverlayFrameText = {}
 --- @class OverrideActionBar_OverrideActionBarExpBar_OverrideActionBarExpBarOverlayFrame : Frame
 --- @field text OverrideActionBar_OverrideActionBarExpBar_OverrideActionBarExpBarOverlayFrame_OverrideActionBarExpBarOverlayFrameText
 OverrideActionBarExpBarOverlayFrame = {}
+OverrideActionBarExpBarOverlayFrame["text"] = OverrideActionBarExpBarOverlayFrameText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L315)
 --- child of OverrideActionBarExpBar
@@ -107,6 +118,9 @@ OverrideActionBarExpBarXpR = {}
 --- @field XpL OverrideActionBar_OverrideActionBarExpBar_OverrideActionBarExpBarXpL
 --- @field XpR OverrideActionBar_OverrideActionBarExpBar_OverrideActionBarExpBarXpR
 OverrideActionBarExpBar = {}
+OverrideActionBarExpBar["XpMid"] = OverrideActionBarExpBarXpMid
+OverrideActionBarExpBar["XpL"] = OverrideActionBarExpBarXpL
+OverrideActionBarExpBar["XpR"] = OverrideActionBarExpBarXpR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L419)
 --- child of OverrideActionBarHealthBar
@@ -130,6 +144,9 @@ OverrideActionBarHealthBarText = {}
 --- @field HealthBarOverlay OverrideActionBar_OverrideActionBarHealthBar_OverrideActionBarHealthBarOverlay
 --- @field text OverrideActionBar_OverrideActionBarHealthBar_OverrideActionBarHealthBarText
 OverrideActionBarHealthBar = {}
+OverrideActionBarHealthBar["HealthBarBG"] = OverrideActionBarHealthBarBackground
+OverrideActionBarHealthBar["HealthBarOverlay"] = OverrideActionBarHealthBarOverlay
+OverrideActionBarHealthBar["text"] = OverrideActionBarHealthBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L476)
 --- child of OverrideActionBarPowerBar
@@ -153,6 +170,9 @@ OverrideActionBarPowerBarText = {}
 --- @field PowerBarOverlay OverrideActionBar_OverrideActionBarPowerBar_OverrideActionBarPowerBarOverlay
 --- @field parentKey OverrideActionBar_OverrideActionBarPowerBar_OverrideActionBarPowerBarText
 OverrideActionBarPowerBar = {}
+OverrideActionBarPowerBar["PowerBarBG"] = OverrideActionBarPowerBarBackground
+OverrideActionBarPowerBar["PowerBarOverlay"] = OverrideActionBarPowerBarOverlay
+OverrideActionBarPowerBar["parentKey"] = OverrideActionBarPowerBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L523)
 --- child of OverrideActionBar
@@ -269,4 +289,26 @@ OverrideActionBarBorder = {}
 --- @field _Border OverrideActionBar_OverrideActionBarBorder
 --- @field slideOut OverrideActionBar_slideOut
 OverrideActionBar = {}
+OverrideActionBar["pitchFrame"] = OverrideActionBarPitchFrame
+OverrideActionBar["leaveFrame"] = OverrideActionBarLeaveFrame
+OverrideActionBar["xpBar"] = OverrideActionBarExpBar
+OverrideActionBar["healthBar"] = OverrideActionBarHealthBar
+OverrideActionBar["powerBar"] = OverrideActionBarPowerBar
+OverrideActionBar["SpellButton1"] = OverrideActionBarButton1
+OverrideActionBar["SpellButton2"] = OverrideActionBarButton2
+OverrideActionBar["SpellButton3"] = OverrideActionBarButton3
+OverrideActionBar["SpellButton4"] = OverrideActionBarButton4
+OverrideActionBar["SpellButton5"] = OverrideActionBarButton5
+OverrideActionBar["SpellButton6"] = OverrideActionBarButton6
+OverrideActionBar["EndCapL"] = OverrideActionBarEndCapL
+OverrideActionBar["EndCapR"] = OverrideActionBarEndCapR
+OverrideActionBar["Divider2"] = OverrideActionBarDivider2
+OverrideActionBar["_BG"] = OverrideActionBarBG
+OverrideActionBar["MicroBGL"] = OverrideActionBarMicroBGL
+OverrideActionBar["_MicroBGMid"] = OverrideActionBarMicroBGMid
+OverrideActionBar["MicroBGR"] = OverrideActionBarMicroBGR
+OverrideActionBar["ButtonBGR"] = OverrideActionBarButtonBGR
+OverrideActionBar["_ButtonBGMid"] = OverrideActionBarButtonBGMid
+OverrideActionBar["ButtonBGL"] = OverrideActionBarButtonBGL
+OverrideActionBar["_Border"] = OverrideActionBarBorder
 

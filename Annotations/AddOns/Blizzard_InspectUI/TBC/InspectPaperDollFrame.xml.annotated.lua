@@ -1,5 +1,29 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/TBC/InspectPaperDollFrame.xml#L85)
+--- child of InspectPaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/TBC/InspectPaperDollFrame.xml#L88)
+--- child of InspectPaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateCount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/TBC/InspectPaperDollFrame.xml#L97)
+--- child of InspectPaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateStock
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/TBC/InspectPaperDollFrame.xml#L108)
+--- child of InspectPaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/TBC/InspectPaperDollFrame.xml#L127)
+--- child of InspectPaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/TBC/InspectPaperDollFrame.xml#L135)
+--- child of InspectPaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/TBC/InspectPaperDollFrame.xml#L3)
 --- Template
 --- @class InspectPaperDollItemSlotButtonTemplate : Button, ItemButtonTemplate

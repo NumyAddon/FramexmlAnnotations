@@ -24,4 +24,5 @@ GlueParentScreenFrame = {}
 --- @field ScreenFrame GlueParent_GlueParentScreenFrame
 --- @field BlockingFrame GlueParent_BlockingFrame
 GlueParent = {}
+GlueParent["ScreenFrame"] = GlueParentScreenFrame
 

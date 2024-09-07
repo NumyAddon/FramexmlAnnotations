@@ -10,13 +10,25 @@
 --- @field RoleIcon Texture
 --- @field Count QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L8)
+--- child of  (created in template QueueStatusRoleCountTemplate)
+--- @type QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L83)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_HealersFound : Frame, QueueStatusRoleCountTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L8)
+--- child of  (created in template QueueStatusRoleCountTemplate)
+--- @type QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L88)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_TanksFound : Frame, QueueStatusRoleCountTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L8)
+--- child of  (created in template QueueStatusRoleCountTemplate)
+--- @type QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L93)
 --- child of QueueStatusEntryTemplate
@@ -73,4 +85,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L124)
 --- @class QueueStatusFrame : Frame, TooltipBackdropTemplate, QueueStatusFrameMixin
 QueueStatusFrame = {}
+QueueStatusFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 

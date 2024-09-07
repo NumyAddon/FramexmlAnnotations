@@ -34,6 +34,17 @@ BNToastFrameBottomLine = {}
 --- @class BNToastFrame_BNToastFrameDoubleLine : FontString, FriendsFont_Normal
 BNToastFrameDoubleLine = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BNet/BNet.xml#L17)
+--- child of BNToastFrameGlowFrame (created in template SocialToastGlowTemplate)
+--- @type SocialToastGlowTemplate_SocialToastGlowTemplateAnimIn
+BNToastFrameGlowFrameAnimIn = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BNet/BNet.xml#L55)
+--- child of BNToastFrame (created in template SocialToastTemplate)
+--- @type SocialToastTemplate_SocialToastTemplateGlowFrame
+BNToastFrameGlowFrame = {}
+BNToastFrameGlowFrame["animIn"] = BNToastFrameGlowFrameAnimIn -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BNet/BNet.xml#L3)
 --- @class BNToastFrame : ContainedAlertFrame, SocialToastTemplate, BNToastMixin
 --- @field TooltipFrame BNToastFrame_TooltipFrame
@@ -43,14 +54,33 @@ BNToastFrameDoubleLine = {}
 --- @field BottomLine BNToastFrame_BNToastFrameBottomLine
 --- @field DoubleLine BNToastFrame_BNToastFrameDoubleLine
 BNToastFrame = {}
+BNToastFrame["IconTexture"] = BNToastFrameIconTexture
+BNToastFrame["TopLine"] = BNToastFrameTopLine
+BNToastFrame["MiddleLine"] = BNToastFrameMiddleLine
+BNToastFrame["BottomLine"] = BNToastFrameBottomLine
+BNToastFrame["DoubleLine"] = BNToastFrameDoubleLine
+BNToastFrame["backdropInfo"] = BACKDROP_TOAST_12_12 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BNet/BNet.xml#L87)
 --- child of TimeAlertFrame
 --- @class TimeAlertFrame_TimeAlertFrameText : FontString, FriendsFont_Normal
 TimeAlertFrameText = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BNet/BNet.xml#L17)
+--- child of TimeAlertFrameGlowFrame (created in template SocialToastGlowTemplate)
+--- @type SocialToastGlowTemplate_SocialToastGlowTemplateAnimIn
+TimeAlertFrameGlowFrameAnimIn = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BNet/BNet.xml#L55)
+--- child of TimeAlertFrame (created in template SocialToastTemplate)
+--- @type SocialToastTemplate_SocialToastTemplateGlowFrame
+TimeAlertFrameGlowFrame = {}
+TimeAlertFrameGlowFrame["animIn"] = TimeAlertFrameGlowFrameAnimIn -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BNet/BNet.xml#L83)
 --- @class TimeAlertFrame : ContainedAlertFrame, SocialToastTemplate, BNetTimeAlertMixin
 --- @field Text TimeAlertFrame_TimeAlertFrameText
 TimeAlertFrame = {}
+TimeAlertFrame["Text"] = TimeAlertFrameText
+TimeAlertFrame["backdropInfo"] = BACKDROP_TOAST_12_12 -- inherited
 

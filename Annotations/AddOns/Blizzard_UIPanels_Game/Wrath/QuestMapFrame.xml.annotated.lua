@@ -13,6 +13,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L52)
 --- Template
 --- @class QuestLogHeaderTemplate : Button, QuestLogHeaderCodeTemplate
+--- @field leftPadding number # 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L71)
 --- child of QuestLogTitleTemplate
@@ -44,26 +45,92 @@
 --- Template
 --- @class QuestDetailsButtonTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L284)
+--- child of QuestMapQuestOptionsDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+QuestMapQuestOptionsDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L226)
+--- child of QuestMapQuestOptionsDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+QuestMapQuestOptionsDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L239)
+--- child of QuestMapQuestOptionsDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+QuestMapQuestOptionsDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L248)
+--- child of QuestMapQuestOptionsDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+QuestMapQuestOptionsDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L257)
+--- child of QuestMapQuestOptionsDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+QuestMapQuestOptionsDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L271)
+--- child of QuestMapQuestOptionsDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+QuestMapQuestOptionsDropDownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L160)
 --- child of QuestMapFrame
 --- @class QuestMapFrame_QuestMapQuestOptionsDropDown : Frame, UIDropDownMenuTemplate
 QuestMapQuestOptionsDropDown = {}
+QuestMapQuestOptionsDropDown["Button"] = QuestMapQuestOptionsDropDownButton -- inherited
+QuestMapQuestOptionsDropDown["Left"] = QuestMapQuestOptionsDropDownLeft -- inherited
+QuestMapQuestOptionsDropDown["Middle"] = QuestMapQuestOptionsDropDownMiddle -- inherited
+QuestMapQuestOptionsDropDown["Right"] = QuestMapQuestOptionsDropDownRight -- inherited
+QuestMapQuestOptionsDropDown["Text"] = QuestMapQuestOptionsDropDownText -- inherited
+QuestMapQuestOptionsDropDown["Icon"] = QuestMapQuestOptionsDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L161)
 --- child of QuestMapFrame
 --- @class QuestMapFrame_QuestScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarX number # 0
 --- @field DetailFrame Frame
 QuestScrollFrame = {}
+QuestScrollFrame["scrollBarX"] = 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L218)
 --- child of QuestMapDetailsScrollFrame
 --- @class QuestMapFrame_DetailsFrame_QuestMapDetailsScrollFrame_QuestMapDetailsScrollFrameTrack : Texture
 QuestMapDetailsScrollFrameTrack = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L10)
+--- child of QuestMapDetailsScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+QuestMapDetailsScrollFrameScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L18)
+--- child of QuestMapDetailsScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+QuestMapDetailsScrollFrameScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L30)
+--- child of QuestMapDetailsScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+QuestMapDetailsScrollFrameScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L46)
+--- child of QuestMapDetailsScrollFrame (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+QuestMapDetailsScrollFrameScrollBar = {}
+QuestMapDetailsScrollFrameScrollBar["ScrollUpButton"] = QuestMapDetailsScrollFrameScrollBarScrollUpButton -- inherited
+QuestMapDetailsScrollFrameScrollBar["ScrollDownButton"] = QuestMapDetailsScrollFrameScrollBarScrollDownButton -- inherited
+QuestMapDetailsScrollFrameScrollBar["ThumbTexture"] = QuestMapDetailsScrollFrameScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L204)
 --- child of 
 --- @class QuestMapFrame_DetailsFrame_QuestMapDetailsScrollFrame : EventScrollFrame, UIPanelScrollFrameTemplate
+--- @field scrollBarHideIfUnscrollable boolean # true
 QuestMapDetailsScrollFrame = {}
+QuestMapDetailsScrollFrame["scrollBarHideIfUnscrollable"] = true
+QuestMapDetailsScrollFrame["ScrollBar"] = QuestMapDetailsScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L192)
 --- child of QuestMapFrame
@@ -76,4 +143,5 @@ QuestMapDetailsScrollFrame = {}
 --- @field QuestsFrame QuestMapFrame_QuestScrollFrame
 --- @field DetailsFrame QuestMapFrame_DetailsFrame
 QuestMapFrame = {}
+QuestMapFrame["QuestsFrame"] = QuestScrollFrame
 

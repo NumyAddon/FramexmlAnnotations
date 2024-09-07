@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L4)
 --- Template
 --- @class PlayerFrameBarSegmentTemplate : Frame
+--- @field fillTexture string # "Interface\\TargetingFrame\\UI-StatusBar"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L51)
 --- child of 
@@ -118,6 +119,11 @@ PlayerAttackIcon = {}
 --- child of 
 --- @class  : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L7)
+--- child of PlayerFrameReadyCheck (created in template ReadyCheckStatusTemplate)
+--- @type Texture
+PlayerFrameReadyCheckTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L185)
 --- child of 
 --- @class PlayerFrameReadyCheck : Frame, ReadyCheckStatusTemplate
@@ -184,10 +190,48 @@ PlayerFrameHealthBar = {}
 --- @class PlayerFrame_PlayerFrameManaBar : StatusBar, TextStatusBar
 PlayerFrameManaBar = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L284)
+--- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+PlayerFrameDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L226)
+--- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+PlayerFrameDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L239)
+--- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+PlayerFrameDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L248)
+--- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+PlayerFrameDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L257)
+--- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+PlayerFrameDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L271)
+--- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+PlayerFrameDropDownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L332)
 --- child of PlayerFrame
 --- @class PlayerFrame_PlayerFrameDropDown : Frame, UIDropDownMenuTemplate
 PlayerFrameDropDown = {}
+PlayerFrameDropDown["Button"] = PlayerFrameDropDownButton -- inherited
+PlayerFrameDropDown["Left"] = PlayerFrameDropDownLeft -- inherited
+PlayerFrameDropDown["Middle"] = PlayerFrameDropDownMiddle -- inherited
+PlayerFrameDropDown["Right"] = PlayerFrameDropDownRight -- inherited
+PlayerFrameDropDown["Text"] = PlayerFrameDropDownText -- inherited
+PlayerFrameDropDown["Icon"] = PlayerFrameDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L348)
 --- child of PlayerFrameGroupIndicator
@@ -234,4 +278,6 @@ PlayerPortrait = {}
 --- @field HealthBar PlayerFrame_PlayerFrameHealthBar
 --- @field ManaBar PlayerFrame_PlayerFrameManaBar
 PlayerFrame = {}
+PlayerFrame["HealthBar"] = PlayerFrameHealthBar
+PlayerFrame["ManaBar"] = PlayerFrameManaBar
 

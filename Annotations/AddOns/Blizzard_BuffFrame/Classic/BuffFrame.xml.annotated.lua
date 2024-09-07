@@ -14,6 +14,18 @@
 --- @field count AuraButtonTemplate_AuraButtonTemplateCount
 --- @field duration AuraButtonTemplate_AuraButtonTemplateDuration
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L7)
+--- child of BuffButtonTemplate (created in template AuraButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L8)
+--- child of BuffButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateCount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L17)
+--- child of BuffButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateDuration
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L35)
 --- Template
 --- @class BuffButtonTemplate : Button, AuraButtonTemplate
@@ -22,10 +34,34 @@
 --- child of DebuffButtonTemplate
 --- @class DebuffButtonTemplate_symbol : FontString, TextStatusBarText
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L7)
+--- child of DebuffButtonTemplate (created in template AuraButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L8)
+--- child of DebuffButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateCount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L17)
+--- child of DebuffButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateDuration
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L45)
 --- Template
 --- @class DebuffButtonTemplate : Button, AuraButtonTemplate
 --- @field symbol DebuffButtonTemplate_symbol
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L7)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L8)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateCount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L17)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateDuration
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L72)
 --- Template
@@ -35,9 +71,26 @@
 --- @class BuffFrame : Frame
 BuffFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L7)
+--- child of ConsolidatedBuffs (created in template AuraButtonTemplate)
+--- @type Texture
+ConsolidatedBuffsIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L8)
+--- child of ConsolidatedBuffs (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateCount
+ConsolidatedBuffsCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L17)
+--- child of ConsolidatedBuffs (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateDuration
+ConsolidatedBuffsDuration = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L116)
 --- @class ConsolidatedBuffs : Button, AuraButtonTemplate
 ConsolidatedBuffs = {}
+ConsolidatedBuffs["count"] = ConsolidatedBuffsCount -- inherited
+ConsolidatedBuffs["duration"] = ConsolidatedBuffsDuration -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L141)
 --- child of ConsolidatedBuffsTooltip
@@ -47,16 +100,32 @@ ConsolidatedBuffsContainer = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L135)
 --- @class ConsolidatedBuffsTooltip : Frame, TooltipBackdropTemplate
 ConsolidatedBuffsTooltip = {}
+ConsolidatedBuffsTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L75)
+--- child of TempEnchant1 (created in template TempEnchantButtonTemplate)
+--- @type Texture
+TempEnchant1Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L175)
 --- child of TemporaryEnchantFrame
 --- @class TemporaryEnchantFrame_TempEnchant1 : Button, TempEnchantButtonTemplate
 TempEnchant1 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L75)
+--- child of TempEnchant2 (created in template TempEnchantButtonTemplate)
+--- @type Texture
+TempEnchant2Border = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L184)
 --- child of TemporaryEnchantFrame
 --- @class TemporaryEnchantFrame_TempEnchant2 : Button, TempEnchantButtonTemplate
 TempEnchant2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L75)
+--- child of TempEnchant3 (created in template TempEnchantButtonTemplate)
+--- @type Texture
+TempEnchant3Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L193)
 --- child of TemporaryEnchantFrame

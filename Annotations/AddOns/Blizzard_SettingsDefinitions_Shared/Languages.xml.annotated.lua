@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L5)
 --- Template
 --- @class SettingsLanguageDropDownTemplate : Frame, SettingsDropDownControlTemplate
+--- @field dropDownType string # "Frame"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L12)
 --- Template
@@ -20,6 +21,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L26)
 --- Template
 --- @class SettingsLanguagePopoutEntryTemplate : Button, SelectionPopoutEntryTemplate, SettingsLanguagePopoutEntryMixin
+--- @field defaultWidth number # 225
 --- @field SelectionDetails SettingsLanguagePopoutEntryTemplate_SelectionDetails
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L60)
@@ -29,11 +31,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L51)
 --- child of SettingsLanguagePopoutWithButtonsTemplate
 --- @class SettingsLanguagePopoutWithButtonsTemplate_Button : EventButton, SelectionPopoutButtonTemplate, SettingsLanguagePopoutButtonMixin
+--- @field selectionEntryTemplates string # "SettingsLanguagePopoutEntryTemplate"
 --- @field SelectionDetails SettingsLanguagePopoutWithButtonsTemplate_Button_SelectionDetails
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L45)
 --- Template
 --- @class SettingsLanguagePopoutWithButtonsTemplate : Frame, SelectionPopoutWithButtonsTemplate
+--- @field decrementOffsetX number # 4
 --- @field Button SettingsLanguagePopoutWithButtonsTemplate_Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L71)

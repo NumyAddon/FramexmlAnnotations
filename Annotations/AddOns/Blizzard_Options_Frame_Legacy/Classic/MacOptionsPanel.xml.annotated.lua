@@ -1,9 +1,19 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/MacOptionsPanel.xml#L50)
+--- child of MacKeyboardOptionsFrameCheckButton9 (created in template OptionsCheckButtonTemplate)
+--- @type OptionsCheckButtonTemplate_OptionsCheckButtonTemplateText
+MacKeyboardOptionsFrameCheckButton9Text = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/MacOptionsPanel.xml#L27)
 --- child of MacKeyboardOptionsPanel
 --- @class MacKeyboardOptionsPanel_MacKeyboardOptionsFrameCheckButton9 : CheckButton, OptionsCheckButtonTemplate
 MacKeyboardOptionsFrameCheckButton9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/MacOptionsPanel.xml#L50)
+--- child of MacKeyboardOptionsFrameCheckButton10 (created in template OptionsCheckButtonTemplate)
+--- @type OptionsCheckButtonTemplate_OptionsCheckButtonTemplateText
+MacKeyboardOptionsFrameCheckButton10Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/MacOptionsPanel.xml#L36)
 --- child of MacKeyboardOptionsPanel
@@ -49,5 +59,7 @@ FolderPickerHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/MacOptionsPanel.xml#L53)
 --- @class FolderPicker : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 FolderPicker = {}
+FolderPicker["backdropInfo"] = BACKDROP_DIALOG_32_32
 

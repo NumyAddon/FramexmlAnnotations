@@ -20,155 +20,443 @@
 --- Template
 --- @class AudioOptionsSmallCheckButtonTemplate : CheckButton, AudioOptionsBaseCheckButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L17)
+--- child of AudioOptionsSoundPanelEnableSound (created in template AudioOptionsCheckButtonTemplate)
+--- @type AudioOptionsCheckButtonTemplate_AudioOptionsCheckButtonTemplateText
+AudioOptionsSoundPanelEnableSoundText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L71)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelEnableSound : CheckButton, AudioOptionsCheckButtonTemplate
 AudioOptionsSoundPanelEnableSound = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L139)
+--- child of AudioOptionsSoundPanelPlayback (created in template OptionsBoxTemplate)
+--- @type OptionsBoxTemplate_OptionsBoxTemplateTitle
+AudioOptionsSoundPanelPlaybackTitle = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L85)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelPlayback : Frame, OptionsBoxTemplate
+--- @field backdropColor any # VERY_DARK_GRAY_COLOR
 AudioOptionsSoundPanelPlayback = {}
+AudioOptionsSoundPanelPlayback["backdropColor"] = VERY_DARK_GRAY_COLOR
+AudioOptionsSoundPanelPlayback["backdropColor"] = GRAY_FONT_COLOR -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- child of AudioOptionsSoundPanelSoundEffects (created in template AudioOptionsSmallCheckButtonTemplate)
+--- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
+AudioOptionsSoundPanelSoundEffectsText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L103)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundEffects : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelSoundEffects = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- child of AudioOptionsSoundPanelPetSounds (created in template AudioOptionsSmallCheckButtonTemplate)
+--- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
+AudioOptionsSoundPanelPetSoundsText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L117)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelPetSounds : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelPetSounds = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- child of AudioOptionsSoundPanelEmoteSounds (created in template AudioOptionsSmallCheckButtonTemplate)
+--- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
+AudioOptionsSoundPanelEmoteSoundsText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L132)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelEmoteSounds : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelEmoteSounds = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- child of AudioOptionsSoundPanelMusic (created in template AudioOptionsSmallCheckButtonTemplate)
+--- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
+AudioOptionsSoundPanelMusicText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L147)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelMusic : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelMusic = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- child of AudioOptionsSoundPanelLoopMusic (created in template AudioOptionsSmallCheckButtonTemplate)
+--- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
+AudioOptionsSoundPanelLoopMusicText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L161)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelLoopMusic : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelLoopMusic = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- child of AudioOptionsSoundPanelAmbientSounds (created in template AudioOptionsSmallCheckButtonTemplate)
+--- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
+AudioOptionsSoundPanelAmbientSoundsText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L176)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelAmbientSounds : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelAmbientSounds = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- child of AudioOptionsSoundPanelDialogSounds (created in template AudioOptionsSmallCheckButtonTemplate)
+--- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
+AudioOptionsSoundPanelDialogSoundsText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L190)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelDialogSounds : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelDialogSounds = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- child of AudioOptionsSoundPanelErrorSpeech (created in template AudioOptionsSmallCheckButtonTemplate)
+--- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
+AudioOptionsSoundPanelErrorSpeechText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L204)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelErrorSpeech : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelErrorSpeech = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- child of AudioOptionsSoundPanelSoundInBG (created in template AudioOptionsSmallCheckButtonTemplate)
+--- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
+AudioOptionsSoundPanelSoundInBGText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L219)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundInBG : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelSoundInBG = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- child of AudioOptionsSoundPanelEnableDSPs (created in template AudioOptionsSmallCheckButtonTemplate)
+--- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
+AudioOptionsSoundPanelEnableDSPsText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L233)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelEnableDSPs : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelEnableDSPs = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L139)
+--- child of AudioOptionsSoundPanelHardware (created in template OptionsBoxTemplate)
+--- @type OptionsBoxTemplate_OptionsBoxTemplateTitle
+AudioOptionsSoundPanelHardwareTitle = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L278)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelHardware : Frame, OptionsBoxTemplate
+--- @field backdropColor any # VERY_DARK_GRAY_COLOR
 AudioOptionsSoundPanelHardware = {}
+AudioOptionsSoundPanelHardware["backdropColor"] = VERY_DARK_GRAY_COLOR
+AudioOptionsSoundPanelHardware["backdropColor"] = GRAY_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L304)
 --- child of AudioOptionsSoundPanelHardwareDropDown
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelHardwareDropDown_AudioOptionsSoundPanelHardwareDropDownLabel : FontString, GameFontNormalSmall
 AudioOptionsSoundPanelHardwareDropDownLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L284)
+--- child of AudioOptionsSoundPanelHardwareDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+AudioOptionsSoundPanelHardwareDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L226)
+--- child of AudioOptionsSoundPanelHardwareDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelHardwareDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L239)
+--- child of AudioOptionsSoundPanelHardwareDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelHardwareDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L248)
+--- child of AudioOptionsSoundPanelHardwareDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelHardwareDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L257)
+--- child of AudioOptionsSoundPanelHardwareDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+AudioOptionsSoundPanelHardwareDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L271)
+--- child of AudioOptionsSoundPanelHardwareDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelHardwareDropDownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L296)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelHardwareDropDown : Frame, UIDropDownMenuTemplate
 AudioOptionsSoundPanelHardwareDropDown = {}
+AudioOptionsSoundPanelHardwareDropDown["Button"] = AudioOptionsSoundPanelHardwareDropDownButton -- inherited
+AudioOptionsSoundPanelHardwareDropDown["Left"] = AudioOptionsSoundPanelHardwareDropDownLeft -- inherited
+AudioOptionsSoundPanelHardwareDropDown["Middle"] = AudioOptionsSoundPanelHardwareDropDownMiddle -- inherited
+AudioOptionsSoundPanelHardwareDropDown["Right"] = AudioOptionsSoundPanelHardwareDropDownRight -- inherited
+AudioOptionsSoundPanelHardwareDropDown["Text"] = AudioOptionsSoundPanelHardwareDropDownText -- inherited
+AudioOptionsSoundPanelHardwareDropDown["Icon"] = AudioOptionsSoundPanelHardwareDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L337)
 --- child of AudioOptionsSoundPanelSoundChannelsDropDown
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundChannelsDropDown_AudioOptionsSoundPanelSoundChannelsDropDownLabel : FontString, GameFontNormalSmall
 AudioOptionsSoundPanelSoundChannelsDropDownLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L284)
+--- child of AudioOptionsSoundPanelSoundChannelsDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+AudioOptionsSoundPanelSoundChannelsDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L226)
+--- child of AudioOptionsSoundPanelSoundChannelsDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelSoundChannelsDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L239)
+--- child of AudioOptionsSoundPanelSoundChannelsDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelSoundChannelsDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L248)
+--- child of AudioOptionsSoundPanelSoundChannelsDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelSoundChannelsDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L257)
+--- child of AudioOptionsSoundPanelSoundChannelsDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+AudioOptionsSoundPanelSoundChannelsDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L271)
+--- child of AudioOptionsSoundPanelSoundChannelsDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelSoundChannelsDropDownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L329)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundChannelsDropDown : Frame, UIDropDownMenuTemplate
 AudioOptionsSoundPanelSoundChannelsDropDown = {}
+AudioOptionsSoundPanelSoundChannelsDropDown["Button"] = AudioOptionsSoundPanelSoundChannelsDropDownButton -- inherited
+AudioOptionsSoundPanelSoundChannelsDropDown["Left"] = AudioOptionsSoundPanelSoundChannelsDropDownLeft -- inherited
+AudioOptionsSoundPanelSoundChannelsDropDown["Middle"] = AudioOptionsSoundPanelSoundChannelsDropDownMiddle -- inherited
+AudioOptionsSoundPanelSoundChannelsDropDown["Right"] = AudioOptionsSoundPanelSoundChannelsDropDownRight -- inherited
+AudioOptionsSoundPanelSoundChannelsDropDown["Text"] = AudioOptionsSoundPanelSoundChannelsDropDownText -- inherited
+AudioOptionsSoundPanelSoundChannelsDropDown["Icon"] = AudioOptionsSoundPanelSoundChannelsDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L370)
 --- child of AudioOptionsSoundPanelSoundCacheSizeDropDown
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundCacheSizeDropDown_AudioOptionsSoundPanelSoundCacheSizeDropDownLabel : FontString, OptionsFontSmall
 AudioOptionsSoundPanelSoundCacheSizeDropDownLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L284)
+--- child of AudioOptionsSoundPanelSoundCacheSizeDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+AudioOptionsSoundPanelSoundCacheSizeDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L226)
+--- child of AudioOptionsSoundPanelSoundCacheSizeDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelSoundCacheSizeDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L239)
+--- child of AudioOptionsSoundPanelSoundCacheSizeDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelSoundCacheSizeDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L248)
+--- child of AudioOptionsSoundPanelSoundCacheSizeDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelSoundCacheSizeDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L257)
+--- child of AudioOptionsSoundPanelSoundCacheSizeDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+AudioOptionsSoundPanelSoundCacheSizeDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L271)
+--- child of AudioOptionsSoundPanelSoundCacheSizeDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+AudioOptionsSoundPanelSoundCacheSizeDropDownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L362)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundCacheSizeDropDown : Frame, UIDropDownMenuTemplate
 AudioOptionsSoundPanelSoundCacheSizeDropDown = {}
+AudioOptionsSoundPanelSoundCacheSizeDropDown["Button"] = AudioOptionsSoundPanelSoundCacheSizeDropDownButton -- inherited
+AudioOptionsSoundPanelSoundCacheSizeDropDown["Left"] = AudioOptionsSoundPanelSoundCacheSizeDropDownLeft -- inherited
+AudioOptionsSoundPanelSoundCacheSizeDropDown["Middle"] = AudioOptionsSoundPanelSoundCacheSizeDropDownMiddle -- inherited
+AudioOptionsSoundPanelSoundCacheSizeDropDown["Right"] = AudioOptionsSoundPanelSoundCacheSizeDropDownRight -- inherited
+AudioOptionsSoundPanelSoundCacheSizeDropDown["Text"] = AudioOptionsSoundPanelSoundCacheSizeDropDownText -- inherited
+AudioOptionsSoundPanelSoundCacheSizeDropDown["Icon"] = AudioOptionsSoundPanelSoundCacheSizeDropDownIcon -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L139)
+--- child of AudioOptionsSoundPanelVolume (created in template OptionsBoxTemplate)
+--- @type OptionsBoxTemplate_OptionsBoxTemplateTitle
+AudioOptionsSoundPanelVolumeTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L411)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelVolume : Frame, OptionsBoxTemplate
+--- @field backdropColor any # VERY_DARK_GRAY_COLOR
 AudioOptionsSoundPanelVolume = {}
+AudioOptionsSoundPanelVolume["backdropColor"] = VERY_DARK_GRAY_COLOR
+AudioOptionsSoundPanelVolume["backdropColor"] = GRAY_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L440)
 --- child of AudioOptionsSoundPanelMasterVolume
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelMasterVolume_AudioOptionsSoundPanelMasterVolumeLabel : FontString, GameFontNormalSmall
 AudioOptionsSoundPanelMasterVolumeLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L84)
+--- child of AudioOptionsSoundPanelMasterVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+AudioOptionsSoundPanelMasterVolumeText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L89)
+--- child of AudioOptionsSoundPanelMasterVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+AudioOptionsSoundPanelMasterVolumeLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L98)
+--- child of AudioOptionsSoundPanelMasterVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+AudioOptionsSoundPanelMasterVolumeHigh = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L429)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelMasterVolume : Slider, OptionsSliderTemplate
 AudioOptionsSoundPanelMasterVolume = {}
+AudioOptionsSoundPanelMasterVolume["type"] = CONTROLTYPE_SLIDER -- inherited
+AudioOptionsSoundPanelMasterVolume["Text"] = AudioOptionsSoundPanelMasterVolumeText -- inherited
+AudioOptionsSoundPanelMasterVolume["Low"] = AudioOptionsSoundPanelMasterVolumeLow -- inherited
+AudioOptionsSoundPanelMasterVolume["High"] = AudioOptionsSoundPanelMasterVolumeHigh -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L495)
 --- child of AudioOptionsSoundPanelSoundVolume
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundVolume_AudioOptionsSoundPanelSoundVolumeLabel : FontString, GameFontNormalSmallLeft
 AudioOptionsSoundPanelSoundVolumeLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L84)
+--- child of AudioOptionsSoundPanelSoundVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+AudioOptionsSoundPanelSoundVolumeText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L89)
+--- child of AudioOptionsSoundPanelSoundVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+AudioOptionsSoundPanelSoundVolumeLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L98)
+--- child of AudioOptionsSoundPanelSoundVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+AudioOptionsSoundPanelSoundVolumeHigh = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L484)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundVolume : Slider, OptionsSliderTemplate
 AudioOptionsSoundPanelSoundVolume = {}
+AudioOptionsSoundPanelSoundVolume["type"] = CONTROLTYPE_SLIDER -- inherited
+AudioOptionsSoundPanelSoundVolume["Text"] = AudioOptionsSoundPanelSoundVolumeText -- inherited
+AudioOptionsSoundPanelSoundVolume["Low"] = AudioOptionsSoundPanelSoundVolumeLow -- inherited
+AudioOptionsSoundPanelSoundVolume["High"] = AudioOptionsSoundPanelSoundVolumeHigh -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L553)
 --- child of AudioOptionsSoundPanelMusicVolume
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelMusicVolume_AudioOptionsSoundPanelMusicVolumeLabel : FontString, GameFontNormalSmallLeft
 AudioOptionsSoundPanelMusicVolumeLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L84)
+--- child of AudioOptionsSoundPanelMusicVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+AudioOptionsSoundPanelMusicVolumeText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L89)
+--- child of AudioOptionsSoundPanelMusicVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+AudioOptionsSoundPanelMusicVolumeLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L98)
+--- child of AudioOptionsSoundPanelMusicVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+AudioOptionsSoundPanelMusicVolumeHigh = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L542)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelMusicVolume : Slider, OptionsSliderTemplate
 AudioOptionsSoundPanelMusicVolume = {}
+AudioOptionsSoundPanelMusicVolume["type"] = CONTROLTYPE_SLIDER -- inherited
+AudioOptionsSoundPanelMusicVolume["Text"] = AudioOptionsSoundPanelMusicVolumeText -- inherited
+AudioOptionsSoundPanelMusicVolume["Low"] = AudioOptionsSoundPanelMusicVolumeLow -- inherited
+AudioOptionsSoundPanelMusicVolume["High"] = AudioOptionsSoundPanelMusicVolumeHigh -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L607)
 --- child of AudioOptionsSoundPanelAmbienceVolume
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelAmbienceVolume_AudioOptionsSoundPanelAmbienceVolumeLabel : FontString, GameFontNormalSmallLeft
 AudioOptionsSoundPanelAmbienceVolumeLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L84)
+--- child of AudioOptionsSoundPanelAmbienceVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+AudioOptionsSoundPanelAmbienceVolumeText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L89)
+--- child of AudioOptionsSoundPanelAmbienceVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+AudioOptionsSoundPanelAmbienceVolumeLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L98)
+--- child of AudioOptionsSoundPanelAmbienceVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+AudioOptionsSoundPanelAmbienceVolumeHigh = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L596)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelAmbienceVolume : Slider, OptionsSliderTemplate
 AudioOptionsSoundPanelAmbienceVolume = {}
+AudioOptionsSoundPanelAmbienceVolume["type"] = CONTROLTYPE_SLIDER -- inherited
+AudioOptionsSoundPanelAmbienceVolume["Text"] = AudioOptionsSoundPanelAmbienceVolumeText -- inherited
+AudioOptionsSoundPanelAmbienceVolume["Low"] = AudioOptionsSoundPanelAmbienceVolumeLow -- inherited
+AudioOptionsSoundPanelAmbienceVolume["High"] = AudioOptionsSoundPanelAmbienceVolumeHigh -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L661)
 --- child of AudioOptionsSoundPanelDialogVolume
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelDialogVolume_AudioOptionsSoundPanelDialogVolumeLabel : FontString, GameFontNormalSmallLeft
 AudioOptionsSoundPanelDialogVolumeLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L84)
+--- child of AudioOptionsSoundPanelDialogVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+AudioOptionsSoundPanelDialogVolumeText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L89)
+--- child of AudioOptionsSoundPanelDialogVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+AudioOptionsSoundPanelDialogVolumeLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L98)
+--- child of AudioOptionsSoundPanelDialogVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+AudioOptionsSoundPanelDialogVolumeHigh = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L650)
 --- child of AudioOptionsSoundPanel
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelDialogVolume : Slider, OptionsSliderTemplate
 AudioOptionsSoundPanelDialogVolume = {}
+AudioOptionsSoundPanelDialogVolume["type"] = CONTROLTYPE_SLIDER -- inherited
+AudioOptionsSoundPanelDialogVolume["Text"] = AudioOptionsSoundPanelDialogVolumeText -- inherited
+AudioOptionsSoundPanelDialogVolume["Low"] = AudioOptionsSoundPanelDialogVolumeLow -- inherited
+AudioOptionsSoundPanelDialogVolume["High"] = AudioOptionsSoundPanelDialogVolumeHigh -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L50)
 --- child of AudioOptionsSoundPanel
@@ -193,28 +481,71 @@ AudioOptionsVoicePanelOutputDeviceDropdownLabel = {}
 --- child of AudioOptionsVoicePanel
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelOutputDeviceDropdown : Frame, OptionsDropdownTemplate
 AudioOptionsVoicePanelOutputDeviceDropdown = {}
+AudioOptionsVoicePanelOutputDeviceDropdown["type"] = CONTROLTYPE_DROPDOWN -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L769)
 --- child of AudioOptionsVoicePanelVoiceChatVolume
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatVolume_AudioOptionsVoicePanelVoiceChatVolumeLabel : FontString, GameFontNormalSmall
 AudioOptionsVoicePanelVoiceChatVolumeLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L84)
+--- child of AudioOptionsVoicePanelVoiceChatVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+AudioOptionsVoicePanelVoiceChatVolumeText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L89)
+--- child of AudioOptionsVoicePanelVoiceChatVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+AudioOptionsVoicePanelVoiceChatVolumeLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L98)
+--- child of AudioOptionsVoicePanelVoiceChatVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+AudioOptionsVoicePanelVoiceChatVolumeHigh = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L762)
 --- child of AudioOptionsVoicePanel
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatVolume : Slider, OptionsSliderTemplate
 --- @field Label AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatVolume_AudioOptionsVoicePanelVoiceChatVolumeLabel
 AudioOptionsVoicePanelVoiceChatVolume = {}
+AudioOptionsVoicePanelVoiceChatVolume["Label"] = AudioOptionsVoicePanelVoiceChatVolumeLabel
+AudioOptionsVoicePanelVoiceChatVolume["type"] = CONTROLTYPE_SLIDER -- inherited
+AudioOptionsVoicePanelVoiceChatVolume["Text"] = AudioOptionsVoicePanelVoiceChatVolumeText -- inherited
+AudioOptionsVoicePanelVoiceChatVolume["Low"] = AudioOptionsVoicePanelVoiceChatVolumeLow -- inherited
+AudioOptionsVoicePanelVoiceChatVolume["High"] = AudioOptionsVoicePanelVoiceChatVolumeHigh -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L793)
 --- child of AudioOptionsVoicePanelVoiceChatDucking
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatDucking_AudioOptionsVoicePanelVoiceChatDuckingLabel : FontString, GameFontNormalSmall
 AudioOptionsVoicePanelVoiceChatDuckingLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L84)
+--- child of AudioOptionsVoicePanelVoiceChatDucking (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+AudioOptionsVoicePanelVoiceChatDuckingText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L89)
+--- child of AudioOptionsVoicePanelVoiceChatDucking (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+AudioOptionsVoicePanelVoiceChatDuckingLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L98)
+--- child of AudioOptionsVoicePanelVoiceChatDucking (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+AudioOptionsVoicePanelVoiceChatDuckingHigh = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L782)
 --- child of AudioOptionsVoicePanel
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatDucking : Slider, OptionsSliderTemplate
+--- @field isValueNormalized boolean # true
 --- @field Label AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatDucking_AudioOptionsVoicePanelVoiceChatDuckingLabel
 AudioOptionsVoicePanelVoiceChatDucking = {}
+AudioOptionsVoicePanelVoiceChatDucking["Label"] = AudioOptionsVoicePanelVoiceChatDuckingLabel
+AudioOptionsVoicePanelVoiceChatDucking["isValueNormalized"] = true
+AudioOptionsVoicePanelVoiceChatDucking["type"] = CONTROLTYPE_SLIDER -- inherited
+AudioOptionsVoicePanelVoiceChatDucking["Text"] = AudioOptionsVoicePanelVoiceChatDuckingText -- inherited
+AudioOptionsVoicePanelVoiceChatDucking["Low"] = AudioOptionsVoicePanelVoiceChatDuckingLow -- inherited
+AudioOptionsVoicePanelVoiceChatDucking["High"] = AudioOptionsVoicePanelVoiceChatDuckingHigh -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L813)
 --- child of AudioOptionsVoicePanelMicDeviceDropdown
@@ -225,28 +556,69 @@ AudioOptionsVoicePanelMicDeviceDropdownLabel = {}
 --- child of AudioOptionsVoicePanel
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelMicDeviceDropdown : Frame, OptionsDropdownTemplate
 AudioOptionsVoicePanelMicDeviceDropdown = {}
+AudioOptionsVoicePanelMicDeviceDropdown["type"] = CONTROLTYPE_DROPDOWN -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L832)
 --- child of AudioOptionsVoicePanelVoiceChatMicVolume
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatMicVolume_AudioOptionsVoicePanelVoiceChatMicVolumeLabel : FontString, GameFontNormalSmall
 AudioOptionsVoicePanelVoiceChatMicVolumeLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L84)
+--- child of AudioOptionsVoicePanelVoiceChatMicVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+AudioOptionsVoicePanelVoiceChatMicVolumeText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L89)
+--- child of AudioOptionsVoicePanelVoiceChatMicVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+AudioOptionsVoicePanelVoiceChatMicVolumeLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L98)
+--- child of AudioOptionsVoicePanelVoiceChatMicVolume (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+AudioOptionsVoicePanelVoiceChatMicVolumeHigh = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L825)
 --- child of AudioOptionsVoicePanel
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatMicVolume : Slider, OptionsSliderTemplate
 --- @field Label AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatMicVolume_AudioOptionsVoicePanelVoiceChatMicVolumeLabel
 AudioOptionsVoicePanelVoiceChatMicVolume = {}
+AudioOptionsVoicePanelVoiceChatMicVolume["Label"] = AudioOptionsVoicePanelVoiceChatMicVolumeLabel
+AudioOptionsVoicePanelVoiceChatMicVolume["type"] = CONTROLTYPE_SLIDER -- inherited
+AudioOptionsVoicePanelVoiceChatMicVolume["Text"] = AudioOptionsVoicePanelVoiceChatMicVolumeText -- inherited
+AudioOptionsVoicePanelVoiceChatMicVolume["Low"] = AudioOptionsVoicePanelVoiceChatMicVolumeLow -- inherited
+AudioOptionsVoicePanelVoiceChatMicVolume["High"] = AudioOptionsVoicePanelVoiceChatMicVolumeHigh -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L852)
 --- child of AudioOptionsVoicePanelVoiceChatMicSensitivity
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatMicSensitivity_AudioOptionsVoicePanelVoiceChatMicSensitivityLabel : FontString, GameFontNormalSmall
 AudioOptionsVoicePanelVoiceChatMicSensitivityLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L84)
+--- child of AudioOptionsVoicePanelVoiceChatMicSensitivity (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateText
+AudioOptionsVoicePanelVoiceChatMicSensitivityText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L89)
+--- child of AudioOptionsVoicePanelVoiceChatMicSensitivity (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateLow
+AudioOptionsVoicePanelVoiceChatMicSensitivityLow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L98)
+--- child of AudioOptionsVoicePanelVoiceChatMicSensitivity (created in template OptionsSliderTemplate)
+--- @type OptionsSliderTemplate_OptionsSliderTemplateHigh
+AudioOptionsVoicePanelVoiceChatMicSensitivityHigh = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L845)
 --- child of AudioOptionsVoicePanel
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatMicSensitivity : Slider, OptionsSliderTemplate
 --- @field Label AudioOptionsVoicePanel_AudioOptionsVoicePanelVoiceChatMicSensitivity_AudioOptionsVoicePanelVoiceChatMicSensitivityLabel
 AudioOptionsVoicePanelVoiceChatMicSensitivity = {}
+AudioOptionsVoicePanelVoiceChatMicSensitivity["Label"] = AudioOptionsVoicePanelVoiceChatMicSensitivityLabel
+AudioOptionsVoicePanelVoiceChatMicSensitivity["type"] = CONTROLTYPE_SLIDER -- inherited
+AudioOptionsVoicePanelVoiceChatMicSensitivity["Text"] = AudioOptionsVoicePanelVoiceChatMicSensitivityText -- inherited
+AudioOptionsVoicePanelVoiceChatMicSensitivity["Low"] = AudioOptionsVoicePanelVoiceChatMicSensitivityLow -- inherited
+AudioOptionsVoicePanelVoiceChatMicSensitivity["High"] = AudioOptionsVoicePanelVoiceChatMicSensitivityHigh -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L880)
 --- child of AudioOptionsVoicePanelTestInputDevice
@@ -257,9 +629,15 @@ AudioOptionsVoicePanelVoiceChatMicSensitivity = {}
 --- child of 
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice_VUMeter_Status : StatusBar, TextStatusBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L139)
+--- child of  (created in template OptionsBoxTemplate)
+--- @type OptionsBoxTemplate_OptionsBoxTemplateTitle
+Title = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L899)
 --- child of AudioOptionsVoicePanelTestInputDevice
 --- @class AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice_VUMeter : Frame, OptionsBoxTemplate
+--- @field backdropColor any # VERY_DARK_GRAY_COLOR
 --- @field Status AudioOptionsVoicePanel_AudioOptionsVoicePanelTestInputDevice_VUMeter_Status
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L872)
@@ -290,6 +668,9 @@ AudioOptionsVoicePanelChatModeDropdownPushToTalkNotification = {}
 --- @field Label AudioOptionsVoicePanel_AudioOptionsVoicePanelChatModeDropdown_AudioOptionsVoicePanelChatModeDropdownLabel
 --- @field PushToTalkNotification AudioOptionsVoicePanel_AudioOptionsVoicePanelChatModeDropdown_AudioOptionsVoicePanelChatModeDropdownPushToTalkNotification
 AudioOptionsVoicePanelChatModeDropdown = {}
+AudioOptionsVoicePanelChatModeDropdown["Label"] = AudioOptionsVoicePanelChatModeDropdownLabel
+AudioOptionsVoicePanelChatModeDropdown["PushToTalkNotification"] = AudioOptionsVoicePanelChatModeDropdownPushToTalkNotification
+AudioOptionsVoicePanelChatModeDropdown["type"] = CONTROLTYPE_DROPDOWN -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L716)
 --- child of AudioOptionsVoicePanel
@@ -318,4 +699,13 @@ AudioOptionsVoicePanelDisplayHeaderUnderline = {}
 --- @field DisplayHeaderUnderline AudioOptionsVoicePanel_AudioOptionsVoicePanelDisplayHeaderUnderline
 --- @field ErrorStateMessage AudioOptionsVoicePanel_ErrorStateMessage
 AudioOptionsVoicePanel = {}
+AudioOptionsVoicePanel["OutputDeviceDropdown"] = AudioOptionsVoicePanelOutputDeviceDropdown
+AudioOptionsVoicePanel["VoiceChatVolume"] = AudioOptionsVoicePanelVoiceChatVolume
+AudioOptionsVoicePanel["VoiceChatDucking"] = AudioOptionsVoicePanelVoiceChatDucking
+AudioOptionsVoicePanel["MicDeviceDropdown"] = AudioOptionsVoicePanelMicDeviceDropdown
+AudioOptionsVoicePanel["VoiceChatMicVolume"] = AudioOptionsVoicePanelVoiceChatMicVolume
+AudioOptionsVoicePanel["VoiceChatMicSensitivity"] = AudioOptionsVoicePanelVoiceChatMicSensitivity
+AudioOptionsVoicePanel["TestInputDevice"] = AudioOptionsVoicePanelTestInputDevice
+AudioOptionsVoicePanel["ChatModeDropdown"] = AudioOptionsVoicePanelChatModeDropdown
+AudioOptionsVoicePanel["DisplayHeaderUnderline"] = AudioOptionsVoicePanelDisplayHeaderUnderline
 

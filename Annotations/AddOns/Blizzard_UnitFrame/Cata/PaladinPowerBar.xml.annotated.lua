@@ -35,6 +35,7 @@ PaladinPowerBarRune1Texture = {}
 --- @field activate PaladinPowerBar_PaladinPowerBarRune1_activate
 --- @field deactivate PaladinPowerBar_PaladinPowerBarRune1_deactivate
 PaladinPowerBarRune1 = {}
+PaladinPowerBarRune1["rune1"] = PaladinPowerBarRune1Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L139)
 --- child of PaladinPowerBarRune2
@@ -56,6 +57,7 @@ PaladinPowerBarRune2Texture = {}
 --- @field activate PaladinPowerBar_PaladinPowerBarRune2_activate
 --- @field deactivate PaladinPowerBar_PaladinPowerBarRune2_deactivate
 PaladinPowerBarRune2 = {}
+PaladinPowerBarRune2["rune2"] = PaladinPowerBarRune2Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L170)
 --- child of PaladinPowerBarRune3
@@ -94,4 +96,8 @@ PaladinPowerBarBG = {}
 --- @field rune3 PaladinPowerBar_PaladinPowerBarRune3
 --- @field showAnim PaladinPowerBar_showAnim
 PaladinPowerBar = {}
+PaladinPowerBar["glow"] = PaladinPowerBarGlowBG
+PaladinPowerBar["rune1"] = PaladinPowerBarRune1
+PaladinPowerBar["rune2"] = PaladinPowerBarRune2
+PaladinPowerBar["rune3"] = PaladinPowerBarRune3
 

@@ -20,10 +20,20 @@ GuildRegistrarFrameCloseButton = {}
 --- @class GuildRegistrarFrame_GuildRegistrarGreetingFrame_GuildRegistrarFrameGoodbyeButton : Button, UIPanelButtonTemplate
 GuildRegistrarFrameGoodbyeButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L173)
+--- child of GuildRegistrarButton1 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+GuildRegistrarButton1QuestIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L112)
 --- child of GuildRegistrarGreetingFrame
 --- @class GuildRegistrarFrame_GuildRegistrarGreetingFrame_GuildRegistrarButton1 : Button, QuestTitleButtonTemplate
 GuildRegistrarButton1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L173)
+--- child of GuildRegistrarButton2 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+GuildRegistrarButton2QuestIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L120)
 --- child of GuildRegistrarGreetingFrame
@@ -40,10 +50,28 @@ GuildAvailableServicesText = {}
 --- @class GuildRegistrarFrame_GuildRegistrarGreetingFrame : Frame
 GuildRegistrarGreetingFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L18)
+--- child of GuildRegistrarMoneyFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_MoneyFrameTemplateCopperButton
+GuildRegistrarMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L57)
+--- child of GuildRegistrarMoneyFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_MoneyFrameTemplateSilverButton
+GuildRegistrarMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L96)
+--- child of GuildRegistrarMoneyFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_MoneyFrameTemplateGoldButton
+GuildRegistrarMoneyFrameGoldButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L147)
 --- child of GuildRegistrarPurchaseFrame
 --- @class GuildRegistrarFrame_GuildRegistrarPurchaseFrame_GuildRegistrarMoneyFrame : Frame, MoneyFrameTemplate
 GuildRegistrarMoneyFrame = {}
+GuildRegistrarMoneyFrame["CopperButton"] = GuildRegistrarMoneyFrameCopperButton -- inherited
+GuildRegistrarMoneyFrame["SilverButton"] = GuildRegistrarMoneyFrameSilverButton -- inherited
+GuildRegistrarMoneyFrame["GoldButton"] = GuildRegistrarMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L158)
 --- child of GuildRegistrarPurchaseFrame

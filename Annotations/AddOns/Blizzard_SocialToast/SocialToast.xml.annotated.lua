@@ -26,6 +26,10 @@
 --- child of SocialToastTemplate
 --- @class  : Button, SocialToastCloseButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L17)
+--- child of SocialToastTemplateGlowFrame (created in template SocialToastGlowTemplate)
+--- @type SocialToastGlowTemplate_SocialToastGlowTemplateAnimIn
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L55)
 --- child of SocialToastTemplate
 --- @class SocialToastTemplate_SocialToastTemplateGlowFrame : Texture, SocialToastGlowTemplate
@@ -41,4 +45,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L44)
 --- Template
 --- @class SocialToastTemplate : ContainedAlertFrame, BackdropTemplate, SocialToastMixin
+--- @field backdropInfo any # BACKDROP_TOAST_12_12
 

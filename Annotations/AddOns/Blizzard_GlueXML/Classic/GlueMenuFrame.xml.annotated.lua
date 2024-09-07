@@ -35,10 +35,12 @@ GameMenuFrameHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L8)
 --- @class GlueMenuFrame : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field OptionsButton GlueMenuFrame_OptionsButton
 --- @field CreditsButton GlueMenuFrame_CreditsButton
 --- @field CinematicsButton GlueMenuFrame_CinematicsButton
 --- @field ExitGameButton GlueMenuFrame_ExitGameButton
 --- @field CloseButton GlueMenuFrame_CloseButton
 GlueMenuFrame = {}
+GlueMenuFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 

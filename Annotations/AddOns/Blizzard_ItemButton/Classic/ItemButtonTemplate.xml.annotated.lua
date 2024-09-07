@@ -11,6 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L4)
 --- Intrinsic
 --- @class ItemButton : Button, ItemButtonMixin
+--- @field showMatchHighlight boolean # true
 --- @field icon Texture
 --- @field Count ItemButton_ItemButtonCount
 --- @field Stock ItemButton_ItemButtonStock
@@ -47,6 +48,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L150)
 --- Template
 --- @class SimplePopupButtonTemplate : CheckButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L156)
+--- child of PopupButtonTemplate (created in template SimplePopupButtonTemplate)
+--- @type SimplePopupButtonTemplate_SimplePopupButtonTemplateName
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L186)
 --- Template

@@ -19,6 +19,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L115)
 --- child of CommunitiesSettingsDialog
 --- @class CommunitiesSettingsDialog_MessageOfTheDay : ScrollFrame, InputScrollFrameTemplate
+--- @field maxLetters number # 250
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L140)
 --- child of 
@@ -109,25 +110,102 @@ ClubFinderFocusDropdown = {}
 --- child of ClubFinderLookingForDropdown
 --- @class CommunitiesSettingsDialog_ClubFinderLookingForDropdown_Label : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L284)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+ClubFinderLookingForDropdownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L226)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLookingForDropdownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L239)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLookingForDropdownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L248)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLookingForDropdownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L257)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+ClubFinderLookingForDropdownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L271)
+--- child of ClubFinderLookingForDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLookingForDropdownIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L305)
 --- child of CommunitiesSettingsDialog
 --- @class CommunitiesSettingsDialog_ClubFinderLookingForDropdown : Frame, UIDropDownMenuTemplate, LookingForDropdownMixin
 --- @field Label CommunitiesSettingsDialog_ClubFinderLookingForDropdown_Label
 ClubFinderLookingForDropdown = {}
+ClubFinderLookingForDropdown["Button"] = ClubFinderLookingForDropdownButton -- inherited
+ClubFinderLookingForDropdown["Left"] = ClubFinderLookingForDropdownLeft -- inherited
+ClubFinderLookingForDropdown["Middle"] = ClubFinderLookingForDropdownMiddle -- inherited
+ClubFinderLookingForDropdown["Right"] = ClubFinderLookingForDropdownRight -- inherited
+ClubFinderLookingForDropdown["Text"] = ClubFinderLookingForDropdownText -- inherited
+ClubFinderLookingForDropdown["Icon"] = ClubFinderLookingForDropdownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L328)
 --- child of ClubFinderLanguageDropdown
 --- @class CommunitiesSettingsDialog_ClubFinderLanguageDropdown_Label : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L284)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+ClubFinderLanguageDropdownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L226)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLanguageDropdownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L239)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLanguageDropdownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L248)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLanguageDropdownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L257)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+ClubFinderLanguageDropdownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L271)
+--- child of ClubFinderLanguageDropdown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderLanguageDropdownIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L321)
 --- child of CommunitiesSettingsDialog
 --- @class CommunitiesSettingsDialog_ClubFinderLanguageDropdown : Frame, UIDropDownMenuTemplate, ClubFinderLanguageDropdownMixin
 --- @field Label CommunitiesSettingsDialog_ClubFinderLanguageDropdown_Label
 ClubFinderLanguageDropdown = {}
+ClubFinderLanguageDropdown["Button"] = ClubFinderLanguageDropdownButton -- inherited
+ClubFinderLanguageDropdown["Left"] = ClubFinderLanguageDropdownLeft -- inherited
+ClubFinderLanguageDropdown["Middle"] = ClubFinderLanguageDropdownMiddle -- inherited
+ClubFinderLanguageDropdown["Right"] = ClubFinderLanguageDropdownRight -- inherited
+ClubFinderLanguageDropdown["Text"] = ClubFinderLanguageDropdownText -- inherited
+ClubFinderLanguageDropdown["Icon"] = ClubFinderLanguageDropdownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L337)
 --- child of CommunitiesSettingsDialog
 --- @class CommunitiesSettingsDialog_Description : ScrollFrame, InputScrollFrameTemplate
+--- @field maxLetters number # 250
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L355)
 --- child of CommunitiesSettingsDialog
@@ -194,6 +272,9 @@ ClubFinderLanguageDropdown = {}
 --- @field IconPreview Texture
 --- @field CircleMask MaskTexture
 CommunitiesSettingsDialog = {}
+CommunitiesSettingsDialog["ClubFocusDropdown"] = ClubFinderFocusDropdown
+CommunitiesSettingsDialog["LookingForDropdown"] = ClubFinderLookingForDropdown
+CommunitiesSettingsDialog["LanguageDropdown"] = ClubFinderLanguageDropdown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L393)
 --- Template

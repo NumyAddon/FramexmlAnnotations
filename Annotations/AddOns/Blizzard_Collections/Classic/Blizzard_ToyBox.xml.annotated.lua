@@ -8,20 +8,123 @@
 --- child of ToyBox
 --- @class ToyBox_progressBar : StatusBar, CollectionsProgressBarTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1256)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+ClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1247)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+SearchIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L28)
 --- child of ToyBox
 --- @class ToyBox_searchBox : EditBox, SearchBoxTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L985)
+--- child of ToyBoxFilterButton (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+ToyBoxFilterButtonTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L992)
+--- child of ToyBoxFilterButton (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+ToyBoxFilterButtonTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L999)
+--- child of ToyBoxFilterButton (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+ToyBoxFilterButtonBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1006)
+--- child of ToyBoxFilterButton (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+ToyBoxFilterButtonBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1013)
+--- child of ToyBoxFilterButton (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+ToyBoxFilterButtonTopMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1021)
+--- child of ToyBoxFilterButton (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+ToyBoxFilterButtonMiddleLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1029)
+--- child of ToyBoxFilterButton (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+ToyBoxFilterButtonMiddleRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1037)
+--- child of ToyBoxFilterButton (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+ToyBoxFilterButtonBottomMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1045)
+--- child of ToyBoxFilterButton (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+ToyBoxFilterButtonMiddleMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L37)
 --- child of ToyBox
 --- @class ToyBox_ToyBoxFilterButton : DropDownToggleButton, UIMenuButtonStretchTemplate
 --- @field Icon Texture
 ToyBoxFilterButton = {}
+ToyBoxFilterButton["TopLeft"] = ToyBoxFilterButtonTopLeft -- inherited
+ToyBoxFilterButton["TopRight"] = ToyBoxFilterButtonTopRight -- inherited
+ToyBoxFilterButton["BottomLeft"] = ToyBoxFilterButtonBottomLeft -- inherited
+ToyBoxFilterButton["BottomRight"] = ToyBoxFilterButtonBottomRight -- inherited
+ToyBoxFilterButton["TopMiddle"] = ToyBoxFilterButtonTopMiddle -- inherited
+ToyBoxFilterButton["MiddleLeft"] = ToyBoxFilterButtonMiddleLeft -- inherited
+ToyBoxFilterButton["MiddleRight"] = ToyBoxFilterButtonMiddleRight -- inherited
+ToyBoxFilterButton["BottomMiddle"] = ToyBoxFilterButtonBottomMiddle -- inherited
+ToyBoxFilterButton["MiddleMiddle"] = ToyBoxFilterButtonMiddleMiddle -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L284)
+--- child of ToyBoxFilterDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+ToyBoxFilterDropDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L226)
+--- child of ToyBoxFilterDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ToyBoxFilterDropDownLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L239)
+--- child of ToyBoxFilterDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ToyBoxFilterDropDownMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L248)
+--- child of ToyBoxFilterDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ToyBoxFilterDropDownRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L257)
+--- child of ToyBoxFilterDropDown (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+ToyBoxFilterDropDownText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L271)
+--- child of ToyBoxFilterDropDown (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ToyBoxFilterDropDownIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L59)
 --- child of ToyBox
 --- @class ToyBox_ToyBoxFilterDropDown : Frame, UIDropDownMenuTemplate
 ToyBoxFilterDropDown = {}
+ToyBoxFilterDropDown["Button"] = ToyBoxFilterDropDownButton -- inherited
+ToyBoxFilterDropDown["Left"] = ToyBoxFilterDropDownLeft -- inherited
+ToyBoxFilterDropDown["Middle"] = ToyBoxFilterDropDownMiddle -- inherited
+ToyBoxFilterDropDown["Right"] = ToyBoxFilterDropDownRight -- inherited
+ToyBoxFilterDropDown["Text"] = ToyBoxFilterDropDownText -- inherited
+ToyBoxFilterDropDown["Icon"] = ToyBoxFilterDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L77)
 --- child of 
@@ -122,10 +225,48 @@ ToyBoxFilterDropDown = {}
 --- child of ToyBox
 --- @class ToyBox_PagingFrame : Frame, CollectionsPagingFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L284)
+--- child of ToyBoxToyOptionsMenu (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+ToyBoxToyOptionsMenuButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L226)
+--- child of ToyBoxToyOptionsMenu (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ToyBoxToyOptionsMenuLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L239)
+--- child of ToyBoxToyOptionsMenu (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ToyBoxToyOptionsMenuMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L248)
+--- child of ToyBoxToyOptionsMenu (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ToyBoxToyOptionsMenuRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L257)
+--- child of ToyBoxToyOptionsMenu (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+ToyBoxToyOptionsMenuText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L271)
+--- child of ToyBoxToyOptionsMenu (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ToyBoxToyOptionsMenuIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L176)
 --- child of ToyBox
 --- @class ToyBox_ToyBoxToyOptionsMenu : Frame, UIDropDownMenuTemplate
 ToyBoxToyOptionsMenu = {}
+ToyBoxToyOptionsMenu["Button"] = ToyBoxToyOptionsMenuButton -- inherited
+ToyBoxToyOptionsMenu["Left"] = ToyBoxToyOptionsMenuLeft -- inherited
+ToyBoxToyOptionsMenu["Middle"] = ToyBoxToyOptionsMenuMiddle -- inherited
+ToyBoxToyOptionsMenu["Right"] = ToyBoxToyOptionsMenuRight -- inherited
+ToyBoxToyOptionsMenu["Text"] = ToyBoxToyOptionsMenuText -- inherited
+ToyBoxToyOptionsMenu["Icon"] = ToyBoxToyOptionsMenuIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L23)
 --- @class ToyBox : Frame
@@ -135,4 +276,5 @@ ToyBoxToyOptionsMenu = {}
 --- @field PagingFrame ToyBox_PagingFrame
 --- @field toyOptionsMenu ToyBox_ToyBoxToyOptionsMenu
 ToyBox = {}
+ToyBox["toyOptionsMenu"] = ToyBoxToyOptionsMenu
 

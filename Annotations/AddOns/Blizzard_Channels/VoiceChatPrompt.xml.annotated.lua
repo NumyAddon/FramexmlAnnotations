@@ -4,6 +4,14 @@
 --- child of VoiceChatPromptTemplate
 --- @class VoiceChatPromptTemplate_Text : FontString, FriendsFont_Normal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L17)
+--- child of VoiceChatPromptTemplateGlowFrame (created in template SocialToastGlowTemplate)
+--- @type SocialToastGlowTemplate_SocialToastGlowTemplateAnimIn
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L55)
+--- child of VoiceChatPromptTemplate (created in template SocialToastTemplate)
+--- @type SocialToastTemplate_SocialToastTemplateGlowFrame
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L5)
 --- Template
 --- @class VoiceChatPromptTemplate : ContainedAlertFrame, SocialToastTemplate
@@ -16,8 +24,10 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L25)
 --- @class VoiceChatPromptActivateChannel : ContainedAlertFrame, VoiceChatPromptTemplate, VoiceChatActivateChannelPromptMixin
+--- @field externallyManagedOutroAnimation boolean # true
 --- @field AcceptButton VoiceChatPromptActivateChannel_AcceptButton
 VoiceChatPromptActivateChannel = {}
+VoiceChatPromptActivateChannel["externallyManagedOutroAnimation"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L52)
 --- child of VoiceChatChannelActivatedNotification

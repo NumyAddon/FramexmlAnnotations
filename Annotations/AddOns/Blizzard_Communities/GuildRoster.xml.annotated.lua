@@ -16,6 +16,32 @@
 --- child of CommunitiesGuildMemberDetailFrameTemplate
 --- @class CommunitiesGuildMemberDetailFrameTemplate_GroupInviteButton : Button, UIPanelButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L284)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L226)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L239)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L248)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L257)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L271)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L113)
 --- child of CommunitiesGuildMemberDetailFrameTemplate
 --- @class CommunitiesGuildMemberDetailFrameTemplate_RankDropdown : Frame, UIDropDownMenuTemplate
@@ -27,6 +53,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L118)
 --- child of CommunitiesGuildMemberDetailFrameTemplate
 --- @class CommunitiesGuildMemberDetailFrameTemplate_NoteBackground : Frame, TooltipBackdropTemplate
+--- @field backdropColorAlpha number # 0.25
 --- @field PersonalNoteText CommunitiesGuildMemberDetailFrameTemplate_NoteBackground_PersonalNoteText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L155)
@@ -36,6 +63,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L148)
 --- child of CommunitiesGuildMemberDetailFrameTemplate
 --- @class CommunitiesGuildMemberDetailFrameTemplate_OfficerNoteBackground : Frame, TooltipBackdropTemplate
+--- @field backdropColorAlpha number # 0.25
 --- @field OfficerNoteText CommunitiesGuildMemberDetailFrameTemplate_OfficerNoteBackground_OfficerNoteText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L9)

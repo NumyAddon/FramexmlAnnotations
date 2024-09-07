@@ -15,6 +15,38 @@ class XmlFileParser
      */
     private const array TYPE_ALIASSES = [
         'FontFamily' => 'Font',
+        'NormalTexture' => 'Texture',
+        'HighlightTexture' => 'Texture',
+        'ThumbTexture' => 'Texture',
+        'ColorWheelTexture' => 'Texture',
+        'ColorWheelThumbTexture' => 'Texture',
+        'ColorValueTexture' => 'Texture',
+        'ColorValueThumbTexture' => 'Texture',
+        'ColorAlphaTexture' => 'Texture',
+        'ColorAlphaThumbTexture' => 'Texture',
+        'FontStringHeader1' => 'FontString',
+        'FontStringHeader2' => 'FontString',
+        'FontStringHeader3' => 'FontString',
+        'SwipeTexture' => 'Texture',
+        'EdgeTexture' => 'Texture',
+        'BlingTexture' => 'Texture',
+    ];
+    private const array SPECIAL_CHILDREN = [
+        'NormalTexture',
+        'HighlightTexture',
+        'ThumbTexture',
+        'ColorWheelTexture',
+        'ColorWheelThumbTexture',
+        'ColorValueTexture',
+        'ColorValueThumbTexture',
+        'ColorAlphaTexture',
+        'ColorAlphaThumbTexture',
+        'FontStringHeader1',
+        'FontStringHeader2',
+        'FontStringHeader3',
+        'SwipeTexture',
+        'EdgeTexture',
+        'BlingTexture',
     ];
 
     /**
@@ -93,6 +125,11 @@ class XmlFileParser
         if (self::TYPE_ANIMATION_GROUP === $type) {
             foreach ($node->children() as $animation) {
                 $this->parseNode($animation, $fileRegistry, $frame);
+            }
+        }
+        foreach (self::SPECIAL_CHILDREN as $specialChild) {
+            if (isset($node->$specialChild)) {
+                $this->parseNode($node->$specialChild, $fileRegistry, $frame);
             }
         }
     }

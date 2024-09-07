@@ -4,23 +4,15 @@
 --- child of TotemButtonTemplateIcon
 --- @class TotemButtonTemplate_TotemButtonTemplateIcon_TotemButtonTemplateIconCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TotemFrame.xml#L37)
---- child of TotemButtonTemplateIcon
---- @class TotemButtonTemplate_TotemButtonTemplateIcon_TotemButtonTemplateIconTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TotemFrame.xml#L28)
 --- child of TotemButtonTemplate
 --- @class TotemButtonTemplate_TotemButtonTemplateIcon : Frame
 --- @field cooldown TotemButtonTemplate_TotemButtonTemplateIcon_TotemButtonTemplateIconCooldown
---- @field texture TotemButtonTemplate_TotemButtonTemplateIcon_TotemButtonTemplateIconTexture
+--- @field texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TotemFrame.xml#L44)
 --- child of TotemButtonTemplate
 --- @class  : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TotemFrame.xml#L9)
---- child of TotemButtonTemplate
---- @class TotemButtonTemplate_TotemButtonTemplateBackground : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TotemFrame.xml#L18)
 --- child of TotemButtonTemplate

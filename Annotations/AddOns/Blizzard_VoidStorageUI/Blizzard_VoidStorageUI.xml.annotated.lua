@@ -1,43 +1,19 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L102)
---- child of VoidStorageItemButtonTemplate
---- @class VoidStorageItemButtonTemplate_VoidStorageItemButtonTemplateBg : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L111)
---- child of VoidStorageItemButtonTemplate
---- @class VoidStorageItemButtonTemplate_VoidStorageItemButtonTemplateIconTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L120)
---- child of VoidStorageItemButtonTemplate
---- @class VoidStorageItemButtonTemplate_VoidStorageItemButtonTemplateSearchOverlay : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L98)
 --- Template
 --- @class VoidStorageItemButtonTemplate : Button
---- @field icon VoidStorageItemButtonTemplate_VoidStorageItemButtonTemplateIconTexture
+--- @field icon Texture
 --- @field IconBorder Texture
---- @field searchOverlay VoidStorageItemButtonTemplate_VoidStorageItemButtonTemplateSearchOverlay
+--- @field searchOverlay Texture
 --- @field IconOverlay Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L152)
---- child of VoidStorageAntsFrameTemplate
---- @class VoidStorageAntsFrameTemplate_VoidStorageAntsFrameTemplateInnerGlow : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L159)
---- child of VoidStorageAntsFrameTemplate
---- @class VoidStorageAntsFrameTemplate_VoidStorageAntsFrameTemplateOuterGlow : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L167)
---- child of VoidStorageAntsFrameTemplate
---- @class VoidStorageAntsFrameTemplate_VoidStorageAntsFrameTemplateAnts : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L145)
 --- Template
 --- @class VoidStorageAntsFrameTemplate : Frame
---- @field innerGlow VoidStorageAntsFrameTemplate_VoidStorageAntsFrameTemplateInnerGlow
---- @field outerGlow VoidStorageAntsFrameTemplate_VoidStorageAntsFrameTemplateOuterGlow
---- @field ants VoidStorageAntsFrameTemplate_VoidStorageAntsFrameTemplateAnts
+--- @field innerGlow Texture
+--- @field outerGlow Texture
+--- @field ants Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L182)
 --- Template

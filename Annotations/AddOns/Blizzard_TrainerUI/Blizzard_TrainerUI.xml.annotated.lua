@@ -4,10 +4,6 @@
 --- child of ClassTrainerSkillButtonTemplate
 --- @class ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L45)
---- child of ClassTrainerSkillButtonTemplate
---- @class ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L51)
 --- child of ClassTrainerSkillButtonTemplate
 --- @class ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateName : FontString, GameFontNormal
@@ -16,15 +12,11 @@
 --- child of ClassTrainerSkillButtonTemplate
 --- @class ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText : FontString, SystemFont_Shadow_Small
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L90)
---- child of ClassTrainerSkillButtonTemplate
---- @class ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L28)
 --- Template
 --- @class ClassTrainerSkillButtonTemplate : Button
 --- @field money ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateMoneyFrame
---- @field icon ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateIcon
+--- @field icon Texture
 --- @field name ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateName
 --- @field subText ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
 --- @field selectedTex Texture

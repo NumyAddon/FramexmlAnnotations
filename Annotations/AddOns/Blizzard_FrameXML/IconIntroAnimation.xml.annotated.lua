@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L38)
---- child of IconIntroAnimTemplate
---- @class IconIntroAnimTemplate_IconIntroAnimTemplateIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L40)
---- child of IconIntroAnimTemplate
---- @class IconIntroAnimTemplate_IconIntroAnimTemplateBG : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L44)
---- child of IconIntroAnimTemplate
---- @class IconIntroAnimTemplate_IconIntroAnimTemplateGlow : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L5)
 --- child of IconIntroAnimTemplate
 --- @class IconIntroAnimTemplate_flyin : AnimationGroup, IconIntroFlyinAnimMixin
@@ -24,8 +12,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L3)
 --- Template
 --- @class IconIntroAnimTemplate : Frame
---- @field icon IconIntroAnimTemplate_IconIntroAnimTemplateIcon
---- @field bg IconIntroAnimTemplate_IconIntroAnimTemplateBG
+--- @field icon Texture
+--- @field bg Texture
 --- @field flyin IconIntroAnimTemplate_flyin
 --- @field glow IconIntroAnimTemplate_glow
 

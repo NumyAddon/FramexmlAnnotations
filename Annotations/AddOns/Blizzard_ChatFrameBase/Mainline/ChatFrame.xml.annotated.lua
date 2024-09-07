@@ -13,30 +13,6 @@
 --- child of ChatFrameEditBoxTemplate
 --- @class ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateLanguage : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.xml#L30)
---- child of ChatFrameEditBoxTemplate
---- @class ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.xml#L36)
---- child of ChatFrameEditBoxTemplate
---- @class ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.xml#L42)
---- child of ChatFrameEditBoxTemplate
---- @class ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateMid : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.xml#L51)
---- child of ChatFrameEditBoxTemplate
---- @class ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateFocusLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.xml#L57)
---- child of ChatFrameEditBoxTemplate
---- @class ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateFocusRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.xml#L63)
---- child of ChatFrameEditBoxTemplate
---- @class ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateFocusMid : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.xml#L72)
 --- child of ChatFrameEditBoxTemplate
 --- @class ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateHeader : FontString, ChatFontNormal
@@ -60,9 +36,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrame.xml#L27)
 --- Template
 --- @class ChatFrameEditBoxTemplate : EditBox, AutoCompleteEditBoxTemplate
---- @field focusLeft ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateFocusLeft
---- @field focusRight ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateFocusRight
---- @field focusMid ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateFocusMid
+--- @field focusLeft Texture
+--- @field focusRight Texture
+--- @field focusMid Texture
 --- @field header ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateHeader
 --- @field headerSuffix ChatFrameEditBoxTemplate_ChatFrameEditBoxTemplateHeaderSuffix
 --- @field languageHeader ChatFrameEditBoxTemplate_languageHeader

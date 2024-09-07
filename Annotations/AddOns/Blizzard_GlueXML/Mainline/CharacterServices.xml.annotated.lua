@@ -46,14 +46,6 @@
 --- @field RoleName CharacterUpgradeSelectSpecRadioButtonTemplate_RoleName
 --- @field Recommended CharacterUpgradeSelectSpecRadioButtonTemplate_Recommended
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L120)
---- child of CharacterUpgradeSelectFactionRadioButtonTemplate
---- @class CharacterUpgradeSelectFactionRadioButtonTemplate_CharacterUpgradeSelectFactionRadioButtonTemplateFactionOverlay : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L141)
---- child of CharacterUpgradeSelectFactionRadioButtonTemplate
---- @class CharacterUpgradeSelectFactionRadioButtonTemplate_CharacterUpgradeSelectFactionRadioButtonTemplateFactionIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L147)
 --- child of CharacterUpgradeSelectFactionRadioButtonTemplate
 --- @class CharacterUpgradeSelectFactionRadioButtonTemplate_CharacterUpgradeSelectFactionRadioButtonTemplateFactionName : FontString, GameFontNormalLarge
@@ -61,10 +53,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L117)
 --- Template
 --- @class CharacterUpgradeSelectFactionRadioButtonTemplate : CheckButton, UIRadialButtonTemplate, CharacterUpgradeSelectFactionRadioButtonMixin
---- @field Frame CharacterUpgradeSelectFactionRadioButtonTemplate_CharacterUpgradeSelectFactionRadioButtonTemplateFactionOverlay
+--- @field Frame Texture
 --- @field HoverGlow Texture
 --- @field SelectGlow Texture
---- @field FactionIcon CharacterUpgradeSelectFactionRadioButtonTemplate_CharacterUpgradeSelectFactionRadioButtonTemplateFactionIcon
+--- @field FactionIcon Texture
 --- @field FactionName CharacterUpgradeSelectFactionRadioButtonTemplate_CharacterUpgradeSelectFactionRadioButtonTemplateFactionName
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L169)

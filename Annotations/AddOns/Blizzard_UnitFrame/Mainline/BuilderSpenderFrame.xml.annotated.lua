@@ -7,10 +7,6 @@
 --- @field LossGlowTexture Texture
 --- @field GainGlowTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L52)
---- child of 
---- @class FullResourcePulseFrame_SpikeFrame_SpikeAnim_Spikey : Alpha
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L43)
 --- child of 
 --- @class FullResourcePulseFrame_SpikeFrame_SpikeAnim : AnimationGroup

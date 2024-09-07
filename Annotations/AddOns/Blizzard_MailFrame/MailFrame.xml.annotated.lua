@@ -4,29 +4,9 @@
 --- Template
 --- @class SendMailRadioButtonTemplate : CheckButton, UIRadioButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L51)
---- child of MailItemTemplate
---- @class MailItemTemplate_MailItemTemplateExpireTime : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L78)
---- child of MailItemTemplateButton
---- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonSlot : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L86)
---- child of MailItemTemplateButton
---- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L94)
---- child of MailItemTemplateButton
---- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonIconBorder : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L100)
 --- child of MailItemTemplateButton
 --- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonCOD : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L105)
---- child of MailItemTemplateButton
---- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonCODBackground : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L112)
 --- child of MailItemTemplateButton
@@ -35,8 +15,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L71)
 --- child of MailItemTemplate
 --- @class MailItemTemplate_MailItemTemplateButton : CheckButton
---- @field Icon MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonIcon
---- @field IconBorder MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonIconBorder
+--- @field Icon Texture
+--- @field IconBorder Texture
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
 

@@ -23,11 +23,36 @@ MacroFrameSelectedMacroButton = {}
 --- child of MacroFrame
 --- @class MacroFrame_MacroEditButton : Button, UIPanelButtonTemplate
 MacroEditButton = {}
+MacroEditButton["fitTextCanWidthDecrease"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L10)
+--- child of MacroFrameScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+MacroFrameScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L18)
+--- child of MacroFrameScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+MacroFrameScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L30)
+--- child of MacroFrameScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+MacroFrameScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L46)
+--- child of MacroFrameScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+MacroFrameScrollFrameTemplateScrollBar = {}
+MacroFrameScrollFrameTemplateScrollBar["ScrollUpButton"] = MacroFrameScrollFrameTemplateScrollBarScrollUpButton -- inherited
+MacroFrameScrollFrameTemplateScrollBar["ScrollDownButton"] = MacroFrameScrollFrameTemplateScrollBarScrollDownButton -- inherited
+MacroFrameScrollFrameTemplateScrollBar["ThumbTexture"] = MacroFrameScrollFrameTemplateScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L114)
 --- child of MacroFrame
 --- @class MacroFrame_MacroFrameScrollFrame : ScrollFrame, MacroFrameScrollFrameTemplate
 MacroFrameScrollFrame = {}
+MacroFrameScrollFrame["ScrollBar"] = MacroFrameScrollFrameTemplateScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L145)
 --- child of MacroFrame
@@ -38,11 +63,13 @@ MacroFrameTextButton = {}
 --- child of MacroFrame
 --- @class MacroFrame_MacroCancelButton : Button, UIPanelButtonTemplate
 MacroCancelButton = {}
+MacroCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L165)
 --- child of MacroFrame
 --- @class MacroFrame_MacroSaveButton : Button, UIPanelButtonTemplate
 MacroSaveButton = {}
+MacroSaveButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L174)
 --- child of MacroFrame
@@ -50,30 +77,117 @@ MacroSaveButton = {}
 MacroFrameTextBackground = {}
 MacroFrameTextBackground["layoutType"] = "TooltipDefaultLayout" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1314)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateLeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1327)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateMiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1336)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateRightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1345)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1354)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1363)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1394)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateHighlightTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L180)
 --- child of MacroFrame
 --- @class MacroFrame_MacroFrameTab1 : Button, PanelTopTabButtonTemplate
 MacroFrameTab1 = {}
+MacroFrameTab1["LeftDisabled"] = PanelTopTabButtonTemplateLeftDisabled -- inherited
+MacroFrameTab1["MiddleDisabled"] = PanelTopTabButtonTemplateMiddleDisabled -- inherited
+MacroFrameTab1["RightDisabled"] = PanelTopTabButtonTemplateRightDisabled -- inherited
+MacroFrameTab1["Left"] = PanelTopTabButtonTemplateLeft -- inherited
+MacroFrameTab1["Middle"] = PanelTopTabButtonTemplateMiddle -- inherited
+MacroFrameTab1["Right"] = PanelTopTabButtonTemplateRight -- inherited
+MacroFrameTab1["HighlightTexture"] = PanelTopTabButtonTemplateHighlightTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1314)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateLeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1327)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateMiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1336)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateRightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1345)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1354)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1363)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1394)
+--- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- @type Texture
+PanelTopTabButtonTemplateHighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L190)
 --- child of MacroFrame
 --- @class MacroFrame_MacroFrameTab2 : Button, PanelTopTabButtonTemplate
 MacroFrameTab2 = {}
+MacroFrameTab2["LeftDisabled"] = PanelTopTabButtonTemplateLeftDisabled -- inherited
+MacroFrameTab2["MiddleDisabled"] = PanelTopTabButtonTemplateMiddleDisabled -- inherited
+MacroFrameTab2["RightDisabled"] = PanelTopTabButtonTemplateRightDisabled -- inherited
+MacroFrameTab2["Left"] = PanelTopTabButtonTemplateLeft -- inherited
+MacroFrameTab2["Middle"] = PanelTopTabButtonTemplateMiddle -- inherited
+MacroFrameTab2["Right"] = PanelTopTabButtonTemplateRight -- inherited
+MacroFrameTab2["HighlightTexture"] = PanelTopTabButtonTemplateHighlightTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L210)
 --- child of MacroFrame
 --- @class MacroFrame_MacroDeleteButton : Button, UIPanelButtonTemplate
 MacroDeleteButton = {}
+MacroDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L222)
 --- child of MacroFrame
 --- @class MacroFrame_MacroNewButton : Button, UIPanelButtonTemplate
 MacroNewButton = {}
+MacroNewButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L231)
 --- child of MacroFrame
 --- @class MacroFrame_MacroExitButton : Button, UIPanelButtonTemplate
 MacroExitButton = {}
+MacroExitButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L30)
 --- child of MacroFrame
@@ -108,6 +222,81 @@ MacroFrameEnterMacroText = {}
 --- child of MacroFrame
 --- @class MacroFrame_MacroFrameCharLimitText : FontString, GameFontHighlightSmall
 MacroFrameCharLimitText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L563)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplateBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L569)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+PortraitFrameTemplateTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L577)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplatePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L585)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+PortraitFrameTemplatePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L590)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+PortraitFrameTemplateTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L595)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+PortraitFrameTemplateTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L600)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+PortraitFrameTemplateTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L606)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+PortraitFrameTemplateTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L615)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+PortraitFrameTemplateTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L621)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+PortraitFrameTemplateBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L626)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+PortraitFrameTemplateBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L631)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+PortraitFrameTemplateBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L637)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+PortraitFrameTemplateLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L643)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+PortraitFrameTemplateRightBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L657)
+--- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L796)
 --- child of MacroFrameInset (created in template InsetFrameTemplate)
@@ -191,5 +380,20 @@ MacroFrameButtonBottomBorder = {}
 MacroFrame = {}
 MacroFrame["SelectedMacroButton"] = MacroFrameSelectedMacroButton
 MacroFrame["maxTabWidth"] = 140
+MacroFrame["Bg"] = PortraitFrameTemplateBg -- inherited
+MacroFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
+MacroFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
+MacroFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
+MacroFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
+MacroFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
+MacroFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
+MacroFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
+MacroFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
+MacroFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
+MacroFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
+MacroFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
+MacroFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
+MacroFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
+MacroFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 MacroFrame["Inset"] = MacroFrameInset -- inherited
 

@@ -102,6 +102,16 @@ CraftHighlight = {}
 --- @class CraftFrame_CraftHighlightFrame : Frame
 CraftHighlightFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L9)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+CraftButtonTemplateSubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L41)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+CraftButtonTemplateHighlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
 --- child of Craft1 (created in template CraftButtonTemplate)
 --- @type CraftButtonTemplate_CraftButtonTemplateCost
@@ -111,6 +121,16 @@ Craft1Cost = {}
 --- child of CraftFrame
 --- @class CraftFrame_Craft1 : Button, CraftButtonTemplate
 Craft1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L9)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+CraftButtonTemplateSubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L41)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+CraftButtonTemplateHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
 --- child of Craft2 (created in template CraftButtonTemplate)
@@ -122,6 +142,16 @@ Craft2Cost = {}
 --- @class CraftFrame_Craft2 : Button, CraftButtonTemplate
 Craft2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L9)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+CraftButtonTemplateSubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L41)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+CraftButtonTemplateHighlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
 --- child of Craft3 (created in template CraftButtonTemplate)
 --- @type CraftButtonTemplate_CraftButtonTemplateCost
@@ -131,6 +161,16 @@ Craft3Cost = {}
 --- child of CraftFrame
 --- @class CraftFrame_Craft3 : Button, CraftButtonTemplate
 Craft3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L9)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+CraftButtonTemplateSubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L41)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+CraftButtonTemplateHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
 --- child of Craft4 (created in template CraftButtonTemplate)
@@ -142,6 +182,16 @@ Craft4Cost = {}
 --- @class CraftFrame_Craft4 : Button, CraftButtonTemplate
 Craft4 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L9)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+CraftButtonTemplateSubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L41)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+CraftButtonTemplateHighlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
 --- child of Craft5 (created in template CraftButtonTemplate)
 --- @type CraftButtonTemplate_CraftButtonTemplateCost
@@ -151,6 +201,16 @@ Craft5Cost = {}
 --- child of CraftFrame
 --- @class CraftFrame_Craft5 : Button, CraftButtonTemplate
 Craft5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L9)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+CraftButtonTemplateSubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L41)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+CraftButtonTemplateHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
 --- child of Craft6 (created in template CraftButtonTemplate)
@@ -162,6 +222,16 @@ Craft6Cost = {}
 --- @class CraftFrame_Craft6 : Button, CraftButtonTemplate
 Craft6 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L9)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+CraftButtonTemplateSubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L41)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+CraftButtonTemplateHighlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
 --- child of Craft7 (created in template CraftButtonTemplate)
 --- @type CraftButtonTemplate_CraftButtonTemplateCost
@@ -171,6 +241,16 @@ Craft7Cost = {}
 --- child of CraftFrame
 --- @class CraftFrame_Craft7 : Button, CraftButtonTemplate
 Craft7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L9)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
+CraftButtonTemplateSubText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L41)
+--- child of CraftButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- @type Texture
+CraftButtonTemplateHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L6)
 --- child of Craft8 (created in template CraftButtonTemplate)
@@ -182,10 +262,57 @@ Craft8Cost = {}
 --- @class CraftFrame_Craft8 : Button, CraftButtonTemplate
 Craft8 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L463)
 --- child of CraftFrame
 --- @class CraftFrame_CraftListScrollFrame : ScrollFrame, ClassTrainerListScrollFrameTemplate
 CraftListScrollFrame = {}
+CraftListScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L10)
+--- child of ClassTrainerDetailScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+ClassTrainerDetailScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L18)
+--- child of ClassTrainerDetailScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+ClassTrainerDetailScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L30)
+--- child of ClassTrainerDetailScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+ClassTrainerDetailScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L46)
+--- child of ClassTrainerDetailScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+ClassTrainerDetailScrollFrameTemplateScrollBar = {}
+ClassTrainerDetailScrollFrameTemplateScrollBar["ScrollUpButton"] = ClassTrainerDetailScrollFrameTemplateScrollBarScrollUpButton -- inherited
+ClassTrainerDetailScrollFrameTemplateScrollBar["ScrollDownButton"] = ClassTrainerDetailScrollFrameTemplateScrollBarScrollDownButton -- inherited
+ClassTrainerDetailScrollFrameTemplateScrollBar["ThumbTexture"] = ClassTrainerDetailScrollFrameTemplateScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L84)
 --- child of CraftDetailScrollFrame (created in template ClassTrainerDetailScrollFrameTemplate)
@@ -201,16 +328,19 @@ CraftDetailScrollFrameBottom = {}
 --- child of CraftFrame
 --- @class CraftFrame_CraftDetailScrollFrame : ScrollFrame, ClassTrainerDetailScrollFrameTemplate
 CraftDetailScrollFrame = {}
+CraftDetailScrollFrame["ScrollBar"] = ClassTrainerDetailScrollFrameTemplateScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L704)
 --- child of CraftFrame
 --- @class CraftFrame_CraftCreateButton : Button, UIPanelButtonTemplate
 CraftCreateButton = {}
+CraftCreateButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L721)
 --- child of CraftFrame
 --- @class CraftFrame_CraftCancelButton : Button, UIPanelButtonTemplate
 CraftCancelButton = {}
+CraftCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L738)
 --- child of CraftFrame

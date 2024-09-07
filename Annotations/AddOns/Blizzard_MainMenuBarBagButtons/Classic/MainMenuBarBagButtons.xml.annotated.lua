@@ -52,21 +52,157 @@ MainMenuBarBackpackButton["Count"] = MainMenuBarBackpackButtonCount -- inherited
 MainMenuBarBackpackButton["searchOverlay"] = MainMenuBarBackpackButtonSearchOverlay -- inherited
 MainMenuBarBackpackButton["subicon"] = MainMenuBarBackpackButtonSubIconTexture -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L85)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L88)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateCount
+BagSlotButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L97)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateStock
+BagSlotButtonTemplateStock = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L108)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateSearchOverlay = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L127)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateSubIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L135)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateNormalTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L143)
 --- @class CharacterBag0Slot : CheckButton, BagSlotButtonTemplate
 CharacterBag0Slot = {}
+CharacterBag0Slot["icon"] = BagSlotButtonTemplateIconTexture -- inherited
+CharacterBag0Slot["Count"] = BagSlotButtonTemplateCount -- inherited
+CharacterBag0Slot["searchOverlay"] = BagSlotButtonTemplateSearchOverlay -- inherited
+CharacterBag0Slot["subicon"] = BagSlotButtonTemplateSubIconTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L85)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L88)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateCount
+BagSlotButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L97)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateStock
+BagSlotButtonTemplateStock = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L108)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateSearchOverlay = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L127)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateSubIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L135)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L152)
 --- @class CharacterBag1Slot : CheckButton, BagSlotButtonTemplate
 CharacterBag1Slot = {}
+CharacterBag1Slot["icon"] = BagSlotButtonTemplateIconTexture -- inherited
+CharacterBag1Slot["Count"] = BagSlotButtonTemplateCount -- inherited
+CharacterBag1Slot["searchOverlay"] = BagSlotButtonTemplateSearchOverlay -- inherited
+CharacterBag1Slot["subicon"] = BagSlotButtonTemplateSubIconTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L85)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L88)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateCount
+BagSlotButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L97)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateStock
+BagSlotButtonTemplateStock = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L108)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateSearchOverlay = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L127)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateSubIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L135)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L161)
 --- @class CharacterBag2Slot : CheckButton, BagSlotButtonTemplate
 CharacterBag2Slot = {}
+CharacterBag2Slot["icon"] = BagSlotButtonTemplateIconTexture -- inherited
+CharacterBag2Slot["Count"] = BagSlotButtonTemplateCount -- inherited
+CharacterBag2Slot["searchOverlay"] = BagSlotButtonTemplateSearchOverlay -- inherited
+CharacterBag2Slot["subicon"] = BagSlotButtonTemplateSubIconTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L85)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L88)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateCount
+BagSlotButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L97)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateStock
+BagSlotButtonTemplateStock = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L108)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateSearchOverlay = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L127)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateSubIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L135)
+--- child of BagSlotButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+BagSlotButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L170)
 --- @class CharacterBag3Slot : CheckButton, BagSlotButtonTemplate
 CharacterBag3Slot = {}
+CharacterBag3Slot["icon"] = BagSlotButtonTemplateIconTexture -- inherited
+CharacterBag3Slot["Count"] = BagSlotButtonTemplateCount -- inherited
+CharacterBag3Slot["searchOverlay"] = BagSlotButtonTemplateSearchOverlay -- inherited
+CharacterBag3Slot["subicon"] = BagSlotButtonTemplateSubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L189)
 --- child of KeyRingButton

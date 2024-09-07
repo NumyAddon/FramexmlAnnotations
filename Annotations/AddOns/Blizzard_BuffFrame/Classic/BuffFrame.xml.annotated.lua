@@ -66,6 +66,21 @@ ConsolidatedBuffsContainer = {}
 ConsolidatedBuffsTooltip = {}
 ConsolidatedBuffsTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L7)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type Texture
+TempEnchantButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L8)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateCount
+TempEnchantButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L17)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateDuration
+TempEnchantButtonTemplateDuration = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L75)
 --- child of TempEnchant1 (created in template TempEnchantButtonTemplate)
 --- @type Texture
@@ -75,6 +90,23 @@ TempEnchant1Border = {}
 --- child of TemporaryEnchantFrame
 --- @class TemporaryEnchantFrame_TempEnchant1 : Button, TempEnchantButtonTemplate
 TempEnchant1 = {}
+TempEnchant1["count"] = TempEnchantButtonTemplateCount -- inherited
+TempEnchant1["duration"] = TempEnchantButtonTemplateDuration -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L7)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type Texture
+TempEnchantButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L8)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateCount
+TempEnchantButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L17)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateDuration
+TempEnchantButtonTemplateDuration = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L75)
 --- child of TempEnchant2 (created in template TempEnchantButtonTemplate)
@@ -85,6 +117,23 @@ TempEnchant2Border = {}
 --- child of TemporaryEnchantFrame
 --- @class TemporaryEnchantFrame_TempEnchant2 : Button, TempEnchantButtonTemplate
 TempEnchant2 = {}
+TempEnchant2["count"] = TempEnchantButtonTemplateCount -- inherited
+TempEnchant2["duration"] = TempEnchantButtonTemplateDuration -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L7)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type Texture
+TempEnchantButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L8)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateCount
+TempEnchantButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L17)
+--- child of TempEnchantButtonTemplate (created in template AuraButtonTemplate)
+--- @type AuraButtonTemplate_AuraButtonTemplateDuration
+TempEnchantButtonTemplateDuration = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L75)
 --- child of TempEnchant3 (created in template TempEnchantButtonTemplate)
@@ -95,6 +144,8 @@ TempEnchant3Border = {}
 --- child of TemporaryEnchantFrame
 --- @class TemporaryEnchantFrame_TempEnchant3 : Button, TempEnchantButtonTemplate
 TempEnchant3 = {}
+TempEnchant3["count"] = TempEnchantButtonTemplateCount -- inherited
+TempEnchant3["duration"] = TempEnchantButtonTemplateDuration -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L167)
 --- @class TemporaryEnchantFrame : Frame

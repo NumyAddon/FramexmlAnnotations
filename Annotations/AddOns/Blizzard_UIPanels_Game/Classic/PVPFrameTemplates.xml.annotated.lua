@@ -50,7 +50,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L321)
 --- child of PVPTeamDataTemplate
---- @class PVPTeamDataTemplate_PVPTeamDataTemplate- : FontString, GameFontHighlightSmall
+--- @class PVPTeamDataTemplate_PVPTeamDataTemplate_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L330)
 --- child of PVPTeamDataTemplate
@@ -102,7 +102,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss

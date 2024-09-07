@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/BulletPoint.xml#L4)
 --- Template
---- @class UI-EJ-Bullet : Texture
+--- @class UI_EJ_Bullet : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/BulletPoint.xml#L17)
 --- child of BulletPointTemplate

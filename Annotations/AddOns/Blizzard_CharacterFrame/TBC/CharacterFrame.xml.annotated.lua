@@ -2,75 +2,75 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L5)
 --- Template
---- @class Char-Stat-Bottom : Texture
+--- @class Char_Stat_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L9)
 --- Template
---- @class Char-Stat-Minimized : Texture
+--- @class Char_Stat_Minimized : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L13)
 --- Template
---- @class Char-Stat-Top : Texture
+--- @class Char_Stat_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L17)
 --- Template
---- @class Char-RightSlot : Texture
+--- @class Char_RightSlot : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L21)
 --- Template
---- @class Char-Stat-Minus : Texture
+--- @class Char_Stat_Minus : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L25)
 --- Template
---- @class Char-LeftSlot : Texture
+--- @class Char_LeftSlot : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L29)
 --- Template
---- @class Char-Corner-LowerRight : Texture
+--- @class Char_Corner_LowerRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L33)
 --- Template
---- @class Char-Corner-LowerLeft : Texture
+--- @class Char_Corner_LowerLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L37)
 --- Template
---- @class Char-Corner-UpperRight : Texture
+--- @class Char_Corner_UpperRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L41)
 --- Template
---- @class Char-Corner-UpperLeft : Texture
+--- @class Char_Corner_UpperLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L45)
 --- Template
---- @class Char-Stat-Plus : Texture
+--- @class Char_Stat_Plus : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L49)
 --- Template
---- @class Char-BottomSlot : Texture
+--- @class Char_BottomSlot : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L53)
 --- Template
---- @class Char-Slot-Bottom-Right : Texture
+--- @class Char_Slot_Bottom_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L57)
 --- Template
---- @class Char-Slot-Bottom-Left : Texture
+--- @class Char_Slot_Bottom_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L62)
 --- Template
---- @class Char-Inner-Bottom : Texture
+--- @class Char_Inner_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L66)
 --- Template
---- @class Char-Inner-Top : Texture
+--- @class Char_Inner_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L70)
 --- Template
---- @class Char-Inner-Left : Texture
+--- @class Char_Inner_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L74)
 --- Template
---- @class Char-Inner-Right : Texture
+--- @class Char_Inner_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L90)
 --- child of CharacterStatFrameCategoryTemplate

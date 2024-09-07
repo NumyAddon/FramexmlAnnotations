@@ -12,6 +12,36 @@
 --- Template
 --- @class LootRollButtonTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L85)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L88)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateCount
+LootButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L97)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateStock
+LootButtonTemplateStock = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L108)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateSearchOverlay = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L127)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateSubIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L135)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateNormalTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L9)
 --- child of LootButton1 (created in template LootButtonTemplate)
 --- @type Texture
@@ -26,6 +56,40 @@ LootButton1Text = {}
 --- child of LootFrame
 --- @class LootFrame_LootButton1 : Button, LootButtonTemplate
 LootButton1 = {}
+LootButton1["icon"] = LootButtonTemplateIconTexture -- inherited
+LootButton1["Count"] = LootButtonTemplateCount -- inherited
+LootButton1["searchOverlay"] = LootButtonTemplateSearchOverlay -- inherited
+LootButton1["subicon"] = LootButtonTemplateSubIconTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L85)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L88)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateCount
+LootButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L97)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateStock
+LootButtonTemplateStock = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L108)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateSearchOverlay = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L127)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateSubIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L135)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L9)
 --- child of LootButton2 (created in template LootButtonTemplate)
@@ -41,6 +105,40 @@ LootButton2Text = {}
 --- child of LootFrame
 --- @class LootFrame_LootButton2 : Button, LootButtonTemplate
 LootButton2 = {}
+LootButton2["icon"] = LootButtonTemplateIconTexture -- inherited
+LootButton2["Count"] = LootButtonTemplateCount -- inherited
+LootButton2["searchOverlay"] = LootButtonTemplateSearchOverlay -- inherited
+LootButton2["subicon"] = LootButtonTemplateSubIconTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L85)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L88)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateCount
+LootButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L97)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateStock
+LootButtonTemplateStock = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L108)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateSearchOverlay = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L127)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateSubIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L135)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L9)
 --- child of LootButton3 (created in template LootButtonTemplate)
@@ -56,6 +154,40 @@ LootButton3Text = {}
 --- child of LootFrame
 --- @class LootFrame_LootButton3 : Button, LootButtonTemplate
 LootButton3 = {}
+LootButton3["icon"] = LootButtonTemplateIconTexture -- inherited
+LootButton3["Count"] = LootButtonTemplateCount -- inherited
+LootButton3["searchOverlay"] = LootButtonTemplateSearchOverlay -- inherited
+LootButton3["subicon"] = LootButtonTemplateSubIconTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L85)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L88)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateCount
+LootButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L97)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type ItemButtonTemplate_ItemButtonTemplateStock
+LootButtonTemplateStock = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L108)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateSearchOverlay = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L127)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateSubIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L135)
+--- child of LootButtonTemplate (created in template ItemButtonTemplate)
+--- @type Texture
+LootButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L9)
 --- child of LootButton4 (created in template LootButtonTemplate)
@@ -71,6 +203,10 @@ LootButton4Text = {}
 --- child of LootFrame
 --- @class LootFrame_LootButton4 : Button, LootButtonTemplate
 LootButton4 = {}
+LootButton4["icon"] = LootButtonTemplateIconTexture -- inherited
+LootButton4["Count"] = LootButtonTemplateCount -- inherited
+LootButton4["searchOverlay"] = LootButtonTemplateSearchOverlay -- inherited
+LootButton4["subicon"] = LootButtonTemplateSubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L123)
 --- child of LootFrame
@@ -100,6 +236,81 @@ LootFramePrev = {}
 --- child of LootFrame
 --- @class LootFrame_LootFrameNext : FontString, GameFontNormal
 LootFrameNext = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L563)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplateBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L569)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+PortraitFrameTemplateTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L577)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplatePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L585)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+PortraitFrameTemplatePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L590)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+PortraitFrameTemplateTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L595)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+PortraitFrameTemplateTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L600)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+PortraitFrameTemplateTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L606)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+PortraitFrameTemplateTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L615)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+PortraitFrameTemplateTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L621)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+PortraitFrameTemplateBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L626)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+PortraitFrameTemplateBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L631)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+PortraitFrameTemplateBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L637)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+PortraitFrameTemplateLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L643)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+PortraitFrameTemplateRightBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L657)
+--- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L796)
 --- child of LootFrameInset (created in template InsetFrameTemplate)
@@ -178,6 +389,21 @@ LootFrameButtonBottomBorder = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L70)
 --- @class LootFrame : Frame, ButtonFrameTemplate
 LootFrame = {}
+LootFrame["Bg"] = PortraitFrameTemplateBg -- inherited
+LootFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
+LootFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
+LootFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
+LootFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
+LootFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
+LootFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
+LootFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
+LootFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
+LootFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
+LootFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
+LootFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
+LootFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
+LootFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
+LootFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 LootFrame["Inset"] = LootFrameInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L241)
@@ -383,5 +609,6 @@ GroupLootFrame4["Name"] = GroupLootFrame4Name -- inherited
 --- @field Item MasterLooterFrame_Item
 --- @field player1 MasterLooterFrame_player1
 MasterLooterFrame = {}
+MasterLooterFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 MasterLooterFrame["backdropColorAlpha"] = 0.8 -- inherited
 

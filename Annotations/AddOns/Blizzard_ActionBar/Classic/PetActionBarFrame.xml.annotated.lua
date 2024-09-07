@@ -15,6 +15,146 @@
 --- @field SpellHighlightAnim PetActionButtonTemplate_SpellHighlightAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L22)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L29)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L36)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L43)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L50)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L57)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L64)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L71)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L78)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L85)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L92)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L99)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L106)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L113)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L120)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L94)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+PetActionButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L100)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+PetActionButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L23)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L26)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L27)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+PetActionButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L32)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+PetActionButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L39)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+PetActionButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L40)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+PetActionButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L46)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+PetActionButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L53)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+PetActionButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L59)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L110)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateNormalTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
 --- child of PetActionButton1Shine (created in template AutoCastShineTemplate)
 --- @type Texture
 PetActionButton1Shine1 = {}
@@ -113,6 +253,158 @@ PetActionButton1NormalTexture2 = {}
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton1 : CheckButton, PetActionButtonTemplate
 PetActionButton1 = {}
+PetActionButton1["AutoCastShine"] = PetActionButtonTemplateShine -- inherited
+PetActionButton1["cooldown"] = PetActionButtonTemplateCooldown -- inherited
+PetActionButton1["icon"] = PetActionButtonTemplateIcon -- inherited
+PetActionButton1["Flash"] = PetActionButtonTemplateFlash -- inherited
+PetActionButton1["FlyoutBorder"] = PetActionButtonTemplateFlyoutBorder -- inherited
+PetActionButton1["FlyoutBorderShadow"] = PetActionButtonTemplateFlyoutBorderShadow -- inherited
+PetActionButton1["FlyoutArrow"] = PetActionButtonTemplateFlyoutArrow -- inherited
+PetActionButton1["HotKey"] = PetActionButtonTemplateHotKey -- inherited
+PetActionButton1["Count"] = PetActionButtonTemplateCount -- inherited
+PetActionButton1["Name"] = PetActionButtonTemplateName -- inherited
+PetActionButton1["Border"] = PetActionButtonTemplateBorder -- inherited
+PetActionButton1["NormalTexture"] = PetActionButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L22)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L29)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L36)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L43)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L50)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L57)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L64)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L71)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L78)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L85)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L92)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L99)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L106)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L113)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L120)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L94)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+PetActionButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L100)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+PetActionButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L23)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L26)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L27)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+PetActionButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L32)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+PetActionButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L39)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+PetActionButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L40)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+PetActionButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L46)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+PetActionButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L53)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+PetActionButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L59)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L110)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
 --- child of PetActionButton2Shine (created in template AutoCastShineTemplate)
@@ -213,6 +505,158 @@ PetActionButton2NormalTexture2 = {}
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton2 : CheckButton, PetActionButtonTemplate
 PetActionButton2 = {}
+PetActionButton2["AutoCastShine"] = PetActionButtonTemplateShine -- inherited
+PetActionButton2["cooldown"] = PetActionButtonTemplateCooldown -- inherited
+PetActionButton2["icon"] = PetActionButtonTemplateIcon -- inherited
+PetActionButton2["Flash"] = PetActionButtonTemplateFlash -- inherited
+PetActionButton2["FlyoutBorder"] = PetActionButtonTemplateFlyoutBorder -- inherited
+PetActionButton2["FlyoutBorderShadow"] = PetActionButtonTemplateFlyoutBorderShadow -- inherited
+PetActionButton2["FlyoutArrow"] = PetActionButtonTemplateFlyoutArrow -- inherited
+PetActionButton2["HotKey"] = PetActionButtonTemplateHotKey -- inherited
+PetActionButton2["Count"] = PetActionButtonTemplateCount -- inherited
+PetActionButton2["Name"] = PetActionButtonTemplateName -- inherited
+PetActionButton2["Border"] = PetActionButtonTemplateBorder -- inherited
+PetActionButton2["NormalTexture"] = PetActionButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L22)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L29)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L36)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L43)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L50)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L57)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L64)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L71)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L78)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L85)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L92)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L99)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L106)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L113)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L120)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L94)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+PetActionButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L100)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+PetActionButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L23)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L26)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L27)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+PetActionButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L32)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+PetActionButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L39)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+PetActionButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L40)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+PetActionButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L46)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+PetActionButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L53)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+PetActionButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L59)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L110)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
 --- child of PetActionButton3Shine (created in template AutoCastShineTemplate)
@@ -313,6 +757,158 @@ PetActionButton3NormalTexture2 = {}
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton3 : CheckButton, PetActionButtonTemplate
 PetActionButton3 = {}
+PetActionButton3["AutoCastShine"] = PetActionButtonTemplateShine -- inherited
+PetActionButton3["cooldown"] = PetActionButtonTemplateCooldown -- inherited
+PetActionButton3["icon"] = PetActionButtonTemplateIcon -- inherited
+PetActionButton3["Flash"] = PetActionButtonTemplateFlash -- inherited
+PetActionButton3["FlyoutBorder"] = PetActionButtonTemplateFlyoutBorder -- inherited
+PetActionButton3["FlyoutBorderShadow"] = PetActionButtonTemplateFlyoutBorderShadow -- inherited
+PetActionButton3["FlyoutArrow"] = PetActionButtonTemplateFlyoutArrow -- inherited
+PetActionButton3["HotKey"] = PetActionButtonTemplateHotKey -- inherited
+PetActionButton3["Count"] = PetActionButtonTemplateCount -- inherited
+PetActionButton3["Name"] = PetActionButtonTemplateName -- inherited
+PetActionButton3["Border"] = PetActionButtonTemplateBorder -- inherited
+PetActionButton3["NormalTexture"] = PetActionButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L22)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L29)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L36)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L43)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L50)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L57)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L64)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L71)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L78)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L85)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L92)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L99)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L106)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L113)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L120)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L94)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+PetActionButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L100)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+PetActionButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L23)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L26)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L27)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+PetActionButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L32)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+PetActionButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L39)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+PetActionButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L40)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+PetActionButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L46)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+PetActionButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L53)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+PetActionButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L59)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L110)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
 --- child of PetActionButton4Shine (created in template AutoCastShineTemplate)
@@ -413,6 +1009,158 @@ PetActionButton4NormalTexture2 = {}
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton4 : CheckButton, PetActionButtonTemplate
 PetActionButton4 = {}
+PetActionButton4["AutoCastShine"] = PetActionButtonTemplateShine -- inherited
+PetActionButton4["cooldown"] = PetActionButtonTemplateCooldown -- inherited
+PetActionButton4["icon"] = PetActionButtonTemplateIcon -- inherited
+PetActionButton4["Flash"] = PetActionButtonTemplateFlash -- inherited
+PetActionButton4["FlyoutBorder"] = PetActionButtonTemplateFlyoutBorder -- inherited
+PetActionButton4["FlyoutBorderShadow"] = PetActionButtonTemplateFlyoutBorderShadow -- inherited
+PetActionButton4["FlyoutArrow"] = PetActionButtonTemplateFlyoutArrow -- inherited
+PetActionButton4["HotKey"] = PetActionButtonTemplateHotKey -- inherited
+PetActionButton4["Count"] = PetActionButtonTemplateCount -- inherited
+PetActionButton4["Name"] = PetActionButtonTemplateName -- inherited
+PetActionButton4["Border"] = PetActionButtonTemplateBorder -- inherited
+PetActionButton4["NormalTexture"] = PetActionButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L22)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L29)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L36)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L43)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L50)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L57)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L64)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L71)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L78)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L85)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L92)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L99)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L106)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L113)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L120)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L94)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+PetActionButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L100)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+PetActionButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L23)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L26)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L27)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+PetActionButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L32)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+PetActionButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L39)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+PetActionButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L40)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+PetActionButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L46)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+PetActionButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L53)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+PetActionButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L59)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L110)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
 --- child of PetActionButton5Shine (created in template AutoCastShineTemplate)
@@ -513,6 +1261,158 @@ PetActionButton5NormalTexture2 = {}
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton5 : CheckButton, PetActionButtonTemplate
 PetActionButton5 = {}
+PetActionButton5["AutoCastShine"] = PetActionButtonTemplateShine -- inherited
+PetActionButton5["cooldown"] = PetActionButtonTemplateCooldown -- inherited
+PetActionButton5["icon"] = PetActionButtonTemplateIcon -- inherited
+PetActionButton5["Flash"] = PetActionButtonTemplateFlash -- inherited
+PetActionButton5["FlyoutBorder"] = PetActionButtonTemplateFlyoutBorder -- inherited
+PetActionButton5["FlyoutBorderShadow"] = PetActionButtonTemplateFlyoutBorderShadow -- inherited
+PetActionButton5["FlyoutArrow"] = PetActionButtonTemplateFlyoutArrow -- inherited
+PetActionButton5["HotKey"] = PetActionButtonTemplateHotKey -- inherited
+PetActionButton5["Count"] = PetActionButtonTemplateCount -- inherited
+PetActionButton5["Name"] = PetActionButtonTemplateName -- inherited
+PetActionButton5["Border"] = PetActionButtonTemplateBorder -- inherited
+PetActionButton5["NormalTexture"] = PetActionButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L22)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L29)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L36)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L43)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L50)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L57)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L64)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L71)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L78)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L85)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L92)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L99)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L106)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L113)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L120)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L94)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+PetActionButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L100)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+PetActionButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L23)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L26)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L27)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+PetActionButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L32)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+PetActionButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L39)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+PetActionButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L40)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+PetActionButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L46)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+PetActionButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L53)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+PetActionButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L59)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L110)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
 --- child of PetActionButton6Shine (created in template AutoCastShineTemplate)
@@ -613,6 +1513,158 @@ PetActionButton6NormalTexture2 = {}
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton6 : CheckButton, PetActionButtonTemplate
 PetActionButton6 = {}
+PetActionButton6["AutoCastShine"] = PetActionButtonTemplateShine -- inherited
+PetActionButton6["cooldown"] = PetActionButtonTemplateCooldown -- inherited
+PetActionButton6["icon"] = PetActionButtonTemplateIcon -- inherited
+PetActionButton6["Flash"] = PetActionButtonTemplateFlash -- inherited
+PetActionButton6["FlyoutBorder"] = PetActionButtonTemplateFlyoutBorder -- inherited
+PetActionButton6["FlyoutBorderShadow"] = PetActionButtonTemplateFlyoutBorderShadow -- inherited
+PetActionButton6["FlyoutArrow"] = PetActionButtonTemplateFlyoutArrow -- inherited
+PetActionButton6["HotKey"] = PetActionButtonTemplateHotKey -- inherited
+PetActionButton6["Count"] = PetActionButtonTemplateCount -- inherited
+PetActionButton6["Name"] = PetActionButtonTemplateName -- inherited
+PetActionButton6["Border"] = PetActionButtonTemplateBorder -- inherited
+PetActionButton6["NormalTexture"] = PetActionButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L22)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L29)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L36)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L43)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L50)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L57)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L64)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L71)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L78)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L85)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L92)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L99)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L106)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L113)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L120)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L94)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+PetActionButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L100)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+PetActionButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L23)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L26)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L27)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+PetActionButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L32)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+PetActionButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L39)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+PetActionButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L40)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+PetActionButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L46)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+PetActionButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L53)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+PetActionButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L59)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L110)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
 --- child of PetActionButton7Shine (created in template AutoCastShineTemplate)
@@ -713,6 +1765,158 @@ PetActionButton7NormalTexture2 = {}
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton7 : CheckButton, PetActionButtonTemplate
 PetActionButton7 = {}
+PetActionButton7["AutoCastShine"] = PetActionButtonTemplateShine -- inherited
+PetActionButton7["cooldown"] = PetActionButtonTemplateCooldown -- inherited
+PetActionButton7["icon"] = PetActionButtonTemplateIcon -- inherited
+PetActionButton7["Flash"] = PetActionButtonTemplateFlash -- inherited
+PetActionButton7["FlyoutBorder"] = PetActionButtonTemplateFlyoutBorder -- inherited
+PetActionButton7["FlyoutBorderShadow"] = PetActionButtonTemplateFlyoutBorderShadow -- inherited
+PetActionButton7["FlyoutArrow"] = PetActionButtonTemplateFlyoutArrow -- inherited
+PetActionButton7["HotKey"] = PetActionButtonTemplateHotKey -- inherited
+PetActionButton7["Count"] = PetActionButtonTemplateCount -- inherited
+PetActionButton7["Name"] = PetActionButtonTemplateName -- inherited
+PetActionButton7["Border"] = PetActionButtonTemplateBorder -- inherited
+PetActionButton7["NormalTexture"] = PetActionButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L22)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L29)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L36)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L43)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L50)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L57)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L64)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L71)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L78)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L85)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L92)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L99)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L106)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L113)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L120)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L94)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+PetActionButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L100)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+PetActionButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L23)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L26)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L27)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+PetActionButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L32)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+PetActionButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L39)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+PetActionButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L40)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+PetActionButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L46)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+PetActionButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L53)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+PetActionButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L59)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L110)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
 --- child of PetActionButton8Shine (created in template AutoCastShineTemplate)
@@ -813,6 +2017,158 @@ PetActionButton8NormalTexture2 = {}
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton8 : CheckButton, PetActionButtonTemplate
 PetActionButton8 = {}
+PetActionButton8["AutoCastShine"] = PetActionButtonTemplateShine -- inherited
+PetActionButton8["cooldown"] = PetActionButtonTemplateCooldown -- inherited
+PetActionButton8["icon"] = PetActionButtonTemplateIcon -- inherited
+PetActionButton8["Flash"] = PetActionButtonTemplateFlash -- inherited
+PetActionButton8["FlyoutBorder"] = PetActionButtonTemplateFlyoutBorder -- inherited
+PetActionButton8["FlyoutBorderShadow"] = PetActionButtonTemplateFlyoutBorderShadow -- inherited
+PetActionButton8["FlyoutArrow"] = PetActionButtonTemplateFlyoutArrow -- inherited
+PetActionButton8["HotKey"] = PetActionButtonTemplateHotKey -- inherited
+PetActionButton8["Count"] = PetActionButtonTemplateCount -- inherited
+PetActionButton8["Name"] = PetActionButtonTemplateName -- inherited
+PetActionButton8["Border"] = PetActionButtonTemplateBorder -- inherited
+PetActionButton8["NormalTexture"] = PetActionButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L22)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L29)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L36)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L43)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L50)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L57)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L64)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L71)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L78)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L85)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L92)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L99)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L106)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L113)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L120)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L94)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+PetActionButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L100)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+PetActionButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L23)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L26)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L27)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+PetActionButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L32)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+PetActionButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L39)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+PetActionButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L40)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+PetActionButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L46)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+PetActionButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L53)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+PetActionButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L59)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L110)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
 --- child of PetActionButton9Shine (created in template AutoCastShineTemplate)
@@ -913,6 +2269,158 @@ PetActionButton9NormalTexture2 = {}
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton9 : CheckButton, PetActionButtonTemplate
 PetActionButton9 = {}
+PetActionButton9["AutoCastShine"] = PetActionButtonTemplateShine -- inherited
+PetActionButton9["cooldown"] = PetActionButtonTemplateCooldown -- inherited
+PetActionButton9["icon"] = PetActionButtonTemplateIcon -- inherited
+PetActionButton9["Flash"] = PetActionButtonTemplateFlash -- inherited
+PetActionButton9["FlyoutBorder"] = PetActionButtonTemplateFlyoutBorder -- inherited
+PetActionButton9["FlyoutBorderShadow"] = PetActionButtonTemplateFlyoutBorderShadow -- inherited
+PetActionButton9["FlyoutArrow"] = PetActionButtonTemplateFlyoutArrow -- inherited
+PetActionButton9["HotKey"] = PetActionButtonTemplateHotKey -- inherited
+PetActionButton9["Count"] = PetActionButtonTemplateCount -- inherited
+PetActionButton9["Name"] = PetActionButtonTemplateName -- inherited
+PetActionButton9["Border"] = PetActionButtonTemplateBorder -- inherited
+PetActionButton9["NormalTexture"] = PetActionButtonTemplateNormalTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L22)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L29)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L36)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L43)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L50)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L57)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L64)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L71)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L78)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L85)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L92)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L99)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L106)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L113)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L120)
+--- child of PetActionButtonTemplateShine (created in template AutoCastShineTemplate)
+--- @type Texture
+PetActionButtonTemplateShine16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L94)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateShine
+PetActionButtonTemplateShine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L100)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+PetActionButtonTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L23)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L26)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L27)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+PetActionButtonTemplateFlyoutBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L32)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+PetActionButtonTemplateFlyoutBorderShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L39)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+PetActionButtonTemplateFlyoutArrow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L40)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+PetActionButtonTemplateHotKey = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L46)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateCount
+PetActionButtonTemplateCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L53)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_ActionButtonTemplateName
+PetActionButtonTemplateName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L59)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L110)
+--- child of PetActionButtonTemplate (created in template ActionButtonTemplate)
+--- @type Texture
+PetActionButtonTemplateNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L15)
 --- child of PetActionButton10Shine (created in template AutoCastShineTemplate)
@@ -1013,6 +2521,18 @@ PetActionButton10NormalTexture2 = {}
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton10 : CheckButton, PetActionButtonTemplate
 PetActionButton10 = {}
+PetActionButton10["AutoCastShine"] = PetActionButtonTemplateShine -- inherited
+PetActionButton10["cooldown"] = PetActionButtonTemplateCooldown -- inherited
+PetActionButton10["icon"] = PetActionButtonTemplateIcon -- inherited
+PetActionButton10["Flash"] = PetActionButtonTemplateFlash -- inherited
+PetActionButton10["FlyoutBorder"] = PetActionButtonTemplateFlyoutBorder -- inherited
+PetActionButton10["FlyoutBorderShadow"] = PetActionButtonTemplateFlyoutBorderShadow -- inherited
+PetActionButton10["FlyoutArrow"] = PetActionButtonTemplateFlyoutArrow -- inherited
+PetActionButton10["HotKey"] = PetActionButtonTemplateHotKey -- inherited
+PetActionButton10["Count"] = PetActionButtonTemplateCount -- inherited
+PetActionButton10["Name"] = PetActionButtonTemplateName -- inherited
+PetActionButton10["Border"] = PetActionButtonTemplateBorder -- inherited
+PetActionButton10["NormalTexture"] = PetActionButtonTemplateNormalTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L86)
 --- child of PetActionBarFrame

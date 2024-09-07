@@ -183,6 +183,31 @@ GlyphFrameSearchBox["searchIcon"] = GlyphFrameSearchBoxSearchIcon
 --- child of GlyphFrame
 --- @class GlyphFrame_FilterDropdown : DropdownButton, WowStyle1DropdownTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L15)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L20)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L27)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L34)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L51)
 --- child of GlyphFrameScrollFrameScrollBar (created in template HybridScrollBarTemplate)
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
@@ -197,6 +222,11 @@ GlyphFrameScrollFrameScrollBarScrollDownButton = {}
 --- child of GlyphFrameScrollFrame
 --- @class GlyphFrame_GlyphFrameScrollFrame_GlyphFrameScrollFrameScrollBar : Slider, HybridScrollBarTemplate
 GlyphFrameScrollFrameScrollBar = {}
+GlyphFrameScrollFrameScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
+GlyphFrameScrollFrameScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
+GlyphFrameScrollFrameScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
+GlyphFrameScrollFrameScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
+GlyphFrameScrollFrameScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 GlyphFrameScrollFrameScrollBar["ScrollUpButton"] = GlyphFrameScrollFrameScrollBarScrollUpButton -- inherited
 GlyphFrameScrollFrameScrollBar["ScrollDownButton"] = GlyphFrameScrollFrameScrollBarScrollDownButton -- inherited
 
@@ -582,23 +612,23 @@ GlyphFrameGlow["pulse"] = GlyphFrameGlowPulse
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L286)
 --- child of GlyphFrame
---- @class GlyphFrame_$LevelOverlay1 : Texture
-$LevelOverlay1 = {}
+--- @class GlyphFrame_LevelOverlay1 : Texture
+_G["$LevelOverlay1"] = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L293)
 --- child of GlyphFrame
---- @class GlyphFrame_$LevelOverlayText1 : FontString, GameFontNormalHugeBlack
-$LevelOverlayText1 = {}
+--- @class GlyphFrame_LevelOverlayText1 : FontString, GameFontNormalHugeBlack
+_G["$LevelOverlayText1"] = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L302)
 --- child of GlyphFrame
---- @class GlyphFrame_$LevelOverlay2 : Texture
-$LevelOverlay2 = {}
+--- @class GlyphFrame_LevelOverlay2 : Texture
+_G["$LevelOverlay2"] = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L309)
 --- child of GlyphFrame
---- @class GlyphFrame_$LevelOverlayText2 : FontString, GameFontNormalHugeBlack
-$LevelOverlayText2 = {}
+--- @class GlyphFrame_LevelOverlayText2 : FontString, GameFontNormalHugeBlack
+_G["$LevelOverlayText2"] = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L258)
 --- @class GlyphFrame : Frame
@@ -608,10 +638,10 @@ $LevelOverlayText2 = {}
 --- @field scrollFrame GlyphFrame_GlyphFrameScrollFrame
 --- @field background GlyphFrame_GlyphFrameBackground
 --- @field glow GlyphFrame_GlyphFrameGlow
---- @field levelOverlay1 GlyphFrame_$LevelOverlay1
---- @field levelOverlayText1 GlyphFrame_$LevelOverlayText1
---- @field levelOverlay2 GlyphFrame_$LevelOverlay2
---- @field levelOverlayText2 GlyphFrame_$LevelOverlayText2
+--- @field levelOverlay1 GlyphFrame_LevelOverlay1
+--- @field levelOverlayText1 GlyphFrame_LevelOverlayText1
+--- @field levelOverlay2 GlyphFrame_LevelOverlay2
+--- @field levelOverlayText2 GlyphFrame_LevelOverlayText2
 GlyphFrame = {}
 GlyphFrame["sideInset"] = GlyphFrameSideInset
 GlyphFrame["clearInfo"] = GlyphFrameClearInfoFrame

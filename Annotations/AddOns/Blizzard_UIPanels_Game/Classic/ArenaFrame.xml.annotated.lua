@@ -102,16 +102,19 @@ ArenaZone6 = {}
 --- child of ArenaFrame
 --- @class ArenaFrame_ArenaFrameCancelButton : Button, UIPanelButtonTemplate
 ArenaFrameCancelButton = {}
+ArenaFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L238)
 --- child of ArenaFrame
 --- @class ArenaFrame_ArenaFrameJoinButton : Button, UIPanelButtonTemplate
 ArenaFrameJoinButton = {}
+ArenaFrameJoinButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L255)
 --- child of ArenaFrame
 --- @class ArenaFrame_ArenaFrameGroupJoinButton : Button, UIPanelButtonTemplate
 ArenaFrameGroupJoinButton = {}
+ArenaFrameGroupJoinButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L281)
 --- child of ArenaFrame

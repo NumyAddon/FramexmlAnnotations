@@ -363,11 +363,13 @@ PVPFrameTopInset["InsetBorderRight"] = PVPFrameTopInsetInsetRightBorder -- inher
 --- child of PVPFrame
 --- @class PVPFrame_PVPFrameLeftButton : Button, MagicButtonTemplate
 PVPFrameLeftButton = {}
+PVPFrameLeftButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L568)
 --- child of PVPFrame
 --- @class PVPFrame_PVPFrameRightButton : Button, MagicButtonTemplate
 PVPFrameRightButton = {}
+PVPFrameRightButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L607)
 --- child of PVPHonorFrame
@@ -377,10 +379,34 @@ PVPFrameRightButton = {}
 --- child of PVPHonorFrame
 --- @class PVPFrame_PVPHonorFrame_bgTypeScrollBar : EventFrame, WowClassicScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L10)
+--- child of PVPQueueInfoScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+PVPQueueInfoScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L18)
+--- child of PVPQueueInfoScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+PVPQueueInfoScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L30)
+--- child of PVPQueueInfoScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+PVPQueueInfoScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L46)
+--- child of PVPQueueInfoScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+PVPQueueInfoScrollFrameTemplateScrollBar = {}
+PVPQueueInfoScrollFrameTemplateScrollBar["ScrollUpButton"] = PVPQueueInfoScrollFrameTemplateScrollBarScrollUpButton -- inherited
+PVPQueueInfoScrollFrameTemplateScrollBar["ScrollDownButton"] = PVPQueueInfoScrollFrameTemplateScrollBarScrollDownButton -- inherited
+PVPQueueInfoScrollFrameTemplateScrollBar["ThumbTexture"] = PVPQueueInfoScrollFrameTemplateScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L653)
 --- child of PVPHonorFrame
 --- @class PVPFrame_PVPHonorFrame_PVPHonorFrameInfoScrollFrame : ScrollFrame, PVPQueueInfoScrollFrameTemplate
 PVPHonorFrameInfoScrollFrame = {}
+PVPHonorFrameInfoScrollFrame["ScrollBar"] = PVPQueueInfoScrollFrameTemplateScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L596)
 --- child of PVPHonorFrame
@@ -870,7 +896,7 @@ PVPTeam1DataWinLossLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L321)
 --- child of PVPTeam1Data (created in template PVPTeamDataTemplate)
---- @type PVPTeamDataTemplate_PVPTeamDataTemplate-
+--- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
 PVPTeam1Data- = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L330)
@@ -1005,7 +1031,7 @@ PVPTeam2DataWinLossLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L321)
 --- child of PVPTeam2Data (created in template PVPTeamDataTemplate)
---- @type PVPTeamDataTemplate_PVPTeamDataTemplate-
+--- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
 PVPTeam2Data- = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L330)
@@ -1140,7 +1166,7 @@ PVPTeam3DataWinLossLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L321)
 --- child of PVPTeam3Data (created in template PVPTeamDataTemplate)
---- @type PVPTeamDataTemplate_PVPTeamDataTemplate-
+--- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
 PVPTeam3Data- = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L330)
@@ -1444,7 +1470,7 @@ PVPTeamDetailsButton1Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1502,7 +1528,7 @@ PVPTeamDetailsButton2Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1560,7 +1586,7 @@ PVPTeamDetailsButton3Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1618,7 +1644,7 @@ PVPTeamDetailsButton4Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1676,7 +1702,7 @@ PVPTeamDetailsButton5Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1734,7 +1760,7 @@ PVPTeamDetailsButton6Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1792,7 +1818,7 @@ PVPTeamDetailsButton7Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1850,7 +1876,7 @@ PVPTeamDetailsButton8Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1908,7 +1934,7 @@ PVPTeamDetailsButton9Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1966,7 +1992,7 @@ PVPTeamDetailsButton10Played = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L446)
 --- child of PVPTeamMemberButtonTemplateWinLoss
---- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss- : FontString, GameFontHighlightSmall
+--- @class PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateWinLoss_PVPTeamMemberButtonTemplateWinLoss_ : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L454)
 --- child of PVPTeamMemberButtonTemplateWinLoss
@@ -1995,6 +2021,7 @@ PVPTeamDetailsButton10 = {}
 --- child of PVPTeamDetails
 --- @class PVPFrame_PVPTeamManagementFrame_PVPTeamDetails_PVPTeamDetailsAddTeamMember : Button, UIPanelButtonTemplate
 PVPTeamDetailsAddTeamMember = {}
+PVPTeamDetailsAddTeamMember["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L1768)
 --- child of PVPTeamDetails
@@ -2033,7 +2060,7 @@ PVPTeamDetailsWinLossLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L1508)
 --- child of PVPTeamDetails
---- @class PVPFrame_PVPTeamManagementFrame_PVPTeamDetails_PVPTeamDetails- : FontString, GameFontHighlightSmall
+--- @class PVPFrame_PVPTeamManagementFrame_PVPTeamDetails_PVPTeamDetails_ : FontString, GameFontHighlightSmall
 PVPTeamDetails- = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L1517)
@@ -2092,6 +2119,7 @@ PVPTeamManagementFrame["weeklyToggleRight"] = PVPFrameToggleButton
 --- child of WarGamesFrame
 --- @class PVPFrame_WarGamesFrame_WarGameStartButton : Button, MagicButtonTemplate
 WarGameStartButton = {}
+WarGameStartButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L1875)
 --- child of WarGamesFrame
@@ -2278,6 +2306,81 @@ PVPFrameLowLevelFrame["ShadowBottom"] = PVPFrameLowLevelFrameShadowBottom -- inh
 PVPFrameLowLevelFrame["ShadowLeft"] = PVPFrameLowLevelFrameShadowLeft -- inherited
 PVPFrameLowLevelFrame["ShadowRight"] = PVPFrameLowLevelFrameShadowRight -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L563)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplateBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L569)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+PortraitFrameTemplateTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L577)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplatePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L585)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+PortraitFrameTemplatePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L590)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+PortraitFrameTemplateTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L595)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+PortraitFrameTemplateTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L600)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+PortraitFrameTemplateTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L606)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+PortraitFrameTemplateTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L615)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+PortraitFrameTemplateTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L621)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+PortraitFrameTemplateBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L626)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+PortraitFrameTemplateBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L631)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+PortraitFrameTemplateBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L637)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+PortraitFrameTemplateLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L643)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+PortraitFrameTemplateRightBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L657)
+--- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L796)
 --- child of PVPFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
@@ -2370,6 +2473,21 @@ PVPFrame["panel2"] = PVPConquestFrame
 PVPFrame["panel3"] = PVPTeamManagementFrame
 PVPFrame["panel4"] = WarGamesFrame
 PVPFrame["lowLevelFrame"] = PVPFrameLowLevelFrame
+PVPFrame["Bg"] = PortraitFrameTemplateBg -- inherited
+PVPFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
+PVPFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
+PVPFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
+PVPFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
+PVPFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
+PVPFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
+PVPFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
+PVPFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
+PVPFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
+PVPFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
+PVPFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
+PVPFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
+PVPFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
+PVPFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 PVPFrame["Inset"] = PVPFrameInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2056)
@@ -2385,11 +2503,13 @@ PVPFramePopupMinimizeButton = {}
 --- child of PVPFramePopup
 --- @class PVPFramePopup_PVPFramePopupAcceptButton : Button, UIPanelButtonTemplate
 PVPFramePopupAcceptButton = {}
+PVPFramePopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2148)
 --- child of PVPFramePopup
 --- @class PVPFramePopup_PVPFramePopupDeclineButton : Button, UIPanelButtonTemplate
 PVPFramePopupDeclineButton = {}
+PVPFramePopupDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2061)
 --- child of PVPFramePopup

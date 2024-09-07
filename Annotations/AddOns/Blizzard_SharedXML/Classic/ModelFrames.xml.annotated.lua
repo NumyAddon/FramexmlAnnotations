@@ -18,6 +18,37 @@
 --- Template
 --- @class ModelWithZoomTemplate : PlayerModel, ModelTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L107)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomInButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L125)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomOutButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L143)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L163)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L179)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L195)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateResetButton : Button, ModelControlButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L75)
+--- child of ModelWithControlsTemplate
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame : Frame
+--- @field panButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton
+--- @field rotateLeftButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton
+--- @field rotateRightButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/ModelFrames.xml#L73)
 --- Template
 --- @class ModelWithControlsTemplate : PlayerModel

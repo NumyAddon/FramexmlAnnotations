@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L15)
+--- child of VoiceChatPromptTemplate
+--- @class VoiceChatPromptTemplate_Text : FontString, FriendsFont_Normal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L5)
 --- Template
 --- @class VoiceChatPromptTemplate : ContainedAlertFrame, SocialToastTemplate

@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L25)
+--- child of RaidClassButtonTemplate
+--- @class RaidClassButtonTemplate_RaidClassButtonTemplateCount : FontString, NumberFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L3)
 --- Template
 --- @class RaidClassButtonTemplate : Button
@@ -8,13 +12,61 @@
 --- Template
 --- @class RaidRoleIconTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L95)
+--- child of RaidGroupButtonTemplate
+--- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateRank : Button, RaidRoleIconTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L121)
+--- child of RaidGroupButtonTemplate
+--- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateRole : Button, RaidRoleIconTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L143)
+--- child of RaidGroupButtonTemplate
+--- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot : Button, RaidRoleIconTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L160)
+--- child of RaidGroupButtonTemplate
+--- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck : Frame, ReadyCheckStatusTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L80)
+--- child of RaidGroupButtonTemplate
+--- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L86)
+--- child of RaidGroupButtonTemplate
+--- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L76)
 --- Template
 --- @class RaidGroupButtonTemplate : Button, SecureUnitButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L268)
+--- child of RaidGroupSlotTemplate
+--- @class  : FontString, GameFontDarkGraySmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L264)
 --- Template
 --- @class RaidGroupSlotTemplate : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L315)
+--- child of RaidGroupTemplate
+--- @class RaidGroupTemplate_RaidGroupTemplateSlot1 : Button, RaidGroupSlotTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L320)
+--- child of RaidGroupTemplate
+--- @class RaidGroupTemplate_RaidGroupTemplateSlot2 : Button, RaidGroupSlotTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L325)
+--- child of RaidGroupTemplate
+--- @class RaidGroupTemplate_RaidGroupTemplateSlot3 : Button, RaidGroupSlotTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L330)
+--- child of RaidGroupTemplate
+--- @class RaidGroupTemplate_RaidGroupTemplateSlot4 : Button, RaidGroupSlotTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L335)
+--- child of RaidGroupTemplate
+--- @class RaidGroupTemplate_RaidGroupTemplateSlot5 : Button, RaidGroupSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L279)
 --- Template
@@ -24,9 +76,83 @@
 --- Template
 --- @class RaidAuraFrameTemplate : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L420)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateHealthBar : StatusBar, TextStatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L450)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateManaBar : StatusBar, TextStatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L501)
+--- child of RaidPulloutButtonTemplateTarget
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTarget_RaidPulloutButtonTemplateTargetName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L474)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTarget : StatusBar, SecureFrameTemplate, TextStatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L536)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTargetFrame : Frame, TooltipBackdropTemplate
+--- @field backdropBorderColor any # GRAY_FONT_COLOR
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L597)
+--- child of 
+--- @class Name : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L590)
+--- child of RaidPulloutButtonTemplateTargetTarget
+--- @class  : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L566)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTarget : StatusBar, TextStatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L622)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateClearButton : Button, SecureUnitButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L637)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTargetClearButton : Button, SecureUnitButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L656)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateReadyCheck : Frame, ReadyCheckStatusTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L667)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura1 : Frame, RaidAuraFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L672)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura2 : Frame, RaidAuraFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L677)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura3 : Frame, RaidAuraFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L682)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura4 : Frame, RaidAuraFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L397)
+--- child of RaidPulloutButtonTemplate
+--- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateName : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L393)
 --- Template
 --- @class RaidPulloutButtonTemplate : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L719)
+--- child of RaidPulloutFrameTemplate
+--- @class RaidPulloutFrameTemplate_RaidPulloutFrameTemplateMenuBackdrop : Frame, TooltipBackdropTemplate
+--- @field backdropBorderColor any # GRAY_FONT_COLOR
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L711)
+--- child of RaidPulloutFrameTemplate
+--- @class RaidPulloutFrameTemplate_RaidPulloutFrameTemplateName : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L704)
 --- Template

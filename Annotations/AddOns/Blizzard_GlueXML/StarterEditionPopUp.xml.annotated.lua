@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L17)
+--- child of UpgradeFrameFeatureLargeTemplate
+--- @class UpgradeFrameFeatureLargeTemplate_UpgradeFrameFeatureLargeTemplateText : FontString, GlueFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L4)
 --- Template
 --- @class UpgradeFrameFeatureLargeTemplate : Frame

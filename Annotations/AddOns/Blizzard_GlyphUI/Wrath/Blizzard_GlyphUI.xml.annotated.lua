@@ -4,6 +4,11 @@
 --- Template
 --- @class GlyphTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L101)
+--- child of GlyphSparkleTexture
+--- @class GlyphSparkleTexture_GlyphSparkleTextureAnimGroup : AnimationGroup
+--- @field translate Translation
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L95)
 --- Template
 --- @class GlyphSparkleTexture : Texture

@@ -1,13 +1,41 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- child of PaperDollItemSlotButtonTemplate
+--- @class PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- Template
 --- @class PaperDollItemSlotButtonTemplate : Button, ItemButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- child of StatFrameTemplateStat
+--- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- child of StatFrameTemplate
+--- @class StatFrameTemplate_StatFrameTemplateStat : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- child of StatFrameTemplate
+--- @class StatFrameTemplate_StatFrameTemplateLabel : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L43)
 --- Template
 --- @class StatFrameTemplate : Frame
 --- @field Label StatFrameTemplate_StatFrameTemplateLabel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L107)
+--- child of AttributeFrameTemplateStat
+--- @class AttributeFrameTemplate_AttributeFrameTemplateStat_AttributeFrameTemplateStatText : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L98)
+--- child of AttributeFrameTemplate
+--- @class AttributeFrameTemplate_AttributeFrameTemplateStat : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L90)
+--- child of AttributeFrameTemplate
+--- @class AttributeFrameTemplate_AttributeFrameTemplateLabel : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L84)
 --- Template

@@ -1,5 +1,10 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.xml#L74)
+--- child of WorldQuestPinTemplate
+--- @class WorldQuestPinTemplate_TimeLowFrame : Frame
+--- @field Icon Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.xml#L5)
 --- Template
 --- @class WorldQuestPinTemplate : Frame, WorldQuestPinMixin
@@ -17,6 +22,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.xml#L88)
 --- Template
 --- @class WorldQuestSpellEffectPinTemplate : CinematicModel, WorldQuestSpellEffectPinMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.xml#L105)
+--- child of WorldQuestPingPinTemplate
+--- @class WorldQuestPingPinTemplate_DriverAnimation : AnimationGroup, WorldQuestPinPingDriverAnimationMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.xml#L115)
+--- child of WorldQuestPingPinTemplate
+--- @class WorldQuestPingPinTemplate_ScaleAnimation : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.xml#L92)
 --- Template

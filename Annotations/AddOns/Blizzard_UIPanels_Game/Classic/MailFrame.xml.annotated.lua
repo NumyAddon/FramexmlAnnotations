@@ -4,10 +4,37 @@
 --- Template
 --- @class SendMailRadioButtonTemplate : CheckButton, UIRadioButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L102)
+--- child of MailItemTemplateButton
+--- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonCOD : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L114)
+--- child of MailItemTemplateButton
+--- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonCount : FontString, NumberFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L73)
+--- child of MailItemTemplate
+--- @class MailItemTemplate_MailItemTemplateButton : CheckButton
+--- @field Icon Texture
+--- @field IconBorder Texture
+--- @field IconOverlay Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L36)
+--- child of MailItemTemplate
+--- @class MailItemTemplate_MailItemTemplateSender : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L42)
+--- child of MailItemTemplate
+--- @class MailItemTemplate_MailItemTemplateSubject : FontString, GameFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L11)
 --- Template
 --- @class MailItemTemplate : Frame
 --- @field Button MailItemTemplate_MailItemTemplateButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L180)
+--- child of SendMailAttachment
+--- @class SendMailAttachment_SendMailAttachmentCount : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L167)
 --- Template

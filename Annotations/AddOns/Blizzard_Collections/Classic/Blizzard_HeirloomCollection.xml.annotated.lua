@@ -1,9 +1,21 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L14)
+--- child of HeirloomHeaderTemplate
+--- @class HeirloomHeaderTemplate_text : FontString, Fancy16Font
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L3)
 --- Template
 --- @class HeirloomHeaderTemplate : Frame
 --- @field text HeirloomHeaderTemplate_text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L30)
+--- child of HeirloomSpellButtonTemplate
+--- @class HeirloomSpellButtonTemplate_special : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L65)
+--- child of HeirloomSpellButtonTemplate
+--- @class HeirloomSpellButtonTemplate_upgradeGlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L27)
 --- Template

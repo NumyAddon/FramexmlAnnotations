@@ -5,6 +5,18 @@
 --- @class MainMenuBarMicroButton : Button
 --- @field Flash Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L53)
+--- child of MicroButtonAlertTemplate
+--- @class MicroButtonAlertTemplate_CloseButton : Button, UIPanelCloseButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L67)
+--- child of MicroButtonAlertTemplate
+--- @class MicroButtonAlertTemplate_Arrow : Frame, GlowBoxArrowTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L44)
+--- child of MicroButtonAlertTemplate
+--- @class MicroButtonAlertTemplate_Text : FontString, GameFontHighlightLeft
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L35)
 --- Template
 --- @class MicroButtonAlertTemplate : Frame, GlowBoxTemplate

@@ -1,8 +1,16 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L9)
+--- child of CharacterCreateIconButtonTemplate
+--- @class CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText : FontString, GlueFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L3)
 --- Template
 --- @class CharacterCreateIconButtonTemplate : CheckButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L69)
+--- child of CharacterCreateRaceButtonTemplate
+--- @class CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText : FontString, GlueFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L66)
 --- Template
@@ -15,6 +23,18 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L99)
 --- Template
 --- @class CharacterCreateGenderButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L178)
+--- child of CharacterCustomizationFrameTemplate
+--- @class CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateRightButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L194)
+--- child of CharacterCustomizationFrameTemplate
+--- @class CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateLeftButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L166)
+--- child of CharacterCustomizationFrameTemplate
+--- @class CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText : FontString, GlueFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/CharacterCreate.xml#L124)
 --- Template

@@ -267,6 +267,19 @@ SmallTextTooltipText = {}
 SmallTextTooltip = {}
 SmallTextTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L103)
+--- child of InternalEmbeddedItemTooltipTemplate
+--- @class InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateTooltip : GameTooltip, GameTooltipTemplate
+--- @field IsEmbedded boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L72)
+--- child of InternalEmbeddedItemTooltipTemplate
+--- @class InternalEmbeddedItemTooltipTemplate_Count : FontString, NumberFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L77)
+--- child of InternalEmbeddedItemTooltipTemplate
+--- @class InternalEmbeddedItemTooltipTemplate_Text : FontString, GameTooltipText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L62)
 --- Template
 --- @class InternalEmbeddedItemTooltipTemplate : Frame

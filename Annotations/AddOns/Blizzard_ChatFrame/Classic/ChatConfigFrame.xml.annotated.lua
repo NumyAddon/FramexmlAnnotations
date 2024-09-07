@@ -13,24 +13,52 @@
 --- @class ChatConfigBoxTemplate : Frame, TooltipBackdropTemplate
 --- @field backdropColorAlpha number # .5
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L48)
+--- child of ChatConfigTextBoxTemplate
+--- @class ChatConfigTextBoxTemplate_ChatConfigTextBoxTemplateText : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L44)
 --- Template
 --- @class ChatConfigTextBoxTemplate : Frame, ChatConfigBoxTemplate
 --- @field Text ChatConfigTextBoxTemplate_ChatConfigTextBoxTemplateText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L62)
+--- child of ChatConfigTextBoxTemplateWithButton
+--- @class ChatConfigTextBoxTemplateWithButton_ChatConfigTextBoxTemplateWithButtonButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L60)
 --- Template
 --- @class ChatConfigTextBoxTemplateWithButton : Frame, ChatConfigTextBoxTemplate
 --- @field Button ChatConfigTextBoxTemplateWithButton_ChatConfigTextBoxTemplateWithButtonButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L75)
+--- child of ChatConfigBoxWithHeaderTemplate
+--- @class ChatConfigBoxWithHeaderTemplate_ChatConfigBoxWithHeaderTemplateTitle : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L72)
 --- Template
 --- @class ChatConfigBoxWithHeaderTemplate : Frame, ChatConfigBoxTemplate
 --- @field header ChatConfigBoxWithHeaderTemplate_ChatConfigBoxWithHeaderTemplateTitle
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L88)
+--- child of ChatConfigBoxWithHeaderAndClassColorsTemplate
+--- @class ChatConfigBoxWithHeaderAndClassColorsTemplate_ChatConfigBoxWithHeaderAndClassColorsTemplateColorHeader : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L93)
+--- child of ChatConfigBoxWithHeaderAndClassColorsTemplate
+--- @class ChatConfigBoxWithHeaderAndClassColorsTemplate_ChatConfigBoxWithHeaderAndClassColorsTemplateClassColorHeader : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L85)
 --- Template
 --- @class ChatConfigBoxWithHeaderAndClassColorsTemplate : Frame, ChatConfigBoxWithHeaderTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L106)
+--- child of WideChatConfigBoxWithHeaderAndClassColorsTemplate
+--- @class WideChatConfigBoxWithHeaderAndClassColorsTemplate_WideChatConfigBoxWithHeaderAndClassColorsTemplateColorHeader : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L111)
+--- child of WideChatConfigBoxWithHeaderAndClassColorsTemplate
+--- @class WideChatConfigBoxWithHeaderAndClassColorsTemplate_WideChatConfigBoxWithHeaderAndClassColorsTemplateClassColorHeader : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L103)
 --- Template
@@ -39,6 +67,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L121)
 --- Template
 --- @class ClassColorLegendFontStringTemplate : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L132)
+--- child of ClassColorLegendTemplate
+--- @class ClassColorLegendTemplate_ClassColorLegendTemplateTitle : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L139)
+--- child of ClassColorLegendTemplate
+--- @class ClassColorLegendTemplate_firstClass : FontString, ClassColorLegendFontStringTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L126)
 --- Template
@@ -50,14 +86,26 @@
 --- Template
 --- @class ChatConfigBaseCheckButtonTemplate : CheckButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L206)
+--- child of ChatConfigCheckButtonTemplate
+--- @class ChatConfigCheckButtonTemplate_ChatConfigCheckButtonTemplateText : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L200)
 --- Template
 --- @class ChatConfigCheckButtonTemplate : CheckButton, ChatConfigBaseCheckButtonTemplate
 --- @field Text ChatConfigCheckButtonTemplate_ChatConfigCheckButtonTemplateText
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L227)
+--- child of ChatConfigSmallCheckButtonTemplate
+--- @class ChatConfigSmallCheckButtonTemplate_ChatConfigSmallCheckButtonTemplateText : FontString, GameFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L221)
 --- Template
 --- @class ChatConfigSmallCheckButtonTemplate : CheckButton, ChatConfigBaseCheckButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L248)
+--- child of ChatConfigCheckboxTemplate
+--- @class ChatConfigCheckboxTemplate_ChatConfigCheckboxTemplateCheck : CheckButton, ChatConfigCheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L242)
 --- Template
@@ -69,6 +117,10 @@
 --- Template
 --- @class ChatConfigCheckboxSmallTemplate : Frame, ChatConfigCheckboxTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L265)
+--- child of ChatConfigCheckboxWithSwatchTemplate
+--- @class ChatConfigCheckboxWithSwatchTemplate_ChatConfigCheckboxWithSwatchTemplateColorSwatch : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L263)
 --- Template
 --- @class ChatConfigCheckboxWithSwatchTemplate : Frame, ChatConfigCheckboxTemplate
@@ -78,15 +130,40 @@
 --- Template
 --- @class ChatConfigWideCheckboxWithSwatchTemplate : Frame, ChatConfigCheckboxWithSwatchTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L308)
+--- child of MovableChatConfigWideCheckboxWithSwatchTemplate
+--- @class MovableChatConfigWideCheckboxWithSwatchTemplate_CloseChannel : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L321)
+--- child of MovableChatConfigWideCheckboxWithSwatchTemplate
+--- @class MovableChatConfigWideCheckboxWithSwatchTemplate_ArtOverlay : Frame
+--- @field GrayedOut Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L334)
+--- child of MovableChatConfigWideCheckboxWithSwatchTemplate
+--- @class MovableChatConfigWideCheckboxWithSwatchTemplate_MovableChatConfigWideCheckboxWithSwatchTemplateColorClasses : CheckButton, ChatConfigBaseCheckButtonTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L305)
 --- Template
 --- @class MovableChatConfigWideCheckboxWithSwatchTemplate : Frame, ChatConfigWideCheckboxWithSwatchTemplate, ChatConfigWideCheckboxMixin
 --- @field CloseChannel MovableChatConfigWideCheckboxWithSwatchTemplate_CloseChannel
 --- @field ArtOverlay MovableChatConfigWideCheckboxWithSwatchTemplate_ArtOverlay
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L360)
+--- child of ChatConfigCheckboxWithSwatchAndClassColorTemplate
+--- @class ChatConfigCheckboxWithSwatchAndClassColorTemplate_ChatConfigCheckboxWithSwatchAndClassColorTemplateColorClasses : CheckButton, ChatConfigBaseCheckButtonTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L355)
 --- Template
 --- @class ChatConfigCheckboxWithSwatchAndClassColorTemplate : Frame, ChatConfigCheckboxWithSwatchTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L396)
+--- child of ChatConfigSwatchTemplate
+--- @class ChatConfigSwatchTemplate_ChatConfigSwatchTemplateColorSwatch : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L386)
+--- child of ChatConfigSwatchTemplate
+--- @class ChatConfigSwatchTemplate_ChatConfigSwatchTemplateText : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L377)
 --- Template
@@ -326,6 +403,14 @@ ChatConfigOtherSettings = {}
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_NarrateMyMessagesCheckButton : CheckButton, TextToSpeechCheckButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L223)
+--- child of TextToSpeechFrameTtsVoiceDropdown
+--- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameTtsVoiceDropdown_TextToSpeechFrameTtsVoiceDropdownLabel : FontString, GameFontHighlightLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L228)
+--- child of TextToSpeechFrameTtsVoiceDropdown
+--- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameTtsVoiceDropdown_TextToSpeechFrameTtsVoiceDropdownMoreVoicesLabel : FontString, GameFontHighlightSmallLeft
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L217)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameTtsVoiceDropdown : DropdownButton, WowStyle1DropdownTemplate
@@ -346,10 +431,18 @@ ChatConfigOtherSettings = {}
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFramePlaySampleAlternateButton : Button, UIPanelButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L279)
+--- child of TextToSpeechFrameAdjustRateSlider
+--- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustRateSlider_TextToSpeechFrameAdjustRateSliderLabel : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L272)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustRateSlider : Slider, TextToSpeechSliderTemplate
 --- @field Label TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustRateSlider_TextToSpeechFrameAdjustRateSliderLabel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L298)
+--- child of TextToSpeechFrameAdjustVolumeSlider
+--- @class TextToSpeechFrameTemplate_TextToSpeechFrameTemplatePanelContainer_TextToSpeechFrameAdjustVolumeSlider_TextToSpeechFrameAdjustVolumeSliderLabel : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L291)
 --- child of TextToSpeechFrameTemplatePanelContainer

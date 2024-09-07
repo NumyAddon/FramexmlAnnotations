@@ -1,5 +1,21 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
+--- child of MerchantItemTemplate
+--- @class MerchantItemTemplate_MerchantItemTemplateItemButton : Button, ItemButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
+--- child of MerchantItemTemplate
+--- @class MerchantItemTemplate_MerchantItemTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
+--- child of MerchantItemTemplate
+--- @class MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame : Frame, SmallAlternateCurrencyFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
+--- child of MerchantItemTemplate
+--- @class MerchantItemTemplate_MerchantItemTemplateName : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L3)
 --- Template
 --- @class MerchantItemTemplate : Frame

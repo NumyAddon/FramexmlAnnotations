@@ -4,6 +4,10 @@
 --- Template
 --- @class TradeHighlightTemplate : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L47)
+--- child of TradeItemTemplate
+--- @class TradeItemTemplate_TradeItemTemplateName : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L31)
 --- Template
 --- @class TradeItemTemplate : Frame
@@ -16,6 +20,16 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L97)
 --- Template
 --- @class PlayerTradeItemTemplate : Frame, TradeItemTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L185)
+--- child of 
+--- @class TradeFrameRecipientNameText : FontString, GameFontNormal
+TradeFrameRecipientNameText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L191)
+--- child of 
+--- @class TradeFramePlayerNameText : FontString, GameFontNormal
+TradeFramePlayerNameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L182)
 --- child of TradeFrame

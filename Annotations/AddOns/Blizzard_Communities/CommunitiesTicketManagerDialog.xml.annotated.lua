@@ -1,5 +1,31 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L41)
+--- child of CommunitiesTicketEntryTemplate
+--- @class CommunitiesTicketEntryTemplate_CopyLinkButton : Button, UIMenuButtonStretchTemplate
+--- @field Background Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L71)
+--- child of CommunitiesTicketEntryTemplate
+--- @class CommunitiesTicketEntryTemplate_RevokeButton : Button, UIMenuButtonStretchTemplate
+--- @field Icon Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L14)
+--- child of CommunitiesTicketEntryTemplate
+--- @class CommunitiesTicketEntryTemplate_Creator : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L20)
+--- child of CommunitiesTicketEntryTemplate
+--- @class CommunitiesTicketEntryTemplate_Link : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L26)
+--- child of CommunitiesTicketEntryTemplate
+--- @class CommunitiesTicketEntryTemplate_Expires : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L32)
+--- child of CommunitiesTicketEntryTemplate
+--- @class CommunitiesTicketEntryTemplate_Uses : FontString, GameFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L5)
 --- Template
 --- @class CommunitiesTicketEntryTemplate : Button, CommunitiesTicketEntryMixin
@@ -10,6 +36,51 @@
 --- @field Link CommunitiesTicketEntryTemplate_Link
 --- @field Expires CommunitiesTicketEntryTemplate_Expires
 --- @field Uses CommunitiesTicketEntryTemplate_Uses
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L104)
+--- child of CommunitiesTicketManagerScrollFrameTemplate
+--- @class CommunitiesTicketManagerScrollFrameTemplate_ArtOverlay : Frame
+--- @field TopLeft Texture
+--- @field TopRight Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L126)
+--- child of CommunitiesTicketManagerScrollFrameTemplate
+--- @class CommunitiesTicketManagerScrollFrameTemplate_ScrollBox : Frame, WowScrollBoxList
+--- @field Background Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L137)
+--- child of CommunitiesTicketManagerScrollFrameTemplate
+--- @class CommunitiesTicketManagerScrollFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
+--- @field Background Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L156)
+--- child of 
+--- @class CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderTopLeft : Texture, UI-Frame-InnerTopLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L161)
+--- child of 
+--- @class CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderTopRight : Texture, UI-Frame-InnerTopRight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L166)
+--- child of 
+--- @class CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderBottomLeft : Texture, UI-Frame-InnerBotLeftCorner
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L171)
+--- child of 
+--- @class CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderTop : Texture, _UI-Frame-InnerTopTile
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L177)
+--- child of 
+--- @class CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderLeft : Texture, !UI-Frame-InnerLeftTile
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L148)
+--- child of CommunitiesTicketManagerScrollFrameTemplate
+--- @class CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay : Frame, ColumnDisplayTemplate
+--- @field InsetBorderTopLeft CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderTopLeft
+--- @field InsetBorderTopRight CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderTopRight
+--- @field InsetBorderBottomLeft CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderBottomLeft
+--- @field InsetBorderTop CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderTop
+--- @field InsetBorderLeft CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L102)
 --- Template

@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Menu/MenuTemplates.xml#L12)
+--- child of WowStyle2DropdownTemplate
+--- @class WowStyle2DropdownTemplate_ResetButton : Button, UIResetButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Menu/MenuTemplates.xml#L33)
+--- child of WowStyle2DropdownTemplate
+--- @class WowStyle2DropdownTemplate_Text : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Menu/MenuTemplates.xml#L4)
 --- Template
 --- @class WowStyle2DropdownTemplate : DropdownButton, WowStyle2DropdownMixin

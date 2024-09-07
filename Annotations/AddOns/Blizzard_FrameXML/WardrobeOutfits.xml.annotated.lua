@@ -4,6 +4,10 @@
 --- Template
 --- @class WardrobeOutfitButtonButtonTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L32)
+--- child of WardrobeOutfitDropdownTemplate
+--- @class WardrobeOutfitDropdownTemplate_SaveButton : Button, UIPanelButtonTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.xml#L30)
 --- Template
 --- @class WardrobeOutfitDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, WardrobeOutfitDropdownMixin

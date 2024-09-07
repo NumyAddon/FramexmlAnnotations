@@ -1,5 +1,25 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemChannelMixin.xml#L6)
+--- child of AzeriteEmpoweredItemChannelTemplate
+--- @class AzeriteEmpoweredItemChannelTemplate_Fill : Texture, AzeriteUITexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemChannelMixin.xml#L42)
+--- child of AzeriteEmpoweredItemChannelTemplate
+--- @class AzeriteEmpoweredItemChannelTemplate_FillMask : MaskTexture, AzeriteUITexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemChannelMixin.xml#L58)
+--- child of AzeriteEmpoweredItemChannelTemplate
+--- @class AzeriteEmpoweredItemChannelTemplate_FillShine : Texture, AzeriteUITexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemChannelMixin.xml#L83)
+--- child of AzeriteEmpoweredItemChannelTemplate
+--- @class AzeriteEmpoweredItemChannelTemplate_SparkleAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemChannelMixin.xml#L91)
+--- child of AzeriteEmpoweredItemChannelTemplate
+--- @class AzeriteEmpoweredItemChannelTemplate_GoldOverlayAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemChannelMixin.xml#L3)
 --- Template
 --- @class AzeriteEmpoweredItemChannelTemplate : Frame, AzeriteEmpoweredItemChannelMixin

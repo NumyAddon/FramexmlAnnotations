@@ -1,5 +1,25 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
+--- child of InspectPvpStatTemplate
+--- @class InspectPvpStatTemplate_InspectPvpStatTemplateBGType : FontString, Game13FontShadow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L15)
+--- child of InspectPvpStatTemplate
+--- @class InspectPvpStatTemplate_RatingLabel : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L20)
+--- child of InspectPvpStatTemplate
+--- @class InspectPvpStatTemplate_Rating : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L25)
+--- child of InspectPvpStatTemplate
+--- @class InspectPvpStatTemplate_RecordLabel : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L30)
+--- child of InspectPvpStatTemplate
+--- @class InspectPvpStatTemplate_Record : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L5)
 --- Template
 --- @class InspectPvpStatTemplate : Frame

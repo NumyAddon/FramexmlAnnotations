@@ -9,6 +9,10 @@
 --- @class SocialToastAnimOutTemplate : AnimationGroup, DefaultAnimOutMixin
 --- @field animOut Alpha
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L17)
+--- child of SocialToastGlowTemplate
+--- @class SocialToastGlowTemplate_SocialToastGlowTemplateAnimIn : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L15)
 --- Template
 --- @class SocialToastGlowTemplate : Texture
@@ -17,6 +21,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L29)
 --- Template
 --- @class SocialToastCloseButtonTemplate : Button, SocialToastCloseButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L64)
+--- child of SocialToastTemplate
+--- @class  : Button, SocialToastCloseButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L55)
+--- child of SocialToastTemplate
+--- @class SocialToastTemplate_SocialToastTemplateGlowFrame : Texture, SocialToastGlowTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L47)
+--- child of SocialToastTemplate
+--- @class  : AnimationGroup, SocialToastAnimInTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L48)
+--- child of SocialToastTemplate
+--- @class  : AnimationGroup, SocialToastAnimOutTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L44)
 --- Template

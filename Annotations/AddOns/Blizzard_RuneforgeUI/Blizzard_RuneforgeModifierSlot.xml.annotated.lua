@@ -19,6 +19,18 @@
 --- @class RuneforgeModifierSelectorFrameTemplate : Frame, RuneforgeModifierSelectorFrameMixin
 --- @field Background Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeModifierSlot.xml#L92)
+--- child of RuneforgeModifierFrameTemplate
+--- @class RuneforgeModifierFrameTemplate_FirstSlot : ItemButton, RuneforgeModifierSlotTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeModifierSlot.xml#L98)
+--- child of RuneforgeModifierFrameTemplate
+--- @class RuneforgeModifierFrameTemplate_SecondSlot : ItemButton, RuneforgeModifierSlotTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeModifierSlot.xml#L105)
+--- child of RuneforgeModifierFrameTemplate
+--- @class RuneforgeModifierFrameTemplate_Selector : Frame, RuneforgeModifierSelectorFrameTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeModifierSlot.xml#L89)
 --- Template
 --- @class RuneforgeModifierFrameTemplate : Button, RuneforgeModifierFrameMixin

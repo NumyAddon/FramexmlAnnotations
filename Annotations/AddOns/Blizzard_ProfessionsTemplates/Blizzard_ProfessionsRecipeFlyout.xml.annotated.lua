@@ -4,6 +4,37 @@
 --- Template
 --- @class ProfessionsItemFlyoutButtonTemplate : ItemButton, ProfessionsItemFlyoutButtonMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L31)
+--- child of 
+--- @class ProfessionsItemFlyoutTemplate_UndoItem_Text : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L25)
+--- child of ProfessionsItemFlyoutTemplate
+--- @class ProfessionsItemFlyoutTemplate_UndoItem : ItemButton, ProfessionsItemFlyoutButtonTemplate
+--- @field Text ProfessionsItemFlyoutTemplate_UndoItem_Text
+--- @field Line Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L46)
+--- child of ProfessionsItemFlyoutTemplate
+--- @class ProfessionsItemFlyoutTemplate_UndoButton : Button, IconButtonTemplate
+--- @field iconAtlas string # "talents-button-undo"
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L57)
+--- child of ProfessionsItemFlyoutTemplate
+--- @class ProfessionsItemFlyoutTemplate_ScrollBox : Frame, WowScrollBoxList
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L62)
+--- child of ProfessionsItemFlyoutTemplate
+--- @class ProfessionsItemFlyoutTemplate_ScrollBar : EventFrame, MinimalScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L68)
+--- child of ProfessionsItemFlyoutTemplate
+--- @class ProfessionsItemFlyoutTemplate_HideUnownedCheckbox : CheckButton, UICheckButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L16)
+--- child of ProfessionsItemFlyoutTemplate
+--- @class ProfessionsItemFlyoutTemplate_Text : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L9)
 --- Template
 --- @class ProfessionsItemFlyoutTemplate : Frame, TooltipBackdropTemplate, ProfessionsItemFlyoutMixin

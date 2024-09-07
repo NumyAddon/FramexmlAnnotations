@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L26)
+--- child of TokenHeaderTemplate
+--- @class TokenHeaderTemplate_Name : FontString, GameFontNormalLeft
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L4)
 --- Template
 --- @class TokenHeaderTemplate : Button, TokenHeaderMixin
@@ -11,11 +15,49 @@
 --- @field HighlightRight Texture
 --- @field HighlightMiddle Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L63)
+--- child of TokenSubHeaderTemplate
+--- @class TokenSubHeaderTemplate_ToggleCollapseButton : Button, TokenSubHeaderToggleCollapseButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L78)
+--- child of TokenSubHeaderTemplate
+--- @class TokenSubHeaderTemplate_Text : FontString, GameFontHighlightLeft
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L60)
 --- Template
 --- @class TokenSubHeaderTemplate : Frame, TruncatedTooltipFontStringWrapperTemplate, TokenSubHeaderMixin
 --- @field ToggleCollapseButton TokenSubHeaderTemplate_ToggleCollapseButton
 --- @field Text TokenSubHeaderTemplate_Text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L98)
+--- child of 
+--- @class TokenEntryTemplate_Content_BackgroundHighlight : Frame
+--- @field Left Texture
+--- @field Right Texture
+--- @field Middle Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L125)
+--- child of 
+--- @class TokenEntryTemplate_Content_AccountWideIcon : Frame, TokenEntryAccountWideIconMixin
+--- @field Icon Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L152)
+--- child of 
+--- @class TokenEntryTemplate_Content_Count : FontString, GameFontHighlightRight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L157)
+--- child of 
+--- @class TokenEntryTemplate_Content_Name : FontString, GameFontHighlightLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L96)
+--- child of TokenEntryTemplate
+--- @class TokenEntryTemplate_Content : Frame
+--- @field BackgroundHighlight TokenEntryTemplate_Content_BackgroundHighlight
+--- @field AccountWideIcon TokenEntryTemplate_Content_AccountWideIcon
+--- @field CurrencyIcon Texture
+--- @field Count TokenEntryTemplate_Content_Count
+--- @field Name TokenEntryTemplate_Content_Name
+--- @field WatchedCurrencyCheck Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L89)
 --- Template
@@ -80,11 +122,20 @@ CurrencyTransferLog = {}
 --- @field Title TokenFramePopup_Title
 TokenFramePopup = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L285)
+--- child of BackpackTokenTemplate
+--- @class BackpackTokenTemplate_Count : FontString, GameFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L275)
 --- Template
 --- @class BackpackTokenTemplate : Button, BackpackTokenMixin
 --- @field Icon Texture
 --- @field Count BackpackTokenTemplate_Count
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L303)
+--- child of BackpackTokenFrameTemplate
+--- @class BackpackTokenFrameTemplate_Border : Frame, ContainerFrameCurrencyBorderTemplate
+--- @field leftEdge string # "common-currencybox-left"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L300)
 --- Template

@@ -5,11 +5,27 @@
 --- @class AlliedRacesModelControlFrameButtonTemplate : Button, AlliedRacesModelControlButtonMixin
 --- @field Icon Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L45)
+--- child of AlliedRaceAbilityTemplate
+--- @class AlliedRaceAbilityTemplate_Text : FontString, GameFontBlackMedium
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L33)
 --- Template
 --- @class AlliedRaceAbilityTemplate : Frame, AlliedRaceAbilityMixin
 --- @field Icon Texture
 --- @field Text AlliedRaceAbilityTemplate_Text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L92)
+--- child of 
+--- @class AlliedRacesFrame_ModelScene_AlliedRacesMaleButton : CheckButton, AlliedRacesMaleButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L104)
+--- child of 
+--- @class AlliedRacesFrame_ModelScene_AlliedRacesFemaleButton : CheckButton, AlliedRacesFemaleButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L116)
+--- child of 
+--- @class AlliedRacesFrame_ModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L69)
 --- child of AlliedRacesFrame
@@ -19,6 +35,16 @@
 --- @field ControlFrame AlliedRacesFrame_ModelScene_ControlFrame
 --- @field ModelBackground Texture
 --- @field ​BackgroundOverlay Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L129)
+--- child of 
+--- @class AlliedRacesFrame_RaceInfoFrame_ScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarX number # 8
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L177)
+--- child of 
+--- @class AlliedRacesFrame_RaceInfoFrame_AlliedRacesRaceName : FontString, Fancy32Font, AutoScalingFontStringMixin
+--- @field minLineHeight number # 16
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L123)
 --- child of AlliedRacesFrame

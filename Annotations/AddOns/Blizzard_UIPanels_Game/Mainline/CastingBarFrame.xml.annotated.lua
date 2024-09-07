@@ -5,6 +5,10 @@
 --- @class CastingBarFrameStagePipTemplate : Frame
 --- @field BasePip Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L46)
+--- child of CastingBarFrameStagePipFXTemplate
+--- @class CastingBarFrameStagePipFXTemplate_StageAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L15)
 --- Template
 --- @class CastingBarFrameStagePipFXTemplate : Frame, CastingBarFrameStagePipTemplate
@@ -15,6 +19,14 @@
 --- @field FlakesBottom02 Texture
 --- @field StageAnim CastingBarFrameStagePipFXTemplate_StageAnim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L92)
+--- child of CastingBarFrameStageTierTemplate
+--- @class CastingBarFrameStageTierTemplate_FlashAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L96)
+--- child of CastingBarFrameStageTierTemplate
+--- @class CastingBarFrameStageTierTemplate_FinishAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L77)
 --- Template
 --- @class CastingBarFrameStageTierTemplate : Frame
@@ -24,11 +36,59 @@
 --- @field FlashAnim CastingBarFrameStageTierTemplate_FlashAnim
 --- @field FinishAnim CastingBarFrameStageTierTemplate_FinishAnim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L104)
+--- child of CastingBarFrameAnimsTemplate
+--- @class CastingBarFrameAnimsTemplate_FadeOutAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L110)
+--- child of CastingBarFrameAnimsTemplate
+--- @class CastingBarFrameAnimsTemplate_HoldFadeOutAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L102)
 --- Template
 --- @class CastingBarFrameAnimsTemplate : StatusBar
 --- @field FadeOutAnim CastingBarFrameAnimsTemplate_FadeOutAnim
 --- @field HoldFadeOutAnim CastingBarFrameAnimsTemplate_HoldFadeOutAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L125)
+--- child of CastingBarFrameAnimsFXTemplate
+--- @class CastingBarFrameAnimsFXTemplate_FlashLoopingAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L145)
+--- child of CastingBarFrameAnimsFXTemplate
+--- @class CastingBarFrameAnimsFXTemplate_FlashAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L148)
+--- child of CastingBarFrameAnimsFXTemplate
+--- @class CastingBarFrameAnimsFXTemplate_StageFlash : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L152)
+--- child of CastingBarFrameAnimsFXTemplate
+--- @class CastingBarFrameAnimsFXTemplate_StageFinish : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L155)
+--- child of CastingBarFrameAnimsFXTemplate
+--- @class CastingBarFrameAnimsFXTemplate_StandardFinish : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L162)
+--- child of CastingBarFrameAnimsFXTemplate
+--- @class CastingBarFrameAnimsFXTemplate_CraftingFinish : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L166)
+--- child of CastingBarFrameAnimsFXTemplate
+--- @class CastingBarFrameAnimsFXTemplate_ChannelFinish : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L186)
+--- child of CastingBarFrameAnimsFXTemplate
+--- @class CastingBarFrameAnimsFXTemplate_InterruptGlowAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L190)
+--- child of CastingBarFrameAnimsFXTemplate
+--- @class CastingBarFrameAnimsFXTemplate_InterruptShakeAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L197)
+--- child of CastingBarFrameAnimsFXTemplate
+--- @class CastingBarFrameAnimsFXTemplate_InterruptSparkAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L123)
 --- Template
@@ -43,6 +103,14 @@
 --- @field InterruptGlowAnim CastingBarFrameAnimsFXTemplate_InterruptGlowAnim
 --- @field InterruptShakeAnim CastingBarFrameAnimsFXTemplate_InterruptShakeAnim
 --- @field InterruptSparkAnim CastingBarFrameAnimsFXTemplate_InterruptSparkAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L330)
+--- child of CastingBarFrameBaseTemplate
+--- @class CastingBarFrameBaseTemplate_Text : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L336)
+--- child of CastingBarFrameBaseTemplate
+--- @class CastingBarFrameBaseTemplate_CastTimeText : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L205)
 --- Template
@@ -80,6 +148,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L414)
 --- Template
 --- @class CastingBarFrameTemplate : StatusBar, CastingBarFrameBaseTemplate, CastingBarFrameAnimsFXTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L466)
+--- child of SmallCastingBarFrameTemplate
+--- @class SmallCastingBarFrameTemplate_Text : FontString, SystemFont_Shadow_Small
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L416)
 --- Template

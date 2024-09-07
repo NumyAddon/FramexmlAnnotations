@@ -1,5 +1,37 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L15)
+--- child of 
+--- @class DeathRecapEntryTemplate_DamageInfo_Amount : FontString, GameFontNormal, AutoScalingFontStringMixin
+--- @field minLineHeight number # 9
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L25)
+--- child of 
+--- @class DeathRecapEntryTemplate_DamageInfo_AmountLarge : FontString, GameFontNormalLarge2, AutoScalingFontStringMixin
+--- @field minLineHeight number # 12
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L8)
+--- child of DeathRecapEntryTemplate
+--- @class DeathRecapEntryTemplate_DamageInfo : Frame
+--- @field Amount DeathRecapEntryTemplate_DamageInfo_Amount
+--- @field AmountLarge DeathRecapEntryTemplate_DamageInfo_AmountLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L55)
+--- child of 
+--- @class DeathRecapEntryTemplate_SpellInfo_Name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L61)
+--- child of 
+--- @class DeathRecapEntryTemplate_SpellInfo_Caster : FontString, SystemFont_Shadow_Small
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L42)
+--- child of DeathRecapEntryTemplate
+--- @class DeathRecapEntryTemplate_SpellInfo : Frame
+--- @field Icon Texture
+--- @field Name DeathRecapEntryTemplate_SpellInfo_Name
+--- @field Caster DeathRecapEntryTemplate_SpellInfo_Caster
+--- @field IconBorder Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L5)
 --- Template
 --- @class DeathRecapEntryTemplate : Frame

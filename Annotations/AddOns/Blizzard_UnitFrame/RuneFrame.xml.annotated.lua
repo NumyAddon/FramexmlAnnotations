@@ -1,5 +1,34 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L83)
+--- child of RuneButtonIndividualTemplate
+--- @class RuneButtonIndividualTemplate_Cooldown : Cooldown
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L120)
+--- child of 
+--- @class RuneButtonIndividualTemplate_DepleteVisuals_DepleteAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L93)
+--- child of RuneButtonIndividualTemplate
+--- @class RuneButtonIndividualTemplate_DepleteVisuals : Frame
+--- @field Rune_Inactive Texture
+--- @field Rune_Lines Texture
+--- @field FB_RuneDeplete Texture
+--- @field Glow2 Texture
+--- @field DepleteAnim RuneButtonIndividualTemplate_DepleteVisuals_DepleteAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L142)
+--- child of RuneButtonIndividualTemplate
+--- @class RuneButtonIndividualTemplate_CooldownFillAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L154)
+--- child of RuneButtonIndividualTemplate
+--- @class RuneButtonIndividualTemplate_CooldownEndingAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L173)
+--- child of RuneButtonIndividualTemplate
+--- @class RuneButtonIndividualTemplate_EmptyAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L4)
 --- Template
 --- @class RuneButtonIndividualTemplate : Frame, RuneButtonMixin
@@ -21,6 +50,36 @@
 --- @field CooldownFillAnim RuneButtonIndividualTemplate_CooldownFillAnim
 --- @field CooldownEndingAnim RuneButtonIndividualTemplate_CooldownEndingAnim
 --- @field EmptyAnim RuneButtonIndividualTemplate_EmptyAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L191)
+--- child of RuneFrameTemplate
+--- @class RuneFrameTemplate_Rune1 : Frame, RuneButtonIndividualTemplate
+--- @field runeIndex number # 1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L197)
+--- child of RuneFrameTemplate
+--- @class RuneFrameTemplate_Rune2 : Frame, RuneButtonIndividualTemplate
+--- @field runeIndex number # 2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L203)
+--- child of RuneFrameTemplate
+--- @class RuneFrameTemplate_Rune3 : Frame, RuneButtonIndividualTemplate
+--- @field runeIndex number # 3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L209)
+--- child of RuneFrameTemplate
+--- @class RuneFrameTemplate_Rune4 : Frame, RuneButtonIndividualTemplate
+--- @field runeIndex number # 4
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L215)
+--- child of RuneFrameTemplate
+--- @class RuneFrameTemplate_Rune5 : Frame, RuneButtonIndividualTemplate
+--- @field runeIndex number # 5
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L221)
+--- child of RuneFrameTemplate
+--- @class RuneFrameTemplate_Rune6 : Frame, RuneButtonIndividualTemplate
+--- @field runeIndex number # 6
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L186)
 --- Template

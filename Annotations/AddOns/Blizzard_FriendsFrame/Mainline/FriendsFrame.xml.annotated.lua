@@ -1,9 +1,17 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L6)
+--- child of FriendsTabTemplate
+--- @class FriendsTabTemplate_New : Frame, NewFeatureLabelNoAnimateTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L3)
 --- Template
 --- @class FriendsTabTemplate : Button, PanelTopTabButtonTemplate, FriendsTabMixin
 --- @field New FriendsTabTemplate_New
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L21)
+--- child of FriendsFrameHeaderTemplate
+--- @class FriendsFrameHeaderTemplate_FriendsFrameHeaderTemplateTitle : FontString, GameFontHighlightLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L17)
 --- Template
@@ -21,6 +29,19 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L46)
 --- Template
 --- @class FriendsFrameFriendDividerTemplate : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L78)
+--- child of FriendsFrameFriendInviteTemplate
+--- @class FriendsFrameFriendInviteTemplate_DeclineButton : DropdownButton, UIMenuButtonStretchTemplate
+--- @field Icon Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L94)
+--- child of FriendsFrameFriendInviteTemplate
+--- @class FriendsFrameFriendInviteTemplate_AcceptButton : Button, UIMenuButtonStretchTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L68)
+--- child of FriendsFrameFriendInviteTemplate
+--- @class FriendsFrameFriendInviteTemplate_Name : FontString, FriendsFont_Normal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L55)
 --- Template
@@ -42,6 +63,15 @@
 --- Template
 --- @class FriendsFrameButtonTemplate_BottomRight : Button, FriendsFrameButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L163)
+--- child of 
+--- @class FriendsPendingInviteHeaderButtonTemplate_Flash_Anim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L161)
+--- child of FriendsPendingInviteHeaderButtonTemplate
+--- @class FriendsPendingInviteHeaderButtonTemplate_Flash : Texture
+--- @field Anim FriendsPendingInviteHeaderButtonTemplate_Flash_Anim
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L135)
 --- Template
 --- @class FriendsPendingInviteHeaderButtonTemplate : Button, UIMenuButtonStretchTemplate
@@ -50,6 +80,18 @@
 --- @field DownArrow Texture
 --- @field Flash FriendsPendingInviteHeaderButtonTemplate_Flash
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L215)
+--- child of FriendsFrameFriendPartyInviteTemplate
+--- @class FriendsFrameFriendPartyInviteTemplate_DeclineButton : Button, UIMenuButtonStretchTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L234)
+--- child of FriendsFrameFriendPartyInviteTemplate
+--- @class FriendsFrameFriendPartyInviteTemplate_AcceptButton : Button, UIMenuButtonStretchTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L205)
+--- child of FriendsFrameFriendPartyInviteTemplate
+--- @class FriendsFrameFriendPartyInviteTemplate_Name : FontString, FriendsFont_Normal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L192)
 --- Template
 --- @class FriendsFrameFriendPartyInviteTemplate : Frame
@@ -57,6 +99,24 @@
 --- @field AcceptButton FriendsFrameFriendPartyInviteTemplate_AcceptButton
 --- @field Background Texture
 --- @field Name FriendsFrameFriendPartyInviteTemplate_Name
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L300)
+--- child of FriendsListButtonTemplate
+--- @class FriendsListButtonTemplate_travelPassButton : Button
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L331)
+--- child of FriendsListButtonTemplate
+--- @class FriendsListButtonTemplate_summonButton : Button, ActionButtonTemplate, SummonButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L280)
+--- child of FriendsListButtonTemplate
+--- @class FriendsListButtonTemplate_name : FontString, FriendsFont_Normal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L287)
+--- child of FriendsListButtonTemplate
+--- @class FriendsListButtonTemplate_info : FontString, FriendsFont_Small
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L256)
 --- Template
@@ -71,15 +131,39 @@
 --- @field Favorite Texture
 --- @field highlight Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L366)
+--- child of IgnoreListButtonTemplate
+--- @class IgnoreListButtonTemplate_IgnoreListButtonTemplateName : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L362)
 --- Template
 --- @class IgnoreListButtonTemplate : Button, IgnoreListButtonMixin
 --- @field name IgnoreListButtonTemplate_IgnoreListButtonTemplateName
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L384)
+--- child of FriendsFriendsButtonTemplate
+--- @class FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName : FontString, FriendsFont_Normal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L380)
 --- Template
 --- @class FriendsFriendsButtonTemplate : Button, FriendsFriendsButtonMixin
 --- @field name FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L402)
+--- child of WhoListButtonTemplate
+--- @class WhoListButtonTemplate_Name : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L408)
+--- child of WhoListButtonTemplate
+--- @class WhoListButtonTemplate_Variable : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L414)
+--- child of WhoListButtonTemplate
+--- @class WhoListButtonTemplate_Level : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L420)
+--- child of WhoListButtonTemplate
+--- @class WhoListButtonTemplate_Class : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L398)
 --- Template
@@ -109,6 +193,40 @@
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton : Button, UIPanelInfoButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L592)
+--- child of 
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_Border : Frame, DialogBorderOpaqueTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L656)
+--- child of 
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_EditBox_PromptText : FontString, FriendsFont_Small
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L593)
+--- child of 
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_EditBox : EditBox
+--- @field TopLeftBorder Texture
+--- @field TopRightBorder Texture
+--- @field TopBorder Texture
+--- @field BottomLeftBorder Texture
+--- @field BottomRightBorder Texture
+--- @field BottomBorder Texture
+--- @field LeftBorder Texture
+--- @field RightBorder Texture
+--- @field MiddleBorder Texture
+--- @field PromptText FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_EditBox_PromptText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L682)
+--- child of 
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_UpdateButton : Button, FriendsFrameButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L692)
+--- child of 
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_CancelButton : Button, FriendsFrameButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L584)
+--- child of 
+--- @class  : FontString, GameFontNormalMed3
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L577)
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame : Frame, FriendsBroadcastFrameMixin
@@ -116,6 +234,14 @@
 --- @field EditBox FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_EditBox
 --- @field UpdateButton FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_UpdateButton
 --- @field CancelButton FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_CancelButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L715)
+--- child of 
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoFrame_Label : FontString, FriendsFont_Large
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L727)
+--- child of 
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoFrame_Text : FontString, FriendsFont_Normal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L711)
 --- child of FriendsFrameBattlenetFrame
@@ -186,6 +312,35 @@ FriendsFrameAddFriendButton = {}
 --- child of FriendsListFrame
 --- @class FriendsFrame_FriendsListFrame_FriendsFrameSendMessageButton : Button, FriendsFrameButtonTemplate_BottomRight
 FriendsFrameSendMessageButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L819)
+--- child of 
+--- @class FriendsFrame_FriendsListFrame_RIDWarning_ContinueButton : Button, UIPanelButtonTemplate
+ContinueButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L785)
+--- child of 
+--- @class FriendsFrame_FriendsListFrame_RIDWarning_Left : Texture
+Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L792)
+--- child of 
+--- @class FriendsFrame_FriendsListFrame_RIDWarning_BattlenetIcon : Texture
+BattlenetIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L799)
+--- child of 
+--- @class FriendsFrame_FriendsListFrame_RIDWarning_PlayerIcon : Texture
+PlayerIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L804)
+--- child of 
+--- @class FriendsFrame_FriendsListFrame_RIDWarning_Title : FontString, GameFontNormal
+Title = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L810)
+--- child of 
+--- @class  : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L773)
 --- child of FriendsListFrame

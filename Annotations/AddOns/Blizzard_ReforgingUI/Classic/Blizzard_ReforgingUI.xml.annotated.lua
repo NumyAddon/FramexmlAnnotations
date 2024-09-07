@@ -12,16 +12,12 @@
 --- child of ReforgingStatTemplate
 --- @class ReforgingStatTemplate_ReforgingStatTemplateText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L73)
---- child of ReforgingStatTemplate
---- @class ReforgingStatTemplate_ReforgingStatTemplateBG : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L60)
 --- Template
 --- @class ReforgingStatTemplate : CheckButton
 --- @field button ReforgingStatTemplate_button
 --- @field text ReforgingStatTemplate_ReforgingStatTemplateText
---- @field Bg ReforgingStatTemplate_ReforgingStatTemplateBG
+--- @field Bg Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L226)
 --- child of ReforgingFrame

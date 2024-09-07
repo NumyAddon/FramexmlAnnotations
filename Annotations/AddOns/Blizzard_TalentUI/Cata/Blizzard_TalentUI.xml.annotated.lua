@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L8)
---- child of PlayerSpecTabTemplate
---- @class PlayerSpecTabTemplate_PlayerSpecTabTemplateBackground : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L4)
 --- Template
 --- @class PlayerSpecTabTemplate : CheckButton
@@ -35,14 +31,10 @@
 --- @field GoldBorderGlow PlayerTalentButtonTemplate_PlayerTalentButtonTemplateGoldBorderGlow
 --- @field RankBorderGreen PlayerTalentButtonTemplate_PlayerTalentButtonTemplateRankBorderGreen
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L119)
---- child of PlayerTalentFrameRoleIconTemplate
---- @class PlayerTalentFrameRoleIconTemplate_PlayerTalentFrameRoleIconTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L115)
 --- Template
 --- @class PlayerTalentFrameRoleIconTemplate : Frame
---- @field Icon PlayerTalentFrameRoleIconTemplate_PlayerTalentFrameRoleIconTemplateIcon
+--- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L146)
 --- child of PetTalentButtonTemplate
@@ -100,10 +92,6 @@
 --- Template
 --- @class PlayerTalentArrowTemplate : Texture, TalentArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L242)
---- child of PlayerTalentPassiveBonusTemplate
---- @class PlayerTalentPassiveBonusTemplate_PlayerTalentPassiveBonusTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L250)
 --- child of PlayerTalentPassiveBonusTemplate
 --- @class PlayerTalentPassiveBonusTemplate_PlayerTalentPassiveBonusTemplateIconBorder : Texture, TalentCover-SmallIconBorder
@@ -115,13 +103,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L238)
 --- Template
 --- @class PlayerTalentPassiveBonusTemplate : Frame
---- @field Icon PlayerTalentPassiveBonusTemplate_PlayerTalentPassiveBonusTemplateIcon
+--- @field Icon Texture
 --- @field IconBorder PlayerTalentPassiveBonusTemplate_PlayerTalentPassiveBonusTemplateIconBorder
 --- @field Label PlayerTalentPassiveBonusTemplate_PlayerTalentPassiveBonusTemplateLabel
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L295)
---- child of PlayerTalentActiveBonusTemplate
---- @class PlayerTalentActiveBonusTemplate_PlayerTalentActiveBonusTemplateIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L303)
 --- child of PlayerTalentActiveBonusTemplate
@@ -134,7 +118,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L291)
 --- Template
 --- @class PlayerTalentActiveBonusTemplate : Frame
---- @field Icon PlayerTalentActiveBonusTemplate_PlayerTalentActiveBonusTemplateIcon
+--- @field Icon Texture
 --- @field IconBorder PlayerTalentActiveBonusTemplate_PlayerTalentActiveBonusTemplateIconBorder
 --- @field Label PlayerTalentActiveBonusTemplate_PlayerTalentActiveBonusTemplateLabel
 
@@ -382,10 +366,6 @@
 --- child of PlayerTalentFramePanelTemplate
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateArrow : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L549)
---- child of PlayerTalentFramePanelTemplateHeaderIcon
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateHeaderIcon_PlayerTalentFramePanelTemplateHeaderIconIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L557)
 --- child of PlayerTalentFramePanelTemplateHeaderIcon
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateHeaderIcon_PlayerTalentFramePanelTemplateHeaderIconPrimaryBorder : Texture, TalentHeader-PrimaryIconBorder
@@ -413,7 +393,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L542)
 --- child of PlayerTalentFramePanelTemplate
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateHeaderIcon : Frame
---- @field Icon PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateHeaderIcon_PlayerTalentFramePanelTemplateHeaderIconIcon
+--- @field Icon Texture
 --- @field PrimaryBorder PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateHeaderIcon_PlayerTalentFramePanelTemplateHeaderIconPrimaryBorder
 --- @field SecondaryBorder PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateHeaderIcon_PlayerTalentFramePanelTemplateHeaderIconSecondaryBorder
 --- @field PointsSpentBgGold PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateHeaderIcon_PlayerTalentFramePanelTemplateHeaderIconPointsSpentBgGold
@@ -456,18 +436,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L755)
 --- child of PlayerTalentFramePanelTemplateSummary
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription : ScrollFrame, HybridScrollFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L611)
---- child of PlayerTalentFramePanelTemplateSummary
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L616)
---- child of PlayerTalentFramePanelTemplateSummary
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBg : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L625)
---- child of PlayerTalentFramePanelTemplateSummary
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L631)
 --- child of PlayerTalentFramePanelTemplateSummary
@@ -519,8 +487,8 @@
 --- @field RoleIcon PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryRoleIcon
 --- @field RoleIcon2 PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryRoleIcon2
 --- @field Description PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription
---- @field Border PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBorder
---- @field Icon PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryIcon
+--- @field Border Texture
+--- @field Icon Texture
 --- @field IconGlow PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryIconGlow
 --- @field GlowTopLeft PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryGlowTopLeft
 --- @field GlowTopRight PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryGlowTopRight
@@ -533,10 +501,6 @@
 --- @field IconBorder PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryIconBorder
 --- @field TitleText PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryTitleText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L790)
---- child of PlayerTalentFramePanelTemplateInactiveShadow
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateInactiveShadow_PlayerTalentFramePanelTemplateInactiveShadowCover : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L797)
 --- child of PlayerTalentFramePanelTemplateInactiveShadow
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateInactiveShadow_PlayerTalentFramePanelTemplateInactiveShadowGradient : Texture, Talent-TreeLockoutGradient
@@ -544,28 +508,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L783)
 --- child of PlayerTalentFramePanelTemplate
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateInactiveShadow : Frame
---- @field Cover PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateInactiveShadow_PlayerTalentFramePanelTemplateInactiveShadowCover
+--- @field Cover Texture
 --- @field Gradient PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateInactiveShadow_PlayerTalentFramePanelTemplateInactiveShadowGradient
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L812)
 --- child of PlayerTalentFramePanelTemplate
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSelectTreeButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L336)
---- child of PlayerTalentFramePanelTemplate
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateBackgroundTopLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L343)
---- child of PlayerTalentFramePanelTemplate
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateBackgroundTopRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L344)
---- child of PlayerTalentFramePanelTemplate
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateBackgroundBottomLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L351)
---- child of PlayerTalentFramePanelTemplate
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateBackgroundBottomRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L353)
 --- child of PlayerTalentFramePanelTemplate
@@ -727,10 +675,6 @@
 --- child of PlayerTalentFramePanelTemplate
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateBranch30 : Texture, PlayerTalentBranchTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L444)
---- child of PlayerTalentFramePanelTemplate
---- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateBgHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L454)
 --- child of PlayerTalentFramePanelTemplate
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateName : FontString, GameFontNormalLeft
@@ -744,10 +688,10 @@
 --- @field Summary PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary
 --- @field InactiveShadow PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateInactiveShadow
 --- @field SelectTreeButton PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSelectTreeButton
---- @field BgTopLeft PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateBackgroundTopLeft
---- @field BgTopRight PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateBackgroundTopRight
---- @field BgBottomLeft PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateBackgroundBottomLeft
---- @field BgBottomRight PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateBackgroundBottomRight
+--- @field BgTopLeft Texture
+--- @field BgTopRight Texture
+--- @field BgBottomLeft Texture
+--- @field BgBottomRight Texture
 --- @field HeaderBackground PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateHeaderBackground
 --- @field GlowTopLeft PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateGlowTopLeft
 --- @field GlowTopRight PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateGlowTopRight

@@ -598,10 +598,6 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn DigsiteCompleteToastFrameTemplate_animIn
 --- @field waitAndAnimOut DigsiteCompleteToastFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L1387)
---- child of StorePurchaseAlertFrameTemplate
---- @class StorePurchaseAlertFrameTemplate_Border : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L1403)
 --- child of StorePurchaseAlertFrameTemplate
 --- @class StorePurchaseAlertFrameTemplate_Title : FontString, GameFontNormalLarge

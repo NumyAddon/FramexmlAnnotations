@@ -54,23 +54,11 @@
 --- Template
 --- @class FauxScrollFrameTemplate : ScrollFrame, UIPanelScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L171)
---- child of ListScrollFrameTemplate
---- @class ListScrollFrameTemplate_ListScrollFrameTemplateTop : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L176)
---- child of ListScrollFrameTemplate
---- @class ListScrollFrameTemplate_ListScrollFrameTemplateBottom : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L181)
---- child of ListScrollFrameTemplate
---- @class ListScrollFrameTemplate_ListScrollFrameTemplateMiddle : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L168)
 --- Template
 --- @class ListScrollFrameTemplate : ScrollFrame, FauxScrollFrameTemplate
---- @field ScrollBarTop ListScrollFrameTemplate_ListScrollFrameTemplateTop
---- @field ScrollBarBottom ListScrollFrameTemplate_ListScrollFrameTemplateBottom
+--- @field ScrollBarTop Texture
+--- @field ScrollBarBottom Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L191)
 --- Template
@@ -88,22 +76,6 @@
 --- child of UIPanelScrollBarTrimTemplate
 --- @class UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateScrollDownButton : Button, UIPanelScrollDownButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L236)
---- child of UIPanelScrollBarTrimTemplate
---- @class UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateBG : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L241)
---- child of UIPanelScrollBarTrimTemplate
---- @class UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateTop : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L248)
---- child of UIPanelScrollBarTrimTemplate
---- @class UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateBottom : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L255)
---- child of UIPanelScrollBarTrimTemplate
---- @class UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateMiddle : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L297)
 --- child of UIPanelScrollBarTrimTemplate
 --- @class UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateThumbTexture : Texture, UIPanelScrollBarButton
@@ -113,9 +85,9 @@
 --- @class UIPanelScrollBarTrimTemplate : Slider
 --- @field ScrollUpButton UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateScrollUpButton
 --- @field ScrollDownButton UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateScrollDownButton
---- @field Top UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateTop
---- @field Bottom UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateBottom
---- @field Middle UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateMiddle
+--- @field Top Texture
+--- @field Bottom Texture
+--- @field Middle Texture
 --- @field ThumbTexture UIPanelScrollBarTrimTemplate_UIPanelScrollBarTrimTemplateThumbTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L305)
@@ -146,10 +118,6 @@
 --- child of MinimalScrollBarTemplate
 --- @class MinimalScrollBarTemplate_MinimalScrollBarTemplateScrollDownButton : Button, UIPanelScrollDownButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L354)
---- child of MinimalScrollBarTemplate
---- @class MinimalScrollBarTemplate_MinimalScrollBarTemplateTrack : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L396)
 --- child of MinimalScrollBarTemplate
 --- @class MinimalScrollBarTemplate_MinimalScrollBarTemplateThumbTexture : Texture, UIPanelScrollBarButton
@@ -159,7 +127,7 @@
 --- @class MinimalScrollBarTemplate : Slider
 --- @field ScrollUpButton MinimalScrollBarTemplate_MinimalScrollBarTemplateScrollUpButton
 --- @field ScrollDownButton MinimalScrollBarTemplate_MinimalScrollBarTemplateScrollDownButton
---- @field trackBG MinimalScrollBarTemplate_MinimalScrollBarTemplateTrack
+--- @field trackBG Texture
 --- @field ThumbTexture MinimalScrollBarTemplate_MinimalScrollBarTemplateThumbTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L415)

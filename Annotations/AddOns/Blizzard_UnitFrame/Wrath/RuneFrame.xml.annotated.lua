@@ -4,25 +4,13 @@
 --- child of RuneButtonIndividualTemplate
 --- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/RuneFrame.xml#L27)
---- child of RuneButtonIndividualTemplateBorder
---- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateBorder_RuneButtonIndividualTemplateBorderTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/RuneFrame.xml#L18)
 --- child of RuneButtonIndividualTemplate
 --- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateBorder : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/RuneFrame.xml#L41)
---- child of RuneButtonIndividualTemplateShine
---- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateShine_RuneButtonIndividualTemplateShineTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/RuneFrame.xml#L38)
 --- child of RuneButtonIndividualTemplate
 --- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateShine : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/RuneFrame.xml#L56)
---- child of RuneButtonIndividualTemplate
---- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateRune : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/RuneFrame.xml#L3)
 --- Template

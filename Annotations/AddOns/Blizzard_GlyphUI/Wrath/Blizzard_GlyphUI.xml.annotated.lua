@@ -1,41 +1,13 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L11)
---- child of GlyphTemplate
---- @class GlyphTemplate_GlyphTemplateSetting : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L22)
---- child of GlyphTemplate
---- @class GlyphTemplate_GlyphTemplateHighlight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L32)
---- child of GlyphTemplate
---- @class GlyphTemplate_GlyphTemplateBackground : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L43)
---- child of GlyphTemplate
---- @class GlyphTemplate_GlyphTemplateGlyph : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L53)
---- child of GlyphTemplate
---- @class GlyphTemplate_GlyphTemplateRing : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L62)
---- child of GlyphTemplate
---- @class GlyphTemplate_GlyphTemplateShine : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L5)
 --- Template
 --- @class GlyphTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L102)
---- child of GlyphSparkleTextureAnimGroup
---- @class GlyphSparkleTexture_GlyphSparkleTextureAnimGroup_GlyphSparkleTextureAnimGroupTranslate : Translation
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L101)
 --- child of GlyphSparkleTexture
 --- @class GlyphSparkleTexture_GlyphSparkleTextureAnimGroup : AnimationGroup
---- @field translate GlyphSparkleTexture_GlyphSparkleTextureAnimGroup_GlyphSparkleTextureAnimGroupTranslate
+--- @field translate Translation
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Wrath/Blizzard_GlyphUI.xml#L95)
 --- Template

@@ -359,14 +359,6 @@
 --- @class EncounterInstanceButtonTemplate_ModifiedInstanceIcon : Button, ModifiedInstanceIconMixin
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L389)
---- child of EncounterInstanceButtonTemplate
---- @class EncounterInstanceButtonTemplate_EncounterInstanceButtonTemplatebgImage : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L398)
---- child of EncounterInstanceButtonTemplate
---- @class EncounterInstanceButtonTemplate_EncounterInstanceButtonTemplateHeroicIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L403)
 --- child of EncounterInstanceButtonTemplate
 --- @class EncounterInstanceButtonTemplate_EncounterInstanceButtonTemplateName : FontString, QuestTitleFontBlackShadow
@@ -387,8 +379,8 @@
 --- Template
 --- @class EncounterInstanceButtonTemplate : Button
 --- @field ModifiedInstanceIcon EncounterInstanceButtonTemplate_ModifiedInstanceIcon
---- @field bgImage EncounterInstanceButtonTemplate_EncounterInstanceButtonTemplatebgImage
---- @field heroicIcon EncounterInstanceButtonTemplate_EncounterInstanceButtonTemplateHeroicIcon
+--- @field bgImage Texture
+--- @field heroicIcon Texture
 --- @field name EncounterInstanceButtonTemplate_EncounterInstanceButtonTemplateName
 --- @field range EncounterInstanceButtonTemplate_EncounterInstanceButtonTemplateRange
 
@@ -449,10 +441,6 @@
 --- @field path EncounterSearchLGTemplate_path
 --- @field resultType EncounterSearchLGTemplate_resultType
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L595)
---- child of EncounterCreatureButtonTemplate
---- @class EncounterCreatureButtonTemplate_EncounterCreatureButtonTemplateCreature : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L603)
 --- child of EncounterCreatureButtonTemplate
 --- @class  : Texture, UI-EJ-BossModelButton
@@ -464,16 +452,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L591)
 --- Template
 --- @class EncounterCreatureButtonTemplate : Button
---- @field creature EncounterCreatureButtonTemplate_EncounterCreatureButtonTemplateCreature
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L650)
---- child of 
---- @class Creature : Texture
+--- @field creature Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L643)
 --- child of EncounterBossButtonTemplate
 --- @class  : Frame
---- @field creature Creature
+--- @field creature Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L665)
 --- child of EncounterBossButtonTemplate
@@ -516,14 +500,10 @@
 --- @class EncounterDifficultyTemplate : Button
 --- @field selected EncounterDifficultyTemplate_EncounterDifficultyTemplateSelected
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L734)
---- child of EncounterSectionIconTemplate
---- @class EncounterSectionIconTemplate_EncounterSectionIconTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L730)
 --- Template
 --- @class EncounterSectionIconTemplate : Frame
---- @field icon EncounterSectionIconTemplate_EncounterSectionIconTemplateIcon
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L769)
 --- child of EncounterOverviewBulletTemplate
@@ -580,10 +560,6 @@
 --- child of EncounterInfoTemplateHeaderButton
 --- @class EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon4 : Frame, EncounterSectionIconTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L976)
---- child of EncounterInfoTemplateHeaderButtonPortrait
---- @class EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonPortrait_EncounterInfoTemplateHeaderButtonPortraitIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L984)
 --- child of EncounterInfoTemplateHeaderButtonPortrait
 --- @class EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonPortrait_EncounterInfoTemplateHeaderButtonPortraitFrame : Texture, UI-EJ-CreatureHeaderFrameSm
@@ -595,15 +571,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L969)
 --- child of EncounterInfoTemplateHeaderButton
 --- @class EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonPortrait : Button
---- @field icon EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonPortrait_EncounterInfoTemplateHeaderButtonPortraitIcon
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L816)
 --- child of EncounterInfoTemplateHeaderButton
 --- @class EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonExpandedIcon : FontString, GameFontNormalLarge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L822)
---- child of EncounterInfoTemplateHeaderButton
---- @class EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonAbilityIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L828)
 --- child of EncounterInfoTemplateHeaderButton
@@ -678,7 +650,7 @@
 --- @field icon4 EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon4
 --- @field portrait EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonPortrait
 --- @field expandedIcon EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonExpandedIcon
---- @field abilityIcon EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonAbilityIcon
+--- @field abilityIcon Texture
 --- @field title EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonTitle
 --- @field eLeftUp EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonELeftUp
 --- @field eRightUp EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonERightUp
@@ -742,10 +714,6 @@
 --- @field TipButton EncounterItemDividerTemplate_TipButton
 --- @field name EncounterItemDividerTemplate_name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1148)
---- child of EncounterItemTemplate
---- @class EncounterItemTemplate_EncounterItemTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1156)
 --- child of EncounterItemTemplate
 --- @class EncounterItemTemplate_bossTexture : Texture, UI-EJ-DungeonLootFrame
@@ -773,7 +741,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1144)
 --- Template
 --- @class EncounterItemTemplate : Button, EncounterJournalItemMixin
---- @field icon EncounterItemTemplate_EncounterItemTemplateIcon
+--- @field icon Texture
 --- @field bossTexture EncounterItemTemplate_bossTexture
 --- @field bosslessTexture EncounterItemTemplate_bosslessTexture
 --- @field name EncounterItemTemplate_EncounterItemTemplateName

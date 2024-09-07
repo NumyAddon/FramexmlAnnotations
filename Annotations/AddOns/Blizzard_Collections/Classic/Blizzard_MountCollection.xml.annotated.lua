@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L152)
---- child of 
---- @class MountListButtonTemplate_DragButton_Highlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L142)
 --- child of MountListButtonTemplate
 --- @class MountListButtonTemplate_DragButton : Button

@@ -64,10 +64,6 @@
 --- child of WatchFrameItemButtonTemplate
 --- @class WatchFrameItemButtonTemplate_WatchFrameItemButtonTemplateHotKey : FontString, NumberFontNormalSmallGray
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L86)
---- child of WatchFrameItemButtonTemplate
---- @class WatchFrameItemButtonTemplate_WatchFrameItemButtonTemplateIconTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L87)
 --- child of WatchFrameItemButtonTemplate
 --- @class WatchFrameItemButtonTemplate_WatchFrameItemButtonTemplateCount : FontString, NumberFontNormal
@@ -76,17 +72,9 @@
 --- child of WatchFrameItemButtonTemplate
 --- @class WatchFrameItemButtonTemplate_WatchFrameItemButtonTemplateStock : FontString, NumberFontNormalYellow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L136)
---- child of WatchFrameItemButtonTemplate
---- @class WatchFrameItemButtonTemplate_WatchFrameItemButtonTemplateNormalTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L68)
 --- Template
 --- @class WatchFrameItemButtonTemplate : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L150)
---- child of WatchFrameLineTemplate
---- @class WatchFrameLineTemplate_WatchFrameLineTemplateIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L158)
 --- child of WatchFrameLineTemplate
@@ -96,14 +84,10 @@
 --- child of WatchFrameLineTemplate
 --- @class WatchFrameLineTemplate_WatchFrameLineTemplateText : FontString, WatchFontTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L174)
---- child of WatchFrameLineTemplate
---- @class WatchFrameLineTemplate_WatchFrameLineTemplateBorder : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L146)
 --- Template
 --- @class WatchFrameLineTemplate : Frame
---- @field Icon WatchFrameLineTemplate_WatchFrameLineTemplateIcon
+--- @field Icon Texture
 --- @field dash WatchFrameLineTemplate_WatchFrameLineTemplateDash
 --- @field text WatchFrameLineTemplate_WatchFrameLineTemplateText
 

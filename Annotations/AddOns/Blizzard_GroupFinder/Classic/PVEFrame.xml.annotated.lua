@@ -1,13 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L16)
---- child of GroupFinderGroupButtonTemplate
---- @class GroupFinderGroupButtonTemplate_GroupFinderGroupButtonTemplateRing : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L24)
---- child of GroupFinderGroupButtonTemplate
---- @class GroupFinderGroupButtonTemplate_GroupFinderGroupButtonTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L30)
 --- child of GroupFinderGroupButtonTemplate
 --- @class GroupFinderGroupButtonTemplate_GroupFinderGroupButtonTemplateName : FontString, GameFontNormalLarge
@@ -16,8 +8,8 @@
 --- Template
 --- @class GroupFinderGroupButtonTemplate : Button
 --- @field bg Texture
---- @field ring GroupFinderGroupButtonTemplate_GroupFinderGroupButtonTemplateRing
---- @field icon GroupFinderGroupButtonTemplate_GroupFinderGroupButtonTemplateIcon
+--- @field ring Texture
+--- @field icon Texture
 --- @field name GroupFinderGroupButtonTemplate_GroupFinderGroupButtonTemplateName
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L147)

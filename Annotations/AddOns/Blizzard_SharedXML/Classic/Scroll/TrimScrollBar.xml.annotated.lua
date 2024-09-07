@@ -11,17 +11,13 @@
 --- @field End Texture
 --- @field Middle Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/Scroll/TrimScrollBar.xml#L79)
---- child of 
---- @class WowClassicScrollBar_Track_Thumb_ThumbTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/Scroll/TrimScrollBar.xml#L52)
 --- child of 
 --- @class WowClassicScrollBar_Track_Thumb : EventButton, WowClassicScrollBarThumbScripts
 --- @field Middle Texture
 --- @field Begin Texture
 --- @field End Texture
---- @field thumbTexture WowClassicScrollBar_Track_Thumb_ThumbTexture
+--- @field thumbTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/Scroll/TrimScrollBar.xml#L46)
 --- child of WowClassicScrollBar

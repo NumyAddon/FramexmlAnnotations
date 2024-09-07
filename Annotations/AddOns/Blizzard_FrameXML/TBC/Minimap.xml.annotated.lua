@@ -1,13 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/TBC/Minimap.xml#L32)
---- child of EyeTemplate
---- @class EyeTemplate_EyeTemplateTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/TBC/Minimap.xml#L26)
 --- Template
 --- @class EyeTemplate : Frame
---- @field Texture EyeTemplate_EyeTemplateTexture
+--- @field Texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/TBC/Minimap.xml#L41)
 --- Template

@@ -1,28 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L6)
---- child of TradeHighlightTemplate
---- @class TradeHighlightTemplate_TradeHighlightTemplateTop : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L13)
---- child of TradeHighlightTemplate
---- @class TradeHighlightTemplate_TradeHighlightTemplateBottom : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L20)
---- child of TradeHighlightTemplate
---- @class TradeHighlightTemplate_TradeHighlightTemplateMiddle : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L3)
 --- Template
 --- @class TradeHighlightTemplate : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L37)
---- child of TradeItemTemplate
---- @class TradeItemTemplate_TradeItemTemplateSlotTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L43)
---- child of TradeItemTemplate
---- @class TradeItemTemplate_TradeItemTemplateNameFrame : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L49)
 --- child of TradeItemTemplate
@@ -31,7 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L31)
 --- Template
 --- @class TradeItemTemplate : Frame
---- @field SlotTexture TradeItemTemplate_TradeItemTemplateSlotTexture
+--- @field SlotTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L60)
 --- child of RecipientTradeItemTemplate

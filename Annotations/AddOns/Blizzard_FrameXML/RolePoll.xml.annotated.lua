@@ -1,11 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L7)
---- child of RolePollRoleButtonTemplate
---- @class RolePollRoleButtonTemplate_checkButton : CheckButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L4)
 --- Template
 --- @class RolePollRoleButtonTemplate : Button

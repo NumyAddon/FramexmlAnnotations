@@ -9,19 +9,10 @@
 --- child of ReadyCheckListenerFrame
 --- @class ReadyCheckFrame_ReadyCheckListenerFrame_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L53)
---- child of 
---- @class ReadyCheckFrame_ReadyCheckListenerFrame_TitleContainer_TitleText : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L45)
 --- child of ReadyCheckListenerFrame
 --- @class ReadyCheckFrame_ReadyCheckListenerFrame_TitleContainer : Frame
 --- @field TitleText ReadyCheckFrame_ReadyCheckListenerFrame_TitleContainer_TitleText
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L70)
---- child of 
---- @class ReadyCheckFrame_ReadyCheckListenerFrame_PortraitContainer_ReadyCheckPortrait : Texture
-ReadyCheckPortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L63)
 --- child of ReadyCheckListenerFrame

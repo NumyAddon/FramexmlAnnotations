@@ -1,14 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L14)
---- child of QuestSessionMemberTemplate
---- @class QuestSessionMemberTemplate_Name : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L29)
---- child of QuestSessionMemberTemplate
---- @class QuestSessionMemberTemplate_ShadowIcon : Texture
---- @field ignoreInLayout boolean # true
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L5)
 --- Template
 --- @class QuestSessionMemberTemplate : Frame, QuestSessionMemberMixin
@@ -27,25 +18,12 @@
 --- @class QuestSessionDialogMinimizeButtonTemplate : Button, UIPanelHideButtonNoScripts, QuestSessionDialogMinimizeButtonMixin
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L73)
---- child of QuestSessionDialogButtonContainerTemplate
---- @class QuestSessionDialogButtonContainerTemplate_Confirm : Button, QuestSessionDialogButtonTemplate
---- @field isConfirm boolean # true
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L81)
---- child of QuestSessionDialogButtonContainerTemplate
---- @class QuestSessionDialogButtonContainerTemplate_Decline : Button, QuestSessionDialogButtonTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L68)
 --- Template
 --- @class QuestSessionDialogButtonContainerTemplate : Frame, ResizeLayoutFrame
 --- @field heightPadding number # 20
 --- @field Confirm QuestSessionDialogButtonContainerTemplate_Confirm
 --- @field Decline QuestSessionDialogButtonContainerTemplate_Decline
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L97)
---- child of QuestSessionDialogTitleTemplate
---- @class QuestSessionDialogTitleTemplate_Text : FontString, GameFontHighlightLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L89)
 --- Template
@@ -57,24 +35,6 @@
 --- Template
 --- @class QuestSessionDialogBodyTemplate : Frame, QuestSessionDialogTitleTemplate, QuestSessionDialogBodyMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L143)
---- child of QuestSessionDialogTemplate
---- @class QuestSessionDialogTemplate_Border : Frame, DialogBorderTemplate
---- @field ignoreInLayout boolean # true
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L148)
---- child of QuestSessionDialogTemplate
---- @class QuestSessionDialogTemplate_Title : Frame, QuestSessionDialogTitleTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L153)
---- child of QuestSessionDialogTemplate
---- @class QuestSessionDialogTemplate_PlayerContainer : Frame, ResizeLayoutFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L122)
---- child of QuestSessionDialogTemplate
---- @class QuestSessionDialogTemplate_BG : Texture
---- @field ignoreInLayout boolean # true
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L108)
 --- Template
 --- @class QuestSessionDialogTemplate : Frame, ResizeLayoutFrame, QuestSessionDialogMixin
@@ -84,10 +44,6 @@
 --- @field PlayerContainer QuestSessionDialogTemplate_PlayerContainer
 --- @field BG QuestSessionDialogTemplate_BG
 --- @field InvisibleRule Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L195)
---- child of QuestSessionDialogMinimizeTemplate
---- @class QuestSessionDialogMinimizeTemplate_MinimizeButton : Button, QuestSessionDialogMinimizeButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L193)
 --- Template

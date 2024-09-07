@@ -1,13 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/MonkHarmonyBar.xml#L71)
---- child of MonkLightEnergyTemplate
---- @class MonkLightEnergyTemplate_activate : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/MonkHarmonyBar.xml#L90)
---- child of MonkLightEnergyTemplate
---- @class MonkLightEnergyTemplate_deactivate : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/MonkHarmonyBar.xml#L5)
 --- Template
 --- @class MonkLightEnergyTemplate : Frame, MonkLightEnergyMixin

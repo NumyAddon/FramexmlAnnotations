@@ -1,29 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L32)
---- child of RaidInfoHeaderTemplate
---- @class RaidInfoHeaderTemplate_text : FontString, GameFontHighlightSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L4)
 --- Template
 --- @class RaidInfoHeaderTemplate : Frame
 --- @field text RaidInfoHeaderTemplate_text
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L44)
---- child of RaidInfoInstanceTemplate
---- @class RaidInfoInstanceTemplate_RaidInfoInstanceTemplateName : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L50)
---- child of RaidInfoInstanceTemplate
---- @class RaidInfoInstanceTemplate_RaidInfoInstanceTemplateDifficulty : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L57)
---- child of RaidInfoInstanceTemplate
---- @class RaidInfoInstanceTemplate_RaidInfoInstanceTemplateReset : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L63)
---- child of RaidInfoInstanceTemplate
---- @class RaidInfoInstanceTemplate_RaidInfoInstanceTemplateExtended : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L40)
 --- Template

@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournal.xml#L74)
---- child of RuneforgeLegendaryPowerLootJournalTemplate
---- @class RuneforgeLegendaryPowerLootJournalTemplate_CovenantSigil : Frame, RuneforgeCovenantSigilTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournal.xml#L53)
---- child of RuneforgeLegendaryPowerLootJournalTemplate
---- @class RuneforgeLegendaryPowerLootJournalTemplate_Name : FontString, GameFontNormalMed2
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournal.xml#L58)
---- child of RuneforgeLegendaryPowerLootJournalTemplate
---- @class RuneforgeLegendaryPowerLootJournalTemplate_SpecName : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournal.xml#L3)
 --- Template
 --- @class RuneforgeLegendaryPowerLootJournalTemplate : Button, RuneforgeLegendaryPowerLootJournalMixin

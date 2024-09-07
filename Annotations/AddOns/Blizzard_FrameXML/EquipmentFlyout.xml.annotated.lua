@@ -4,10 +4,6 @@
 --- Template
 --- @class EquipmentFlyoutTexture : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L8)
---- child of EquipmentFlyoutButtonTemplate
---- @class EquipmentFlyoutButtonTemplate_EquipmentFlyoutButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L6)
 --- Template
 --- @class EquipmentFlyoutButtonTemplate : ItemButton
@@ -27,26 +23,6 @@
 --- @class EquipmentFlyoutFrame_EquipmentFlyoutFrameButtons : Frame
 --- @field bg1 EquipmentFlyoutFrame_EquipmentFlyoutFrameButtons_bg1
 EquipmentFlyoutFrameButtons = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L104)
---- child of 
---- @class EquipmentFlyoutFrame_NavigationFrame_PrevButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L119)
---- child of 
---- @class EquipmentFlyoutFrame_NavigationFrame_NextButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L86)
---- child of 
---- @class EquipmentFlyoutFrame_NavigationFrame_BottomBackground : Texture, EquipmentFlyoutTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L91)
---- child of 
---- @class  : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L96)
---- child of 
---- @class  : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L79)
 --- child of EquipmentFlyoutFrame

@@ -1,26 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L81)
---- child of CompanionConfigSlotTemplate
---- @class CompanionConfigSlotTemplate_NewLabel : Frame, NewFeatureLabelTemplate
---- @field animateGlow boolean # false
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L92)
---- child of CompanionConfigSlotTemplate
---- @class CompanionConfigSlotTemplate_OptionsList : Frame, CompanionConfigListTemplate, CompanionConfigSlotOptionsListMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L65)
---- child of CompanionConfigSlotTemplate
---- @class CompanionConfigSlotTemplate_Label : FontString, SystemFont_Med3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L72)
---- child of CompanionConfigSlotTemplate
---- @class CompanionConfigSlotTemplate_Value : FontString, GameFontNormalMed2
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L103)
---- child of CompanionConfigSlotTemplate
---- @class CompanionConfigSlotTemplate_NewGlowHighlightAnimIn : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L4)
 --- Template
 --- @class CompanionConfigSlotTemplate : Button, CompanionConfigSlotTemplateMixin
@@ -37,10 +16,6 @@
 --- @field Value CompanionConfigSlotTemplate_Value
 --- @field NewGlowHighlightAnimIn CompanionConfigSlotTemplate_NewGlowHighlightAnimIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L146)
---- child of CompanionConfigListTemplate
---- @class CompanionConfigListTemplate_ScrollBox : Frame, WowScrollBoxList
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L120)
 --- Template
 --- @class CompanionConfigListTemplate : Frame
@@ -48,10 +23,6 @@
 --- @field Top Texture
 --- @field Middle Texture
 --- @field Bottom Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L166)
---- child of CompanionConfigListButtonTemplate
---- @class CompanionConfigListButtonTemplate_Name : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L156)
 --- Template
@@ -79,27 +50,10 @@
 --- child of DelvesCompanionConfigurationFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionExperienceRingFrame : Cooldown, CompanionExperienceRingFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L272)
---- child of 
---- @class DelvesCompanionConfigurationFrame_CompanionLevelFrame_CompanionLevel : FontString, SystemFont_Large2
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L265)
 --- child of DelvesCompanionConfigurationFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionLevelFrame : Frame, CompanionLevelFrameMixin
 --- @field CompanionLevel DelvesCompanionConfigurationFrame_CompanionLevelFrame_CompanionLevel
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L298)
---- child of 
---- @class DelvesCompanionConfigurationFrame_CompanionInfoFrame_CompanionName : FontString, SystemFont_Huge4
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L305)
---- child of 
---- @class DelvesCompanionConfigurationFrame_CompanionInfoFrame_CompanionDescription : FontString, GameFontNormalLarge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L312)
---- child of 
---- @class DelvesCompanionConfigurationFrame_CompanionInfoFrame_CompanionInfoGLine : Texture
-CompanionInfoGLine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L283)
 --- child of DelvesCompanionConfigurationFrame
@@ -122,10 +76,6 @@ CompanionInfoGLine = {}
 --- child of DelvesCompanionConfigurationFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionUtilityTrinketSlot : Button, CompanionConfigSlotTemplate
 --- @field type string # "Utility"
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L358)
---- child of 
---- @class  : FontString, GameFontNormalSmall2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L351)
 --- child of DelvesCompanionConfigurationFrame

@@ -17,11 +17,6 @@ tomtest = {}
 --- @class TutorialFrame_TutorialTextBorder : Frame
 TutorialTextBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L167)
---- child of 
---- @class Pulser : Alpha
-Pulser = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L166)
 --- child of TutorialFrameCallOut
 --- @class  : AnimationGroup

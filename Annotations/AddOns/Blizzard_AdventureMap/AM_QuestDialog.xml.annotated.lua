@@ -1,13 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L23)
---- child of AdventureMapQuestRewardTemplate
---- @class AdventureMapQuestRewardTemplate_Name : FontString, GameFontHighlight
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L37)
---- child of AdventureMapQuestRewardTemplate
---- @class AdventureMapQuestRewardTemplate_Count : FontString, NumberFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L5)
 --- Template
 --- @class AdventureMapQuestRewardTemplate : Button

@@ -1,13 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L79)
---- child of ArcaneChargeTemplate
---- @class ArcaneChargeTemplate_activateAnim : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L103)
---- child of ArcaneChargeTemplate
---- @class ArcaneChargeTemplate_deactivateAnim : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L5)
 --- Template
 --- @class ArcaneChargeTemplate : Frame, ArcaneChargeMixin

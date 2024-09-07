@@ -52,6 +52,16 @@
 --- @field ScrollFrame AlliedRacesFrame_RaceInfoFrame_ScrollFrame
 --- @field AlliedRacesRaceName AlliedRacesFrame_RaceInfoFrame_AlliedRacesRaceName
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L1148)
 --- child of AlliedRacesFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -65,5 +75,8 @@ AlliedRacesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field FrameBackground Texture
 --- @field Banner Texture
 AlliedRacesFrame = {}
+AlliedRacesFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+AlliedRacesFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+AlliedRacesFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 AlliedRacesFrame["Inset"] = AlliedRacesFrameInset -- inherited
 

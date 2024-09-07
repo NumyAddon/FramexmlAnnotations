@@ -29,6 +29,11 @@
 --- child of DelvesCompanionAbilityListFrame
 --- @class DelvesCompanionAbilityListFrame_DelvesCompanionAbilityListPagingControls : Frame, PagingControlsHorizontalTemplate, DelvesCompanionAbilityListPagingControlsMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L1095)
 --- child of DelvesCompanionAbilityListFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
@@ -42,6 +47,8 @@ DelvesCompanionAbilityListFrameCloseButton = {}
 --- @field CompanionAbilityListBackground Texture
 DelvesCompanionAbilityListFrame = {}
 DelvesCompanionAbilityListFrame["getTemplateType"] = DelvesCompanionAbilityListFrameMixin.GetTemplateForTalentType
+DelvesCompanionAbilityListFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+DelvesCompanionAbilityListFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 DelvesCompanionAbilityListFrame["CloseButton"] = DelvesCompanionAbilityListFrameCloseButton -- inherited
 DelvesCompanionAbilityListFrame["getTemplateType"] = TalentButtonUtil.GetTemplateForTalentType -- inherited
 

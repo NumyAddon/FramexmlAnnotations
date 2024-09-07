@@ -93,5 +93,8 @@
 --- @field topPadding number # 10
 RogueComboPointBarFrame = {}
 RogueComboPointBarFrame["topPadding"] = 10
+RogueComboPointBarFrame["isManagedFrame"] = true -- inherited
+RogueComboPointBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+RogueComboPointBarFrame["maxUsablePoints"] = 5 -- inherited
 RogueComboPointBarFrame["powerToken"] = "COMBO_POINTS" -- inherited
 

@@ -190,6 +190,16 @@
 --- Template
 --- @class BossSpellBarTemplate : StatusBar, SmallCastingBarFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L10)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFill = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L16)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFlash = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L96)
 --- child of TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
 --- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit1
@@ -252,6 +262,8 @@ TargetFramePowerBarAltStatusFrame["text"] = UnitPowerBarAltTemplateStatusFrameTe
 --- child of TargetFrame
 --- @class TargetFrame_TargetFramePowerBarAlt : Frame, UnitPowerBarAltTemplate
 TargetFramePowerBarAlt = {}
+TargetFramePowerBarAlt["fill"] = UnitPowerBarAltTemplateFill -- inherited
+TargetFramePowerBarAlt["flash"] = UnitPowerBarAltTemplateFlash -- inherited
 TargetFramePowerBarAlt["counterBar"] = TargetFramePowerBarAltCounterBar -- inherited
 TargetFramePowerBarAlt["statusFrame"] = TargetFramePowerBarAltStatusFrame -- inherited
 
@@ -260,6 +272,16 @@ TargetFramePowerBarAlt["statusFrame"] = TargetFramePowerBarAltStatusFrame -- inh
 --- @field powerBarAlt TargetFrame_TargetFramePowerBarAlt
 TargetFrame = {}
 TargetFrame["powerBarAlt"] = TargetFramePowerBarAlt
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L10)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFill = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L16)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L96)
 --- child of FocusFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -323,6 +345,8 @@ FocusFramePowerBarAltStatusFrame["text"] = UnitPowerBarAltTemplateStatusFrameTex
 --- child of FocusFrame
 --- @class FocusFrame_FocusFramePowerBarAlt : Frame, UnitPowerBarAltTemplate
 FocusFramePowerBarAlt = {}
+FocusFramePowerBarAlt["fill"] = UnitPowerBarAltTemplateFill -- inherited
+FocusFramePowerBarAlt["flash"] = UnitPowerBarAltTemplateFlash -- inherited
 FocusFramePowerBarAlt["counterBar"] = FocusFramePowerBarAltCounterBar -- inherited
 FocusFramePowerBarAlt["statusFrame"] = FocusFramePowerBarAltStatusFrame -- inherited
 
@@ -331,6 +355,16 @@ FocusFramePowerBarAlt["statusFrame"] = FocusFramePowerBarAltStatusFrame -- inher
 --- @field powerBarAlt FocusFrame_FocusFramePowerBarAlt
 FocusFrame = {}
 FocusFrame["powerBarAlt"] = FocusFramePowerBarAlt
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L10)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFill = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L16)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L96)
 --- child of Boss1TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -394,6 +428,8 @@ Boss1TargetFramePowerBarAltStatusFrame["text"] = UnitPowerBarAltTemplateStatusFr
 --- child of Boss1TargetFrame (created in template BossTargetFrameTemplate)
 --- @type BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt
 Boss1TargetFramePowerBarAlt = {}
+Boss1TargetFramePowerBarAlt["fill"] = UnitPowerBarAltTemplateFill -- inherited
+Boss1TargetFramePowerBarAlt["flash"] = UnitPowerBarAltTemplateFlash -- inherited
 Boss1TargetFramePowerBarAlt["counterBar"] = Boss1TargetFramePowerBarAltCounterBar -- inherited
 Boss1TargetFramePowerBarAlt["statusFrame"] = Boss1TargetFramePowerBarAltStatusFrame -- inherited
 
@@ -402,6 +438,16 @@ Boss1TargetFramePowerBarAlt["statusFrame"] = Boss1TargetFramePowerBarAltStatusFr
 Boss1TargetFrame = {}
 Boss1TargetFrame["align"] = "right" -- inherited
 Boss1TargetFrame["powerBarAlt"] = Boss1TargetFramePowerBarAlt -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L10)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFill = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L16)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L96)
 --- child of Boss2TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -465,6 +511,8 @@ Boss2TargetFramePowerBarAltStatusFrame["text"] = UnitPowerBarAltTemplateStatusFr
 --- child of Boss2TargetFrame (created in template BossTargetFrameTemplate)
 --- @type BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt
 Boss2TargetFramePowerBarAlt = {}
+Boss2TargetFramePowerBarAlt["fill"] = UnitPowerBarAltTemplateFill -- inherited
+Boss2TargetFramePowerBarAlt["flash"] = UnitPowerBarAltTemplateFlash -- inherited
 Boss2TargetFramePowerBarAlt["counterBar"] = Boss2TargetFramePowerBarAltCounterBar -- inherited
 Boss2TargetFramePowerBarAlt["statusFrame"] = Boss2TargetFramePowerBarAltStatusFrame -- inherited
 
@@ -473,6 +521,16 @@ Boss2TargetFramePowerBarAlt["statusFrame"] = Boss2TargetFramePowerBarAltStatusFr
 Boss2TargetFrame = {}
 Boss2TargetFrame["align"] = "right" -- inherited
 Boss2TargetFrame["powerBarAlt"] = Boss2TargetFramePowerBarAlt -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L10)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFill = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L16)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L96)
 --- child of Boss3TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -536,6 +594,8 @@ Boss3TargetFramePowerBarAltStatusFrame["text"] = UnitPowerBarAltTemplateStatusFr
 --- child of Boss3TargetFrame (created in template BossTargetFrameTemplate)
 --- @type BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt
 Boss3TargetFramePowerBarAlt = {}
+Boss3TargetFramePowerBarAlt["fill"] = UnitPowerBarAltTemplateFill -- inherited
+Boss3TargetFramePowerBarAlt["flash"] = UnitPowerBarAltTemplateFlash -- inherited
 Boss3TargetFramePowerBarAlt["counterBar"] = Boss3TargetFramePowerBarAltCounterBar -- inherited
 Boss3TargetFramePowerBarAlt["statusFrame"] = Boss3TargetFramePowerBarAltStatusFrame -- inherited
 
@@ -544,6 +604,16 @@ Boss3TargetFramePowerBarAlt["statusFrame"] = Boss3TargetFramePowerBarAltStatusFr
 Boss3TargetFrame = {}
 Boss3TargetFrame["align"] = "right" -- inherited
 Boss3TargetFrame["powerBarAlt"] = Boss3TargetFramePowerBarAlt -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L10)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFill = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L16)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L96)
 --- child of Boss4TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -607,6 +677,8 @@ Boss4TargetFramePowerBarAltStatusFrame["text"] = UnitPowerBarAltTemplateStatusFr
 --- child of Boss4TargetFrame (created in template BossTargetFrameTemplate)
 --- @type BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt
 Boss4TargetFramePowerBarAlt = {}
+Boss4TargetFramePowerBarAlt["fill"] = UnitPowerBarAltTemplateFill -- inherited
+Boss4TargetFramePowerBarAlt["flash"] = UnitPowerBarAltTemplateFlash -- inherited
 Boss4TargetFramePowerBarAlt["counterBar"] = Boss4TargetFramePowerBarAltCounterBar -- inherited
 Boss4TargetFramePowerBarAlt["statusFrame"] = Boss4TargetFramePowerBarAltStatusFrame -- inherited
 
@@ -615,6 +687,16 @@ Boss4TargetFramePowerBarAlt["statusFrame"] = Boss4TargetFramePowerBarAltStatusFr
 Boss4TargetFrame = {}
 Boss4TargetFrame["align"] = "right" -- inherited
 Boss4TargetFrame["powerBarAlt"] = Boss4TargetFramePowerBarAlt -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L10)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFill = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L16)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L96)
 --- child of Boss5TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -678,6 +760,8 @@ Boss5TargetFramePowerBarAltStatusFrame["text"] = UnitPowerBarAltTemplateStatusFr
 --- child of Boss5TargetFrame (created in template BossTargetFrameTemplate)
 --- @type BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt
 Boss5TargetFramePowerBarAlt = {}
+Boss5TargetFramePowerBarAlt["fill"] = UnitPowerBarAltTemplateFill -- inherited
+Boss5TargetFramePowerBarAlt["flash"] = UnitPowerBarAltTemplateFlash -- inherited
 Boss5TargetFramePowerBarAlt["counterBar"] = Boss5TargetFramePowerBarAltCounterBar -- inherited
 Boss5TargetFramePowerBarAlt["statusFrame"] = Boss5TargetFramePowerBarAltStatusFrame -- inherited
 

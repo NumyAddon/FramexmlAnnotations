@@ -18,21 +18,25 @@ PetitionNpcNameFrame = {}
 --- child of PetitionFrame
 --- @class PetitionFrame_PetitionFrameCancelButton : Button, UIPanelButtonTemplate
 PetitionFrameCancelButton = {}
+PetitionFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L148)
 --- child of PetitionFrame
 --- @class PetitionFrame_PetitionFrameSignButton : Button, UIPanelButtonTemplate
 PetitionFrameSignButton = {}
+PetitionFrameSignButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L157)
 --- child of PetitionFrame
 --- @class PetitionFrame_PetitionFrameRequestButton : Button, UIPanelButtonTemplate
 PetitionFrameRequestButton = {}
+PetitionFrameRequestButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L166)
 --- child of PetitionFrame
 --- @class PetitionFrame_PetitionFrameRenameButton : Button, UIPanelButtonTemplate
 PetitionFrameRenameButton = {}
+PetitionFrameRenameButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L6)
 --- child of PetitionFrame
@@ -114,6 +118,16 @@ PetitionFrameMemberName9 = {}
 --- @class PetitionFrame_PetitionFrameInstructions : FontString, QuestFont
 PetitionFrameInstructions = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L1148)
 --- child of PetitionFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -125,5 +139,8 @@ PetitionFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field ScrollBar PetitionFrame_ScrollBar
 --- @field Bg Texture
 PetitionFrame = {}
+PetitionFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+PetitionFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+PetitionFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 PetitionFrame["Inset"] = PetitionFrameInset -- inherited
 

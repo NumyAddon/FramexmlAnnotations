@@ -68,5 +68,8 @@
 --- @field showTooltip boolean # true
 WarlockPowerFrame = {}
 WarlockPowerFrame["showTooltip"] = true
+WarlockPowerFrame["isManagedFrame"] = true -- inherited
+WarlockPowerFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+WarlockPowerFrame["maxUsablePoints"] = 5 -- inherited
 WarlockPowerFrame["powerToken"] = "SOUL_SHARDS" -- inherited
 

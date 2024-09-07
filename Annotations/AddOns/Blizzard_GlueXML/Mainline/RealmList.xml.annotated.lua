@@ -167,11 +167,13 @@ RealmListCloseButton["buttonArtKit"] = "128-redbutton-exit" -- inherited
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListCancelButton : Button, GlueDialogButtonTemplate
 RealmListCancelButton = {}
+RealmListCancelButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/RealmList.xml#L361)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListOkButton : Button, GlueDialogButtonTemplate
 RealmListOkButton = {}
+RealmListOkButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/RealmList.xml#L192)
 --- child of RealmList

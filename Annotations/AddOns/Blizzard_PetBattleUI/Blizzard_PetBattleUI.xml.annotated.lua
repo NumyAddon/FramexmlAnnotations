@@ -534,29 +534,29 @@
 --- @field Pet3 PetBattleFrame_BottomFrame_PetSelectionFrame_Pet3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1336)
---- child of XPBar
---- @class PetBattleFrame_BottomFrame_XPBar_TextString : FontString, TextStatusBarText
+--- child of PetBattleFrameXPBar
+--- @class PetBattleFrame_BottomFrame_PetBattleFrameXPBar_TextString : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1341)
---- child of XPBar
---- @class PetBattleFrame_BottomFrame_XPBar_XPBarLeft : Texture
-XPBarLeft = {}
+--- child of PetBattleFrameXPBar
+--- @class PetBattleFrame_BottomFrame_PetBattleFrameXPBar_PetBattleFrameXPBarLeft : Texture
+PetBattleFrameXPBarLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1349)
---- child of XPBar
---- @class PetBattleFrame_BottomFrame_XPBar_XPBarRight : Texture
-XPBarRight = {}
+--- child of PetBattleFrameXPBar
+--- @class PetBattleFrame_BottomFrame_PetBattleFrameXPBar_PetBattleFrameXPBarRight : Texture
+PetBattleFrameXPBarRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1357)
---- child of XPBar
---- @class PetBattleFrame_BottomFrame_XPBar_XPBarMiddle : Texture
-XPBarMiddle = {}
+--- child of PetBattleFrameXPBar
+--- @class PetBattleFrame_BottomFrame_PetBattleFrameXPBar_PetBattleFrameXPBarMiddle : Texture
+PetBattleFrameXPBarMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1329)
 --- child of 
---- @class PetBattleFrame_BottomFrame_XPBar : StatusBar, TextStatusBar
---- @field TextString PetBattleFrame_BottomFrame_XPBar_TextString
-XPBar = {}
+--- @class PetBattleFrame_BottomFrame_PetBattleFrameXPBar : StatusBar, TextStatusBar
+--- @field TextString PetBattleFrame_BottomFrame_PetBattleFrameXPBar_TextString
+PetBattleFrameXPBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1426)
 --- child of 
@@ -611,13 +611,28 @@ XPBar = {}
 --- @field RightEndCap PetBattleFrame_BottomFrame_FlowFrame_RightEndCap
 --- @field SelectPetInstruction PetBattleFrame_BottomFrame_FlowFrame_SelectPetInstruction
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L634)
+--- child of  (created in template PetBattleActionButtonTemplate)
+--- @type Texture
+PetBattleFrameCooldownFlash = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1479)
 --- child of 
 --- @class PetBattleFrame_BottomFrame_SwitchPetButton : CheckButton, PetBattleActionButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L634)
+--- child of  (created in template PetBattleActionButtonTemplate)
+--- @type Texture
+PetBattleFrameCooldownFlash = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1512)
 --- child of 
 --- @class PetBattleFrame_BottomFrame_CatchButton : Button, PetBattleActionButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L634)
+--- child of  (created in template PetBattleActionButtonTemplate)
+--- @type Texture
+PetBattleFrameCooldownFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1526)
 --- child of 
@@ -665,7 +680,7 @@ XPBar = {}
 --- child of PetBattleFrame
 --- @class PetBattleFrame_BottomFrame : Frame
 --- @field PetSelectionFrame PetBattleFrame_BottomFrame_PetSelectionFrame
---- @field xpBar PetBattleFrame_BottomFrame_XPBar
+--- @field xpBar PetBattleFrame_BottomFrame_PetBattleFrameXPBar
 --- @field TurnTimer PetBattleFrame_BottomFrame_TurnTimer
 --- @field FlowFrame PetBattleFrame_BottomFrame_FlowFrame
 --- @field SwitchPetButton PetBattleFrame_BottomFrame_SwitchPetButton
@@ -720,10 +735,12 @@ PetBattleFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1600)
 --- @class PetBattlePrimaryUnitTooltip : Frame, PetBattleUnitTooltipTemplate
 PetBattlePrimaryUnitTooltip = {}
+PetBattlePrimaryUnitTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1601)
 --- @class PetBattlePrimaryAbilityTooltip : Frame, SharedPetBattleAbilityTooltipTemplate
 PetBattlePrimaryAbilityTooltip = {}
+PetBattlePrimaryAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1647)
 --- child of StartSplashTexture

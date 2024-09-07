@@ -110,6 +110,11 @@
 --- child of CommunitiesTicketManagerDialog
 --- @class CommunitiesTicketManagerDialog_GenerateLinkButton : Button, UIPanelButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L78)
+--- child of  (created in template UIPanelSquareButton)
+--- @type Texture
+CommunitiesTicketManagerDialogIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L404)
 --- child of CommunitiesTicketManagerDialog
 --- @class CommunitiesTicketManagerDialog_MaximizeButton : Button, UIPanelSquareButton

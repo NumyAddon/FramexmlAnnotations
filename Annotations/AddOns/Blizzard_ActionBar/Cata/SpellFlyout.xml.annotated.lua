@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L3)
 --- Template
---- @class ActionBarFlyoutButton-FlyoutTop : Texture
+--- @class ActionBarFlyoutButton_FlyoutTop : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L8)
 --- Template

@@ -364,6 +364,11 @@
 --- @class AzeriteEssenceUI_ActivationGlow : Texture
 --- @field Anim AzeriteEssenceUI_ActivationGlow_Anim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L1095)
 --- child of AzeriteEssenceUI (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
@@ -386,6 +391,8 @@ AzeriteEssenceUICloseButton = {}
 --- @field ActivationGlow AzeriteEssenceUI_ActivationGlow
 --- @field OrbRing Texture
 AzeriteEssenceUI = {}
+AzeriteEssenceUI["layoutType"] = "PortraitFrameTemplate" -- inherited
+AzeriteEssenceUI["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 AzeriteEssenceUI["CloseButton"] = AzeriteEssenceUICloseButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L834)

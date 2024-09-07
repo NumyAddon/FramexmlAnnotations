@@ -34,5 +34,8 @@
 --- @field topPadding number # 7
 MonkHarmonyBarFrame = {}
 MonkHarmonyBarFrame["topPadding"] = 7
+MonkHarmonyBarFrame["isManagedFrame"] = true -- inherited
+MonkHarmonyBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+MonkHarmonyBarFrame["maxUsablePoints"] = 5 -- inherited
 MonkHarmonyBarFrame["powerToken"] = "CHI" -- inherited
 

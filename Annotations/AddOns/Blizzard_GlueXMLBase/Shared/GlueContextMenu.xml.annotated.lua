@@ -11,4 +11,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Shared/GlueContextMenu.xml#L17)
 --- @class GlueContextMenu : Frame, GlueContextMenuTemplate
 GlueContextMenu = {}
+GlueContextMenu["layoutType"] = "TooltipDefaultLayout" -- inherited
 

@@ -170,6 +170,7 @@
 --- @field layoutIndex number # 3
 GroupLootContainer = {}
 GroupLootContainer["layoutIndex"] = 3
+GroupLootContainer["isManagedFrame"] = true -- inherited
 GroupLootContainer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L546)

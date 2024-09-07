@@ -85,5 +85,8 @@
 --- @field topPadding number # 5
 EssencePlayerFrame = {}
 EssencePlayerFrame["topPadding"] = 5
+EssencePlayerFrame["isManagedFrame"] = true -- inherited
+EssencePlayerFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+EssencePlayerFrame["maxUsablePoints"] = 5 -- inherited
 EssencePlayerFrame["powerToken"] = "ESSENCE" -- inherited
 

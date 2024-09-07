@@ -5,6 +5,7 @@
 --- Template
 --- @class TutorialKeyboardMouseFrame_Frame_KeyboardMouseConfirmButton : Button, UIPanelButtonTemplate
 KeyboardMouseConfirmButton = {}
+KeyboardMouseConfirmButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L22)
 --- child of TutorialKeyboardMouseFrame_Frame

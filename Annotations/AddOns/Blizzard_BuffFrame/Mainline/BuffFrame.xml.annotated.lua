@@ -59,6 +59,7 @@
 --- @field CollapseAndExpandButton BuffFrame_CollapseAndExpandButton
 BuffFrame = {}
 BuffFrame["exampleAuraType"] = "Buff"
+BuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L174)
 --- child of DebuffFrame
@@ -77,6 +78,7 @@ BuffFrame["exampleAuraType"] = "Buff"
 --- @field privateAuraAnchor2 DebuffFrame_privateAuraAnchor2
 DebuffFrame = {}
 DebuffFrame["exampleAuraType"] = "Debuff"
+DebuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L208)
 --- child of DeadlyDebuffFrame

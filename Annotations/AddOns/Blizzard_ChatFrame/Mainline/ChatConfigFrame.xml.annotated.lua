@@ -224,6 +224,7 @@ ChatConfigCategoryFrameButton7["Highlight"] = ChatConfigCategoryFrameButton7High
 --- child of ChatConfigFrame
 --- @class ChatConfigFrame_ChatConfigCategoryFrame : Frame, ChatConfigBoxTemplate
 ChatConfigCategoryFrame = {}
+ChatConfigCategoryFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 ChatConfigCategoryFrame["backdropBorderColorAlpha"] = 0.5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L401)
@@ -235,7 +236,13 @@ ChatConfigFrameChatTabManager = {}
 --- child of ChatConfigFrame
 --- @class ChatConfigFrame_ChatConfigBackgroundFrame : Frame, ChatConfigBoxTemplate
 ChatConfigBackgroundFrame = {}
+ChatConfigBackgroundFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 ChatConfigBackgroundFrame["backdropBorderColorAlpha"] = 0.5 -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L42)
+--- child of WideChatConfigBoxWithHeaderAndClassColorsTemplate (created in template ChatConfigBoxWithHeaderTemplate)
+--- @type ChatConfigBoxWithHeaderTemplate_ChatConfigBoxWithHeaderTemplateTitle
+WideChatConfigBoxWithHeaderAndClassColorsTemplateTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L64)
 --- child of ChatConfigChatSettingsLeft (created in template WideChatConfigBoxWithHeaderAndClassColorsTemplate)
@@ -246,11 +253,19 @@ ChatConfigChatSettingsLeftColorHeader = {}
 --- child of ChatConfigChatSettings
 --- @class ChatConfigFrame_ChatConfigChatSettings_ChatConfigChatSettingsLeft : Frame, WideChatConfigBoxWithHeaderAndClassColorsTemplate
 ChatConfigChatSettingsLeft = {}
+ChatConfigChatSettingsLeft["layoutType"] = "TooltipDefaultLayout" -- inherited
+ChatConfigChatSettingsLeft["backdropBorderColorAlpha"] = 0.5 -- inherited
+ChatConfigChatSettingsLeft["header"] = WideChatConfigBoxWithHeaderAndClassColorsTemplateTitle -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L417)
 --- child of ChatConfigFrame
 --- @class ChatConfigFrame_ChatConfigChatSettings : Frame
 ChatConfigChatSettings = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L42)
+--- child of WideChatConfigBoxWithHeaderAndClassColorsTemplate (created in template ChatConfigBoxWithHeaderTemplate)
+--- @type ChatConfigBoxWithHeaderTemplate_ChatConfigBoxWithHeaderTemplateTitle
+WideChatConfigBoxWithHeaderAndClassColorsTemplateTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L64)
 --- child of ChatConfigChannelSettingsLeft (created in template WideChatConfigBoxWithHeaderAndClassColorsTemplate)
@@ -261,6 +276,9 @@ ChatConfigChannelSettingsLeftColorHeader = {}
 --- child of ChatConfigChannelSettings
 --- @class ChatConfigFrame_ChatConfigChannelSettings_ChatConfigChannelSettingsLeft : Frame, WideChatConfigBoxWithHeaderAndClassColorsTemplate, ChatConfigWideCheckboxManagerMixin
 ChatConfigChannelSettingsLeft = {}
+ChatConfigChannelSettingsLeft["layoutType"] = "TooltipDefaultLayout" -- inherited
+ChatConfigChannelSettingsLeft["backdropBorderColorAlpha"] = 0.5 -- inherited
+ChatConfigChannelSettingsLeft["header"] = WideChatConfigBoxWithHeaderAndClassColorsTemplateTitle -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L434)
 --- child of ChatConfigFrame
@@ -276,6 +294,8 @@ ChatConfigOtherSettingsCombatTitle = {}
 --- child of ChatConfigOtherSettings
 --- @class ChatConfigFrame_ChatConfigOtherSettings_ChatConfigOtherSettingsCombat : Frame, ChatConfigBoxWithHeaderTemplate
 ChatConfigOtherSettingsCombat = {}
+ChatConfigOtherSettingsCombat["layoutType"] = "TooltipDefaultLayout" -- inherited
+ChatConfigOtherSettingsCombat["backdropBorderColorAlpha"] = 0.5 -- inherited
 ChatConfigOtherSettingsCombat["header"] = ChatConfigOtherSettingsCombatTitle -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L42)
@@ -287,6 +307,8 @@ ChatConfigOtherSettingsPVPTitle = {}
 --- child of ChatConfigOtherSettings
 --- @class ChatConfigFrame_ChatConfigOtherSettings_ChatConfigOtherSettingsPVP : Frame, ChatConfigBoxWithHeaderTemplate
 ChatConfigOtherSettingsPVP = {}
+ChatConfigOtherSettingsPVP["layoutType"] = "TooltipDefaultLayout" -- inherited
+ChatConfigOtherSettingsPVP["backdropBorderColorAlpha"] = 0.5 -- inherited
 ChatConfigOtherSettingsPVP["header"] = ChatConfigOtherSettingsPVPTitle -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L42)
@@ -298,6 +320,8 @@ ChatConfigOtherSettingsSystemTitle = {}
 --- child of ChatConfigOtherSettings
 --- @class ChatConfigFrame_ChatConfigOtherSettings_ChatConfigOtherSettingsSystem : Frame, ChatConfigBoxWithHeaderTemplate
 ChatConfigOtherSettingsSystem = {}
+ChatConfigOtherSettingsSystem["layoutType"] = "TooltipDefaultLayout" -- inherited
+ChatConfigOtherSettingsSystem["backdropBorderColorAlpha"] = 0.5 -- inherited
 ChatConfigOtherSettingsSystem["header"] = ChatConfigOtherSettingsSystemTitle -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L42)
@@ -309,6 +333,8 @@ ChatConfigOtherSettingsCreatureTitle = {}
 --- child of ChatConfigOtherSettings
 --- @class ChatConfigFrame_ChatConfigOtherSettings_ChatConfigOtherSettingsCreature : Frame, ChatConfigBoxWithHeaderTemplate
 ChatConfigOtherSettingsCreature = {}
+ChatConfigOtherSettingsCreature["layoutType"] = "TooltipDefaultLayout" -- inherited
+ChatConfigOtherSettingsCreature["backdropBorderColorAlpha"] = 0.5 -- inherited
 ChatConfigOtherSettingsCreature["header"] = ChatConfigOtherSettingsCreatureTitle -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L451)
@@ -431,6 +457,8 @@ ChatConfigTextToSpeechChannelSettingsLeftTitle = {}
 --- child of ChatConfigTextToSpeechChannelSettings
 --- @class ChatConfigFrame_ChatConfigTextToSpeechChannelSettings_ChatConfigTextToSpeechChannelSettingsLeft : Frame, ChatConfigBoxWithHeaderTemplate
 ChatConfigTextToSpeechChannelSettingsLeft = {}
+ChatConfigTextToSpeechChannelSettingsLeft["layoutType"] = "TooltipDefaultLayout" -- inherited
+ChatConfigTextToSpeechChannelSettingsLeft["backdropBorderColorAlpha"] = 0.5 -- inherited
 ChatConfigTextToSpeechChannelSettingsLeft["header"] = ChatConfigTextToSpeechChannelSettingsLeftTitle -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L528)
@@ -450,16 +478,19 @@ ChatConfigTextToSpeechChannelSettings = {}
 --- child of ChatConfigCombatSettingsFilters
 --- @class ChatConfigFrame_ChatConfigCombatSettings_ChatConfigCombatSettingsFilters_ChatConfigCombatSettingsFiltersDeleteButton : Button, UIPanelButtonTemplate
 ChatConfigCombatSettingsFiltersDeleteButton = {}
+ChatConfigCombatSettingsFiltersDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L582)
 --- child of ChatConfigCombatSettingsFilters
 --- @class ChatConfigFrame_ChatConfigCombatSettings_ChatConfigCombatSettingsFilters_ChatConfigCombatSettingsFiltersAddFilterButton : Button, UIPanelButtonTemplate
 ChatConfigCombatSettingsFiltersAddFilterButton = {}
+ChatConfigCombatSettingsFiltersAddFilterButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L593)
 --- child of ChatConfigCombatSettingsFilters
 --- @class ChatConfigFrame_ChatConfigCombatSettings_ChatConfigCombatSettingsFilters_ChatConfigCombatSettingsFiltersCopyFilterButton : Button, UIPanelButtonTemplate
 ChatConfigCombatSettingsFiltersCopyFilterButton = {}
+ChatConfigCombatSettingsFiltersCopyFilterButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L605)
 --- child of ChatConfigCombatSettingsFilters
@@ -477,6 +508,7 @@ ChatConfigMoveFilterDownButton = {}
 --- @field ScrollBox ChatConfigFrame_ChatConfigCombatSettings_ChatConfigCombatSettingsFilters_ScrollBox
 --- @field ScrollBar ChatConfigFrame_ChatConfigCombatSettings_ChatConfigCombatSettingsFilters_ScrollBar
 ChatConfigCombatSettingsFilters = {}
+ChatConfigCombatSettingsFilters["layoutType"] = "TooltipDefaultLayout" -- inherited
 ChatConfigCombatSettingsFilters["backdropBorderColorAlpha"] = 0.5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L42)
@@ -488,6 +520,8 @@ CombatConfigMessageSourcesDoneByTitle = {}
 --- child of CombatConfigMessageSources
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigMessageSources_CombatConfigMessageSourcesDoneBy : Frame, ChatConfigBoxWithHeaderTemplate
 CombatConfigMessageSourcesDoneBy = {}
+CombatConfigMessageSourcesDoneBy["layoutType"] = "TooltipDefaultLayout" -- inherited
+CombatConfigMessageSourcesDoneBy["backdropBorderColorAlpha"] = 0.5 -- inherited
 CombatConfigMessageSourcesDoneBy["header"] = CombatConfigMessageSourcesDoneByTitle -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L42)
@@ -499,6 +533,8 @@ CombatConfigMessageSourcesDoneToTitle = {}
 --- child of CombatConfigMessageSources
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigMessageSources_CombatConfigMessageSourcesDoneTo : Frame, ChatConfigBoxWithHeaderTemplate
 CombatConfigMessageSourcesDoneTo = {}
+CombatConfigMessageSourcesDoneTo["layoutType"] = "TooltipDefaultLayout" -- inherited
+CombatConfigMessageSourcesDoneTo["backdropBorderColorAlpha"] = 0.5 -- inherited
 CombatConfigMessageSourcesDoneTo["header"] = CombatConfigMessageSourcesDoneToTitle -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L659)
@@ -539,6 +575,8 @@ CombatConfigColorsUnitColorsTitle = {}
 --- child of CombatConfigColors
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsUnitColors : Frame, ChatConfigBoxWithHeaderTemplate
 CombatConfigColorsUnitColors = {}
+CombatConfigColorsUnitColors["layoutType"] = "TooltipDefaultLayout" -- inherited
+CombatConfigColorsUnitColors["backdropBorderColorAlpha"] = 0.5 -- inherited
 CombatConfigColorsUnitColors["header"] = CombatConfigColorsUnitColorsTitle -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L131)
@@ -590,6 +628,8 @@ CombatConfigColorsHighlightingTitle = {}
 --- child of CombatConfigColors
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsHighlighting : Frame, ChatConfigBorderBoxTemplate
 CombatConfigColorsHighlighting = {}
+CombatConfigColorsHighlighting["layoutType"] = "TooltipDefaultLayout" -- inherited
+CombatConfigColorsHighlighting["backdropColorAlpha"] = 0 -- inherited
 CombatConfigColorsHighlighting["backdropBorderColorAlpha"] = 0.5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L118)
@@ -611,6 +651,8 @@ CombatConfigColorsColorizeUnitNameCheck["Text"] = CombatConfigColorsColorizeUnit
 --- child of CombatConfigColorsColorize
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsColorize_CombatConfigColorsColorizeUnitName : Frame, ChatConfigBorderBoxTemplate
 CombatConfigColorsColorizeUnitName = {}
+CombatConfigColorsColorizeUnitName["layoutType"] = "TooltipDefaultLayout" -- inherited
+CombatConfigColorsColorizeUnitName["backdropColorAlpha"] = 0 -- inherited
 CombatConfigColorsColorizeUnitName["backdropBorderColorAlpha"] = 0.5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L118)
@@ -653,6 +695,8 @@ CombatConfigColorsColorizeSpellNamesColorSwatch = {}
 --- child of CombatConfigColorsColorize
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsColorize_CombatConfigColorsColorizeSpellNames : Frame, ChatConfigBorderBoxTemplate
 CombatConfigColorsColorizeSpellNames = {}
+CombatConfigColorsColorizeSpellNames["layoutType"] = "TooltipDefaultLayout" -- inherited
+CombatConfigColorsColorizeSpellNames["backdropColorAlpha"] = 0 -- inherited
 CombatConfigColorsColorizeSpellNames["backdropBorderColorAlpha"] = 0.5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L118)
@@ -695,6 +739,8 @@ CombatConfigColorsColorizeDamageNumberColorSwatch = {}
 --- child of CombatConfigColorsColorize
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsColorize_CombatConfigColorsColorizeDamageNumber : Frame, ChatConfigBorderBoxTemplate
 CombatConfigColorsColorizeDamageNumber = {}
+CombatConfigColorsColorizeDamageNumber["layoutType"] = "TooltipDefaultLayout" -- inherited
+CombatConfigColorsColorizeDamageNumber["backdropColorAlpha"] = 0 -- inherited
 CombatConfigColorsColorizeDamageNumber["backdropBorderColorAlpha"] = 0.5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L118)
@@ -712,6 +758,8 @@ CombatConfigColorsColorizeDamageSchoolCheck["Text"] = CombatConfigColorsColorize
 --- child of CombatConfigColorsColorize
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsColorize_CombatConfigColorsColorizeDamageSchool : Frame, ChatConfigBorderBoxTemplate
 CombatConfigColorsColorizeDamageSchool = {}
+CombatConfigColorsColorizeDamageSchool["layoutType"] = "TooltipDefaultLayout" -- inherited
+CombatConfigColorsColorizeDamageSchool["backdropColorAlpha"] = 0 -- inherited
 CombatConfigColorsColorizeDamageSchool["backdropBorderColorAlpha"] = 0.5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L118)
@@ -751,6 +799,8 @@ CombatConfigColorsColorizeEntireLineByTarget["text"] = CombatConfigColorsColoriz
 --- child of CombatConfigColorsColorize
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsColorize_CombatConfigColorsColorizeEntireLine : Frame, ChatConfigBorderBoxTemplate
 CombatConfigColorsColorizeEntireLine = {}
+CombatConfigColorsColorizeEntireLine["layoutType"] = "TooltipDefaultLayout" -- inherited
+CombatConfigColorsColorizeEntireLine["backdropColorAlpha"] = 0 -- inherited
 CombatConfigColorsColorizeEntireLine["backdropBorderColorAlpha"] = 0.5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L853)
@@ -874,6 +924,7 @@ CombatConfigSettingsNameEditBox = {}
 --- child of CombatConfigSettings
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigSettings_CombatConfigSettingsSaveButton : Button, UIPanelButtonTemplate
 CombatConfigSettingsSaveButton = {}
+CombatConfigSettingsSaveButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L118)
 --- child of CombatConfigSettingsShowQuickButton (created in template ChatConfigCheckButtonTemplate)
@@ -932,21 +983,25 @@ ChatConfigCombatSettings["Filters"] = ChatConfigCombatSettingsFilters
 --- child of ChatConfigFrame
 --- @class ChatConfigFrame_ChatConfigFrameDefaultButton : Button, UIPanelButtonTemplate
 ChatConfigFrameDefaultButton = {}
+ChatConfigFrameDefaultButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L1470)
 --- child of ChatConfigFrame
 --- @class ChatConfigFrame_ChatConfigFrameRedockButton : Button, UIPanelButtonTemplate
 ChatConfigFrameRedockButton = {}
+ChatConfigFrameRedockButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L1480)
 --- child of ChatConfigFrame
 --- @class ChatConfigFrame_CombatLogDefaultButton : Button, UIPanelButtonTemplate
 CombatLogDefaultButton = {}
+CombatLogDefaultButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L1491)
 --- child of ChatConfigFrame
 --- @class ChatConfigFrame_TextToSpeechDefaultButton : Button, UIPanelButtonTemplate
 TextToSpeechDefaultButton = {}
+TextToSpeechDefaultButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L501)
 --- child of TextToSpeechCharacterSpecificButton (created in template UICheckButtonTemplate)
@@ -963,11 +1018,13 @@ TextToSpeechCharacterSpecificButton["Text"] = TextToSpeechCharacterSpecificButto
 --- child of ChatConfigFrame
 --- @class ChatConfigFrame_ChatConfigFrameCancelButton : Button, UIPanelButtonTemplate
 ChatConfigFrameCancelButton = {}
+ChatConfigFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L1526)
 --- child of ChatConfigFrame
 --- @class ChatConfigFrame_ChatConfigFrameOkayButton : Button, UIPanelButtonTemplate
 ChatConfigFrameOkayButton = {}
+ChatConfigFrameOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L333)
 --- @class ChatConfigFrame : Frame

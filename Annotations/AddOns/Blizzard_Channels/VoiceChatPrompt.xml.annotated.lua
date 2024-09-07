@@ -14,19 +14,43 @@
 --- child of VoiceChatPromptActivateChannel
 --- @class VoiceChatPromptActivateChannel_AcceptButton : Button, UIPanelButtonTemplate, VoiceChatActivateChannelPromptButtonMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L17)
+--- child of VoiceChatPromptTemplateGlowFrame (created in template SocialToastGlowTemplate)
+--- @type SocialToastGlowTemplate_SocialToastGlowTemplateAnimIn
+VoiceChatPromptTemplateGlowFrameAnimIn = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L55)
+--- child of VoiceChatPromptTemplate (created in template SocialToastTemplate)
+--- @type SocialToastTemplate_SocialToastTemplateGlowFrame
+VoiceChatPromptTemplateGlowFrame = {}
+VoiceChatPromptTemplateGlowFrame["animIn"] = VoiceChatPromptTemplateGlowFrameAnimIn -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L25)
 --- @class VoiceChatPromptActivateChannel : ContainedAlertFrame, VoiceChatPromptTemplate, VoiceChatActivateChannelPromptMixin
 --- @field externallyManagedOutroAnimation boolean # true
 --- @field AcceptButton VoiceChatPromptActivateChannel_AcceptButton
 VoiceChatPromptActivateChannel = {}
 VoiceChatPromptActivateChannel["externallyManagedOutroAnimation"] = true
+VoiceChatPromptActivateChannel["backdropInfo"] = BACKDROP_TOAST_12_12 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L52)
 --- child of VoiceChatChannelActivatedNotification
 --- @class VoiceChatChannelActivatedNotification_Text2 : FontString, FriendsFont_Normal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L17)
+--- child of VoiceChatPromptTemplateGlowFrame (created in template SocialToastGlowTemplate)
+--- @type SocialToastGlowTemplate_SocialToastGlowTemplateAnimIn
+VoiceChatPromptTemplateGlowFrameAnimIn = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L55)
+--- child of VoiceChatPromptTemplate (created in template SocialToastTemplate)
+--- @type SocialToastTemplate_SocialToastTemplateGlowFrame
+VoiceChatPromptTemplateGlowFrame = {}
+VoiceChatPromptTemplateGlowFrame["animIn"] = VoiceChatPromptTemplateGlowFrameAnimIn -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/VoiceChatPrompt.xml#L48)
 --- @class VoiceChatChannelActivatedNotification : ContainedAlertFrame, VoiceChatPromptTemplate, VoiceChatChannelActivatedNotificationMixin
 --- @field Text2 VoiceChatChannelActivatedNotification_Text2
 VoiceChatChannelActivatedNotification = {}
+VoiceChatChannelActivatedNotification["backdropInfo"] = BACKDROP_TOAST_12_12 -- inherited
 

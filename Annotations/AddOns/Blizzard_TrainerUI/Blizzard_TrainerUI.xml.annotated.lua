@@ -63,6 +63,7 @@ ClassTrainerStatusBar["rankText"] = ClassTrainerStatusBarSkillRank
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerTrainButton : Button, MagicButtonTemplate
 ClassTrainerTrainButton = {}
+ClassTrainerTrainButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L110)
 --- child of ClassTrainerFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
@@ -175,6 +176,16 @@ ClassTrainerFrameMoneyBg = {}
 --- @class ClassTrainerFrame_ClassTrainerFrameBg : Texture
 ClassTrainerFrameBg = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1148)
 --- child of ClassTrainerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -193,5 +204,8 @@ ClassTrainerFrame = {}
 ClassTrainerFrame["skillStepButton"] = ClassTrainerFrameSkillStepButton
 ClassTrainerFrame["bottomInset"] = ClassTrainerFrameBottomInset
 ClassTrainerFrame["BG"] = ClassTrainerFrameBg
+ClassTrainerFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ClassTrainerFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+ClassTrainerFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 ClassTrainerFrame["Inset"] = ClassTrainerFrameInset -- inherited
 

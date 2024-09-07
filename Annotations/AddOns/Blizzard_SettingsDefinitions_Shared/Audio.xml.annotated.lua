@@ -11,7 +11,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Audio.xml#L34)
 --- child of 
---- @class VoiceTestMicrophoneTemplate_VUMeter_Title : FontString, GameFontHighlightSmall
+--- @class VoiceTestMicrophoneTemplate_VUMeter_VoiceTestMicrophoneTemplateTitle : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Audio.xml#L24)
 --- child of VoiceTestMicrophoneTemplate

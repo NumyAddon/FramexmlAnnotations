@@ -9,10 +9,16 @@
 --- @class MovePadFrame_MovePadLock : CheckButton
 MovePadLock = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- child of MovePadCheckboxTemplate (created in template UIPanelSquareButton)
+--- @type Texture
+MovePadCheckboxTemplateIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L45)
 --- child of MovePadFrame
 --- @class MovePadFrame_MovePadForward : CheckButton, MovePadCheckboxTemplate
 MovePadForward = {}
+MovePadForward["icon"] = MovePadCheckboxTemplateIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
 --- child of MovePadJump (created in template UIPanelSquareButton)
@@ -25,30 +31,60 @@ MovePadJumpIcon = {}
 MovePadJump = {}
 MovePadJump["icon"] = MovePadJumpIcon -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- child of MovePadCheckboxTemplate (created in template UIPanelSquareButton)
+--- @type Texture
+MovePadCheckboxTemplateIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L101)
 --- child of MovePadFrame
 --- @class MovePadFrame_MovePadRotateLeft : CheckButton, MovePadCheckboxTemplate
 MovePadRotateLeft = {}
+MovePadRotateLeft["icon"] = MovePadCheckboxTemplateIcon -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- child of MovePadCheckboxTemplate (created in template UIPanelSquareButton)
+--- @type Texture
+MovePadCheckboxTemplateIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L124)
 --- child of MovePadFrame
 --- @class MovePadFrame_MovePadRotateRight : CheckButton, MovePadCheckboxTemplate
 MovePadRotateRight = {}
+MovePadRotateRight["icon"] = MovePadCheckboxTemplateIcon -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- child of MovePadCheckboxTemplate (created in template UIPanelSquareButton)
+--- @type Texture
+MovePadCheckboxTemplateIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L147)
 --- child of MovePadFrame
 --- @class MovePadFrame_MovePadBackward : CheckButton, MovePadCheckboxTemplate
 MovePadBackward = {}
+MovePadBackward["icon"] = MovePadCheckboxTemplateIcon -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- child of MovePadCheckboxTemplate (created in template UIPanelSquareButton)
+--- @type Texture
+MovePadCheckboxTemplateIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L179)
 --- child of MovePadFrame
 --- @class MovePadFrame_MovePadStrafeLeft : CheckButton, MovePadCheckboxTemplate
 MovePadStrafeLeft = {}
+MovePadStrafeLeft["icon"] = MovePadCheckboxTemplateIcon -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- child of MovePadCheckboxTemplate (created in template UIPanelSquareButton)
+--- @type Texture
+MovePadCheckboxTemplateIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L199)
 --- child of MovePadFrame
 --- @class MovePadFrame_MovePadStrafeRight : CheckButton, MovePadCheckboxTemplate
 MovePadStrafeRight = {}
+MovePadStrafeRight["icon"] = MovePadCheckboxTemplateIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L12)
 --- @class MovePadFrame : Frame, TooltipBackdropTemplate, MovePadMixin

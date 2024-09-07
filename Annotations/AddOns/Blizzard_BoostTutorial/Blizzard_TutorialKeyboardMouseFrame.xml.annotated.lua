@@ -69,6 +69,11 @@ xx = {}
 --- child of NPE_TutorialKeyboardMouseFrame_Frame
 --- @class NPE_TutorialKeyboardMouseFrame_Frame_Anim_UnDim : AnimationGroup
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L1095)
 --- child of NPE_TutorialKeyboardMouseFrame_Frame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
@@ -85,6 +90,8 @@ NPE_TutorialKeyboardMouseFrame_FrameCloseButton = {}
 --- @field Anim_UnDim NPE_TutorialKeyboardMouseFrame_Frame_Anim_UnDim
 NPE_TutorialKeyboardMouseFrame_Frame = {}
 NPE_TutorialKeyboardMouseFrame_Frame["txtKey_TURNRIGHT"] = xx
+NPE_TutorialKeyboardMouseFrame_Frame["layoutType"] = "PortraitFrameTemplate" -- inherited
+NPE_TutorialKeyboardMouseFrame_Frame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 NPE_TutorialKeyboardMouseFrame_Frame["CloseButton"] = NPE_TutorialKeyboardMouseFrame_FrameCloseButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L181)

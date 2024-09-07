@@ -2,7 +2,9 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L3)
 --- @class CharCustomizeTooltip : GameTooltip, SharedTooltipTemplate
+--- @field textLeft1Font string # "GameFontNormalLarge2"
 CharCustomizeTooltip = {}
+CharCustomizeTooltip["textLeft1Font"] = "GameFontNormalLarge2"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L12)
 --- Template
@@ -27,6 +29,7 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L57)
 --- Template
 --- @class CharacterCreateClassButtonTemplate : CheckButton, CharCustomizeMaskedButtonTemplate, CharacterCreateClassButtonMixin
+--- @field ringAtlas string # "charactercreate-ring-metaldark"
 --- @field ClassName CharacterCreateClassButtonTemplate_ClassName
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L98)
@@ -41,23 +44,28 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L82)
 --- Template
 --- @class CharacterCreateRaceButtonTemplate : CheckButton, CharCustomizeMaskedButtonTemplate, CharacterCreateRaceButtonMixin
+--- @field ringWidth number # 139
 --- @field RaceName CharacterCreateRaceButtonTemplate_RaceName
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L109)
 --- Template
 --- @class CharacterCreateAllianceButtonTemplate : CheckButton, CharacterCreateRaceButtonTemplate
+--- @field ringAtlas string # "charactercreate-ring-alliance"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L119)
 --- Template
 --- @class CharacterCreateAllianceAlliedRaceButtonTemplate : CheckButton, CharacterCreateAllianceButtonTemplate
+--- @field tooltipXOffset number # 16
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L125)
 --- Template
 --- @class CharacterCreateHordeButtonTemplate : CheckButton, CharacterCreateRaceButtonTemplate
+--- @field ringAtlas string # "charactercreate-ring-horde"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L136)
 --- Template
 --- @class CharacterCreateHordeAlliedRaceButtonTemplate : CheckButton, CharacterCreateHordeButtonTemplate
+--- @field tooltipXOffset number # 16
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L157)
 --- child of CharacterCreateSpecButtonTemplate
@@ -70,12 +78,14 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L142)
 --- Template
 --- @class CharacterCreateSpecButtonTemplate : CheckButton, CharCustomizeMaskedButtonTemplate, CharacterCreateSpecButtonMixin
+--- @field ringAtlas string # "charactercreate-ring-metaldark"
 --- @field SpecName CharacterCreateSpecButtonTemplate_SpecName
 --- @field RoleName CharacterCreateSpecButtonTemplate_RoleName
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L191)
 --- child of 
 --- @class CharacterCreateStartingZoneTemplate_ZoneArt_Border : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "CharacterCreateThickBorder"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L175)
 --- child of CharacterCreateStartingZoneTemplate
@@ -108,6 +118,7 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L237)
 --- Template
 --- @class CharacterCreateVerticalLayoutFrame : Frame, SpaceToFitVerticalLayoutFrame
+--- @field baseSpacing number # 18
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L244)
 --- Template
@@ -116,10 +127,12 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L325)
 --- child of CharacterCreateFrame
 --- @class CharacterCreateFrame_BackButton : Button, CharacterCreateNavButtonTemplate
+--- @field charCreateOnClickMethod string # "NavBack"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L333)
 --- child of CharacterCreateFrame
 --- @class CharacterCreateFrame_ForwardButton : Button, CharacterCreateNavButtonTemplate, CharacterCreateNavForwardButtonMixin
+--- @field charCreateOnClickMethod string # "NavForward"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L371)
 --- child of 
@@ -128,6 +141,7 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L355)
 --- child of 
 --- @class CharacterCreateFrame_RaceAndClassFrame_AllianceHeader : Frame, ResizeLayoutFrame, CharCustomizeFrameWithTooltipTemplate, CharacterCreateFactionHeaderMixin
+--- @field tooltipAnchor string # "ANCHOR_TOPLEFT"
 --- @field Logo Texture
 --- @field Text CharacterCreateFrame_RaceAndClassFrame_AllianceHeader_Text
 
@@ -138,12 +152,14 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L379)
 --- child of 
 --- @class CharacterCreateFrame_RaceAndClassFrame_HordeHeader : Frame, ResizeLayoutFrame, CharCustomizeFrameWithTooltipTemplate, CharacterCreateFactionHeaderMixin
+--- @field tooltipAnchor string # "ANCHOR_TOPRIGHT"
 --- @field Logo Texture
 --- @field Text CharacterCreateFrame_RaceAndClassFrame_HordeHeader_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L403)
 --- child of 
 --- @class CharacterCreateFrame_RaceAndClassFrame_BodyTypes : Frame, HorizontalLayoutFrame
+--- @field spacing number # 22
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L411)
 --- child of 
@@ -164,11 +180,18 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L439)
 --- child of 
 --- @class CharacterCreateFrame_RaceAndClassFrame_ClassTrialCheckButton : Frame, CharCustomizeFrameWithTooltipTemplate, ResizeCheckButtonTemplate, ClassTrialCheckButtonMixin
+--- @field labelText any # CHARACTER_TYPE_FRAME_TRIAL_BOOST_CHARACTER
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L456)
+--- child of 
+--- @class CharacterCreateFrame_RaceAndClassFrame_RacialAbilityList_Label : FontString
+--- @field layoutIndex number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L450)
 --- child of 
 --- @class CharacterCreateFrame_RaceAndClassFrame_RacialAbilityList : Frame, VerticalLayoutFrame, CharacterCreateRacialAbilityListMixin
---- @field Label FontString
+--- @field spacing number # 10
+--- @field Label CharacterCreateFrame_RaceAndClassFrame_RacialAbilityList_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L347)
 --- child of 
@@ -192,15 +215,18 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L497)
 --- child of 
 --- @class CharacterCreateFrame_NameChoiceFrame_EditBox_NameAvailabilityState : Button, CharCustomizeFrameWithTooltipTemplate, CharacterCreateNameAvailabilityStateMixin
+--- @field tooltipMinWidth any # nil
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L489)
 --- child of 
 --- @class CharacterCreateFrame_NameChoiceFrame_EditBox : EditBox, SharedEditBoxTemplate, CharacterCreateEditBoxMixin
+--- @field justifyH string # "CENTER"
 --- @field NameAvailabilityState CharacterCreateFrame_NameChoiceFrame_EditBox_NameAvailabilityState
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L523)
 --- child of 
 --- @class CharacterCreateFrame_NameChoiceFrame_RandomNameButton : Button, CharCustomizeSmallButtonTemplate, CharacterCreateRandomNameButtonMixin
+--- @field simpleTooltipLine any # RANDOMIZE
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L475)
 --- child of CharacterCreateFrame
@@ -212,19 +238,23 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L546)
 --- child of 
 --- @class CharacterCreateFrame_ClassTrialSpecs_Title : FontString, SystemFont_Shadow_Large
+--- @field layoutIndex number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L537)
 --- child of CharacterCreateFrame
 --- @class CharacterCreateFrame_ClassTrialSpecs : Frame, CharacterCreateVerticalLayoutFrame, CharacterCreateClassTrialSpecsMixin
+--- @field spacing number # 20
 --- @field Title CharacterCreateFrame_ClassTrialSpecs_Title
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L581)
 --- child of 
 --- @class CharacterCreateFrame_ZoneChoiceFrame_NPEZone : Frame, CharacterCreateStartingZoneTemplate
+--- @field isNPE boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L589)
 --- child of 
 --- @class CharacterCreateFrame_ZoneChoiceFrame_NormalStartingZone : Frame, CharacterCreateStartingZoneTemplate
+--- @field isNPE boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L573)
 --- child of 
@@ -287,6 +317,7 @@ CharCustomizeTooltip = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L246)
 --- @class CharacterCreateFrame : ModelFFX, CharacterCreateMixin
+--- @field maxScale any # CHAR_CUSTOMIZE_MAX_SCALE
 --- @field BackButton CharacterCreateFrame_BackButton
 --- @field ForwardButton CharacterCreateFrame_ForwardButton
 --- @field RaceAndClassFrame CharacterCreateFrame_RaceAndClassFrame
@@ -304,4 +335,5 @@ CharCustomizeTooltip = {}
 --- @field RightBlackBar Texture
 --- @field TopBlackBar Texture
 CharacterCreateFrame = {}
+CharacterCreateFrame["maxScale"] = CHAR_CUSTOMIZE_MAX_SCALE
 

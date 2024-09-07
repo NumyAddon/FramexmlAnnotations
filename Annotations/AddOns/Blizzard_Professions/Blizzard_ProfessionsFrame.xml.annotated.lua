@@ -15,6 +15,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L17)
 --- child of ProfessionsFrame
 --- @class ProfessionsFrame_TabSystem : Frame, TabSystemTemplate
+--- @field minTabWidth number # 100
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L28)
 --- child of ProfessionsFrame

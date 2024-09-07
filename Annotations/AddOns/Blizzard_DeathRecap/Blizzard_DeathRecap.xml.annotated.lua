@@ -3,10 +3,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L15)
 --- child of 
 --- @class DeathRecapEntryTemplate_DamageInfo_Amount : FontString, GameFontNormal, AutoScalingFontStringMixin
+--- @field minLineHeight number # 9
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L25)
 --- child of 
 --- @class DeathRecapEntryTemplate_DamageInfo_AmountLarge : FontString, GameFontNormalLarge2, AutoScalingFontStringMixin
+--- @field minLineHeight number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L8)
 --- child of DeathRecapEntryTemplate

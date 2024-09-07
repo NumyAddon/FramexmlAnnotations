@@ -33,14 +33,29 @@
 --- child of HeirloomsJournal
 --- @class HeirloomsJournal_progressBar : StatusBar, CollectionsProgressBarTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L1504)
+--- child of HeirloomsJournalSearchBox (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+HeirloomsJournalSearchBoxClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L1495)
+--- child of HeirloomsJournalSearchBox (created in template SearchBoxTemplate)
+--- @type Texture
+HeirloomsJournalSearchBoxSearchIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L119)
 --- child of HeirloomsJournal
 --- @class HeirloomsJournal_HeirloomsJournalSearchBox : EditBox, SearchBoxTemplate
 HeirloomsJournalSearchBox = {}
+HeirloomsJournalSearchBox["instructionText"] = SEARCH -- inherited
+HeirloomsJournalSearchBox["clearButton"] = HeirloomsJournalSearchBoxClearButton -- inherited
+HeirloomsJournalSearchBox["searchIcon"] = HeirloomsJournalSearchBoxSearchIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L129)
 --- child of HeirloomsJournal
 --- @class HeirloomsJournal_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
+--- @field resizeToText boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_HeirloomCollection.xml#L138)
 --- child of HeirloomsJournal
@@ -64,4 +79,5 @@ HeirloomsJournalSearchBox = {}
 --- @field iconsFrame HeirloomsJournal_iconsFrame
 --- @field PagingFrame HeirloomsJournal_PagingFrame
 HeirloomsJournal = {}
+HeirloomsJournal["SearchBox"] = HeirloomsJournalSearchBox
 

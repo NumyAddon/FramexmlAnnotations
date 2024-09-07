@@ -123,6 +123,12 @@ Middle = {}
 --- child of GarrisonCapacitiveDisplayFrame
 --- @class GarrisonCapacitiveDisplayFrame_IncrementButton : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L1148)
+--- child of GarrisonCapacitiveDisplayFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+GarrisonCapacitiveDisplayFrameInset = {}
+GarrisonCapacitiveDisplayFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L122)
 --- @class GarrisonCapacitiveDisplayFrame : Frame, ButtonFrameTemplate
 --- @field CapacitiveDisplay GarrisonCapacitiveDisplayFrame_CapacitiveDisplay
@@ -133,4 +139,5 @@ Middle = {}
 --- @field Count GarrisonCapacitiveDisplayFrame_Count
 --- @field IncrementButton GarrisonCapacitiveDisplayFrame_IncrementButton
 GarrisonCapacitiveDisplayFrame = {}
+GarrisonCapacitiveDisplayFrame["Inset"] = GarrisonCapacitiveDisplayFrameInset -- inherited
 

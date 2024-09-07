@@ -218,20 +218,24 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L645)
 --- child of 
 --- @class CovenantFollowerTabTemplate_StatsFrame_StatsLabel : FontString, GameFontNormalLarge2
+--- @field layoutIndex number # 100
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L652)
 --- child of 
 --- @class CovenantFollowerTabTemplate_StatsFrame_AbilitiesText : FontString, GameFontNormalLarge2
+--- @field layoutIndex number # 200
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L635)
 --- child of CovenantFollowerTabTemplate
 --- @class CovenantFollowerTabTemplate_StatsFrame : Frame, VerticalLayoutFrame, GarrisonAbilitiesFrameMixin
+--- @field expand boolean # true
 --- @field StatsLabel CovenantFollowerTabTemplate_StatsFrame_StatsLabel
 --- @field AbilitiesText CovenantFollowerTabTemplate_StatsFrame_AbilitiesText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L662)
 --- child of CovenantFollowerTabTemplate
 --- @class CovenantFollowerTabTemplate_AbilitiesFrame : Frame, HorizontalLayoutFrame, GarrisonAbilitiesFrameMixin
+--- @field expand boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L553)
 --- child of CovenantFollowerTabTemplate

@@ -3,7 +3,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L126)
 --- child of TutorialFrame
 --- @class TutorialFrame_TutorialFrameTextScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarHideIfUnscrollable boolean # true
 TutorialFrameTextScrollFrame = {}
+TutorialFrameTextScrollFrame["scrollBarHideIfUnscrollable"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L158)
 --- child of TutorialTextBorder
@@ -27,7 +29,9 @@ Pulser = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L164)
 --- child of TutorialFrame
 --- @class TutorialFrame_TutorialFrameCallOut : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_CALLOUT_GLOW_0_16
 TutorialFrameCallOut = {}
+TutorialFrameCallOut["backdropInfo"] = BACKDROP_CALLOUT_GLOW_0_16
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L175)
 --- child of TutorialFrame
@@ -187,11 +191,16 @@ AnimateCallout = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L3)
 --- @class TutorialFrame : Frame
+--- @field onCloseCallback any # TutorialFrame_Hide
 TutorialFrame = {}
+TutorialFrame["onCloseCallback"] = TutorialFrame_Hide
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L271)
 --- @class TutorialFrameAlertButton : Button, UIParentBottomManagedFrameTemplate
+--- @field layoutIndex number # 24
 TutorialFrameAlertButton = {}
+TutorialFrameAlertButton["layoutIndex"] = 24
+TutorialFrameAlertButton["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L305)
 --- child of TutorialFrameAlertButtonBadge

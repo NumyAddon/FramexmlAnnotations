@@ -32,6 +32,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L5)
 --- @class ArcheologyDigsiteProgressBar : Frame, UIParentBottomManagedFrameTemplate, EditModeArchaeologyBarSystemTemplate, ArcheologyDigsiteProgressBarMixin
+--- @field layoutIndex number # 7
 --- @field FillBar ArcheologyDigsiteProgressBar_FillBar
 --- @field BarTitle ArcheologyDigsiteProgressBar_BarTitle
 --- @field BarBorderAndOverlay Texture
@@ -42,4 +43,7 @@
 --- @field AnimOut ArcheologyDigsiteProgressBar_AnimOut
 --- @field AnimOutAndTriggerToast ArcheologyDigsiteProgressBar_AnimOutAndTriggerToast
 ArcheologyDigsiteProgressBar = {}
+ArcheologyDigsiteProgressBar["layoutIndex"] = 7
+ArcheologyDigsiteProgressBar["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+ArcheologyDigsiteProgressBar["system"] = Enum.EditModeSystem.ArchaeologyBar -- inherited
 

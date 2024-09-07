@@ -7,6 +7,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/WoWLabs/GameMenuFrame.xml#L10)
 --- child of GameMenuFrame
 --- @class GameMenuFrame_Header : Frame, DialogHeaderTemplate
+--- @field textString any # MAINMENU_BUTTON
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameMenu/WoWLabs/GameMenuFrame.xml#L15)
 --- child of GameMenuFrame

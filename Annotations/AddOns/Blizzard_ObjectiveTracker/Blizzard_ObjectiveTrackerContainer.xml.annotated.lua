@@ -11,14 +11,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.xml#L41)
 --- child of ObjectiveTrackerContainerHeaderTemplate
 --- @class ObjectiveTrackerContainerHeaderTemplate_MinimizeButton : Button, ObjectiveTrackerContainerMinimizeButtonTemplate
+--- @field buttonType string # "module"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.xml#L49)
 --- child of ObjectiveTrackerContainerHeaderTemplate
 --- @class ObjectiveTrackerContainerHeaderTemplate_FilterButton : Button, ObjectiveTrackerContainerFilterButtonTemplate
+--- @field buttonType string # "module"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.xml#L29)
 --- child of ObjectiveTrackerContainerHeaderTemplate
 --- @class ObjectiveTrackerContainerHeaderTemplate_Text : FontString, ObjectiveTrackerHeaderFont, AutoScalingFontStringMixin
+--- @field minLineHeight number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.xml#L18)
 --- Template
@@ -31,9 +34,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.xml#L71)
 --- child of ObjectiveTrackerContainerTemplate
 --- @class ObjectiveTrackerContainerTemplate_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "UniqueCornersLayout"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerContainer.xml#L63)
 --- Template
 --- @class ObjectiveTrackerContainerTemplate : Frame, ObjectiveTrackerContainerMixin
+--- @field topModulePadding number # 0
 --- @field NineSlice ObjectiveTrackerContainerTemplate_NineSlice
 

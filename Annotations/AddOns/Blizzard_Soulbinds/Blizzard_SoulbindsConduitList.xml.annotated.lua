@@ -83,13 +83,18 @@
 --- child of ConduitListSectionTemplate
 --- @class ConduitListSectionTemplate_Container : Frame, ResizeLayoutFrame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L261)
+--- child of ConduitListSectionTemplate
+--- @class ConduitListSectionTemplate_Spacer : Frame
+--- @field layoutIndex number # 4
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L203)
 --- Template
 --- @class ConduitListSectionTemplate : EventFrame, ResizeLayoutFrame, ConduitListSectionMixin
 --- @field Spacer Frame
 --- @field CategoryButton ConduitListSectionTemplate_CategoryButton
 --- @field Container ConduitListSectionTemplate_Container
---- @field Spacer Frame
+--- @field Spacer ConduitListSectionTemplate_Spacer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L279)
 --- child of ConduitListTemplate
@@ -98,6 +103,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L285)
 --- child of ConduitListTemplate
 --- @class ConduitListTemplate_ScrollBox : Frame, WowScrollBoxList
+--- @field lowerShadow string # "Soulbinds_Collection_Shadow"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L301)
 --- child of 

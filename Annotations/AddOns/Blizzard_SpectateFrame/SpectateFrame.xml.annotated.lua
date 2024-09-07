@@ -11,9 +11,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L29)
 --- child of SpectateFrame
 --- @class SpectateFrame_SpectateFrameArrowLeft : Button, SpectateCycleModeMixin
+--- @field spectateNext boolean # false
 --- @field Text SpectateFrame_SpectateFrameArrowLeft_Text
 --- @field HighlightText SpectateFrame_SpectateFrameArrowLeft_HighlightText
 SpectateFrameArrowLeft = {}
+SpectateFrameArrowLeft["spectateNext"] = false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L72)
 --- child of SpectateFrameArrowRight
@@ -26,17 +28,21 @@ SpectateFrameArrowLeft = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L62)
 --- child of SpectateFrame
 --- @class SpectateFrame_SpectateFrameArrowRight : Button, SpectateCycleModeMixin
+--- @field spectateNext boolean # true
 --- @field Text SpectateFrame_SpectateFrameArrowRight_Text
 --- @field HighlightText SpectateFrame_SpectateFrameArrowRight_HighlightText
 SpectateFrameArrowRight = {}
+SpectateFrameArrowRight["spectateNext"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L95)
 --- child of SpectateFrame
 --- @class SpectateFrame_ViewRewardsButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, SpectateViewRewardsButtonMixin
+--- @field fixedHeight number # 32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L110)
 --- child of SpectateFrame
 --- @class SpectateFrame_LeaveMatchButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, SpectateLeaveMatchButtonMixin
+--- @field fixedHeight number # 32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L13)
 --- child of SpectateFrame
@@ -56,4 +62,6 @@ SpectateFrameArrowRight = {}
 --- @field Spectating SpectateFrame_Spectating
 --- @field PlayerName SpectateFrame_PlayerName
 SpectateFrame = {}
+SpectateFrame["ArrowLeft"] = SpectateFrameArrowLeft
+SpectateFrame["ArrowRight"] = SpectateFrameArrowRight
 

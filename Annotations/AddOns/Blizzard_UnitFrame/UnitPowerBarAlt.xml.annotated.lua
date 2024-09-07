@@ -17,6 +17,14 @@
 --- child of UnitPowerBarAltPillTemplate
 --- @class UnitPowerBarAltPillTemplate_flashAway : AnimationGroup
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L10)
+--- child of UnitPowerBarAltPillTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L16)
+--- child of UnitPowerBarAltPillTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L21)
 --- Template
 --- @class UnitPowerBarAltPillTemplate : Frame, UnitPowerBarAltTexturableTemplate
@@ -73,6 +81,34 @@
 --- @field artTop Texture
 --- @field artBottom Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L96)
+--- child of UnitPowerBarAltTemplateCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L101)
+--- child of UnitPowerBarAltTemplateCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L106)
+--- child of UnitPowerBarAltTemplateCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L111)
+--- child of UnitPowerBarAltTemplateCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit4
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L116)
+--- child of UnitPowerBarAltTemplateCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit5
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L121)
+--- child of UnitPowerBarAltTemplateCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit6
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L126)
+--- child of UnitPowerBarAltTemplateCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit7
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L150)
 --- child of UnitPowerBarAltTemplate
 --- @class UnitPowerBarAltTemplate_UnitPowerBarAltTemplateCounterBar : Frame, UnitPowerBarAltCounterTemplate
@@ -94,6 +130,14 @@
 --- child of UnitPowerBarAltTemplate
 --- @class UnitPowerBarAltTemplate_flashOutAnim : AnimationGroup
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L10)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L16)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L133)
 --- Template
 --- @class UnitPowerBarAltTemplate : Frame, UnitPowerBarAltTexturableTemplate
@@ -104,11 +148,77 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L205)
 --- @class EncounterBar : Frame, VerticalLayoutFrame, UIParentBottomManagedFrameTemplate, EditModeEncounterBarSystemTemplate, EncounterBarMixin
+--- @field layoutIndex number # 6
 EncounterBar = {}
+EncounterBar["layoutIndex"] = 6
+EncounterBar["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+EncounterBar["system"] = Enum.EditModeSystem.EncounterBar -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L96)
+--- child of PlayerPowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit1
+PlayerPowerBarAltCounterBarDigit1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L101)
+--- child of PlayerPowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit2
+PlayerPowerBarAltCounterBarDigit2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L106)
+--- child of PlayerPowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit3
+PlayerPowerBarAltCounterBarDigit3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L111)
+--- child of PlayerPowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit4
+PlayerPowerBarAltCounterBarDigit4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L116)
+--- child of PlayerPowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit5
+PlayerPowerBarAltCounterBarDigit5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L121)
+--- child of PlayerPowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit6
+PlayerPowerBarAltCounterBarDigit6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L126)
+--- child of PlayerPowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
+--- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit7
+PlayerPowerBarAltCounterBarDigit7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L150)
+--- child of PlayerPowerBarAlt (created in template UnitPowerBarAltTemplate)
+--- @type UnitPowerBarAltTemplate_UnitPowerBarAltTemplateCounterBar
+PlayerPowerBarAltCounterBar = {}
+PlayerPowerBarAltCounterBar["digit1"] = PlayerPowerBarAltCounterBarDigit1 -- inherited
+PlayerPowerBarAltCounterBar["digit2"] = PlayerPowerBarAltCounterBarDigit2 -- inherited
+PlayerPowerBarAltCounterBar["digit3"] = PlayerPowerBarAltCounterBarDigit3 -- inherited
+PlayerPowerBarAltCounterBar["digit4"] = PlayerPowerBarAltCounterBarDigit4 -- inherited
+PlayerPowerBarAltCounterBar["digit5"] = PlayerPowerBarAltCounterBarDigit5 -- inherited
+PlayerPowerBarAltCounterBar["digit6"] = PlayerPowerBarAltCounterBarDigit6 -- inherited
+PlayerPowerBarAltCounterBar["digit7"] = PlayerPowerBarAltCounterBarDigit7 -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L162)
+--- child of UnitPowerBarAltTemplateStatusFrame
+--- @class UnitPowerBarAltTemplate_UnitPowerBarAltTemplateStatusFrame_UnitPowerBarAltTemplateStatusFrameText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L155)
+--- child of PlayerPowerBarAlt (created in template UnitPowerBarAltTemplate)
+--- @type UnitPowerBarAltTemplate_UnitPowerBarAltTemplateStatusFrame
+--- @field text UnitPowerBarAltTemplate_UnitPowerBarAltTemplateStatusFrame_UnitPowerBarAltTemplateStatusFrameText
+PlayerPowerBarAltStatusFrame = {}
+PlayerPowerBarAltStatusFrame["text"] = UnitPowerBarAltTemplateStatusFrameText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L216)
 --- @class PlayerPowerBarAlt : Frame, UnitPowerBarAltTemplate, PlayerPowerBarAltMixin
+--- @field layoutIndex number # 6
 PlayerPowerBarAlt = {}
+PlayerPowerBarAlt["layoutIndex"] = 6
+PlayerPowerBarAlt["counterBar"] = PlayerPowerBarAltCounterBar -- inherited
+PlayerPowerBarAlt["statusFrame"] = PlayerPowerBarAltStatusFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L233)
 --- @class PlayerBuffTimerManager : Frame

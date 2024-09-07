@@ -13,10 +13,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.xml#L31)
 --- child of UIWidgetTemplateScenarioHeaderDelves
 --- @class UIWidgetTemplateScenarioHeaderDelves_CurrencyContainer : Frame, HorizontalLayoutFrame
+--- @field spacing number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.xml#L40)
 --- child of UIWidgetTemplateScenarioHeaderDelves
 --- @class UIWidgetTemplateScenarioHeaderDelves_SpellContainer : Frame, HorizontalLayoutFrame
+--- @field spacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.xml#L49)
 --- child of UIWidgetTemplateScenarioHeaderDelves

@@ -69,6 +69,11 @@ xx = {}
 --- child of NPE_TutorialKeyboardMouseFrame_Frame
 --- @class NPE_TutorialKeyboardMouseFrame_Frame_Anim_UnDim : AnimationGroup
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L1095)
+--- child of NPE_TutorialKeyboardMouseFrame_Frame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+NPE_TutorialKeyboardMouseFrame_FrameCloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L9)
 --- @class NPE_TutorialKeyboardMouseFrame_Frame : Frame, PortraitFrameTemplate
 --- @field ActionBarHitFrame NPE_TutorialKeyboardMouseFrame_Frame_ActionBarHitFrame
@@ -79,6 +84,8 @@ xx = {}
 --- @field Anim_Dim NPE_TutorialKeyboardMouseFrame_Frame_Anim_Dim
 --- @field Anim_UnDim NPE_TutorialKeyboardMouseFrame_Frame_Anim_UnDim
 NPE_TutorialKeyboardMouseFrame_Frame = {}
+NPE_TutorialKeyboardMouseFrame_Frame["txtKey_TURNRIGHT"] = xx
+NPE_TutorialKeyboardMouseFrame_Frame["CloseButton"] = NPE_TutorialKeyboardMouseFrame_FrameCloseButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L181)
 --- child of NPE_TutorialInterfaceHelp
@@ -95,7 +102,10 @@ xx = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L152)
 --- @class NPE_TutorialInterfaceHelp : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_TEXT_PANEL_0_16
 --- @field btnOpen NPE_TutorialInterfaceHelp_xx
 --- @field Anim_In NPE_TutorialInterfaceHelp_Anim_In
 NPE_TutorialInterfaceHelp = {}
+NPE_TutorialInterfaceHelp["btnOpen"] = xx
+NPE_TutorialInterfaceHelp["backdropInfo"] = BACKDROP_TEXT_PANEL_0_16
 

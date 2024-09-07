@@ -7,6 +7,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.xml#L15)
 --- child of ScrollingFlatPanelTemplate
 --- @class ScrollingFlatPanelTemplate_ScrollBox : Frame, WowScrollBoxList
+--- @field upperShadow string # "_looting_itemcard_shadow-center"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.xml#L25)
 --- child of ScrollingFlatPanelTemplate
@@ -20,9 +21,14 @@
 --- child of ScrollingFlatPanelTemplate
 --- @class ScrollingFlatPanelTemplate_HideAnim : AnimationGroup
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.xml#L991)
+--- child of ScrollingFlatPanelTemplate (created in template DefaultPanelFlatTemplate)
+--- @type DefaultPanelFlatTemplate_DefaultPanelFlatTemplateBg
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ScrollingFlatPanel.xml#L3)
 --- Template
 --- @class ScrollingFlatPanelTemplate : Frame, DefaultPanelFlatTemplate, ScrollingFlatPanelMixin
+--- @field layoutType string # "ButtonFrameTemplateNoPortrait"
 --- @field ClosePanelButton ScrollingFlatPanelTemplate_ClosePanelButton
 --- @field ScrollBox ScrollingFlatPanelTemplate_ScrollBox
 --- @field ScrollBar ScrollingFlatPanelTemplate_ScrollBar

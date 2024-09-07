@@ -25,10 +25,47 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L109)
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "InsetFrameTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L115)
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_BackButton : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L1211)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L1218)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L1225)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L1232)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L1239)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L1247)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L1255)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L1263)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L1271)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L122)
 --- child of 
@@ -80,6 +117,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L216)
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_CommissionTitleMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
+--- @field leftAlign boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L241)
 --- child of 
@@ -88,10 +126,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L228)
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_ConsortiumCutMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
+--- @field leftAlign boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L251)
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_FinalTipMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
+--- @field leftAlign boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L287)
 --- child of 
@@ -170,10 +210,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L316)
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "InsetFrameTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L322)
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_SchematicForm : Frame, ProfessionsRecipeSchematicFormTemplate
+--- @field showTrackRecipe boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L332)
 --- child of 
@@ -195,6 +237,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L379)
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox_ScrollingEditBox : Frame, ScrollingEditBoxTemplate
+--- @field fontName string # "GameFontHighlight"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L347)
 --- child of 
@@ -261,6 +304,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L511)
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox_ScrollingEditBox : Frame, ScrollingEditBoxTemplate
+--- @field fontName string # "GameFontHighlight"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L479)
 --- child of 
@@ -280,6 +324,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L470)
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_ConfirmationText : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L991)
+--- child of  (created in template DefaultPanelFlatTemplate)
+--- @type DefaultPanelFlatTemplate_DefaultPanelFlatTemplateBg
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L455)
 --- child of ProfessionsCrafterOrderViewTemplate

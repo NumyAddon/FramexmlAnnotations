@@ -12,10 +12,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.xml#L24)
 --- child of IslandsPartyPoseFrame
 --- @class IslandsPartyPoseFrame_Score : Frame, UIWidgetContainerTemplate
+--- @field showAndHideOnWidgetSetRegistration boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.xml#L37)
 --- child of IslandsPartyPoseFrame
 --- @class IslandsPartyPoseFrame_LeaveButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate
+--- @field minimumWidth number # 164
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.xml#L3)
 --- @class IslandsPartyPoseFrame : Frame, PartyPoseFrameTemplate, IslandsPartyPoseMixin

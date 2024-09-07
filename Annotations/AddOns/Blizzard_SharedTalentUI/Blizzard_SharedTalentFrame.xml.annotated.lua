@@ -29,6 +29,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L5)
 --- Template
 --- @class TalentFrameBaseTemplate : Frame, TalentFrameBaseMixin
+--- @field getTemplateType any # TalentButtonUtil.GetTemplateForTalentType
 --- @field AnimationHolder TalentFrameBaseTemplate_AnimationHolder
 --- @field ButtonsParent TalentFrameBaseTemplate_ButtonsParent
 --- @field SelectionChoiceFrame TalentFrameBaseTemplate_SelectionChoiceFrame

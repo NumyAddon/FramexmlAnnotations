@@ -6,5 +6,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/StanceBar.xml#L12)
 --- @class StanceBar : Frame, EditModeActionBarTemplate, StanceBarMixin
+--- @field buttonTemplate string # "StanceButtonTemplate"
 StanceBar = {}
+StanceBar["buttonTemplate"] = "StanceButtonTemplate"
 

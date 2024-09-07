@@ -36,6 +36,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L77)
 --- child of AuctionHouseAlignedPriceInputFrameTemplate
 --- @class AuctionHouseAlignedPriceInputFrameTemplate_MoneyInputFrame : Frame, LargeMoneyInputFrameTemplate
+--- @field hideCopper boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L86)
 --- child of AuctionHouseAlignedPriceInputFrameTemplate
@@ -64,6 +65,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L141)
 --- child of AuctionHouseAlignedPriceDisplayTemplate
 --- @class AuctionHouseAlignedPriceDisplayTemplate_MoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
+--- @field hideCopper boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L139)
 --- Template
@@ -81,30 +83,37 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L207)
 --- child of AuctionHouseSellFrameTemplate
 --- @class AuctionHouseSellFrameTemplate_ItemDisplay : Button, AuctionHouseInteractableItemDisplayTemplate, AuctionHouseSellFrameItemDisplayMixin
+--- @field layoutIndex number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L226)
 --- child of AuctionHouseSellFrameTemplate
 --- @class AuctionHouseSellFrameTemplate_QuantityInput : Frame, AuctionHouseAlignedQuantityInputFrameTemplate
+--- @field layoutIndex number # 20
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L232)
 --- child of AuctionHouseSellFrameTemplate
 --- @class AuctionHouseSellFrameTemplate_PriceInput : Frame, AuctionHouseAlignedPriceInputFrameTemplate
+--- @field layoutIndex number # 30
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L238)
 --- child of AuctionHouseSellFrameTemplate
 --- @class AuctionHouseSellFrameTemplate_Duration : Frame, AuctionHouseAlignedDurationTemplate
+--- @field layoutIndex number # 40
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L244)
 --- child of AuctionHouseSellFrameTemplate
 --- @class AuctionHouseSellFrameTemplate_Deposit : Frame, AuctionHouseAlignedPriceDisplayTemplate
+--- @field layoutIndex number # 50
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L250)
 --- child of AuctionHouseSellFrameTemplate
 --- @class AuctionHouseSellFrameTemplate_TotalPrice : Frame, AuctionHouseAlignedPriceDisplayTemplate
+--- @field layoutIndex number # 60
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L256)
 --- child of AuctionHouseSellFrameTemplate
 --- @class AuctionHouseSellFrameTemplate_PostButton : Button, UIPanelButtonTemplate, AuctionHouseSellFramePostButtonMixin
+--- @field layoutIndex number # 70
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L182)
 --- child of AuctionHouseSellFrameTemplate
@@ -113,6 +122,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSellFrame.xml#L164)
 --- Template
 --- @class AuctionHouseSellFrameTemplate : Frame, VerticalLayoutFrame, AuctionHouseBackgroundTemplate, AuctionHouseSellFrameMixin
+--- @field topPadding number # 12
 --- @field Overlay AuctionHouseSellFrameTemplate_Overlay
 --- @field ItemDisplay AuctionHouseSellFrameTemplate_ItemDisplay
 --- @field QuantityInput AuctionHouseSellFrameTemplate_QuantityInput

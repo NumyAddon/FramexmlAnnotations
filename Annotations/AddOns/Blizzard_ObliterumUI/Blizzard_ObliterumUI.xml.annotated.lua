@@ -11,10 +11,17 @@
 --- child of ObliterumForgeFrame
 --- @class ObliterumForgeFrame_ObliterateButton : Button, MagicButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.xml#L1148)
+--- child of ObliterumForgeFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+ObliterumForgeFrameInset = {}
+ObliterumForgeFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.xml#L5)
 --- @class ObliterumForgeFrame : Frame, ButtonFrameTemplate, ObliterumForgeMixin
 --- @field ItemSlot ObliterumForgeFrame_ItemSlot
 --- @field ObliterateButton ObliterumForgeFrame_ObliterateButton
 --- @field Background Texture
 ObliterumForgeFrame = {}
+ObliterumForgeFrame["Inset"] = ObliterumForgeFrameInset -- inherited
 

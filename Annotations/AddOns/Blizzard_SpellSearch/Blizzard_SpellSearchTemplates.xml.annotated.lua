@@ -59,6 +59,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L47)
 --- Template
 --- @class SpellSearchPreviewContainerTemplate : Frame, SpellSearchPreviewContainerMixin
+--- @field maximumEntries number # 3
 --- @field ScrollBox SpellSearchPreviewContainerTemplate_ScrollBox
 --- @field OverflowCount SpellSearchPreviewContainerTemplate_OverflowCount
 --- @field DefaultResultButton SpellSearchPreviewContainerTemplate_DefaultResultButton
@@ -68,6 +69,15 @@
 --- @field BottomBorder SpellSearchPreviewContainerTemplate_BottomBorder
 --- @field LeftBorder SpellSearchPreviewContainerTemplate_LeftBorder
 --- @field RightBorder SpellSearchPreviewContainerTemplate_RightBorder
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L1504)
+--- child of SpellSearchBoxTemplate (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L1495)
+--- child of SpellSearchBoxTemplate (created in template SearchBoxTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L162)
 --- Template

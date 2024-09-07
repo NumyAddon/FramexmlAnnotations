@@ -33,6 +33,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L93)
 --- child of PartyPoseFrameTemplate
 --- @class PartyPoseFrameTemplate_Border : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "UniqueCornersLayout"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L118)
 --- child of PartyPoseFrameTemplate

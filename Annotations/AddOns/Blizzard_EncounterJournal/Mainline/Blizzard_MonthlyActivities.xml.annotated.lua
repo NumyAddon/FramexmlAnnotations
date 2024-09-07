@@ -3,20 +3,24 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L10)
 --- child of MonthlyActivitiesButtonTextContainerTemplate
 --- @class MonthlyActivitiesButtonTextContainerTemplate_NameText : FontString, GameFontHighlightMedium
+--- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L16)
 --- child of MonthlyActivitiesButtonTextContainerTemplate
 --- @class MonthlyActivitiesButtonTextContainerTemplate_ConditionsText : FontString, GameFontNormal
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L3)
 --- Template
 --- @class MonthlyActivitiesButtonTextContainerTemplate : Frame, VerticalLayoutFrame, MonthlyActivitiesButtonTextContainerMixin
+--- @field spacing number # 2
 --- @field NameText MonthlyActivitiesButtonTextContainerTemplate_NameText
 --- @field ConditionsText MonthlyActivitiesButtonTextContainerTemplate_ConditionsText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L104)
 --- child of MonthlyActivitiesButtonTemplate
 --- @class MonthlyActivitiesButtonTemplate_TextContainer : Frame, MonthlyActivitiesButtonTextContainerTemplate
+--- @field fixedWidth number # 370
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L74)
 --- child of MonthlyActivitiesButtonTemplate
@@ -51,6 +55,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L145)
 --- child of MonthlySupersedeActivitiesButtonTemplate
 --- @class MonthlySupersedeActivitiesButtonTemplate_TextContainer : Frame, MonthlyActivitiesButtonTextContainerTemplate
+--- @field fixedWidth number # 350
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L137)
 --- child of MonthlySupersedeActivitiesButtonTemplate

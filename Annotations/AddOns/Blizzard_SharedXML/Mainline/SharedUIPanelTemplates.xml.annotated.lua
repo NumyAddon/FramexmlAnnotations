@@ -331,6 +331,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L518)
 --- child of UISliderTemplate
 --- @class UISliderTemplate_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "UniqueCornersLayout"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L513)
 --- Template
@@ -349,6 +350,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L543)
 --- child of UISliderTemplateWithLabels
 --- @class UISliderTemplateWithLabels_UISliderTemplateWithLabelsHigh : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L525)
+--- child of UISliderTemplateWithLabels (created in template UISliderTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L530)
 --- Template
@@ -471,12 +476,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L730)
 --- Template
 --- @class InsetFrameTemplate : Frame
+--- @field layoutType string # "InsetFrameTemplate"
 --- @field NineSlice InsetFrameTemplate_NineSlice
 --- @field Bg Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L753)
 --- Template
 --- @class DialogBorderNoCenterTemplate : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "Dialog"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L759)
 --- Template
@@ -505,6 +512,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L822)
 --- Template
 --- @class DialogHeaderTemplate : Frame, DialogHeaderMixin
+--- @field headerTextPadding number # 64
 --- @field LeftBG Texture
 --- @field RightBG Texture
 --- @field CenterBG Texture
@@ -529,6 +537,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L907)
 --- Template
 --- @class SimplePanelTemplate : Frame
+--- @field layoutType string # "SimplePanelTemplate"
 --- @field Inset SimplePanelTemplate_Inset
 --- @field NineSlice SimplePanelTemplate_NineSlice
 --- @field Bg Texture
@@ -549,6 +558,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L940)
 --- Template
 --- @class DefaultPanelBaseTemplate : Frame, DefaultPanelMixin
+--- @field layoutType string # "ButtonFrameTemplateNoPortrait"
 --- @field TitleContainer DefaultPanelBaseTemplate_TitleContainer
 --- @field NineSlice DefaultPanelBaseTemplate_NineSlice
 
@@ -593,6 +603,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1006)
 --- Template
 --- @class PortraitFrameBaseTemplate : Frame, PortraitFrameMixin
+--- @field layoutType string # "PortraitFrameTemplate"
 --- @field NineSlice PortraitFrameBaseTemplate_NineSlice
 --- @field PortraitContainer PortraitFrameBaseTemplate_PortraitContainer
 --- @field TitleContainer PortraitFrameBaseTemplate_TitleContainer
@@ -616,6 +627,10 @@
 --- @class PortraitFrameFlatBaseTemplate : Frame, PortraitFrameBaseTemplate, PortraitFrameFlatBaseMixin
 --- @field Bg PortraitFrameFlatBaseTemplate_Bg
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1091)
 --- Template
 --- @class PortraitFrameTemplateNoCloseButton : Frame, PortraitFrameTexturedBaseTemplate
@@ -629,9 +644,14 @@
 --- @class PortraitFrameTemplate : Frame, PortraitFrameTemplateNoCloseButton
 --- @field CloseButton PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1095)
+--- child of PortraitFrameTemplateMinimizable (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1099)
 --- Template
 --- @class PortraitFrameTemplateMinimizable : Frame, PortraitFrameTemplate
+--- @field layoutType string # "PortraitFrameTemplateMinimizable"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1107)
 --- child of PortraitFrameFlatTemplate
@@ -661,14 +681,27 @@
 --- child of ButtonFrameTemplate
 --- @class ButtonFrameTemplate_ButtonFrameTemplateInset : Frame, InsetFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1146)
 --- Template
 --- @class ButtonFrameTemplate : Frame, ButtonFrameBaseTemplate
 --- @field Inset ButtonFrameTemplate_ButtonFrameTemplateInset
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1148)
+--- child of ButtonFrameTemplateMinimizable (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1166)
 --- Template
 --- @class ButtonFrameTemplateMinimizable : Frame, ButtonFrameTemplate
+--- @field layoutType string # "PortraitFrameTemplateMinimizable"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1184)
 --- Template
@@ -710,6 +743,42 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1302)
 --- Template
 --- @class UIResetButtonTemplate : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1211)
+--- child of UIResettableDropdownButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1218)
+--- child of UIResettableDropdownButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1225)
+--- child of UIResettableDropdownButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1232)
+--- child of UIResettableDropdownButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1239)
+--- child of UIResettableDropdownButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1247)
+--- child of UIResettableDropdownButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1255)
+--- child of UIResettableDropdownButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1263)
+--- child of UIResettableDropdownButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1271)
+--- child of UIResettableDropdownButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1314)
 --- Template
@@ -767,6 +836,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1489)
 --- Template
 --- @class SearchBoxTemplate : EditBox, InputBoxInstructionsTemplate
+--- @field instructionText any # SEARCH
 --- @field clearButton SearchBoxTemplate_SearchBoxTemplateClearButton
 --- @field searchIcon Texture
 
@@ -856,18 +926,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1904)
 --- child of NineSliceCheckButtonTemplate
 --- @class NineSliceCheckButtonTemplate_NormalNineSlice : Frame, NineSlicePanelTemplate
+--- @field atlasKey string # "normalAtlasName"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1909)
 --- child of NineSliceCheckButtonTemplate
 --- @class NineSliceCheckButtonTemplate_PushedNineSlice : Frame, NineSlicePanelTemplate
+--- @field atlasKey string # "pushedAtlasName"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1914)
 --- child of NineSliceCheckButtonTemplate
 --- @class NineSliceCheckButtonTemplate_HighlightNineSlice : Frame, NineSlicePanelTemplate
+--- @field atlasKey string # "highlightAtlasName"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1919)
 --- child of NineSliceCheckButtonTemplate
 --- @class NineSliceCheckButtonTemplate_CheckedNineSlice : Frame, NineSlicePanelTemplate
+--- @field atlasKey string # "checkedAtlasName"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1872)
 --- Template
@@ -880,6 +954,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1934)
 --- Template
 --- @class BigRedThreeSliceButtonTemplate : Button, ThreeSliceButtonTemplate
+--- @field atlasName string # "128-RedButton"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1942)
 --- Template
@@ -896,6 +971,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1963)
 --- Template
 --- @class BigGoldRedThreeSliceButtonTemplate : Button, ThreeSliceButtonTemplate
+--- @field atlasName string # "128-GoldRedButton"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1971)
 --- Template
@@ -921,10 +997,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2042)
 --- Template
 --- @class BigRedRefreshButtonTemplate : Button, UIButtonTemplate
+--- @field buttonArtKit string # "128-RedButton-Refresh"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2049)
 --- Template
 --- @class BigRedExitButtonTemplate : Button, UIButtonTemplate
+--- @field buttonArtKit string # "128-redbutton-exit"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2056)
 --- Template
@@ -934,20 +1012,27 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2092)
 --- Template
 --- @class SquareIconButtonTemplate : Button, IconButtonTemplate, SquareIconButtonMixin
+--- @field iconSize number # 16
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2111)
 --- Template
 --- @class CommonSquareIconButtonTemplate : Button, SquareIconButtonTemplate, SquareIconButtonMixin
+--- @field iconSize number # 24
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2133)
 --- Template
 --- @class RefreshButtonTemplate : Button, SquareIconButtonTemplate
+--- @field iconAtlas string # "UI-RefreshButton"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2139)
 --- Template
 --- @class ResizeCheckButtonBehaviorTemplate : Frame, ResizeLayoutFrame, ResizeCheckButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2160)
 --- child of ResizeCheckButtonTemplate
@@ -984,30 +1069,39 @@
 --- child of SliderWithButtonsAndLabelTemplate
 --- @class SliderWithButtonsAndLabelTemplate_DecrementButton : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2219)
+--- child of SliderWithButtonsAndLabelTemplate
+--- @class SliderWithButtonsAndLabelTemplate_Label : FontString
+--- @field ignoreInLayout boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2215)
 --- Template
 --- @class SliderWithButtonsAndLabelTemplate : Frame, ResizeLayoutFrame, SliderWithButtonsAndLabelMixin
 --- @field Slider SliderWithButtonsAndLabelTemplate_Slider
 --- @field IncrementButton SliderWithButtonsAndLabelTemplate_IncrementButton
 --- @field DecrementButton SliderWithButtonsAndLabelTemplate_DecrementButton
---- @field Label FontString
+--- @field Label SliderWithButtonsAndLabelTemplate_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2296)
 --- child of DarkMenuElementTemplate
 --- @class DarkMenuElementTemplate_HighlightBGTex : Frame
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2290)
 --- Template
 --- @class DarkMenuElementTemplate : Button, ResizeLayoutFrame
+--- @field widthPadding number # 14
 --- @field HighlightBGTex DarkMenuElementTemplate_HighlightBGTex
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2314)
 --- child of DropdownWithSteppersTemplate
 --- @class DropdownWithSteppersTemplate_IncrementButton : Button, WowStyle2IconButtonTemplate
+--- @field normalAtlas string # "common-dropdown-icon-next"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2320)
 --- child of DropdownWithSteppersTemplate
 --- @class DropdownWithSteppersTemplate_DecrementButton : Button, WowStyle2IconButtonTemplate
+--- @field normalAtlas string # "common-dropdown-icon-back"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2310)
 --- Template
@@ -1047,10 +1141,15 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2408)
 --- Template
 --- @class NumericInputBoxTemplate : EditBox, InputBoxTemplate, NumericInputBoxMixin
+--- @field valueChangedCallback any # nop
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2431)
 --- child of SliderAndEditControlTemplate
 --- @class SliderAndEditControlTemplate_ValueBox : EditBox, NumericInputBoxTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L525)
+--- child of  (created in template UISliderTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2438)
 --- child of SliderAndEditControlTemplate
@@ -1059,6 +1158,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2425)
 --- Template
 --- @class SliderAndEditControlTemplate : Frame, ResizeLayoutFrame, SliderAndEditControlMixin
+--- @field widthPadding number # 12
 --- @field ValueBox SliderAndEditControlTemplate_ValueBox
 --- @field Slider SliderAndEditControlTemplate_Slider
 --- @field Label FontString
@@ -1072,14 +1172,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2558)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconHeader : FontString, GameFontNormalSmall
+--- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2564)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconDescription : FontString, GameFontHighlightSmall
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2548)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText : Frame, VerticalLayoutFrame
+--- @field spacing number # 2
 --- @field SelectedIconHeader IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconHeader
 --- @field SelectedIconDescription IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconDescription
 
@@ -1089,14 +1192,21 @@
 --- @field SelectedIconButton IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconButton
 --- @field SelectedIconText IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2591)
+--- child of 
+--- @class IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent_PlusIcon : Texture
+--- @field layoutIndex number # 1
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2596)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent_IconDragText : FontString, GameFontGreenLarge
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2581)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent : Frame, HorizontalLayoutFrame
---- @field PlusIcon Texture
+--- @field spacing number # 5
+--- @field PlusIcon IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent_PlusIcon
 --- @field IconDragText IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent_IconDragText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2575)
@@ -1140,6 +1250,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2476)
 --- Template
 --- @class IconSelectorPopupFrameTemplate : Frame, IconSelectorPopupFrameTemplateMixin
+--- @field editBoxHeaderText any # 
 --- @field BorderBox IconSelectorPopupFrameTemplate_BorderBox
 --- @field IconSelector IconSelectorPopupFrameTemplate_IconSelector
 --- @field BG Texture
@@ -1272,6 +1383,15 @@
 --- @field bar SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar
 --- @field background Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1504)
+--- child of SearchBoxListTemplate (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1495)
+--- child of SearchBoxListTemplate (created in template SearchBoxTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2781)
 --- Template
 --- @class SearchBoxListTemplate : EditBox, SearchBoxTemplate, SearchBoxListMixin
@@ -1307,6 +1427,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2995)
 --- Template
 --- @class RingedFrameWithTooltipTemplate : Frame, RingedFrameWithTooltipMixin
+--- @field tooltipAnchor string # "ANCHOR_TOPRIGHT"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L3064)
 --- child of 
@@ -1327,6 +1448,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L3010)
 --- Template
 --- @class RingedMaskedButtonTemplate : CheckButton, RingedFrameWithTooltipTemplate, RingedMaskedButtonMixin
+--- @field disabledOverlayAlpha number # 0
 --- @field Flash RingedMaskedButtonTemplate_Flash
 --- @field New RingedMaskedButtonTemplate_New
 --- @field DisabledOverlay Texture
@@ -1342,20 +1464,24 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L3112)
 --- child of MainMenuFrameTemplate
 --- @class MainMenuFrameTemplate_Border : Frame, DialogBorderTemplate
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L3117)
 --- child of MainMenuFrameTemplate
 --- @class MainMenuFrameTemplate_Header : Frame, DialogHeaderTemplate
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L3095)
 --- Template
 --- @class MainMenuFrameTemplate : Frame, VerticalLayoutFrame, MainMenuFrameMixin
+--- @field buttonTemplate string # "MainMenuFrameButtonTemplate"
 --- @field Border MainMenuFrameTemplate_Border
 --- @field Header MainMenuFrameTemplate_Header
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L3135)
 --- child of ExpandBarTemplate
 --- @class ExpandBarTemplate_ExpandButton : Button, UIButtonTemplate, SquareExpandButtonMixin
+--- @field highlightExpandedAtlas string # "128-RedButton-ArrowUpGlow-Highlight"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L3132)
 --- Template
@@ -1392,6 +1518,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L3201)
 --- Template
 --- @class MainHelpPlateButton : Button
+--- @field MainHelpPlateButtonTooltipText any # MAIN_HELP_BUTTON_TOOLTIP
 --- @field I Texture
 --- @field Ring Texture
 --- @field BigIPulse Texture

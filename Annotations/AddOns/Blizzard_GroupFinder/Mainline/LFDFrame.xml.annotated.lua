@@ -1,5 +1,15 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L188)
+--- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- @type LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
+--- @field texture Texture
+--- @field border Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L179)
+--- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L3)
 --- Template
 --- @class LFDRoleButtonTemplate : Button, LFGRoleButtonWithBackgroundAndRewardTemplate
@@ -7,6 +17,30 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L13)
 --- Template
 --- @class LFDRoleCheckPopupButtonTemplate : Button, LFGRoleButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L254)
+--- child of LFDFrameDungeonChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateEnableButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L265)
+--- child of LFDFrameDungeonChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateExpandOrCollapseButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L225)
+--- child of LFDFrameDungeonChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L232)
+--- child of LFDFrameDungeonChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceLevel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L237)
+--- child of LFDFrameDungeonChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L244)
+--- child of LFDFrameDungeonChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L21)
 --- Template
@@ -19,17 +53,23 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L44)
 --- child of LFDRoleCheckPopup
 --- @class LFDRoleCheckPopup_LFDRoleCheckPopupRoleButtonTank : Button, LFDRoleCheckPopupButtonTemplate
+--- @field role string # "TANK"
 LFDRoleCheckPopupRoleButtonTank = {}
+LFDRoleCheckPopupRoleButtonTank["role"] = "TANK"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L57)
 --- child of LFDRoleCheckPopup
 --- @class LFDRoleCheckPopup_LFDRoleCheckPopupRoleButtonHealer : Button, LFDRoleCheckPopupButtonTemplate
+--- @field role string # "HEALER"
 LFDRoleCheckPopupRoleButtonHealer = {}
+LFDRoleCheckPopupRoleButtonHealer["role"] = "HEALER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L69)
 --- child of LFDRoleCheckPopup
 --- @class LFDRoleCheckPopup_LFDRoleCheckPopupRoleButtonDPS : Button, LFDRoleCheckPopupButtonTemplate
+--- @field role string # "DAMAGER"
 LFDRoleCheckPopupRoleButtonDPS = {}
+LFDRoleCheckPopupRoleButtonDPS["role"] = "DAMAGER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L81)
 --- child of LFDRoleCheckPopup
@@ -94,21 +134,28 @@ LFDReadyCheckPopup = {}
 --- child of LFDParentFrame
 --- @class LFDParentFrame_LFDParentFrameInset : Frame, InsetFrameTemplate
 LFDParentFrameInset = {}
+LFDParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L224)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameRoleButtonTank : Button, LFDRoleButtonTemplate
+--- @field role string # "TANK"
 LFDQueueFrameRoleButtonTank = {}
+LFDQueueFrameRoleButtonTank["role"] = "TANK"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L232)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameRoleButtonHealer : Button, LFDRoleButtonTemplate
+--- @field role string # "HEALER"
 LFDQueueFrameRoleButtonHealer = {}
+LFDQueueFrameRoleButtonHealer["role"] = "HEALER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L240)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameRoleButtonDPS : Button, LFDRoleButtonTemplate
+--- @field role string # "DAMAGER"
 LFDQueueFrameRoleButtonDPS = {}
+LFDQueueFrameRoleButtonDPS["role"] = "DAMAGER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L248)
 --- child of LFDQueueFrame
@@ -128,7 +175,9 @@ LFDQueueFrameTypeDropdown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L284)
 --- child of LFDQueueFrameRandom
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameRandom_LFDQueueFrameRandomScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarHideIfUnscrollable boolean # true
 LFDQueueFrameRandomScrollFrame = {}
+LFDQueueFrameRandomScrollFrame["scrollBarHideIfUnscrollable"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L282)
 --- child of LFDQueueFrame
@@ -180,15 +229,133 @@ LFDQueueFrameFollower = {}
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameFindGroupButton : Button, MagicButtonTemplate
 LFDQueueFrameFindGroupButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1096)
+--- child of LFDQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
+--- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateBackfillButton
+LFDQueueFramePartyBackfillBackfillButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1108)
+--- child of LFDQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
+--- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateNoBackfillButton
+LFDQueueFramePartyBackfillNoBackfillButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1082)
+--- child of LFDQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
+--- @type Texture
+LFDQueueFramePartyBackfillBlackFilter = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1087)
+--- child of LFDQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
+--- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateDescription
+LFDQueueFramePartyBackfillDescription = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L398)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFramePartyBackfill : Frame, LFGBackfillCoverTemplate
 LFDQueueFramePartyBackfill = {}
+LFDQueueFramePartyBackfill["Description"] = LFDQueueFramePartyBackfillDescription -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L960)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type Texture
+LFDQueueFrameCooldownFrameBlackFilter = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L965)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateDescription
+LFDQueueFrameCooldownFrameDescription = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L971)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateTime
+LFDQueueFrameCooldownFrameTime = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L976)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName1
+LFDQueueFrameCooldownFrameName1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L982)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus1
+LFDQueueFrameCooldownFrameStatus1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L988)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName2
+LFDQueueFrameCooldownFrameName2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L994)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus2
+LFDQueueFrameCooldownFrameStatus2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1000)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName3
+LFDQueueFrameCooldownFrameName3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1006)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus3
+LFDQueueFrameCooldownFrameStatus3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1012)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName4
+LFDQueueFrameCooldownFrameName4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1018)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus4
+LFDQueueFrameCooldownFrameStatus4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1024)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName5
+LFDQueueFrameCooldownFrameName5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1030)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus5
+LFDQueueFrameCooldownFrameStatus5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1036)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName6
+LFDQueueFrameCooldownFrameName6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1042)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus6
+LFDQueueFrameCooldownFrameStatus6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1048)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName7
+LFDQueueFrameCooldownFrameName7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1054)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus7
+LFDQueueFrameCooldownFrameStatus7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1060)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName8
+LFDQueueFrameCooldownFrameName8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1066)
+--- child of LFDQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus8
+LFDQueueFrameCooldownFrameStatus8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L409)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameCooldownFrame : Frame, LFGCooldownCoverTemplate
 LFDQueueFrameCooldownFrame = {}
+LFDQueueFrameCooldownFrame["description"] = LFDQueueFrameCooldownFrameDescription -- inherited
+LFDQueueFrameCooldownFrame["time"] = LFDQueueFrameCooldownFrameTime -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L447)
 --- child of LFDQueueFrameNoLFDWhileLFR
@@ -224,6 +391,11 @@ LFDQueueFrameBackground = {}
 --- @field PartyBackfill LFDParentFrame_LFDQueueFrame_LFDQueueFramePartyBackfill
 --- @field CooldownFrame LFDParentFrame_LFDQueueFrame_LFDQueueFrameCooldownFrame
 LFDQueueFrame = {}
+LFDQueueFrame["TypeDropdown"] = LFDQueueFrameTypeDropdown
+LFDQueueFrame["Specific"] = LFDQueueFrameSpecific
+LFDQueueFrame["Follower"] = LFDQueueFrameFollower
+LFDQueueFrame["PartyBackfill"] = LFDQueueFramePartyBackfill
+LFDQueueFrame["CooldownFrame"] = LFDQueueFrameCooldownFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L189)
 --- child of LFDParentFrame
@@ -240,4 +412,6 @@ LFDParentFrameTopTileStreaks = {}
 --- @field Inset LFDParentFrame_LFDParentFrameInset
 --- @field TopTileStreaks LFDParentFrame_LFDParentFrameTopTileStreaks
 LFDParentFrame = {}
+LFDParentFrame["Inset"] = LFDParentFrameInset
+LFDParentFrame["TopTileStreaks"] = LFDParentFrameTopTileStreaks
 

@@ -16,7 +16,9 @@ TutorialDragOriginFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialEffects.xml#L34)
 --- @class TutorialDragTargetFrame : Frame
+--- @field ignoreInLayout boolean # true
 TutorialDragTargetFrame = {}
+TutorialDragTargetFrame["ignoreInLayout"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialEffects.xml#L69)
 --- child of TutorialDragAnimationFrame

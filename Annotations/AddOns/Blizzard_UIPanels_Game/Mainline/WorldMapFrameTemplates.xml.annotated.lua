@@ -21,6 +21,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L90)
 --- child of WorldMapBountyBoardTemplate
 --- @class WorldMapBountyBoardTemplate_BountyName : FontString, Game13Font_o1, AutoScalingFontStringMixin
+--- @field minLineHeight number # 11
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L71)
 --- Template
@@ -33,6 +34,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L162)
 --- child of WorldMapActivityTrackerTemplate
 --- @class WorldMapActivityTrackerTemplate_BountyDropdown : DropdownButton
+--- @field menuPoint string # "BOTTOMLEFT"
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L117)

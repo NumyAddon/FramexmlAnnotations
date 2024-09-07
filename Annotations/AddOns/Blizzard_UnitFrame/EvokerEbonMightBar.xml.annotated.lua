@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.xml#L4)
 --- Template
 --- @class EvokerEbonMightBarTemplate : StatusBar, EvokerEbonMightBarMixin
+--- @field powerName string # "EBON_MIGHT"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.xml#L28)
 --- child of EvokerEbonMightBar
@@ -14,4 +15,6 @@
 --- @field OverflowCap Texture
 --- @field overflowAnim EvokerEbonMightBar_overflowAnim
 EvokerEbonMightBar = {}
+EvokerEbonMightBar["baseMixin"] = PlayerFrameAlternatePowerBarBaseMixin -- inherited
+EvokerEbonMightBar["powerName"] = "EBON_MIGHT" -- inherited
 

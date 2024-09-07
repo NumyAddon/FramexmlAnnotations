@@ -120,10 +120,12 @@ CharacterFrameTab3 = {}
 --- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameInsetRight : Frame, InsetFrameTemplate
 CharacterFrameInsetRight = {}
+CharacterFrameInsetRight["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L214)
 --- child of CharacterStatsPane
 --- @class CharacterFrame_CharacterStatsPane_ItemLevelCategory : Frame, CharacterStatFrameCategoryTemplate
+--- @field titleText any # STAT_AVERAGE_ITEM_LEVEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L244)
 --- child of 
@@ -144,10 +146,12 @@ CharacterFrameInsetRight = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L278)
 --- child of CharacterStatsPane
 --- @class CharacterFrame_CharacterStatsPane_AttributesCategory : Frame, CharacterStatFrameCategoryTemplate
+--- @field titleText any # STAT_CATEGORY_ATTRIBUTES
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L286)
 --- child of CharacterStatsPane
 --- @class CharacterFrame_CharacterStatsPane_EnhancementsCategory : Frame, CharacterStatFrameCategoryTemplate
+--- @field titleText any # STAT_CATEGORY_ENHANCEMENTS
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L199)
 --- child of CharacterFrame
@@ -159,9 +163,17 @@ CharacterFrameInsetRight = {}
 --- @field ClassBackground Texture
 CharacterStatsPane = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L1148)
+--- child of CharacterFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+CharacterFrameInset = {}
+CharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L147)
 --- @class CharacterFrame : Frame, ButtonFrameTemplate, CharacterFrameMixin
 --- @field InsetRight CharacterFrame_CharacterFrameInsetRight
 --- @field Background Texture
 CharacterFrame = {}
+CharacterFrame["InsetRight"] = CharacterFrameInsetRight
+CharacterFrame["Inset"] = CharacterFrameInset -- inherited
 

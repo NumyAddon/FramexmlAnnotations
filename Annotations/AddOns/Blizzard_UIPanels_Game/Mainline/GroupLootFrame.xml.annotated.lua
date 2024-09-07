@@ -167,7 +167,10 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L537)
 --- @class GroupLootContainer : ContainedAlertFrame, UIParentBottomManagedFrameTemplate
+--- @field layoutIndex number # 3
 GroupLootContainer = {}
+GroupLootContainer["layoutIndex"] = 3
+GroupLootContainer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L546)
 --- @class GroupLootFrame1 : Frame, GroupLootFrameTemplate
@@ -235,4 +238,5 @@ BonusRollMoneyWonFrame = {}
 --- @field Item MasterLooterFrame_Item
 --- @field player1 MasterLooterFrame_player1
 MasterLooterFrame = {}
+MasterLooterFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 

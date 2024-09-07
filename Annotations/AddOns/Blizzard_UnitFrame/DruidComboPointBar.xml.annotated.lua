@@ -26,8 +26,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L91)
 --- Template
 --- @class DruidComboPointBarTemplate : Frame, ClassResourceBarTemplate, DruidComboPointBarMixin
+--- @field powerToken string # "COMBO_POINTS"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L106)
 --- @class DruidComboPointBarFrame : Frame, DruidComboPointBarTemplate
+--- @field topPadding number # 7
 DruidComboPointBarFrame = {}
+DruidComboPointBarFrame["topPadding"] = 7
+DruidComboPointBarFrame["powerToken"] = "COMBO_POINTS" -- inherited
 

@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L5)
 --- Template
 --- @class ClassNameplateBarFrame : Frame
+--- @field scale string # ".75"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L36)
 --- child of ClassNameplateManaBarFrame
@@ -18,10 +19,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L18)
 --- @class ClassNameplateManaBarFrame : StatusBar, ClassNameplateBar, ClassNameplateManaBar
+--- @field scale string # "1"
 --- @field Border ClassNameplateManaBarFrame_Border
 --- @field FeedbackFrame ClassNameplateManaBarFrame_FeedbackFrame
 --- @field FullPowerFrame ClassNameplateManaBarFrame_FullPowerFrame
 --- @field background Texture
 --- @field ManaCostPredictionBar Texture
 ClassNameplateManaBarFrame = {}
+ClassNameplateManaBarFrame["scale"] = "1"
 

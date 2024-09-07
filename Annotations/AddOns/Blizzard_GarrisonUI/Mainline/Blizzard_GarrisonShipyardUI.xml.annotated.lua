@@ -85,6 +85,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L227)
 --- Template
 --- @class GarrisonBonusEffectFrameTemplate : Frame
+--- @field yspacing number # 8
 --- @field Icon Texture
 --- @field Name GarrisonBonusEffectFrameTemplate_Name
 --- @field Description GarrisonBonusEffectFrameTemplate_Description
@@ -104,6 +105,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L256)
 --- Template
 --- @class GarrisonBonusAreaTooltipFrameTemplate : Frame
+--- @field yspacing number # 33
 --- @field BonusEffectFrame GarrisonBonusAreaTooltipFrameTemplate_BonusEffectFrame
 --- @field Title GarrisonBonusAreaTooltipFrameTemplate_Title
 --- @field TimeLeft GarrisonBonusAreaTooltipFrameTemplate_TimeLeft
@@ -116,90 +118,131 @@
 --- @class GarrisonBonusAreaTooltip : Frame, TooltipBackdropTemplate
 --- @field BonusArea GarrisonBonusAreaTooltip_BonusArea
 GarrisonBonusAreaTooltip = {}
+GarrisonBonusAreaTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L9)
+--- child of Tooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
+TooltipStatusBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L88)
+--- child of  (created in template InternalEmbeddedItemTooltipTemplate)
+--- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateTooltip
+--- @field IsEmbedded boolean # true
+Tooltip = {}
+Tooltip["IsEmbedded"] = true
+Tooltip["supportsDataRefresh"] = true -- inherited
+Tooltip["StatusBar"] = TooltipStatusBar -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L101)
+--- child of  (created in template InternalEmbeddedItemTooltipTemplate)
+--- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateGarrisonFollowerTooltip
+GarrisonFollowerTooltip = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L454)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_ItemTooltip : Frame, InternalEmbeddedItemTooltipTemplate
+--- @field yspacing number # 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L465)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_BonusEffect : Frame, GarrisonBonusEffectFrameTemplate
+--- @field yspacing number # 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L473)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_BonusReward : Frame, GarrisonBonusEffectFrameTemplate
+--- @field yspacing number # 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L304)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_Name : FontString, GameFontNormalMed2
+--- @field yspacing number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L312)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_RareMission : FontString, GameFontNormalMed2
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L321)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_Description : FontString, GameFontHighlight
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L329)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_NumFollowers : FontString, GameFontHighlight
+--- @field yspacing number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L337)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_MissionDuration : FontString, GameFontHighlight
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L345)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_MissionExpires : FontString, GameFontNormal
+--- @field yspacing number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L353)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_TimeRemaining : FontString, GameFontHighlight
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L361)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_RewardString : FontString, GameFontNormal
+--- @field yspacing number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L369)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_Reward : FontString, GameFontHighlight
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L377)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_BonusTitle : FontString, GameFontNormal
+--- @field yspacing number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L385)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_SiegebreakerWarning : FontString, GameFontNormalLeftRed
+--- @field yspacing number # 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L395)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_InProgress : FontString, GameFontHighlight
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L403)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_InProgressTimeLeft : FontString, GameFontHighlight
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L411)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_SuccessChance : FontString, GameFontHighlight
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L419)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_ShipsString : FontString, GameFontNormal
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L427)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_Ship1 : FontString, GameFontHighlight
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L435)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_Ship2 : FontString, GameFontHighlight
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L443)
 --- child of GarrisonShipyardMapMissionTooltip
 --- @class GarrisonShipyardMapMissionTooltip_Ship3 : FontString, GameFontHighlight
+--- @field yspacing number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L297)
 --- @class GarrisonShipyardMapMissionTooltip : Frame, TooltipBackdropTemplate
@@ -225,6 +268,7 @@ GarrisonBonusAreaTooltip = {}
 --- @field Ship2 GarrisonShipyardMapMissionTooltip_Ship2
 --- @field Ship3 GarrisonShipyardMapMissionTooltip_Ship3
 GarrisonShipyardMapMissionTooltip = {}
+GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L484)
 --- Template
@@ -572,11 +616,13 @@ GarrisonShipFollowerPlacer = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1592)
 --- child of 
 --- @class GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment1 : Button, GarrisonShipEquipmentTemplate
+--- @field quality string # "rare"
 --- @field Lock Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1609)
 --- child of 
 --- @class GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment2 : Button, GarrisonShipEquipmentTemplate
+--- @field quality string # "epic"
 --- @field Lock Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1584)
@@ -646,6 +692,18 @@ GarrisonShipyardFrameTab2 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1698)
 --- child of GarrisonShipyardFrameFollowers
 --- @class GarrisonShipyardFrame_GarrisonShipyardFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
+--- @field currencyType number # 1101
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+ClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+SearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1712)
 --- child of GarrisonShipyardFrameFollowers
@@ -654,9 +712,11 @@ GarrisonShipyardFrameTab2 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1683)
 --- child of GarrisonShipyardFrame
 --- @class GarrisonShipyardFrame_GarrisonShipyardFrameFollowers : Frame, GarrisonShipFollowerListTemplateHeader, GarrisonFollowerList, GarrisonShipyardFollowerList
+--- @field showUncollected boolean # false
 --- @field MaterialFrame GarrisonShipyardFrame_GarrisonShipyardFrameFollowers_MaterialFrame
 --- @field SearchBox GarrisonShipyardFrame_GarrisonShipyardFrameFollowers_SearchBox
 GarrisonShipyardFrameFollowers = {}
+GarrisonShipyardFrameFollowers["showUncollected"] = false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1745)
 --- child of 
@@ -790,6 +850,7 @@ GarrisonShipyardFrameFollowers = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1639)
 --- @class GarrisonShipyardFrame : Frame, GarrisonMissionFrameTemplate, GarrisonMission, GarrisonShipyardMission
+--- @field followerTypeID any # Enum.GarrisonFollowerType.FollowerType_6_0_Boat
 --- @field Tab1 GarrisonShipyardFrame_GarrisonShipyardFrameTab1
 --- @field Tab2 GarrisonShipyardFrame_GarrisonShipyardFrameTab2
 --- @field FollowerList GarrisonShipyardFrame_GarrisonShipyardFrameFollowers
@@ -800,4 +861,8 @@ GarrisonShipyardFrameFollowers = {}
 --- @field BorderFrame GarrisonShipyardFrame_BorderFrame
 --- @field BackgroundTile Texture
 GarrisonShipyardFrame = {}
+GarrisonShipyardFrame["Tab1"] = GarrisonShipyardFrameTab1
+GarrisonShipyardFrame["Tab2"] = GarrisonShipyardFrameTab2
+GarrisonShipyardFrame["FollowerList"] = GarrisonShipyardFrameFollowers
+GarrisonShipyardFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_6_0_Boat
 

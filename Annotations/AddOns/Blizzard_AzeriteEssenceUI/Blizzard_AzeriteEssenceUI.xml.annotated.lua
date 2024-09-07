@@ -16,6 +16,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L5)
 --- Template
 --- @class AzeriteMilestoneBaseTemplate : Frame, AzeriteMilestoneBaseMixin
+--- @field isDraggable boolean # false
 --- @field EffectsModelScene AzeriteMilestoneBaseTemplate_EffectsModelScene
 --- @field SwirlContainer AzeriteMilestoneBaseTemplate_SwirlContainer
 --- @field RevealAnim AzeriteMilestoneBaseTemplate_RevealAnim
@@ -160,6 +161,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L234)
 --- Template
 --- @class AzeriteMilestoneMajorSlotTemplate : Frame, AzeriteMilestoneBaseTemplate, AzeriteMilestoneSlotMixin
+--- @field isDraggable boolean # true
 --- @field UnlockedState AzeriteMilestoneMajorSlotTemplate_UnlockedState
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L359)
@@ -173,6 +175,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L333)
 --- Template
 --- @class AzeriteMilestoneStaminaTemplate : Frame, AzeriteMilestoneBaseTemplate, AzeriteMilestoneStaminaMixin
+--- @field swirlScale number # 0.5
 --- @field Shadow Texture
 --- @field Icon Texture
 --- @field Glow Texture
@@ -303,14 +306,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L640)
 --- child of AzeriteEssenceUI
 --- @class AzeriteEssenceUI_StarsAnimationFrame1 : Frame, AzeriteEssenceStarsAnimationFrameTemplate
+--- @field startDelay number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L650)
 --- child of AzeriteEssenceUI
 --- @class AzeriteEssenceUI_StarsAnimationFrame2 : Frame, AzeriteEssenceStarsAnimationFrameTemplate
+--- @field startDelay number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L660)
 --- child of AzeriteEssenceUI
 --- @class AzeriteEssenceUI_StarsAnimationFrame3 : Frame, AzeriteEssenceStarsAnimationFrameTemplate
+--- @field startDelay number # 6
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L678)
 --- child of 
@@ -358,6 +364,11 @@
 --- @class AzeriteEssenceUI_ActivationGlow : Texture
 --- @field Anim AzeriteEssenceUI_ActivationGlow_Anim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L1095)
+--- child of AzeriteEssenceUI (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+AzeriteEssenceUICloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L561)
 --- @class AzeriteEssenceUI : Frame, PortraitFrameTemplate, AzeriteEssenceUIMixin
 --- @field PowerLevelBadgeFrame AzeriteEssenceUI_PowerLevelBadgeFrame
@@ -375,6 +386,32 @@
 --- @field ActivationGlow AzeriteEssenceUI_ActivationGlow
 --- @field OrbRing Texture
 AzeriteEssenceUI = {}
+AzeriteEssenceUI["CloseButton"] = AzeriteEssenceUICloseButton -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L834)
+--- child of AzeriteEssenceLearnAnimFrame
+--- @class AzeriteEssenceLearnAnimFrame_Rune : Texture
+--- @field isRune boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L842)
+--- child of AzeriteEssenceLearnAnimFrame
+--- @class AzeriteEssenceLearnAnimFrame_RuneFlipped : Texture
+--- @field isRune boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L851)
+--- child of AzeriteEssenceLearnAnimFrame
+--- @class AzeriteEssenceLearnAnimFrame_Rune2 : Texture
+--- @field isRune boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L859)
+--- child of AzeriteEssenceLearnAnimFrame
+--- @class AzeriteEssenceLearnAnimFrame_RuneFlipped2 : Texture
+--- @field isRune boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L878)
+--- child of AzeriteEssenceLearnAnimFrame
+--- @class AzeriteEssenceLearnAnimFrame_RuneStatic : Texture
+--- @field isRune boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L960)
 --- child of AzeriteEssenceLearnAnimFrame
@@ -386,13 +423,13 @@ AzeriteEssenceUI = {}
 --- @field BlackCover2 Texture
 --- @field Titans Texture
 --- @field Titans2 Texture
---- @field Rune Texture
---- @field RuneFlipped Texture
---- @field Rune2 Texture
---- @field RuneFlipped2 Texture
+--- @field Rune AzeriteEssenceLearnAnimFrame_Rune
+--- @field RuneFlipped AzeriteEssenceLearnAnimFrame_RuneFlipped
+--- @field Rune2 AzeriteEssenceLearnAnimFrame_Rune2
+--- @field RuneFlipped2 AzeriteEssenceLearnAnimFrame_RuneFlipped2
 --- @field RingLargeFlip Texture
 --- @field RingLargeFlip2 Texture
---- @field RuneStatic Texture
+--- @field RuneStatic AzeriteEssenceLearnAnimFrame_RuneStatic
 --- @field Sunburst Texture
 --- @field RingLarge Texture
 --- @field RingSmall Texture

@@ -8,6 +8,17 @@
 --- child of ToyBox
 --- @class ToyBox_progressBar : StatusBar, CollectionsProgressBarTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L1504)
+--- child of  (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+ClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L1495)
+--- child of  (created in template SearchBoxTemplate)
+--- @type Texture
+SearchIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L30)
 --- child of ToyBox
 --- @class ToyBox_searchBox : EditBox, SearchBoxTemplate
@@ -15,6 +26,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L39)
 --- child of ToyBox
 --- @class ToyBox_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
+--- @field resizeToText boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L59)
 --- child of 

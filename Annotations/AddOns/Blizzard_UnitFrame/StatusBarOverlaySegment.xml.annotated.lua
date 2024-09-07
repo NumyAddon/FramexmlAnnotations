@@ -15,5 +15,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.xml#L60)
 --- Template
 --- @class LinedStatusBarOverlaySegmentTemplate : Frame, StatusBarOverlaySegmentTemplate
+--- @field tiledFillOverlaySize number # 32
 --- @field TiledFillOverlay Texture
 

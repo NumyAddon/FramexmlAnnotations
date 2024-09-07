@@ -133,14 +133,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L209)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "UniqueCornersLayout"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L219)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_RaidTab : Button, MinimalTabTemplate
+--- @field tabText any # RAID_SETTINGS
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L229)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_BaseTab : Button, MinimalTabTemplate
+--- @field tabText any # BASE_SETTINGS_TAB
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L242)
 --- child of 

@@ -59,6 +59,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L119)
 --- child of 
 --- @class CurrencyTransferBalancePreviewTemplate_BalanceInfo_Amount : FontString, GameFontHighlight, AutoScalingFontStringMixin
+--- @field minLineHeight number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L105)
 --- child of CurrencyTransferBalancePreviewTemplate
@@ -70,6 +71,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L164)
 --- child of CurrencyTransferBalancePreviewTemplate
 --- @class CurrencyTransferBalancePreviewTemplate_Label : FontString, GameFontNormal, AutoScalingFontStringMixin
+--- @field minLineHeight number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L99)
 --- Template
@@ -96,10 +98,16 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L219)
 --- child of CurrencyTransferMenuTemplate
 --- @class CurrencyTransferMenuTemplate_SourceBalancePreview : Frame, CurrencyTransferBalancePreviewTemplate
+--- @field showTransferCost boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L229)
 --- child of CurrencyTransferMenuTemplate
 --- @class CurrencyTransferMenuTemplate_PlayerBalancePreview : Frame, CurrencyTransferBalancePreviewTemplate
+--- @field showTransferCost boolean # false
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L1148)
+--- child of CurrencyTransferMenuTemplate (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L177)
 --- Template
@@ -136,6 +144,7 @@ CurrencyTransferMenu = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L276)
 --- child of CurrencyTransferLogEntryTemplate
 --- @class CurrencyTransferLogEntryTemplate_CurrencyQuantity : FontString, GameFontHighlightRight, AutoScalingFontStringMixin
+--- @field minLineHeight number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L285)
 --- child of CurrencyTransferLogEntryTemplate
@@ -176,6 +185,10 @@ CurrencyTransferMenu = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L363)
 --- child of CurrencyTransferLogTemplate
 --- @class CurrencyTransferLogTemplate_EmptyLogMessage : FontString, GameFontNormalMed2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L1148)
+--- child of CurrencyTransferLogTemplate (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L351)
 --- Template

@@ -7,6 +7,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L97)
 --- child of PlayerChoiceCypherOptionTemplate
 --- @class PlayerChoiceCypherOptionTemplate_Header : Frame, PlayerChoiceBaseCenteredFrame, ResizeLayoutFrame
+--- @field layoutIndex number # 2
 --- @field Text PlayerChoiceCypherOptionTemplate_Header_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L115)
@@ -20,6 +21,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L4)
 --- Template
 --- @class PlayerChoiceCypherOptionTemplate : Frame, PlayerChoicePowerChoiceTemplate, PlayerChoiceCypherOptionTemplateMixin
+--- @field minOptionHeight number # 343
 --- @field Header PlayerChoiceCypherOptionTemplate_Header
 --- @field Background Texture
 --- @field RarityGlow Texture

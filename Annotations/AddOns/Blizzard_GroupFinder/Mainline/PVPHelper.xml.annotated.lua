@@ -60,6 +60,10 @@ PVPFramePopupTimer = {}
 --- @field title PVPFramePopup_PVPFramePopupTitle
 --- @field timer PVPFramePopup_PVPFramePopupTimer
 PVPFramePopup = {}
+PVPFramePopup["minimizeButton"] = PVPFramePopupMinimizeButton
+PVPFramePopup["ringIcon"] = PVPFramePopupRingIcon
+PVPFramePopup["title"] = PVPFramePopupTitle
+PVPFramePopup["timer"] = PVPFramePopupTimer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L114)
 --- child of PVPRoleCheckPopup
@@ -68,17 +72,23 @@ PVPFramePopup = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L115)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopup_PVPRoleCheckPopupRoleButtonTank : Button, LFGRoleButtonTemplate
+--- @field role string # "TANK"
 PVPRoleCheckPopupRoleButtonTank = {}
+PVPRoleCheckPopupRoleButtonTank["role"] = "TANK"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L130)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopup_PVPRoleCheckPopupRoleButtonHealer : Button, LFGRoleButtonTemplate
+--- @field role string # "HEALER"
 PVPRoleCheckPopupRoleButtonHealer = {}
+PVPRoleCheckPopupRoleButtonHealer["role"] = "HEALER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L145)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopup_PVPRoleCheckPopupRoleButtonDPS : Button, LFGRoleButtonTemplate
+--- @field role string # "DAMAGER"
 PVPRoleCheckPopupRoleButtonDPS = {}
+PVPRoleCheckPopupRoleButtonDPS["role"] = "DAMAGER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L160)
 --- child of PVPRoleCheckPopup
@@ -100,6 +110,7 @@ PVPRoleCheckPopupDescriptionText = {}
 --- @class PVPRoleCheckPopup_PVPRoleCheckPopupDescription : Frame
 --- @field Text PVPRoleCheckPopup_PVPRoleCheckPopupDescription_PVPRoleCheckPopupDescriptionText
 PVPRoleCheckPopupDescription = {}
+PVPRoleCheckPopupDescription["Text"] = PVPRoleCheckPopupDescriptionText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L106)
 --- child of PVPRoleCheckPopup
@@ -113,6 +124,10 @@ PVPRoleCheckPopupDescription = {}
 --- @field DPSIcon PVPRoleCheckPopup_PVPRoleCheckPopupRoleButtonDPS
 --- @field Description PVPRoleCheckPopup_PVPRoleCheckPopupDescription
 PVPRoleCheckPopup = {}
+PVPRoleCheckPopup["TankIcon"] = PVPRoleCheckPopupRoleButtonTank
+PVPRoleCheckPopup["HealerIcon"] = PVPRoleCheckPopupRoleButtonHealer
+PVPRoleCheckPopup["DPSIcon"] = PVPRoleCheckPopupRoleButtonDPS
+PVPRoleCheckPopup["Description"] = PVPRoleCheckPopupDescription
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L239)
 --- child of PVPReadyDialog
@@ -143,6 +158,7 @@ PVPReadyDialogRoleIconTexture = {}
 --- @class PVPReadyDialog_PVPReadyDialogRoleIcon : Frame
 --- @field texture PVPReadyDialog_PVPReadyDialogRoleIcon_PVPReadyDialogRoleIconTexture
 PVPReadyDialogRoleIcon = {}
+PVPReadyDialogRoleIcon["texture"] = PVPReadyDialogRoleIconTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L298)
 --- child of PVPReadyDialogInstanceInfoFrame
@@ -161,6 +177,8 @@ PVPReadyDialogInstanceInfoFrameStatusText = {}
 --- @field name PVPReadyDialog_PVPReadyDialogInstanceInfoFrame_PVPReadyDialogInstanceInfoFrameName
 --- @field statusText PVPReadyDialog_PVPReadyDialogInstanceInfoFrame_PVPReadyDialogInstanceInfoFrameStatusText
 PVPReadyDialogInstanceInfoFrame = {}
+PVPReadyDialogInstanceInfoFrame["name"] = PVPReadyDialogInstanceInfoFrameName
+PVPReadyDialogInstanceInfoFrame["statusText"] = PVPReadyDialogInstanceInfoFrameStatusText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L205)
 --- child of PVPReadyDialog
@@ -200,4 +218,13 @@ PVPReadyDialogRoleLabel = {}
 --- @field roleDescription PVPReadyDialog_PVPReadyDialogYourRoleDescription
 --- @field roleLabel PVPReadyDialog_PVPReadyDialogRoleLabel
 PVPReadyDialog = {}
+PVPReadyDialog["enterButton"] = PVPReadyDialogEnterBattleButton
+PVPReadyDialog["leaveButton"] = PVPReadyDialogLeaveQueueButton
+PVPReadyDialog["roleIcon"] = PVPReadyDialogRoleIcon
+PVPReadyDialog["instanceInfo"] = PVPReadyDialogInstanceInfoFrame
+PVPReadyDialog["background"] = PVPReadyDialogBackground
+PVPReadyDialog["label"] = PVPReadyDialogLabel
+PVPReadyDialog["bottomArt"] = PVPReadyDialogBottomArt
+PVPReadyDialog["roleDescription"] = PVPReadyDialogYourRoleDescription
+PVPReadyDialog["roleLabel"] = PVPReadyDialogRoleLabel
 

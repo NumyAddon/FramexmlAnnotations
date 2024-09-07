@@ -3,26 +3,32 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseCommoditiesBuyFrame.xml#L17)
 --- child of AuctionHouseCommoditiesBuyDisplayTemplate
 --- @class AuctionHouseCommoditiesBuyDisplayTemplate_ItemDisplay : Button, AuctionHouseItemDisplayTemplate
+--- @field itemButtonXOffset number # 11
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseCommoditiesBuyFrame.xml#L38)
 --- child of AuctionHouseCommoditiesBuyDisplayTemplate
 --- @class AuctionHouseCommoditiesBuyDisplayTemplate_QuantityInput : Frame, AuctionHouseAlignedQuantityInputFrameTemplate
+--- @field layoutIndex number # 20
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseCommoditiesBuyFrame.xml#L44)
 --- child of AuctionHouseCommoditiesBuyDisplayTemplate
 --- @class AuctionHouseCommoditiesBuyDisplayTemplate_UnitPrice : Frame, AuctionHouseAlignedPriceDisplayTemplate
+--- @field layoutIndex number # 30
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseCommoditiesBuyFrame.xml#L50)
 --- child of AuctionHouseCommoditiesBuyDisplayTemplate
 --- @class AuctionHouseCommoditiesBuyDisplayTemplate_TotalPrice : Frame, AuctionHouseAlignedPriceDisplayTemplate
+--- @field layoutIndex number # 40
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseCommoditiesBuyFrame.xml#L57)
 --- child of AuctionHouseCommoditiesBuyDisplayTemplate
 --- @class AuctionHouseCommoditiesBuyDisplayTemplate_BuyButton : Button, UIPanelButtonTemplate, ButtonWithDisableTooltipTemplate, AuctionHouseCommoditiesBuyButtonMixin
+--- @field layoutIndex number # 50
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseCommoditiesBuyFrame.xml#L5)
 --- Template
 --- @class AuctionHouseCommoditiesBuyDisplayTemplate : Frame, VerticalLayoutFrame, AuctionHouseBackgroundTemplate, AuctionHouseCommoditiesBuyDisplayMixin
+--- @field topPadding number # 19
 --- @field ItemDisplay AuctionHouseCommoditiesBuyDisplayTemplate_ItemDisplay
 --- @field QuantityInput AuctionHouseCommoditiesBuyDisplayTemplate_QuantityInput
 --- @field UnitPrice AuctionHouseCommoditiesBuyDisplayTemplate_UnitPrice

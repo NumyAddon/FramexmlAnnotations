@@ -23,7 +23,9 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L50)
 --- @class TimerunningCreateCharacterButtonGlow : Frame, TimerunningCreateCharacterButtonGlowTemplate
+--- @field frameMaskOverrideHeight number # 296
 TimerunningCreateCharacterButtonGlow = {}
+TimerunningCreateCharacterButtonGlow["frameMaskOverrideHeight"] = 296
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L169)
 --- child of 
@@ -174,8 +176,10 @@ TimerunningFirstTimeDialog = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L386)
 --- child of TimerunningChoicePopup
 --- @class TimerunningChoicePopup_TimerunningChoiceDialogCreateStandard : Frame, TimerunningChoiceDialogTemplate
+--- @field headerText any # TIMERUNNING_CHOICE_STANDARD_HEADER
 --- @field SelectButton TimerunningChoicePopup_TimerunningChoiceDialogCreateStandard_SelectButton
 TimerunningChoiceDialogCreateStandard = {}
+TimerunningChoiceDialogCreateStandard["headerText"] = TIMERUNNING_CHOICE_STANDARD_HEADER
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L413)
 --- child of TimerunningChoiceDialogCreateTimerunning
@@ -196,11 +200,13 @@ TimerunningChoiceDialogCreateStandard = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L403)
 --- child of TimerunningChoicePopup
 --- @class TimerunningChoicePopup_TimerunningChoiceDialogCreateTimerunning : Frame, TimerunningChoiceDialogTemplate
+--- @field headerText any # TIMERUNNING_CHOICE_TIMERUNNING_HEADER
 --- @field Glow TimerunningChoicePopup_TimerunningChoiceDialogCreateTimerunning_Glow
 --- @field SandCorners TimerunningChoicePopup_TimerunningChoiceDialogCreateTimerunning_SandCorners
 --- @field InfoButton TimerunningChoicePopup_TimerunningChoiceDialogCreateTimerunning_InfoButton
 --- @field SelectButton TimerunningChoicePopup_TimerunningChoiceDialogCreateTimerunning_SelectButton
 TimerunningChoiceDialogCreateTimerunning = {}
+TimerunningChoiceDialogCreateTimerunning["headerText"] = TIMERUNNING_CHOICE_TIMERUNNING_HEADER
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L377)
 --- @class TimerunningChoicePopup : Frame, TimerunningChoicePopupMixin

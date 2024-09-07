@@ -1,5 +1,21 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L250)
+--- child of DelveRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L256)
+--- child of DelveRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L264)
+--- child of DelveRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L296)
+--- child of DelveRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L4)
 --- Template
 --- @class DelveRewardItemButtonTemplate : Button, LargeItemButtonTemplate, DelveRewardsButtonMixin
@@ -80,4 +96,5 @@
 --- @field ScenarioLabel DelvesDifficultyPickerFrame_ScenarioLabel
 --- @field Description DelvesDifficultyPickerFrame_Description
 DelvesDifficultyPickerFrame = {}
+DelvesDifficultyPickerFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 

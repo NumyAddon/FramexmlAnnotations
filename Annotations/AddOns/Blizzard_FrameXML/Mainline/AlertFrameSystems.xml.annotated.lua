@@ -501,6 +501,7 @@ AlertFrameSystemsRegistrar = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L967)
 --- Template
 --- @class LootUpgradeFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
+--- @field numArrows number # 5
 --- @field Background Texture
 --- @field BaseQualityBorder Texture
 --- @field Icon Texture
@@ -628,6 +629,7 @@ AlertFrameSystemsRegistrar = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1326)
 --- Template
 --- @class RafRewardDeliveredAlertFrameTemplate : ContainedAlertFrame, EntitlementDeliveredAlertFrameBaseTemplate
+--- @field legacyStandardToastAtlas string # "recruitafriend_toast_standard"
 --- @field StandardBackground Texture
 --- @field FancyBackground Texture
 --- @field Watermark Texture
@@ -811,6 +813,7 @@ AlertFrameSystemsRegistrar = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1776)
 --- child of GarrisonFollowerAlertFrameTemplate
 --- @class GarrisonFollowerAlertFrameTemplate_Arrows : Frame
+--- @field numArrows number # 5
 --- @field Arrow1 GarrisonFollowerAlertFrameTemplate_Arrows_Arrow1
 --- @field Arrow2 GarrisonFollowerAlertFrameTemplate_Arrows_Arrow2
 --- @field Arrow3 GarrisonFollowerAlertFrameTemplate_Arrows_Arrow3
@@ -867,6 +870,7 @@ AlertFrameSystemsRegistrar = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1852)
 --- child of GarrisonStandardFollowerAlertFrameTemplate
 --- @class GarrisonStandardFollowerAlertFrameTemplate_Name : FontString, GameFontHighlight, AutoScalingFontStringMixin
+--- @field minLineHeight number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1837)
 --- Template

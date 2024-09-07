@@ -19,6 +19,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L67)
 --- child of PVPMatchResults
 --- @class PVPMatchResults_Score : Frame, UIWidgetContainerTemplate
+--- @field verticalAnchorPoint string # "TOPRIGHT"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L80)
 --- child of PVPMatchResults
@@ -36,17 +37,23 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L204)
 --- child of 
 --- @class PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab1 : Button, PanelTabButtonTemplate
+--- @field factionEnum number # -1
 PVPScoreFrameTab1 = {}
+PVPScoreFrameTab1["factionEnum"] = -1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L212)
 --- child of 
 --- @class PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab2 : Button, PanelTabButtonTemplate
+--- @field factionEnum number # 1
 PVPScoreFrameTab2 = {}
+PVPScoreFrameTab2["factionEnum"] = 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L217)
 --- child of 
 --- @class PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab3 : Button, PanelTabButtonTemplate
+--- @field factionEnum number # 0
 PVPScoreFrameTab3 = {}
+PVPScoreFrameTab3["factionEnum"] = 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L198)
 --- child of 
@@ -92,6 +99,7 @@ PVPScoreFrameTab3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L282)
 --- child of 
 --- @class PVPMatchResults_content_earningsContainer_progressContainer_honor_button : Button, PVPMatchResultsCurrencyRewardTemplate
+--- @field currencyID number # 1792
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L290)
 --- child of 
@@ -111,10 +119,12 @@ PVPScoreFrameTab3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L312)
 --- child of 
 --- @class PVPMatchResults_content_earningsContainer_progressContainer_conquest_button : Button, PVPMatchResultsCurrencyRewardTemplate
+--- @field currencyID number # 1602
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L320)
 --- child of 
 --- @class PVPMatchResults_content_earningsContainer_progressContainer_conquest_legacyButton : Button, PVPConquestRewardButton
+--- @field currencyID number # 1602
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L331)
 --- child of 

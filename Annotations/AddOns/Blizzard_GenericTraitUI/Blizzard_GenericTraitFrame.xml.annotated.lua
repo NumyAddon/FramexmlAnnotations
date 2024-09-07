@@ -7,6 +7,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L45)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "UniqueCornersLayout"
 --- @field DetailTop Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L72)
@@ -39,6 +40,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L3)
 --- @class GenericTraitFrame : Frame, TalentFrameBaseTemplate, GenericTraitFrameMixin
+--- @field getEdgeTemplateType any # GenericTraitUtil.GetEdgeTemplateType
 --- @field CloseButton GenericTraitFrame_CloseButton
 --- @field NineSlice GenericTraitFrame_NineSlice
 --- @field Header GenericTraitFrame_Header
@@ -48,4 +50,6 @@
 --- @field Background Texture
 --- @field BorderOverlay Texture
 GenericTraitFrame = {}
+GenericTraitFrame["getEdgeTemplateType"] = GenericTraitUtil.GetEdgeTemplateType
+GenericTraitFrame["getTemplateType"] = TalentButtonUtil.GetTemplateForTalentType -- inherited
 

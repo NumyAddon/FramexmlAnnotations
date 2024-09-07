@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L3)
 --- Template
 --- @class AccountLoginBackdropTemplate : Frame, TooltipBackdropTemplate
+--- @field layoutType string # "TooltipMixedLayout"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L11)
 --- Template
@@ -54,6 +55,7 @@ KoreanRatings = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L106)
 --- child of ChinaAgeAppropriatenessWarning
 --- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarHideIfUnscrollable boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L156)
 --- child of ChinaAgeAppropriatenessWarning
@@ -101,6 +103,7 @@ LoginBackgroundModel = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L310)
 --- child of 
 --- @class AccountLogin_UI_SaveAccountNameCheckButton : CheckButton, ResizeCheckButtonTemplate, SaveAccountNameCheckButton
+--- @field labelText any # SAVE_ACCOUNT_NAME
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L319)
 --- child of 
@@ -138,6 +141,7 @@ ServerAlertFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L406)
 --- child of 
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_Container : Frame, TooltipBackdropTemplate
+--- @field layoutType string # "TooltipMixedLayout"
 --- @field ScrollBox AccountLogin_UI_WoWAccountSelectDialog_Background_Container_ScrollBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L424)

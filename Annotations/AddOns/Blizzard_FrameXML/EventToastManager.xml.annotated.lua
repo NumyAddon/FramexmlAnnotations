@@ -10,6 +10,16 @@
 --- @class HideToastAnimGroupTemplate : AnimationGroup
 --- @field anim1 Alpha
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L29)
+--- child of EventToastAnimationsTemplate
+--- @class EventToastAnimationsTemplate_TitleTextMouseOverFrame : Frame
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L47)
+--- child of EventToastAnimationsTemplate
+--- @class EventToastAnimationsTemplate_SubTitleMouseOverFrame : Frame
+--- @field ignoreInLayout boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L25)
 --- child of EventToastAnimationsTemplate
 --- @class EventToastAnimationsTemplate_showAnim : AnimationGroup, ShowToastAnimGroupTemplate
@@ -21,8 +31,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L23)
 --- Template
 --- @class EventToastAnimationsTemplate : Frame, EventToastAnimationsMixin
---- @field TitleTextMouseOverFrame Frame
---- @field SubTitleMouseOverFrame Frame
+--- @field TitleTextMouseOverFrame EventToastAnimationsTemplate_TitleTextMouseOverFrame
+--- @field SubTitleMouseOverFrame EventToastAnimationsTemplate_SubTitleMouseOverFrame
 --- @field showAnim EventToastAnimationsTemplate_showAnim
 --- @field hideAnim EventToastAnimationsTemplate_hideAnim
 
@@ -33,6 +43,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L71)
 --- Template
 --- @class EventToastWithIconBaseTemplate : Frame, ResizeLayoutFrame, EventToastAnimationsTemplate, EventToastWithIconBaseMixin
+--- @field animInStartDelay number # 0
 --- @field WidgetContainer EventToastWithIconBaseTemplate_WidgetContainer
 --- @field Icon Texture
 --- @field IconBorder Texture
@@ -75,6 +86,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L163)
 --- child of EventToastWithIconNormalTemplate
 --- @class EventToastWithIconNormalTemplate_InstructionalText : FontString, GameFontHighlight
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L149)
 --- Template
@@ -110,6 +122,36 @@
 --- child of EventToastScenarioBaseToastTemplate
 --- @class EventToastScenarioBaseToastTemplate_SubTitle : FontString, SystemFont_Shadow_Med3
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L250)
+--- child of EventToastScenarioBaseToastTemplate
+--- @class EventToastScenarioBaseToastTemplate_BG1 : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L260)
+--- child of EventToastScenarioBaseToastTemplate
+--- @class EventToastScenarioBaseToastTemplate_BG2 : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L270)
+--- child of EventToastScenarioBaseToastTemplate
+--- @class EventToastScenarioBaseToastTemplate_Topper : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L278)
+--- child of EventToastScenarioBaseToastTemplate
+--- @class EventToastScenarioBaseToastTemplate_Footer : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L288)
+--- child of EventToastScenarioBaseToastTemplate
+--- @class EventToastScenarioBaseToastTemplate_Background : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L295)
+--- child of EventToastScenarioBaseToastTemplate
+--- @class EventToastScenarioBaseToastTemplate_Overlay : Texture
+--- @field ignoreInLayout boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L207)
 --- child of EventToastScenarioBaseToastTemplate
 --- @class EventToastScenarioBaseToastTemplate_showAnim : AnimationGroup, ShowToastAnimGroupTemplate
@@ -127,15 +169,16 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L198)
 --- Template
 --- @class EventToastScenarioBaseToastTemplate : Button, ResizeLayoutFrame, EventToastAnimationsTemplate, EventToastScenarioBaseToastMixin
+--- @field fixedWidth number # 418
 --- @field PaddingFrame Frame
 --- @field Title EventToastScenarioBaseToastTemplate_Title
 --- @field SubTitle EventToastScenarioBaseToastTemplate_SubTitle
---- @field BG1 Texture
---- @field BG2 Texture
---- @field Topper Texture
---- @field Footer Texture
---- @field Background Texture
---- @field Overlay Texture
+--- @field BG1 EventToastScenarioBaseToastTemplate_BG1
+--- @field BG2 EventToastScenarioBaseToastTemplate_BG2
+--- @field Topper EventToastScenarioBaseToastTemplate_Topper
+--- @field Footer EventToastScenarioBaseToastTemplate_Footer
+--- @field Background EventToastScenarioBaseToastTemplate_Background
+--- @field Overlay EventToastScenarioBaseToastTemplate_Overlay
 --- @field showAnim EventToastScenarioBaseToastTemplate_showAnim
 --- @field hideAnim EventToastScenarioBaseToastTemplate_hideAnim
 --- @field NewStageTextureKit EventToastScenarioBaseToastTemplate_NewStageTextureKit
@@ -147,10 +190,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L345)
 --- child of EventToastScenarioToastTemplate
 --- @class EventToastScenarioToastTemplate_Description : FontString, SystemFont_Shadow_Large
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L338)
 --- Template
 --- @class EventToastScenarioToastTemplate : Button, EventToastScenarioBaseToastTemplate, EventToastScenarioToastMixin
+--- @field heightPadding number # 10
 --- @field WidgetContainer EventToastScenarioToastTemplate_WidgetContainer
 --- @field Description EventToastScenarioToastTemplate_Description
 
@@ -176,6 +221,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L432)
 --- child of EventToastChallengeModeToastTemplate
 --- @class EventToastChallengeModeToastTemplate_BannerFrame : Frame
+--- @field ignoreInLayout boolean # true
 --- @field MedalFlare Texture
 --- @field BottomFiligree Texture
 --- @field MedalIcon Texture
@@ -201,6 +247,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L396)
 --- Template
 --- @class EventToastChallengeModeToastTemplate : Frame, EventToastAnimationsTemplate, EventToastChallengeModeToastMixin
+--- @field animInStartDelay number # 0
 --- @field BannerFrame EventToastChallengeModeToastTemplate_BannerFrame
 --- @field Title EventToastChallengeModeToastTemplate_Title
 --- @field SubTitle EventToastChallengeModeToastTemplate_SubTitle
@@ -214,6 +261,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L478)
 --- Template
 --- @class EventToastManagerFrameTemplateNormal : Frame, ResizeLayoutFrame, EventToastAnimationsTemplate, EventToastManagerNormalMixin
+--- @field animInStartDelay number # 1.5
 --- @field WidgetContainer EventToastManagerFrameTemplateNormal_WidgetContainer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L492)
@@ -283,6 +331,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L707)
 --- child of EventToastManagerFrame
 --- @class EventToastManagerFrame_HideButton : Button, EventToastHideButtonMixin
+--- @field ignoreInLayout boolean # true
 --- @field Text EventToastManagerFrame_HideButton_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L632)
@@ -293,6 +342,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L627)
 --- child of EventToastManagerFrame
 --- @class EventToastManagerFrame_BlackBG : Texture
+--- @field ignoreInLayout boolean # true
 --- @field grow EventToastManagerFrame_BlackBG_grow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L660)
@@ -303,6 +353,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L652)
 --- child of EventToastManagerFrame
 --- @class EventToastManagerFrame_GLine2 : Texture
+--- @field ignoreInLayout boolean # true
 --- @field grow EventToastManagerFrame_GLine2_grow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L680)
@@ -313,6 +364,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L672)
 --- child of EventToastManagerFrame
 --- @class EventToastManagerFrame_GLine : Texture
+--- @field ignoreInLayout boolean # true
 --- @field grow EventToastManagerFrame_GLine_grow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L600)
@@ -331,6 +383,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L591)
 --- @class EventToastManagerFrame : Frame, ResizeLayoutFrame, EventToastManagerFrameMixin
+--- @field fixedWidth number # 418
 --- @field HideButton EventToastManagerFrame_HideButton
 --- @field BlackBG EventToastManagerFrame_BlackBG
 --- @field GLine2 EventToastManagerFrame_GLine2
@@ -339,6 +392,7 @@
 --- @field hideAnim EventToastManagerFrame_hideAnim
 --- @field fastHide EventToastManagerFrame_fastHide
 EventToastManagerFrame = {}
+EventToastManagerFrame["fixedWidth"] = 418
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L739)
 --- child of EventToastManagerSideDisplay
@@ -403,6 +457,7 @@ EventToastManagerSideDisplay = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L787)
 --- Template
 --- @class EventToastManagerWeeklyRewardToastUnlockTemplate : Frame, EventToastAnimationsTemplate, EventToastWeeklyRewardToastMixin
+--- @field animInStartDelay number # 0
 --- @field Contents EventToastManagerWeeklyRewardToastUnlockTemplate_Contents
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1206)
@@ -446,6 +501,7 @@ EventToastManagerSideDisplay = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1104)
 --- Template
 --- @class EventToastManagerWeeklyRewardToastUpgradeTemplate : Frame, EventToastAnimationsTemplate, EventToastWeeklyRewardUpgradeToastMixin
+--- @field animInStartDelay number # 0
 --- @field Contents EventToastManagerWeeklyRewardToastUpgradeTemplate_Contents
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1370)
@@ -459,6 +515,7 @@ EventToastManagerSideDisplay = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1352)
 --- Template
 --- @class EventToastFlightpointDiscoveredTemplate : Frame, EventToastWithIconLargeTextTemplate, EventToastFlightpointDiscoveredMixin
+--- @field animInStartDelay number # 0
 --- @field FiligreeGlow Texture
 --- @field TopIcon Texture
 --- @field Title EventToastFlightpointDiscoveredTemplate_Title

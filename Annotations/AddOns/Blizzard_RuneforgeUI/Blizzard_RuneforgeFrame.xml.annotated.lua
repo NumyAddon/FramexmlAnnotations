@@ -42,4 +42,5 @@ RuneforgeFrameResultTooltip = {}
 --- @field Background Texture
 --- @field Title FontString
 RuneforgeFrame = {}
+RuneforgeFrame["ResultTooltip"] = RuneforgeFrameResultTooltip
 

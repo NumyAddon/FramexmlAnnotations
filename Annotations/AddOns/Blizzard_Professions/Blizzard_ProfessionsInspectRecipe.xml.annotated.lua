@@ -11,6 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsInspectRecipe.xml#L9)
 --- child of InspectRecipeFrame
 --- @class InspectRecipeFrame_SchematicForm : Frame, ProfessionsRecipeSchematicFormTemplate
+--- @field layoutType string # "InsetFrameTemplate"
 --- @field NineSlice InspectRecipeFrame_SchematicForm_NineSlice
 --- @field Background Texture
 --- @field MinimalBackground Texture

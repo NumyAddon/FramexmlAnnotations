@@ -1,5 +1,29 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L254)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateEnableButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L265)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateExpandOrCollapseButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L225)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L232)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceLevel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L237)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L244)
+--- child of ScenarioSpecificChoiceTemplate (created in template LFGSpecificChoiceTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L4)
 --- Template
 --- @class ScenarioSpecificChoiceTemplate : Frame, LFGSpecificChoiceTemplate
@@ -17,6 +41,7 @@
 --- child of ScenarioFinderFrame
 --- @class ScenarioFinderFrame_ScenarioFinderFrameInset : Frame, InsetFrameTemplate
 ScenarioFinderFrameInset = {}
+ScenarioFinderFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L68)
 --- child of ScenarioQueueFrameTypeDropdown
@@ -31,13 +56,16 @@ ScenarioQueueFrameTypeDropdown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L85)
 --- child of ScenarioQueueFrameRandom
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameRandom_ScenarioQueueFrameRandomScrollFrame : ScrollFrame, UIPanelScrollFrameCodeTemplate
+--- @field scrollBarX number # 4
 ScenarioQueueFrameRandomScrollFrame = {}
+ScenarioQueueFrameRandomScrollFrame["scrollBarX"] = 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L83)
 --- child of ScenarioQueueFrame
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameRandom : Frame
 --- @field ScrollFrame ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameRandom_ScenarioQueueFrameRandomScrollFrame
 ScenarioQueueFrameRandom = {}
+ScenarioQueueFrameRandom["ScrollFrame"] = ScenarioQueueFrameRandomScrollFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L110)
 --- child of ScenarioQueueFrameSpecific
@@ -65,16 +93,136 @@ ScenarioQueueFrameSpecificScrollFrame = {}
 --- @field Button1 ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameSpecific_ScenarioQueueFrameSpecificButton1
 --- @field ScrollFrame ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameSpecific_ScenarioQueueFrameSpecificScrollFrame
 ScenarioQueueFrameSpecific = {}
+ScenarioQueueFrameSpecific["Button1"] = ScenarioQueueFrameSpecificButton1
+ScenarioQueueFrameSpecific["ScrollFrame"] = ScenarioQueueFrameSpecificScrollFrame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1096)
+--- child of ScenarioQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
+--- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateBackfillButton
+ScenarioQueueFramePartyBackfillBackfillButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1108)
+--- child of ScenarioQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
+--- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateNoBackfillButton
+ScenarioQueueFramePartyBackfillNoBackfillButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1082)
+--- child of ScenarioQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
+--- @type Texture
+ScenarioQueueFramePartyBackfillBlackFilter = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1087)
+--- child of ScenarioQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
+--- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateDescription
+ScenarioQueueFramePartyBackfillDescription = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L167)
 --- child of ScenarioQueueFrame
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFramePartyBackfill : Frame, LFGBackfillCoverTemplate
 ScenarioQueueFramePartyBackfill = {}
+ScenarioQueueFramePartyBackfill["Description"] = ScenarioQueueFramePartyBackfillDescription -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L960)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type Texture
+ScenarioQueueFrameCooldownFrameBlackFilter = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L965)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateDescription
+ScenarioQueueFrameCooldownFrameDescription = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L971)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateTime
+ScenarioQueueFrameCooldownFrameTime = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L976)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName1
+ScenarioQueueFrameCooldownFrameName1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L982)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus1
+ScenarioQueueFrameCooldownFrameStatus1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L988)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName2
+ScenarioQueueFrameCooldownFrameName2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L994)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus2
+ScenarioQueueFrameCooldownFrameStatus2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1000)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName3
+ScenarioQueueFrameCooldownFrameName3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1006)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus3
+ScenarioQueueFrameCooldownFrameStatus3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1012)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName4
+ScenarioQueueFrameCooldownFrameName4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1018)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus4
+ScenarioQueueFrameCooldownFrameStatus4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1024)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName5
+ScenarioQueueFrameCooldownFrameName5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1030)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus5
+ScenarioQueueFrameCooldownFrameStatus5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1036)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName6
+ScenarioQueueFrameCooldownFrameName6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1042)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus6
+ScenarioQueueFrameCooldownFrameStatus6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1048)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName7
+ScenarioQueueFrameCooldownFrameName7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1054)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus7
+ScenarioQueueFrameCooldownFrameStatus7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1060)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName8
+ScenarioQueueFrameCooldownFrameName8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L1066)
+--- child of ScenarioQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
+--- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus8
+ScenarioQueueFrameCooldownFrameStatus8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L184)
 --- child of ScenarioQueueFrame
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameCooldownFrame : Frame, LFGCooldownCoverTemplate
 ScenarioQueueFrameCooldownFrame = {}
+ScenarioQueueFrameCooldownFrame["description"] = ScenarioQueueFrameCooldownFrameDescription -- inherited
+ScenarioQueueFrameCooldownFrame["time"] = ScenarioQueueFrameCooldownFrameTime -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L207)
 --- child of ScenarioQueueFrame
@@ -95,6 +243,11 @@ ScenarioQueueFrameBackground = {}
 --- @field CooldownFrame ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameCooldownFrame
 --- @field Bg ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameBackground
 ScenarioQueueFrame = {}
+ScenarioQueueFrame["Dropdown"] = ScenarioQueueFrameTypeDropdown
+ScenarioQueueFrame["Random"] = ScenarioQueueFrameRandom
+ScenarioQueueFrame["Specific"] = ScenarioQueueFrameSpecific
+ScenarioQueueFrame["CooldownFrame"] = ScenarioQueueFrameCooldownFrame
+ScenarioQueueFrame["Bg"] = ScenarioQueueFrameBackground
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L13)
 --- @class ScenarioFinderFrame : Frame
@@ -102,4 +255,6 @@ ScenarioQueueFrame = {}
 --- @field Inset ScenarioFinderFrame_ScenarioFinderFrameInset
 --- @field Queue ScenarioFinderFrame_ScenarioQueueFrame
 ScenarioFinderFrame = {}
+ScenarioFinderFrame["Inset"] = ScenarioFinderFrameInset
+ScenarioFinderFrame["Queue"] = ScenarioQueueFrame
 

@@ -11,6 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L5)
 --- Template
 --- @class ProfessionsCrafterDetailsStatLineTemplate : Frame, ProfessionsCrafterDetailsStatLineMixin
+--- @field displayAsPct boolean # true
 --- @field LeftLabel ProfessionsCrafterDetailsStatLineTemplate_LeftLabel
 --- @field RightLabel ProfessionsCrafterDetailsStatLineTemplate_RightLabel
 
@@ -53,18 +54,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L151)
 --- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines_DifficultyStatLine : Frame, ProfessionsCrafterDetailsStatLineTemplate
+--- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L158)
 --- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines_SkillStatLine : Frame, ProfessionsCrafterDetailsStatLineTemplate
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L165)
 --- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines_ConcentrationStatLine : Frame, ProfessionsCrafterDetailsStatLineTemplate
+--- @field layoutIndex number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L142)
 --- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines : Frame, VerticalLayoutFrame
+--- @field layoutIndex number # 3
 --- @field DifficultyStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_DifficultyStatLine
 --- @field SkillStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_SkillStatLine
 --- @field ConcentrationStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_ConcentrationStatLine
@@ -174,6 +179,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L175)
 --- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter : Frame, ProfessionsQualityMeterMixin
+--- @field layoutIndex number # 4
 --- @field Center ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center
 --- @field DividerGlow ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_DividerGlow
 --- @field Border ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Border
@@ -183,6 +189,11 @@
 --- @field Left ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Left
 --- @field Right ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Right
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L384)
+--- child of ProfessionsRecipeCrafterDetailsTemplate
+--- @class ProfessionsRecipeCrafterDetailsTemplate_Spacer : Frame
+--- @field layoutIndex number # 4
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L408)
 --- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer_Label : FontString, GameFontNormalSmall
@@ -190,33 +201,63 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L400)
 --- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer : Frame
+--- @field layoutIndex number # 1
 --- @field Label ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L418)
 --- child of 
 --- @class ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_ConcentrateContainer : Frame, ProfessionsConcentrateContainerTemplate
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L392)
 --- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer : Frame, HorizontalLayoutFrame
+--- @field layoutIndex number # 5
 --- @field FinishingReagentSlotContainer ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer
 --- @field ConcentrateContainer ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_ConcentrateContainer
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L86)
+--- child of ProfessionsRecipeCrafterDetailsTemplate
+--- @class ProfessionsRecipeCrafterDetailsTemplate_BackgroundTop : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L95)
+--- child of ProfessionsRecipeCrafterDetailsTemplate
+--- @class ProfessionsRecipeCrafterDetailsTemplate_BackgroundBottom : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L104)
+--- child of ProfessionsRecipeCrafterDetailsTemplate
+--- @class ProfessionsRecipeCrafterDetailsTemplate_BackgroundMiddle : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L115)
+--- child of ProfessionsRecipeCrafterDetailsTemplate
+--- @class ProfessionsRecipeCrafterDetailsTemplate_BackgroundMinimized : Texture
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L125)
 --- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_Label : FontString, GameFontHighlight
+--- @field layoutIndex number # 1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L133)
+--- child of ProfessionsRecipeCrafterDetailsTemplate
+--- @class ProfessionsRecipeCrafterDetailsTemplate_Line : Texture
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L78)
 --- Template
 --- @class ProfessionsRecipeCrafterDetailsTemplate : Frame, VerticalLayoutFrame, ProfessionsRecipeCrafterDetailsMixin
+--- @field fixedWidth number # 263
 --- @field StatLines ProfessionsRecipeCrafterDetailsTemplate_StatLines
 --- @field QualityMeter ProfessionsRecipeCrafterDetailsTemplate_QualityMeter
---- @field Spacer Frame
+--- @field Spacer ProfessionsRecipeCrafterDetailsTemplate_Spacer
 --- @field CraftingChoicesContainer ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer
---- @field BackgroundTop Texture
---- @field BackgroundBottom Texture
---- @field BackgroundMiddle Texture
---- @field BackgroundMinimized Texture
+--- @field BackgroundTop ProfessionsRecipeCrafterDetailsTemplate_BackgroundTop
+--- @field BackgroundBottom ProfessionsRecipeCrafterDetailsTemplate_BackgroundBottom
+--- @field BackgroundMiddle ProfessionsRecipeCrafterDetailsTemplate_BackgroundMiddle
+--- @field BackgroundMinimized ProfessionsRecipeCrafterDetailsTemplate_BackgroundMinimized
 --- @field Label ProfessionsRecipeCrafterDetailsTemplate_Label
---- @field Line Texture
+--- @field Line ProfessionsRecipeCrafterDetailsTemplate_Line
 

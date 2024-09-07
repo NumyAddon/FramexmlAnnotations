@@ -39,16 +39,24 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L129)
 --- child of 
 --- @class AlliedRacesFrame_RaceInfoFrame_ScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarX number # 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L177)
 --- child of 
 --- @class AlliedRacesFrame_RaceInfoFrame_AlliedRacesRaceName : FontString, Fancy32Font, AutoScalingFontStringMixin
+--- @field minLineHeight number # 16
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L123)
 --- child of AlliedRacesFrame
 --- @class AlliedRacesFrame_RaceInfoFrame : Frame
 --- @field ScrollFrame AlliedRacesFrame_RaceInfoFrame_ScrollFrame
 --- @field AlliedRacesRaceName AlliedRacesFrame_RaceInfoFrame_AlliedRacesRaceName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L1148)
+--- child of AlliedRacesFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+AlliedRacesFrameInset = {}
+AlliedRacesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L63)
 --- @class AlliedRacesFrame : Frame, ButtonFrameTemplate, AlliedRacesFrameMixin
@@ -57,4 +65,5 @@
 --- @field FrameBackground Texture
 --- @field Banner Texture
 AlliedRacesFrame = {}
+AlliedRacesFrame["Inset"] = AlliedRacesFrameInset -- inherited
 

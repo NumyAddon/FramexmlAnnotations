@@ -31,6 +31,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L80)
 --- child of ProfessionsSpecPageTemplate
 --- @class ProfessionsSpecPageTemplate_UndoButton : Button, IconButtonTemplate
+--- @field iconAtlas string # "talents-button-undo"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L104)
 --- child of 
@@ -62,6 +63,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L126)
 --- child of 
 --- @class ProfessionsSpecPageTemplate_DetailedView_Path : Button, ProfessionsSpecPathTemplate, ProfessionsDetailedSpecPathMixin
+--- @field iconSize number # 63
 --- @field DialBG Texture
 --- @field CenterInner Texture
 --- @field DividerGlow Texture
@@ -182,6 +184,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L5)
 --- Template
 --- @class ProfessionsSpecPageTemplate : Frame, TalentFrameBaseTemplate, ProfessionsSpecFrameMixin
+--- @field enableZoomAndPan boolean # false
 --- @field PanelFooter ProfessionsSpecPageTemplate_PanelFooter
 --- @field ApplyButton ProfessionsSpecPageTemplate_ApplyButton
 --- @field UnlockTabButton ProfessionsSpecPageTemplate_UnlockTabButton

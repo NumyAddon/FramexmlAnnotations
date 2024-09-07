@@ -11,10 +11,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L163)
 --- child of HeroTalentSpecButtonTemplate
 --- @class HeroTalentSpecButtonTemplate_SearchIcon : Frame, TalentButtonSearchIconTemplate
+--- @field mouseoverSize number # 25
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L64)
 --- child of 
 --- @class HeroTalentSpecButtonTemplate_HeroClassIconSheen_Anim : AnimationGroup, SyncedAnimGroupTemplate
+--- @field syncKey any # ClassTalentBorderSheenSyncKey
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L58)
 --- child of HeroTalentSpecButtonTemplate
@@ -24,6 +26,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L144)
 --- child of 
 --- @class HeroTalentSpecButtonTemplate_HeroClassRingBorderSheen_Anim : AnimationGroup, SyncedAnimGroupTemplate
+--- @field syncKey any # ClassTalentBorderSheenSyncKey
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L138)
 --- child of HeroTalentSpecButtonTemplate
@@ -81,6 +84,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L215)
 --- child of HeroTalentsContainerTemplate
 --- @class HeroTalentsContainerTemplate_CollapseButton : Button, HeroTalentCollapseButtonMixin
+--- @field expandedAtlas string # "talents-heroclass-ring-minimize-hide"
 --- @field Texture Texture
 --- @field TextureHover Texture
 
@@ -97,6 +101,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L268)
 --- child of 
 --- @class HeroTalentsContainerTemplate_ExpandedContainer_HeroClassBackplateFullSheen_Anim : AnimationGroup, SyncedAnimGroupTemplate
+--- @field syncKey any # ClassTalentBorderSheenSyncKey
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L262)
 --- child of 
@@ -114,14 +119,56 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L338)
 --- child of 
 --- @class HeroTalentsContainerTemplate_CollapsedContainer_NodesContainer : Frame, HeroTalentsTreeNodesContainerTemplate, VerticalLayoutFrame
+--- @field topPadding number # -4
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L304)
+--- child of 
+--- @class HeroTalentsContainerTemplate_CollapsedContainer_BackgroundTop : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L314)
+--- child of 
+--- @class HeroTalentsContainerTemplate_CollapsedContainer_BackgroundBottom : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L324)
+--- child of 
+--- @class HeroTalentsContainerTemplate_CollapsedContainer_BackgroundMiddle : Texture
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L295)
 --- child of HeroTalentsContainerTemplate
 --- @class HeroTalentsContainerTemplate_CollapsedContainer : Frame, HeroTalentsTreeContainerTemplate, ResizeLayoutFrame
+--- @field fixedWidth number # 128
 --- @field NodesContainer HeroTalentsContainerTemplate_CollapsedContainer_NodesContainer
---- @field BackgroundTop Texture
---- @field BackgroundBottom Texture
---- @field BackgroundMiddle Texture
+--- @field BackgroundTop HeroTalentsContainerTemplate_CollapsedContainer_BackgroundTop
+--- @field BackgroundBottom HeroTalentsContainerTemplate_CollapsedContainer_BackgroundBottom
+--- @field BackgroundMiddle HeroTalentsContainerTemplate_CollapsedContainer_BackgroundMiddle
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L397)
+--- child of HeroTalentsUnlockedAnimFrame
+--- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune : Texture
+--- @field replaceWithClassVisual boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L405)
+--- child of HeroTalentsUnlockedAnimFrame
+--- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped : Texture
+--- @field replaceWithClassVisual boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L414)
+--- child of HeroTalentsUnlockedAnimFrame
+--- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune2 : Texture
+--- @field replaceWithClassVisual boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L422)
+--- child of HeroTalentsUnlockedAnimFrame
+--- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped2 : Texture
+--- @field replaceWithClassVisual boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L441)
+--- child of HeroTalentsUnlockedAnimFrame
+--- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneStatic : Texture
+--- @field replaceWithClassVisual boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L543)
 --- child of HeroTalentsUnlockedAnimFrame
@@ -137,13 +184,13 @@
 --- @field HeroClassAnimBackgroundRunes Texture
 --- @field HeroClassAnimBackgroundRunes2 Texture
 --- @field PadlockAnim Texture
---- @field Rune Texture
---- @field RuneFlipped Texture
---- @field Rune2 Texture
---- @field RuneFlipped2 Texture
+--- @field Rune HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune
+--- @field RuneFlipped HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped
+--- @field Rune2 HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune2
+--- @field RuneFlipped2 HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped2
 --- @field RingLargeFlip Texture
 --- @field RingLargeFlip2 Texture
---- @field RuneStatic Texture
+--- @field RuneStatic HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneStatic
 --- @field Sunburst Texture
 --- @field RingLarge Texture
 --- @field RingSmall Texture
@@ -185,6 +232,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L181)
 --- Template
 --- @class HeroTalentsContainerTemplate : Frame, HeroTalentsContainerMixin
+--- @field helpTipOffsetX number # -10
 --- @field HeroSpecButton HeroTalentsContainerTemplate_HeroSpecButton
 --- @field CurrencyFrame HeroTalentsContainerTemplate_CurrencyFrame
 --- @field CollapseButton HeroTalentsContainerTemplate_CollapseButton

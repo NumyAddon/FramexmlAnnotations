@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBrowseResultsFrame.xml#L7)
 --- child of AuctionHouseBrowseResultsFrameTemplate
 --- @class AuctionHouseBrowseResultsFrameTemplate_ItemList : Frame, AuctionHouseItemListTemplate
+--- @field hideStripes boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBrowseResultsFrame.xml#L5)
 --- Template

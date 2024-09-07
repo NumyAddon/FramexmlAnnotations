@@ -21,6 +21,26 @@
 --- child of HybridScrollBarTemplate
 --- @class HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton : Button, UIPanelScrollDownButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L15)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L20)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L27)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L34)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L43)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L49)
 --- Template
 --- @class HybridScrollBarTemplate : Slider, HybridScrollBarBackgroundTemplate
@@ -72,6 +92,14 @@
 --- Template
 --- @class HybridScrollFrameTemplate : ScrollFrame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L51)
+--- child of BasicHybridScrollFrameTemplateScrollBar (created in template HybridScrollBarTemplate)
+--- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L60)
+--- child of BasicHybridScrollFrameTemplateScrollBar (created in template HybridScrollBarTemplate)
+--- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L198)
 --- child of BasicHybridScrollFrameTemplate
 --- @class BasicHybridScrollFrameTemplate_BasicHybridScrollFrameTemplateScrollBar : Slider, HybridScrollBarTemplate
@@ -80,6 +108,22 @@
 --- Template
 --- @class BasicHybridScrollFrameTemplate : ScrollFrame, HybridScrollFrameTemplate
 --- @field ScrollBar BasicHybridScrollFrameTemplate_BasicHybridScrollFrameTemplateScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L150)
+--- child of MinimalHybridScrollFrameTemplateScrollBar (created in template MinimalHybridScrollBarTemplate)
+--- @type MinimalHybridScrollBarTemplate_MinimalHybridScrollBarTemplateScrollUpButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L159)
+--- child of MinimalHybridScrollFrameTemplateScrollBar (created in template MinimalHybridScrollBarTemplate)
+--- @type MinimalHybridScrollBarTemplate_MinimalHybridScrollBarTemplateScrollDownButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L140)
+--- child of MinimalHybridScrollFrameTemplateScrollBar (created in template MinimalHybridScrollBarTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L172)
+--- child of MinimalHybridScrollFrameTemplateScrollBar (created in template MinimalHybridScrollBarTemplate)
+--- @type MinimalHybridScrollBarTemplate_MinimalHybridScrollBarTemplateThumbTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L210)
 --- child of MinimalHybridScrollFrameTemplate

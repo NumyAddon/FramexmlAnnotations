@@ -39,6 +39,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L112)
 --- Template
 --- @class ContributionStatusTemplate : StatusBar, ContributionStatusMixin
+--- @field updateDelay number # 1
 --- @field BG Texture
 --- @field Spark Texture
 --- @field Border Texture
@@ -80,9 +81,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L237)
 --- @class ContributionCollectionFrame : Frame, HorizontalLayoutFrame, ContributionCollectionMixin
+--- @field fixedWidth number # 869
 --- @field CloseButton ContributionCollectionFrame_CloseButton
 --- @field Background Texture
 ContributionCollectionFrame = {}
+ContributionCollectionFrame["fixedWidth"] = 869
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L297)
 --- child of ContributionBuffTooltip
@@ -104,4 +107,5 @@ ContributionCollectionFrame = {}
 --- @field Description ContributionBuffTooltip_Description
 --- @field Footer ContributionBuffTooltip_Footer
 ContributionBuffTooltip = {}
+ContributionBuffTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 

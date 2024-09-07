@@ -45,6 +45,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoinToast.xml#L31)
 --- @class QuickJoinToastButton : ContainedAlertFrame, QuickKeybindButtonTemplate, QuickJoinToastMixin
+--- @field commandName string # "TOGGLESOCIAL"
 --- @field Toast QuickJoinToastButton_Toast
 --- @field Toast2 QuickJoinToastButton_Toast2
 --- @field FriendsButton Texture
@@ -57,4 +58,5 @@
 --- @field ToastToToastAnim QuickJoinToastButton_ToastToToastAnim
 --- @field ToastToFriendAnim QuickJoinToastButton_ToastToFriendAnim
 QuickJoinToastButton = {}
+QuickJoinToastButton["commandName"] = "TOGGLESOCIAL"
 

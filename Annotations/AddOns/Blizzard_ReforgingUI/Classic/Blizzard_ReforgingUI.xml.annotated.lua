@@ -1,5 +1,17 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L83)
+--- child of ReforgingStatTemplate
+--- @class ReforgingStatTemplate_button : Frame
+--- @field normalTex Texture
+--- @field checkedTex Texture
+--- @field disableTex Texture
+--- @field highlightTex Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L64)
+--- child of ReforgingStatTemplate
+--- @class ReforgingStatTemplate_ReforgingStatTemplateText : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L60)
 --- Template
 --- @class ReforgingStatTemplate : CheckButton

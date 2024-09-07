@@ -12,6 +12,18 @@
 --- Template
 --- @class SpellBookFrameTabButtonTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L150)
+--- child of SpellButtonTemplate
+--- @class SpellButtonTemplate_SpellButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L108)
+--- child of SpellButtonTemplate
+--- @class SpellButtonTemplate_SpellButtonTemplateSpellName : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L121)
+--- child of SpellButtonTemplate
+--- @class SpellButtonTemplate_SpellButtonTemplateSubSpellName : FontString, SubSpellFont
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L87)
 --- Template
 --- @class SpellButtonTemplate : CheckButton, SecureFrameTemplate

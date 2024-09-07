@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L65)
+--- child of GlyphSpellButtonTemplate
+--- @class GlyphSpellButtonTemplate_GlyphSpellButtonTemplateName : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L72)
+--- child of GlyphSpellButtonTemplate
+--- @class GlyphSpellButtonTemplate_GlyphSpellButtonTemplateTypeName : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L55)
 --- Template
 --- @class GlyphSpellButtonTemplate : Button
@@ -8,6 +16,18 @@
 --- @field typeName GlyphSpellButtonTemplate_GlyphSpellButtonTemplateTypeName
 --- @field selectedTex Texture
 --- @field disabledBG Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L144)
+--- child of GlyphHeaderButtonTemplate
+--- @class GlyphHeaderButtonTemplate_GlyphHeaderButtonTemplateExpandedIcon : Texture, Char-Stat-Minus
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L149)
+--- child of GlyphHeaderButtonTemplate
+--- @class GlyphHeaderButtonTemplate_GlyphHeaderButtonTemplateCollapsedIcon : Texture, Char-Stat-Plus
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L161)
+--- child of GlyphHeaderButtonTemplate
+--- @class GlyphHeaderButtonTemplate_GlyphHeaderButtonTemplateName : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L114)
 --- Template
@@ -20,6 +40,10 @@
 --- @field icon Texture
 --- @field name GlyphHeaderButtonTemplate_GlyphHeaderButtonTemplateName
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L185)
+--- child of GlyphTemplate
+--- @class GlyphTemplate_glow : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L183)
 --- Template
 --- @class GlyphTemplate : Button
@@ -27,6 +51,11 @@
 --- @field highlight Texture
 --- @field ring Texture
 --- @field glow GlyphTemplate_glow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L251)
+--- child of GlyphSparkleTexture
+--- @class GlyphSparkleTexture_GlyphSparkleTextureAnimGroup : AnimationGroup
+--- @field translate Translation
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L245)
 --- Template

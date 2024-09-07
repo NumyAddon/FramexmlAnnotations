@@ -8,6 +8,18 @@
 --- Template
 --- @class RealmSortButtonTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/RealmList.xml#L183)
+--- child of RealmListRealmButtonTemplate
+--- @class RealmListRealmButtonTemplate_RealmListRealmButtonTemplatePVP : FontString, GlueFontRedSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/RealmList.xml#L191)
+--- child of RealmListRealmButtonTemplate
+--- @class RealmListRealmButtonTemplate_RealmListRealmButtonTemplatePlayers : FontString, GlueFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/RealmList.xml#L203)
+--- child of RealmListRealmButtonTemplate
+--- @class RealmListRealmButtonTemplate_RealmListRealmButtonTemplateLoad : FontString, GlueFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/RealmList.xml#L177)
 --- Template
 --- @class RealmListRealmButtonTemplate : Button

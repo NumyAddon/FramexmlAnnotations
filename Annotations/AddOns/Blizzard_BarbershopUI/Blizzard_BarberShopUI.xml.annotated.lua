@@ -8,6 +8,20 @@
 --- Template
 --- @class CharacterCreateGenderButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L92)
+--- child of BarberShopSelectorTemplate
+--- Template
+--- @class BarberShopSelectorTemplate_Prev : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L115)
+--- child of BarberShopSelectorTemplate
+--- Template
+--- @class BarberShopSelectorTemplate_Next : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L86)
+--- child of BarberShopSelectorTemplate
+--- @class BarberShopSelectorTemplate_Category : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L82)
 --- Template
 --- @class BarberShopSelectorTemplate : Frame

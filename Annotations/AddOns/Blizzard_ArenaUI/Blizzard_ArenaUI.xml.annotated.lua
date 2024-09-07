@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L19)
+--- child of ArenaCastingBarFrameTemplate
+--- @class ArenaCastingBarFrameTemplate_Text : FontString, GameFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L4)
 --- Template
 --- @class ArenaCastingBarFrameTemplate : StatusBar
@@ -9,15 +13,115 @@
 --- @field Spark Texture
 --- @field Flash Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L91)
+--- child of 
+--- @class Name : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L81)
+--- child of 
+--- @class  : Frame
+--- @field name Name
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L79)
+--- child of ArenaEnemyPetFrameTemplate
+--- @class  : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L101)
+--- child of ArenaEnemyPetFrameTemplate
+--- @class ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateHealthBar : StatusBar, TextStatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L116)
+--- child of ArenaEnemyPetFrameTemplate
+--- @class ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateManaBar : StatusBar, TextStatusBar
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L57)
 --- Template
 --- @class ArenaEnemyPetFrameTemplate : Button, SecureUnitButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L169)
+--- child of 
+--- @class Name : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L174)
+--- child of 
+--- @class HealthBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L179)
+--- child of 
+--- @class HealthBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L184)
+--- child of 
+--- @class HealthBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L189)
+--- child of 
+--- @class ManaBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L194)
+--- child of 
+--- @class ManaBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L199)
+--- child of 
+--- @class ManaBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L159)
+--- child of 
+--- @class  : Frame
+--- @field name Name
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L157)
+--- child of ArenaPrepFrameTemplate
+--- @class  : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
+--- child of ArenaPrepFrameTemplate
+--- @class ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar : StatusBar, TextStatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
+--- child of ArenaPrepFrameTemplate
+--- @class ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar : StatusBar, TextStatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
+--- child of ArenaPrepFrameTemplate
+--- @class ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar : StatusBar, ArenaCastingBarFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L137)
 --- Template
 --- @class ArenaPrepFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field CastingBar ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 --- @field classPortrait Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L308)
+--- child of 
+--- @class MyHealPredictionBar : Texture, MyHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L309)
+--- child of 
+--- @class OtherHealPredictionBar : Texture, OtherHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L305)
+--- child of 
+--- @class  : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L303)
+--- child of ArenaEnemyFrameTemplate
+--- @class  : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L315)
+--- child of ArenaEnemyFrameTemplate
+--- @class ArenaEnemyFrameTemplate_ArenaEnemyFrameTemplatePetFrame : Button, ArenaEnemyPetFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L327)
+--- child of 
+--- @class ArenaEnemyFrameTemplate_CC_Cooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L316)
+--- child of ArenaEnemyFrameTemplate
+--- @class ArenaEnemyFrameTemplate_CC : Frame
+--- @field Cooldown ArenaEnemyFrameTemplate_CC_Cooldown
+--- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
 --- Template

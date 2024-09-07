@@ -24,6 +24,18 @@
 --- child of ChannelFrame
 --- @class ChannelFrame_RightInset : Frame, InsetFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L92)
+--- child of 
+--- @class ChannelFrame_Tutorial_CloseButton : Button, UIPanelCloseButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L102)
+--- child of 
+--- @class ChannelFrame_Tutorial_Arrow : Frame, GlowBoxArrowTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L83)
+--- child of 
+--- @class ChannelFrame_Tutorial_Text : FontString, GameFontHighlightLeft
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L79)
 --- child of ChannelFrame
 --- @class ChannelFrame_Tutorial : Frame, GlowBoxTemplate

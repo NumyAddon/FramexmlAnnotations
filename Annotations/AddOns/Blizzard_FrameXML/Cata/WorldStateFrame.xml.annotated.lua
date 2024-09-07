@@ -1,8 +1,82 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L9)
+--- child of WorldStateScoreColumnTemplate
+--- @class WorldStateScoreColumnTemplate_WorldStateScoreColumnTemplateText : FontString, GameFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L3)
 --- Template
 --- @class WorldStateScoreColumnTemplate : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L244)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateClassButton : Frame
+--- @field icon Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L285)
+--- child of WorldStateScoreTemplateName
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateName_WorldStateScoreTemplateNameText : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L272)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateName : Button
+--- @field text WorldStateScoreTemplate_WorldStateScoreTemplateName_WorldStateScoreTemplateNameText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L56)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateTeam : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L68)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateHonorableKills : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L77)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateKillingBlows : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L86)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateDeaths : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L95)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateHonorGained : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L104)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateDamageDone : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L113)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateHealingDone : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L122)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn1Text : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L139)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn2Text : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L156)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn3Text : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L173)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn4Text : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L190)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn5Text : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L207)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn6Text : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L224)
+--- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn7Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L33)
 --- Template

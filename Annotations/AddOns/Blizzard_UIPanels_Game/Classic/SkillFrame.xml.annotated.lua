@@ -1,5 +1,17 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
+--- child of SkillStatusBarTemplate
+--- @class SkillStatusBarTemplate_SkillStatusBarTemplateBorder : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
+--- child of SkillStatusBarTemplate
+--- @class SkillStatusBarTemplate_SkillStatusBarTemplateSkillName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
+--- child of SkillStatusBarTemplate
+--- @class SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank : FontString, GameFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L3)
 --- Template
 --- @class SkillStatusBarTemplate : StatusBar

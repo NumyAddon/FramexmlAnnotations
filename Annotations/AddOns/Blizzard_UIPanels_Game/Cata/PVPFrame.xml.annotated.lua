@@ -1,5 +1,17 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L9)
+--- child of PVPRoleButtonTemplate
+--- @class PVPRoleButtonTemplate_checkButton : CheckButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L24)
+--- child of PVPRoleButtonTemplate
+--- @class PVPRoleButtonTemplate_lockedIndicator : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L40)
+--- child of PVPRoleButtonTemplate
+--- @class PVPRoleButtonTemplate_alert : Frame
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L6)
 --- Template
 --- @class PVPRoleButtonTemplate : Button

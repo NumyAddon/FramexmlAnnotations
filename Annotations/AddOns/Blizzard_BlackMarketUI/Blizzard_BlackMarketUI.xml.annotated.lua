@@ -93,10 +93,6 @@
 --- Template
 --- @class !WoodFrameTile-Right : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L262)
---- child of WoodFrameTemplate
---- @class WoodFrameTemplate_WoodFrameTemplateBg : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L268)
 --- child of WoodFrameTemplate
 --- @class WoodFrameTemplate_WoodFrameTemplateTitleBg : Texture, _WoodFrameTile-Top

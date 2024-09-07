@@ -1,21 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L63)
---- child of ShardTemplate
---- @class ShardTemplate_ShardTemplateGlow : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L70)
---- child of ShardTemplate
---- @class ShardTemplate_ShardTemplateSmokeA : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L77)
---- child of ShardTemplate
---- @class ShardTemplate_ShardTemplateSmokeB : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L86)
---- child of ShardTemplate
---- @class ShardTemplate_ShardTemplateFill : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L31)
 --- child of ShardTemplate
 --- @class ShardTemplate_animIn : AnimationGroup
@@ -27,10 +11,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L29)
 --- Template
 --- @class ShardTemplate : Frame
---- @field shardGlow ShardTemplate_ShardTemplateGlow
---- @field shardSmokeA ShardTemplate_ShardTemplateSmokeA
---- @field shardSmokeB ShardTemplate_ShardTemplateSmokeB
---- @field shardFill ShardTemplate_ShardTemplateFill
+--- @field shardGlow Texture
+--- @field shardSmokeA Texture
+--- @field shardSmokeB Texture
+--- @field shardFill Texture
 --- @field animIn ShardTemplate_animIn
 --- @field animOut ShardTemplate_animOut
 

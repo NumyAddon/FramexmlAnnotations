@@ -1,58 +1,18 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L6)
---- child of UpgradeFrameBorderedTemplate
---- @class UpgradeFrameBorderedTemplate_UpgradeFrameBorderedTemplateBorderTopLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L13)
---- child of UpgradeFrameBorderedTemplate
---- @class UpgradeFrameBorderedTemplate_UpgradeFrameBorderedTemplateBorderTopRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L20)
---- child of UpgradeFrameBorderedTemplate
---- @class UpgradeFrameBorderedTemplate_UpgradeFrameBorderedTemplateBorderBottomLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L27)
---- child of UpgradeFrameBorderedTemplate
---- @class UpgradeFrameBorderedTemplate_UpgradeFrameBorderedTemplateBorderBottomRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L34)
---- child of UpgradeFrameBorderedTemplate
---- @class UpgradeFrameBorderedTemplate_UpgradeFrameBorderedTemplateBorderBottom : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L41)
---- child of UpgradeFrameBorderedTemplate
---- @class UpgradeFrameBorderedTemplate_UpgradeFrameBorderedTemplateBorderTop : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L49)
---- child of UpgradeFrameBorderedTemplate
---- @class UpgradeFrameBorderedTemplate_UpgradeFrameBorderedTemplateBorderLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L56)
---- child of UpgradeFrameBorderedTemplate
---- @class UpgradeFrameBorderedTemplate_UpgradeFrameBorderedTemplateBorderRight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L3)
 --- Template
 --- @class UpgradeFrameBorderedTemplate : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L71)
---- child of UpgradeFrameFeatureTemplate
---- @class UpgradeFrameFeatureTemplate_UpgradeFrameFeatureTemplateIconFrame : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L80)
 --- child of UpgradeFrameFeatureTemplate
 --- @class UpgradeFrameFeatureTemplate_UpgradeFrameFeatureTemplateText : FontString, GlueFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L86)
---- child of UpgradeFrameFeatureTemplate
---- @class UpgradeFrameFeatureTemplate_UpgradeFrameFeatureTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L67)
 --- Template
 --- @class UpgradeFrameFeatureTemplate : Frame
 --- @field text UpgradeFrameFeatureTemplate_UpgradeFrameFeatureTemplateText
---- @field icon UpgradeFrameFeatureTemplate_UpgradeFrameFeatureTemplateIcon
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L162)
 --- child of 

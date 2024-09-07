@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
---- child of MerchantItemTemplate
---- @class MerchantItemTemplate_MerchantItemTemplateItemButton : ItemButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L62)
 --- child of MerchantItemTemplate
 --- @class MerchantItemTemplate_MerchantItemTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate
@@ -12,14 +8,6 @@
 --- child of MerchantItemTemplate
 --- @class MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame : Frame, SmallAlternateCurrencyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L7)
---- child of MerchantItemTemplate
---- @class MerchantItemTemplate_MerchantItemTemplateSlotTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L13)
---- child of MerchantItemTemplate
---- @class MerchantItemTemplate_MerchantItemTemplateNameFrame : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L19)
 --- child of MerchantItemTemplate
 --- @class MerchantItemTemplate_MerchantItemTemplateName : FontString, GameFontNormalSmall
@@ -27,8 +15,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L3)
 --- Template
 --- @class MerchantItemTemplate : Frame
---- @field ItemButton MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field SlotTexture MerchantItemTemplate_MerchantItemTemplateSlotTexture
+--- @field ItemButton ItemButton
+--- @field SlotTexture Texture
 --- @field Name MerchantItemTemplate_MerchantItemTemplateName
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L117)

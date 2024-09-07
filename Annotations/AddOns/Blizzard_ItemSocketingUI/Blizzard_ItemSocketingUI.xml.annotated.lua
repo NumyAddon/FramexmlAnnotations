@@ -4,14 +4,6 @@
 --- child of ItemSocketingSocketButtonTemplate
 --- @class ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateShine : Frame, AnimatedShineTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L49)
---- child of ItemSocketingSocketButtonTemplateBracketFrame
---- @class ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame_ItemSocketingSocketButtonTemplateBracketFrameClosedBracket : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L55)
---- child of ItemSocketingSocketButtonTemplateBracketFrame
---- @class ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame_ItemSocketingSocketButtonTemplateBracketFrameOpenBracket : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L63)
 --- child of ItemSocketingSocketButtonTemplateBracketFrame
 --- @class ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame_ColorText : FontString, TextStatusBarText
@@ -19,28 +11,16 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L46)
 --- child of ItemSocketingSocketButtonTemplate
 --- @class ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame : Frame
---- @field ClosedBracket ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame_ItemSocketingSocketButtonTemplateBracketFrameClosedBracket
---- @field OpenBracket ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame_ItemSocketingSocketButtonTemplateBracketFrameOpenBracket
+--- @field ClosedBracket Texture
+--- @field OpenBracket Texture
 --- @field ColorText ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame_ColorText
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L8)
---- child of ItemSocketingSocketButtonTemplate
---- @class ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L24)
---- child of ItemSocketingSocketButtonTemplate
---- @class ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBackground : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L32)
---- child of ItemSocketingSocketButtonTemplate
---- @class ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateIconTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L4)
 --- Template
 --- @class ItemSocketingSocketButtonTemplate : Button
 --- @field BracketFrame ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame
---- @field Background ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBackground
---- @field icon ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateIconTexture
+--- @field Background Texture
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L118)
 --- Template

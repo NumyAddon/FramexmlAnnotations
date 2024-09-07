@@ -4,10 +4,6 @@
 --- child of CompactAuraTemplate
 --- @class CompactAuraTemplate_CompactAuraTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L7)
---- child of CompactAuraTemplate
---- @class CompactAuraTemplate_CompactAuraTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L10)
 --- child of CompactAuraTemplate
 --- @class CompactAuraTemplate_CompactAuraTemplateCount : FontString, NumberFontNormalSmall
@@ -16,56 +12,40 @@
 --- Template
 --- @class CompactAuraTemplate : Button
 --- @field cooldown CompactAuraTemplate_CompactAuraTemplateCooldown
---- @field icon CompactAuraTemplate_CompactAuraTemplateIcon
+--- @field icon Texture
 --- @field count CompactAuraTemplate_CompactAuraTemplateCount
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L31)
---- child of CompactDebuffTemplate
---- @class CompactDebuffTemplate_CompactDebuffTemplateBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L28)
 --- Template
 --- @class CompactDebuffTemplate : Button, CompactAuraTemplate, CompactDebuffMixin
---- @field border CompactDebuffTemplate_CompactDebuffTemplateBorder
+--- @field border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L49)
 --- Template
 --- @class CompactBuffTemplate : Button, CompactAuraTemplate, CompactBuffMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L58)
---- child of CompactDispelDebuffTemplate
---- @class CompactDispelDebuffTemplate_CompactDispelDebuffTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L55)
 --- Template
 --- @class CompactDispelDebuffTemplate : Button, CompactDispelDebuffMixin
---- @field icon CompactDispelDebuffTemplate_CompactDispelDebuffTemplateIcon
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L69)
 --- Template
 --- @class CompactUnitPrivateAuraAnchorTemplate : Frame, CompactUnitPrivateAuraAnchorMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L116)
---- child of CompactUnitFrameTemplateHealthBar
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar_CompactUnitFrameTemplateHealthBarBackground : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L113)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar : StatusBar
---- @field background CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar_CompactUnitFrameTemplateHealthBarBackground
+--- @field background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L120)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateTempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L130)
---- child of CompactUnitFrameTemplatePowerBar
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar_CompactUnitFrameTemplatePowerBarBackground : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L127)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar : StatusBar
---- @field background CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar_CompactUnitFrameTemplatePowerBarBackground
+--- @field background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L134)
 --- child of CompactUnitFrameTemplate
@@ -137,46 +117,6 @@
 --- @field texture Texture
 --- @field border Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L73)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateBackground : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L76)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateMyHealPrediction : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L77)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateOtherHealPrediction : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L78)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateTotalAbsorb : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L81)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateTotalAbsorbOverlay : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L84)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateHorizDivider : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L85)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateHorizTopBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L86)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateHorizBottomBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L87)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateVertLeftBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L88)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateVertRightBorder : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L91)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateName : FontString, GameFontHighlightSmall
@@ -184,42 +124,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L92)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateStatusText : FontString, GameFontDisable
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L93)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateRoleIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L94)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateAggroHighlight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L97)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateMyHealAbsorb : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L98)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateMyHealAbsorbLeftShadow : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L99)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateMyHealAbsorbRightShadow : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L104)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateOverAbsorbGlow : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L105)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateOverHealAbsorbGlow : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L108)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateSelectionHighlight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L109)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateReadyCheckIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L70)
 --- Template
@@ -233,25 +137,25 @@
 --- @field PrivateAuraAnchor1 CompactUnitFrameTemplate_PrivateAuraAnchor1
 --- @field PrivateAuraAnchor2 CompactUnitFrameTemplate_PrivateAuraAnchor2
 --- @field centerStatusIcon CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon
---- @field background CompactUnitFrameTemplate_CompactUnitFrameTemplateBackground
---- @field myHealPrediction CompactUnitFrameTemplate_CompactUnitFrameTemplateMyHealPrediction
---- @field otherHealPrediction CompactUnitFrameTemplate_CompactUnitFrameTemplateOtherHealPrediction
---- @field totalAbsorb CompactUnitFrameTemplate_CompactUnitFrameTemplateTotalAbsorb
---- @field totalAbsorbOverlay CompactUnitFrameTemplate_CompactUnitFrameTemplateTotalAbsorbOverlay
---- @field horizDivider CompactUnitFrameTemplate_CompactUnitFrameTemplateHorizDivider
---- @field horizTopBorder CompactUnitFrameTemplate_CompactUnitFrameTemplateHorizTopBorder
---- @field horizBottomBorder CompactUnitFrameTemplate_CompactUnitFrameTemplateHorizBottomBorder
---- @field vertLeftBorder CompactUnitFrameTemplate_CompactUnitFrameTemplateVertLeftBorder
---- @field vertRightBorder CompactUnitFrameTemplate_CompactUnitFrameTemplateVertRightBorder
+--- @field background Texture
+--- @field myHealPrediction Texture
+--- @field otherHealPrediction Texture
+--- @field totalAbsorb Texture
+--- @field totalAbsorbOverlay Texture
+--- @field horizDivider Texture
+--- @field horizTopBorder Texture
+--- @field horizBottomBorder Texture
+--- @field vertLeftBorder Texture
+--- @field vertRightBorder Texture
 --- @field name CompactUnitFrameTemplate_CompactUnitFrameTemplateName
 --- @field statusText CompactUnitFrameTemplate_CompactUnitFrameTemplateStatusText
---- @field roleIcon CompactUnitFrameTemplate_CompactUnitFrameTemplateRoleIcon
---- @field aggroHighlight CompactUnitFrameTemplate_CompactUnitFrameTemplateAggroHighlight
---- @field myHealAbsorb CompactUnitFrameTemplate_CompactUnitFrameTemplateMyHealAbsorb
---- @field myHealAbsorbLeftShadow CompactUnitFrameTemplate_CompactUnitFrameTemplateMyHealAbsorbLeftShadow
---- @field myHealAbsorbRightShadow CompactUnitFrameTemplate_CompactUnitFrameTemplateMyHealAbsorbRightShadow
---- @field overAbsorbGlow CompactUnitFrameTemplate_CompactUnitFrameTemplateOverAbsorbGlow
---- @field overHealAbsorbGlow CompactUnitFrameTemplate_CompactUnitFrameTemplateOverHealAbsorbGlow
---- @field selectionHighlight CompactUnitFrameTemplate_CompactUnitFrameTemplateSelectionHighlight
---- @field readyCheckIcon CompactUnitFrameTemplate_CompactUnitFrameTemplateReadyCheckIcon
+--- @field roleIcon Texture
+--- @field aggroHighlight Texture
+--- @field myHealAbsorb Texture
+--- @field myHealAbsorbLeftShadow Texture
+--- @field myHealAbsorbRightShadow Texture
+--- @field overAbsorbGlow Texture
+--- @field overHealAbsorbGlow Texture
+--- @field selectionHighlight Texture
+--- @field readyCheckIcon Texture
 

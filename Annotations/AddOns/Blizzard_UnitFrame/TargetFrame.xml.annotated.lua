@@ -8,14 +8,6 @@
 --- child of TargetofTargetDebuffFrameTemplate
 --- @class TargetofTargetDebuffFrameTemplate_TargetofTargetDebuffFrameTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L14)
---- child of TargetofTargetDebuffFrameTemplate
---- @class TargetofTargetDebuffFrameTemplate_TargetofTargetDebuffFrameTemplateIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L17)
---- child of TargetofTargetDebuffFrameTemplate
---- @class TargetofTargetDebuffFrameTemplate_TargetofTargetDebuffFrameTemplateBorder : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L10)
 --- Template
 --- @class TargetofTargetDebuffFrameTemplate : Frame
@@ -25,49 +17,33 @@
 --- child of TargetDebuffFrameTemplate
 --- @class TargetDebuffFrameTemplate_TargetDebuffFrameTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L57)
---- child of TargetDebuffFrameTemplate
---- @class TargetDebuffFrameTemplate_TargetDebuffFrameTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L60)
 --- child of TargetDebuffFrameTemplate
 --- @class TargetDebuffFrameTemplate_TargetDebuffFrameTemplateCount : FontString, NumberFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L67)
---- child of TargetDebuffFrameTemplate
---- @class TargetDebuffFrameTemplate_TargetDebuffFrameTemplateBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L53)
 --- Template
 --- @class TargetDebuffFrameTemplate : Frame
 --- @field Cooldown TargetDebuffFrameTemplate_TargetDebuffFrameTemplateCooldown
---- @field Icon TargetDebuffFrameTemplate_TargetDebuffFrameTemplateIcon
+--- @field Icon Texture
 --- @field Count TargetDebuffFrameTemplate_TargetDebuffFrameTemplateCount
---- @field Border TargetDebuffFrameTemplate_TargetDebuffFrameTemplateBorder
+--- @field Border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L122)
 --- child of TargetBuffFrameTemplate
 --- @class TargetBuffFrameTemplate_TargetBuffFrameTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L103)
---- child of TargetBuffFrameTemplate
---- @class TargetBuffFrameTemplate_TargetBuffFrameTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L106)
 --- child of TargetBuffFrameTemplate
 --- @class TargetBuffFrameTemplate_TargetBuffFrameTemplateCount : FontString, NumberFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L113)
---- child of TargetBuffFrameTemplate
---- @class TargetBuffFrameTemplate_TargetBuffFrameTemplateStealable : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L99)
 --- Template
 --- @class TargetBuffFrameTemplate : Frame
 --- @field Cooldown TargetBuffFrameTemplate_TargetBuffFrameTemplateCooldown
---- @field Icon TargetBuffFrameTemplate_TargetBuffFrameTemplateIcon
+--- @field Icon Texture
 --- @field Count TargetBuffFrameTemplate_TargetBuffFrameTemplateCount
---- @field Stealable TargetBuffFrameTemplate_TargetBuffFrameTemplateStealable
+--- @field Stealable Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L149)
 --- child of TargetFrameTemplate
@@ -194,15 +170,11 @@
 --- child of 
 --- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual_NumericalThreat_Value : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L427)
---- child of 
---- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual_NumericalThreat_BG : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L415)
 --- child of 
 --- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual_NumericalThreat : Frame
 --- @field text TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual_NumericalThreat_Value
---- @field bg TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual_NumericalThreat_BG
+--- @field bg Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L347)
 --- child of 

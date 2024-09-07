@@ -258,10 +258,6 @@
 --- child of PetBattleActionButtonTemplate
 --- @class PetBattleActionButtonTemplate_CooldownShadow : Texture, BattleBar-Countdown-Shadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L634)
---- child of PetBattleActionButtonTemplate
---- @class PetBattleActionButtonTemplate_PetBattleActionButtonTemplateCooldownFlash : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L643)
 --- child of PetBattleActionButtonTemplate
 --- @class PetBattleActionButtonTemplate_Cooldown : FontString, GameFont_Gigantic
@@ -283,7 +279,7 @@
 --- @class PetBattleActionButtonTemplate : Button
 --- @field Icon Texture
 --- @field CooldownShadow PetBattleActionButtonTemplate_CooldownShadow
---- @field CooldownFlash PetBattleActionButtonTemplate_PetBattleActionButtonTemplateCooldownFlash
+--- @field CooldownFlash Texture
 --- @field Cooldown PetBattleActionButtonTemplate_Cooldown
 --- @field HotKey PetBattleActionButtonTemplate_HotKey
 --- @field SelectedHighlight PetBattleActionButtonTemplate_SelectedHighlight

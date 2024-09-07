@@ -17,10 +17,6 @@
 --- @field Spark Texture
 --- @field Flash Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L98)
---- child of 
---- @class Texture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L105)
 --- child of 
 --- @class Name : FontString, GameFontNormalSmall
@@ -42,21 +38,9 @@
 --- child of ArenaEnemyPetFrameTemplate
 --- @class ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L78)
---- child of ArenaEnemyPetFrameTemplate
---- @class ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateFlash : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L84)
---- child of ArenaEnemyPetFrameTemplate
---- @class ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplatePortrait : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L67)
 --- Template
 --- @class ArenaEnemyPetFrameTemplate : Button, SecureUnitButtonTemplate, ArenaEnemyPetFrameMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L177)
---- child of 
---- @class Texture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L184)
 --- child of 
@@ -86,26 +70,6 @@
 --- child of 
 --- @class ManaBarTextRight : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L221)
---- child of 
---- @class SpecPortrait : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L229)
---- child of 
---- @class Status : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L233)
---- child of 
---- @class SpecBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L241)
---- child of 
---- @class Disconnect : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L247)
---- child of 
---- @class PVPIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L174)
 --- child of 
 --- @class  : Frame
@@ -127,19 +91,11 @@
 --- child of ArenaEnemyPrepFrameTemplate
 --- @class ArenaEnemyPrepFrameTemplate_ArenaEnemyPrepFrameTemplateCastingBar : StatusBar, ArenaCastingBarFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L156)
---- child of ArenaEnemyPrepFrameTemplate
---- @class ArenaEnemyPrepFrameTemplate_ArenaEnemyPrepFrameTemplateClassPortrait : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L162)
---- child of ArenaEnemyPrepFrameTemplate
---- @class ArenaEnemyPrepFrameTemplate_ArenaEnemyPrepFrameTemplateBackground : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L152)
 --- Template
 --- @class ArenaEnemyPrepFrameTemplate : Button, SecureUnitButtonTemplate, ArenaEnemyPrepFrameMixin
 --- @field CastingBar ArenaEnemyPrepFrameTemplate_ArenaEnemyPrepFrameTemplateCastingBar
---- @field classPortrait ArenaEnemyPrepFrameTemplate_ArenaEnemyPrepFrameTemplateClassPortrait
+--- @field classPortrait Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L320)
 --- child of 

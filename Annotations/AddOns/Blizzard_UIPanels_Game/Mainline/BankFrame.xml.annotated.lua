@@ -62,10 +62,6 @@
 --- child of BankTabDepositSettingsMenuTemplate
 --- @class BankTabDepositSettingsMenuTemplate_CleanUpSettingsHeader : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L83)
---- child of BankTabDepositSettingsMenuTemplate
---- @class BankTabDepositSettingsMenuTemplate_Separator : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L56)
 --- Template
 --- @class BankTabDepositSettingsMenuTemplate : Frame, BankTabDepositSettingsMenuMixin

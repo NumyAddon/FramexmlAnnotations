@@ -1,22 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L8)
---- child of UpgradeFrameFeatureLargeTemplate
---- @class UpgradeFrameFeatureLargeTemplate_UpgradeFrameFeatureLargeTemplateIconFrame : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L17)
 --- child of UpgradeFrameFeatureLargeTemplate
 --- @class UpgradeFrameFeatureLargeTemplate_UpgradeFrameFeatureLargeTemplateText : FontString, GlueFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L23)
---- child of UpgradeFrameFeatureLargeTemplate
---- @class UpgradeFrameFeatureLargeTemplate_UpgradeFrameFeatureLargeTemplateIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L4)
 --- Template
 --- @class UpgradeFrameFeatureLargeTemplate : Frame
 --- @field text UpgradeFrameFeatureLargeTemplate_UpgradeFrameFeatureLargeTemplateText
---- @field icon UpgradeFrameFeatureLargeTemplate_UpgradeFrameFeatureLargeTemplateIcon
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/StarterEditionPopUp.xml#L78)
 --- child of StarterEditionPopUp

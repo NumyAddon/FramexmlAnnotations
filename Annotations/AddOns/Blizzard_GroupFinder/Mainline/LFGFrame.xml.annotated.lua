@@ -44,54 +44,30 @@
 --- @field EdgePulse Texture
 --- @field RoleShortagePulseAnim LFGRoleButtonWithShortageRewardTemplate_RoleShortagePulseAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L167)
---- child of LFGRoleButtonWithBackgroundTemplate
---- @class LFGRoleButtonWithBackgroundTemplate_LFGRoleButtonWithBackgroundTemplateBackground : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L164)
 --- Template
 --- @class LFGRoleButtonWithBackgroundTemplate : Button, LFGRoleButtonTemplate
---- @field background LFGRoleButtonWithBackgroundTemplate_LFGRoleButtonWithBackgroundTemplateBackground
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L195)
---- child of LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
---- @class LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIconTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L203)
---- child of LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
---- @class LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIconBorder : Texture
+--- @field background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L188)
 --- child of LFGRoleButtonWithBackgroundAndRewardTemplate
 --- @class LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon : Frame
---- @field texture LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIconTexture
---- @field border LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIconBorder
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L179)
---- child of LFGRoleButtonWithBackgroundAndRewardTemplate
---- @class LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateShortageBorder : Texture
+--- @field texture Texture
+--- @field border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L176)
 --- Template
 --- @class LFGRoleButtonWithBackgroundAndRewardTemplate : Button, LFGRoleButtonWithBackgroundTemplate
 --- @field incentiveIcon LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
---- @field shortageBorder LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateShortageBorder
+--- @field shortageBorder Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L254)
 --- child of LFGSpecificChoiceTemplate
 --- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateEnableButton : CheckButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L279)
---- child of LFGSpecificChoiceTemplateExpandOrCollapseButton
---- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateExpandOrCollapseButton_LFGSpecificChoiceTemplateExpandOrCollapseButtonHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L265)
 --- child of LFGSpecificChoiceTemplate
 --- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateExpandOrCollapseButton : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L225)
---- child of LFGSpecificChoiceTemplate
---- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateHeroicIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L232)
 --- child of LFGSpecificChoiceTemplate
@@ -101,46 +77,26 @@
 --- child of LFGSpecificChoiceTemplate
 --- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceName : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L244)
---- child of LFGSpecificChoiceTemplate
---- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateLockedIndicator : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L218)
 --- Template
 --- @class LFGSpecificChoiceTemplate : Frame
 --- @field enableButton LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateEnableButton
 --- @field expandOrCollapseButton LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateExpandOrCollapseButton
---- @field heroicIcon LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateHeroicIcon
+--- @field heroicIcon Texture
 --- @field level LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceLevel
 --- @field instanceName LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceName
---- @field lockedIndicator LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateLockedIndicator
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L299)
---- child of LFGDungeonReadyRewardTemplate
---- @class LFGDungeonReadyRewardTemplate_LFGDungeonReadyRewardTemplateTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L307)
---- child of LFGDungeonReadyRewardTemplate
---- @class LFGDungeonReadyRewardTemplate_LFGDungeonReadyRewardTemplateBorder : Texture
+--- @field lockedIndicator Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L295)
 --- Template
 --- @class LFGDungeonReadyRewardTemplate : Frame
---- @field texture LFGDungeonReadyRewardTemplate_LFGDungeonReadyRewardTemplateTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L319)
---- child of LFGDungeonReadyStatusPlayerTemplate
---- @class LFGDungeonReadyStatusPlayerTemplate_LFGDungeonReadyStatusPlayerTemplateTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L322)
---- child of LFGDungeonReadyStatusPlayerTemplate
---- @class LFGDungeonReadyStatusPlayerTemplate_LFGDungeonReadyStatusPlayerTemplateStatusIcon : Texture
+--- @field texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L315)
 --- Template
 --- @class LFGDungeonReadyStatusPlayerTemplate : Frame
---- @field texture LFGDungeonReadyStatusPlayerTemplate_LFGDungeonReadyStatusPlayerTemplateTexture
---- @field statusIcon LFGDungeonReadyStatusPlayerTemplate_LFGDungeonReadyStatusPlayerTemplateStatusIcon
+--- @field texture Texture
+--- @field statusIcon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L334)
 --- child of LFGDungeonReadyStatusRoleWithCountTemplate
@@ -356,14 +312,10 @@ LFGDungeonReadyDialog = {}
 --- @class LFGDungeonReadyPopup : Frame
 LFGDungeonReadyPopup = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L654)
---- child of LFGRewardsLootShortageTemplate
---- @class LFGRewardsLootShortageTemplate_LFGRewardsLootShortageTemplateTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L650)
 --- Template
 --- @class LFGRewardsLootShortageTemplate : Frame
---- @field texture LFGRewardsLootShortageTemplate_LFGRewardsLootShortageTemplateTexture
+--- @field texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L695)
 --- child of LFGRewardsLootTemplate
@@ -394,25 +346,13 @@ LFGDungeonReadyPopup = {}
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateMoneyReward : Frame, LargeItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L810)
---- child of LFGRewardFrameTemplateRandomList
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateRandomList_LFGRewardFrameTemplateRandomListDiceTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L803)
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateRandomList : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L833)
---- child of LFGRewardFrameTemplateEncounterList
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateEncounterList_LFGRewardFrameTemplateEncounterListTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L829)
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateEncounterList : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L846)
---- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateSpacer : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L739)
 --- child of LFGRewardFrameTemplate
@@ -444,7 +384,7 @@ LFGDungeonReadyPopup = {}
 --- @field MoneyReward LFGRewardFrameTemplate_LFGRewardFrameTemplateMoneyReward
 --- @field randomList LFGRewardFrameTemplate_LFGRewardFrameTemplateRandomList
 --- @field encounterList LFGRewardFrameTemplate_LFGRewardFrameTemplateEncounterList
---- @field spacer LFGRewardFrameTemplate_LFGRewardFrameTemplateSpacer
+--- @field spacer Frame
 --- @field title LFGRewardFrameTemplate_LFGRewardFrameTemplateTitle
 --- @field description LFGRewardFrameTemplate_LFGRewardFrameTemplateDescription
 --- @field rewardsLabel LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsLabel
@@ -499,10 +439,6 @@ LFGInvitePopupText = {}
 --- @field Border LFGInvitePopup_Border
 --- @field QueueWarningText LFGInvitePopup_QueueWarningText
 LFGInvitePopup = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L960)
---- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateBlackFilter : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L965)
 --- child of LFGCooldownCoverTemplate
@@ -589,10 +525,6 @@ LFGInvitePopup = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1108)
 --- child of LFGBackfillCoverTemplate
 --- @class LFGBackfillCoverTemplate_LFGBackfillCoverTemplateNoBackfillButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1082)
---- child of LFGBackfillCoverTemplate
---- @class LFGBackfillCoverTemplate_LFGBackfillCoverTemplateBlackFilter : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1087)
 --- child of LFGBackfillCoverTemplate

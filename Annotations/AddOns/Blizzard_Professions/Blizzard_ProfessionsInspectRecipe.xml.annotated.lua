@@ -16,9 +16,16 @@
 --- @field Background Texture
 --- @field MinimalBackground Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsInspectRecipe.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsInspectRecipe.xml#L5)
 --- @class InspectRecipeFrame : Frame, PortraitFrameTemplateNoCloseButton, InspectRecipeMixin
 --- @field CloseButton InspectRecipeFrame_CloseButton
 --- @field SchematicForm InspectRecipeFrame_SchematicForm
 InspectRecipeFrame = {}
+InspectRecipeFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+InspectRecipeFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 

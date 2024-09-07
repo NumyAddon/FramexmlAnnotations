@@ -55,131 +55,131 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L261)
 --- Template
---- @class Talent-RingGlow : Texture
+--- @class Talent_RingGlow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L265)
 --- Template
---- @class Talent-Ring : Texture
+--- @class Talent_Ring : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L269)
 --- Template
---- @class PetTalent-TalentIconBorder : Texture
+--- @class PetTalent_TalentIconBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L273)
 --- Template
---- @class Talent-GoldMedal-Glow : Texture
+--- @class Talent_GoldMedal_Glow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L277)
 --- Template
---- @class Talent-TreeLockoutGradient : Texture
+--- @class Talent_TreeLockoutGradient : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L281)
 --- Template
---- @class PetTalent-TreeBorder : Texture
+--- @class PetTalent_TreeBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L285)
 --- Template
---- @class Talent-TitleGlow-Right : Texture
+--- @class Talent_TitleGlow_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L289)
 --- Template
---- @class PetTalent-TreeTitle-BG : Texture
+--- @class PetTalent_TreeTitle_BG : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L293)
 --- Template
---- @class TalentCover-SmallIconBorder : Texture
+--- @class TalentCover_SmallIconBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L297)
 --- Template
---- @class Talent-PrimaryHighlight-BottomRight : Texture
+--- @class Talent_PrimaryHighlight_BottomRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L301)
 --- Template
---- @class TalentHeader-ParchmentBG : Texture
+--- @class TalentHeader_ParchmentBG : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L305)
 --- Template
---- @class Talent-PrimaryHighlight-TopLeft : Texture
+--- @class Talent_PrimaryHighlight_TopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L309)
 --- Template
---- @class Talent-PrimaryHighlight-TopRight : Texture
+--- @class Talent_PrimaryHighlight_TopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L313)
 --- Template
---- @class Talent-PrimaryHighlight-BottomLeft : Texture
+--- @class Talent_PrimaryHighlight_BottomLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L317)
 --- Template
---- @class TalentCover-Overlay-BottomLeft : Texture
+--- @class TalentCover_Overlay_BottomLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L321)
 --- Template
---- @class TalentCover-Overlay-BottomRight : Texture
+--- @class TalentCover_Overlay_BottomRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L325)
 --- Template
---- @class TalentHeader-GoldBorder : Texture
+--- @class TalentHeader_GoldBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L329)
 --- Template
---- @class PetTalent-SingleBorder : Texture
+--- @class PetTalent_SingleBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L333)
 --- Template
---- @class Talent-PointBg-Green : Texture
+--- @class Talent_PointBg_Green : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L337)
 --- Template
---- @class PetTalent-PetIconBorder : Texture
+--- @class PetTalent_PetIconBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L341)
 --- Template
---- @class TalentHeader-PrimaryIconBorder : Texture
+--- @class TalentHeader_PrimaryIconBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L345)
 --- Template
---- @class TalentCover-Overlay-TopRight : Texture
+--- @class TalentCover_Overlay_TopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L349)
 --- Template
---- @class TalentCover-Overlay-TopLeft : Texture
+--- @class TalentCover_Overlay_TopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L353)
 --- Template
---- @class TalentHeader-SecondaryIconBorder : Texture
+--- @class TalentHeader_SecondaryIconBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L357)
 --- Template
---- @class Talent-Inner-BotRight : Texture
+--- @class Talent_Inner_BotRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L361)
 --- Template
---- @class Talent-Inner-TopRight : Texture
+--- @class Talent_Inner_TopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L365)
 --- Template
---- @class PetTalent-SingleBorder-Glow : Texture
+--- @class PetTalent_SingleBorder_Glow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L369)
 --- Template
---- @class Talent-Inner-BotLeft : Texture
+--- @class Talent_Inner_BotLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L373)
 --- Template
---- @class Talent-Inner-TopLeft : Texture
+--- @class Talent_Inner_TopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L377)
 --- Template
---- @class Talent-GoldMedal-Border : Texture
+--- @class Talent_GoldMedal_Border : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L381)
 --- Template
---- @class Talent-SingleBorder-Glow : Texture
+--- @class Talent_SingleBorder_Glow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L385)
 --- Template
---- @class PetTalent-SingleBorder-Shadow : Texture
+--- @class PetTalent_SingleBorder_Shadow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L389)
 --- Template
@@ -187,151 +187,151 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L393)
 --- Template
---- @class TalentHeader-PointCircle-Gold : Texture
+--- @class TalentHeader_PointCircle_Gold : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L397)
 --- Template
---- @class Talent-SingleBorder-Shadow : Texture
+--- @class Talent_SingleBorder_Shadow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L401)
 --- Template
---- @class Talent-SingleBorder : Texture
+--- @class Talent_SingleBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L405)
 --- Template
---- @class TalentHeader-PointCircle-Silver : Texture
+--- @class TalentHeader_PointCircle_Silver : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L409)
 --- Template
---- @class Talent-PointBg : Texture
+--- @class Talent_PointBg : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L413)
 --- Template
---- @class Talent-TitleGlow-Left : Texture
+--- @class Talent_TitleGlow_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L419)
 --- Template
---- @class Dialog-BorderTopLeft : Texture
+--- @class Dialog_BorderTopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L423)
 --- Template
---- @class Dialog-BorderBottomLeft : Texture
+--- @class Dialog_BorderBottomLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L427)
 --- Template
---- @class Dialog-BorderTopRight : Texture
+--- @class Dialog_BorderTopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L431)
 --- Template
---- @class Dialog-BorderBottomRight : Texture
+--- @class Dialog_BorderBottomRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L435)
 --- Template
---- @class Thin-BorderTopLeft : Texture
+--- @class Thin_BorderTopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L438)
 --- Template
---- @class Thin-BorderBottomLeft : Texture
+--- @class Thin_BorderBottomLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L441)
 --- Template
---- @class Thin-BorderTopRight : Texture
+--- @class Thin_BorderTopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L444)
 --- Template
---- @class Thin-BorderBottomRight : Texture
+--- @class Thin_BorderBottomRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L450)
 --- Template
---- @class !Talent-Inner-RightTile : Texture
+--- @class !Talent_Inner_RightTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L454)
 --- Template
---- @class !Talent-Inner-LeftTile : Texture
+--- @class !Talent_Inner_LeftTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L459)
 --- Template
---- @class !TalentCover-Overlay-Left : Texture
+--- @class !TalentCover_Overlay_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L463)
 --- Template
---- @class !Talent-PrimaryHighlight-Left : Texture
+--- @class !Talent_PrimaryHighlight_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L467)
 --- Template
---- @class !Talent-PrimaryHighlight-Right : Texture
+--- @class !Talent_PrimaryHighlight_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L472)
 --- Template
---- @class Dialog-BorderLeft : Texture
+--- @class Dialog_BorderLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L475)
 --- Template
---- @class Dialog-BorderRight : Texture
+--- @class Dialog_BorderRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L478)
 --- Template
---- @class !Thin-BorderRight : Texture
+--- @class !Thin_BorderRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L481)
 --- Template
---- @class !Thin-BorderLeft : Texture
+--- @class !Thin_BorderLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L486)
 --- Template
---- @class _UI-Frame-InnerSplitTile : Texture
+--- @class _UI_Frame_InnerSplitTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L490)
 --- Template
---- @class _UI-Frame-Top : Texture
+--- @class _UI_Frame_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L495)
 --- Template
---- @class _Talent-Inner-TopTile : Texture
+--- @class _Talent_Inner_TopTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L499)
 --- Template
---- @class _Talent-Inner-BotTile : Texture
+--- @class _Talent_Inner_BotTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L503)
 --- Template
---- @class _Talent-TitleGlowTile : Texture
+--- @class _Talent_TitleGlowTile : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L507)
 --- Template
---- @class _Talent-Mastery-Background : Texture
+--- @class _Talent_Mastery_Background : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L512)
 --- Template
---- @class _TalentCover-Overlay-Bottom : Texture
+--- @class _TalentCover_Overlay_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L516)
 --- Template
---- @class _TalentCover-Overlay-Top : Texture
+--- @class _TalentCover_Overlay_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L520)
 --- Template
---- @class _Talent-PrimaryHighlight-Bottom : Texture
+--- @class _Talent_PrimaryHighlight_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L524)
 --- Template
---- @class _Talent-PrimaryHighlight-Top : Texture
+--- @class _Talent_PrimaryHighlight_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L530)
 --- Template
---- @class Dialog-BorderTop : Texture
+--- @class Dialog_BorderTop : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L533)
 --- Template
---- @class Dialog-BorderBottom : Texture
+--- @class Dialog_BorderBottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L536)
 --- Template
---- @class _Thin-BorderTop : Texture
+--- @class _Thin_BorderTop : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L539)
 --- Template
---- @class _Thin-BorderBottom : Texture
+--- @class _Thin_BorderBottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.xml#L549)
 --- Template

@@ -197,11 +197,13 @@ GuildControlUIRankOrderFrameRank1["upButton"] = GuildControlUIRankOrderFrameRank
 --- child of GuildControlUIRankOrderFrame
 --- @class GuildControlUI_GuildControlUIRankOrderFrame_GuildControlUIRankOrderFrameNewButton : Button, UIPanelButtonTemplate
 GuildControlUIRankOrderFrameNewButton = {}
+GuildControlUIRankOrderFrameNewButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L374)
 --- child of GuildControlUIRankOrderFrame
 --- @class GuildControlUI_GuildControlUIRankOrderFrame_GuildControlUIRankOrderFrameDupButton : Button, UIPanelButtonTemplate
 GuildControlUIRankOrderFrameDupButton = {}
+GuildControlUIRankOrderFrameDupButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L347)
 --- child of GuildControlUI

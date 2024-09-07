@@ -2,75 +2,75 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L3)
 --- Template
---- @class Char-Stat-Bottom : Texture
+--- @class Char_Stat_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L7)
 --- Template
---- @class Char-Stat-Minimized : Texture
+--- @class Char_Stat_Minimized : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L11)
 --- Template
---- @class Char-Stat-Top : Texture
+--- @class Char_Stat_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L15)
 --- Template
---- @class Char-RightSlot : Texture
+--- @class Char_RightSlot : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L19)
 --- Template
---- @class Char-Stat-Minus : Texture
+--- @class Char_Stat_Minus : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L23)
 --- Template
---- @class Char-LeftSlot : Texture
+--- @class Char_LeftSlot : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L27)
 --- Template
---- @class Char-Corner-LowerRight : Texture
+--- @class Char_Corner_LowerRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L31)
 --- Template
---- @class Char-Corner-LowerLeft : Texture
+--- @class Char_Corner_LowerLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L35)
 --- Template
---- @class Char-Corner-UpperRight : Texture
+--- @class Char_Corner_UpperRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L39)
 --- Template
---- @class Char-Corner-UpperLeft : Texture
+--- @class Char_Corner_UpperLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L43)
 --- Template
---- @class Char-Stat-Plus : Texture
+--- @class Char_Stat_Plus : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L47)
 --- Template
---- @class Char-BottomSlot : Texture
+--- @class Char_BottomSlot : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L51)
 --- Template
---- @class Char-Slot-Bottom-Right : Texture
+--- @class Char_Slot_Bottom_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L55)
 --- Template
---- @class Char-Slot-Bottom-Left : Texture
+--- @class Char_Slot_Bottom_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L60)
 --- Template
---- @class Char-Inner-Bottom : Texture
+--- @class Char_Inner_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L64)
 --- Template
---- @class Char-Inner-Top : Texture
+--- @class Char_Inner_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L68)
 --- Template
---- @class Char-Inner-Left : Texture
+--- @class Char_Inner_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L72)
 --- Template
---- @class Char-Inner-Right : Texture
+--- @class Char_Inner_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L88)
 --- child of CharacterStatFrameCategoryTemplate
@@ -163,6 +163,16 @@ CharacterFrameInsetRight["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field ClassBackground Texture
 CharacterStatsPane = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L1148)
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -175,5 +185,8 @@ CharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field Background Texture
 CharacterFrame = {}
 CharacterFrame["InsetRight"] = CharacterFrameInsetRight
+CharacterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+CharacterFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+CharacterFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 CharacterFrame["Inset"] = CharacterFrameInset -- inherited
 

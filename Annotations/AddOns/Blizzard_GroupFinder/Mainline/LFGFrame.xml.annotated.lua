@@ -206,6 +206,16 @@ LFGDungeonReadyStatusIndividualPlayer5["statusIcon"] = LFGDungeonReadyStatusIndi
 --- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusIndividual : Frame
 LFGDungeonReadyStatusIndividual = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L319)
+--- child of LFGDungeonReadyStatusRoleWithCountTemplate (created in template LFGDungeonReadyStatusPlayerTemplate)
+--- @type Texture
+LFGDungeonReadyStatusRoleWithCountTemplateTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L322)
+--- child of LFGDungeonReadyStatusRoleWithCountTemplate (created in template LFGDungeonReadyStatusPlayerTemplate)
+--- @type Texture
+LFGDungeonReadyStatusRoleWithCountTemplateStatusIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L334)
 --- child of LFGDungeonReadyStatusGroupedTank (created in template LFGDungeonReadyStatusRoleWithCountTemplate)
 --- @type LFGDungeonReadyStatusRoleWithCountTemplate_LFGDungeonReadyStatusRoleWithCountTemplateCount
@@ -215,7 +225,19 @@ LFGDungeonReadyStatusGroupedTankCount = {}
 --- child of LFGDungeonReadyStatusGrouped
 --- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusGrouped_LFGDungeonReadyStatusGroupedTank : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
 LFGDungeonReadyStatusGroupedTank = {}
+LFGDungeonReadyStatusGroupedTank["texture"] = LFGDungeonReadyStatusRoleWithCountTemplateTexture -- inherited
+LFGDungeonReadyStatusGroupedTank["statusIcon"] = LFGDungeonReadyStatusRoleWithCountTemplateStatusIcon -- inherited
 LFGDungeonReadyStatusGroupedTank["count"] = LFGDungeonReadyStatusGroupedTankCount -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L319)
+--- child of LFGDungeonReadyStatusRoleWithCountTemplate (created in template LFGDungeonReadyStatusPlayerTemplate)
+--- @type Texture
+LFGDungeonReadyStatusRoleWithCountTemplateTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L322)
+--- child of LFGDungeonReadyStatusRoleWithCountTemplate (created in template LFGDungeonReadyStatusPlayerTemplate)
+--- @type Texture
+LFGDungeonReadyStatusRoleWithCountTemplateStatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L334)
 --- child of LFGDungeonReadyStatusGroupedHealer (created in template LFGDungeonReadyStatusRoleWithCountTemplate)
@@ -226,7 +248,19 @@ LFGDungeonReadyStatusGroupedHealerCount = {}
 --- child of LFGDungeonReadyStatusGrouped
 --- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusGrouped_LFGDungeonReadyStatusGroupedHealer : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
 LFGDungeonReadyStatusGroupedHealer = {}
+LFGDungeonReadyStatusGroupedHealer["texture"] = LFGDungeonReadyStatusRoleWithCountTemplateTexture -- inherited
+LFGDungeonReadyStatusGroupedHealer["statusIcon"] = LFGDungeonReadyStatusRoleWithCountTemplateStatusIcon -- inherited
 LFGDungeonReadyStatusGroupedHealer["count"] = LFGDungeonReadyStatusGroupedHealerCount -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L319)
+--- child of LFGDungeonReadyStatusRoleWithCountTemplate (created in template LFGDungeonReadyStatusPlayerTemplate)
+--- @type Texture
+LFGDungeonReadyStatusRoleWithCountTemplateTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L322)
+--- child of LFGDungeonReadyStatusRoleWithCountTemplate (created in template LFGDungeonReadyStatusPlayerTemplate)
+--- @type Texture
+LFGDungeonReadyStatusRoleWithCountTemplateStatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L334)
 --- child of LFGDungeonReadyStatusGroupedDamager (created in template LFGDungeonReadyStatusRoleWithCountTemplate)
@@ -237,12 +271,24 @@ LFGDungeonReadyStatusGroupedDamagerCount = {}
 --- child of LFGDungeonReadyStatusGrouped
 --- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusGrouped_LFGDungeonReadyStatusGroupedDamager : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
 LFGDungeonReadyStatusGroupedDamager = {}
+LFGDungeonReadyStatusGroupedDamager["texture"] = LFGDungeonReadyStatusRoleWithCountTemplateTexture -- inherited
+LFGDungeonReadyStatusGroupedDamager["statusIcon"] = LFGDungeonReadyStatusRoleWithCountTemplateStatusIcon -- inherited
 LFGDungeonReadyStatusGroupedDamager["count"] = LFGDungeonReadyStatusGroupedDamagerCount -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L406)
 --- child of LFGDungeonReadyStatus
 --- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusGrouped : Frame
 LFGDungeonReadyStatusGrouped = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L319)
+--- child of LFGDungeonReadyStatusRoleWithCountTemplate (created in template LFGDungeonReadyStatusPlayerTemplate)
+--- @type Texture
+LFGDungeonReadyStatusRoleWithCountTemplateTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L322)
+--- child of LFGDungeonReadyStatusRoleWithCountTemplate (created in template LFGDungeonReadyStatusPlayerTemplate)
+--- @type Texture
+LFGDungeonReadyStatusRoleWithCountTemplateStatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L334)
 --- child of LFGDungeonReadyStatusRolelessReady (created in template LFGDungeonReadyStatusRoleWithCountTemplate)
@@ -253,6 +299,8 @@ LFGDungeonReadyStatusRolelessReadyCount = {}
 --- child of LFGDungeonReadyStatusRoleless
 --- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusRoleless_LFGDungeonReadyStatusRolelessReady : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
 LFGDungeonReadyStatusRolelessReady = {}
+LFGDungeonReadyStatusRolelessReady["texture"] = LFGDungeonReadyStatusRoleWithCountTemplateTexture -- inherited
+LFGDungeonReadyStatusRolelessReady["statusIcon"] = LFGDungeonReadyStatusRoleWithCountTemplateStatusIcon -- inherited
 LFGDungeonReadyStatusRolelessReady["count"] = LFGDungeonReadyStatusRolelessReadyCount -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L429)
@@ -286,11 +334,13 @@ LFGDungeonReadyDialogCloseButton = {}
 --- child of LFGDungeonReadyDialog
 --- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogEnterDungeonButton : Button, UIPanelButtonTemplate
 LFGDungeonReadyDialogEnterDungeonButton = {}
+LFGDungeonReadyDialogEnterDungeonButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L514)
 --- child of LFGDungeonReadyDialog
 --- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogLeaveQueueButton : Button, UIPanelButtonTemplate
 LFGDungeonReadyDialogLeaveQueueButton = {}
+LFGDungeonReadyDialogLeaveQueueButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L534)
 --- child of LFGDungeonReadyDialogRoleIcon
@@ -541,11 +591,13 @@ LFGInvitePopupRoleButtonDPS["role"] = "DAMAGER"
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_LFGInvitePopupAcceptButton : Button, UIPanelButtonTemplate
 LFGInvitePopupAcceptButton = {}
+LFGInvitePopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L930)
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_LFGInvitePopupDeclineButton : Button, UIPanelButtonTemplate
 LFGInvitePopupDeclineButton = {}
+LFGInvitePopupDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L869)
 --- child of LFGInvitePopup

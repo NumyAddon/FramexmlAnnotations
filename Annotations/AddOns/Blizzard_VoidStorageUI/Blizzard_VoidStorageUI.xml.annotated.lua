@@ -53,6 +53,7 @@ VoidStorageDepositButton1["searchOverlay"] = VoidStorageDepositButton1SearchOver
 --- child of VoidStorageContentFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageDepositFrame : Frame, VoidStorageInsetFrameTemplate
 VoidStorageDepositFrame = {}
+VoidStorageDepositFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L102)
 --- child of VoidStorageWithdrawButton1 (created in template VoidStorageItemButtonTemplate)
@@ -84,6 +85,7 @@ VoidStorageWithdrawButton1["searchOverlay"] = VoidStorageWithdrawButton1SearchOv
 --- child of VoidStorageContentFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageWithdrawFrame : Frame, VoidStorageInsetFrameTemplate
 VoidStorageWithdrawFrame = {}
+VoidStorageWithdrawFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L102)
 --- child of VoidStorageStorageButton1 (created in template VoidStorageItemButtonTemplate)
@@ -135,11 +137,13 @@ VoidStorageStorageFrameLine4 = {}
 --- child of VoidStorageContentFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageStorageFrame : Frame, VoidStorageInsetFrameTemplate
 VoidStorageStorageFrame = {}
+VoidStorageStorageFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L376)
 --- child of VoidStorageCostFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageCostFrame_VoidStorageTransferButton : Button, UIPanelButtonTemplate
 VoidStorageTransferButton = {}
+VoidStorageTransferButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L110)
 --- child of VoidStorageMoneyFrame (created in template SmallMoneyFrameTemplate)
@@ -178,6 +182,7 @@ VoidStorageMoneyFrame["GoldButton"] = VoidStorageMoneyFrameGoldButton -- inherit
 --- child of VoidStorageContentFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageCostFrame : Frame, VoidStorageInsetFrameTemplate
 VoidStorageCostFrame = {}
+VoidStorageCostFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L250)
 --- child of VoidStorageFrame
@@ -193,6 +198,7 @@ VoidStorageBorderFrameMouseBlockFrame = {}
 --- child of VoidStoragePurchaseFrame
 --- @class VoidStorageFrame_VoidStorageBorderFrame_VoidStoragePurchaseFrame_VoidStoragePurchaseButton : Button, UIPanelButtonTemplate
 VoidStoragePurchaseButton = {}
+VoidStoragePurchaseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L618)
 --- child of VoidStoragePurchaseMoneyFrame
@@ -362,7 +368,21 @@ VoidStorageFrameLines = {}
 --- @field Page2 VoidStorageFrame_Page2
 VoidStorageFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1504)
+--- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+BagSearchBoxTemplateClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1495)
+--- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- @type Texture
+BagSearchBoxTemplateSearchIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L657)
 --- @class VoidItemSearchBox : EditBox, BagSearchBoxTemplate
 VoidItemSearchBox = {}
+VoidItemSearchBox["instructionText"] = SEARCH -- inherited
+VoidItemSearchBox["clearButton"] = BagSearchBoxTemplateClearButton -- inherited
+VoidItemSearchBox["searchIcon"] = BagSearchBoxTemplateSearchIcon -- inherited
 

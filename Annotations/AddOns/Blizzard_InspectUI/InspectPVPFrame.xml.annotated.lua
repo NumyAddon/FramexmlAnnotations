@@ -34,21 +34,46 @@
 --- @class InspectPvpTalentSlotTemplate : Button, PvpTalentSlotTemplate, InspectPvpTalentSlotMixin
 --- @field isInspect boolean # true
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
+--- child of  (created in template InspectPvpStatTemplate)
+--- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
+InspectPVPFrameBGType = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L79)
 --- child of InspectPVPFrame
 --- @class InspectPVPFrame_RatedBG : Frame, InspectPvpStatTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
+--- child of  (created in template InspectPvpStatTemplate)
+--- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
+InspectPVPFrameBGType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L89)
 --- child of InspectPVPFrame
 --- @class InspectPVPFrame_Arena2v2 : Frame, InspectPvpStatTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
+--- child of  (created in template InspectPvpStatTemplate)
+--- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
+InspectPVPFrameBGType = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L99)
 --- child of InspectPVPFrame
 --- @class InspectPVPFrame_Arena3v3 : Frame, InspectPvpStatTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
+--- child of  (created in template InspectPvpStatTemplate)
+--- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
+InspectPVPFrameBGType = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L109)
 --- child of InspectPVPFrame
 --- @class InspectPVPFrame_RatedSoloShuffle : Frame, InspectPvpStatTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
+--- child of  (created in template InspectPvpStatTemplate)
+--- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
+InspectPVPFrameBGType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L119)
 --- child of InspectPVPFrame

@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L5)
 --- Template
---- @class ExpBar-Divider : Texture
+--- @class ExpBar_Divider : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L108)
 --- child of 
@@ -10,7 +10,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L94)
 --- child of 
---- @class CompanionListButtonTemplate_dragButton_Level : FontString, GameFontNormalSmall
+--- @class CompanionListButtonTemplate_dragButton_CompanionListButtonTemplateLevel : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L79)
 --- child of CompanionListButtonTemplate
@@ -18,7 +18,7 @@
 --- @field Cooldown CompanionListButtonTemplate_dragButton_Cooldown
 --- @field ActiveTexture Texture
 --- @field levelBG Texture
---- @field level CompanionListButtonTemplate_dragButton_Level
+--- @field level CompanionListButtonTemplate_dragButton_CompanionListButtonTemplateLevel
 --- @field favorite Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L37)
@@ -1735,11 +1735,13 @@ PetJournalPetCard["shadows"] = PetJournalPetCardShadows
 --- child of PetJournal
 --- @class PetJournal_PetJournalFindBattle : Button, MagicButtonTemplate
 PetJournalFindBattle = {}
+PetJournalFindBattle["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L1666)
 --- child of PetJournal
 --- @class PetJournal_PetJournalSummonButton : Button, MagicButtonTemplate
 PetJournalSummonButton = {}
+PetJournalSummonButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L1722)
 --- child of PetJournalAchievementStatus
@@ -1831,8 +1833,10 @@ PetJournal["SpellSelect"] = PetJournalSpellSelect
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L1791)
 --- @class PetJournalPrimaryAbilityTooltip : Frame, SharedPetBattleAbilityTooltipTemplate
 PetJournalPrimaryAbilityTooltip = {}
+PetJournalPrimaryAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L1792)
 --- @class PetJournalSecondaryAbilityTooltip : Frame, SharedPetBattleAbilityTooltipTemplate
 PetJournalSecondaryAbilityTooltip = {}
+PetJournalSecondaryAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 

@@ -2,35 +2,35 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L3)
 --- Template
---- @class QuestPortrait-MrBrownstone : Texture
+--- @class QuestPortrait_MrBrownstone : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L7)
 --- Template
---- @class QuestPortrait-Corner_UL : Texture
+--- @class QuestPortrait_Corner_UL : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L11)
 --- Template
---- @class QuestPortrait-Corner_UR : Texture
+--- @class QuestPortrait_Corner_UR : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L15)
 --- Template
---- @class QuestPortrait-Corner_BL : Texture
+--- @class QuestPortrait_Corner_BL : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L19)
 --- Template
---- @class QuestPortrait-Corner_BR : Texture
+--- @class QuestPortrait_Corner_BR : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L23)
 --- Template
---- @class QuestPortrait-Nameplate : Texture
+--- @class QuestPortrait_Nameplate : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L27)
 --- Template
---- @class QuestPortrait-Divider_noname : Texture
+--- @class QuestPortrait_Divider_noname : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L31)
 --- Template
---- @class QuestPortrait-StoneSwirls-Top : Texture
+--- @class QuestPortrait_StoneSwirls_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L49)
 --- child of QuestFrame
@@ -41,6 +41,7 @@ QuestNpcNameFrame = {}
 --- child of QuestFrameRewardPanel
 --- @class QuestFrame_QuestFrameRewardPanel_QuestFrameCompleteQuestButton : Button, UIPanelButtonTemplate
 QuestFrameCompleteQuestButton = {}
+QuestFrameCompleteQuestButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L71)
 --- child of QuestFrameRewardPanel
@@ -87,11 +88,13 @@ QuestFrameRewardPanel["MaterialBotRight"] = QuestFrameRewardPanelMaterialBotRigh
 --- child of QuestFrameProgressPanel
 --- @class QuestFrame_QuestFrameProgressPanel_QuestFrameGoodbyeButton : Button, UIPanelButtonTemplate
 QuestFrameGoodbyeButton = {}
+QuestFrameGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L94)
 --- child of QuestFrameProgressPanel
 --- @class QuestFrame_QuestFrameProgressPanel_QuestFrameCompleteButton : Button, UIPanelButtonTemplate
 QuestFrameCompleteButton = {}
+QuestFrameCompleteButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L103)
 --- child of QuestFrameProgressPanel
@@ -138,11 +141,13 @@ QuestFrameProgressPanel["MaterialBotRight"] = QuestFrameProgressPanelMaterialBot
 --- child of QuestFrameDetailPanel
 --- @class QuestFrame_QuestFrameDetailPanel_QuestFrameDeclineButton : Button, UIPanelButtonTemplate
 QuestFrameDeclineButton = {}
+QuestFrameDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L197)
 --- child of QuestFrameDetailPanel
 --- @class QuestFrame_QuestFrameDetailPanel_QuestFrameAcceptButton : Button, UIPanelButtonTemplate
 QuestFrameAcceptButton = {}
+QuestFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L206)
 --- child of QuestFrameDetailPanel
@@ -191,6 +196,7 @@ QuestFrameDetailPanel["MaterialBotRight"] = QuestFrameDetailPanelMaterialBotRigh
 --- child of QuestFrameGreetingPanel
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestFrameGreetingGoodbyeButton : Button, UIPanelButtonTemplate
 QuestFrameGreetingGoodbyeButton = {}
+QuestFrameGreetingGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L231)
 --- child of QuestFrameGreetingPanel
@@ -242,6 +248,16 @@ QuestFrameGreetingPanel["MaterialBotRight"] = QuestFrameGreetingPanelMaterialBot
 --- @class QuestFrame_QuestFramePortrait : Texture
 QuestFramePortrait = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L1148)
 --- child of QuestFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
@@ -252,6 +268,9 @@ QuestFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @class QuestFrame : Frame, ButtonFrameTemplate
 --- @field FriendshipStatusBar QuestFrame_FriendshipStatusBar
 QuestFrame = {}
+QuestFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+QuestFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+QuestFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 QuestFrame["Inset"] = QuestFrameInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L329)

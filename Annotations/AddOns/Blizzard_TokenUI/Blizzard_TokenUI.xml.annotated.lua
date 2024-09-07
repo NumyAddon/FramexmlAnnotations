@@ -83,17 +83,47 @@
 --- @field CurrencyTransferLogToggleButton TokenFrame_CurrencyTransferLogToggleButton
 TokenFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L1142)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L1125)
+--- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ButtonFrameTemplateBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L1148)
+--- child of CurrencyTransferLogTemplate (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+CurrencyTransferLogTemplateInset = {}
+CurrencyTransferLogTemplateInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L209)
 --- @class CurrencyTransferLog : Frame, CurrencyTransferLogTemplate
 CurrencyTransferLog = {}
+CurrencyTransferLog["layoutType"] = "PortraitFrameTemplate" -- inherited
+CurrencyTransferLog["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
+CurrencyTransferLog["Bg"] = ButtonFrameTemplateBg -- inherited
+CurrencyTransferLog["Inset"] = CurrencyTransferLogTemplateInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L230)
 --- child of TokenFramePopup
 --- @class TokenFramePopup_Border : Frame, SecureDialogBorderTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+TokenFramePopupText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L231)
 --- child of TokenFramePopup
 --- @class TokenFramePopup_InactiveCheckbox : CheckButton, UICheckButtonTemplate, InactiveCurrencyCheckboxMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+TokenFramePopupText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L243)
 --- child of TokenFramePopup
@@ -105,7 +135,7 @@ CurrencyTransferLog = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L260)
 --- child of TokenFramePopup
---- @class TokenFramePopup_$parent.CloseButton : Button, UIPanelCloseButton
+--- @class TokenFramePopup_parent_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L222)
 --- child of TokenFramePopup
@@ -117,7 +147,7 @@ CurrencyTransferLog = {}
 --- @field InactiveCheckbox TokenFramePopup_InactiveCheckbox
 --- @field BackpackCheckbox TokenFramePopup_BackpackCheckbox
 --- @field CurrencyTransferToggleButton TokenFramePopup_CurrencyTransferToggleButton
---- @field $parent.CloseButton TokenFramePopup_$parent.CloseButton
+--- @field $parent.CloseButton TokenFramePopup_parent_CloseButton
 --- @field Title TokenFramePopup_Title
 TokenFramePopup = {}
 

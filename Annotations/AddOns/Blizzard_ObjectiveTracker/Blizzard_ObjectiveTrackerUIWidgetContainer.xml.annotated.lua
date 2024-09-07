@@ -13,4 +13,5 @@ UIWidgetObjectiveTracker = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerUIWidgetContainer.xml#L14)
 --- @class ObjectiveTrackerUIWidgetContainer : Frame, UIWidgetContainerTemplate, ObjectiveTrackerUIWidgetContainerMixin
 ObjectiveTrackerUIWidgetContainer = {}
+ObjectiveTrackerUIWidgetContainer["showAndHideOnWidgetSetRegistration"] = true -- inherited
 

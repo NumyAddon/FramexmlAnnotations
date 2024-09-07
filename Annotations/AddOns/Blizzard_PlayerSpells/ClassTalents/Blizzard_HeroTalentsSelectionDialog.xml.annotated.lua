@@ -37,6 +37,7 @@ HeroTalentsSelectionDialogTopTileStreaks = {}
 --- @field Background Texture
 HeroTalentsSelectionDialog = {}
 HeroTalentsSelectionDialog["checkFitExtraWidth"] = 0
+HeroTalentsSelectionDialog["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 HeroTalentsSelectionDialog["Bg"] = HeroTalentsSelectionDialogBg -- inherited
 HeroTalentsSelectionDialog["TopTileStreaks"] = HeroTalentsSelectionDialogTopTileStreaks -- inherited
 

@@ -45,6 +45,9 @@ ClassNameplateBarPaladinFrameRune5["runeNumber"] = 1 -- inherited
 --- @field resourceBarMixin any # ClassNameplateBar
 ClassNameplateBarPaladinFrame = {}
 ClassNameplateBarPaladinFrame["resourceBarMixin"] = ClassNameplateBar
+ClassNameplateBarPaladinFrame["isManagedFrame"] = true -- inherited
+ClassNameplateBarPaladinFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+ClassNameplateBarPaladinFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarPaladinFrame["powerToken"] = "HOLY_POWER" -- inherited
 ClassNameplateBarPaladinFrame["rune1"] = ClassNameplateBarPaladinFrameRune1 -- inherited
 ClassNameplateBarPaladinFrame["rune2"] = ClassNameplateBarPaladinFrameRune2 -- inherited

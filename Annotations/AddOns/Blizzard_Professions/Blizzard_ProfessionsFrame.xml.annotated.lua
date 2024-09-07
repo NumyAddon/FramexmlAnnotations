@@ -29,6 +29,11 @@
 --- child of ProfessionsFrame
 --- @class ProfessionsFrame_OrdersPage : Frame, ProfessionsCraftingOrderPageTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L7)
 --- @class ProfessionsFrame : Frame, PortraitFrameTemplateNoCloseButton, TabSystemOwnerTemplate, ProfessionsMixin
 --- @field CloseButton ProfessionsFrame_CloseButton
@@ -38,4 +43,6 @@
 --- @field SpecPage ProfessionsFrame_SpecPage
 --- @field OrdersPage ProfessionsFrame_OrdersPage
 ProfessionsFrame = {}
+ProfessionsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ProfessionsFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 

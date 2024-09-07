@@ -15,6 +15,7 @@
 --- @field BackgroundTexture Texture
 VehicleSeatIndicator = {}
 VehicleSeatIndicator["layoutIndex"] = 3
+VehicleSeatIndicator["isManagedFrame"] = true -- inherited
 VehicleSeatIndicator["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
 VehicleSeatIndicator["system"] = Enum.EditModeSystem.VehicleSeatIndicator -- inherited
 

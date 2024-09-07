@@ -27,6 +27,16 @@
 --- child of 
 --- @class WorldMapFrame_BorderFrame_InsetBorderTop : Texture, _UI-Frame-InnerTopTile
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L1095)
+--- child of PortraitFrameTemplateMinimizable (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+PortraitFrameTemplateMinimizableCloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L43)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_BorderFrame : Frame, PortraitFrameTemplateMinimizable
@@ -40,4 +50,5 @@
 --- @field BlackoutFrame WorldMapFrame_BlackoutFrame
 --- @field BorderFrame WorldMapFrame_BorderFrame
 WorldMapFrame = {}
+WorldMapFrame["debugInspectionSystem"] = "MapCanvas" -- inherited
 

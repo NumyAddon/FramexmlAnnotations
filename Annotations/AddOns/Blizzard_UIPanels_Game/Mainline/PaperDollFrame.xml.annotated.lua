@@ -208,21 +208,23 @@ PaperDollSidebarTabs = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L592)
 --- child of 
---- @class PaperDollFrame_EquipmentManagerPane_EquipSet : Button, UIPanelButtonTemplate
-EquipSet = {}
+--- @class PaperDollFrame_EquipmentManagerPane_PaperDollFrameEquipSet : Button, UIPanelButtonTemplate
+PaperDollFrameEquipSet = {}
+PaperDollFrameEquipSet["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L601)
 --- child of 
---- @class PaperDollFrame_EquipmentManagerPane_SaveSet : Button, UIPanelButtonTemplate
-SaveSet = {}
+--- @class PaperDollFrame_EquipmentManagerPane_PaperDollFrameSaveSet : Button, UIPanelButtonTemplate
+PaperDollFrameSaveSet = {}
+PaperDollFrameSaveSet["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L573)
 --- child of PaperDollFrame
 --- @class PaperDollFrame_EquipmentManagerPane : Frame
 --- @field ScrollBox PaperDollFrame_EquipmentManagerPane_ScrollBox
 --- @field ScrollBar PaperDollFrame_EquipmentManagerPane_ScrollBar
---- @field EquipSet PaperDollFrame_EquipmentManagerPane_EquipSet
---- @field SaveSet PaperDollFrame_EquipmentManagerPane_SaveSet
+--- @field EquipSet PaperDollFrame_EquipmentManagerPane_PaperDollFrameEquipSet
+--- @field SaveSet PaperDollFrame_EquipmentManagerPane_PaperDollFrameSaveSet
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L723)
 --- child of CharacterModelScene
@@ -344,6 +346,16 @@ CharacterModelScene["BackgroundBotLeft"] = CharacterModelFrameBackgroundBotLeft
 CharacterModelScene["BackgroundBotRight"] = CharacterModelFrameBackgroundBotRight
 CharacterModelScene["BackgroundOverlay"] = CharacterModelFrameBackgroundOverlay
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonLeftTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonLeftTemplatePopoutButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L90)
 --- child of CharacterHeadSlot (created in template PaperDollItemSlotButtonLeftTemplate)
 --- @type PaperDollItemSlotButtonLeftTemplate_PaperDollItemSlotButtonLeftTemplateFrame
@@ -353,7 +365,20 @@ CharacterHeadSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterHeadSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterHeadSlot = {}
+CharacterHeadSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterHeadSlot["Cooldown"] = PaperDollItemSlotButtonLeftTemplateCooldown -- inherited
+CharacterHeadSlot["popoutButton"] = PaperDollItemSlotButtonLeftTemplatePopoutButton -- inherited
 CharacterHeadSlot["IsLeftSide"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonLeftTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonLeftTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L90)
 --- child of CharacterNeckSlot (created in template PaperDollItemSlotButtonLeftTemplate)
@@ -364,7 +389,20 @@ CharacterNeckSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterNeckSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterNeckSlot = {}
+CharacterNeckSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterNeckSlot["Cooldown"] = PaperDollItemSlotButtonLeftTemplateCooldown -- inherited
+CharacterNeckSlot["popoutButton"] = PaperDollItemSlotButtonLeftTemplatePopoutButton -- inherited
 CharacterNeckSlot["IsLeftSide"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonLeftTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonLeftTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L90)
 --- child of CharacterShoulderSlot (created in template PaperDollItemSlotButtonLeftTemplate)
@@ -375,7 +413,20 @@ CharacterShoulderSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterShoulderSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterShoulderSlot = {}
+CharacterShoulderSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterShoulderSlot["Cooldown"] = PaperDollItemSlotButtonLeftTemplateCooldown -- inherited
+CharacterShoulderSlot["popoutButton"] = PaperDollItemSlotButtonLeftTemplatePopoutButton -- inherited
 CharacterShoulderSlot["IsLeftSide"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonLeftTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonLeftTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L90)
 --- child of CharacterBackSlot (created in template PaperDollItemSlotButtonLeftTemplate)
@@ -386,7 +437,20 @@ CharacterBackSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterBackSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterBackSlot = {}
+CharacterBackSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterBackSlot["Cooldown"] = PaperDollItemSlotButtonLeftTemplateCooldown -- inherited
+CharacterBackSlot["popoutButton"] = PaperDollItemSlotButtonLeftTemplatePopoutButton -- inherited
 CharacterBackSlot["IsLeftSide"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonLeftTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonLeftTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L90)
 --- child of CharacterChestSlot (created in template PaperDollItemSlotButtonLeftTemplate)
@@ -397,7 +461,20 @@ CharacterChestSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterChestSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterChestSlot = {}
+CharacterChestSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterChestSlot["Cooldown"] = PaperDollItemSlotButtonLeftTemplateCooldown -- inherited
+CharacterChestSlot["popoutButton"] = PaperDollItemSlotButtonLeftTemplatePopoutButton -- inherited
 CharacterChestSlot["IsLeftSide"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonLeftTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonLeftTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L90)
 --- child of CharacterShirtSlot (created in template PaperDollItemSlotButtonLeftTemplate)
@@ -408,7 +485,20 @@ CharacterShirtSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterShirtSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterShirtSlot = {}
+CharacterShirtSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterShirtSlot["Cooldown"] = PaperDollItemSlotButtonLeftTemplateCooldown -- inherited
+CharacterShirtSlot["popoutButton"] = PaperDollItemSlotButtonLeftTemplatePopoutButton -- inherited
 CharacterShirtSlot["IsLeftSide"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonLeftTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonLeftTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L90)
 --- child of CharacterTabardSlot (created in template PaperDollItemSlotButtonLeftTemplate)
@@ -419,7 +509,20 @@ CharacterTabardSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterTabardSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterTabardSlot = {}
+CharacterTabardSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterTabardSlot["Cooldown"] = PaperDollItemSlotButtonLeftTemplateCooldown -- inherited
+CharacterTabardSlot["popoutButton"] = PaperDollItemSlotButtonLeftTemplatePopoutButton -- inherited
 CharacterTabardSlot["IsLeftSide"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonLeftTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonLeftTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonLeftTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L90)
 --- child of CharacterWristSlot (created in template PaperDollItemSlotButtonLeftTemplate)
@@ -430,7 +533,20 @@ CharacterWristSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterWristSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterWristSlot = {}
+CharacterWristSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterWristSlot["Cooldown"] = PaperDollItemSlotButtonLeftTemplateCooldown -- inherited
+CharacterWristSlot["popoutButton"] = PaperDollItemSlotButtonLeftTemplatePopoutButton -- inherited
 CharacterWristSlot["IsLeftSide"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonRightTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonRightTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L111)
 --- child of CharacterHandsSlot (created in template PaperDollItemSlotButtonRightTemplate)
@@ -441,7 +557,20 @@ CharacterHandsSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterHandsSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterHandsSlot = {}
+CharacterHandsSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterHandsSlot["Cooldown"] = PaperDollItemSlotButtonRightTemplateCooldown -- inherited
+CharacterHandsSlot["popoutButton"] = PaperDollItemSlotButtonRightTemplatePopoutButton -- inherited
 CharacterHandsSlot["IsLeftSide"] = false -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonRightTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonRightTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L111)
 --- child of CharacterWaistSlot (created in template PaperDollItemSlotButtonRightTemplate)
@@ -452,7 +581,20 @@ CharacterWaistSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterWaistSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterWaistSlot = {}
+CharacterWaistSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterWaistSlot["Cooldown"] = PaperDollItemSlotButtonRightTemplateCooldown -- inherited
+CharacterWaistSlot["popoutButton"] = PaperDollItemSlotButtonRightTemplatePopoutButton -- inherited
 CharacterWaistSlot["IsLeftSide"] = false -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonRightTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonRightTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L111)
 --- child of CharacterLegsSlot (created in template PaperDollItemSlotButtonRightTemplate)
@@ -463,7 +605,20 @@ CharacterLegsSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterLegsSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterLegsSlot = {}
+CharacterLegsSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterLegsSlot["Cooldown"] = PaperDollItemSlotButtonRightTemplateCooldown -- inherited
+CharacterLegsSlot["popoutButton"] = PaperDollItemSlotButtonRightTemplatePopoutButton -- inherited
 CharacterLegsSlot["IsLeftSide"] = false -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonRightTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonRightTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L111)
 --- child of CharacterFeetSlot (created in template PaperDollItemSlotButtonRightTemplate)
@@ -474,7 +629,20 @@ CharacterFeetSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterFeetSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterFeetSlot = {}
+CharacterFeetSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterFeetSlot["Cooldown"] = PaperDollItemSlotButtonRightTemplateCooldown -- inherited
+CharacterFeetSlot["popoutButton"] = PaperDollItemSlotButtonRightTemplatePopoutButton -- inherited
 CharacterFeetSlot["IsLeftSide"] = false -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonRightTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonRightTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L111)
 --- child of CharacterFinger0Slot (created in template PaperDollItemSlotButtonRightTemplate)
@@ -485,7 +653,20 @@ CharacterFinger0SlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterFinger0Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterFinger0Slot = {}
+CharacterFinger0Slot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterFinger0Slot["Cooldown"] = PaperDollItemSlotButtonRightTemplateCooldown -- inherited
+CharacterFinger0Slot["popoutButton"] = PaperDollItemSlotButtonRightTemplatePopoutButton -- inherited
 CharacterFinger0Slot["IsLeftSide"] = false -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonRightTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonRightTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L111)
 --- child of CharacterFinger1Slot (created in template PaperDollItemSlotButtonRightTemplate)
@@ -496,7 +677,20 @@ CharacterFinger1SlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterFinger1Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterFinger1Slot = {}
+CharacterFinger1Slot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterFinger1Slot["Cooldown"] = PaperDollItemSlotButtonRightTemplateCooldown -- inherited
+CharacterFinger1Slot["popoutButton"] = PaperDollItemSlotButtonRightTemplatePopoutButton -- inherited
 CharacterFinger1Slot["IsLeftSide"] = false -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonRightTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonRightTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L111)
 --- child of CharacterTrinket0Slot (created in template PaperDollItemSlotButtonRightTemplate)
@@ -507,7 +701,20 @@ CharacterTrinket0SlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterTrinket0Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterTrinket0Slot = {}
+CharacterTrinket0Slot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterTrinket0Slot["Cooldown"] = PaperDollItemSlotButtonRightTemplateCooldown -- inherited
+CharacterTrinket0Slot["popoutButton"] = PaperDollItemSlotButtonRightTemplatePopoutButton -- inherited
 CharacterTrinket0Slot["IsLeftSide"] = false -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonRightTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonRightTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonRightTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L111)
 --- child of CharacterTrinket1Slot (created in template PaperDollItemSlotButtonRightTemplate)
@@ -518,11 +725,24 @@ CharacterTrinket1SlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterTrinket1Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterTrinket1Slot = {}
+CharacterTrinket1Slot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterTrinket1Slot["Cooldown"] = PaperDollItemSlotButtonRightTemplateCooldown -- inherited
+CharacterTrinket1Slot["popoutButton"] = PaperDollItemSlotButtonRightTemplatePopoutButton -- inherited
 CharacterTrinket1Slot["IsLeftSide"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L908)
 --- child of CharacterMainHandSlot
 --- @class  : Texture, Char-Slot-Bottom-Left
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonBottomTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonBottomTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonBottomTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonBottomTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L129)
 --- child of CharacterMainHandSlot (created in template PaperDollItemSlotButtonBottomTemplate)
@@ -533,10 +753,23 @@ CharacterMainHandSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterMainHandSlot : ItemButton, PaperDollItemSlotButtonBottomTemplate
 CharacterMainHandSlot = {}
+CharacterMainHandSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterMainHandSlot["Cooldown"] = PaperDollItemSlotButtonBottomTemplateCooldown -- inherited
+CharacterMainHandSlot["popoutButton"] = PaperDollItemSlotButtonBottomTemplatePopoutButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L922)
 --- child of CharacterSecondaryHandSlot
 --- @class  : Texture, Char-Slot-Bottom-Right
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonBottomTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
+PaperDollItemSlotButtonBottomTemplateCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonBottomTemplate (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+PaperDollItemSlotButtonBottomTemplatePopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L129)
 --- child of CharacterSecondaryHandSlot (created in template PaperDollItemSlotButtonBottomTemplate)
@@ -547,6 +780,9 @@ CharacterSecondaryHandSlotFrame = {}
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterSecondaryHandSlot : ItemButton, PaperDollItemSlotButtonBottomTemplate
 CharacterSecondaryHandSlot = {}
+CharacterSecondaryHandSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
+CharacterSecondaryHandSlot["Cooldown"] = PaperDollItemSlotButtonBottomTemplateCooldown -- inherited
+CharacterSecondaryHandSlot["popoutButton"] = PaperDollItemSlotButtonBottomTemplatePopoutButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L820)
 --- child of PaperDollFrame

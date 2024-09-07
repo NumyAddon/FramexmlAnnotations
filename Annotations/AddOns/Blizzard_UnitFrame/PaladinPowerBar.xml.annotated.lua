@@ -140,6 +140,9 @@ PaladinPowerBarFrameRune5["runeNumber"] = 1 -- inherited
 --- @field layoutIndex number # 3
 PaladinPowerBarFrame = {}
 PaladinPowerBarFrame["layoutIndex"] = 3
+PaladinPowerBarFrame["isManagedFrame"] = true -- inherited
+PaladinPowerBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+PaladinPowerBarFrame["maxUsablePoints"] = 5 -- inherited
 PaladinPowerBarFrame["powerToken"] = "HOLY_POWER" -- inherited
 PaladinPowerBarFrame["rune1"] = PaladinPowerBarFrameRune1 -- inherited
 PaladinPowerBarFrame["rune2"] = PaladinPowerBarFrameRune2 -- inherited

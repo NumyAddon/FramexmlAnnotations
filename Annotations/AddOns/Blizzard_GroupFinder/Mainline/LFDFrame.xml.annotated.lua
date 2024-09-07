@@ -41,11 +41,13 @@ LFDRoleCheckPopupRoleButtonDPS["role"] = "DAMAGER"
 --- child of LFDRoleCheckPopup
 --- @class LFDRoleCheckPopup_LFDRoleCheckPopupAcceptButton : Button, UIPanelButtonTemplate
 LFDRoleCheckPopupAcceptButton = {}
+LFDRoleCheckPopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L97)
 --- child of LFDRoleCheckPopup
 --- @class LFDRoleCheckPopup_LFDRoleCheckPopupDeclineButton : Button, UIPanelButtonTemplate
 LFDRoleCheckPopupDeclineButton = {}
+LFDRoleCheckPopupDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L109)
 --- child of LFDRoleCheckPopupDescription
@@ -102,12 +104,49 @@ LFDReadyCheckPopup = {}
 LFDParentFrameInset = {}
 LFDParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L167)
+--- child of LFGRoleButtonWithBackgroundAndRewardTemplate (created in template LFGRoleButtonWithBackgroundTemplate)
+--- @type Texture
+LFGRoleButtonWithBackgroundAndRewardTemplateBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L188)
+--- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- @type LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
+--- @field texture Texture
+--- @field border Texture
+LFDRoleButtonTemplateIncentiveIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L179)
+--- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- @type Texture
+LFDRoleButtonTemplateShortageBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L224)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameRoleButtonTank : Button, LFDRoleButtonTemplate
 --- @field role string # "TANK"
 LFDQueueFrameRoleButtonTank = {}
 LFDQueueFrameRoleButtonTank["role"] = "TANK"
+LFDQueueFrameRoleButtonTank["background"] = LFGRoleButtonWithBackgroundAndRewardTemplateBackground -- inherited
+LFDQueueFrameRoleButtonTank["incentiveIcon"] = LFDRoleButtonTemplateIncentiveIcon -- inherited
+LFDQueueFrameRoleButtonTank["shortageBorder"] = LFDRoleButtonTemplateShortageBorder -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L167)
+--- child of LFGRoleButtonWithBackgroundAndRewardTemplate (created in template LFGRoleButtonWithBackgroundTemplate)
+--- @type Texture
+LFGRoleButtonWithBackgroundAndRewardTemplateBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L188)
+--- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- @type LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
+--- @field texture Texture
+--- @field border Texture
+LFDRoleButtonTemplateIncentiveIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L179)
+--- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- @type Texture
+LFDRoleButtonTemplateShortageBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L232)
 --- child of LFDQueueFrame
@@ -115,6 +154,26 @@ LFDQueueFrameRoleButtonTank["role"] = "TANK"
 --- @field role string # "HEALER"
 LFDQueueFrameRoleButtonHealer = {}
 LFDQueueFrameRoleButtonHealer["role"] = "HEALER"
+LFDQueueFrameRoleButtonHealer["background"] = LFGRoleButtonWithBackgroundAndRewardTemplateBackground -- inherited
+LFDQueueFrameRoleButtonHealer["incentiveIcon"] = LFDRoleButtonTemplateIncentiveIcon -- inherited
+LFDQueueFrameRoleButtonHealer["shortageBorder"] = LFDRoleButtonTemplateShortageBorder -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L167)
+--- child of LFGRoleButtonWithBackgroundAndRewardTemplate (created in template LFGRoleButtonWithBackgroundTemplate)
+--- @type Texture
+LFGRoleButtonWithBackgroundAndRewardTemplateBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L188)
+--- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- @type LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
+--- @field texture Texture
+--- @field border Texture
+LFDRoleButtonTemplateIncentiveIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L179)
+--- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- @type Texture
+LFDRoleButtonTemplateShortageBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L240)
 --- child of LFDQueueFrame
@@ -122,6 +181,9 @@ LFDQueueFrameRoleButtonHealer["role"] = "HEALER"
 --- @field role string # "DAMAGER"
 LFDQueueFrameRoleButtonDPS = {}
 LFDQueueFrameRoleButtonDPS["role"] = "DAMAGER"
+LFDQueueFrameRoleButtonDPS["background"] = LFGRoleButtonWithBackgroundAndRewardTemplateBackground -- inherited
+LFDQueueFrameRoleButtonDPS["incentiveIcon"] = LFDRoleButtonTemplateIncentiveIcon -- inherited
+LFDQueueFrameRoleButtonDPS["shortageBorder"] = LFDRoleButtonTemplateShortageBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L248)
 --- child of LFDQueueFrame
@@ -194,16 +256,19 @@ LFDQueueFrameFollower = {}
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameFindGroupButton : Button, MagicButtonTemplate
 LFDQueueFrameFindGroupButton = {}
+LFDQueueFrameFindGroupButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1096)
 --- child of LFDQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
 --- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateBackfillButton
 LFDQueueFramePartyBackfillBackfillButton = {}
+LFDQueueFramePartyBackfillBackfillButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1108)
 --- child of LFDQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
 --- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateNoBackfillButton
 LFDQueueFramePartyBackfillNoBackfillButton = {}
+LFDQueueFramePartyBackfillNoBackfillButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L1082)
 --- child of LFDQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
@@ -327,6 +392,7 @@ LFDQueueFrameCooldownFrame["time"] = LFDQueueFrameCooldownFrameTime -- inherited
 --- child of LFDQueueFrameNoLFDWhileLFR
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameNoLFDWhileLFR_LFDQueueFrameNoLFDWhileLFRLeaveQueueButton : Button, UIPanelButtonTemplate
 LFDQueueFrameNoLFDWhileLFRLeaveQueueButton = {}
+LFDQueueFrameNoLFDWhileLFRLeaveQueueButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L433)
 --- child of LFDQueueFrameNoLFDWhileLFR

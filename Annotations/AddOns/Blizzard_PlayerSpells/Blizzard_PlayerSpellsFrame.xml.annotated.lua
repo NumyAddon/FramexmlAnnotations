@@ -23,6 +23,11 @@
 --- @class PlayerSpellsFrame_SpellBookFrame : Frame, SpellBookFrameTemplate
 --- @field minimizedWidth string # "806"
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L1062)
+--- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PortraitFrameTemplateNoCloseButtonBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L1095)
 --- child of PlayerSpellsFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
@@ -38,5 +43,7 @@ PlayerSpellsFrameCloseButton = {}
 --- @field SpellBookFrame PlayerSpellsFrame_SpellBookFrame
 PlayerSpellsFrame = {}
 PlayerSpellsFrame["minimizedWidth"] = "809"
+PlayerSpellsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+PlayerSpellsFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 PlayerSpellsFrame["CloseButton"] = PlayerSpellsFrameCloseButton -- inherited
 

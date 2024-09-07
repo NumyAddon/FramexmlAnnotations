@@ -117,6 +117,11 @@
 --- child of 
 --- @class ReputationFrame_ReputationDetailFrame_MakeInactiveCheckbox_Label : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+ReputationFrameText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L343)
 --- child of 
 --- @class ReputationFrame_ReputationDetailFrame_MakeInactiveCheckbox : CheckButton, UICheckButtonTemplate, ReputationDetailInactiveCheckboxMixin
@@ -125,6 +130,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L376)
 --- child of 
 --- @class ReputationFrame_ReputationDetailFrame_WatchFactionCheckbox_Label : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+ReputationFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L366)
 --- child of 

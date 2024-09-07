@@ -66,5 +66,6 @@ DurabilityRanged = {}
 DurabilityFrame = {}
 DurabilityFrame["layoutIndex"] = 9
 DurabilityFrame["system"] = Enum.EditModeSystem.DurabilityFrame -- inherited
+DurabilityFrame["isManagedFrame"] = true -- inherited
 DurabilityFrame["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
 

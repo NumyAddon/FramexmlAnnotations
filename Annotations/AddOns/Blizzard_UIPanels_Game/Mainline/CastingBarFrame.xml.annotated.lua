@@ -170,6 +170,7 @@
 --- @field layoutIndex number # 2
 PlayerCastingBarFrame = {}
 PlayerCastingBarFrame["layoutIndex"] = 2
+PlayerCastingBarFrame["isManagedFrame"] = true -- inherited
 PlayerCastingBarFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 PlayerCastingBarFrame["system"] = Enum.EditModeSystem.CastBar -- inherited
 

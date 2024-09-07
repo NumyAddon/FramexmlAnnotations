@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L7)
---- child of AuraButtonTemplate
---- @class AuraButtonTemplate_AuraButtonTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L8)
 --- child of AuraButtonTemplate
 --- @class AuraButtonTemplate_AuraButtonTemplateCount : FontString, NumberFontNormal
@@ -22,10 +18,6 @@
 --- Template
 --- @class BuffButtonTemplate : Button, AuraButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L48)
---- child of DebuffButtonTemplate
---- @class DebuffButtonTemplate_DebuffButtonTemplateBorder : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L57)
 --- child of DebuffButtonTemplate
 --- @class DebuffButtonTemplate_symbol : FontString, TextStatusBarText
@@ -34,10 +26,6 @@
 --- Template
 --- @class DebuffButtonTemplate : Button, AuraButtonTemplate
 --- @field symbol DebuffButtonTemplate_symbol
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L75)
---- child of TempEnchantButtonTemplate
---- @class TempEnchantButtonTemplate_TempEnchantButtonTemplateBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L72)
 --- Template

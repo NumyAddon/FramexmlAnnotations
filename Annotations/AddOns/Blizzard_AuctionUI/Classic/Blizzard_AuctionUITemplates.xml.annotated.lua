@@ -8,38 +8,14 @@
 --- Template
 --- @class AuctionRadioButtonTemplate : CheckButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L36)
---- child of AuctionClassButtonTemplate
---- @class AuctionClassButtonTemplate_AuctionClassButtonTemplateLines : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L65)
---- child of AuctionClassButtonTemplate
---- @class AuctionClassButtonTemplate_AuctionClassButtonTemplateNormalTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L30)
 --- Template
 --- @class AuctionClassButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L87)
---- child of AuctionSortButtonTemplate
---- @class AuctionSortButtonTemplate_AuctionSortButtonTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L96)
---- child of AuctionSortButtonTemplate
---- @class AuctionSortButtonTemplate_AuctionSortButtonTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L105)
---- child of AuctionSortButtonTemplate
---- @class AuctionSortButtonTemplate_AuctionSortButtonTemplateMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L127)
---- child of AuctionSortButtonTemplate
---- @class AuctionSortButtonTemplate_AuctionSortButtonTemplateArrow : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L84)
 --- Template
 --- @class AuctionSortButtonTemplate : Button
---- @field Arrow AuctionSortButtonTemplate_AuctionSortButtonTemplateArrow
+--- @field Arrow Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L158)
 --- Template
@@ -75,10 +51,6 @@
 --- @field TransactionType WowTokenLogButtonTemplate_TransactionType
 --- @field Price WowTokenLogButtonTemplate_Price
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L337)
---- child of BrowseButtonTemplateItem
---- @class BrowseButtonTemplate_BrowseButtonTemplateItem_BrowseButtonTemplateItemIconTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L338)
 --- child of BrowseButtonTemplateItem
 --- @class BrowseButtonTemplate_BrowseButtonTemplateItem_BrowseButtonTemplateItemCount : FontString, NumberFontNormal
@@ -86,10 +58,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L347)
 --- child of BrowseButtonTemplateItem
 --- @class BrowseButtonTemplate_BrowseButtonTemplateItem_BrowseButtonTemplateItemStock : FontString, NumberFontNormalYellow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L400)
---- child of BrowseButtonTemplateItem
---- @class BrowseButtonTemplate_BrowseButtonTemplateItem_BrowseButtonTemplateItemNormalTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L324)
 --- child of BrowseButtonTemplate
@@ -152,26 +120,10 @@
 --- child of BrowseButtonTemplate
 --- @class BrowseButtonTemplate_BrowseButtonTemplateLevel : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L277)
---- child of BrowseButtonTemplate
---- @class BrowseButtonTemplate_BrowseButtonTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L290)
---- child of BrowseButtonTemplate
---- @class BrowseButtonTemplate_BrowseButtonTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L572)
---- child of BrowseButtonTemplate
---- @class BrowseButtonTemplate_BrowseButtonTemplateHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L247)
 --- Template
 --- @class BrowseButtonTemplate : Button
 --- @field PriceTooltipFrame Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L688)
---- child of BidButtonTemplateItem
---- @class BidButtonTemplate_BidButtonTemplateItem_BidButtonTemplateItemIconTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L689)
 --- child of BidButtonTemplateItem
@@ -180,10 +132,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L698)
 --- child of BidButtonTemplateItem
 --- @class BidButtonTemplate_BidButtonTemplateItem_BidButtonTemplateItemStock : FontString, NumberFontNormalYellow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L751)
---- child of BidButtonTemplateItem
---- @class BidButtonTemplate_BidButtonTemplateItem_BidButtonTemplateItemNormalTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L675)
 --- child of BidButtonTemplate
@@ -219,25 +167,9 @@
 --- child of BidButtonTemplate
 --- @class BidButtonTemplate_BidButtonTemplateBidStatus : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L628)
---- child of BidButtonTemplate
---- @class BidButtonTemplate_BidButtonTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L641)
---- child of BidButtonTemplate
---- @class BidButtonTemplate_BidButtonTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L845)
---- child of BidButtonTemplate
---- @class BidButtonTemplate_BidButtonTemplateHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L586)
 --- Template
 --- @class BidButtonTemplate : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L937)
---- child of AuctionsButtonTemplateItem
---- @class AuctionsButtonTemplate_AuctionsButtonTemplateItem_AuctionsButtonTemplateItemIconTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L938)
 --- child of AuctionsButtonTemplateItem
@@ -246,10 +178,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L947)
 --- child of AuctionsButtonTemplateItem
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateItem_AuctionsButtonTemplateItemStock : FontString, NumberFontNormalYellow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L1000)
---- child of AuctionsButtonTemplateItem
---- @class AuctionsButtonTemplate_AuctionsButtonTemplateItem_AuctionsButtonTemplateItemNormalTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L924)
 --- child of AuctionsButtonTemplate
@@ -301,18 +229,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L865)
 --- child of AuctionsButtonTemplate
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateName : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L877)
---- child of AuctionsButtonTemplate
---- @class AuctionsButtonTemplate_AuctionsButtonTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L890)
---- child of AuctionsButtonTemplate
---- @class AuctionsButtonTemplate_AuctionsButtonTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L1152)
---- child of AuctionsButtonTemplate
---- @class AuctionsButtonTemplate_AuctionsButtonTemplateHighlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L859)
 --- Template

@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L28)
---- child of ReputationHeaderTemplate
---- @class ReputationHeaderTemplate_ReputationHeaderTemplateHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L3)
 --- Template
 --- @class ReputationHeaderTemplate : Button
@@ -12,14 +8,6 @@
 --- child of ReputationBarTemplate
 --- @class ReputationBarTemplate_ReputationBarTemplateAtWarCheck : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
---- child of ReputationBarTemplate
---- @class ReputationBarTemplate_ReputationBarTemplateReputationBarLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
---- child of ReputationBarTemplate
---- @class ReputationBarTemplate_ReputationBarTemplateReputationBarRight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
 --- child of ReputationBarTemplate
 --- @class ReputationBarTemplate_ReputationBarTemplateFactionName : FontString, GameFontHighlightSmall
@@ -27,18 +15,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
 --- child of ReputationBarTemplate
 --- @class ReputationBarTemplate_ReputationBarTemplateFactionStanding : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBarTemplate
---- @class ReputationBarTemplate_ReputationBarTemplateHighlight1 : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBarTemplate
---- @class ReputationBarTemplate_ReputationBarTemplateHighlight2 : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBarTemplate
---- @class ReputationBarTemplate_ReputationBarTemplateCheck : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L53)
 --- Template

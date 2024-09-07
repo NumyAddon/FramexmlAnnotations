@@ -1,28 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L9)
---- child of PVPFrameLineTemplate
---- @class PVPFrameLineTemplate_PVPFrameLineTemplateTop : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L3)
 --- Template
 --- @class PVPFrameLineTemplate : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L44)
---- child of PVPTeamStandardTemplate
---- @class PVPTeamStandardTemplate_PVPTeamStandardTemplateBar : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L59)
---- child of PVPTeamStandardTemplate
---- @class PVPTeamStandardTemplate_PVPTeamStandardTemplateBanner : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L73)
---- child of PVPTeamStandardTemplate
---- @class PVPTeamStandardTemplate_PVPTeamStandardTemplateBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L83)
---- child of PVPTeamStandardTemplate
---- @class PVPTeamStandardTemplate_PVPTeamStandardTemplateEmblem : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L95)
 --- child of PVPTeamStandardTemplate
@@ -35,26 +15,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L186)
 --- child of PVPTeamBorderTemplate
 --- @class PVPTeamBorderTemplate_PVPTeamBorderTemplateHighlight : Frame, BackdropTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L118)
---- child of PVPTeamBorderTemplate
---- @class PVPTeamBorderTemplate_PVPTeamBorderTemplateTop : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L131)
---- child of PVPTeamBorderTemplate
---- @class PVPTeamBorderTemplate_PVPTeamBorderTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L144)
---- child of PVPTeamBorderTemplate
---- @class PVPTeamBorderTemplate_PVPTeamBorderTemplateBackground : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L157)
---- child of PVPTeamBorderTemplate
---- @class PVPTeamBorderTemplate_PVPTeamBorderTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L170)
---- child of PVPTeamBorderTemplate
---- @class PVPTeamBorderTemplate_PVPTeamBorderTemplateBottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L112)
 --- Template
@@ -164,22 +124,6 @@
 --- Template
 --- @class PVPTeamMemberButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L506)
---- child of PVPTeamDetailsFrameColumnHeaderTemplate
---- @class PVPTeamDetailsFrameColumnHeaderTemplate_PVPTeamDetailsFrameColumnHeaderTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L515)
---- child of PVPTeamDetailsFrameColumnHeaderTemplate
---- @class PVPTeamDetailsFrameColumnHeaderTemplate_PVPTeamDetailsFrameColumnHeaderTemplateMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L524)
---- child of PVPTeamDetailsFrameColumnHeaderTemplate
---- @class PVPTeamDetailsFrameColumnHeaderTemplate_PVPTeamDetailsFrameColumnHeaderTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L553)
---- child of PVPTeamDetailsFrameColumnHeaderTemplate
---- @class PVPTeamDetailsFrameColumnHeaderTemplate_PVPTeamDetailsFrameColumnHeaderTemplateHighlightTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L500)
 --- Template
 --- @class PVPTeamDetailsFrameColumnHeaderTemplate : Button
@@ -189,39 +133,11 @@
 --- @class PVPBattlegroundButtonTemplate_status : Frame
 --- @field texture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L594)
---- child of PVPBattlegroundButtonTemplate
---- @class PVPBattlegroundButtonTemplate_PVPBattlegroundButtonTemplateHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L568)
 --- Template
 --- @class PVPBattlegroundButtonTemplate : Button
 --- @field status PVPBattlegroundButtonTemplate_status
---- @field highlight PVPBattlegroundButtonTemplate_PVPBattlegroundButtonTemplateHighlight
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L616)
---- child of PVPArenaTeamFlagTemplate
---- @class PVPArenaTeamFlagTemplate_PVPArenaTeamFlagTemplateBanner : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L626)
---- child of PVPArenaTeamFlagTemplate
---- @class PVPArenaTeamFlagTemplate_PVPArenaTeamFlagTemplateGlowBG : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L632)
---- child of PVPArenaTeamFlagTemplate
---- @class PVPArenaTeamFlagTemplate_PVPArenaTeamFlagTemplateHeader : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L639)
---- child of PVPArenaTeamFlagTemplate
---- @class PVPArenaTeamFlagTemplate_PVPArenaTeamFlagTemplateHeaderSelected : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L646)
---- child of PVPArenaTeamFlagTemplate
---- @class PVPArenaTeamFlagTemplate_PVPArenaTeamFlagTemplateBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L656)
---- child of PVPArenaTeamFlagTemplate
---- @class PVPArenaTeamFlagTemplate_PVPArenaTeamFlagTemplateEmblem : Texture
+--- @field highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L668)
 --- child of PVPArenaTeamFlagTemplate
@@ -230,9 +146,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L612)
 --- Template
 --- @class PVPArenaTeamFlagTemplate : Button
---- @field Glow PVPArenaTeamFlagTemplate_PVPArenaTeamFlagTemplateGlowBG
---- @field NormalHeader PVPArenaTeamFlagTemplate_PVPArenaTeamFlagTemplateHeader
---- @field GlowHeader PVPArenaTeamFlagTemplate_PVPArenaTeamFlagTemplateHeaderSelected
+--- @field Glow Texture
+--- @field NormalHeader Texture
+--- @field GlowHeader Texture
 --- @field title PVPArenaTeamFlagTemplate_PVPArenaTeamFlagTemplateTitle
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PVPFrameTemplates.xml#L708)

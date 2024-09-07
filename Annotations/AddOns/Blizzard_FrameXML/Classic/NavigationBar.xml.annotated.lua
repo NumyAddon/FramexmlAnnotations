@@ -22,10 +22,6 @@
 --- child of NavBarTemplate
 --- @class NavBarTemplate_NavBarTemplateOverflowButton : DropdownButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L179)
---- child of NavBarTemplateHomeButton
---- @class NavBarTemplate_NavBarTemplateHomeButton_NavBarTemplateHomeButtonLeft : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L175)
 --- child of NavBarTemplate
 --- @class NavBarTemplate_NavBarTemplateHomeButton : Button

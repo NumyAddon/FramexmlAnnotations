@@ -20,14 +20,6 @@
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_ActionButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L23)
---- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L26)
---- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateFlash : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L27)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_ActionButtonTemplateFlyoutBorder : Texture, ActionBarFlyoutButton-IconFrame
@@ -52,35 +44,27 @@
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_ActionButtonTemplateName : FontString, GameFontHighlightSmallOutline
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L59)
---- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateBorder : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L88)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_SpellHighlightAnim : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L110)
---- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateNormalTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L17)
 --- Template
 --- @class ActionButtonTemplate : CheckButton
 --- @field AutoCastShine ActionButtonTemplate_ActionButtonTemplateShine
 --- @field cooldown ActionButtonTemplate_ActionButtonTemplateCooldown
---- @field icon ActionButtonTemplate_ActionButtonTemplateIcon
---- @field Flash ActionButtonTemplate_ActionButtonTemplateFlash
+--- @field icon Texture
+--- @field Flash Texture
 --- @field FlyoutBorder ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
 --- @field FlyoutBorderShadow ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
 --- @field FlyoutArrow ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
 --- @field HotKey ActionButtonTemplate_ActionButtonTemplateHotKey
 --- @field Count ActionButtonTemplate_ActionButtonTemplateCount
 --- @field Name ActionButtonTemplate_ActionButtonTemplateName
---- @field Border ActionButtonTemplate_ActionButtonTemplateBorder
+--- @field Border Texture
 --- @field NewActionTexture Texture
 --- @field SpellHighlightTexture Texture
 --- @field AutoCastable Texture
 --- @field SpellHighlightAnim ActionButtonTemplate_SpellHighlightAnim
---- @field NormalTexture ActionButtonTemplate_ActionButtonTemplateNormalTexture
+--- @field NormalTexture Texture
 

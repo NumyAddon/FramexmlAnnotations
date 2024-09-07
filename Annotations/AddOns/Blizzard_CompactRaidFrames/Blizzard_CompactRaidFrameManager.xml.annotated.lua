@@ -1,13 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L6)
---- child of CRFManagerFilterButtonTemplate
---- @class CRFManagerFilterButtonTemplate_CRFManagerFilterButtonTemplateSelectedHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L3)
 --- Template
 --- @class CRFManagerFilterButtonTemplate : Button, UIMenuButtonStretchTemplate
---- @field selectedHighlight CRFManagerFilterButtonTemplate_CRFManagerFilterButtonTemplateSelectedHighlight
+--- @field selectedHighlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L12)
 --- Template

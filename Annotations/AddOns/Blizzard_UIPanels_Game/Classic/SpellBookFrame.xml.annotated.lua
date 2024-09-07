@@ -16,14 +16,6 @@
 --- child of SpellButtonTemplate
 --- @class SpellButtonTemplate_SpellButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L93)
---- child of SpellButtonTemplate
---- @class SpellButtonTemplate_SpellButtonTemplateBackground : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L107)
---- child of SpellButtonTemplate
---- @class SpellButtonTemplate_SpellButtonTemplateIconTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L108)
 --- child of SpellButtonTemplate
 --- @class SpellButtonTemplate_SpellButtonTemplateSpellName : FontString, GameFontNormal
@@ -32,23 +24,11 @@
 --- child of SpellButtonTemplate
 --- @class SpellButtonTemplate_SpellButtonTemplateSubSpellName : FontString, SubSpellFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L135)
---- child of SpellButtonTemplate
---- @class SpellButtonTemplate_SpellButtonTemplateAutoCastable : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L188)
---- child of SpellButtonTemplate
---- @class SpellButtonTemplate_SpellButtonTemplateNormalTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L201)
---- child of SpellButtonTemplate
---- @class SpellButtonTemplate_SpellButtonTemplateHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L87)
 --- Template
 --- @class SpellButtonTemplate : CheckButton, SecureFrameTemplate
 --- @field cooldown SpellButtonTemplate_SpellButtonTemplateCooldown
---- @field EmptySlot SpellButtonTemplate_SpellButtonTemplateBackground
+--- @field EmptySlot Texture
 --- @field SpellName SpellButtonTemplate_SpellButtonTemplateSpellName
 --- @field SpellSubName SpellButtonTemplate_SpellButtonTemplateSubSpellName
 

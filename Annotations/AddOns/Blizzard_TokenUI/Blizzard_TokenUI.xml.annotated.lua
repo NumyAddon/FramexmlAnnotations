@@ -1,13 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L9)
---- child of TokenButtonTemplate
---- @class TokenButtonTemplate_TokenButtonTemplateStripe : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L14)
---- child of TokenButtonTemplate
---- @class TokenButtonTemplate_TokenButtonTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L24)
 --- child of TokenButtonTemplate
 --- @class TokenButtonTemplate_TokenButtonTemplateCount : FontString, GameFontHighlightRight
@@ -15,26 +7,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L31)
 --- child of TokenButtonTemplate
 --- @class TokenButtonTemplate_TokenButtonTemplateName : FontString, GameFontHighlightLeft
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L41)
---- child of TokenButtonTemplate
---- @class TokenButtonTemplate_TokenButtonTemplateCheck : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L51)
---- child of TokenButtonTemplate
---- @class TokenButtonTemplate_TokenButtonTemplateCategoryRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L62)
---- child of TokenButtonTemplate
---- @class TokenButtonTemplate_TokenButtonTemplateCategoryLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L78)
---- child of TokenButtonTemplate
---- @class TokenButtonTemplate_TokenButtonTemplateExpandIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L142)
---- child of TokenButtonTemplate
---- @class TokenButtonTemplate_TokenButtonTemplateHighlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L3)
 --- Template
@@ -101,10 +73,6 @@ TokenFramePopup = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L407)
 --- child of BackpackTokenTemplate
 --- @class BackpackTokenTemplate_BackpackTokenTemplateCount : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L415)
---- child of BackpackTokenTemplate
---- @class BackpackTokenTemplate_BackpackTokenTemplateIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L401)
 --- Template

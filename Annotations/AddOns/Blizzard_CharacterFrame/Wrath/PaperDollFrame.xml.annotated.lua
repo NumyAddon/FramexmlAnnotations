@@ -60,10 +60,6 @@
 --- Template
 --- @class GearSetButtonTemplate : CheckButton, PopupButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L204)
---- child of GearSetPopupButtonTemplate
---- @class GearSetPopupButtonTemplate_GearSetPopupButtonTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L193)
 --- Template
 --- @class GearSetPopupButtonTemplate : CheckButton, SimplePopupButtonTemplate

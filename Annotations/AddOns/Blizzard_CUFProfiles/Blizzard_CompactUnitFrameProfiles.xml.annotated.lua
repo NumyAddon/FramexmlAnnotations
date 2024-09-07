@@ -37,10 +37,6 @@
 --- @field minLabel CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLow
 --- @field maxLabel CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L127)
---- child of CompactUnitFrameProfileDialogWithCoverTemplateCover
---- @class CompactUnitFrameProfileDialogWithCoverTemplate_CompactUnitFrameProfileDialogWithCoverTemplateCover_CompactUnitFrameProfileDialogWithCoverTemplateCoverBlackFilter : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L124)
 --- child of CompactUnitFrameProfileDialogWithCoverTemplate
 --- @class CompactUnitFrameProfileDialogWithCoverTemplate_CompactUnitFrameProfileDialogWithCoverTemplateCover : Frame

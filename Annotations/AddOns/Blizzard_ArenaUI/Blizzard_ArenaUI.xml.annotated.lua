@@ -13,10 +13,6 @@
 --- @field Spark Texture
 --- @field Flash Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L84)
---- child of 
---- @class Texture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L91)
 --- child of 
 --- @class Name : FontString, GameFontNormalSmall
@@ -38,21 +34,9 @@
 --- child of ArenaEnemyPetFrameTemplate
 --- @class ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L64)
---- child of ArenaEnemyPetFrameTemplate
---- @class ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateFlash : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L70)
---- child of ArenaEnemyPetFrameTemplate
---- @class ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplatePortrait : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L57)
 --- Template
 --- @class ArenaEnemyPetFrameTemplate : Button, SecureUnitButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L162)
---- child of 
---- @class Texture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L169)
 --- child of 
@@ -82,26 +66,6 @@
 --- child of 
 --- @class ManaBarTextRight : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L206)
---- child of 
---- @class SpecPortrait : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L214)
---- child of 
---- @class Status : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L218)
---- child of 
---- @class SpecBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of 
---- @class Disconnect : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L232)
---- child of 
---- @class PVPIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L159)
 --- child of 
 --- @class  : Frame
@@ -123,19 +87,11 @@
 --- child of ArenaPrepFrameTemplate
 --- @class ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar : StatusBar, ArenaCastingBarFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L141)
---- child of ArenaPrepFrameTemplate
---- @class ArenaPrepFrameTemplate_ArenaPrepFrameTemplateClassPortrait : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
---- child of ArenaPrepFrameTemplate
---- @class ArenaPrepFrameTemplate_ArenaPrepFrameTemplateBackground : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L137)
 --- Template
 --- @class ArenaPrepFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field CastingBar ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
---- @field classPortrait ArenaPrepFrameTemplate_ArenaPrepFrameTemplateClassPortrait
+--- @field classPortrait Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L308)
 --- child of 

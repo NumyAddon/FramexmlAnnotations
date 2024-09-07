@@ -4,17 +4,9 @@
 --- child of PetActionButtonTemplate
 --- @class PetActionButtonTemplate_PetActionButtonTemplateShine : Frame, AutoCastShineTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L7)
---- child of PetActionButtonTemplate
---- @class PetActionButtonTemplate_PetActionButtonTemplateAutoCastable : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L30)
 --- child of PetActionButtonTemplate
 --- @class PetActionButtonTemplate_SpellHighlightAnim : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L69)
---- child of PetActionButtonTemplate
---- @class PetActionButtonTemplate_PetActionButtonTemplateNormalTexture2 : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L3)
 --- Template

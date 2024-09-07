@@ -8,14 +8,6 @@
 --- child of QuestLogTitleButtonTemplate
 --- @class QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
---- child of QuestLogTitleButtonTemplate
---- @class QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateCheck : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L76)
---- child of QuestLogTitleButtonTemplate
---- @class QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L3)
 --- Template
 --- @class QuestLogTitleButtonTemplate : Button

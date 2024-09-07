@@ -63,6 +63,12 @@
 --- @field ImageBounds PingSystemTutorial_Tutorial4_ImageBounds
 --- @field TutorialHeader PingSystemTutorial_Tutorial4_TutorialHeader
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1148)
+--- child of PingSystemTutorial (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+PingSystemTutorialInset = {}
+PingSystemTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L6)
 --- @class PingSystemTutorial : Frame, ButtonFrameTemplate, PingSystemTutorialMixin
 --- @field DragBar PingSystemTutorial_DragBar
@@ -72,4 +78,5 @@
 --- @field Tutorial4 PingSystemTutorial_Tutorial4
 --- @field Tutorial Texture
 PingSystemTutorial = {}
+PingSystemTutorial["Inset"] = PingSystemTutorialInset -- inherited
 

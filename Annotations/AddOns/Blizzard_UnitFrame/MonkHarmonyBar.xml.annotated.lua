@@ -27,8 +27,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/MonkHarmonyBar.xml#L105)
 --- Template
 --- @class MonkHarmonyBarFrameTemplate : Frame, ClassResourceBarTemplate, MonkPowerBar
+--- @field powerToken string # "CHI"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/MonkHarmonyBar.xml#L121)
 --- @class MonkHarmonyBarFrame : Frame, MonkHarmonyBarFrameTemplate
+--- @field topPadding number # 7
 MonkHarmonyBarFrame = {}
+MonkHarmonyBarFrame["topPadding"] = 7
+MonkHarmonyBarFrame["powerToken"] = "CHI" -- inherited
 

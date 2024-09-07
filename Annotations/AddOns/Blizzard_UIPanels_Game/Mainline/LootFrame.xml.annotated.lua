@@ -50,5 +50,9 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L110)
 --- @class LootFrame : Frame, ScrollingFlatPanelTemplate, EditModeLootFrameSystemTemplate, LootFrameMixin
+--- @field panelTitle any # ITEMS
 LootFrame = {}
+LootFrame["panelTitle"] = ITEMS
+LootFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
+LootFrame["system"] = Enum.EditModeSystem.LootFrame -- inherited
 

@@ -19,15 +19,39 @@
 --- @field text ReforgingStatTemplate_ReforgingStatTemplateText
 --- @field Bg Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L64)
+--- child of ReforgingFrameLeftStat1 (created in template ReforgingStatTemplate)
+--- @type ReforgingStatTemplate_ReforgingStatTemplateText
+ReforgingFrameLeftStat1Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L73)
+--- child of ReforgingFrameLeftStat1 (created in template ReforgingStatTemplate)
+--- @type Texture
+ReforgingFrameLeftStat1BG = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L226)
 --- child of ReforgingFrame
 --- @class ReforgingFrame_ReforgingFrameLeftStat1 : CheckButton, ReforgingStatTemplate
 ReforgingFrameLeftStat1 = {}
+ReforgingFrameLeftStat1["text"] = ReforgingFrameLeftStat1Text -- inherited
+ReforgingFrameLeftStat1["Bg"] = ReforgingFrameLeftStat1BG -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L64)
+--- child of ReforgingFrameRightStat1 (created in template ReforgingStatTemplate)
+--- @type ReforgingStatTemplate_ReforgingStatTemplateText
+ReforgingFrameRightStat1Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L73)
+--- child of ReforgingFrameRightStat1 (created in template ReforgingStatTemplate)
+--- @type Texture
+ReforgingFrameRightStat1BG = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L231)
 --- child of ReforgingFrame
 --- @class ReforgingFrame_ReforgingFrameRightStat1 : CheckButton, ReforgingStatTemplate
 ReforgingFrameRightStat1 = {}
+ReforgingFrameRightStat1["text"] = ReforgingFrameRightStat1Text -- inherited
+ReforgingFrameRightStat1["Bg"] = ReforgingFrameRightStat1BG -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L250)
 --- child of ReforgingFrameFinishedGlow
@@ -101,16 +125,43 @@ ReforgingFrameItemButtonTextGrabber = {}
 --- @field boundStatus ReforgingFrame_ReforgingFrameItemButton_ReforgingFrameItemButtonBoundStatus
 --- @field missingText ReforgingFrame_ReforgingFrameItemButton_ReforgingFrameItemButtonMissingText
 ReforgingFrameItemButton = {}
+ReforgingFrameItemButton["name"] = ReforgingFrameItemButtonName
+ReforgingFrameItemButton["boundStatus"] = ReforgingFrameItemButtonBoundStatus
+ReforgingFrameItemButton["missingText"] = ReforgingFrameItemButtonMissingText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L367)
 --- child of ReforgingFrame
 --- @class ReforgingFrame_ReforgingFrameInvisibleButton : Button
 ReforgingFrameInvisibleButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L110)
+--- child of ReforgingFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+ReforgingFrameMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L138)
+--- child of ReforgingFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+ReforgingFrameMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L162)
+--- child of ReforgingFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+ReforgingFrameMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L186)
+--- child of ReforgingFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+ReforgingFrameMoneyFrameGoldButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L388)
 --- child of ReforgingFrameButtonFrame
 --- @class ReforgingFrame_ReforgingFrameButtonFrame_ReforgingFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 ReforgingFrameMoneyFrame = {}
+ReforgingFrameMoneyFrame["trialErrorButton"] = ReforgingFrameMoneyFrameTrialErrorButton -- inherited
+ReforgingFrameMoneyFrame["CopperButton"] = ReforgingFrameMoneyFrameCopperButton -- inherited
+ReforgingFrameMoneyFrame["SilverButton"] = ReforgingFrameMoneyFrameSilverButton -- inherited
+ReforgingFrameMoneyFrame["GoldButton"] = ReforgingFrameMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L393)
 --- child of ReforgingFrameButtonFrame
@@ -152,6 +203,7 @@ ReforgingFrameButtonFrameMoneyMiddle = {}
 --- @class ReforgingFrame_ReforgingFrameButtonFrame : Frame
 --- @field InsetBorderBottom ReforgingFrame_ReforgingFrameButtonFrame_ReforgingFrameButtonFrameButtonBorder
 ReforgingFrameButtonFrame = {}
+ReforgingFrameButtonFrame["InsetBorderBottom"] = ReforgingFrameButtonFrameButtonBorder
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L167)
 --- child of ReforgingFrame
@@ -197,10 +249,56 @@ ReforgingFrameTitleTextLeft = {}
 --- @class ReforgingFrame_ReforgingFrameTitleTextRight : FontString, GameFontNormalMed3
 ReforgingFrameTitleTextRight = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1029)
+--- child of ReforgingFrame (created in template EtherealFrameTemplate)
+--- @type Texture
+ReforgingFrameCornerTL = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1036)
+--- child of ReforgingFrame (created in template EtherealFrameTemplate)
+--- @type Texture
+ReforgingFrameCornerTR = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1043)
+--- child of ReforgingFrame (created in template EtherealFrameTemplate)
+--- @type Texture
+ReforgingFrameCornerBL = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1050)
+--- child of ReforgingFrame (created in template EtherealFrameTemplate)
+--- @type Texture
+ReforgingFrameCornerBR = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1059)
+--- child of ReforgingFrame (created in template EtherealFrameTemplate)
+--- @type Texture
+ReforgingFrameLeftEdge = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1067)
+--- child of ReforgingFrame (created in template EtherealFrameTemplate)
+--- @type Texture
+ReforgingFrameRightEdge = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1075)
+--- child of ReforgingFrame (created in template EtherealFrameTemplate)
+--- @type Texture
+ReforgingFrameTopEdge = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1083)
+--- child of ReforgingFrame (created in template EtherealFrameTemplate)
+--- @type Texture
+ReforgingFrameBottomEdge = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L163)
 --- @class ReforgingFrame : Frame, EtherealFrameTemplate
 --- @field glow ReforgingFrame_ReforgingFrameFinishedGlow
 --- @field invisButton ReforgingFrame_ReforgingFrameInvisibleButton
 --- @field missingDescription ReforgingFrame_missingDescription
 ReforgingFrame = {}
+ReforgingFrame["glow"] = ReforgingFrameFinishedGlow
+ReforgingFrame["invisButton"] = ReforgingFrameInvisibleButton
+ReforgingFrame["CornerTL"] = ReforgingFrameCornerTL -- inherited
+ReforgingFrame["CornerTR"] = ReforgingFrameCornerTR -- inherited
+ReforgingFrame["CornerBL"] = ReforgingFrameCornerBL -- inherited
+ReforgingFrame["CornerBR"] = ReforgingFrameCornerBR -- inherited
 

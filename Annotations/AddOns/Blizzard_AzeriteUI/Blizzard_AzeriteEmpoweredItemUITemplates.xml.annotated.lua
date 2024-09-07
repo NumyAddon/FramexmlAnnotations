@@ -62,6 +62,10 @@
 --- @field SelectedGlowAnim AzeriteRankFrameTemplate_SelectedGlowAnim
 --- @field SelectedAnim AzeriteRankFrameTemplate_SelectedAnim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L1095)
+--- child of  (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L87)
 --- child of AzeriteEmpoweredItemUITemplate
 --- @class AzeriteEmpoweredItemUITemplate_BorderFrame : Frame, PortraitFrameTemplate

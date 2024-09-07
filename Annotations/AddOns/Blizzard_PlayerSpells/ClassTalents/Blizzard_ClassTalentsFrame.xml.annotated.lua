@@ -14,6 +14,70 @@
 --- @field CurrencyLabel ClassTalentCurrencyDisplayTemplate_CurrencyLabel
 --- @field CurrencyAmount ClassTalentCurrencyDisplayTemplate_CurrencyAmount
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L397)
+--- child of HeroTalentsUnlockedAnimFrame
+--- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune : Texture
+--- @field replaceWithClassVisual boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L405)
+--- child of HeroTalentsUnlockedAnimFrame
+--- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped : Texture
+--- @field replaceWithClassVisual boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L414)
+--- child of HeroTalentsUnlockedAnimFrame
+--- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune2 : Texture
+--- @field replaceWithClassVisual boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L422)
+--- child of HeroTalentsUnlockedAnimFrame
+--- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped2 : Texture
+--- @field replaceWithClassVisual boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L441)
+--- child of HeroTalentsUnlockedAnimFrame
+--- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneStatic : Texture
+--- @field replaceWithClassVisual boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L543)
+--- child of HeroTalentsUnlockedAnimFrame
+--- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Anim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L347)
+--- child of  (created in template HeroTalentsContainerTemplate)
+--- @type HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame
+--- @field BlackCover Texture
+--- @field BlackCover2 Texture
+--- @field Titans Texture
+--- @field Titans2 Texture
+--- @field HeroClassAnimBackgroundRunes Texture
+--- @field HeroClassAnimBackgroundRunes2 Texture
+--- @field PadlockAnim Texture
+--- @field Rune HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune
+--- @field RuneFlipped HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped
+--- @field Rune2 HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune2
+--- @field RuneFlipped2 HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped2
+--- @field RingLargeFlip Texture
+--- @field RingLargeFlip2 Texture
+--- @field RuneStatic HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneStatic
+--- @field Sunburst Texture
+--- @field RingLarge Texture
+--- @field RingSmall Texture
+--- @field RingConstellation Texture
+--- @field OrbActivated Texture
+--- @field OrbActivated2 Texture
+--- @field Starfield Texture
+--- @field Glowies Texture
+--- @field Glowies2 Texture
+--- @field BackplateGlow Texture
+--- @field BackplateGlow2 Texture
+--- @field BackplateIntroGlow Texture
+--- @field BackplateIntroGlow2 Texture
+--- @field LensflareLine Texture
+--- @field LensflareLine3 Texture
+--- @field LensflareLine2 Texture
+--- @field Anim HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Anim
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L188)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_HeroTalentsContainer : Frame, HeroTalentsContainerTemplate
@@ -53,14 +117,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L264)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_InspectCopyButton : Button, UIPanelButtonNoTooltipTemplate, UIButtonTemplate
+--- @field fitTextWidthPadding number # 80
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L274)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_ResetButton : DropdownButton, IconButtonTemplate
+--- @field menuPoint string # "BOTTOMLEFT"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L292)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_UndoButton : Button, IconButtonTemplate
+--- @field iconAtlas string # "talents-button-undo"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L306)
 --- child of ClassTalentsFrameTemplate
@@ -109,6 +176,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L19)
 --- Template
 --- @class ClassTalentsFrameTemplate : Frame, TalentFrameBaseTemplate, ClassTalentsFrameMixin
+--- @field getTemplateType any # ClassTalentUtil.GetTemplateForTalentType
 --- @field HeroTalentsContainer ClassTalentsFrameTemplate_HeroTalentsContainer
 --- @field ClassCurrencyDisplay ClassTalentsFrameTemplate_ClassCurrencyDisplay
 --- @field SpecCurrencyDisplay ClassTalentsFrameTemplate_SpecCurrencyDisplay

@@ -99,6 +99,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L286)
 --- Template
 --- @class IslandsQueueFrameCardFrameTemplate : Frame, UIWidgetContainerTemplate
+--- @field showAndHideOnWidgetSetRegistration boolean # false
 --- @field CenterCard IslandsQueueFrameCardFrameTemplate_CenterCard
 --- @field LeftCard IslandsQueueFrameCardFrameTemplate_LeftCard
 --- @field RightCard IslandsQueueFrameCardFrameTemplate_RightCard
@@ -145,6 +146,11 @@
 --- child of IslandsQueueFrame
 --- @class IslandsQueueFrame_HelpButton : Button, MainHelpPlateButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L1095)
+--- child of IslandsQueueFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+IslandsQueueFrameCloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L331)
 --- @class IslandsQueueFrame : Frame, PortraitFrameTemplate, IslandsQueueFrameMixin
 --- @field TitleBanner IslandsQueueFrame_TitleBanner
@@ -163,4 +169,5 @@
 --- @field BottomLeftWoodCorner Texture
 --- @field BottomRightWoodCorner Texture
 IslandsQueueFrame = {}
+IslandsQueueFrame["CloseButton"] = IslandsQueueFrameCloseButton -- inherited
 

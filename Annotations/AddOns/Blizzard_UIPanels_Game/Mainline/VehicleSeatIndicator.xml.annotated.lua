@@ -11,6 +11,10 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.xml#L54)
 --- @class VehicleSeatIndicator : Frame, UIParentRightManagedFrameTemplate, EditModeVehicleSeatIndicatorSystemTemplate, VehicleSeatIndicatorMixin
+--- @field layoutIndex number # 3
 --- @field BackgroundTexture Texture
 VehicleSeatIndicator = {}
+VehicleSeatIndicator["layoutIndex"] = 3
+VehicleSeatIndicator["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
+VehicleSeatIndicator["system"] = Enum.EditModeSystem.VehicleSeatIndicator -- inherited
 

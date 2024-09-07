@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L8)
 --- child of ProfessionsQualityContainerTemplate
 --- @class ProfessionsQualityContainerTemplate_Button : ItemButton, ProfessionsReagentButtonTemplate
+--- @field minDisplayCount number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L16)
 --- child of ProfessionsQualityContainerTemplate
@@ -37,6 +38,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L58)
 --- child of ProfessionsQualityDialogTemplate
 --- @class ProfessionsQualityDialogTemplate_AcceptButton : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L991)
+--- child of ProfessionsQualityDialogTemplate (created in template DefaultPanelFlatTemplate)
+--- @type DefaultPanelFlatTemplate_DefaultPanelFlatTemplateBg
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L24)
 --- Template

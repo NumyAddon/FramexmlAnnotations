@@ -47,6 +47,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L54)
 --- @class RecruitAFriendRewardsFrame : Frame, ResizeLayoutFrame, RecruitAFriendRewardsFrameMixin
+--- @field widthPadding number # 20
 --- @field Border RecruitAFriendRewardsFrame_Border
 --- @field CloseButton RecruitAFriendRewardsFrame_CloseButton
 --- @field ClaimLegacyRewardsButton RecruitAFriendRewardsFrame_ClaimLegacyRewardsButton
@@ -60,6 +61,7 @@
 --- @field Title RecruitAFriendRewardsFrame_Title
 --- @field Description RecruitAFriendRewardsFrame_Description
 RecruitAFriendRewardsFrame = {}
+RecruitAFriendRewardsFrame["widthPadding"] = 20
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L179)
 --- child of RecruitAFriendRewardTabTemplate
@@ -68,6 +70,7 @@ RecruitAFriendRewardsFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L157)
 --- Template
 --- @class RecruitAFriendRewardTabTemplate : CheckButton, CallbackRegistrantTemplate, RecruitAFriendRewardTabMixin
+--- @field IconAtlasFormat string # "recruitafriend_%s_tab_icon"
 --- @field Tab Texture
 --- @field Icon Texture
 --- @field BorderGlow Texture
@@ -222,6 +225,7 @@ RecruitAFriendRecruitmentFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L529)
 --- child of 
 --- @class RecruitAFriendFrame_RewardClaiming_MonthCount_Text : FontString, FriendsFont_Large, AutoScalingFontStringMixin
+--- @field minLineHeight number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L523)
 --- child of 
@@ -231,6 +235,7 @@ RecruitAFriendRecruitmentFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L545)
 --- child of 
 --- @class RecruitAFriendFrame_RewardClaiming_NextRewardName_Text : FontString, FriendsFont_Normal, AutoScalingFontStringMixin
+--- @field minLineHeight number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L539)
 --- child of 
@@ -291,6 +296,7 @@ RecruitAFriendRecruitmentFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L468)
 --- child of RecruitAFriendFrame
 --- @class RecruitAFriendFrame_RewardClaiming : Frame
+--- @field legacyBackgroundAtlas string # "RecruitAFriend_ClaimPane_Parchment"
 --- @field MonthCount RecruitAFriendFrame_RewardClaiming_MonthCount
 --- @field NextRewardName RecruitAFriendFrame_RewardClaiming_NextRewardName
 --- @field NextRewardInfoButton RecruitAFriendFrame_RewardClaiming_NextRewardInfoButton
@@ -360,6 +366,7 @@ RecruitAFriendRecruitmentFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L723)
 --- child of RecruitAFriendFrame
 --- @class RecruitAFriendFrame_SplashFrame : Frame
+--- @field legacyBackgroundAtlas string # "RecruitAFriend_Splash_Parchment"
 --- @field OKButton RecruitAFriendFrame_SplashFrame_OKButton
 --- @field Background Texture
 --- @field Picture Texture

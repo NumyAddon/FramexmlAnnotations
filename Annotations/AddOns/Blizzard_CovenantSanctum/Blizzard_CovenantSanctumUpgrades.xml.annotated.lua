@@ -175,6 +175,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L380)
 --- child of CovenantSanctumUpgradeTalentTemplate
 --- @class CovenantSanctumUpgradeTalentTemplate_Name : FontString, SystemFont_Shadow_Med2, AutoScalingFontStringMixin
+--- @field minLineHeight number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L389)
 --- child of CovenantSanctumUpgradeTalentTemplate

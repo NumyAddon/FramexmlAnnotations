@@ -12,9 +12,11 @@ KeyboardMouseConfirmButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L5)
 --- @class TutorialKeyboardMouseFrame_Frame : Frame, ResizeLayoutFrame, TutorialKeyboardMouseFrameMixin
+--- @field widthPadding number # 288
 --- @field Keyboard Texture
 --- @field Text TutorialKeyboardMouseFrame_Frame_Text
 TutorialKeyboardMouseFrame_Frame = {}
+TutorialKeyboardMouseFrame_Frame["widthPadding"] = 288
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L60)
 --- child of 
@@ -47,6 +49,8 @@ TutorialKeyboardMouseFrame_Frame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L46)
 --- @class TutorialWalk_Frame : Frame, ResizeLayoutFrame, TutorialWalkMixin
+--- @field widthPadding number # 180
 --- @field ContainerFrame TutorialWalk_Frame_ContainerFrame
 TutorialWalk_Frame = {}
+TutorialWalk_Frame["widthPadding"] = 180
 

@@ -17,6 +17,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L46)
 --- child of ProfessionsItemFlyoutTemplate
 --- @class ProfessionsItemFlyoutTemplate_UndoButton : Button, IconButtonTemplate
+--- @field iconAtlas string # "talents-button-undo"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L57)
 --- child of ProfessionsItemFlyoutTemplate
@@ -25,6 +26,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L62)
 --- child of ProfessionsItemFlyoutTemplate
 --- @class ProfessionsItemFlyoutTemplate_ScrollBar : EventFrame, MinimalScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L68)
 --- child of ProfessionsItemFlyoutTemplate
@@ -37,6 +42,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L9)
 --- Template
 --- @class ProfessionsItemFlyoutTemplate : Frame, TooltipBackdropTemplate, ProfessionsItemFlyoutMixin
+--- @field backdropColor any # BLACK_FONT_COLOR
 --- @field UndoItem ProfessionsItemFlyoutTemplate_UndoItem
 --- @field UndoButton ProfessionsItemFlyoutTemplate_UndoButton
 --- @field ScrollBox ProfessionsItemFlyoutTemplate_ScrollBox

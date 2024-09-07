@@ -10,13 +10,25 @@
 --- @field RoleIcon Texture
 --- @field Count QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L8)
+--- child of  (created in template QueueStatusRoleCountTemplate)
+--- @type QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L83)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_HealersFound : Frame, QueueStatusRoleCountTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L8)
+--- child of  (created in template QueueStatusRoleCountTemplate)
+--- @type QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L88)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_TanksFound : Frame, QueueStatusRoleCountTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L8)
+--- child of  (created in template QueueStatusRoleCountTemplate)
+--- @type QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L93)
 --- child of QueueStatusEntryTemplate
@@ -195,8 +207,10 @@ QueueStatusButtonIcon = {}
 --- @field Highlight Texture
 --- @field EyeHighlightAnim QueueStatusButton_EyeHighlightAnim
 QueueStatusButton = {}
+QueueStatusButton["Eye"] = QueueStatusButtonIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L401)
 --- @class QueueStatusFrame : Frame, TooltipBackdropTemplate, QueueStatusFrameMixin
 QueueStatusFrame = {}
+QueueStatusFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 

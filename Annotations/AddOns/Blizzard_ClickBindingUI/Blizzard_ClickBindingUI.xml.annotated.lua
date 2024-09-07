@@ -1,5 +1,41 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1211)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1218)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1225)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1232)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1239)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1247)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1255)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1263)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1271)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L62)
 --- child of ClickBindingLineTemplate
 --- @class ClickBindingLineTemplate_DeleteButton : Button, UIMenuButtonStretchTemplate
@@ -47,6 +83,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L153)
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_ScrollBoxBackground : Frame, TooltipBackdropTemplate
+--- @field backdropBorderColor any # DARKGRAY_COLOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L163)
 --- child of ClickBindingFrame
@@ -89,10 +126,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L240)
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_PlayerSpellsPortrait : Button, ClickBindingFramePortraitTemplate
+--- @field FrameName string # "PlayerSpellsFrame"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L250)
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_MacrosPortrait : Button, ClickBindingFramePortraitTemplate
+--- @field FrameName string # "MacroFrame"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L276)
 --- child of 
@@ -110,9 +149,15 @@
 --- child of 
 --- @class ClickBindingFrame_TutorialFrame_ThrallName : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1095)
+--- child of  (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+CloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L259)
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_TutorialFrame : Frame, PortraitFrameTemplate, ClickBindingTutorialMixin
+--- @field layoutType string # "ButtonFrameTemplateNoPortrait"
 --- @field Tutorial Texture
 --- @field SummaryText ClickBindingFrame_TutorialFrame_SummaryText
 --- @field InfoText ClickBindingFrame_TutorialFrame_InfoText
@@ -126,6 +171,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L312)
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_UnboundText : FontString, GameFontRed
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1095)
+--- child of ClickBindingFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ClickBindingFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L147)
 --- @class ClickBindingFrame : Frame, PortraitFrameTemplate, ClickBindingFrameMixin
@@ -143,4 +193,5 @@
 --- @field TutorialButton ClickBindingFrame_TutorialButton
 --- @field UnboundText ClickBindingFrame_UnboundText
 ClickBindingFrame = {}
+ClickBindingFrame["CloseButton"] = ClickBindingFrameCloseButton -- inherited
 

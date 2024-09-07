@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.xml#L6)
 --- Template
 --- @class CovenantCallingQuestTemplate : Frame, CovenantCallingQuestMixin
+--- @field ignoreInLayout boolean # true
 --- @field Glow Texture
 --- @field Icon Texture
 --- @field Highlight Texture

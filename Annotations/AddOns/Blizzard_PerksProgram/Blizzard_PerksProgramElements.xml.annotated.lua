@@ -13,12 +13,18 @@
 --- child of HeaderSortButtonTemplate
 --- @class HeaderSortButtonTemplate_Label : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L62)
+--- child of HeaderSortButtonTemplate
+--- @class HeaderSortButtonTemplate_Arrow : Texture
+--- @field ignoreInLayout boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L26)
 --- Template
 --- @class HeaderSortButtonTemplate : Button, ResizeLayoutFrame, HeaderSortButtonMixin
+--- @field widthPadding number # 5
 --- @field Icon Texture
 --- @field Label HeaderSortButtonTemplate_Label
---- @field Arrow Texture
+--- @field Arrow HeaderSortButtonTemplate_Arrow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L137)
 --- child of ProductPurchaseCelebrateFXTemplate
@@ -155,18 +161,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L471)
 --- child of PerksProgramDetailsFrameTemplate
 --- @class PerksProgramDetailsFrameTemplate_CategoryText : FontString, GameFontNormalMed3
+--- @field layoutIndex number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L480)
 --- child of PerksProgramDetailsFrameTemplate
 --- @class PerksProgramDetailsFrameTemplate_ProductNameText : FontString, SystemFont_Huge2
+--- @field layoutIndex number # 20
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L489)
 --- child of PerksProgramDetailsFrameTemplate
 --- @class PerksProgramDetailsFrameTemplate_DescriptionText : FontString, GameFontNormalMed3
+--- @field layoutIndex number # 30
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L498)
 --- child of PerksProgramDetailsFrameTemplate
 --- @class PerksProgramDetailsFrameTemplate_TimeRemaining : FontString, GameFontNormalMed3
+--- @field layoutIndex number # 40
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L468)
 --- Template
@@ -179,10 +189,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L518)
 --- child of PerksProgramToyDetailsFrameTemplate
 --- @class PerksProgramToyDetailsFrameTemplate_ProductNameText : FontString, SystemFont_Huge2
+--- @field layoutIndex number # 20
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L530)
 --- child of PerksProgramToyDetailsFrameTemplate
 --- @class PerksProgramToyDetailsFrameTemplate_DescriptionText : FontString, GameFontNormalMed3
+--- @field layoutIndex number # 30
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L514)
 --- Template

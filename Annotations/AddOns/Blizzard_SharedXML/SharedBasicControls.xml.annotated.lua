@@ -31,6 +31,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L21)
 --- Template
 --- @class DialogBoxFrame : Frame, BackdropTemplate
+--- @field backdropInfo any # BACKDROP_DIALOG_32_32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L136)
 --- child of UIPanelDialogTemplate
@@ -83,6 +84,7 @@ BasicMessageDialog = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L219)
 --- child of ScriptErrorsFrame
 --- @class ScriptErrorsFrame_ScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarTemplate string # "MinimalScrollBar"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L245)
 --- child of ScriptErrorsFrame
@@ -99,6 +101,61 @@ BasicMessageDialog = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L288)
 --- child of ScriptErrorsFrame
 --- @class ScriptErrorsFrame_Close : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L136)
+--- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
+--- @type UIPanelDialogTemplate_UIPanelDialogTemplateClose
+ScriptErrorsFrameClose = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L52)
+--- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
+--- @type Texture
+ScriptErrorsFrameTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L59)
+--- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
+--- @type Texture
+ScriptErrorsFrameTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L66)
+--- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
+--- @type Texture
+ScriptErrorsFrameTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L74)
+--- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
+--- @type Texture
+ScriptErrorsFrameBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L81)
+--- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
+--- @type Texture
+ScriptErrorsFrameBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L88)
+--- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
+--- @type Texture
+ScriptErrorsFrameBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L96)
+--- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
+--- @type Texture
+ScriptErrorsFrameLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L104)
+--- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
+--- @type Texture
+ScriptErrorsFrameRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L120)
+--- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
+--- @type Texture
+ScriptErrorsFrameTitleBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L126)
+--- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
+--- @type Texture
+ScriptErrorsFrameDialogBG = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L197)
 --- @class ScriptErrorsFrame : Frame, UIPanelDialogTemplate, ScriptErrorsFrameMixin
@@ -131,6 +188,7 @@ ScriptErrorsFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L367)
 --- child of BaseNineSliceDialog
 --- @class BaseNineSliceDialog_Underlay : Frame
+--- @field ignoreInLayout boolean # true
 --- @field Tex Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L437)
@@ -164,6 +222,7 @@ ScriptErrorsFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L349)
 --- Template
 --- @class BaseNineSliceDialog : Frame, ResizeLayoutFrame, DefaultScaleFrame, BaseNineSliceDialogMixin
+--- @field fixedWidth number # 586
 --- @field Underlay BaseNineSliceDialog_Underlay
 --- @field Border Frame
 --- @field Contents BaseNineSliceDialog_Contents

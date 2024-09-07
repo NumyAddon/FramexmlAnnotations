@@ -19,4 +19,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.xml#L52)
 --- Template
 --- @class MapCanvasFrameTemplate : Frame, MapCanvasMixin
+--- @field debugInspectionSystem string # "MapCanvas"
 

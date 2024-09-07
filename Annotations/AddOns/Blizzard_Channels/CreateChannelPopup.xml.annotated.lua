@@ -11,6 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L30)
 --- child of CreateChannelPopup
 --- @class CreateChannelPopup_Header : Frame, DialogHeaderTemplate
+--- @field textString any # CHANNEL_NEW_CHANNEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L35)
 --- child of CreateChannelPopup
@@ -33,6 +34,11 @@
 --- child of CreateChannelPopup
 --- @class CreateChannelPopup_Password : EditBox, CreateChannelPopupEditBoxTemplate
 --- @field Label CreateChannelPopup_Password_Label
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L64)
 --- child of CreateChannelPopup

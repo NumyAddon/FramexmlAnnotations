@@ -62,4 +62,5 @@
 --- @field selection Texture
 --- @field reading FontString
 IMECandidatesFrame = {}
+IMECandidatesFrame["backdropColorAlpha"] = 0 -- inherited
 

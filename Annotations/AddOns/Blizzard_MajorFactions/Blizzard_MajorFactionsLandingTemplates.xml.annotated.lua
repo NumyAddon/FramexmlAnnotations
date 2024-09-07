@@ -32,6 +32,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L120)
 --- child of 
 --- @class MajorFactionButtonTemplate_UnlockedState_WatchFactionButton_Label : FontString, GameFontHighlightSmall
+--- @field minLineHeight number # 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L113)
 --- child of 

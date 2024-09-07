@@ -155,6 +155,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L10)
 --- Template
 --- @class SharedTooltipArtTemplate : GameTooltip
+--- @field textLeft1Font string # "GameTooltipHeaderText"
 --- @field NineSlice SharedTooltipArtTemplate_NineSlice
 --- @field TopOverlay Texture
 --- @field BottomOverlay Texture
@@ -167,6 +168,142 @@
 --- @class SharedTooltipDefaultContainer : GameTooltip
 SharedTooltipDefaultContainer = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L35)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L36)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L41)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L42)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L47)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L48)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L49)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L50)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L51)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L52)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L53)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L54)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L55)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L56)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L57)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L58)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L59)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L60)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L61)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L62)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L63)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L64)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L65)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L66)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L67)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L68)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L69)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L70)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L71)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L72)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L73)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L74)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L75)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L76)
+--- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L88)
 --- Template
 --- @class SharedTooltipTemplate : GameTooltip, SharedTooltipArtTemplate
@@ -174,6 +311,7 @@ SharedTooltipDefaultContainer = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L97)
 --- Template
 --- @class SharedNoHeaderTooltipTemplate : GameTooltip, SharedTooltipTemplate
+--- @field textLeft1Font string # "GameTooltipText"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L109)
 --- child of TooltipBackdropTemplate
@@ -182,15 +320,18 @@ SharedTooltipDefaultContainer = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L104)
 --- Template
 --- @class TooltipBackdropTemplate : Frame, TooltipBackdropTemplateMixin
+--- @field layoutType string # "TooltipDefaultLayout"
 --- @field NineSlice TooltipBackdropTemplate_NineSlice
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L116)
 --- Template
 --- @class TooltipBorderBackdropTemplate : Frame, TooltipBackdropTemplate
+--- @field backdropColorAlpha number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L122)
 --- Template
 --- @class TooltipBorderedFrameTemplate : Frame, TooltipBackdropTemplate
+--- @field backdropColorAlpha number # 0.8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L128)
 --- Template

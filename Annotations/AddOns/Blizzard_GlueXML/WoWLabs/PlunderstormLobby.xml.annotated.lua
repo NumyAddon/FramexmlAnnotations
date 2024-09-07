@@ -104,6 +104,8 @@ FriendsToastFrameIconTexture = {}
 --- @field IconTexture PlunderstormLobbyFrame_FriendsToastFrame_FriendsToastFrameIconTexture
 --- @field ToastIn PlunderstormLobbyFrame_FriendsToastFrame_ToastIn
 FriendsToastFrame = {}
+FriendsToastFrame["IconTexture"] = FriendsToastFrameIconTexture
+FriendsToastFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L5)
 --- @class PlunderstormLobbyFrame : Frame, CallbackRegistrantTemplate, PlunderstormLobbyMixin
@@ -118,4 +120,5 @@ FriendsToastFrame = {}
 --- @field MatchmakingQueueFrame PlunderstormLobbyFrame_MatchmakingQueueFrame
 --- @field SubNoticeFrame PlunderstormLobbyFrame_SubNoticeFrame
 PlunderstormLobbyFrame = {}
+PlunderstormLobbyFrame["PlunderstormBackground"] = PlunderstormBackground
 

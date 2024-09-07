@@ -18,6 +18,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.xml#L38)
 --- Template
 --- @class SpellBookCategoryTabTemplate : Button, TabSystemButtonTemplate, SpellBookCategoryTabMixin
+--- @field isTabOnTop boolean # true
 --- @field NewSpellsGlow Texture
 --- @field NewSpellsGlowAnim SpellBookCategoryTabTemplate_NewSpellsGlowAnim
 

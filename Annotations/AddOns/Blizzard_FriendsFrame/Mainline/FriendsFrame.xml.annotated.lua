@@ -18,9 +18,17 @@
 --- @class FriendsFrameHeaderTemplate : Frame
 --- @field Title FriendsFrameHeaderTemplate_FriendsFrameHeaderTemplateTitle
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L21)
+--- child of FriendsFrameIgnoredHeaderTemplate (created in template FriendsFrameHeaderTemplate)
+--- @type FriendsFrameHeaderTemplate_FriendsFrameHeaderTemplateTitle
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L30)
 --- Template
 --- @class FriendsFrameIgnoredHeaderTemplate : Frame, FriendsFrameHeaderTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L21)
+--- child of FriendsFrameBlockedInviteHeaderTemplate (created in template FriendsFrameHeaderTemplate)
+--- @type FriendsFrameHeaderTemplate_FriendsFrameHeaderTemplateTitle
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L38)
 --- Template
@@ -30,10 +38,82 @@
 --- Template
 --- @class FriendsFrameFriendDividerTemplate : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1211)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1218)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1225)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1232)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1239)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1247)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1255)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1263)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1271)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L78)
 --- child of FriendsFrameFriendInviteTemplate
 --- @class FriendsFrameFriendInviteTemplate_DeclineButton : DropdownButton, UIMenuButtonStretchTemplate
 --- @field Icon Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1211)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1218)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1225)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1232)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1239)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1247)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1255)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1263)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1271)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L94)
 --- child of FriendsFrameFriendInviteTemplate
@@ -72,6 +152,42 @@
 --- @class FriendsPendingInviteHeaderButtonTemplate_Flash : Texture
 --- @field Anim FriendsPendingInviteHeaderButtonTemplate_Flash_Anim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1211)
+--- child of FriendsPendingInviteHeaderButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1218)
+--- child of FriendsPendingInviteHeaderButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1225)
+--- child of FriendsPendingInviteHeaderButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1232)
+--- child of FriendsPendingInviteHeaderButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1239)
+--- child of FriendsPendingInviteHeaderButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1247)
+--- child of FriendsPendingInviteHeaderButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1255)
+--- child of FriendsPendingInviteHeaderButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1263)
+--- child of FriendsPendingInviteHeaderButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1271)
+--- child of FriendsPendingInviteHeaderButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L135)
 --- Template
 --- @class FriendsPendingInviteHeaderButtonTemplate : Button, UIMenuButtonStretchTemplate
@@ -80,9 +196,81 @@
 --- @field DownArrow Texture
 --- @field Flash FriendsPendingInviteHeaderButtonTemplate_Flash
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1211)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1218)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1225)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1232)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1239)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1247)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1255)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1263)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1271)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L215)
 --- child of FriendsFrameFriendPartyInviteTemplate
 --- @class FriendsFrameFriendPartyInviteTemplate_DeclineButton : Button, UIMenuButtonStretchTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1211)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1218)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1225)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1232)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1239)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1247)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1255)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1263)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1271)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L234)
 --- child of FriendsFrameFriendPartyInviteTemplate
@@ -189,6 +377,11 @@
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastButton : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L3270)
+--- child of  (created in template UIPanelInfoButton)
+--- @type Texture
+Texture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L566)
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton : Button, UIPanelInfoButton
@@ -291,11 +484,17 @@ FriendsTabHeaderTab3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L515)
 --- child of FriendsFrame
 --- @class FriendsFrame_FriendsTabHeader : Frame, FriendsTabHeaderMixin
+--- @field maxTabWidth number # 110
 --- @field StatusDropdown FriendsFrame_FriendsTabHeader_FriendsFrameStatusDropdown
 --- @field Tab1 FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab1
 --- @field Tab2 FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab2
 --- @field Tab3 FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab3
 FriendsTabHeader = {}
+FriendsTabHeader["StatusDropdown"] = FriendsFrameStatusDropdown
+FriendsTabHeader["Tab1"] = FriendsTabHeaderTab1
+FriendsTabHeader["Tab2"] = FriendsTabHeaderTab2
+FriendsTabHeader["Tab3"] = FriendsTabHeaderTab3
+FriendsTabHeader["maxTabWidth"] = 110
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L763)
 --- child of FriendsListFrame
@@ -390,11 +589,36 @@ WhoFrameTotals = {}
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameListInset : Frame, InsetFrameTemplate
 WhoFrameListInset = {}
+WhoFrameListInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L445)
+--- child of WhoFrameColumnHeader1 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader1Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L452)
+--- child of WhoFrameColumnHeader1 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader1Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L459)
+--- child of WhoFrameColumnHeader1 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader1Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L482)
+--- child of WhoFrameColumnHeader1 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L898)
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameColumnHeader1 : Button, WhoFrameColumnHeaderTemplate
 WhoFrameColumnHeader1 = {}
+WhoFrameColumnHeader1["Left"] = WhoFrameColumnHeader1Left -- inherited
+WhoFrameColumnHeader1["Middle"] = WhoFrameColumnHeader1Middle -- inherited
+WhoFrameColumnHeader1["Right"] = WhoFrameColumnHeader1Right -- inherited
+WhoFrameColumnHeader1["HighlightTexture"] = WhoFrameColumnHeader1HighlightTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L914)
 --- child of WhoFrameColumnHeader2
@@ -402,20 +626,92 @@ WhoFrameColumnHeader1 = {}
 --- @field TabHighlight Texture
 WhoFrameDropdown = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L445)
+--- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader2Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L452)
+--- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader2Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L459)
+--- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader2Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L482)
+--- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader2HighlightTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L909)
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameColumnHeader2 : Button, WhoFrameColumnHeaderTemplate
 WhoFrameColumnHeader2 = {}
+WhoFrameColumnHeader2["Left"] = WhoFrameColumnHeader2Left -- inherited
+WhoFrameColumnHeader2["Middle"] = WhoFrameColumnHeader2Middle -- inherited
+WhoFrameColumnHeader2["Right"] = WhoFrameColumnHeader2Right -- inherited
+WhoFrameColumnHeader2["HighlightTexture"] = WhoFrameColumnHeader2HighlightTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L445)
+--- child of WhoFrameColumnHeader3 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader3Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L452)
+--- child of WhoFrameColumnHeader3 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader3Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L459)
+--- child of WhoFrameColumnHeader3 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader3Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L482)
+--- child of WhoFrameColumnHeader3 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader3HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L942)
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameColumnHeader3 : Button, WhoFrameColumnHeaderTemplate
 WhoFrameColumnHeader3 = {}
+WhoFrameColumnHeader3["Left"] = WhoFrameColumnHeader3Left -- inherited
+WhoFrameColumnHeader3["Middle"] = WhoFrameColumnHeader3Middle -- inherited
+WhoFrameColumnHeader3["Right"] = WhoFrameColumnHeader3Right -- inherited
+WhoFrameColumnHeader3["HighlightTexture"] = WhoFrameColumnHeader3HighlightTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L445)
+--- child of WhoFrameColumnHeader4 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader4Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L452)
+--- child of WhoFrameColumnHeader4 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader4Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L459)
+--- child of WhoFrameColumnHeader4 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader4Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L482)
+--- child of WhoFrameColumnHeader4 (created in template WhoFrameColumnHeaderTemplate)
+--- @type Texture
+WhoFrameColumnHeader4HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L953)
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameColumnHeader4 : Button, WhoFrameColumnHeaderTemplate
 WhoFrameColumnHeader4 = {}
+WhoFrameColumnHeader4["Left"] = WhoFrameColumnHeader4Left -- inherited
+WhoFrameColumnHeader4["Middle"] = WhoFrameColumnHeader4Middle -- inherited
+WhoFrameColumnHeader4["Right"] = WhoFrameColumnHeader4Right -- inherited
+WhoFrameColumnHeader4["HighlightTexture"] = WhoFrameColumnHeader4HighlightTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L964)
 --- child of WhoFrame
@@ -436,6 +732,7 @@ WhoFrameWhoButton = {}
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameEditBoxInset : Frame, InsetFrameTemplate
 WhoFrameEditBoxInset = {}
+WhoFrameEditBoxInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1002)
 --- child of WhoFrame
@@ -571,6 +868,7 @@ FriendsTooltipGameAccountMany = {}
 --- child of FriendsFrame
 --- @class FriendsFrame_FriendsTooltip : Frame, TooltipBackdropTemplate
 FriendsTooltip = {}
+FriendsTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L498)
 --- child of FriendsFrame
@@ -582,10 +880,18 @@ FriendsFrameIcon = {}
 --- @class FriendsFrame_FriendsFrameTitleText : FontString, GameFontNormal
 FriendsFrameTitleText = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1148)
+--- child of FriendsFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+FriendsFrameInset = {}
+FriendsFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L495)
 --- @class FriendsFrame : Frame, ButtonFrameTemplate
 --- @field FriendsTabHeader FriendsFrame_FriendsTabHeader
 FriendsFrame = {}
+FriendsFrame["FriendsTabHeader"] = FriendsTabHeader
+FriendsFrame["Inset"] = FriendsFrameInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1223)
 --- child of AddFriendFrame
@@ -634,10 +940,16 @@ AddFriendInfoFrameRightTitle = {}
 --- @class AddFriendFrame_AddFriendInfoFrame : Frame
 AddFriendInfoFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L3270)
+--- child of AddFriendEntryFrameInfoButton (created in template UIPanelInfoButton)
+--- @type Texture
+AddFriendEntryFrameInfoButtonTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1359)
 --- child of AddFriendEntryFrame
 --- @class AddFriendFrame_AddFriendEntryFrame_AddFriendEntryFrameInfoButton : Button, UIPanelInfoButton
 AddFriendEntryFrameInfoButton = {}
+AddFriendEntryFrameInfoButton["texture"] = AddFriendEntryFrameInfoButtonTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1381)
 --- child of AddFriendNameEditBox
@@ -746,6 +1058,7 @@ FriendsFriendsFrameDropdown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1491)
 --- child of FriendsFriendsFrame
 --- @class FriendsFriendsFrame_ScrollFrameBorder : Frame, TooltipBackdropTemplate
+--- @field backdropColor any # BLACK_FONT_COLOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1500)
 --- child of FriendsFriendsFrame
@@ -787,6 +1100,7 @@ FriendsFriendsFrameTitle = {}
 --- @field SendRequestButton FriendsFriendsFrame_SendRequestButton
 --- @field CloseButton FriendsFriendsFrame_CloseButton
 FriendsFriendsFrame = {}
+FriendsFriendsFrame["FriendsDropdown"] = FriendsFriendsFrameDropdown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1589)
 --- child of BattleTagInviteFrame

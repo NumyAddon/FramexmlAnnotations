@@ -6,5 +6,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/PossessActionBar.xml#L13)
 --- @class PossessActionBar : Frame, EditModeActionBarTemplate, PossessActionBarMixin
+--- @field buttonTemplate string # "PossessButtonTemplate"
 PossessActionBar = {}
+PossessActionBar["buttonTemplate"] = "PossessButtonTemplate"
 

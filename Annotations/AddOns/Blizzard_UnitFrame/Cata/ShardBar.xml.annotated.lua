@@ -44,4 +44,7 @@ ShardBarFrameShard3 = {}
 --- @field shard3 ShardBarFrame_ShardBarFrameShard3
 --- @field showAnim ShardBarFrame_showAnim
 ShardBarFrame = {}
+ShardBarFrame["shard1"] = ShardBarFrameShard1
+ShardBarFrame["shard2"] = ShardBarFrameShard2
+ShardBarFrame["shard3"] = ShardBarFrameShard3
 

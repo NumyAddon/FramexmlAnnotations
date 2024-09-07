@@ -86,8 +86,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/RogueComboPointBar.xml#L228)
 --- Template
 --- @class RogueComboPointBarTemplate : Frame, ClassResourceBarTemplate, RogueComboPointBarMixin
+--- @field powerToken string # "COMBO_POINTS"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/RogueComboPointBar.xml#L242)
 --- @class RogueComboPointBarFrame : Frame, RogueComboPointBarTemplate
+--- @field topPadding number # 10
 RogueComboPointBarFrame = {}
+RogueComboPointBarFrame["topPadding"] = 10
+RogueComboPointBarFrame["powerToken"] = "COMBO_POINTS" -- inherited
 

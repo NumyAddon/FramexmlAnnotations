@@ -62,5 +62,9 @@ DurabilityRanged = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DurabilityFrame/Mainline/DurabilityFrame.xml#L3)
 --- @class DurabilityFrame : Frame, EditModeDurabilityFrameSystemTemplate, UIParentRightManagedFrameTemplate, DurabilityFrameMixin
+--- @field layoutIndex number # 9
 DurabilityFrame = {}
+DurabilityFrame["layoutIndex"] = 9
+DurabilityFrame["system"] = Enum.EditModeSystem.DurabilityFrame -- inherited
+DurabilityFrame["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
 

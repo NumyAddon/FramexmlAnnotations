@@ -17,14 +17,28 @@
 --- @class HeroTalentsSelectionDialog_DisabledOverlay : Frame
 --- @field GrayOverlay Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L971)
+--- child of HeroTalentsSelectionDialog (created in template DefaultPanelTemplate)
+--- @type Texture
+HeroTalentsSelectionDialogBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L979)
+--- child of HeroTalentsSelectionDialog (created in template DefaultPanelTemplate)
+--- @type DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks
+HeroTalentsSelectionDialogTopTileStreaks = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L4)
 --- @class HeroTalentsSelectionDialog : Frame, DefaultPanelTemplate, HeroTalentsSelectionMixin
+--- @field checkFitExtraWidth number # 0
 --- @field CoverFrame HeroTalentsSelectionDialog_CoverFrame
 --- @field CloseButton HeroTalentsSelectionDialog_CloseButton
 --- @field SpecOptionsContainer HeroTalentsSelectionDialog_SpecOptionsContainer
 --- @field DisabledOverlay HeroTalentsSelectionDialog_DisabledOverlay
 --- @field Background Texture
 HeroTalentsSelectionDialog = {}
+HeroTalentsSelectionDialog["checkFitExtraWidth"] = 0
+HeroTalentsSelectionDialog["Bg"] = HeroTalentsSelectionDialogBg -- inherited
+HeroTalentsSelectionDialog["TopTileStreaks"] = HeroTalentsSelectionDialogTopTileStreaks -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L159)
 --- child of HeroTalentSpecFXTemplate
@@ -86,6 +100,7 @@ HeroTalentsSelectionDialog = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L167)
 --- Template
 --- @class HeroTalentSpecContentTemplate : Frame, HeroTalentSpecFXTemplate, HeroTalentSpecContentMixin
+--- @field expand string # "true"
 --- @field NodesContainer Frame
 --- @field CurrencyFrame HeroTalentSpecContentTemplate_CurrencyFrame
 --- @field ActivateButton HeroTalentSpecContentTemplate_ActivateButton

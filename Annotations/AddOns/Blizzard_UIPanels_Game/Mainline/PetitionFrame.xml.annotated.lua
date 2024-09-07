@@ -114,9 +114,16 @@ PetitionFrameMemberName9 = {}
 --- @class PetitionFrame_PetitionFrameInstructions : FontString, QuestFont
 PetitionFrameInstructions = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L1148)
+--- child of PetitionFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+PetitionFrameInset = {}
+PetitionFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L3)
 --- @class PetitionFrame : Frame, ButtonFrameTemplate
 --- @field ScrollBar PetitionFrame_ScrollBar
 --- @field Bg Texture
 PetitionFrame = {}
+PetitionFrame["Inset"] = PetitionFrameInset -- inherited
 

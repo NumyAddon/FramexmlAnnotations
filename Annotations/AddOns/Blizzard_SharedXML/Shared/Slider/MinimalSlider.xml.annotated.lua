@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L3)
 --- Template
 --- @class MinimalSliderTemplate : Slider, MinimalSliderMixin
+--- @field obeyStepOnDrag boolean # true
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture

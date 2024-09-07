@@ -7,6 +7,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.xml#L6)
 --- child of CharacterSelectToolTrayTemplate
 --- @class CharacterSelectToolTrayTemplate_ExpandBar : Button, TooltipBackdropTemplate, ExpandBarTemplate
+--- @field layoutType string # "TooltipGluesLayout"
 --- @field Text CharacterSelectToolTrayTemplate_ExpandBar_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.xml#L27)

@@ -192,22 +192,27 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L608)
 --- child of 
 --- @class GarrisonMissionPageStageTemplate_MissionInfo_XP : FontString, GameFontNormalMed2
+--- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L614)
 --- child of 
 --- @class GarrisonMissionPageStageTemplate_MissionInfo_ExhaustingLabel : FontString, GameFontNormalMed2
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L620)
 --- child of 
 --- @class GarrisonMissionPageStageTemplate_MissionInfo_MissionTime : FontString, GameFontNormalMed2
+--- @field layoutIndex number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L627)
 --- child of 
 --- @class GarrisonMissionPageStageTemplate_MissionInfo_MissionEnv : FontString, GameFontNormalMed2
+--- @field layoutIndex number # 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L599)
 --- child of GarrisonMissionPageStageTemplate
 --- @class GarrisonMissionPageStageTemplate_MissionInfo : Frame, VerticalLayoutFrame
+--- @field spacing number # 3
 --- @field XP GarrisonMissionPageStageTemplate_MissionInfo_XP
 --- @field ExhaustingLabel GarrisonMissionPageStageTemplate_MissionInfo_ExhaustingLabel
 --- @field MissionTime GarrisonMissionPageStageTemplate_MissionInfo_MissionTime
@@ -597,6 +602,11 @@ GarrisonFollowerPlacerFrame = {}
 --- child of GarrisonMissionMechanicTooltip
 --- @class GarrisonMissionMechanicTooltip_Description : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L9)
+--- child of GarrisonMissionMechanicTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
+GarrisonMissionMechanicTooltipStatusBar = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1535)
 --- @class GarrisonMissionMechanicTooltip : GameTooltip, GameTooltipTemplate
 --- @field Icon Texture
@@ -604,6 +614,8 @@ GarrisonFollowerPlacerFrame = {}
 --- @field Name GarrisonMissionMechanicTooltip_Name
 --- @field Description GarrisonMissionMechanicTooltip_Description
 GarrisonMissionMechanicTooltip = {}
+GarrisonMissionMechanicTooltip["supportsDataRefresh"] = true -- inherited
+GarrisonMissionMechanicTooltip["StatusBar"] = GarrisonMissionMechanicTooltipStatusBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1585)
 --- child of GarrisonMissionMechanicFollowerCounterTooltip
@@ -625,6 +637,11 @@ GarrisonMissionMechanicTooltip = {}
 --- child of GarrisonMissionMechanicFollowerCounterTooltip
 --- @class GarrisonMissionMechanicFollowerCounterTooltip_CounterName : FontString, GameFontHighlight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L9)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
+GarrisonMissionMechanicFollowerCounterTooltipStatusBar = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1570)
 --- @class GarrisonMissionMechanicFollowerCounterTooltip : GameTooltip, GameTooltipTemplate
 --- @field Icon Texture
@@ -636,4 +653,6 @@ GarrisonMissionMechanicTooltip = {}
 --- @field CounterIcon Texture
 --- @field CounterName GarrisonMissionMechanicFollowerCounterTooltip_CounterName
 GarrisonMissionMechanicFollowerCounterTooltip = {}
+GarrisonMissionMechanicFollowerCounterTooltip["supportsDataRefresh"] = true -- inherited
+GarrisonMissionMechanicFollowerCounterTooltip["StatusBar"] = GarrisonMissionMechanicFollowerCounterTooltipStatusBar -- inherited
 

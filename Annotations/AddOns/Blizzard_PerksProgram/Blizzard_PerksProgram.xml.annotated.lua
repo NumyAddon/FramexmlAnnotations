@@ -1,9 +1,16 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L9)
+--- child of PerksProgramTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
+PerksProgramTooltipStatusBar = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L14)
 --- child of PerksProgramFrame
 --- @class PerksProgramFrame_PerksProgramTooltip : GameTooltip, GameTooltipTemplate, DefaultScaleFrame
 PerksProgramTooltip = {}
+PerksProgramTooltip["supportsDataRefresh"] = true -- inherited
+PerksProgramTooltip["StatusBar"] = PerksProgramTooltipStatusBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L32)
 --- child of 
@@ -65,14 +72,17 @@ PerksProgramTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L298)
 --- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramFilter : DropdownButton, WowStyle2DropdownTemplate
+--- @field menuMixin any # MenuStyle1Mixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L315)
 --- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DetailsFrame : Frame, PerksProgramDetailsFrameTemplate
+--- @field layoutIndex number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L325)
 --- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DividerFrame : Frame, PerksProgramDividerFrameMixin
+--- @field layoutIndex number # 20
 --- @field PerksDividerShort Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L361)
@@ -90,16 +100,19 @@ PerksProgramTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L342)
 --- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer : Frame, PerksProgramSetDetailsListMixin
+--- @field layoutIndex number # 40
 --- @field ScrollBox PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer_ScrollBox
 --- @field ScrollBar PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer_ScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L373)
 --- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_Border : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "PerksProgramProductsPanelTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L307)
 --- child of 
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame : Frame, VerticalLayoutFrame
+--- @field fixedWidth string # "360"
 --- @field DetailsFrame PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DetailsFrame
 --- @field DividerFrame PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DividerFrame
 --- @field SetDetailsScrollBoxContainer PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer
@@ -118,10 +131,12 @@ PerksProgramTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L415)
 --- child of 
 --- @class PerksProgramFrame_ModelSceneContainerFrame_AlteredFormButton : CheckButton, RingedMaskedButtonTemplate, PerksProgramAlteredFormButtonMixin
+--- @field ringAtlas string # "charactercreate-ring-metallight"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L432)
 --- child of 
 --- @class PerksProgramFrame_ModelSceneContainerFrame_NormalFormButton : CheckButton, RingedMaskedButtonTemplate, PerksProgramAlteredFormButtonMixin
+--- @field ringAtlas string # "charactercreate-ring-metallight"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L482)
 --- child of 
@@ -162,6 +177,7 @@ PerksProgramTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L540)
 --- child of 
 --- @class PerksProgramFrame_FooterFrame_LeaveButton : Button, PerksProgramButtonTemplate
+--- @field perksProgramOnClickMethod string # "Leave"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L560)
 --- child of 
@@ -170,11 +186,13 @@ PerksProgramTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L550)
 --- child of 
 --- @class PerksProgramFrame_FooterFrame_PurchaseButton : Button, PerksProgramButtonTemplate, PerksProgramPurchaseButtonMixin
+--- @field perksProgramOnClickMethod string # "ConfirmPurchase"
 --- @field Spinner PerksProgramFrame_FooterFrame_PurchaseButton_Spinner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L569)
 --- child of 
 --- @class PerksProgramFrame_FooterFrame_RefundButton : Button, PerksProgramButtonTemplate, PerksProgramRefundButtonMixin
+--- @field perksProgramOnClickMethod string # "ConfirmRefund"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L579)
 --- child of 
@@ -184,10 +202,12 @@ PerksProgramTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L600)
 --- child of 
 --- @class PerksProgramFrame_FooterFrame_RotateButtonContainer_RotateLeftButton : Button, PerksModelSceneControlButtonTemplate
+--- @field iconAtlas string # "perks-icon-rotate-left"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L610)
 --- child of 
 --- @class PerksProgramFrame_FooterFrame_RotateButtonContainer_RotateRightButton : Button, PerksModelSceneControlButtonTemplate
+--- @field iconAtlas string # "perks-icon-rotate-right"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L594)
 --- child of 
@@ -198,18 +218,22 @@ PerksProgramTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L622)
 --- child of 
 --- @class PerksProgramFrame_FooterFrame_TogglePlayerPreview : CheckButton, PerksProgramCheckboxTemplate
+--- @field textString any # PERKS_PROGRAM_PLAYER_PREVIEW
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L633)
 --- child of 
 --- @class PerksProgramFrame_FooterFrame_ToggleMountSpecial : CheckButton, PerksProgramCheckboxTemplate
+--- @field textString any # PERKS_PROGRAM_MOUNT_SPECIAL_ANIM
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L645)
 --- child of 
 --- @class PerksProgramFrame_FooterFrame_ToggleHideArmor : CheckButton, PerksProgramCheckboxTemplate
+--- @field textString any # PERKS_PROGRAM_HIDE_ARMOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L656)
 --- child of 
 --- @class PerksProgramFrame_FooterFrame_ToggleAttackAnimation : CheckButton, PerksProgramCheckboxTemplate
+--- @field textString any # PERKS_PROGRAM_PLAY_ATTACK_ANIM
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L675)
 --- child of 
@@ -265,10 +289,13 @@ PerksProgramTooltip = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L4)
 --- @class PerksProgramFrame : Frame, DefaultScaleFrame, PerksProgramMixin
+--- @field maxScale number # 0.75
 --- @field PerksProgramTooltip PerksProgramFrame_PerksProgramTooltip
 --- @field ProductsFrame PerksProgramFrame_ProductsFrame
 --- @field ModelSceneContainerFrame PerksProgramFrame_ModelSceneContainerFrame
 --- @field FooterFrame PerksProgramFrame_FooterFrame
 --- @field ThemeContainer PerksProgramFrame_ThemeContainer
 PerksProgramFrame = {}
+PerksProgramFrame["PerksProgramTooltip"] = PerksProgramTooltip
+PerksProgramFrame["maxScale"] = 0.75
 

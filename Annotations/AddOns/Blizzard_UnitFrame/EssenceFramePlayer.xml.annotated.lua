@@ -78,8 +78,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L280)
 --- Template
 --- @class EssencePlayerFrameTemplate : Frame, ClassResourceBarTemplate, EssencePowerBar
+--- @field powerToken string # "ESSENCE"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L294)
 --- @class EssencePlayerFrame : Frame, EssencePlayerFrameTemplate
+--- @field topPadding number # 5
 EssencePlayerFrame = {}
+EssencePlayerFrame["topPadding"] = 5
+EssencePlayerFrame["powerToken"] = "ESSENCE" -- inherited
 

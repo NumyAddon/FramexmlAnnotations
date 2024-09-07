@@ -12,6 +12,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L60)
 --- child of 
 --- @class ProfessionsCustomerOrdersMyOrdersTemplate_OrderList_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "InsetFrameTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L69)
 --- child of 
@@ -38,6 +39,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L19)
 --- Template
 --- @class ProfessionsCustomerOrdersMyOrdersTemplate : Frame, ProfessionsCustomerOrdersMyOrdersMixin
+--- @field mode any # ProfessionsCustomerOrdersMode.Orders
 --- @field RefreshButton ProfessionsCustomerOrdersMyOrdersTemplate_RefreshButton
 --- @field OrderList ProfessionsCustomerOrdersMyOrdersTemplate_OrderList
 

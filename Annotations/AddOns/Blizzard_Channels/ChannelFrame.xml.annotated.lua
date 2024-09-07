@@ -24,6 +24,12 @@
 --- child of ChannelFrame
 --- @class ChannelFrame_RightInset : Frame, InsetFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L1148)
+--- child of ChannelFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+ChannelFrameInset = {}
+ChannelFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L5)
 --- @class ChannelFrame : Frame, ButtonFrameTemplate, ChannelFrameMixin
 --- @field NewButton ChannelFrame_NewButton
@@ -34,4 +40,5 @@
 --- @field RightInset ChannelFrame_RightInset
 --- @field Icon Texture
 ChannelFrame = {}
+ChannelFrame["Inset"] = ChannelFrameInset -- inherited
 

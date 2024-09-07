@@ -126,6 +126,93 @@ InspectModelFrameBorderBottom = {}
 --- @class InspectPaperDollFrame_InspectModelFrame_InspectModelFrameBorderBottom2 : Texture, Char-Inner-Bottom
 InspectModelFrameBorderBottom2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameZoomInButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameZoomInButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L100)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomInButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
+--- @field zoomIn boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameZoomOutButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameZoomOutButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L109)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomOutButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
+--- @field zoomIn boolean # false
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
+--- child of ModelWithControlsTemplateControlFramePanButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
+--- child of ModelWithControlsTemplateControlFramePanButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L118)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton : Button, ModelControlButtonTemplate, ModelControlPanButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameRotateLeftButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameRotateLeftButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L124)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
+--- @field rotateDirection string # "left"
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameRotateRightButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameRotateRightButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L133)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
+--- @field rotateDirection string # "right"
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
+--- child of ModelWithControlsTemplateControlFrameRotateResetButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
+--- child of ModelWithControlsTemplateControlFrameRotateResetButton (created in template ModelControlButtonTemplate)
+--- @type Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L142)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateResetButton : Button, ModelControlButtonTemplate, ModelControlResetButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L67)
+--- child of InspectModelFrame (created in template ModelWithControlsTemplate)
+--- @type ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame
+--- @field panButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton
+--- @field rotateLeftButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton
+--- @field rotateRightButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton
+InspectModelFrameControlFrame = {}
+InspectModelFrameControlFrame["panButton"] = ModelWithControlsTemplateControlFramePanButton
+InspectModelFrameControlFrame["rotateLeftButton"] = ModelWithControlsTemplateControlFrameRotateLeftButton
+InspectModelFrameControlFrame["rotateRightButton"] = ModelWithControlsTemplateControlFrameRotateRightButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L112)
 --- child of InspectPaperDollFrame
 --- @class InspectPaperDollFrame_InspectModelFrame : PlayerModel, ModelWithControlsTemplate
@@ -135,81 +222,167 @@ InspectModelFrameBorderBottom2 = {}
 --- @field BackgroundBotRight InspectPaperDollFrame_InspectModelFrame_InspectModelFrameBackgroundBotRight
 --- @field BackgroundOverlay InspectPaperDollFrame_InspectModelFrame_InspectModelFrameBackgroundOverlay
 InspectModelFrame = {}
+InspectModelFrame["BackgroundTopLeft"] = InspectModelFrameBackgroundTopLeft
+InspectModelFrame["BackgroundTopRight"] = InspectModelFrameBackgroundTopRight
+InspectModelFrame["BackgroundBotLeft"] = InspectModelFrameBackgroundBotLeft
+InspectModelFrame["BackgroundBotRight"] = InspectModelFrameBackgroundBotRight
+InspectModelFrame["BackgroundOverlay"] = InspectModelFrameBackgroundOverlay
+InspectModelFrame["controlFrame"] = InspectModelFrameControlFrame -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L37)
+--- child of InspectHeadSlot (created in template InspectPaperDollItemSlotButtonLeftTemplate)
+--- @type InspectPaperDollItemSlotButtonLeftTemplate_InspectPaperDollItemSlotButtonLeftTemplateFrame
+InspectHeadSlotFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L218)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectHeadSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectHeadSlot = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L37)
+--- child of InspectNeckSlot (created in template InspectPaperDollItemSlotButtonLeftTemplate)
+--- @type InspectPaperDollItemSlotButtonLeftTemplate_InspectPaperDollItemSlotButtonLeftTemplateFrame
+InspectNeckSlotFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L223)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectNeckSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectNeckSlot = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L37)
+--- child of InspectShoulderSlot (created in template InspectPaperDollItemSlotButtonLeftTemplate)
+--- @type InspectPaperDollItemSlotButtonLeftTemplate_InspectPaperDollItemSlotButtonLeftTemplateFrame
+InspectShoulderSlotFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L228)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectShoulderSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectShoulderSlot = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L37)
+--- child of InspectBackSlot (created in template InspectPaperDollItemSlotButtonLeftTemplate)
+--- @type InspectPaperDollItemSlotButtonLeftTemplate_InspectPaperDollItemSlotButtonLeftTemplateFrame
+InspectBackSlotFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L233)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectBackSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectBackSlot = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L37)
+--- child of InspectChestSlot (created in template InspectPaperDollItemSlotButtonLeftTemplate)
+--- @type InspectPaperDollItemSlotButtonLeftTemplate_InspectPaperDollItemSlotButtonLeftTemplateFrame
+InspectChestSlotFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L238)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectChestSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectChestSlot = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L37)
+--- child of InspectShirtSlot (created in template InspectPaperDollItemSlotButtonLeftTemplate)
+--- @type InspectPaperDollItemSlotButtonLeftTemplate_InspectPaperDollItemSlotButtonLeftTemplateFrame
+InspectShirtSlotFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L243)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectShirtSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectShirtSlot = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L37)
+--- child of InspectTabardSlot (created in template InspectPaperDollItemSlotButtonLeftTemplate)
+--- @type InspectPaperDollItemSlotButtonLeftTemplate_InspectPaperDollItemSlotButtonLeftTemplateFrame
+InspectTabardSlotFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L248)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectTabardSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectTabardSlot = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L37)
+--- child of InspectWristSlot (created in template InspectPaperDollItemSlotButtonLeftTemplate)
+--- @type InspectPaperDollItemSlotButtonLeftTemplate_InspectPaperDollItemSlotButtonLeftTemplateFrame
+InspectWristSlotFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L253)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectWristSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectWristSlot = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L55)
+--- child of InspectHandsSlot (created in template InspectPaperDollItemSlotButtonRightTemplate)
+--- @type InspectPaperDollItemSlotButtonRightTemplate_InspectPaperDollItemSlotButtonRightTemplateFrame
+InspectHandsSlotFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L258)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectHandsSlot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectHandsSlot = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L55)
+--- child of InspectWaistSlot (created in template InspectPaperDollItemSlotButtonRightTemplate)
+--- @type InspectPaperDollItemSlotButtonRightTemplate_InspectPaperDollItemSlotButtonRightTemplateFrame
+InspectWaistSlotFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L263)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectWaistSlot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectWaistSlot = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L55)
+--- child of InspectLegsSlot (created in template InspectPaperDollItemSlotButtonRightTemplate)
+--- @type InspectPaperDollItemSlotButtonRightTemplate_InspectPaperDollItemSlotButtonRightTemplateFrame
+InspectLegsSlotFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L268)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectLegsSlot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectLegsSlot = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L55)
+--- child of InspectFeetSlot (created in template InspectPaperDollItemSlotButtonRightTemplate)
+--- @type InspectPaperDollItemSlotButtonRightTemplate_InspectPaperDollItemSlotButtonRightTemplateFrame
+InspectFeetSlotFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L273)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectFeetSlot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectFeetSlot = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L55)
+--- child of InspectFinger0Slot (created in template InspectPaperDollItemSlotButtonRightTemplate)
+--- @type InspectPaperDollItemSlotButtonRightTemplate_InspectPaperDollItemSlotButtonRightTemplateFrame
+InspectFinger0SlotFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L278)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectFinger0Slot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectFinger0Slot = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L55)
+--- child of InspectFinger1Slot (created in template InspectPaperDollItemSlotButtonRightTemplate)
+--- @type InspectPaperDollItemSlotButtonRightTemplate_InspectPaperDollItemSlotButtonRightTemplateFrame
+InspectFinger1SlotFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L283)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectFinger1Slot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectFinger1Slot = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L55)
+--- child of InspectTrinket0Slot (created in template InspectPaperDollItemSlotButtonRightTemplate)
+--- @type InspectPaperDollItemSlotButtonRightTemplate_InspectPaperDollItemSlotButtonRightTemplateFrame
+InspectTrinket0SlotFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L288)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectTrinket0Slot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectTrinket0Slot = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L55)
+--- child of InspectTrinket1Slot (created in template InspectPaperDollItemSlotButtonRightTemplate)
+--- @type InspectPaperDollItemSlotButtonRightTemplate_InspectPaperDollItemSlotButtonRightTemplateFrame
+InspectTrinket1SlotFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L293)
 --- child of InspectPaperDollItemsFrame
@@ -220,10 +393,20 @@ InspectTrinket1Slot = {}
 --- child of InspectMainHandSlot
 --- @class  : Texture, Char-Slot-Bottom-Left
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L73)
+--- child of InspectMainHandSlot (created in template InspectPaperDollItemSlotButtonBottomTemplate)
+--- @type InspectPaperDollItemSlotButtonBottomTemplate_InspectPaperDollItemSlotButtonBottomTemplateFrame
+InspectMainHandSlotFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L298)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectMainHandSlot : ItemButton, InspectPaperDollItemSlotButtonBottomTemplate
 InspectMainHandSlot = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L73)
+--- child of InspectSecondaryHandSlot (created in template InspectPaperDollItemSlotButtonBottomTemplate)
+--- @type InspectPaperDollItemSlotButtonBottomTemplate_InspectPaperDollItemSlotButtonBottomTemplateFrame
+InspectSecondaryHandSlotFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L312)
 --- child of InspectPaperDollItemsFrame

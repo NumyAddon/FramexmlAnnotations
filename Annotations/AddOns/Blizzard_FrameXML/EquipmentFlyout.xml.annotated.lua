@@ -66,4 +66,6 @@ EquipmentFlyoutFrameHighlight = {}
 --- @field NavigationFrame EquipmentFlyoutFrame_NavigationFrame
 --- @field Highlight EquipmentFlyoutFrame_EquipmentFlyoutFrameHighlight
 EquipmentFlyoutFrame = {}
+EquipmentFlyoutFrame["buttonFrame"] = EquipmentFlyoutFrameButtons
+EquipmentFlyoutFrame["Highlight"] = EquipmentFlyoutFrameHighlight
 

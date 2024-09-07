@@ -8,57 +8,113 @@
 --- Template
 --- @class GuildBankItemButtonTemplate : ItemButton, GuildBankItemButtonMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L31)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button1 : ItemButton, GuildBankItemButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L36)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button2 : ItemButton, GuildBankItemButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L41)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button3 : ItemButton, GuildBankItemButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L46)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button4 : ItemButton, GuildBankItemButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L51)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button5 : ItemButton, GuildBankItemButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L56)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button6 : ItemButton, GuildBankItemButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L61)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button7 : ItemButton, GuildBankItemButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L66)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button8 : ItemButton, GuildBankItemButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L71)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button9 : ItemButton, GuildBankItemButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L76)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button10 : ItemButton, GuildBankItemButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L81)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button11 : ItemButton, GuildBankItemButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L86)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button12 : ItemButton, GuildBankItemButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L91)
 --- child of GuildBankFrameColumnTemplate
 --- @class GuildBankFrameColumnTemplate_Button13 : ItemButton, GuildBankItemButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L7)
+--- child of  (created in template GuildBankItemButtonTemplate)
+--- @type GuildBankItemButtonTemplate_GuildBankItemButtonTemplateCooldown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L96)
 --- child of GuildBankFrameColumnTemplate
@@ -220,21 +276,84 @@ GuildBankMoneyLimitLabel = {}
 --- @class GuildBankFrame_MoneyFrameBG_GuildBankMoneyUnlimitedLabel : FontString, GameFontHighlightSmall
 GuildBankMoneyUnlimitedLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1484)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1492)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1500)
+--- child of  (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+Middle = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L512)
 --- child of GuildBankFrame
 --- @class GuildBankFrame_MoneyFrameBG : Frame, ThinGoldEdgeTemplate
 --- @field LimitLabel GuildBankFrame_MoneyFrameBG_GuildBankMoneyLimitLabel
 --- @field UnlimitedLabel GuildBankFrame_MoneyFrameBG_GuildBankMoneyUnlimitedLabel
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L110)
+--- child of GuildBankMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+GuildBankMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L138)
+--- child of GuildBankMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+GuildBankMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L162)
+--- child of GuildBankMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+GuildBankMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L186)
+--- child of GuildBankMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+GuildBankMoneyFrameGoldButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L534)
 --- child of GuildBankFrame
 --- @class GuildBankFrame_GuildBankMoneyFrame : Frame, SmallMoneyFrameTemplate
 GuildBankMoneyFrame = {}
+GuildBankMoneyFrame["trialErrorButton"] = GuildBankMoneyFrameTrialErrorButton -- inherited
+GuildBankMoneyFrame["CopperButton"] = GuildBankMoneyFrameCopperButton -- inherited
+GuildBankMoneyFrame["SilverButton"] = GuildBankMoneyFrameSilverButton -- inherited
+GuildBankMoneyFrame["GoldButton"] = GuildBankMoneyFrameGoldButton -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L110)
+--- child of GuildBankWithdrawMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+GuildBankWithdrawMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L138)
+--- child of GuildBankWithdrawMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+GuildBankWithdrawMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L162)
+--- child of GuildBankWithdrawMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+GuildBankWithdrawMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L186)
+--- child of GuildBankWithdrawMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+GuildBankWithdrawMoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L544)
 --- child of GuildBankFrame
 --- @class GuildBankFrame_GuildBankWithdrawMoneyFrame : Frame, SmallMoneyFrameTemplate
 GuildBankWithdrawMoneyFrame = {}
+GuildBankWithdrawMoneyFrame["trialErrorButton"] = GuildBankWithdrawMoneyFrameTrialErrorButton -- inherited
+GuildBankWithdrawMoneyFrame["CopperButton"] = GuildBankWithdrawMoneyFrameCopperButton -- inherited
+GuildBankWithdrawMoneyFrame["SilverButton"] = GuildBankWithdrawMoneyFrameSilverButton -- inherited
+GuildBankWithdrawMoneyFrame["GoldButton"] = GuildBankWithdrawMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L554)
 --- child of GuildBankFrame
@@ -304,10 +423,34 @@ GuildBankTab7 = {}
 --- @class GuildBankFrame_GuildBankTab8 : Frame, GuildBankTabTemplate
 GuildBankTab8 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L110)
+--- child of GuildBankFrameTabCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+GuildBankFrameTabCostMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L138)
+--- child of GuildBankFrameTabCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+GuildBankFrameTabCostMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L162)
+--- child of GuildBankFrameTabCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+GuildBankFrameTabCostMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L186)
+--- child of GuildBankFrameTabCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+GuildBankFrameTabCostMoneyFrameGoldButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L646)
 --- child of 
 --- @class GuildBankFrame_BuyInfo_GuildBankFrameTabCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 GuildBankFrameTabCostMoneyFrame = {}
+GuildBankFrameTabCostMoneyFrame["trialErrorButton"] = GuildBankFrameTabCostMoneyFrameTrialErrorButton -- inherited
+GuildBankFrameTabCostMoneyFrame["CopperButton"] = GuildBankFrameTabCostMoneyFrameCopperButton -- inherited
+GuildBankFrameTabCostMoneyFrame["SilverButton"] = GuildBankFrameTabCostMoneyFrameSilverButton -- inherited
+GuildBankFrameTabCostMoneyFrame["GoldButton"] = GuildBankFrameTabCostMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L657)
 --- child of 
@@ -336,7 +479,10 @@ GuildBankFrameTabCost = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L682)
 --- child of 
 --- @class GuildBankFrame_Log_GuildBankMessageFrame : ScrollingMessageFrame, InlineHyperlinkFrameTemplate
+--- @field constrainRangeToText boolean # true
 GuildBankMessageFrame = {}
+GuildBankMessageFrame["constrainRangeToText"] = true
+GuildBankMessageFrame["tooltipFrame"] = GameTooltip -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L700)
 --- child of 
@@ -356,7 +502,9 @@ GuildBankInfoSaveButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L732)
 --- child of GuildBankInfo
 --- @class GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field scrollBarX number # 4
 GuildBankInfoScrollFrame = {}
+GuildBankInfoScrollFrame["scrollBarX"] = 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L708)
 --- child of GuildBankFrame
@@ -364,6 +512,8 @@ GuildBankInfoScrollFrame = {}
 --- @field SaveButton GuildBankFrame_GuildBankInfo_GuildBankInfoSaveButton
 --- @field ScrollFrame GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame
 GuildBankInfo = {}
+GuildBankInfo["SaveButton"] = GuildBankInfoSaveButton
+GuildBankInfo["ScrollFrame"] = GuildBankInfoScrollFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L195)
 --- child of GuildBankFrame
@@ -488,10 +638,16 @@ GuildBankFrameBottomInner = {}
 --- @field RedMarbleBG Texture
 --- @field BlackBG Texture
 GuildBankFrame = {}
+GuildBankFrame["MoneyFrame"] = GuildBankMoneyFrame
+GuildBankFrame["WithdrawMoneyFrame"] = GuildBankWithdrawMoneyFrame
+GuildBankFrame["Info"] = GuildBankInfo
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L801)
 --- @class GuildBankPopupFrame : Frame, IconSelectorPopupFrameTemplate, GuildBankPopupFrameMixin
+--- @field editBoxHeaderText any # GUILDBANK_POPUP_TEXT
 GuildBankPopupFrame = {}
+GuildBankPopupFrame["editBoxHeaderText"] = GUILDBANK_POPUP_TEXT
+GuildBankPopupFrame["editBoxHeaderText"] =  -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L810)
 --- @class GuildItemSearchBox : EditBox, BagSearchBoxTemplate

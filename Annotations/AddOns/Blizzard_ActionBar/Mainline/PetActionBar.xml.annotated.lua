@@ -12,5 +12,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/PetActionBar.xml#L33)
 --- @class PetActionBar : Frame, EditModeActionBarTemplate, PetActionBarMixin
+--- @field buttonTemplate string # "PetActionButtonTemplate"
 PetActionBar = {}
+PetActionBar["buttonTemplate"] = "PetActionButtonTemplate"
 

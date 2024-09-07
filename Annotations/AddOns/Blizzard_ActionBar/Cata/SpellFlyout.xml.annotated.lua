@@ -34,4 +34,7 @@ SpellFlyoutVerticalBackground = {}
 --- @field HorizBg SpellFlyout_SpellFlyoutHorizontalBackground
 --- @field VertBg SpellFlyout_SpellFlyoutVerticalBackground
 SpellFlyout = {}
+SpellFlyout["BgEnd"] = SpellFlyoutBackgroundEnd
+SpellFlyout["HorizBg"] = SpellFlyoutHorizontalBackground
+SpellFlyout["VertBg"] = SpellFlyoutVerticalBackground
 

@@ -10,6 +10,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.xml#L19)
 --- child of AnimaDiversionModelScenePinTemplate
 --- @class AnimaDiversionModelScenePinTemplate_ModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
+--- @field useViewInsetNormalization boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.xml#L17)
 --- Template

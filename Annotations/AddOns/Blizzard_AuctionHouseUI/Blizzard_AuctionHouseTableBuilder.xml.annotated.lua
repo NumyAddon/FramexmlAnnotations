@@ -25,6 +25,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L40)
 --- child of AuctionHouseTableMoneyDisplayTemplate
 --- @class AuctionHouseTableMoneyDisplayTemplate_MoneyDisplay : Frame, MoneyDisplayFrameTemplate
+--- @field hideCopper boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L37)
 --- Template
@@ -39,6 +40,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L63)
 --- Template
 --- @class AuctionHouseTableCellUnitPriceTemplate : Frame, AuctionHouseTableMoneyDisplayCheckmarkTemplate, AuctionHouseTableCellUnitPriceMixin
+--- @field leftAlign boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L69)
 --- Template
@@ -169,6 +171,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L198)
 --- Template
 --- @class AuctionHouseTableCellItemQuantityRightTemplate : Frame, AuctionHouseTableCellItemQuantityLeftTemplate
+--- @field justificationH string # "RIGHT"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L204)
 --- Template

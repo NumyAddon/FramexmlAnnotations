@@ -92,6 +92,7 @@
 --- child of GarrisonBuildingFrame
 --- @class GarrisonBuildingFrame_GarrisonBuildingFrameTutorialButton : Button, MainHelpPlateButton
 GarrisonBuildingFrameTutorialButton = {}
+GarrisonBuildingFrameTutorialButton["MainHelpPlateButtonTooltipText"] = MAIN_HELP_BUTTON_TOOLTIP -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L532)
 --- child of 
@@ -504,6 +505,8 @@ GarrisonBuildingFrameFollowers = {}
 --- @field Confirmation GarrisonBuildingFrame_Confirmation
 --- @field Cover GarrisonBuildingFrame_Cover
 GarrisonBuildingFrame = {}
+GarrisonBuildingFrame["MainHelpButton"] = GarrisonBuildingFrameTutorialButton
+GarrisonBuildingFrame["FollowerList"] = GarrisonBuildingFrameFollowers
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L1469)
 --- @class GarrisonBuildingPlacer : Frame

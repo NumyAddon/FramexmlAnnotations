@@ -15,6 +15,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeList.xml#L56)
 --- child of ProfessionsCustomerOrdersRecipeListTemplate
 --- @class ProfessionsCustomerOrdersRecipeListTemplate_NineSlice : Frame, NineSlicePanelTemplate
+--- @field layoutType string # "InsetFrameTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeList.xml#L65)
 --- child of ProfessionsCustomerOrdersRecipeListTemplate

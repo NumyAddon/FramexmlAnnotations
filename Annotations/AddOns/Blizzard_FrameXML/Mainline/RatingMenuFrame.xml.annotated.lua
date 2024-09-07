@@ -7,6 +7,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/RatingMenuFrame.xml#L54)
 --- child of RatingMenuFrame
 --- @class RatingMenuFrame_Header : Frame, DialogHeaderTemplate
+--- @field headerTextPadding number # 100
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/RatingMenuFrame.xml#L60)
 --- child of RatingMenuFrame

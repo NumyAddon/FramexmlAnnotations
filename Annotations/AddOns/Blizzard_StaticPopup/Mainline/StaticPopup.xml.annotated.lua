@@ -55,9 +55,49 @@
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_Dropdown : DropdownButton, WowStyle1DropdownTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L110)
+--- child of StaticPopupTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L138)
+--- child of StaticPopupTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L162)
+--- child of StaticPopupTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L186)
+--- child of StaticPopupTemplateMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L171)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_StaticPopupTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L6)
+--- child of StaticPopupTemplateMoneyInputFrame (created in template MoneyInputFrameTemplate)
+--- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateGold
+--- @field left Texture
+--- @field right Texture
+--- @field texture Texture
+--- @field label FontString
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L80)
+--- child of StaticPopupTemplateMoneyInputFrame (created in template MoneyInputFrameTemplate)
+--- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver
+--- @field left Texture
+--- @field right Texture
+--- @field texture Texture
+--- @field label FontString
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L155)
+--- child of StaticPopupTemplateMoneyInputFrame (created in template MoneyInputFrameTemplate)
+--- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper
+--- @field left Texture
+--- @field right Texture
+--- @field texture Texture
+--- @field label FontString
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L183)
 --- child of StaticPopupTemplate
@@ -91,6 +131,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L50)
 --- Template
 --- @class StaticPopupTemplate : Frame
+--- @field onCloseCallback any # StaticPopup_OnCloseButtonClicked
 --- @field Border StaticPopupTemplate_Border
 --- @field CoverFrame StaticPopupTemplate_CoverFrame
 --- @field extraFrame Frame

@@ -74,4 +74,8 @@ DestinyFrameHordeFinalText = {}
 --- @field allianceText DestinyFrame_DestinyFrameAllianceText
 --- @field hordeText DestinyFrame_DestinyFrameHordeText
 DestinyFrame = {}
+DestinyFrame["allianceButton"] = DestinyAllianceButton
+DestinyFrame["hordeButton"] = DestinyHordeButton
+DestinyFrame["allianceText"] = DestinyFrameAllianceText
+DestinyFrame["hordeText"] = DestinyFrameHordeText
 

@@ -69,8 +69,29 @@
 --- child of CompactArenaFrameTemplate
 --- @class CompactArenaFrameTemplate_PreMatchFramesContainer : Frame, ArenaPreMatchFramesContainerMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L15)
+--- child of CompactArenaFrameTemplate (created in template CompactPartyFrameTemplate)
+--- @type CompactPartyFrameTemplate_CompactPartyFrameTemplatePet1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L20)
+--- child of CompactArenaFrameTemplate (created in template CompactPartyFrameTemplate)
+--- @type CompactPartyFrameTemplate_CompactPartyFrameTemplatePet2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L25)
+--- child of CompactArenaFrameTemplate (created in template CompactPartyFrameTemplate)
+--- @type CompactPartyFrameTemplate_CompactPartyFrameTemplatePet3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L30)
+--- child of CompactArenaFrameTemplate (created in template CompactPartyFrameTemplate)
+--- @type CompactPartyFrameTemplate_CompactPartyFrameTemplatePet4
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L35)
+--- child of CompactArenaFrameTemplate (created in template CompactPartyFrameTemplate)
+--- @type CompactPartyFrameTemplate_CompactPartyFrameTemplatePet5
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L161)
 --- Template
 --- @class CompactArenaFrameTemplate : Frame, CompactPartyFrameTemplate, UIParentRightManagedFrameTemplate, EditModeArenaUnitFrameSystemTemplate, CompactArenaFrameMixin
+--- @field layoutIndex number # 12
 --- @field PreMatchFramesContainer CompactArenaFrameTemplate_PreMatchFramesContainer
 

@@ -16,6 +16,11 @@ QuickKeybindTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L48)
 --- child of QuickKeybindFrameTemplate
 --- @class QuickKeybindFrameTemplate_Header : Frame, DialogHeaderTemplate
+--- @field textString any # QUICK_KEYBIND_MODE
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L501)
+--- child of  (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L53)
 --- child of QuickKeybindFrameTemplate

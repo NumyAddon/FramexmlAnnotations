@@ -21,6 +21,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/SpellFlyout.xml#L76)
 --- child of SpellFlyout
 --- @class SpellFlyout_Background : Frame
+--- @field ignoreInlayout boolean # true
 --- @field End Texture
 --- @field HorizontalMiddle Texture
 --- @field VerticalMiddle Texture

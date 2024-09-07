@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L3)
 --- Template
 --- @class UnitPopupVoiceToggleButtonTemplate : Button, VoiceToggleButtonTemplate, UnitPopupVoiceToggleButtonMixin
+--- @field fixedWidth number # 14
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L29)
 --- Template

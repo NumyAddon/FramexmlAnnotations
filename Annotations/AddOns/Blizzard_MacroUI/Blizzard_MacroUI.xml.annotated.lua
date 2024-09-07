@@ -17,6 +17,7 @@ MacroFrameSelectedMacroButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L96)
 --- child of MacroFrame
 --- @class MacroFrame_MacroSelector : Frame, ScrollBoxSelectorTemplate
+--- @field buttonTemplate string # "MacroButtonTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L105)
 --- child of MacroFrame
@@ -27,6 +28,7 @@ MacroEditButton = {}
 --- child of MacroFrame
 --- @class MacroFrame_MacroFrameScrollFrame : ScrollFrame, MacroFrameScrollFrameTemplate
 MacroFrameScrollFrame = {}
+MacroFrameScrollFrame["scrollBarX"] = 6 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L145)
 --- child of MacroFrame
@@ -47,6 +49,7 @@ MacroSaveButton = {}
 --- child of MacroFrame
 --- @class MacroFrame_MacroFrameTextBackground : Frame, TooltipBackdropTemplate
 MacroFrameTextBackground = {}
+MacroFrameTextBackground["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L180)
 --- child of MacroFrame
@@ -107,9 +110,19 @@ MacroFrameEnterMacroText = {}
 --- @class MacroFrame_MacroFrameCharLimitText : FontString, GameFontHighlightSmall
 MacroFrameCharLimitText = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1148)
+--- child of MacroFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+MacroFrameInset = {}
+MacroFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L23)
 --- @class MacroFrame : Frame, ButtonFrameTemplate, MacroFrameMixin
+--- @field maxTabWidth number # 140
 --- @field SelectedMacroButton MacroFrame_MacroFrameSelectedMacroButton
 --- @field MacroSelector MacroFrame_MacroSelector
 MacroFrame = {}
+MacroFrame["SelectedMacroButton"] = MacroFrameSelectedMacroButton
+MacroFrame["maxTabWidth"] = 140
+MacroFrame["Inset"] = MacroFrameInset -- inherited
 

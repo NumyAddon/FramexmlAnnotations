@@ -11,6 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L7)
 --- child of CampaignOverviewTemplate
 --- @class CampaignOverviewTemplate_Header : Frame, CampaignHeaderDisplayTemplate
+--- @field suppressNextText boolean # true
 --- @field BackButton CampaignOverviewTemplate_Header_BackButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L22)

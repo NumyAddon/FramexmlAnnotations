@@ -83,11 +83,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L317)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_UpButton : Button, CharacterSelectListMoveButtonTemplate
+--- @field moveOffset number # -1
 --- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L331)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_DownButton : Button, CharacterSelectListMoveButtonTemplate
+--- @field moveOffset number # 1
 --- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L171)

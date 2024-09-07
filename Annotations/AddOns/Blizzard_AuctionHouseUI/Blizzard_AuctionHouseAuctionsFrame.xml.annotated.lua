@@ -48,28 +48,34 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L87)
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_SummaryList : Frame, AuctionHouseBackgroundTemplate, AuctionHouseAuctionsSummaryListMixin
+--- @field backgroundAtlas string # "auctionhouse-background-summarylist"
 --- @field ScrollBox AuctionHouseAuctionsFrameTemplate_SummaryList_ScrollBox
 --- @field ScrollBar AuctionHouseAuctionsFrameTemplate_SummaryList_ScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L117)
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_ItemDisplay : Button, AuctionHouseItemDisplayTemplate
+--- @field itemButtonXOffset number # 22
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L130)
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_AllAuctionsList : Frame, AuctionHouseItemListTemplate
+--- @field backgroundAtlas string # "auctionhouse-background-index"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L144)
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_BidsList : Frame, AuctionHouseItemListTemplate
+--- @field backgroundAtlas string # "auctionhouse-background-index"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L156)
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_ItemList : Frame, AuctionHouseItemListTemplate
+--- @field backgroundAtlas string # "auctionhouse-background-auctions"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L170)
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_CommoditiesList : Frame, AuctionHouseCommoditiesListTemplate
+--- @field backgroundAtlas string # "auctionhouse-background-auctions"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L55)
 --- Template

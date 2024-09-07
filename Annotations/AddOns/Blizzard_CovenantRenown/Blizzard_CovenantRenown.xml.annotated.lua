@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L31)
+--- child of CovenantRenownRewardTemplate
+--- @class CovenantRenownRewardTemplate_Name : FontString, GameFontNormalMed2
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L5)
 --- Template
 --- @class CovenantRenownRewardTemplate : Frame, CovenantRenownRewardMixin
@@ -22,6 +26,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L132)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_CloseButton : Button, UIPanelCloseButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L151)
+--- child of 
+--- @class CovenantRenownFrame_HeaderFrame_Level : FontString, Game32Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L137)
 --- child of CovenantRenownFrame

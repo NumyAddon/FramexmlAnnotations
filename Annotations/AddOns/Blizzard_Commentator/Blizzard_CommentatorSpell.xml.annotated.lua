@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.xml#L21)
+--- child of CommentatorSpellBaseTemplate
+--- @class CommentatorSpellBaseTemplate_Cooldown : Cooldown, CooldownFrameTemplate, CommentatorCooldownMixin
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.xml#L5)
 --- Template
 --- @class CommentatorSpellBaseTemplate : Frame, CooldownFrameTemplate, CommentatorSpellBaseMixin
@@ -10,6 +14,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.xml#L31)
 --- Template
 --- @class CommentatorDebuffTemplate : Frame, CommentatorSpellBaseTemplate, CommentatorDebuffMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.xml#L58)
+--- child of CommentatorSpellTemplate
+--- @class CommentatorSpellTemplate_Charges : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.xml#L44)
+--- child of CommentatorSpellTemplate
+--- @class CommentatorSpellTemplate_ChargesText : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.xml#L32)
 --- Template

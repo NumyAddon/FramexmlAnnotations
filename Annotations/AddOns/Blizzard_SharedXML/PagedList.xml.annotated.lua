@@ -8,6 +8,21 @@
 --- Template
 --- @class PagedListControlButtonTemplate : Button, PagedListControlButtonMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L41)
+--- child of PagedListHorizontalControlTemplate
+--- @class PagedListHorizontalControlTemplate_BackwardButton : Button, PagedListControlButtonTemplate
+--- @field layoutIndex number # 2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L51)
+--- child of PagedListHorizontalControlTemplate
+--- @class PagedListHorizontalControlTemplate_ForwardButton : Button, PagedListControlButtonTemplate
+--- @field layoutIndex number # 3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L31)
+--- child of PagedListHorizontalControlTemplate
+--- @class PagedListHorizontalControlTemplate_PageText : FontString
+--- @field layoutIndex number # 1
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/PagedList.xml#L20)
 --- Template
 --- @class PagedListHorizontalControlTemplate : Frame, HorizontalLayoutFrame, PagedListControlMixin

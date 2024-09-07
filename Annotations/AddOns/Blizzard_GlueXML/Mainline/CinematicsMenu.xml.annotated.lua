@@ -1,5 +1,14 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L22)
+--- child of CinematicsMenuButtonTemplate
+--- @class CinematicsMenuButtonTemplate_StreamingIcon : Frame, SpinnerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L28)
+--- child of CinematicsMenuButtonTemplate
+--- @class CinematicsMenuButtonTemplate_StatusBar : StatusBar
+--- @field Bg Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L3)
 --- Template
 --- @class CinematicsMenuButtonTemplate : Button, TemplatedListElementTemplate, CinematicsMenuButtonMixin

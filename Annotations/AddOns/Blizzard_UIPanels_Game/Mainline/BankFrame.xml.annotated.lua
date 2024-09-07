@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L13)
+--- child of BankPanelCheckboxTemplate
+--- @class BankPanelCheckboxTemplate_Text : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L3)
 --- Template
 --- @class BankPanelCheckboxTemplate : CheckButton, TruncatedTooltipFontStringWrapperTemplate, BankPanelCheckboxMixin
@@ -10,11 +14,61 @@
 --- @class BankPanelTabDepositSettingsCheckboxTemplate : CheckButton, BankPanelCheckboxTemplate
 --- @field fontObject any # GameFontHighlightSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L44)
+--- child of BankPanelTabSettingsMenuTemplate
+--- @class BankPanelTabSettingsMenuTemplate_DepositSettingsMenu : Frame, BankTabDepositSettingsMenuTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L39)
 --- Template
 --- @class BankPanelTabSettingsMenuTemplate : Frame, IconSelectorPopupFrameTemplate, CallbackRegistrantTemplate, BankPanelTabSettingsMenuMixin
 --- @field editBoxHeaderText any # ACCOUNT_BANK_TAB_NAME_PROMPT
 --- @field DepositSettingsMenu BankPanelTabSettingsMenuTemplate_DepositSettingsMenu
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L92)
+--- child of BankTabDepositSettingsMenuTemplate
+--- @class BankTabDepositSettingsMenuTemplate_AssignEquipmentCheckbox : CheckButton, BankPanelTabDepositSettingsCheckboxTemplate
+--- @field text any # BANK_TAB_ASSIGN_EQUIPMENT_CHECKBOX
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L102)
+--- child of BankTabDepositSettingsMenuTemplate
+--- @class BankTabDepositSettingsMenuTemplate_AssignConsumablesCheckbox : CheckButton, BankPanelTabDepositSettingsCheckboxTemplate
+--- @field text any # BANK_TAB_ASSIGN_CONSUMABLES_CHECKBOX
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L112)
+--- child of BankTabDepositSettingsMenuTemplate
+--- @class BankTabDepositSettingsMenuTemplate_AssignProfessionGoodsCheckbox : CheckButton, BankPanelTabDepositSettingsCheckboxTemplate
+--- @field text any # BANK_TAB_ASSIGN_PROFESSION_GOODS_CHECKBOX
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L122)
+--- child of BankTabDepositSettingsMenuTemplate
+--- @class BankTabDepositSettingsMenuTemplate_AssignReagentsCheckbox : CheckButton, BankPanelTabDepositSettingsCheckboxTemplate
+--- @field text any # BANK_TAB_ASSIGN_REAGENTS_CHECKBOX
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L132)
+--- child of BankTabDepositSettingsMenuTemplate
+--- @class BankTabDepositSettingsMenuTemplate_AssignJunkCheckbox : CheckButton, BankPanelTabDepositSettingsCheckboxTemplate
+--- @field text any # BANK_TAB_ASSIGN_JUNK_CHECKBOX
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L142)
+--- child of BankTabDepositSettingsMenuTemplate
+--- @class BankTabDepositSettingsMenuTemplate_IgnoreCleanUpCheckbox : CheckButton, BankPanelTabDepositSettingsCheckboxTemplate
+--- @field text any # BANK_TAB_IGNORE_IN_CLEANUP_CHECKBOX
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L152)
+--- child of BankTabDepositSettingsMenuTemplate
+--- @class BankTabDepositSettingsMenuTemplate_ExpansionFilterDropdown : DropdownButton, WowStyle1DropdownTemplate, BankPanelTabSettingsExpansionFilterDropdownMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L60)
+--- child of BankTabDepositSettingsMenuTemplate
+--- @class BankTabDepositSettingsMenuTemplate_AssignExpansionHeader : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L67)
+--- child of BankTabDepositSettingsMenuTemplate
+--- @class BankTabDepositSettingsMenuTemplate_AssignSettingsHeader : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L74)
+--- child of BankTabDepositSettingsMenuTemplate
+--- @class BankTabDepositSettingsMenuTemplate_CleanUpSettingsHeader : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L56)
 --- Template
@@ -30,6 +84,10 @@
 --- @field AssignSettingsHeader BankTabDepositSettingsMenuTemplate_AssignSettingsHeader
 --- @field CleanUpSettingsHeader BankTabDepositSettingsMenuTemplate_CleanUpSettingsHeader
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L168)
+--- child of BankPanelHeaderFrameTemplate
+--- @class BankPanelHeaderFrameTemplate_Text : FontString, GameFontHighlightMedium
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L164)
 --- Template
 --- @class BankPanelHeaderFrameTemplate : Frame
@@ -40,6 +98,22 @@
 --- @class BankPanelMoneyFrameButtonTemplate : Frame, UIPanelButtonTemplate, DisabledTooltipButtonTemplate
 --- @field disabledTooltipAnchor string # "ANCHOR_RIGHT"
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L188)
+--- child of BankPanelMoneyFrameTemplate
+--- @class BankPanelMoneyFrameTemplate_Border : Frame, ThinGoldEdgeTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L195)
+--- child of BankPanelMoneyFrameTemplate
+--- @class BankPanelMoneyFrameTemplate_MoneyDisplay : Frame, SmallMoneyFrameTemplate, BankPanelMoneyFrameMoneyDisplayMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L204)
+--- child of BankPanelMoneyFrameTemplate
+--- @class BankPanelMoneyFrameTemplate_WithdrawButton : Button, BankPanelMoneyFrameButtonTemplate, BankPanelWithdrawMoneyButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L213)
+--- child of BankPanelMoneyFrameTemplate
+--- @class BankPanelMoneyFrameTemplate_DepositButton : Button, BankPanelMoneyFrameButtonTemplate, BankPanelDepositMoneyButtonMixin
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L185)
 --- Template
 --- @class BankPanelMoneyFrameTemplate : Frame, BankPanelMoneyFrameMixin
@@ -47,6 +121,15 @@
 --- @field MoneyDisplay BankPanelMoneyFrameTemplate_MoneyDisplay
 --- @field WithdrawButton BankPanelMoneyFrameTemplate_WithdrawButton
 --- @field DepositButton BankPanelMoneyFrameTemplate_DepositButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L233)
+--- child of BankPanelItemDepositFrameTemplate
+--- @class BankPanelItemDepositFrameTemplate_DepositButton : Button, UIPanelButtonTemplate, BankPanelItemDepositButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L243)
+--- child of BankPanelItemDepositFrameTemplate
+--- @class BankPanelItemDepositFrameTemplate_IncludeReagentsCheckbox : CheckButton, BankPanelCheckboxTemplate, BankPanelIncludeReagentsCheckboxMixin
+--- @field text any # BANK_DEPOSIT_INCLUDE_REAGENTS_CHECKBOX_LABEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L227)
 --- Template
@@ -65,6 +148,10 @@
 --- @field Left-Shadow Texture
 --- @field Bottom-Shadow Texture
 --- @field Top-Shadow Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L359)
+--- child of BankPanelTabTemplate
+--- @class BankPanelTabTemplate_TabContentsChangedAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L330)
 --- Template
@@ -93,6 +180,14 @@
 --- @field BottomInner Texture
 --- @field Background Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L469)
+--- child of BankPanelPromptTemplate
+--- @class BankPanelPromptTemplate_PromptText : FontString, Game16Font
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L477)
+--- child of BankPanelPromptTemplate
+--- @class BankPanelPromptTemplate_Title : FontString, QuestFont_Enormous
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L466)
 --- Template
 --- @class BankPanelPromptTemplate : Frame, BankPanelPromptBackgroundTemplate, BankPanelPromptMixin
@@ -103,10 +198,33 @@
 --- Template
 --- @class BankPanelLockPromptTemplate : Frame, BankPanelPromptTemplate, BankPanelLockPromptMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L506)
+--- child of 
+--- @class BankPanelPurchasePromptTemplate_TabCostFrame_MoneyDisplay : Frame, SmallMoneyFrameTemplate, BankPanelTabCostMoneyDisplayMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L515)
+--- child of 
+--- @class BankPanelPurchasePromptTemplate_TabCostFrame_PurchaseButton : Button, UIPanelButtonTemplate, BankPanelPurchaseTabButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L527)
+--- child of 
+--- @class BankPanelPurchasePromptTemplate_TabCostFrame_TabCost : FontString, GameFontNormalMed3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L499)
+--- child of BankPanelPurchasePromptTemplate
+--- @class BankPanelPurchasePromptTemplate_TabCostFrame : Frame
+--- @field MoneyDisplay BankPanelPurchasePromptTemplate_TabCostFrame_MoneyDisplay
+--- @field PurchaseButton BankPanelPurchasePromptTemplate_TabCostFrame_PurchaseButton
+--- @field TabCost BankPanelPurchasePromptTemplate_TabCostFrame_TabCost
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L497)
 --- Template
 --- @class BankPanelPurchasePromptTemplate : Frame, BankPanelPromptTemplate, BankPanelPurchasePromptMixin
 --- @field TabCostFrame BankPanelPurchasePromptTemplate_TabCostFrame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L557)
+--- child of BankItemButtonTemplate
+--- @class BankItemButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L545)
 --- Template
@@ -119,11 +237,19 @@
 --- @class AccountBankItemButtonTemplate : ItemButton, BankItemButtonTemplate
 --- @field Background Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L594)
+--- child of BankItemButtonGenericTemplate
+--- @class BankItemButtonGenericTemplate_BankItemButtonGenericTemplateCooldown : Cooldown, CooldownFrameTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L582)
 --- Template
 --- @class BankItemButtonGenericTemplate : ItemButton, BankItemButtonMixin
 --- @field Cooldown BankItemButtonGenericTemplate_BankItemButtonGenericTemplateCooldown
 --- @field IconQuestTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L625)
+--- child of BankItemButtonBagTemplate
+--- @class BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L618)
 --- Template

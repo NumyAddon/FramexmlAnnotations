@@ -14,6 +14,10 @@
 --- @field TextBG Texture
 --- @field Text FontString
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L99)
+--- child of ContributionRewardTemplate
+--- @class ContributionRewardTemplate_MouseOver : Frame, ContributionRewardMouseOverMixin
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L61)
 --- Template
 --- @class ContributionRewardTemplate : Frame, ContributionRewardMixin
@@ -23,6 +27,14 @@
 --- @field PadLock Texture
 --- @field Border Texture
 --- @field RewardName FontString
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L139)
+--- child of ContributionStatusTemplate
+--- @class ContributionStatusTemplate_Text : FontString, TextStatusBarTextLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L167)
+--- child of ContributionStatusTemplate
+--- @class ContributionStatusTemplate_FlashAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L112)
 --- Template
@@ -36,6 +48,22 @@
 --- @field BarGlow Texture
 --- @field SparkGlow Texture
 --- @field FlashAnim ContributionStatusTemplate_FlashAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L191)
+--- child of ContributionTemplate
+--- @class ContributionTemplate_Header : Frame, ContributionHeaderTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L196)
+--- child of ContributionTemplate
+--- @class ContributionTemplate_State : Frame, ContributionStateTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L201)
+--- child of ContributionTemplate
+--- @class ContributionTemplate_Status : StatusBar, ContributionStatusTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L206)
+--- child of ContributionTemplate
+--- @class ContributionTemplate_ContributeButton : Button, UIPanelButtonTemplate, CurrencyTemplateMixin, ContributeButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L188)
 --- Template

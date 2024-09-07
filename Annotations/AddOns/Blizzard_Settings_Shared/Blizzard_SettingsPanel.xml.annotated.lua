@@ -22,6 +22,10 @@
 --- child of SettingsPanel
 --- @class SettingsPanel_CategoryList : Frame, SettingsCategoryListTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L73)
+--- child of 
+--- @class SettingsPanel_Container_SettingsList : Frame, SettingsListTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L65)
 --- child of SettingsPanel
 --- @class SettingsPanel_Container : Frame

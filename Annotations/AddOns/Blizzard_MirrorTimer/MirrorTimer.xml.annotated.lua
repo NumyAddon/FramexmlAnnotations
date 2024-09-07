@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.xml#L37)
+--- child of MirrorTimerTemplate
+--- @class MirrorTimerTemplate_Text : FontString, GameFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.xml#L3)
 --- Template
 --- @class MirrorTimerTemplate : Frame, MirrorTimerMixin

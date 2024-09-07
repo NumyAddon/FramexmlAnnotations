@@ -9,6 +9,10 @@
 --- @class AuctionHouseTableImageTemplate : Frame
 --- @field Icon Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L25)
+--- child of AuctionHouseTableCellTextTemplate
+--- @class AuctionHouseTableCellTextTemplate_Text : FontString, Number14FontWhite
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L21)
 --- Template
 --- @class AuctionHouseTableCellTextTemplate : Frame
@@ -17,6 +21,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L30)
 --- Template
 --- @class AuctionHouseTableCellTextTooltipTemplate : Frame, AuctionHouseTableCellTextTemplate, AuctionHouseTableCellTextTooltipMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L40)
+--- child of AuctionHouseTableMoneyDisplayTemplate
+--- @class AuctionHouseTableMoneyDisplayTemplate_MoneyDisplay : Frame, MoneyDisplayFrameTemplate
+--- @field hideCopper boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L37)
 --- Template
@@ -36,6 +45,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L69)
 --- Template
 --- @class AuctionHouseTableCellCommoditiesQuantityTemplate : Frame, AuctionHouseTableCellTextTemplate, AuctionHouseTableCellCommoditiesQuantityMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L73)
+--- child of AuctionHouseTableCellFavoriteTemplate
+--- @class AuctionHouseTableCellFavoriteTemplate_FavoriteButton : Button, AuctionHouseFavoriteButtonBaseTemplate, AuctionHouseTableCellFavoriteButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L71)
 --- Template
@@ -106,6 +119,14 @@
 --- Template
 --- @class AuctionHouseTableCellAuctionsUnitPriceTemplate : Frame, AuctionHouseTableCellUnitPriceTemplate, AuctionHouseTableCellAuctionsUnitPriceMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L144)
+--- child of AuctionHouseTableCellItemDisplayTemplate
+--- @class AuctionHouseTableCellItemDisplayTemplate_Text : FontString, Number14FontWhite
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L153)
+--- child of AuctionHouseTableCellItemDisplayTemplate
+--- @class AuctionHouseTableCellItemDisplayTemplate_ExtraInfo : FontString, Number14FontWhite
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L125)
 --- Template
 --- @class AuctionHouseTableCellItemDisplayTemplate : Frame, AuctionHouseTableCellItemDisplayMixin
@@ -113,6 +134,10 @@
 --- @field IconBorder Texture
 --- @field Text AuctionHouseTableCellItemDisplayTemplate_Text
 --- @field ExtraInfo AuctionHouseTableCellItemDisplayTemplate_ExtraInfo
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L172)
+--- child of AuctionHouseTableCellAuctionsItemDisplayTemplate
+--- @class AuctionHouseTableCellAuctionsItemDisplayTemplate_Prefix : FontString, Number14FontWhite
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseTableBuilder.xml#L169)
 --- Template

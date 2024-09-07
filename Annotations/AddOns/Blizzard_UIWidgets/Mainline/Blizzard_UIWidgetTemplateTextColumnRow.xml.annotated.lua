@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.xml#L9)
+--- child of UIWidgetTemplateTextColumnRowColumnTemplate
+--- @class UIWidgetTemplateTextColumnRowColumnTemplate_Text : FontString, GameTooltipText, UIWidgetBaseTextMixin
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextColumnRow.xml#L3)
 --- Template
 --- @class UIWidgetTemplateTextColumnRowColumnTemplate : Frame, ResizeLayoutFrame, UIWidgetTemplateTextColumnRowColumnMixin

@@ -4,6 +4,10 @@
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_MoneyFrameInset : Frame, InsetFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L24)
+--- child of 
+--- @class AuctionHouseFrame_MoneyFrameBorder_MoneyFrame : Frame, MoneyDisplayFrameTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L18)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_MoneyFrameBorder : Frame, ThinGoldEdgeTemplate

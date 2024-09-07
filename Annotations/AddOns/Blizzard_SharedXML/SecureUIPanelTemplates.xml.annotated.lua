@@ -26,11 +26,27 @@
 --- Template
 --- @class UIPanelScrollBarButton : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L78)
+--- child of UIPanelScrollUpButtonTemplate
+--- @class UIPanelScrollUpButtonTemplate_Normal : Texture, UIPanelScrollBarButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L81)
+--- child of UIPanelScrollUpButtonTemplate
+--- @class UIPanelScrollUpButtonTemplate_Highlight : Texture, UIPanelScrollBarButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L76)
 --- Template
 --- @class UIPanelScrollUpButtonTemplate : Button
 --- @field Normal UIPanelScrollUpButtonTemplate_Normal
 --- @field Highlight UIPanelScrollUpButtonTemplate_Highlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L86)
+--- child of UIPanelScrollDownButtonTemplate
+--- @class UIPanelScrollDownButtonTemplate_Normal : Texture, UIPanelScrollBarButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L89)
+--- child of UIPanelScrollDownButtonTemplate
+--- @class UIPanelScrollDownButtonTemplate_Highlight : Texture, UIPanelScrollBarButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L84)
 --- Template
@@ -41,6 +57,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L92)
 --- Template
 --- @class ScrollFrameTemplate : ScrollFrame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L172)
+--- child of InputScrollFrameTemplate
+--- @class InputScrollFrameTemplate_CharCount : FontString, GameFontDisableLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L106)
 --- Template
@@ -57,6 +77,10 @@
 --- @field MiddleTex Texture
 --- @field CharCount InputScrollFrameTemplate_CharCount
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L256)
+--- child of UIPanelButtonNoTooltipTemplate
+--- @class  : Texture, UIPanelButtonHighlightTexture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L210)
 --- Template
 --- @class UIPanelButtonNoTooltipTemplate : Button, UIButtonFitToTextBehaviorMixin
@@ -69,6 +93,14 @@
 --- Template
 --- @class UIPanelButtonNoTooltipResizeToFitTemplate : Button, UIPanelButtonNoTooltipTemplate, ResizeLayoutFrame, UIPanelButtonNoTooltipResizeToFitMixin
 --- @field fixedHeight number # 22
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L277)
+--- child of SelectionFrameTemplate
+--- @class SelectionFrameTemplate_CancelButton : Button, UIPanelButtonNoTooltipTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L286)
+--- child of SelectionFrameTemplate
+--- @class SelectionFrameTemplate_OkayButton : Button, UIPanelButtonNoTooltipTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L268)
 --- Template
@@ -104,12 +136,32 @@
 --- @class SecureDialogBorderOpaqueTemplate : Frame, SecureDialogBorderNoCenterTemplate
 --- @field Bg Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L403)
+--- child of LoadingSpinnerTemplate
+--- @class LoadingSpinnerTemplate_BackgroundFrame : Frame
+--- @field Background Texture
+--- @field Framing Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L415)
+--- child of LoadingSpinnerTemplate
+--- @class LoadingSpinnerTemplate_AnimFrame : Frame
+--- @field Circle Texture
+--- @field Spark Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L429)
+--- child of LoadingSpinnerTemplate
+--- @class LoadingSpinnerTemplate_Anim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L400)
 --- Template
 --- @class LoadingSpinnerTemplate : Frame, LoadingSpinnerMixin
 --- @field BackgroundFrame LoadingSpinnerTemplate_BackgroundFrame
 --- @field AnimFrame LoadingSpinnerTemplate_AnimFrame
 --- @field Anim LoadingSpinnerTemplate_Anim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L447)
+--- child of OutlineLoadingSpinnerTemplate
+--- @class OutlineLoadingSpinnerTemplate_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L439)
 --- Template

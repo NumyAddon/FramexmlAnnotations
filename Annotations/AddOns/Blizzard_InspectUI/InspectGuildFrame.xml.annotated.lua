@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectGuildFrame.xml#L112)
+--- child of 
+--- @class InspectGuildFrame_Points_SumText : FontString, GameFontNormalLarge
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectGuildFrame.xml#L96)
 --- child of InspectGuildFrame
 --- @class InspectGuildFrame_Points : Frame

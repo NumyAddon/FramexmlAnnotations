@@ -4,10 +4,38 @@
 --- Template
 --- @class SendMailRadioButtonTemplate : CheckButton, UIRadioButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L100)
+--- child of MailItemTemplateButton
+--- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonCOD : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L112)
+--- child of MailItemTemplateButton
+--- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonCount : FontString, NumberFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L71)
+--- child of MailItemTemplate
+--- @class MailItemTemplate_MailItemTemplateButton : CheckButton
+--- @field Icon Texture
+--- @field IconBorder Texture
+--- @field IconOverlay Texture
+--- @field IconOverlay2 Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L36)
+--- child of MailItemTemplate
+--- @class MailItemTemplate_MailItemTemplateSender : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L42)
+--- child of MailItemTemplate
+--- @class MailItemTemplate_MailItemTemplateSubject : FontString, GameFontHighlightSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L11)
 --- Template
 --- @class MailItemTemplate : Frame
 --- @field Button MailItemTemplate_MailItemTemplateButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L186)
+--- child of SendMailAttachment
+--- @class SendMailAttachment_SendMailAttachmentCount : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L173)
 --- Template

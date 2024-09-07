@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialEffects.xml#L13)
+--- child of TutorialQuestBangGlowTemplate
+--- @class TutorialQuestBangGlowTemplate_GlowAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialEffects.xml#L5)
 --- Template
 --- @class TutorialQuestBangGlowTemplate : Frame

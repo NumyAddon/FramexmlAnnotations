@@ -1,5 +1,17 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L13)
+--- child of AuraButtonArtTemplate
+--- @class AuraButtonArtTemplate_Count : FontString, NumberFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L18)
+--- child of AuraButtonArtTemplate
+--- @class AuraButtonArtTemplate_Duration : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L38)
+--- child of AuraButtonArtTemplate
+--- @class AuraButtonArtTemplate_Symbol : FontString, TextStatusBarText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L3)
 --- Template
 --- @class AuraButtonArtTemplate : Frame
@@ -25,6 +37,10 @@
 --- @field isAuraAnchor boolean # true
 --- @field Icon Frame
 --- @field Duration Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L104)
+--- child of AuraFrameTemplate
+--- @class AuraFrameTemplate_AuraContainer : Frame, AuraContainerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L96)
 --- Template

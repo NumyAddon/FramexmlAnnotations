@@ -4,6 +4,54 @@
 --- Template
 --- @class SharedPetBattleStrengthPetTypeTemplate : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L19)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_Name : FontString, GameFontHighlightLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L26)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_Duration : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L31)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_MaxCooldown : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L36)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_CurrentCooldown : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L41)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_AdditionalText : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L47)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_Description : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L66)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_StrongAgainstLabel : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L71)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_StrongAgainstType1 : Texture, SharedPetBattleStrengthPetTypeTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L76)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_StrongAgainstType1Label : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L94)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_WeakAgainstLabel : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L99)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_WeakAgainstType1 : Texture, SharedPetBattleStrengthPetTypeTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L104)
+--- child of SharedPetBattleAbilityTooltipTemplate
+--- @class SharedPetBattleAbilityTooltipTemplate_WeakAgainstType1Label : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SharedPetBattleTemplates.xml#L8)
 --- Template
 --- @class SharedPetBattleAbilityTooltipTemplate : Frame, TooltipBackdropTemplate

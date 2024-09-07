@@ -280,6 +280,41 @@ CalendarViewRaidFrameModalOverlay = {}
 --- @field ScrollingFont CalendarViewRaidFrame_ScrollingFont
 CalendarViewRaidFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L434)
+--- child of 
+--- @class CalendarViewEventFrame_HeaderFrame_CalendarViewEventIcon : Texture
+CalendarViewEventIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L442)
+--- child of 
+--- @class CalendarViewEventFrame_HeaderFrame_CalendarViewEventTitle : FontString, GameFontNormal
+CalendarViewEventTitle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L448)
+--- child of 
+--- @class CalendarViewEventFrame_HeaderFrame_CalendarViewEventCommunityName : FontString, GameFontNormalSmall
+CalendarViewEventCommunityName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L454)
+--- child of 
+--- @class CalendarViewEventFrame_HeaderFrame_CalendarViewEventTypeName : FontString, GameFontNormalSmall
+CalendarViewEventTypeName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L460)
+--- child of 
+--- @class CalendarViewEventFrame_HeaderFrame_CalendarViewEventCreatorName : FontString, GameFontNormalSmall
+CalendarViewEventCreatorName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L466)
+--- child of 
+--- @class CalendarViewEventFrame_HeaderFrame_CalendarViewEventDateLabel : FontString, GameFontHighlightSmall
+CalendarViewEventDateLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L471)
+--- child of 
+--- @class CalendarViewEventFrame_HeaderFrame_CalendarViewEventTimeLabel : FontString, GameFontHighlightSmall
+CalendarViewEventTimeLabel = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L427)
 --- child of CalendarViewEventFrame
 --- @class CalendarViewEventFrame_HeaderFrame : Button
@@ -391,6 +426,11 @@ CalendarViewEventInviteList["backdropColor"] = BLACK_FONT_COLOR -- inherited
 --- child of CalendarViewEventInviteListSection
 --- @class CalendarViewEventFrame_CalendarViewEventInviteListSection_CalendarViewEventDivider : Texture
 CalendarViewEventDivider = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L522)
+--- child of 
+--- @class CalendarViewEventFlashTimer : Animation
+CalendarViewEventFlashTimer = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L521)
 --- child of CalendarViewEventInviteListSection

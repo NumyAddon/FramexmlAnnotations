@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L5)
+--- child of MissionOptionWarningTemplate
+--- @class MissionOptionWarningTemplate_PulseAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L3)
 --- Template
 --- @class MissionOptionWarningTemplate : Texture
@@ -67,6 +71,19 @@ CharCustomizeNoHeaderTooltip["textLeft1Font"] = "GameFontNormalMed2"
 --- @class CharCustomizeOptionSliderTemplate : Frame, SliderWithButtonsAndLabelTemplate, CharCustomizeFrameWithTooltipTemplate, CharCustomizeOptionSliderMixin
 --- @field tooltipMinWidth any # nil
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L173)
+--- child of CharCustomizeOptionCheckButtonTemplate
+--- @class CharCustomizeOptionCheckButtonTemplate_Button : CheckButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L195)
+--- child of CharCustomizeOptionCheckButtonTemplate
+--- @class CharCustomizeOptionCheckButtonTemplate_New : Frame, NewFeatureLabelNoAnimateTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L203)
+--- child of CharCustomizeOptionCheckButtonTemplate
+--- @class CharCustomizeOptionCheckButtonTemplate_Label : FontString, GameFontHighlightMedium
+--- @field ignoreInLayout boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L165)
 --- Template
 --- @class CharCustomizeOptionCheckButtonTemplate : Frame, CharCustomizeFrameWithTooltipTemplate, CharCustomizeOptionCheckButtonMixin
@@ -74,6 +91,16 @@ CharCustomizeNoHeaderTooltip["textLeft1Font"] = "GameFontNormalMed2"
 --- @field Button CharCustomizeOptionCheckButtonTemplate_Button
 --- @field New CharCustomizeOptionCheckButtonTemplate_New
 --- @field Label CharCustomizeOptionCheckButtonTemplate_Label
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L221)
+--- child of CharCustomizeDropdownElementDetailsTemplate
+--- @class CharCustomizeDropdownElementDetailsTemplate_SelectionNumberBG : FontString
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L259)
+--- child of CharCustomizeDropdownElementDetailsTemplate
+--- @class CharCustomizeDropdownElementDetailsTemplate_NewGlow : Texture
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L215)
 --- Template
@@ -90,11 +117,31 @@ CharCustomizeNoHeaderTooltip["textLeft1Font"] = "GameFontNormalMed2"
 --- @field ColorSwatch2Glow Texture
 --- @field ColorSelected Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L301)
+--- child of CharCustomizeDropdownElementTemplate
+--- @class CharCustomizeDropdownElementTemplate_SelectionDetails : Frame, CharCustomizeDropdownElementDetailsTemplate
+--- @field includeInLayout boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L296)
 --- Template
 --- @class CharCustomizeDropdownElementTemplate : Button, DarkMenuElementTemplate, CharCustomizeDropdownElementMixin
 --- @field ignoreAllChildren boolean # true
 --- @field SelectionDetails CharCustomizeDropdownElementTemplate_SelectionDetails
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L331)
+--- child of 
+--- @class CharCustomizeDropdownWithSteppersAndLabelTemplate_Dropdown_SelectionDetails : Frame, CharCustomizeDropdownElementDetailsTemplate, ResizeLayoutFrame
+--- @field selectable boolean # false
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L322)
+--- child of CharCustomizeDropdownWithSteppersAndLabelTemplate
+--- @class CharCustomizeDropdownWithSteppersAndLabelTemplate_Dropdown : DropdownButton, WowStyle2DropdownTemplate, CharCustomizeDropdownMixin
+--- @field menuPoint string # "TOPRIGHT"
+--- @field SelectionDetails CharCustomizeDropdownWithSteppersAndLabelTemplate_Dropdown_SelectionDetails
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L349)
+--- child of CharCustomizeDropdownWithSteppersAndLabelTemplate
+--- @class CharCustomizeDropdownWithSteppersAndLabelTemplate_New : Frame, NewFeatureLabelNoAnimateTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L316)
 --- Template
@@ -102,6 +149,28 @@ CharCustomizeNoHeaderTooltip["textLeft1Font"] = "GameFontNormalMed2"
 --- @field tooltipMinWidth any # nil
 --- @field Dropdown CharCustomizeDropdownWithSteppersAndLabelTemplate_Dropdown
 --- @field New CharCustomizeDropdownWithSteppersAndLabelTemplate_New
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L360)
+--- child of CharCustomizeAudioInterface
+--- @class CharCustomizeAudioInterface_PlayWaveform : Frame, TooltipBorderBackdropTemplate
+--- @field backdropBorderColor any # DARKGRAY_COLOR
+--- @field Waveform StatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L380)
+--- child of CharCustomizeAudioInterface
+--- @class CharCustomizeAudioInterface_PlayButton : Button, AlphaHighlightButtonTemplate, CharCustomizeAudioInterfacePlayButtonMixin
+--- @field NormalTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L412)
+--- child of 
+--- @class CharCustomizeAudioInterface_MuteButton_PulseAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L393)
+--- child of CharCustomizeAudioInterface
+--- @class CharCustomizeAudioInterface_MuteButton : Button, AlphaHighlightButtonTemplate, CharCustomizeAudioInterfaceMuteButtonMixin
+--- @field UnmuteGlow Texture
+--- @field PulseAnim CharCustomizeAudioInterface_MuteButton_PulseAnim
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L357)
 --- Template
@@ -129,6 +198,31 @@ CharCustomizeNoHeaderTooltip["textLeft1Font"] = "GameFontNormalMed2"
 --- child of CharCustomizeFrame
 --- @class CharCustomizeFrame_Options : Frame, SpaceToFitVerticalLayoutFrame
 --- @field baseSpacing number # 32
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L493)
+--- child of 
+--- @class CharCustomizeFrame_SmallButtons_ResetCameraButton : Button, CharCustomizeSmallButtonTemplate, CharCustomizeResetCameraButtonMixin
+--- @field layoutIndex number # 1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L500)
+--- child of 
+--- @class CharCustomizeFrame_SmallButtons_ZoomOutButton : Button, CharCustomizeClickOrHoldButtonTemplate, CharCustomizeZoomButtonMixin
+--- @field layoutIndex number # 2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L509)
+--- child of 
+--- @class CharCustomizeFrame_SmallButtons_ZoomInButton : Button, CharCustomizeClickOrHoldButtonTemplate, CharCustomizeZoomButtonMixin
+--- @field layoutIndex number # 3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L518)
+--- child of 
+--- @class CharCustomizeFrame_SmallButtons_RotateLeftButton : Button, CharCustomizeClickOrHoldButtonTemplate, CharCustomizeRotateButtonMixin
+--- @field layoutIndex number # 4
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L528)
+--- child of 
+--- @class CharCustomizeFrame_SmallButtons_RotateRightButton : Button, CharCustomizeClickOrHoldButtonTemplate, CharCustomizeRotateButtonMixin
+--- @field layoutIndex number # 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L485)
 --- child of CharCustomizeFrame

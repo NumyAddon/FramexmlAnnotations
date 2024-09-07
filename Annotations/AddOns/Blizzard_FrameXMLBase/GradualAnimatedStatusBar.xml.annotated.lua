@@ -1,5 +1,21 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L37)
+--- child of GradualAnimatedStatusBarTemplate
+--- @class GradualAnimatedStatusBarTemplate_GainFlareAnimation : AnimationGroup, GainFlareAnimationMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L44)
+--- child of GradualAnimatedStatusBarTemplate
+--- @class GradualAnimatedStatusBarTemplate_LevelUpRolloverAnimation : AnimationGroup, LevelUpRolloverAnimationMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L52)
+--- child of GradualAnimatedStatusBarTemplate
+--- @class GradualAnimatedStatusBarTemplate_LevelUpMaxAnimation : AnimationGroup, LevelUpMaxAnimationMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L60)
+--- child of GradualAnimatedStatusBarTemplate
+--- @class GradualAnimatedStatusBarTemplate_LevelUpMaxAlphaAnimation : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L5)
 --- Template
 --- @class GradualAnimatedStatusBarTemplate : StatusBar, GradualAnimatedStatusBarMixin

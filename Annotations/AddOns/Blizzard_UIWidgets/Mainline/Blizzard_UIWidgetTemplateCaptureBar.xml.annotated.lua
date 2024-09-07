@@ -1,5 +1,17 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateCaptureBar.xml#L109)
+--- child of UIWidgetTemplateCaptureBar
+--- @class UIWidgetTemplateCaptureBar_LeftArrowAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateCaptureBar.xml#L113)
+--- child of UIWidgetTemplateCaptureBar
+--- @class UIWidgetTemplateCaptureBar_RightArrowAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateCaptureBar.xml#L117)
+--- child of UIWidgetTemplateCaptureBar
+--- @class UIWidgetTemplateCaptureBar_GlowPulseAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateCaptureBar.xml#L3)
 --- Template
 --- @class UIWidgetTemplateCaptureBar : Frame, UIWidgetBaseTemplate, UIWidgetTemplateCaptureBarMixin

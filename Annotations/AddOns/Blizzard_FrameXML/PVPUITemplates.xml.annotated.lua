@@ -8,6 +8,10 @@
 --- @field CircleMask MaskTexture
 --- @field CheckMark Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L92)
+--- child of PVPHonorRewardTemplate
+--- @class PVPHonorRewardTemplate_LevelLabel : FontString, Game10Font_o1
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L52)
 --- Template
 --- @class PVPHonorRewardTemplate : Button, PVPHonorRewardMixin
@@ -16,6 +20,10 @@
 --- @field CircleMask MaskTexture
 --- @field RingBorder Texture
 --- @field LevelLabel PVPHonorRewardTemplate_LevelLabel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L125)
+--- child of PVPRatedTierTemplate
+--- @class PVPRatedTierTemplate_Ranking : FontString, Number12Font_o1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.xml#L106)
 --- Template

@@ -4,11 +4,68 @@
 --- Template
 --- @class UpgradeFrameBorderedTemplate : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L80)
+--- child of UpgradeFrameFeatureTemplate
+--- @class UpgradeFrameFeatureTemplate_UpgradeFrameFeatureTemplateText : FontString, GlueFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L67)
 --- Template
 --- @class UpgradeFrameFeatureTemplate : Frame
 --- @field text UpgradeFrameFeatureTemplate_UpgradeFrameFeatureTemplateText
 --- @field icon Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L162)
+--- child of 
+--- @class CharacterVASTemplate_Timer_TimerText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L155)
+--- child of CharacterVASTemplate
+--- @class CharacterVASTemplate_Timer : Frame, BaseTextTimer
+--- @field TimerText CharacterVASTemplate_Timer_TimerText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L178)
+--- child of 
+--- @class  : Texture, services-ring-large-glowspin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L182)
+--- child of 
+--- @class CharacterVASTemplate_GlowSpin_SpinAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L171)
+--- child of CharacterVASTemplate
+--- @class CharacterVASTemplate_GlowSpin : Frame
+--- @field SpinAnim CharacterVASTemplate_GlowSpin_SpinAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L194)
+--- child of 
+--- @class  : Texture, services-ring-large-glowpulse
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L197)
+--- child of 
+--- @class  : Texture, services-ring-large-glowpulse
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L201)
+--- child of 
+--- @class CharacterVASTemplate_GlowPulse_PulseAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L187)
+--- child of CharacterVASTemplate
+--- @class CharacterVASTemplate_GlowPulse : Frame
+--- @field PulseAnim CharacterVASTemplate_GlowPulse_PulseAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L206)
+--- child of CharacterVASTemplate
+--- @class CharacterVASTemplate_Highlight : Frame
+--- @field Icon Texture
+--- @field CircleMask MaskTexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L133)
+--- child of CharacterVASTemplate
+--- @class CharacterVASTemplate_Glow : Texture, services-ring-large-glow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L146)
+--- child of CharacterVASTemplate
+--- @class CharacterVASTemplate_Number : FontString, GameTooltipHeaderText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L105)
 --- Template
@@ -60,6 +117,11 @@ LogoHoist = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L342)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_GameEnvironmentToggleFrame : Frame, GameEnvironmentFrameTemplate, DefaultScaleFrame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L362)
+--- child of 
+--- @class CharacterSelect_CharacterSelectUI_LimitedTimeEventFrame_Text : Frame, NewFeatureLabelNoAnimateTemplate
+--- @field label any # LIMITED_TIME_EVENT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L343)
 --- child of CharacterSelectUI
@@ -302,6 +364,10 @@ CharacterSelectRotateRight = {}
 CharacterSelectRotateRight["iconAtlas"] = "common-icon-rotateright"
 CharacterSelectRotateRight["onClickSoundKit"] = SOUNDKIT.IG_INVENTORY_ROTATE_CHARACTER -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L613)
+--- child of 
+--- @class CharacterSelect_CharacterSelectUI_ConfigurationWarnings_PulseAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L602)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_ConfigurationWarnings : Button
@@ -318,6 +384,10 @@ CharacterSelectBackButton = {}
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CopyCharacterButton : Button, GlueButtonSmallTemplate, CopyCharacterButtonMixin
 CopyCharacterButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L677)
+--- child of 
+--- @class CharacterSelect_CharacterSelectUI_ListToggle_Text : FontString, GlueFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L663)
 --- child of CharacterSelectUI
@@ -360,10 +430,18 @@ CharacterSelectCharacterFrame["UndeleteButton"] = CharSelectUndeleteCharacterBut
 --- @class CharacterSelect_CharacterSelectUI_CharSelectServicesCover : Frame
 CharSelectServicesCover = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L725)
+--- child of 
+--- @class CharacterSelect_CharacterSelectUI_WarningText_WarningString : FontString, GameFontNormalMed2
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L718)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_WarningText : Frame
 --- @field WarningString CharacterSelect_CharacterSelectUI_WarningText_WarningString
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L764)
+--- child of 
+--- @class CharacterSelect_CharacterSelectUI_UpgradePopupFrame_Timer_TimerText : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L757)
 --- child of UpgradePopupFrame
@@ -396,6 +474,10 @@ CharSelectServicesCover = {}
 --- @field Description CharacterSelect_CharacterSelectUI_UpgradePopupFrame_Description
 UpgradePopupFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L876)
+--- child of 
+--- @class CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_ErrorMessageContainer_Text : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L869)
 --- child of CharSelectServicesFlowFrame
 --- @class CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_ErrorMessageContainer : Frame, FlowErrorContainerMixin
@@ -418,6 +500,10 @@ CharacterServicesMaster = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L912)
 --- child of CharSelectServicesFlowFrame
 --- @class CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_BackButton : Button, GlueButtonSmallTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L938)
+--- child of 
+--- @class CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_NextButton_PulseAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L921)
 --- child of CharSelectServicesFlowFrame
@@ -621,6 +707,26 @@ GameRoomBillingFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 CharacterSelect = {}
 CharacterSelect["CharacterSelectUI"] = CharacterSelectUI
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1237)
+--- child of 
+--- @class CharacterDeleteDialog_Background_BG : Frame, DialogBorderTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1238)
+--- child of 
+--- @class CharacterDeleteDialog_Background_Button1 : Button, GlueDialogButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1245)
+--- child of 
+--- @class CharacterDeleteDialog_Background_Button2 : Button, GlueDialogButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1216)
+--- child of 
+--- @class CharacterDeleteDialog_Background_Text1 : FontString, GlueFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1222)
+--- child of 
+--- @class CharacterDeleteDialog_Background_Text2 : FontString, GlueFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1209)
 --- child of CharacterDeleteDialog
 --- @class CharacterDeleteDialog_Background : Frame
@@ -685,6 +791,22 @@ CharacterRenameEditBox = {}
 --- @class CharacterRenameDialog : Frame
 CharacterRenameDialog = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1398)
+--- child of CopyCharacterEntryTemplate
+--- @class CopyCharacterEntryTemplate_Name : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1404)
+--- child of CopyCharacterEntryTemplate
+--- @class CopyCharacterEntryTemplate_Server : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1410)
+--- child of CopyCharacterEntryTemplate
+--- @class CopyCharacterEntryTemplate_Class : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1416)
+--- child of CopyCharacterEntryTemplate
+--- @class CopyCharacterEntryTemplate_Level : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1386)
 --- Template
 --- @class CopyCharacterEntryTemplate : Button
@@ -716,10 +838,18 @@ CharacterRenameDialog = {}
 --- @class CopyCharacterFrame_CopyCharacterFrameRegionID : DropdownButton, WowStyle1DropdownTemplate
 CopyCharacterFrameRegionID = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1485)
+--- child of 
+--- @class CopyCharacterFrame_RealmName_Text : FontString, GameFontNormalSmall
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1478)
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_RealmName : EditBox, InputBoxTemplate
 --- @field Text CopyCharacterFrame_RealmName_Text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1508)
+--- child of 
+--- @class CopyCharacterFrame_CharacterName_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1501)
 --- child of CopyCharacterFrame

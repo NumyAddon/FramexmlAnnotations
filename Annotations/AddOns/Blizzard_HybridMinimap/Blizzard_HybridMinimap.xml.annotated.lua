@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HybridMinimap/Blizzard_HybridMinimap.xml#L31)
+--- child of 
+--- @class HybridMinimap_MapCanvas_ScrollContainer : ScrollFrame, MapCanvasFrameScrollContainerTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HybridMinimap/Blizzard_HybridMinimap.xml#L25)
 --- child of HybridMinimap
 --- @class HybridMinimap_MapCanvas : Frame, MapCanvasFrameTemplate

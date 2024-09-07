@@ -72,11 +72,23 @@
 --- Template
 --- @class Char-Inner-Right : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L88)
+--- child of CharacterStatFrameCategoryTemplate
+--- @class CharacterStatFrameCategoryTemplate_Title : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L77)
 --- Template
 --- @class CharacterStatFrameCategoryTemplate : Frame
 --- @field Background Texture
 --- @field Title CharacterStatFrameCategoryTemplate_Title
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L112)
+--- child of CharacterStatFrameTemplate
+--- @class CharacterStatFrameTemplate_Label : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L117)
+--- child of CharacterStatFrameTemplate
+--- @class CharacterStatFrameTemplate_Value : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L101)
 --- Template
@@ -114,6 +126,15 @@ CharacterFrameInsetRight["layoutType"] = "InsetFrameTemplate" -- inherited
 --- child of CharacterStatsPane
 --- @class CharacterFrame_CharacterStatsPane_ItemLevelCategory : Frame, CharacterStatFrameCategoryTemplate
 --- @field titleText any # STAT_AVERAGE_ITEM_LEVEL
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L244)
+--- child of 
+--- @class CharacterFrame_CharacterStatsPane_ItemLevelFrame_Corruption : Frame
+--- @field Eye Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L236)
+--- child of 
+--- @class CharacterFrame_CharacterStatsPane_ItemLevelFrame_Value : FontString, Game15Font_o1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L222)
 --- child of CharacterStatsPane

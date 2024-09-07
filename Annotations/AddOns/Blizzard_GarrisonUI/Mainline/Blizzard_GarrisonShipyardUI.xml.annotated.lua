@@ -1,5 +1,33 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L39)
+--- child of GarrisonShipyardMapMissionTemplate
+--- @class GarrisonShipyardMapMissionTemplate_TimerText : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L129)
+--- child of GarrisonShipyardMapMissionTemplate
+--- @class GarrisonShipyardMapMissionTemplate_InProgressBoatPulseAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L135)
+--- child of GarrisonShipyardMapMissionTemplate
+--- @class GarrisonShipyardMapMissionTemplate_SiegeBreakerHighlightAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L143)
+--- child of GarrisonShipyardMapMissionTemplate
+--- @class GarrisonShipyardMapMissionTemplate_ShipMissionStartAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L164)
+--- child of GarrisonShipyardMapMissionTemplate
+--- @class GarrisonShipyardMapMissionTemplate_RareMissionAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L170)
+--- child of GarrisonShipyardMapMissionTemplate
+--- @class GarrisonShipyardMapMissionTemplate_BonusMissionPulse : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L178)
+--- child of GarrisonShipyardMapMissionTemplate
+--- @class GarrisonShipyardMapMissionTemplate_BonusMissionAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L4)
 --- Template
 --- @class GarrisonShipyardMapMissionTemplate : Button
@@ -29,6 +57,14 @@
 --- @field Icon Texture
 --- @field HighlightIcon Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L214)
+--- child of GarrisonShipyardBonusAreaFrameTemplate
+--- @class GarrisonShipyardBonusAreaFrameTemplate_BonusMissionAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L217)
+--- child of GarrisonShipyardBonusAreaFrameTemplate
+--- @class GarrisonShipyardBonusAreaFrameTemplate_BonusAreaAddedAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L190)
 --- Template
 --- @class GarrisonShipyardBonusAreaFrameTemplate : Frame
@@ -38,6 +74,14 @@
 --- @field BonusMissionAnim GarrisonShipyardBonusAreaFrameTemplate_BonusMissionAnim
 --- @field BonusAreaAddedAnim GarrisonShipyardBonusAreaFrameTemplate_BonusAreaAddedAnim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L237)
+--- child of GarrisonBonusEffectFrameTemplate
+--- @class GarrisonBonusEffectFrameTemplate_Name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L243)
+--- child of GarrisonBonusEffectFrameTemplate
+--- @class GarrisonBonusEffectFrameTemplate_Description : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L227)
 --- Template
 --- @class GarrisonBonusEffectFrameTemplate : Frame
@@ -45,6 +89,18 @@
 --- @field Icon Texture
 --- @field Name GarrisonBonusEffectFrameTemplate_Name
 --- @field Description GarrisonBonusEffectFrameTemplate_Description
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L275)
+--- child of GarrisonBonusAreaTooltipFrameTemplate
+--- @class GarrisonBonusAreaTooltipFrameTemplate_BonusEffectFrame : Frame, GarrisonBonusEffectFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L260)
+--- child of GarrisonBonusAreaTooltipFrameTemplate
+--- @class GarrisonBonusAreaTooltipFrameTemplate_Title : FontString, GameFontNormalMed2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L266)
+--- child of GarrisonBonusAreaTooltipFrameTemplate
+--- @class GarrisonBonusAreaTooltipFrameTemplate_TimeLeft : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L256)
 --- Template
@@ -207,6 +263,10 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- Template
 --- @class GarrisonShipyardMissionRewardsFrameTemplate : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L723)
+--- child of ShipyardMissionPageTemplate
+--- @class ShipyardMissionPageTemplate_RewardsFrame : Frame, GarrisonShipyardMissionRewardsFrameTemplate, GarrisonMissionPageRewardTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L657)
 --- Template
 --- @class ShipyardMissionPageTemplate : Frame, GarrisonShipyardMissionPageBaseTemplate, MissionPageTemplate
@@ -214,6 +274,18 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- @field ButtonFrame Texture
 --- @field IconBG Texture
 --- @field MissionType Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L765)
+--- child of GarrisonShipMissionFollowerTemplate
+--- @class  : Frame, GarrisonMissionAbilityCounterTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L749)
+--- child of GarrisonShipMissionFollowerTemplate
+--- @class GarrisonShipMissionFollowerTemplate_Name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L772)
+--- child of GarrisonShipMissionFollowerTemplate
+--- @class GarrisonShipMissionFollowerTemplate_PulseAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L733)
 --- Template
@@ -223,6 +295,44 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- @field Name GarrisonShipMissionFollowerTemplate_Name
 --- @field NameBG Texture
 --- @field PulseAnim GarrisonShipMissionFollowerTemplate_PulseAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L837)
+--- child of GarrisonShipMissionCompleteFollowerTemplate
+--- @class GarrisonShipMissionCompleteFollowerTemplate_XP : StatusBar, GarrisonFollowerXPBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L843)
+--- child of GarrisonShipMissionCompleteFollowerTemplate
+--- @class GarrisonShipMissionCompleteFollowerTemplate_XPGain : Frame, GarrisonFollowerXPGainTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L848)
+--- child of GarrisonShipMissionCompleteFollowerTemplate
+--- @class GarrisonShipMissionCompleteFollowerTemplate_LevelUpFrame : Frame, GarrisonFollowerLevelUpTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L853)
+--- child of GarrisonShipMissionCompleteFollowerTemplate
+--- @class GarrisonShipMissionCompleteFollowerTemplate_BoatDeathAnimations : CinematicModel, GarrisonCinematicModelBaseTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L801)
+--- child of GarrisonShipMissionCompleteFollowerTemplate
+--- @class GarrisonShipMissionCompleteFollowerTemplate_Name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L807)
+--- child of GarrisonShipMissionCompleteFollowerTemplate
+--- @class GarrisonShipMissionCompleteFollowerTemplate_SurvivedText : FontString, Game18Font
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L817)
+--- child of GarrisonShipMissionCompleteFollowerTemplate
+--- @class GarrisonShipMissionCompleteFollowerTemplate_DestroyedText : FontString, Game18Font
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L868)
+--- child of GarrisonShipMissionCompleteFollowerTemplate
+--- @class GarrisonShipMissionCompleteFollowerTemplate_SurvivedAnim : AnimationGroup
+--- @field WaitAlpha Alpha
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L874)
+--- child of GarrisonShipMissionCompleteFollowerTemplate
+--- @class GarrisonShipMissionCompleteFollowerTemplate_DestroyedAnim : AnimationGroup
+--- @field WaitAlpha Alpha
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L790)
 --- Template
@@ -239,6 +349,22 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- @field SurvivedAnim GarrisonShipMissionCompleteFollowerTemplate_SurvivedAnim
 --- @field DestroyedAnim GarrisonShipMissionCompleteFollowerTemplate_DestroyedAnim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L926)
+--- child of GarrisonShipMissionCompleteEnemyTemplate
+--- @class GarrisonShipMissionCompleteEnemyTemplate_CheckFrame : Frame, GarrisonEncounterPortraitCheckTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L934)
+--- child of 
+--- @class  : Frame, GarrisonMissionEnemyMechanicTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L931)
+--- child of GarrisonShipMissionCompleteEnemyTemplate
+--- @class GarrisonShipMissionCompleteEnemyTemplate_MechanicsFrame : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L917)
+--- child of GarrisonShipMissionCompleteEnemyTemplate
+--- @class GarrisonShipMissionCompleteEnemyTemplate_Name : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L893)
 --- Template
 --- @class GarrisonShipMissionCompleteEnemyTemplate : Frame
@@ -249,6 +375,14 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- @field PortraitIcon Texture
 --- @field Name GarrisonShipMissionCompleteEnemyTemplate_Name
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L977)
+--- child of GarrisonShipMissionEnemyTemplate
+--- @class  : Button, GarrisonMissionEnemyLargeMechanicTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L968)
+--- child of GarrisonShipMissionEnemyTemplate
+--- @class GarrisonShipMissionEnemyTemplate_Name : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L944)
 --- Template
 --- @class GarrisonShipMissionEnemyTemplate : Frame
@@ -256,6 +390,18 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- @field Portrait Texture
 --- @field PortraitIcon Texture
 --- @field Name GarrisonShipMissionEnemyTemplate_Name
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1015)
+--- child of GarrisonShipFollowerListTemplateHeader
+--- @class GarrisonShipFollowerListTemplateHeader_ScrollBox : Frame, WowScrollBoxList
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1021)
+--- child of GarrisonShipFollowerListTemplateHeader
+--- @class GarrisonShipFollowerListTemplateHeader_ScrollBar : EventFrame, MinimalScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1006)
+--- child of GarrisonShipFollowerListTemplateHeader
+--- @class GarrisonShipFollowerListTemplateHeader_NoShipsLabel : FontString, GameFontNormalLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L981)
 --- Template
@@ -265,6 +411,31 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- @field HeaderLeft Texture
 --- @field HeaderRight Texture
 --- @field NoShipsLabel GarrisonShipFollowerListTemplateHeader_NoShipsLabel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1098)
+--- child of GarrisonShipFollowerButtonTemplate
+--- @class  : Frame, GarrisonMissionAbilityCounterTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1103)
+--- child of GarrisonShipFollowerButtonTemplate
+--- @class  : Frame, GarrisonFollowerListButtonAbilityTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1114)
+--- child of GarrisonShipFollowerButtonTemplate
+--- @class GarrisonShipFollowerButtonTemplate_BusyFrame : Frame
+--- @field Texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1077)
+--- child of GarrisonShipFollowerButtonTemplate
+--- @class GarrisonShipFollowerButtonTemplate_BoatName : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1083)
+--- child of GarrisonShipFollowerButtonTemplate
+--- @class GarrisonShipFollowerButtonTemplate_BoatType : FontString, GameFontDisable
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1089)
+--- child of GarrisonShipFollowerButtonTemplate
+--- @class GarrisonShipFollowerButtonTemplate_Status : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1030)
 --- Template
@@ -285,12 +456,77 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- @field Portrait Texture
 GarrisonShipFollowerPlacer = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1182)
+--- child of 
+--- @class GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter1 : Frame, GarrisonShipMissionCompleteEnemyTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1183)
+--- child of 
+--- @class GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter2 : Frame, GarrisonShipMissionCompleteEnemyTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1188)
+--- child of 
+--- @class GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter3 : Frame, GarrisonShipMissionCompleteEnemyTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1171)
+--- child of 
+--- @class GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_FadeOut : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1165)
+--- child of GarrisonShipyardMissionCompleteStageTemplate
+--- @class GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame : Frame
+--- @field Encounter1 GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter1
+--- @field Encounter2 GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter2
+--- @field Encounter3 GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter3
+--- @field FadeOut GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_FadeOut
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1206)
+--- child of 
+--- @class GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower1 : Frame, GarrisonShipMissionCompleteFollowerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1211)
+--- child of 
+--- @class GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower2 : Frame, GarrisonShipMissionCompleteFollowerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1216)
+--- child of 
+--- @class GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower3 : Frame, GarrisonShipMissionCompleteFollowerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1201)
+--- child of 
+--- @class GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_FadeIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1195)
+--- child of GarrisonShipyardMissionCompleteStageTemplate
+--- @class GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame : Frame
+--- @field Follower1 GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower1
+--- @field Follower2 GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower2
+--- @field Follower3 GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower3
+--- @field FadeIn GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_FadeIn
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1273)
+--- child of 
+--- @class GarrisonShipyardMissionCompleteStageTemplate_MissionInfo_Title : FontString, QuestFont_Super_Huge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1223)
+--- child of GarrisonShipyardMissionCompleteStageTemplate
+--- @class GarrisonShipyardMissionCompleteStageTemplate_MissionInfo : Frame
+--- @field Header Texture
+--- @field IconBG Texture
+--- @field MissionType Texture
+--- @field Title GarrisonShipyardMissionCompleteStageTemplate_MissionInfo_Title
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1163)
 --- Template
 --- @class GarrisonShipyardMissionCompleteStageTemplate : Frame, GarrisonMissionStageTemplate, GarrisonMissionCompleteStageTemplate
 --- @field EncountersFrame GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame
 --- @field FollowersFrame GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame
 --- @field MissionInfo GarrisonShipyardMissionCompleteStageTemplate_MissionInfo
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1342)
+--- child of FogFrameTemplate
+--- @class FogFrameTemplate_MapFogFadeOutAnim : AnimationGroup
+--- @field ScaleAnim Scale
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1310)
 --- Template
@@ -300,6 +536,10 @@ GarrisonShipFollowerPlacer = {}
 --- @field FogAnimTexture Texture
 --- @field HighlightGlowAnimTexture Texture
 --- @field MapFogFadeOutAnim FogFrameTemplate_MapFogFadeOutAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1381)
+--- child of GarrisonShipTraitTemplate
+--- @class GarrisonShipTraitTemplate_Counter : Frame, GarrisonMissionLargeMechanicTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1361)
 --- Template
@@ -313,6 +553,93 @@ GarrisonShipFollowerPlacer = {}
 --- @class GarrisonShipEquipmentTemplate : Button, GarrisonEquipmentTemplate
 --- @field BG Texture
 --- @field Border Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1505)
+--- child of 
+--- @class GarrisonShipyardFollowerTabTemplate_QualityFrame_Text : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1498)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_QualityFrame : Frame
+--- @field Text GarrisonShipyardFollowerTabTemplate_QualityFrame_Text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1520)
+--- child of 
+--- @class GarrisonShipyardFollowerTabTemplate_XPBar_Label : FontString, NumberFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1513)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_XPBar : StatusBar, GarrisonFollowerXPBarTemplate
+--- @field Label GarrisonShipyardFollowerTabTemplate_XPBar_Label
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1528)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_Model : CinematicModel, ModelTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1555)
+--- child of 
+--- @class GarrisonShipyardFollowerTabTemplate_Trait1_Name : FontString, GameFontNormalMed1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1549)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_Trait1 : Button, GarrisonShipTraitTemplate
+--- @field Name GarrisonShipyardFollowerTabTemplate_Trait1_Name
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1569)
+--- child of 
+--- @class GarrisonShipyardFollowerTabTemplate_Trait2_Name : FontString, GameFontNormalMed1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1563)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_Trait2 : Button, GarrisonShipTraitTemplate
+--- @field Name GarrisonShipyardFollowerTabTemplate_Trait2_Name
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1592)
+--- child of 
+--- @class GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment1 : Button, GarrisonShipEquipmentTemplate
+--- @field quality string # "rare"
+--- @field Lock Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1609)
+--- child of 
+--- @class GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment2 : Button, GarrisonShipEquipmentTemplate
+--- @field quality string # "epic"
+--- @field Lock Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1584)
+--- child of 
+--- @class GarrisonShipyardFollowerTabTemplate_EquipmentFrame_EquipmentTitle : FontString, GameFontNormalMed1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1577)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_EquipmentFrame : Frame, GarrisonAbilitiesFrameMixin
+--- @field Equipment1 GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment1
+--- @field Equipment2 GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment2
+--- @field EquipmentTitle GarrisonShipyardFollowerTabTemplate_EquipmentFrame_EquipmentTitle
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1628)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_ThreatCountersFrame : Frame, GarrisonThreatCountersFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1457)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_NumFollowers : FontString, GameFontNormalMed3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1462)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_XPLabel : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1467)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_XPText : FontString, GameFontHighlightLarge2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1477)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_BoatName : FontString, GameFontHighlightLarge2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1483)
+--- child of GarrisonShipyardFollowerTabTemplate
+--- @class GarrisonShipyardFollowerTabTemplate_BoatType : FontString, GameFontDisable
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1419)
 --- Template
@@ -361,6 +688,94 @@ GarrisonShipyardFrameTab2 = {}
 GarrisonShipyardFrameFollowers = {}
 GarrisonShipyardFrameFollowers["showUncollected"] = false
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1745)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionList_FogFrame1 : Frame, FogFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1746)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionList_FogFrame2 : Frame, FogFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1747)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionList_FogFrame3 : Frame, FogFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1762)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionList_CompleteDialog_BorderFrame : Frame, GarrisonShipyardMissionPageBaseTemplate, GarrisonMissionCompleteDialogTemplate, GarrisonShipyardTopBorderTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1749)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionList_CompleteDialog : Frame
+--- @field BorderFrame GarrisonShipyardFrame_MissionTab_MissionList_CompleteDialog_BorderFrame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1732)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionList : Frame, GarrisonShipyardMissionListMixin
+--- @field FogFrame1 GarrisonShipyardFrame_MissionTab_MissionList_FogFrame1
+--- @field FogFrame2 GarrisonShipyardFrame_MissionTab_MissionList_FogFrame2
+--- @field FogFrame3 GarrisonShipyardFrame_MissionTab_MissionList_FogFrame3
+--- @field CompleteDialog GarrisonShipyardFrame_MissionTab_MissionList_CompleteDialog
+--- @field MapTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1782)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionPage_Enemy1 : Frame, GarrisonShipMissionEnemyTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1787)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionPage_Enemy2 : Frame, GarrisonShipMissionEnemyTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1792)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionPage_Enemy3 : Frame, GarrisonShipMissionEnemyTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1797)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionPage_Follower1 : Frame, GarrisonShipMissionFollowerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1802)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionPage_Follower2 : Frame, GarrisonShipMissionFollowerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1807)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionPage_Follower3 : Frame, GarrisonShipMissionFollowerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1780)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionTab_MissionPage : Button, ShipyardMissionPageTemplate, GarrisonMissionPageMixin
+--- @field Enemy1 GarrisonShipyardFrame_MissionTab_MissionPage_Enemy1
+--- @field Enemy2 GarrisonShipyardFrame_MissionTab_MissionPage_Enemy2
+--- @field Enemy3 GarrisonShipyardFrame_MissionTab_MissionPage_Enemy3
+--- @field Follower1 GarrisonShipyardFrame_MissionTab_MissionPage_Follower1
+--- @field Follower2 GarrisonShipyardFrame_MissionTab_MissionPage_Follower2
+--- @field Follower3 GarrisonShipyardFrame_MissionTab_MissionPage_Follower3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1825)
+--- child of 
+--- @class  : PlayerModel, MissionCompletePreloadModelTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1826)
+--- child of 
+--- @class  : PlayerModel, MissionCompletePreloadModelTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1827)
+--- child of 
+--- @class  : PlayerModel, MissionCompletePreloadModelTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1828)
+--- child of 
+--- @class  : PlayerModel, MissionCompletePreloadModelTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1829)
+--- child of 
+--- @class  : PlayerModel, MissionCompletePreloadModelTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1830)
+--- child of 
+--- @class  : PlayerModel, MissionCompletePreloadModelTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1730)
 --- child of GarrisonShipyardFrame
 --- @class GarrisonShipyardFrame_MissionTab : Frame
@@ -375,12 +790,28 @@ GarrisonShipyardFrameFollowers["showUncollected"] = false
 --- child of GarrisonShipyardFrame
 --- @class GarrisonShipyardFrame_MissionCompleteBackground : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1853)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionComplete_Stage : Frame, GarrisonShipyardMissionCompleteStageTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1858)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionComplete_BonusRewards : Frame, GarrisonShipyardMissionRewardsFrameTemplate, GarrisonMissionBonusRewardsTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1863)
+--- child of 
+--- @class GarrisonShipyardFrame_MissionComplete_ChanceFrame : Frame, GarrisonMissionChanceFrameTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1851)
 --- child of GarrisonShipyardFrame
 --- @class GarrisonShipyardFrame_MissionComplete : Frame, GarrisonShipyardMissionPageBaseTemplate, GarrisonMissionCompleteTemplate, GarrisonShipyardMissionComplete
 --- @field Stage GarrisonShipyardFrame_MissionComplete_Stage
 --- @field BonusRewards GarrisonShipyardFrame_MissionComplete_BonusRewards
 --- @field ChanceFrame GarrisonShipyardFrame_MissionComplete_ChanceFrame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1875)
+--- child of 
+--- @class GarrisonShipyardFrame_BorderFrame_CloseButton2 : Button, UIPanelCloseButtonNoScripts
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1873)
 --- child of GarrisonShipyardFrame

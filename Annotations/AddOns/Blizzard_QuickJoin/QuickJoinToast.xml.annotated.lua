@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QuickJoin/QuickJoinToast.xml#L14)
+--- child of QuickJoinToastTemplate
+--- @class QuickJoinToastTemplate_Text : FontString, GameFontNormalSmall2
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QuickJoin/QuickJoinToast.xml#L4)
 --- Template
 --- @class QuickJoinToastTemplate : Frame

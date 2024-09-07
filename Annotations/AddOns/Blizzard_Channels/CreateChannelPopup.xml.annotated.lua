@@ -17,10 +17,18 @@
 --- child of CreateChannelPopup
 --- @class CreateChannelPopup_BG : Frame, DialogBorderTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L42)
+--- child of 
+--- @class CreateChannelPopup_Name_Label : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L36)
 --- child of CreateChannelPopup
 --- @class CreateChannelPopup_Name : EditBox, CreateChannelPopupEditBoxTemplate
 --- @field Label CreateChannelPopup_Name_Label
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L56)
+--- child of 
+--- @class CreateChannelPopup_Password_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L50)
 --- child of CreateChannelPopup

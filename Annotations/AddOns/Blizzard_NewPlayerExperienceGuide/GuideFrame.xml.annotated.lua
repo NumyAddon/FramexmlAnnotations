@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L64)
+--- child of 
+--- @class GuideFrame_ScrollFrame_ConfirmationButton : Button, UIPanelButtonTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L29)
 --- child of GuideFrame
 --- @class GuideFrame_ScrollFrame : ScrollFrame, ScrollFrameTemplate

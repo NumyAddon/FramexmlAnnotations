@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentListTemplates.xml#L15)
+--- child of PvPTalentListButtonTemplate
+--- @class PvPTalentListButtonTemplate_Name : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentListTemplates.xml#L47)
+--- child of PvPTalentListButtonTemplate
+--- @class PvPTalentListButtonTemplate_New : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentListTemplates.xml#L5)
 --- Template
 --- @class PvPTalentListButtonTemplate : Button, PvPTalentListButtonMixin
@@ -10,6 +18,10 @@
 --- @field SelectedOtherCheck Texture
 --- @field New PvPTalentListButtonTemplate_New
 --- @field NewGlow Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentListTemplates.xml#L95)
+--- child of PvPTalentListTemplate
+--- @class PvPTalentListTemplate_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentListTemplates.xml#L72)
 --- Template

@@ -9,6 +9,38 @@
 --- @field CloseButton FloatingPetBattleAbilityTooltip_CloseButton
 FloatingPetBattleAbilityTooltip = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/FloatingPetBattleTooltip.xml#L25)
+--- child of BattlePetTooltipTemplate
+--- @class BattlePetTooltipTemplate_Name : FontString, GameFontNormalLargeLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/FloatingPetBattleTooltip.xml#L32)
+--- child of BattlePetTooltipTemplate
+--- @class BattlePetTooltipTemplate_BattlePet : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/FloatingPetBattleTooltip.xml#L38)
+--- child of BattlePetTooltipTemplate
+--- @class BattlePetTooltipTemplate_PetType : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/FloatingPetBattleTooltip.xml#L51)
+--- child of BattlePetTooltipTemplate
+--- @class BattlePetTooltipTemplate_Level : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/FloatingPetBattleTooltip.xml#L65)
+--- child of BattlePetTooltipTemplate
+--- @class BattlePetTooltipTemplate_Health : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/FloatingPetBattleTooltip.xml#L79)
+--- child of BattlePetTooltipTemplate
+--- @class BattlePetTooltipTemplate_Power : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/FloatingPetBattleTooltip.xml#L93)
+--- child of BattlePetTooltipTemplate
+--- @class BattlePetTooltipTemplate_Speed : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/FloatingPetBattleTooltip.xml#L100)
+--- child of BattlePetTooltipTemplate
+--- @class BattlePetTooltipTemplate_Owned : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/FloatingPetBattleTooltip.xml#L21)
 --- Template
 --- @class BattlePetTooltipTemplate : Frame, TooltipBackdropTemplate

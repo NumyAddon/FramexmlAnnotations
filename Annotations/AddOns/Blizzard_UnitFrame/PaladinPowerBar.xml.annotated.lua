@@ -1,5 +1,21 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L62)
+--- child of PaladinPowerBarRuneTemplate
+--- @class PaladinPowerBarRuneTemplate_activateAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L73)
+--- child of PaladinPowerBarRuneTemplate
+--- @class PaladinPowerBarRuneTemplate_readyAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L83)
+--- child of PaladinPowerBarRuneTemplate
+--- @class PaladinPowerBarRuneTemplate_readyLoopAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L87)
+--- child of PaladinPowerBarRuneTemplate
+--- @class PaladinPowerBarRuneTemplate_depleteAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L6)
 --- Template
 --- @class PaladinPowerBarRuneTemplate : Frame, PaladinPowerBarRune
@@ -14,6 +30,51 @@
 --- @field readyAnim PaladinPowerBarRuneTemplate_readyAnim
 --- @field readyLoopAnim PaladinPowerBarRuneTemplate_readyLoopAnim
 --- @field depleteAnim PaladinPowerBarRuneTemplate_depleteAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L165)
+--- child of PaladinPowerBarFrameTemplate
+--- @class PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune1 : Frame, PaladinPowerBarRuneTemplate
+--- @field runeNumber number # 1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L177)
+--- child of PaladinPowerBarFrameTemplate
+--- @class PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune2 : Frame, PaladinPowerBarRuneTemplate
+--- @field runeNumber number # 2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L189)
+--- child of PaladinPowerBarFrameTemplate
+--- @class PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune3 : Frame, PaladinPowerBarRuneTemplate
+--- @field runeNumber number # 3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L201)
+--- child of PaladinPowerBarFrameTemplate
+--- @class PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune4 : Frame, PaladinPowerBarRuneTemplate
+--- @field runeNumber number # 4
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L213)
+--- child of PaladinPowerBarFrameTemplate
+--- @class PaladinPowerBarFrameTemplate_PaladinPowerBarFrameTemplateRune5 : Frame, PaladinPowerBarRuneTemplate
+--- @field runeNumber number # 5
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L141)
+--- child of PaladinPowerBarFrameTemplate
+--- @class PaladinPowerBarFrameTemplate_showAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L144)
+--- child of PaladinPowerBarFrameTemplate
+--- @class PaladinPowerBarFrameTemplate_activateAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L151)
+--- child of PaladinPowerBarFrameTemplate
+--- @class PaladinPowerBarFrameTemplate_readyAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L154)
+--- child of PaladinPowerBarFrameTemplate
+--- @class PaladinPowerBarFrameTemplate_readyLoopAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L158)
+--- child of PaladinPowerBarFrameTemplate
+--- @class PaladinPowerBarFrameTemplate_depleteAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PaladinPowerBar.xml#L98)
 --- Template

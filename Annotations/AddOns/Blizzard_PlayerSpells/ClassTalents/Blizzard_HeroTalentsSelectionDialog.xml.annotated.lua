@@ -40,6 +40,10 @@ HeroTalentsSelectionDialog["checkFitExtraWidth"] = 0
 HeroTalentsSelectionDialog["Bg"] = HeroTalentsSelectionDialogBg -- inherited
 HeroTalentsSelectionDialog["TopTileStreaks"] = HeroTalentsSelectionDialogTopTileStreaks -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L159)
+--- child of HeroTalentSpecFXTemplate
+--- @class HeroTalentSpecFXTemplate_ActivationFlash : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L69)
 --- Template
 --- @class HeroTalentSpecFXTemplate : Frame
@@ -58,6 +62,40 @@ HeroTalentsSelectionDialog["TopTileStreaks"] = HeroTalentsSelectionDialogTopTile
 --- @field ActivationExpandFxMask MaskTexture
 --- @field ActivationExpandFxMask2 MaskTexture
 --- @field ActivationFlash HeroTalentSpecFXTemplate_ActivationFlash
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L241)
+--- child of 
+--- @class HeroTalentSpecContentTemplate_CurrencyFrame_LabelText : FontString, SystemFont_Shadow_Small2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L244)
+--- child of 
+--- @class HeroTalentSpecContentTemplate_CurrencyFrame_AmountText : FontString, Game32Font_Shadow2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L233)
+--- child of HeroTalentSpecContentTemplate
+--- @class HeroTalentSpecContentTemplate_CurrencyFrame : Frame
+--- @field LabelText HeroTalentSpecContentTemplate_CurrencyFrame_LabelText
+--- @field AmountText HeroTalentSpecContentTemplate_CurrencyFrame_AmountText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L253)
+--- child of HeroTalentSpecContentTemplate
+--- @class HeroTalentSpecContentTemplate_ActivateButton : Button, MagicButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L259)
+--- child of HeroTalentSpecContentTemplate
+--- @class HeroTalentSpecContentTemplate_ApplyChangesButton : Button, UIPanelButtonNoTooltipTemplate, UIButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L175)
+--- child of HeroTalentSpecContentTemplate
+--- @class HeroTalentSpecContentTemplate_SpecName : FontString, Game24Font, AutoScalingFontStringMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L196)
+--- child of HeroTalentSpecContentTemplate
+--- @class HeroTalentSpecContentTemplate_Description : FontString, GameFontNormalMed1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L204)
+--- child of HeroTalentSpecContentTemplate
+--- @class HeroTalentSpecContentTemplate_ActivatedText : FontString, SystemFont_Shadow_Large2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L167)
 --- Template

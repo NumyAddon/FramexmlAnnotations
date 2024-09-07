@@ -8,6 +8,10 @@
 --- child of ProfessionsCustomerOrdersFrame
 --- @class ProfessionsCustomerOrdersFrame_MoneyFrameInset : Frame, InsetFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L30)
+--- child of 
+--- @class ProfessionsCustomerOrdersFrame_MoneyFrameBorder_MoneyFrame : Frame, MoneyDisplayFrameTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L24)
 --- child of ProfessionsCustomerOrdersFrame
 --- @class ProfessionsCustomerOrdersFrame_MoneyFrameBorder : Frame, ThinGoldEdgeTemplate

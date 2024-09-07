@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L15)
+--- child of PaperDollItemSlotButtonTemplate
+--- @class PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L16)
+--- child of PaperDollItemSlotButtonTemplate
+--- @class PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton : Button, EquipmentFlyoutPopoutButtonTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L3)
 --- Template
 --- @class PaperDollItemSlotButtonTemplate : ItemButton, PaperDollAzeriteItemOverlayTemplate, EnchantingItemButtonAnimTemplate, PaperDollItemSlotButtonMixin
@@ -12,6 +20,21 @@
 --- @class PaperDollItemSocketSlotTemplate : Frame
 --- @field Slot Texture
 --- @field Gem Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L58)
+--- child of PaperDollItemSocketDisplayTemplate
+--- @class PaperDollItemSocketDisplayTemplate_Slot1 : Frame, PaperDollItemSocketSlotTemplate
+--- @field layoutIndex number # 1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L63)
+--- child of PaperDollItemSocketDisplayTemplate
+--- @class PaperDollItemSocketDisplayTemplate_Slot2 : Frame, PaperDollItemSocketSlotTemplate
+--- @field layoutIndex number # 2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L68)
+--- child of PaperDollItemSocketDisplayTemplate
+--- @class PaperDollItemSocketDisplayTemplate_Slot3 : Frame, PaperDollItemSocketSlotTemplate
+--- @field layoutIndex number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L56)
 --- Template
@@ -28,11 +51,27 @@
 --- Template
 --- @class PaperDollItemSocketDisplayHorizontalTemplate : Frame, HorizontalLayoutFrame, PaperDollItemSocketDisplayTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L79)
+--- child of PaperDollItemSlotButtonLeftTemplate
+--- @class PaperDollItemSlotButtonLeftTemplate_SocketDisplay : Frame, PaperDollItemSocketDisplayVerticalTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L90)
+--- child of PaperDollItemSlotButtonLeftTemplate
+--- @class PaperDollItemSlotButtonLeftTemplate_PaperDollItemSlotButtonLeftTemplateFrame : Texture, Char-LeftSlot
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L77)
 --- Template
 --- @class PaperDollItemSlotButtonLeftTemplate : ItemButton, PaperDollItemSlotButtonTemplate
 --- @field IsLeftSide boolean # true
 --- @field SocketDisplay PaperDollItemSlotButtonLeftTemplate_SocketDisplay
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L100)
+--- child of PaperDollItemSlotButtonRightTemplate
+--- @class PaperDollItemSlotButtonRightTemplate_SocketDisplay : Frame, PaperDollItemSocketDisplayVerticalTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L111)
+--- child of PaperDollItemSlotButtonRightTemplate
+--- @class PaperDollItemSlotButtonRightTemplate_PaperDollItemSlotButtonRightTemplateFrame : Texture, Char-RightSlot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L98)
 --- Template
@@ -40,10 +79,26 @@
 --- @field IsLeftSide boolean # false
 --- @field SocketDisplay PaperDollItemSlotButtonRightTemplate_SocketDisplay
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L121)
+--- child of PaperDollItemSlotButtonBottomTemplate
+--- @class PaperDollItemSlotButtonBottomTemplate_SocketDisplay : Frame, PaperDollItemSocketDisplayHorizontalTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L129)
+--- child of PaperDollItemSlotButtonBottomTemplate
+--- @class PaperDollItemSlotButtonBottomTemplate_PaperDollItemSlotButtonBottomTemplateFrame : Texture, Char-BottomSlot
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L119)
 --- Template
 --- @class PaperDollItemSlotButtonBottomTemplate : ItemButton, PaperDollItemSlotButtonTemplate
 --- @field SocketDisplay PaperDollItemSlotButtonBottomTemplate_SocketDisplay
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L146)
+--- child of PlayerTitleButtonTemplate
+--- @class PlayerTitleButtonTemplate_PlayerTitleButtonTemplateBgTop : Texture, Char-Stat-Top
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L151)
+--- child of PlayerTitleButtonTemplate
+--- @class PlayerTitleButtonTemplate_PlayerTitleButtonTemplateBgBottom : Texture, Char-Stat-Top
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L137)
 --- Template
@@ -54,6 +109,28 @@
 --- @field Stripe Texture
 --- @field Check Texture
 --- @field SelectedBar Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L282)
+--- child of GearSetButtonTemplate
+--- @class GearSetButtonTemplate_GearSetButtonTemplateDeleteButton : Button
+--- @field texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L318)
+--- child of GearSetButtonTemplate
+--- @class GearSetButtonTemplate_GearSetButtonTemplateEditButton : Button
+--- @field texture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L210)
+--- child of GearSetButtonTemplate
+--- @class GearSetButtonTemplate_GearSetButtonTemplateBgTop : Texture, Char-Stat-Top
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L215)
+--- child of GearSetButtonTemplate
+--- @class GearSetButtonTemplate_GearSetButtonTemplateBgBottom : Texture, Char-Stat-Top
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L247)
+--- child of GearSetButtonTemplate
+--- @class GearSetButtonTemplate_GearSetButtonTemplateText : FontString, GameFontNormalLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L203)
 --- Template
@@ -107,11 +184,37 @@ PaperDollSidebarTab1 = {}
 --- @field DecorRight Texture
 PaperDollSidebarTabs = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L548)
+--- child of 
+--- @class PaperDollFrame_TitleManagerPane_ScrollBox : Frame, WowScrollBoxList
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L559)
+--- child of 
+--- @class PaperDollFrame_TitleManagerPane_ScrollBar : EventFrame, MinimalScrollBar
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L542)
 --- child of PaperDollFrame
 --- @class PaperDollFrame_TitleManagerPane : Frame
 --- @field ScrollBox PaperDollFrame_TitleManagerPane_ScrollBox
 --- @field ScrollBar PaperDollFrame_TitleManagerPane_ScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L579)
+--- child of 
+--- @class PaperDollFrame_EquipmentManagerPane_ScrollBox : Frame, WowScrollBoxList
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L585)
+--- child of 
+--- @class PaperDollFrame_EquipmentManagerPane_ScrollBar : EventFrame, MinimalScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L592)
+--- child of 
+--- @class PaperDollFrame_EquipmentManagerPane_EquipSet : Button, UIPanelButtonTemplate
+EquipSet = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L601)
+--- child of 
+--- @class PaperDollFrame_EquipmentManagerPane_SaveSet : Button, UIPanelButtonTemplate
+SaveSet = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L573)
 --- child of PaperDollFrame
@@ -124,6 +227,29 @@ PaperDollSidebarTabs = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L723)
 --- child of CharacterModelScene
 --- @class PaperDollFrame_CharacterModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L770)
+--- child of 
+--- @class PaperDollFrame_CharacterModelScene_GearEnchantAnimation_FrameFX_FrameFXAnimGroup : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L735)
+--- child of 
+--- @class PaperDollFrame_CharacterModelScene_GearEnchantAnimation_FrameFX : Frame
+--- @field PurpleGlow Texture
+--- @field BlueGlow Texture
+--- @field Sparkles Texture
+--- @field Mask MaskTexture
+--- @field FrameFXAnimGroup PaperDollFrame_CharacterModelScene_GearEnchantAnimation_FrameFX_FrameFXAnimGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L801)
+--- child of 
+--- @class PaperDollFrame_CharacterModelScene_GearEnchantAnimation_TopFrame_TopFrameAnimGroup : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L786)
+--- child of 
+--- @class PaperDollFrame_CharacterModelScene_GearEnchantAnimation_TopFrame : Frame
+--- @field Frame Texture
+--- @field TopFrameAnimGroup PaperDollFrame_CharacterModelScene_GearEnchantAnimation_TopFrame_TopFrameAnimGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L729)
 --- child of CharacterModelScene

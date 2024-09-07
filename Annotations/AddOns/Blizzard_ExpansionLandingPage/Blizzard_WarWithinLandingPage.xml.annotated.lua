@@ -1,5 +1,28 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.xml#L18)
+--- child of WarWithinLandingOverlayTemplate
+--- @class WarWithinLandingOverlayTemplate_Border : Frame
+--- @field Border Texture
+--- @field BottomEmbellishment Texture
+--- @field TopEmbellishment Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.xml#L48)
+--- child of 
+--- @class WarWithinLandingOverlayTemplate_Header_Title : FontString, Fancy48Font
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.xml#L41)
+--- child of WarWithinLandingOverlayTemplate
+--- @class WarWithinLandingOverlayTemplate_Header : Frame
+--- @field Title WarWithinLandingOverlayTemplate_Header_Title
+--- @field TitleDivider Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.xml#L64)
+--- child of WarWithinLandingOverlayTemplate
+--- @class WarWithinLandingOverlayTemplate_ScrollFadeOverlay : Frame
+--- @field Top Texture
+--- @field Bottom Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.xml#L3)
 --- Template
 --- @class WarWithinLandingOverlayTemplate : Frame, LandingPageExpansionOverlayTemplate, WarWithinLandingOverlayMixin

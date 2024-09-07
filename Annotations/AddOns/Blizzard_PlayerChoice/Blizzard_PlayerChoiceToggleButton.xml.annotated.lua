@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.xml#L11)
+--- child of PlayerChoiceToggleButtonTemplate
+--- @class PlayerChoiceToggleButtonTemplate_Text : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.xml#L19)
+--- child of PlayerChoiceToggleButtonTemplate
+--- @class PlayerChoiceToggleButtonTemplate_FadeIn : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.xml#L4)
 --- Template
 --- @class PlayerChoiceToggleButtonTemplate : Button, PlayerChoiceToggleButtonMixin

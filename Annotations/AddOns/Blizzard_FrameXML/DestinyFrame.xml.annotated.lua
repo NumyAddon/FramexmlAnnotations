@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DestinyFrame.xml#L17)
+--- child of DestinyButtonTemplate
+--- @class DestinyButtonTemplate_label : FontString, GameFontNormalLarge
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/DestinyFrame.xml#L4)
 --- Template
 --- @class DestinyButtonTemplate : Button

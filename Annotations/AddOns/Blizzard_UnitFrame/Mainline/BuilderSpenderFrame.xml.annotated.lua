@@ -7,6 +7,32 @@
 --- @field LossGlowTexture Texture
 --- @field GainGlowTexture Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L43)
+--- child of 
+--- @class FullResourcePulseFrame_SpikeFrame_SpikeAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L23)
+--- child of FullResourcePulseFrame
+--- @class FullResourcePulseFrame_SpikeFrame : Frame
+--- @field BigSpikeGlow Texture
+--- @field AlertSpikeStay Texture
+--- @field SpikeAnim FullResourcePulseFrame_SpikeFrame_SpikeAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L78)
+--- child of 
+--- @class FullResourcePulseFrame_PulseFrame_PulseAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L56)
+--- child of FullResourcePulseFrame
+--- @class FullResourcePulseFrame_PulseFrame : Frame
+--- @field YellowGlow Texture
+--- @field SoftGlow Texture
+--- @field PulseAnim FullResourcePulseFrame_PulseFrame_PulseAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L90)
+--- child of FullResourcePulseFrame
+--- @class FullResourcePulseFrame_FadeoutAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L20)
 --- Template
 --- @class FullResourcePulseFrame : Frame, FullResourcePulse

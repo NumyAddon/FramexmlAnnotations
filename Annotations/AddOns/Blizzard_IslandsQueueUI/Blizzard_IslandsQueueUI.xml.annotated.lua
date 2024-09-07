@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L34)
+--- child of IslandsQueueFrameTutorialTemplate
+--- @class IslandsQueueFrameTutorialTemplate_Leave : Button, UIPanelButtonNoTooltipTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L47)
+--- child of IslandsQueueFrameTutorialTemplate
+--- @class IslandsQueueFrameTutorialTemplate_CloseButton : Button, UIPanelCloseButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L3)
 --- Template
 --- @class IslandsQueueFrameTutorialTemplate : Frame
@@ -8,6 +16,29 @@
 --- @field BlackBackground Texture
 --- @field Background Texture
 --- @field TutorialText FontString
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L105)
+--- child of 
+--- @class IslandsQueueFrameWeeklyQuestFrameTemplate_OverlayFrame_Text : FontString, TextStatusBarTextLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L80)
+--- child of IslandsQueueFrameWeeklyQuestFrameTemplate
+--- @class IslandsQueueFrameWeeklyQuestFrameTemplate_OverlayFrame : Frame
+--- @field FillBackground Texture
+--- @field Bar Texture
+--- @field Spark Texture
+--- @field Text IslandsQueueFrameWeeklyQuestFrameTemplate_OverlayFrame_Text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L113)
+--- child of IslandsQueueFrameWeeklyQuestFrameTemplate
+--- @class IslandsQueueFrameWeeklyQuestFrameTemplate_QuestReward : Button, IslandsQueueWeeklyQuestRewardMixin
+--- @field Icon Texture
+--- @field CircleMask MaskTexture
+--- @field CompletedCheck Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L65)
+--- child of IslandsQueueFrameWeeklyQuestFrameTemplate
+--- @class IslandsQueueFrameWeeklyQuestFrameTemplate_Title : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L61)
 --- Template
@@ -24,16 +55,46 @@
 --- @field NormalTexture Texture
 --- @field Highlight Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L246)
+--- child of 
+--- @class IslandsQueueScreenDifficultySelector_QueueButton_FlashAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L224)
+--- child of IslandsQueueScreenDifficultySelector
+--- @class IslandsQueueScreenDifficultySelector_QueueButton : Button, UIPanelButtonNoTooltipTemplate
+--- @field Flash Texture
+--- @field FlashAnim IslandsQueueScreenDifficultySelector_QueueButton_FlashAnim
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L212)
 --- Template
 --- @class IslandsQueueScreenDifficultySelector : Frame, IslandsQueueFrameDifficultyMixin
 --- @field QueueButton IslandsQueueScreenDifficultySelector_QueueButton
 --- @field Background Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L273)
+--- child of IslandsQueueFrameIslandCardTemplate
+--- @class IslandsQueueFrameIslandCardTemplate_TitleScroll : Frame
+--- @field Parchment Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L271)
 --- Template
 --- @class IslandsQueueFrameIslandCardTemplate : Frame
 --- @field TitleScroll IslandsQueueFrameIslandCardTemplate_TitleScroll
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L292)
+--- child of IslandsQueueFrameCardFrameTemplate
+--- @class IslandsQueueFrameCardFrameTemplate_CenterCard : Frame, IslandsQueueFrameIslandCardTemplate
+--- @field Background Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L303)
+--- child of IslandsQueueFrameCardFrameTemplate
+--- @class IslandsQueueFrameCardFrameTemplate_LeftCard : Frame, IslandsQueueFrameIslandCardTemplate
+--- @field Background Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L314)
+--- child of IslandsQueueFrameCardFrameTemplate
+--- @class IslandsQueueFrameCardFrameTemplate_RightCard : Frame, IslandsQueueFrameIslandCardTemplate
+--- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L286)
 --- Template
@@ -42,6 +103,10 @@
 --- @field CenterCard IslandsQueueFrameCardFrameTemplate_CenterCard
 --- @field LeftCard IslandsQueueFrameCardFrameTemplate_LeftCard
 --- @field RightCard IslandsQueueFrameCardFrameTemplate_RightCard
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L410)
+--- child of 
+--- @class IslandsQueueFrame_TitleBanner_TitleText : FontString, GameFontNormalMed2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L398)
 --- child of IslandsQueueFrame
@@ -64,6 +129,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L433)
 --- child of IslandsQueueFrame
 --- @class IslandsQueueFrame_TutorialFrame : Frame, IslandsQueueFrameTutorialTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L467)
+--- child of 
+--- @class IslandsQueueFrame_ArtOverlayFrame_PortraitFrame : Texture, UI-Frame-Portrait
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L438)
 --- child of IslandsQueueFrame

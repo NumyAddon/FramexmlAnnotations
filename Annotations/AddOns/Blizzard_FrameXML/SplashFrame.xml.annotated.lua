@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L9)
+--- child of SplashFeatureFrameTemplate
+--- @class SplashFeatureFrameTemplate_Description : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L15)
+--- child of SplashFeatureFrameTemplate
+--- @class SplashFeatureFrameTemplate_Title : FontString, GameFontNormalLarge2
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L5)
 --- Template
 --- @class SplashFeatureFrameTemplate : Frame, SplashFeatureFrameMixin
@@ -21,6 +29,25 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L98)
 --- child of SplashFrame
 --- @class SplashFrame_BottomLeftFeature : Frame, SplashFeatureFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L149)
+--- child of 
+--- @class SplashFrame_RightFeature_StartQuestButton_Text : FontString, Game27Font
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L135)
+--- child of 
+--- @class SplashFrame_RightFeature_StartQuestButton : Button, StartQuestButtonMixin
+--- @field Texture Texture
+--- @field Text SplashFrame_RightFeature_StartQuestButton_Text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L110)
+--- child of 
+--- @class SplashFrame_RightFeature_Description : FontString, SystemFont_Shadow_Med2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L116)
+--- child of 
+--- @class SplashFrame_RightFeature_Title : FontString, Game72Font, AutoScalingFontStringMixin
+--- @field minLineHeight number # 18
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L103)
 --- child of SplashFrame

@@ -4,6 +4,35 @@
 --- Template
 --- @class ExpBar-Divider : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L108)
+--- child of 
+--- @class CompanionListButtonTemplate_dragButton_Cooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L94)
+--- child of 
+--- @class CompanionListButtonTemplate_dragButton_Level : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L79)
+--- child of CompanionListButtonTemplate
+--- @class CompanionListButtonTemplate_dragButton : Button, PetJournalDragButtonMixin
+--- @field Cooldown CompanionListButtonTemplate_dragButton_Cooldown
+--- @field ActiveTexture Texture
+--- @field levelBG Texture
+--- @field level CompanionListButtonTemplate_dragButton_Level
+--- @field favorite Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L37)
+--- child of CompanionListButtonTemplate
+--- @class CompanionListButtonTemplate_name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L43)
+--- child of CompanionListButtonTemplate
+--- @class CompanionListButtonTemplate_subName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L61)
+--- child of CompanionListButtonTemplate
+--- @class CompanionListButtonTemplate_new : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L7)
 --- Template
 --- @class CompanionListButtonTemplate : Button, PetJournalListItemMixin
@@ -19,6 +48,10 @@
 --- @field new CompanionListButtonTemplate_new
 --- @field newGlow Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L164)
+--- child of CompanionLoadOutSpellTemplate
+--- @class CompanionLoadOutSpellTemplate_LevelRequirement : FontString, GameFontNormalHuge
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L143)
 --- Template
 --- @class CompanionLoadOutSpellTemplate : CheckButton
@@ -27,6 +60,144 @@
 --- @field LevelRequirement CompanionLoadOutSpellTemplate_LevelRequirement
 --- @field FlyoutArrow Texture
 --- @field selected Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L303)
+--- child of CompanionLoadOutTemplateHealthFrame
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateHealthFrame_CompanionLoadOutTemplateHealthFrameTextureFrame : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L316)
+--- child of CompanionLoadOutTemplateHealthFrame
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateHealthFrame_CompanionLoadOutTemplateHealthFramehealthStatusBar : StatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L355)
+--- child of CompanionLoadOutTemplateHealthFrame
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateHealthFrame_CompanionLoadOutTemplateHealthFrameHealthValue : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L297)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateHealthFrame : Frame
+--- @field healthBar CompanionLoadOutTemplate_CompanionLoadOutTemplateHealthFrame_CompanionLoadOutTemplateHealthFramehealthStatusBar
+--- @field healthValue CompanionLoadOutTemplate_CompanionLoadOutTemplateHealthFrame_CompanionLoadOutTemplateHealthFrameHealthValue
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L376)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateSpell1 : CheckButton, CompanionLoadOutSpellTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L381)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateSpell2 : CheckButton, CompanionLoadOutSpellTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L386)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateSpell3 : CheckButton, CompanionLoadOutSpellTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L406)
+--- child of CompanionLoadOutTemplateHelpFrame
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateHelpFrame_CompanionLoadOutTemplateHelpFrameText : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L392)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateHelpFrame : Frame
+--- @field text CompanionLoadOutTemplate_CompanionLoadOutTemplateHelpFrame_CompanionLoadOutTemplateHelpFrameText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L423)
+--- child of CompanionLoadOutTemplateRequirement
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateRequirement_CompanionLoadOutTemplateRequirementStr : FontString, GameFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L416)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateRequirement : Frame
+--- @field str CompanionLoadOutTemplate_CompanionLoadOutTemplateRequirement_CompanionLoadOutTemplateRequirementStr
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L442)
+--- child of CompanionLoadOutTemplateXPBar
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateXPBar_CompanionLoadOutTemplateXPBarRank : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L465)
+--- child of CompanionLoadOutTemplateXPBar
+--- @class  : Texture, ExpBar-Divider
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L470)
+--- child of CompanionLoadOutTemplateXPBar
+--- @class  : Texture, ExpBar-Divider
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L475)
+--- child of CompanionLoadOutTemplateXPBar
+--- @class  : Texture, ExpBar-Divider
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L480)
+--- child of CompanionLoadOutTemplateXPBar
+--- @class  : Texture, ExpBar-Divider
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L485)
+--- child of CompanionLoadOutTemplateXPBar
+--- @class  : Texture, ExpBar-Divider
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L490)
+--- child of CompanionLoadOutTemplateXPBar
+--- @class  : Texture, ExpBar-Divider
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L495)
+--- child of CompanionLoadOutTemplateXPBar
+--- @class  : Texture, ExpBar-Divider
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L435)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateXPBar : StatusBar
+--- @field rankText CompanionLoadOutTemplate_CompanionLoadOutTemplateXPBar_CompanionLoadOutTemplateXPBarRank
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L532)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_modelScene : ModelScene, ModelSceneMixinTemplate
+--- @field cardButton Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L551)
+--- child of CompanionLoadOutTemplateSetButton
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateSetButton_glow : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L549)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateSetButton : Button
+--- @field glow CompanionLoadOutTemplate_CompanionLoadOutTemplateSetButton_glow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L608)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_dragButton : Button, PetJournalLoadoutDragButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L628)
+--- child of CompanionLoadOutTemplateEmptySlot
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateEmptySlot_CompanionLoadOutTemplateEmptySlotSlotInfo : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L634)
+--- child of CompanionLoadOutTemplateEmptySlot
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateEmptySlot_CompanionLoadOutTemplateEmptySlotDragHere : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L625)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateEmptySlot : Frame
+--- @field slot CompanionLoadOutTemplate_CompanionLoadOutTemplateEmptySlot_CompanionLoadOutTemplateEmptySlotSlotInfo
+--- @field draghere CompanionLoadOutTemplate_CompanionLoadOutTemplateEmptySlot_CompanionLoadOutTemplateEmptySlotDragHere
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L652)
+--- child of CompanionLoadOutTemplateReadOnlyFrame
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateReadOnlyFrame_CompanionLoadOutTemplateReadOnlyFrameLockIcon : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L643)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateReadOnlyFrame : Frame
+--- @field LockIcon CompanionLoadOutTemplate_CompanionLoadOutTemplateReadOnlyFrame_CompanionLoadOutTemplateReadOnlyFrameLockIcon
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L247)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateName : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L253)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateSubName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L283)
+--- child of CompanionLoadOutTemplate
+--- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateLevel : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L209)
 --- Template
@@ -56,6 +227,10 @@
 --- @field level CompanionLoadOutTemplate_CompanionLoadOutTemplateLevel
 --- @field favorite Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L726)
+--- child of PetCardSpellButtonTemplate
+--- @class PetCardSpellButtonTemplate_LevelRequirement : FontString, GameFontNormalHuge
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L712)
 --- Template
 --- @class PetCardSpellButtonTemplate : Button
@@ -63,12 +238,24 @@
 --- @field BlackCover Texture
 --- @field LevelRequirement PetCardSpellButtonTemplate_LevelRequirement
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L763)
+--- child of PetSpellSelectButtonTemplate
+--- @class PetSpellSelectButtonTemplate_LevelRequirement : FontString, GameFontNormalHuge
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L749)
 --- Template
 --- @class PetSpellSelectButtonTemplate : CheckButton
 --- @field icon Texture
 --- @field BlackCover Texture
 --- @field LevelRequirement PetSpellSelectButtonTemplate_LevelRequirement
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L803)
+--- child of 
+--- @class PetJournal_PetCount_Count : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L808)
+--- child of 
+--- @class PetJournal_PetCount_Label : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L796)
 --- child of PetJournal

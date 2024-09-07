@@ -4,6 +4,10 @@
 --- Template
 --- @class RaidFinderRoleButtonTemplate : Button, LFGRoleButtonWithBackgroundAndRewardTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L48)
+--- child of 
+--- @class RaidFinderFrame_NoRaidsCover_Label : FontString, GameFontNormalLarge
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L36)
 --- child of RaidFinderFrame
 --- @class RaidFinderFrame_NoRaidsCover : Frame

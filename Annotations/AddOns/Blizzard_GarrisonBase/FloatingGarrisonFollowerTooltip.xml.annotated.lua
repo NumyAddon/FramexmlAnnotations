@@ -1,5 +1,17 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L15)
+--- child of GarrisonFollowerAbilityTemplate
+--- @class GarrisonFollowerAbilityTemplate_Name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L21)
+--- child of GarrisonFollowerAbilityTemplate
+--- @class GarrisonFollowerAbilityTemplate_Description : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L33)
+--- child of GarrisonFollowerAbilityTemplate
+--- @class GarrisonFollowerAbilityTemplate_Details : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L5)
 --- Template
 --- @class GarrisonFollowerAbilityTemplate : Frame
@@ -10,6 +22,54 @@
 --- @field Details GarrisonFollowerAbilityTemplate_Details
 --- @field CounterIconBorder Texture
 --- @field Border Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L147)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class GarrisonFollowerTooltipContentsTemplate_PortraitFrame : Frame, GarrisonFollowerPortraitTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L152)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class  : Frame, GarrisonFollowerAbilityTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L158)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class  : Frame, GarrisonFollowerAbilityTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L78)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class GarrisonFollowerTooltipContentsTemplate_Name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L84)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class GarrisonFollowerTooltipContentsTemplate_ClassSpecName : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L90)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class GarrisonFollowerTooltipContentsTemplate_ILevel : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L97)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class GarrisonFollowerTooltipContentsTemplate_Quality : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L110)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class GarrisonFollowerTooltipContentsTemplate_XP : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L118)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class GarrisonFollowerTooltipContentsTemplate_SpecializationLabel : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L124)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class GarrisonFollowerTooltipContentsTemplate_AbilitiesLabel : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L130)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class GarrisonFollowerTooltipContentsTemplate_TraitsLabel : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L136)
+--- child of GarrisonFollowerTooltipContentsTemplate
+--- @class GarrisonFollowerTooltipContentsTemplate_UnderBiased : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L59)
 --- Template
@@ -31,6 +91,38 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L165)
 --- Template
 --- @class GarrisonFollowerTooltipTemplate : Frame, GarrisonFollowerTooltipContentsTemplate, TooltipBackdropTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L217)
+--- child of GarrisonShipyardFollowerTooltipTemplate
+--- @class GarrisonShipyardFollowerTooltipTemplate_Property1 : Frame, GarrisonFollowerAbilityTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L222)
+--- child of GarrisonShipyardFollowerTooltipTemplate
+--- @class GarrisonShipyardFollowerTooltipTemplate_Property2 : Frame, GarrisonFollowerAbilityTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L227)
+--- child of GarrisonShipyardFollowerTooltipTemplate
+--- @class GarrisonShipyardFollowerTooltipTemplate_Property3 : Frame, GarrisonFollowerAbilityTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L232)
+--- child of GarrisonShipyardFollowerTooltipTemplate
+--- @class GarrisonShipyardFollowerTooltipTemplate_Property4 : Frame, GarrisonFollowerAbilityTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L181)
+--- child of GarrisonShipyardFollowerTooltipTemplate
+--- @class GarrisonShipyardFollowerTooltipTemplate_Name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L187)
+--- child of GarrisonShipyardFollowerTooltipTemplate
+--- @class GarrisonShipyardFollowerTooltipTemplate_ClassSpecName : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L193)
+--- child of GarrisonShipyardFollowerTooltipTemplate
+--- @class GarrisonShipyardFollowerTooltipTemplate_Quality : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L206)
+--- child of GarrisonShipyardFollowerTooltipTemplate
+--- @class GarrisonShipyardFollowerTooltipTemplate_XP : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L168)
 --- Template
@@ -64,6 +156,22 @@ FloatingGarrisonFollowerTooltip = {}
 --- @field CloseButton FloatingGarrisonShipyardFollowerTooltip_CloseButton
 FloatingGarrisonShipyardFollowerTooltip = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L288)
+--- child of GarrisonFollowerAbilityTooltipTemplate
+--- @class GarrisonFollowerAbilityTooltipTemplate_Name : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L294)
+--- child of GarrisonFollowerAbilityTooltipTemplate
+--- @class GarrisonFollowerAbilityTooltipTemplate_Description : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L300)
+--- child of GarrisonFollowerAbilityTooltipTemplate
+--- @class GarrisonFollowerAbilityTooltipTemplate_CountersLabel : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L313)
+--- child of GarrisonFollowerAbilityTooltipTemplate
+--- @class GarrisonFollowerAbilityTooltipTemplate_Details : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L278)
 --- Template
 --- @class GarrisonFollowerAbilityTooltipTemplate : Frame, TooltipBackdropTemplate
@@ -76,6 +184,14 @@ FloatingGarrisonShipyardFollowerTooltip = {}
 --- @field Details GarrisonFollowerAbilityTooltipTemplate_Details
 --- @field CounterIconBorder Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L346)
+--- child of GarrisonFollowerAbilityWithoutCountersTooltipTemplate
+--- @class GarrisonFollowerAbilityWithoutCountersTooltipTemplate_Name : FontString, GameTooltipHeaderText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L352)
+--- child of GarrisonFollowerAbilityWithoutCountersTooltipTemplate
+--- @class GarrisonFollowerAbilityWithoutCountersTooltipTemplate_Description : FontString, GameTooltipText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L336)
 --- Template
 --- @class GarrisonFollowerAbilityWithoutCountersTooltipTemplate : Frame, TooltipBackdropTemplate
@@ -84,6 +200,18 @@ FloatingGarrisonShipyardFollowerTooltip = {}
 --- @field Name GarrisonFollowerAbilityWithoutCountersTooltipTemplate_Name
 --- @field Description GarrisonFollowerAbilityWithoutCountersTooltipTemplate_Description
 --- @field AbilityBorder Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L381)
+--- child of GarrisonFollowerMissionAbilityWithoutCountersTooltipTemplate
+--- @class GarrisonFollowerMissionAbilityWithoutCountersTooltipTemplate_Header : FontString, GameTooltipText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L393)
+--- child of GarrisonFollowerMissionAbilityWithoutCountersTooltipTemplate
+--- @class GarrisonFollowerMissionAbilityWithoutCountersTooltipTemplate_Name : FontString, GameTooltipHeaderText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L399)
+--- child of GarrisonFollowerMissionAbilityWithoutCountersTooltipTemplate
+--- @class GarrisonFollowerMissionAbilityWithoutCountersTooltipTemplate_Description : FontString, GameTooltipText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L377)
 --- Template

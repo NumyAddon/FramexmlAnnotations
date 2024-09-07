@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L64)
+--- child of DruidComboPointTemplate
+--- @class DruidComboPointTemplate_activateAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L78)
+--- child of DruidComboPointTemplate
+--- @class DruidComboPointTemplate_deactivateAnim : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L5)
 --- Template
 --- @class DruidComboPointTemplate : Frame, DruidComboPointMixin

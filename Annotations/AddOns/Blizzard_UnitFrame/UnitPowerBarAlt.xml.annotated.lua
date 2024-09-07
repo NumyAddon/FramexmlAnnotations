@@ -9,6 +9,14 @@
 --- @field flash Texture
 --- @field spark Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L23)
+--- child of UnitPowerBarAltPillTemplate
+--- @class UnitPowerBarAltPillTemplate_flashAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L27)
+--- child of UnitPowerBarAltPillTemplate
+--- @class UnitPowerBarAltPillTemplate_flashAway : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L21)
 --- Template
 --- @class UnitPowerBarAltPillTemplate : Frame, UnitPowerBarAltTexturableTemplate
@@ -20,6 +28,34 @@
 --- @class UnitCounterBarNumberTemplate : Frame
 --- @field number Texture
 --- @field numberMask Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L96)
+--- child of UnitPowerBarAltCounterTemplate
+--- @class UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit1 : Frame, UnitCounterBarNumberTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L101)
+--- child of UnitPowerBarAltCounterTemplate
+--- @class UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit2 : Frame, UnitCounterBarNumberTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L106)
+--- child of UnitPowerBarAltCounterTemplate
+--- @class UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit3 : Frame, UnitCounterBarNumberTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L111)
+--- child of UnitPowerBarAltCounterTemplate
+--- @class UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit4 : Frame, UnitCounterBarNumberTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L116)
+--- child of UnitPowerBarAltCounterTemplate
+--- @class UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit5 : Frame, UnitCounterBarNumberTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L121)
+--- child of UnitPowerBarAltCounterTemplate
+--- @class UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit6 : Frame, UnitCounterBarNumberTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L126)
+--- child of UnitPowerBarAltCounterTemplate
+--- @class UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit7 : Frame, UnitCounterBarNumberTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L55)
 --- Template
@@ -36,6 +72,27 @@
 --- @field BGR Texture
 --- @field artTop Texture
 --- @field artBottom Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L150)
+--- child of UnitPowerBarAltTemplate
+--- @class UnitPowerBarAltTemplate_UnitPowerBarAltTemplateCounterBar : Frame, UnitPowerBarAltCounterTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L162)
+--- child of UnitPowerBarAltTemplateStatusFrame
+--- @class UnitPowerBarAltTemplate_UnitPowerBarAltTemplateStatusFrame_UnitPowerBarAltTemplateStatusFrameText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L155)
+--- child of UnitPowerBarAltTemplate
+--- @class UnitPowerBarAltTemplate_UnitPowerBarAltTemplateStatusFrame : StatusBar, TextStatusBarMixin
+--- @field text UnitPowerBarAltTemplate_UnitPowerBarAltTemplateStatusFrame_UnitPowerBarAltTemplateStatusFrameText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L135)
+--- child of UnitPowerBarAltTemplate
+--- @class UnitPowerBarAltTemplate_flashAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L142)
+--- child of UnitPowerBarAltTemplate
+--- @class UnitPowerBarAltTemplate_flashOutAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L133)
 --- Template

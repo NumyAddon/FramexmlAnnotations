@@ -7,6 +7,10 @@
 --- @field backgroundRight Texture
 --- @field backgroundCenter Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L35)
+--- child of PVPStringTemplate
+--- @class PVPStringTemplate_text : FontString, Game12Font
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L31)
 --- Template
 --- @class PVPStringTemplate : Frame

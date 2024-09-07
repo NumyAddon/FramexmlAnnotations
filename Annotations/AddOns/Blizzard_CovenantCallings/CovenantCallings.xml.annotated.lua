@@ -9,6 +9,10 @@
 --- @field Highlight Texture
 --- @field Bang Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.xml#L68)
+--- child of CovenantCallingsTemplate
+--- @class CovenantCallingsTemplate_Title : FontString, GameFontHighlightLarge
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.xml#L50)
 --- Template
 --- @class CovenantCallingsTemplate : Frame, CovenantCallingsMixin

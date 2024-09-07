@@ -9,6 +9,18 @@
 --- @field SelectedTexture Texture
 --- @field SpacerLine Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeCategoryList.xml#L76)
+--- child of ProfessionsCustomerOrdersRecipeCategoryListTemplate
+--- @class ProfessionsCustomerOrdersRecipeCategoryListTemplate_NineSlice : Frame, NineSlicePanelTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeCategoryList.xml#L78)
+--- child of ProfessionsCustomerOrdersRecipeCategoryListTemplate
+--- @class ProfessionsCustomerOrdersRecipeCategoryListTemplate_ScrollBox : Frame, WowScrollBoxList
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeCategoryList.xml#L84)
+--- child of ProfessionsCustomerOrdersRecipeCategoryListTemplate
+--- @class ProfessionsCustomerOrdersRecipeCategoryListTemplate_ScrollBar : EventFrame, MinimalScrollBar
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeCategoryList.xml#L67)
 --- Template
 --- @class ProfessionsCustomerOrdersRecipeCategoryListTemplate : Frame, ProfessionsCustomerOrdersRecipeCategoryListMixin

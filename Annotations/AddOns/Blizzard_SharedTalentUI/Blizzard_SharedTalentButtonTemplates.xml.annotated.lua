@@ -1,5 +1,10 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L23)
+--- child of TalentButtonSearchIconTemplate
+--- @class TalentButtonSearchIconTemplate_GlowAnim : AnimationGroup, SyncedAnimGroupTemplate
+--- @field syncKey string # "TraitSearchIcon"
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L5)
 --- Template
 --- @class TalentButtonSearchIconTemplate : Frame, AnimateWhileShownTemplate, TalentButtonSearchIconMixin
@@ -12,6 +17,40 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L36)
 --- Template
 --- @class TalentDisplayTemplate : Frame, TalentDisplayMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L184)
+--- child of TalentButtonArtTemplate
+--- @class TalentButtonArtTemplate_SearchIcon : Frame, TalentButtonSearchIconTemplate
+--- @field mouseoverSize number # 18
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L93)
+--- child of TalentButtonArtTemplate
+--- @class TalentButtonArtTemplate_SpendText : FontString, SystemFont16_Shadow_ThickOutline
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L105)
+--- child of TalentButtonArtTemplate
+--- @class TalentButtonArtTemplate_SpendTextShadow1 : FontString, SystemFont16_Shadow_ThickOutline
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L111)
+--- child of TalentButtonArtTemplate
+--- @class TalentButtonArtTemplate_SpendTextShadow2 : FontString, SystemFont16_Shadow_ThickOutline
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L117)
+--- child of TalentButtonArtTemplate
+--- @class TalentButtonArtTemplate_SpendTextShadow3 : FontString, SystemFont16_Shadow_ThickOutline
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L123)
+--- child of TalentButtonArtTemplate
+--- @class TalentButtonArtTemplate_SpendTextShadow4 : FontString, SystemFont16_Shadow_ThickOutline
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L159)
+--- child of 
+--- @class TalentButtonArtTemplate_Glow_Anim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L153)
+--- child of TalentButtonArtTemplate
+--- @class TalentButtonArtTemplate_Glow : Texture
+--- @field Anim TalentButtonArtTemplate_Glow_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L43)
 --- Template
@@ -32,6 +71,10 @@
 --- @field DisabledOverlayMask MaskTexture
 --- @field Glow TalentButtonArtTemplate_Glow
 --- @field Ghost Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L221)
+--- child of TalentButtonBasicArtTemplate
+--- @class TalentButtonBasicArtTemplate_SpendText : FontString, SystemFont18_Shadow_ThickOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L200)
 --- Template

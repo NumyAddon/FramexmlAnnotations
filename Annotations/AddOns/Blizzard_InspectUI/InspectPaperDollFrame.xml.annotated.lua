@@ -4,20 +4,49 @@
 --- Template
 --- @class InspectPaperDollItemSlotButtonTemplate : ItemButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L29)
+--- child of InspectPaperDollItemSlotButtonLeftTemplate
+--- @class InspectPaperDollItemSlotButtonLeftTemplate_SocketDisplay : Frame, PaperDollItemSocketDisplayVerticalTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L37)
+--- child of InspectPaperDollItemSlotButtonLeftTemplate
+--- @class InspectPaperDollItemSlotButtonLeftTemplate_InspectPaperDollItemSlotButtonLeftTemplateFrame : Texture, Char-LeftSlot
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L27)
 --- Template
 --- @class InspectPaperDollItemSlotButtonLeftTemplate : ItemButton, InspectPaperDollItemSlotButtonTemplate
 --- @field SocketDisplay InspectPaperDollItemSlotButtonLeftTemplate_SocketDisplay
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L47)
+--- child of InspectPaperDollItemSlotButtonRightTemplate
+--- @class InspectPaperDollItemSlotButtonRightTemplate_SocketDisplay : Frame, PaperDollItemSocketDisplayVerticalTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L55)
+--- child of InspectPaperDollItemSlotButtonRightTemplate
+--- @class InspectPaperDollItemSlotButtonRightTemplate_InspectPaperDollItemSlotButtonRightTemplateFrame : Texture, Char-RightSlot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L45)
 --- Template
 --- @class InspectPaperDollItemSlotButtonRightTemplate : ItemButton, InspectPaperDollItemSlotButtonTemplate
 --- @field SocketDisplay InspectPaperDollItemSlotButtonRightTemplate_SocketDisplay
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L65)
+--- child of InspectPaperDollItemSlotButtonBottomTemplate
+--- @class InspectPaperDollItemSlotButtonBottomTemplate_SocketDisplay : Frame, PaperDollItemSocketDisplayHorizontalTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L73)
+--- child of InspectPaperDollItemSlotButtonBottomTemplate
+--- @class InspectPaperDollItemSlotButtonBottomTemplate_InspectPaperDollItemSlotButtonBottomTemplateFrame : Texture, Char-BottomSlot
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L63)
 --- Template
 --- @class InspectPaperDollItemSlotButtonBottomTemplate : ItemButton, InspectPaperDollItemSlotButtonTemplate
 --- @field SocketDisplay InspectPaperDollItemSlotButtonBottomTemplate_SocketDisplay
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L89)
+--- child of 
+--- @class InspectPaperDollFrame_LevelTextWrapper_InspectLevelText : FontString, GameFontNormalSmall
+InspectLevelText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L83)
 --- child of InspectPaperDollFrame

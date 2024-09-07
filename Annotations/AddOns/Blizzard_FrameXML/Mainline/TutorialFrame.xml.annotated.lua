@@ -34,6 +34,14 @@ TutorialFrameCallOut = {}
 --- @class TutorialFrame_TutorialFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
 TutorialFrameCloseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L188)
+--- child of TutorialFrameOkayButton
+--- @class  : Texture, DialogButtonNormalTexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L190)
+--- child of TutorialFrameOkayButton
+--- @class  : Texture, DialogButtonHighlightTexture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L180)
 --- child of TutorialFrame
 --- @class TutorialFrame_TutorialFrameOkayButton : Button

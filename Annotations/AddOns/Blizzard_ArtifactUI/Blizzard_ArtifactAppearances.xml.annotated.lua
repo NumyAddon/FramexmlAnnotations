@@ -20,6 +20,7 @@
 --- @field LockedIcon Texture
 --- @field Selected Texture
 --- @field UnobtainableCover Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactAppearances.xml#L113)
 --- child of ArtifactAppearancesTabTemplate

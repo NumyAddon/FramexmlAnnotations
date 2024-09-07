@@ -54,6 +54,8 @@
 --- @field RareMissionAnim GarrisonShipyardMapMissionTemplate_RareMissionAnim
 --- @field BonusMissionPulse GarrisonShipyardMapMissionTemplate_BonusMissionPulse
 --- @field BonusMissionAnim GarrisonShipyardMapMissionTemplate_BonusMissionAnim
+--- @field Icon Texture
+--- @field HighlightIcon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L214)
 --- child of GarrisonShipyardBonusAreaFrameTemplate

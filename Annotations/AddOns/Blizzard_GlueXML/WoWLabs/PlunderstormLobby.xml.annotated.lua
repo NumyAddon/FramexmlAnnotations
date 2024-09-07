@@ -41,6 +41,8 @@
 --- @field FriendsOnline PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton_FriendsOnline
 --- @field FriendsOnlineLabel PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton_FriendsOnlineLabel
 --- @field Flash PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton_Flash
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L85)
 --- child of PlunderstormLobbyFrame

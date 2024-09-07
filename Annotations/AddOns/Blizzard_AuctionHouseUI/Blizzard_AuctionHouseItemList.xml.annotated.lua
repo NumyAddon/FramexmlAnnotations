@@ -5,6 +5,7 @@
 --- @class AuctionHouseItemListLineTemplate : Button, AuctionHouseItemListLineMixin
 --- @field SelectedHighlight Texture
 --- @field HighlightTexture Texture
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L27)
 --- Template

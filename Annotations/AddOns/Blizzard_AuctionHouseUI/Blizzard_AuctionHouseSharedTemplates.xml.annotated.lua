@@ -91,4 +91,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseSharedTemplates.xml#L199)
 --- Template
 --- @class AuctionHouseFavoriteButtonBaseTemplate : Button, AuctionHouseFavoriteButtonBaseMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 

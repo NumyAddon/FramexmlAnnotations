@@ -157,6 +157,10 @@
 --- child of WorldStateScoreFrameTabButtonTemplate
 --- @class WorldStateScoreFrameTabButtonTemplate_WorldStateScoreFrameTabButtonTemplateRight : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L406)
+--- child of WorldStateScoreFrameTabButtonTemplate
+--- @class WorldStateScoreFrameTabButtonTemplate_WorldStateScoreFrameTabButtonTemplateHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L314)
 --- Template
 --- @class WorldStateScoreFrameTabButtonTemplate : Button

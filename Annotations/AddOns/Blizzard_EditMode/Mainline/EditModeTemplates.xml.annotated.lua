@@ -62,6 +62,10 @@
 --- @field Slider EditModeSettingSliderTemplate_Slider
 --- @field Label EditModeSettingSliderTemplate_Label
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.xml#L142)
+--- child of EditModeSettingCheckboxTemplate
+--- @class EditModeSettingCheckboxTemplate_Button : CheckButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.xml#L161)
 --- child of EditModeSettingCheckboxTemplate
 --- @class EditModeSettingCheckboxTemplate_Label : FontString, GameFontHighlightMedium
@@ -69,7 +73,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.xml#L136)
 --- Template
 --- @class EditModeSettingCheckboxTemplate : Frame, ResizeLayoutFrame, EditModeSettingCheckboxMixin
---- @field Button CheckButton
+--- @field Button EditModeSettingCheckboxTemplate_Button
 --- @field Label EditModeSettingCheckboxTemplate_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.xml#L171)

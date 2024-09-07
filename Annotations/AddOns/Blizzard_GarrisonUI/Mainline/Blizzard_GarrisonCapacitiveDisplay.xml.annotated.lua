@@ -96,6 +96,10 @@
 --- child of GarrisonCapacitiveDisplayFrame
 --- @class GarrisonCapacitiveDisplayFrame_CreateAllWorkOrdersButton : Button, MagicButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L263)
+--- child of GarrisonCapacitiveDisplayFrame
+--- @class GarrisonCapacitiveDisplayFrame_DecrementButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L286)
 --- child of 
 --- @class GarrisonCapacitiveDisplayFrame_Count_Left : Texture
@@ -115,14 +119,18 @@ Middle = {}
 --- child of GarrisonCapacitiveDisplayFrame
 --- @class GarrisonCapacitiveDisplayFrame_Count : EditBox
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L325)
+--- child of GarrisonCapacitiveDisplayFrame
+--- @class GarrisonCapacitiveDisplayFrame_IncrementButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L122)
 --- @class GarrisonCapacitiveDisplayFrame : Frame, ButtonFrameTemplate
 --- @field CapacitiveDisplay GarrisonCapacitiveDisplayFrame_CapacitiveDisplay
 --- @field FinishedGlow GarrisonCapacitiveDisplayFrame_FinishedGlow
 --- @field StartWorkOrderButton GarrisonCapacitiveDisplayFrame_StartWorkOrderButton
 --- @field CreateAllWorkOrdersButton GarrisonCapacitiveDisplayFrame_CreateAllWorkOrdersButton
---- @field DecrementButton Button
+--- @field DecrementButton GarrisonCapacitiveDisplayFrame_DecrementButton
 --- @field Count GarrisonCapacitiveDisplayFrame_Count
---- @field IncrementButton Button
+--- @field IncrementButton GarrisonCapacitiveDisplayFrame_IncrementButton
 GarrisonCapacitiveDisplayFrame = {}
 

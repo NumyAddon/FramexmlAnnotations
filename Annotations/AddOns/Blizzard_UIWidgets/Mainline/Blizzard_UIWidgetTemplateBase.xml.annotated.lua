@@ -111,6 +111,14 @@
 --- @field Foreground Texture
 --- @field Text UIWidgetBaseTextureAndTextTemplate_Text
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L301)
+--- child of UIWidgetBaseControlZoneTemplate
+--- @class UIWidgetBaseControlZoneTemplate_UncapturedSection : Cooldown
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L308)
+--- child of UIWidgetBaseControlZoneTemplate
+--- @class UIWidgetBaseControlZoneTemplate_Progress : Cooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L322)
 --- child of UIWidgetBaseControlZoneTemplate
 --- @class UIWidgetBaseControlZoneTemplate_DangerGlowAnim : AnimationGroup
@@ -122,8 +130,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L254)
 --- Template
 --- @class UIWidgetBaseControlZoneTemplate : Frame, UIWidgetTemplateTooltipFrame, ResizeLayoutFrame, UIWidgetBaseControlZoneTemplateMixin
---- @field UncapturedSection Cooldown
---- @field Progress Cooldown
+--- @field UncapturedSection UIWidgetBaseControlZoneTemplate_UncapturedSection
+--- @field Progress UIWidgetBaseControlZoneTemplate_Progress
 --- @field DangerGlowBackground Texture
 --- @field Zone Texture
 --- @field DangerGlowOverlay Texture
@@ -143,10 +151,14 @@
 --- @field HeaderText UIWidgetBaseScenarioHeaderTemplate_HeaderText
 --- @field DecorationBottomLeft Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L376)
+--- child of UIWidgetBaseCircularStatusBarTemplate
+--- @class UIWidgetBaseCircularStatusBarTemplate_Progress : Cooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L373)
 --- Template
 --- @class UIWidgetBaseCircularStatusBarTemplate : Frame, UIWidgetTemplateTooltipFrame, UIWidgetBaseCircularStatusBarTemplateMixin
---- @field Progress Cooldown
+--- @field Progress UIWidgetBaseCircularStatusBarTemplate_Progress
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L388)
 --- Template

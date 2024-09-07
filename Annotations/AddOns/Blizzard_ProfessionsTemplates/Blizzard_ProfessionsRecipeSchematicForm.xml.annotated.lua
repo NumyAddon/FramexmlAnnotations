@@ -19,6 +19,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L40)
 --- child of ProfessionsRecipeSchematicFormTemplate
 --- @class ProfessionsRecipeSchematicFormTemplate_FavoriteButton : CheckButton, ProfessionsFavoriteButtonMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L46)
 --- child of ProfessionsRecipeSchematicFormTemplate
@@ -87,6 +89,7 @@
 --- child of ProfessionsRecipeSchematicFormTemplate
 --- @class ProfessionsRecipeSchematicFormTemplate_RecipeSourceButton : Button
 --- @field Text ProfessionsRecipeSchematicFormTemplate_RecipeSourceButton_Text
+--- @field LetterI Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L174)
 --- child of 

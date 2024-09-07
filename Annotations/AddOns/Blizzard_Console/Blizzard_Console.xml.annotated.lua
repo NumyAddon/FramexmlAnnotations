@@ -89,6 +89,10 @@ Background = {}
 --- child of DeveloperConsole
 --- @class DeveloperConsole_AutoComplete : Frame, DeveloperConsoleAutoCompleteTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L332)
+--- child of DeveloperConsole
+--- @class DeveloperConsole_ResizeButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L43)
 --- child of DeveloperConsole
 --- @class DeveloperConsole_Anim : AnimationGroup
@@ -102,7 +106,7 @@ Background = {}
 --- @field MessageFrame DeveloperConsole_MessageFrame
 --- @field ScrollBar DeveloperConsole_ScrollBar
 --- @field AutoComplete DeveloperConsole_AutoComplete
---- @field ResizeButton Button
+--- @field ResizeButton DeveloperConsole_ResizeButton
 --- @field Anim DeveloperConsole_Anim
 DeveloperConsole = {}
 

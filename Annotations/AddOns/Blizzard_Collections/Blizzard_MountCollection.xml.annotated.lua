@@ -23,6 +23,10 @@
 --- @field DragTargetHighlight Texture
 --- @field NotifyDragTargetAnim MountEquipmentButtonTemplate_NotifyDragTargetAnim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L158)
+--- child of 
+--- @class MountListButtonTemplate_DragButton_Highlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L148)
 --- child of MountListButtonTemplate
 --- @class MountListButtonTemplate_DragButton : Button
@@ -58,6 +62,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L192)
 --- Template
 --- @class DynamicFlightFlyoutButtonTemplate : Button
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L226)
 --- child of MountJournalSummonRandomFavoriteButton
@@ -78,6 +84,11 @@ MountJournalSummonRandomFavoriteButtonLockIcon = {}
 --- child of MountJournalSummonRandomFavoriteButton
 --- @class MountJournal_MountJournalSummonRandomFavoriteButton_MountJournalSummonRandomFavoriteButtonSpellName : FontString, GameFontNormal
 MountJournalSummonRandomFavoriteButtonSpellName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L258)
+--- child of MountJournalSummonRandomFavoriteButton
+--- @class MountJournal_MountJournalSummonRandomFavoriteButton_MountJournalSummonRandomFavoriteButtonHighlight : Texture
+MountJournalSummonRandomFavoriteButtonHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.xml#L219)
 --- child of MountJournal

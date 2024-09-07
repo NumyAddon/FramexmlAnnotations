@@ -28,11 +28,15 @@
 --- Template
 --- @class WardrobeSlotButtonTemplate : Button, WardrobeItemsCollectionSlotButtonMixin
 --- @field SelectedTexture Texture
+--- @field NormalTexture Texture
+--- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L117)
 --- Template
 --- @class WardrobeSmallSlotButtonTemplate : Button, WardrobeItemsCollectionSlotButtonMixin
 --- @field SelectedTexture Texture
+--- @field NormalTexture Texture
+--- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L162)
 --- child of WardrobeSetsScrollFrameButtonTemplate

@@ -234,6 +234,7 @@
 --- @field Glow AzeriteEssenceButtonTemplate_Glow
 --- @field Glow2 AzeriteEssenceButtonTemplate_Glow2
 --- @field Glow3 AzeriteEssenceButtonTemplate_Glow3
+--- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L499)
 --- child of AzeriteEssenceHeaderButtonTemplate

@@ -28,6 +28,18 @@
 --- @field Background Texture
 --- @field Label SettingsCategoryListHeaderTemplate_Label
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.xml#L58)
+--- child of 
+--- @class SettingsCategoryListButtonTemplate_Toggle_NormalTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.xml#L60)
+--- child of 
+--- @class SettingsCategoryListButtonTemplate_Toggle_HighlightTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.xml#L53)
+--- child of SettingsCategoryListButtonTemplate
+--- @class SettingsCategoryListButtonTemplate_Toggle : EventButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.xml#L72)
 --- child of SettingsCategoryListButtonTemplate
 --- @class SettingsCategoryListButtonTemplate_Label : FontString, GameFontNormal
@@ -35,7 +47,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.xml#L50)
 --- Template
 --- @class SettingsCategoryListButtonTemplate : Button, SettingsCategoryListButtonMixin
---- @field Toggle EventButton
+--- @field Toggle SettingsCategoryListButtonTemplate_Toggle
 --- @field Texture Texture
 --- @field Label SettingsCategoryListButtonTemplate_Label
 

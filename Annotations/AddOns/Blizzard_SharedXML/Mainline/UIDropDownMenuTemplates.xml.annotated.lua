@@ -65,9 +65,19 @@
 --- Template
 --- @class UIDropDownMenuButtonScriptTemplate : DropDownToggleButton, DropDownMenuButtonMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L195)
+--- child of UIDropDownMenuTemplateButton
+--- @class UIDropDownMenuTemplate_UIDropDownMenuTemplateButton_UIDropDownMenuTemplateButtonNormalTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L213)
+--- child of UIDropDownMenuTemplateButton
+--- @class UIDropDownMenuTemplate_UIDropDownMenuTemplateButton_UIDropDownMenuTemplateButtonHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L190)
 --- child of UIDropDownMenuTemplate
 --- @class UIDropDownMenuTemplate_UIDropDownMenuTemplateButton : DropDownToggleButton, UIDropDownMenuButtonScriptTemplate
+--- @field NormalTexture UIDropDownMenuTemplate_UIDropDownMenuTemplateButton_UIDropDownMenuTemplateButtonNormalTexture
+--- @field HighlightTexture UIDropDownMenuTemplate_UIDropDownMenuTemplateButton_UIDropDownMenuTemplateButtonHighlightTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L150)
 --- child of UIDropDownMenuTemplate
@@ -102,6 +112,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L230)
 --- child of LargeUIDropDownMenuTemplate
 --- @class LargeUIDropDownMenuTemplate_Button : DropDownToggleButton, UIDropDownMenuButtonScriptTemplate, LargeDropDownMenuButtonMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L276)
 --- child of LargeUIDropDownMenuTemplate

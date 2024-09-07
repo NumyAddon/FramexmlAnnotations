@@ -52,6 +52,8 @@
 --- Template
 --- @class IslandsQueueFrameDifficultyButtonTemplate : Button
 --- @field SelectedTexture Texture
+--- @field NormalTexture Texture
+--- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L246)
 --- child of 

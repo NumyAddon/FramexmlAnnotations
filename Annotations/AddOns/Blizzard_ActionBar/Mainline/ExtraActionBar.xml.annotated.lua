@@ -30,6 +30,7 @@
 --- @field Count ExtraActionButtonTemplate_ExtraActionButtonTemplateCount
 --- @field Flash ExtraActionButtonTemplate_ExtraActionButtonTemplateFlash
 --- @field style Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ExtraActionBar.xml#L100)
 --- child of ExtraActionBarFrame

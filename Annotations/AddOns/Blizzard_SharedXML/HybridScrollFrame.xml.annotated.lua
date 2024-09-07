@@ -20,6 +20,10 @@
 --- child of HybridScrollBarBackgroundTemplate
 --- @class HybridScrollBarBackgroundTemplate_HybridScrollBarBackgroundTemplateMiddle : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L43)
+--- child of HybridScrollBarBackgroundTemplate
+--- @class HybridScrollBarBackgroundTemplate_HybridScrollBarBackgroundTemplateThumbTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L7)
 --- Template
 --- @class HybridScrollBarBackgroundTemplate : Slider
@@ -27,6 +31,7 @@
 --- @field ScrollBarTop HybridScrollBarBackgroundTemplate_HybridScrollBarBackgroundTemplateTop
 --- @field ScrollBarBottom HybridScrollBarBackgroundTemplate_HybridScrollBarBackgroundTemplateBottom
 --- @field ScrollBarMiddle HybridScrollBarBackgroundTemplate_HybridScrollBarBackgroundTemplateMiddle
+--- @field thumbTexture HybridScrollBarBackgroundTemplate_HybridScrollBarBackgroundTemplateThumbTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L51)
 --- child of HybridScrollBarTemplate
@@ -66,6 +71,10 @@
 --- child of HybridScrollBarTrimTemplate
 --- @class HybridScrollBarTrimTemplate_HybridScrollBarTrimTemplateMiddle : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L130)
+--- child of HybridScrollBarTrimTemplate
+--- @class HybridScrollBarTrimTemplate_HybridScrollBarTrimTemplateThumbTexture : Texture, HybridScrollBarButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L75)
 --- Template
 --- @class HybridScrollBarTrimTemplate : Slider
@@ -75,6 +84,7 @@
 --- @field Top HybridScrollBarTrimTemplate_HybridScrollBarTrimTemplateTop
 --- @field Bottom HybridScrollBarTrimTemplate_HybridScrollBarTrimTemplateBottom
 --- @field Middle HybridScrollBarTrimTemplate_HybridScrollBarTrimTemplateMiddle
+--- @field thumbTexture HybridScrollBarTrimTemplate_HybridScrollBarTrimTemplateThumbTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L150)
 --- child of MinimalHybridScrollBarTemplate
@@ -88,10 +98,15 @@
 --- child of MinimalHybridScrollBarTemplate
 --- @class MinimalHybridScrollBarTemplate_MinimalHybridScrollBarTemplateTrack : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L172)
+--- child of MinimalHybridScrollBarTemplate
+--- @class MinimalHybridScrollBarTemplate_MinimalHybridScrollBarTemplateThumbTexture : Texture, HybridScrollBarButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L136)
 --- Template
 --- @class MinimalHybridScrollBarTemplate : Slider
 --- @field trackBG MinimalHybridScrollBarTemplate_MinimalHybridScrollBarTemplateTrack
+--- @field thumbTexture MinimalHybridScrollBarTemplate_MinimalHybridScrollBarTemplateThumbTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L178)
 --- Template

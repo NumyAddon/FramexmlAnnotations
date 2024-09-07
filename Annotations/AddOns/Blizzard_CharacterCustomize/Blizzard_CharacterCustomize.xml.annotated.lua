@@ -29,6 +29,8 @@ CharCustomizeNoHeaderTooltip = {}
 --- Template
 --- @class CharCustomizeSmallButtonTemplate : Button, CharCustomizeBaseButtonTemplate, CharCustomizeFrameWithTooltipTemplate, CharCustomizeSmallButtonMixin
 --- @field Icon Texture
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L68)
 --- Template
@@ -59,6 +61,10 @@ CharCustomizeNoHeaderTooltip = {}
 --- Template
 --- @class CharCustomizeOptionSliderTemplate : Frame, SliderWithButtonsAndLabelTemplate, CharCustomizeFrameWithTooltipTemplate, CharCustomizeOptionSliderMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L173)
+--- child of CharCustomizeOptionCheckButtonTemplate
+--- @class CharCustomizeOptionCheckButtonTemplate_Button : CheckButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L195)
 --- child of CharCustomizeOptionCheckButtonTemplate
 --- @class CharCustomizeOptionCheckButtonTemplate_New : Frame, NewFeatureLabelNoAnimateTemplate
@@ -70,7 +76,7 @@ CharCustomizeNoHeaderTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L165)
 --- Template
 --- @class CharCustomizeOptionCheckButtonTemplate : Frame, CharCustomizeFrameWithTooltipTemplate, CharCustomizeOptionCheckButtonMixin
---- @field Button CheckButton
+--- @field Button CharCustomizeOptionCheckButtonTemplate_Button
 --- @field New CharCustomizeOptionCheckButtonTemplate_New
 --- @field Label CharCustomizeOptionCheckButtonTemplate_Label
 
@@ -124,6 +130,7 @@ CharCustomizeNoHeaderTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L380)
 --- child of CharCustomizeAudioInterface
 --- @class CharCustomizeAudioInterface_PlayButton : Button, AlphaHighlightButtonTemplate, CharCustomizeAudioInterfacePlayButtonMixin
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L412)
 --- child of 
@@ -134,6 +141,7 @@ CharCustomizeNoHeaderTooltip = {}
 --- @class CharCustomizeAudioInterface_MuteButton : Button, AlphaHighlightButtonTemplate, CharCustomizeAudioInterfaceMuteButtonMixin
 --- @field UnmuteGlow Texture
 --- @field PulseAnim CharCustomizeAudioInterface_MuteButton_PulseAnim
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L357)
 --- Template

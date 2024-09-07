@@ -29,4 +29,6 @@
 --- Template
 --- @class MawBuffsContainer : Button, MawBuffsContainerMixin
 --- @field List MawBuffsContainer_List
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 

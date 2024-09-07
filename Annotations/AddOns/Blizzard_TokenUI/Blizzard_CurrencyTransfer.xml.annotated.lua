@@ -153,6 +153,8 @@ CurrencyTransferMenu = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L332)
 --- Template
 --- @class CurrencyTransferLogToggleButtonTemplate : Button, CurrencyTransferLogToggleButtonMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L364)
 --- child of CurrencyTransferLogTemplate

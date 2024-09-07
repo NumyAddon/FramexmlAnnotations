@@ -44,6 +44,16 @@ OpacityFrame = {}
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_DragBar : Frame, PanelDragBarTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L122)
+--- child of 
+--- @class ColorPickerFrame_Content_ColorPicker : ColorSelect
+--- @field Wheel Texture
+--- @field WheelThumb Texture
+--- @field Value Texture
+--- @field ValueThumb Texture
+--- @field Alpha Texture
+--- @field AlphaThumb Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L165)
 --- child of 
 --- @class ColorPickerFrame_Content_HexBox_Hash : FontString, GameFontNormalLarge
@@ -56,7 +66,7 @@ OpacityFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L93)
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_Content : Frame
---- @field ColorPicker ColorSelect
+--- @field ColorPicker ColorPickerFrame_Content_ColorPicker
 --- @field HexBox ColorPickerFrame_Content_HexBox
 --- @field AlphaBackground Texture
 --- @field ColorSwatchCurrent Texture

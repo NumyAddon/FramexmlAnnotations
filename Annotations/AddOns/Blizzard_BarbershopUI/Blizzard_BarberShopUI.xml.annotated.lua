@@ -1,28 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L7)
---- child of CharacterCreateIconButtonTemplate
---- @class CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText : FontString
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L18)
---- child of CharacterCreateIconButtonTemplate
---- @class CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateShadow : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L27)
---- child of CharacterCreateIconButtonTemplate
---- @class CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateBevelEdge : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L34)
---- child of CharacterCreateIconButtonTemplate
---- @class CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateDisableTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L3)
 --- Template
 --- @class CharacterCreateIconButtonTemplate : CheckButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L80)
---- child of CharacterCreateGenderButtonTemplate
---- @class CharacterCreateGenderButtonTemplate_CharacterCreateGenderButtonTemplateNormalTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L64)
 --- Template

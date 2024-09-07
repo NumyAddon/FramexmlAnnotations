@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L18)
---- child of ItemButton
---- @class ItemButton_ItemButtonIconTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L21)
 --- child of ItemButton
 --- @class ItemButton_ItemButtonCount : FontString, NumberFontNormal
@@ -12,31 +8,19 @@
 --- child of ItemButton
 --- @class ItemButton_ItemButtonStock : FontString, NumberFontNormalYellow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L33)
---- child of ItemButton
---- @class ItemButton_ItemButtonSearchOverlay : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L70)
---- child of ItemButton
---- @class ItemButton_ItemButtonNormalTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L4)
 --- Intrinsic
 --- @class ItemButton : Button, ItemButtonMixin
---- @field icon ItemButton_ItemButtonIconTexture
+--- @field icon Texture
 --- @field Count ItemButton_ItemButtonCount
 --- @field Stock ItemButton_ItemButtonStock
---- @field searchOverlay ItemButton_ItemButtonSearchOverlay
+--- @field searchOverlay Texture
 --- @field ItemContextOverlay Texture
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
---- @field NormalTexture ItemButton_ItemButtonNormalTexture
+--- @field NormalTexture Texture
 --- @field HighlightTexture Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L85)
---- child of ItemButtonTemplate
---- @class ItemButtonTemplate_ItemButtonTemplateIconTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L88)
 --- child of ItemButtonTemplate
@@ -46,27 +30,15 @@
 --- child of ItemButtonTemplate
 --- @class ItemButtonTemplate_ItemButtonTemplateStock : FontString, NumberFontNormalYellow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L108)
---- child of ItemButtonTemplate
---- @class ItemButtonTemplate_ItemButtonTemplateSearchOverlay : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L127)
---- child of ItemButtonTemplate
---- @class ItemButtonTemplate_ItemButtonTemplateSubIconTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L135)
---- child of ItemButtonTemplate
---- @class ItemButtonTemplate_ItemButtonTemplateNormalTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L79)
 --- Template
 --- @class ItemButtonTemplate : Button
---- @field icon ItemButtonTemplate_ItemButtonTemplateIconTexture
+--- @field icon Texture
 --- @field Count ItemButtonTemplate_ItemButtonTemplateCount
---- @field searchOverlay ItemButtonTemplate_ItemButtonTemplateSearchOverlay
+--- @field searchOverlay Texture
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
---- @field subicon ItemButtonTemplate_ItemButtonTemplateSubIconTexture
+--- @field subicon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L156)
 --- child of SimplePopupButtonTemplate
@@ -76,22 +48,10 @@
 --- Template
 --- @class SimplePopupButtonTemplate : CheckButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L187)
---- child of PopupButtonTemplate
---- @class PopupButtonTemplate_PopupButtonTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L186)
 --- Template
 --- @class PopupButtonTemplate : CheckButton, SimplePopupButtonTemplate
---- @field Icon PopupButtonTemplate_PopupButtonTemplateIcon
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L206)
---- child of LargeItemButtonTemplate
---- @class LargeItemButtonTemplate_LargeItemButtonTemplateIconTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L212)
---- child of LargeItemButtonTemplate
---- @class LargeItemButtonTemplate_LargeItemButtonTemplateNameFrame : Texture
+--- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L220)
 --- child of LargeItemButtonTemplate
@@ -104,14 +64,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L202)
 --- Template
 --- @class LargeItemButtonTemplate : Button
---- @field Icon LargeItemButtonTemplate_LargeItemButtonTemplateIconTexture
---- @field NameFrame LargeItemButtonTemplate_LargeItemButtonTemplateNameFrame
+--- @field Icon Texture
+--- @field NameFrame Texture
 --- @field Name LargeItemButtonTemplate_LargeItemButtonTemplateName
 --- @field Count LargeItemButtonTemplate_LargeItemButtonTemplateCount
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L240)
---- child of SmallItemButtonTemplate
---- @class SmallItemButtonTemplate_SmallItemButtonTemplateIconTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L253)
 --- child of SmallItemButtonTemplate
@@ -124,7 +80,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L236)
 --- Template
 --- @class SmallItemButtonTemplate : Button
---- @field Icon SmallItemButtonTemplate_SmallItemButtonTemplateIconTexture
+--- @field Icon Texture
 --- @field NameFrame Texture
 --- @field Name SmallItemButtonTemplate_Name
 --- @field Count SmallItemButtonTemplate_Count

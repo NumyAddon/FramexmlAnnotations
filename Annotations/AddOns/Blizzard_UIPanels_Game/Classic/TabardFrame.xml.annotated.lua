@@ -8,18 +8,6 @@
 --- child of TabardFrameCustomizeTemplate
 --- @class TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateRightButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L7)
---- child of TabardFrameCustomizeTemplate
---- @class TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L14)
---- child of TabardFrameCustomizeTemplate
---- @class TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L21)
---- child of TabardFrameCustomizeTemplate
---- @class TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateRight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L28)
 --- child of TabardFrameCustomizeTemplate
 --- @class TabardFrameCustomizeTemplate_TabardFrameCustomizeTemplateText : FontString, GameFontHighlightSmall

@@ -1,13 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L58)
---- child of SkillStatusBarTemplateBorder
---- @class SkillStatusBarTemplate_SkillStatusBarTemplateBorder_SkillStatusBarTemplateBorderNormal : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L59)
---- child of SkillStatusBarTemplateBorder
---- @class SkillStatusBarTemplate_SkillStatusBarTemplateBorder_SkillStatusBarTemplateBorderHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillStatusBarTemplate
 --- @class SkillStatusBarTemplate_SkillStatusBarTemplateBorder : Button
@@ -20,21 +12,9 @@
 --- child of SkillStatusBarTemplate
 --- @class SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
---- child of SkillStatusBarTemplate
---- @class SkillStatusBarTemplate_SkillStatusBarTemplateFillBar : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L33)
---- child of SkillStatusBarTemplate
---- @class SkillStatusBarTemplate_SkillStatusBarTemplateBackground : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L3)
 --- Template
 --- @class SkillStatusBarTemplate : StatusBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
---- child of SkillLabelTemplate
---- @class SkillLabelTemplate_SkillLabelTemplateNormalTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L65)
 --- Template

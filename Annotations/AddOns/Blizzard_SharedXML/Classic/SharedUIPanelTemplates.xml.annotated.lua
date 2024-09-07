@@ -236,45 +236,13 @@
 --- Template
 --- @class UIPanelCloseButtonDefaultAnchors : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L266)
---- child of ShadowOverlayTemplate
---- @class ShadowOverlayTemplate_ShadowOverlayTemplateTopLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L271)
---- child of ShadowOverlayTemplate
---- @class ShadowOverlayTemplate_ShadowOverlayTemplateTopRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L279)
---- child of ShadowOverlayTemplate
---- @class ShadowOverlayTemplate_ShadowOverlayTemplateBottomLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L287)
---- child of ShadowOverlayTemplate
---- @class ShadowOverlayTemplate_ShadowOverlayTemplateBottomRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L295)
---- child of ShadowOverlayTemplate
---- @class ShadowOverlayTemplate_ShadowOverlayTemplateTop : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L301)
---- child of ShadowOverlayTemplate
---- @class ShadowOverlayTemplate_ShadowOverlayTemplateBottom : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L307)
---- child of ShadowOverlayTemplate
---- @class ShadowOverlayTemplate_ShadowOverlayTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L313)
---- child of ShadowOverlayTemplate
---- @class ShadowOverlayTemplate_ShadowOverlayTemplateRight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L263)
 --- Template
 --- @class ShadowOverlayTemplate : Frame
---- @field TopLeft ShadowOverlayTemplate_ShadowOverlayTemplateTopLeft
---- @field TopRight ShadowOverlayTemplate_ShadowOverlayTemplateTopRight
---- @field BottomLeft ShadowOverlayTemplate_ShadowOverlayTemplateBottomLeft
---- @field BottomRight ShadowOverlayTemplate_ShadowOverlayTemplateBottomRight
+--- @field TopLeft Texture
+--- @field TopRight Texture
+--- @field BottomLeft Texture
+--- @field BottomRight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L405)
 --- child of UIPanelGoldButtonTemplate
@@ -317,28 +285,20 @@
 --- child of UISliderTemplate
 --- @class UISliderTemplate_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L494)
---- child of UISliderTemplate
---- @class UISliderTemplate_UISliderTemplateThumb : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L482)
 --- Template
 --- @class UISliderTemplate : Slider
 --- @field NineSlice UISliderTemplate_NineSlice
---- @field Thumb UISliderTemplate_UISliderTemplateThumb
+--- @field Thumb Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L512)
 --- child of PortraitFrameBaseTemplate
 --- @class PortraitFrameBaseTemplate_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L520)
---- child of 
---- @class PortraitFrameBaseTemplate_PortraitContainer_Portrait : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L513)
 --- child of PortraitFrameBaseTemplate
 --- @class PortraitFrameBaseTemplate_PortraitContainer : Frame
---- @field portrait PortraitFrameBaseTemplate_PortraitContainer_Portrait
+--- @field portrait Texture
 --- @field CircleMask MaskTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L546)
@@ -357,17 +317,9 @@
 --- @field PortraitContainer PortraitFrameBaseTemplate_PortraitContainer
 --- @field TitleContainer PortraitFrameBaseTemplate_TitleContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L563)
---- child of PortraitFrameTemplateNoCloseButton
---- @class PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBg : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L569)
 --- child of PortraitFrameTemplateNoCloseButton
 --- @class PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg : Texture, _UI-Frame-TitleTileBg
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L577)
---- child of PortraitFrameTemplateNoCloseButton
---- @class PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortrait : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L585)
 --- child of PortraitFrameTemplateNoCloseButton
@@ -416,9 +368,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L559)
 --- Template
 --- @class PortraitFrameTemplateNoCloseButton : Frame, PortraitFrameTemplateMixin
---- @field Bg PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBg
+--- @field Bg Texture
 --- @field TitleBg PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
---- @field portrait PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortrait
+--- @field portrait Texture
 --- @field PortraitFrame PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
 --- @field TopRightCorner PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
 --- @field TopLeftCorner PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
@@ -440,25 +392,9 @@
 --- @class PortraitFrameTemplate : Frame, PortraitFrameTemplateNoCloseButton
 --- @field CloseButton PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L674)
---- child of PortraitFrameTemplateNoCloseButton-HiRes
---- @class PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResBg : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L680)
 --- child of PortraitFrameTemplateNoCloseButton-HiRes
 --- @class PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResTitleBg : Texture, _UI-Frame-TitleTileBG
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L688)
---- child of PortraitFrameTemplateNoCloseButton-HiRes
---- @class PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResPortrait : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L696)
---- child of PortraitFrameTemplateNoCloseButton-HiRes
---- @class PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResPortraitFrame : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L702)
---- child of PortraitFrameTemplateNoCloseButton-HiRes
---- @class PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResTopRightCorner : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L708)
 --- child of PortraitFrameTemplateNoCloseButton-HiRes
@@ -476,42 +412,22 @@
 --- child of PortraitFrameTemplateNoCloseButton-HiRes
 --- @class PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResTopTileStreaks : Texture, _UI-Frame-TopTileStreaks
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L733)
---- child of PortraitFrameTemplateNoCloseButton-HiRes
---- @class PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResBotLeftCorner : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L739)
---- child of PortraitFrameTemplateNoCloseButton-HiRes
---- @class PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResBotRightCorner : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L745)
---- child of PortraitFrameTemplateNoCloseButton-HiRes
---- @class PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResBottomBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L752)
---- child of PortraitFrameTemplateNoCloseButton-HiRes
---- @class PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResLeftBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L759)
---- child of PortraitFrameTemplateNoCloseButton-HiRes
---- @class PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResRightBorder : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L670)
 --- Template
 --- @class PortraitFrameTemplateNoCloseButton-HiRes : Frame
---- @field Bg PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResBg
---- @field portrait PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResPortrait
---- @field PortraitFrame PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResPortraitFrame
---- @field TopRightCorner PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResTopRightCorner
+--- @field Bg Texture
+--- @field portrait Texture
+--- @field PortraitFrame Texture
+--- @field TopRightCorner Texture
 --- @field TopLeftCorner PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResTopLeftCorner
 --- @field TopBorder PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResTopBorder
 --- @field TitleText PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResTitleText
 --- @field TopTileStreaks PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResTopTileStreaks
---- @field BotLeftCorner PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResBotLeftCorner
---- @field BotRightCorner PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResBotRightCorner
---- @field BottomBorder PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResBottomBorder
---- @field LeftBorder PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResLeftBorder
---- @field RightBorder PortraitFrameTemplateNoCloseButton-HiRes_PortraitFrameTemplateNoCloseButton-HiResRightBorder
+--- @field BotLeftCorner Texture
+--- @field BotRightCorner Texture
+--- @field BottomBorder Texture
+--- @field LeftBorder Texture
+--- @field RightBorder Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L771)
 --- child of PortraitFrameTemplate-HiRes
@@ -521,10 +437,6 @@
 --- Template
 --- @class PortraitFrameTemplate-HiRes : Frame, PortraitFrameTemplateNoCloseButton-HiRes
 --- @field CloseButton PortraitFrameTemplate-HiRes_PortraitFrameTemplate-HiResCloseButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L796)
---- child of InsetFrameTemplate
---- @class InsetFrameTemplate_InsetFrameTemplateBg : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L804)
 --- child of InsetFrameTemplate
@@ -561,7 +473,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L792)
 --- Template
 --- @class InsetFrameTemplate : Frame
---- @field Bg InsetFrameTemplate_InsetFrameTemplateBg
+--- @field Bg Texture
 --- @field InsetBorderTopLeft InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
 --- @field InsetBorderTopRight InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
 --- @field InsetBorderBottomLeft InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
@@ -641,54 +553,18 @@
 --- Template
 --- @class UIPanelButtonDisabledDownTexture : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L985)
---- child of UIMenuButtonStretchTemplate
---- @class UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateTopLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L992)
---- child of UIMenuButtonStretchTemplate
---- @class UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateTopRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L999)
---- child of UIMenuButtonStretchTemplate
---- @class UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateBottomLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1006)
---- child of UIMenuButtonStretchTemplate
---- @class UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateBottomRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1013)
---- child of UIMenuButtonStretchTemplate
---- @class UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateTopMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1021)
---- child of UIMenuButtonStretchTemplate
---- @class UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateMiddleLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1029)
---- child of UIMenuButtonStretchTemplate
---- @class UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateMiddleRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1037)
---- child of UIMenuButtonStretchTemplate
---- @class UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateBottomMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1045)
---- child of UIMenuButtonStretchTemplate
---- @class UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateMiddleMiddle : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L981)
 --- Template
 --- @class UIMenuButtonStretchTemplate : Button, UIMenuButtonStretchMixin
---- @field TopLeft UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateTopLeft
---- @field TopRight UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateTopRight
---- @field BottomLeft UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateBottomLeft
---- @field BottomRight UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateBottomRight
---- @field TopMiddle UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateTopMiddle
---- @field MiddleLeft UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateMiddleLeft
---- @field MiddleRight UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateMiddleRight
---- @field BottomMiddle UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateBottomMiddle
---- @field MiddleMiddle UIMenuButtonStretchTemplate_UIMenuButtonStretchTemplateMiddleMiddle
+--- @field TopLeft Texture
+--- @field TopRight Texture
+--- @field BottomLeft Texture
+--- @field BottomRight Texture
+--- @field TopMiddle Texture
+--- @field MiddleLeft Texture
+--- @field MiddleRight Texture
+--- @field BottomMiddle Texture
+--- @field MiddleMiddle Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1076)
 --- Template
@@ -710,14 +586,10 @@
 --- Template
 --- @class UIPanelButtonGrayTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1125)
---- child of HorizontalSliderTemplate
---- @class HorizontalSliderTemplate_HorizontalSliderTemplateThumb : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1118)
 --- Template
 --- @class HorizontalSliderTemplate : Slider, BackdropTemplate
---- @field Thumb HorizontalSliderTemplate_HorizontalSliderTemplateThumb
+--- @field Thumb Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1159)
 --- child of NumericInputSpinnerTemplate
@@ -751,54 +623,22 @@
 --- @class SearchBoxTemplate_SearchBoxTemplateClearButton : Button
 --- @field texture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1253)
---- child of SearchBoxTemplate
---- @class SearchBoxTemplate_SearchBoxTemplateSearchIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1250)
 --- Template
 --- @class SearchBoxTemplate : EditBox, InputBoxInstructionsTemplate
 --- @field clearButton SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field searchIcon SearchBoxTemplate_SearchBoxTemplateSearchIcon
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1314)
---- child of TabButtonTemplate
---- @class TabButtonTemplate_TabButtonTemplateLeftDisabled : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1327)
---- child of TabButtonTemplate
---- @class TabButtonTemplate_TabButtonTemplateMiddleDisabled : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1336)
---- child of TabButtonTemplate
---- @class TabButtonTemplate_TabButtonTemplateRightDisabled : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1345)
---- child of TabButtonTemplate
---- @class TabButtonTemplate_TabButtonTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1354)
---- child of TabButtonTemplate
---- @class TabButtonTemplate_TabButtonTemplateMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1363)
---- child of TabButtonTemplate
---- @class TabButtonTemplate_TabButtonTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1394)
---- child of TabButtonTemplate
---- @class TabButtonTemplate_TabButtonTemplateHighlightTexture : Texture
+--- @field searchIcon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1308)
 --- Template
 --- @class TabButtonTemplate : Button
---- @field LeftDisabled TabButtonTemplate_TabButtonTemplateLeftDisabled
---- @field MiddleDisabled TabButtonTemplate_TabButtonTemplateMiddleDisabled
---- @field RightDisabled TabButtonTemplate_TabButtonTemplateRightDisabled
---- @field Left TabButtonTemplate_TabButtonTemplateLeft
---- @field Middle TabButtonTemplate_TabButtonTemplateMiddle
---- @field Right TabButtonTemplate_TabButtonTemplateRight
---- @field HighlightTexture TabButtonTemplate_TabButtonTemplateHighlightTexture
+--- @field LeftDisabled Texture
+--- @field MiddleDisabled Texture
+--- @field RightDisabled Texture
+--- @field Left Texture
+--- @field Middle Texture
+--- @field Right Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1408)
 --- Template
@@ -907,10 +747,6 @@
 --- @field TitleContainer DefaultPanelBaseTemplate_TitleContainer
 --- @field NineSlice DefaultPanelBaseTemplate_NineSlice
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1728)
---- child of DefaultPanelTemplate
---- @class DefaultPanelTemplate_DefaultPanelTemplateBg : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1736)
 --- child of DefaultPanelTemplate
 --- @class DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks : Texture, _UI-Frame-TopTileStreaks
@@ -918,7 +754,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1725)
 --- Template
 --- @class DefaultPanelTemplate : Frame, DefaultPanelBaseTemplate
---- @field Bg DefaultPanelTemplate_DefaultPanelTemplateBg
+--- @field Bg Texture
 --- @field TopTileStreaks DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1748)
@@ -1021,10 +857,6 @@
 --- Template
 --- @class PanelResizeButtonTemplate : Button, PanelResizeButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2081)
---- child of GlowBoxTemplate
---- @class GlowBoxTemplate_GlowBoxTemplateBg : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2094)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateGlowTopLeft : Texture, HelpPlateBox-Glow-TopLeft
@@ -1092,7 +924,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2071)
 --- Template
 --- @class GlowBoxTemplate : Frame
---- @field BG GlowBoxTemplate_GlowBoxTemplateBg
+--- @field BG Texture
 --- @field GlowTopLeft GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
 --- @field GlowTopRight GlowBoxTemplate_GlowBoxTemplateGlowTopRight
 --- @field GlowBottomLeft GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
@@ -1229,10 +1061,6 @@
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2442)
---- child of BottomPopupScrollBoxTemplate
---- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateBg : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2451)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTitleText : FontString, GameFontNormal
@@ -1285,10 +1113,6 @@
 --- child of ButtonFrameBaseTemplate
 --- @class ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton : Button, UIPanelCloseButtonDefaultAnchors
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2553)
---- child of ButtonFrameBaseTemplate
---- @class ButtonFrameBaseTemplate_ButtonFrameBaseTemplateBg : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2561)
 --- child of ButtonFrameBaseTemplate
 --- @class ButtonFrameBaseTemplate_TopTileStreaks : Texture, _UI-Frame-TopTileStreaks
@@ -1297,7 +1121,7 @@
 --- Template
 --- @class ButtonFrameBaseTemplate : Frame, PortraitFrameBaseTemplate
 --- @field CloseButton ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
---- @field Bg ButtonFrameBaseTemplate_ButtonFrameBaseTemplateBg
+--- @field Bg Texture
 --- @field TopTileStreaks ButtonFrameBaseTemplate_TopTileStreaks
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2592)

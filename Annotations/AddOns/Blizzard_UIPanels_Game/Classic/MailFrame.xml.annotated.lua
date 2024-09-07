@@ -4,29 +4,9 @@
 --- Template
 --- @class SendMailRadioButtonTemplate : CheckButton, UIRadioButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L51)
---- child of MailItemTemplate
---- @class MailItemTemplate_MailItemTemplateExpireTime : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L80)
---- child of MailItemTemplateButton
---- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonSlot : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of MailItemTemplateButton
---- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L96)
---- child of MailItemTemplateButton
---- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonIconBorder : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L102)
 --- child of MailItemTemplateButton
 --- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonCOD : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L107)
---- child of MailItemTemplateButton
---- @class MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonCODBackground : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L114)
 --- child of MailItemTemplateButton
@@ -35,8 +15,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L73)
 --- child of MailItemTemplate
 --- @class MailItemTemplate_MailItemTemplateButton : CheckButton
---- @field Icon MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonIcon
---- @field IconBorder MailItemTemplate_MailItemTemplateButton_MailItemTemplateButtonIconBorder
+--- @field Icon Texture
+--- @field IconBorder Texture
 --- @field IconOverlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L36)

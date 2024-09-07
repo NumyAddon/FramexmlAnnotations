@@ -72,23 +72,15 @@
 --- Template
 --- @class Char-Inner-Right : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L185)
---- child of StatGroupTemplateToolbarSortUpArrow
---- @class StatGroupTemplate_StatGroupTemplateToolbar_StatGroupTemplateToolbarSortUpArrow_StatGroupTemplateToolbarSortUpArrowArrow : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L178)
 --- child of StatGroupTemplateToolbar
 --- @class StatGroupTemplate_StatGroupTemplateToolbar_StatGroupTemplateToolbarSortUpArrow : Button
---- @field Arrow StatGroupTemplate_StatGroupTemplateToolbar_StatGroupTemplateToolbarSortUpArrow_StatGroupTemplateToolbarSortUpArrowArrow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L215)
---- child of StatGroupTemplateToolbarSortDownArrow
---- @class StatGroupTemplate_StatGroupTemplateToolbar_StatGroupTemplateToolbarSortDownArrow_StatGroupTemplateToolbarSortDownArrowArrow : Texture
+--- @field Arrow Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L208)
 --- child of StatGroupTemplateToolbar
 --- @class StatGroupTemplate_StatGroupTemplateToolbar_StatGroupTemplateToolbarSortDownArrow : Button
---- @field Arrow StatGroupTemplate_StatGroupTemplateToolbar_StatGroupTemplateToolbarSortDownArrow_StatGroupTemplateToolbarSortDownArrowArrow
+--- @field Arrow Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L125)
 --- child of StatGroupTemplate
@@ -107,10 +99,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L86)
 --- child of StatGroupTemplate
 --- @class StatGroupTemplate_StatGroupTemplateBgBottom : Texture, Char-Stat-Bottom
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L91)
---- child of StatGroupTemplate
---- @class StatGroupTemplate_StatGroupTemplateBgMiddle : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L99)
 --- child of StatGroupTemplate
@@ -133,7 +121,7 @@
 --- @class StatGroupTemplate : Frame
 --- @field BgTop StatGroupTemplate_StatGroupTemplateBgTop
 --- @field BgBottom StatGroupTemplate_StatGroupTemplateBgBottom
---- @field BgMiddle StatGroupTemplate_StatGroupTemplateBgMiddle
+--- @field BgMiddle Texture
 --- @field BgMinimized StatGroupTemplate_StatGroupTemplateBgMinimized
 --- @field NameText StatGroupTemplate_StatGroupTemplateNameText
 --- @field CollapsedIcon StatGroupTemplate_StatGroupTemplateCollapsedIcon

@@ -4,14 +4,6 @@
 --- child of TargetofTargetDebuffFrameTemplate
 --- @class TargetofTargetDebuffFrameTemplate_TargetofTargetDebuffFrameTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L8)
---- child of TargetofTargetDebuffFrameTemplate
---- @class TargetofTargetDebuffFrameTemplate_TargetofTargetDebuffFrameTemplateIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L11)
---- child of TargetofTargetDebuffFrameTemplate
---- @class TargetofTargetDebuffFrameTemplate_TargetofTargetDebuffFrameTemplateBorder : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L4)
 --- Template
 --- @class TargetofTargetDebuffFrameTemplate : Frame
@@ -19,14 +11,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L70)
 --- child of TargetDebuffFrameTemplate
 --- @class TargetDebuffFrameTemplate_TargetDebuffFrameTemplateCooldown : Cooldown, CooldownFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L51)
---- child of TargetDebuffFrameTemplate
---- @class TargetDebuffFrameTemplate_TargetDebuffFrameTemplateIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L54)
---- child of TargetDebuffFrameTemplate
---- @class TargetDebuffFrameTemplate_TargetDebuffFrameTemplateBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L62)
 --- child of TargetDebuffFrameTemplate
@@ -40,25 +24,13 @@
 --- child of TargetBuffFrameTemplate
 --- @class TargetBuffFrameTemplate_TargetBuffFrameTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L95)
---- child of TargetBuffFrameTemplate
---- @class TargetBuffFrameTemplate_TargetBuffFrameTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L98)
 --- child of TargetBuffFrameTemplate
 --- @class TargetBuffFrameTemplate_TargetBuffFrameTemplateCount : FontString, NumberFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L105)
---- child of TargetBuffFrameTemplate
---- @class TargetBuffFrameTemplate_TargetBuffFrameTemplateStealable : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L91)
 --- Template
 --- @class TargetBuffFrameTemplate : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L169)
---- child of TargetFrameTemplateTextureFrame
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L172)
 --- child of TargetFrameTemplateTextureFrame
@@ -76,42 +48,10 @@
 --- child of TargetFrameTemplateTextureFrame
 --- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameUnconsciousText : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L196)
---- child of TargetFrameTemplateTextureFrame
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameHighLevelTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L202)
---- child of TargetFrameTemplateTextureFrame
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameLeaderIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L208)
---- child of TargetFrameTemplateTextureFrame
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFramePVPIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L214)
---- child of TargetFrameTemplateTextureFrame
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFramePrestigePortrait : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L220)
---- child of TargetFrameTemplateTextureFrame
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameRaidTargetIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L226)
---- child of TargetFrameTemplateTextureFrame
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameQuestIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L232)
---- child of TargetFrameTemplateTextureFrame
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFramePetBattleIcon : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L240)
---- child of TargetFrameTemplateTextureFrame
---- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFramePrestigeBadge : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L166)
 --- child of TargetFrameTemplate
 --- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame : Frame
---- @field texture TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameTexture
+--- @field texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L249)
 --- child of TargetFrameTemplate
@@ -121,42 +61,18 @@
 --- child of TargetFrameTemplate
 --- @class TargetFrameTemplate_TargetFrameTemplateManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L285)
---- child of TargetFrameTemplate
---- @class TargetFrameTemplate_TargetFrameTemplateBuffs : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L288)
---- child of TargetFrameTemplate
---- @class TargetFrameTemplate_TargetFrameTemplateDebuffs : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L142)
---- child of TargetFrameTemplate
---- @class TargetFrameTemplate_TargetFrameTemplateBackground : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L151)
---- child of TargetFrameTemplate
---- @class TargetFrameTemplate_TargetFrameTemplateNameBackground : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L157)
---- child of TargetFrameTemplate
---- @class TargetFrameTemplate_TargetFrameTemplatePortrait : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L135)
 --- Template
 --- @class TargetFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field textureFrame TargetFrameTemplate_TargetFrameTemplateTextureFrame
---- @field buffs TargetFrameTemplate_TargetFrameTemplateBuffs
---- @field debuffs TargetFrameTemplate_TargetFrameTemplateDebuffs
---- @field Background TargetFrameTemplate_TargetFrameTemplateBackground
---- @field nameBackground TargetFrameTemplate_TargetFrameTemplateNameBackground
+--- @field buffs Frame
+--- @field debuffs Frame
+--- @field Background Texture
+--- @field nameBackground Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L303)
 --- Template
 --- @class BossTargetFrameTemplate : Button, TargetFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L344)
---- child of TargetofTargetFrameTemplateTextureFrame
---- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateTextureFrame_TargetofTargetFrameTemplateTextureFrameTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L347)
 --- child of TargetofTargetFrameTemplateTextureFrame
@@ -198,18 +114,10 @@
 --- child of TargetofTargetFrameTemplate
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateDebuff4 : Frame, TargetofTargetDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L323)
---- child of TargetofTargetFrameTemplate
---- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateBackground : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L332)
---- child of TargetofTargetFrameTemplate
---- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplatePortrait : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L316)
 --- Template
 --- @class TargetofTargetFrameTemplate : Button, SecureUnitButtonTemplate
---- @field background TargetofTargetFrameTemplate_TargetofTargetFrameTemplateBackground
+--- @field background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L419)
 --- Template

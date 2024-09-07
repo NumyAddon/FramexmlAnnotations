@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L7)
---- child of PlayerSpecTabTemplate
---- @class PlayerSpecTabTemplate_PlayerSpecTabTemplateBackground : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L3)
 --- Template
 --- @class PlayerSpecTabTemplate : CheckButton

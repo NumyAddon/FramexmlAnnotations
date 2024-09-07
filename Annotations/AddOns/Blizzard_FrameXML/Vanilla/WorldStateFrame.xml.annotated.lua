@@ -8,14 +8,10 @@
 --- Template
 --- @class WorldStateScoreColumnTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L243)
---- child of WorldStateScoreTemplateRankButton
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateRankButton_WorldStateScoreTemplateRankButtonIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L230)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_WorldStateScoreTemplateRankButton : Frame
---- @field icon WorldStateScoreTemplate_WorldStateScoreTemplateRankButton_WorldStateScoreTemplateRankButtonIcon
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L266)
 --- child of WorldStateScoreTemplateName
@@ -25,14 +21,6 @@
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_WorldStateScoreTemplateName : Button
 --- @field text WorldStateScoreTemplate_WorldStateScoreTemplateName_WorldStateScoreTemplateNameText
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L39)
---- child of WorldStateScoreTemplate
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateFactionLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L45)
---- child of WorldStateScoreTemplate
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateFactionRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L54)
 --- child of WorldStateScoreTemplate
@@ -62,99 +50,43 @@
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn1Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L113)
---- child of WorldStateScoreTemplate
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn1Icon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L125)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn2Text : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L130)
---- child of WorldStateScoreTemplate
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn2Icon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L142)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn3Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L147)
---- child of WorldStateScoreTemplate
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn3Icon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L159)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn4Text : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L164)
---- child of WorldStateScoreTemplate
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn4Icon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L176)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn5Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L181)
---- child of WorldStateScoreTemplate
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn5Icon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L193)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn6Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L198)
---- child of WorldStateScoreTemplate
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn6Icon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L210)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn7Text : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L215)
---- child of WorldStateScoreTemplate
---- @class WorldStateScoreTemplate_WorldStateScoreTemplateColumn7Icon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L33)
 --- Template
 --- @class WorldStateScoreTemplate : Frame
 --- @field rankButton WorldStateScoreTemplate_WorldStateScoreTemplateRankButton
 --- @field name WorldStateScoreTemplate_WorldStateScoreTemplateName
---- @field factionLeft WorldStateScoreTemplate_WorldStateScoreTemplateFactionLeft
---- @field factionRight WorldStateScoreTemplate_WorldStateScoreTemplateFactionRight
+--- @field factionLeft Texture
+--- @field factionRight Texture
 --- @field honorableKills WorldStateScoreTemplate_WorldStateScoreTemplateHonorableKills
 --- @field killingBlows WorldStateScoreTemplate_WorldStateScoreTemplateKillingBlows
 --- @field deaths WorldStateScoreTemplate_WorldStateScoreTemplateDeaths
 --- @field honorGained WorldStateScoreTemplate_WorldStateScoreTemplateHonorGained
 --- @field damageDone WorldStateScoreTemplate_WorldStateScoreTemplateDamageDone
 --- @field healingDone WorldStateScoreTemplate_WorldStateScoreTemplateHealingDone
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L301)
---- child of WorldStateScoreFrameTabButtonTemplate
---- @class WorldStateScoreFrameTabButtonTemplate_WorldStateScoreFrameTabButtonTemplateLeftDisabled : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L314)
---- child of WorldStateScoreFrameTabButtonTemplate
---- @class WorldStateScoreFrameTabButtonTemplate_WorldStateScoreFrameTabButtonTemplateMiddleDisabled : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L323)
---- child of WorldStateScoreFrameTabButtonTemplate
---- @class WorldStateScoreFrameTabButtonTemplate_WorldStateScoreFrameTabButtonTemplateRightDisabled : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L332)
---- child of WorldStateScoreFrameTabButtonTemplate
---- @class WorldStateScoreFrameTabButtonTemplate_WorldStateScoreFrameTabButtonTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L345)
---- child of WorldStateScoreFrameTabButtonTemplate
---- @class WorldStateScoreFrameTabButtonTemplate_WorldStateScoreFrameTabButtonTemplateMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L354)
---- child of WorldStateScoreFrameTabButtonTemplate
---- @class WorldStateScoreFrameTabButtonTemplate_WorldStateScoreFrameTabButtonTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L387)
---- child of WorldStateScoreFrameTabButtonTemplate
---- @class WorldStateScoreFrameTabButtonTemplate_WorldStateScoreFrameTabButtonTemplateHighlightTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L295)
 --- Template

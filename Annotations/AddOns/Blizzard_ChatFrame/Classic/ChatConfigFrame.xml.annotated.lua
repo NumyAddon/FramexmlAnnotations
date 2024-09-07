@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L30)
---- child of ConfigCategoryButtonTemplate
---- @class ConfigCategoryButtonTemplate_ConfigCategoryButtonTemplateHighlight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L3)
 --- Template
 --- @class ConfigCategoryButtonTemplate : Button
@@ -119,14 +115,6 @@
 --- Template
 --- @class ChatConfigCheckboxSmallTemplate : Frame, ChatConfigCheckboxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L272)
---- child of ChatConfigCheckboxWithSwatchTemplateColorSwatch
---- @class ChatConfigCheckboxWithSwatchTemplate_ChatConfigCheckboxWithSwatchTemplateColorSwatch_ChatConfigCheckboxWithSwatchTemplateColorSwatchSwatchBg : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L292)
---- child of ChatConfigCheckboxWithSwatchTemplateColorSwatch
---- @class ChatConfigCheckboxWithSwatchTemplate_ChatConfigCheckboxWithSwatchTemplateColorSwatch_ChatConfigCheckboxWithSwatchTemplateColorSwatchNormalTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L265)
 --- child of ChatConfigCheckboxWithSwatchTemplate
 --- @class ChatConfigCheckboxWithSwatchTemplate_ChatConfigCheckboxWithSwatchTemplateColorSwatch : Button
@@ -167,14 +155,6 @@
 --- Template
 --- @class ChatConfigCheckboxWithSwatchAndClassColorTemplate : Frame, ChatConfigCheckboxWithSwatchTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L409)
---- child of ChatConfigSwatchTemplateColorSwatch
---- @class ChatConfigSwatchTemplate_ChatConfigSwatchTemplateColorSwatch_ChatConfigSwatchTemplateColorSwatchSwatchBg : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L429)
---- child of ChatConfigSwatchTemplateColorSwatch
---- @class ChatConfigSwatchTemplate_ChatConfigSwatchTemplateColorSwatch_ChatConfigSwatchTemplateColorSwatchNormalTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L396)
 --- child of ChatConfigSwatchTemplate
 --- @class ChatConfigSwatchTemplate_ChatConfigSwatchTemplateColorSwatch : Button
@@ -186,18 +166,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L377)
 --- Template
 --- @class ChatConfigSwatchTemplate : Frame, TooltipBorderBackdropTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L446)
---- child of ChatConfigTabTemplate
---- @class ChatConfigTabTemplate_ChatConfigTabTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L455)
---- child of ChatConfigTabTemplate
---- @class ChatConfigTabTemplate_ChatConfigTabTemplateMiddle : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L464)
---- child of ChatConfigTabTemplate
---- @class ChatConfigTabTemplate_ChatConfigTabTemplateRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L433)
 --- Template

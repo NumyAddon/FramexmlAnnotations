@@ -12,6 +12,10 @@
 --- child of GlyphSpellButtonTemplate
 --- @class GlyphSpellButtonTemplate_GlyphSpellButtonTemplateTypeName : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L109)
+--- child of GlyphSpellButtonTemplate
+--- @class GlyphSpellButtonTemplate_GlyphSpellButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L55)
 --- Template
 --- @class GlyphSpellButtonTemplate : Button

@@ -35,6 +35,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L185)
 --- child of MultiCastFlyoutFrame
 --- @class MultiCastActionBarFrame_MultiCastFlyoutFrame_MultiCastFlyoutFrameCloseButton : Button
+--- @field normalTexture Texture
 MultiCastFlyoutFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L163)
@@ -57,6 +58,7 @@ MultiCastFlyoutFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L213)
 --- child of MultiCastActionBarFrame
 --- @class MultiCastActionBarFrame_MultiCastFlyoutFrameOpenButton : Button
+--- @field normalTexture Texture
 MultiCastFlyoutFrameOpenButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L245)

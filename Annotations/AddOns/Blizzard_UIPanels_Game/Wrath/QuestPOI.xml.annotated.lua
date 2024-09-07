@@ -15,6 +15,8 @@
 --- @class QuestPOINumericTemplate : Button
 --- @field Display QuestPOINumericTemplate_Display
 --- @field Glow Texture
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L77)
 --- child of QuestPOICompletedTemplate
@@ -26,4 +28,6 @@
 --- @class QuestPOICompletedTemplate : Button
 --- @field Display QuestPOICompletedTemplate_Display
 --- @field Glow Texture
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 

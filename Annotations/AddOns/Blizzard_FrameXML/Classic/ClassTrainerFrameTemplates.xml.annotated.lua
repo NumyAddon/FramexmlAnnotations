@@ -4,6 +4,10 @@
 --- child of ClassTrainerSkillButtonTemplate
 --- @class ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ClassTrainerFrameTemplates.xml#L41)
+--- child of ClassTrainerSkillButtonTemplate
+--- @class ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ClassTrainerFrameTemplates.xml#L3)
 --- Template
 --- @class ClassTrainerSkillButtonTemplate : Button

@@ -12,6 +12,10 @@
 --- @class PVPBattlegroundButtonTemplate_status : Frame
 --- @field texture Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L349)
+--- child of PVPBattlegroundButtonTemplate
+--- @class PVPBattlegroundButtonTemplate_PVPBattlegroundButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L304)
 --- Template
 --- @class PVPBattlegroundButtonTemplate : Button

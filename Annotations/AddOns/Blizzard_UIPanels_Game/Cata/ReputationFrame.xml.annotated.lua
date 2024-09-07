@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L43)
+--- child of ReputationBarTemplateExpandOrCollapseButton
+--- @class ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton_ReputationBarTemplateExpandOrCollapseButtonHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/ReputationFrame.xml#L8)
 --- child of ReputationBarTemplate
 --- @class ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton : Button

@@ -76,6 +76,10 @@
 --- child of WatchFrameItemButtonTemplate
 --- @class WatchFrameItemButtonTemplate_WatchFrameItemButtonTemplateStock : FontString, NumberFontNormalYellow
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L136)
+--- child of WatchFrameItemButtonTemplate
+--- @class WatchFrameItemButtonTemplate_WatchFrameItemButtonTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L68)
 --- Template
 --- @class WatchFrameItemButtonTemplate : Button

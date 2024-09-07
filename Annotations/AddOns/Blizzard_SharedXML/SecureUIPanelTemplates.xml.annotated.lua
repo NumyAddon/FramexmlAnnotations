@@ -26,13 +26,33 @@
 --- Template
 --- @class UIPanelScrollBarButton : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L78)
+--- child of UIPanelScrollUpButtonTemplate
+--- @class UIPanelScrollUpButtonTemplate_Normal : Texture, UIPanelScrollBarButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L81)
+--- child of UIPanelScrollUpButtonTemplate
+--- @class UIPanelScrollUpButtonTemplate_Highlight : Texture, UIPanelScrollBarButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L76)
 --- Template
 --- @class UIPanelScrollUpButtonTemplate : Button
+--- @field Normal UIPanelScrollUpButtonTemplate_Normal
+--- @field Highlight UIPanelScrollUpButtonTemplate_Highlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L86)
+--- child of UIPanelScrollDownButtonTemplate
+--- @class UIPanelScrollDownButtonTemplate_Normal : Texture, UIPanelScrollBarButton
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L89)
+--- child of UIPanelScrollDownButtonTemplate
+--- @class UIPanelScrollDownButtonTemplate_Highlight : Texture, UIPanelScrollBarButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L84)
 --- Template
 --- @class UIPanelScrollDownButtonTemplate : Button
+--- @field Normal UIPanelScrollDownButtonTemplate_Normal
+--- @field Highlight UIPanelScrollDownButtonTemplate_Highlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L92)
 --- Template
@@ -55,6 +75,10 @@
 --- @field RightTex Texture
 --- @field MiddleTex Texture
 --- @field CharCount InputScrollFrameTemplate_CharCount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L256)
+--- child of UIPanelButtonNoTooltipTemplate
+--- @class  : Texture, UIPanelButtonHighlightTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L210)
 --- Template

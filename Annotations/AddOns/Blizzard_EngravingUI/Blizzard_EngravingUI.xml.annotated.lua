@@ -12,6 +12,10 @@
 --- child of RuneSpellButtonTemplate
 --- @class RuneSpellButtonTemplate_RuneSpellButtonTemplateTypeName : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L59)
+--- child of RuneSpellButtonTemplate
+--- @class RuneSpellButtonTemplate_RuneSpellButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L5)
 --- Template
 --- @class RuneSpellButtonTemplate : Button

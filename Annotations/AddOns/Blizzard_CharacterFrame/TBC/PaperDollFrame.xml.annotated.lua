@@ -338,6 +338,11 @@ CharacterAmmoSlotIconTexture = {}
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterAmmoSlot_CharacterAmmoSlotCount : FontString, NumberFontNormal
 CharacterAmmoSlotCount = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L833)
+--- child of CharacterAmmoSlot
+--- @class PaperDollFrame_PaperDollItemsFrame_CharacterAmmoSlot_CharacterAmmoSlotNormalTexture : Texture
+CharacterAmmoSlotNormalTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L741)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterAmmoSlot : Button

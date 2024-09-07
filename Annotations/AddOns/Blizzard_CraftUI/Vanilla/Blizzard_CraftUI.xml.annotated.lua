@@ -12,6 +12,11 @@
 --- Template
 --- @class CraftItemTemplate : Button, QuestItemTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/Vanilla/Blizzard_CraftUI.xml#L255)
+--- child of CraftRankFrameBorder
+--- @class CraftFrame_CraftRankFrame_CraftRankFrameBorder_CraftRankFrameBorderNormal : Texture
+CraftRankFrameBorderNormal = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CraftUI/Vanilla/Blizzard_CraftUI.xml#L244)
 --- child of CraftRankFrame
 --- @class CraftFrame_CraftRankFrame_CraftRankFrameBorder : Button

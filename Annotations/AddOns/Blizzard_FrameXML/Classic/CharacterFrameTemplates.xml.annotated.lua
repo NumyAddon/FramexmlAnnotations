@@ -24,6 +24,10 @@
 --- child of CharacterFrameTabButtonTemplate
 --- @class CharacterFrameTabButtonTemplate_CharacterFrameTabButtonTemplateRight : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CharacterFrameTemplates.xml#L114)
+--- child of CharacterFrameTabButtonTemplate
+--- @class CharacterFrameTabButtonTemplate_CharacterFrameTabButtonTemplateHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CharacterFrameTemplates.xml#L3)
 --- Template
 --- @class CharacterFrameTabButtonTemplate : Button

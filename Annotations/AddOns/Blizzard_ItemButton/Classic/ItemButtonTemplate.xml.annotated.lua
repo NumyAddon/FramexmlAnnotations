@@ -16,6 +16,10 @@
 --- child of ItemButton
 --- @class ItemButton_ItemButtonSearchOverlay : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L70)
+--- child of ItemButton
+--- @class ItemButton_ItemButtonNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L4)
 --- Intrinsic
 --- @class ItemButton : Button, ItemButtonMixin
@@ -27,6 +31,8 @@
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
+--- @field NormalTexture ItemButton_ItemButtonNormalTexture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L85)
 --- child of ItemButtonTemplate
@@ -48,6 +54,10 @@
 --- child of ItemButtonTemplate
 --- @class ItemButtonTemplate_ItemButtonTemplateSubIconTexture : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L135)
+--- child of ItemButtonTemplate
+--- @class ItemButtonTemplate_ItemButtonTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L79)
 --- Template
 --- @class ItemButtonTemplate : Button
@@ -66,9 +76,14 @@
 --- Template
 --- @class SimplePopupButtonTemplate : CheckButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L187)
+--- child of PopupButtonTemplate
+--- @class PopupButtonTemplate_PopupButtonTemplateIcon : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L186)
 --- Template
 --- @class PopupButtonTemplate : CheckButton, SimplePopupButtonTemplate
+--- @field Icon PopupButtonTemplate_PopupButtonTemplateIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemButton/Classic/ItemButtonTemplate.xml#L206)
 --- child of LargeItemButtonTemplate

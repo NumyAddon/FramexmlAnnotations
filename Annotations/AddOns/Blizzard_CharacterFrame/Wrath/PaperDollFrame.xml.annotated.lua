@@ -60,6 +60,10 @@
 --- Template
 --- @class GearSetButtonTemplate : CheckButton, PopupButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L204)
+--- child of GearSetPopupButtonTemplate
+--- @class GearSetPopupButtonTemplate_GearSetPopupButtonTemplateIcon : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L193)
 --- Template
 --- @class GearSetPopupButtonTemplate : CheckButton, SimplePopupButtonTemplate
@@ -364,6 +368,11 @@ CharacterAmmoSlotIconTexture = {}
 --- child of CharacterAmmoSlot
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterAmmoSlot_CharacterAmmoSlotCount : FontString, NumberFontNormal
 CharacterAmmoSlotCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L927)
+--- child of CharacterAmmoSlot
+--- @class PaperDollFrame_PaperDollItemsFrame_CharacterAmmoSlot_CharacterAmmoSlotNormalTexture : Texture
+CharacterAmmoSlotNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L835)
 --- child of PaperDollItemsFrame

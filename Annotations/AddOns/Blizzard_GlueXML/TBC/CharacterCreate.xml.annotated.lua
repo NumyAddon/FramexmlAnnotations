@@ -8,13 +8,25 @@
 --- Template
 --- @class CharacterCreateIconButtonTemplate : CheckButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
+--- child of CharacterCreateRaceButtonTemplate
+--- @class CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L25)
 --- Template
 --- @class CharacterCreateRaceButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L69)
+--- child of CharacterCreateClassButtonTemplate
+--- @class CharacterCreateClassButtonTemplate_CharacterCreateClassButtonTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L36)
 --- Template
 --- @class CharacterCreateClassButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L94)
+--- child of CharacterCreateGenderButtonTemplate
+--- @class CharacterCreateGenderButtonTemplate_CharacterCreateGenderButtonTemplateNormalTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L71)
 --- Template

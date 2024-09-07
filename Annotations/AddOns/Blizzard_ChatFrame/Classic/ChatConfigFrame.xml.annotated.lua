@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L30)
+--- child of ConfigCategoryButtonTemplate
+--- @class ConfigCategoryButtonTemplate_ConfigCategoryButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L3)
 --- Template
 --- @class ConfigCategoryButtonTemplate : Button
@@ -119,6 +123,10 @@
 --- child of ChatConfigCheckboxWithSwatchTemplateColorSwatch
 --- @class ChatConfigCheckboxWithSwatchTemplate_ChatConfigCheckboxWithSwatchTemplateColorSwatch_ChatConfigCheckboxWithSwatchTemplateColorSwatchSwatchBg : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L292)
+--- child of ChatConfigCheckboxWithSwatchTemplateColorSwatch
+--- @class ChatConfigCheckboxWithSwatchTemplate_ChatConfigCheckboxWithSwatchTemplateColorSwatch_ChatConfigCheckboxWithSwatchTemplateColorSwatchNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L265)
 --- child of ChatConfigCheckboxWithSwatchTemplate
 --- @class ChatConfigCheckboxWithSwatchTemplate_ChatConfigCheckboxWithSwatchTemplateColorSwatch : Button
@@ -132,6 +140,10 @@
 --- Template
 --- @class ChatConfigWideCheckboxWithSwatchTemplate : Frame, ChatConfigCheckboxWithSwatchTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L308)
+--- child of MovableChatConfigWideCheckboxWithSwatchTemplate
+--- @class MovableChatConfigWideCheckboxWithSwatchTemplate_CloseChannel : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L321)
 --- child of MovableChatConfigWideCheckboxWithSwatchTemplate
 --- @class MovableChatConfigWideCheckboxWithSwatchTemplate_ArtOverlay : Frame
@@ -144,7 +156,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L305)
 --- Template
 --- @class MovableChatConfigWideCheckboxWithSwatchTemplate : Frame, ChatConfigWideCheckboxWithSwatchTemplate, ChatConfigWideCheckboxMixin
---- @field CloseChannel Button
+--- @field CloseChannel MovableChatConfigWideCheckboxWithSwatchTemplate_CloseChannel
 --- @field ArtOverlay MovableChatConfigWideCheckboxWithSwatchTemplate_ArtOverlay
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L360)
@@ -158,6 +170,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L409)
 --- child of ChatConfigSwatchTemplateColorSwatch
 --- @class ChatConfigSwatchTemplate_ChatConfigSwatchTemplateColorSwatch_ChatConfigSwatchTemplateColorSwatchSwatchBg : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L429)
+--- child of ChatConfigSwatchTemplateColorSwatch
+--- @class ChatConfigSwatchTemplate_ChatConfigSwatchTemplateColorSwatch_ChatConfigSwatchTemplateColorSwatchNormalTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L396)
 --- child of ChatConfigSwatchTemplate
@@ -494,6 +510,11 @@ CombatConfigColorsColorizeSpellNamesSchoolColoring = {}
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsColorize_CombatConfigColorsColorizeSpellNames_CombatConfigColorsColorizeSpellNamesColorSwatch_CombatConfigColorsColorizeSpellNamesColorSwatchSwatchBg : Texture
 CombatConfigColorsColorizeSpellNamesColorSwatchSwatchBg = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L1429)
+--- child of CombatConfigColorsColorizeSpellNamesColorSwatch
+--- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsColorize_CombatConfigColorsColorizeSpellNames_CombatConfigColorsColorizeSpellNamesColorSwatch_CombatConfigColorsColorizeSpellNamesColorSwatchNormalTexture : Texture
+CombatConfigColorsColorizeSpellNamesColorSwatchNormalTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L1398)
 --- child of CombatConfigColorsColorizeSpellNames
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsColorize_CombatConfigColorsColorizeSpellNames_CombatConfigColorsColorizeSpellNamesColorSwatch : Button
@@ -518,6 +539,11 @@ CombatConfigColorsColorizeDamageNumberSchoolColoring = {}
 --- child of CombatConfigColorsColorizeDamageNumberColorSwatch
 --- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsColorize_CombatConfigColorsColorizeDamageNumber_CombatConfigColorsColorizeDamageNumberColorSwatch_CombatConfigColorsColorizeDamageNumberColorSwatchSwatchBg : Texture
 CombatConfigColorsColorizeDamageNumberColorSwatchSwatchBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L1526)
+--- child of CombatConfigColorsColorizeDamageNumberColorSwatch
+--- @class ChatConfigFrame_ChatConfigCombatSettings_CombatConfigColors_CombatConfigColorsColorize_CombatConfigColorsColorizeDamageNumber_CombatConfigColorsColorizeDamageNumberColorSwatch_CombatConfigColorsColorizeDamageNumberColorSwatchNormalTexture : Texture
+CombatConfigColorsColorizeDamageNumberColorSwatchNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L1495)
 --- child of CombatConfigColorsColorizeDamageNumber

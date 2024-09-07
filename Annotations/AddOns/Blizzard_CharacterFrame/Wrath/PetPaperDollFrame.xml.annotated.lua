@@ -8,6 +8,10 @@
 --- child of CompanionButtonTemplate
 --- @class CompanionButtonTemplate_CompanionButtonTemplateActiveTexture : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L43)
+--- child of CompanionButtonTemplate
+--- @class CompanionButtonTemplate_CompanionButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L3)
 --- Template
 --- @class CompanionButtonTemplate : CheckButton, SecureFrameTemplate

@@ -12,6 +12,10 @@
 --- child of QuestLogTitleButtonTemplate
 --- @class QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateCheck : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L73)
+--- child of QuestLogTitleButtonTemplate
+--- @class QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L4)
 --- Template
 --- @class QuestLogTitleButtonTemplate : Button

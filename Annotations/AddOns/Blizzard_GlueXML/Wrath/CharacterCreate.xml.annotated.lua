@@ -24,13 +24,25 @@
 --- child of CharacterCreateRaceButtonTemplate
 --- @class CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText : FontString, GlueFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L84)
+--- child of CharacterCreateRaceButtonTemplate
+--- @class CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L66)
 --- Template
 --- @class CharacterCreateRaceButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L97)
+--- child of CharacterCreateClassButtonTemplate
+--- @class CharacterCreateClassButtonTemplate_CharacterCreateClassButtonTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L86)
 --- Template
 --- @class CharacterCreateClassButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L122)
+--- child of CharacterCreateGenderButtonTemplate
+--- @class CharacterCreateGenderButtonTemplate_CharacterCreateGenderButtonTemplateNormalTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L99)
 --- Template

@@ -60,6 +60,10 @@
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_SpellHighlightAnim : AnimationGroup
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L110)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_ActionButtonTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L17)
 --- Template
 --- @class ActionButtonTemplate : CheckButton
@@ -78,4 +82,5 @@
 --- @field SpellHighlightTexture Texture
 --- @field AutoCastable Texture
 --- @field SpellHighlightAnim ActionButtonTemplate_SpellHighlightAnim
+--- @field NormalTexture ActionButtonTemplate_ActionButtonTemplateNormalTexture
 

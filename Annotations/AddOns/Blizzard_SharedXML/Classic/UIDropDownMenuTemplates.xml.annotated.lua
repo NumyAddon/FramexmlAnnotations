@@ -8,6 +8,10 @@
 --- child of UIDropDownMenuButtonTemplateColorSwatch
 --- @class UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateColorSwatch_UIDropDownMenuButtonTemplateColorSwatchSwatchBg : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L91)
+--- child of UIDropDownMenuButtonTemplateColorSwatch
+--- @class UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateColorSwatch_UIDropDownMenuButtonTemplateColorSwatchNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L48)
 --- child of UIDropDownMenuButtonTemplate
 --- @class UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateColorSwatch : Button
@@ -87,9 +91,19 @@
 --- Template
 --- @class UIDropDownListTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L315)
+--- child of UIDropDownMenuTemplateButton
+--- @class UIDropDownMenuTemplate_UIDropDownMenuTemplateButton_UIDropDownMenuTemplateButtonNormalTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L339)
+--- child of UIDropDownMenuTemplateButton
+--- @class UIDropDownMenuTemplate_UIDropDownMenuTemplateButton_UIDropDownMenuTemplateButtonHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L284)
 --- child of UIDropDownMenuTemplate
 --- @class UIDropDownMenuTemplate_UIDropDownMenuTemplateButton : Button
+--- @field NormalTexture UIDropDownMenuTemplate_UIDropDownMenuTemplateButton_UIDropDownMenuTemplateButtonNormalTexture
+--- @field HighlightTexture UIDropDownMenuTemplate_UIDropDownMenuTemplateButton_UIDropDownMenuTemplateButtonHighlightTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L226)
 --- child of UIDropDownMenuTemplate

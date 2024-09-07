@@ -3,6 +3,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.xml#L3)
 --- Template
 --- @class VoiceChatTranscriptionButtonTemplate : Button, VoiceChatTranscriptionButtonMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.xml#L20)
 --- child of VoiceChatTranscriptionTemplate

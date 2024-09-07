@@ -113,6 +113,14 @@
 --- child of SpellButtonTemplate
 --- @class SpellButtonTemplate_SpellButtonTemplateTrainTextBackground : Texture, Spellbook-TrainTextBackground
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L223)
+--- child of SpellButtonTemplate
+--- @class SpellButtonTemplate_SpellButtonTemplateNormalTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L236)
+--- child of SpellButtonTemplate
+--- @class SpellButtonTemplate_SpellButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L95)
 --- Template
 --- @class SpellButtonTemplate : CheckButton, SecureFrameTemplate, SpellButtonMixin
@@ -152,6 +160,10 @@
 --- child of ProfessionButtonTemplate
 --- @class ProfessionButtonTemplate_ProfessionButtonTemplateNameFrame : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L296)
+--- child of ProfessionButtonTemplate
+--- @class ProfessionButtonTemplate_ProfessionButtonTemplateHighlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L239)
 --- Template
 --- @class ProfessionButtonTemplate : CheckButton, SecureFrameTemplate, SpellButtonMixin
@@ -160,6 +172,7 @@
 --- @field spellString ProfessionButtonTemplate_ProfessionButtonTemplateSpellName
 --- @field subSpellString ProfessionButtonTemplate_ProfessionButtonTemplateSubSpellName
 --- @field Flash Texture
+--- @field highlightTexture ProfessionButtonTemplate_ProfessionButtonTemplateHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L303)
 --- child of ProfessionTrialCapTemplate

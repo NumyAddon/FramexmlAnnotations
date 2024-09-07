@@ -8,12 +8,20 @@
 --- child of 
 --- @class ModelPreviewFrame_Display_ModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L26)
+--- child of 
+--- @class ModelPreviewFrame_Display_ModelScene_CarouselLeftButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L39)
+--- child of 
+--- @class ModelPreviewFrame_Display_ModelScene_CarouselRightButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L12)
 --- child of 
 --- @class ModelPreviewFrame_Display_ModelScene : ModelScene, ModelSceneMixinTemplate
 --- @field ControlFrame ModelPreviewFrame_Display_ModelScene_ControlFrame
---- @field CarouselLeftButton Button
---- @field CarouselRightButton Button
+--- @field CarouselLeftButton ModelPreviewFrame_Display_ModelScene_CarouselLeftButton
+--- @field CarouselRightButton ModelPreviewFrame_Display_ModelScene_CarouselRightButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L63)
 --- child of 

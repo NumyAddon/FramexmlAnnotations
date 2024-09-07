@@ -20,9 +20,23 @@
 --- Template
 --- @class CharacterCreateIconButtonTemplate : CheckButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L80)
+--- child of CharacterCreateGenderButtonTemplate
+--- @class CharacterCreateGenderButtonTemplate_CharacterCreateGenderButtonTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L64)
 --- Template
 --- @class CharacterCreateGenderButtonTemplate : CheckButton, CharacterCreateIconButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L92)
+--- child of BarberShopSelectorTemplate
+--- Template
+--- @class BarberShopSelectorTemplate_Prev : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L115)
+--- child of BarberShopSelectorTemplate
+--- Template
+--- @class BarberShopSelectorTemplate_Next : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L86)
 --- child of BarberShopSelectorTemplate
@@ -31,8 +45,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L82)
 --- Template
 --- @class BarberShopSelectorTemplate : Frame
---- @field Prev Button
---- @field Next Button
+--- @field Prev BarberShopSelectorTemplate_Prev
+--- @field Next BarberShopSelectorTemplate_Next
 --- @field Category BarberShopSelectorTemplate_Category
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L180)
@@ -44,6 +58,11 @@ BarberShopAlternateFormTopPortrait = {}
 --- child of BarberShopAlternateFormTop
 --- @class BarberShopFrame_BarberShopAlternateFormTop_BarberShopAlternateFormTopTop : Texture
 BarberShopAlternateFormTopTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L199)
+--- child of BarberShopAlternateFormTop
+--- @class BarberShopFrame_BarberShopAlternateFormTop_BarberShopAlternateFormTopHighlight : Texture
+BarberShopAlternateFormTopHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L173)
 --- child of BarberShopFrame
@@ -59,6 +78,11 @@ BarberShopAlternateFormBottomPortrait = {}
 --- child of BarberShopAlternateFormBottom
 --- @class BarberShopFrame_BarberShopAlternateFormBottom_BarberShopAlternateFormBottomBottom : Texture
 BarberShopAlternateFormBottomBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L240)
+--- child of BarberShopAlternateFormBottom
+--- @class BarberShopFrame_BarberShopAlternateFormBottom_BarberShopAlternateFormBottomHighlight : Texture
+BarberShopAlternateFormBottomHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L214)
 --- child of BarberShopFrame

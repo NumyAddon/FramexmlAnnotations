@@ -10,6 +10,14 @@ TutorialFrameCheckboxText = {}
 --- @class TutorialFrame_TutorialFrameCheckButton : CheckButton, UICheckButtonTemplate
 TutorialFrameCheckButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L92)
+--- child of TutorialFrameOkayButton
+--- @class  : Texture, DialogButtonNormalTexture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L94)
+--- child of TutorialFrameOkayButton
+--- @class  : Texture, DialogButtonHighlightTexture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L76)
 --- child of TutorialFrame
 --- @class TutorialFrame_TutorialFrameOkayButton : Button

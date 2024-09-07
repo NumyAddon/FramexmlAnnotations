@@ -4,6 +4,8 @@
 --- Template
 --- @class ModelSceneControlButtonTemplate : Button, ModelSceneControlButtonMixin
 --- @field Icon Texture
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.xml#L49)
 --- child of ModelSceneControlFrameTemplate

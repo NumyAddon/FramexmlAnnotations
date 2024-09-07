@@ -33,9 +33,21 @@
 --- @field Background Texture
 --- @field Name FriendsFrameFriendInviteTemplate_Name
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L154)
+--- child of FriendsFrameButtonTemplateTravelPassButton
+--- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateTravelPassButton_FriendsFrameButtonTemplateTravelPassButtonNormalTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L166)
+--- child of FriendsFrameButtonTemplateTravelPassButton
+--- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateTravelPassButton_FriendsFrameButtonTemplateTravelPassButtonHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L147)
 --- child of FriendsFrameButtonTemplate
 --- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateTravelPassButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L185)
+--- child of FriendsFrameButtonTemplateSummonButton
+--- @class FriendsFrameButtonTemplate_FriendsFrameButtonTemplateSummonButton_FriendsFrameButtonTemplateSummonButtonHighlightTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L180)
 --- child of FriendsFrameButtonTemplate
@@ -76,6 +88,7 @@
 --- @field gameIcon FriendsFrameButtonTemplate_FriendsFrameButtonTemplateGameIcon
 --- @field name FriendsFrameButtonTemplate_FriendsFrameButtonTemplateName
 --- @field info FriendsFrameButtonTemplate_FriendsFrameButtonTemplateInfo
+--- @field highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L255)
 --- child of FriendsFrameIgnoreButtonTemplate
@@ -127,12 +140,17 @@
 --- child of WhoFrameColumnHeaderTemplate
 --- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateRight : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L398)
+--- child of WhoFrameColumnHeaderTemplate
+--- @class WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L357)
 --- Template
 --- @class WhoFrameColumnHeaderTemplate : Button
 --- @field Left WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateLeft
 --- @field Middle WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateMiddle
 --- @field Right WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateRight
+--- @field HighlightTexture WhoFrameColumnHeaderTemplate_WhoFrameColumnHeaderTemplateHighlightTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L411)
 --- child of FriendsFrameGuildPlayerStatusButtonTemplate
@@ -214,6 +232,10 @@
 --- Template
 --- @class FriendsFrameTabTemplate : Button, CharacterFrameTabButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L782)
+--- child of FriendsFrameBattlenetFrame
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L805)
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton : Button, UIPanelInfoButton
@@ -276,7 +298,7 @@ ScrollFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L750)
 --- child of FriendsTabHeader
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame : Frame
---- @field BroadcastButton Button
+--- @field BroadcastButton FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastButton
 --- @field UnavailableInfoButton FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton
 --- @field BroadcastFrame FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame
 --- @field UnavailableInfoFrame FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoFrame

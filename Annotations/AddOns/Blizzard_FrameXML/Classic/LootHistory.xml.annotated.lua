@@ -1,5 +1,13 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L113)
+--- child of 
+--- @class LootHistoryItemTemplate_ToggleButton_Highlight : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L94)
+--- child of LootHistoryItemTemplate
+--- @class LootHistoryItemTemplate_ToggleButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L59)
 --- child of LootHistoryItemTemplate
 --- @class LootHistoryItemTemplate_ItemName : FontString, GameFontNormalSmall
@@ -15,7 +23,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L3)
 --- Template
 --- @class LootHistoryItemTemplate : Button
---- @field ToggleButton Button
+--- @field ToggleButton LootHistoryItemTemplate_ToggleButton
 --- @field Divider Texture
 --- @field Icon Texture
 --- @field NameBorderLeft Texture
@@ -50,6 +58,14 @@
 --- @field PlayerName LootHistoryPlayerTemplate_PlayerName
 --- @field WinMark Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L230)
+--- child of LootHistoryFrame
+--- @class LootHistoryFrame_CloseButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L262)
+--- child of LootHistoryFrame
+--- @class LootHistoryFrame_ResizeButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L277)
 --- child of LootHistoryFrame
 --- @class LootHistoryFrame_LootHistoryFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
@@ -62,9 +78,9 @@ LootHistoryFrameScrollFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L197)
 --- @class LootHistoryFrame : Frame, TooltipBorderedFrameTemplate
---- @field CloseButton Button
+--- @field CloseButton LootHistoryFrame_CloseButton
 --- @field DragButton Button
---- @field ResizeButton Button
+--- @field ResizeButton LootHistoryFrame_ResizeButton
 --- @field ScrollFrame LootHistoryFrame_LootHistoryFrameScrollFrame
 --- @field LootIcon Texture
 --- @field Label LootHistoryFrame_Label

@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L30)
---- child of GroupFinderGroupButtonTemplate
---- @class GroupFinderGroupButtonTemplate_GroupFinderGroupButtonTemplateName : FontString, GameFontNormalLarge
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L3)
 --- Template
 --- @class GroupFinderGroupButtonTemplate : Button

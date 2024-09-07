@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L8)
---- child of MacroButtonTemplate
---- @class MacroButtonTemplate_Name : FontString, GameFontHighlightSmallOutline
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L5)
 --- Template
 --- @class MacroButtonTemplate : Button, SelectorButtonTemplate, MacroButtonMixin

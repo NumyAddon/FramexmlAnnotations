@@ -1,22 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L188)
---- child of RaidFinderRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
---- @type LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
---- @field texture Texture
---- @field border Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L179)
---- child of RaidFinderRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
---- @type Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L3)
 --- Template
 --- @class RaidFinderRoleButtonTemplate : Button, LFGRoleButtonWithBackgroundAndRewardTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L48)
---- child of 
---- @class RaidFinderFrame_NoRaidsCover_Label : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L36)
 --- child of RaidFinderFrame

@@ -4,49 +4,20 @@
 --- Template
 --- @class InspectPaperDollItemSlotButtonTemplate : ItemButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L29)
---- child of InspectPaperDollItemSlotButtonLeftTemplate
---- @class InspectPaperDollItemSlotButtonLeftTemplate_SocketDisplay : Frame, PaperDollItemSocketDisplayVerticalTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L37)
---- child of InspectPaperDollItemSlotButtonLeftTemplate
---- @class InspectPaperDollItemSlotButtonLeftTemplate_InspectPaperDollItemSlotButtonLeftTemplateFrame : Texture, Char-LeftSlot
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L27)
 --- Template
 --- @class InspectPaperDollItemSlotButtonLeftTemplate : ItemButton, InspectPaperDollItemSlotButtonTemplate
 --- @field SocketDisplay InspectPaperDollItemSlotButtonLeftTemplate_SocketDisplay
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L47)
---- child of InspectPaperDollItemSlotButtonRightTemplate
---- @class InspectPaperDollItemSlotButtonRightTemplate_SocketDisplay : Frame, PaperDollItemSocketDisplayVerticalTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L55)
---- child of InspectPaperDollItemSlotButtonRightTemplate
---- @class InspectPaperDollItemSlotButtonRightTemplate_InspectPaperDollItemSlotButtonRightTemplateFrame : Texture, Char-RightSlot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L45)
 --- Template
 --- @class InspectPaperDollItemSlotButtonRightTemplate : ItemButton, InspectPaperDollItemSlotButtonTemplate
 --- @field SocketDisplay InspectPaperDollItemSlotButtonRightTemplate_SocketDisplay
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L65)
---- child of InspectPaperDollItemSlotButtonBottomTemplate
---- @class InspectPaperDollItemSlotButtonBottomTemplate_SocketDisplay : Frame, PaperDollItemSocketDisplayHorizontalTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L73)
---- child of InspectPaperDollItemSlotButtonBottomTemplate
---- @class InspectPaperDollItemSlotButtonBottomTemplate_InspectPaperDollItemSlotButtonBottomTemplateFrame : Texture, Char-BottomSlot
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L63)
 --- Template
 --- @class InspectPaperDollItemSlotButtonBottomTemplate : ItemButton, InspectPaperDollItemSlotButtonTemplate
 --- @field SocketDisplay InspectPaperDollItemSlotButtonBottomTemplate_SocketDisplay
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L89)
---- child of 
---- @class InspectPaperDollFrame_LevelTextWrapper_InspectLevelText : FontString, GameFontNormalSmall
-InspectLevelText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L83)
 --- child of InspectPaperDollFrame
@@ -126,77 +97,29 @@ InspectModelFrameBorderBottom = {}
 --- @class InspectPaperDollFrame_InspectModelFrame_InspectModelFrameBorderBottom2 : Texture, Char-Inner-Bottom
 InspectModelFrameBorderBottom2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
---- child of ModelWithControlsTemplateControlFrameZoomInButton (created in template ModelControlButtonTemplate)
---- @type Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
---- child of ModelWithControlsTemplateControlFrameZoomInButton (created in template ModelControlButtonTemplate)
---- @type Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L100)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomInButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
 --- @field zoomIn boolean # true
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
---- child of ModelWithControlsTemplateControlFrameZoomOutButton (created in template ModelControlButtonTemplate)
---- @type Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
---- child of ModelWithControlsTemplateControlFrameZoomOutButton (created in template ModelControlButtonTemplate)
---- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L109)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomOutButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
 --- @field zoomIn boolean # false
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
---- child of ModelWithControlsTemplateControlFramePanButton (created in template ModelControlButtonTemplate)
---- @type Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
---- child of ModelWithControlsTemplateControlFramePanButton (created in template ModelControlButtonTemplate)
---- @type Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L118)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton : Button, ModelControlButtonTemplate, ModelControlPanButtonMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
---- child of ModelWithControlsTemplateControlFrameRotateLeftButton (created in template ModelControlButtonTemplate)
---- @type Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
---- child of ModelWithControlsTemplateControlFrameRotateLeftButton (created in template ModelControlButtonTemplate)
---- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L124)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
 --- @field rotateDirection string # "left"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
---- child of ModelWithControlsTemplateControlFrameRotateRightButton (created in template ModelControlButtonTemplate)
---- @type Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
---- child of ModelWithControlsTemplateControlFrameRotateRightButton (created in template ModelControlButtonTemplate)
---- @type Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L133)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
 --- @field rotateDirection string # "right"
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L7)
---- child of ModelWithControlsTemplateControlFrameRotateResetButton (created in template ModelControlButtonTemplate)
---- @type Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L16)
---- child of ModelWithControlsTemplateControlFrameRotateResetButton (created in template ModelControlButtonTemplate)
---- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L142)
 --- child of ModelWithControlsTemplateControlFrame

@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.xml#L39)
---- child of GarrisonFollowerPortraitTemplate
---- @class GarrisonFollowerPortraitTemplate_Level : FontString, GameFontHighlightSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.xml#L6)
 --- Template
 --- @class GarrisonFollowerPortraitTemplate : Frame, GarrisonFollowerPortraitMixin

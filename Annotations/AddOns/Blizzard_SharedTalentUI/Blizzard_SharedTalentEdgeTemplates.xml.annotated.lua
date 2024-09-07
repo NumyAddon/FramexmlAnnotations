@@ -4,10 +4,6 @@
 --- Template
 --- @class TalentEdgeBaseTemplate : Frame, TalentEdgeBaseMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentEdgeTemplates.xml#L22)
---- child of TalentEdgeStraightTemplate
---- @class TalentEdgeStraightTemplate_ScrollAnim : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentEdgeTemplates.xml#L8)
 --- Template
 --- @class TalentEdgeStraightTemplate : Frame, TalentEdgeBaseTemplate, TalentEdgeStraightMixin

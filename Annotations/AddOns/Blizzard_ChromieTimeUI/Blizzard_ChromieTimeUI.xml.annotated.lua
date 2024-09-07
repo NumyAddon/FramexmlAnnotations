@@ -1,14 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L37)
---- child of ChromieTimeExpansionButtonTemplate
---- @class ChromieTimeExpansionButtonTemplate_RecommendLabel : Frame, NewFeatureLabelTemplate
---- @field animateGlow boolean # true
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L17)
---- child of ChromieTimeExpansionButtonTemplate
---- @class ChromieTimeExpansionButtonTemplate_Name : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L5)
 --- Template
 --- @class ChromieTimeExpansionButtonTemplate : Button, ChromieTimeExpansionButtonMixin
@@ -26,10 +17,6 @@
 --- @class ChromieTimeFrame_Background : Frame
 --- @field BackgroundTile Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L105)
---- child of 
---- @class ChromieTimeFrame_Title_Text : FontString, SystemFont_Large
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L76)
 --- child of ChromieTimeFrame
 --- @class ChromieTimeFrame_Title : Frame
@@ -46,14 +33,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L124)
 --- child of ChromieTimeFrame
 --- @class ChromieTimeFrame_SelectButton : Button, UIPanelButtonTemplate, ChromieTimeSelectButtonMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L161)
---- child of 
---- @class ChromieTimeFrame_CurrentlySelectedExpansionInfoFrame_Name : FontString, QuestFont_Super_Huge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L168)
---- child of 
---- @class ChromieTimeFrame_CurrentlySelectedExpansionInfoFrame_Description : FontString, SystemFont_Med3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L134)
 --- child of ChromieTimeFrame

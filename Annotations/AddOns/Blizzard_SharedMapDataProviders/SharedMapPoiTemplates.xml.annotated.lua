@@ -24,14 +24,6 @@
 --- Template
 --- @class LegendHighlightableMapPoiPinTemplate : Frame, LegendHighlightablePoiPinMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.xml#L77)
---- child of MapPinAnimatedHighlightTemplate
---- @class MapPinAnimatedHighlightTemplate_ExpandAndFade : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.xml#L83)
---- child of MapPinAnimatedHighlightTemplate
---- @class MapPinAnimatedHighlightTemplate_PulseBackground : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.xml#L53)
 --- Template
 --- @class MapPinAnimatedHighlightTemplate : Frame, MapPinAnimatedHighlightMixin
@@ -40,14 +32,6 @@
 --- @field Expand Texture
 --- @field ExpandAndFade MapPinAnimatedHighlightTemplate_ExpandAndFade
 --- @field PulseBackground MapPinAnimatedHighlightTemplate_PulseBackground
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.xml#L106)
---- child of MapPinPingTemplate
---- @class MapPinPingTemplate_DriverAnimation : AnimationGroup, MapPinPingDriverAnimationMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.xml#L116)
---- child of MapPinPingTemplate
---- @class MapPinPingTemplate_ScaleAnimation : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.xml#L93)
 --- Template

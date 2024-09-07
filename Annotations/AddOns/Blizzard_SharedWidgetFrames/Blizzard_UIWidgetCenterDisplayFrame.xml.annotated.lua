@@ -5,11 +5,6 @@
 --- @class UIWidgetCenterDisplayFrame_NineSlice : Frame, NineSlicePanelTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedWidgetFrames/Blizzard_UIWidgetCenterDisplayFrame.xml#L39)
---- child of 
---- @class UIWidgetCenterDisplayFrame_TitleContainer_Title : FontString, QuestFont_39
---- @field layoutIndex number # 1
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedWidgetFrames/Blizzard_UIWidgetCenterDisplayFrame.xml#L30)
 --- child of UIWidgetCenterDisplayFrame
 --- @class UIWidgetCenterDisplayFrame_TitleContainer : Frame, VerticalLayoutFrame

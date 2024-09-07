@@ -1,13 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L13)
---- child of ExpansionTrialCheckPointLevelHeaderTemplate
---- @class ExpansionTrialCheckPointLevelHeaderTemplate_Header : FontString, GameFontHighlightHuge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L19)
---- child of ExpansionTrialCheckPointLevelHeaderTemplate
---- @class ExpansionTrialCheckPointLevelHeaderTemplate_Text : FontString, GameFont_Gigantic
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L5)
 --- Template
 --- @class ExpansionTrialCheckPointLevelHeaderTemplate : Frame, ResizeLayoutFrame

@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallCommandBar.xml#L15)
---- child of OrderHallClassSpecCategoryTemplate
---- @class OrderHallClassSpecCategoryTemplate_Count : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallCommandBar.xml#L5)
 --- Template
 --- @class OrderHallClassSpecCategoryTemplate : Frame, OrderHallClassSpecCategory

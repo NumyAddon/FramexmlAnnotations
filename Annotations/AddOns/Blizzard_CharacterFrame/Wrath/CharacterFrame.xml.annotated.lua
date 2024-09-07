@@ -72,27 +72,60 @@
 --- Template
 --- @class Char-Inner-Right : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L88)
+--- child of CharacterStatFrameCategoryTemplate
+--- @class CharacterStatFrameCategoryTemplate_Title : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L77)
 --- Template
 --- @class CharacterStatFrameCategoryTemplate : Frame
+--- @field Background Texture
+--- @field Title CharacterStatFrameCategoryTemplate_Title
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L145)
+--- child of CharacterNameFrame
+--- @class CharacterFrame_CharacterNameFrame_CharacterNameText : FontString, GameFontNormal
+CharacterNameText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L132)
+--- child of CharacterFrame
+--- @class CharacterFrame_CharacterNameFrame : Frame
+CharacterNameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L162)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameCloseButton : Button, UIPanelCloseButton
+CharacterFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L176)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab1 : Button, CharacterFrameTabButtonTemplate
+CharacterFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L192)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab2 : Button, CharacterFrameTabButtonTemplate
+CharacterFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L208)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab3 : Button, CharacterFrameTabButtonTemplate
+CharacterFrameTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L224)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab4 : Button, CharacterFrameTabButtonTemplate
+CharacterFrameTab4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L240)
+--- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameTab5 : Button, CharacterFrameTabButtonTemplate
+CharacterFrameTab5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L117)
+--- child of CharacterFrame
+--- @class CharacterFrame_CharacterFramePortrait : Texture
+CharacterFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Wrath/CharacterFrame.xml#L101)
 --- @class CharacterFrame : Frame

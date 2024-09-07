@@ -55,4 +55,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueButtons.xml#L174)
 --- Template
 --- @class GluePanelButtonTemplate : Button, UIButtonMixin
+--- @field Left Texture
+--- @field Right Texture
+--- @field Middle Texture
 

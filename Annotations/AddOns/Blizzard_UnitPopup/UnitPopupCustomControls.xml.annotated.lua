@@ -17,12 +17,15 @@
 --- @class UnitPopupVoiceLevelsTemplate : Frame, UIDropDownCustomMenuEntryTemplate, UnitPopupVoiceLevelsMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L59)
+--- child of UnitPopupVoiceSpeakerVolume
 --- @class UnitPopupVoiceSpeakerVolume_Text : Frame, UnitPopupVoiceTextTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L60)
+--- child of UnitPopupVoiceSpeakerVolume
 --- @class UnitPopupVoiceSpeakerVolume_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleDeafenMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L61)
+--- child of UnitPopupVoiceSpeakerVolume
 --- @class UnitPopupVoiceSpeakerVolume_Slider : Slider, UnitPopupVoiceSliderTemplate, UnitPopupVoiceSpeakerVolumeSliderMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L56)
@@ -33,12 +36,15 @@
 UnitPopupVoiceSpeakerVolume = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L68)
+--- child of UnitPopupVoiceMicrophoneVolume
 --- @class UnitPopupVoiceMicrophoneVolume_Text : Frame, UnitPopupVoiceTextTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L69)
+--- child of UnitPopupVoiceMicrophoneVolume
 --- @class UnitPopupVoiceMicrophoneVolume_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleMuteMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L70)
+--- child of UnitPopupVoiceMicrophoneVolume
 --- @class UnitPopupVoiceMicrophoneVolume_Slider : Slider, UnitPopupVoiceSliderTemplate, UnitPopupVoiceMicrophoneVolumeSliderMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L65)
@@ -49,12 +55,15 @@ UnitPopupVoiceSpeakerVolume = {}
 UnitPopupVoiceMicrophoneVolume = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L77)
+--- child of UnitPopupVoiceUserVolume
 --- @class UnitPopupVoiceUserVolume_Text : Frame, UnitPopupVoiceTextTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L78)
+--- child of UnitPopupVoiceUserVolume
 --- @class UnitPopupVoiceUserVolume_Toggle : Button, UnitPopupVoiceToggleButtonTemplate, UnitPopupToggleUserMuteMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L79)
+--- child of UnitPopupVoiceUserVolume
 --- @class UnitPopupVoiceUserVolume_Slider : Slider, UnitPopupVoiceSliderTemplate, UnitPopupVoiceUserVolumeSliderMixin, UnitPopupVoiceMemberInfoMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L74)

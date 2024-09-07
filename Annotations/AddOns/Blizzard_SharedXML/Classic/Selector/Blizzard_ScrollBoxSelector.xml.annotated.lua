@@ -1,9 +1,11 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/Selector/Blizzard_ScrollBoxSelector.xml#L7)
+--- child of ScrollBoxSelectorTemplate
 --- @class ScrollBoxSelectorTemplate_ScrollBar : EventFrame, WowTrimScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/Selector/Blizzard_ScrollBoxSelector.xml#L14)
+--- child of ScrollBoxSelectorTemplate
 --- @class ScrollBoxSelectorTemplate_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/Selector/Blizzard_ScrollBoxSelector.xml#L4)

@@ -14,7 +14,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L106)
 --- child of 
---- @class Name : FontString, GameFontNormalSmall
+--- @class PartyMemberPetFrameTemplateName : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L97)
 --- child of 
@@ -50,7 +50,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L221)
 --- child of 
---- @class Name : FontString, GameFontNormalSmall
+--- @class PartyMemberFrameTemplateName : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L206)
 --- child of 

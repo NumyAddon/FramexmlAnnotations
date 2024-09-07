@@ -845,10 +845,34 @@ ReputationHeader15Highlight = {}
 --- @class ReputationFrame_ReputationHeader15 : Button, ReputationHeaderTemplate
 ReputationHeader15 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L548)
 --- child of ReputationFrame
 --- @class ReputationFrame_ReputationListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 ReputationListScrollFrame = {}
+ReputationListScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L595)
 --- child of ReputationFrame
@@ -875,6 +899,11 @@ ReputationDetailAtWarCheckboxText = {}
 --- @class ReputationFrame_ReputationDetailFrame_ReputationDetailAtWarCheckbox : CheckButton
 ReputationDetailAtWarCheckbox = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L468)
+--- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+OptionsBaseCheckButtonTemplateText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L21)
 --- child of ReputationDetailInactiveCheckbox (created in template OptionsSmallCheckButtonTemplate)
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
@@ -885,6 +914,11 @@ ReputationDetailInactiveCheckboxText = {}
 --- @class ReputationFrame_ReputationDetailFrame_ReputationDetailInactiveCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
 ReputationDetailInactiveCheckbox = {}
 ReputationDetailInactiveCheckbox["Text"] = ReputationDetailInactiveCheckboxText -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L468)
+--- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+OptionsBaseCheckButtonTemplateText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L21)
 --- child of ReputationDetailMainScreenCheckbox (created in template OptionsSmallCheckButtonTemplate)

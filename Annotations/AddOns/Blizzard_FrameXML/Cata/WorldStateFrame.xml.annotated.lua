@@ -404,10 +404,34 @@ WorldStateScoreButton1["healingDone"] = WorldStateScoreButton1HealingDone -- inh
 --- @class WorldStateScoreFrame_WorldStateScoreScrollFrame_WorldStateScoreScrollFrameScrollBarTop : Texture
 WorldStateScoreScrollFrameScrollBarTop = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L775)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrame_WorldStateScoreScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 WorldStateScoreScrollFrame = {}
+WorldStateScoreScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L831)
 --- child of WorldStateScoreFrame
@@ -538,6 +562,7 @@ WorldStateScoreFrameTab3 = {}
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrame_WorldStateScoreFrameLeaveButton : Button, UIPanelButtonTemplate
 WorldStateScoreFrameLeaveButton = {}
+WorldStateScoreFrameLeaveButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L904)
 --- child of WorldStateScoreWinnerFrame

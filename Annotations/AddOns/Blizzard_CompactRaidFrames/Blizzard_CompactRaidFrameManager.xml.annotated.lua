@@ -93,45 +93,525 @@ CompactRaidFrameManagerDisplayFrameOptionFlowContainer = {}
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameProfileSelector : DropdownButton, WowStyle1DropdownTemplate
 CompactRaidFrameManagerDisplayFrameProfileSelector = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L985)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L992)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L999)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1006)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1013)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1021)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1029)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1037)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1045)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L6)
+--- child of CRFManagerFilterGroupButtonTemplate (created in template CRFManagerFilterButtonTemplate)
+--- @type Texture
+CRFManagerFilterGroupButtonTemplateSelectedHighlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L346)
 --- child of CompactRaidFrameManagerDisplayFrameFilterOptions
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1 : Button, CRFManagerFilterGroupButtonTemplate
 CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1 = {}
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1["TopLeft"] = CRFManagerFilterButtonTemplateTopLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1["TopRight"] = CRFManagerFilterButtonTemplateTopRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1["BottomLeft"] = CRFManagerFilterButtonTemplateBottomLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1["BottomRight"] = CRFManagerFilterButtonTemplateBottomRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1["TopMiddle"] = CRFManagerFilterButtonTemplateTopMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1["MiddleLeft"] = CRFManagerFilterButtonTemplateMiddleLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1["MiddleRight"] = CRFManagerFilterButtonTemplateMiddleRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1["BottomMiddle"] = CRFManagerFilterButtonTemplateBottomMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1["MiddleMiddle"] = CRFManagerFilterButtonTemplateMiddleMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1["selectedHighlight"] = CRFManagerFilterGroupButtonTemplateSelectedHighlight -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L985)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L992)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L999)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1006)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1013)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1021)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1029)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1037)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1045)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L6)
+--- child of CRFManagerFilterGroupButtonTemplate (created in template CRFManagerFilterButtonTemplate)
+--- @type Texture
+CRFManagerFilterGroupButtonTemplateSelectedHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L351)
 --- child of CompactRaidFrameManagerDisplayFrameFilterOptions
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2 : Button, CRFManagerFilterGroupButtonTemplate
 CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2 = {}
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2["TopLeft"] = CRFManagerFilterButtonTemplateTopLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2["TopRight"] = CRFManagerFilterButtonTemplateTopRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2["BottomLeft"] = CRFManagerFilterButtonTemplateBottomLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2["BottomRight"] = CRFManagerFilterButtonTemplateBottomRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2["TopMiddle"] = CRFManagerFilterButtonTemplateTopMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2["MiddleLeft"] = CRFManagerFilterButtonTemplateMiddleLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2["MiddleRight"] = CRFManagerFilterButtonTemplateMiddleRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2["BottomMiddle"] = CRFManagerFilterButtonTemplateBottomMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2["MiddleMiddle"] = CRFManagerFilterButtonTemplateMiddleMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup2["selectedHighlight"] = CRFManagerFilterGroupButtonTemplateSelectedHighlight -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L985)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L992)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L999)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1006)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1013)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1021)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1029)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1037)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1045)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L6)
+--- child of CRFManagerFilterGroupButtonTemplate (created in template CRFManagerFilterButtonTemplate)
+--- @type Texture
+CRFManagerFilterGroupButtonTemplateSelectedHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L356)
 --- child of CompactRaidFrameManagerDisplayFrameFilterOptions
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3 : Button, CRFManagerFilterGroupButtonTemplate
 CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3 = {}
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3["TopLeft"] = CRFManagerFilterButtonTemplateTopLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3["TopRight"] = CRFManagerFilterButtonTemplateTopRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3["BottomLeft"] = CRFManagerFilterButtonTemplateBottomLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3["BottomRight"] = CRFManagerFilterButtonTemplateBottomRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3["TopMiddle"] = CRFManagerFilterButtonTemplateTopMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3["MiddleLeft"] = CRFManagerFilterButtonTemplateMiddleLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3["MiddleRight"] = CRFManagerFilterButtonTemplateMiddleRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3["BottomMiddle"] = CRFManagerFilterButtonTemplateBottomMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3["MiddleMiddle"] = CRFManagerFilterButtonTemplateMiddleMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup3["selectedHighlight"] = CRFManagerFilterGroupButtonTemplateSelectedHighlight -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L985)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L992)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L999)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1006)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1013)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1021)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1029)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1037)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1045)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L6)
+--- child of CRFManagerFilterGroupButtonTemplate (created in template CRFManagerFilterButtonTemplate)
+--- @type Texture
+CRFManagerFilterGroupButtonTemplateSelectedHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L361)
 --- child of CompactRaidFrameManagerDisplayFrameFilterOptions
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4 : Button, CRFManagerFilterGroupButtonTemplate
 CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4 = {}
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4["TopLeft"] = CRFManagerFilterButtonTemplateTopLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4["TopRight"] = CRFManagerFilterButtonTemplateTopRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4["BottomLeft"] = CRFManagerFilterButtonTemplateBottomLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4["BottomRight"] = CRFManagerFilterButtonTemplateBottomRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4["TopMiddle"] = CRFManagerFilterButtonTemplateTopMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4["MiddleLeft"] = CRFManagerFilterButtonTemplateMiddleLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4["MiddleRight"] = CRFManagerFilterButtonTemplateMiddleRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4["BottomMiddle"] = CRFManagerFilterButtonTemplateBottomMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4["MiddleMiddle"] = CRFManagerFilterButtonTemplateMiddleMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup4["selectedHighlight"] = CRFManagerFilterGroupButtonTemplateSelectedHighlight -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L985)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L992)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L999)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1006)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1013)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1021)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1029)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1037)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1045)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L6)
+--- child of CRFManagerFilterGroupButtonTemplate (created in template CRFManagerFilterButtonTemplate)
+--- @type Texture
+CRFManagerFilterGroupButtonTemplateSelectedHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L366)
 --- child of CompactRaidFrameManagerDisplayFrameFilterOptions
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5 : Button, CRFManagerFilterGroupButtonTemplate
 CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5 = {}
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5["TopLeft"] = CRFManagerFilterButtonTemplateTopLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5["TopRight"] = CRFManagerFilterButtonTemplateTopRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5["BottomLeft"] = CRFManagerFilterButtonTemplateBottomLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5["BottomRight"] = CRFManagerFilterButtonTemplateBottomRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5["TopMiddle"] = CRFManagerFilterButtonTemplateTopMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5["MiddleLeft"] = CRFManagerFilterButtonTemplateMiddleLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5["MiddleRight"] = CRFManagerFilterButtonTemplateMiddleRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5["BottomMiddle"] = CRFManagerFilterButtonTemplateBottomMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5["MiddleMiddle"] = CRFManagerFilterButtonTemplateMiddleMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup5["selectedHighlight"] = CRFManagerFilterGroupButtonTemplateSelectedHighlight -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L985)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L992)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L999)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1006)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1013)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1021)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1029)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1037)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1045)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L6)
+--- child of CRFManagerFilterGroupButtonTemplate (created in template CRFManagerFilterButtonTemplate)
+--- @type Texture
+CRFManagerFilterGroupButtonTemplateSelectedHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L371)
 --- child of CompactRaidFrameManagerDisplayFrameFilterOptions
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6 : Button, CRFManagerFilterGroupButtonTemplate
 CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6 = {}
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6["TopLeft"] = CRFManagerFilterButtonTemplateTopLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6["TopRight"] = CRFManagerFilterButtonTemplateTopRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6["BottomLeft"] = CRFManagerFilterButtonTemplateBottomLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6["BottomRight"] = CRFManagerFilterButtonTemplateBottomRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6["TopMiddle"] = CRFManagerFilterButtonTemplateTopMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6["MiddleLeft"] = CRFManagerFilterButtonTemplateMiddleLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6["MiddleRight"] = CRFManagerFilterButtonTemplateMiddleRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6["BottomMiddle"] = CRFManagerFilterButtonTemplateBottomMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6["MiddleMiddle"] = CRFManagerFilterButtonTemplateMiddleMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup6["selectedHighlight"] = CRFManagerFilterGroupButtonTemplateSelectedHighlight -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L985)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L992)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L999)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1006)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1013)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1021)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1029)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1037)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1045)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L6)
+--- child of CRFManagerFilterGroupButtonTemplate (created in template CRFManagerFilterButtonTemplate)
+--- @type Texture
+CRFManagerFilterGroupButtonTemplateSelectedHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L376)
 --- child of CompactRaidFrameManagerDisplayFrameFilterOptions
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7 : Button, CRFManagerFilterGroupButtonTemplate
 CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7 = {}
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7["TopLeft"] = CRFManagerFilterButtonTemplateTopLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7["TopRight"] = CRFManagerFilterButtonTemplateTopRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7["BottomLeft"] = CRFManagerFilterButtonTemplateBottomLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7["BottomRight"] = CRFManagerFilterButtonTemplateBottomRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7["TopMiddle"] = CRFManagerFilterButtonTemplateTopMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7["MiddleLeft"] = CRFManagerFilterButtonTemplateMiddleLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7["MiddleRight"] = CRFManagerFilterButtonTemplateMiddleRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7["BottomMiddle"] = CRFManagerFilterButtonTemplateBottomMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7["MiddleMiddle"] = CRFManagerFilterButtonTemplateMiddleMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup7["selectedHighlight"] = CRFManagerFilterGroupButtonTemplateSelectedHighlight -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L985)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L992)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L999)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1006)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1013)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateTopMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1021)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1029)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1037)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateBottomMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L1045)
+--- child of CRFManagerFilterButtonTemplate (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+CRFManagerFilterButtonTemplateMiddleMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L6)
+--- child of CRFManagerFilterGroupButtonTemplate (created in template CRFManagerFilterButtonTemplate)
+--- @type Texture
+CRFManagerFilterGroupButtonTemplateSelectedHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L381)
 --- child of CompactRaidFrameManagerDisplayFrameFilterOptions
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameFilterOptions_CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8 : Button, CRFManagerFilterGroupButtonTemplate
 CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8 = {}
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8["TopLeft"] = CRFManagerFilterButtonTemplateTopLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8["TopRight"] = CRFManagerFilterButtonTemplateTopRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8["BottomLeft"] = CRFManagerFilterButtonTemplateBottomLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8["BottomRight"] = CRFManagerFilterButtonTemplateBottomRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8["TopMiddle"] = CRFManagerFilterButtonTemplateTopMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8["MiddleLeft"] = CRFManagerFilterButtonTemplateMiddleLeft -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8["MiddleRight"] = CRFManagerFilterButtonTemplateMiddleRight -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8["BottomMiddle"] = CRFManagerFilterButtonTemplateBottomMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8["MiddleMiddle"] = CRFManagerFilterButtonTemplateMiddleMiddle -- inherited
+CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup8["selectedHighlight"] = CRFManagerFilterGroupButtonTemplateSelectedHighlight -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L336)
 --- child of CompactRaidFrameManagerDisplayFrameFilterOptions

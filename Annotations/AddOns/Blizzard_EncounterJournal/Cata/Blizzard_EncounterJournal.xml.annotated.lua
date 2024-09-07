@@ -2,315 +2,315 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L4)
 --- Template
---- @class _FilterButtonUp-Mid : Texture
+--- @class _FilterButtonUp_Mid : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L8)
 --- Template
---- @class _FilterButtonDown-Mid : Texture
+--- @class _FilterButtonDown_Mid : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L12)
 --- Template
---- @class _FilterButtonHighlight-Mid : Texture
+--- @class _FilterButtonHighlight_Mid : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L16)
 --- Template
---- @class _PaperHeader-UnSelectDown-Mid : Texture
+--- @class _PaperHeader_UnSelectDown_Mid : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L20)
 --- Template
---- @class _PaperHeader-UnSelectUp-Mid : Texture
+--- @class _PaperHeader_UnSelectUp_Mid : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L24)
 --- Template
---- @class _PaperHeader-SelectDown-Mid : Texture
+--- @class _PaperHeader_SelectDown_Mid : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L28)
 --- Template
---- @class _PaperHeader-Highlight-Mid : Texture
+--- @class _PaperHeader_Highlight_Mid : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L32)
 --- Template
---- @class _DungeonGridTab-MidHighlight : Texture
+--- @class _DungeonGridTab_MidHighlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L36)
 --- Template
---- @class _DungeonGridTab-MidSelect : Texture
+--- @class _DungeonGridTab_MidSelect : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L40)
 --- Template
---- @class _DungeonGridTab-Mid : Texture
+--- @class _DungeonGridTab_Mid : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L46)
 --- Template
---- @class UI-EJ-AbilityIconBorder : Texture
+--- @class UI_EJ_AbilityIconBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L50)
 --- Template
---- @class UI-EJ-DungeonGridTab-SelectedGlow : Texture
+--- @class UI_EJ_DungeonGridTab_SelectedGlow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L54)
 --- Template
---- @class UI-EJ-DungeonGridTab-Shadow : Texture
+--- @class UI_EJ_DungeonGridTab_Shadow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L58)
 --- Template
---- @class UI-EJ-ReturnToDefault : Texture
+--- @class UI_EJ_ReturnToDefault : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L62)
 --- Template
---- @class UI-EJ-BossModelButton : Texture
+--- @class UI_EJ_BossModelButton : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L66)
 --- Template
---- @class UI-EJ-CreatureHeaderFrameSm-bg : Texture
+--- @class UI_EJ_CreatureHeaderFrameSm_bg : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L70)
 --- Template
---- @class UI-EJ-FilterButtonDown : Texture
+--- @class UI_EJ_FilterButtonDown : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L74)
 --- Template
---- @class UI-EJ-CreatureHeaderFrameSm : Texture
+--- @class UI_EJ_CreatureHeaderFrameSm : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L78)
 --- Template
---- @class UI-EJ-FilterButtonHighlight : Texture
+--- @class UI_EJ_FilterButtonHighlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L82)
 --- Template
---- @class UI-EJ-DungeonGridTab-Left : Texture
+--- @class UI_EJ_DungeonGridTab_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L86)
 --- Template
---- @class UI-EJ-DungeonGridTab-LeftHighlight : Texture
+--- @class UI_EJ_DungeonGridTab_LeftHighlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L90)
 --- Template
---- @class UI-EJ-DungeonGridTab-LeftSelect : Texture
+--- @class UI_EJ_DungeonGridTab_LeftSelect : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L94)
 --- Template
---- @class UI-EJ-DungeonGridTab-Right : Texture
+--- @class UI_EJ_DungeonGridTab_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L98)
 --- Template
---- @class UI-EJ-DungeonGridTab-RightHighlight : Texture
+--- @class UI_EJ_DungeonGridTab_RightHighlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L102)
 --- Template
---- @class UI-EJ-DungeonGridTab-RightSelect : Texture
+--- @class UI_EJ_DungeonGridTab_RightSelect : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L106)
 --- Template
---- @class UI-EJ-FilterButtonSelect : Texture
+--- @class UI_EJ_FilterButtonSelect : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L110)
 --- Template
---- @class UI-EJ-SearchIconFrameSm : Texture
+--- @class UI_EJ_SearchIconFrameSm : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L114)
 --- Template
---- @class UI-EJ-FilterButtonUp : Texture
+--- @class UI_EJ_FilterButtonUp : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L118)
 --- Template
---- @class UI-EJ-BossButton-Down : Texture
+--- @class UI_EJ_BossButton_Down : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L122)
 --- Template
---- @class UI-EJ-MapButtonSm-Down : Texture
+--- @class UI_EJ_MapButtonSm_Down : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L126)
 --- Template
---- @class UI-EJ-MapButtonSm-Highlight : Texture
+--- @class UI_EJ_MapButtonSm_Highlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L130)
 --- Template
---- @class UI-EJ-MapButtonSm-Selection : Texture
+--- @class UI_EJ_MapButtonSm_Selection : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L134)
 --- Template
---- @class UI-EJ-BossButton-Highlight : Texture
+--- @class UI_EJ_BossButton_Highlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L138)
 --- Template
---- @class UI-EJ-MapButtonSm-Up : Texture
+--- @class UI_EJ_MapButtonSm_Up : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L142)
 --- Template
---- @class UI-EJ-PaperHeader-Highlight-Left : Texture
+--- @class UI_EJ_PaperHeader_Highlight_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L146)
 --- Template
---- @class UI-EJ-PaperHeader-Highlight-Right : Texture
+--- @class UI_EJ_PaperHeader_Highlight_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L150)
 --- Template
---- @class UI-EJ-BossButton-Up : Texture
+--- @class UI_EJ_BossButton_Up : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L154)
 --- Template
---- @class UI-EJ-PaperHeader-SelectDown-Left : Texture
+--- @class UI_EJ_PaperHeader_SelectDown_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L158)
 --- Template
---- @class UI-EJ-PaperHeader-SelectDown-Right : Texture
+--- @class UI_EJ_PaperHeader_SelectDown_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L162)
 --- Template
---- @class UI-EJ-BossNameShadow : Texture
+--- @class UI_EJ_BossNameShadow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L166)
 --- Template
---- @class UI-EJ-MapButtonLg-Down : Texture
+--- @class UI_EJ_MapButtonLg_Down : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L170)
 --- Template
---- @class UI-EJ-Tab-BossIcon-Selected : Texture
+--- @class UI_EJ_Tab_BossIcon_Selected : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L174)
 --- Template
---- @class UI-EJ-DungeonButton-Down : Texture
+--- @class UI_EJ_DungeonButton_Down : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L178)
 --- Template
---- @class UI-EJ-DungeonButton-Highlight : Texture
+--- @class UI_EJ_DungeonButton_Highlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L182)
 --- Template
---- @class UI-EJ-MapButtonLg-Highlight : Texture
+--- @class UI_EJ_MapButtonLg_Highlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L186)
 --- Template
---- @class UI-EJ-MapButtonLg-Select : Texture
+--- @class UI_EJ_MapButtonLg_Select : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L190)
 --- Template
---- @class UI-EJ-DungeonButton-Up : Texture
+--- @class UI_EJ_DungeonButton_Up : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L194)
 --- Template
---- @class UI-EJ-DungeonNameBg : Texture
+--- @class UI_EJ_DungeonNameBg : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L198)
 --- Template
---- @class UI-EJ-PaperHeader-SelectUp-Right : Texture
+--- @class UI_EJ_PaperHeader_SelectUp_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L202)
 --- Template
---- @class UI-EJ-PaperHeader-UnSelectDown-Left : Texture
+--- @class UI_EJ_PaperHeader_UnSelectDown_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L206)
 --- Template
---- @class UI-EJ-PaperHeader-UnSelectDown-Right : Texture
+--- @class UI_EJ_PaperHeader_UnSelectDown_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L210)
 --- Template
---- @class UI-EJ-MapButtonLg-Up : Texture
+--- @class UI_EJ_MapButtonLg_Up : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L214)
 --- Template
---- @class UI-EJ-PaperHeader-UnSelectUp-Left : Texture
+--- @class UI_EJ_PaperHeader_UnSelectUp_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L218)
 --- Template
---- @class UI-EJ-DungeonLootFrame : Texture
+--- @class UI_EJ_DungeonLootFrame : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L222)
 --- Template
---- @class UI-EJ-PaperHeader-UnSelectUp-Right : Texture
+--- @class UI_EJ_PaperHeader_UnSelectUp_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L226)
 --- Template
---- @class UI-EJ-Tab-BossIcon-UnSelected : Texture
+--- @class UI_EJ_Tab_BossIcon_UnSelected : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L230)
 --- Template
---- @class UI-EJ-FilterBar : Texture
+--- @class UI_EJ_FilterBar : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L234)
 --- Template
---- @class UI-EJ-SearchBarHighlightSm : Texture
+--- @class UI_EJ_SearchBarHighlightSm : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L238)
 --- Template
---- @class UI-EJ-LootFrame : Texture
+--- @class UI_EJ_LootFrame : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L242)
 --- Template
---- @class UI-EJ-Tab-LootIcon-Selected : Texture
+--- @class UI_EJ_Tab_LootIcon_Selected : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L246)
 --- Template
---- @class UI-EJ-Tab-LootIcon-UnSelected : Texture
+--- @class UI_EJ_Tab_LootIcon_UnSelected : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L250)
 --- Template
---- @class UI-EJ-LoreTextCover-Bottom : Texture
+--- @class UI_EJ_LoreTextCover_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L254)
 --- Template
---- @class UI-EJ-LoreTextCover-Top : Texture
+--- @class UI_EJ_LoreTextCover_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L258)
 --- Template
---- @class UI-EJ-MainTextCover-Bottom : Texture
+--- @class UI_EJ_MainTextCover_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L262)
 --- Template
---- @class UI-EJ-MainTextCover-Top : Texture
+--- @class UI_EJ_MainTextCover_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L266)
 --- Template
---- @class UI-EJ-MoreTextBelowHighlight : Texture
+--- @class UI_EJ_MoreTextBelowHighlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L270)
 --- Template
---- @class UI-EJ-SearchBarHighlightLg : Texture
+--- @class UI_EJ_SearchBarHighlightLg : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L274)
 --- Template
---- @class UI-EJ-ShowMapBG : Texture
+--- @class UI_EJ_ShowMapBG : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L278)
 --- Template
---- @class UI-EJ-Tab-Highlight : Texture
+--- @class UI_EJ_Tab_Highlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L282)
 --- Template
---- @class UI-EJ-Tab-Selected : Texture
+--- @class UI_EJ_Tab_Selected : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L286)
 --- Template
---- @class UI-EJ-Tab-UnSelected : Texture
+--- @class UI_EJ_Tab_UnSelected : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L290)
 --- Template
---- @class UI-EJ-Tab-ModelIcon-Selected : Texture
+--- @class UI_EJ_Tab_ModelIcon_Selected : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L294)
 --- Template
---- @class UI-EJ-Tab-ModelIcon-UnSelected : Texture
+--- @class UI_EJ_Tab_ModelIcon_UnSelected : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L298)
 --- Template
---- @class UI-EJ-LeftPageHeader : Texture
+--- @class UI_EJ_LeftPageHeader : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L302)
 --- Template
---- @class UI-EJ-RightPageHeader : Texture
+--- @class UI_EJ_RightPageHeader : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L306)
 --- Template
---- @class UI-EJ-Tab-AbilitiesIcon-Selected : Texture
+--- @class UI_EJ_Tab_AbilitiesIcon_Selected : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L310)
 --- Template
---- @class UI-EJ-Tab-AbilitiesIcon-UnSelected : Texture
+--- @class UI_EJ_Tab_AbilitiesIcon_UnSelected : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L314)
 --- Template
---- @class UI-EJ-Header-Overview : Texture
+--- @class UI_EJ_Header_Overview : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L377)
 --- child of EncounterInstanceButtonTemplate
@@ -764,6 +764,17 @@
 --- @field leftHighlight BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftHighlight
 --- @field rightHighlight BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightHighlight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1262)
+--- child of SearchBoxListTemplate (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @field texture Texture
+SearchBoxListTemplateClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1253)
+--- child of SearchBoxListTemplate (created in template SearchBoxTemplate)
+--- @type Texture
+SearchBoxListTemplateSearchIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2665)
 --- child of SearchBoxListTemplateSearchProgressLoading
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_spinner : Frame, SpinnerTemplate
@@ -807,6 +818,8 @@ EncounterJournalSearchBoxSearchProgress["bar"] = SearchBoxListTemplateSearchProg
 --- @field buttonTemplate string # "EncounterSearchSMTemplate"
 EncounterJournalSearchBox = {}
 EncounterJournalSearchBox["buttonTemplate"] = "EncounterSearchSMTemplate"
+EncounterJournalSearchBox["clearButton"] = SearchBoxListTemplateClearButton -- inherited
+EncounterJournalSearchBox["searchIcon"] = SearchBoxListTemplateSearchIcon -- inherited
 EncounterJournalSearchBox["searchProgress"] = EncounterJournalSearchBoxSearchProgress -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2515)
@@ -1226,24 +1239,24 @@ EncounterJournalEncounterFrameInfoOverviewScrollFrame = {}
 EncounterJournalEncounterFrameInfoOverviewScrollFrame["scrollBarX"] = -15
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1881)
---- child of ClassFilterClearFrame
---- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_ClassFilterClearFrame_ClassFilterClearFrameExitButton : Button
+--- child of EncounterJournalEncounterFrameInfoClassFilterClearFrame
+--- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_EncounterJournalEncounterFrameInfoClassFilterClearFrame_EncounterJournalEncounterFrameInfoClassFilterClearFrameExitButton : Button
 --- @field texture Texture
-ClassFilterClearFrameExitButton = {}
+EncounterJournalEncounterFrameInfoClassFilterClearFrameExitButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1863)
---- child of ClassFilterClearFrame
+--- child of EncounterJournalEncounterFrameInfoClassFilterClearFrame
 --- @class  : Texture, UI-EJ-FilterBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1871)
---- child of ClassFilterClearFrame
---- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_ClassFilterClearFrame_text : FontString, GameFontNormalSmall
+--- child of EncounterJournalEncounterFrameInfoClassFilterClearFrame
+--- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_EncounterJournalEncounterFrameInfoClassFilterClearFrame_text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1856)
 --- child of 
---- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_ClassFilterClearFrame : Frame
---- @field text EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_ClassFilterClearFrame_text
-ClassFilterClearFrame = {}
+--- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_EncounterJournalEncounterFrameInfoClassFilterClearFrame : Frame
+--- @field text EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_EncounterJournalEncounterFrameInfoClassFilterClearFrame_text
+EncounterJournalEncounterFrameInfoClassFilterClearFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1919)
 --- child of 
@@ -1264,7 +1277,7 @@ ClassFilterClearFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1850)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer : Frame
---- @field classClearFilter EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_ClassFilterClearFrame
+--- @field classClearFilter EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_EncounterJournalEncounterFrameInfoClassFilterClearFrame
 --- @field ScrollBox EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_ScrollBox
 --- @field ScrollBar EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_ScrollBar
 --- @field filter EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_filter
@@ -1539,6 +1552,76 @@ EncounterJournalRaidTab["midHighlight"] = EncounterJournalRaidTabMidHighlight --
 EncounterJournalRaidTab["leftHighlight"] = EncounterJournalRaidTabLeftHighlight -- inherited
 EncounterJournalRaidTab["rightHighlight"] = EncounterJournalRaidTabRightHighlight -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L563)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplateBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L569)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+PortraitFrameTemplateTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L577)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplatePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L585)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+PortraitFrameTemplatePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L590)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+PortraitFrameTemplateTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L595)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+PortraitFrameTemplateTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L600)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+PortraitFrameTemplateTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L606)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+PortraitFrameTemplateTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L615)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+PortraitFrameTemplateTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L621)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+PortraitFrameTemplateBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L626)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+PortraitFrameTemplateBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L631)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+PortraitFrameTemplateBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L637)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+PortraitFrameTemplateLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L643)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+PortraitFrameTemplateRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L657)
 --- child of EncounterJournal (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
@@ -1563,6 +1646,20 @@ EncounterJournal["instanceSelect"] = EncounterJournalInstanceSelect
 EncounterJournal["encounter"] = EncounterJournalEncounterFrame
 EncounterJournal["dungeonsTab"] = EncounterJournalDungeonTab
 EncounterJournal["raidsTab"] = EncounterJournalRaidTab
+EncounterJournal["Bg"] = PortraitFrameTemplateBg -- inherited
+EncounterJournal["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
+EncounterJournal["portrait"] = PortraitFrameTemplatePortrait -- inherited
+EncounterJournal["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
+EncounterJournal["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
+EncounterJournal["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
+EncounterJournal["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
+EncounterJournal["TitleText"] = PortraitFrameTemplateTitleText -- inherited
+EncounterJournal["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
+EncounterJournal["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
+EncounterJournal["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
+EncounterJournal["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
+EncounterJournal["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
+EncounterJournal["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
 EncounterJournal["CloseButton"] = EncounterJournalCloseButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L222)
@@ -1706,6 +1803,7 @@ EncounterJournalTooltipItem1TooltipTexture10 = {}
 --- @field IsEmbedded boolean # true
 EncounterJournalTooltipItem1Tooltip = {}
 EncounterJournalTooltipItem1Tooltip["IsEmbedded"] = true
+EncounterJournalTooltipItem1Tooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2088)
 --- child of EncounterJournalTooltipItem1

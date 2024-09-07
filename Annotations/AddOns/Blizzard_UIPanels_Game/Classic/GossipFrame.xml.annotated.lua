@@ -6,13 +6,13 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L99)
 --- child of 
---- @class GossipFrame_PortraitContainer_Portrait : Texture
-Portrait = {}
+--- @class GossipFrame_PortraitContainer_GossipFramePortrait : Texture
+GossipFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L92)
 --- child of GossipFrame
 --- @class GossipFrame_PortraitContainer : Frame
---- @field portrait GossipFrame_PortraitContainer_Portrait
+--- @field portrait GossipFrame_PortraitContainer_GossipFramePortrait
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L115)
 --- child of 
@@ -38,6 +38,26 @@ Portrait = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L164)
 --- child of 
 --- @class GossipFrame_GreetingPanel_ScrollBar : EventFrame, WowTrimScrollBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L44)
+--- child of  (created in template GossipFramePanelTemplate)
+--- @type Texture
+GossipFrameMaterialTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L56)
+--- child of  (created in template GossipFramePanelTemplate)
+--- @type Texture
+GossipFrameMaterialTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L64)
+--- child of  (created in template GossipFramePanelTemplate)
+--- @type Texture
+GossipFrameMaterialBotLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L72)
+--- child of  (created in template GossipFramePanelTemplate)
+--- @type Texture
+GossipFrameMaterialBotRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L133)
 --- child of GossipFrame

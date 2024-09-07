@@ -291,11 +291,13 @@ TabardFrameMoneyFrame["GoldButton"] = TabardFrameMoneyFrameGoldButton -- inherit
 --- child of TabardFrame
 --- @class TabardFrame_TabardFrameAcceptButton : Button, UIPanelButtonTemplate
 TabardFrameAcceptButton = {}
+TabardFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L408)
 --- child of TabardFrame
 --- @class TabardFrame_TabardFrameCancelButton : Button, UIPanelButtonTemplate
 TabardFrameCancelButton = {}
+TabardFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L417)
 --- child of TabardFrame

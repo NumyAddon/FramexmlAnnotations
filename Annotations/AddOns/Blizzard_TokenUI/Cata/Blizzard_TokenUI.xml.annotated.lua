@@ -16,6 +16,31 @@
 --- @field categoryRight Texture
 --- @field categoryMiddle Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L15)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L20)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L27)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L34)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L43)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L51)
 --- child of TokenFrameContainerScrollBar (created in template HybridScrollBarTemplate)
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
@@ -30,6 +55,11 @@ TokenFrameContainerScrollBarScrollDownButton = {}
 --- child of TokenFrameContainer
 --- @class TokenFrame_TokenFrameContainer_TokenFrameContainerScrollBar : Slider, HybridScrollBarTemplate
 TokenFrameContainerScrollBar = {}
+TokenFrameContainerScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
+TokenFrameContainerScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
+TokenFrameContainerScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
+TokenFrameContainerScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
+TokenFrameContainerScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 TokenFrameContainerScrollBar["ScrollUpButton"] = TokenFrameContainerScrollBarScrollUpButton -- inherited
 TokenFrameContainerScrollBar["ScrollDownButton"] = TokenFrameContainerScrollBarScrollDownButton -- inherited
 
@@ -46,6 +76,11 @@ TokenFrame = {}
 --- child of TokenFramePopup
 --- @class TokenFramePopup_Border : Frame, SecureDialogBorderTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L468)
+--- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+OptionsBaseCheckButtonTemplateText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L21)
 --- child of TokenFramePopupInactiveCheckbox (created in template OptionsSmallCheckButtonTemplate)
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
@@ -56,6 +91,11 @@ TokenFramePopupInactiveCheckboxText = {}
 --- @class TokenFramePopup_TokenFramePopupInactiveCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
 TokenFramePopupInactiveCheckbox = {}
 TokenFramePopupInactiveCheckbox["Text"] = TokenFramePopupInactiveCheckboxText -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L468)
+--- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+OptionsBaseCheckButtonTemplateText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L21)
 --- child of TokenFramePopupBackpackCheckbox (created in template OptionsSmallCheckButtonTemplate)

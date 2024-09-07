@@ -76,55 +76,55 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L119)
 --- child of 
---- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowTopLeft : Texture
-GlowTopLeft = {}
+--- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowTopLeft : Texture
+CharacterUpgradeSelectCharacterFrameGlowTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L126)
 --- child of 
---- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowTopRight : Texture
-GlowTopRight = {}
+--- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowTopRight : Texture
+CharacterUpgradeSelectCharacterFrameGlowTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L134)
 --- child of 
---- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowBottomLeft : Texture
-GlowBottomLeft = {}
+--- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowBottomLeft : Texture
+CharacterUpgradeSelectCharacterFrameGlowBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L142)
 --- child of 
---- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowBottomRight : Texture
-GlowBottomRight = {}
+--- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowBottomRight : Texture
+CharacterUpgradeSelectCharacterFrameGlowBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L150)
 --- child of 
---- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowTop : Texture
-GlowTop = {}
+--- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowTop : Texture
+CharacterUpgradeSelectCharacterFrameGlowTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L158)
 --- child of 
---- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowBottom : Texture
-GlowBottom = {}
+--- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowBottom : Texture
+CharacterUpgradeSelectCharacterFrameGlowBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L166)
 --- child of 
---- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowLeft : Texture
-GlowLeft = {}
+--- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowLeft : Texture
+CharacterUpgradeSelectCharacterFrameGlowLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L174)
 --- child of 
---- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowRight : Texture
-GlowRight = {}
+--- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowRight : Texture
+CharacterUpgradeSelectCharacterFrameGlowRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L115)
 --- child of 
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox : Frame
---- @field GlowTopLeft CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowTopLeft
---- @field GlowTopRight CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowTopRight
---- @field GlowBottomLeft CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowBottomLeft
---- @field GlowBottomRight CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowBottomRight
---- @field GlowTop CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowTop
---- @field GlowBottom CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowBottom
---- @field GlowLeft CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowLeft
---- @field GlowRight CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_GlowRight
+--- @field GlowTopLeft CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowTopLeft
+--- @field GlowTopRight CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowTopRight
+--- @field GlowBottomLeft CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowBottomLeft
+--- @field GlowBottomRight CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowBottomRight
+--- @field GlowTop CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowTop
+--- @field GlowBottom CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowBottom
+--- @field GlowLeft CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowLeft
+--- @field GlowRight CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L192)
 --- child of 

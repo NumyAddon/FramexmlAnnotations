@@ -209,4 +209,5 @@ NamePlateTooltipTexture10 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L131)
 --- @class NamePlateTooltip : GameTooltip, GameTooltipTemplate
 NamePlateTooltip = {}
+NamePlateTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 

@@ -58,6 +58,7 @@ ShoppingTooltip1Texture3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L3)
 --- @class ShoppingTooltip1 : GameTooltip, ShoppingTooltipTemplate
 ShoppingTooltip1 = {}
+ShoppingTooltip1["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L268)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
@@ -117,6 +118,7 @@ ShoppingTooltip2Texture3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L8)
 --- @class ShoppingTooltip2 : GameTooltip, ShoppingTooltipTemplate
 ShoppingTooltip2 = {}
+ShoppingTooltip2["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L222)
 --- child of GameTooltip (created in template GameTooltipTemplate)
@@ -256,6 +258,7 @@ GameTooltipTexture10 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L13)
 --- @class GameTooltip : GameTooltip, GameTooltipTemplate
 GameTooltip = {}
+GameTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L45)
 --- child of SmallTextTooltip
@@ -289,6 +292,149 @@ SmallTextTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 --- @field Text InternalEmbeddedItemTooltipTemplate_Text
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L222)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type StatusBar
+EmbeddedItemTooltipTooltipStatusBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L25)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft1
+EmbeddedItemTooltipTooltipTextLeft1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L34)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight1
+EmbeddedItemTooltipTooltipTextRight1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L43)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft2
+EmbeddedItemTooltipTooltipTextLeft2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L52)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight2
+EmbeddedItemTooltipTooltipTextRight2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L61)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft3
+EmbeddedItemTooltipTooltipTextLeft3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L70)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight3
+EmbeddedItemTooltipTooltipTextRight3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L79)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft4
+EmbeddedItemTooltipTooltipTextLeft4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L88)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight4
+EmbeddedItemTooltipTooltipTextRight4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L97)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft5
+EmbeddedItemTooltipTooltipTextLeft5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L106)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight5
+EmbeddedItemTooltipTooltipTextRight5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L115)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft6
+EmbeddedItemTooltipTooltipTextLeft6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L124)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight6
+EmbeddedItemTooltipTooltipTextRight6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L133)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft7
+EmbeddedItemTooltipTooltipTextLeft7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L142)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight7
+EmbeddedItemTooltipTooltipTextRight7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L151)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft8
+EmbeddedItemTooltipTooltipTextLeft8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L160)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight8
+EmbeddedItemTooltipTooltipTextRight8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L169)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type Texture
+EmbeddedItemTooltipTooltipTexture1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L174)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type Texture
+EmbeddedItemTooltipTooltipTexture2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L179)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type Texture
+EmbeddedItemTooltipTooltipTexture3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L184)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type Texture
+EmbeddedItemTooltipTooltipTexture4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L189)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type Texture
+EmbeddedItemTooltipTooltipTexture5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L194)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type Texture
+EmbeddedItemTooltipTooltipTexture6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L199)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type Texture
+EmbeddedItemTooltipTooltipTexture7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L204)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type Texture
+EmbeddedItemTooltipTooltipTexture8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L209)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type Texture
+EmbeddedItemTooltipTooltipTexture9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L214)
+--- child of EmbeddedItemTooltipTooltip (created in template GameTooltipTemplate)
+--- @type Texture
+EmbeddedItemTooltipTooltipTexture10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L103)
+--- child of  (created in template InternalEmbeddedItemTooltipTemplate)
+--- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateTooltip
+--- @field IsEmbedded boolean # true
+EmbeddedItemTooltipTooltip = {}
+EmbeddedItemTooltipTooltip["IsEmbedded"] = true
+EmbeddedItemTooltipTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L134)
 --- child of EmbeddedItemTooltip
@@ -434,4 +580,5 @@ EmbeddedItemTooltipTexture10 = {}
 --- @field ItemTooltip EmbeddedItemTooltip_ItemTooltip
 --- @field BottomFontString FontString
 EmbeddedItemTooltip = {}
+EmbeddedItemTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 

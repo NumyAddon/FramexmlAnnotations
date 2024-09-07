@@ -4,11 +4,13 @@
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_ColorPickerCancelButton : Button, GameMenuButtonTemplate
 ColorPickerCancelButton = {}
+ColorPickerCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L70)
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_ColorPickerOkayButton : Button, GameMenuButtonTemplate
 ColorPickerOkayButton = {}
+ColorPickerOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L105)
 --- child of OpacitySliderFrame

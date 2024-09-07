@@ -82,6 +82,7 @@ WorldMapZoneMinimapDropdown = {}
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapZoomOutButton : Button, UIPanelButtonTemplate
 WorldMapZoomOutButton = {}
+WorldMapZoomOutButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L366)
 --- child of WorldMapFrame
@@ -93,6 +94,11 @@ WorldMapMagnifyingGlassButton = {}
 --- @class WorldMapFrame_WorldMapFrameCloseButton : Button, UIPanelCloseButton
 WorldMapFrameCloseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L468)
+--- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+OptionsBaseCheckButtonTemplateText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L21)
 --- child of WorldMapTrackQuest (created in template OptionsSmallCheckButtonTemplate)
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
@@ -103,6 +109,11 @@ WorldMapTrackQuestText = {}
 --- @class WorldMapFrame_WorldMapTrackQuest : CheckButton, OptionsSmallCheckButtonTemplate
 WorldMapTrackQuest = {}
 WorldMapTrackQuest["Text"] = WorldMapTrackQuestText -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L468)
+--- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+OptionsBaseCheckButtonTemplateText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L21)
 --- child of WorldMapQuestShowObjectives (created in template OptionsSmallCheckButtonTemplate)

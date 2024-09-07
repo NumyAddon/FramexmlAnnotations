@@ -102,6 +102,16 @@
 --- @field flashAnim UnitPowerBarAltTemplate_flashAnim
 --- @field flashOutAnim UnitPowerBarAltTemplate_flashOutAnim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L10)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFill = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L16)
+--- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+UnitPowerBarAltTemplateFlash = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L98)
 --- child of PlayerPowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
 --- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit1
@@ -163,6 +173,8 @@ PlayerPowerBarAltStatusFrame["text"] = UnitPowerBarAltTemplateStatusFrameText
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L201)
 --- @class PlayerPowerBarAlt : Frame, UnitPowerBarAltTemplate
 PlayerPowerBarAlt = {}
+PlayerPowerBarAlt["fill"] = UnitPowerBarAltTemplateFill -- inherited
+PlayerPowerBarAlt["flash"] = UnitPowerBarAltTemplateFlash -- inherited
 PlayerPowerBarAlt["counterBar"] = PlayerPowerBarAltCounterBar -- inherited
 PlayerPowerBarAlt["statusFrame"] = PlayerPowerBarAltStatusFrame -- inherited
 

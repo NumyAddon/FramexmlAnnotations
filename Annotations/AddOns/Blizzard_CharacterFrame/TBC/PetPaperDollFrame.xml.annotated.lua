@@ -39,6 +39,7 @@ PetPaperDollPetInfo = {}
 --- child of PetPaperDollFrame
 --- @class PetPaperDollFrame_PetPaperDollCloseButton : Button, UIPanelButtonTemplate
 PetPaperDollCloseButton = {}
+PetPaperDollCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L105)
 --- child of AttributeFrameTemplateStat

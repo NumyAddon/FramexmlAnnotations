@@ -18,8 +18,11 @@ class Registry
     /**
      * @param T $template
      */
-    public function register(string $name, Frame $template): void
+    public function register(?string $name, Frame $template): void
     {
+        if (!$name) {
+            return;
+        }
         $this->items[$name] = $template;
     }
 

@@ -41,12 +41,20 @@ class Frame
         return $this->name;
     }
 
-    public function getClassName(): string
+    public function getClassName(): ?string
     {
         $prefix = $this->parent?->getClassName() ?? '';
         $name = $this->getName() ?: $this->getParentKey();
+        if (!$name) {
+            return null;
+        }
 
         return $prefix === '' ? $name : $prefix . '_' . $name;
+    }
+
+    public function getParent(): ?self
+    {
+        return $this->parent;
     }
 
     public function getParentKey(): ?string

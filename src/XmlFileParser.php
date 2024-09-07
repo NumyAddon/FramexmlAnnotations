@@ -9,6 +9,8 @@ use SimpleXMLElement;
 
 class XmlFileParser
 {
+    private const string TYPE_ANIMATION_GROUP = 'AnimationGroup';
+
     /**
      * @var array<string, Registry<Frame>> $perFileRegistry [filename => Registry<Frame>]
      */
@@ -49,13 +51,13 @@ class XmlFileParser
         $frame = null;
         if ($isIntrinsic) {
             $frame = new Intrinsic($name, $type, $node, $parent);
-            $this->intrinsicRegistry->register($name, $frame);
+            $this->intrinsicRegistry->register($frame->getClassName(), $frame);
         } elseif ($isTemplate) {
             $frame = new Template($name, $type, $node, $parent);
-            $this->templateRegistry->register($name, $frame);
+            $this->templateRegistry->register($frame->getClassName(), $frame);
         } else {
             $frame = new Frame($name, $type, $node, $parent);
-            $this->frameRegistry->register($name, $frame);
+            $this->frameRegistry->register($frame->getClassName(), $frame);
         }
         if (!empty($name)) {
             $fileRegistry->register($name, $frame);
@@ -65,6 +67,23 @@ class XmlFileParser
         if (isset($node->Frames)) {
             foreach ($node->Frames->children() as $frameChild) {
                 $this->parseNode($frameChild, $fileRegistry, $frame);
+            }
+        }
+        if (isset($node->Layers)) {
+            foreach ($node->Layers->children() as $layer) {
+                foreach ($layer->children() as $frameChild) {
+                    $this->parseNode($frameChild, $fileRegistry, $frame);
+                }
+            }
+        }
+        if (isset($node->Animations)) {
+            foreach ($node->Animations->children() as $animationGroup) {
+                $this->parseNode($animationGroup, $fileRegistry, $frame);
+            }
+        }
+        if (self::TYPE_ANIMATION_GROUP === $type) {
+            foreach ($node->children() as $animation) {
+                $this->parseNode($animation, $fileRegistry, $frame);
             }
         }
     }
@@ -97,7 +116,12 @@ class XmlFileParser
 
     private function childHasInterestingData(Frame $child): bool
     {
-        return !empty($child->getInherits()) || !empty($child->getMixins()) || !empty($child->getKeyValues());
+        return
+            !empty($child->getInherits())
+            || !empty($child->getMixins())
+            || !empty($child->getKeyValues())
+            || !empty($child->getName())
+            || !empty($child->getChildren());
     }
 
     private function writeFrame(Frame $frame, ?string $linkPrefix): string
@@ -111,6 +135,9 @@ class XmlFileParser
 
         if ($linkPrefix) {
             $data .= "--- [Source]($linkPrefix#L" . $frame->getLineNumber() . ")\n";
+        }
+        if ($frame->getParent()) {
+            $data .= '--- child of ' . $frame->getParent()->getName() . "\n";
         }
         if ($frame instanceof Intrinsic) {
             $data .= "--- Intrinsic\n";
@@ -138,7 +165,7 @@ class XmlFileParser
                 }
             }
         }
-        if ($frame->isRootNode() && $frame::class === Frame::class) {
+        if ($frame->getName() && $frame->getRootNode()::class === Frame::class) {
             $data .= $frame->getName() . " = {}\n";
             foreach ($frame->getKeyValues() as $key => $value) {
                 $data .= $frame->getName() . '["' . $key . '"] = ' . $value . "\n";

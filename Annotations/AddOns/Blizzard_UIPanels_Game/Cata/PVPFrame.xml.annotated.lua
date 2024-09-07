@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L9)
---- child of PVPRoleButtonTemplate
---- @class PVPRoleButtonTemplate_checkButton : CheckButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L24)
---- child of PVPRoleButtonTemplate
---- @class PVPRoleButtonTemplate_lockedIndicator : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L40)
---- child of PVPRoleButtonTemplate
---- @class PVPRoleButtonTemplate_alert : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L6)
 --- Template
 --- @class PVPRoleButtonTemplate : Button
@@ -19,30 +7,10 @@
 --- @field lockedIndicator PVPRoleButtonTemplate_lockedIndicator
 --- @field alert PVPRoleButtonTemplate_alert
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L349)
---- child of PVPHonorFrameButtonTemplate (created in template PVPBattlegroundButtonTemplate)
---- @type Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L71)
 --- Template
 --- @class PVPHonorFrameButtonTemplate : Button, PVPBattlegroundButtonTemplate
 --- @field SelectedTexture Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L10)
---- child of PVPQueueInfoScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L18)
---- child of PVPQueueInfoScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L30)
---- child of PVPQueueInfoScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L46)
---- child of PVPQueueInfoScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L89)
 --- Template

@@ -8,28 +8,15 @@
 --- Template
 --- @class CreateChannelPopupButtonTemplate : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L63)
---- child of 
---- @class CreateChannelPopup_Name_Label : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L57)
 --- child of CreateChannelPopup
 --- @class CreateChannelPopup_Name : EditBox, CreateChannelPopupEditBoxTemplate
 --- @field Label CreateChannelPopup_Name_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L77)
---- child of 
---- @class CreateChannelPopup_Password_Label : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L71)
 --- child of CreateChannelPopup
 --- @class CreateChannelPopup_Password : EditBox, CreateChannelPopupEditBoxTemplate
 --- @field Label CreateChannelPopup_Password_Label
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L468)
---- child of  (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
-Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L85)
 --- child of CreateChannelPopup

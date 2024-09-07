@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L13)
---- child of CompanionButtonTemplate
---- @class CompanionButtonTemplate_CompanionButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L3)
 --- Template
 --- @class CompanionButtonTemplate : CheckButton, SecureFrameTemplate

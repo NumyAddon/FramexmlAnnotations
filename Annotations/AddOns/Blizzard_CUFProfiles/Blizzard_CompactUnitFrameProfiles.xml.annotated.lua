@@ -1,38 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L8)
---- child of CompactUnitFrameProfilesDropdownTemplate
---- @class CompactUnitFrameProfilesDropdownTemplate_CompactUnitFrameProfilesDropdownTemplateLabel : FontString, GameFontNormalSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L5)
 --- Template
 --- @class CompactUnitFrameProfilesDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate
 --- @field label CompactUnitFrameProfilesDropdownTemplate_CompactUnitFrameProfilesDropdownTemplateLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
---- child of CompactUnitFrameProfilesCheckButtonTemplate
---- @class CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel : FontString, GameFontHighlightLeft
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L23)
 --- Template
 --- @class CompactUnitFrameProfilesCheckButtonTemplate : CheckButton
 --- @field label CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L81)
---- child of CompactUnitFrameProfilesSliderTemplate
---- @class CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLabel : FontString, GameFontHighlight
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L86)
---- child of CompactUnitFrameProfilesSliderTemplate
---- @class CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLow : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L95)
---- child of CompactUnitFrameProfilesSliderTemplate
---- @class CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1125)
---- child of CompactUnitFrameProfilesSliderTemplate (created in template HorizontalSliderTemplate)
---- @type Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L77)
 --- Template
@@ -40,10 +16,6 @@
 --- @field label CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLabel
 --- @field minLabel CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLow
 --- @field maxLabel CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L124)
---- child of CompactUnitFrameProfileDialogWithCoverTemplate
---- @class CompactUnitFrameProfileDialogWithCoverTemplate_CompactUnitFrameProfileDialogWithCoverTemplateCover : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L116)
 --- Template

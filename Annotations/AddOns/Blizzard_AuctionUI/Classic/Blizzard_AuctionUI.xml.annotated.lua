@@ -284,22 +284,6 @@ BrowseFilterScrollFrame = {}
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BrowseScrollFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L458)
---- child of 
---- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Label : FontString, GameFontNormalHuge2
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L465)
---- child of 
---- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Tutorial1 : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L478)
---- child of 
---- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Tutorial2 : FontString, GameFontNormalMed1
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L484)
---- child of 
---- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Tutorial3 : FontString, GameFontNormalMed1
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L451)
 --- child of WowTokenGameTimeTutorial
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay : Frame
@@ -307,28 +291,6 @@ BrowseScrollFrame = {}
 --- @field Tutorial1 AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Tutorial1
 --- @field Tutorial2 AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Tutorial2
 --- @field Tutorial3 AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Tutorial3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L540)
---- child of 
---- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_StoreButton : Button, UIPanelGoldButtonTemplate
---- @field Logo Texture
-StoreButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L500)
---- child of 
---- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_Label : FontString, GameFontNormalHuge2
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L507)
---- child of 
---- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_Tutorial1 : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L520)
---- child of 
---- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_Tutorial2 : FontString, GameFontNormalMed1
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L526)
---- child of 
---- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_Tutorial3 : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L493)
 --- child of WowTokenGameTimeTutorial
@@ -752,29 +714,9 @@ BrowseButton1MoneyFrame["GoldButton"] = BrowseButton1MoneyFrameGoldButton -- inh
 --- @field Text BrowseButtonTemplate_BrowseButtonTemplateYourBidText_Text
 BrowseButton1YourBidText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L515)
 --- child of BrowseButtonTemplateBuyoutFrame
 --- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L539)
---- child of BrowseButtonTemplateBuyoutFrameText
---- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameText_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L528)
 --- child of BrowseButtonTemplateBuyoutFrame
@@ -890,29 +832,9 @@ BrowseButton2MoneyFrame["GoldButton"] = BrowseButton2MoneyFrameGoldButton -- inh
 --- @field Text BrowseButtonTemplate_BrowseButtonTemplateYourBidText_Text
 BrowseButton2YourBidText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L515)
 --- child of BrowseButtonTemplateBuyoutFrame
 --- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L539)
---- child of BrowseButtonTemplateBuyoutFrameText
---- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameText_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L528)
 --- child of BrowseButtonTemplateBuyoutFrame
@@ -1028,29 +950,9 @@ BrowseButton3MoneyFrame["GoldButton"] = BrowseButton3MoneyFrameGoldButton -- inh
 --- @field Text BrowseButtonTemplate_BrowseButtonTemplateYourBidText_Text
 BrowseButton3YourBidText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L515)
 --- child of BrowseButtonTemplateBuyoutFrame
 --- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L539)
---- child of BrowseButtonTemplateBuyoutFrameText
---- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameText_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L528)
 --- child of BrowseButtonTemplateBuyoutFrame
@@ -1166,29 +1068,9 @@ BrowseButton4MoneyFrame["GoldButton"] = BrowseButton4MoneyFrameGoldButton -- inh
 --- @field Text BrowseButtonTemplate_BrowseButtonTemplateYourBidText_Text
 BrowseButton4YourBidText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L515)
 --- child of BrowseButtonTemplateBuyoutFrame
 --- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L539)
---- child of BrowseButtonTemplateBuyoutFrameText
---- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameText_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L528)
 --- child of BrowseButtonTemplateBuyoutFrame
@@ -1304,29 +1186,9 @@ BrowseButton5MoneyFrame["GoldButton"] = BrowseButton5MoneyFrameGoldButton -- inh
 --- @field Text BrowseButtonTemplate_BrowseButtonTemplateYourBidText_Text
 BrowseButton5YourBidText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L515)
 --- child of BrowseButtonTemplateBuyoutFrame
 --- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L539)
---- child of BrowseButtonTemplateBuyoutFrameText
---- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameText_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L528)
 --- child of BrowseButtonTemplateBuyoutFrame
@@ -1442,29 +1304,9 @@ BrowseButton6MoneyFrame["GoldButton"] = BrowseButton6MoneyFrameGoldButton -- inh
 --- @field Text BrowseButtonTemplate_BrowseButtonTemplateYourBidText_Text
 BrowseButton6YourBidText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L515)
 --- child of BrowseButtonTemplateBuyoutFrame
 --- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L539)
---- child of BrowseButtonTemplateBuyoutFrameText
---- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameText_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L528)
 --- child of BrowseButtonTemplateBuyoutFrame
@@ -1580,29 +1422,9 @@ BrowseButton7MoneyFrame["GoldButton"] = BrowseButton7MoneyFrameGoldButton -- inh
 --- @field Text BrowseButtonTemplate_BrowseButtonTemplateYourBidText_Text
 BrowseButton7YourBidText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L515)
 --- child of BrowseButtonTemplateBuyoutFrame
 --- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L539)
---- child of BrowseButtonTemplateBuyoutFrameText
---- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameText_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L528)
 --- child of BrowseButtonTemplateBuyoutFrame
@@ -1718,29 +1540,9 @@ BrowseButton8MoneyFrame["GoldButton"] = BrowseButton8MoneyFrameGoldButton -- inh
 --- @field Text BrowseButtonTemplate_BrowseButtonTemplateYourBidText_Text
 BrowseButton8YourBidText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of BrowseButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L515)
 --- child of BrowseButtonTemplateBuyoutFrame
 --- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L539)
---- child of BrowseButtonTemplateBuyoutFrameText
---- @class BrowseButtonTemplate_BrowseButtonTemplateBuyoutFrame_BrowseButtonTemplateBuyoutFrameText_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L528)
 --- child of BrowseButtonTemplateBuyoutFrame
@@ -3425,29 +3227,9 @@ AuctionsButton1MoneyFrame["CopperButton"] = AuctionsButton1MoneyFrameCopperButto
 AuctionsButton1MoneyFrame["SilverButton"] = AuctionsButton1MoneyFrameSilverButton -- inherited
 AuctionsButton1MoneyFrame["GoldButton"] = AuctionsButton1MoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1109)
 --- child of AuctionsButtonTemplateBuyoutFrame
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateBuyoutFrame_AuctionsButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1132)
---- child of AuctionsButtonTemplateBuyoutFrameText
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1121)
 --- child of AuctionsButtonTemplateBuyoutFrame
@@ -3551,29 +3333,9 @@ AuctionsButton2MoneyFrame["CopperButton"] = AuctionsButton2MoneyFrameCopperButto
 AuctionsButton2MoneyFrame["SilverButton"] = AuctionsButton2MoneyFrameSilverButton -- inherited
 AuctionsButton2MoneyFrame["GoldButton"] = AuctionsButton2MoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1109)
 --- child of AuctionsButtonTemplateBuyoutFrame
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateBuyoutFrame_AuctionsButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1132)
---- child of AuctionsButtonTemplateBuyoutFrameText
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1121)
 --- child of AuctionsButtonTemplateBuyoutFrame
@@ -3677,29 +3439,9 @@ AuctionsButton3MoneyFrame["CopperButton"] = AuctionsButton3MoneyFrameCopperButto
 AuctionsButton3MoneyFrame["SilverButton"] = AuctionsButton3MoneyFrameSilverButton -- inherited
 AuctionsButton3MoneyFrame["GoldButton"] = AuctionsButton3MoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1109)
 --- child of AuctionsButtonTemplateBuyoutFrame
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateBuyoutFrame_AuctionsButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1132)
---- child of AuctionsButtonTemplateBuyoutFrameText
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1121)
 --- child of AuctionsButtonTemplateBuyoutFrame
@@ -3803,29 +3545,9 @@ AuctionsButton4MoneyFrame["CopperButton"] = AuctionsButton4MoneyFrameCopperButto
 AuctionsButton4MoneyFrame["SilverButton"] = AuctionsButton4MoneyFrameSilverButton -- inherited
 AuctionsButton4MoneyFrame["GoldButton"] = AuctionsButton4MoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1109)
 --- child of AuctionsButtonTemplateBuyoutFrame
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateBuyoutFrame_AuctionsButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1132)
---- child of AuctionsButtonTemplateBuyoutFrameText
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1121)
 --- child of AuctionsButtonTemplateBuyoutFrame
@@ -3929,29 +3651,9 @@ AuctionsButton5MoneyFrame["CopperButton"] = AuctionsButton5MoneyFrameCopperButto
 AuctionsButton5MoneyFrame["SilverButton"] = AuctionsButton5MoneyFrameSilverButton -- inherited
 AuctionsButton5MoneyFrame["GoldButton"] = AuctionsButton5MoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1109)
 --- child of AuctionsButtonTemplateBuyoutFrame
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateBuyoutFrame_AuctionsButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1132)
---- child of AuctionsButtonTemplateBuyoutFrameText
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1121)
 --- child of AuctionsButtonTemplateBuyoutFrame
@@ -4055,29 +3757,9 @@ AuctionsButton6MoneyFrame["CopperButton"] = AuctionsButton6MoneyFrameCopperButto
 AuctionsButton6MoneyFrame["SilverButton"] = AuctionsButton6MoneyFrameSilverButton -- inherited
 AuctionsButton6MoneyFrame["GoldButton"] = AuctionsButton6MoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1109)
 --- child of AuctionsButtonTemplateBuyoutFrame
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateBuyoutFrame_AuctionsButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1132)
---- child of AuctionsButtonTemplateBuyoutFrameText
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1121)
 --- child of AuctionsButtonTemplateBuyoutFrame
@@ -4181,29 +3863,9 @@ AuctionsButton7MoneyFrame["CopperButton"] = AuctionsButton7MoneyFrameCopperButto
 AuctionsButton7MoneyFrame["SilverButton"] = AuctionsButton7MoneyFrameSilverButton -- inherited
 AuctionsButton7MoneyFrame["GoldButton"] = AuctionsButton7MoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1109)
 --- child of AuctionsButtonTemplateBuyoutFrame
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateBuyoutFrame_AuctionsButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1132)
---- child of AuctionsButtonTemplateBuyoutFrameText
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1121)
 --- child of AuctionsButtonTemplateBuyoutFrame
@@ -4307,29 +3969,9 @@ AuctionsButton8MoneyFrame["CopperButton"] = AuctionsButton8MoneyFrameCopperButto
 AuctionsButton8MoneyFrame["SilverButton"] = AuctionsButton8MoneyFrameSilverButton -- inherited
 AuctionsButton8MoneyFrame["GoldButton"] = AuctionsButton8MoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1109)
 --- child of AuctionsButtonTemplateBuyoutFrame
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateBuyoutFrame_AuctionsButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1132)
---- child of AuctionsButtonTemplateBuyoutFrameText
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1121)
 --- child of AuctionsButtonTemplateBuyoutFrame
@@ -4433,29 +4075,9 @@ AuctionsButton9MoneyFrame["CopperButton"] = AuctionsButton9MoneyFrameCopperButto
 AuctionsButton9MoneyFrame["SilverButton"] = AuctionsButton9MoneyFrameSilverButton -- inherited
 AuctionsButton9MoneyFrame["GoldButton"] = AuctionsButton9MoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L185)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L225)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L265)
---- child of AuctionsButtonTemplateBuyoutFrameMoney (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1109)
 --- child of AuctionsButtonTemplateBuyoutFrame
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateBuyoutFrame_AuctionsButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1132)
---- child of AuctionsButtonTemplateBuyoutFrameText
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1121)
 --- child of AuctionsButtonTemplateBuyoutFrame

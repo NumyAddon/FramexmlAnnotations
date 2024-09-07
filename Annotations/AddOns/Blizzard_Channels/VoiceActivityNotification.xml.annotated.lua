@@ -11,14 +11,6 @@
 --- Template
 --- @class VoiceActivityNotificationBaseTemplate : Button, VoiceActivityNotificationBaseMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/VoiceActivityNotification.xml#L82)
---- child of VoiceActivityNotificationTemplate
---- @class VoiceActivityNotificationTemplate_Volume : Frame, VoiceActivityVolumeTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/VoiceActivityNotification.xml#L68)
---- child of VoiceActivityNotificationTemplate
---- @class VoiceActivityNotificationTemplate_Name : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/VoiceActivityNotification.xml#L41)
 --- Template
 --- @class VoiceActivityNotificationTemplate : ContainedAlertFrame, VoiceActivityNotificationBaseTemplate, VoiceActivityNotificationMixin

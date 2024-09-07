@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L6)
---- child of TradeSkillSkillButtonTemplate
---- @class TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
---- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L41)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
---- @type Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L3)
 --- Template
 --- @class TradeSkillSkillButtonTemplate : Button, ClassTrainerSkillButtonTemplate

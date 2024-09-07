@@ -72,10 +72,6 @@
 --- Template
 --- @class Char-Inner-Right : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L90)
---- child of CharacterStatFrameCategoryTemplate
---- @class CharacterStatFrameCategoryTemplate_Title : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/CharacterFrame.xml#L79)
 --- Template
 --- @class CharacterStatFrameCategoryTemplate : Frame

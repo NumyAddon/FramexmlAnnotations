@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L9)
---- child of ArenaButtonTemplate
---- @class ArenaButtonTemplate_ArenaButtonTemplateStatus : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaFrame.xml#L3)
 --- Template
 --- @class ArenaButtonTemplate : Button

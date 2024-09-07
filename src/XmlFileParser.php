@@ -166,7 +166,7 @@ class XmlFileParser
             !empty($child->getInherits())
             || !empty($child->getMixins())
             || !empty($child->getKeyValues())
-            || !empty($child->getName())
+            || (!empty($child->getName()) && $child->getRootNode()::class === Frame::class)
             || !empty($child->getChildren());
     }
 

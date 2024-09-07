@@ -1,11 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L39)
---- child of 
---- @class GarrisonMonumentFrame_Body_Lock : Frame
---- @field Background Texture
---- @field Texture Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMonumentUI.xml#L33)
 --- child of GarrisonMonumentFrame
 --- @class GarrisonMonumentFrame_Body : Frame

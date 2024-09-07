@@ -1,27 +1,11 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L17)
---- child of TorghastPagingContainerTemplate
---- @class TorghastPagingContainerTemplate_PreviousPage : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L32)
---- child of TorghastPagingContainerTemplate
---- @class TorghastPagingContainerTemplate_NextPage : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L8)
---- child of TorghastPagingContainerTemplate
---- @class TorghastPagingContainerTemplate_CurrentPage : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L4)
 --- Template
 --- @class TorghastPagingContainerTemplate : Frame, TorghastPagingContainerMixin
 --- @field PreviousPage TorghastPagingContainerTemplate_PreviousPage
 --- @field NextPage TorghastPagingContainerTemplate_NextPage
 --- @field CurrentPage TorghastPagingContainerTemplate_CurrentPage
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L102)
---- child of TorghastLevelPickerRewardCircleTemplate
---- @class TorghastLevelPickerRewardCircleTemplate_PulseAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L49)
 --- Template
@@ -35,10 +19,6 @@
 --- @field CircleMask MaskTexture
 --- @field PulseAnim TorghastLevelPickerRewardCircleTemplate_PulseAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L135)
---- child of TorghastLevelPickerRewardBannerTemplate
---- @class TorghastLevelPickerRewardBannerTemplate_Reward : Frame, TorghastLevelPickerRewardCircleTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L114)
 --- Template
 --- @class TorghastLevelPickerRewardBannerTemplate : Frame
@@ -47,14 +27,6 @@
 --- @field BannerDisabled Texture
 --- @field BannerSelected Texture
 --- @field EarnedCheck Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L170)
---- child of TorghastLevelPickerOptionButtonTemplate
---- @class TorghastLevelPickerOptionButtonTemplate_RewardBanner : Frame, TorghastLevelPickerRewardBannerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L157)
---- child of TorghastLevelPickerOptionButtonTemplate
---- @class TorghastLevelPickerOptionButtonTemplate_Title : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L142)
 --- Template

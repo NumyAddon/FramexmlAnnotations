@@ -259,13 +259,6 @@ QuestFrame["Inset"] = QuestFrameInset -- inherited
 --- @class QuestModelScene_QuestNPCModelNameTooltipFrame : Frame
 QuestNPCModelNameTooltipFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L362)
---- child of 
---- @class QuestModelScene_ModelTextFrame_QuestNPCModelTextScrollFrame : ScrollFrame, ScrollFrameTemplate
---- @field scrollBarX number # -4
-QuestNPCModelTextScrollFrame = {}
-QuestNPCModelTextScrollFrame["scrollBarX"] = -4
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L346)
 --- child of QuestModelScene
 --- @class QuestModelScene_ModelTextFrame : Frame

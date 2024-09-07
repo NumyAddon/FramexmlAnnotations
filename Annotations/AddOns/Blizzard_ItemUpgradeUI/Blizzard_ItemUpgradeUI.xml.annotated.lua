@@ -17,39 +17,6 @@
 --- @class ItemUpgradeTooltipTemplate : GameTooltip, SharedTooltipTemplate, ItemUpgradePreviewMixin
 --- @field textLeft1Font string # "GameTooltipText"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L31)
---- child of ItemUpgradePreviewTemplate
---- @class ItemUpgradePreviewTemplate_GlowNineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "IdenticalCornersLayoutNoCenter"
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L37)
---- child of ItemUpgradePreviewTemplate
---- @class ItemUpgradePreviewTemplate_GlowAnimatedPieces : Frame
---- @field Fog Texture
---- @field Fog2 Texture
---- @field GoldFlake Texture
---- @field GoldFlake2 Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L63)
---- child of ItemUpgradePreviewTemplate
---- @class ItemUpgradePreviewTemplate_GlowSheen : Frame
---- @field Sheen Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L74)
---- child of ItemUpgradePreviewTemplate
---- @class ItemUpgradePreviewTemplate_GlowMasks : Frame
---- @field TopRightCornerMask MaskTexture
---- @field BottomLeftCornerMask MaskTexture
---- @field FullMask MaskTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L109)
---- child of ItemUpgradePreviewTemplate
---- @class ItemUpgradePreviewTemplate_UpgradedAnim : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L128)
---- child of ItemUpgradePreviewTemplate
---- @class ItemUpgradePreviewTemplate_ReappearAnim : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L29)
 --- Template
 --- @class ItemUpgradePreviewTemplate : GameTooltip, ItemUpgradeTooltipTemplate
@@ -60,37 +27,12 @@
 --- @field UpgradedAnim ItemUpgradePreviewTemplate_UpgradedAnim
 --- @field ReappearAnim ItemUpgradePreviewTemplate_ReappearAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L254)
---- child of 
---- @class ItemUpgradeFrame_UpgradeItemButton_PulseEmptySlotGlow : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L232)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_UpgradeItemButton : ItemButton, ItemUpgradeSlotMixin
 --- @field EmptySlotGlow Texture
 --- @field ButtonFrame Texture
 --- @field PulseEmptySlotGlow ItemUpgradeFrame_UpgradeItemButton_PulseEmptySlotGlow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L301)
---- child of 
---- @class ItemUpgradeFrame_ItemInfo_Dropdown : DropdownButton, WowStyle1DropdownTemplate
---- @field resizeToText boolean # true
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L274)
---- child of 
---- @class ItemUpgradeFrame_ItemInfo_MissingItemText : FontString, GameFontHighlightMedium
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L280)
---- child of 
---- @class ItemUpgradeFrame_ItemInfo_ItemName : FontString, GameFontHighlightLarge2
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L287)
---- child of 
---- @class ItemUpgradeFrame_ItemInfo_UpgradeProgress : FontString, GameFontHighlight
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L293)
---- child of 
---- @class ItemUpgradeFrame_ItemInfo_UpgradeTo : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L268)
 --- child of ItemUpgradeFrame
@@ -121,19 +63,11 @@ ItemUpgradeFrameRightItemPreviewFrame["isUpgrade"] = true
 ItemUpgradeFrameItemHoverPreviewFrame = {}
 ItemUpgradeFrameItemHoverPreviewFrame["textLeft1Font"] = "GameTooltipText" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L350)
---- child of 
---- @class ItemUpgradeFrame_Arrow_Anim : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L335)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_Arrow : Frame
 --- @field arrow Texture
 --- @field Anim ItemUpgradeFrame_Arrow_Anim
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L373)
---- child of 
---- @class ItemUpgradeFrame_UpgradeButton_GlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L358)
 --- child of ItemUpgradeFrame
@@ -171,10 +105,6 @@ ItemUpgradeFramePlayerCurrenciesBorder = {}
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_PlayerCurrencies : Frame, CurrencyHorizontalLayoutFrameTemplate
 --- @field fixedHeight number # 12
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L426)
---- child of 
---- @class ItemUpgradeFrame_AnimationHolder_UpgradedFlash : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L424)
 --- child of ItemUpgradeFrame

@@ -4,14 +4,6 @@
 --- Template
 --- @class BehaviorMessagingBackgroundTemplate : Frame, TooltipBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L11)
---- child of BehaviorMessagingNotificationTemplate
---- @class BehaviorMessagingNotificationTemplate_TitleText : FontString, Game11Font
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L17)
---- child of BehaviorMessagingNotificationTemplate
---- @class BehaviorMessagingNotificationTemplate_SubtitleText : FontString, Game11Font
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L7)
 --- Template
 --- @class BehaviorMessagingNotificationTemplate : Button, BehavioralMessagingNotificationMixin
@@ -22,14 +14,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L34)
 --- @class BehavioralMessagingTray : Frame, HorizontalLayoutFrame, BehavioralMessagingTrayMixin
 BehavioralMessagingTray = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L104)
---- child of 
---- @class BehavioralMessagingDetails_Body_TitleText : FontString, Game18Font
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L110)
---- child of 
---- @class BehavioralMessagingDetails_Body_BodyText : FontString, Game13Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L97)
 --- child of BehavioralMessagingDetails

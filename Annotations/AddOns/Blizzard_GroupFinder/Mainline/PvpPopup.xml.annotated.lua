@@ -6,10 +6,6 @@
 --- @field Texture Texture
 --- @field StatusIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/PvpPopup.xml#L22)
---- child of PvpRoleButtonWithCountTemplate
---- @class PvpRoleButtonWithCountTemplate_Count : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/PvpPopup.xml#L19)
 --- Template
 --- @class PvpRoleButtonWithCountTemplate : Frame, PvpRoleStatusTemplate, PvpRoleButtonWithCountMixin

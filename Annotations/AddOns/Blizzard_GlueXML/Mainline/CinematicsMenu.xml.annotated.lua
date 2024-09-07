@@ -1,14 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L22)
---- child of CinematicsMenuButtonTemplate
---- @class CinematicsMenuButtonTemplate_StreamingIcon : Frame, SpinnerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L28)
---- child of CinematicsMenuButtonTemplate
---- @class CinematicsMenuButtonTemplate_StatusBar : StatusBar
---- @field Bg Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L3)
 --- Template
 --- @class CinematicsMenuButtonTemplate : Button, TemplatedListElementTemplate, CinematicsMenuButtonMixin
@@ -20,11 +11,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L88)
 --- child of CinematicsMenu
 --- @class CinematicsMenu_CloseButton : Button, UIPanelCloseButtonNoScripts
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L7)
---- child of  (created in template GlueCheckButtonTemplate)
---- @type GlueCheckButtonTemplate_GlueCheckButtonTemplateText
-Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L93)
 --- child of CinematicsMenu

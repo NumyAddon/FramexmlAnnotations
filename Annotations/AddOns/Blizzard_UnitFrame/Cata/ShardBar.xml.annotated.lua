@@ -1,13 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L31)
---- child of ShardTemplate
---- @class ShardTemplate_animIn : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L41)
---- child of ShardTemplate
---- @class ShardTemplate_animOut : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L29)
 --- Template
 --- @class ShardTemplate : Frame

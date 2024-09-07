@@ -11,10 +11,6 @@
 --- @class MultiCastActionButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field overlayTex Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L74)
---- child of MultiCastSpellButton
---- @class MultiCastSpellButton_MultiCastSpellButtonHotKey : FontString, NumberFontNormalSmallGray
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L67)
 --- Template
 --- @class MultiCastSpellButton : CheckButton, SecureFrameTemplate, ActionButtonTemplate

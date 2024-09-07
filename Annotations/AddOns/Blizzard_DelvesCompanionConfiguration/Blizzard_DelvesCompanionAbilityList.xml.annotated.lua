@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L14)
---- child of DelvesCompanionAbilityTemplate
---- @class DelvesCompanionAbilityTemplate_Name : FontString, GameFontNormalMed1
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L20)
---- child of DelvesCompanionAbilityTemplate
---- @class DelvesCompanionAbilityTemplate_UnlockCondition : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L27)
---- child of DelvesCompanionAbilityTemplate
---- @class DelvesCompanionAbilityTemplate_Rank : FontString, GameFontNormalSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L4)
 --- Template
 --- @class DelvesCompanionAbilityTemplate : Frame, DelvesCompanionAbilityMixin

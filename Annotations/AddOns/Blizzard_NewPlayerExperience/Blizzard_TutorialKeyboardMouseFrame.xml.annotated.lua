@@ -18,26 +18,6 @@ KeyboardMouseConfirmButton = {}
 TutorialKeyboardMouseFrame_Frame = {}
 TutorialKeyboardMouseFrame_Frame["widthPadding"] = 288
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L60)
---- child of 
---- @class TutorialWalk_Frame_ContainerFrame_TURNLEFT : Frame, KeyBindingTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L65)
---- child of 
---- @class TutorialWalk_Frame_ContainerFrame_MOVEBACKWARD : Frame, KeyBindingTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L70)
---- child of 
---- @class TutorialWalk_Frame_ContainerFrame_MOVEFORWARD : Frame, KeyBindingTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L75)
---- child of 
---- @class TutorialWalk_Frame_ContainerFrame_TURNRIGHT : Frame, KeyBindingTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L83)
---- child of 
---- @class TutorialWalk_Frame_ContainerFrame_Text : FontString, GameFontNormalHuge2
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L55)
 --- child of TutorialWalk_Frame
 --- @class TutorialWalk_Frame_ContainerFrame : Frame, ResizeLayoutFrame

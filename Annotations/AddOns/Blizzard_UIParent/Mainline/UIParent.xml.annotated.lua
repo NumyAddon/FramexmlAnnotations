@@ -15,11 +15,6 @@
 --- @class UIParentRightManagedFrameTemplate : Frame, UIParentManagedFrameTemplate
 --- @field layoutParent any # UIParentRightManagedFrameContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.xml#L70)
---- child of UIParentManagedFrameContainer
---- @class UIParentManagedFrameContainer_BottomManagedLayoutContainer : Frame, HorizontalLayoutFrame
---- @field layoutIndex number # 500
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.xml#L64)
 --- Template
 --- @class UIParentManagedFrameContainer : Frame, VerticalLayoutFrame, UIParentManagedFrameContainerMixin

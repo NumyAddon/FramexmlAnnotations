@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L5)
---- child of ReactivateDialogBackground
---- @class ReactivateDialogBackground_Border : Frame, DialogBorderTranslucentTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L3)
 --- Template
 --- @class ReactivateDialogBackground : Frame

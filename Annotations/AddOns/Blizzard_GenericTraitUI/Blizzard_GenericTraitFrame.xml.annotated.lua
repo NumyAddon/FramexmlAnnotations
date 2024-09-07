@@ -10,10 +10,6 @@
 --- @field layoutType string # "UniqueCornersLayout"
 --- @field DetailTop Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L72)
---- child of 
---- @class GenericTraitFrame_Header_Title : FontString, Fancy24Font
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L65)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_Header : Frame
@@ -23,10 +19,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L89)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_Inset : Frame, InsetFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L113)
---- child of 
---- @class GenericTraitFrame_Currency_UnspentPointsCount : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L95)
 --- child of GenericTraitFrame

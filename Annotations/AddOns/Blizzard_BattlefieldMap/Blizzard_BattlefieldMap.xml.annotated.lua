@@ -11,10 +11,6 @@ BattlefieldMapTab = {}
 --- child of BattlefieldMapFrame
 --- @class BattlefieldMapFrame_ScrollContainer : ScrollFrame, MapCanvasFrameScrollContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L120)
---- child of 
---- @class BattlefieldMapFrame_BorderFrame_CloseButton : Button, UIPanelCloseButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L70)
 --- child of BattlefieldMapFrame
 --- @class BattlefieldMapFrame_BorderFrame : Frame

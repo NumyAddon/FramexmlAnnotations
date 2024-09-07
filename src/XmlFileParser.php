@@ -170,6 +170,15 @@ class XmlFileParser
             || !empty($child->getChildren());
     }
 
+    private function wrapInGIfNeeded(string $name): string
+    {
+        if (str_contains($name, '$')) {
+            return '_G["' . $name . '"]';
+        }
+
+        return $name;
+    }
+
     private function writeFrame(Frame $frame, ?string $linkPrefix, ?string $typeOverride = null): string
     {
         $shouldWriteGlobal = $frame->getRootNode()->getName() && $frame->getRootNode()::class === Frame::class;
@@ -234,19 +243,16 @@ class XmlFileParser
             }
         }
         if ($shouldWriteGlobal && $frame->getName()) {
-            $name = $frame->getName();
-            if (str_contains($name, '$')) {
-                $name = '_G["' . $name . '"]';
-            }
+            $name = $this->wrapInGIfNeeded($frame->getName());
             $data .= $name . " = {}\n";
             foreach ($globalChildrenWithParentKey as $key => $value) {
-                $data .= $frame->getName() . '["' . $key . '"] = ' . $value . "\n";
+                $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value) . "\n";
             }
             foreach ($frame->getKeyValues() as $key => $value) {
-                $data .= $frame->getName() . '["' . $key . '"] = ' . $value[0] . "\n";
+                $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value[0]) . "\n";
             }
             foreach ($inheritedKeyValues as $key => $value) {
-                $data .= $frame->getName() . '["' . $key . '"] = ' . $value[0] . " -- inherited\n";
+                $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value[0]) . " -- inherited\n";
             }
         }
 
@@ -277,11 +283,7 @@ class XmlFileParser
                             : $child->getType(),
                     );
                     if ($clone->getParentKey()) {
-                        $name = $clone->getName();
-                        if (str_contains($name, '$')) {
-                            $name = '_G["' . $name . '"]';
-                        }
-                        $inheritedKeyValues[$clone->getParentKey()] = [$name];
+                        $inheritedKeyValues[$clone->getParentKey()] = [$this->wrapInGIfNeeded($clone->getName())];
                     }
                 }
             }

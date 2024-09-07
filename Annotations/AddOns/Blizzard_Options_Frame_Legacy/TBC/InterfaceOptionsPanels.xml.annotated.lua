@@ -663,6 +663,7 @@ InterfaceOptionsDisplayPanelShowTutorials["Text"] = InterfaceOptionsDisplayPanel
 --- child of InterfaceOptionsDisplayPanel
 --- @class InterfaceOptionsDisplayPanel_InterfaceOptionsDisplayPanelResetTutorials : Button, UIPanelButtonTemplate
 InterfaceOptionsDisplayPanelResetTutorials = {}
+InterfaceOptionsDisplayPanelResetTutorials["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1151)
 --- child of InterfaceOptionsDisplayPanelDisplayDropDown
@@ -1054,6 +1055,7 @@ InterfaceOptionsSocialPanelWhisperMode["Icon"] = InterfaceOptionsSocialPanelWhis
 --- child of InterfaceOptionsSocialPanel
 --- @class InterfaceOptionsSocialPanel_InterfaceOptionsSocialPanelRedockChat : Button, UIPanelButtonTemplate
 InterfaceOptionsSocialPanelRedockChat = {}
+InterfaceOptionsSocialPanelRedockChat["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1214)
 --- child of InterfaceOptionsSocialPanel
@@ -1439,6 +1441,11 @@ InterfaceOptionsNamesPanelUnitNameplatesMotionDropDown["Right"] = InterfaceOptio
 InterfaceOptionsNamesPanelUnitNameplatesMotionDropDown["Text"] = InterfaceOptionsNamesPanelUnitNameplatesMotionDropDownText -- inherited
 InterfaceOptionsNamesPanelUnitNameplatesMotionDropDown["Icon"] = InterfaceOptionsNamesPanelUnitNameplatesMotionDropDownIcon -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L84)
 --- child of InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSlider (created in template OptionsSliderTemplate)
 --- @type OptionsSliderTemplate_OptionsSliderTemplateText
@@ -1458,6 +1465,8 @@ InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSliderHigh = {}
 --- child of InterfaceOptionsNamesPanelUnitNameplates
 --- @class InterfaceOptionsNamesPanel_InterfaceOptionsNamesPanelUnitNameplates_InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSlider : Slider, OptionsSliderTemplate
 InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSlider = {}
+InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
 InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSlider["type"] = CONTROLTYPE_SLIDER -- inherited
 InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSlider["Text"] = InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSliderText -- inherited
 InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSlider["Low"] = InterfaceOptionsNamesPanelUnitNameplatesNameplateMaxDistanceSliderLow -- inherited
@@ -1498,6 +1507,11 @@ InterfaceOptionsCameraPanelWaterCollisionText = {}
 InterfaceOptionsCameraPanelWaterCollision = {}
 InterfaceOptionsCameraPanelWaterCollision["Text"] = InterfaceOptionsCameraPanelWaterCollisionText -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L84)
 --- child of InterfaceOptionsCameraPanelMaxDistanceSlider (created in template OptionsSliderTemplate)
 --- @type OptionsSliderTemplate_OptionsSliderTemplateText
@@ -1517,10 +1531,17 @@ InterfaceOptionsCameraPanelMaxDistanceSliderHigh = {}
 --- child of InterfaceOptionsCameraPanel
 --- @class InterfaceOptionsCameraPanel_InterfaceOptionsCameraPanelMaxDistanceSlider : Slider, OptionsSliderTemplate
 InterfaceOptionsCameraPanelMaxDistanceSlider = {}
+InterfaceOptionsCameraPanelMaxDistanceSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+InterfaceOptionsCameraPanelMaxDistanceSlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
 InterfaceOptionsCameraPanelMaxDistanceSlider["type"] = CONTROLTYPE_SLIDER -- inherited
 InterfaceOptionsCameraPanelMaxDistanceSlider["Text"] = InterfaceOptionsCameraPanelMaxDistanceSliderText -- inherited
 InterfaceOptionsCameraPanelMaxDistanceSlider["Low"] = InterfaceOptionsCameraPanelMaxDistanceSliderLow -- inherited
 InterfaceOptionsCameraPanelMaxDistanceSlider["High"] = InterfaceOptionsCameraPanelMaxDistanceSliderHigh -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L84)
 --- child of InterfaceOptionsCameraPanelFollowSpeedSlider (created in template OptionsSliderTemplate)
@@ -1541,6 +1562,8 @@ InterfaceOptionsCameraPanelFollowSpeedSliderHigh = {}
 --- child of InterfaceOptionsCameraPanel
 --- @class InterfaceOptionsCameraPanel_InterfaceOptionsCameraPanelFollowSpeedSlider : Slider, OptionsSliderTemplate
 InterfaceOptionsCameraPanelFollowSpeedSlider = {}
+InterfaceOptionsCameraPanelFollowSpeedSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+InterfaceOptionsCameraPanelFollowSpeedSlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
 InterfaceOptionsCameraPanelFollowSpeedSlider["type"] = CONTROLTYPE_SLIDER -- inherited
 InterfaceOptionsCameraPanelFollowSpeedSlider["Text"] = InterfaceOptionsCameraPanelFollowSpeedSliderText -- inherited
 InterfaceOptionsCameraPanelFollowSpeedSlider["Low"] = InterfaceOptionsCameraPanelFollowSpeedSliderLow -- inherited
@@ -1652,6 +1675,11 @@ InterfaceOptionsMousePanelInvertMouseText = {}
 InterfaceOptionsMousePanelInvertMouse = {}
 InterfaceOptionsMousePanelInvertMouse["Text"] = InterfaceOptionsMousePanelInvertMouseText -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L84)
 --- child of InterfaceOptionsMousePanelMouseLookSpeedSlider (created in template OptionsSliderTemplate)
 --- @type OptionsSliderTemplate_OptionsSliderTemplateText
@@ -1671,6 +1699,8 @@ InterfaceOptionsMousePanelMouseLookSpeedSliderHigh = {}
 --- child of InterfaceOptionsMousePanel
 --- @class InterfaceOptionsMousePanel_InterfaceOptionsMousePanelMouseLookSpeedSlider : Slider, OptionsSliderTemplate
 InterfaceOptionsMousePanelMouseLookSpeedSlider = {}
+InterfaceOptionsMousePanelMouseLookSpeedSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+InterfaceOptionsMousePanelMouseLookSpeedSlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
 InterfaceOptionsMousePanelMouseLookSpeedSlider["type"] = CONTROLTYPE_SLIDER -- inherited
 InterfaceOptionsMousePanelMouseLookSpeedSlider["Text"] = InterfaceOptionsMousePanelMouseLookSpeedSliderText -- inherited
 InterfaceOptionsMousePanelMouseLookSpeedSlider["Low"] = InterfaceOptionsMousePanelMouseLookSpeedSliderLow -- inherited
@@ -1686,6 +1716,11 @@ InterfaceOptionsMousePanelEnableMouseSpeedText = {}
 --- @class InterfaceOptionsMousePanel_InterfaceOptionsMousePanelEnableMouseSpeed : CheckButton, InterfaceOptionsCheckButtonTemplate
 InterfaceOptionsMousePanelEnableMouseSpeed = {}
 InterfaceOptionsMousePanelEnableMouseSpeed["Text"] = InterfaceOptionsMousePanelEnableMouseSpeedText -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L84)
 --- child of InterfaceOptionsMousePanelMouseSensitivitySlider (created in template OptionsSliderTemplate)
@@ -1706,6 +1741,8 @@ InterfaceOptionsMousePanelMouseSensitivitySliderHigh = {}
 --- child of InterfaceOptionsMousePanel
 --- @class InterfaceOptionsMousePanel_InterfaceOptionsMousePanelMouseSensitivitySlider : Slider, OptionsSliderTemplate
 InterfaceOptionsMousePanelMouseSensitivitySlider = {}
+InterfaceOptionsMousePanelMouseSensitivitySlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+InterfaceOptionsMousePanelMouseSensitivitySlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
 InterfaceOptionsMousePanelMouseSensitivitySlider["type"] = CONTROLTYPE_SLIDER -- inherited
 InterfaceOptionsMousePanelMouseSensitivitySlider["Text"] = InterfaceOptionsMousePanelMouseSensitivitySliderText -- inherited
 InterfaceOptionsMousePanelMouseSensitivitySlider["Low"] = InterfaceOptionsMousePanelMouseSensitivitySliderLow -- inherited
@@ -1858,6 +1895,7 @@ InterfaceOptionsAccessibilityPanelTextToSpeech["Text"] = InterfaceOptionsAccessi
 --- child of InterfaceOptionsAccessibilityPanel
 --- @class InterfaceOptionsAccessibilityPanel_InterfaceOptionsAccessibilityPanelConfigureTextToSpeech : Button, UIPanelButtonTemplate
 InterfaceOptionsAccessibilityPanelConfigureTextToSpeech = {}
+InterfaceOptionsAccessibilityPanelConfigureTextToSpeech["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L20)
 --- child of InterfaceOptionsAccessibilityPanelRemoteTextToSpeech (created in template InterfaceOptionsCheckButtonTemplate)
@@ -1917,6 +1955,7 @@ InterfaceOptionsAccessibilityPanelRemoteTextToSpeechVoiceDropdown["Icon"] = Inte
 --- child of InterfaceOptionsAccessibilityPanel
 --- @class InterfaceOptionsAccessibilityPanel_InterfaceOptionsAccessibilityPanelRemoteTextToSpeechVoicePlaySample : Button, UIPanelButtonTemplate
 InterfaceOptionsAccessibilityPanelRemoteTextToSpeechVoicePlaySample = {}
+InterfaceOptionsAccessibilityPanelRemoteTextToSpeechVoicePlaySample["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L2792)
 --- child of InterfaceOptionsAccessibilityPanelMotionSicknessDropdown
@@ -2211,6 +2250,11 @@ InterfaceOptionsColorblindPanelColorFilterDropDown["Right"] = InterfaceOptionsCo
 InterfaceOptionsColorblindPanelColorFilterDropDown["Text"] = InterfaceOptionsColorblindPanelColorFilterDropDownText -- inherited
 InterfaceOptionsColorblindPanelColorFilterDropDown["Icon"] = InterfaceOptionsColorblindPanelColorFilterDropDownIcon -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L1119)
+--- child of OptionsSliderTemplate (created in template HorizontalSliderTemplate)
+--- @type Texture
+OptionsSliderTemplateThumb = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Frame_Legacy/TBC/InterfaceOptionsPanels.xml#L84)
 --- child of InterfaceOptionsColorblindPanelColorblindStrengthSlider (created in template OptionsSliderTemplate)
 --- @type OptionsSliderTemplate_OptionsSliderTemplateText
@@ -2230,6 +2274,8 @@ InterfaceOptionsColorblindPanelColorblindStrengthSliderHigh = {}
 --- child of InterfaceOptionsColorblindPanel
 --- @class InterfaceOptionsColorblindPanel_InterfaceOptionsColorblindPanelColorblindStrengthSlider : Slider, OptionsSliderTemplate
 InterfaceOptionsColorblindPanelColorblindStrengthSlider = {}
+InterfaceOptionsColorblindPanelColorblindStrengthSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+InterfaceOptionsColorblindPanelColorblindStrengthSlider["Thumb"] = OptionsSliderTemplateThumb -- inherited
 InterfaceOptionsColorblindPanelColorblindStrengthSlider["type"] = CONTROLTYPE_SLIDER -- inherited
 InterfaceOptionsColorblindPanelColorblindStrengthSlider["Text"] = InterfaceOptionsColorblindPanelColorblindStrengthSliderText -- inherited
 InterfaceOptionsColorblindPanelColorblindStrengthSlider["Low"] = InterfaceOptionsColorblindPanelColorblindStrengthSliderLow -- inherited

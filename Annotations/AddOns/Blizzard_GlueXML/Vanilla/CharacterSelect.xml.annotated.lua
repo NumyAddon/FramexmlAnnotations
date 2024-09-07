@@ -1820,15 +1820,114 @@ CopyCharacterFrameScrollFrameScrollBarBottom = {}
 --- @class CopyCharacterFrame_CopyCharacterFrameScrollFrame_CopyCharacterFrameScrollFrameScrollBarMiddle : Texture
 CopyCharacterFrameScrollFrameScrollBarMiddle = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2347)
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_CopyCharacterFrameScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 CopyCharacterFrameScrollFrame = {}
+CopyCharacterFrameScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2387)
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_CopyCharacterEntry1 : Button, CopyCharacterEntryTemplate
 CopyCharacterEntry1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L563)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplateBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L569)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+PortraitFrameTemplateTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L577)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplatePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L585)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+PortraitFrameTemplatePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L590)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+PortraitFrameTemplateTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L595)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+PortraitFrameTemplateTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L600)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+PortraitFrameTemplateTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L606)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+PortraitFrameTemplateTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L615)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+PortraitFrameTemplateTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L621)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+PortraitFrameTemplateBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L626)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+PortraitFrameTemplateBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L631)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+PortraitFrameTemplateBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L637)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+PortraitFrameTemplateLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L643)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+PortraitFrameTemplateRightBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L657)
+--- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L796)
 --- child of CopyCharacterFrameInset (created in template InsetFrameTemplate)
@@ -1916,5 +2015,20 @@ CopyCharacterFrameButtonBottomBorder = {}
 CopyCharacterFrame = {}
 CopyCharacterFrame["RegionID"] = CopyCharacterFrameRegionID
 CopyCharacterFrame["scrollFrame"] = CopyCharacterFrameScrollFrame
+CopyCharacterFrame["Bg"] = PortraitFrameTemplateBg -- inherited
+CopyCharacterFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
+CopyCharacterFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
+CopyCharacterFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
+CopyCharacterFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
+CopyCharacterFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
+CopyCharacterFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
+CopyCharacterFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
+CopyCharacterFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
+CopyCharacterFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
+CopyCharacterFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
+CopyCharacterFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
+CopyCharacterFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
+CopyCharacterFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
+CopyCharacterFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 CopyCharacterFrame["Inset"] = CopyCharacterFrameInset -- inherited
 

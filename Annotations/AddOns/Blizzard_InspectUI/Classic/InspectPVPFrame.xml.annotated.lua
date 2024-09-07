@@ -152,7 +152,7 @@ InspectPVPTeam1DataWinLossLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L321)
 --- child of InspectPVPTeam1Data (created in template PVPTeamDataTemplate)
---- @type PVPTeamDataTemplate_PVPTeamDataTemplate-
+--- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
 InspectPVPTeam1Data- = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L330)
@@ -287,7 +287,7 @@ InspectPVPTeam2DataWinLossLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L321)
 --- child of InspectPVPTeam2Data (created in template PVPTeamDataTemplate)
---- @type PVPTeamDataTemplate_PVPTeamDataTemplate-
+--- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
 InspectPVPTeam2Data- = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L330)
@@ -422,7 +422,7 @@ InspectPVPTeam3DataWinLossLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L321)
 --- child of InspectPVPTeam3Data (created in template PVPTeamDataTemplate)
---- @type PVPTeamDataTemplate_PVPTeamDataTemplate-
+--- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
 InspectPVPTeam3Data- = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L330)

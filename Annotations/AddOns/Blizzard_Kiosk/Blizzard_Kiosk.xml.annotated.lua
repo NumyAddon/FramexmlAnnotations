@@ -19,14 +19,14 @@ KioskFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L50)
 --- child of 
---- @class KioskSessionStartedDialog_Content_kiosk-start-dialog : FontString, SystemFont_Large
+--- @class KioskSessionStartedDialog_Content_kiosk_start_dialog : FontString, SystemFont_Large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L36)
 --- child of KioskSessionStartedDialog
 --- @class KioskSessionStartedDialog_Content : Frame
 --- @field ContinueButton KioskSessionStartedDialog_Content_ContinueButton
 --- @field kiosk-start-splash Texture
---- @field kiosk-start-dialog KioskSessionStartedDialog_Content_kiosk-start-dialog
+--- @field kiosk-start-dialog KioskSessionStartedDialog_Content_kiosk_start_dialog
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.xml#L14)
 --- @class KioskSessionStartedDialog : Frame

@@ -98,9 +98,73 @@
 --- child of CommunitiesTicketManagerDialog
 --- @class CommunitiesTicketManagerDialog_Copy : Button, UIPanelButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L284)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+CommunitiesTicketManagerDialogButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L226)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+CommunitiesTicketManagerDialogLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L239)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+CommunitiesTicketManagerDialogMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L248)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+CommunitiesTicketManagerDialogRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L257)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+CommunitiesTicketManagerDialogText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L271)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+CommunitiesTicketManagerDialogIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L383)
 --- child of CommunitiesTicketManagerDialog
 --- @class CommunitiesTicketManagerDialog_ExpiresDropDownMenu : Frame, UIDropDownMenuTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L284)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+CommunitiesTicketManagerDialogButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L226)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+CommunitiesTicketManagerDialogLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L239)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+CommunitiesTicketManagerDialogMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L248)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+CommunitiesTicketManagerDialogRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L257)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+CommunitiesTicketManagerDialogText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L271)
+--- child of  (created in template UIDropDownMenuTemplate)
+--- @type Texture
+CommunitiesTicketManagerDialogIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L389)
 --- child of CommunitiesTicketManagerDialog
@@ -109,6 +173,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L395)
 --- child of CommunitiesTicketManagerDialog
 --- @class CommunitiesTicketManagerDialog_GenerateLinkButton : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L429)
+--- child of  (created in template UIPanelSquareButton)
+--- @type Texture
+CommunitiesTicketManagerDialogIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L406)
 --- child of CommunitiesTicketManagerDialog

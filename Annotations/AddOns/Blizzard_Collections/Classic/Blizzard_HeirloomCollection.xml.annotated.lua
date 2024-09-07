@@ -49,6 +49,51 @@ HeirloomsJournalSearchBox = {}
 HeirloomsJournalSearchBox["clearButton"] = HeirloomsJournalSearchBoxClearButton -- inherited
 HeirloomsJournalSearchBox["searchIcon"] = HeirloomsJournalSearchBoxSearchIcon -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L985)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+HeirloomsJournalTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L992)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+HeirloomsJournalTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L999)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+HeirloomsJournalBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1006)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+HeirloomsJournalBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1013)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+HeirloomsJournalTopMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1021)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+HeirloomsJournalMiddleLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1029)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+HeirloomsJournalMiddleRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1037)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+HeirloomsJournalBottomMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1045)
+--- child of  (created in template UIMenuButtonStretchTemplate)
+--- @type Texture
+HeirloomsJournalMiddleMiddle = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L112)
 --- child of HeirloomsJournal
 --- @class HeirloomsJournal_FilterButton : DropDownToggleButton, UIMenuButtonStretchTemplate
@@ -139,6 +184,51 @@ HeirloomsJournalClassDropDown["Middle"] = HeirloomsJournalClassDropDownMiddle --
 HeirloomsJournalClassDropDown["Right"] = HeirloomsJournalClassDropDownRight -- inherited
 HeirloomsJournalClassDropDown["Text"] = HeirloomsJournalClassDropDownText -- inherited
 HeirloomsJournalClassDropDown["Icon"] = HeirloomsJournalClassDropDownIcon -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L796)
+--- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- @type Texture
+CollectionsBackgroundTemplateBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L804)
+--- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
+CollectionsBackgroundTemplateInsetTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L809)
+--- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
+CollectionsBackgroundTemplateInsetTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L815)
+--- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
+CollectionsBackgroundTemplateInsetBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L821)
+--- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
+CollectionsBackgroundTemplateInsetBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L827)
+--- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
+CollectionsBackgroundTemplateInsetTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L833)
+--- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
+CollectionsBackgroundTemplateInsetBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L839)
+--- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
+CollectionsBackgroundTemplateInsetLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L845)
+--- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
+CollectionsBackgroundTemplateInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L150)
 --- child of HeirloomsJournal

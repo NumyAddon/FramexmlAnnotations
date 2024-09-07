@@ -1,14 +1,119 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L9)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateLeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L22)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateMiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L31)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateRightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L40)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L49)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L58)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateHighlightTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L60)
 --- child of AuctionFrame
 --- @class AuctionFrame_AuctionFrameTab1 : Button, AuctionTabTemplate
 AuctionFrameTab1 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L9)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateLeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L22)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateMiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L31)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateRightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L40)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L49)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L58)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateHighlightTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L69)
 --- child of AuctionFrame
 --- @class AuctionFrame_AuctionFrameTab2 : Button, AuctionTabTemplate
 AuctionFrameTab2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L9)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateLeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L22)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateMiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L31)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateRightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L40)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L49)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L58)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
+--- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+AuctionTabTemplateHighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L78)
 --- child of AuctionFrame
@@ -274,15 +379,63 @@ AuctionFilterButton15NormalTexture = {}
 --- @class AuctionFrame_AuctionFrameBrowse_AuctionFilterButton15 : Button, AuctionClassButtonTemplate
 AuctionFilterButton15 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L309)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseFilterScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BrowseFilterScrollFrame = {}
+BrowseFilterScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L356)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BrowseScrollFrame = {}
+BrowseScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L458)
 --- child of 
@@ -338,6 +491,81 @@ StoreButton = {}
 --- @field Tutorial2 AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_Tutorial2
 --- @field Tutorial3 AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_Tutorial3
 --- @field infoarrow Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L563)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplateBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L569)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+PortraitFrameTemplateTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L577)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplatePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L585)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+PortraitFrameTemplatePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L590)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+PortraitFrameTemplateTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L595)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+PortraitFrameTemplateTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L600)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+PortraitFrameTemplateTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L606)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+PortraitFrameTemplateTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L615)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+PortraitFrameTemplateTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L621)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+PortraitFrameTemplateBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L626)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+PortraitFrameTemplateBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L631)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+PortraitFrameTemplateBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L637)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+PortraitFrameTemplateLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L643)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+PortraitFrameTemplateRightBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L657)
+--- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L796)
 --- child of WowTokenGameTimeTutorialInset (created in template InsetFrameTemplate)
@@ -422,6 +650,21 @@ WowTokenGameTimeTutorialButtonBottomBorder = {}
 --- @field RightDisplay AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay
 --- @field Tutorial Texture
 WowTokenGameTimeTutorial = {}
+WowTokenGameTimeTutorial["Bg"] = PortraitFrameTemplateBg -- inherited
+WowTokenGameTimeTutorial["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
+WowTokenGameTimeTutorial["portrait"] = PortraitFrameTemplatePortrait -- inherited
+WowTokenGameTimeTutorial["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
+WowTokenGameTimeTutorial["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
+WowTokenGameTimeTutorial["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
+WowTokenGameTimeTutorial["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
+WowTokenGameTimeTutorial["TitleText"] = PortraitFrameTemplateTitleText -- inherited
+WowTokenGameTimeTutorial["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
+WowTokenGameTimeTutorial["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
+WowTokenGameTimeTutorial["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
+WowTokenGameTimeTutorial["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
+WowTokenGameTimeTutorial["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
+WowTokenGameTimeTutorial["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
+WowTokenGameTimeTutorial["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 WowTokenGameTimeTutorial["Inset"] = WowTokenGameTimeTutorialInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L617)
@@ -1748,11 +1991,13 @@ ShowOnPlayerCheckButton["Text"] = ShowOnPlayerCheckButtonText -- inherited
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseSearchButton : Button, UIPanelButtonTemplate
 BrowseSearchButton = {}
+BrowseSearchButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1211)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseResetButton : Button, UIPanelButtonTemplate
 BrowseResetButton = {}
+BrowseResetButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1244)
 --- child of BrowsePrevPageButton
@@ -1776,11 +2021,13 @@ BrowseNextPageButton = {}
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseCloseButton : Button, UIPanelButtonTemplate
 BrowseCloseButton = {}
+BrowseCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1327)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseBuyoutButton : Button, UIPanelButtonTemplate
 BrowseBuyoutButton = {}
+BrowseBuyoutButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L8)
 --- child of BrowseBidPrice (created in template MoneyInputFrameTemplate)
@@ -1815,6 +2062,7 @@ BrowseBidPrice["copper"] = BrowseBidPriceCopper -- inherited
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseBidButton : Button, UIPanelButtonTemplate
 BrowseBidButton = {}
+BrowseBidButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
 --- child of BrowseBuyoutPrice (created in template SmallMoneyFrameTemplate)
@@ -2036,10 +2284,34 @@ BidBidSortArrow = {}
 BidBidSort = {}
 BidBidSort["Arrow"] = BidBidSortArrow -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1552)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BidScrollFrame = {}
+BidScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L689)
 --- child of BidButtonTemplateItem
@@ -3132,16 +3404,19 @@ BidBidPrice["copper"] = BidBidPriceCopper -- inherited
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidCloseButton : Button, UIPanelButtonTemplate
 BidCloseButton = {}
+BidCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1730)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidBuyoutButton : Button, UIPanelButtonTemplate
 BidBuyoutButton = {}
+BidBuyoutButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1759)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidBidButton : Button, UIPanelButtonTemplate
 BidBidButton = {}
+BidBidButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1427)
 --- child of AuctionFrameBid
@@ -3262,10 +3537,34 @@ AuctionsBidSortArrow = {}
 AuctionsBidSort = {}
 AuctionsBidSort["Arrow"] = AuctionsBidSortArrow -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1886)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 AuctionsScrollFrame = {}
+AuctionsScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L938)
 --- child of AuctionsButtonTemplateItem
@@ -4298,6 +4597,7 @@ AuctionsStackSizeEntry = {}
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsStackSizeMaxButton : Button, UIPanelButtonTemplate
 AuctionsStackSizeMaxButton = {}
+AuctionsStackSizeMaxButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2114)
 --- child of AuctionsNumStacksEntry
@@ -4323,6 +4623,7 @@ AuctionsNumStacksEntry = {}
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsNumStacksMaxButton : Button, UIPanelButtonTemplate
 AuctionsNumStacksMaxButton = {}
+AuctionsNumStacksMaxButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2207)
 --- child of PriceDropDown
@@ -4532,16 +4833,19 @@ AuctionsWowTokenAuctionFrame = {}
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsCloseButton : Button, UIPanelButtonTemplate
 AuctionsCloseButton = {}
+AuctionsCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2398)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsCancelAuctionButton : Button, UIPanelButtonTemplate
 AuctionsCancelAuctionButton = {}
+AuctionsCancelAuctionButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2417)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsCreateAuctionButton : Button, UIPanelButtonTemplate
 AuctionsCreateAuctionButton = {}
+AuctionsCreateAuctionButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2432)
 --- child of AuctionFrameAuctions

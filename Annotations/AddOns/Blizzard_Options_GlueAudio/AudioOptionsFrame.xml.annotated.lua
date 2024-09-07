@@ -28,6 +28,8 @@ AudioOptionsFrameCategoryFrameList = {}
 --- child of AudioOptionsFrame (created in template OptionsFrameTemplate)
 --- @type OptionsFrameTemplate_OptionsFrameTemplateCategoryFrame
 AudioOptionsFrameCategoryFrame = {}
+AudioOptionsFrameCategoryFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
+AudioOptionsFrameCategoryFrame["backdropColorAlpha"] = 0 -- inherited
 AudioOptionsFrameCategoryFrame["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsFrame.xml#L284)
@@ -36,6 +38,7 @@ AudioOptionsFrameCategoryFrame["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- 
 --- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
 AudioOptionsFramePanelContainer = {}
 AudioOptionsFramePanelContainer["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR
+AudioOptionsFramePanelContainer["layoutType"] = "TooltipDefaultLayout" -- inherited
 AudioOptionsFramePanelContainer["backdropColorAlpha"] = 0 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_GlueAudio/AudioOptionsFrame.xml#L242)

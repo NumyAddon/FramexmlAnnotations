@@ -101,10 +101,48 @@
 --- @field EditBox CommunitiesSettingsDialog_MinIlvlOnly_EditBox
 --- @field Label CommunitiesSettingsDialog_MinIlvlOnly_Label
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L284)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+ClubFinderFocusDropdownTemplateButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L226)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderFocusDropdownTemplateLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L239)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderFocusDropdownTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L248)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderFocusDropdownTemplateRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L257)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+ClubFinderFocusDropdownTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L271)
+--- child of ClubFinderFocusDropdownTemplate (created in template UIDropDownMenuTemplate)
+--- @type Texture
+ClubFinderFocusDropdownTemplateIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L299)
 --- child of CommunitiesSettingsDialog
 --- @class CommunitiesSettingsDialog_ClubFinderFocusDropdown : Frame, ClubFinderFocusDropdownTemplate
 ClubFinderFocusDropdown = {}
+ClubFinderFocusDropdown["Button"] = ClubFinderFocusDropdownTemplateButton -- inherited
+ClubFinderFocusDropdown["Left"] = ClubFinderFocusDropdownTemplateLeft -- inherited
+ClubFinderFocusDropdown["Middle"] = ClubFinderFocusDropdownTemplateMiddle -- inherited
+ClubFinderFocusDropdown["Right"] = ClubFinderFocusDropdownTemplateRight -- inherited
+ClubFinderFocusDropdown["Text"] = ClubFinderFocusDropdownTemplateText -- inherited
+ClubFinderFocusDropdown["Icon"] = ClubFinderFocusDropdownTemplateIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L312)
 --- child of ClubFinderLookingForDropdown

@@ -437,6 +437,7 @@ CalendarContextMenuButton32 = {}
 --- child of CalendarFrame
 --- @class CalendarFrame_CalendarContextMenu : Frame, UIMenuTemplate
 CalendarContextMenu = {}
+CalendarContextMenu["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L23)
 --- child of CalendarInviteStatusContextMenuButton1 (created in template UIMenuButtonTemplate)
@@ -762,6 +763,7 @@ CalendarInviteStatusContextMenuButton32 = {}
 --- child of CalendarFrame
 --- @class CalendarFrame_CalendarInviteStatusContextMenu : Frame, UIMenuTemplate
 CalendarInviteStatusContextMenu = {}
+CalendarInviteStatusContextMenu["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L391)
 --- child of CalendarModalDummy
@@ -1089,6 +1091,7 @@ CalendarViewEventFlashTimer = {}
 --- child of CalendarViewEventInviteListSection
 --- @class CalendarViewEventFrame_CalendarViewEventInviteListSection_CalendarViewEventAcceptButton : Button, CalendarViewEventRSVPButtonTemplate
 CalendarViewEventAcceptButton = {}
+CalendarViewEventAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 CalendarViewEventAcceptButton["flashTexture"] = CalendarViewEventAcceptButtonFlashTexture -- inherited
 CalendarViewEventAcceptButton["GlowAnim"] = CalendarViewEventFlashTimer -- inherited
 
@@ -1106,6 +1109,7 @@ CalendarViewEventFlashTimer = {}
 --- child of CalendarViewEventInviteListSection
 --- @class CalendarViewEventFrame_CalendarViewEventInviteListSection_CalendarViewEventTentativeButton : Button, CalendarViewEventRSVPButtonTemplate
 CalendarViewEventTentativeButton = {}
+CalendarViewEventTentativeButton["fitTextCanWidthDecrease"] = true -- inherited
 CalendarViewEventTentativeButton["flashTexture"] = CalendarViewEventTentativeButtonFlashTexture -- inherited
 CalendarViewEventTentativeButton["GlowAnim"] = CalendarViewEventFlashTimer -- inherited
 
@@ -1123,6 +1127,7 @@ CalendarViewEventFlashTimer = {}
 --- child of CalendarViewEventInviteListSection
 --- @class CalendarViewEventFrame_CalendarViewEventInviteListSection_CalendarViewEventDeclineButton : Button, CalendarViewEventRSVPButtonTemplate
 CalendarViewEventDeclineButton = {}
+CalendarViewEventDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 CalendarViewEventDeclineButton["flashTexture"] = CalendarViewEventDeclineButtonFlashTexture -- inherited
 CalendarViewEventDeclineButton["GlowAnim"] = CalendarViewEventFlashTimer -- inherited
 
@@ -1130,6 +1135,7 @@ CalendarViewEventDeclineButton["GlowAnim"] = CalendarViewEventFlashTimer -- inhe
 --- child of CalendarViewEventInviteListSection
 --- @class CalendarViewEventFrame_CalendarViewEventInviteListSection_CalendarViewEventRemoveButton : Button, CalendarEventButtonTemplate
 CalendarViewEventRemoveButton = {}
+CalendarViewEventRemoveButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L245)
 --- child of CalendarViewEventInviteListNameSortButton (created in template CalendarEventInviteSortButtonTemplate)
@@ -1167,6 +1173,7 @@ CalendarViewEventInviteListStatusSortButton = {}
 --- @field buttonTemplate string # "CalendarViewEventInviteListButtonTemplate"
 CalendarViewEventInviteList = {}
 CalendarViewEventInviteList["buttonTemplate"] = "CalendarViewEventInviteListButtonTemplate"
+CalendarViewEventInviteList["layoutType"] = "TooltipDefaultLayout" -- inherited
 CalendarViewEventInviteList["backdropColor"] = BLACK_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L618)
@@ -1540,6 +1547,7 @@ CalendarCreateEventInviteListStatusSortButton = {}
 --- child of CalendarCreateEventInviteListSection
 --- @class CalendarCreateEventFrame_CalendarCreateEventInviteListSection_CalendarCreateEventInviteList : Frame, CalendarEventInviteListTemplate
 CalendarCreateEventInviteList = {}
+CalendarCreateEventInviteList["layoutType"] = "TooltipDefaultLayout" -- inherited
 CalendarCreateEventInviteList["backdropColor"] = BLACK_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L876)
@@ -1551,6 +1559,7 @@ CalendarCreateEventInviteEdit = {}
 --- child of CalendarCreateEventInviteListSection
 --- @class CalendarCreateEventFrame_CalendarCreateEventInviteListSection_CalendarCreateEventInviteButton : Button, UIPanelButtonTemplate
 CalendarCreateEventInviteButton = {}
+CalendarCreateEventInviteButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L826)
 --- child of CalendarCreateEventInviteListSection
@@ -1591,6 +1600,7 @@ CalendarCreateEventMassInviteButtonBorder = {}
 --- child of CalendarCreateEventFrame
 --- @class CalendarCreateEventFrame_CalendarCreateEventMassInviteButton : Button, UIPanelButtonTemplate
 CalendarCreateEventMassInviteButton = {}
+CalendarCreateEventMassInviteButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L997)
 --- child of CalendarCreateEventRaidInviteButton
@@ -1601,6 +1611,7 @@ CalendarCreateEventRaidInviteButtonBorder = {}
 --- child of CalendarCreateEventFrame
 --- @class CalendarCreateEventFrame_CalendarCreateEventRaidInviteButton : Button, UIPanelButtonTemplate
 CalendarCreateEventRaidInviteButton = {}
+CalendarCreateEventRaidInviteButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L1021)
 --- child of CalendarCreateEventCreateButton
@@ -1611,6 +1622,7 @@ CalendarCreateEventCreateButtonBorder = {}
 --- child of CalendarCreateEventFrame
 --- @class CalendarCreateEventFrame_CalendarCreateEventCreateButton : Button, CalendarEventButtonTemplate
 CalendarCreateEventCreateButton = {}
+CalendarCreateEventCreateButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L1036)
 --- child of CalendarCreateEventFrame
@@ -1784,6 +1796,7 @@ CalendarMassInviteRankMenu["Icon"] = CalendarMassInviteRankMenuIcon -- inherited
 --- child of CalendarMassInviteFrame
 --- @class CalendarMassInviteFrame_CalendarMassInviteAcceptButton : Button, CalendarEventButtonTemplate
 CalendarMassInviteAcceptButton = {}
+CalendarMassInviteAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L1166)
 --- child of CalendarMassInviteFrame
@@ -1846,6 +1859,7 @@ CalendarEventPickerCloseButtonBorder = {}
 --- child of CalendarEventPickerFrame
 --- @class CalendarEventPickerFrame_CalendarEventPickerCloseButton : Button, CalendarEventButtonTemplate
 CalendarEventPickerCloseButton = {}
+CalendarEventPickerCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L1191)
 --- child of CalendarEventPickerFrame
@@ -1885,6 +1899,7 @@ CalendarTexturePickerCancelButtonBorder = {}
 --- child of CalendarTexturePickerFrame
 --- @class CalendarTexturePickerFrame_CalendarTexturePickerCancelButton : Button, CalendarEventButtonTemplate
 CalendarTexturePickerCancelButton = {}
+CalendarTexturePickerCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L1307)
 --- child of CalendarTexturePickerAcceptButton
@@ -1895,6 +1910,7 @@ CalendarTexturePickerAcceptButtonBorder = {}
 --- child of CalendarTexturePickerFrame
 --- @class CalendarTexturePickerFrame_CalendarTexturePickerAcceptButton : Button, CalendarEventButtonTemplate
 CalendarTexturePickerAcceptButton = {}
+CalendarTexturePickerAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_Calendar.xml#L1256)
 --- child of CalendarTexturePickerFrame

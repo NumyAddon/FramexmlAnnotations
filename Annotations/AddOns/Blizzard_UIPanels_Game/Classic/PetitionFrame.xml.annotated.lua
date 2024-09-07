@@ -14,16 +14,19 @@ PetitionNpcNameFrame = {}
 --- child of PetitionFrame
 --- @class PetitionFrame_PetitionFrameCancelButton : Button, UIPanelButtonTemplate
 PetitionFrameCancelButton = {}
+PetitionFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetitionFrame.xml#L177)
 --- child of PetitionFrame
 --- @class PetitionFrame_PetitionFrameSignButton : Button, UIPanelButtonTemplate
 PetitionFrameSignButton = {}
+PetitionFrameSignButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetitionFrame.xml#L186)
 --- child of PetitionFrame
 --- @class PetitionFrame_PetitionFrameRequestButton : Button, UIPanelButtonTemplate
 PetitionFrameRequestButton = {}
+PetitionFrameRequestButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetitionFrame.xml#L195)
 --- child of PetitionFrame
@@ -34,6 +37,7 @@ PetitionFrameCloseButton = {}
 --- child of PetitionFrame
 --- @class PetitionFrame_PetitionFrameRenameButton : Button, UIPanelButtonTemplate
 PetitionFrameRenameButton = {}
+PetitionFrameRenameButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetitionFrame.xml#L19)
 --- child of PetitionFrame

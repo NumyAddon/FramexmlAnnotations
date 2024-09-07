@@ -35,11 +35,13 @@
 --- child of AddonDialogBackground
 --- @class AddonDialog_AddonDialogBackground_AddonDialogButton1 : Button, UIPanelButtonTemplate
 AddonDialogButton1 = {}
+AddonDialogButton1["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L115)
 --- child of AddonDialogBackground
 --- @class AddonDialog_AddonDialogBackground_AddonDialogButton2 : Button, UIPanelButtonTemplate
 AddonDialogButton2 = {}
+AddonDialogButton2["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L103)
 --- child of AddonDialogBackground
@@ -50,6 +52,7 @@ AddonDialogText = {}
 --- child of AddonDialog
 --- @class AddonDialog_AddonDialogBackground : Frame, DialogBorderTemplate
 AddonDialogBackground = {}
+AddonDialogBackground["layoutType"] = "Dialog" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L97)
 --- @class AddonDialog : Frame
@@ -68,21 +71,25 @@ AddonListForceLoad = {}
 --- child of AddonList
 --- @class AddonList_AddonListCancelButton : Button, MagicButtonTemplate
 AddonListCancelButton = {}
+AddonListCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L188)
 --- child of AddonList
 --- @class AddonList_AddonListOkayButton : Button, MagicButtonTemplate
 AddonListOkayButton = {}
+AddonListOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L199)
 --- child of AddonList
 --- @class AddonList_AddonListEnableAllButton : Button, MagicButtonTemplate
 AddonListEnableAllButton = {}
+AddonListEnableAllButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L208)
 --- child of AddonList
 --- @class AddonList_AddonListDisableAllButton : Button, MagicButtonTemplate
 AddonListDisableAllButton = {}
+AddonListDisableAllButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L28)
 --- child of AddonListEntry1 (created in template AddonListEntryTemplate)
@@ -98,6 +105,7 @@ AddonListEntry1Enabled = {}
 --- child of AddonListEntry1 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry1Load = {}
+AddonListEntry1Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry1 (created in template AddonListEntryTemplate)
@@ -136,6 +144,7 @@ AddonListEntry2Enabled = {}
 --- child of AddonListEntry2 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry2Load = {}
+AddonListEntry2Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry2 (created in template AddonListEntryTemplate)
@@ -174,6 +183,7 @@ AddonListEntry3Enabled = {}
 --- child of AddonListEntry3 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry3Load = {}
+AddonListEntry3Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry3 (created in template AddonListEntryTemplate)
@@ -212,6 +222,7 @@ AddonListEntry4Enabled = {}
 --- child of AddonListEntry4 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry4Load = {}
+AddonListEntry4Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry4 (created in template AddonListEntryTemplate)
@@ -250,6 +261,7 @@ AddonListEntry5Enabled = {}
 --- child of AddonListEntry5 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry5Load = {}
+AddonListEntry5Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry5 (created in template AddonListEntryTemplate)
@@ -288,6 +300,7 @@ AddonListEntry6Enabled = {}
 --- child of AddonListEntry6 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry6Load = {}
+AddonListEntry6Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry6 (created in template AddonListEntryTemplate)
@@ -326,6 +339,7 @@ AddonListEntry7Enabled = {}
 --- child of AddonListEntry7 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry7Load = {}
+AddonListEntry7Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry7 (created in template AddonListEntryTemplate)
@@ -364,6 +378,7 @@ AddonListEntry8Enabled = {}
 --- child of AddonListEntry8 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry8Load = {}
+AddonListEntry8Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry8 (created in template AddonListEntryTemplate)
@@ -402,6 +417,7 @@ AddonListEntry9Enabled = {}
 --- child of AddonListEntry9 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry9Load = {}
+AddonListEntry9Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry9 (created in template AddonListEntryTemplate)
@@ -440,6 +456,7 @@ AddonListEntry10Enabled = {}
 --- child of AddonListEntry10 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry10Load = {}
+AddonListEntry10Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry10 (created in template AddonListEntryTemplate)
@@ -478,6 +495,7 @@ AddonListEntry11Enabled = {}
 --- child of AddonListEntry11 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry11Load = {}
+AddonListEntry11Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry11 (created in template AddonListEntryTemplate)
@@ -516,6 +534,7 @@ AddonListEntry12Enabled = {}
 --- child of AddonListEntry12 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry12Load = {}
+AddonListEntry12Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry12 (created in template AddonListEntryTemplate)
@@ -554,6 +573,7 @@ AddonListEntry13Enabled = {}
 --- child of AddonListEntry13 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry13Load = {}
+AddonListEntry13Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry13 (created in template AddonListEntryTemplate)
@@ -592,6 +612,7 @@ AddonListEntry14Enabled = {}
 --- child of AddonListEntry14 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry14Load = {}
+AddonListEntry14Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry14 (created in template AddonListEntryTemplate)
@@ -630,6 +651,7 @@ AddonListEntry15Enabled = {}
 --- child of AddonListEntry15 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry15Load = {}
+AddonListEntry15Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry15 (created in template AddonListEntryTemplate)
@@ -668,6 +690,7 @@ AddonListEntry16Enabled = {}
 --- child of AddonListEntry16 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry16Load = {}
+AddonListEntry16Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry16 (created in template AddonListEntryTemplate)
@@ -706,6 +729,7 @@ AddonListEntry17Enabled = {}
 --- child of AddonListEntry17 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry17Load = {}
+AddonListEntry17Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry17 (created in template AddonListEntryTemplate)
@@ -744,6 +768,7 @@ AddonListEntry18Enabled = {}
 --- child of AddonListEntry18 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry18Load = {}
+AddonListEntry18Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry18 (created in template AddonListEntryTemplate)
@@ -782,6 +807,7 @@ AddonListEntry19Enabled = {}
 --- child of AddonListEntry19 (created in template AddonListEntryTemplate)
 --- @type AddonListEntryTemplate_AddonListEntryTemplateLoad
 AddonListEntry19Load = {}
+AddonListEntry19Load["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry19 (created in template AddonListEntryTemplate)
@@ -821,10 +847,109 @@ AddonListScrollFrameScrollBarBottom = {}
 --- @class AddonList_AddonListScrollFrame_AddonListScrollFrameScrollBarMiddle : Texture
 AddonListScrollFrameScrollBarMiddle = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L10)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L18)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L30)
+--- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+FauxScrollFrameTemplateScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L46)
+--- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+FauxScrollFrameTemplateScrollBar = {}
+FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
+FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
+FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L312)
 --- child of AddonList
 --- @class AddonList_AddonListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 AddonListScrollFrame = {}
+AddonListScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L563)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplateBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L569)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+PortraitFrameTemplateTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L577)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplatePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L585)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+PortraitFrameTemplatePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L590)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+PortraitFrameTemplateTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L595)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+PortraitFrameTemplateTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L600)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+PortraitFrameTemplateTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L606)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+PortraitFrameTemplateTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L615)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+PortraitFrameTemplateTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L621)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+PortraitFrameTemplateBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L626)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+PortraitFrameTemplateBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L631)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+PortraitFrameTemplateBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L637)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+PortraitFrameTemplateLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L643)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+PortraitFrameTemplateRightBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L657)
+--- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L796)
 --- child of AddonListInset (created in template InsetFrameTemplate)
@@ -911,5 +1036,20 @@ AddonList["CancelButton"] = AddonListCancelButton
 AddonList["OkayButton"] = AddonListOkayButton
 AddonList["EnableAllButton"] = AddonListEnableAllButton
 AddonList["DisableAllButton"] = AddonListDisableAllButton
+AddonList["Bg"] = PortraitFrameTemplateBg -- inherited
+AddonList["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
+AddonList["portrait"] = PortraitFrameTemplatePortrait -- inherited
+AddonList["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
+AddonList["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
+AddonList["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
+AddonList["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
+AddonList["TitleText"] = PortraitFrameTemplateTitleText -- inherited
+AddonList["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
+AddonList["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
+AddonList["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
+AddonList["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
+AddonList["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
+AddonList["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
+AddonList["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 AddonList["Inset"] = AddonListInset -- inherited
 

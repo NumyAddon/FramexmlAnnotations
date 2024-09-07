@@ -179,6 +179,31 @@ EngravingFrameFilterDropDown["Right"] = EngravingFrameFilterDropDownRight -- inh
 EngravingFrameFilterDropDown["Text"] = EngravingFrameFilterDropDownText -- inherited
 EngravingFrameFilterDropDown["Icon"] = EngravingFrameFilterDropDownIcon -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L15)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L20)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L27)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L34)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L43)
+--- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+HybridScrollBarTemplateThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L51)
 --- child of EngravingFrameScrollFrameScrollBar (created in template HybridScrollBarTemplate)
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
@@ -193,6 +218,11 @@ EngravingFrameScrollFrameScrollBarScrollDownButton = {}
 --- child of EngravingFrameScrollFrame
 --- @class EngravingFrame_EngravingFrameScrollFrame_EngravingFrameScrollFrameScrollBar : Slider, HybridScrollBarTemplate
 EngravingFrameScrollFrameScrollBar = {}
+EngravingFrameScrollFrameScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
+EngravingFrameScrollFrameScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
+EngravingFrameScrollFrameScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
+EngravingFrameScrollFrameScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
+EngravingFrameScrollFrameScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 EngravingFrameScrollFrameScrollBar["ScrollUpButton"] = EngravingFrameScrollFrameScrollBarScrollUpButton -- inherited
 EngravingFrameScrollFrameScrollBar["ScrollDownButton"] = EngravingFrameScrollFrameScrollBarScrollDownButton -- inherited
 

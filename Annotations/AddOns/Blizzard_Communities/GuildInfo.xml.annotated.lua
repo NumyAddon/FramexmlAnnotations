@@ -97,11 +97,13 @@ CommunitiesGuildTextEditFrameCloseButton = {}
 --- child of CommunitiesGuildTextEditFrame
 --- @class CommunitiesGuildTextEditFrame_CommunitiesGuildTextEditFrameAcceptButton : Button, UIPanelButtonTemplate
 CommunitiesGuildTextEditFrameAcceptButton = {}
+CommunitiesGuildTextEditFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L364)
 --- child of CommunitiesGuildTextEditFrame
 --- @class CommunitiesGuildTextEditFrame_CommunitiesGuildTextEditFrameCloseButton : Button, UIPanelButtonTemplate
 CommunitiesGuildTextEditFrameCloseButton = {}
+CommunitiesGuildTextEditFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L292)
 --- child of CommunitiesGuildTextEditFrame
@@ -186,6 +188,7 @@ CommunitiesGuildLogFrameCloseButton = {}
 --- child of CommunitiesGuildLogFrame
 --- @class CommunitiesGuildLogFrame_CommunitiesGuildLogFrameCloseButton : Button, UIPanelButtonTemplate
 CommunitiesGuildLogFrameCloseButton = {}
+CommunitiesGuildLogFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L387)
 --- child of CommunitiesGuildLogFrame

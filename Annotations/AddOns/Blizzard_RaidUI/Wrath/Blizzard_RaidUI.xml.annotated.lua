@@ -99,7 +99,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L596)
 --- child of 
---- @class Name : FontString, GameFontNormalSmall
+--- @class RaidPulloutButtonTemplateTargetTargetName : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L589)
 --- child of RaidPulloutButtonTemplateTargetTarget
@@ -165,6 +165,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L772)
 --- @class RaidFrameReadyCheckButton : Button, UIPanelButtonTemplate
 RaidFrameReadyCheckButton = {}
+RaidFrameReadyCheckButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L16)
 --- child of RaidClassButton13 (created in template RaidClassButtonTemplate)

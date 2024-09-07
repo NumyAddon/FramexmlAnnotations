@@ -43,6 +43,8 @@ VideoOptionsFrameCategoryFrameList = {}
 --- child of VideoOptionsFrame (created in template OptionsFrameTemplate)
 --- @type OptionsFrameTemplate_OptionsFrameTemplateCategoryFrame
 VideoOptionsFrameCategoryFrame = {}
+VideoOptionsFrameCategoryFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
+VideoOptionsFrameCategoryFrame["backdropColorAlpha"] = 0 -- inherited
 VideoOptionsFrameCategoryFrame["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L284)
@@ -51,6 +53,7 @@ VideoOptionsFrameCategoryFrame["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- 
 --- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
 VideoOptionsFramePanelContainer = {}
 VideoOptionsFramePanelContainer["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR
+VideoOptionsFramePanelContainer["layoutType"] = "TooltipDefaultLayout" -- inherited
 VideoOptionsFramePanelContainer["backdropColorAlpha"] = 0 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Options_Glue/VideoOptionsFrame.xml#L242)

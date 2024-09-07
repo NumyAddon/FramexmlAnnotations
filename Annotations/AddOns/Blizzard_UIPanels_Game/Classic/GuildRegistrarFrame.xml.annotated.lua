@@ -19,6 +19,7 @@ GuildRegistrarFrameCloseButton = {}
 --- child of GuildRegistrarGreetingFrame
 --- @class GuildRegistrarFrame_GuildRegistrarGreetingFrame_GuildRegistrarFrameGoodbyeButton : Button, UIPanelButtonTemplate
 GuildRegistrarFrameGoodbyeButton = {}
+GuildRegistrarFrameGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L173)
 --- child of GuildRegistrarButton1 (created in template QuestTitleButtonTemplate)
@@ -77,11 +78,13 @@ GuildRegistrarMoneyFrame["GoldButton"] = GuildRegistrarMoneyFrameGoldButton -- i
 --- child of GuildRegistrarPurchaseFrame
 --- @class GuildRegistrarFrame_GuildRegistrarPurchaseFrame_GuildRegistrarFrameCancelButton : Button, UIPanelButtonTemplate
 GuildRegistrarFrameCancelButton = {}
+GuildRegistrarFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L169)
 --- child of GuildRegistrarPurchaseFrame
 --- @class GuildRegistrarFrame_GuildRegistrarPurchaseFrame_GuildRegistrarFramePurchaseButton : Button, UIPanelButtonTemplate
 GuildRegistrarFramePurchaseButton = {}
+GuildRegistrarFramePurchaseButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GuildRegistrarFrame.xml#L200)
 --- child of GuildRegistrarPurchaseFrame

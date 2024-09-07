@@ -2,75 +2,75 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L3)
 --- Template
---- @class Char-Stat-Bottom : Texture
+--- @class Char_Stat_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L7)
 --- Template
---- @class Char-Stat-Minimized : Texture
+--- @class Char_Stat_Minimized : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L11)
 --- Template
---- @class Char-Stat-Top : Texture
+--- @class Char_Stat_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L15)
 --- Template
---- @class Char-RightSlot : Texture
+--- @class Char_RightSlot : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L19)
 --- Template
---- @class Char-Stat-Minus : Texture
+--- @class Char_Stat_Minus : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L23)
 --- Template
---- @class Char-LeftSlot : Texture
+--- @class Char_LeftSlot : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L27)
 --- Template
---- @class Char-Corner-LowerRight : Texture
+--- @class Char_Corner_LowerRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L31)
 --- Template
---- @class Char-Corner-LowerLeft : Texture
+--- @class Char_Corner_LowerLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L35)
 --- Template
---- @class Char-Corner-UpperRight : Texture
+--- @class Char_Corner_UpperRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L39)
 --- Template
---- @class Char-Corner-UpperLeft : Texture
+--- @class Char_Corner_UpperLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L43)
 --- Template
---- @class Char-Stat-Plus : Texture
+--- @class Char_Stat_Plus : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L47)
 --- Template
---- @class Char-BottomSlot : Texture
+--- @class Char_BottomSlot : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L51)
 --- Template
---- @class Char-Slot-Bottom-Right : Texture
+--- @class Char_Slot_Bottom_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L55)
 --- Template
---- @class Char-Slot-Bottom-Left : Texture
+--- @class Char_Slot_Bottom_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L60)
 --- Template
---- @class Char-Inner-Bottom : Texture
+--- @class Char_Inner_Bottom : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L64)
 --- Template
---- @class Char-Inner-Top : Texture
+--- @class Char_Inner_Top : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L68)
 --- Template
---- @class Char-Inner-Left : Texture
+--- @class Char_Inner_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L72)
 --- Template
---- @class Char-Inner-Right : Texture
+--- @class Char_Inner_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L178)
 --- child of StatGroupTemplateToolbar
@@ -884,6 +884,81 @@ CharacterStatsPaneCategory7["ExpandedIcon"] = CharacterStatsPaneCategory7Expande
 --- @field ClassBackground Texture
 CharacterStatsPane = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L563)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplateBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L569)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+PortraitFrameTemplateTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L577)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PortraitFrameTemplatePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L585)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+PortraitFrameTemplatePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L590)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+PortraitFrameTemplateTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L595)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+PortraitFrameTemplateTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L600)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+PortraitFrameTemplateTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L606)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+PortraitFrameTemplateTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L615)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+PortraitFrameTemplateTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L621)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+PortraitFrameTemplateBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L626)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+PortraitFrameTemplateBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L631)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+PortraitFrameTemplateBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L637)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+PortraitFrameTemplateLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L643)
+--- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+PortraitFrameTemplateRightBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L657)
+--- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ButtonFrameTemplateCloseButton = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L796)
 --- child of CharacterFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
@@ -963,5 +1038,20 @@ CharacterFrameButtonBottomBorder = {}
 --- @field InsetRight CharacterFrame_CharacterFrameInsetRight
 CharacterFrame = {}
 CharacterFrame["InsetRight"] = CharacterFrameInsetRight
+CharacterFrame["Bg"] = PortraitFrameTemplateBg -- inherited
+CharacterFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
+CharacterFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
+CharacterFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
+CharacterFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
+CharacterFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
+CharacterFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
+CharacterFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
+CharacterFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
+CharacterFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
+CharacterFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
+CharacterFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
+CharacterFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
+CharacterFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
+CharacterFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 CharacterFrame["Inset"] = CharacterFrameInset -- inherited
 

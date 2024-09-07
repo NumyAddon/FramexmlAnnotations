@@ -4,10 +4,6 @@
 --- child of ArchaeologyRaceTemplate
 --- @class ArchaeologyRaceTemplate_raceName : FontString, SystemFont_Med1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L90)
---- child of ArchaeologyRaceTemplate
---- @class ArchaeologyRaceTemplate_ArchaeologyRaceTemplateGlow : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L74)
 --- child of ArchaeologyRaceTemplate
 --- @class ArchaeologyRaceTemplate_readyAnim : AnimationGroup
@@ -16,20 +12,8 @@
 --- Template
 --- @class ArchaeologyRaceTemplate : Button
 --- @field raceName ArchaeologyRaceTemplate_raceName
---- @field glow ArchaeologyRaceTemplate_ArchaeologyRaceTemplateGlow
+--- @field glow Texture
 --- @field readyAnim ArchaeologyRaceTemplate_readyAnim
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L128)
---- child of ArchaeologyArtifactTemplate
---- @class ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L137)
---- child of ArchaeologyArtifactTemplate
---- @class ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateBg : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L140)
---- child of ArchaeologyArtifactTemplate
---- @class ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyArtifactTemplate
@@ -42,19 +26,15 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L124)
 --- Template
 --- @class ArchaeologyArtifactTemplate : Button
---- @field border ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateBorder
---- @field icon ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateIcon
+--- @field border Texture
+--- @field icon Texture
 --- @field artifactName ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
 --- @field artifactSubText ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L192)
---- child of KeystoneTemplate
---- @class KeystoneTemplate_KeystoneTemplateIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L188)
 --- Template
 --- @class KeystoneTemplate : Button
---- @field icon KeystoneTemplate_KeystoneTemplateIcon
+--- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L261)
 --- child of ArchaeologyFrame

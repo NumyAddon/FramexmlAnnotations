@@ -1,13 +1,9 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L43)
---- child of 
---- @class AddonListEntryTemplate_Security_Icon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L28)
 --- child of AddonListEntryTemplate
 --- @class AddonListEntryTemplate_Security : Button
---- @field Icon AddonListEntryTemplate_Security_Icon
+--- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L45)
 --- child of AddonListEntryTemplate

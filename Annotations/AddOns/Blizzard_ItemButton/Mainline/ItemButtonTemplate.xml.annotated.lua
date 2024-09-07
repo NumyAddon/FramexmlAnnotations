@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L19)
---- child of ItemButton
---- @class ItemButton_ItemButtonIconTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L22)
 --- child of ItemButton
 --- @class ItemButton_ItemButtonCount : FontString, NumberFontNormal
@@ -12,26 +8,18 @@
 --- child of ItemButton
 --- @class ItemButton_ItemButtonStock : FontString, NumberFontNormalYellow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L34)
---- child of ItemButton
---- @class ItemButton_ItemButtonSearchOverlay : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L71)
---- child of ItemButton
---- @class ItemButton_ItemButtonNormalTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L5)
 --- Intrinsic
 --- @class ItemButton : Button, ItemButtonMixin
---- @field icon ItemButton_ItemButtonIconTexture
+--- @field icon Texture
 --- @field Count ItemButton_ItemButtonCount
 --- @field Stock ItemButton_ItemButtonStock
---- @field searchOverlay ItemButton_ItemButtonSearchOverlay
+--- @field searchOverlay Texture
 --- @field ItemContextOverlay Texture
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
---- @field NormalTexture ItemButton_ItemButtonNormalTexture
+--- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L81)
@@ -78,14 +66,6 @@
 --- @class SimplePopupButtonTemplate : CheckButton
 --- @field Name SimplePopupButtonTemplate_SimplePopupButtonTemplateName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L250)
---- child of LargeItemButtonTemplate
---- @class LargeItemButtonTemplate_LargeItemButtonTemplateIconTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L256)
---- child of LargeItemButtonTemplate
---- @class LargeItemButtonTemplate_LargeItemButtonTemplateNameFrame : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L264)
 --- child of LargeItemButtonTemplate
 --- @class LargeItemButtonTemplate_LargeItemButtonTemplateName : FontString, GameFontHighlight
@@ -97,17 +77,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L243)
 --- Template
 --- @class LargeItemButtonTemplate : Button
---- @field Icon LargeItemButtonTemplate_LargeItemButtonTemplateIconTexture
---- @field NameFrame LargeItemButtonTemplate_LargeItemButtonTemplateNameFrame
+--- @field Icon Texture
+--- @field NameFrame Texture
 --- @field Name LargeItemButtonTemplate_LargeItemButtonTemplateName
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
 --- @field Count LargeItemButtonTemplate_LargeItemButtonTemplateCount
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L312)
---- child of SmallItemButtonTemplate
---- @class SmallItemButtonTemplate_SmallItemButtonTemplateIconTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L325)
 --- child of SmallItemButtonTemplate
@@ -120,7 +96,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L305)
 --- Template
 --- @class SmallItemButtonTemplate : Button
---- @field Icon SmallItemButtonTemplate_SmallItemButtonTemplateIconTexture
+--- @field Icon Texture
 --- @field NameFrame Texture
 --- @field Name SmallItemButtonTemplate_Name
 --- @field Count SmallItemButtonTemplate_Count

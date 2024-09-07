@@ -27,14 +27,10 @@
 --- @field PulseTextureTwo Texture
 --- @field PulseAnim GameEnvironmentButtonPulsingTemplate_PulseAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L111)
---- child of 
---- @class GameEnvironmentFrameTemplate_SelectWoWToggle_CurrentExpansionLogo : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L108)
 --- child of GameEnvironmentFrameTemplate
 --- @class GameEnvironmentFrameTemplate_SelectWoWToggle : Button, GameEnvironmentButtonTemplate
---- @field NormalTexture GameEnvironmentFrameTemplate_SelectWoWToggle_CurrentExpansionLogo
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L121)
 --- child of GameEnvironmentFrameTemplate

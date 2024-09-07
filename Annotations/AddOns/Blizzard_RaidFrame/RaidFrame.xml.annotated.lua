@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L7)
---- child of RaidInfoHeaderTemplate
---- @class RaidInfoHeaderTemplate_RaidInfoHeaderTemplateLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L15)
---- child of RaidInfoHeaderTemplate
---- @class RaidInfoHeaderTemplate_RaidInfoHeaderTemplateRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L23)
---- child of RaidInfoHeaderTemplate
---- @class RaidInfoHeaderTemplate_RaidInfoHeaderTemplateMiddle : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L32)
 --- child of RaidInfoHeaderTemplate
 --- @class RaidInfoHeaderTemplate_text : FontString, GameFontHighlightSmall

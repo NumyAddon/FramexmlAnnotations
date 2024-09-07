@@ -4,10 +4,6 @@
 --- child of ExtraActionButtonTemplate
 --- @class ExtraActionButtonTemplate_ExtraActionButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ExtraActionBar.xml#L7)
---- child of ExtraActionButtonTemplate
---- @class ExtraActionButtonTemplate_ExtraActionButtonTemplateIcon : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ExtraActionBar.xml#L19)
 --- child of ExtraActionButtonTemplate
 --- @class ExtraActionButtonTemplate_ExtraActionButtonTemplateHotKey : FontString, NumberFontNormalGray
@@ -16,19 +12,15 @@
 --- child of ExtraActionButtonTemplate
 --- @class ExtraActionButtonTemplate_ExtraActionButtonTemplateCount : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ExtraActionBar.xml#L32)
---- child of ExtraActionButtonTemplate
---- @class ExtraActionButtonTemplate_ExtraActionButtonTemplateFlash : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ExtraActionBar.xml#L3)
 --- Template
 --- @class ExtraActionButtonTemplate : CheckButton, ActionBarButtonCodeTemplate, ExtraActionButtonMixin
 --- @field cooldown ExtraActionButtonTemplate_ExtraActionButtonTemplateCooldown
---- @field icon ExtraActionButtonTemplate_ExtraActionButtonTemplateIcon
+--- @field icon Texture
 --- @field IconMask MaskTexture
 --- @field HotKey ExtraActionButtonTemplate_ExtraActionButtonTemplateHotKey
 --- @field Count ExtraActionButtonTemplate_ExtraActionButtonTemplateCount
---- @field Flash ExtraActionButtonTemplate_ExtraActionButtonTemplateFlash
+--- @field Flash Texture
 --- @field style Texture
 --- @field HighlightTexture Texture
 

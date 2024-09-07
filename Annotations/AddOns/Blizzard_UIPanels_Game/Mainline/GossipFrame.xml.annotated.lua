@@ -1,17 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L16)
---- child of GossipFramePanelTemplate
---- @class GossipFramePanelTemplate_GossipFramePanelTemplateMaterialTopRight : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L22)
---- child of GossipFramePanelTemplate
---- @class GossipFramePanelTemplate_GossipFramePanelTemplateMaterialBotLeft : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L28)
---- child of GossipFramePanelTemplate
---- @class GossipFramePanelTemplate_GossipFramePanelTemplateMaterialBotRight : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L3)
 --- Template
 --- @class GossipFramePanelTemplate : Frame

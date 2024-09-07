@@ -23,10 +23,6 @@
 --- @field SilverButton MoneyFrameTemplate_MoneyFrameTemplateSilverButton
 --- @field GoldButton MoneyFrameTemplate_MoneyFrameTemplateGoldButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L117)
---- child of SmallMoneyFrameTemplateTrialErrorButton
---- @class SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton_SmallMoneyFrameTemplateTrialErrorButtonTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L110)
 --- child of SmallMoneyFrameTemplate
 --- @class SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton : Frame
@@ -50,10 +46,6 @@
 --- @field CopperButton SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
 --- @field SilverButton SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
 --- @field GoldButton SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L250)
---- child of SmallDenominationTemplate
---- @class SmallDenominationTemplate_SmallDenominationTemplateTexture : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L229)
 --- Template

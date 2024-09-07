@@ -25,10 +25,6 @@
 --- child of ContainerFrameItemButtonTemplate
 --- @class ContainerFrameItemButtonTemplate_ContainerFrameItemButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L96)
---- child of ContainerFrameItemButtonTemplate
---- @class ContainerFrameItemButtonTemplate_ContainerFrameItemButtonTemplateIconQuestTexture : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L86)
 --- child of ContainerFrameItemButtonTemplate
 --- @class ContainerFrameItemButtonTemplate_newitemglowAnim : AnimationGroup
@@ -41,7 +37,7 @@
 --- Template
 --- @class ContainerFrameItemButtonTemplate : ItemButton, EnchantingItemButtonAnimTemplate, ContainerFrameItemButtonMixin
 --- @field Cooldown ContainerFrameItemButtonTemplate_ContainerFrameItemButtonTemplateCooldown
---- @field IconQuestTexture ContainerFrameItemButtonTemplate_ContainerFrameItemButtonTemplateIconQuestTexture
+--- @field IconQuestTexture Texture
 --- @field UpgradeIcon Texture
 --- @field flash Texture
 --- @field NewItemTexture Texture
@@ -85,16 +81,12 @@ ContainerFrameContainer = {}
 --- child of ContainerFrameTemplate
 --- @class  : Button, ContainerFramePortraitButtonRouterTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
---- child of ContainerFrameTemplate
---- @class ContainerFrameTemplate_ContainerFrameTemplateBackground1Slot : Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L218)
 --- Template
 --- @class ContainerFrameTemplate : Frame, PortraitFrameFlatTemplate, ContainerFrameMixin
 --- @field PortraitButton ContainerFrameTemplate_ContainerFrameTemplatePortraitButton
 --- @field FilterIcon ContainerFrameTemplate_FilterIcon
---- @field Background1Slot ContainerFrameTemplate_ContainerFrameTemplateBackground1Slot
+--- @field Background1Slot Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L267)
 --- Template

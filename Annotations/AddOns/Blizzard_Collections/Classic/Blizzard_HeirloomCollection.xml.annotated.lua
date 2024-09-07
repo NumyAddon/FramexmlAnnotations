@@ -1,29 +1,56 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L14)
+--- child of HeirloomHeaderTemplate
+--- @class HeirloomHeaderTemplate_text : FontString, Fancy16Font
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L3)
 --- Template
 --- @class HeirloomHeaderTemplate : Frame
+--- @field text HeirloomHeaderTemplate_text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L30)
+--- child of HeirloomSpellButtonTemplate
+--- @class HeirloomSpellButtonTemplate_special : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L65)
+--- child of HeirloomSpellButtonTemplate
+--- @class HeirloomSpellButtonTemplate_upgradeGlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L27)
 --- Template
 --- @class HeirloomSpellButtonTemplate : CheckButton, CollectionsSpellButtonTemplate
+--- @field special HeirloomSpellButtonTemplate_special
+--- @field glow Texture
+--- @field glow2 Texture
+--- @field bling Texture
+--- @field pendingUpgradeGlow Texture
+--- @field upgradeGlowAnim HeirloomSpellButtonTemplate_upgradeGlowAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L100)
+--- child of HeirloomsJournal
 --- @class HeirloomsJournal_progressBar : StatusBar, CollectionsProgressBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L102)
+--- child of HeirloomsJournal
 --- @class HeirloomsJournal_HeirloomsJournalSearchBox : EditBox, SearchBoxTemplate
+HeirloomsJournalSearchBox = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L112)
+--- child of HeirloomsJournal
 --- @class HeirloomsJournal_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L118)
+--- child of HeirloomsJournal
 --- @class HeirloomsJournal_ClassDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L124)
+--- child of HeirloomsJournal
 --- @class HeirloomsJournal_iconsFrame : Frame, CollectionsBackgroundTemplate
+--- @field watermark Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L136)
+--- child of HeirloomsJournal
 --- @class HeirloomsJournal_PagingFrame : Frame, CollectionsPagingFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L98)

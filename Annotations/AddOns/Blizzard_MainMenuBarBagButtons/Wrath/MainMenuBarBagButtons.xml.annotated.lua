@@ -1,8 +1,14 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Wrath/MainMenuBarBagButtons.xml#L5)
+--- child of ItemAnimTemplate
+--- @class ItemAnimTemplate_flyin : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Wrath/MainMenuBarBagButtons.xml#L3)
 --- Template
 --- @class ItemAnimTemplate : Frame
+--- @field animIcon Texture
+--- @field flyin ItemAnimTemplate_flyin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Wrath/MainMenuBarBagButtons.xml#L39)
 --- Template
@@ -28,7 +34,13 @@ CharacterBag2Slot = {}
 --- @class CharacterBag3Slot : CheckButton, BagSlotButtonTemplate
 CharacterBag3Slot = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Wrath/MainMenuBarBagButtons.xml#L189)
+--- child of KeyRingButton
+--- @class KeyRingButton_flyin : AnimationGroup
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Wrath/MainMenuBarBagButtons.xml#L179)
 --- @class KeyRingButton : CheckButton
+--- @field animIcon Texture
+--- @field flyin KeyRingButton_flyin
 KeyRingButton = {}
 

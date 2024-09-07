@@ -1,7 +1,29 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L61)
+--- child of TutorialFrameCheckButton
+--- @class TutorialFrame_TutorialFrameCheckButton_TutorialFrameCheckboxText : FontString, GameFontNormalSmall
+TutorialFrameCheckboxText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L48)
+--- child of TutorialFrame
 --- @class TutorialFrame_TutorialFrameCheckButton : CheckButton, UICheckButtonTemplate
+TutorialFrameCheckButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L76)
+--- child of TutorialFrame
+--- @class TutorialFrame_TutorialFrameOkayButton : Button
+TutorialFrameOkayButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L19)
+--- child of TutorialFrame
+--- @class TutorialFrame_TutorialFrameTitle : FontString, GameFontHighlight
+TutorialFrameTitle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L32)
+--- child of TutorialFrame
+--- @class TutorialFrame_TutorialFrameText : FontString, GameFontNormal
+TutorialFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L3)
 --- @class TutorialFrame : Frame, BackdropTemplate

@@ -3,6 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.xml#L4)
 --- Template
 --- @class ScrollBoxDragIndicatorTemplate : Frame
+--- @field Texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.xml#L15)
 --- Template
@@ -12,10 +13,16 @@
 --- Template
 --- @class ScrollBoxDragLineTemplate : Frame, ScrollBoxDragIndicatorTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.xml#L34)
+--- child of ScrollBoxBaseTemplate
+--- @class ScrollBoxBaseTemplate_Shadows : Frame
+--- @field Lower Texture
+--- @field Upper Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.xml#L20)
 --- Template
 --- @class ScrollBoxBaseTemplate : Frame, ScrollBoxBaseMixin
 --- @field DragDelegate Frame
 --- @field ScrollTarget EventFrame
---- @field Shadows Frame
+--- @field Shadows ScrollBoxBaseTemplate_Shadows
 

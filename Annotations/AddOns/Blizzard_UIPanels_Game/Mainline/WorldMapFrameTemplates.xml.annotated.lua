@@ -44,6 +44,7 @@
 --- @field Icon Texture
 --- @field IconMask MaskTexture
 --- @field IconBorder Texture
+--- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L218)
 --- child of 

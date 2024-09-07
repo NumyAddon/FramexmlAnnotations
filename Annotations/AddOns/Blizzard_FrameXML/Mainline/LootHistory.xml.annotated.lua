@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L14)
+--- child of LootHistoryElementTemplate
+--- @class LootHistoryElementTemplate_Item : ItemButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L22)
 --- child of LootHistoryElementTemplate
 --- @class LootHistoryElementTemplate_BackgroundArtFrame : Frame
@@ -54,7 +58,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L3)
 --- Template
 --- @class LootHistoryElementTemplate : Frame, LootHistoryElementMixin
---- @field Item ItemButton
+--- @field Item LootHistoryElementTemplate_Item
 --- @field BackgroundArtFrame LootHistoryElementTemplate_BackgroundArtFrame
 --- @field WinningRollInfo LootHistoryElementTemplate_WinningRollInfo
 --- @field PendingRollInfo LootHistoryElementTemplate_PendingRollInfo

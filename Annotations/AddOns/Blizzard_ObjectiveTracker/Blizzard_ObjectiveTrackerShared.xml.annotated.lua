@@ -19,6 +19,7 @@
 --- @field HotKey QuestObjectiveItemButtonTemplate_HotKey
 --- @field icon Texture
 --- @field Count QuestObjectiveItemButtonTemplate_Count
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.xml#L47)
 --- Template

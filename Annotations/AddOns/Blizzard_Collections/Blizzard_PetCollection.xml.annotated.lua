@@ -16,6 +16,10 @@
 --- child of 
 --- @class CompanionListButtonTemplate_dragButton_Favorite : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L110)
+--- child of 
+--- @class CompanionListButtonTemplate_dragButton_Highlight : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L79)
 --- child of CompanionListButtonTemplate
 --- @class CompanionListButtonTemplate_dragButton : Button, PetJournalDragButtonMixin
@@ -71,6 +75,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L177)
 --- child of CompanionLoadOutSpellTemplate
 --- @class CompanionLoadOutSpellTemplate_CompanionLoadOutSpellTemplateSelected : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L205)
+--- child of CompanionLoadOutSpellTemplate
+--- @class CompanionLoadOutSpellTemplate_CompanionLoadOutSpellTemplateHighlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L143)
 --- Template
@@ -219,6 +227,10 @@
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_CompanionLoadOutTemplateSetButton : Button
 --- @field glow CompanionLoadOutTemplate_CompanionLoadOutTemplateSetButton_glow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L613)
+--- child of 
+--- @class CompanionLoadOutTemplate_dragButton_Highlight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L608)
 --- child of CompanionLoadOutTemplate
@@ -393,6 +405,11 @@ PetJournalHealPetButtonLockIcon = {}
 --- @class PetJournal_PetJournalHealPetButton_PetJournalHealPetButtonSpellName : FontString, GameFontNormal
 PetJournalHealPetButtonSpellName = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L882)
+--- child of PetJournalHealPetButton
+--- @class PetJournal_PetJournalHealPetButton_PetJournalHealPetButtonHighlight : Texture
+PetJournalHealPetButtonHighlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L833)
 --- child of PetJournal
 --- @class PetJournal_PetJournalHealPetButton : Button, SecureFrameTemplate
@@ -427,6 +444,11 @@ PetJournalSummonRandomFavoritePetButtonLockIcon = {}
 --- child of PetJournalSummonRandomFavoritePetButton
 --- @class PetJournal_PetJournalSummonRandomFavoritePetButton_PetJournalSummonRandomFavoritePetButtonSpellName : FontString, GameFontNormal
 PetJournalSummonRandomFavoritePetButtonSpellName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L929)
+--- child of PetJournalSummonRandomFavoritePetButton
+--- @class PetJournal_PetJournalSummonRandomFavoritePetButton_PetJournalSummonRandomFavoritePetButtonHighlight : Texture
+PetJournalSummonRandomFavoritePetButtonHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L884)
 --- child of PetJournal

@@ -8,6 +8,10 @@
 --- child of CraftingSearchSMTemplate
 --- @class CraftingSearchSMTemplate_Name : FontString, GameFontNormalSmall
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L41)
+--- child of CraftingSearchSMTemplate
+--- @class  : Texture, _SearchBarSm
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L5)
 --- Template
 --- @class CraftingSearchSMTemplate : Button, SearchBoxListElementMixin
@@ -27,6 +31,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L68)
 --- child of CraftingSearchLGTemplate
 --- @class CraftingSearchLGTemplate_Name : FontString, GameFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L78)
+--- child of CraftingSearchLGTemplate
+--- @class  : Texture, _SearchBarLg
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L82)
+--- child of CraftingSearchLGTemplate
+--- @class  : Texture, UI-Common-SearchBarHighlightLg
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L51)
 --- Template
@@ -148,6 +160,10 @@
 --- child of ProfessionsCraftingPageTemplate
 --- @class ProfessionsCraftingPageTemplate_GearSlotDivider : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L362)
+--- child of ProfessionsCraftingPageTemplate
+--- @class ProfessionsCraftingPageTemplate_LinkButton : DropdownButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L122)
 --- Template
 --- @class ProfessionsCraftingPageTemplate : Frame, ProfessionsCraftingPageMixin
@@ -174,6 +190,6 @@
 --- @field CookingGear0Slot ProfessionsCraftingPageTemplate_CookingGear0Slot
 --- @field FishingToolSlot ProfessionsCraftingPageTemplate_FishingToolSlot
 --- @field GearSlotDivider ProfessionsCraftingPageTemplate_GearSlotDivider
---- @field LinkButton DropdownButton
+--- @field LinkButton ProfessionsCraftingPageTemplate_LinkButton
 --- @field OverlayCastBarAnchor Frame
 

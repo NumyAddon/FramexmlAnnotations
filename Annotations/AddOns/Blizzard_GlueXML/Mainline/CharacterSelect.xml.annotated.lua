@@ -499,6 +499,7 @@ CharacterTemplatesFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1109)
 --- child of PlayersOnServer
 --- @class CharacterSelect_CharacterSelectUI_PlayersOnServer_ActivateFactionChange : Button
+--- @field texture Texture
 ActivateFactionChange = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1063)

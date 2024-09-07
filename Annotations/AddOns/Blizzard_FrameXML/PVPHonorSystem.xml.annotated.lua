@@ -4,6 +4,12 @@
 --- Template
 --- @class PVPHonorRewardCodeTemplate : Frame, PVPHonorRewardCodeMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L61)
+--- child of 
+--- @class PVPHonorSystemLargeXPBar_Bar_ExhaustionTick : Button
+--- @field Normal Texture
+--- @field Highlight Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L80)
 --- child of 
 --- @class PVPHonorSystemLargeXPBar_Bar_OverlayFrame_Text : FontString, TextStatusBarText
@@ -16,7 +22,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L29)
 --- child of PVPHonorSystemLargeXPBar
 --- @class PVPHonorSystemLargeXPBar_Bar : StatusBar, AnimatedStatusBarTemplate
---- @field ExhaustionTick Button
+--- @field ExhaustionTick PVPHonorSystemLargeXPBar_Bar_ExhaustionTick
 --- @field OverlayFrame PVPHonorSystemLargeXPBar_Bar_OverlayFrame
 --- @field Background Texture
 --- @field ExhaustionLevelFillBar Texture
@@ -66,6 +72,12 @@
 --- @field Frame Texture
 --- @field Level PVPHonorSystemLargeXPBar_Level
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L269)
+--- child of 
+--- @class PVPHonorSystemSmallXPBar_Bar_ExhaustionTick : Button
+--- @field Normal Texture
+--- @field Highlight Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L288)
 --- child of 
 --- @class PVPHonorSystemSmallXPBar_Bar_OverlayFrame_Text : FontString, TextStatusBarText
@@ -82,7 +94,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L236)
 --- child of PVPHonorSystemSmallXPBar
 --- @class PVPHonorSystemSmallXPBar_Bar : StatusBar, AnimatedStatusBarTemplate
---- @field ExhaustionTick Button
+--- @field ExhaustionTick PVPHonorSystemSmallXPBar_Bar_ExhaustionTick
 --- @field OverlayFrame PVPHonorSystemSmallXPBar_Bar_OverlayFrame
 --- @field Lock PVPHonorSystemSmallXPBar_Bar_Lock
 --- @field Background Texture

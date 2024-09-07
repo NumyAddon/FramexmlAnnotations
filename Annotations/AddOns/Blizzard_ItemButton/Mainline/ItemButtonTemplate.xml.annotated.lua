@@ -16,6 +16,10 @@
 --- child of ItemButton
 --- @class ItemButton_ItemButtonSearchOverlay : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L71)
+--- child of ItemButton
+--- @class ItemButton_ItemButtonNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L5)
 --- Intrinsic
 --- @class ItemButton : Button, ItemButtonMixin
@@ -27,6 +31,8 @@
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
+--- @field NormalTexture ItemButton_ItemButtonNormalTexture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L81)
 --- Template
@@ -61,6 +67,7 @@
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
 --- @field Count GiantItemButtonTemplate_Count
+--- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L224)
 --- child of SimplePopupButtonTemplate

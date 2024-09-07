@@ -111,6 +111,7 @@ TimerunningFirstTimeDialog = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L230)
 --- Template
 --- @class TimerunningChoiceInfoButtonTemplate : Button, TimerunningChoiceInfoButtonMixin
+--- @field LetterI Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L271)
 --- child of TimerunningChoiceSandCornersTemplate
@@ -223,5 +224,6 @@ TimerunningChoicePopup = {}
 --- @field Glow TimerunningEventBanner_Glow
 --- @field Header TimerunningEventBanner_Header
 --- @field TimeLeft TimerunningEventBanner_TimeLeft
+--- @field Border Texture
 TimerunningEventBanner = {}
 

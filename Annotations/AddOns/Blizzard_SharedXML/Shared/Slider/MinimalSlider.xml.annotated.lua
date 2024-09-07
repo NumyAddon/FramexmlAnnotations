@@ -6,6 +6,7 @@
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
+--- @field Thumb Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L37)
 --- child of MinimalSliderWithSteppersTemplate

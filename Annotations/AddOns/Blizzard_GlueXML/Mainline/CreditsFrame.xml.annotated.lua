@@ -4,6 +4,7 @@
 --- Template
 --- @class CreditsSpeedButtonTemplate : Button, IconButtonTemplate
 --- @field Icon Texture
+--- @field HightlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CreditsFrame.xml#L48)
 --- Template

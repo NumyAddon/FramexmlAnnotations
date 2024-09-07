@@ -3,6 +3,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L3)
 --- Template
 --- @class VoiceChatHeadsetButtonTemplate : Button, VoiceChatHeadsetButtonMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/VoiceChatHeadsetButton.xml#L19)
 --- child of VoiceChatHeadsetTemplate

@@ -58,6 +58,10 @@
 --- @field TimeLeft GarrisonLandingPageReportMissionTemplate_TimeLeft
 --- @field Status GarrisonLandingPageReportMissionTemplate_Status
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L175)
+--- child of GarrisonLandingPageReportShipmentStatusTemplate
+--- @class GarrisonLandingPageReportShipmentStatusTemplate_Swipe : Cooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L158)
 --- child of GarrisonLandingPageReportShipmentStatusTemplate
 --- @class GarrisonLandingPageReportShipmentStatusTemplate_Name : FontString, GameFontNormal
@@ -69,7 +73,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L122)
 --- Template
 --- @class GarrisonLandingPageReportShipmentStatusTemplate : Frame
---- @field Swipe Cooldown
+--- @field Swipe GarrisonLandingPageReportShipmentStatusTemplate_Swipe
 --- @field Icon Texture
 --- @field BG Texture
 --- @field Border Texture
@@ -169,6 +173,14 @@ GarrisonLandingPageTab3 = {}
 --- @field EmptyMissionText GarrisonLandingPage_GarrisonLandingPageReport_GarrisonLandingPageReportList_EmptyMissionText
 GarrisonLandingPageReportList = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L528)
+--- child of GarrisonLandingPageReport
+--- @class GarrisonLandingPage_GarrisonLandingPageReport_InProgress : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L556)
+--- child of GarrisonLandingPageReport
+--- @class GarrisonLandingPage_GarrisonLandingPageReport_Available : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L463)
 --- child of GarrisonLandingPageReport
 --- @class GarrisonLandingPage_GarrisonLandingPageReport_Title : FontString, QuestFont_Enormous
@@ -178,8 +190,8 @@ GarrisonLandingPageReportList = {}
 --- @class GarrisonLandingPage_GarrisonLandingPageReport : Frame
 --- @field Sections GarrisonLandingPage_GarrisonLandingPageReport_Sections
 --- @field List GarrisonLandingPage_GarrisonLandingPageReport_GarrisonLandingPageReportList
---- @field InProgress Button
---- @field Available Button
+--- @field InProgress GarrisonLandingPage_GarrisonLandingPageReport_InProgress
+--- @field Available GarrisonLandingPage_GarrisonLandingPageReport_Available
 --- @field Title GarrisonLandingPage_GarrisonLandingPageReport_Title
 --- @field Background Texture
 GarrisonLandingPageReport = {}

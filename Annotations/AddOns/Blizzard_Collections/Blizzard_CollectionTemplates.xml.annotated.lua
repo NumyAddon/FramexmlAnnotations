@@ -45,6 +45,7 @@
 --- @field slotFrameCollected Texture
 --- @field slotFrameUncollected Texture
 --- @field IconFadeIn CollectionsSpellButtonTemplate_IconFadeIn
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L168)
 --- Template

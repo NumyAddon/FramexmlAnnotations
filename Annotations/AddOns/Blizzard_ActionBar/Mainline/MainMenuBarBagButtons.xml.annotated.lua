@@ -19,6 +19,8 @@ MainMenuBarBackpackButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.xml#L67)
 --- child of BagsBar
 --- @class BagsBar_BagBarExpandToggle : Button, BagBarExpandToggleMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 BagBarExpandToggle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.xml#L94)

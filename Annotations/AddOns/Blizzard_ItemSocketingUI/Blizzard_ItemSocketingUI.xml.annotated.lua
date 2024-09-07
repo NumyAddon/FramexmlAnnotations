@@ -81,6 +81,10 @@ ItemSocketingSocket3Left = {}
 --- @class ItemSocketingFrame_ItemSocketingSocket3 : Button, ItemSocketingSocketButtonTemplate
 ItemSocketingSocket3 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L507)
+--- child of ItemSocketingSocketButton
+--- @class  : Texture, UIPanelButtonHighlightTexture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L447)
 --- child of ItemSocketingFrame
 --- @class ItemSocketingFrame_ItemSocketingSocketButton : Button

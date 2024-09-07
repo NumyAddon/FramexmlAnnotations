@@ -24,6 +24,7 @@
 --- @field Cooldown ZoneAbilityFrameSpellButtonTemplate_Cooldown
 --- @field Icon Texture
 --- @field Count ZoneAbilityFrameSpellButtonTemplate_Count
+--- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.xml#L67)
 --- @class ZoneAbilityFrame : Frame, ZoneAbilityFrameTemplate

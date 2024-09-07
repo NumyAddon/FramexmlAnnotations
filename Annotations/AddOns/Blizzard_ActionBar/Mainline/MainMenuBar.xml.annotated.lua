@@ -40,6 +40,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L167)
 --- child of MainMenuBar
 --- @class MainMenuBar_MainMenuBarVehicleLeaveButton : Button, EditModeVehicleLeaveButtonSystemTemplate, MainMenuBarVehicleLeaveButtonMixin
+--- @field Highlight Texture
 MainMenuBarVehicleLeaveButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L29)

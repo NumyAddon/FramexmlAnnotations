@@ -45,6 +45,8 @@
 --- @field CheckmarkFlipbook Texture
 --- @field CheckmarkAnim MonthlyActivitiesButtonTemplate_CheckmarkAnim
 --- @field CoinAnim MonthlyActivitiesButtonTemplate_CoinAnim
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L145)
 --- child of MonthlySupersedeActivitiesButtonTemplate
@@ -61,6 +63,8 @@
 --- @field TrackingCheckmark Texture
 --- @field Checkmark Texture
 --- @field Points MonthlySupersedeActivitiesButtonTemplate_Points
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L181)
 --- child of MonthlyActivitiesThresholdTemplate

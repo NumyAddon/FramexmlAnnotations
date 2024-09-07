@@ -83,6 +83,12 @@ CharCustomizeTooltip = {}
 --- @field Border CharacterCreateStartingZoneTemplate_ZoneArt_Border
 --- @field BGTex Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L209)
+--- child of 
+--- @class CharacterCreateStartingZoneTemplate_ZoneNameButton_Button : CheckButton
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L226)
 --- child of 
 --- @class CharacterCreateStartingZoneTemplate_ZoneNameButton_Label : FontString, GameFontHighlightLarge2
@@ -90,7 +96,7 @@ CharCustomizeTooltip = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L204)
 --- child of CharacterCreateStartingZoneTemplate
 --- @class CharacterCreateStartingZoneTemplate_ZoneNameButton : Frame, ResizeCheckButtonBehaviorTemplate, CharacterCreateStartingZoneButtonMixin
---- @field Button CheckButton
+--- @field Button CharacterCreateStartingZoneTemplate_ZoneNameButton_Button
 --- @field Label CharacterCreateStartingZoneTemplate_ZoneNameButton_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L172)

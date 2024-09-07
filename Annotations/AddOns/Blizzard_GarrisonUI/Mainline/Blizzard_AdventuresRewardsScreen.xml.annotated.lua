@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L5)
+--- child of AdventuresRewardsFollowerTemplate
+--- @class AdventuresRewardsFollowerTemplate_FollowerExperienceDisplay : Cooldown
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L27)
 --- child of 
 --- @class AdventuresRewardsFollowerTemplate_XPFloatingText_Text : FontString, GameFontHighlight
@@ -27,7 +31,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L3)
 --- Template
 --- @class AdventuresRewardsFollowerTemplate : Frame, AdventuresLevelPortraitTemplate, AdventuresRewardsFollowerMixin
---- @field FollowerExperienceDisplay Cooldown
+--- @field FollowerExperienceDisplay AdventuresRewardsFollowerTemplate_FollowerExperienceDisplay
 --- @field XPFloatingText AdventuresRewardsFollowerTemplate_XPFloatingText
 --- @field LevelUpAnimFrame AdventuresRewardsFollowerTemplate_LevelUpAnimFrame
 
@@ -55,6 +59,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L218)
 --- child of 
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_ContinueButton_FlashAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L206)
+--- child of 
+--- @class  : Texture, UIPanelButtonHighlightTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L195)
 --- child of 

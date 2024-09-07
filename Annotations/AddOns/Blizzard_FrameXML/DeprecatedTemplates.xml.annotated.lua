@@ -49,12 +49,28 @@
 --- child of OptionsFrameTabButtonTemplate
 --- @class OptionsFrameTabButtonTemplate_OptionsFrameTabButtonTemplateRight : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L107)
+--- child of OptionsFrameTabButtonTemplate
+--- @class OptionsFrameTabButtonTemplate_OptionsFrameTabButtonTemplateHighlightTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L41)
 --- Template
 --- @class OptionsFrameTabButtonTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L133)
+--- child of 
+--- @class OptionsListButtonTemplate_Toggle_NormalTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L135)
+--- child of 
+--- @class OptionsListButtonTemplate_Toggle_HighlightTexture : Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L118)
+--- child of OptionsListButtonTemplate
+--- @class OptionsListButtonTemplate_Toggle : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L115)
 --- Template
 --- @class OptionsListButtonTemplate : Button
---- @field Toggle Button
+--- @field Toggle OptionsListButtonTemplate_Toggle
 

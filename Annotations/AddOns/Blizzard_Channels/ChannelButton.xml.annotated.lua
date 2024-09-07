@@ -10,11 +10,15 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L17)
 --- Template
 --- @class ChannelButtonBaseTemplate : Button, ChannelButtonBaseMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L36)
 --- Template
 --- @class ChannelButtonHeaderTemplate : Button, ChannelButtonBaseTemplate, ChannelButtonHeaderMixin
 --- @field Collapsed Texture
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Channels/ChannelButton.xml#L53)
 --- child of ChannelButtonTemplate

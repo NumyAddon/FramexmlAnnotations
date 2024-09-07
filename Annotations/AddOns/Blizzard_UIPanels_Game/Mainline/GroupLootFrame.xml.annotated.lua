@@ -39,14 +39,22 @@
 --- @field Label BonusRollFrameTemplate_PromptFrame_InfoFrame_Label
 --- @field Cost BonusRollFrameTemplate_PromptFrame_InfoFrame_Cost
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L203)
+--- child of 
+--- @class BonusRollFrameTemplate_PromptFrame_RollButton : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L227)
+--- child of 
+--- @class BonusRollFrameTemplate_PromptFrame_PassButton : Button
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L147)
 --- child of BonusRollFrameTemplate
 --- @class BonusRollFrameTemplate_PromptFrame : Frame
 --- @field EncounterJournalLinkButton BonusRollFrameTemplate_PromptFrame_EncounterJournalLinkButton
 --- @field InfoFrame BonusRollFrameTemplate_PromptFrame_InfoFrame
 --- @field Timer StatusBar
---- @field RollButton Button
---- @field PassButton Button
+--- @field RollButton BonusRollFrameTemplate_PromptFrame_RollButton
+--- @field PassButton BonusRollFrameTemplate_PromptFrame_PassButton
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L249)

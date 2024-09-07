@@ -202,6 +202,10 @@ ActionBarButtonUsableWatcherFrame = {}
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_SpellHighlightAnim : AnimationGroup
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L423)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_ActionButtonTemplateNormalTexture : Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L287)
 --- Template
 --- @class ActionButtonTemplate : CheckButton, ActionButtonSpellFXTemplate, BaseActionButtonMixin
@@ -221,6 +225,8 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field SpellHighlightTexture Texture
 --- @field LevelLinkLockIcon Texture
 --- @field SpellHighlightAnim ActionButtonTemplate_SpellHighlightAnim
+--- @field NormalTexture ActionButtonTemplate_ActionButtonTemplateNormalTexture
+--- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L449)
 --- Template

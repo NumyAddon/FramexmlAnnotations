@@ -28,6 +28,10 @@
 --- child of AchievementFullSearchResultsButtonTemplate
 --- @class AchievementFullSearchResultsButtonTemplate_ResultType : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L103)
+--- child of AchievementFullSearchResultsButtonTemplate
+--- @class  : Texture, _SearchBarLg
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L62)
 --- Template
 --- @class AchievementFullSearchResultsButtonTemplate : Button, AchievementFullSearchResultsButtonMixin

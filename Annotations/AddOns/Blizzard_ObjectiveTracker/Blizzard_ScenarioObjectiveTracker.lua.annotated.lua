@@ -161,7 +161,7 @@ function ScenarioChallengeModeAffixMixin:OnEnter() end
 function ScenarioObjectiveTrackerProvingGroundsMixin:OnLoad() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L844)
-function ScenarioObjectiveTrackerProvingGroundsMixin:OnEvent(...) end
+function ScenarioObjectiveTrackerProvingGroundsMixin:OnEvent(event, ...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L849)
 function ScenarioObjectiveTrackerProvingGroundsMixin:IsActive() end

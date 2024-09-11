@@ -24,8 +24,8 @@ function FriendsFriendsFrameMixin:OnLoad() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame_Shared.lua#L1913)
 function FriendsFriendsFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame_Shared.lua#L1935)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame_Shared.lua#L1934)
 function FriendsFriendsFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame_Shared.lua#L1939)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame_Shared.lua#L1938)
 function FriendsFriendsFrameMixin:OnEvent(event, ...) end

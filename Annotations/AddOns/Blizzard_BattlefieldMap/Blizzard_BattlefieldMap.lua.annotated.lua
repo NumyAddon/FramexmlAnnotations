@@ -47,11 +47,11 @@ function BattlefieldMapMixin:OnEvent(event, ...) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L197)
 function BattlefieldMapMixin:AddStandardDataProviders() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L258)
 function BattlefieldMapMixin:RefreshAlpha() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L263)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L264)
 function BattlefieldMapMixin:UpdateUnitsVisibility() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L282)
 function BattlefieldMapMixin:OnUpdate(elapsed) end

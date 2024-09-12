@@ -80,9 +80,9 @@ HeroTalentsSelectionDialog["TopTileStreaks"] = HeroTalentsSelectionDialogTopTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L253)
 --- child of HeroTalentSpecContentTemplate
---- @class HeroTalentSpecContentTemplate_ActivateButton : Button, MagicButtonTemplate
+--- @class HeroTalentSpecContentTemplate_ActivateButton : Button, MagicButtonTemplate, HeroTalentActivateButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L263)
 --- child of HeroTalentSpecContentTemplate
 --- @class HeroTalentSpecContentTemplate_ApplyChangesButton : Button, UIPanelButtonNoTooltipTemplate, UIButtonTemplate
 

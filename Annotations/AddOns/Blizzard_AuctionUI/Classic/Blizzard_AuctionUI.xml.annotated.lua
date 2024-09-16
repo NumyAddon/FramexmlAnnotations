@@ -30,7 +30,7 @@ AuctionTabTemplateMiddle = {}
 --- @type Texture
 AuctionTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
 --- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionTabTemplateHighlightTexture = {}
@@ -70,7 +70,7 @@ AuctionTabTemplateMiddle = {}
 --- @type Texture
 AuctionTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
 --- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionTabTemplateHighlightTexture = {}
@@ -110,7 +110,7 @@ AuctionTabTemplateMiddle = {}
 --- @type Texture
 AuctionTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
 --- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionTabTemplateHighlightTexture = {}

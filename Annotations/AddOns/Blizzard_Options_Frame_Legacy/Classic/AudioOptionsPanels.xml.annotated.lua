@@ -20,7 +20,7 @@
 --- Template
 --- @class AudioOptionsSmallCheckButtonTemplate : CheckButton, AudioOptionsBaseCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L24)
 --- child of AudioOptionsSoundPanelEnableSound (created in template AudioOptionsCheckButtonTemplate)
 --- @type AudioOptionsCheckButtonTemplate_AudioOptionsCheckButtonTemplateText
 AudioOptionsSoundPanelEnableSoundText = {}
@@ -45,7 +45,7 @@ AudioOptionsSoundPanelPlayback["layoutType"] = "TooltipDefaultLayout" -- inherit
 AudioOptionsSoundPanelPlayback["backdropColorAlpha"] = 0 -- inherited
 AudioOptionsSoundPanelPlayback["backdropColor"] = GRAY_FONT_COLOR -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L39)
 --- child of AudioOptionsSoundPanelSoundEffects (created in template AudioOptionsSmallCheckButtonTemplate)
 --- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
 AudioOptionsSoundPanelSoundEffectsText = {}
@@ -55,7 +55,7 @@ AudioOptionsSoundPanelSoundEffectsText = {}
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundEffects : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelSoundEffects = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L39)
 --- child of AudioOptionsSoundPanelPetSounds (created in template AudioOptionsSmallCheckButtonTemplate)
 --- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
 AudioOptionsSoundPanelPetSoundsText = {}
@@ -65,7 +65,7 @@ AudioOptionsSoundPanelPetSoundsText = {}
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelPetSounds : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelPetSounds = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L39)
 --- child of AudioOptionsSoundPanelEmoteSounds (created in template AudioOptionsSmallCheckButtonTemplate)
 --- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
 AudioOptionsSoundPanelEmoteSoundsText = {}
@@ -75,7 +75,7 @@ AudioOptionsSoundPanelEmoteSoundsText = {}
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelEmoteSounds : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelEmoteSounds = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L39)
 --- child of AudioOptionsSoundPanelMusic (created in template AudioOptionsSmallCheckButtonTemplate)
 --- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
 AudioOptionsSoundPanelMusicText = {}
@@ -85,7 +85,7 @@ AudioOptionsSoundPanelMusicText = {}
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelMusic : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelMusic = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L39)
 --- child of AudioOptionsSoundPanelLoopMusic (created in template AudioOptionsSmallCheckButtonTemplate)
 --- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
 AudioOptionsSoundPanelLoopMusicText = {}
@@ -95,7 +95,7 @@ AudioOptionsSoundPanelLoopMusicText = {}
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelLoopMusic : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelLoopMusic = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L39)
 --- child of AudioOptionsSoundPanelAmbientSounds (created in template AudioOptionsSmallCheckButtonTemplate)
 --- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
 AudioOptionsSoundPanelAmbientSoundsText = {}
@@ -105,7 +105,7 @@ AudioOptionsSoundPanelAmbientSoundsText = {}
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelAmbientSounds : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelAmbientSounds = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L39)
 --- child of AudioOptionsSoundPanelDialogSounds (created in template AudioOptionsSmallCheckButtonTemplate)
 --- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
 AudioOptionsSoundPanelDialogSoundsText = {}
@@ -115,7 +115,7 @@ AudioOptionsSoundPanelDialogSoundsText = {}
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelDialogSounds : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelDialogSounds = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L39)
 --- child of AudioOptionsSoundPanelErrorSpeech (created in template AudioOptionsSmallCheckButtonTemplate)
 --- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
 AudioOptionsSoundPanelErrorSpeechText = {}
@@ -125,7 +125,7 @@ AudioOptionsSoundPanelErrorSpeechText = {}
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelErrorSpeech : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelErrorSpeech = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L39)
 --- child of AudioOptionsSoundPanelSoundInBG (created in template AudioOptionsSmallCheckButtonTemplate)
 --- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
 AudioOptionsSoundPanelSoundInBGText = {}
@@ -135,7 +135,7 @@ AudioOptionsSoundPanelSoundInBGText = {}
 --- @class AudioOptionsSoundPanel_AudioOptionsSoundPanelSoundInBG : CheckButton, AudioOptionsSmallCheckButtonTemplate
 AudioOptionsSoundPanelSoundInBG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Options_Frame_Legacy/Classic/AudioOptionsPanels.xml#L39)
 --- child of AudioOptionsSoundPanelEnableDSPs (created in template AudioOptionsSmallCheckButtonTemplate)
 --- @type AudioOptionsSmallCheckButtonTemplate_AudioOptionsSmallCheckButtonTemplateText
 AudioOptionsSoundPanelEnableDSPsText = {}

@@ -3025,7 +3025,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L114)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}
@@ -3065,7 +3065,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L114)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}
@@ -3105,7 +3105,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L114)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}
@@ -3145,7 +3145,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L114)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}
@@ -3190,7 +3190,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L114)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}

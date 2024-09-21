@@ -1205,6 +1205,7 @@ EncounterJournalEncounterFrameInfoModelTab["selected"] = EncounterJournalEncount
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoDifficulty : DropdownButton, WowStyle1DropdownTemplate
 EncounterJournalEncounterFrameInfoDifficulty = {}
+EncounterJournalEncounterFrameInfoDifficulty["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1714)
 --- child of EncounterJournalEncounterFrameInfoResetButton

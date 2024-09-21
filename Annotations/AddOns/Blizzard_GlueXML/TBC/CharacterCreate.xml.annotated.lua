@@ -193,25 +193,10 @@ CharacterCreateLogo = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateWoWLogo : Frame
 CharacterCreateWoWLogo = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L45)
 --- child of CharacterCreateRaceButton1 (created in template CharacterCreateRaceButtonTemplate)
@@ -223,25 +208,10 @@ CharacterCreateRaceButton1NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton1 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L45)
 --- child of CharacterCreateRaceButton2 (created in template CharacterCreateRaceButtonTemplate)
@@ -253,25 +223,10 @@ CharacterCreateRaceButton2NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton2 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L45)
 --- child of CharacterCreateRaceButton3 (created in template CharacterCreateRaceButtonTemplate)
@@ -283,25 +238,10 @@ CharacterCreateRaceButton3NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton3 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L45)
 --- child of CharacterCreateRaceButton4 (created in template CharacterCreateRaceButtonTemplate)
@@ -313,25 +253,10 @@ CharacterCreateRaceButton4NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton4 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L45)
 --- child of CharacterCreateRaceButton5 (created in template CharacterCreateRaceButtonTemplate)
@@ -343,25 +268,10 @@ CharacterCreateRaceButton5NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton5 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L45)
 --- child of CharacterCreateRaceButton6 (created in template CharacterCreateRaceButtonTemplate)
@@ -373,25 +283,10 @@ CharacterCreateRaceButton6NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton6 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L45)
 --- child of CharacterCreateRaceButton7 (created in template CharacterCreateRaceButtonTemplate)
@@ -403,25 +298,10 @@ CharacterCreateRaceButton7NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton7 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L45)
 --- child of CharacterCreateRaceButton8 (created in template CharacterCreateRaceButtonTemplate)
@@ -433,25 +313,10 @@ CharacterCreateRaceButton8NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton8 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L45)
 --- child of CharacterCreateRaceButton9 (created in template CharacterCreateRaceButtonTemplate)
@@ -463,25 +328,10 @@ CharacterCreateRaceButton9NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton9 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateRaceButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateRaceButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L45)
 --- child of CharacterCreateRaceButton10 (created in template CharacterCreateRaceButtonTemplate)
@@ -493,27 +343,12 @@ CharacterCreateRaceButton10NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton10 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateGenderButtonTemplateHighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateDisableTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L104)
 --- child of CharacterCreateGenderButtonMale (created in template CharacterCreateGenderButtonTemplate)
 --- @type Texture
 CharacterCreateGenderButtonMaleNormalTexture = {}
@@ -523,27 +358,12 @@ CharacterCreateGenderButtonMaleNormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateGenderButtonMale : CheckButton, CharacterCreateGenderButtonTemplate
 CharacterCreateGenderButtonMale = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateGenderButtonTemplateHighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateDisableTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L104)
 --- child of CharacterCreateGenderButtonFemale (created in template CharacterCreateGenderButtonTemplate)
 --- @type Texture
 CharacterCreateGenderButtonFemaleNormalTexture = {}
@@ -553,25 +373,10 @@ CharacterCreateGenderButtonFemaleNormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateGenderButtonFemale : CheckButton, CharacterCreateGenderButtonTemplate
 CharacterCreateGenderButtonFemale = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L80)
 --- child of CharacterCreateClassButton1 (created in template CharacterCreateClassButtonTemplate)
@@ -583,25 +388,10 @@ CharacterCreateClassButton1NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton1 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L80)
 --- child of CharacterCreateClassButton2 (created in template CharacterCreateClassButtonTemplate)
@@ -613,25 +403,10 @@ CharacterCreateClassButton2NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton2 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L80)
 --- child of CharacterCreateClassButton3 (created in template CharacterCreateClassButtonTemplate)
@@ -643,25 +418,10 @@ CharacterCreateClassButton3NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton3 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L80)
 --- child of CharacterCreateClassButton4 (created in template CharacterCreateClassButtonTemplate)
@@ -673,25 +433,10 @@ CharacterCreateClassButton4NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton4 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L80)
 --- child of CharacterCreateClassButton5 (created in template CharacterCreateClassButtonTemplate)
@@ -703,25 +448,10 @@ CharacterCreateClassButton5NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton5 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L80)
 --- child of CharacterCreateClassButton6 (created in template CharacterCreateClassButtonTemplate)
@@ -733,25 +463,10 @@ CharacterCreateClassButton6NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton6 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L80)
 --- child of CharacterCreateClassButton7 (created in template CharacterCreateClassButtonTemplate)
@@ -763,25 +478,10 @@ CharacterCreateClassButton7NormalTexture = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton7 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L18)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L27)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L34)
---- child of CharacterCreateClassButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateClassButtonTemplateDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L80)
 --- child of CharacterCreateClassButton8 (created in template CharacterCreateClassButtonTemplate)

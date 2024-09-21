@@ -30,7 +30,7 @@ AuctionTabTemplateMiddle = {}
 --- @type Texture
 AuctionTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
 --- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionTabTemplateHighlightTexture = {}
@@ -70,7 +70,7 @@ AuctionTabTemplateMiddle = {}
 --- @type Texture
 AuctionTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
 --- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionTabTemplateHighlightTexture = {}
@@ -110,7 +110,7 @@ AuctionTabTemplateMiddle = {}
 --- @type Texture
 AuctionTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
 --- child of AuctionTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionTabTemplateHighlightTexture = {}
@@ -1926,6 +1926,7 @@ BrowseDropdownName = {}
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseDropdown : DropdownButton, WowStyle1DropdownTemplate
 BrowseDropdown = {}
+BrowseDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L468)
 --- child of IsUsableCheckButton (created in template UICheckButtonTemplate)

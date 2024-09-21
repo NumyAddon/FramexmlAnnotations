@@ -252,6 +252,7 @@ LFDQueueFrameTypeDropdownName = {}
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameTypeDropdown : DropdownButton, WowStyle1DropdownTemplate
 LFDQueueFrameTypeDropdown = {}
+LFDQueueFrameTypeDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L284)
 --- child of LFDQueueFrameRandom

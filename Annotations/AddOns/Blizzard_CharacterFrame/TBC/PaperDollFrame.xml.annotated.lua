@@ -50,6 +50,7 @@
 --- child of PaperDollFrame
 --- @class PaperDollFrame_PlayerTitleDropdown : Frame, WowStyle1DropdownTemplate
 PlayerTitleDropdown = {}
+PlayerTitleDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L234)
 --- child of CharacterModelFrame
@@ -310,11 +311,13 @@ PlayerStatFrameRight6["Label"] = PlayerStatFrameRight6Label -- inherited
 --- child of CharacterAttributesFrame
 --- @class PaperDollFrame_CharacterAttributesFrame_PlayerStatFrameLeftDropdown : Frame, WowStyle1DropdownTemplate
 PlayerStatFrameLeftDropdown = {}
+PlayerStatFrameLeftDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L510)
 --- child of CharacterAttributesFrame
 --- @class PaperDollFrame_CharacterAttributesFrame_PlayerStatFrameRightDropdown : Frame, WowStyle1DropdownTemplate
 PlayerStatFrameRightDropdown = {}
+PlayerStatFrameRightDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L312)
 --- child of CharacterAttributesFrame

@@ -1592,6 +1592,7 @@ CharacterRenameDialog = {}
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_CopyCharacterFrameRegionID : DropdownButton, WowStyle1DropdownTemplate
 CopyCharacterFrameRegionID = {}
+CopyCharacterFrameRegionID["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L2265)
 --- child of 

@@ -145,6 +145,7 @@ GuildControlUICloseButton = {}
 --- child of GuildControlUI
 --- @class GuildControlUI_GuildControlUINavigationDropdown : DropdownButton, WowStyle1DropdownTemplate
 GuildControlUINavigationDropdown = {}
+GuildControlUINavigationDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L7)
 --- child of GuildControlUIRankOrderFrameRank1 (created in template RankChangeTemplate)
@@ -222,6 +223,7 @@ GuildControlUIRankOrderFrame["dupButton"] = GuildControlUIRankOrderFrameDupButto
 --- child of GuildControlUIRankBankFrame
 --- @class GuildControlUI_GuildControlUIRankBankFrame_GuildControlUIRankBankFrameRankDropdown : DropdownButton, WowStyle1DropdownTemplate
 GuildControlUIRankBankFrameRankDropdown = {}
+GuildControlUIRankBankFrameRankDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L417)
 --- child of GuildControlUIRankBankFrameInset
@@ -254,6 +256,7 @@ GuildControlUIRankBankFrame["inset"] = GuildControlUIRankBankFrameInset
 --- child of GuildControlUIRankSettingsFrame
 --- @class GuildControlUI_GuildControlUIRankSettingsFrame_GuildControlUIRankSettingsFrameRankDropdown : DropdownButton, WowStyle1DropdownTemplate
 GuildControlUIRankSettingsFrameRankDropdown = {}
+GuildControlUIRankSettingsFrameRankDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L122)
 --- child of GuildControlUIRankSettingsFrameOfficerCheckbox (created in template GuildPermissionCheckboxTemplate)

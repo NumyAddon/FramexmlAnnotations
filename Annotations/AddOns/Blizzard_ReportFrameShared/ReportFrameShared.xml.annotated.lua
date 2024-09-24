@@ -9,25 +9,25 @@
 --- @class ReportingFrameMinorCategoryButtonTemplate : CheckButton, ReportingFrameMinorCategoryButtonMixin
 --- @field Text ReportingFrameMinorCategoryButtonTemplate_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L105)
 --- child of 
 --- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L99)
 --- child of SharedReportFrameTemplate
---- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown : Frame, UIDropDownMenuTemplate, ReportingMajorCategoryDropdownMixin
+--- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown : DropdownButton, WowStyle1DropdownTemplate
 --- @field Label SharedReportFrameTemplate_ReportingMajorCategoryDropdown_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L114)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_ReportButton : Button, UIPanelButtonTemplate, ReportButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L125)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_Comment : ScrollFrame, InputScrollFrameTemplate
---- @field maxLetters number # 255
+--- @field maxLetters number # 127
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L134)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L133)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_CloseButton : Button, UIPanelCloseButton
 --- @field Border Texture

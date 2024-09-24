@@ -8,15 +8,15 @@
 --- Template
 --- @class RealmSortButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L204)
 --- child of RealmListRealmButtonTemplate
 --- @class RealmListRealmButtonTemplate_RealmListRealmButtonTemplatePVP : FontString, GlueFontRedSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L212)
 --- child of RealmListRealmButtonTemplate
 --- @class RealmListRealmButtonTemplate_RealmListRealmButtonTemplatePlayers : FontString, GlueFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L218)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L224)
 --- child of RealmListRealmButtonTemplate
 --- @class RealmListRealmButtonTemplate_RealmListRealmButtonTemplateLoad : FontString, GlueFontHighlightSmall
 
@@ -47,7 +47,7 @@ RealmNameSortMiddle = {}
 --- @type Texture
 RealmNameSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L375)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmNameSort : Button, RealmSortButtonTemplate
 RealmNameSort = {}
@@ -72,7 +72,7 @@ RealmTypeSortMiddle = {}
 --- @type Texture
 RealmTypeSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L393)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L399)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmTypeSort : Button, RealmSortButtonTemplate
 RealmTypeSort = {}
@@ -97,7 +97,7 @@ RealmCharactersSortMiddle = {}
 --- @type Texture
 RealmCharactersSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L423)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmCharactersSort : Button, RealmSortButtonTemplate
 RealmCharactersSort = {}
@@ -122,7 +122,7 @@ RealmLoadSortMiddle = {}
 --- @type Texture
 RealmLoadSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L447)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmLoadSort : Button, RealmSortButtonTemplate
 RealmLoadSort = {}
@@ -162,22 +162,22 @@ RealmListTab1Right = {}
 --- @type Texture
 RealmListTab1HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L466)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L472)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListTab1 : Button, RealmListTabButtonTemplate
 RealmListTab1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L482)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListCloseButton : Button, GlueCloseButton
 RealmListCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L499)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L505)
 --- child of RealmListHighlight
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListHighlight_RealmListHighlightTexture : Texture
 RealmListHighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L490)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L496)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListHighlight : Frame
 RealmListHighlight = {}
@@ -217,7 +217,7 @@ RealmListScrollFrameScrollBarMiddle = {}
 --- @type HybridScrollBarTrimTemplate_HybridScrollBarTrimTemplateThumbTexture
 RealmListScrollFrameScrollBarThumbTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L509)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L515)
 --- child of RealmListScrollFrame
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListScrollFrame_RealmListScrollFrameScrollBar : Slider, HybridScrollBarTrimTemplate
 RealmListScrollFrameScrollBar = {}
@@ -229,55 +229,55 @@ RealmListScrollFrameScrollBar["Bottom"] = RealmListScrollFrameScrollBarBottom --
 RealmListScrollFrameScrollBar["Middle"] = RealmListScrollFrameScrollBarMiddle -- inherited
 RealmListScrollFrameScrollBar["thumbTexture"] = RealmListScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L503)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L509)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListScrollFrame : ScrollFrame, HybridScrollFrameTemplate
 --- @field scrollBar RealmListUI_RealmList_RealmListBackground_RealmListScrollFrame_RealmListScrollFrameScrollBar
 RealmListScrollFrame = {}
 RealmListScrollFrame["scrollBar"] = RealmListScrollFrameScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L529)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListCancelButton : Button, GlueDialogButtonTemplate
 RealmListCancelButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L547)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListOkButton : Button, GlueDialogButtonTemplate
 RealmListOkButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L301)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListTopTexture : Texture
 RealmListTopTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L323)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L329)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListBottomTexture : Texture
 RealmListBottomTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L351)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListHeader : Texture
 RealmListHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L357)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L363)
 --- child of RealmListBackground
 --- @class  : FontString, GlueFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L271)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L277)
 --- child of RealmList
 --- @class RealmListUI_RealmList_RealmListBackground : Frame
 --- @field ScrollFrame RealmListUI_RealmList_RealmListBackground_RealmListScrollFrame
 RealmListBackground = {}
 RealmListBackground["ScrollFrame"] = RealmListScrollFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L268)
 --- child of RealmListUI
 --- @class RealmListUI_RealmList : Frame
 RealmList = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L266)
 --- @class RealmListUI : ModelFFX
 RealmListUI = {}
 

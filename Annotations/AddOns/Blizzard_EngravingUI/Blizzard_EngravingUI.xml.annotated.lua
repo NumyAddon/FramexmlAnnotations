@@ -136,48 +136,9 @@ EngravingFrameSearchBoxSearchIcon = {}
 EngravingFrameSearchBox = {}
 EngravingFrameSearchBox["searchIcon"] = EngravingFrameSearchBoxSearchIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L284)
---- child of EngravingFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-EngravingFrameFilterDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L226)
---- child of EngravingFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-EngravingFrameFilterDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L239)
---- child of EngravingFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-EngravingFrameFilterDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L248)
---- child of EngravingFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-EngravingFrameFilterDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L257)
---- child of EngravingFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-EngravingFrameFilterDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L271)
---- child of EngravingFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-EngravingFrameFilterDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L235)
 --- child of EngravingFrame
---- @class EngravingFrame_EngravingFrameFilterDropDown : Frame, UIDropDownMenuTemplate
-EngravingFrameFilterDropDown = {}
-EngravingFrameFilterDropDown["Button"] = EngravingFrameFilterDropDownButton -- inherited
-EngravingFrameFilterDropDown["Left"] = EngravingFrameFilterDropDownLeft -- inherited
-EngravingFrameFilterDropDown["Middle"] = EngravingFrameFilterDropDownMiddle -- inherited
-EngravingFrameFilterDropDown["Right"] = EngravingFrameFilterDropDownRight -- inherited
-EngravingFrameFilterDropDown["Text"] = EngravingFrameFilterDropDownText -- inherited
-EngravingFrameFilterDropDown["Icon"] = EngravingFrameFilterDropDownIcon -- inherited
+--- @class EngravingFrame_FilterDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L15)
 --- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
@@ -214,7 +175,7 @@ EngravingFrameScrollFrameScrollBarScrollUpButton = {}
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
 EngravingFrameScrollFrameScrollBarScrollDownButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L247)
 --- child of EngravingFrameScrollFrame
 --- @class EngravingFrame_EngravingFrameScrollFrame_EngravingFrameScrollFrameScrollBar : Slider, HybridScrollBarTemplate
 EngravingFrameScrollFrameScrollBar = {}
@@ -226,24 +187,24 @@ EngravingFrameScrollFrameScrollBar["thumbTexture"] = HybridScrollBarTemplateThum
 EngravingFrameScrollFrameScrollBar["ScrollUpButton"] = EngravingFrameScrollFrameScrollBarScrollUpButton -- inherited
 EngravingFrameScrollFrameScrollBar["ScrollDownButton"] = EngravingFrameScrollFrameScrollBarScrollDownButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L256)
 --- child of EngravingFrameScrollFrame
 --- @class EngravingFrame_EngravingFrameScrollFrame_EngravingFrameScrollFrameEmptyLabel : FontString, GameFontNormal
 EngravingFrameScrollFrameEmptyLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L248)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L240)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameScrollFrame : ScrollFrame, HybridScrollFrameTemplate
 --- @field emptyText EngravingFrame_EngravingFrameScrollFrame_EngravingFrameScrollFrameEmptyLabel
 EngravingFrameScrollFrame = {}
 EngravingFrameScrollFrame["emptyText"] = EngravingFrameScrollFrameEmptyLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L272)
 --- child of EngravingFrameCollectedFrame
 --- @class EngravingFrame_EngravingFrameCollectedFrame_EngravingFrameCollectedFrameLabel : FontString, GameFontNormal
 EngravingFrameCollectedFrameLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L265)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameCollectedFrame : Frame
 --- @field collectedText EngravingFrame_EngravingFrameCollectedFrame_EngravingFrameCollectedFrameLabel
@@ -285,7 +246,7 @@ EngravingFrameHeader1Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L282)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader1 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader1 = {}
@@ -332,7 +293,7 @@ EngravingFrameHeader2Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader2Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L291)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L283)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader2 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader2 = {}
@@ -379,7 +340,7 @@ EngravingFrameHeader3Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader3Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L284)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader3 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader3 = {}
@@ -426,7 +387,7 @@ EngravingFrameHeader4Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader4Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L285)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader4 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader4 = {}
@@ -473,7 +434,7 @@ EngravingFrameHeader5Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader5Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L286)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader5 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader5 = {}
@@ -520,7 +481,7 @@ EngravingFrameHeader6Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader6Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L287)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader6 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader6 = {}
@@ -567,7 +528,7 @@ EngravingFrameHeader7Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader7Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L288)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader7 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader7 = {}
@@ -614,7 +575,7 @@ EngravingFrameHeader8Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader8Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L297)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L289)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader8 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader8 = {}
@@ -661,7 +622,7 @@ EngravingFrameHeader9Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader9Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L290)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader9 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader9 = {}
@@ -708,7 +669,7 @@ EngravingFrameHeader10Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader10Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L291)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader10 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader10 = {}
@@ -755,7 +716,7 @@ EngravingFrameHeader11Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader11Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L292)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader11 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader11 = {}
@@ -802,7 +763,7 @@ EngravingFrameHeader12Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader12Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L301)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L293)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader12 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader12 = {}
@@ -849,7 +810,7 @@ EngravingFrameHeader13Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader13Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L294)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader13 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader13 = {}
@@ -896,7 +857,7 @@ EngravingFrameHeader14Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader14Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L295)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader14 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader14 = {}
@@ -943,7 +904,7 @@ EngravingFrameHeader15Icon = {}
 --- @type RuneHeaderButtonTemplate_RuneHeaderButtonTemplateName
 EngravingFrameHeader15Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L296)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameHeader15 : Button, RuneHeaderButtonTemplate
 EngravingFrameHeader15 = {}
@@ -959,6 +920,7 @@ EngravingFrameHeader15["name"] = EngravingFrameHeader15Name -- inherited
 --- @class EngravingFrame : Frame
 --- @field Border EngravingFrame_Border
 --- @field sideInset EngravingFrame_EngravingFrameSideInset
+--- @field FilterDropdown EngravingFrame_FilterDropdown
 --- @field scrollFrame EngravingFrame_EngravingFrameScrollFrame
 --- @field collected EngravingFrame_EngravingFrameCollectedFrame
 EngravingFrame = {}

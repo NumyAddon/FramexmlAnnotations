@@ -15,3 +15,6 @@ function NewFeatureLabelMixin:OnShow() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/NewFeatureLabel.lua#L21)
 function NewFeatureLabelMixin:OnHide() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/NewFeatureLabel.lua#L27)
+function NewFeatureLabelMixin:GetTextWidth() end

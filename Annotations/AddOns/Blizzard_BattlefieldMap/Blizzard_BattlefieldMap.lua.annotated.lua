@@ -4,7 +4,7 @@
 --- @class BattlefieldMapTabMixin
 BattlefieldMapTabMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L129)
 --- @class BattlefieldMapMixin
 BattlefieldMapMixin = {}
 
@@ -20,47 +20,44 @@ function BattlefieldMapTabMixin:OnShow() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L45)
 function BattlefieldMapTabMixin:OnClick(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L102)
 function BattlefieldMapTabMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L106)
 function BattlefieldMapTabMixin:OnDragStart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L112)
 function BattlefieldMapTabMixin:OnDragStop() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L90)
-function BattlefieldMapTabMixin:InitializeOptionsDropDown() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L117)
 function BattlefieldMapTabMixin:ShowOpacity() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L131)
 function BattlefieldMapMixin:Toggle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L152)
 function BattlefieldMapMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L170)
 function BattlefieldMapMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L178)
 function BattlefieldMapMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L184)
 function BattlefieldMapMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L225)
 function BattlefieldMapMixin:AddStandardDataProviders() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L283)
 function BattlefieldMapMixin:RefreshAlpha() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L289)
 function BattlefieldMapMixin:UpdateUnitsVisibility() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L303)
 function BattlefieldMapMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L358)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L351)
 function BattlefieldMapMixin:SetSpectatorMode(spectatorMode) end

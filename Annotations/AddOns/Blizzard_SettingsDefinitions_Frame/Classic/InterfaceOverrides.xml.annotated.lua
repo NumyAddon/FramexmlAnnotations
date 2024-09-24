@@ -1,17 +1,16 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.xml#L8)
 --- child of RaidProfilesTemplate
 --- @class RaidProfilesTemplate_NewButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.xml#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.xml#L11)
 --- child of RaidProfilesTemplate
 --- @class RaidProfilesTemplate_DeleteButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.xml#L5)
 --- Template
---- @class RaidProfilesTemplate : Frame, SettingsDropDownControlTemplate, RaidProfilesMixin
---- @field dropDownType string # "Frame"
+--- @class RaidProfilesTemplate : Frame, SettingsDropdownControlTemplate, RaidProfilesMixin
 --- @field NewButton RaidProfilesTemplate_NewButton
 --- @field DeleteButton RaidProfilesTemplate_DeleteButton
 

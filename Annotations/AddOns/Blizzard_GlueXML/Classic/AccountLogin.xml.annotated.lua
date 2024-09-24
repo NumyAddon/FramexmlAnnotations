@@ -165,18 +165,10 @@ AccountLoginCommunityButton = {}
 --- @class AccountLogin_UI_SaveAccountNameCheckButton : CheckButton
 --- @field Label AccountLogin_UI_SaveAccountNameCheckButton_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L16)
---- child of ServerAlertFrame (created in template ServerAlertTemplate)
---- @type ServerAlertTemplate_ServerAlertTemplateScrollFrame
---- @field scrollBarTemplate string # "MinimalScrollBar"
-ServerAlertFrameScrollFrame = {}
-ServerAlertFrameScrollFrame["scrollBarTemplate"] = "MinimalScrollBar"
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L489)
 --- child of 
 --- @class AccountLogin_UI_ServerAlertFrame : Frame, ServerAlertTemplate
 ServerAlertFrame = {}
-ServerAlertFrame["ScrollFrame"] = ServerAlertFrameScrollFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L542)
 --- child of 
@@ -356,48 +348,9 @@ WoWAccountSelectDialogScrollFrame = {}
 --- @class AccountLogin_UI_TokenEntryDialog : Frame
 --- @field Background AccountLogin_UI_TokenEntryDialog_Background
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L284)
---- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-AccountLoginDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L226)
---- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-AccountLoginDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L239)
---- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-AccountLoginDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L248)
---- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-AccountLoginDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L257)
---- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-AccountLoginDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L271)
---- child of AccountLoginDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-AccountLoginDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L833)
 --- child of 
---- @class AccountLogin_UI_AccountLoginDropDown : Frame, UIDropDownMenuTemplate
-AccountLoginDropDown = {}
-AccountLoginDropDown["Button"] = AccountLoginDropDownButton -- inherited
-AccountLoginDropDown["Left"] = AccountLoginDropDownLeft -- inherited
-AccountLoginDropDown["Middle"] = AccountLoginDropDownMiddle -- inherited
-AccountLoginDropDown["Right"] = AccountLoginDropDownRight -- inherited
-AccountLoginDropDown["Text"] = AccountLoginDropDownText -- inherited
-AccountLoginDropDown["Icon"] = AccountLoginDropDownIcon -- inherited
+--- @class AccountLogin_UI_AccountsDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L198)
 --- child of 
@@ -412,7 +365,7 @@ AccountLoginDropDown["Icon"] = AccountLoginDropDownIcon -- inherited
 --- @class AccountLogin_UI_WorldOfWarcraftRating : Texture
 WorldOfWarcraftRating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L843)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L840)
 --- child of 
 --- @class AccountLogin_UI_FadeIn : AnimationGroup
 
@@ -436,7 +389,7 @@ WorldOfWarcraftRating = {}
 --- @field WoWAccountSelectDialog AccountLogin_UI_WoWAccountSelectDialog
 --- @field CaptchaEntryDialog AccountLogin_UI_CaptchaEntryDialog
 --- @field TokenEntryDialog AccountLogin_UI_TokenEntryDialog
---- @field AccountsDropDown AccountLogin_UI_AccountLoginDropDown
+--- @field AccountsDropdown AccountLogin_UI_AccountsDropdown
 --- @field BlizzDisclaimer AccountLogin_UI_BlizzDisclaimer
 --- @field ClientVersion AccountLogin_UI_ClientVersion
 --- @field GameLogo Texture

@@ -920,87 +920,87 @@ PlayerTalentFrameHeaderHelpBoxArrow3 = {}
 PlayerTalentFrameHeaderHelpBoxArrow3["Arrow"] = PlayerTalentFrameHeaderHelpBoxArrow3Arrow -- inherited
 PlayerTalentFrameHeaderHelpBoxArrow3["Glow"] = PlayerTalentFrameHeaderHelpBoxArrow3Glow -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2081)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type Texture
 PlayerTalentFrameHeaderHelpBoxBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2094)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
 PlayerTalentFrameHeaderHelpBoxGlowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2099)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
 PlayerTalentFrameHeaderHelpBoxGlowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2105)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
 PlayerTalentFrameHeaderHelpBoxGlowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2111)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
 PlayerTalentFrameHeaderHelpBoxGlowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2117)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
 PlayerTalentFrameHeaderHelpBoxGlowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2123)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
 PlayerTalentFrameHeaderHelpBoxGlowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2129)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
 PlayerTalentFrameHeaderHelpBoxGlowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2135)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
 PlayerTalentFrameHeaderHelpBoxGlowRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2143)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
 PlayerTalentFrameHeaderHelpBoxShadowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2148)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
 PlayerTalentFrameHeaderHelpBoxShadowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2154)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
 PlayerTalentFrameHeaderHelpBoxShadowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2160)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
 PlayerTalentFrameHeaderHelpBoxShadowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2166)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
 PlayerTalentFrameHeaderHelpBoxShadowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2172)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
 PlayerTalentFrameHeaderHelpBoxShadowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2178)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
 PlayerTalentFrameHeaderHelpBoxShadowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2184)
 --- child of PlayerTalentFrameHeaderHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
 PlayerTalentFrameHeaderHelpBoxShadowRight = {}
@@ -7538,87 +7538,87 @@ PlayerTalentFrameLearnButtonTutorialArrow["Glow"] = PlayerTalentFrameLearnButton
 --- @class PlayerTalentFrameTalents_PlayerTalentFrameLearnButtonTutorial_PlayerTalentFrameLearnButtonTutorialText : FontString, GameFontHighlightLeft
 PlayerTalentFrameLearnButtonTutorialText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2081)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type Texture
 PlayerTalentFrameLearnButtonTutorialBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2094)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
 PlayerTalentFrameLearnButtonTutorialGlowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2099)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
 PlayerTalentFrameLearnButtonTutorialGlowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2105)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
 PlayerTalentFrameLearnButtonTutorialGlowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2111)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
 PlayerTalentFrameLearnButtonTutorialGlowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2117)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
 PlayerTalentFrameLearnButtonTutorialGlowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2123)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
 PlayerTalentFrameLearnButtonTutorialGlowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2129)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
 PlayerTalentFrameLearnButtonTutorialGlowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2135)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
 PlayerTalentFrameLearnButtonTutorialGlowRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2143)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
 PlayerTalentFrameLearnButtonTutorialShadowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2148)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
 PlayerTalentFrameLearnButtonTutorialShadowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2154)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
 PlayerTalentFrameLearnButtonTutorialShadowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2160)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
 PlayerTalentFrameLearnButtonTutorialShadowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2166)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
 PlayerTalentFrameLearnButtonTutorialShadowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2172)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
 PlayerTalentFrameLearnButtonTutorialShadowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2178)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
 PlayerTalentFrameLearnButtonTutorialShadowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L2184)
 --- child of PlayerTalentFrameLearnButtonTutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
 PlayerTalentFrameLearnButtonTutorialShadowRight = {}

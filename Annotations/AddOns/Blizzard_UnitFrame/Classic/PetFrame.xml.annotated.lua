@@ -1,112 +1,69 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L284)
---- child of PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-PetFrameDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L226)
---- child of PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetFrameDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L239)
---- child of PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetFrameDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L248)
---- child of PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetFrameDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L257)
---- child of PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-PetFrameDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L271)
---- child of PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetFrameDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L30)
---- child of PetFrame
---- @class PetFrame_PetFrameDropDown : Frame, UIDropDownMenuTemplate
-PetFrameDropDown = {}
-PetFrameDropDown["Button"] = PetFrameDropDownButton -- inherited
-PetFrameDropDown["Left"] = PetFrameDropDownLeft -- inherited
-PetFrameDropDown["Middle"] = PetFrameDropDownMiddle -- inherited
-PetFrameDropDown["Right"] = PetFrameDropDownRight -- inherited
-PetFrameDropDown["Text"] = PetFrameDropDownText -- inherited
-PetFrameDropDown["Icon"] = PetFrameDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L35)
 --- child of 
 --- @class PetFrameTexture : Texture
 PetFrameTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L41)
 --- child of 
 --- @class PetHitIndicator : FontString, NumberFontNormalHuge
 PetHitIndicator = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L46)
 --- child of 
 --- @class PetFrameHealthBarText : FontString, TextStatusBarText
 PetFrameHealthBarText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L51)
 --- child of 
 --- @class PetFrameHealthBarTextLeft : FontString, TextStatusBarText
 PetFrameHealthBarTextLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L56)
 --- child of 
 --- @class PetFrameHealthBarTextRight : FontString, TextStatusBarText
 PetFrameHealthBarTextRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L61)
 --- child of 
 --- @class PetFrameManaBarText : FontString, TextStatusBarText
 PetFrameManaBarText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L66)
 --- child of 
 --- @class PetFrameManaBarTextLeft : FontString, TextStatusBarText
 PetFrameManaBarTextLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L71)
 --- child of 
 --- @class PetFrameManaBarTextRight : FontString, TextStatusBarText
 PetFrameManaBarTextRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L78)
 --- child of 
 --- @class PetName : FontString, GameFontNormalSmall
 PetName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L83)
 --- child of 
 --- @class PetAttackModeTexture : Texture
 PetAttackModeTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L41)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L32)
 --- child of 
 --- @class  : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L30)
 --- child of PetFrame
 --- @class  : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L104)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L95)
 --- child of PetFrame
 --- @class PetFrame_PetFrameHealthBar : StatusBar, TextStatusBar
 PetFrameHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L111)
 --- child of PetFrame
 --- @class PetFrame_PetFrameManaBar : StatusBar, TextStatusBar
 PetFrameManaBar = {}
@@ -116,7 +73,7 @@ PetFrameManaBar = {}
 --- @type Texture
 PetFrameBuff1Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L127)
 --- child of PetFrame
 --- @class PetFrame_PetFrameBuff1 : Button, PartyBuffFrameTemplate
 PetFrameBuff1 = {}
@@ -126,7 +83,7 @@ PetFrameBuff1 = {}
 --- @type Texture
 PetFrameBuff2Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L138)
 --- child of PetFrame
 --- @class PetFrame_PetFrameBuff2 : Button, PartyBuffFrameTemplate
 PetFrameBuff2 = {}
@@ -136,7 +93,7 @@ PetFrameBuff2 = {}
 --- @type Texture
 PetFrameBuff3Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L149)
 --- child of PetFrame
 --- @class PetFrame_PetFrameBuff3 : Button, PartyBuffFrameTemplate
 PetFrameBuff3 = {}
@@ -146,17 +103,17 @@ PetFrameBuff3 = {}
 --- @type Texture
 PetFrameBuff4Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L160)
 --- child of PetFrame
 --- @class PetFrame_PetFrameBuff4 : Button, PartyBuffFrameTemplate
 PetFrameBuff4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L184)
 --- child of PetFrameHappiness
 --- @class PetFrame_PetFrameHappiness_PetFrameHappinessTexture : Texture
 PetFrameHappinessTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L171)
 --- child of PetFrame
 --- @class PetFrame_PetFrameHappiness : Frame
 PetFrameHappiness = {}
@@ -175,7 +132,7 @@ PetPortrait = {}
 --- @class PetFrame : Button, SecureUnitButtonTemplate
 PetFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L244)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L235)
 --- @class PetCastingBarFrame : StatusBar, CastingBarFrameTemplate
 PetCastingBarFrame = {}
 

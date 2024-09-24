@@ -163,7 +163,7 @@ MainMenuMicroButton["Flash"] = MainMenuMicroButtonFlash -- inherited
 --- @type Texture
 HelpMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L533)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L519)
 --- @class HelpMicroButton : Button, MainMenuBarMicroButton
 HelpMicroButton = {}
 HelpMicroButton["Flash"] = HelpMicroButtonFlash -- inherited

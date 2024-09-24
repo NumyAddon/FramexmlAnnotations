@@ -145,10 +145,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L347)
 --- child of CommunitiesMemberListFrameTemplate
---- @class CommunitiesMemberListFrameTemplate_DropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L353)
---- child of CommunitiesMemberListFrameTemplate
 --- @class CommunitiesMemberListFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L247)
@@ -163,26 +159,25 @@
 --- @field ColumnDisplay CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @field ScrollBox CommunitiesMemberListFrameTemplate_ScrollBox
 --- @field ScrollBar CommunitiesMemberListFrameTemplate_ScrollBar
---- @field DropDown CommunitiesMemberListFrameTemplate_DropDown
 --- @field InsetFrame CommunitiesMemberListFrameTemplate_InsetFrame
 --- @field MemberCount CommunitiesMemberListFrameTemplate_MemberCount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L378)
---- child of CommunitiesFrameMemberListDropDownMenuTemplate
---- @class CommunitiesFrameMemberListDropDownMenuTemplate_NotificationOverlay : Frame
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L371)
+--- child of CommunitiesFrameMemberListDropdownTemplate
+--- @class CommunitiesFrameMemberListDropdownTemplate_NotificationOverlay : Frame
 --- @field UnreadNotificationIcon Texture
 --- @field Flash Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L369)
 --- Template
---- @class CommunitiesFrameMemberListDropDownMenuTemplate : Frame, UIDropDownMenuTemplate, CommunitiesFrameMemberListDropDownMenuMixin
---- @field NotificationOverlay CommunitiesFrameMemberListDropDownMenuTemplate_NotificationOverlay
+--- @class CommunitiesFrameMemberListDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, CommunitiesFrameMemberListDropdownMixin
+--- @field NotificationOverlay CommunitiesFrameMemberListDropdownTemplate_NotificationOverlay
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L409)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L402)
 --- Template
---- @class GuildMemberListDropDownMenuTemplate : Frame, CommunitiesFrameMemberListDropDownMenuTemplate, GuildMemberListDropDownMenuMixin
+--- @class GuildMemberListDropdownTemplate : DropdownButton, CommunitiesFrameMemberListDropdownTemplate, GuildMemberListDropdownMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L403)
 --- Template
---- @class CommunityMemberListDropDownMenuTemplate : Frame, CommunitiesFrameMemberListDropDownMenuTemplate, CommunityMemberListDropDownMenuMixin
+--- @class CommunityMemberListDropdownTemplate : DropdownButton, CommunitiesFrameMemberListDropdownTemplate, CommunityMemberListDropdownMixin
 

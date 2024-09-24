@@ -55,13 +55,9 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L249)
 --- child of TargetFrameTemplate
---- @class TargetFrameTemplate_TargetFrameTemplateDropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L255)
---- child of TargetFrameTemplate
 --- @class TargetFrameTemplate_TargetFrameTemplateHealthBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L269)
 --- child of TargetFrameTemplate
 --- @class TargetFrameTemplate_TargetFrameTemplateManaBar : StatusBar, TextStatusBar
 
@@ -74,60 +70,60 @@
 --- @field Background Texture
 --- @field nameBackground Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L309)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L303)
 --- Template
 --- @class BossTargetFrameTemplate : Button, TargetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L347)
 --- child of TargetofTargetFrameTemplateTextureFrame
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateTextureFrame_TargetofTargetFrameTemplateTextureFrameName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L353)
 --- child of TargetofTargetFrameTemplateTextureFrame
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateTextureFrame_TargetofTargetFrameTemplateTextureFrameDeadText : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L364)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L358)
 --- child of TargetofTargetFrameTemplateTextureFrame
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateTextureFrame_TargetofTargetFrameTemplateTextureFrameUnconsciousText : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L341)
 --- child of TargetofTargetFrameTemplate
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateTextureFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L369)
 --- child of TargetofTargetFrameTemplate
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateHealthBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L382)
 --- child of TargetofTargetFrameTemplate
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L396)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L390)
 --- child of TargetofTargetFrameTemplate
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateDebuff1 : Frame, TargetofTargetDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L401)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L395)
 --- child of TargetofTargetFrameTemplate
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateDebuff2 : Frame, TargetofTargetDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L400)
 --- child of TargetofTargetFrameTemplate
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateDebuff3 : Frame, TargetofTargetDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L405)
 --- child of TargetofTargetFrameTemplate
 --- @class TargetofTargetFrameTemplate_TargetofTargetFrameTemplateDebuff4 : Frame, TargetofTargetDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L316)
 --- Template
 --- @class TargetofTargetFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L425)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L419)
 --- Template
 --- @class TargetSpellBarTemplate : StatusBar, SmallCastingBarFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L432)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L426)
 --- Template
 --- @class BossSpellBarTemplate : StatusBar, SmallCastingBarFrameTemplate
 
@@ -185,65 +181,22 @@
 TargetFrameTextureFrame = {}
 TargetFrameTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L284)
---- child of TargetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-TargetFrameDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L226)
---- child of TargetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-TargetFrameDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L239)
---- child of TargetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-TargetFrameDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L248)
---- child of TargetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-TargetFrameDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L257)
---- child of TargetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-TargetFrameDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L271)
---- child of TargetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-TargetFrameDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L279)
---- child of TargetFrame (created in template TargetFrameTemplate)
---- @type TargetFrameTemplate_TargetFrameTemplateDropDown
-TargetFrameDropDown = {}
-TargetFrameDropDown["Button"] = TargetFrameDropDownButton -- inherited
-TargetFrameDropDown["Left"] = TargetFrameDropDownLeft -- inherited
-TargetFrameDropDown["Middle"] = TargetFrameDropDownMiddle -- inherited
-TargetFrameDropDown["Right"] = TargetFrameDropDownRight -- inherited
-TargetFrameDropDown["Text"] = TargetFrameDropDownText -- inherited
-TargetFrameDropDown["Icon"] = TargetFrameDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L285)
 --- child of TargetFrame (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
 TargetFrameHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L299)
 --- child of TargetFrame (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateManaBar
 TargetFrameManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L315)
 --- child of TargetFrame (created in template TargetFrameTemplate)
 --- @type Frame
 TargetFrameBuffs = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L318)
 --- child of TargetFrame (created in template TargetFrameTemplate)
 --- @type Frame
 TargetFrameDebuffs = {}
@@ -263,7 +216,7 @@ TargetFrameNameBackground = {}
 --- @type Texture
 TargetFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L439)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L433)
 --- @class TargetFrame : Button, TargetFrameTemplate
 TargetFrame = {}
 TargetFrame["textureFrame"] = TargetFrameTextureFrame -- inherited
@@ -328,65 +281,22 @@ TargetFrame["nameBackground"] = TargetFrameNameBackground -- inherited
 BossTargetFrameTemplateTextureFrame = {}
 BossTargetFrameTemplateTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L284)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-BossTargetFrameTemplateDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L226)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L239)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L248)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L257)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-BossTargetFrameTemplateDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L271)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L279)
---- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
---- @type TargetFrameTemplate_TargetFrameTemplateDropDown
-BossTargetFrameTemplateDropDown = {}
-BossTargetFrameTemplateDropDown["Button"] = BossTargetFrameTemplateDropDownButton -- inherited
-BossTargetFrameTemplateDropDown["Left"] = BossTargetFrameTemplateDropDownLeft -- inherited
-BossTargetFrameTemplateDropDown["Middle"] = BossTargetFrameTemplateDropDownMiddle -- inherited
-BossTargetFrameTemplateDropDown["Right"] = BossTargetFrameTemplateDropDownRight -- inherited
-BossTargetFrameTemplateDropDown["Text"] = BossTargetFrameTemplateDropDownText -- inherited
-BossTargetFrameTemplateDropDown["Icon"] = BossTargetFrameTemplateDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L285)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
 BossTargetFrameTemplateHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L299)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateManaBar
 BossTargetFrameTemplateManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L315)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type Frame
 BossTargetFrameTemplateBuffs = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L318)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type Frame
 BossTargetFrameTemplateDebuffs = {}
@@ -406,7 +316,7 @@ BossTargetFrameTemplateNameBackground = {}
 --- @type Texture
 BossTargetFrameTemplatePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L478)
 --- @class Boss1TargetFrame : Button, BossTargetFrameTemplate
 Boss1TargetFrame = {}
 Boss1TargetFrame["textureFrame"] = BossTargetFrameTemplateTextureFrame -- inherited
@@ -471,65 +381,22 @@ Boss1TargetFrame["nameBackground"] = BossTargetFrameTemplateNameBackground -- in
 BossTargetFrameTemplateTextureFrame = {}
 BossTargetFrameTemplateTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L284)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-BossTargetFrameTemplateDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L226)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L239)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L248)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L257)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-BossTargetFrameTemplateDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L271)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L279)
---- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
---- @type TargetFrameTemplate_TargetFrameTemplateDropDown
-BossTargetFrameTemplateDropDown = {}
-BossTargetFrameTemplateDropDown["Button"] = BossTargetFrameTemplateDropDownButton -- inherited
-BossTargetFrameTemplateDropDown["Left"] = BossTargetFrameTemplateDropDownLeft -- inherited
-BossTargetFrameTemplateDropDown["Middle"] = BossTargetFrameTemplateDropDownMiddle -- inherited
-BossTargetFrameTemplateDropDown["Right"] = BossTargetFrameTemplateDropDownRight -- inherited
-BossTargetFrameTemplateDropDown["Text"] = BossTargetFrameTemplateDropDownText -- inherited
-BossTargetFrameTemplateDropDown["Icon"] = BossTargetFrameTemplateDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L285)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
 BossTargetFrameTemplateHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L299)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateManaBar
 BossTargetFrameTemplateManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L315)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type Frame
 BossTargetFrameTemplateBuffs = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L318)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type Frame
 BossTargetFrameTemplateDebuffs = {}
@@ -549,7 +416,7 @@ BossTargetFrameTemplateNameBackground = {}
 --- @type Texture
 BossTargetFrameTemplatePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L489)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L483)
 --- @class Boss2TargetFrame : Button, BossTargetFrameTemplate
 Boss2TargetFrame = {}
 Boss2TargetFrame["textureFrame"] = BossTargetFrameTemplateTextureFrame -- inherited
@@ -614,65 +481,22 @@ Boss2TargetFrame["nameBackground"] = BossTargetFrameTemplateNameBackground -- in
 BossTargetFrameTemplateTextureFrame = {}
 BossTargetFrameTemplateTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L284)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-BossTargetFrameTemplateDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L226)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L239)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L248)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L257)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-BossTargetFrameTemplateDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L271)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L279)
---- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
---- @type TargetFrameTemplate_TargetFrameTemplateDropDown
-BossTargetFrameTemplateDropDown = {}
-BossTargetFrameTemplateDropDown["Button"] = BossTargetFrameTemplateDropDownButton -- inherited
-BossTargetFrameTemplateDropDown["Left"] = BossTargetFrameTemplateDropDownLeft -- inherited
-BossTargetFrameTemplateDropDown["Middle"] = BossTargetFrameTemplateDropDownMiddle -- inherited
-BossTargetFrameTemplateDropDown["Right"] = BossTargetFrameTemplateDropDownRight -- inherited
-BossTargetFrameTemplateDropDown["Text"] = BossTargetFrameTemplateDropDownText -- inherited
-BossTargetFrameTemplateDropDown["Icon"] = BossTargetFrameTemplateDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L285)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
 BossTargetFrameTemplateHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L299)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateManaBar
 BossTargetFrameTemplateManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L315)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type Frame
 BossTargetFrameTemplateBuffs = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L318)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type Frame
 BossTargetFrameTemplateDebuffs = {}
@@ -692,7 +516,7 @@ BossTargetFrameTemplateNameBackground = {}
 --- @type Texture
 BossTargetFrameTemplatePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L494)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L488)
 --- @class Boss3TargetFrame : Button, BossTargetFrameTemplate
 Boss3TargetFrame = {}
 Boss3TargetFrame["textureFrame"] = BossTargetFrameTemplateTextureFrame -- inherited
@@ -757,65 +581,22 @@ Boss3TargetFrame["nameBackground"] = BossTargetFrameTemplateNameBackground -- in
 BossTargetFrameTemplateTextureFrame = {}
 BossTargetFrameTemplateTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L284)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-BossTargetFrameTemplateDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L226)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L239)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L248)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L257)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-BossTargetFrameTemplateDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L271)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L279)
---- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
---- @type TargetFrameTemplate_TargetFrameTemplateDropDown
-BossTargetFrameTemplateDropDown = {}
-BossTargetFrameTemplateDropDown["Button"] = BossTargetFrameTemplateDropDownButton -- inherited
-BossTargetFrameTemplateDropDown["Left"] = BossTargetFrameTemplateDropDownLeft -- inherited
-BossTargetFrameTemplateDropDown["Middle"] = BossTargetFrameTemplateDropDownMiddle -- inherited
-BossTargetFrameTemplateDropDown["Right"] = BossTargetFrameTemplateDropDownRight -- inherited
-BossTargetFrameTemplateDropDown["Text"] = BossTargetFrameTemplateDropDownText -- inherited
-BossTargetFrameTemplateDropDown["Icon"] = BossTargetFrameTemplateDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L285)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
 BossTargetFrameTemplateHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L299)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateManaBar
 BossTargetFrameTemplateManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L315)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type Frame
 BossTargetFrameTemplateBuffs = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L318)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type Frame
 BossTargetFrameTemplateDebuffs = {}
@@ -835,7 +616,7 @@ BossTargetFrameTemplateNameBackground = {}
 --- @type Texture
 BossTargetFrameTemplatePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L499)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L493)
 --- @class Boss4TargetFrame : Button, BossTargetFrameTemplate
 Boss4TargetFrame = {}
 Boss4TargetFrame["textureFrame"] = BossTargetFrameTemplateTextureFrame -- inherited
@@ -900,65 +681,22 @@ Boss4TargetFrame["nameBackground"] = BossTargetFrameTemplateNameBackground -- in
 BossTargetFrameTemplateTextureFrame = {}
 BossTargetFrameTemplateTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L284)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-BossTargetFrameTemplateDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L226)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L239)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L248)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L257)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-BossTargetFrameTemplateDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L271)
---- child of BossTargetFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BossTargetFrameTemplateDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L279)
---- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
---- @type TargetFrameTemplate_TargetFrameTemplateDropDown
-BossTargetFrameTemplateDropDown = {}
-BossTargetFrameTemplateDropDown["Button"] = BossTargetFrameTemplateDropDownButton -- inherited
-BossTargetFrameTemplateDropDown["Left"] = BossTargetFrameTemplateDropDownLeft -- inherited
-BossTargetFrameTemplateDropDown["Middle"] = BossTargetFrameTemplateDropDownMiddle -- inherited
-BossTargetFrameTemplateDropDown["Right"] = BossTargetFrameTemplateDropDownRight -- inherited
-BossTargetFrameTemplateDropDown["Text"] = BossTargetFrameTemplateDropDownText -- inherited
-BossTargetFrameTemplateDropDown["Icon"] = BossTargetFrameTemplateDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L285)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
 BossTargetFrameTemplateHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L299)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type TargetFrameTemplate_TargetFrameTemplateManaBar
 BossTargetFrameTemplateManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L315)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type Frame
 BossTargetFrameTemplateBuffs = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L318)
 --- child of BossTargetFrameTemplate (created in template TargetFrameTemplate)
 --- @type Frame
 BossTargetFrameTemplateDebuffs = {}
@@ -978,7 +716,7 @@ BossTargetFrameTemplateNameBackground = {}
 --- @type Texture
 BossTargetFrameTemplatePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L498)
 --- @class Boss5TargetFrame : Button, BossTargetFrameTemplate
 Boss5TargetFrame = {}
 Boss5TargetFrame["textureFrame"] = BossTargetFrameTemplateTextureFrame -- inherited

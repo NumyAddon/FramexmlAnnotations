@@ -126,24 +126,12 @@ KeyBindingFrameText = {}
 --- child of KeyBindingFrame
 --- @class KeyBindingFrame_defaultsButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L142)
---- child of OptionsFrameListTemplateList
---- @class OptionsFrameListTemplate_OptionsFrameListTemplateList_OptionsFrameListTemplateListScrollBar : Slider, UIPanelScrollBarTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L116)
---- child of KeyBindingFrameCategoryList (created in template OptionsFrameListTemplate)
---- @type OptionsFrameListTemplate_OptionsFrameListTemplateList
-KeyBindingFrameCategoryListList = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L200)
 --- child of KeyBindingFrame
 --- @class KeyBindingFrame_KeyBindingFrameCategoryList : Frame, OptionsFrameListTemplate
 --- @field labelText any # CATEGORY
 KeyBindingFrameCategoryList = {}
 KeyBindingFrameCategoryList["labelText"] = CATEGORY
-KeyBindingFrameCategoryList["layoutType"] = "TooltipDefaultLayout" -- inherited
-KeyBindingFrameCategoryList["backdropColorAlpha"] = 0 -- inherited
-KeyBindingFrameCategoryList["backdropBorderColor"] = LIGHTGRAY_FONT_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L210)
 --- child of KeyBindingFrame

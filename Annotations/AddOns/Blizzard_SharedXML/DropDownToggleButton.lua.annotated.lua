@@ -8,4 +8,4 @@ DropDownToggleButtonMixin = {}
 function DropDownToggleButtonMixin:OnLoad_Intrinsic() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/DropDownToggleButton.lua#L7)
-function DropDownToggleButtonMixin:HandlesGlobalMouseEvent(buttonID, event) end
+function DropDownToggleButtonMixin:HandlesGlobalMouseEvent(buttonName, event) end

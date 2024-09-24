@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L20)
 --- child of SettingsAdvancedDropdownTemplate
---- @class SettingsAdvancedDropdownTemplate_DropDown : Frame, SettingsSelectionPopoutWithButtonsTemplate
+--- @class SettingsAdvancedDropdownTemplate_Control : Frame, SettingsDropdownWithButtonsTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L12)
 --- child of SettingsAdvancedDropdownTemplate
@@ -11,7 +11,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L5)
 --- Template
 --- @class SettingsAdvancedDropdownTemplate : Frame, SettingsAdvancedDropdownMixin
---- @field DropDown SettingsAdvancedDropdownTemplate_DropDown
+--- @field Control SettingsAdvancedDropdownTemplate_Control
 --- @field Text SettingsAdvancedDropdownTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L46)
@@ -43,23 +43,23 @@
 --- @field Text SettingsAdvancedWideSliderTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L99)
---- child of SettingsAdvancedWideCheckBoxSliderTemplate
---- @class SettingsAdvancedWideCheckBoxSliderTemplate_CheckBox : CheckButton, SettingsCheckBoxTemplate
+--- child of SettingsAdvancedWideCheckboxSliderTemplate
+--- @class SettingsAdvancedWideCheckboxSliderTemplate_Checkbox : CheckButton, SettingsCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L104)
---- child of SettingsAdvancedWideCheckBoxSliderTemplate
---- @class SettingsAdvancedWideCheckBoxSliderTemplate_SliderWithSteppers : Frame, MinimalSliderWithSteppersTemplate
+--- child of SettingsAdvancedWideCheckboxSliderTemplate
+--- @class SettingsAdvancedWideCheckboxSliderTemplate_SliderWithSteppers : Frame, MinimalSliderWithSteppersTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L91)
---- child of SettingsAdvancedWideCheckBoxSliderTemplate
---- @class SettingsAdvancedWideCheckBoxSliderTemplate_Text : FontString, GameFontNormal
+--- child of SettingsAdvancedWideCheckboxSliderTemplate
+--- @class SettingsAdvancedWideCheckboxSliderTemplate_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L84)
 --- Template
---- @class SettingsAdvancedWideCheckBoxSliderTemplate : Frame, SettingsAdvancedCheckBoxSliderMixin
---- @field CheckBox SettingsAdvancedWideCheckBoxSliderTemplate_CheckBox
---- @field SliderWithSteppers SettingsAdvancedWideCheckBoxSliderTemplate_SliderWithSteppers
---- @field Text SettingsAdvancedWideCheckBoxSliderTemplate_Text
+--- @class SettingsAdvancedWideCheckboxSliderTemplate : Frame, SettingsAdvancedCheckboxSliderMixin
+--- @field Checkbox SettingsAdvancedWideCheckboxSliderTemplate_Checkbox
+--- @field SliderWithSteppers SettingsAdvancedWideCheckboxSliderTemplate_SliderWithSteppers
+--- @field Text SettingsAdvancedWideCheckboxSliderTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L118)
 --- child of SettingsAdvancedQualityControlsTemplate
@@ -156,7 +156,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L253)
 --- child of 
---- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideCheckBoxSliderTemplate
+--- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideCheckboxSliderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L251)
 --- child of SettingsAdvancedQualitySectionTemplate

@@ -77,37 +77,37 @@ MacroSaveButton["fitTextCanWidthDecrease"] = true -- inherited
 MacroFrameTextBackground = {}
 MacroFrameTextBackground["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1308)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1314)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateLeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1327)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateMiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1330)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1336)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateRightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1345)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1354)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1357)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1363)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1394)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateHighlightTexture = {}
@@ -124,37 +124,37 @@ MacroFrameTab1["Middle"] = PanelTopTabButtonTemplateMiddle -- inherited
 MacroFrameTab1["Right"] = PanelTopTabButtonTemplateRight -- inherited
 MacroFrameTab1["HighlightTexture"] = PanelTopTabButtonTemplateHighlightTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1308)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1314)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateLeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1327)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateMiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1330)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1336)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateRightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1345)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1354)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1357)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1363)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1394)
 --- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
 --- @type Texture
 PanelTopTabButtonTemplateHighlightTexture = {}

@@ -244,81 +244,44 @@ LFDQueueFrameRoleButtonDPS["shortageBorder"] = LFDRoleButtonTemplateShortageBord
 LFDQueueFrameRoleButtonLeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L273)
---- child of LFDQueueFrameTypeDropDown
---- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameTypeDropDown_LFDQueueFrameTypeDropDownName : FontString, GameFontNormal
-LFDQueueFrameTypeDropDownName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L284)
---- child of LFDQueueFrameTypeDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-LFDQueueFrameTypeDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L226)
---- child of LFDQueueFrameTypeDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFDQueueFrameTypeDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L239)
---- child of LFDQueueFrameTypeDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFDQueueFrameTypeDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L248)
---- child of LFDQueueFrameTypeDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFDQueueFrameTypeDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L257)
---- child of LFDQueueFrameTypeDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-LFDQueueFrameTypeDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L271)
---- child of LFDQueueFrameTypeDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFDQueueFrameTypeDropDownIcon = {}
+--- child of LFDQueueFrameTypeDropdown
+--- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameTypeDropdown_LFDQueueFrameTypeDropdownName : FontString, GameFontNormal
+LFDQueueFrameTypeDropdownName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L267)
 --- child of LFDQueueFrame
---- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameTypeDropDown : Frame, UIDropDownMenuTemplate
-LFDQueueFrameTypeDropDown = {}
-LFDQueueFrameTypeDropDown["Button"] = LFDQueueFrameTypeDropDownButton -- inherited
-LFDQueueFrameTypeDropDown["Left"] = LFDQueueFrameTypeDropDownLeft -- inherited
-LFDQueueFrameTypeDropDown["Middle"] = LFDQueueFrameTypeDropDownMiddle -- inherited
-LFDQueueFrameTypeDropDown["Right"] = LFDQueueFrameTypeDropDownRight -- inherited
-LFDQueueFrameTypeDropDown["Text"] = LFDQueueFrameTypeDropDownText -- inherited
-LFDQueueFrameTypeDropDown["Icon"] = LFDQueueFrameTypeDropDownIcon -- inherited
+--- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameTypeDropdown : DropdownButton, WowStyle1DropdownTemplate
+LFDQueueFrameTypeDropdown = {}
+LFDQueueFrameTypeDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L287)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L284)
 --- child of LFDQueueFrameRandom
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameRandom_LFDQueueFrameRandomScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
 LFDQueueFrameRandomScrollFrame = {}
 LFDQueueFrameRandomScrollFrame["scrollBarHideIfUnscrollable"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L282)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameRandom : Frame
 LFDQueueFrameRandom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L315)
 --- child of LFDQueueFrameSpecific
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameSpecific_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L321)
 --- child of LFDQueueFrameSpecific
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameSpecific_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L313)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameSpecific : Frame
 --- @field ScrollBox LFDParentFrame_LFDQueueFrame_LFDQueueFrameSpecific_ScrollBox
 --- @field ScrollBar LFDParentFrame_LFDQueueFrame_LFDQueueFrameSpecific_ScrollBar
 LFDQueueFrameSpecific = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L335)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L332)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameFindGroupButton : Button, MagicButtonTemplate
 LFDQueueFrameFindGroupButton = {}
@@ -346,7 +309,7 @@ LFDQueueFramePartyBackfillBlackFilter = {}
 --- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateDescription
 LFDQueueFramePartyBackfillDescription = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L356)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFramePartyBackfill : Frame, LFGBackfillCoverTemplate
 LFDQueueFramePartyBackfill = {}
@@ -447,30 +410,30 @@ LFDQueueFrameCooldownFrameName8 = {}
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus8
 LFDQueueFrameCooldownFrameStatus8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L370)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L367)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameCooldownFrame : Frame, LFGCooldownCoverTemplate
 LFDQueueFrameCooldownFrame = {}
 LFDQueueFrameCooldownFrame["description"] = LFDQueueFrameCooldownFrameDescription -- inherited
 LFDQueueFrameCooldownFrame["time"] = LFDQueueFrameCooldownFrameTime -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L408)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L405)
 --- child of LFDQueueFrameNoLFDWhileLFR
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameNoLFDWhileLFR_LFDQueueFrameNoLFDWhileLFRLeaveQueueButton : Button, UIPanelButtonTemplate
 LFDQueueFrameNoLFDWhileLFRLeaveQueueButton = {}
 LFDQueueFrameNoLFDWhileLFRLeaveQueueButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L394)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L391)
 --- child of LFDQueueFrameNoLFDWhileLFR
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameNoLFDWhileLFR_LFDQueueFrameNoLFDWhileLFRBlackFilter : Texture
 LFDQueueFrameNoLFDWhileLFRBlackFilter = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L399)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L396)
 --- child of LFDQueueFrameNoLFDWhileLFR
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameNoLFDWhileLFR_LFDQueueFrameNoLFDWhileLFRDescription : FontString, GameFontNormal
 LFDQueueFrameNoLFDWhileLFRDescription = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L384)
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameNoLFDWhileLFR : Frame
 LFDQueueFrameNoLFDWhileLFR = {}
@@ -483,10 +446,12 @@ LFDQueueFrameBackground = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L212)
 --- child of LFDParentFrame
 --- @class LFDParentFrame_LFDQueueFrame : Frame
+--- @field TypeDropdown LFDParentFrame_LFDQueueFrame_LFDQueueFrameTypeDropdown
 --- @field Specific LFDParentFrame_LFDQueueFrame_LFDQueueFrameSpecific
 --- @field PartyBackfill LFDParentFrame_LFDQueueFrame_LFDQueueFramePartyBackfill
 --- @field CooldownFrame LFDParentFrame_LFDQueueFrame_LFDQueueFrameCooldownFrame
 LFDQueueFrame = {}
+LFDQueueFrame["TypeDropdown"] = LFDQueueFrameTypeDropdown
 LFDQueueFrame["Specific"] = LFDQueueFrameSpecific
 LFDQueueFrame["PartyBackfill"] = LFDQueueFramePartyBackfill
 LFDQueueFrame["CooldownFrame"] = LFDQueueFrameCooldownFrame

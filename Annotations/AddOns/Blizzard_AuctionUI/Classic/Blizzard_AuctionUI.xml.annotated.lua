@@ -1917,60 +1917,23 @@ BrowseMinLevel = {}
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseMaxLevel : EditBox, InputBoxTemplate
 BrowseMaxLevel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1126)
---- child of BrowseDropDown
---- @class AuctionFrame_AuctionFrameBrowse_BrowseDropDown_BrowseDropDownName : FontString, GameFontHighlightSmall
-BrowseDropDownName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L284)
---- child of BrowseDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-BrowseDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L226)
---- child of BrowseDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BrowseDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L239)
---- child of BrowseDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BrowseDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L248)
---- child of BrowseDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BrowseDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L257)
---- child of BrowseDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-BrowseDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L271)
---- child of BrowseDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-BrowseDropDownIcon = {}
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1127)
+--- child of BrowseDropdown
+--- @class AuctionFrame_AuctionFrameBrowse_BrowseDropdown_BrowseDropdownName : FontString, GameFontHighlightSmall
+BrowseDropdownName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1116)
 --- child of AuctionFrameBrowse
---- @class AuctionFrame_AuctionFrameBrowse_BrowseDropDown : Frame, UIDropDownMenuTemplate
-BrowseDropDown = {}
-BrowseDropDown["Button"] = BrowseDropDownButton -- inherited
-BrowseDropDown["Left"] = BrowseDropDownLeft -- inherited
-BrowseDropDown["Middle"] = BrowseDropDownMiddle -- inherited
-BrowseDropDown["Right"] = BrowseDropDownRight -- inherited
-BrowseDropDown["Text"] = BrowseDropDownText -- inherited
-BrowseDropDown["Icon"] = BrowseDropDownIcon -- inherited
+--- @class AuctionFrame_AuctionFrameBrowse_BrowseDropdown : DropdownButton, WowStyle1DropdownTemplate
+BrowseDropdown = {}
+BrowseDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L468)
 --- child of IsUsableCheckButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 IsUsableCheckButtonText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1139)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_IsUsableCheckButton : CheckButton, UICheckButtonTemplate
 IsUsableCheckButton = {}
@@ -1981,49 +1944,49 @@ IsUsableCheckButton["Text"] = IsUsableCheckButtonText -- inherited
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 ShowOnPlayerCheckButtonText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1160)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_ShowOnPlayerCheckButton : CheckButton, UICheckButtonTemplate
 ShowOnPlayerCheckButton = {}
 ShowOnPlayerCheckButton["Text"] = ShowOnPlayerCheckButtonText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1190)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseSearchButton : Button, UIPanelButtonTemplate
 BrowseSearchButton = {}
 BrowseSearchButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1208)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseResetButton : Button, UIPanelButtonTemplate
 BrowseResetButton = {}
 BrowseResetButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1244)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1241)
 --- child of BrowsePrevPageButton
 --- @class  : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1228)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowsePrevPageButton : Button
 BrowsePrevPageButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1278)
 --- child of BrowseNextPageButton
 --- @class  : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1265)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseNextPageButton : Button
 BrowseNextPageButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1302)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseCloseButton : Button, UIPanelButtonTemplate
 BrowseCloseButton = {}
 BrowseCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1324)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseBuyoutButton : Button, UIPanelButtonTemplate
 BrowseBuyoutButton = {}
@@ -2050,7 +2013,7 @@ BrowseBidPriceSilver = {}
 --- @field label FontString
 BrowseBidPriceCopper = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1347)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseBidPrice : Frame, MoneyInputFrameTemplate
 BrowseBidPrice = {}
@@ -2058,7 +2021,7 @@ BrowseBidPrice["gold"] = BrowseBidPriceGold -- inherited
 BrowseBidPrice["silver"] = BrowseBidPriceSilver -- inherited
 BrowseBidPrice["copper"] = BrowseBidPriceCopper -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1369)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseBidButton : Button, UIPanelButtonTemplate
 BrowseBidButton = {}
@@ -2084,7 +2047,7 @@ BrowseBuyoutPriceSilverButton = {}
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
 BrowseBuyoutPriceGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1396)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1393)
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseBuyoutPrice : Frame, SmallMoneyFrameTemplate
 BrowseBuyoutPrice = {}
@@ -2148,7 +2111,7 @@ BidQualitySortMiddle = {}
 --- @type Texture
 BidQualitySortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1450)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1447)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidQualitySort : Button, AuctionSortButtonTemplate
 BidQualitySort = {}
@@ -2174,7 +2137,7 @@ BidLevelSortMiddle = {}
 --- @type Texture
 BidLevelSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1467)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1464)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidLevelSort : Button, AuctionSortButtonTemplate
 BidLevelSort = {}
@@ -2200,7 +2163,7 @@ BidDurationSortMiddle = {}
 --- @type Texture
 BidDurationSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1481)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidDurationSort : Button, AuctionSortButtonTemplate
 BidDurationSort = {}
@@ -2226,7 +2189,7 @@ BidBuyoutSortMiddle = {}
 --- @type Texture
 BidBuyoutSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1501)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1498)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidBuyoutSort : Button, AuctionSortButtonTemplate
 BidBuyoutSort = {}
@@ -2252,7 +2215,7 @@ BidStatusSortMiddle = {}
 --- @type Texture
 BidStatusSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1515)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidStatusSort : Button, AuctionSortButtonTemplate
 BidStatusSort = {}
@@ -2278,7 +2241,7 @@ BidBidSortMiddle = {}
 --- @type Texture
 BidBidSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1535)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1532)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidBidSort : Button, AuctionSortButtonTemplate
 BidBidSort = {}
@@ -2307,7 +2270,7 @@ FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScro
 FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
 FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1552)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1549)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BidScrollFrame = {}
@@ -2425,7 +2388,7 @@ BidButton1Right = {}
 --- @type Texture
 BidButton1Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1599)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1596)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidButton1 : Button, BidButtonTemplate
 BidButton1 = {}
@@ -2542,7 +2505,7 @@ BidButton2Right = {}
 --- @type Texture
 BidButton2Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1608)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1605)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidButton2 : Button, BidButtonTemplate
 BidButton2 = {}
@@ -2659,7 +2622,7 @@ BidButton3Right = {}
 --- @type Texture
 BidButton3Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1617)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1614)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidButton3 : Button, BidButtonTemplate
 BidButton3 = {}
@@ -2776,7 +2739,7 @@ BidButton4Right = {}
 --- @type Texture
 BidButton4Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1623)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidButton4 : Button, BidButtonTemplate
 BidButton4 = {}
@@ -2893,7 +2856,7 @@ BidButton5Right = {}
 --- @type Texture
 BidButton5Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1635)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1632)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidButton5 : Button, BidButtonTemplate
 BidButton5 = {}
@@ -3010,7 +2973,7 @@ BidButton6Right = {}
 --- @type Texture
 BidButton6Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1644)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1641)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidButton6 : Button, BidButtonTemplate
 BidButton6 = {}
@@ -3127,7 +3090,7 @@ BidButton7Right = {}
 --- @type Texture
 BidButton7Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1653)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1650)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidButton7 : Button, BidButtonTemplate
 BidButton7 = {}
@@ -3244,7 +3207,7 @@ BidButton8Right = {}
 --- @type Texture
 BidButton8Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1662)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1659)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidButton8 : Button, BidButtonTemplate
 BidButton8 = {}
@@ -3361,12 +3324,12 @@ BidButton9Right = {}
 --- @type Texture
 BidButton9Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1671)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1668)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidButton9 : Button, BidButtonTemplate
 BidButton9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1690)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1687)
 --- child of BidBidPrice
 --- @class AuctionFrame_AuctionFrameBid_BidBidPrice_BidBidText : FontString, GameFontHighlightSmall
 BidBidText = {}
@@ -3392,7 +3355,7 @@ BidBidPriceSilver = {}
 --- @field label FontString
 BidBidPriceCopper = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1680)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1677)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidBidPrice : Frame, MoneyInputFrameTemplate
 BidBidPrice = {}
@@ -3400,35 +3363,35 @@ BidBidPrice["gold"] = BidBidPriceGold -- inherited
 BidBidPrice["silver"] = BidBidPriceSilver -- inherited
 BidBidPrice["copper"] = BidBidPriceCopper -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1702)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1699)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidCloseButton : Button, UIPanelButtonTemplate
 BidCloseButton = {}
 BidCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1730)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1727)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidBuyoutButton : Button, UIPanelButtonTemplate
 BidBuyoutButton = {}
 BidBuyoutButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1759)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1756)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidBidButton : Button, UIPanelButtonTemplate
 BidBidButton = {}
 BidBidButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1427)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1424)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidTitle : FontString, GameFontNormal
 BidTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1438)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1435)
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidSearchCountText : FontString, GameFontHighlightSmall
 BidSearchCountText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1415)
 --- child of AuctionFrame
 --- @class AuctionFrame_AuctionFrameBid : Frame
 AuctionFrameBid = {}
@@ -3453,7 +3416,7 @@ AuctionsQualitySortMiddle = {}
 --- @type Texture
 AuctionsQualitySortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1842)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1839)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsQualitySort : Button, AuctionSortButtonTemplate
 AuctionsQualitySort = {}
@@ -3479,7 +3442,7 @@ AuctionsDurationSortMiddle = {}
 --- @type Texture
 AuctionsDurationSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1853)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1850)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsDurationSort : Button, AuctionSortButtonTemplate
 AuctionsDurationSort = {}
@@ -3505,7 +3468,7 @@ AuctionsHighBidderSortMiddle = {}
 --- @type Texture
 AuctionsHighBidderSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1864)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1861)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsHighBidderSort : Button, AuctionSortButtonTemplate
 AuctionsHighBidderSort = {}
@@ -3531,7 +3494,7 @@ AuctionsBidSortMiddle = {}
 --- @type Texture
 AuctionsBidSortArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1875)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1872)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsBidSort : Button, AuctionSortButtonTemplate
 AuctionsBidSort = {}
@@ -3560,7 +3523,7 @@ FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScro
 FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
 FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1886)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1883)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 AuctionsScrollFrame = {}
@@ -3671,7 +3634,7 @@ AuctionsButton1Right = {}
 --- @type Texture
 AuctionsButton1Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1915)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1912)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsButton1 : Button, AuctionsButtonTemplate
 AuctionsButton1 = {}
@@ -3781,7 +3744,7 @@ AuctionsButton2Right = {}
 --- @type Texture
 AuctionsButton2Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1920)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1917)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsButton2 : Button, AuctionsButtonTemplate
 AuctionsButton2 = {}
@@ -3891,7 +3854,7 @@ AuctionsButton3Right = {}
 --- @type Texture
 AuctionsButton3Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1925)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1922)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsButton3 : Button, AuctionsButtonTemplate
 AuctionsButton3 = {}
@@ -4001,7 +3964,7 @@ AuctionsButton4Right = {}
 --- @type Texture
 AuctionsButton4Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1930)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1927)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsButton4 : Button, AuctionsButtonTemplate
 AuctionsButton4 = {}
@@ -4111,7 +4074,7 @@ AuctionsButton5Right = {}
 --- @type Texture
 AuctionsButton5Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1935)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1932)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsButton5 : Button, AuctionsButtonTemplate
 AuctionsButton5 = {}
@@ -4221,7 +4184,7 @@ AuctionsButton6Right = {}
 --- @type Texture
 AuctionsButton6Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1940)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1937)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsButton6 : Button, AuctionsButtonTemplate
 AuctionsButton6 = {}
@@ -4331,7 +4294,7 @@ AuctionsButton7Right = {}
 --- @type Texture
 AuctionsButton7Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1945)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1942)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsButton7 : Button, AuctionsButtonTemplate
 AuctionsButton7 = {}
@@ -4441,7 +4404,7 @@ AuctionsButton8Right = {}
 --- @type Texture
 AuctionsButton8Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1950)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1947)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsButton8 : Button, AuctionsButtonTemplate
 AuctionsButton8 = {}
@@ -4551,128 +4514,81 @@ AuctionsButton9Right = {}
 --- @type Texture
 AuctionsButton9Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1955)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1952)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsButton9 : Button, AuctionsButtonTemplate
 AuctionsButton9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1967)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1964)
 --- child of AuctionsItemButton
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsItemButton_AuctionsItemButtonName : FontString, GameFontNormal
 AuctionsItemButtonName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1983)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1980)
 --- child of AuctionsItemButton
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsItemButton_AuctionsItemButtonCount : FontString, NumberFontNormal
 AuctionsItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1960)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1957)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsItemButton : Button
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 AuctionsItemButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2029)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2026)
 --- child of AuctionsStackSizeEntry
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsStackSizeEntry_AuctionsStackSizeEntryLeft : Texture
 AuctionsStackSizeEntryLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2036)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2033)
 --- child of AuctionsStackSizeEntry
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsStackSizeEntry_AuctionsStackSizeEntryRight : Texture
 AuctionsStackSizeEntryRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2043)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2040)
 --- child of AuctionsStackSizeEntry
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsStackSizeEntry_AuctionsStackSizeEntryMiddle : Texture
 AuctionsStackSizeEntryMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2022)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2019)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsStackSizeEntry : EditBox
 AuctionsStackSizeEntry = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2098)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2095)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsStackSizeMaxButton : Button, UIPanelButtonTemplate
 AuctionsStackSizeMaxButton = {}
 AuctionsStackSizeMaxButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2111)
 --- child of AuctionsNumStacksEntry
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsNumStacksEntry_AuctionsNumStacksEntryLeft : Texture
 AuctionsNumStacksEntryLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2118)
 --- child of AuctionsNumStacksEntry
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsNumStacksEntry_AuctionsNumStacksEntryRight : Texture
 AuctionsNumStacksEntryRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2125)
 --- child of AuctionsNumStacksEntry
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsNumStacksEntry_AuctionsNumStacksEntryMiddle : Texture
 AuctionsNumStacksEntryMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2104)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsNumStacksEntry : EditBox
 AuctionsNumStacksEntry = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2180)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsNumStacksMaxButton : Button, UIPanelButtonTemplate
 AuctionsNumStacksMaxButton = {}
 AuctionsNumStacksMaxButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2207)
---- child of PriceDropDown
---- @class  : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L284)
---- child of PriceDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-PriceDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L226)
---- child of PriceDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PriceDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L239)
---- child of PriceDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PriceDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L248)
---- child of PriceDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PriceDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L257)
---- child of PriceDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-PriceDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L271)
---- child of PriceDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PriceDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2201)
---- child of AuctionFrameAuctions
---- @class AuctionFrame_AuctionFrameAuctions_PriceDropDown : Frame, UIDropDownMenuTemplate
-PriceDropDown = {}
-PriceDropDown["Button"] = PriceDropDownButton -- inherited
-PriceDropDown["Left"] = PriceDropDownLeft -- inherited
-PriceDropDown["Middle"] = PriceDropDownMiddle -- inherited
-PriceDropDown["Right"] = PriceDropDownRight -- inherited
-PriceDropDown["Text"] = PriceDropDownText -- inherited
-PriceDropDown["Icon"] = PriceDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2227)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2204)
 --- child of StartPrice
 --- @class  : FontString, GameFontHighlightSmall
 
@@ -4697,7 +4613,7 @@ StartPriceSilver = {}
 --- @field label FontString
 StartPriceCopper = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2221)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2198)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_StartPrice : Frame, MoneyInputFrameTemplate
 StartPrice = {}
@@ -4710,7 +4626,7 @@ StartPrice["copper"] = StartPriceCopper -- inherited
 --- @type AuctionRadioButtonTemplate_AuctionRadioButtonTemplateText
 AuctionsShortAuctionButtonText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2217)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsShortAuctionButton : CheckButton, AuctionRadioButtonTemplate
 AuctionsShortAuctionButton = {}
@@ -4720,7 +4636,7 @@ AuctionsShortAuctionButton = {}
 --- @type AuctionRadioButtonTemplate_AuctionRadioButtonTemplateText
 AuctionsMediumAuctionButtonText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2234)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsMediumAuctionButton : CheckButton, AuctionRadioButtonTemplate
 AuctionsMediumAuctionButton = {}
@@ -4730,17 +4646,17 @@ AuctionsMediumAuctionButton = {}
 --- @type AuctionRadioButtonTemplate_AuctionRadioButtonTemplateText
 AuctionsLongAuctionButtonText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2274)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2251)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsLongAuctionButton : CheckButton, AuctionRadioButtonTemplate
 AuctionsLongAuctionButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2297)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2274)
 --- child of BuyoutPrice
 --- @class AuctionFrame_AuctionFrameAuctions_BuyoutPrice_AuctionsBuyoutText : FontString, GameFontHighlightSmall
 AuctionsBuyoutText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2279)
 --- child of BuyoutPrice
 --- @class AuctionFrame_AuctionFrameAuctions_BuyoutPrice_AuctionsBuyoutErrorText : FontString, GameFontRedSmall
 AuctionsBuyoutErrorText = {}
@@ -4766,7 +4682,7 @@ BuyoutPriceSilver = {}
 --- @field label FontString
 BuyoutPriceCopper = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2291)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2268)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_BuyoutPrice : Frame, MoneyInputFrameTemplate
 BuyoutPrice = {}
@@ -4794,7 +4710,7 @@ AuctionsDepositMoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
 AuctionsDepositMoneyFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2319)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2296)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsDepositMoneyFrame : Frame, SmallMoneyFrameTemplate
 AuctionsDepositMoneyFrame = {}
@@ -4803,23 +4719,23 @@ AuctionsDepositMoneyFrame["CopperButton"] = AuctionsDepositMoneyFrameCopperButto
 AuctionsDepositMoneyFrame["SilverButton"] = AuctionsDepositMoneyFrameSilverButton -- inherited
 AuctionsDepositMoneyFrame["GoldButton"] = AuctionsDepositMoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2337)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2314)
 --- child of AuctionsWowTokenAuctionFrame
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsWowTokenAuctionFrame_BuyoutPriceLabel : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2319)
 --- child of AuctionsWowTokenAuctionFrame
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsWowTokenAuctionFrame_MarketPrice : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2324)
 --- child of AuctionsWowTokenAuctionFrame
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsWowTokenAuctionFrame_EstimatedTime : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2329)
 --- child of AuctionsWowTokenAuctionFrame
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsWowTokenAuctionFrame_TimeToSell : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2330)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2307)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsWowTokenAuctionFrame : Frame
 --- @field InvisiblePriceFrame Frame
@@ -4829,60 +4745,60 @@ AuctionsDepositMoneyFrame["GoldButton"] = AuctionsDepositMoneyFrameGoldButton --
 --- @field TimeToSell AuctionFrame_AuctionFrameAuctions_AuctionsWowTokenAuctionFrame_TimeToSell
 AuctionsWowTokenAuctionFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2358)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsCloseButton : Button, UIPanelButtonTemplate
 AuctionsCloseButton = {}
 AuctionsCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2398)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2375)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsCancelAuctionButton : Button, UIPanelButtonTemplate
 AuctionsCancelAuctionButton = {}
 AuctionsCancelAuctionButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2394)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsCreateAuctionButton : Button, UIPanelButtonTemplate
 AuctionsCreateAuctionButton = {}
 AuctionsCreateAuctionButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2432)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2409)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsBlockFrame : Frame
 AuctionsBlockFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1803)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1800)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsTitle : FontString, GameFontNormal
 AuctionsTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1810)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1807)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsTabText : FontString, GameFontHighlightSmall
 AuctionsTabText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1815)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1812)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsItemText : FontString, GameFontHighlightSmall
 AuctionsItemText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1820)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1817)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsDurationText : FontString, GameFontHighlightSmall
 AuctionsDurationText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1829)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1826)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsSearchCountText : FontString, GameFontHighlightSmall
 AuctionsSearchCountText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1834)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1831)
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsDepositText : FontString, GameFontNormal
 AuctionsDepositText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1793)
 --- child of AuctionFrame
 --- @class AuctionFrame_AuctionFrameAuctions : Frame
 AuctionFrameAuctions = {}
@@ -4926,37 +4842,37 @@ AuctionFrameBot = {}
 --- @class AuctionFrame : Frame
 AuctionFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2520)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressBar : StatusBar, CastingBarFrameTemplate
 AuctionProgressBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2568)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2545)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameCancelButton : Button
 AuctionProgressFrameCancelButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2499)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2476)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameFill : Texture
 AuctionProgressFrameFill = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2517)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2494)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameLeft : Texture
 AuctionProgressFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2525)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2502)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameRight : Texture
 AuctionProgressFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2533)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2510)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameMiddle : Texture
 AuctionProgressFrameMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2486)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2463)
 --- @class AuctionProgressFrame : Frame
 AuctionProgressFrame = {}
 

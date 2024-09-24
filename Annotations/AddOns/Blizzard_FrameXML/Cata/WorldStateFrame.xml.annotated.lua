@@ -257,49 +257,6 @@ WorldStateScoreColumn7Text = {}
 --- @class WorldStateScoreFrame_WorldStateScoreColumn7 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L284)
---- child of WorldStateButtonDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-WorldStateButtonDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L226)
---- child of WorldStateButtonDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-WorldStateButtonDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L239)
---- child of WorldStateButtonDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-WorldStateButtonDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L248)
---- child of WorldStateButtonDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-WorldStateButtonDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L257)
---- child of WorldStateButtonDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-WorldStateButtonDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L271)
---- child of WorldStateButtonDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-WorldStateButtonDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L770)
---- child of WorldStateScoreFrame
---- @class WorldStateScoreFrame_WorldStateButtonDropDown : Frame, UIDropDownMenuTemplate
-WorldStateButtonDropDown = {}
-WorldStateButtonDropDown["Button"] = WorldStateButtonDropDownButton -- inherited
-WorldStateButtonDropDown["Left"] = WorldStateButtonDropDownLeft -- inherited
-WorldStateButtonDropDown["Middle"] = WorldStateButtonDropDownMiddle -- inherited
-WorldStateButtonDropDown["Right"] = WorldStateButtonDropDownRight -- inherited
-WorldStateButtonDropDown["Text"] = WorldStateButtonDropDownText -- inherited
-WorldStateButtonDropDown["Icon"] = WorldStateButtonDropDownIcon -- inherited
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L230)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_WorldStateScoreTemplateRankButton
@@ -427,7 +384,7 @@ WorldStateScoreButton1Column7Text = {}
 --- @type Texture
 WorldStateScoreButton1Column7Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L771)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L770)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrame_WorldStateScoreButton1 : Frame, WorldStateScoreTemplate
 WorldStateScoreButton1 = {}
@@ -442,7 +399,7 @@ WorldStateScoreButton1["honorGained"] = WorldStateScoreButton1HonorGained -- inh
 WorldStateScoreButton1["damageDone"] = WorldStateScoreButton1DamageDone -- inherited
 WorldStateScoreButton1["healingDone"] = WorldStateScoreButton1HealingDone -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L785)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L784)
 --- child of WorldStateScoreScrollFrame
 --- @class WorldStateScoreFrame_WorldStateScoreScrollFrame_WorldStateScoreScrollFrameScrollBarTop : Texture
 WorldStateScoreScrollFrameScrollBarTop = {}
@@ -470,13 +427,13 @@ FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScro
 FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
 FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L776)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L775)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrame_WorldStateScoreScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 WorldStateScoreScrollFrame = {}
 WorldStateScoreScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L832)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L831)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrame_WorldStateScoreFrameCloseButton : Button, UIPanelCloseButton
 WorldStateScoreFrameCloseButton = {}
@@ -516,7 +473,7 @@ WorldStateScoreFrameTab1Right = {}
 --- @type Texture
 WorldStateScoreFrameTab1HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L841)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L840)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrame_WorldStateScoreFrameTab1 : Button, WorldStateScoreFrameTabButtonTemplate
 WorldStateScoreFrameTab1 = {}
@@ -556,7 +513,7 @@ WorldStateScoreFrameTab2Right = {}
 --- @type Texture
 WorldStateScoreFrameTab2HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L853)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L852)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrame_WorldStateScoreFrameTab2 : Button, WorldStateScoreFrameTabButtonTemplate
 WorldStateScoreFrameTab2 = {}
@@ -596,33 +553,33 @@ WorldStateScoreFrameTab3Right = {}
 --- @type Texture
 WorldStateScoreFrameTab3HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L865)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L864)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrame_WorldStateScoreFrameTab3 : Button, WorldStateScoreFrameTabButtonTemplate
 WorldStateScoreFrameTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L876)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrame_WorldStateScoreFrameLeaveButton : Button, UIPanelButtonTemplate
 WorldStateScoreFrameLeaveButton = {}
 WorldStateScoreFrameLeaveButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L905)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L904)
 --- child of WorldStateScoreWinnerFrame
 --- @class WorldStateScoreFrame_WorldStateScoreWinnerFrame_WorldStateScoreWinnerFrameLeft : Texture
 WorldStateScoreWinnerFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L918)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L917)
 --- child of WorldStateScoreWinnerFrame
 --- @class WorldStateScoreFrame_WorldStateScoreWinnerFrame_WorldStateScoreWinnerFrameRight : Texture
 WorldStateScoreWinnerFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L936)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L935)
 --- child of WorldStateScoreWinnerFrame
 --- @class WorldStateScoreFrame_WorldStateScoreWinnerFrame_WorldStateScoreWinnerFrameText : FontString, GameFontHighlight
 WorldStateScoreWinnerFrameText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L895)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Cata/WorldStateFrame.xml#L894)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrame_WorldStateScoreWinnerFrame : Frame
 WorldStateScoreWinnerFrame = {}

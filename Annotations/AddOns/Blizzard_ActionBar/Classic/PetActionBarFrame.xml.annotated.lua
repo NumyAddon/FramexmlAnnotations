@@ -249,7 +249,7 @@ PetActionButton1AutoCastable = {}
 --- @type Texture
 PetActionButton1NormalTexture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L107)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton1 : CheckButton, PetActionButtonTemplate
 PetActionButton1 = {}
@@ -501,7 +501,7 @@ PetActionButton2AutoCastable = {}
 --- @type Texture
 PetActionButton2NormalTexture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L116)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton2 : CheckButton, PetActionButtonTemplate
 PetActionButton2 = {}
@@ -753,7 +753,7 @@ PetActionButton3AutoCastable = {}
 --- @type Texture
 PetActionButton3NormalTexture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L125)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton3 : CheckButton, PetActionButtonTemplate
 PetActionButton3 = {}
@@ -1005,7 +1005,7 @@ PetActionButton4AutoCastable = {}
 --- @type Texture
 PetActionButton4NormalTexture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L134)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton4 : CheckButton, PetActionButtonTemplate
 PetActionButton4 = {}
@@ -1257,7 +1257,7 @@ PetActionButton5AutoCastable = {}
 --- @type Texture
 PetActionButton5NormalTexture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L143)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton5 : CheckButton, PetActionButtonTemplate
 PetActionButton5 = {}
@@ -1509,7 +1509,7 @@ PetActionButton6AutoCastable = {}
 --- @type Texture
 PetActionButton6NormalTexture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L152)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton6 : CheckButton, PetActionButtonTemplate
 PetActionButton6 = {}
@@ -1761,7 +1761,7 @@ PetActionButton7AutoCastable = {}
 --- @type Texture
 PetActionButton7NormalTexture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L161)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton7 : CheckButton, PetActionButtonTemplate
 PetActionButton7 = {}
@@ -2013,7 +2013,7 @@ PetActionButton8AutoCastable = {}
 --- @type Texture
 PetActionButton8NormalTexture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L170)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton8 : CheckButton, PetActionButtonTemplate
 PetActionButton8 = {}
@@ -2265,7 +2265,7 @@ PetActionButton9AutoCastable = {}
 --- @type Texture
 PetActionButton9NormalTexture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L179)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton9 : CheckButton, PetActionButtonTemplate
 PetActionButton9 = {}
@@ -2517,7 +2517,7 @@ PetActionButton10AutoCastable = {}
 --- @type Texture
 PetActionButton10NormalTexture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L188)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_PetActionButton10 : CheckButton, PetActionButtonTemplate
 PetActionButton10 = {}
@@ -2534,17 +2534,17 @@ PetActionButton10["Name"] = PetActionButtonTemplateName -- inherited
 PetActionButton10["Border"] = PetActionButtonTemplateBorder -- inherited
 PetActionButton10["NormalTexture"] = PetActionButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L86)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_SlidingActionBarTexture0 : Texture
 SlidingActionBarTexture0 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L98)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L95)
 --- child of PetActionBarFrame
 --- @class PetActionBarFrame_SlidingActionBarTexture1 : Texture
 SlidingActionBarTexture1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L76)
---- @class PetActionBarFrame : Frame
+--- @class PetActionBarFrame : Frame, PetActionBarMixin
 PetActionBarFrame = {}
 

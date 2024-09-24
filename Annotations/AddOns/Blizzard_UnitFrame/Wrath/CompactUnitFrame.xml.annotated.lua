@@ -81,10 +81,6 @@
 --- @field texture Texture
 --- @field border Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L241)
---- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDropDown : Frame, UIDropDownMenuTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L162)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateName : FontString, GameFontHighlightSmall
@@ -99,7 +95,6 @@
 --- @field healthBar CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar
 --- @field powerBar CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar
 --- @field centerStatusIcon CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon
---- @field dropDown CompactUnitFrameTemplate_CompactUnitFrameTemplateDropDown
 --- @field background Texture
 --- @field myHealPrediction Texture
 --- @field otherHealPrediction Texture
@@ -122,11 +117,11 @@
 --- @field selectionHighlight Texture
 --- @field readyCheckIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L254)
 --- child of CompactUnitFrameCastBarTemplate
 --- @class CompactUnitFrameCastBarTemplate_Text : FontString, SystemFont_Shadow_Small
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L248)
 --- Template
 --- @class CompactUnitFrameCastBarTemplate : StatusBar
 --- @field Background Texture

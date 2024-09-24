@@ -14,31 +14,27 @@
 --- @class ClubFinderApplicantEntryTemplate_InviteButton : Button, UIMenuButtonStretchTemplate, ClubFinderApplicantInviteButtonMixin
 --- @field Text ClubFinderApplicantEntryTemplate_InviteButton_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L47)
---- child of ClubFinderApplicantEntryTemplate
---- @class ClubFinderApplicantEntryTemplate_RightClickDropdown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L50)
 --- child of ClubFinderApplicantEntryTemplate
 --- @class ClubFinderApplicantEntryTemplate_RequestStatus : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L56)
 --- child of ClubFinderApplicantEntryTemplate
 --- @class ClubFinderApplicantEntryTemplate_Level : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L68)
 --- child of ClubFinderApplicantEntryTemplate
 --- @class ClubFinderApplicantEntryTemplate_Name : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L74)
 --- child of ClubFinderApplicantEntryTemplate
 --- @class ClubFinderApplicantEntryTemplate_AllSpec : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L98)
 --- child of ClubFinderApplicantEntryTemplate
 --- @class ClubFinderApplicantEntryTemplate_ItemLevel : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L104)
 --- child of ClubFinderApplicantEntryTemplate
 --- @class ClubFinderApplicantEntryTemplate_Note : FontString, GameFontHighlightSmall
 
@@ -47,7 +43,6 @@
 --- @class ClubFinderApplicantEntryTemplate : Button, ClubFinderApplicantEntryMixin
 --- @field CancelInvitationButton ClubFinderApplicantEntryTemplate_CancelInvitationButton
 --- @field InviteButton ClubFinderApplicantEntryTemplate_InviteButton
---- @field RightClickDropdown ClubFinderApplicantEntryTemplate_RightClickDropdown
 --- @field RequestStatus ClubFinderApplicantEntryTemplate_RequestStatus
 --- @field Level ClubFinderApplicantEntryTemplate_Level
 --- @field Class Texture
@@ -59,34 +54,29 @@
 --- @field ItemLevel ClubFinderApplicantEntryTemplate_ItemLevel
 --- @field Note ClubFinderApplicantEntryTemplate_Note
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L125)
 --- child of ClubFinderApplicantListFrameTemplate
 --- @class ClubFinderApplicantListFrameTemplate_ColumnDisplay : Frame, ColumnDisplayTemplate
 --- @field sortingFunction any # ClubFinderApplicantListColumnDisplay_OnClick
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L134)
 --- child of ClubFinderApplicantListFrameTemplate
 --- @class ClubFinderApplicantListFrameTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L140)
 --- child of ClubFinderApplicantListFrameTemplate
 --- @class ClubFinderApplicantListFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L153)
---- child of ClubFinderApplicantListFrameTemplate
---- @class ClubFinderApplicantListFrameTemplate_DropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L151)
 --- child of ClubFinderApplicantListFrameTemplate
 --- @class ClubFinderApplicantListFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L123)
 --- Template
 --- @class ClubFinderApplicantListFrameTemplate : Frame, ClubFinderApplicantListMixin
 --- @field ColumnDisplay ClubFinderApplicantListFrameTemplate_ColumnDisplay
 --- @field ScrollBox ClubFinderApplicantListFrameTemplate_ScrollBox
 --- @field ScrollBar ClubFinderApplicantListFrameTemplate_ScrollBar
---- @field DropDown ClubFinderApplicantListFrameTemplate_DropDown
 --- @field InsetFrame ClubFinderApplicantListFrameTemplate_InsetFrame
 

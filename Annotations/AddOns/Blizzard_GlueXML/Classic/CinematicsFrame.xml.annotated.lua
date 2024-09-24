@@ -236,15 +236,15 @@ CinematicsButton4["PlayButton"] = CinematicsButton4PlayButton -- inherited
 CinematicsButton4["DownloadIcon"] = CinematicsButton4DownloadIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L68)
---- child of CinematicSubtitlesCheckBox (created in template GlueCheckButtonTemplate)
+--- child of CinematicSubtitlesCheckbox (created in template GlueCheckButtonTemplate)
 --- @type GlueCheckButtonTemplate_GlueCheckButtonTemplateText
-CinematicSubtitlesCheckBoxText = {}
+CinematicSubtitlesCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L197)
 --- child of CinematicsFrame
---- @class CinematicsFrame_CinematicSubtitlesCheckBox : CheckButton, GlueCheckButtonTemplate
-CinematicSubtitlesCheckBox = {}
-CinematicSubtitlesCheckBox["Text"] = CinematicSubtitlesCheckBoxText -- inherited
+--- @class CinematicsFrame_CinematicSubtitlesCheckbox : CheckButton, GlueCheckButtonTemplate
+CinematicSubtitlesCheckbox = {}
+CinematicSubtitlesCheckbox["Text"] = CinematicSubtitlesCheckboxText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L131)
 --- child of CinematicsFrame

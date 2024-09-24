@@ -31,10 +31,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L172)
 --- child of CommunitiesListFrameTemplate
---- @class CommunitiesListFrameTemplate_EntryDropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L178)
---- child of CommunitiesListFrameTemplate
 --- @class CommunitiesListFrameTemplate_FilligreeOverlay : Frame
 --- @field TLCorner Texture
 --- @field TRCorner Texture
@@ -45,7 +41,7 @@
 --- @field TopBar Texture
 --- @field BottomBar Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L251)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L245)
 --- child of CommunitiesListFrameTemplate
 --- @class CommunitiesListFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
 
@@ -54,20 +50,19 @@
 --- @class CommunitiesListFrameTemplate : Frame, CommunitiesListMixin
 --- @field ScrollBox CommunitiesListFrameTemplate_ScrollBox
 --- @field ScrollBar CommunitiesListFrameTemplate_ScrollBar
---- @field EntryDropDown CommunitiesListFrameTemplate_EntryDropDown
 --- @field FilligreeOverlay CommunitiesListFrameTemplate_FilligreeOverlay
 --- @field InsetFrame CommunitiesListFrameTemplate_InsetFrame
 --- @field Bg Texture
 --- @field TopFiligree Texture
 --- @field BottomFiligree Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L273)
---- child of CommunitiesListDropDownMenuTemplate
---- @class CommunitiesListDropDownMenuTemplate_NotificationOverlay : Frame
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L266)
+--- child of CommunitiesListDropdownTemplate
+--- @class CommunitiesListDropdownTemplate_NotificationOverlay : Frame
 --- @field UnreadNotificationIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L270)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L264)
 --- Template
---- @class CommunitiesListDropDownMenuTemplate : Frame, UIDropDownMenuTemplate, CommunitiesListDropDownMenuMixin
---- @field NotificationOverlay CommunitiesListDropDownMenuTemplate_NotificationOverlay
+--- @class CommunitiesListDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, CommunitiesListDropdownMixin
+--- @field NotificationOverlay CommunitiesListDropdownTemplate_NotificationOverlay
 

@@ -524,50 +524,7 @@ PVPFrameBlackFilter = {}
 --- @class PVPParentFrame_PVPFrame : Frame
 PVPFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L284)
---- child of PVPDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-PVPDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L226)
---- child of PVPDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PVPDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L239)
---- child of PVPDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PVPDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L248)
---- child of PVPDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PVPDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L257)
---- child of PVPDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-PVPDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L271)
---- child of PVPDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PVPDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L681)
---- child of PVPTeamDetails
---- @class PVPParentFrame_PVPTeamDetails_PVPDropDown : Frame, UIDropDownMenuTemplate
-PVPDropDown = {}
-PVPDropDown["Button"] = PVPDropDownButton -- inherited
-PVPDropDown["Left"] = PVPDropDownLeft -- inherited
-PVPDropDown["Middle"] = PVPDropDownMiddle -- inherited
-PVPDropDown["Right"] = PVPDropDownRight -- inherited
-PVPDropDown["Text"] = PVPDropDownText -- inherited
-PVPDropDown["Icon"] = PVPDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L682)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsCloseButton : Button, UIPanelCloseButton
 PVPTeamDetailsCloseButton = {}
@@ -592,7 +549,7 @@ PVPTeamDetailsFrameColumnHeader1Right = {}
 --- @type Texture
 PVPTeamDetailsFrameColumnHeader1HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L691)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L690)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsFrameColumnHeader1 : Button, PVPTeamDetailsFrameColumnHeaderTemplate
 PVPTeamDetailsFrameColumnHeader1 = {}
@@ -617,7 +574,7 @@ PVPTeamDetailsFrameColumnHeader2Right = {}
 --- @type Texture
 PVPTeamDetailsFrameColumnHeader2HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L706)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L705)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsFrameColumnHeader2 : Button, PVPTeamDetailsFrameColumnHeaderTemplate
 PVPTeamDetailsFrameColumnHeader2 = {}
@@ -642,7 +599,7 @@ PVPTeamDetailsFrameColumnHeader3Right = {}
 --- @type Texture
 PVPTeamDetailsFrameColumnHeader3HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L721)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L720)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsFrameColumnHeader3 : Button, PVPTeamDetailsFrameColumnHeaderTemplate
 PVPTeamDetailsFrameColumnHeader3 = {}
@@ -667,7 +624,7 @@ PVPTeamDetailsFrameColumnHeader4Right = {}
 --- @type Texture
 PVPTeamDetailsFrameColumnHeader4HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L736)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L735)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsFrameColumnHeader4 : Button, PVPTeamDetailsFrameColumnHeaderTemplate
 PVPTeamDetailsFrameColumnHeader4 = {}
@@ -692,7 +649,7 @@ PVPTeamDetailsFrameColumnHeader5Right = {}
 --- @type Texture
 PVPTeamDetailsFrameColumnHeader5HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L751)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L750)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsFrameColumnHeader5 : Button, PVPTeamDetailsFrameColumnHeaderTemplate
 PVPTeamDetailsFrameColumnHeader5 = {}
@@ -750,7 +707,7 @@ PVPTeamDetailsButton1WinLoss = {}
 --- @type PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateRating
 PVPTeamDetailsButton1Rating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L766)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L765)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsButton1 : Button, PVPTeamMemberButtonTemplate
 PVPTeamDetailsButton1 = {}
@@ -808,7 +765,7 @@ PVPTeamDetailsButton2WinLoss = {}
 --- @type PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateRating
 PVPTeamDetailsButton2Rating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L775)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L774)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsButton2 : Button, PVPTeamMemberButtonTemplate
 PVPTeamDetailsButton2 = {}
@@ -866,7 +823,7 @@ PVPTeamDetailsButton3WinLoss = {}
 --- @type PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateRating
 PVPTeamDetailsButton3Rating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L784)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L783)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsButton3 : Button, PVPTeamMemberButtonTemplate
 PVPTeamDetailsButton3 = {}
@@ -924,7 +881,7 @@ PVPTeamDetailsButton4WinLoss = {}
 --- @type PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateRating
 PVPTeamDetailsButton4Rating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L793)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L792)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsButton4 : Button, PVPTeamMemberButtonTemplate
 PVPTeamDetailsButton4 = {}
@@ -982,7 +939,7 @@ PVPTeamDetailsButton5WinLoss = {}
 --- @type PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateRating
 PVPTeamDetailsButton5Rating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L801)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsButton5 : Button, PVPTeamMemberButtonTemplate
 PVPTeamDetailsButton5 = {}
@@ -1040,7 +997,7 @@ PVPTeamDetailsButton6WinLoss = {}
 --- @type PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateRating
 PVPTeamDetailsButton6Rating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L811)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L810)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsButton6 : Button, PVPTeamMemberButtonTemplate
 PVPTeamDetailsButton6 = {}
@@ -1098,7 +1055,7 @@ PVPTeamDetailsButton7WinLoss = {}
 --- @type PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateRating
 PVPTeamDetailsButton7Rating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L820)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L819)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsButton7 : Button, PVPTeamMemberButtonTemplate
 PVPTeamDetailsButton7 = {}
@@ -1156,7 +1113,7 @@ PVPTeamDetailsButton8WinLoss = {}
 --- @type PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateRating
 PVPTeamDetailsButton8Rating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L829)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L828)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsButton8 : Button, PVPTeamMemberButtonTemplate
 PVPTeamDetailsButton8 = {}
@@ -1214,7 +1171,7 @@ PVPTeamDetailsButton9WinLoss = {}
 --- @type PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateRating
 PVPTeamDetailsButton9Rating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L838)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L837)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsButton9 : Button, PVPTeamMemberButtonTemplate
 PVPTeamDetailsButton9 = {}
@@ -1272,18 +1229,18 @@ PVPTeamDetailsButton10WinLoss = {}
 --- @type PVPTeamMemberButtonTemplate_PVPTeamMemberButtonTemplateRating
 PVPTeamDetailsButton10Rating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L847)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L846)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsButton10 : Button, PVPTeamMemberButtonTemplate
 PVPTeamDetailsButton10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L856)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L855)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsAddTeamMember : Button, UIPanelButtonTemplate
 PVPTeamDetailsAddTeamMember = {}
 PVPTeamDetailsAddTeamMember["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L875)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L874)
 --- child of PVPTeamDetails
 --- @class PVPParentFrame_PVPTeamDetails_PVPTeamDetailsToggleButton : Button
 PVPTeamDetailsToggleButton = {}
@@ -1393,7 +1350,7 @@ PVPParentFrameTab1Right = {}
 --- @type Texture
 PVPParentFrameTab1HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L920)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L919)
 --- child of PVPParentFrame
 --- @class PVPParentFrame_PVPParentFrameTab1 : Button, CharacterFrameTabButtonTemplate
 PVPParentFrameTab1 = {}
@@ -1433,7 +1390,7 @@ PVPParentFrameTab2Right = {}
 --- @type Texture
 PVPParentFrameTab2HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L937)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L936)
 --- child of PVPParentFrame
 --- @class PVPParentFrame_PVPParentFrameTab2 : Button, CharacterFrameTabButtonTemplate
 PVPParentFrameTab2 = {}

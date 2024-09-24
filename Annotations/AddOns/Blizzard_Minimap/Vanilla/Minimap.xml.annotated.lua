@@ -25,19 +25,19 @@ MinimapZoneTextButton = {}
 MinimapToggleButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L155)
---- child of MiniMapTrackingFrame
---- @class MinimapCluster_Minimap_MiniMapTrackingFrame_MiniMapTrackingIcon : Texture
+--- child of MiniMapTracking
+--- @class MinimapCluster_Minimap_MiniMapTracking_MiniMapTrackingIcon : Texture
 MiniMapTrackingIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L169)
---- child of MiniMapTrackingFrame
---- @class MinimapCluster_Minimap_MiniMapTrackingFrame_MiniMapTrackingBorder : Texture
+--- child of MiniMapTracking
+--- @class MinimapCluster_Minimap_MiniMapTracking_MiniMapTrackingBorder : Texture
 MiniMapTrackingBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L142)
 --- child of Minimap
---- @class MinimapCluster_Minimap_MiniMapTrackingFrame : Frame
-MiniMapTrackingFrame = {}
+--- @class MinimapCluster_Minimap_MiniMapTracking : Frame
+MiniMapTracking = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L221)
 --- child of MiniMapMailFrame
@@ -53,49 +53,6 @@ MiniMapMailBorder = {}
 --- child of Minimap
 --- @class MinimapCluster_Minimap_MiniMapMailFrame : Frame
 MiniMapMailFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L284)
---- child of MiniMapBattlefieldDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-MiniMapBattlefieldDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L226)
---- child of MiniMapBattlefieldDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-MiniMapBattlefieldDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L239)
---- child of MiniMapBattlefieldDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-MiniMapBattlefieldDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L248)
---- child of MiniMapBattlefieldDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-MiniMapBattlefieldDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L257)
---- child of MiniMapBattlefieldDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-MiniMapBattlefieldDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L271)
---- child of MiniMapBattlefieldDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-MiniMapBattlefieldDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L324)
---- child of MiniMapBattlefieldFrame
---- @class MinimapCluster_Minimap_MiniMapBattlefieldFrame_MiniMapBattlefieldDropDown : Frame, UIDropDownMenuTemplate
-MiniMapBattlefieldDropDown = {}
-MiniMapBattlefieldDropDown["Button"] = MiniMapBattlefieldDropDownButton -- inherited
-MiniMapBattlefieldDropDown["Left"] = MiniMapBattlefieldDropDownLeft -- inherited
-MiniMapBattlefieldDropDown["Middle"] = MiniMapBattlefieldDropDownMiddle -- inherited
-MiniMapBattlefieldDropDown["Right"] = MiniMapBattlefieldDropDownRight -- inherited
-MiniMapBattlefieldDropDown["Text"] = MiniMapBattlefieldDropDownText -- inherited
-MiniMapBattlefieldDropDown["Icon"] = MiniMapBattlefieldDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L284)
 --- child of MiniMapBattlefieldFrame
@@ -117,12 +74,12 @@ BattlegroundShine = {}
 --- @class MinimapCluster_Minimap_MiniMapBattlefieldFrame : Button
 MiniMapBattlefieldFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L399)
 --- child of MiniMapWorldMapButton
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapWorldMapButton_MiniMapWorldBorder : Texture
 MiniMapWorldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L416)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L392)
 --- child of MinimapBackdrop
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapWorldMapButton : Button
 MiniMapWorldMapButton = {}
@@ -132,93 +89,48 @@ MiniMapWorldMapButton = {}
 --- @type Texture
 MiniMapLFGFrameIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L499)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L475)
 --- child of MiniMapLFGFrame
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameIcon : Frame, EyeTemplate
 MiniMapLFGFrameIcon = {}
 MiniMapLFGFrameIcon["Texture"] = MiniMapLFGFrameIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L284)
---- child of MiniMapLFGFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-MiniMapLFGFrameDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L226)
---- child of MiniMapLFGFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-MiniMapLFGFrameDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L239)
---- child of MiniMapLFGFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-MiniMapLFGFrameDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L248)
---- child of MiniMapLFGFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-MiniMapLFGFrameDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L257)
---- child of MiniMapLFGFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-MiniMapLFGFrameDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L271)
---- child of MiniMapLFGFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-MiniMapLFGFrameDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L505)
---- child of MiniMapLFGFrame
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameDropDown : Frame, UIDropDownMenuTemplate
-MiniMapLFGFrameDropDown = {}
-MiniMapLFGFrameDropDown["Button"] = MiniMapLFGFrameDropDownButton -- inherited
-MiniMapLFGFrameDropDown["Left"] = MiniMapLFGFrameDropDownLeft -- inherited
-MiniMapLFGFrameDropDown["Middle"] = MiniMapLFGFrameDropDownMiddle -- inherited
-MiniMapLFGFrameDropDown["Right"] = MiniMapLFGFrameDropDownRight -- inherited
-MiniMapLFGFrameDropDown["Text"] = MiniMapLFGFrameDropDownText -- inherited
-MiniMapLFGFrameDropDown["Icon"] = MiniMapLFGFrameDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L460)
 --- child of MiniMapLFGFrame
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGBorder : Texture
 MiniMapLFGBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L473)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L449)
 --- child of MinimapBackdrop
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame : Button, MiniMapButtonTemplate
---- @field DropDown MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameDropDown
 MiniMapLFGFrame = {}
-MiniMapLFGFrame["DropDown"] = MiniMapLFGFrameDropDown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L491)
 --- child of MinimapBackdrop
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MinimapZoomIn : Button
 MinimapZoomIn = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L545)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L520)
 --- child of MinimapBackdrop
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MinimapZoomOut : Button
 MinimapZoomOut = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L386)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L362)
 --- child of MinimapBackdrop
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MinimapBorder : Texture
 MinimapBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L367)
 --- child of MinimapBackdrop
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MinimapNorthTag : Texture
 MinimapNorthTag = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L403)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L379)
 --- child of MinimapBackdrop
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MinimapCompassTexture : Texture
 MinimapCompassTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L373)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L349)
 --- child of Minimap
 --- @class MinimapCluster_Minimap_MinimapBackdrop : Frame
 MinimapBackdrop = {}

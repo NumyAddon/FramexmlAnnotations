@@ -72,15 +72,21 @@ SpellBookPageNavigationFrame = {}
 --- @class SpellBookFrame_SpellBookCloseButton : Button, UIPanelCloseButton
 SpellBookCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L65)
---- child of ShowAllSpellRanksCheckBox (created in template OptionsSmallCheckButtonTemplate)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L468)
+--- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+OptionsBaseCheckButtonTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L21)
+--- child of ShowAllSpellRanksCheckbox (created in template OptionsSmallCheckButtonTemplate)
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
-ShowAllSpellRanksCheckBoxText = {}
+ShowAllSpellRanksCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L384)
 --- child of SpellBookFrame
---- @class SpellBookFrame_ShowAllSpellRanksCheckBox : CheckButton, OptionsSmallCheckButtonTemplate
-ShowAllSpellRanksCheckBox = {}
+--- @class SpellBookFrame_ShowAllSpellRanksCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
+ShowAllSpellRanksCheckbox = {}
+ShowAllSpellRanksCheckbox["Text"] = ShowAllSpellRanksCheckboxText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L150)
 --- child of SpellButton1 (created in template SpellButtonTemplate)

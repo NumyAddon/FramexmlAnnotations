@@ -11,16 +11,15 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.xml#L5)
 --- Template
---- @class STTTemplate : Frame, SettingsCheckBoxControlTemplate, SpeechToTextMixin
+--- @class STTTemplate : Frame, SettingsCheckboxControlTemplate, SpeechToTextMixin
 --- @field SubTextContainer STTTemplate_SubTextContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.xml#L25)
 --- child of RTTSTemplate
 --- @class RTTSTemplate_Button : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.xml#L22)
 --- Template
---- @class RTTSTemplate : Frame, SettingsDropDownControlTemplate, RTTSMixin
---- @field dropDownType string # "Frame"
+--- @class RTTSTemplate : Frame, SettingsDropdownControlTemplate, RTTSMixin
 --- @field Button RTTSTemplate_Button
 

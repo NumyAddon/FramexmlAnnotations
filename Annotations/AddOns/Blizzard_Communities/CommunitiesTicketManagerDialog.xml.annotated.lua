@@ -98,79 +98,15 @@
 --- child of CommunitiesTicketManagerDialog
 --- @class CommunitiesTicketManagerDialog_Copy : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L284)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-CommunitiesTicketManagerDialogButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L226)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type Texture
-CommunitiesTicketManagerDialogLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L239)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type Texture
-CommunitiesTicketManagerDialogMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L248)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type Texture
-CommunitiesTicketManagerDialogRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L257)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-CommunitiesTicketManagerDialogText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L271)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type Texture
-CommunitiesTicketManagerDialogIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L383)
 --- child of CommunitiesTicketManagerDialog
---- @class CommunitiesTicketManagerDialog_ExpiresDropDownMenu : Frame, UIDropDownMenuTemplate
+--- @class CommunitiesTicketManagerDialog_ExpiresDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L284)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-CommunitiesTicketManagerDialogButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L226)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type Texture
-CommunitiesTicketManagerDialogLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L239)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type Texture
-CommunitiesTicketManagerDialogMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L248)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type Texture
-CommunitiesTicketManagerDialogRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L257)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-CommunitiesTicketManagerDialogText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L271)
---- child of  (created in template UIDropDownMenuTemplate)
---- @type Texture
-CommunitiesTicketManagerDialogIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L389)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L388)
 --- child of CommunitiesTicketManagerDialog
---- @class CommunitiesTicketManagerDialog_UsesDropDownMenu : Frame, UIDropDownMenuTemplate
+--- @class CommunitiesTicketManagerDialog_UsesDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L395)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L393)
 --- child of CommunitiesTicketManagerDialog
 --- @class CommunitiesTicketManagerDialog_GenerateLinkButton : Button, UIPanelButtonTemplate
 
@@ -179,15 +115,15 @@ CommunitiesTicketManagerDialogIcon = {}
 --- @type Texture
 CommunitiesTicketManagerDialogIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L404)
 --- child of CommunitiesTicketManagerDialog
 --- @class CommunitiesTicketManagerDialog_MaximizeButton : Button, UIPanelSquareButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L417)
 --- child of CommunitiesTicketManagerDialog
 --- @class CommunitiesTicketManagerDialog_InviteManager : Frame, CommunitiesTicketManagerScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L425)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L423)
 --- child of CommunitiesTicketManagerDialog
 --- @class CommunitiesTicketManagerDialog_Close : Button, UIPanelButtonTemplate
 
@@ -233,18 +169,18 @@ CommunitiesTicketManagerDialogIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L260)
 --- child of CommunitiesTicketManagerDialog
---- @class CommunitiesTicketManagerDialog_ExpiresDropDownLabel : FontString, GameFontNormalSmall
+--- @class CommunitiesTicketManagerDialog_ExpiresDropdownLabel : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L266)
 --- child of CommunitiesTicketManagerDialog
---- @class CommunitiesTicketManagerDialog_UsesDropDownLabel : FontString, GameFontNormalSmall
+--- @class CommunitiesTicketManagerDialog_UsesDropdownLabel : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L192)
 --- @class CommunitiesTicketManagerDialog : Frame, CommunitiesTicketManagerDialogMixin
 --- @field LinkToChat CommunitiesTicketManagerDialog_LinkToChat
 --- @field Copy CommunitiesTicketManagerDialog_Copy
---- @field ExpiresDropDownMenu CommunitiesTicketManagerDialog_ExpiresDropDownMenu
---- @field UsesDropDownMenu CommunitiesTicketManagerDialog_UsesDropDownMenu
+--- @field ExpiresDropdown CommunitiesTicketManagerDialog_ExpiresDropdown
+--- @field UsesDropdown CommunitiesTicketManagerDialog_UsesDropdown
 --- @field GenerateLinkButton CommunitiesTicketManagerDialog_GenerateLinkButton
 --- @field MaximizeButton CommunitiesTicketManagerDialog_MaximizeButton
 --- @field InviteManager CommunitiesTicketManagerDialog_InviteManager
@@ -260,8 +196,8 @@ CommunitiesTicketManagerDialogIcon = {}
 --- @field ExpandLabel CommunitiesTicketManagerDialog_ExpandLabel
 --- @field Separator Texture
 --- @field NewLinkLabel CommunitiesTicketManagerDialog_NewLinkLabel
---- @field ExpiresDropDownLabel CommunitiesTicketManagerDialog_ExpiresDropDownLabel
---- @field UsesDropDownLabel CommunitiesTicketManagerDialog_UsesDropDownLabel
+--- @field ExpiresDropdownLabel CommunitiesTicketManagerDialog_ExpiresDropdownLabel
+--- @field UsesDropdownLabel CommunitiesTicketManagerDialog_UsesDropdownLabel
 --- @field IconRing Texture
 --- @field Icon Texture
 --- @field CircleMask MaskTexture

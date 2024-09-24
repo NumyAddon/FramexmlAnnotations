@@ -740,34 +740,46 @@ StandingMouseOver = {}
 ReputationDetailCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L646)
---- child of ReputationDetailAtWarCheckBox
---- @class ReputationFrame_ReputationDetailFrame_ReputationDetailAtWarCheckBox_ReputationDetailAtWarCheckBoxText : FontString, GameFontNormalSmall
-ReputationDetailAtWarCheckBoxText = {}
+--- child of ReputationDetailAtWarCheckbox
+--- @class ReputationFrame_ReputationDetailFrame_ReputationDetailAtWarCheckbox_ReputationDetailAtWarCheckboxText : FontString, GameFontNormalSmall
+ReputationDetailAtWarCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L633)
 --- child of ReputationDetailFrame
---- @class ReputationFrame_ReputationDetailFrame_ReputationDetailAtWarCheckBox : CheckButton
-ReputationDetailAtWarCheckBox = {}
+--- @class ReputationFrame_ReputationDetailFrame_ReputationDetailAtWarCheckbox : CheckButton
+ReputationDetailAtWarCheckbox = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L65)
---- child of ReputationDetailInactiveCheckBox (created in template OptionsSmallCheckButtonTemplate)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L468)
+--- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+OptionsBaseCheckButtonTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L21)
+--- child of ReputationDetailInactiveCheckbox (created in template OptionsSmallCheckButtonTemplate)
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
-ReputationDetailInactiveCheckBoxText = {}
+ReputationDetailInactiveCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L694)
 --- child of ReputationDetailFrame
---- @class ReputationFrame_ReputationDetailFrame_ReputationDetailInactiveCheckBox : CheckButton, OptionsSmallCheckButtonTemplate
-ReputationDetailInactiveCheckBox = {}
+--- @class ReputationFrame_ReputationDetailFrame_ReputationDetailInactiveCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
+ReputationDetailInactiveCheckbox = {}
+ReputationDetailInactiveCheckbox["Text"] = ReputationDetailInactiveCheckboxText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L65)
---- child of ReputationDetailMainScreenCheckBox (created in template OptionsSmallCheckButtonTemplate)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L468)
+--- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
+OptionsBaseCheckButtonTemplateText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L21)
+--- child of ReputationDetailMainScreenCheckbox (created in template OptionsSmallCheckButtonTemplate)
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
-ReputationDetailMainScreenCheckBoxText = {}
+ReputationDetailMainScreenCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L728)
 --- child of ReputationDetailFrame
---- @class ReputationFrame_ReputationDetailFrame_ReputationDetailMainScreenCheckBox : CheckButton, OptionsSmallCheckButtonTemplate
-ReputationDetailMainScreenCheckBox = {}
+--- @class ReputationFrame_ReputationDetailFrame_ReputationDetailMainScreenCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
+ReputationDetailMainScreenCheckbox = {}
+ReputationDetailMainScreenCheckbox["Text"] = ReputationDetailMainScreenCheckboxText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L559)
 --- child of ReputationDetailFrame

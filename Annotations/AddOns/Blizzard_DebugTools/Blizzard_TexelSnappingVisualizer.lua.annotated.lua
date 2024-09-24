@@ -6,6 +6,3 @@ TexelSnappingVisualizerMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TexelSnappingVisualizer.lua#L11)
 function TexelSnappingVisualizerMixin:OnCreated() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TexelSnappingVisualizer.lua#L110)
-function TexelSnappingVisualizerMixin:OpenDropdown(dropdownFrame, level, menuList) end

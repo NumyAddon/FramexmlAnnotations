@@ -58,34 +58,38 @@ AddonDialogBackground["layoutType"] = "Dialog" -- inherited
 --- @class AddonDialog : Frame
 AddonDialog = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L149)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L140)
+--- child of AddonList
+--- @class AddonList_Dropdown : DropdownButton, WowStyle1DropdownTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L154)
 --- child of AddonListForceLoad
 --- @class  : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L140)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L145)
 --- child of AddonList
 --- @class AddonList_AddonListForceLoad : CheckButton
 AddonListForceLoad = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L182)
 --- child of AddonList
 --- @class AddonList_AddonListCancelButton : Button, MagicButtonTemplate
 AddonListCancelButton = {}
 AddonListCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L193)
 --- child of AddonList
 --- @class AddonList_AddonListOkayButton : Button, MagicButtonTemplate
 AddonListOkayButton = {}
 AddonListOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L204)
 --- child of AddonList
 --- @class AddonList_AddonListEnableAllButton : Button, MagicButtonTemplate
 AddonListEnableAllButton = {}
 AddonListEnableAllButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L213)
 --- child of AddonList
 --- @class AddonList_AddonListDisableAllButton : Button, MagicButtonTemplate
 AddonListDisableAllButton = {}
@@ -122,7 +126,7 @@ AddonListEntry1Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry1Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L222)
 --- child of AddonList
 --- @class AddonList_AddonListEntry1 : Button, AddonListEntryTemplate
 AddonListEntry1 = {}
@@ -161,7 +165,7 @@ AddonListEntry2Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry2Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L222)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L227)
 --- child of AddonList
 --- @class AddonList_AddonListEntry2 : Button, AddonListEntryTemplate
 AddonListEntry2 = {}
@@ -200,7 +204,7 @@ AddonListEntry3Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry3Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L227)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L232)
 --- child of AddonList
 --- @class AddonList_AddonListEntry3 : Button, AddonListEntryTemplate
 AddonListEntry3 = {}
@@ -239,7 +243,7 @@ AddonListEntry4Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry4Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L237)
 --- child of AddonList
 --- @class AddonList_AddonListEntry4 : Button, AddonListEntryTemplate
 AddonListEntry4 = {}
@@ -278,7 +282,7 @@ AddonListEntry5Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry5Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L242)
 --- child of AddonList
 --- @class AddonList_AddonListEntry5 : Button, AddonListEntryTemplate
 AddonListEntry5 = {}
@@ -317,7 +321,7 @@ AddonListEntry6Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry6Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L242)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L247)
 --- child of AddonList
 --- @class AddonList_AddonListEntry6 : Button, AddonListEntryTemplate
 AddonListEntry6 = {}
@@ -356,7 +360,7 @@ AddonListEntry7Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry7Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L252)
 --- child of AddonList
 --- @class AddonList_AddonListEntry7 : Button, AddonListEntryTemplate
 AddonListEntry7 = {}
@@ -395,7 +399,7 @@ AddonListEntry8Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry8Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L257)
 --- child of AddonList
 --- @class AddonList_AddonListEntry8 : Button, AddonListEntryTemplate
 AddonListEntry8 = {}
@@ -434,7 +438,7 @@ AddonListEntry9Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry9Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L262)
 --- child of AddonList
 --- @class AddonList_AddonListEntry9 : Button, AddonListEntryTemplate
 AddonListEntry9 = {}
@@ -473,7 +477,7 @@ AddonListEntry10Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry10Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L267)
 --- child of AddonList
 --- @class AddonList_AddonListEntry10 : Button, AddonListEntryTemplate
 AddonListEntry10 = {}
@@ -512,7 +516,7 @@ AddonListEntry11Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry11Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L267)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L272)
 --- child of AddonList
 --- @class AddonList_AddonListEntry11 : Button, AddonListEntryTemplate
 AddonListEntry11 = {}
@@ -551,7 +555,7 @@ AddonListEntry12Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry12Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L277)
 --- child of AddonList
 --- @class AddonList_AddonListEntry12 : Button, AddonListEntryTemplate
 AddonListEntry12 = {}
@@ -590,7 +594,7 @@ AddonListEntry13Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry13Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L282)
 --- child of AddonList
 --- @class AddonList_AddonListEntry13 : Button, AddonListEntryTemplate
 AddonListEntry13 = {}
@@ -629,7 +633,7 @@ AddonListEntry14Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry14Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L287)
 --- child of AddonList
 --- @class AddonList_AddonListEntry14 : Button, AddonListEntryTemplate
 AddonListEntry14 = {}
@@ -668,7 +672,7 @@ AddonListEntry15Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry15Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L287)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L292)
 --- child of AddonList
 --- @class AddonList_AddonListEntry15 : Button, AddonListEntryTemplate
 AddonListEntry15 = {}
@@ -707,7 +711,7 @@ AddonListEntry16Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry16Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L297)
 --- child of AddonList
 --- @class AddonList_AddonListEntry16 : Button, AddonListEntryTemplate
 AddonListEntry16 = {}
@@ -746,7 +750,7 @@ AddonListEntry17Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry17Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L297)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L302)
 --- child of AddonList
 --- @class AddonList_AddonListEntry17 : Button, AddonListEntryTemplate
 AddonListEntry17 = {}
@@ -785,7 +789,7 @@ AddonListEntry18Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry18Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L307)
 --- child of AddonList
 --- @class AddonList_AddonListEntry18 : Button, AddonListEntryTemplate
 AddonListEntry18 = {}
@@ -824,7 +828,7 @@ AddonListEntry19Status = {}
 --- @type AddonListEntryTemplate_AddonListEntryTemplateReload
 AddonListEntry19Reload = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L307)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L312)
 --- child of AddonList
 --- @class AddonList_AddonListEntry19 : Button, AddonListEntryTemplate
 AddonListEntry19 = {}
@@ -832,17 +836,17 @@ AddonListEntry19["LoadAddonButton"] = AddonListEntry19Load -- inherited
 AddonListEntry19["Status"] = AddonListEntry19Status -- inherited
 AddonListEntry19["Reload"] = AddonListEntry19Reload -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L319)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L324)
 --- child of AddonListScrollFrame
 --- @class AddonList_AddonListScrollFrame_AddonListScrollFrameScrollBarTop : Texture
 AddonListScrollFrameScrollBarTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L326)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L331)
 --- child of AddonListScrollFrame
 --- @class AddonList_AddonListScrollFrame_AddonListScrollFrameScrollBarBottom : Texture
 AddonListScrollFrameScrollBarBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L338)
 --- child of AddonListScrollFrame
 --- @class AddonList_AddonListScrollFrame_AddonListScrollFrameScrollBarMiddle : Texture
 AddonListScrollFrameScrollBarMiddle = {}
@@ -870,7 +874,7 @@ FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScro
 FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
 FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L317)
 --- child of AddonList
 --- @class AddonList_AddonListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 AddonListScrollFrame = {}
@@ -1027,6 +1031,7 @@ AddonListButtonBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L134)
 --- @class AddonList : Frame, ButtonFrameTemplate
+--- @field Dropdown AddonList_Dropdown
 --- @field CancelButton AddonList_AddonListCancelButton
 --- @field OkayButton AddonList_AddonListOkayButton
 --- @field EnableAllButton AddonList_AddonListEnableAllButton

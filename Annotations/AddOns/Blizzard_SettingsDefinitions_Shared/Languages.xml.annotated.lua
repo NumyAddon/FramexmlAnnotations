@@ -2,45 +2,34 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L5)
 --- Template
---- @class SettingsLanguageDropDownTemplate : Frame, SettingsDropDownControlTemplate
---- @field dropDownType string # "Frame"
+--- @class SettingsLanguageDropdownTemplate : DropdownButton, WowStyle2DropdownTemplate, SettingsLanguageDropdownMixin
+--- @field Language Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L19)
+--- child of SettingsLanguageDropdownWithSteppersAndLabelTemplate
+--- @class SettingsLanguageDropdownWithSteppersAndLabelTemplate_Dropdown : DropdownButton, SettingsLanguageDropdownTemplate
+--- @field menuPoint string # "TOPRIGHT"
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L17)
 --- Template
---- @class SettingsAudioLocaleDropDownTemplate : Frame, SettingsLanguageDropDownTemplate, SettingsAudioLocaleDropDownMixin
+--- @class SettingsLanguageDropdownWithSteppersAndLabelTemplate : Frame, DropdownWithSteppersTemplate, DropdownWithSteppersAndLabelMixin
+--- @field Dropdown SettingsLanguageDropdownWithSteppersAndLabelTemplate_Dropdown
+--- @field Label FontString
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L40)
 --- Template
---- @class SettingsLanguagesPopoutDetailsTemplate : Frame, SettingsLanguagePopoutDetailsMixin
---- @field Texture Texture
+--- @class SettingsLanguageBaseTemplate : Frame, SettingsDropdownControlTemplate
+--- @field dropdownType string # "SettingsLanguageDropdownWithSteppersAndLabelTemplate"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L31)
---- child of SettingsLanguagePopoutEntryTemplate
---- @class SettingsLanguagePopoutEntryTemplate_SelectionDetails : Frame, SettingsLanguagesPopoutDetailsTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L46)
 --- Template
---- @class SettingsLanguagePopoutEntryTemplate : Button, SelectionPopoutEntryTemplate, SettingsLanguagePopoutEntryMixin
---- @field defaultWidth number # 225
---- @field SelectionDetails SettingsLanguagePopoutEntryTemplate_SelectionDetails
+--- @class SettingsLanguageTemplate : Frame, SettingsLanguageBaseTemplate, SettingsLanguageDropdownControlMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L60)
---- child of 
---- @class SettingsLanguagePopoutWithButtonsTemplate_Button_SelectionDetails : Frame, SettingsLanguagesPopoutDetailsTemplate, ResizeLayoutFrame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L51)
---- child of SettingsLanguagePopoutWithButtonsTemplate
---- @class SettingsLanguagePopoutWithButtonsTemplate_Button : EventButton, SelectionPopoutButtonTemplate, SettingsLanguagePopoutButtonMixin
---- @field selectionEntryTemplates string # "SettingsLanguagePopoutEntryTemplate"
---- @field SelectionDetails SettingsLanguagePopoutWithButtonsTemplate_Button_SelectionDetails
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L47)
 --- Template
---- @class SettingsLanguagePopoutWithButtonsTemplate : Frame, SelectionPopoutWithButtonsTemplate
---- @field decrementOffsetX number # 4
---- @field Button SettingsLanguagePopoutWithButtonsTemplate_Button
+--- @class SettingsAudioLocaleTemplate : Frame, SettingsLanguageBaseTemplate, SettingsAudioLocaleDropdownMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L49)
 --- Template
 --- @class SettingsLanguageRestartNeededTemplate : Frame, SettingsListElementTemplate, LanguageRestartNeededMixin
 --- @field RestartNeeded Texture

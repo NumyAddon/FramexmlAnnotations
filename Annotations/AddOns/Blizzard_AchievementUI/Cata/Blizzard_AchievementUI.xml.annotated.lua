@@ -1448,30 +1448,11 @@ AchievementFrameTab3MiddleHighlight = {}
 --- @class AchievementFrame_AchievementFrameTab3 : Button, AchievementFrameTabButtonTemplate
 AchievementFrameTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3334)
---- child of AchievementFrameFilterDropDownButton
---- @class AchievementFrame_AchievementFrameFilterDropDown_AchievementFrameFilterDropDownButton_AchievementFrameFilterDropDownButtonNormalTexture : Texture
-AchievementFrameFilterDropDownButtonNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3358)
---- child of AchievementFrameFilterDropDownButton
---- @class AchievementFrame_AchievementFrameFilterDropDown_AchievementFrameFilterDropDownButton_AchievementFrameFilterDropDownButtonHighlightTexture : Texture
-AchievementFrameFilterDropDownButtonHighlightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3321)
---- child of AchievementFrameFilterDropDown
---- @class AchievementFrame_AchievementFrameFilterDropDown_AchievementFrameFilterDropDownButton : Button
-AchievementFrameFilterDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3309)
---- child of AchievementFrameFilterDropDown
---- @class AchievementFrame_AchievementFrameFilterDropDown_AchievementFrameFilterDropDownText : FontString, GameFontHighlightSmall
-AchievementFrameFilterDropDownText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3300)
 --- child of AchievementFrame
---- @class AchievementFrame_AchievementFrameFilterDropDown : Frame
-AchievementFrameFilterDropDown = {}
+--- @class AchievementFrame_AchievementFrameFilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
+AchievementFrameFilterDropdown = {}
+AchievementFrameFilterDropdown["text"] = FILTER -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L2108)
 --- child of AchievementFrame

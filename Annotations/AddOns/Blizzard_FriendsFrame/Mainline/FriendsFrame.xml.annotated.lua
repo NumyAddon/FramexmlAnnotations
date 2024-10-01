@@ -277,6 +277,7 @@ FriendsFrameBattlenetFrame = {}
 --- child of FriendsTabHeader
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameStatusDropdown : DropdownButton, WowStyle1DropdownTemplate
 FriendsFrameStatusDropdown = {}
+FriendsFrameStatusDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L748)
 --- child of FriendsTabHeader
@@ -442,6 +443,7 @@ WhoFrameColumnHeader1["HighlightTexture"] = WhoFrameColumnHeader1HighlightTextur
 --- @class FriendsFrame_WhoFrame_WhoFrameColumnHeader2_WhoFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 --- @field TabHighlight Texture
 WhoFrameDropdown = {}
+WhoFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L445)
 --- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
@@ -890,6 +892,7 @@ AddFriendFrame = {}
 --- child of FriendsFriendsFrame
 --- @class FriendsFriendsFrame_FriendsFriendsFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 FriendsFriendsFrameDropdown = {}
+FriendsFriendsFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1491)
 --- child of FriendsFriendsFrame

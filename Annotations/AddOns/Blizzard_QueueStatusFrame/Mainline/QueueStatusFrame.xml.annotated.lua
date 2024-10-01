@@ -180,10 +180,16 @@
 --- @field EyePokeEnd EyeTemplate_EyePokeEnd
 --- @field texture Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L9)
+--- child of QueueStatusButtonIcon (created in template EyeTemplate)
+--- @type Texture
+QueueStatusButtonIconTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L384)
 --- child of QueueStatusButton
 --- @class QueueStatusButton_QueueStatusButtonIcon : Frame, EyeTemplate
 QueueStatusButtonIcon = {}
+QueueStatusButtonIcon["Texture"] = QueueStatusButtonIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L371)
 --- child of QueueStatusButton

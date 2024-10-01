@@ -672,11 +672,13 @@ LFGApplicationViewerRatingColumnHeader = {}
 --- child of 
 --- @class LFGListFrame_EntryCreation_LFGListEntryCreationGroupDropdown : DropdownButton, WowStyle1DropdownTemplate
 LFGListEntryCreationGroupDropdown = {}
+LFGListEntryCreationGroupDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1736)
 --- child of 
 --- @class LFGListFrame_EntryCreation_LFGListEntryCreationActivityDropdown : DropdownButton, WowStyle1DropdownTemplate
 LFGListEntryCreationActivityDropdown = {}
+LFGListEntryCreationActivityDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1762)
 --- child of LFGListCreationDescription
@@ -695,6 +697,7 @@ LFGListCreationDescription["maxLetters"] = 0 -- inherited
 --- child of 
 --- @class LFGListFrame_EntryCreation_LFGListEntryCreationPlayStyleDropdown : DropdownButton, WowStyle1DropdownTemplate
 LFGListEntryCreationPlayStyleDropdown = {}
+LFGListEntryCreationPlayStyleDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1774)
 --- child of 

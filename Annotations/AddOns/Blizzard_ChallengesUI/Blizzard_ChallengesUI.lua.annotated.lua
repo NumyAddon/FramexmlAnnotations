@@ -36,11 +36,11 @@ ChallengesKeystoneFrameAffixMixin = {}
 --- @class ChallengeModeCompleteBannerMixin
 ChallengeModeCompleteBannerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1059)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1053)
 --- @class ChallengeModeBannerPartyMemberMixin
 ChallengeModeBannerPartyMemberMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1089)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1083)
 --- @class DungeonScoreInfoMixin
 DungeonScoreInfoMixin = { }
 
@@ -161,26 +161,26 @@ function ChallengeModeCompleteBannerMixin:OnMouseDown(button) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L871)
 function ChallengeModeCompleteBannerMixin:PlayBanner(data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L976)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L970)
 function ChallengeModeCompleteBannerMixin:StopBanner() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L986)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L980)
 function ChallengeModeCompleteBannerMixin:GetSortedPartyMembers() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1030)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1024)
 function ChallengeModeCompleteBannerMixin:CreateAndPositionPartyMembers(num) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1037)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1031)
 function ChallengeModeCompleteBannerMixin:PerformAnimOut() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1061)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1055)
 function ChallengeModeBannerPartyMemberMixin:SetUp(unitToken) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1091)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1085)
 function DungeonScoreInfoMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1098)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1092)
 function DungeonScoreInfoMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.lua#L1096)
 function DungeonScoreInfoMixin:OnClick() end

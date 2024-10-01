@@ -424,6 +424,7 @@ PVPQueueFrameCategoryButton3 = {}
 --- child of HonorFrame
 --- @class PVPUIFrame_PVPQueueFrame_HonorFrame_HonorFrameTypeDropdown : DropdownButton, WowStyle1DropdownTemplate
 HonorFrameTypeDropdown = {}
+HonorFrameTypeDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1122)
 --- child of HonorFrame

@@ -146,17 +146,17 @@ function POIButtonMixin:SetUnderlayBannerEnabled(enabled) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L680)
 function POIButtonMixin:IsUnderlayBannerEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L799)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L800)
 function POIButtonMixin:OnSuperTrackingChanged(supertracker) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L809)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L810)
 function POIButtonMixin:UpdateSelected() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L813)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L814)
 function POIButtonMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L828)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L829)
 function POIButtonMixin:SetMapPinScale(scale, scaleFactor, startScale, endScale) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L833)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L834)
 function POIButtonMixin:SetDefaultMapPinScale() end

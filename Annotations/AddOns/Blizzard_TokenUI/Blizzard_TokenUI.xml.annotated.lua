@@ -77,11 +77,21 @@
 --- child of TokenFrame
 --- @class TokenFrame_CurrencyTransferLogToggleButton : Button, CurrencyTransferLogToggleButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L206)
+--- child of TokenFrame
+--- @class TokenFrame_LoadingSpinner : Frame, SpinnerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L214)
+--- child of TokenFrame
+--- @class TokenFrame_filterDropdown : DropdownButton, WowStyle1DropdownTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L184)
 --- @class TokenFrame : Frame, TokenFrameMixin
 --- @field ScrollBox TokenFrame_ScrollBox
 --- @field ScrollBar TokenFrame_ScrollBar
 --- @field CurrencyTransferLogToggleButton TokenFrame_CurrencyTransferLogToggleButton
+--- @field LoadingSpinner TokenFrame_LoadingSpinner
+--- @field filterDropdown TokenFrame_filterDropdown
 TokenFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L1142)
@@ -100,7 +110,7 @@ ButtonFrameTemplateBg = {}
 CurrencyTransferLogTemplateInset = {}
 CurrencyTransferLogTemplateInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L229)
 --- @class CurrencyTransferLog : Frame, CurrencyTransferLogTemplate
 CurrencyTransferLog = {}
 CurrencyTransferLog["layoutType"] = "PortraitFrameTemplate" -- inherited
@@ -108,7 +118,7 @@ CurrencyTransferLog["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 CurrencyTransferLog["Bg"] = ButtonFrameTemplateBg -- inherited
 CurrencyTransferLog["Inset"] = CurrencyTransferLogTemplateInset -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L250)
 --- child of TokenFramePopup
 --- @class TokenFramePopup_Border : Frame, SecureDialogBorderTemplate
 
@@ -117,7 +127,7 @@ CurrencyTransferLog["Inset"] = CurrencyTransferLogTemplateInset -- inherited
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TokenFramePopupText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L235)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L251)
 --- child of TokenFramePopup
 --- @class TokenFramePopup_InactiveCheckbox : CheckButton, UICheckButtonTemplate, InactiveCurrencyCheckboxMixin
 
@@ -126,23 +136,23 @@ TokenFramePopupText = {}
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TokenFramePopupText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L263)
 --- child of TokenFramePopup
 --- @class TokenFramePopup_BackpackCheckbox : CheckButton, UICheckButtonTemplate, BackpackCurrencyCheckboxMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L275)
 --- child of TokenFramePopup
 --- @class TokenFramePopup_CurrencyTransferToggleButton : Button, CurrencyTransferToggleButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L281)
 --- child of TokenFramePopup
 --- @class TokenFramePopup_parent_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L242)
 --- child of TokenFramePopup
 --- @class TokenFramePopup_Title : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L235)
 --- @class TokenFramePopup : Frame, TokenFramePopupMixin
 --- @field Border TokenFramePopup_Border
 --- @field InactiveCheckbox TokenFramePopup_InactiveCheckbox
@@ -152,22 +162,22 @@ TokenFramePopupText = {}
 --- @field Title TokenFramePopup_Title
 TokenFramePopup = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L303)
 --- child of BackpackTokenTemplate
 --- @class BackpackTokenTemplate_Count : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L293)
 --- Template
 --- @class BackpackTokenTemplate : Button, BackpackTokenMixin
 --- @field Icon Texture
 --- @field Count BackpackTokenTemplate_Count
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L322)
 --- child of BackpackTokenFrameTemplate
 --- @class BackpackTokenFrameTemplate_Border : Frame, ContainerFrameCurrencyBorderTemplate
 --- @field leftEdge string # "common-currencybox-left"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L319)
 --- Template
 --- @class BackpackTokenFrameTemplate : Frame, BackpackTokenFrameMixin
 --- @field Border BackpackTokenFrameTemplate_Border

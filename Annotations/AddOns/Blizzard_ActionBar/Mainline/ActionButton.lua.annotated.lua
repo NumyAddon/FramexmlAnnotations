@@ -60,27 +60,27 @@ ActionButtonInterruptFrameMixin = { }
 --- @class ActionButtonCastingAnimFrameMixin
 ActionButtonCastingAnimFrameMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1662)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1669)
 --- @class ActionButtonCastingAnimationFillMixin
 ActionButtonCastingAnimationFillMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1670)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1677)
 --- @class ActionButtonCastingFinishAnimMixin
 ActionButtonCastingFinishAnimMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1677)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1684)
 --- @class ActionButtonTargetReticleFrameMixin
 ActionButtonTargetReticleFrameMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1683)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1690)
 --- @class ActionButtonCooldownFlashMixin
 ActionButtonCooldownFlashMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1689)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1696)
 --- @class ActionButtonCooldownFlashAnimMixin
 ActionButtonCooldownFlashAnimMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1695)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1702)
 --- @class ActionButtonTextOverlayContainerMixin
 ActionButtonTextOverlayContainerMixin = {}
 
@@ -324,26 +324,26 @@ function ActionButtonInterruptFrameMixin:OnHide() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1612)
 function ActionButtonCastingAnimFrameMixin:Setup(actionButtonCastType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1650)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1657)
 function ActionButtonCastingAnimFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1657)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1664)
 function ActionButtonCastingAnimFrameMixin:FinishAnimAndPlayBurst() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1664)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1671)
 function ActionButtonCastingAnimationFillMixin:OnFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1671)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1678)
 function ActionButtonCastingFinishAnimMixin:OnFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1678)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1685)
 function ActionButtonTargetReticleFrameMixin:Setup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1684)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1691)
 function ActionButtonCooldownFlashMixin:Setup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1690)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1697)
 function ActionButtonCooldownFlashAnimMixin:OnFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1696)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L1703)
 function ActionButtonTextOverlayContainerMixin:OnLoad() end

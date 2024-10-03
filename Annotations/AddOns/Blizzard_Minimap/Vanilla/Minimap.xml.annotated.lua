@@ -84,7 +84,7 @@ MiniMapWorldBorder = {}
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapWorldMapButton : Button
 MiniMapWorldMapButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Vanilla/Minimap.xml#L31)
 --- child of MiniMapLFGFrameIcon (created in template EyeTemplate)
 --- @type Texture
 MiniMapLFGFrameIconTexture = {}

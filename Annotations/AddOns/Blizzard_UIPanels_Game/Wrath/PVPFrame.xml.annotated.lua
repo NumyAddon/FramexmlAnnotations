@@ -1345,7 +1345,7 @@ PVPParentFrameTab1Middle = {}
 --- @type Texture
 PVPParentFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L114)
 --- child of PVPParentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 PVPParentFrameTab1HighlightTexture = {}
@@ -1385,7 +1385,7 @@ PVPParentFrameTab2Middle = {}
 --- @type Texture
 PVPParentFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L114)
 --- child of PVPParentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 PVPParentFrameTab2HighlightTexture = {}

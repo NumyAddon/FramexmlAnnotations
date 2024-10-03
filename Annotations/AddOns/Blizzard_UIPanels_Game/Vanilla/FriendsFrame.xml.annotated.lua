@@ -281,6 +281,7 @@ FriendsFrameBattlenetFrame = {}
 --- child of FriendsTabHeader
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameStatusDropdown : DropdownButton, WowStyle1DropdownTemplate
 FriendsFrameStatusDropdown = {}
+FriendsFrameStatusDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L1048)
 --- child of FriendsFrameBroadcastInput
@@ -784,6 +785,7 @@ WhoFrameColumnHeader1["HighlightTexture"] = WhoFrameColumnHeader1HighlightTextur
 --- @class FriendsFrame_WhoFrame_WhoFrameColumnHeader2_WhoFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 --- @field TabHighlight Texture
 WhoFrameDropdown = {}
+WhoFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L364)
 --- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
@@ -2206,6 +2208,7 @@ GuildFrame["nameAlert"] = GuildNameChangeAlertFrame
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 GuildControlPopupFrameDropdown = {}
+GuildControlPopupFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L2677)
 --- child of GuildControlPopupFrameCheckboxes
@@ -2596,7 +2599,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L114)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}
@@ -2636,7 +2639,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L114)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}
@@ -2676,7 +2679,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L114)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}
@@ -2716,7 +2719,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L114)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}
@@ -2761,7 +2764,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L114)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}
@@ -3289,6 +3292,7 @@ AddFriendFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 --- child of FriendsFriendsFrame
 --- @class FriendsFriendsFrame_FriendsFriendsFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 FriendsFriendsFrameDropdown = {}
+FriendsFriendsFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/FriendsFrame.xml#L4159)
 --- child of FriendsFriendsFrame

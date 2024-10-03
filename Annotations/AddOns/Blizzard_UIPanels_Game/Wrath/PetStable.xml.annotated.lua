@@ -28,119 +28,109 @@ PetStableModel = {}
 --- child of PetStableCurrentPet
 --- @class  : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L9)
 --- child of PetStableCurrentPet (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableCurrentPetIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L47)
---- child of PetStableCurrentPet (created in template PetStableSlotTemplate)
---- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
-PetStableCurrentPetBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L12)
 --- child of PetStableCurrentPet (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableCurrentPetChecked = {}
+PetStableCurrentPetBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L55)
+--- child of PetStableCurrentPet (created in template PetStableSlotTemplate)
+--- @type Texture
+PetStableCurrentPetNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L277)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableCurrentPet : CheckButton, PetStableSlotTemplate
 PetStableCurrentPet = {}
-PetStableCurrentPet["Background"] = PetStableCurrentPetBackground -- inherited
-PetStableCurrentPet["Checked"] = PetStableCurrentPetChecked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L9)
 --- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet1IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L47)
---- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
---- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
-PetStableStabledPet1Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L12)
 --- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet1Checked = {}
+PetStableStabledPet1Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L55)
+--- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
+--- @type Texture
+PetStableStabledPet1NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L299)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet1 : CheckButton, PetStableSlotTemplate
 PetStableStabledPet1 = {}
-PetStableStabledPet1["Background"] = PetStableStabledPet1Background -- inherited
-PetStableStabledPet1["Checked"] = PetStableStabledPet1Checked -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L318)
 --- child of PetStableStabledPet2
 --- @class  : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L9)
 --- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet2IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L47)
---- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
---- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
-PetStableStabledPet2Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L12)
 --- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet2Checked = {}
+PetStableStabledPet2Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L55)
+--- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
+--- @type Texture
+PetStableStabledPet2NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L308)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet2 : CheckButton, PetStableSlotTemplate
 PetStableStabledPet2 = {}
-PetStableStabledPet2["Background"] = PetStableStabledPet2Background -- inherited
-PetStableStabledPet2["Checked"] = PetStableStabledPet2Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L9)
 --- child of PetStableStabledPet3 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet3IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L47)
---- child of PetStableStabledPet3 (created in template PetStableSlotTemplate)
---- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
-PetStableStabledPet3Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L12)
 --- child of PetStableStabledPet3 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet3Checked = {}
+PetStableStabledPet3Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L55)
+--- child of PetStableStabledPet3 (created in template PetStableSlotTemplate)
+--- @type Texture
+PetStableStabledPet3NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L330)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet3 : CheckButton, PetStableSlotTemplate
 PetStableStabledPet3 = {}
-PetStableStabledPet3["Background"] = PetStableStabledPet3Background -- inherited
-PetStableStabledPet3["Checked"] = PetStableStabledPet3Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L9)
 --- child of PetStableStabledPet4 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet4IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L47)
---- child of PetStableStabledPet4 (created in template PetStableSlotTemplate)
---- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
-PetStableStabledPet4Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L12)
 --- child of PetStableStabledPet4 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet4Checked = {}
+PetStableStabledPet4Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L55)
+--- child of PetStableStabledPet4 (created in template PetStableSlotTemplate)
+--- @type Texture
+PetStableStabledPet4NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L339)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet4 : CheckButton, PetStableSlotTemplate
 PetStableStabledPet4 = {}
-PetStableStabledPet4["Background"] = PetStableStabledPet4Background -- inherited
-PetStableStabledPet4["Checked"] = PetStableStabledPet4Checked -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PetStable.xml#L348)
 --- child of PetStableFrame

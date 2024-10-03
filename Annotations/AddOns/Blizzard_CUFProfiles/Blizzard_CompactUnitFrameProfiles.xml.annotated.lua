@@ -51,6 +51,7 @@
 --- child of CompactUnitFrameProfiles
 --- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesProfileSelector : DropdownButton, WowStyle1DropdownTemplate
 CompactUnitFrameProfilesProfileSelector = {}
+CompactUnitFrameProfilesProfileSelector["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L185)
 --- child of CompactUnitFrameProfiles
@@ -103,6 +104,7 @@ CompactUnitFrameProfilesNewProfileDialogEditBox = {}
 --- child of CompactUnitFrameProfilesNewProfileDialog
 --- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogBaseProfileSelector : DropdownButton, WowStyle1DropdownTemplate
 CompactUnitFrameProfilesNewProfileDialogBaseProfileSelector = {}
+CompactUnitFrameProfilesNewProfileDialogBaseProfileSelector["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L326)
 --- child of CompactUnitFrameProfilesNewProfileDialog
@@ -238,6 +240,7 @@ CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdownLabel = {}
 --- @field width number # 110
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown = {}
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["width"] = 110
+CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["label"] = CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdownLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
@@ -326,6 +329,7 @@ CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownLabel = {}
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
 --- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown : DropdownButton, CompactUnitFrameProfilesDropdownTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown = {}
+CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown["label"] = CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1125)

@@ -228,7 +228,7 @@ PlayerTalentTabTemplateMiddle = {}
 --- @type Texture
 PlayerTalentTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L113)
 --- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 PlayerTalentTabTemplateHighlightTexture = {}
@@ -268,7 +268,7 @@ PlayerTalentTabTemplateMiddle = {}
 --- @type Texture
 PlayerTalentTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L113)
 --- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 PlayerTalentTabTemplateHighlightTexture = {}
@@ -308,7 +308,7 @@ PlayerTalentTabTemplateMiddle = {}
 --- @type Texture
 PlayerTalentTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L113)
 --- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 PlayerTalentTabTemplateHighlightTexture = {}
@@ -348,7 +348,7 @@ PlayerGlyphTabTemplateMiddle = {}
 --- @type Texture
 PlayerGlyphTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L113)
 --- child of PlayerGlyphTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 PlayerGlyphTabTemplateHighlightTexture = {}
@@ -358,7 +358,7 @@ PlayerGlyphTabTemplateHighlightTexture = {}
 --- @class PlayerTalentFrame_PlayerTalentFrameTab4 : Button, PlayerGlyphTabTemplate
 PlayerTalentFrameTab4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L8)
 --- child of PlayerSpecTab1 (created in template PlayerSpecTabTemplate)
 --- @type Texture
 PlayerSpecTab1Background = {}
@@ -368,7 +368,7 @@ PlayerSpecTab1Background = {}
 --- @class PlayerTalentFrame_PlayerSpecTab1 : CheckButton, PlayerSpecTabTemplate
 PlayerSpecTab1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L8)
 --- child of PlayerSpecTab2 (created in template PlayerSpecTabTemplate)
 --- @type Texture
 PlayerSpecTab2Background = {}
@@ -378,7 +378,7 @@ PlayerSpecTab2Background = {}
 --- @class PlayerTalentFrame_PlayerSpecTab2 : CheckButton, PlayerSpecTabTemplate
 PlayerSpecTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L8)
 --- child of PlayerSpecTab3 (created in template PlayerSpecTabTemplate)
 --- @type Texture
 PlayerSpecTab3Background = {}

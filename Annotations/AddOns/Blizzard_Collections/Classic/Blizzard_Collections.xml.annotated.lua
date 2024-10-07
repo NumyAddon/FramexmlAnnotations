@@ -34,7 +34,7 @@ CollectionsJournalTabMiddle = {}
 --- @type Texture
 CollectionsJournalTabRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L113)
 --- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CollectionsJournalTabHighlightTexture = {}
@@ -74,7 +74,7 @@ CollectionsJournalTabMiddle = {}
 --- @type Texture
 CollectionsJournalTabRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L113)
 --- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CollectionsJournalTabHighlightTexture = {}
@@ -114,7 +114,7 @@ CollectionsJournalTabMiddle = {}
 --- @type Texture
 CollectionsJournalTabRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L113)
 --- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CollectionsJournalTabHighlightTexture = {}
@@ -154,7 +154,7 @@ CollectionsJournalTabMiddle = {}
 --- @type Texture
 CollectionsJournalTabRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Collections.xml#L113)
 --- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CollectionsJournalTabHighlightTexture = {}

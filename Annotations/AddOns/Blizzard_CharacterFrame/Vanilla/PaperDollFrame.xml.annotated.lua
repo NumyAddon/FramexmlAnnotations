@@ -406,841 +406,328 @@ MagicResFrame5 = {}
 --- @class PaperDollFrame_CharacterResistanceFrame : Frame
 CharacterResistanceFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterHeadSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterHeadSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterHeadSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterHeadSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L731)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterHeadSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterHeadSlot = {}
-CharacterHeadSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterHeadSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterHeadSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterHeadSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterHeadSlot["Cooldown"] = CharacterHeadSlotCooldown -- inherited
+CharacterHeadSlot["popoutButton"] = CharacterHeadSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterNeckSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterNeckSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterNeckSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterNeckSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L736)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterNeckSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterNeckSlot = {}
-CharacterNeckSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterNeckSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterNeckSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterNeckSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterNeckSlot["Cooldown"] = CharacterNeckSlotCooldown -- inherited
+CharacterNeckSlot["popoutButton"] = CharacterNeckSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterShoulderSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterShoulderSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterShoulderSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterShoulderSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L741)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterShoulderSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterShoulderSlot = {}
-CharacterShoulderSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterShoulderSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterShoulderSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterShoulderSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterShoulderSlot["Cooldown"] = CharacterShoulderSlotCooldown -- inherited
+CharacterShoulderSlot["popoutButton"] = CharacterShoulderSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterBackSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterBackSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterBackSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterBackSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L746)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterBackSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterBackSlot = {}
-CharacterBackSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterBackSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterBackSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterBackSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterBackSlot["Cooldown"] = CharacterBackSlotCooldown -- inherited
+CharacterBackSlot["popoutButton"] = CharacterBackSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterChestSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterChestSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterChestSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterChestSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L751)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterChestSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterChestSlot = {}
-CharacterChestSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterChestSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterChestSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterChestSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterChestSlot["Cooldown"] = CharacterChestSlotCooldown -- inherited
+CharacterChestSlot["popoutButton"] = CharacterChestSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterShirtSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterShirtSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterShirtSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterShirtSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L756)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterShirtSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterShirtSlot = {}
-CharacterShirtSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterShirtSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterShirtSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterShirtSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterShirtSlot["Cooldown"] = CharacterShirtSlotCooldown -- inherited
+CharacterShirtSlot["popoutButton"] = CharacterShirtSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterTabardSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterTabardSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterTabardSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterTabardSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L761)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterTabardSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterTabardSlot = {}
-CharacterTabardSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterTabardSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterTabardSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterTabardSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterTabardSlot["Cooldown"] = CharacterTabardSlotCooldown -- inherited
+CharacterTabardSlot["popoutButton"] = CharacterTabardSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterWristSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterWristSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterWristSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterWristSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L766)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterWristSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterWristSlot = {}
-CharacterWristSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterWristSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterWristSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterWristSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterWristSlot["Cooldown"] = CharacterWristSlotCooldown -- inherited
+CharacterWristSlot["popoutButton"] = CharacterWristSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterHandsSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterHandsSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterHandsSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterHandsSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L771)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterHandsSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterHandsSlot = {}
-CharacterHandsSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterHandsSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterHandsSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterHandsSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterHandsSlot["Cooldown"] = CharacterHandsSlotCooldown -- inherited
+CharacterHandsSlot["popoutButton"] = CharacterHandsSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterWaistSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterWaistSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterWaistSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterWaistSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L776)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterWaistSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterWaistSlot = {}
-CharacterWaistSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterWaistSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterWaistSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterWaistSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterWaistSlot["Cooldown"] = CharacterWaistSlotCooldown -- inherited
+CharacterWaistSlot["popoutButton"] = CharacterWaistSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterLegsSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterLegsSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterLegsSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterLegsSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L781)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterLegsSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterLegsSlot = {}
-CharacterLegsSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterLegsSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterLegsSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterLegsSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterLegsSlot["Cooldown"] = CharacterLegsSlotCooldown -- inherited
+CharacterLegsSlot["popoutButton"] = CharacterLegsSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterFeetSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterFeetSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterFeetSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterFeetSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L786)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterFeetSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterFeetSlot = {}
-CharacterFeetSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterFeetSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterFeetSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterFeetSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterFeetSlot["Cooldown"] = CharacterFeetSlotCooldown -- inherited
+CharacterFeetSlot["popoutButton"] = CharacterFeetSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterFinger0Slot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterFinger0SlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterFinger0Slot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterFinger0SlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L791)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterFinger0Slot : Button, PaperDollItemSlotButtonTemplate
 CharacterFinger0Slot = {}
-CharacterFinger0Slot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterFinger0Slot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterFinger0Slot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterFinger0Slot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterFinger0Slot["Cooldown"] = CharacterFinger0SlotCooldown -- inherited
+CharacterFinger0Slot["popoutButton"] = CharacterFinger0SlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterFinger1Slot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterFinger1SlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterFinger1Slot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterFinger1SlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L796)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterFinger1Slot : Button, PaperDollItemSlotButtonTemplate
 CharacterFinger1Slot = {}
-CharacterFinger1Slot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterFinger1Slot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterFinger1Slot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterFinger1Slot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterFinger1Slot["Cooldown"] = CharacterFinger1SlotCooldown -- inherited
+CharacterFinger1Slot["popoutButton"] = CharacterFinger1SlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterTrinket0Slot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterTrinket0SlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterTrinket0Slot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterTrinket0SlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L801)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterTrinket0Slot : Button, PaperDollItemSlotButtonTemplate
 CharacterTrinket0Slot = {}
-CharacterTrinket0Slot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterTrinket0Slot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterTrinket0Slot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterTrinket0Slot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterTrinket0Slot["Cooldown"] = CharacterTrinket0SlotCooldown -- inherited
+CharacterTrinket0Slot["popoutButton"] = CharacterTrinket0SlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterTrinket1Slot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterTrinket1SlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterTrinket1Slot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterTrinket1SlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L806)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterTrinket1Slot : Button, PaperDollItemSlotButtonTemplate
 CharacterTrinket1Slot = {}
-CharacterTrinket1Slot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterTrinket1Slot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterTrinket1Slot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterTrinket1Slot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterTrinket1Slot["Cooldown"] = CharacterTrinket1SlotCooldown -- inherited
+CharacterTrinket1Slot["popoutButton"] = CharacterTrinket1SlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterMainHandSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterMainHandSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterMainHandSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterMainHandSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L811)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterMainHandSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterMainHandSlot = {}
-CharacterMainHandSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterMainHandSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterMainHandSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterMainHandSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterMainHandSlot["Cooldown"] = CharacterMainHandSlotCooldown -- inherited
+CharacterMainHandSlot["popoutButton"] = CharacterMainHandSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterSecondaryHandSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterSecondaryHandSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterSecondaryHandSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterSecondaryHandSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L816)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterSecondaryHandSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterSecondaryHandSlot = {}
-CharacterSecondaryHandSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterSecondaryHandSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterSecondaryHandSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterSecondaryHandSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterSecondaryHandSlot["Cooldown"] = CharacterSecondaryHandSlotCooldown -- inherited
+CharacterSecondaryHandSlot["popoutButton"] = CharacterSecondaryHandSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L85)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L88)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
-PaperDollItemSlotButtonTemplateCount = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L97)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
-PaperDollItemSlotButtonTemplateStock = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L108)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSearchOverlay = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L127)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateSubIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L135)
---- child of PaperDollItemSlotButtonTemplate (created in template ItemButtonTemplate)
---- @type Texture
-PaperDollItemSlotButtonTemplateNormalTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L15)
 --- child of CharacterRangedSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterRangedSlotCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L16)
+--- child of CharacterRangedSlot (created in template PaperDollItemSlotButtonTemplate)
+--- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplatePopoutButton
+CharacterRangedSlotPopoutButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L821)
 --- child of PaperDollItemsFrame
 --- @class PaperDollFrame_PaperDollItemsFrame_CharacterRangedSlot : Button, PaperDollItemSlotButtonTemplate
 CharacterRangedSlot = {}
-CharacterRangedSlot["icon"] = PaperDollItemSlotButtonTemplateIconTexture -- inherited
-CharacterRangedSlot["Count"] = PaperDollItemSlotButtonTemplateCount -- inherited
-CharacterRangedSlot["searchOverlay"] = PaperDollItemSlotButtonTemplateSearchOverlay -- inherited
-CharacterRangedSlot["subicon"] = PaperDollItemSlotButtonTemplateSubIconTexture -- inherited
+CharacterRangedSlot["Cooldown"] = CharacterRangedSlotCooldown -- inherited
+CharacterRangedSlot["popoutButton"] = CharacterRangedSlotPopoutButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PaperDollFrame.xml#L882)
 --- child of CharacterAmmoSlot

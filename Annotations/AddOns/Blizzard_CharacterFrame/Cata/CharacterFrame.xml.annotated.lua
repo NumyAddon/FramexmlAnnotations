@@ -171,7 +171,7 @@ CharacterFrameTab1Middle = {}
 --- @type Texture
 CharacterFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L113)
 --- child of CharacterFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab1HighlightTexture = {}
@@ -211,7 +211,7 @@ CharacterFrameTab2Middle = {}
 --- @type Texture
 CharacterFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L113)
 --- child of CharacterFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab2HighlightTexture = {}
@@ -251,7 +251,7 @@ CharacterFrameTab3Middle = {}
 --- @type Texture
 CharacterFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L113)
 --- child of CharacterFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab3HighlightTexture = {}
@@ -291,7 +291,7 @@ CharacterFrameTab4Middle = {}
 --- @type Texture
 CharacterFrameTab4Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L113)
 --- child of CharacterFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab4HighlightTexture = {}
@@ -384,10 +384,22 @@ CharacterStatsPaneCategory1Toolbar = {}
 CharacterStatsPaneCategory1Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory1Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
+--- child of CharacterStatsPaneCategory1Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
+CharacterStatsPaneCategory1Stat1Label = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
+--- child of CharacterStatsPaneCategory1Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
+CharacterStatsPaneCategory1Stat1StatText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory1 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory1Stat1 = {}
+CharacterStatsPaneCategory1Stat1["Label"] = CharacterStatsPaneCategory1Stat1Label -- inherited
+CharacterStatsPaneCategory1Stat1["Value"] = CharacterStatsPaneCategory1Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory1 (created in template StatGroupTemplate)
@@ -455,10 +467,22 @@ CharacterStatsPaneCategory2Toolbar = {}
 CharacterStatsPaneCategory2Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory2Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
+--- child of CharacterStatsPaneCategory2Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
+CharacterStatsPaneCategory2Stat1Label = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
+--- child of CharacterStatsPaneCategory2Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
+CharacterStatsPaneCategory2Stat1StatText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory2 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory2Stat1 = {}
+CharacterStatsPaneCategory2Stat1["Label"] = CharacterStatsPaneCategory2Stat1Label -- inherited
+CharacterStatsPaneCategory2Stat1["Value"] = CharacterStatsPaneCategory2Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory2 (created in template StatGroupTemplate)
@@ -526,10 +550,22 @@ CharacterStatsPaneCategory3Toolbar = {}
 CharacterStatsPaneCategory3Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory3Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
+--- child of CharacterStatsPaneCategory3Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
+CharacterStatsPaneCategory3Stat1Label = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
+--- child of CharacterStatsPaneCategory3Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
+CharacterStatsPaneCategory3Stat1StatText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory3 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory3Stat1 = {}
+CharacterStatsPaneCategory3Stat1["Label"] = CharacterStatsPaneCategory3Stat1Label -- inherited
+CharacterStatsPaneCategory3Stat1["Value"] = CharacterStatsPaneCategory3Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory3 (created in template StatGroupTemplate)
@@ -597,10 +633,22 @@ CharacterStatsPaneCategory4Toolbar = {}
 CharacterStatsPaneCategory4Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory4Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
+--- child of CharacterStatsPaneCategory4Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
+CharacterStatsPaneCategory4Stat1Label = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
+--- child of CharacterStatsPaneCategory4Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
+CharacterStatsPaneCategory4Stat1StatText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory4 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory4Stat1 = {}
+CharacterStatsPaneCategory4Stat1["Label"] = CharacterStatsPaneCategory4Stat1Label -- inherited
+CharacterStatsPaneCategory4Stat1["Value"] = CharacterStatsPaneCategory4Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory4 (created in template StatGroupTemplate)
@@ -668,10 +716,22 @@ CharacterStatsPaneCategory5Toolbar = {}
 CharacterStatsPaneCategory5Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory5Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
+--- child of CharacterStatsPaneCategory5Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
+CharacterStatsPaneCategory5Stat1Label = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
+--- child of CharacterStatsPaneCategory5Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
+CharacterStatsPaneCategory5Stat1StatText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory5 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory5Stat1 = {}
+CharacterStatsPaneCategory5Stat1["Label"] = CharacterStatsPaneCategory5Stat1Label -- inherited
+CharacterStatsPaneCategory5Stat1["Value"] = CharacterStatsPaneCategory5Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory5 (created in template StatGroupTemplate)
@@ -739,10 +799,22 @@ CharacterStatsPaneCategory6Toolbar = {}
 CharacterStatsPaneCategory6Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory6Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
+--- child of CharacterStatsPaneCategory6Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
+CharacterStatsPaneCategory6Stat1Label = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
+--- child of CharacterStatsPaneCategory6Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
+CharacterStatsPaneCategory6Stat1StatText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory6 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory6Stat1 = {}
+CharacterStatsPaneCategory6Stat1["Label"] = CharacterStatsPaneCategory6Stat1Label -- inherited
+CharacterStatsPaneCategory6Stat1["Value"] = CharacterStatsPaneCategory6Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory6 (created in template StatGroupTemplate)
@@ -810,10 +882,22 @@ CharacterStatsPaneCategory7Toolbar = {}
 CharacterStatsPaneCategory7Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory7Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
+--- child of CharacterStatsPaneCategory7Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
+CharacterStatsPaneCategory7Stat1Label = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
+--- child of CharacterStatsPaneCategory7Stat1 (created in template CharacterStatFrameTemplate)
+--- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
+CharacterStatsPaneCategory7Stat1StatText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory7 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory7Stat1 = {}
+CharacterStatsPaneCategory7Stat1["Label"] = CharacterStatsPaneCategory7Stat1Label -- inherited
+CharacterStatsPaneCategory7Stat1["Value"] = CharacterStatsPaneCategory7Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory7 (created in template StatGroupTemplate)

@@ -1795,7 +1795,7 @@ MerchantFrameTab1Middle = {}
 --- @type Texture
 MerchantFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L113)
 --- child of MerchantFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 MerchantFrameTab1HighlightTexture = {}
@@ -1835,7 +1835,7 @@ MerchantFrameTab2Middle = {}
 --- @type Texture
 MerchantFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L113)
 --- child of MerchantFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 MerchantFrameTab2HighlightTexture = {}

@@ -68,12 +68,12 @@ PetFrameHealthBar = {}
 --- @class PetFrame_PetFrameManaBar : StatusBar, TextStatusBar
 PetFrameManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L35)
 --- child of PetFrameDebuff1 (created in template PartyDebuffFrameTemplate)
 --- @type Texture
 PetFrameDebuff1Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L38)
 --- child of PetFrameDebuff1 (created in template PartyDebuffFrameTemplate)
 --- @type Texture
 PetFrameDebuff1Border = {}
@@ -83,12 +83,12 @@ PetFrameDebuff1Border = {}
 --- @class PetFrame_PetFrameDebuff1 : Button, PartyDebuffFrameTemplate
 PetFrameDebuff1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L35)
 --- child of PetFrameDebuff2 (created in template PartyDebuffFrameTemplate)
 --- @type Texture
 PetFrameDebuff2Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L38)
 --- child of PetFrameDebuff2 (created in template PartyDebuffFrameTemplate)
 --- @type Texture
 PetFrameDebuff2Border = {}
@@ -98,12 +98,12 @@ PetFrameDebuff2Border = {}
 --- @class PetFrame_PetFrameDebuff2 : Button, PartyDebuffFrameTemplate
 PetFrameDebuff2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L35)
 --- child of PetFrameDebuff3 (created in template PartyDebuffFrameTemplate)
 --- @type Texture
 PetFrameDebuff3Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L38)
 --- child of PetFrameDebuff3 (created in template PartyDebuffFrameTemplate)
 --- @type Texture
 PetFrameDebuff3Border = {}
@@ -113,12 +113,12 @@ PetFrameDebuff3Border = {}
 --- @class PetFrame_PetFrameDebuff3 : Button, PartyDebuffFrameTemplate
 PetFrameDebuff3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L35)
 --- child of PetFrameDebuff4 (created in template PartyDebuffFrameTemplate)
 --- @type Texture
 PetFrameDebuff4Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L38)
 --- child of PetFrameDebuff4 (created in template PartyDebuffFrameTemplate)
 --- @type Texture
 PetFrameDebuff4Border = {}

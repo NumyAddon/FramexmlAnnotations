@@ -142,7 +142,7 @@ CharacterFrameTab1Middle = {}
 --- @type Texture
 CharacterFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L113)
 --- child of CharacterFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab1HighlightTexture = {}
@@ -182,7 +182,7 @@ CharacterFrameTab2Middle = {}
 --- @type Texture
 CharacterFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L113)
 --- child of CharacterFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab2HighlightTexture = {}
@@ -222,7 +222,7 @@ CharacterFrameTab3Middle = {}
 --- @type Texture
 CharacterFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L113)
 --- child of CharacterFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab3HighlightTexture = {}
@@ -262,7 +262,7 @@ CharacterFrameTab4Middle = {}
 --- @type Texture
 CharacterFrameTab4Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L113)
 --- child of CharacterFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab4HighlightTexture = {}
@@ -302,7 +302,7 @@ CharacterFrameTab5Middle = {}
 --- @type Texture
 CharacterFrameTab5Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L113)
 --- child of CharacterFrameTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab5HighlightTexture = {}

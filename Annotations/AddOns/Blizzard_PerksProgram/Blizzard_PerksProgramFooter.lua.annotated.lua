@@ -4,7 +4,7 @@
 --- @class PerksProgramFooterFrameMixin
 PerksProgramFooterFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L132)
 --- @class PerksProgramErrorIndicatorMixin
 PerksProgramErrorIndicatorMixin = {}
 
@@ -14,20 +14,20 @@ function PerksProgramFooterFrameMixin:OnLoad() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L25)
 function PerksProgramFooterFrameMixin:OnProductSelected(data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L108)
 function PerksProgramFooterFrameMixin:OnProductPurchasedStateChange(data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L114)
 function PerksProgramFooterFrameMixin:Init() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L117)
 function PerksProgramFooterFrameMixin:OnModelSceneChanged(modelScene) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L126)
 function PerksProgramFooterFrameMixin:OnServerErrorStateChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L134)
 function PerksProgramErrorIndicatorMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L140)
 function PerksProgramErrorIndicatorMixin:OnLeave() end

@@ -4,7 +4,7 @@
 --- @class MirrorTimerContainerMixin
 MirrorTimerContainerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L122)
 --- @class MirrorTimerMixin
 MirrorTimerMixin = {}
 
@@ -30,37 +30,46 @@ function MirrorTimerContainerMixin:GetAvailableTimer(timer) end
 function MirrorTimerContainerMixin:ForceUpdateTimers() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L85)
+function MirrorTimerContainerMixin:ShouldShow() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L100)
 function MirrorTimerContainerMixin:SetIsInEditMode(isInEditMode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L113)
 function MirrorTimerContainerMixin:HasAnyTimersShowing() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L124)
 function MirrorTimerMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L132)
 function MirrorTimerMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L136)
 function MirrorTimerMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L140)
 function MirrorTimerMixin:Setup(timer, value, maxvalue, paused, label) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L154)
 function MirrorTimerMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L160)
 function MirrorTimerMixin:SetPaused(paused) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L168)
 function MirrorTimerMixin:UpdateStatusBarValue(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L150)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L172)
 function MirrorTimerMixin:HasTimer() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L176)
+function MirrorTimerMixin:SetIsInEditModeInternal(isInEditMode) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L180)
 function MirrorTimerMixin:SetIsInEditMode(isInEditMode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L185)
+function MirrorTimerMixin:ShouldShow() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.lua#L189)
 function MirrorTimerMixin:UpdateShownState() end

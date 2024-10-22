@@ -4,11 +4,11 @@
 --- @class WorldQuestDataProviderMixin : MapCanvasDataProviderMixin
 WorldQuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L373)
 --- @class WorldQuestPinMixin : MapCanvasPinMixin
 WorldQuestPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L487)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L491)
 --- @class WorldQuestSpellEffectPinMixin : MapCanvasPinMixin
 WorldQuestSpellEffectPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
@@ -94,7 +94,7 @@ function WorldQuestDataProviderMixin:OnHide() end
 function WorldQuestDataProviderMixin:DoesWorldQuestInfoPassFilters(info) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L208)
-function WorldQuestDataProviderMixin:ShouldOverrideShowQuest(mapID, questId) end
+function WorldQuestDataProviderMixin:ShouldOverrideShowQuest(mapID, questID) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L216)
 function WorldQuestDataProviderMixin:RefreshAllData(fromOnShow) end
@@ -117,53 +117,53 @@ function WorldQuestDataProviderMixin:ShouldShowExpirationIcon(questID, worldQues
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L321)
 function WorldQuestDataProviderMixin:AddWorldQuest(info) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L354)
 function WorldQuestDataProviderMixin:SuppressQuest(questID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L357)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L361)
 function WorldQuestDataProviderMixin:IsQuestSuppressed(questID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L375)
 function WorldQuestPinMixin:DisableInheritedMotionScriptsWarning() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L379)
 function WorldQuestPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L385)
 function WorldQuestPinMixin:InitializeVisuals() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L394)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L398)
 function WorldQuestPinMixin:RefreshVisuals() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L404)
 function WorldQuestPinMixin:GetHighlightType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L426)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L430)
 function WorldQuestPinMixin:UpdateSupertrackedHighlight() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L430)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L434)
 function WorldQuestPinMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L436)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L440)
 function WorldQuestPinMixin:OnMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L442)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L446)
 function WorldQuestPinMixin:OnMouseClickAction(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L474)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L478)
 function WorldQuestPinMixin:OnMouseDownAction() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L478)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L482)
 function WorldQuestPinMixin:OnMouseUpAction() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L482)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L486)
 function WorldQuestPinMixin:GetDebugReportInfo() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L489)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L493)
 function WorldQuestSpellEffectPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L494)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L498)
 function WorldQuestSpellEffectPinMixin:TryCastSpell(questID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L506)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L510)
 function WorldQuestSpellEffectPinMixin:CastSpell(questID) end

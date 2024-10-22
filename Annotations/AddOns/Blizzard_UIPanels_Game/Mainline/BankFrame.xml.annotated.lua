@@ -722,3 +722,44 @@ BankFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 BankFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 BankFrame["CloseButton"] = BankFrameCloseButton -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1160)
+--- child of BankCleanUpConfirmationPopup
+--- @class BankCleanUpConfirmationPopup_Border : Frame, DialogBorderTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1177)
+--- child of 
+--- @class BankCleanUpConfirmationPopup_HidePopupCheckbox_Checkbox : CheckButton, BankPanelCheckboxTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1169)
+--- child of 
+--- @class BankCleanUpConfirmationPopup_HidePopupCheckbox_Label : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1162)
+--- child of BankCleanUpConfirmationPopup
+--- @class BankCleanUpConfirmationPopup_HidePopupCheckbox : Frame
+--- @field Checkbox BankCleanUpConfirmationPopup_HidePopupCheckbox_Checkbox
+--- @field Label BankCleanUpConfirmationPopup_HidePopupCheckbox_Label
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1186)
+--- child of BankCleanUpConfirmationPopup
+--- @class BankCleanUpConfirmationPopup_AcceptButton : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1193)
+--- child of BankCleanUpConfirmationPopup
+--- @class BankCleanUpConfirmationPopup_CancelButton : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1151)
+--- child of BankCleanUpConfirmationPopup
+--- @class BankCleanUpConfirmationPopup_Text : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1144)
+--- @class BankCleanUpConfirmationPopup : Frame, ResizeLayoutFrame, BankCleanUpConfirmationPopupMixin
+--- @field minimumWidth number # 420
+--- @field Border BankCleanUpConfirmationPopup_Border
+--- @field HidePopupCheckbox BankCleanUpConfirmationPopup_HidePopupCheckbox
+--- @field AcceptButton BankCleanUpConfirmationPopup_AcceptButton
+--- @field CancelButton BankCleanUpConfirmationPopup_CancelButton
+--- @field Text BankCleanUpConfirmationPopup_Text
+BankCleanUpConfirmationPopup = {}
+BankCleanUpConfirmationPopup["minimumWidth"] = 420
+

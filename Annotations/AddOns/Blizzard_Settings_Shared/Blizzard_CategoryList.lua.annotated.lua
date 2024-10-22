@@ -60,14 +60,14 @@ function SettingsCategoryListMixin:FindCategoryElementData(category) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L302)
 function SettingsCategoryListMixin:SetCurrentCategory(category) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L326)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L337)
 function SettingsCategoryListMixin:SetCategorySet(categorySet) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L334)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L345)
 function SettingsCategoryListMixin:GetCategorySet() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L386)
 function SettingsCategoryListMixin:GenerateElementList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L411)
 function SettingsCategoryListMixin:CreateCategories() end

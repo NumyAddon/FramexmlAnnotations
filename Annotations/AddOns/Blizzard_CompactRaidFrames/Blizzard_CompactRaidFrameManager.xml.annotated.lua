@@ -56,7 +56,7 @@ CompactRaidFrameManagerToggleButton = {}
 CompactRaidFrameManagerDisplayFrameModeControlDropdown = {}
 CompactRaidFrameManagerDisplayFrameModeControlDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L3270)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L3272)
 --- child of CompactRaidFrameManagerDisplayFrameOptionsButton (created in template UIPanelInfoButton)
 --- @type Texture
 CompactRaidFrameManagerDisplayFrameOptionsButtonTexture = {}
@@ -213,7 +213,7 @@ parentBottomButtonsLeavePartyButton["fitTextCanWidthDecrease"] = true -- inherit
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L412)
 --- child of parentBottomButtons
---- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_parentBottomButtons_parentBottomButtonsLeaveInstanceGroupButton : Button, UIPanelButtonTemplate, LeaveInstanceGroupButtonMixin
+--- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_parentBottomButtons_parentBottomButtonsLeaveInstanceGroupButton : Button, UIPanelButtonTemplate, TruncatedButtonTemplate, LeaveInstanceGroupButtonMixin
 parentBottomButtonsLeaveInstanceGroupButton = {}
 parentBottomButtonsLeaveInstanceGroupButton["fitTextCanWidthDecrease"] = true -- inherited
 

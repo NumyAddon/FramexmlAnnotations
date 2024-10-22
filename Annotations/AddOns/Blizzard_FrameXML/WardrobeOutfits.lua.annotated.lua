@@ -4,11 +4,11 @@
 --- @class WardrobeOutfitDropdownMixin
 WardrobeOutfitDropdownMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L415)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L423)
 --- @class WardrobeOutfitEditFrameMixin
 WardrobeOutfitEditFrameMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L438)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L446)
 --- @class WardrobeOutfitCheckAppearancesMixin
 WardrobeOutfitCheckAppearancesMixin = { }
 
@@ -57,23 +57,23 @@ function WardrobeOutfitDropdownMixin:IsOutfitDressed() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L186)
 function WardrobeOutfitDropdownMixin:ShouldReplaceInvalidSources() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L425)
 function WardrobeOutfitEditFrameMixin:ShowForOutfit(outfitID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L424)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L432)
 function WardrobeOutfitEditFrameMixin:OnDelete() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L437)
 function WardrobeOutfitEditFrameMixin:OnAccept() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L440)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L448)
 function WardrobeOutfitCheckAppearancesMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L445)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L453)
 function WardrobeOutfitCheckAppearancesMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L451)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L459)
 function WardrobeOutfitCheckAppearancesMixin:OnEvent(event) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L455)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L463)
 function WardrobeOutfitCheckAppearancesMixin:OnUpdate() end

@@ -34,39 +34,42 @@
 --- child of CharacterSelectListCharacterTemplate
 --- @class CharacterSelectListCharacterTemplate_Arrow : Frame, CharacterServicesArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L125)
---- child of 
---- @class CharacterSelectListCharacterTemplate_UpgradeIcon_Icon : Texture, services-icon-processing
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L118)
---- child of CharacterSelectListCharacterTemplate
---- @class CharacterSelectListCharacterTemplate_UpgradeIcon : Frame, CharacterSelectListServicesProcessingIconMixin
---- @field Icon CharacterSelectListCharacterTemplate_UpgradeIcon_Icon
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L133)
 --- child of CharacterSelectListCharacterTemplate
 --- @class CharacterSelectListCharacterTemplate_PaidService : Button, CharacterSelectListPaidServiceMixin
 --- @field VASIcon Texture
 --- @field GoldBorder Texture
 --- @field Texture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L170)
+--- child of 
+--- @class CharacterSelectListCharacterTemplate_RestoreCharacterServiceFrame_Button : Button, RestoreCharacterServiceButtonMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L155)
+--- child of CharacterSelectListCharacterTemplate
+--- @class CharacterSelectListCharacterTemplate_RestoreCharacterServiceFrame : Frame
+--- @field Button CharacterSelectListCharacterTemplate_RestoreCharacterServiceFrame_Button
+--- @field Pointer Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L277)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_Text_LastVersion : FontString, GlueFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L283)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_Text_Name : FontString, GlueFontNormalHuge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L274)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L289)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_Text_Info : FontString, GlueFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L295)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_Text_Status : FontString, GlueFontDisableLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L274)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_Text : Frame
 --- @field LastVersion CharacterSelectListCharacterTemplate_InnerContent_Text_LastVersion
@@ -74,29 +77,35 @@
 --- @field Info CharacterSelectListCharacterTemplate_InnerContent_Text_Info
 --- @field Status CharacterSelectListCharacterTemplate_InnerContent_Text_Status
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L310)
 --- child of 
---- @class CharacterSelectListCharacterTemplate_InnerContent_MailIndicationButton : Button, CharacterSelectListMailIndicationButtonMixin
---- @field MiniMapMailIcon Texture
---- @field MiniMapMailBorder Texture
+--- @class CharacterSelectListCharacterTemplate_InnerContent_NotificationButton_IconFrame : Frame
+--- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L317)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L304)
+--- child of 
+--- @class CharacterSelectListCharacterTemplate_InnerContent_NotificationButton : Button, CharacterSelectListNotificationButtonMixin
+--- @field IconFrame CharacterSelectListCharacterTemplate_InnerContent_NotificationButton_IconFrame
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L331)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_UpButton : Button, CharacterSelectListMoveButtonTemplate
 --- @field moveOffset number # -1
 --- @field NormalTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L345)
 --- child of 
 --- @class CharacterSelectListCharacterTemplate_InnerContent_DownButton : Button, CharacterSelectListMoveButtonTemplate
 --- @field moveOffset number # 1
 --- @field NormalTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L186)
 --- child of CharacterSelectListCharacterTemplate
 --- @class CharacterSelectListCharacterTemplate_InnerContent : Frame, CharacterSelectListCharacterInnerContentMixin
 --- @field Text CharacterSelectListCharacterTemplate_InnerContent_Text
---- @field MailIndicationButton CharacterSelectListCharacterTemplate_InnerContent_MailIndicationButton
+--- @field NotificationButton CharacterSelectListCharacterTemplate_InnerContent_NotificationButton
 --- @field UpButton CharacterSelectListCharacterTemplate_InnerContent_UpButton
 --- @field DownButton CharacterSelectListCharacterTemplate_InnerContent_DownButton
 --- @field Backdrop Texture
@@ -114,15 +123,15 @@
 --- @field PulseSpread1 Texture
 --- @field PulseSpread2 Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L363)
 --- child of CharacterSelectListCharacterTemplate
 --- @class CharacterSelectListCharacterTemplate_GlowAnim : AnimationGroup, CharacterSelectListCharacterGlowAnimMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L370)
 --- child of CharacterSelectListCharacterTemplate
 --- @class CharacterSelectListCharacterTemplate_GlowMoveAnim : AnimationGroup, CharacterSelectListCharacterGlowMoveAnimMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L381)
 --- child of CharacterSelectListCharacterTemplate
 --- @class CharacterSelectListCharacterTemplate_PulseAnim : AnimationGroup, CharacterSelectListCharacterPulseAnimMixin
 
@@ -130,26 +139,26 @@
 --- Template
 --- @class CharacterSelectListCharacterTemplate : Button, CharacterSelectListCharacterMixin
 --- @field Arrow CharacterSelectListCharacterTemplate_Arrow
---- @field UpgradeIcon CharacterSelectListCharacterTemplate_UpgradeIcon
 --- @field PaidService CharacterSelectListCharacterTemplate_PaidService
+--- @field RestoreCharacterServiceFrame CharacterSelectListCharacterTemplate_RestoreCharacterServiceFrame
 --- @field InnerContent CharacterSelectListCharacterTemplate_InnerContent
 --- @field Drop Texture
 --- @field GlowAnim CharacterSelectListCharacterTemplate_GlowAnim
 --- @field GlowMoveAnim CharacterSelectListCharacterTemplate_GlowMoveAnim
 --- @field PulseAnim CharacterSelectListCharacterTemplate_PulseAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L420)
 --- child of CharacterSelectListEmptyCharacterTemplate
 --- @class CharacterSelectListEmptyCharacterTemplate_InnerContent : Frame
 --- @field Backdrop Texture
 --- @field DragGlow Texture
 --- @field Highlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L437)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L451)
 --- child of CharacterSelectListEmptyCharacterTemplate
 --- @class CharacterSelectListEmptyCharacterTemplate_GlowFadeAnim : AnimationGroup, CharacterSelectListEmptyCharacterGlowFadeAnimMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L404)
 --- Template
 --- @class CharacterSelectListEmptyCharacterTemplate : Button, CharacterSelectListEmptyCharacterMixin
 --- @field InnerContent CharacterSelectListEmptyCharacterTemplate_InnerContent

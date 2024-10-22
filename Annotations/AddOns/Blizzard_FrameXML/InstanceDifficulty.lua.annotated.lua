@@ -4,7 +4,7 @@
 --- @class InstanceDifficultyMixin
 InstanceDifficultyMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L190)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L194)
 --- @class GuildInstanceDifficultyMixin
 GuildInstanceDifficultyMixin = { }
 
@@ -32,17 +32,17 @@ function InstanceDifficultyMixin:DeferredUpdate() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L88)
 function InstanceDifficultyMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L150)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L154)
 function InstanceDifficultyMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L174)
 function InstanceDifficultyMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L174)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L178)
 function InstanceDifficultyMixin:SetFlipped(flipped) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L192)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L196)
 function GuildInstanceDifficultyMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L227)
 function GuildInstanceDifficultyMixin:OnLeave() end

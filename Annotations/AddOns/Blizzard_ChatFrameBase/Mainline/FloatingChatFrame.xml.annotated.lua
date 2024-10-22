@@ -349,6 +349,7 @@ ChatFrame1["clickAnywhereButton"] = ChatFrame1ClickAnywhereButton -- inherited
 ChatFrame1["ResizeButton"] = ChatFrame1ResizeButton -- inherited
 ChatFrame1["buttonFrame"] = ChatFrame1ButtonFrame -- inherited
 ChatFrame1["editBox"] = ChatFrame1EditBox -- inherited
+ChatFrame1["system"] = Enum.EditModeSystem.ChatFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L643)
 --- @class ChatFrameMenuButton : DropdownButton, ChatFrameMenuButtonMixin

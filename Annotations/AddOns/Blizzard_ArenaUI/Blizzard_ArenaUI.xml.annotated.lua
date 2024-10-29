@@ -34,566 +34,293 @@
 --- child of ArenaEnemyPetFrameTemplate
 --- @class ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L128)
---- child of ArenaEnemyPetFrameTemplate
---- @class ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateDropDown : Frame, UIDropDownMenuTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L57)
 --- Template
 --- @class ArenaEnemyPetFrameTemplate : Button, SecureUnitButtonTemplate
---- @field DropDown ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateDropDown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L163)
---- child of ArenaPrepFrameTemplate
---- @class ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L169)
 --- child of 
 --- @class ArenaPrepFrameTemplateName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L174)
 --- child of 
 --- @class ArenaPrepFrameTemplateHealthBarText : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L179)
 --- child of 
 --- @class ArenaPrepFrameTemplateHealthBarTextLeft : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L196)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L184)
 --- child of 
 --- @class ArenaPrepFrameTemplateHealthBarTextRight : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L189)
 --- child of 
 --- @class ArenaPrepFrameTemplateManaBarText : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L194)
 --- child of 
 --- @class ArenaPrepFrameTemplateManaBarTextLeft : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L199)
 --- child of 
 --- @class ArenaPrepFrameTemplateManaBarTextRight : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L159)
 --- child of 
 --- @class  : Frame
 --- @field name ArenaPrepFrameTemplateName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L157)
 --- child of ArenaPrepFrameTemplate
 --- @class  : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- child of ArenaPrepFrameTemplate
 --- @class ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
 --- child of ArenaPrepFrameTemplate
 --- @class ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
 --- child of ArenaPrepFrameTemplate
 --- @class ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar : StatusBar, ArenaCastingBarFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L137)
 --- Template
 --- @class ArenaPrepFrameTemplate : Button, SecureUnitButtonTemplate
---- @field DropDown ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown
 --- @field CastingBar ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 --- @field classPortrait Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L320)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L308)
 --- child of 
 --- @class ArenaEnemyFrameTemplateMyHealPredictionBar : Texture, MyHealPredictionBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L309)
 --- child of 
 --- @class ArenaEnemyFrameTemplateOtherHealPredictionBar : Texture, OtherHealPredictionBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L317)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L305)
 --- child of 
+--- @class  : Frame
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L303)
+--- child of ArenaEnemyFrameTemplate
 --- @class  : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L315)
 --- child of ArenaEnemyFrameTemplate
---- @class  : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L327)
---- child of ArenaEnemyFrameTemplate
 --- @class ArenaEnemyFrameTemplate_ArenaEnemyFrameTemplatePetFrame : Button, ArenaEnemyPetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L327)
 --- child of 
 --- @class ArenaEnemyFrameTemplate_CC_ArenaEnemyFrameTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L316)
 --- child of ArenaEnemyFrameTemplate
 --- @class ArenaEnemyFrameTemplate_CC : Frame
 --- @field Cooldown ArenaEnemyFrameTemplate_CC_ArenaEnemyFrameTemplateCooldown
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L311)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
 --- Template
 --- @class ArenaEnemyFrameTemplate : Button, ArenaPrepFrameTemplate
 --- @field petFrame ArenaEnemyFrameTemplate_ArenaEnemyFrameTemplatePetFrame
 --- @field CC ArenaEnemyFrameTemplate_CC
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaPrepFrame1DropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaPrepFrame1DropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaPrepFrame1DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame1DropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaPrepFrame1DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame1DropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaPrepFrame1DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame1DropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaPrepFrame1DropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaPrepFrame1DropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaPrepFrame1DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame1DropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L163)
---- child of ArenaPrepFrame1 (created in template ArenaPrepFrameTemplate)
---- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown
-ArenaPrepFrame1DropDown = {}
-ArenaPrepFrame1DropDown["Button"] = ArenaPrepFrame1DropDownButton -- inherited
-ArenaPrepFrame1DropDown["Left"] = ArenaPrepFrame1DropDownLeft -- inherited
-ArenaPrepFrame1DropDown["Middle"] = ArenaPrepFrame1DropDownMiddle -- inherited
-ArenaPrepFrame1DropDown["Right"] = ArenaPrepFrame1DropDownRight -- inherited
-ArenaPrepFrame1DropDown["Text"] = ArenaPrepFrame1DropDownText -- inherited
-ArenaPrepFrame1DropDown["Icon"] = ArenaPrepFrame1DropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- child of ArenaPrepFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar
 ArenaPrepFrame1HealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
 --- child of ArenaPrepFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar
 ArenaPrepFrame1ManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
 --- child of ArenaPrepFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 ArenaPrepFrame1CastingBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L141)
 --- child of ArenaPrepFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame1ClassPortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
 --- child of ArenaPrepFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame1Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L357)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L345)
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrames_ArenaPrepFrame1 : Button, ArenaPrepFrameTemplate
 ArenaPrepFrame1 = {}
-ArenaPrepFrame1["DropDown"] = ArenaPrepFrame1DropDown -- inherited
 ArenaPrepFrame1["CastingBar"] = ArenaPrepFrame1CastingBar -- inherited
 ArenaPrepFrame1["classPortrait"] = ArenaPrepFrame1ClassPortrait -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaPrepFrame2DropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaPrepFrame2DropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaPrepFrame2DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame2DropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaPrepFrame2DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame2DropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaPrepFrame2DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame2DropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaPrepFrame2DropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaPrepFrame2DropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaPrepFrame2DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame2DropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L163)
---- child of ArenaPrepFrame2 (created in template ArenaPrepFrameTemplate)
---- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown
-ArenaPrepFrame2DropDown = {}
-ArenaPrepFrame2DropDown["Button"] = ArenaPrepFrame2DropDownButton -- inherited
-ArenaPrepFrame2DropDown["Left"] = ArenaPrepFrame2DropDownLeft -- inherited
-ArenaPrepFrame2DropDown["Middle"] = ArenaPrepFrame2DropDownMiddle -- inherited
-ArenaPrepFrame2DropDown["Right"] = ArenaPrepFrame2DropDownRight -- inherited
-ArenaPrepFrame2DropDown["Text"] = ArenaPrepFrame2DropDownText -- inherited
-ArenaPrepFrame2DropDown["Icon"] = ArenaPrepFrame2DropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- child of ArenaPrepFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar
 ArenaPrepFrame2HealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
 --- child of ArenaPrepFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar
 ArenaPrepFrame2ManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
 --- child of ArenaPrepFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 ArenaPrepFrame2CastingBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L141)
 --- child of ArenaPrepFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame2ClassPortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
 --- child of ArenaPrepFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame2Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L351)
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrames_ArenaPrepFrame2 : Button, ArenaPrepFrameTemplate
 ArenaPrepFrame2 = {}
-ArenaPrepFrame2["DropDown"] = ArenaPrepFrame2DropDown -- inherited
 ArenaPrepFrame2["CastingBar"] = ArenaPrepFrame2CastingBar -- inherited
 ArenaPrepFrame2["classPortrait"] = ArenaPrepFrame2ClassPortrait -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaPrepFrame3DropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaPrepFrame3DropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaPrepFrame3DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame3DropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaPrepFrame3DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame3DropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaPrepFrame3DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame3DropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaPrepFrame3DropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaPrepFrame3DropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaPrepFrame3DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame3DropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L163)
---- child of ArenaPrepFrame3 (created in template ArenaPrepFrameTemplate)
---- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown
-ArenaPrepFrame3DropDown = {}
-ArenaPrepFrame3DropDown["Button"] = ArenaPrepFrame3DropDownButton -- inherited
-ArenaPrepFrame3DropDown["Left"] = ArenaPrepFrame3DropDownLeft -- inherited
-ArenaPrepFrame3DropDown["Middle"] = ArenaPrepFrame3DropDownMiddle -- inherited
-ArenaPrepFrame3DropDown["Right"] = ArenaPrepFrame3DropDownRight -- inherited
-ArenaPrepFrame3DropDown["Text"] = ArenaPrepFrame3DropDownText -- inherited
-ArenaPrepFrame3DropDown["Icon"] = ArenaPrepFrame3DropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- child of ArenaPrepFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar
 ArenaPrepFrame3HealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
 --- child of ArenaPrepFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar
 ArenaPrepFrame3ManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
 --- child of ArenaPrepFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 ArenaPrepFrame3CastingBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L141)
 --- child of ArenaPrepFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame3ClassPortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
 --- child of ArenaPrepFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame3Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L357)
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrames_ArenaPrepFrame3 : Button, ArenaPrepFrameTemplate
 ArenaPrepFrame3 = {}
-ArenaPrepFrame3["DropDown"] = ArenaPrepFrame3DropDown -- inherited
 ArenaPrepFrame3["CastingBar"] = ArenaPrepFrame3CastingBar -- inherited
 ArenaPrepFrame3["classPortrait"] = ArenaPrepFrame3ClassPortrait -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaPrepFrame4DropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaPrepFrame4DropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaPrepFrame4DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame4DropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaPrepFrame4DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame4DropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaPrepFrame4DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame4DropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaPrepFrame4DropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaPrepFrame4DropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaPrepFrame4DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame4DropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L163)
---- child of ArenaPrepFrame4 (created in template ArenaPrepFrameTemplate)
---- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown
-ArenaPrepFrame4DropDown = {}
-ArenaPrepFrame4DropDown["Button"] = ArenaPrepFrame4DropDownButton -- inherited
-ArenaPrepFrame4DropDown["Left"] = ArenaPrepFrame4DropDownLeft -- inherited
-ArenaPrepFrame4DropDown["Middle"] = ArenaPrepFrame4DropDownMiddle -- inherited
-ArenaPrepFrame4DropDown["Right"] = ArenaPrepFrame4DropDownRight -- inherited
-ArenaPrepFrame4DropDown["Text"] = ArenaPrepFrame4DropDownText -- inherited
-ArenaPrepFrame4DropDown["Icon"] = ArenaPrepFrame4DropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- child of ArenaPrepFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar
 ArenaPrepFrame4HealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
 --- child of ArenaPrepFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar
 ArenaPrepFrame4ManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
 --- child of ArenaPrepFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 ArenaPrepFrame4CastingBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L141)
 --- child of ArenaPrepFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame4ClassPortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
 --- child of ArenaPrepFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame4Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L363)
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrames_ArenaPrepFrame4 : Button, ArenaPrepFrameTemplate
 ArenaPrepFrame4 = {}
-ArenaPrepFrame4["DropDown"] = ArenaPrepFrame4DropDown -- inherited
 ArenaPrepFrame4["CastingBar"] = ArenaPrepFrame4CastingBar -- inherited
 ArenaPrepFrame4["classPortrait"] = ArenaPrepFrame4ClassPortrait -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaPrepFrame5DropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaPrepFrame5DropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaPrepFrame5DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame5DropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaPrepFrame5DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame5DropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaPrepFrame5DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame5DropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaPrepFrame5DropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaPrepFrame5DropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaPrepFrame5DropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaPrepFrame5DropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L163)
---- child of ArenaPrepFrame5 (created in template ArenaPrepFrameTemplate)
---- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown
-ArenaPrepFrame5DropDown = {}
-ArenaPrepFrame5DropDown["Button"] = ArenaPrepFrame5DropDownButton -- inherited
-ArenaPrepFrame5DropDown["Left"] = ArenaPrepFrame5DropDownLeft -- inherited
-ArenaPrepFrame5DropDown["Middle"] = ArenaPrepFrame5DropDownMiddle -- inherited
-ArenaPrepFrame5DropDown["Right"] = ArenaPrepFrame5DropDownRight -- inherited
-ArenaPrepFrame5DropDown["Text"] = ArenaPrepFrame5DropDownText -- inherited
-ArenaPrepFrame5DropDown["Icon"] = ArenaPrepFrame5DropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- child of ArenaPrepFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar
 ArenaPrepFrame5HealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
 --- child of ArenaPrepFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar
 ArenaPrepFrame5ManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
 --- child of ArenaPrepFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 ArenaPrepFrame5CastingBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L141)
 --- child of ArenaPrepFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame5ClassPortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
 --- child of ArenaPrepFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame5Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L369)
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrames_ArenaPrepFrame5 : Button, ArenaPrepFrameTemplate
 ArenaPrepFrame5 = {}
-ArenaPrepFrame5["DropDown"] = ArenaPrepFrame5DropDown -- inherited
 ArenaPrepFrame5["CastingBar"] = ArenaPrepFrame5CastingBar -- inherited
 ArenaPrepFrame5["classPortrait"] = ArenaPrepFrame5ClassPortrait -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L375)
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrames_ArenaPrepBackground : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_ARENA_32_32
 ArenaPrepBackground = {}
 ArenaPrepBackground["backdropInfo"] = BACKDROP_ARENA_32_32
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L351)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L339)
 --- @class ArenaPrepFrames : Frame
 ArenaPrepFrames = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaEnemyFrameTemplateDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaEnemyFrameTemplateDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L163)
---- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
---- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown
-ArenaEnemyFrameTemplateDropDown = {}
-ArenaEnemyFrameTemplateDropDown["Button"] = ArenaEnemyFrameTemplateDropDownButton -- inherited
-ArenaEnemyFrameTemplateDropDown["Left"] = ArenaEnemyFrameTemplateDropDownLeft -- inherited
-ArenaEnemyFrameTemplateDropDown["Middle"] = ArenaEnemyFrameTemplateDropDownMiddle -- inherited
-ArenaEnemyFrameTemplateDropDown["Right"] = ArenaEnemyFrameTemplateDropDownRight -- inherited
-ArenaEnemyFrameTemplateDropDown["Text"] = ArenaEnemyFrameTemplateDropDownText -- inherited
-ArenaEnemyFrameTemplateDropDown["Icon"] = ArenaEnemyFrameTemplateDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar
 ArenaEnemyFrameTemplateHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar
 ArenaEnemyFrameTemplateManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 ArenaEnemyFrameTemplateCastingBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L141)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrameTemplateClassPortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrameTemplateBackground = {}
@@ -608,49 +335,6 @@ ArenaEnemyFrame1PetFrameHealthBar = {}
 --- @type ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateManaBar
 ArenaEnemyFrame1PetFrameManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaEnemyFrame1PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaEnemyFrame1PetFrameDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaEnemyFrame1PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame1PetFrameDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaEnemyFrame1PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame1PetFrameDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaEnemyFrame1PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame1PetFrameDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaEnemyFrame1PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaEnemyFrame1PetFrameDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaEnemyFrame1PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame1PetFrameDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L128)
---- child of ArenaEnemyFrame1PetFrame (created in template ArenaEnemyPetFrameTemplate)
---- @type ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateDropDown
-ArenaEnemyFrame1PetFrameDropDown = {}
-ArenaEnemyFrame1PetFrameDropDown["Button"] = ArenaEnemyFrame1PetFrameDropDownButton -- inherited
-ArenaEnemyFrame1PetFrameDropDown["Left"] = ArenaEnemyFrame1PetFrameDropDownLeft -- inherited
-ArenaEnemyFrame1PetFrameDropDown["Middle"] = ArenaEnemyFrame1PetFrameDropDownMiddle -- inherited
-ArenaEnemyFrame1PetFrameDropDown["Right"] = ArenaEnemyFrame1PetFrameDropDownRight -- inherited
-ArenaEnemyFrame1PetFrameDropDown["Text"] = ArenaEnemyFrame1PetFrameDropDownText -- inherited
-ArenaEnemyFrame1PetFrameDropDown["Icon"] = ArenaEnemyFrame1PetFrameDropDownIcon -- inherited
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L64)
 --- child of ArenaEnemyFrame1PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
@@ -661,85 +345,40 @@ ArenaEnemyFrame1PetFrameFlash = {}
 --- @type Texture
 ArenaEnemyFrame1PetFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L315)
 --- child of ArenaEnemyFrame1 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_ArenaEnemyFrameTemplatePetFrame
 ArenaEnemyFrame1PetFrame = {}
-ArenaEnemyFrame1PetFrame["DropDown"] = ArenaEnemyFrame1PetFrameDropDown -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L417)
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrames_ArenaEnemyFrame1 : Button, ArenaEnemyFrameTemplate
 ArenaEnemyFrame1 = {}
-ArenaEnemyFrame1["DropDown"] = ArenaEnemyFrameTemplateDropDown -- inherited
 ArenaEnemyFrame1["CastingBar"] = ArenaEnemyFrameTemplateCastingBar -- inherited
 ArenaEnemyFrame1["classPortrait"] = ArenaEnemyFrameTemplateClassPortrait -- inherited
 ArenaEnemyFrame1["petFrame"] = ArenaEnemyFrame1PetFrame -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaEnemyFrameTemplateDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaEnemyFrameTemplateDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L163)
---- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
---- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown
-ArenaEnemyFrameTemplateDropDown = {}
-ArenaEnemyFrameTemplateDropDown["Button"] = ArenaEnemyFrameTemplateDropDownButton -- inherited
-ArenaEnemyFrameTemplateDropDown["Left"] = ArenaEnemyFrameTemplateDropDownLeft -- inherited
-ArenaEnemyFrameTemplateDropDown["Middle"] = ArenaEnemyFrameTemplateDropDownMiddle -- inherited
-ArenaEnemyFrameTemplateDropDown["Right"] = ArenaEnemyFrameTemplateDropDownRight -- inherited
-ArenaEnemyFrameTemplateDropDown["Text"] = ArenaEnemyFrameTemplateDropDownText -- inherited
-ArenaEnemyFrameTemplateDropDown["Icon"] = ArenaEnemyFrameTemplateDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar
 ArenaEnemyFrameTemplateHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar
 ArenaEnemyFrameTemplateManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 ArenaEnemyFrameTemplateCastingBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L141)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrameTemplateClassPortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrameTemplateBackground = {}
@@ -754,49 +393,6 @@ ArenaEnemyFrame2PetFrameHealthBar = {}
 --- @type ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateManaBar
 ArenaEnemyFrame2PetFrameManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaEnemyFrame2PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaEnemyFrame2PetFrameDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaEnemyFrame2PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame2PetFrameDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaEnemyFrame2PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame2PetFrameDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaEnemyFrame2PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame2PetFrameDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaEnemyFrame2PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaEnemyFrame2PetFrameDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaEnemyFrame2PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame2PetFrameDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L128)
---- child of ArenaEnemyFrame2PetFrame (created in template ArenaEnemyPetFrameTemplate)
---- @type ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateDropDown
-ArenaEnemyFrame2PetFrameDropDown = {}
-ArenaEnemyFrame2PetFrameDropDown["Button"] = ArenaEnemyFrame2PetFrameDropDownButton -- inherited
-ArenaEnemyFrame2PetFrameDropDown["Left"] = ArenaEnemyFrame2PetFrameDropDownLeft -- inherited
-ArenaEnemyFrame2PetFrameDropDown["Middle"] = ArenaEnemyFrame2PetFrameDropDownMiddle -- inherited
-ArenaEnemyFrame2PetFrameDropDown["Right"] = ArenaEnemyFrame2PetFrameDropDownRight -- inherited
-ArenaEnemyFrame2PetFrameDropDown["Text"] = ArenaEnemyFrame2PetFrameDropDownText -- inherited
-ArenaEnemyFrame2PetFrameDropDown["Icon"] = ArenaEnemyFrame2PetFrameDropDownIcon -- inherited
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L64)
 --- child of ArenaEnemyFrame2PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
@@ -807,85 +403,40 @@ ArenaEnemyFrame2PetFrameFlash = {}
 --- @type Texture
 ArenaEnemyFrame2PetFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L315)
 --- child of ArenaEnemyFrame2 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_ArenaEnemyFrameTemplatePetFrame
 ArenaEnemyFrame2PetFrame = {}
-ArenaEnemyFrame2PetFrame["DropDown"] = ArenaEnemyFrame2PetFrameDropDown -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L435)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L423)
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrames_ArenaEnemyFrame2 : Button, ArenaEnemyFrameTemplate
 ArenaEnemyFrame2 = {}
-ArenaEnemyFrame2["DropDown"] = ArenaEnemyFrameTemplateDropDown -- inherited
 ArenaEnemyFrame2["CastingBar"] = ArenaEnemyFrameTemplateCastingBar -- inherited
 ArenaEnemyFrame2["classPortrait"] = ArenaEnemyFrameTemplateClassPortrait -- inherited
 ArenaEnemyFrame2["petFrame"] = ArenaEnemyFrame2PetFrame -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaEnemyFrameTemplateDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaEnemyFrameTemplateDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L163)
---- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
---- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown
-ArenaEnemyFrameTemplateDropDown = {}
-ArenaEnemyFrameTemplateDropDown["Button"] = ArenaEnemyFrameTemplateDropDownButton -- inherited
-ArenaEnemyFrameTemplateDropDown["Left"] = ArenaEnemyFrameTemplateDropDownLeft -- inherited
-ArenaEnemyFrameTemplateDropDown["Middle"] = ArenaEnemyFrameTemplateDropDownMiddle -- inherited
-ArenaEnemyFrameTemplateDropDown["Right"] = ArenaEnemyFrameTemplateDropDownRight -- inherited
-ArenaEnemyFrameTemplateDropDown["Text"] = ArenaEnemyFrameTemplateDropDownText -- inherited
-ArenaEnemyFrameTemplateDropDown["Icon"] = ArenaEnemyFrameTemplateDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar
 ArenaEnemyFrameTemplateHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar
 ArenaEnemyFrameTemplateManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 ArenaEnemyFrameTemplateCastingBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L141)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrameTemplateClassPortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrameTemplateBackground = {}
@@ -900,49 +451,6 @@ ArenaEnemyFrame3PetFrameHealthBar = {}
 --- @type ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateManaBar
 ArenaEnemyFrame3PetFrameManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaEnemyFrame3PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaEnemyFrame3PetFrameDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaEnemyFrame3PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame3PetFrameDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaEnemyFrame3PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame3PetFrameDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaEnemyFrame3PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame3PetFrameDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaEnemyFrame3PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaEnemyFrame3PetFrameDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaEnemyFrame3PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame3PetFrameDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L128)
---- child of ArenaEnemyFrame3PetFrame (created in template ArenaEnemyPetFrameTemplate)
---- @type ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateDropDown
-ArenaEnemyFrame3PetFrameDropDown = {}
-ArenaEnemyFrame3PetFrameDropDown["Button"] = ArenaEnemyFrame3PetFrameDropDownButton -- inherited
-ArenaEnemyFrame3PetFrameDropDown["Left"] = ArenaEnemyFrame3PetFrameDropDownLeft -- inherited
-ArenaEnemyFrame3PetFrameDropDown["Middle"] = ArenaEnemyFrame3PetFrameDropDownMiddle -- inherited
-ArenaEnemyFrame3PetFrameDropDown["Right"] = ArenaEnemyFrame3PetFrameDropDownRight -- inherited
-ArenaEnemyFrame3PetFrameDropDown["Text"] = ArenaEnemyFrame3PetFrameDropDownText -- inherited
-ArenaEnemyFrame3PetFrameDropDown["Icon"] = ArenaEnemyFrame3PetFrameDropDownIcon -- inherited
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L64)
 --- child of ArenaEnemyFrame3PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
@@ -953,85 +461,40 @@ ArenaEnemyFrame3PetFrameFlash = {}
 --- @type Texture
 ArenaEnemyFrame3PetFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L315)
 --- child of ArenaEnemyFrame3 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_ArenaEnemyFrameTemplatePetFrame
 ArenaEnemyFrame3PetFrame = {}
-ArenaEnemyFrame3PetFrame["DropDown"] = ArenaEnemyFrame3PetFrameDropDown -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L429)
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrames_ArenaEnemyFrame3 : Button, ArenaEnemyFrameTemplate
 ArenaEnemyFrame3 = {}
-ArenaEnemyFrame3["DropDown"] = ArenaEnemyFrameTemplateDropDown -- inherited
 ArenaEnemyFrame3["CastingBar"] = ArenaEnemyFrameTemplateCastingBar -- inherited
 ArenaEnemyFrame3["classPortrait"] = ArenaEnemyFrameTemplateClassPortrait -- inherited
 ArenaEnemyFrame3["petFrame"] = ArenaEnemyFrame3PetFrame -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaEnemyFrameTemplateDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaEnemyFrameTemplateDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L163)
---- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
---- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown
-ArenaEnemyFrameTemplateDropDown = {}
-ArenaEnemyFrameTemplateDropDown["Button"] = ArenaEnemyFrameTemplateDropDownButton -- inherited
-ArenaEnemyFrameTemplateDropDown["Left"] = ArenaEnemyFrameTemplateDropDownLeft -- inherited
-ArenaEnemyFrameTemplateDropDown["Middle"] = ArenaEnemyFrameTemplateDropDownMiddle -- inherited
-ArenaEnemyFrameTemplateDropDown["Right"] = ArenaEnemyFrameTemplateDropDownRight -- inherited
-ArenaEnemyFrameTemplateDropDown["Text"] = ArenaEnemyFrameTemplateDropDownText -- inherited
-ArenaEnemyFrameTemplateDropDown["Icon"] = ArenaEnemyFrameTemplateDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar
 ArenaEnemyFrameTemplateHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar
 ArenaEnemyFrameTemplateManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 ArenaEnemyFrameTemplateCastingBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L141)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrameTemplateClassPortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrameTemplateBackground = {}
@@ -1046,49 +509,6 @@ ArenaEnemyFrame4PetFrameHealthBar = {}
 --- @type ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateManaBar
 ArenaEnemyFrame4PetFrameManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaEnemyFrame4PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaEnemyFrame4PetFrameDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaEnemyFrame4PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame4PetFrameDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaEnemyFrame4PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame4PetFrameDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaEnemyFrame4PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame4PetFrameDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaEnemyFrame4PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaEnemyFrame4PetFrameDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaEnemyFrame4PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame4PetFrameDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L128)
---- child of ArenaEnemyFrame4PetFrame (created in template ArenaEnemyPetFrameTemplate)
---- @type ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateDropDown
-ArenaEnemyFrame4PetFrameDropDown = {}
-ArenaEnemyFrame4PetFrameDropDown["Button"] = ArenaEnemyFrame4PetFrameDropDownButton -- inherited
-ArenaEnemyFrame4PetFrameDropDown["Left"] = ArenaEnemyFrame4PetFrameDropDownLeft -- inherited
-ArenaEnemyFrame4PetFrameDropDown["Middle"] = ArenaEnemyFrame4PetFrameDropDownMiddle -- inherited
-ArenaEnemyFrame4PetFrameDropDown["Right"] = ArenaEnemyFrame4PetFrameDropDownRight -- inherited
-ArenaEnemyFrame4PetFrameDropDown["Text"] = ArenaEnemyFrame4PetFrameDropDownText -- inherited
-ArenaEnemyFrame4PetFrameDropDown["Icon"] = ArenaEnemyFrame4PetFrameDropDownIcon -- inherited
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L64)
 --- child of ArenaEnemyFrame4PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
@@ -1099,85 +519,40 @@ ArenaEnemyFrame4PetFrameFlash = {}
 --- @type Texture
 ArenaEnemyFrame4PetFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L315)
 --- child of ArenaEnemyFrame4 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_ArenaEnemyFrameTemplatePetFrame
 ArenaEnemyFrame4PetFrame = {}
-ArenaEnemyFrame4PetFrame["DropDown"] = ArenaEnemyFrame4PetFrameDropDown -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L447)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L435)
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrames_ArenaEnemyFrame4 : Button, ArenaEnemyFrameTemplate
 ArenaEnemyFrame4 = {}
-ArenaEnemyFrame4["DropDown"] = ArenaEnemyFrameTemplateDropDown -- inherited
 ArenaEnemyFrame4["CastingBar"] = ArenaEnemyFrameTemplateCastingBar -- inherited
 ArenaEnemyFrame4["classPortrait"] = ArenaEnemyFrameTemplateClassPortrait -- inherited
 ArenaEnemyFrame4["petFrame"] = ArenaEnemyFrame4PetFrame -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaEnemyFrameTemplateDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaEnemyFrameTemplateDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaEnemyFrameTemplateDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrameTemplateDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L163)
---- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
---- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateDropDown
-ArenaEnemyFrameTemplateDropDown = {}
-ArenaEnemyFrameTemplateDropDown["Button"] = ArenaEnemyFrameTemplateDropDownButton -- inherited
-ArenaEnemyFrameTemplateDropDown["Left"] = ArenaEnemyFrameTemplateDropDownLeft -- inherited
-ArenaEnemyFrameTemplateDropDown["Middle"] = ArenaEnemyFrameTemplateDropDownMiddle -- inherited
-ArenaEnemyFrameTemplateDropDown["Right"] = ArenaEnemyFrameTemplateDropDownRight -- inherited
-ArenaEnemyFrameTemplateDropDown["Text"] = ArenaEnemyFrameTemplateDropDownText -- inherited
-ArenaEnemyFrameTemplateDropDown["Icon"] = ArenaEnemyFrameTemplateDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L243)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateHealthBar
 ArenaEnemyFrameTemplateHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L266)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateManaBar
 ArenaEnemyFrameTemplateManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L287)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ArenaPrepFrameTemplateCastingBar
 ArenaEnemyFrameTemplateCastingBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L141)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrameTemplateClassPortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L147)
 --- child of ArenaEnemyFrameTemplate (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrameTemplateBackground = {}
@@ -1192,49 +567,6 @@ ArenaEnemyFrame5PetFrameHealthBar = {}
 --- @type ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateManaBar
 ArenaEnemyFrame5PetFrameManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L284)
---- child of ArenaEnemyFrame5PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArenaEnemyFrame5PetFrameDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L226)
---- child of ArenaEnemyFrame5PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame5PetFrameDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L239)
---- child of ArenaEnemyFrame5PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame5PetFrameDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L248)
---- child of ArenaEnemyFrame5PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame5PetFrameDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L257)
---- child of ArenaEnemyFrame5PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArenaEnemyFrame5PetFrameDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L271)
---- child of ArenaEnemyFrame5PetFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArenaEnemyFrame5PetFrameDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L128)
---- child of ArenaEnemyFrame5PetFrame (created in template ArenaEnemyPetFrameTemplate)
---- @type ArenaEnemyPetFrameTemplate_ArenaEnemyPetFrameTemplateDropDown
-ArenaEnemyFrame5PetFrameDropDown = {}
-ArenaEnemyFrame5PetFrameDropDown["Button"] = ArenaEnemyFrame5PetFrameDropDownButton -- inherited
-ArenaEnemyFrame5PetFrameDropDown["Left"] = ArenaEnemyFrame5PetFrameDropDownLeft -- inherited
-ArenaEnemyFrame5PetFrameDropDown["Middle"] = ArenaEnemyFrame5PetFrameDropDownMiddle -- inherited
-ArenaEnemyFrame5PetFrameDropDown["Right"] = ArenaEnemyFrame5PetFrameDropDownRight -- inherited
-ArenaEnemyFrame5PetFrameDropDown["Text"] = ArenaEnemyFrame5PetFrameDropDownText -- inherited
-ArenaEnemyFrame5PetFrameDropDown["Icon"] = ArenaEnemyFrame5PetFrameDropDownIcon -- inherited
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L64)
 --- child of ArenaEnemyFrame5PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
@@ -1245,29 +577,27 @@ ArenaEnemyFrame5PetFrameFlash = {}
 --- @type Texture
 ArenaEnemyFrame5PetFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L315)
 --- child of ArenaEnemyFrame5 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_ArenaEnemyFrameTemplatePetFrame
 ArenaEnemyFrame5PetFrame = {}
-ArenaEnemyFrame5PetFrame["DropDown"] = ArenaEnemyFrame5PetFrameDropDown -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L441)
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrames_ArenaEnemyFrame5 : Button, ArenaEnemyFrameTemplate
 ArenaEnemyFrame5 = {}
-ArenaEnemyFrame5["DropDown"] = ArenaEnemyFrameTemplateDropDown -- inherited
 ArenaEnemyFrame5["CastingBar"] = ArenaEnemyFrameTemplateCastingBar -- inherited
 ArenaEnemyFrame5["classPortrait"] = ArenaEnemyFrameTemplateClassPortrait -- inherited
 ArenaEnemyFrame5["petFrame"] = ArenaEnemyFrame5PetFrame -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L459)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L447)
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrames_ArenaEnemyBackground : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_ARENA_32_32
 ArenaEnemyBackground = {}
 ArenaEnemyBackground["backdropInfo"] = BACKDROP_ARENA_32_32
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L411)
 --- @class ArenaEnemyFrames : Frame
 ArenaEnemyFrames = {}
 

@@ -15,59 +15,59 @@
 --- @field count CommunitiesGuildChallengeTemplate_count
 --- @field check Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L163)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateMOTDScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideTrackIfThumbExceedsTrack boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L191)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge1 : Frame, CommunitiesGuildChallengeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L196)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge2 : Frame, CommunitiesGuildChallengeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L201)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge3 : Frame, CommunitiesGuildChallengeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L204)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L206)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge4 : Frame, CommunitiesGuildChallengeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L211)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_EditMOTDButton : Button
 --- @field editType string # "motd"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L227)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L229)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_EditDetailsButton : Button
 --- @field editType string # "info"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L245)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L247)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_DetailsFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L61)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L63)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_TitleText : FontString, GameFontNormalMed1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L140)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L142)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateHeader1Label : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L148)
+--- child of CommunitiesGuildInfoFrameTemplate
+--- @class CommunitiesGuildInfoFrameTemplate_Header2Label : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L154)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class  : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L152)
---- child of CommunitiesGuildInfoFrameTemplate
---- @class  : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L60)
 --- Template
 --- @class CommunitiesGuildInfoFrameTemplate : Frame
 --- @field MOTDScrollFrame CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateMOTDScrollFrame
@@ -75,86 +75,92 @@
 --- @field EditDetailsButton CommunitiesGuildInfoFrameTemplate_EditDetailsButton
 --- @field DetailsFrame CommunitiesGuildInfoFrameTemplate_DetailsFrame
 --- @field TitleText CommunitiesGuildInfoFrameTemplate_TitleText
+--- @field Bar1Left Texture
+--- @field HorizontalBar Texture
 --- @field Header1 Texture
+--- @field Header2 Texture
+--- @field BG Texture
+--- @field Header1Label CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateHeader1Label
+--- @field Header2Label CommunitiesGuildInfoFrameTemplate_Header2Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L302)
 --- child of CommunitiesGuildTextEditFrame
 --- @class CommunitiesGuildTextEditFrame_CommunitiesGuildTextEditFrameCloseButton : Button, UIPanelCloseButton
 CommunitiesGuildTextEditFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L318)
 --- child of 
 --- @class CommunitiesGuildTextEditFrame_Container_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 6
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L307)
 --- child of CommunitiesGuildTextEditFrame
 --- @class CommunitiesGuildTextEditFrame_Container : Frame, TooltipBackdropTemplate
 --- @field backdropColor any # BLACK_FONT_COLOR
 --- @field ScrollFrame CommunitiesGuildTextEditFrame_Container_ScrollFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L357)
 --- child of CommunitiesGuildTextEditFrame
 --- @class CommunitiesGuildTextEditFrame_CommunitiesGuildTextEditFrameAcceptButton : Button, UIPanelButtonTemplate
 CommunitiesGuildTextEditFrameAcceptButton = {}
 CommunitiesGuildTextEditFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L364)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L366)
 --- child of CommunitiesGuildTextEditFrame
 --- @class CommunitiesGuildTextEditFrame_CommunitiesGuildTextEditFrameCloseButton : Button, UIPanelButtonTemplate
 CommunitiesGuildTextEditFrameCloseButton = {}
 CommunitiesGuildTextEditFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L294)
 --- child of CommunitiesGuildTextEditFrame
 --- @class CommunitiesGuildTextEditFrame_Title : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1560)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1331)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type Texture
 CommunitiesGuildTextEditFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1340)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopLeftCorner
 CommunitiesGuildTextEditFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1574)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1345)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopRightCorner
 CommunitiesGuildTextEditFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1579)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1350)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomLeftCorner
 CommunitiesGuildTextEditFrameBottomLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1584)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1355)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomRightCorner
 CommunitiesGuildTextEditFrameBottomRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1589)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1360)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopBorder
 CommunitiesGuildTextEditFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1366)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomBorder
 CommunitiesGuildTextEditFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1372)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateLeftBorder
 CommunitiesGuildTextEditFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1378)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateRightBorder
 CommunitiesGuildTextEditFrameRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L290)
 --- @class CommunitiesGuildTextEditFrame : Frame, TranslucentFrameTemplate
 --- @field Container CommunitiesGuildTextEditFrame_Container
 --- @field Title CommunitiesGuildTextEditFrame_Title
@@ -169,78 +175,78 @@ CommunitiesGuildTextEditFrame["BottomBorder"] = CommunitiesGuildTextEditFrameBot
 CommunitiesGuildTextEditFrame["LeftBorder"] = CommunitiesGuildTextEditFrameLeftBorder -- inherited
 CommunitiesGuildTextEditFrame["RightBorder"] = CommunitiesGuildTextEditFrameRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L395)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L397)
 --- child of CommunitiesGuildLogFrame
 --- @class CommunitiesGuildLogFrame_CommunitiesGuildLogFrameCloseButton : Button, UIPanelCloseButton
 CommunitiesGuildLogFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L413)
 --- child of 
 --- @class CommunitiesGuildLogFrame_Container_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L402)
 --- child of CommunitiesGuildLogFrame
 --- @class CommunitiesGuildLogFrame_Container : Frame, TooltipBackdropTemplate
 --- @field backdropColor any # BLACK_FONT_COLOR
 --- @field ScrollFrame CommunitiesGuildLogFrame_Container_ScrollFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L434)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L436)
 --- child of CommunitiesGuildLogFrame
 --- @class CommunitiesGuildLogFrame_CommunitiesGuildLogFrameCloseButton : Button, UIPanelButtonTemplate
 CommunitiesGuildLogFrameCloseButton = {}
 CommunitiesGuildLogFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L389)
 --- child of CommunitiesGuildLogFrame
 --- @class CommunitiesGuildLogFrame_CommunitiesGuildLogFrameTitle : FontString, GameFontNormal
 CommunitiesGuildLogFrameTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1560)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1331)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type Texture
 CommunitiesGuildLogFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1340)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopLeftCorner
 CommunitiesGuildLogFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1574)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1345)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopRightCorner
 CommunitiesGuildLogFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1579)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1350)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomLeftCorner
 CommunitiesGuildLogFrameBottomLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1584)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1355)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomRightCorner
 CommunitiesGuildLogFrameBottomRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1589)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1360)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopBorder
 CommunitiesGuildLogFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1366)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomBorder
 CommunitiesGuildLogFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1372)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateLeftBorder
 CommunitiesGuildLogFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1378)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateRightBorder
 CommunitiesGuildLogFrameRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L383)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L385)
 --- @class CommunitiesGuildLogFrame : Frame, TranslucentFrameTemplate
 --- @field Container CommunitiesGuildLogFrame_Container
 CommunitiesGuildLogFrame = {}

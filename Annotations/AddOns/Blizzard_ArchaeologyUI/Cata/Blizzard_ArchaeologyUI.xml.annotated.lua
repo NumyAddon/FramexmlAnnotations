@@ -36,48 +36,11 @@
 --- @class KeystoneTemplate : Button
 --- @field icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L284)
---- child of ArchaeologyFrameRaceFilter (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ArchaeologyFrameRaceFilterButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L226)
---- child of ArchaeologyFrameRaceFilter (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArchaeologyFrameRaceFilterLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L239)
---- child of ArchaeologyFrameRaceFilter (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArchaeologyFrameRaceFilterMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L248)
---- child of ArchaeologyFrameRaceFilter (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArchaeologyFrameRaceFilterRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L257)
---- child of ArchaeologyFrameRaceFilter (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ArchaeologyFrameRaceFilterText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L271)
---- child of ArchaeologyFrameRaceFilter (created in template UIDropDownMenuTemplate)
---- @type Texture
-ArchaeologyFrameRaceFilterIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L261)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameRaceFilter : Frame, UIDropDownMenuTemplate
+--- @class ArchaeologyFrame_ArchaeologyFrameRaceFilter : DropdownButton, WowStyle1DropdownTemplate
 ArchaeologyFrameRaceFilter = {}
-ArchaeologyFrameRaceFilter["Button"] = ArchaeologyFrameRaceFilterButton -- inherited
-ArchaeologyFrameRaceFilter["Left"] = ArchaeologyFrameRaceFilterLeft -- inherited
-ArchaeologyFrameRaceFilter["Middle"] = ArchaeologyFrameRaceFilterMiddle -- inherited
-ArchaeologyFrameRaceFilter["Right"] = ArchaeologyFrameRaceFilterRight -- inherited
-ArchaeologyFrameRaceFilter["Text"] = ArchaeologyFrameRaceFilterText -- inherited
-ArchaeologyFrameRaceFilter["Icon"] = ArchaeologyFrameRaceFilterIcon -- inherited
+ArchaeologyFrameRaceFilter["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L283)
 --- child of ArchaeologyFrameRankBar
@@ -250,7 +213,7 @@ ArchaeologyFrameSummaryPageRace12Glow = {}
 ArchaeologyFrameSummaryPageRace12 = {}
 ArchaeologyFrameSummaryPageRace12["glow"] = ArchaeologyFrameSummaryPageRace12Glow -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L200)
 --- child of ArchaeologyFrameSummaryPagePrevPageButton (created in template UIPanelSquareButton)
 --- @type Texture
 ArchaeologyFrameSummaryPagePrevPageButtonIcon = {}
@@ -261,7 +224,7 @@ ArchaeologyFrameSummaryPagePrevPageButtonIcon = {}
 ArchaeologyFrameSummaryPagePrevPageButton = {}
 ArchaeologyFrameSummaryPagePrevPageButton["icon"] = ArchaeologyFrameSummaryPagePrevPageButtonIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L200)
 --- child of ArchaeologyFrameSummaryPageNextPageButton (created in template UIPanelSquareButton)
 --- @type Texture
 ArchaeologyFrameSummaryPageNextPageButtonIcon = {}
@@ -725,7 +688,7 @@ ArchaeologyFrameCompletedPageArtifact12["icon"] = ArchaeologyFrameCompletedPageA
 ArchaeologyFrameCompletedPageArtifact12["artifactName"] = ArchaeologyFrameCompletedPageArtifact12ArtifactName -- inherited
 ArchaeologyFrameCompletedPageArtifact12["artifactSubText"] = ArchaeologyFrameCompletedPageArtifact12ArtifactSubText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L200)
 --- child of ArchaeologyFrameCompletedPagePrevPageButton (created in template UIPanelSquareButton)
 --- @type Texture
 ArchaeologyFrameCompletedPagePrevPageButtonIcon = {}
@@ -736,7 +699,7 @@ ArchaeologyFrameCompletedPagePrevPageButtonIcon = {}
 ArchaeologyFrameCompletedPagePrevPageButton = {}
 ArchaeologyFrameCompletedPagePrevPageButton["icon"] = ArchaeologyFrameCompletedPagePrevPageButtonIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L200)
 --- child of ArchaeologyFrameCompletedPageNextPageButton (created in template UIPanelSquareButton)
 --- @type Texture
 ArchaeologyFrameCompletedPageNextPageButtonIcon = {}
@@ -991,7 +954,7 @@ ArchaeologyFrameArtifactPage["raceRarity"] = ArchaeologyFrameArtifactPageArtifac
 ArchaeologyFrameArtifactPage["raceBG"] = ArchaeologyFrameArtifactPageRaceBG
 ArchaeologyFrameArtifactPage["artifactBG"] = ArchaeologyFrameArtifactPageArtifactBG
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L152)
 --- child of ArchaeologyFrameInfoButton (created in template UIPanelInfoButton)
 --- @type Texture
 ArchaeologyFrameInfoButtonTexture = {}
@@ -1197,7 +1160,7 @@ ArchaeologyFrameButtonBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L236)
 --- @class ArchaeologyFrame : Frame, ButtonFrameTemplate
---- @field raceFilterDropDown ArchaeologyFrame_ArchaeologyFrameRaceFilter
+--- @field RaceFilterDropdown ArchaeologyFrame_ArchaeologyFrameRaceFilter
 --- @field rankBar ArchaeologyFrame_ArchaeologyFrameRankBar
 --- @field tab1 ArchaeologyFrame_ArchaeologyFrameSummarytButton
 --- @field tab2 ArchaeologyFrame_ArchaeologyFrameCompletedButton
@@ -1210,7 +1173,7 @@ ArchaeologyFrameButtonBottomBorder = {}
 --- @field bgLeft ArchaeologyFrame_ArchaeologyFrameBgLeft
 --- @field bgRight ArchaeologyFrame_ArchaeologyFrameBgRight
 ArchaeologyFrame = {}
-ArchaeologyFrame["raceFilterDropDown"] = ArchaeologyFrameRaceFilter
+ArchaeologyFrame["RaceFilterDropdown"] = ArchaeologyFrameRaceFilter
 ArchaeologyFrame["rankBar"] = ArchaeologyFrameRankBar
 ArchaeologyFrame["tab1"] = ArchaeologyFrameSummarytButton
 ArchaeologyFrame["tab2"] = ArchaeologyFrameCompletedButton

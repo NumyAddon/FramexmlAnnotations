@@ -19,5 +19,5 @@ function QueueStatusFrameMixin:GetEntry(entryIndex) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.lua#L88)
 function QueueStatusFrameMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.lua#L192)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.lua#L181)
 function QueueStatusFrameMixin:UpdatePosition(microMenuPosition, isMenuHorizontal) end

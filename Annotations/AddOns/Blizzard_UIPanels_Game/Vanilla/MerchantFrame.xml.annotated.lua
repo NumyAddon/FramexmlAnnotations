@@ -1698,17 +1698,17 @@ MerchantMoneyInset["InsetBorderBottom"] = MerchantMoneyInsetInsetBottomBorder --
 MerchantMoneyInset["InsetBorderLeft"] = MerchantMoneyInsetInsetLeftBorder -- inherited
 MerchantMoneyInset["InsetBorderRight"] = MerchantMoneyInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L1894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L1665)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantMoneyBgLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L1902)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L1673)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantMoneyBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L1910)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L1681)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantMoneyBgMiddle = {}
@@ -1795,7 +1795,7 @@ MerchantFrameTab1Middle = {}
 --- @type Texture
 MerchantFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L113)
 --- child of MerchantFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 MerchantFrameTab1HighlightTexture = {}
@@ -1835,7 +1835,7 @@ MerchantFrameTab2Middle = {}
 --- @type Texture
 MerchantFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/MerchantFrame.xml#L113)
 --- child of MerchantFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 MerchantFrameTab2HighlightTexture = {}

@@ -179,48 +179,9 @@ GlyphFrameSearchBoxSearchIcon = {}
 GlyphFrameSearchBox = {}
 GlyphFrameSearchBox["searchIcon"] = GlyphFrameSearchBoxSearchIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L284)
---- child of GlyphFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-GlyphFrameFilterDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L226)
---- child of GlyphFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-GlyphFrameFilterDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L239)
---- child of GlyphFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-GlyphFrameFilterDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L248)
---- child of GlyphFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-GlyphFrameFilterDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L257)
---- child of GlyphFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-GlyphFrameFilterDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L271)
---- child of GlyphFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-GlyphFrameFilterDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L459)
 --- child of GlyphFrame
---- @class GlyphFrame_GlyphFrameFilterDropDown : Frame, UIDropDownMenuTemplate
-GlyphFrameFilterDropDown = {}
-GlyphFrameFilterDropDown["Button"] = GlyphFrameFilterDropDownButton -- inherited
-GlyphFrameFilterDropDown["Left"] = GlyphFrameFilterDropDownLeft -- inherited
-GlyphFrameFilterDropDown["Middle"] = GlyphFrameFilterDropDownMiddle -- inherited
-GlyphFrameFilterDropDown["Right"] = GlyphFrameFilterDropDownRight -- inherited
-GlyphFrameFilterDropDown["Text"] = GlyphFrameFilterDropDownText -- inherited
-GlyphFrameFilterDropDown["Icon"] = GlyphFrameFilterDropDownIcon -- inherited
+--- @class GlyphFrame_FilterDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L15)
 --- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
@@ -257,7 +218,7 @@ GlyphFrameScrollFrameScrollBarScrollUpButton = {}
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
 GlyphFrameScrollFrameScrollBarScrollDownButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L479)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L471)
 --- child of GlyphFrameScrollFrame
 --- @class GlyphFrame_GlyphFrameScrollFrame_GlyphFrameScrollFrameScrollBar : Slider, HybridScrollBarTemplate
 GlyphFrameScrollFrameScrollBar = {}
@@ -269,325 +230,217 @@ GlyphFrameScrollFrameScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTex
 GlyphFrameScrollFrameScrollBar["ScrollUpButton"] = GlyphFrameScrollFrameScrollBarScrollUpButton -- inherited
 GlyphFrameScrollFrameScrollBar["ScrollDownButton"] = GlyphFrameScrollFrameScrollBarScrollDownButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L472)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L464)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameScrollFrame : ScrollFrame, HybridScrollFrameTemplate
 GlyphFrameScrollFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L11)
---- child of GlyphFrameGlyph2 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph2Setting = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L22)
---- child of GlyphFrameGlyph2 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph2Highlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L32)
---- child of GlyphFrameGlyph2 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph2Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L195)
 --- child of GlyphFrameGlyph2 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph2Glyph = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L205)
+--- child of GlyphFrameGlyph2 (created in template GlyphTemplate)
+--- @type Texture
+GlyphFrameGlyph2Highlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L214)
 --- child of GlyphFrameGlyph2 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph2Ring = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L62)
---- child of GlyphFrameGlyph2 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph2Shine = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L489)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L481)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameGlyph2 : Button, GlyphTemplate
 GlyphFrameGlyph2 = {}
+GlyphFrameGlyph2["glyph"] = GlyphFrameGlyph2Glyph -- inherited
+GlyphFrameGlyph2["highlight"] = GlyphFrameGlyph2Highlight -- inherited
+GlyphFrameGlyph2["ring"] = GlyphFrameGlyph2Ring -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L11)
---- child of GlyphFrameGlyph3 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph3Setting = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L22)
---- child of GlyphFrameGlyph3 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph3Highlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L32)
---- child of GlyphFrameGlyph3 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph3Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L195)
 --- child of GlyphFrameGlyph3 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph3Glyph = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L205)
+--- child of GlyphFrameGlyph3 (created in template GlyphTemplate)
+--- @type Texture
+GlyphFrameGlyph3Highlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L214)
 --- child of GlyphFrameGlyph3 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph3Ring = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L62)
---- child of GlyphFrameGlyph3 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph3Shine = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L494)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L486)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameGlyph3 : Button, GlyphTemplate
 GlyphFrameGlyph3 = {}
+GlyphFrameGlyph3["glyph"] = GlyphFrameGlyph3Glyph -- inherited
+GlyphFrameGlyph3["highlight"] = GlyphFrameGlyph3Highlight -- inherited
+GlyphFrameGlyph3["ring"] = GlyphFrameGlyph3Ring -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L11)
---- child of GlyphFrameGlyph5 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph5Setting = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L22)
---- child of GlyphFrameGlyph5 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph5Highlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L32)
---- child of GlyphFrameGlyph5 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph5Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L195)
 --- child of GlyphFrameGlyph5 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph5Glyph = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L205)
+--- child of GlyphFrameGlyph5 (created in template GlyphTemplate)
+--- @type Texture
+GlyphFrameGlyph5Highlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L214)
 --- child of GlyphFrameGlyph5 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph5Ring = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L62)
---- child of GlyphFrameGlyph5 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph5Shine = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L499)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L491)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameGlyph5 : Button, GlyphTemplate
 GlyphFrameGlyph5 = {}
+GlyphFrameGlyph5["glyph"] = GlyphFrameGlyph5Glyph -- inherited
+GlyphFrameGlyph5["highlight"] = GlyphFrameGlyph5Highlight -- inherited
+GlyphFrameGlyph5["ring"] = GlyphFrameGlyph5Ring -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L11)
---- child of GlyphFrameGlyph1 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph1Setting = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L22)
---- child of GlyphFrameGlyph1 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph1Highlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L32)
---- child of GlyphFrameGlyph1 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph1Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L195)
 --- child of GlyphFrameGlyph1 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph1Glyph = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L205)
+--- child of GlyphFrameGlyph1 (created in template GlyphTemplate)
+--- @type Texture
+GlyphFrameGlyph1Highlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L214)
 --- child of GlyphFrameGlyph1 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph1Ring = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L62)
---- child of GlyphFrameGlyph1 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph1Shine = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L506)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L498)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameGlyph1 : Button, GlyphTemplate
 GlyphFrameGlyph1 = {}
+GlyphFrameGlyph1["glyph"] = GlyphFrameGlyph1Glyph -- inherited
+GlyphFrameGlyph1["highlight"] = GlyphFrameGlyph1Highlight -- inherited
+GlyphFrameGlyph1["ring"] = GlyphFrameGlyph1Ring -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L11)
---- child of GlyphFrameGlyph4 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph4Setting = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L22)
---- child of GlyphFrameGlyph4 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph4Highlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L32)
---- child of GlyphFrameGlyph4 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph4Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L195)
 --- child of GlyphFrameGlyph4 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph4Glyph = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L205)
+--- child of GlyphFrameGlyph4 (created in template GlyphTemplate)
+--- @type Texture
+GlyphFrameGlyph4Highlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L214)
 --- child of GlyphFrameGlyph4 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph4Ring = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L62)
---- child of GlyphFrameGlyph4 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph4Shine = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L511)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L503)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameGlyph4 : Button, GlyphTemplate
 GlyphFrameGlyph4 = {}
+GlyphFrameGlyph4["glyph"] = GlyphFrameGlyph4Glyph -- inherited
+GlyphFrameGlyph4["highlight"] = GlyphFrameGlyph4Highlight -- inherited
+GlyphFrameGlyph4["ring"] = GlyphFrameGlyph4Ring -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L11)
---- child of GlyphFrameGlyph6 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph6Setting = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L22)
---- child of GlyphFrameGlyph6 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph6Highlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L32)
---- child of GlyphFrameGlyph6 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph6Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L195)
 --- child of GlyphFrameGlyph6 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph6Glyph = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L205)
+--- child of GlyphFrameGlyph6 (created in template GlyphTemplate)
+--- @type Texture
+GlyphFrameGlyph6Highlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L214)
 --- child of GlyphFrameGlyph6 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph6Ring = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L62)
---- child of GlyphFrameGlyph6 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph6Shine = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L508)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameGlyph6 : Button, GlyphTemplate
 GlyphFrameGlyph6 = {}
+GlyphFrameGlyph6["glyph"] = GlyphFrameGlyph6Glyph -- inherited
+GlyphFrameGlyph6["highlight"] = GlyphFrameGlyph6Highlight -- inherited
+GlyphFrameGlyph6["ring"] = GlyphFrameGlyph6Ring -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L11)
---- child of GlyphFrameGlyph7 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph7Setting = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L22)
---- child of GlyphFrameGlyph7 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph7Highlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L32)
---- child of GlyphFrameGlyph7 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph7Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L195)
 --- child of GlyphFrameGlyph7 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph7Glyph = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L205)
+--- child of GlyphFrameGlyph7 (created in template GlyphTemplate)
+--- @type Texture
+GlyphFrameGlyph7Highlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L214)
 --- child of GlyphFrameGlyph7 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph7Ring = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L62)
---- child of GlyphFrameGlyph7 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph7Shine = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L515)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameGlyph7 : Button, GlyphTemplate
 GlyphFrameGlyph7 = {}
+GlyphFrameGlyph7["glyph"] = GlyphFrameGlyph7Glyph -- inherited
+GlyphFrameGlyph7["highlight"] = GlyphFrameGlyph7Highlight -- inherited
+GlyphFrameGlyph7["ring"] = GlyphFrameGlyph7Ring -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L11)
---- child of GlyphFrameGlyph8 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph8Setting = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L22)
---- child of GlyphFrameGlyph8 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph8Highlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L32)
---- child of GlyphFrameGlyph8 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph8Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L195)
 --- child of GlyphFrameGlyph8 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph8Glyph = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L205)
+--- child of GlyphFrameGlyph8 (created in template GlyphTemplate)
+--- @type Texture
+GlyphFrameGlyph8Highlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L214)
 --- child of GlyphFrameGlyph8 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph8Ring = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L62)
---- child of GlyphFrameGlyph8 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph8Shine = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L520)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameGlyph8 : Button, GlyphTemplate
 GlyphFrameGlyph8 = {}
+GlyphFrameGlyph8["glyph"] = GlyphFrameGlyph8Glyph -- inherited
+GlyphFrameGlyph8["highlight"] = GlyphFrameGlyph8Highlight -- inherited
+GlyphFrameGlyph8["ring"] = GlyphFrameGlyph8Ring -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L11)
---- child of GlyphFrameGlyph9 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph9Setting = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L22)
---- child of GlyphFrameGlyph9 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph9Highlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L32)
---- child of GlyphFrameGlyph9 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph9Background = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L195)
 --- child of GlyphFrameGlyph9 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph9Glyph = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L205)
+--- child of GlyphFrameGlyph9 (created in template GlyphTemplate)
+--- @type Texture
+GlyphFrameGlyph9Highlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L214)
 --- child of GlyphFrameGlyph9 (created in template GlyphTemplate)
 --- @type Texture
 GlyphFrameGlyph9Ring = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L62)
---- child of GlyphFrameGlyph9 (created in template GlyphTemplate)
---- @type Texture
-GlyphFrameGlyph9Shine = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L533)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L525)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameGlyph9 : Button, GlyphTemplate
 GlyphFrameGlyph9 = {}
+GlyphFrameGlyph9["glyph"] = GlyphFrameGlyph9Glyph -- inherited
+GlyphFrameGlyph9["highlight"] = GlyphFrameGlyph9Highlight -- inherited
+GlyphFrameGlyph9["ring"] = GlyphFrameGlyph9Ring -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L118)
 --- child of GlyphFrameHeader1 (created in template GlyphHeaderButtonTemplate)
@@ -624,7 +477,7 @@ GlyphFrameHeader1Icon = {}
 --- @type GlyphHeaderButtonTemplate_GlyphHeaderButtonTemplateName
 GlyphFrameHeader1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L539)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L531)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameHeader1 : Button, GlyphHeaderButtonTemplate
 GlyphFrameHeader1 = {}
@@ -671,7 +524,7 @@ GlyphFrameHeader2Icon = {}
 --- @type GlyphHeaderButtonTemplate_GlyphHeaderButtonTemplateName
 GlyphFrameHeader2Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L533)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameHeader2 : Button, GlyphHeaderButtonTemplate
 GlyphFrameHeader2 = {}
@@ -718,7 +571,7 @@ GlyphFrameHeader3Icon = {}
 --- @type GlyphHeaderButtonTemplate_GlyphHeaderButtonTemplateName
 GlyphFrameHeader3Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L535)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameHeader3 : Button, GlyphHeaderButtonTemplate
 GlyphFrameHeader3 = {}
@@ -781,6 +634,7 @@ _G["$LevelOverlayText2"] = {}
 --- @class GlyphFrame : Frame
 --- @field sideInset GlyphFrame_GlyphFrameSideInset
 --- @field clearInfo GlyphFrame_GlyphFrameClearInfoFrame
+--- @field FilterDropdown GlyphFrame_FilterDropdown
 --- @field scrollFrame GlyphFrame_GlyphFrameScrollFrame
 --- @field background GlyphFrame_GlyphFrameBackground
 --- @field glow GlyphFrame_GlyphFrameGlow

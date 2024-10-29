@@ -326,42 +326,42 @@ PortraitFrameTemplateRightBorder = {}
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 EtherealFrameTemplateCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1435)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1206)
 --- child of ReforgingFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 ReforgingFrameCornerTL = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1442)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1213)
 --- child of ReforgingFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 ReforgingFrameCornerTR = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1449)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1220)
 --- child of ReforgingFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 ReforgingFrameCornerBL = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1456)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1227)
 --- child of ReforgingFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 ReforgingFrameCornerBR = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1236)
 --- child of ReforgingFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 ReforgingFrameLeftEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1473)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1244)
 --- child of ReforgingFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 ReforgingFrameRightEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1481)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1252)
 --- child of ReforgingFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 ReforgingFrameTopEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1489)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1260)
 --- child of ReforgingFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 ReforgingFrameBottomEdge = {}

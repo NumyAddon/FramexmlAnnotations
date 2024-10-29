@@ -1,2215 +1,2148 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L136)
---- @class UnitPopupCancelButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupCancelButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L174)
+--- @class UnitPopupAttachFrameMixin : UnitPopupButtonBaseMixin
+UnitPopupAttachFrameMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L145)
---- @class UnitPopupCloseButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupCloseButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L194)
+--- @class UnitPopupCheckboxButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupCheckboxButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L204)
+--- @class UnitPopupRadioButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupRadioButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L214)
 --- @class UnitPopupTradeButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTradeButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L252)
 --- @class UnitPopupInspectButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupInspectButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L275)
 --- @class UnitPopupTargetButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTargetButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L221)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L299)
 --- @class UnitPopupIgnoreButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupIgnoreButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L321)
 --- @class UnitPopupPopoutChatButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPopoutChatButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L258)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L345)
 --- @class UnitPopupDuelButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupDuelButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L371)
 --- @class UnitPopupPetBattleDuelButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPetBattleDuelButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L398)
 --- @class UnitPopupWhisperButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupWhisperButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L431)
 --- @class UnitPopupInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L377)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L456)
 --- @class UnitPopupSuggestInviteButtonMixin : UnitPopupInviteButtonMixin
 UnitPopupSuggestInviteButtonMixin = CreateFromMixins(UnitPopupInviteButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L470)
 --- @class UnitPopupRequestInviteButtonMixin : UnitPopupInviteButtonMixin
 UnitPopupRequestInviteButtonMixin = CreateFromMixins(UnitPopupInviteButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L403)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L484)
 --- @class UnitPopupUninviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupUninviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L427)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L513)
 --- @class UnitPopupFriendsButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupFriendsButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L433)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L519)
 --- @class UnitPopupRemoveFriendButtonMixin : UnitPopupFriendsButtonMixin
 UnitPopupRemoveFriendButtonMixin = CreateFromMixins(UnitPopupFriendsButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L444)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L532)
 --- @class UnitPopupSetNoteButtonMixin : UnitPopupFriendsButtonMixin
 UnitPopupSetNoteButtonMixin = CreateFromMixins(UnitPopupFriendsButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L456)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L545)
 --- @class UnitPopupRemoveBnetFriendButtonMixin : UnitPopupRemoveFriendButtonMixin
 UnitPopupRemoveBnetFriendButtonMixin = CreateFromMixins(UnitPopupRemoveFriendButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L477)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L566)
 --- @class UnitPopupSetBNetNoteButtonMixin : UnitPopupSetNoteButtonMixin
 UnitPopupSetBNetNoteButtonMixin = CreateFromMixins(UnitPopupSetNoteButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L485)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L574)
 --- @class UnitPopupViewBnetFriendsButtonMixin : UnitPopupFriendsButtonMixin
 UnitPopupViewBnetFriendsButtonMixin = CreateFromMixins(UnitPopupFriendsButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L584)
 --- @class UnitPopupBnetBlockButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupBnetBlockButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L526)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L613)
 --- @class UnitPopupBnetUnblockButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupBnetUnblockButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L638)
 --- @class UnitPopupBnetInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupBnetInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L581)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L666)
 --- @class UnitPopupBnetSuggestInviteButtonMixin : UnitPopupBnetInviteButtonMixin
 UnitPopupBnetSuggestInviteButtonMixin = CreateFromMixins(UnitPopupBnetInviteButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L680)
 --- @class UnitPopupBnetRequestInviteButtonMixin : UnitPopupBnetInviteButtonMixin
 UnitPopupBnetRequestInviteButtonMixin = CreateFromMixins(UnitPopupBnetInviteButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L694)
 --- @class UnitPopupBnetTargetButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupBnetTargetButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L733)
 --- @class UnitPopupVoteToKickButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupVoteToKickButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L653)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L772)
 --- @class UnitPopupPromoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L678)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L803)
 --- @class UnitPopupPromoteGuideButtonMixin : UnitPopupPromoteButtonMixin
 UnitPopupPromoteGuideButtonMixin = CreateFromMixins(UnitPopupPromoteButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L690)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L821)
 --- @class UnitPopupGuildPromoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L710)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L842)
 --- @class UnitPopupGuildLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L729)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L858)
 --- @class UnitPopupGuildGuildsLeaveButtonMixin : UnitPopupGuildLeaveButtonMixin
 UnitPopupGuildGuildsLeaveButtonMixin = CreateFromMixins(UnitPopupGuildLeaveButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L738)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L868)
 --- @class UnitPopupPartyLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPartyLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L760)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L895)
 --- @class UnitPopupPartyInstanceLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPartyInstanceLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L777)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L917)
 --- @class UnitPopupFollowButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupFollowButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L799)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L944)
 --- @class UnitPopupPetDismissButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPetDismissButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L819)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L966)
 --- @class UnitPopupPetAbandonButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPetAbandonButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L836)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L982)
 --- @class UnitPopupPetRenameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPetRenameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L852)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L997)
 --- @class UnitPopupPetShowInJournalButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPetShowInJournalButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L869)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1016)
 --- @class UnitPopupResetInstancesButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupResetInstancesButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1054)
 --- @class UnitPopupResetChallengeModeButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupResetChallengeModeButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L919)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1085)
 --- @class UnitPopupConvertToRaidButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupConvertToRaidButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L935)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1108)
 --- @class UnitPopupConvertToPartyButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupConvertToPartyButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L958)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1135)
 --- @class UnitPopupReportButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupReportButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L975)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1150)
 --- @class UnitPopupReportGroupMemberButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportGroupMemberButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1006)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1190)
 --- @class UnitPopupReportPvpScoreboardButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportPvpScoreboardButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1015)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1200)
 --- @class UnitPopupReportInWorldButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportInWorldButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1024)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1210)
 --- @class UnitPopupPvpReportGroupMemberButtonMixin : UnitPopupReportButtonMixin
 UnitPopupPvpReportGroupMemberButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1057)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1250)
 --- @class UnitPopupReportFriendButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportFriendButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1076)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1274)
 --- @class UnitPopupReportClubMemberButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportClubMemberButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1085)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1284)
 --- @class UnitPopupReportChatButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportChatButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1307)
 --- @class UnitPopupReportPetButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupReportPetButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1324)
 --- @class UnitPopupReportBattlePetButtonMixin : UnitPopupReportPetButtonMixin
 UnitPopupReportBattlePetButtonMixin = CreateFromMixins(UnitPopupReportPetButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1330)
 --- @class UnitPopupCopyCharacterNameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCopyCharacterNameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1349)
 --- @class UnitPopupDungeonDifficultyButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupDungeonDifficultyButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1158)
---- @class UnitPopupDungeonDifficulty1ButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupDungeonDifficulty1ButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1375)
+--- @class UnitPopupDungeonDifficulty1ButtonMixin : UnitPopupRadioButtonMixin
+UnitPopupDungeonDifficulty1ButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1419)
 --- @class UnitPopupDungeonDifficulty2ButtonMixin : UnitPopupDungeonDifficulty1ButtonMixin
 UnitPopupDungeonDifficulty2ButtonMixin = CreateFromMixins(UnitPopupDungeonDifficulty1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1430)
 --- @class UnitPopupRaidDifficultyButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRaidDifficultyButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1232)
---- @class UnitPopupRaidDifficulty1ButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupRaidDifficulty1ButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1463)
+--- @class UnitPopupRaidDifficulty1ButtonMixin : UnitPopupRadioButtonMixin
+UnitPopupRaidDifficulty1ButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1478)
 --- @class UnitPopupRaidDifficulty2ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 UnitPopupRaidDifficulty2ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1271)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1500)
 --- @class UnitPopupRaidDifficulty3ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 UnitPopupRaidDifficulty3ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1292)
---- @class UnitPopupLegacyRaidDifficulty1ButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupLegacyRaidDifficulty1ButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1522)
+--- @class UnitPopupLegacyRaidDifficulty1ButtonMixin : UnitPopupRadioButtonMixin
+UnitPopupLegacyRaidDifficulty1ButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1601)
 --- @class UnitPopupLegacyRaidDifficulty2ButtonMixin : UnitPopupLegacyRaidDifficulty1ButtonMixin
 UnitPopupLegacyRaidDifficulty2ButtonMixin = CreateFromMixins(UnitPopupLegacyRaidDifficulty1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1611)
 --- @class UnitPopupPvpFlagButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPvpFlagButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1427)
---- @class UnitPopupPvpEnableButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupPvpEnableButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1644)
+--- @class UnitPopupPvpFlagChoiceMixin : UnitPopupRadioButtonMixin
+UnitPopupPvpFlagChoiceMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1448)
---- @class UnitPopupPvpDisableButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupPvpDisableButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1646)
+--- @class UnitPopupPvpEnableButtonMixin : UnitPopupPvpFlagChoiceMixin
+UnitPopupPvpEnableButtonMixin = CreateFromMixins(UnitPopupPvpFlagChoiceMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1469)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1664)
+--- @class UnitPopupPvpDisableButtonMixin : UnitPopupPvpFlagChoiceMixin
+UnitPopupPvpDisableButtonMixin = CreateFromMixins(UnitPopupPvpFlagChoiceMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1683)
 --- @class UnitPopupSelectLootSpecializationButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSelectLootSpecializationButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1497)
---- @class UnitPopupLootSpecializationDefaultButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupLootSpecializationDefaultButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1708)
+--- @class UnitPopupLootSpecializationDefaultButtonMixin : UnitPopupRadioButtonMixin
+UnitPopupLootSpecializationDefaultButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1527)
---- @class UnitPopupLootSpecialization1ButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupLootSpecialization1ButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1736)
+--- @class UnitPopupLootSpecialization1ButtonMixin : UnitPopupRadioButtonMixin
+UnitPopupLootSpecialization1ButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1571)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1776)
 --- @class UnitPopupLootSpecialization2ButtonMixin : UnitPopupLootSpecialization1ButtonMixin
 UnitPopupLootSpecialization2ButtonMixin = CreateFromMixins(UnitPopupLootSpecialization1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1576)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1782)
 --- @class UnitPopupLootSpecialization3ButtonMixin : UnitPopupLootSpecialization1ButtonMixin
 UnitPopupLootSpecialization3ButtonMixin = CreateFromMixins(UnitPopupLootSpecialization1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1581)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1788)
 --- @class UnitPopupLootSpecialization4ButtonMixin : UnitPopupLootSpecialization1ButtonMixin
 UnitPopupLootSpecialization4ButtonMixin = CreateFromMixins(UnitPopupLootSpecialization1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1586)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1794)
 --- @class UnitPopupSetRaidLeaderButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidLeaderButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1821)
 --- @class UnitPopupSetRaidAssistButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidAssistButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1848)
 --- @class UnitPopupSetRaidMainTankButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidMainTankButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1647)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1879)
 --- @class UnitPopupSetRaidMainAssistButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidMainAssistButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1668)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1894)
 --- @class UnitPopupSetRaidDemoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidDemoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1708)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1952)
 --- @class UnitPopupSetRaidRemoveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidRemoveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1736)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2001)
 --- @class UnitPopupPvpReportAfkButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPvpReportAfkButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1753)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2019)
 --- @class UnitPopupRafSummonButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRafSummonButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1777)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2041)
 --- @class UnitPopupVehicleLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupVehicleLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1790)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2055)
 --- @class UnitPopupSetFocusButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetFocusButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1800)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2065)
 --- @class UnitPopupClearFocusButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupClearFocusButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1810)
---- @class UnitPopupLargeFocusButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupLargeFocusButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2075)
+--- @class UnitPopupLargeFocusButtonMixin : UnitPopupCheckboxButtonMixin
+UnitPopupLargeFocusButtonMixin = CreateFromMixins(UnitPopupCheckboxButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1838)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2095)
 --- @class UnitPopupLockFocusButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupLockFocusButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1851)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2110)
 --- @class UnitPopupUnlockFocusButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupUnlockFocusButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1864)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2125)
 --- @class UnitPopupMoveFocusButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupMoveFocusButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1887)
---- @class UnitPopupFocusFrameBuffsOnTopButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupFocusFrameBuffsOnTopButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2143)
+--- @class UnitPopupFocusFrameBuffsOnTopButtonMixin : UnitPopupRadioButtonMixin
+UnitPopupFocusFrameBuffsOnTopButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1905)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2159)
 --- @class UnitPopupMovePlayerFrameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupMovePlayerFrameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1927)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2178)
 --- @class UnitPopupLockPlayerFrameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupLockPlayerFrameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1940)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2193)
 --- @class UnitPopupUnlockPlayerFrameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupUnlockPlayerFrameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1953)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2208)
 --- @class UnitPopupResetPlayerFrameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupResetPlayerFrameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1962)
---- @class UnitPopupPlayerFrameShowCastBarButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupPlayerFrameShowCastBarButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2219)
+--- @class UnitPopupPlayerFrameShowCastBarButtonMixin : UnitPopupCheckboxButtonMixin
+UnitPopupPlayerFrameShowCastBarButtonMixin = CreateFromMixins(UnitPopupCheckboxButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1988)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2239)
 --- @class UnitPopupMoveTargetFrameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupMoveTargetFrameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2011)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2258)
 --- @class UnitPopupLockTargetFrameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupLockTargetFrameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2024)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2273)
 --- @class UnitPopupUnlockTargetFrameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupUnlockTargetFrameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2037)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2288)
 --- @class UnitPopupTargetFrameBuffsOnTopButtonMixin : UnitPopupFocusFrameBuffsOnTopButtonMixin
 UnitPopupTargetFrameBuffsOnTopButtonMixin = CreateFromMixins(UnitPopupFocusFrameBuffsOnTopButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2047)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2300)
 --- @class UnitPopupResetTargetFrameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupResetTargetFrameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2056)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2311)
 --- @class UnitPopupAddFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2077)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2346)
 --- @class UnitPopupAddFriendMenuButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddFriendMenuButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2384)
 --- @class UnitPopupAddCharacterFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddCharacterFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2452)
 --- @class UnitPopupAddBtagFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddBtagFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2494)
 --- @class UnitPopupAddGuildBtagFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddGuildBtagFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2522)
 --- @class UnitPopupRaidTargetButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRaidTargetButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2230)
---- @class UnitPopupRaidTarget1ButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupRaidTarget1ButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2542)
+--- @class UnitPopupRaidTargetBaseMixin : UnitPopupButtonBaseMixin
+UnitPopupRaidTargetBaseMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2589)
+--- @class UnitPopupRaidTargetNoneButtonMixin : UnitPopupRaidTargetBaseMixin
+UnitPopupRaidTargetNoneButtonMixin = CreateFromMixins(UnitPopupRaidTargetBaseMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2599)
+--- @class UnitPopupRaidTarget1ButtonMixin : UnitPopupRaidTargetBaseMixin
+UnitPopupRaidTarget1ButtonMixin = CreateFromMixins(UnitPopupRaidTargetBaseMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2621)
 --- @class UnitPopupRaidTarget2ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget2ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2639)
 --- @class UnitPopupRaidTarget3ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget3ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2319)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2657)
 --- @class UnitPopupRaidTarget4ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget4ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2675)
 --- @class UnitPopupRaidTarget5ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget5ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2365)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2693)
 --- @class UnitPopupRaidTarget6ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget6ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2711)
 --- @class UnitPopupRaidTarget7ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget7ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2729)
 --- @class UnitPopupRaidTarget8ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget8ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2434)
---- @class UnitPopupRaidTargetNoneButtonMixin : UnitPopupRaidTarget1ButtonMixin
-UnitPopupRaidTargetNoneButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2747)
+--- @class UnitPopupSelfHighlightSelectButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupSelfHighlightSelectButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2455)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2760)
+--- @class UnitPopupSelfHighlightCommonMixin : UnitPopupCheckboxButtonMixin
+UnitPopupSelfHighlightCommonMixin = CreateFromMixins(UnitPopupCheckboxButtonMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2786)
+--- @class UnitPopupSelfHighlightCircleButtonMixin : UnitPopupSelfHighlightCommonMixin
+UnitPopupSelfHighlightCircleButtonMixin = CreateFromMixins(UnitPopupSelfHighlightCommonMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2796)
+--- @class UnitPopupSelfHighlightIconButtonMixin : UnitPopupSelfHighlightCommonMixin
+UnitPopupSelfHighlightIconButtonMixin = CreateFromMixins(UnitPopupSelfHighlightCommonMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2829)
 --- @class UnitPopupChatPromoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupChatPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2478)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2834)
 --- @class UnitPopupChatDemoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupChatDemoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2501)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2861)
 --- @class UnitPopupChatOwnerButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupChatOwnerButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2524)
---- @class UnitPopupChatKickButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupChatKickButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2538)
---- @class UnitPopupChatBanButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupChatBanButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2548)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2888)
 --- @class UnitPopupGarrisonVisitButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGarrisonVisitButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2562)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2903)
 --- @class UnitPopupVoiceChatButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupVoiceChatButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2593)
---- @class UnitPopupVoiceChatMicrophoneVolumeButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupVoiceChatMicrophoneVolumeButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2934)
+--- @class UnitPopupVoiceChatMicrophoneVolumeButtonMixin : UnitPopupAttachFrameMixin
+UnitPopupVoiceChatMicrophoneVolumeButtonMixin = CreateFromMixins(UnitPopupAttachFrameMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2606)
---- @class UnitPopupVoiceChatSpeakerVolumeButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupVoiceChatSpeakerVolumeButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2948)
+--- @class UnitPopupVoiceChatSpeakerVolumeButtonMixin : UnitPopupAttachFrameMixin
+UnitPopupVoiceChatSpeakerVolumeButtonMixin = CreateFromMixins(UnitPopupAttachFrameMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2619)
---- @class UnitPopupVoiceChatUserVolumeButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupVoiceChatUserVolumeButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2962)
+--- @class UnitPopupVoiceChatUserVolumeButtonMixin : UnitPopupAttachFrameMixin
+UnitPopupVoiceChatUserVolumeButtonMixin = CreateFromMixins(UnitPopupAttachFrameMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2635)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2985)
 --- @class UnitPopupVoiceChatSettingsButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupVoiceChatSettingsButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2651)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2999)
 --- @class UnitPopupCommunitiesLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2675)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3029)
 --- @class UnitPopupCommunitiesBtagFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesBtagFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2700)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3059)
 --- @class UnitPopupCommunitiesKickFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesKickFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2721)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3090)
 --- @class UnitPopupCommunitiesMemberNoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesMemberNoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2742)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3134)
 --- @class UnitPopupCommunitiesRoleButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesRoleButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2768)
---- @class UnitPopupCommunitiesRoleMemberButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupCommunitiesRoleMemberButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3153)
+--- @class UnitPopupCommunitiesRoleMemberButtonMixin : UnitPopupRadioButtonMixin
+UnitPopupCommunitiesRoleMemberButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2799)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3176)
 --- @class UnitPopupCommunitiesRoleModeratorButtonMixin : UnitPopupCommunitiesRoleMemberButtonMixin
 UnitPopupCommunitiesRoleModeratorButtonMixin = CreateFromMixins(UnitPopupCommunitiesRoleMemberButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2808)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3186)
 --- @class UnitPopupCommunitiesRoleLeaderButtonMixin : UnitPopupCommunitiesRoleMemberButtonMixin
 UnitPopupCommunitiesRoleLeaderButtonMixin = CreateFromMixins(UnitPopupCommunitiesRoleMemberButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2817)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3196)
 --- @class UnitPopupCommunitiesRoleOwnerButtonMixin : UnitPopupCommunitiesRoleMemberButtonMixin
 UnitPopupCommunitiesRoleOwnerButtonMixin = CreateFromMixins(UnitPopupCommunitiesRoleMemberButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2826)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3206)
 --- @class UnitPopupCommunitiesFavoriteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesFavoriteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2837)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3217)
 --- @class UnitPopupCommunitiesSettingButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3238)
 --- @class UnitPopupCommunityNotificationButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunityNotificationButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2870)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3248)
 --- @class UnitPopupClearCommunityNotificationButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupClearCommunityNotificationButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2880)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3258)
 --- @class UnitPopupCommunityInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunityInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2914)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3292)
 --- @class UnitPopupDeleteCommunityMessageButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupDeleteCommunityMessageButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2955)
---- @class UnitPopupItemQuality2DescButtonMixin : UnitPopupButtonBaseMixin
-UnitPopupItemQuality2DescButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3343)
+--- @class UnitPopupItemQuality2DescButtonMixin : UnitPopupRadioButtonMixin
+UnitPopupItemQuality2DescButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2985)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3370)
 --- @class UnitPopupItemQuality3DescButtonMixin : UnitPopupItemQuality2DescButtonMixin
 UnitPopupItemQuality3DescButtonMixin = CreateFromMixins(UnitPopupItemQuality2DescButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2994)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3380)
 --- @class UnitPopupItemQuality4DescButtonMixin : UnitPopupItemQuality2DescButtonMixin
 UnitPopupItemQuality4DescButtonMixin = CreateFromMixins(UnitPopupItemQuality2DescButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3003)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3390)
 --- @class UnitPopupOptOutLootTitleMixin : UnitPopupButtonBaseMixin
 UnitPopupOptOutLootTitleMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3024)
---- @class UnitPopupOptOutLootEnableMixin : UnitPopupButtonBaseMixin
-UnitPopupOptOutLootEnableMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3408)
+--- @class UnitPopupOptOutLootEnableMixin : UnitPopupRadioButtonMixin
+UnitPopupOptOutLootEnableMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3042)
---- @class UnitPopupOptOutLootDisableMixin : UnitPopupButtonBaseMixin
-UnitPopupOptOutLootDisableMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3423)
+--- @class UnitPopupOptOutLootDisableMixin : UnitPopupRadioButtonMixin
+UnitPopupOptOutLootDisableMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3061)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3439)
 --- @class UnitPopupAchievementButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAchievementButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3075)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3455)
 --- @class UnitPopupRafGrantLevelButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRafGrantLevelButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3089)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3471)
 --- @class UnitPopupLootPromoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupLootPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3093)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3477)
 --- @class UnitPopupSubsectionTitleMixin : UnitPopupButtonBaseMixin
 UnitPopupSubsectionTitleMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3106)
---- @class UnitPopupSubsectionSeperatorMixin : UnitPopupSubsectionTitleMixin
-UnitPopupSubsectionSeperatorMixin = CreateFromMixins(UnitPopupSubsectionTitleMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3483)
+--- @class UnitPopupSubsectionSeperatorMixin : UnitPopupButtonBaseMixin
+UnitPopupSubsectionSeperatorMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3519)
 --- @class UnitPopupEnterEditModeMixin : UnitPopupButtonBaseMixin
 UnitPopupEnterEditModeMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3526)
 --- @class UnitPopupSelectRoleButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSelectRoleButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L80)
 --- @class UnitPopupButtonBaseMixin
 UnitPopupButtonBaseMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L82)
+function UnitPopupButtonBaseMixin:GetEntries() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L86)
 function UnitPopupButtonBaseMixin:IsDisabledInKioskMode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L10)
-function UnitPopupButtonBaseMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L90)
+function UnitPopupButtonBaseMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L14)
-function UnitPopupButtonBaseMixin:IsCheckable() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L94)
+function UnitPopupButtonBaseMixin:IsDisabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L98)
+function UnitPopupButtonBaseMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L102)
+function UnitPopupButtonBaseMixin:IsChecked(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L106)
+function UnitPopupButtonBaseMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L110)
+function UnitPopupButtonBaseMixin:GetTextHeight() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L114)
 function UnitPopupButtonBaseMixin:GetColor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L22)
-function UnitPopupButtonBaseMixin:IsIconOnly() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L26)
-function UnitPopupButtonBaseMixin:GetTextureCoords() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L40)
-function UnitPopupButtonBaseMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L43)
-function UnitPopupButtonBaseMixin:GetGUID() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L48)
-function UnitPopupButtonBaseMixin:IsNested() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L52)
-function UnitPopupButtonBaseMixin:IsNotRadio() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L56)
-function UnitPopupButtonBaseMixin:IsTitle() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L60)
-function UnitPopupButtonBaseMixin:GetTooltipText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L64)
-function UnitPopupButtonBaseMixin:GetCustomFrame() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L68)
-function UnitPopupButtonBaseMixin:TooltipWhileDisabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L72)
-function UnitPopupButtonBaseMixin:NoTooltipWhileEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L76)
-function UnitPopupButtonBaseMixin:TooltipOnButton() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L80)
-function UnitPopupButtonBaseMixin:TooltipInstruction() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L84)
-function UnitPopupButtonBaseMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L88)
-function UnitPopupButtonBaseMixin:TooltipWarning() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L92)
-function UnitPopupButtonBaseMixin:GetButtons() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L96)
-function UnitPopupButtonBaseMixin:IsChecked() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L100)
-function UnitPopupButtonBaseMixin:HasArrow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L104)
-function UnitPopupButtonBaseMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L108)
-function UnitPopupButtonBaseMixin:GetIcon() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L118)
 function UnitPopupButtonBaseMixin:GetInteractDistance() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L116)
-function UnitPopupButtonBaseMixin:IsDisabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L122)
+function UnitPopupButtonBaseMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L120)
-function UnitPopupButtonBaseMixin:IsMenu() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L125)
+function UnitPopupButtonBaseMixin:IsTitle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L124)
-function UnitPopupButtonBaseMixin:IsCloseCommand() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L129)
+function UnitPopupButtonBaseMixin:IsDivider() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L128)
-function UnitPopupButtonBaseMixin:SetCurrentButton(button) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L132)
-function UnitPopupButtonBaseMixin:GetCurrentButton() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L133)
+function UnitPopupButtonBaseMixin:IsUninteractable() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L137)
-function UnitPopupCancelButtonMixin:GetText() end
+function UnitPopupButtonBaseMixin:GetFrameTemplate() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L141)
-function UnitPopupCancelButtonMixin:IsCloseCommand() end
+function UnitPopupButtonBaseMixin:GetTooltipText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L146)
-function UnitPopupCloseButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L145)
+function UnitPopupButtonBaseMixin:TooltipInstruction(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L150)
-function UnitPopupCloseButtonMixin:IsCloseCommand() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L149)
+function UnitPopupButtonBaseMixin:TooltipWarning(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L155)
-function UnitPopupTradeButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L153)
+function UnitPopupButtonBaseMixin:TooltipWhileDisabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L157)
+function UnitPopupButtonBaseMixin:NoTooltipWhileEnabled() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L162)
+function UnitPopupButtonBaseMixin:IsInlineMenu() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L166)
+function UnitPopupButtonBaseMixin:CreateMenuDescription(rootDescription, contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L176)
+function UnitPopupAttachFrameMixin:CreateMenuDescription(rootDescription, contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L196)
+function UnitPopupCheckboxButtonMixin:CreateMenuDescription(rootDescription, contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L206)
+function UnitPopupRadioButtonMixin:CreateMenuDescription(rootDescription, contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L216)
+function UnitPopupTradeButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L220)
 function UnitPopupTradeButtonMixin:GetInteractDistance() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L163)
-function UnitPopupTradeButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L224)
+function UnitPopupTradeButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L168)
-function UnitPopupTradeButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L232)
+function UnitPopupTradeButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L173)
-function UnitPopupTradeButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L248)
+function UnitPopupTradeButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L182)
-function UnitPopupInspectButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L254)
+function UnitPopupInspectButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L186)
-function UnitPopupInspectButtonMixin:IsDisabledInKioskMode() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L190)
-function UnitPopupInspectButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L198)
-function UnitPopupInspectButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L203)
-function UnitPopupInspectButtonMixin:IsEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L208)
-function UnitPopupTargetButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L212)
-function UnitPopupTargetButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L217)
-function UnitPopupTargetButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L222)
-function UnitPopupIgnoreButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L227)
-function UnitPopupIgnoreButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L235)
-function UnitPopupIgnoreButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L241)
-function UnitPopupPopoutChatButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L245)
-function UnitPopupPopoutChatButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L253)
-function UnitPopupPopoutChatButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L259)
-function UnitPopupDuelButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L263)
-function UnitPopupDuelButtonMixin:GetInteractDistance() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L258)
+function UnitPopupInspectButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L267)
-function UnitPopupDuelButtonMixin:IsDisabledInKioskMode() end
+function UnitPopupInspectButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L271)
-function UnitPopupDuelButtonMixin:CanShow() end
+function UnitPopupInspectButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L279)
-function UnitPopupDuelButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L277)
+function UnitPopupTargetButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L284)
-function UnitPopupDuelButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L281)
+function UnitPopupTargetButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L293)
-function UnitPopupPetBattleDuelButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L297)
-function UnitPopupPetBattleDuelButtonMixin:GetInteractDistance() end
+function UnitPopupTargetButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L301)
-function UnitPopupPetBattleDuelButtonMixin:CanShow() end
+function UnitPopupIgnoreButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L309)
-function UnitPopupPetBattleDuelButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L305)
+function UnitPopupIgnoreButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L314)
-function UnitPopupPetBattleDuelButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L317)
+function UnitPopupIgnoreButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L323)
-function UnitPopupWhisperButtonMixin:GetText() end
+function UnitPopupPopoutChatButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L328)
-function UnitPopupWhisperButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L331)
-function UnitPopupWhisperButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L327)
+function UnitPopupPopoutChatButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L341)
-function UnitPopupWhisperButtonMixin:IsEnabled() end
+function UnitPopupPopoutChatButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L352)
-function UnitPopupInviteButtonMixin:GetButtonName() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L347)
+function UnitPopupDuelButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L356)
-function UnitPopupInviteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L351)
+function UnitPopupDuelButtonMixin:GetInteractDistance() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L361)
-function UnitPopupInviteButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L355)
+function UnitPopupDuelButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L364)
-function UnitPopupInviteButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L363)
+function UnitPopupDuelButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L369)
-function UnitPopupInviteButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L367)
+function UnitPopupDuelButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L378)
-function UnitPopupSuggestInviteButtonMixin:GetButtonName() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L373)
+function UnitPopupPetBattleDuelButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L382)
-function UnitPopupSuggestInviteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L377)
+function UnitPopupPetBattleDuelButtonMixin:GetInteractDistance() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L386)
-function UnitPopupSuggestInviteButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L381)
+function UnitPopupPetBattleDuelButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L391)
-function UnitPopupRequestInviteButtonMixin:GetButtonName() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L389)
+function UnitPopupPetBattleDuelButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L395)
-function UnitPopupRequestInviteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L394)
+function UnitPopupPetBattleDuelButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L399)
-function UnitPopupRequestInviteButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L400)
+function UnitPopupWhisperButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L405)
-function UnitPopupUninviteButtonMixin:GetText() end
+function UnitPopupWhisperButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L409)
-function UnitPopupUninviteButtonMixin:CanShow() end
+function UnitPopupWhisperButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L419)
-function UnitPopupUninviteButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L426)
+function UnitPopupWhisperButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L423)
-function UnitPopupUninviteButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L433)
+function UnitPopupInviteButtonMixin:GetInviteName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L428)
-function UnitPopupFriendsButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L437)
+function UnitPopupInviteButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L434)
-function UnitPopupRemoveFriendButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L442)
+function UnitPopupInviteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L438)
-function UnitPopupRemoveFriendButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L446)
+function UnitPopupInviteButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L445)
-function UnitPopupSetNoteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L452)
+function UnitPopupInviteButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L449)
-function UnitPopupSetNoteButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L458)
+function UnitPopupSuggestInviteButtonMixin:GetInviteName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L457)
-function UnitPopupRemoveBnetFriendButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L462)
+function UnitPopupSuggestInviteButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L478)
-function UnitPopupSetBNetNoteButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L466)
+function UnitPopupSuggestInviteButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L472)
+function UnitPopupRequestInviteButtonMixin:GetInviteName() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L476)
+function UnitPopupRequestInviteButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L480)
+function UnitPopupRequestInviteButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L486)
-function UnitPopupViewBnetFriendsButtonMixin:GetText() end
+function UnitPopupUninviteButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L490)
-function UnitPopupViewBnetFriendsButtonMixin:OnClick() end
+function UnitPopupUninviteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L496)
-function UnitPopupBnetBlockButtonMixin:GetButtonName() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L507)
+function UnitPopupUninviteButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L500)
-function UnitPopupBnetBlockButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L515)
+function UnitPopupFriendsButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L504)
-function UnitPopupBnetBlockButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L521)
+function UnitPopupRemoveFriendButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L509)
-function UnitPopupBnetBlockButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L525)
+function UnitPopupRemoveFriendButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L518)
-function UnitPopupBnetBlockButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L534)
+function UnitPopupSetNoteButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L527)
-function UnitPopupBnetUnblockButtonMixin:GetButtonName() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L538)
+function UnitPopupSetNoteButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L531)
-function UnitPopupBnetUnblockButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L546)
+function UnitPopupRemoveBnetFriendButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L535)
-function UnitPopupBnetUnblockButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L567)
+function UnitPopupSetBNetNoteButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L540)
-function UnitPopupBnetUnblockButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L576)
+function UnitPopupViewBnetFriendsButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L548)
-function UnitPopupBnetUnblockButtonMixin:IsEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L557)
-function UnitPopupBnetInviteButtonMixin:GetButtonName() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L561)
-function UnitPopupBnetInviteButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L566)
-function UnitPopupBnetInviteButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L569)
-function UnitPopupBnetInviteButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L573)
-function UnitPopupBnetInviteButtonMixin:IsEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L582)
-function UnitPopupBnetSuggestInviteButtonMixin:GetButtonName() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L580)
+function UnitPopupViewBnetFriendsButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L586)
-function UnitPopupBnetSuggestInviteButtonMixin:GetText() end
+function UnitPopupBnetBlockButtonMixin:GetInviteName() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L590)
-function UnitPopupBnetSuggestInviteButtonMixin:CanShow() end
+function UnitPopupBnetBlockButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L595)
-function UnitPopupBnetRequestInviteButtonMixin:GetButtonName() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L594)
+function UnitPopupBnetBlockButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L599)
-function UnitPopupBnetRequestInviteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L598)
+function UnitPopupBnetBlockButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L603)
-function UnitPopupBnetRequestInviteButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L609)
+function UnitPopupBnetBlockButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L608)
-function UnitPopupBnetTargetButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L615)
+function UnitPopupBnetUnblockButtonMixin:GetInviteName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L612)
-function UnitPopupBnetTargetButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L619)
+function UnitPopupBnetUnblockButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L621)
-function UnitPopupBnetTargetButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L623)
+function UnitPopupBnetUnblockButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L624)
-function UnitPopupBnetTargetButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L627)
+function UnitPopupBnetUnblockButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L632)
-function UnitPopupVoteToKickButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L634)
+function UnitPopupBnetUnblockButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L636)
-function UnitPopupVoteToKickButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L640)
+function UnitPopupBnetInviteButtonMixin:GetInviteName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L646)
-function UnitPopupVoteToKickButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L644)
+function UnitPopupBnetInviteButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L649)
-function UnitPopupVoteToKickButtonMixin:OnClick() end
+function UnitPopupBnetInviteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L654)
-function UnitPopupPromoteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L653)
+function UnitPopupBnetInviteButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L658)
-function UnitPopupPromoteButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L657)
+function UnitPopupBnetInviteButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L665)
-function UnitPopupPromoteButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L668)
+function UnitPopupBnetSuggestInviteButtonMixin:GetInviteName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L673)
-function UnitPopupPromoteButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L672)
+function UnitPopupBnetSuggestInviteButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L679)
-function UnitPopupPromoteGuideButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L676)
+function UnitPopupBnetSuggestInviteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L683)
-function UnitPopupPromoteGuideButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L682)
+function UnitPopupBnetRequestInviteButtonMixin:GetInviteName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L691)
-function UnitPopupGuildPromoteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L686)
+function UnitPopupBnetRequestInviteButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L695)
-function UnitPopupGuildPromoteButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L690)
+function UnitPopupBnetRequestInviteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L703)
-function UnitPopupGuildPromoteButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L696)
+function UnitPopupBnetTargetButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L711)
-function UnitPopupGuildLeaveButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L700)
+function UnitPopupBnetTargetButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L715)
-function UnitPopupGuildLeaveButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L717)
+function UnitPopupBnetTargetButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L723)
-function UnitPopupGuildLeaveButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L721)
+function UnitPopupBnetTargetButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L730)
-function UnitPopupGuildGuildsLeaveButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L735)
+function UnitPopupVoteToKickButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L739)
-function UnitPopupPartyLeaveButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L743)
-function UnitPopupPartyLeaveButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L752)
-function UnitPopupPartyLeaveButtonMixin:IsEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L756)
-function UnitPopupPartyLeaveButtonMixin:OnClick() end
+function UnitPopupVoteToKickButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L761)
-function UnitPopupPartyInstanceLeaveButtonMixin:GetText() end
+function UnitPopupVoteToKickButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L766)
-function UnitPopupPartyInstanceLeaveButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L765)
+function UnitPopupVoteToKickButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L769)
-function UnitPopupPartyInstanceLeaveButtonMixin:IsEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L773)
-function UnitPopupPartyInstanceLeaveButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L774)
+function UnitPopupPromoteButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L778)
-function UnitPopupFollowButtonMixin:GetText() end
+function UnitPopupPromoteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L782)
-function UnitPopupFollowButtonMixin:GetInteractDistance() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L790)
+function UnitPopupPromoteButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L786)
-function UnitPopupFollowButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L799)
+function UnitPopupPromoteButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L791)
-function UnitPopupFollowButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L805)
+function UnitPopupPromoteGuideButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L795)
-function UnitPopupFollowButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L809)
+function UnitPopupPromoteGuideButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L800)
-function UnitPopupPetDismissButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L823)
+function UnitPopupGuildPromoteButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L804)
-function UnitPopupPetDismissButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L827)
+function UnitPopupGuildPromoteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L811)
-function UnitPopupPetDismissButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L835)
+function UnitPopupGuildPromoteButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L820)
-function UnitPopupPetAbandonButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L824)
-function UnitPopupPetAbandonButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L831)
-function UnitPopupPetAbandonButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L837)
-function UnitPopupPetRenameButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L841)
-function UnitPopupPetRenameButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L844)
+function UnitPopupGuildLeaveButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L848)
-function UnitPopupPetRenameButtonMixin:OnClick() end
+function UnitPopupGuildLeaveButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L853)
-function UnitPopupPetShowInJournalButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L852)
+function UnitPopupGuildLeaveButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L857)
-function UnitPopupPetShowInJournalButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L860)
+function UnitPopupGuildGuildsLeaveButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L870)
-function UnitPopupResetInstancesButtonMixin:GetText() end
+function UnitPopupPartyLeaveButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L874)
-function UnitPopupResetInstancesButtonMixin:OnClick() end
+function UnitPopupPartyLeaveButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L878)
-function UnitPopupResetInstancesButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L887)
+function UnitPopupPartyLeaveButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L886)
-function UnitPopupResetInstancesButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L891)
+function UnitPopupPartyLeaveButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L895)
-function UnitPopupResetChallengeModeButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L897)
+function UnitPopupPartyInstanceLeaveButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L899)
-function UnitPopupResetChallengeModeButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L902)
+function UnitPopupPartyInstanceLeaveButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L903)
-function UnitPopupResetChallengeModeButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L905)
+function UnitPopupPartyInstanceLeaveButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L911)
-function UnitPopupResetChallengeModeButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L913)
+function UnitPopupPartyInstanceLeaveButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L920)
-function UnitPopupConvertToRaidButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L919)
+function UnitPopupFollowButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L925)
-function UnitPopupConvertToRaidButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L923)
+function UnitPopupFollowButtonMixin:GetInteractDistance() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L928)
-function UnitPopupConvertToRaidButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L927)
+function UnitPopupFollowButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L936)
-function UnitPopupConvertToPartyButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L935)
+function UnitPopupFollowButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L941)
-function UnitPopupConvertToPartyButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L939)
+function UnitPopupFollowButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L944)
-function UnitPopupConvertToPartyButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L946)
+function UnitPopupPetDismissButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L951)
-function UnitPopupConvertToPartyButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L950)
+function UnitPopupPetDismissButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L960)
-function UnitPopupReportButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L958)
+function UnitPopupPetDismissButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L967)
-function UnitPopupReportButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L969)
+function UnitPopupPetAbandonButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L976)
-function UnitPopupReportGroupMemberButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L973)
+function UnitPopupPetAbandonButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L980)
-function UnitPopupReportGroupMemberButtonMixin:GetReportType() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L978)
+function UnitPopupPetAbandonButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L984)
-function UnitPopupReportGroupMemberButtonMixin:CanShow() end
+function UnitPopupPetRenameButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1007)
-function UnitPopupReportPvpScoreboardButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L989)
+function UnitPopupPetRenameButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1011)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L993)
+function UnitPopupPetRenameButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L999)
+function UnitPopupPetShowInJournalButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1003)
+function UnitPopupPetShowInJournalButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1018)
+function UnitPopupResetInstancesButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1022)
+function UnitPopupResetInstancesButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1026)
+function UnitPopupResetInstancesButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1038)
+function UnitPopupResetInstancesButtonMixin:IsEnabled(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1056)
+function UnitPopupResetChallengeModeButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1060)
+function UnitPopupResetChallengeModeButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1064)
+function UnitPopupResetChallengeModeButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1080)
+function UnitPopupResetChallengeModeButtonMixin:IsEnabled(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1087)
+function UnitPopupConvertToRaidButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1092)
+function UnitPopupConvertToRaidButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1096)
+function UnitPopupConvertToRaidButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1110)
+function UnitPopupConvertToPartyButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1115)
+function UnitPopupConvertToPartyButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1119)
+function UnitPopupConvertToPartyButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1131)
+function UnitPopupConvertToPartyButtonMixin:IsEnabled(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1137)
+function UnitPopupReportButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1143)
+function UnitPopupReportButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1152)
+function UnitPopupReportGroupMemberButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1156)
+function UnitPopupReportGroupMemberButtonMixin:GetReportType() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1160)
+function UnitPopupReportGroupMemberButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1192)
+function UnitPopupReportPvpScoreboardButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1196)
 function UnitPopupReportPvpScoreboardButtonMixin:GetReportType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1016)
-function UnitPopupReportInWorldButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1202)
+function UnitPopupReportInWorldButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1020)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1206)
 function UnitPopupReportInWorldButtonMixin:GetReportType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1025)
-function UnitPopupPvpReportGroupMemberButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1212)
+function UnitPopupPvpReportGroupMemberButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1029)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1216)
 function UnitPopupPvpReportGroupMemberButtonMixin:GetReportType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1033)
-function UnitPopupPvpReportGroupMemberButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1220)
+function UnitPopupPvpReportGroupMemberButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1058)
-function UnitPopupReportFriendButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1252)
+function UnitPopupReportFriendButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1256)
 function UnitPopupReportFriendButtonMixin:GetReportType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1067)
-function UnitPopupReportFriendButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1077)
-function UnitPopupReportClubMemberButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1081)
-function UnitPopupReportClubMemberButtonMixin:GetReportType() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1086)
-function UnitPopupReportChatButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1090)
-function UnitPopupReportChatButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1099)
-function UnitPopupReportChatButtonMixin:GetReportType() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1104)
-function UnitPopupReportPetButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1108)
-function UnitPopupReportPetButtonMixin:GetReportType() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1112)
-function UnitPopupReportPetButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1120)
-function UnitPopupReportBattlePetButtonMixin:GetReportType() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1125)
-function UnitPopupCopyCharacterNameButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1129)
-function UnitPopupCopyCharacterNameButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1134)
-function UnitPopupCopyCharacterNameButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1146)
-function UnitPopupDungeonDifficultyButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1150)
-function UnitPopupDungeonDifficultyButtonMixin:IsNested() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1155)
-function UnitPopupDungeonDifficultyButtonMixin:GetButtons() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1159)
-function UnitPopupDungeonDifficulty1ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1163)
-function UnitPopupDungeonDifficulty1ButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1167)
-function UnitPopupDungeonDifficulty1ButtonMixin:IsCheckable() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1171)
-function UnitPopupDungeonDifficulty1ButtonMixin:GetDifficultyID() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1175)
-function UnitPopupDungeonDifficulty1ButtonMixin:IsChecked() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1183)
-function UnitPopupDungeonDifficulty1ButtonMixin:IsDisabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1191)
-function UnitPopupDungeonDifficulty1ButtonMixin:IsEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1203)
-function UnitPopupDungeonDifficulty2ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1207)
-function UnitPopupDungeonDifficulty2ButtonMixin:GetDifficultyID() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1213)
-function UnitPopupRaidDifficultyButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1217)
-function UnitPopupRaidDifficultyButtonMixin:IsNested() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1221)
-function UnitPopupRaidDifficultyButtonMixin:GetButtons() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1233)
-function UnitPopupRaidDifficulty1ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1237)
-function UnitPopupRaidDifficulty1ButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1242)
-function UnitPopupRaidDifficulty1ButtonMixin:IsCheckable() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1246)
-function UnitPopupRaidDifficulty1ButtonMixin:GetDifficultyID() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1251)
-function UnitPopupRaidDifficulty2ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1255)
-function UnitPopupRaidDifficulty2ButtonMixin:GetDifficultyID() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1259)
-function UnitPopupRaidDifficulty2ButtonMixin:IsEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1263)
-function UnitPopupRaidDifficulty2ButtonMixin:IsDisabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1267)
-function UnitPopupRaidDifficulty2ButtonMixin:IsChecked() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1272)
-function UnitPopupRaidDifficulty3ButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1261)
+function UnitPopupReportFriendButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1276)
-function UnitPopupRaidDifficulty3ButtonMixin:GetDifficultyID() end
+function UnitPopupReportClubMemberButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1280)
-function UnitPopupRaidDifficulty3ButtonMixin:IsEnabled() end
+function UnitPopupReportClubMemberButtonMixin:GetReportType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1284)
-function UnitPopupRaidDifficulty3ButtonMixin:IsDisabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1286)
+function UnitPopupReportChatButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1288)
-function UnitPopupRaidDifficulty3ButtonMixin:IsChecked() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1290)
+function UnitPopupReportChatButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1293)
-function UnitPopupLegacyRaidDifficulty1ButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1303)
+function UnitPopupReportChatButtonMixin:GetReportType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1297)
-function UnitPopupLegacyRaidDifficulty1ButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1309)
+function UnitPopupReportPetButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1302)
-function UnitPopupLegacyRaidDifficulty1ButtonMixin:IsCheckable() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1313)
+function UnitPopupReportPetButtonMixin:GetReportType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1306)
-function UnitPopupLegacyRaidDifficulty1ButtonMixin:GetDifficultyID() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1317)
+function UnitPopupReportPetButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1310)
-function UnitPopupLegacyRaidDifficulty1ButtonMixin:IsChecked() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1326)
+function UnitPopupReportBattlePetButtonMixin:GetReportType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1325)
-function UnitPopupLegacyRaidDifficulty1ButtonMixin:IsDisabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1332)
+function UnitPopupCopyCharacterNameButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1344)
-function UnitPopupLegacyRaidDifficulty1ButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1336)
+function UnitPopupCopyCharacterNameButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1366)
-function UnitPopupLegacyRaidDifficulty1ButtonMixin:IsClickable() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1340)
+function UnitPopupCopyCharacterNameButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1382)
-function UnitPopupLegacyRaidDifficulty2ButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1351)
+function UnitPopupDungeonDifficultyButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1356)
+function UnitPopupDungeonDifficultyButtonMixin:GetEntries() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1359)
+function UnitPopupDungeonDifficultyButtonMixin:IsEnabled(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1363)
+function UnitPopupDungeonDifficultyButtonMixin:TooltipWhileDisabled() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1367)
+function UnitPopupDungeonDifficultyButtonMixin:NoTooltipWhileEnabled() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1371)
+function UnitPopupDungeonDifficultyButtonMixin:GetTooltipText() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1377)
+function UnitPopupDungeonDifficulty1ButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1381)
+function UnitPopupDungeonDifficulty1ButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1386)
-function UnitPopupLegacyRaidDifficulty2ButtonMixin:GetDifficultyID() end
+function UnitPopupDungeonDifficulty1ButtonMixin:GetDifficultyID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1392)
-function UnitPopupPvpFlagButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1390)
+function UnitPopupDungeonDifficulty1ButtonMixin:IsChecked(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1396)
-function UnitPopupPvpFlagButtonMixin:IsNested() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1394)
+function UnitPopupDungeonDifficulty1ButtonMixin:isDisabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1400)
-function UnitPopupPvpFlagButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1402)
+function UnitPopupDungeonDifficulty1ButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1404)
-function UnitPopupPvpFlagButtonMixin:TooltipTitle() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1421)
+function UnitPopupDungeonDifficulty2ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1408)
-function UnitPopupPvpFlagButtonMixin:TooltipInstruction() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1412)
-function UnitPopupPvpFlagButtonMixin:TooltipWarning() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1416)
-function UnitPopupPvpFlagButtonMixin:HasArrow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1420)
-function UnitPopupPvpFlagButtonMixin:GetButtons() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1428)
-function UnitPopupPvpEnableButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1425)
+function UnitPopupDungeonDifficulty2ButtonMixin:GetDifficultyID() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1432)
-function UnitPopupPvpEnableButtonMixin:IsCheckable() end
+function UnitPopupRaidDifficultyButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1436)
-function UnitPopupPvpEnableButtonMixin:IsEnabled() end
+function UnitPopupRaidDifficultyButtonMixin:IsEnabled(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1440)
-function UnitPopupPvpEnableButtonMixin:IsChecked() end
+function UnitPopupRaidDifficultyButtonMixin:TooltipWhileDisabled() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1444)
-function UnitPopupPvpEnableButtonMixin:OnClick() end
+function UnitPopupRaidDifficultyButtonMixin:NoTooltipWhileEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1449)
-function UnitPopupPvpDisableButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1448)
+function UnitPopupRaidDifficultyButtonMixin:GetTooltipText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1453)
-function UnitPopupPvpDisableButtonMixin:IsCheckable() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1457)
-function UnitPopupPvpDisableButtonMixin:IsEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1461)
-function UnitPopupPvpDisableButtonMixin:IsChecked() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1452)
+function UnitPopupRaidDifficultyButtonMixin:GetEntries() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1465)
-function UnitPopupPvpDisableButtonMixin:OnClick() end
+function UnitPopupRaidDifficulty1ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1470)
-function UnitPopupSelectLootSpecializationButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1469)
+function UnitPopupRaidDifficulty1ButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1474)
-function UnitPopupSelectLootSpecializationButtonMixin:IsNested() end
+function UnitPopupRaidDifficulty1ButtonMixin:GetDifficultyID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1478)
-function UnitPopupSelectLootSpecializationButtonMixin:GetTooltipText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1480)
+function UnitPopupRaidDifficulty2ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1482)
-function UnitPopupSelectLootSpecializationButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1484)
+function UnitPopupRaidDifficulty2ButtonMixin:GetDifficultyID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1486)
-function UnitPopupSelectLootSpecializationButtonMixin:GetButtons() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1488)
+function UnitPopupRaidDifficulty2ButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1498)
-function UnitPopupLootSpecializationDefaultButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1492)
+function UnitPopupRaidDifficulty2ButtonMixin:isDisabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1511)
-function UnitPopupLootSpecializationDefaultButtonMixin:IsCheckable() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1496)
+function UnitPopupRaidDifficulty2ButtonMixin:IsChecked(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1515)
-function UnitPopupLootSpecializationDefaultButtonMixin:IsChecked() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1502)
+function UnitPopupRaidDifficulty3ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1519)
-function UnitPopupLootSpecializationDefaultButtonMixin:GetSpecID() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1506)
+function UnitPopupRaidDifficulty3ButtonMixin:GetDifficultyID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1523)
-function UnitPopupLootSpecializationDefaultButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1510)
+function UnitPopupRaidDifficulty3ButtonMixin:IsEnabled(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1514)
+function UnitPopupRaidDifficulty3ButtonMixin:isDisabled(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1518)
+function UnitPopupRaidDifficulty3ButtonMixin:IsChecked(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1524)
+function UnitPopupLegacyRaidDifficulty1ButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1528)
-function UnitPopupLootSpecialization1ButtonMixin:GetText() end
+function UnitPopupLegacyRaidDifficulty1ButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1541)
-function UnitPopupLootSpecialization1ButtonMixin:GetSpecIndex() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1533)
+function UnitPopupLegacyRaidDifficulty1ButtonMixin:GetDifficultyID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1545)
-function UnitPopupLootSpecialization1ButtonMixin:GetSpecID() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1537)
+function UnitPopupLegacyRaidDifficulty1ButtonMixin:IsChecked(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1554)
-function UnitPopupLootSpecialization1ButtonMixin:IsCheckable() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1553)
+function UnitPopupLegacyRaidDifficulty1ButtonMixin:IsDisabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1558)
-function UnitPopupLootSpecialization1ButtonMixin:IsChecked() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1573)
+function UnitPopupLegacyRaidDifficulty1ButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1562)
-function UnitPopupLootSpecialization1ButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1603)
+function UnitPopupLegacyRaidDifficulty2ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1567)
-function UnitPopupLootSpecialization1ButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1607)
+function UnitPopupLegacyRaidDifficulty2ButtonMixin:GetDifficultyID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1572)
-function UnitPopupLootSpecialization2ButtonMixin:GetSpecIndex() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1613)
+function UnitPopupPvpFlagButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1577)
-function UnitPopupLootSpecialization3ButtonMixin:GetSpecIndex() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1618)
+function UnitPopupPvpFlagButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1582)
-function UnitPopupLootSpecialization4ButtonMixin:GetSpecIndex() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1623)
+function UnitPopupPvpFlagButtonMixin:TooltipTitle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1587)
-function UnitPopupSetRaidLeaderButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1628)
+function UnitPopupPvpFlagButtonMixin:TooltipInstruction() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1591)
-function UnitPopupSetRaidLeaderButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1633)
+function UnitPopupPvpFlagButtonMixin:TooltipWarning() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1599)
-function UnitPopupSetRaidLeaderButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1604)
-function UnitPopupSetRaidAssistButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1608)
-function UnitPopupSetRaidAssistButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1622)
-function UnitPopupSetRaidAssistButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1627)
-function UnitPopupSetRaidMainTankButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1631)
-function UnitPopupSetRaidMainTankButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1643)
-function UnitPopupSetRaidMainTankButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1637)
+function UnitPopupPvpFlagButtonMixin:GetEntries() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1648)
-function UnitPopupSetRaidMainAssistButtonMixin:GetText() end
+function UnitPopupPvpEnableButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1652)
-function UnitPopupSetRaidMainAssistButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1651)
+function UnitPopupPvpEnableButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1664)
-function UnitPopupSetRaidMainAssistButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1655)
+function UnitPopupPvpEnableButtonMixin:IsChecked(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1669)
-function UnitPopupSetRaidDemoteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1659)
+function UnitPopupPvpEnableButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1673)
-function UnitPopupSetRaidDemoteButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1666)
+function UnitPopupPvpDisableButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1694)
-function UnitPopupSetRaidDemoteButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1670)
+function UnitPopupPvpDisableButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1709)
-function UnitPopupSetRaidRemoveButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1674)
+function UnitPopupPvpDisableButtonMixin:IsChecked(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1713)
-function UnitPopupSetRaidRemoveButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1678)
+function UnitPopupPvpDisableButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1732)
-function UnitPopupSetRaidRemoveButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1685)
+function UnitPopupSelectLootSpecializationButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1737)
-function UnitPopupPvpReportAfkButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1689)
+function UnitPopupSelectLootSpecializationButtonMixin:GetTooltipText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1742)
-function UnitPopupPvpReportAfkButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1693)
+function UnitPopupSelectLootSpecializationButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1746)
-function UnitPopupPvpReportAfkButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1697)
+function UnitPopupSelectLootSpecializationButtonMixin:GetEntries() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1754)
-function UnitPopupRafSummonButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1710)
+function UnitPopupLootSpecializationDefaultButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1766)
-function UnitPopupRafSummonButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1723)
+function UnitPopupLootSpecializationDefaultButtonMixin:IsChecked(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1769)
-function UnitPopupRafSummonButtonMixin:IsEnabled() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1727)
+function UnitPopupLootSpecializationDefaultButtonMixin:GetSpecID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1774)
-function UnitPopupRafSummonButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1731)
+function UnitPopupLootSpecializationDefaultButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1738)
+function UnitPopupLootSpecialization1ButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1751)
+function UnitPopupLootSpecialization1ButtonMixin:GetSpecIndex() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1755)
+function UnitPopupLootSpecialization1ButtonMixin:GetSpecID() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1763)
+function UnitPopupLootSpecialization1ButtonMixin:IsChecked(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1767)
+function UnitPopupLootSpecialization1ButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1771)
+function UnitPopupLootSpecialization1ButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1778)
-function UnitPopupVehicleLeaveButtonMixin:GetText() end
+function UnitPopupLootSpecialization2ButtonMixin:GetSpecIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1782)
-function UnitPopupVehicleLeaveButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1784)
+function UnitPopupLootSpecialization3ButtonMixin:GetSpecIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1786)
-function UnitPopupVehicleLeaveButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1790)
+function UnitPopupLootSpecialization4ButtonMixin:GetSpecIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1791)
-function UnitPopupSetFocusButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1796)
+function UnitPopupSetRaidLeaderButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1795)
-function UnitPopupSetFocusButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1800)
+function UnitPopupSetRaidLeaderButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1801)
-function UnitPopupClearFocusButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1816)
+function UnitPopupSetRaidLeaderButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1805)
-function UnitPopupClearFocusButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1811)
-function UnitPopupLargeFocusButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1815)
-function UnitPopupLargeFocusButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1820)
-function UnitPopupLargeFocusButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1823)
+function UnitPopupSetRaidAssistButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1827)
-function UnitPopupLargeFocusButtonMixin:IsCheckable() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1831)
-function UnitPopupLargeFocusButtonMixin:IsChecked() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1835)
-function UnitPopupLargeFocusButtonMixin:IsNotRadio() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1839)
-function UnitPopupLockFocusButtonMixin:GetText() end
+function UnitPopupSetRaidAssistButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1843)
-function UnitPopupLockFocusButtonMixin:CanShow() end
+function UnitPopupSetRaidAssistButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1847)
-function UnitPopupLockFocusButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1852)
-function UnitPopupUnlockFocusButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1856)
-function UnitPopupUnlockFocusButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1860)
-function UnitPopupUnlockFocusButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1865)
-function UnitPopupMoveFocusButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1850)
+function UnitPopupSetRaidMainTankButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1870)
-function UnitPopupMoveFocusButtonMixin:CanShow() end
+function UnitPopupSetRaidMainTankButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1875)
-function UnitPopupMoveFocusButtonMixin:IsNested() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1874)
+function UnitPopupSetRaidMainTankButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1879)
-function UnitPopupMoveFocusButtonMixin:GetButtons() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1881)
+function UnitPopupSetRaidMainAssistButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1888)
-function UnitPopupFocusFrameBuffsOnTopButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1885)
+function UnitPopupSetRaidMainAssistButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1892)
-function UnitPopupFocusFrameBuffsOnTopButtonMixin:IsCheckable() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1889)
+function UnitPopupSetRaidMainAssistButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1896)
-function UnitPopupFocusFrameBuffsOnTopButtonMixin:IsChecked() end
+function UnitPopupSetRaidDemoteButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1900)
-function UnitPopupFocusFrameBuffsOnTopButtonMixin:OnClick() end
+function UnitPopupSetRaidDemoteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1906)
-function UnitPopupMovePlayerFrameButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1910)
-function UnitPopupMovePlayerFrameButtonMixin:IsNested() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1914)
-function UnitPopupMovePlayerFrameButtonMixin:GetButtons() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1923)
-function UnitPopupMovePlayerFrameButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1928)
-function UnitPopupLockPlayerFrameButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1932)
-function UnitPopupLockPlayerFrameButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1936)
-function UnitPopupLockPlayerFrameButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1941)
-function UnitPopupUnlockPlayerFrameButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1945)
-function UnitPopupUnlockPlayerFrameButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1949)
-function UnitPopupUnlockPlayerFrameButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1939)
+function UnitPopupSetRaidDemoteButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1954)
-function UnitPopupResetPlayerFrameButtonMixin:GetText() end
+function UnitPopupSetRaidRemoveButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1958)
-function UnitPopupResetPlayerFrameButtonMixin:OnClick() end
+function UnitPopupSetRaidRemoveButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1963)
-function UnitPopupPlayerFrameShowCastBarButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1995)
+function UnitPopupSetRaidRemoveButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1967)
-function UnitPopupPlayerFrameShowCastBarButtonMixin:IsCheckable() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2003)
+function UnitPopupPvpReportAfkButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1971)
-function UnitPopupPlayerFrameShowCastBarButtonMixin:IsNotRadio() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1975)
-function UnitPopupPlayerFrameShowCastBarButtonMixin:IsChecked() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1979)
-function UnitPopupPlayerFrameShowCastBarButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1990)
-function UnitPopupMoveTargetFrameButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1994)
-function UnitPopupMoveTargetFrameButtonMixin:IsNested() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1998)
-function UnitPopupMoveTargetFrameButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2002)
-function UnitPopupMoveTargetFrameButtonMixin:GetButtons() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2008)
+function UnitPopupPvpReportAfkButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2012)
-function UnitPopupLockTargetFrameButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2016)
-function UnitPopupLockTargetFrameButtonMixin:CanShow() end
+function UnitPopupPvpReportAfkButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2020)
-function UnitPopupLockTargetFrameButtonMixin:OnClick() end
+function UnitPopupRafSummonButtonMixin:GetText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2025)
-function UnitPopupUnlockTargetFrameButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2029)
-function UnitPopupUnlockTargetFrameButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2030)
+function UnitPopupRafSummonButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2033)
-function UnitPopupUnlockTargetFrameButtonMixin:OnClick() end
+function UnitPopupRafSummonButtonMixin:IsEnabled(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2038)
-function UnitPopupTargetFrameBuffsOnTopButtonMixin:IsChecked() end
+function UnitPopupRafSummonButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2042)
-function UnitPopupTargetFrameBuffsOnTopButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2043)
+function UnitPopupVehicleLeaveButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2048)
-function UnitPopupResetTargetFrameButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2047)
+function UnitPopupVehicleLeaveButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2052)
-function UnitPopupResetTargetFrameButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2051)
+function UnitPopupVehicleLeaveButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2057)
-function UnitPopupAddFriendButtonMixin:GetText() end
+function UnitPopupSetFocusButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2061)
-function UnitPopupAddFriendButtonMixin:IsDisabledInKioskMode() end
+function UnitPopupSetFocusButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2065)
-function UnitPopupAddFriendButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2067)
+function UnitPopupClearFocusButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2069)
-function UnitPopupAddFriendButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2071)
+function UnitPopupClearFocusButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2078)
-function UnitPopupAddFriendMenuButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2077)
+function UnitPopupLargeFocusButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2082)
-function UnitPopupAddFriendMenuButtonMixin:IsDisabledInKioskMode() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2081)
+function UnitPopupLargeFocusButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2086)
-function UnitPopupAddFriendMenuButtonMixin:IsNested() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2085)
+function UnitPopupLargeFocusButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2091)
-function UnitPopupAddFriendMenuButtonMixin:CanShow() end
+function UnitPopupLargeFocusButtonMixin:IsChecked(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2100)
-function UnitPopupAddFriendMenuButtonMixin:GetButtons() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2097)
+function UnitPopupLockFocusButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2108)
-function UnitPopupAddCharacterFriendButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2101)
+function UnitPopupLockFocusButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2105)
+function UnitPopupLockFocusButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2112)
-function UnitPopupAddCharacterFriendButtonMixin:IsDisabledInKioskMode() end
+function UnitPopupUnlockFocusButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2116)
-function UnitPopupAddCharacterFriendButtonMixin:OnClick() end
+function UnitPopupUnlockFocusButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2120)
-function UnitPopupAddCharacterFriendButtonMixin:IsEnabled() end
+function UnitPopupUnlockFocusButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2147)
-function UnitPopupAddBtagFriendButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2127)
+function UnitPopupMoveFocusButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2151)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2131)
+function UnitPopupMoveFocusButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2135)
+function UnitPopupMoveFocusButtonMixin:GetEntries() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2145)
+function UnitPopupFocusFrameBuffsOnTopButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2149)
+function UnitPopupFocusFrameBuffsOnTopButtonMixin:IsChecked(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2153)
+function UnitPopupFocusFrameBuffsOnTopButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2161)
+function UnitPopupMovePlayerFrameButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2165)
+function UnitPopupMovePlayerFrameButtonMixin:GetEntries() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2174)
+function UnitPopupMovePlayerFrameButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2180)
+function UnitPopupLockPlayerFrameButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2184)
+function UnitPopupLockPlayerFrameButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2188)
+function UnitPopupLockPlayerFrameButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2195)
+function UnitPopupUnlockPlayerFrameButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2199)
+function UnitPopupUnlockPlayerFrameButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2203)
+function UnitPopupUnlockPlayerFrameButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2210)
+function UnitPopupResetPlayerFrameButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2214)
+function UnitPopupResetPlayerFrameButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2221)
+function UnitPopupPlayerFrameShowCastBarButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2225)
+function UnitPopupPlayerFrameShowCastBarButtonMixin:IsChecked(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2229)
+function UnitPopupPlayerFrameShowCastBarButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2241)
+function UnitPopupMoveTargetFrameButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2245)
+function UnitPopupMoveTargetFrameButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2249)
+function UnitPopupMoveTargetFrameButtonMixin:GetEntries() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2260)
+function UnitPopupLockTargetFrameButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2264)
+function UnitPopupLockTargetFrameButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2268)
+function UnitPopupLockTargetFrameButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2275)
+function UnitPopupUnlockTargetFrameButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2279)
+function UnitPopupUnlockTargetFrameButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2283)
+function UnitPopupUnlockTargetFrameButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2290)
+function UnitPopupTargetFrameBuffsOnTopButtonMixin:IsChecked(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2294)
+function UnitPopupTargetFrameBuffsOnTopButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2302)
+function UnitPopupResetTargetFrameButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2306)
+function UnitPopupResetTargetFrameButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2313)
+function UnitPopupAddFriendButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2317)
+function UnitPopupAddFriendButtonMixin:IsDisabledInKioskMode() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2321)
+function UnitPopupAddFriendButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2325)
+function UnitPopupAddFriendButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2348)
+function UnitPopupAddFriendMenuButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2352)
+function UnitPopupAddFriendMenuButtonMixin:IsDisabledInKioskMode() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2357)
+function UnitPopupAddFriendMenuButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2377)
+function UnitPopupAddFriendMenuButtonMixin:GetEntries() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2386)
+function UnitPopupAddCharacterFriendButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2390)
+function UnitPopupAddCharacterFriendButtonMixin:IsDisabledInKioskMode() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2394)
+function UnitPopupAddCharacterFriendButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2399)
+function UnitPopupAddCharacterFriendButtonMixin:IsEnabled(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2454)
+function UnitPopupAddBtagFriendButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2458)
 function UnitPopupAddBtagFriendButtonMixin:IsDisabledInKioskMode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2155)
-function UnitPopupAddBtagFriendButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2170)
-function UnitPopupAddBtagFriendButtonMixin:IsEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2178)
-function UnitPopupAddGuildBtagFriendButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2182)
-function UnitPopupAddGuildBtagFriendButtonMixin:IsDisabledInKioskMode() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2186)
-function UnitPopupAddGuildBtagFriendButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2196)
-function UnitPopupAddGuildBtagFriendButtonMixin:IsEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2204)
-function UnitPopupAddGuildBtagFriendButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2208)
-function UnitPopupRaidTargetButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2212)
-function UnitPopupRaidTargetButtonMixin:IsNested() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2216)
-function UnitPopupRaidTargetButtonMixin:GetButtons() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2231)
-function UnitPopupRaidTarget1ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2235)
-function UnitPopupRaidTarget1ButtonMixin:IsCheckable() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2239)
-function UnitPopupRaidTarget1ButtonMixin:GetIcon() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2243)
-function UnitPopupRaidTarget1ButtonMixin:GetRaidTargetIndex() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2247)
-function UnitPopupRaidTarget1ButtonMixin:IsChecked() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2254)
-function UnitPopupRaidTarget1ButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2259)
-function UnitPopupRaidTarget1ButtonMixin:GetTextureCoords() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2269)
-function UnitPopupRaidTarget1ButtonMixin:GetColor() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2274)
-function UnitPopupRaidTarget2ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2278)
-function UnitPopupRaidTarget2ButtonMixin:GetRaidTargetIndex() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2282)
-function UnitPopupRaidTarget2ButtonMixin:GetTextureCoords() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2292)
-function UnitPopupRaidTarget2ButtonMixin:GetColor() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2297)
-function UnitPopupRaidTarget3ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2301)
-function UnitPopupRaidTarget3ButtonMixin:GetRaidTargetIndex() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2305)
-function UnitPopupRaidTarget3ButtonMixin:GetTextureCoords() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2315)
-function UnitPopupRaidTarget3ButtonMixin:GetColor() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2320)
-function UnitPopupRaidTarget4ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2324)
-function UnitPopupRaidTarget4ButtonMixin:GetRaidTargetIndex() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2328)
-function UnitPopupRaidTarget4ButtonMixin:GetTextureCoords() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2338)
-function UnitPopupRaidTarget4ButtonMixin:GetColor() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2343)
-function UnitPopupRaidTarget5ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2347)
-function UnitPopupRaidTarget5ButtonMixin:GetRaidTargetIndex() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2351)
-function UnitPopupRaidTarget5ButtonMixin:GetTextureCoords() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2361)
-function UnitPopupRaidTarget5ButtonMixin:GetColor() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2366)
-function UnitPopupRaidTarget6ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2370)
-function UnitPopupRaidTarget6ButtonMixin:GetRaidTargetIndex() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2374)
-function UnitPopupRaidTarget6ButtonMixin:GetTextureCoords() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2384)
-function UnitPopupRaidTarget6ButtonMixin:GetColor() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2389)
-function UnitPopupRaidTarget7ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2393)
-function UnitPopupRaidTarget7ButtonMixin:GetRaidTargetIndex() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2397)
-function UnitPopupRaidTarget7ButtonMixin:GetTextureCoords() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2407)
-function UnitPopupRaidTarget7ButtonMixin:GetColor() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2412)
-function UnitPopupRaidTarget8ButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2416)
-function UnitPopupRaidTarget8ButtonMixin:GetRaidTargetIndex() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2420)
-function UnitPopupRaidTarget8ButtonMixin:GetTextureCoords() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2430)
-function UnitPopupRaidTarget8ButtonMixin:GetColor() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2435)
-function UnitPopupRaidTargetNoneButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2439)
-function UnitPopupRaidTargetNoneButtonMixin:GetRaidTargetIndex() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2443)
-function UnitPopupRaidTargetNoneButtonMixin:GetTextureCoords() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2447)
-function UnitPopupRaidTargetNoneButtonMixin:GetIcon() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2451)
-function UnitPopupRaidTargetNoneButtonMixin:GetColor() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2456)
-function UnitPopupChatPromoteButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2460)
-function UnitPopupChatPromoteButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2473)
-function UnitPopupChatPromoteButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2479)
-function UnitPopupChatDemoteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2462)
+function UnitPopupAddBtagFriendButtonMixin:OnClick(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2483)
-function UnitPopupChatDemoteButtonMixin:CanShow() end
+function UnitPopupAddBtagFriendButtonMixin:IsEnabled(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2496)
-function UnitPopupChatDemoteButtonMixin:OnClick() end
+function UnitPopupAddGuildBtagFriendButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2502)
-function UnitPopupChatOwnerButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2500)
+function UnitPopupAddGuildBtagFriendButtonMixin:IsDisabledInKioskMode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2506)
-function UnitPopupChatOwnerButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2504)
+function UnitPopupAddGuildBtagFriendButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2514)
+function UnitPopupAddGuildBtagFriendButtonMixin:IsEnabled(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2519)
-function UnitPopupChatOwnerButtonMixin:OnClick() end
+function UnitPopupAddGuildBtagFriendButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2525)
-function UnitPopupChatKickButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2524)
+function UnitPopupRaidTargetButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2529)
-function UnitPopupChatKickButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2528)
+function UnitPopupRaidTargetButtonMixin:GetEntries() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2533)
-function UnitPopupChatKickButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2544)
+function UnitPopupRaidTargetBaseMixin:IsChecked(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2539)
-function UnitPopupChatBanButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2548)
+function UnitPopupRaidTargetBaseMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2543)
-function UnitPopupChatBanButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2553)
+function UnitPopupRaidTargetBaseMixin:GetTextureCoords() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2549)
-function UnitPopupGarrisonVisitButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2557)
+function UnitPopupRaidTargetBaseMixin:GetIcon() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2554)
-function UnitPopupGarrisonVisitButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2561)
+function UnitPopupRaidTargetBaseMixin:CreateMenuDescription(rootDescription, contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2558)
-function UnitPopupGarrisonVisitButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2591)
+function UnitPopupRaidTargetNoneButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2563)
-function UnitPopupVoiceChatButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2595)
+function UnitPopupRaidTargetNoneButtonMixin:GetRaidTargetIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2567)
-function UnitPopupVoiceChatButtonMixin:IsNested() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2601)
+function UnitPopupRaidTarget1ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2571)
-function UnitPopupVoiceChatButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2605)
+function UnitPopupRaidTarget1ButtonMixin:GetIcon() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2585)
-function UnitPopupVoiceChatButtonMixin:GetButtons() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2609)
+function UnitPopupRaidTarget1ButtonMixin:GetRaidTargetIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2594)
-function UnitPopupVoiceChatMicrophoneVolumeButtonMixin:GetCustomFrame() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2613)
+function UnitPopupRaidTarget1ButtonMixin:GetTextureCoords() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2598)
-function UnitPopupVoiceChatMicrophoneVolumeButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2617)
+function UnitPopupRaidTarget1ButtonMixin:GetColor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2607)
-function UnitPopupVoiceChatSpeakerVolumeButtonMixin:GetCustomFrame() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2623)
+function UnitPopupRaidTarget2ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2611)
-function UnitPopupVoiceChatSpeakerVolumeButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2627)
+function UnitPopupRaidTarget2ButtonMixin:GetRaidTargetIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2620)
-function UnitPopupVoiceChatUserVolumeButtonMixin:GetCustomFrame() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2631)
+function UnitPopupRaidTarget2ButtonMixin:GetTextureCoords() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2624)
-function UnitPopupVoiceChatUserVolumeButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2635)
+function UnitPopupRaidTarget2ButtonMixin:GetColor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2636)
-function UnitPopupVoiceChatSettingsButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2641)
+function UnitPopupRaidTarget3ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2640)
-function UnitPopupVoiceChatSettingsButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2645)
+function UnitPopupRaidTarget3ButtonMixin:GetRaidTargetIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2647)
-function UnitPopupVoiceChatSettingsButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2649)
+function UnitPopupRaidTarget3ButtonMixin:GetTextureCoords() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2653)
-function UnitPopupCommunitiesLeaveButtonMixin:GetText() end
+function UnitPopupRaidTarget3ButtonMixin:GetColor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2656)
-function UnitPopupCommunitiesLeaveButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2659)
+function UnitPopupRaidTarget4ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2664)
-function UnitPopupCommunitiesLeaveButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2663)
+function UnitPopupRaidTarget4ButtonMixin:GetRaidTargetIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2676)
-function UnitPopupCommunitiesBtagFriendButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2667)
+function UnitPopupRaidTarget4ButtonMixin:GetTextureCoords() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2680)
-function UnitPopupCommunitiesBtagFriendButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2671)
+function UnitPopupRaidTarget4ButtonMixin:GetColor() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2677)
+function UnitPopupRaidTarget5ButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2681)
+function UnitPopupRaidTarget5ButtonMixin:GetRaidTargetIndex() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2685)
+function UnitPopupRaidTarget5ButtonMixin:GetTextureCoords() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2689)
+function UnitPopupRaidTarget5ButtonMixin:GetColor() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2695)
-function UnitPopupCommunitiesBtagFriendButtonMixin:OnClick() end
+function UnitPopupRaidTarget6ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2701)
-function UnitPopupCommunitiesKickFriendButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2699)
+function UnitPopupRaidTarget6ButtonMixin:GetRaidTargetIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2705)
-function UnitPopupCommunitiesKickFriendButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2703)
+function UnitPopupRaidTarget6ButtonMixin:GetTextureCoords() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2716)
-function UnitPopupCommunitiesKickFriendButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2707)
+function UnitPopupRaidTarget6ButtonMixin:GetColor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2722)
-function UnitPopupCommunitiesMemberNoteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2713)
+function UnitPopupRaidTarget7ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2726)
-function UnitPopupCommunitiesMemberNoteButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2717)
+function UnitPopupRaidTarget7ButtonMixin:GetRaidTargetIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2737)
-function UnitPopupCommunitiesMemberNoteButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2721)
+function UnitPopupRaidTarget7ButtonMixin:GetTextureCoords() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2725)
+function UnitPopupRaidTarget7ButtonMixin:GetColor() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2731)
+function UnitPopupRaidTarget8ButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2735)
+function UnitPopupRaidTarget8ButtonMixin:GetRaidTargetIndex() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2739)
+function UnitPopupRaidTarget8ButtonMixin:GetTextureCoords() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2743)
-function UnitPopupCommunitiesRoleButtonMixin:GetText() end
+function UnitPopupRaidTarget8ButtonMixin:GetColor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2747)
-function UnitPopupCommunitiesRoleButtonMixin:IsNested() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2749)
+function UnitPopupSelfHighlightSelectButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2751)
-function UnitPopupCommunitiesRoleButtonMixin:GetButtons() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2753)
+function UnitPopupSelfHighlightSelectButtonMixin:GetEntries() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2760)
-function UnitPopupCommunitiesRoleButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2762)
+function UnitPopupSelfHighlightCommonMixin:SetFindSelfAnywhere() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2769)
-function UnitPopupCommunitiesRoleMemberButtonMixin:GetText() end
+function UnitPopupSelfHighlightCommonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2773)
-function UnitPopupCommunitiesRoleMemberButtonMixin:IsCheckable() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2778)
+function UnitPopupSelfHighlightCommonMixin:IsChecked(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2777)
-function UnitPopupCommunitiesRoleMemberButtonMixin:GetRoleIdentifier() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2782)
+function UnitPopupSelfHighlightCommonMixin:GetCVarName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2781)
-function UnitPopupCommunitiesRoleMemberButtonMixin:IsChecked() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2788)
+function UnitPopupSelfHighlightCircleButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2786)
-function UnitPopupCommunitiesRoleMemberButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2792)
+function UnitPopupSelfHighlightCircleButtonMixin:GetCVarName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2791)
-function UnitPopupCommunitiesRoleMemberButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2798)
+function UnitPopupSelfHighlightIconButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2800)
-function UnitPopupCommunitiesRoleModeratorButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2802)
+function UnitPopupSelfHighlightIconButtonMixin:GetCVarName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2804)
-function UnitPopupCommunitiesRoleModeratorButtonMixin:GetRoleIdentifier() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2830)
+function UnitPopupChatPromoteButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2809)
-function UnitPopupCommunitiesRoleLeaderButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2812)
+function UnitPopupChatPromoteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2813)
-function UnitPopupCommunitiesRoleLeaderButtonMixin:GetRoleIdentifier() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2836)
+function UnitPopupChatDemoteButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2818)
-function UnitPopupCommunitiesRoleOwnerButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2840)
+function UnitPopupChatDemoteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2822)
-function UnitPopupCommunitiesRoleOwnerButtonMixin:GetRoleIdentifier() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2857)
+function UnitPopupChatDemoteButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2827)
-function UnitPopupCommunitiesFavoriteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2863)
+function UnitPopupChatOwnerButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2832)
-function UnitPopupCommunitiesFavoriteButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2867)
+function UnitPopupChatOwnerButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2838)
-function UnitPopupCommunitiesSettingButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2884)
+function UnitPopupChatOwnerButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2842)
-function UnitPopupCommunitiesSettingButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2890)
+function UnitPopupGarrisonVisitButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2847)
-function UnitPopupCommunitiesSettingButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2895)
+function UnitPopupGarrisonVisitButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2861)
-function UnitPopupCommunityNotificationButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2899)
+function UnitPopupGarrisonVisitButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2865)
-function UnitPopupCommunityNotificationButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2905)
+function UnitPopupVoiceChatButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2871)
-function UnitPopupClearCommunityNotificationButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2909)
+function UnitPopupVoiceChatButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2875)
-function UnitPopupClearCommunityNotificationButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2926)
+function UnitPopupVoiceChatButtonMixin:GetEntries() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2881)
-function UnitPopupCommunityInviteButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2936)
+function UnitPopupVoiceChatMicrophoneVolumeButtonMixin:GetFrameTemplate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2885)
-function UnitPopupCommunityInviteButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2940)
+function UnitPopupVoiceChatMicrophoneVolumeButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2901)
-function UnitPopupCommunityInviteButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2950)
+function UnitPopupVoiceChatSpeakerVolumeButtonMixin:GetFrameTemplate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2915)
-function UnitPopupDeleteCommunityMessageButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2919)
-function UnitPopupDeleteCommunityMessageButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2924)
-function UnitPopupDeleteCommunityMessageButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2995)
-function UnitPopupItemQuality2DescButtonMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2960)
-function UnitPopupItemQuality2DescButtonMixin:IsCheckable() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2954)
+function UnitPopupVoiceChatSpeakerVolumeButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2964)
-function UnitPopupItemQuality2DescButtonMixin:GetColor() end
+function UnitPopupVoiceChatUserVolumeButtonMixin:GetFrameTemplate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2999)
-function UnitPopupItemQuality2DescButtonMixin:GetID() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2968)
+function UnitPopupVoiceChatUserVolumeButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2976)
-function UnitPopupItemQuality2DescButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2987)
+function UnitPopupVoiceChatSettingsButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2981)
-function UnitPopupItemQuality2DescButtonMixin:IsChecked() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2991)
+function UnitPopupVoiceChatSettingsButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2995)
+function UnitPopupVoiceChatSettingsButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3002)
+function UnitPopupCommunitiesLeaveButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3005)
-function UnitPopupOptOutLootTitleMixin:GetText() end
+function UnitPopupCommunitiesLeaveButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3009)
-function UnitPopupOptOutLootTitleMixin:GetTooltipText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3014)
+function UnitPopupCommunitiesLeaveButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3013)
-function UnitPopupOptOutLootTitleMixin:IsNested() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3031)
+function UnitPopupCommunitiesBtagFriendButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3017)
-function UnitPopupOptOutLootTitleMixin:GetButtons() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3025)
-function UnitPopupOptOutLootEnableMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3029)
-function UnitPopupOptOutLootEnableMixin:IsCheckable() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3033)
-function UnitPopupOptOutLootEnableMixin:IsChecked() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3037)
-function UnitPopupOptOutLootEnableMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3043)
-function UnitPopupOptOutLootDisableMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3047)
-function UnitPopupOptOutLootDisableMixin:IsCheckable() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3051)
-function UnitPopupOptOutLootDisableMixin:IsChecked() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3035)
+function UnitPopupCommunitiesBtagFriendButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3055)
-function UnitPopupOptOutLootDisableMixin:OnClick() end
+function UnitPopupCommunitiesBtagFriendButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3062)
-function UnitPopupAchievementButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3061)
+function UnitPopupCommunitiesKickFriendButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3065)
-function UnitPopupAchievementButtonMixin:GetInteractDistance() end
+function UnitPopupCommunitiesKickFriendButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3068)
-function UnitPopupAchievementButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3078)
+function UnitPopupCommunitiesKickFriendButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3072)
-function UnitPopupAchievementButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3092)
+function UnitPopupCommunitiesMemberNoteButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3076)
-function UnitPopupRafGrantLevelButtonMixin:GetText() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3096)
+function UnitPopupCommunitiesMemberNoteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3079)
-function UnitPopupRafGrantLevelButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3124)
+function UnitPopupCommunitiesMemberNoteButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3083)
-function UnitPopupRafGrantLevelButtonMixin:IsEnabled() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3086)
-function UnitPopupRafGrantLevelButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3090)
-function UnitPopupLootPromoteButtonMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3098)
-function UnitPopupSubsectionTitleMixin:GetText() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3102)
-function UnitPopupSubsectionTitleMixin:IsTitle() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3108)
-function UnitPopupSubsectionTitleMixin:IsSubsectionTitle() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3136)
+function UnitPopupCommunitiesRoleButtonMixin:GetText(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3140)
-function UnitPopupEnterEditModeMixin:CanShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3145)
-function UnitPopupSelectRoleButtonMixin:GetText() end
+function UnitPopupCommunitiesRoleButtonMixin:GetEntries() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3149)
-function UnitPopupSelectRoleButtonMixin:IsNested() end
+function UnitPopupCommunitiesRoleButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3153)
-function UnitPopupSelectRoleButtonMixin:CanShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3155)
+function UnitPopupCommunitiesRoleMemberButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3157)
-function UnitPopupSelectRoleButtonMixin:GetButtons() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3159)
+function UnitPopupCommunitiesRoleMemberButtonMixin:GetRoleIdentifier() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3163)
+function UnitPopupCommunitiesRoleMemberButtonMixin:IsChecked(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3167)
+function UnitPopupCommunitiesRoleMemberButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3172)
+function UnitPopupCommunitiesRoleMemberButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3178)
+function UnitPopupCommunitiesRoleModeratorButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3182)
+function UnitPopupCommunitiesRoleModeratorButtonMixin:GetRoleIdentifier() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3188)
+function UnitPopupCommunitiesRoleLeaderButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3192)
+function UnitPopupCommunitiesRoleLeaderButtonMixin:GetRoleIdentifier() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3198)
+function UnitPopupCommunitiesRoleOwnerButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3202)
+function UnitPopupCommunitiesRoleOwnerButtonMixin:GetRoleIdentifier() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3208)
+function UnitPopupCommunitiesFavoriteButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3212)
+function UnitPopupCommunitiesFavoriteButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3219)
+function UnitPopupCommunitiesSettingButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3223)
+function UnitPopupCommunitiesSettingButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3227)
+function UnitPopupCommunitiesSettingButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3240)
+function UnitPopupCommunityNotificationButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3244)
+function UnitPopupCommunityNotificationButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3250)
+function UnitPopupClearCommunityNotificationButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3254)
+function UnitPopupClearCommunityNotificationButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3260)
+function UnitPopupCommunityInviteButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3264)
+function UnitPopupCommunityInviteButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3282)
+function UnitPopupCommunityInviteButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3294)
+function UnitPopupDeleteCommunityMessageButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3298)
+function UnitPopupDeleteCommunityMessageButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3307)
+function UnitPopupDeleteCommunityMessageButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3345)
+function UnitPopupItemQuality2DescButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3349)
+function UnitPopupItemQuality2DescButtonMixin:GetColor() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3357)
+function UnitPopupItemQuality2DescButtonMixin:GetID() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3361)
+function UnitPopupItemQuality2DescButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3366)
+function UnitPopupItemQuality2DescButtonMixin:IsChecked(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3372)
+function UnitPopupItemQuality3DescButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3376)
+function UnitPopupItemQuality3DescButtonMixin:GetID() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3382)
+function UnitPopupItemQuality4DescButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3386)
+function UnitPopupItemQuality4DescButtonMixin:GetID() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3393)
+function UnitPopupOptOutLootTitleMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3397)
+function UnitPopupOptOutLootTitleMixin:GetTooltipText() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3401)
+function UnitPopupOptOutLootTitleMixin:GetEntries() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3410)
+function UnitPopupOptOutLootEnableMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3414)
+function UnitPopupOptOutLootEnableMixin:IsChecked(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3418)
+function UnitPopupOptOutLootEnableMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3425)
+function UnitPopupOptOutLootDisableMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3429)
+function UnitPopupOptOutLootDisableMixin:IsChecked(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3433)
+function UnitPopupOptOutLootDisableMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3441)
+function UnitPopupAchievementButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3444)
+function UnitPopupAchievementButtonMixin:GetInteractDistance() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3447)
+function UnitPopupAchievementButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3451)
+function UnitPopupAchievementButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3457)
+function UnitPopupRafGrantLevelButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3460)
+function UnitPopupRafGrantLevelButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3464)
+function UnitPopupRafGrantLevelButtonMixin:IsEnabled(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3467)
+function UnitPopupRafGrantLevelButtonMixin:OnClick(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3473)
+function UnitPopupLootPromoteButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3479)
+function UnitPopupSubsectionTitleMixin:IsTitle() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3485)
+function UnitPopupSubsectionSeperatorMixin:IsDivider() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3522)
+function UnitPopupEnterEditModeMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3528)
+function UnitPopupSelectRoleButtonMixin:GetText(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3533)
+function UnitPopupSelectRoleButtonMixin:CanShow(contextData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3537)
+function UnitPopupSelectRoleButtonMixin:GetEntries() end

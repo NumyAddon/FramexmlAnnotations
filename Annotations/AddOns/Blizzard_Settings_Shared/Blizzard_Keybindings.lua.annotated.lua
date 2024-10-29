@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L540)
 --- @class KeyBindingButtonMixin : DefaultTooltipMixin
 KeyBindingButtonMixin = CreateFromMixins(DefaultTooltipMixin)
 
@@ -53,8 +53,8 @@ function KeyBindingFrameBindingTemplateMixin:RenewBindings() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L497)
 function KeyBindingFrameBindingTemplateMixin:ClearSelections() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L542)
 function KeyBindingButtonMixin:SetSelected(selected) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L548)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L547)
 function KeyBindingButtonMixin:OnLoad() end

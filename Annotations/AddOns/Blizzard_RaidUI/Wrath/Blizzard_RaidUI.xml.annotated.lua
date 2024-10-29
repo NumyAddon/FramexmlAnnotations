@@ -92,48 +92,48 @@
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTarget : StatusBar, SecureFrameTemplate, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L535)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L536)
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTargetFrame : Frame, TooltipBackdropTemplate
 --- @field backdropBorderColor any # GRAY_FONT_COLOR
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L596)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L597)
 --- child of 
 --- @class RaidPulloutButtonTemplateTargetTargetName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L589)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L590)
 --- child of RaidPulloutButtonTemplateTargetTarget
 --- @class  : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L565)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L566)
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTarget : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L622)
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateClearButton : Button, SecureUnitButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L636)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L637)
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTargetClearButton : Button, SecureUnitButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L655)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L656)
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateReadyCheck : Frame, ReadyCheckStatusTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L666)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L667)
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura1 : Frame, RaidAuraFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L671)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L672)
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura2 : Frame, RaidAuraFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L676)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L677)
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura3 : Frame, RaidAuraFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L681)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L682)
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura4 : Frame, RaidAuraFrameTemplate
 
@@ -145,24 +145,20 @@
 --- Template
 --- @class RaidPulloutButtonTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L718)
---- child of RaidPulloutFrameTemplate
---- @class RaidPulloutFrameTemplate_RaidPulloutFrameTemplateDropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L728)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L719)
 --- child of RaidPulloutFrameTemplate
 --- @class RaidPulloutFrameTemplate_RaidPulloutFrameTemplateMenuBackdrop : Frame, TooltipBackdropTemplate
 --- @field backdropBorderColor any # GRAY_FONT_COLOR
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L710)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L711)
 --- child of RaidPulloutFrameTemplate
 --- @class RaidPulloutFrameTemplate_RaidPulloutFrameTemplateName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L703)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L704)
 --- Template
 --- @class RaidPulloutFrameTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L772)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L763)
 --- @class RaidFrameReadyCheckButton : Button, UIPanelButtonTemplate
 RaidFrameReadyCheckButton = {}
 RaidFrameReadyCheckButton["fitTextCanWidthDecrease"] = true -- inherited
@@ -177,7 +173,7 @@ RaidClassButton13IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton13Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L793)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L784)
 --- @class RaidClassButton13 : Button, RaidClassButtonTemplate
 RaidClassButton13 = {}
 
@@ -191,7 +187,7 @@ RaidClassButton12IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton12Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L798)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L789)
 --- @class RaidClassButton12 : Button, RaidClassButtonTemplate
 RaidClassButton12 = {}
 
@@ -205,7 +201,7 @@ RaidClassButton11IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton11Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L803)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L794)
 --- @class RaidClassButton11 : Button, RaidClassButtonTemplate
 RaidClassButton11 = {}
 
@@ -219,7 +215,7 @@ RaidClassButton10IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton10Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L808)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L799)
 --- @class RaidClassButton10 : Button, RaidClassButtonTemplate
 RaidClassButton10 = {}
 
@@ -233,7 +229,7 @@ RaidClassButton9IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton9Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L813)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L804)
 --- @class RaidClassButton9 : Button, RaidClassButtonTemplate
 RaidClassButton9 = {}
 
@@ -247,7 +243,7 @@ RaidClassButton8IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton8Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L818)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L809)
 --- @class RaidClassButton8 : Button, RaidClassButtonTemplate
 RaidClassButton8 = {}
 
@@ -261,7 +257,7 @@ RaidClassButton7IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton7Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L823)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L814)
 --- @class RaidClassButton7 : Button, RaidClassButtonTemplate
 RaidClassButton7 = {}
 
@@ -275,7 +271,7 @@ RaidClassButton6IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton6Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L828)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L819)
 --- @class RaidClassButton6 : Button, RaidClassButtonTemplate
 RaidClassButton6 = {}
 
@@ -289,7 +285,7 @@ RaidClassButton5IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton5Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L833)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L824)
 --- @class RaidClassButton5 : Button, RaidClassButtonTemplate
 RaidClassButton5 = {}
 
@@ -303,7 +299,7 @@ RaidClassButton4IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton4Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L838)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L829)
 --- @class RaidClassButton4 : Button, RaidClassButtonTemplate
 RaidClassButton4 = {}
 
@@ -317,7 +313,7 @@ RaidClassButton3IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton3Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L843)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L834)
 --- @class RaidClassButton3 : Button, RaidClassButtonTemplate
 RaidClassButton3 = {}
 
@@ -331,7 +327,7 @@ RaidClassButton2IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton2Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L848)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L839)
 --- @class RaidClassButton2 : Button, RaidClassButtonTemplate
 RaidClassButton2 = {}
 
@@ -345,7 +341,7 @@ RaidClassButton1IconTexture = {}
 --- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
 RaidClassButton1Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L853)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L844)
 --- @class RaidClassButton1 : Button, RaidClassButtonTemplate
 RaidClassButton1 = {}
 
@@ -379,7 +375,7 @@ RaidGroup1Slot4 = {}
 --- @type RaidGroupTemplate_RaidGroupTemplateSlot5
 RaidGroup1Slot5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L858)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L849)
 --- @class RaidGroup1 : Frame, RaidGroupTemplate
 RaidGroup1 = {}
 
@@ -413,7 +409,7 @@ RaidGroup2Slot4 = {}
 --- @type RaidGroupTemplate_RaidGroupTemplateSlot5
 RaidGroup2Slot5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L863)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L854)
 --- @class RaidGroup2 : Frame, RaidGroupTemplate
 RaidGroup2 = {}
 
@@ -447,7 +443,7 @@ RaidGroup3Slot4 = {}
 --- @type RaidGroupTemplate_RaidGroupTemplateSlot5
 RaidGroup3Slot5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L868)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L859)
 --- @class RaidGroup3 : Frame, RaidGroupTemplate
 RaidGroup3 = {}
 
@@ -481,7 +477,7 @@ RaidGroup4Slot4 = {}
 --- @type RaidGroupTemplate_RaidGroupTemplateSlot5
 RaidGroup4Slot5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L873)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L864)
 --- @class RaidGroup4 : Frame, RaidGroupTemplate
 RaidGroup4 = {}
 
@@ -515,7 +511,7 @@ RaidGroup5Slot4 = {}
 --- @type RaidGroupTemplate_RaidGroupTemplateSlot5
 RaidGroup5Slot5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L878)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L869)
 --- @class RaidGroup5 : Frame, RaidGroupTemplate
 RaidGroup5 = {}
 
@@ -549,7 +545,7 @@ RaidGroup6Slot4 = {}
 --- @type RaidGroupTemplate_RaidGroupTemplateSlot5
 RaidGroup6Slot5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L874)
 --- @class RaidGroup6 : Frame, RaidGroupTemplate
 RaidGroup6 = {}
 
@@ -583,7 +579,7 @@ RaidGroup7Slot4 = {}
 --- @type RaidGroupTemplate_RaidGroupTemplateSlot5
 RaidGroup7Slot5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L888)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L879)
 --- @class RaidGroup7 : Frame, RaidGroupTemplate
 RaidGroup7 = {}
 
@@ -617,7 +613,7 @@ RaidGroup8Slot4 = {}
 --- @type RaidGroupTemplate_RaidGroupTemplateSlot5
 RaidGroup8Slot5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L893)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L884)
 --- @class RaidGroup8 : Frame, RaidGroupTemplate
 RaidGroup8 = {}
 
@@ -676,7 +672,7 @@ RaidGroupButton1Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton1Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L898)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L889)
 --- @class RaidGroupButton1 : Button, RaidGroupButtonTemplate
 RaidGroupButton1 = {}
 
@@ -735,7 +731,7 @@ RaidGroupButton2Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton2Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L899)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L890)
 --- @class RaidGroupButton2 : Button, RaidGroupButtonTemplate
 RaidGroupButton2 = {}
 
@@ -794,7 +790,7 @@ RaidGroupButton3Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton3Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L900)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L891)
 --- @class RaidGroupButton3 : Button, RaidGroupButtonTemplate
 RaidGroupButton3 = {}
 
@@ -853,7 +849,7 @@ RaidGroupButton4Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton4Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L901)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L892)
 --- @class RaidGroupButton4 : Button, RaidGroupButtonTemplate
 RaidGroupButton4 = {}
 
@@ -912,7 +908,7 @@ RaidGroupButton5Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton5Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L902)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L893)
 --- @class RaidGroupButton5 : Button, RaidGroupButtonTemplate
 RaidGroupButton5 = {}
 
@@ -971,7 +967,7 @@ RaidGroupButton6Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton6Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L903)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L894)
 --- @class RaidGroupButton6 : Button, RaidGroupButtonTemplate
 RaidGroupButton6 = {}
 
@@ -1030,7 +1026,7 @@ RaidGroupButton7Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton7Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L904)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L895)
 --- @class RaidGroupButton7 : Button, RaidGroupButtonTemplate
 RaidGroupButton7 = {}
 
@@ -1089,7 +1085,7 @@ RaidGroupButton8Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton8Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L905)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L896)
 --- @class RaidGroupButton8 : Button, RaidGroupButtonTemplate
 RaidGroupButton8 = {}
 
@@ -1148,7 +1144,7 @@ RaidGroupButton9Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton9Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L906)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L897)
 --- @class RaidGroupButton9 : Button, RaidGroupButtonTemplate
 RaidGroupButton9 = {}
 
@@ -1207,7 +1203,7 @@ RaidGroupButton10Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton10Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L907)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L898)
 --- @class RaidGroupButton10 : Button, RaidGroupButtonTemplate
 RaidGroupButton10 = {}
 
@@ -1266,7 +1262,7 @@ RaidGroupButton11Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton11Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L908)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L899)
 --- @class RaidGroupButton11 : Button, RaidGroupButtonTemplate
 RaidGroupButton11 = {}
 
@@ -1325,7 +1321,7 @@ RaidGroupButton12Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton12Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L909)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L900)
 --- @class RaidGroupButton12 : Button, RaidGroupButtonTemplate
 RaidGroupButton12 = {}
 
@@ -1384,7 +1380,7 @@ RaidGroupButton13Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton13Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L910)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L901)
 --- @class RaidGroupButton13 : Button, RaidGroupButtonTemplate
 RaidGroupButton13 = {}
 
@@ -1443,7 +1439,7 @@ RaidGroupButton14Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton14Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L911)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L902)
 --- @class RaidGroupButton14 : Button, RaidGroupButtonTemplate
 RaidGroupButton14 = {}
 
@@ -1502,7 +1498,7 @@ RaidGroupButton15Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton15Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L912)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L903)
 --- @class RaidGroupButton15 : Button, RaidGroupButtonTemplate
 RaidGroupButton15 = {}
 
@@ -1561,7 +1557,7 @@ RaidGroupButton16Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton16Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L913)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L904)
 --- @class RaidGroupButton16 : Button, RaidGroupButtonTemplate
 RaidGroupButton16 = {}
 
@@ -1620,7 +1616,7 @@ RaidGroupButton17Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton17Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L914)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L905)
 --- @class RaidGroupButton17 : Button, RaidGroupButtonTemplate
 RaidGroupButton17 = {}
 
@@ -1679,7 +1675,7 @@ RaidGroupButton18Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton18Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L915)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L906)
 --- @class RaidGroupButton18 : Button, RaidGroupButtonTemplate
 RaidGroupButton18 = {}
 
@@ -1738,7 +1734,7 @@ RaidGroupButton19Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton19Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L916)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L907)
 --- @class RaidGroupButton19 : Button, RaidGroupButtonTemplate
 RaidGroupButton19 = {}
 
@@ -1797,7 +1793,7 @@ RaidGroupButton20Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton20Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L917)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L908)
 --- @class RaidGroupButton20 : Button, RaidGroupButtonTemplate
 RaidGroupButton20 = {}
 
@@ -1856,7 +1852,7 @@ RaidGroupButton21Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton21Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L918)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L909)
 --- @class RaidGroupButton21 : Button, RaidGroupButtonTemplate
 RaidGroupButton21 = {}
 
@@ -1915,7 +1911,7 @@ RaidGroupButton22Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton22Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L919)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L910)
 --- @class RaidGroupButton22 : Button, RaidGroupButtonTemplate
 RaidGroupButton22 = {}
 
@@ -1974,7 +1970,7 @@ RaidGroupButton23Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton23Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L920)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L911)
 --- @class RaidGroupButton23 : Button, RaidGroupButtonTemplate
 RaidGroupButton23 = {}
 
@@ -2033,7 +2029,7 @@ RaidGroupButton24Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton24Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L921)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L912)
 --- @class RaidGroupButton24 : Button, RaidGroupButtonTemplate
 RaidGroupButton24 = {}
 
@@ -2092,7 +2088,7 @@ RaidGroupButton25Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton25Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L922)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L913)
 --- @class RaidGroupButton25 : Button, RaidGroupButtonTemplate
 RaidGroupButton25 = {}
 
@@ -2151,7 +2147,7 @@ RaidGroupButton26Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton26Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L923)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L914)
 --- @class RaidGroupButton26 : Button, RaidGroupButtonTemplate
 RaidGroupButton26 = {}
 
@@ -2210,7 +2206,7 @@ RaidGroupButton27Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton27Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L924)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L915)
 --- @class RaidGroupButton27 : Button, RaidGroupButtonTemplate
 RaidGroupButton27 = {}
 
@@ -2269,7 +2265,7 @@ RaidGroupButton28Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton28Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L925)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L916)
 --- @class RaidGroupButton28 : Button, RaidGroupButtonTemplate
 RaidGroupButton28 = {}
 
@@ -2328,7 +2324,7 @@ RaidGroupButton29Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton29Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L926)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L917)
 --- @class RaidGroupButton29 : Button, RaidGroupButtonTemplate
 RaidGroupButton29 = {}
 
@@ -2387,7 +2383,7 @@ RaidGroupButton30Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton30Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L927)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L918)
 --- @class RaidGroupButton30 : Button, RaidGroupButtonTemplate
 RaidGroupButton30 = {}
 
@@ -2446,7 +2442,7 @@ RaidGroupButton31Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton31Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L928)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L919)
 --- @class RaidGroupButton31 : Button, RaidGroupButtonTemplate
 RaidGroupButton31 = {}
 
@@ -2505,7 +2501,7 @@ RaidGroupButton32Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton32Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L929)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L920)
 --- @class RaidGroupButton32 : Button, RaidGroupButtonTemplate
 RaidGroupButton32 = {}
 
@@ -2564,7 +2560,7 @@ RaidGroupButton33Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton33Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L930)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L921)
 --- @class RaidGroupButton33 : Button, RaidGroupButtonTemplate
 RaidGroupButton33 = {}
 
@@ -2623,7 +2619,7 @@ RaidGroupButton34Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton34Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L931)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L922)
 --- @class RaidGroupButton34 : Button, RaidGroupButtonTemplate
 RaidGroupButton34 = {}
 
@@ -2682,7 +2678,7 @@ RaidGroupButton35Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton35Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L932)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L923)
 --- @class RaidGroupButton35 : Button, RaidGroupButtonTemplate
 RaidGroupButton35 = {}
 
@@ -2741,7 +2737,7 @@ RaidGroupButton36Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton36Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L933)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L924)
 --- @class RaidGroupButton36 : Button, RaidGroupButtonTemplate
 RaidGroupButton36 = {}
 
@@ -2800,7 +2796,7 @@ RaidGroupButton37Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton37Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L934)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L925)
 --- @class RaidGroupButton37 : Button, RaidGroupButtonTemplate
 RaidGroupButton37 = {}
 
@@ -2859,7 +2855,7 @@ RaidGroupButton38Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton38Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L935)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L926)
 --- @class RaidGroupButton38 : Button, RaidGroupButtonTemplate
 RaidGroupButton38 = {}
 
@@ -2918,7 +2914,7 @@ RaidGroupButton39Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton39Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L936)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L927)
 --- @class RaidGroupButton39 : Button, RaidGroupButtonTemplate
 RaidGroupButton39 = {}
 
@@ -2977,7 +2973,7 @@ RaidGroupButton40Name = {}
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
 RaidGroupButton40Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L937)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L928)
 --- @class RaidGroupButton40 : Button, RaidGroupButtonTemplate
 RaidGroupButton40 = {}
 

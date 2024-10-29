@@ -174,13 +174,13 @@ PetJournalRightInset["InsetBorderBottom"] = PetJournalRightInsetInsetBottomBorde
 PetJournalRightInset["InsetBorderLeft"] = PetJournalRightInsetInsetLeftBorder -- inherited
 PetJournalRightInset["InsetBorderRight"] = PetJournalRightInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1262)
 --- child of PetJournalSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 --- @field texture Texture
 PetJournalSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1253)
 --- child of PetJournalSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 PetJournalSearchBoxSearchIcon = {}
@@ -192,114 +192,15 @@ PetJournalSearchBox = {}
 PetJournalSearchBox["clearButton"] = PetJournalSearchBoxClearButton -- inherited
 PetJournalSearchBox["searchIcon"] = PetJournalSearchBoxSearchIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L985)
---- child of PetJournalFilterButton (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-PetJournalFilterButtonTopLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L992)
---- child of PetJournalFilterButton (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-PetJournalFilterButtonTopRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L999)
---- child of PetJournalFilterButton (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-PetJournalFilterButtonBottomLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1006)
---- child of PetJournalFilterButton (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-PetJournalFilterButtonBottomRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1013)
---- child of PetJournalFilterButton (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-PetJournalFilterButtonTopMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1021)
---- child of PetJournalFilterButton (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-PetJournalFilterButtonMiddleLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1029)
---- child of PetJournalFilterButton (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-PetJournalFilterButtonMiddleRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1037)
---- child of PetJournalFilterButton (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-PetJournalFilterButtonBottomMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1045)
---- child of PetJournalFilterButton (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-PetJournalFilterButtonMiddleMiddle = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L184)
 --- child of PetJournal
---- @class PetJournal_PetJournalFilterButton : DropDownToggleButton, UIMenuButtonStretchTemplate
---- @field Icon Texture
-PetJournalFilterButton = {}
-PetJournalFilterButton["TopLeft"] = PetJournalFilterButtonTopLeft -- inherited
-PetJournalFilterButton["TopRight"] = PetJournalFilterButtonTopRight -- inherited
-PetJournalFilterButton["BottomLeft"] = PetJournalFilterButtonBottomLeft -- inherited
-PetJournalFilterButton["BottomRight"] = PetJournalFilterButtonBottomRight -- inherited
-PetJournalFilterButton["TopMiddle"] = PetJournalFilterButtonTopMiddle -- inherited
-PetJournalFilterButton["MiddleLeft"] = PetJournalFilterButtonMiddleLeft -- inherited
-PetJournalFilterButton["MiddleRight"] = PetJournalFilterButtonMiddleRight -- inherited
-PetJournalFilterButton["BottomMiddle"] = PetJournalFilterButtonBottomMiddle -- inherited
-PetJournalFilterButton["MiddleMiddle"] = PetJournalFilterButtonMiddleMiddle -- inherited
+--- @class PetJournal_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L284)
---- child of PetJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-PetJournalFilterDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L226)
---- child of PetJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetJournalFilterDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L239)
---- child of PetJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetJournalFilterDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L248)
---- child of PetJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetJournalFilterDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L257)
---- child of PetJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-PetJournalFilterDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L271)
---- child of PetJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetJournalFilterDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L207)
---- child of PetJournal
---- @class PetJournal_PetJournalFilterDropDown : Frame, UIDropDownMenuTemplate
-PetJournalFilterDropDown = {}
-PetJournalFilterDropDown["Button"] = PetJournalFilterDropDownButton -- inherited
-PetJournalFilterDropDown["Left"] = PetJournalFilterDropDownLeft -- inherited
-PetJournalFilterDropDown["Middle"] = PetJournalFilterDropDownMiddle -- inherited
-PetJournalFilterDropDown["Right"] = PetJournalFilterDropDownRight -- inherited
-PetJournalFilterDropDown["Text"] = PetJournalFilterDropDownText -- inherited
-PetJournalFilterDropDown["Icon"] = PetJournalFilterDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L190)
 --- child of PetJournal
 --- @class PetJournal_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L218)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L196)
 --- child of PetJournal
 --- @class PetJournal_ScrollBar : EventFrame, WowTrimScrollBar
 
@@ -343,35 +244,35 @@ PetJournalPetCardLeft = {}
 --- @type Texture
 PetJournalPetCardRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L217)
 --- child of PetJournalPetCard
 --- @class PetJournal_PetJournalPetCard_ShadowOverlay : Frame, ShadowOverlayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L225)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoIcon : Texture
 PetJournalPetCardPetInfoIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L233)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoName : FontString, GameFontHighlightLarge
 PetJournalPetCardPetInfoName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L261)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L239)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoSubName : FontString, GameFontNormalSmall
 PetJournalPetCardPetInfoSubName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L274)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L252)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoFavorite : Texture
 PetJournalPetCardPetInfoFavorite = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L259)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_new : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L218)
 --- child of PetJournalPetCard
 --- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo : Button
 --- @field icon PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoIcon
@@ -387,21 +288,21 @@ PetJournalPetCardPetInfo["name"] = PetJournalPetCardPetInfoName
 PetJournalPetCardPetInfo["subName"] = PetJournalPetCardPetInfoSubName
 PetJournalPetCardPetInfo["favorite"] = PetJournalPetCardPetInfoFavorite
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L332)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L310)
 --- child of 
 --- @class PetJournal_PetJournalPetCard_modelScene_RotateLeftButton : Button, RotateOrbitCameraLeftButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L311)
 --- child of 
 --- @class PetJournal_PetJournalPetCard_modelScene_RotateRightButton : Button, RotateOrbitCameraRightButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L326)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L304)
 --- child of PetJournalPetCard
 --- @class PetJournal_PetJournalPetCard_modelScene : ModelScene, WrappedAndUnwrappedModelScene
 --- @field RotateLeftButton PetJournal_PetJournalPetCard_modelScene_RotateLeftButton
 --- @field RotateRightButton PetJournal_PetJournalPetCard_modelScene_RotateRightButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L203)
 --- child of PetJournal
 --- @class PetJournal_PetJournalPetCard : Frame
 --- @field ShadowOverlay PetJournal_PetJournalPetCard_ShadowOverlay
@@ -411,54 +312,11 @@ PetJournalPetCardPetInfo["favorite"] = PetJournalPetCardPetInfoFavorite
 PetJournalPetCard = {}
 PetJournalPetCard["PetInfo"] = PetJournalPetCardPetInfo
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L326)
 --- child of PetJournal
 --- @class PetJournal_PetJournalSummonButton : Button, MagicButtonTemplate
 PetJournalSummonButton = {}
 PetJournalSummonButton["fitTextCanWidthDecrease"] = true -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L284)
---- child of PetJournalPetOptionsMenu (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-PetJournalPetOptionsMenuButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L226)
---- child of PetJournalPetOptionsMenu (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetJournalPetOptionsMenuLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L239)
---- child of PetJournalPetOptionsMenu (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetJournalPetOptionsMenuMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L248)
---- child of PetJournalPetOptionsMenu (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetJournalPetOptionsMenuRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L257)
---- child of PetJournalPetOptionsMenu (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-PetJournalPetOptionsMenuText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L271)
---- child of PetJournalPetOptionsMenu (created in template UIDropDownMenuTemplate)
---- @type Texture
-PetJournalPetOptionsMenuIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L365)
---- child of PetJournal
---- @class PetJournal_PetJournalPetOptionsMenu : Frame, UIDropDownMenuTemplate
-PetJournalPetOptionsMenu = {}
-PetJournalPetOptionsMenu["Button"] = PetJournalPetOptionsMenuButton -- inherited
-PetJournalPetOptionsMenu["Left"] = PetJournalPetOptionsMenuLeft -- inherited
-PetJournalPetOptionsMenu["Middle"] = PetJournalPetOptionsMenuMiddle -- inherited
-PetJournalPetOptionsMenu["Right"] = PetJournalPetOptionsMenuRight -- inherited
-PetJournalPetOptionsMenu["Text"] = PetJournalPetOptionsMenuText -- inherited
-PetJournalPetOptionsMenu["Icon"] = PetJournalPetOptionsMenuIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L127)
 --- @class PetJournal : Frame
@@ -466,16 +324,15 @@ PetJournalPetOptionsMenu["Icon"] = PetJournalPetOptionsMenuIcon -- inherited
 --- @field LeftInset PetJournal_PetJournalLeftInset
 --- @field RightInset PetJournal_PetJournalRightInset
 --- @field searchBox PetJournal_PetJournalSearchBox
+--- @field FilterDropdown PetJournal_FilterDropdown
 --- @field ScrollBox PetJournal_ScrollBox
 --- @field ScrollBar PetJournal_ScrollBar
 --- @field PetCard PetJournal_PetJournalPetCard
 --- @field SummonButton PetJournal_PetJournalSummonButton
---- @field petOptionsMenu PetJournal_PetJournalPetOptionsMenu
 PetJournal = {}
 PetJournal["LeftInset"] = PetJournalLeftInset
 PetJournal["RightInset"] = PetJournalRightInset
 PetJournal["searchBox"] = PetJournalSearchBox
 PetJournal["PetCard"] = PetJournalPetCard
 PetJournal["SummonButton"] = PetJournalSummonButton
-PetJournal["petOptionsMenu"] = PetJournalPetOptionsMenu
 

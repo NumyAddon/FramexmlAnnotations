@@ -19,87 +19,87 @@
 --- @field Arrow ContainerFrameHelpBoxTemplate_Arrow
 --- @field Text ContainerFrameHelpBoxTemplate_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2081)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type Texture
 ContainerFrameHelpBoxTemplateBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2094)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
 ContainerFrameHelpBoxTemplateGlowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2099)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
 ContainerFrameHelpBoxTemplateGlowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2105)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
 ContainerFrameHelpBoxTemplateGlowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2111)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
 ContainerFrameHelpBoxTemplateGlowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2117)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
 ContainerFrameHelpBoxTemplateGlowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2123)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
 ContainerFrameHelpBoxTemplateGlowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2129)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
 ContainerFrameHelpBoxTemplateGlowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2135)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
 ContainerFrameHelpBoxTemplateGlowRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2143)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
 ContainerFrameHelpBoxTemplateShadowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2148)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
 ContainerFrameHelpBoxTemplateShadowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2154)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
 ContainerFrameHelpBoxTemplateShadowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2160)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
 ContainerFrameHelpBoxTemplateShadowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2166)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
 ContainerFrameHelpBoxTemplateShadowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2172)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
 ContainerFrameHelpBoxTemplateShadowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2178)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
 ContainerFrameHelpBoxTemplateShadowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2184)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
 ContainerFrameHelpBoxTemplateShadowRight = {}
@@ -127,87 +127,87 @@ ArtifactRelicHelpBox["ShadowBottom"] = ContainerFrameHelpBoxTemplateShadowBottom
 ArtifactRelicHelpBox["ShadowLeft"] = ContainerFrameHelpBoxTemplateShadowLeft -- inherited
 ArtifactRelicHelpBox["ShadowRight"] = ContainerFrameHelpBoxTemplateShadowRight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2081)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type Texture
 ContainerFrameHelpBoxTemplateBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2094)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
 ContainerFrameHelpBoxTemplateGlowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2099)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
 ContainerFrameHelpBoxTemplateGlowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2105)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
 ContainerFrameHelpBoxTemplateGlowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2111)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
 ContainerFrameHelpBoxTemplateGlowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2117)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
 ContainerFrameHelpBoxTemplateGlowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2123)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
 ContainerFrameHelpBoxTemplateGlowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2129)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
 ContainerFrameHelpBoxTemplateGlowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2135)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
 ContainerFrameHelpBoxTemplateGlowRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2143)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
 ContainerFrameHelpBoxTemplateShadowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2148)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
 ContainerFrameHelpBoxTemplateShadowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2154)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
 ContainerFrameHelpBoxTemplateShadowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2160)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
 ContainerFrameHelpBoxTemplateShadowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2166)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
 ContainerFrameHelpBoxTemplateShadowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2172)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
 ContainerFrameHelpBoxTemplateShadowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2178)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
 ContainerFrameHelpBoxTemplateShadowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2184)
 --- child of ContainerFrameHelpBoxTemplate (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
 ContainerFrameHelpBoxTemplateShadowRight = {}
@@ -411,13 +411,13 @@ AzeriteItemInBagHelpBox["ShadowRight"] = ContainerFrameHelpBoxTemplateShadowRigh
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_ContainerFrameTemplateItem36 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton : Button
 --- @field Border Texture
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_ContainerFrameTemplateCloseButton : Button, UIPanelCloseButton
 
@@ -2230,14 +2230,14 @@ ContainerFrame1Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextur
 --- @type Button
 ContainerFrame1PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame1AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame1CloseButton = {}
@@ -2277,7 +2277,7 @@ ContainerFrame1Name = {}
 --- @type Texture
 ContainerFrame1Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L463)
 --- @class ContainerFrame1 : Frame, ContainerFrameTemplate
 ContainerFrame1 = {}
 ContainerFrame1["PortraitButton"] = ContainerFrame1PortraitButton -- inherited
@@ -4081,14 +4081,14 @@ ContainerFrame2Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextur
 --- @type Button
 ContainerFrame2PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame2AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame2CloseButton = {}
@@ -4128,7 +4128,7 @@ ContainerFrame2Name = {}
 --- @type Texture
 ContainerFrame2Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L496)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L464)
 --- @class ContainerFrame2 : Frame, ContainerFrameTemplate
 ContainerFrame2 = {}
 ContainerFrame2["PortraitButton"] = ContainerFrame2PortraitButton -- inherited
@@ -5932,14 +5932,14 @@ ContainerFrame3Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextur
 --- @type Button
 ContainerFrame3PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame3AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame3CloseButton = {}
@@ -5979,7 +5979,7 @@ ContainerFrame3Name = {}
 --- @type Texture
 ContainerFrame3Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L497)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L465)
 --- @class ContainerFrame3 : Frame, ContainerFrameTemplate
 ContainerFrame3 = {}
 ContainerFrame3["PortraitButton"] = ContainerFrame3PortraitButton -- inherited
@@ -7783,14 +7783,14 @@ ContainerFrame4Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextur
 --- @type Button
 ContainerFrame4PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame4AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame4CloseButton = {}
@@ -7830,7 +7830,7 @@ ContainerFrame4Name = {}
 --- @type Texture
 ContainerFrame4Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L498)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L466)
 --- @class ContainerFrame4 : Frame, ContainerFrameTemplate
 ContainerFrame4 = {}
 ContainerFrame4["PortraitButton"] = ContainerFrame4PortraitButton -- inherited
@@ -9634,14 +9634,14 @@ ContainerFrame5Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextur
 --- @type Button
 ContainerFrame5PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame5AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame5CloseButton = {}
@@ -9681,7 +9681,7 @@ ContainerFrame5Name = {}
 --- @type Texture
 ContainerFrame5Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L499)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L467)
 --- @class ContainerFrame5 : Frame, ContainerFrameTemplate
 ContainerFrame5 = {}
 ContainerFrame5["PortraitButton"] = ContainerFrame5PortraitButton -- inherited
@@ -11485,14 +11485,14 @@ ContainerFrame6Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextur
 --- @type Button
 ContainerFrame6PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame6AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame6CloseButton = {}
@@ -11532,7 +11532,7 @@ ContainerFrame6Name = {}
 --- @type Texture
 ContainerFrame6Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L500)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L468)
 --- @class ContainerFrame6 : Frame, ContainerFrameTemplate
 ContainerFrame6 = {}
 ContainerFrame6["PortraitButton"] = ContainerFrame6PortraitButton -- inherited
@@ -13336,14 +13336,14 @@ ContainerFrame7Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextur
 --- @type Button
 ContainerFrame7PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame7AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame7CloseButton = {}
@@ -13383,7 +13383,7 @@ ContainerFrame7Name = {}
 --- @type Texture
 ContainerFrame7Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L501)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L469)
 --- @class ContainerFrame7 : Frame, ContainerFrameTemplate
 ContainerFrame7 = {}
 ContainerFrame7["PortraitButton"] = ContainerFrame7PortraitButton -- inherited
@@ -15187,14 +15187,14 @@ ContainerFrame8Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextur
 --- @type Button
 ContainerFrame8PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame8AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame8CloseButton = {}
@@ -15234,7 +15234,7 @@ ContainerFrame8Name = {}
 --- @type Texture
 ContainerFrame8Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L502)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L470)
 --- @class ContainerFrame8 : Frame, ContainerFrameTemplate
 ContainerFrame8 = {}
 ContainerFrame8["PortraitButton"] = ContainerFrame8PortraitButton -- inherited
@@ -17038,14 +17038,14 @@ ContainerFrame9Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextur
 --- @type Button
 ContainerFrame9PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame9AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame9CloseButton = {}
@@ -17085,7 +17085,7 @@ ContainerFrame9Name = {}
 --- @type Texture
 ContainerFrame9Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L503)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L471)
 --- @class ContainerFrame9 : Frame, ContainerFrameTemplate
 ContainerFrame9 = {}
 ContainerFrame9["PortraitButton"] = ContainerFrame9PortraitButton -- inherited
@@ -18889,14 +18889,14 @@ ContainerFrame10Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextu
 --- @type Button
 ContainerFrame10PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame10AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame10CloseButton = {}
@@ -18936,7 +18936,7 @@ ContainerFrame10Name = {}
 --- @type Texture
 ContainerFrame10Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L472)
 --- @class ContainerFrame10 : Frame, ContainerFrameTemplate
 ContainerFrame10 = {}
 ContainerFrame10["PortraitButton"] = ContainerFrame10PortraitButton -- inherited
@@ -20740,14 +20740,14 @@ ContainerFrame11Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextu
 --- @type Button
 ContainerFrame11PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame11AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame11CloseButton = {}
@@ -20787,7 +20787,7 @@ ContainerFrame11Name = {}
 --- @type Texture
 ContainerFrame11Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L505)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L473)
 --- @class ContainerFrame11 : Frame, ContainerFrameTemplate
 ContainerFrame11 = {}
 ContainerFrame11["PortraitButton"] = ContainerFrame11PortraitButton -- inherited
@@ -22591,14 +22591,14 @@ ContainerFrame12Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextu
 --- @type Button
 ContainerFrame12PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame12AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame12CloseButton = {}
@@ -22638,7 +22638,7 @@ ContainerFrame12Name = {}
 --- @type Texture
 ContainerFrame12Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L506)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L474)
 --- @class ContainerFrame12 : Frame, ContainerFrameTemplate
 ContainerFrame12 = {}
 ContainerFrame12["PortraitButton"] = ContainerFrame12PortraitButton -- inherited
@@ -24442,14 +24442,14 @@ ContainerFrame13Item36["subicon"] = ContainerFrameItemButtonTemplateSubIconTextu
 --- @type Button
 ContainerFrame13PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateAddSlotsButton
 --- @field Border Texture
 --- @field Icon Texture
 ContainerFrame13AddSlotsButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_ContainerFrameTemplateCloseButton
 ContainerFrame13CloseButton = {}
@@ -24489,120 +24489,120 @@ ContainerFrame13Name = {}
 --- @type Texture
 ContainerFrame13Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L475)
 --- @class ContainerFrame13 : Frame, ContainerFrameTemplate
 ContainerFrame13 = {}
 ContainerFrame13["PortraitButton"] = ContainerFrame13PortraitButton -- inherited
 ContainerFrame13["Portrait"] = ContainerFrame13Portrait -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L550)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L518)
 --- child of BagHelpBox
 --- @class BagHelpBox_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L927)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L698)
 --- child of  (created in template GlowBoxArrowTemplate)
 --- @type GlowBoxArrowTemplate_GlowBoxArrowTemplateArrow
 BagHelpBoxArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L934)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L705)
 --- child of  (created in template GlowBoxArrowTemplate)
 --- @type GlowBoxArrowTemplate_GlowBoxArrowTemplateGlow
 BagHelpBoxGlow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L531)
 --- child of BagHelpBox
 --- @class BagHelpBox_Arrow : Frame, GlowBoxArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L509)
 --- child of BagHelpBox
 --- @class BagHelpBox_Text : FontString, GameFontHighlightLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2081)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type Texture
 BagHelpBoxBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2094)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
 BagHelpBoxGlowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2099)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
 BagHelpBoxGlowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2105)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
 BagHelpBoxGlowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2111)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
 BagHelpBoxGlowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2117)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
 BagHelpBoxGlowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2123)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
 BagHelpBoxGlowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2129)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
 BagHelpBoxGlowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2135)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
 BagHelpBoxGlowRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2143)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
 BagHelpBoxShadowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2148)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
 BagHelpBoxShadowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2154)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
 BagHelpBoxShadowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2160)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
 BagHelpBoxShadowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2166)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
 BagHelpBoxShadowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2172)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
 BagHelpBoxShadowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2178)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
 BagHelpBoxShadowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L2184)
 --- child of BagHelpBox (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
 BagHelpBoxShadowRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L537)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L505)
 --- @class BagHelpBox : Frame, GlowBoxTemplate
 --- @field CloseButton BagHelpBox_CloseButton
 --- @field Arrow BagHelpBox_Arrow

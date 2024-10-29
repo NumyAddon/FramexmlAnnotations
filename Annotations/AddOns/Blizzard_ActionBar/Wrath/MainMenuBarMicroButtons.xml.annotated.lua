@@ -93,28 +93,18 @@ GuildMicroButton["commandName"] = "TOGGLEGUILDTAB"
 GuildMicroButton["Flash"] = GuildMicroButtonFlash -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L12)
---- child of SocialsMicroButton (created in template MainMenuBarMicroButton)
---- @type Texture
-SocialsMicroButtonFlash = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L247)
---- @class SocialsMicroButton : Button, MainMenuBarMicroButton
-SocialsMicroButton = {}
-SocialsMicroButton["Flash"] = SocialsMicroButtonFlash -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L12)
 --- child of CollectionsMicroButton (created in template MainMenuBarMicroButton)
 --- @type Texture
 CollectionsMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L247)
 --- @class CollectionsMicroButton : Button, MainMenuBarMicroButton, CollectionMicroButtonMixin
 --- @field lastNumMountsNeedingFanfare number # 0
 CollectionsMicroButton = {}
 CollectionsMicroButton["lastNumMountsNeedingFanfare"] = 0
 CollectionsMicroButton["Flash"] = CollectionsMicroButtonFlash -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L278)
 --- child of PVPMicroButton
 --- @class PVPMicroButton_PVPMicroButtonTexture : Texture
 PVPMicroButtonTexture = {}
@@ -124,7 +114,7 @@ PVPMicroButtonTexture = {}
 --- @type Texture
 PVPMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L268)
 --- @class PVPMicroButton : Button, MainMenuBarMicroButton
 --- @field texture PVPMicroButton_PVPMicroButtonTexture
 PVPMicroButton = {}
@@ -136,12 +126,12 @@ PVPMicroButton["Flash"] = PVPMicroButtonFlash -- inherited
 --- @type Texture
 LFGMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L348)
 --- @class LFGMicroButton : Button, MainMenuBarMicroButton
 LFGMicroButton = {}
 LFGMicroButton["Flash"] = LFGMicroButtonFlash -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L431)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L405)
 --- child of MainMenuMicroButton
 --- @class MainMenuMicroButton_MainMenuBarPerformanceBar : Texture
 MainMenuBarPerformanceBar = {}
@@ -151,7 +141,7 @@ MainMenuBarPerformanceBar = {}
 --- @type Texture
 MainMenuMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L425)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L399)
 --- @class MainMenuMicroButton : Button, MainMenuBarMicroButton
 MainMenuMicroButton = {}
 MainMenuMicroButton["Flash"] = MainMenuMicroButtonFlash -- inherited
@@ -161,7 +151,7 @@ MainMenuMicroButton["Flash"] = MainMenuMicroButtonFlash -- inherited
 --- @type Texture
 HelpMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Wrath/MainMenuBarMicroButtons.xml#L501)
 --- @class HelpMicroButton : Button, MainMenuBarMicroButton
 HelpMicroButton = {}
 HelpMicroButton["Flash"] = HelpMicroButtonFlash -- inherited

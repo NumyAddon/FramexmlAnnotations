@@ -475,87 +475,87 @@ CharSelectChangeRealmButton = {}
 --- child of RealmCallout
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame_RealmCallout_Text : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2081)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type Texture
 RealmCalloutBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2094)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
 RealmCalloutGlowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2099)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
 RealmCalloutGlowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2105)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
 RealmCalloutGlowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2111)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
 RealmCalloutGlowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2117)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
 RealmCalloutGlowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2123)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
 RealmCalloutGlowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2129)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
 RealmCalloutGlowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2135)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
 RealmCalloutGlowRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2143)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
 RealmCalloutShadowTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2148)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
 RealmCalloutShadowTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2154)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
 RealmCalloutShadowBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2160)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
 RealmCalloutShadowBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2166)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
 RealmCalloutShadowTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2172)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
 RealmCalloutShadowBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2178)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
 RealmCalloutShadowLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2184)
 --- child of RealmCallout (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
 RealmCalloutShadowRight = {}
@@ -1457,48 +1457,9 @@ CharSelectServicesFlowFrame = {}
 --- @class CharacterSelect_CharacterSelectUI_CreateCharacterButtonSpecial : Button, GlueButtonSmallTemplate
 CreateCharacterButtonSpecial = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L284)
---- child of CharacterTemplatesFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-CharacterTemplatesFrameDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L226)
---- child of CharacterTemplatesFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-CharacterTemplatesFrameDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L239)
---- child of CharacterTemplatesFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-CharacterTemplatesFrameDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L248)
---- child of CharacterTemplatesFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-CharacterTemplatesFrameDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L257)
---- child of CharacterTemplatesFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-CharacterTemplatesFrameDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L271)
---- child of CharacterTemplatesFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-CharacterTemplatesFrameDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1786)
 --- child of CharacterTemplatesFrame
---- @class CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame_CharacterTemplatesFrameDropDown : Frame, UIDropDownMenuTemplate
-CharacterTemplatesFrameDropDown = {}
-CharacterTemplatesFrameDropDown["Button"] = CharacterTemplatesFrameDropDownButton -- inherited
-CharacterTemplatesFrameDropDown["Left"] = CharacterTemplatesFrameDropDownLeft -- inherited
-CharacterTemplatesFrameDropDown["Middle"] = CharacterTemplatesFrameDropDownMiddle -- inherited
-CharacterTemplatesFrameDropDown["Right"] = CharacterTemplatesFrameDropDownRight -- inherited
-CharacterTemplatesFrameDropDown["Text"] = CharacterTemplatesFrameDropDownText -- inherited
-CharacterTemplatesFrameDropDown["Icon"] = CharacterTemplatesFrameDropDownIcon -- inherited
+--- @class CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame_Dropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1791)
 --- child of CharacterTemplatesFrame
@@ -1516,40 +1477,39 @@ CharacterTemplatesFrameDropDown["Icon"] = CharacterTemplatesFrameDropDownIcon --
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame : Frame, TooltipBackdropTemplate
 --- @field layoutType string # "TooltipGluesLayout"
---- @field dropDown CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame_CharacterTemplatesFrameDropDown
+--- @field Dropdown CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame_Dropdown
 --- @field CreateTemplateButton CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame_CreateTemplateButton
 CharacterTemplatesFrame = {}
-CharacterTemplatesFrame["dropDown"] = CharacterTemplatesFrameDropDown
 CharacterTemplatesFrame["layoutType"] = "TooltipGluesLayout"
 CharacterTemplatesFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1865)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1863)
 --- child of PlayersOnServer
 --- @class CharacterSelect_CharacterSelectUI_PlayersOnServer_ActivateFactionChange : Button
 --- @field texture Texture
 ActivateFactionChange = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1819)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1817)
 --- child of PlayersOnServer
 --- @class  : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1824)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1822)
 --- child of PlayersOnServer
 --- @class CharacterSelect_CharacterSelectUI_PlayersOnServer_HordeText : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1830)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1828)
 --- child of PlayersOnServer
 --- @class CharacterSelect_CharacterSelectUI_PlayersOnServer_AllianceText : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1836)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1834)
 --- child of PlayersOnServer
 --- @class CharacterSelect_CharacterSelectUI_PlayersOnServer_HordeCount : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1842)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1840)
 --- child of PlayersOnServer
 --- @class CharacterSelect_CharacterSelectUI_PlayersOnServer_AllianceCount : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1809)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1807)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_PlayersOnServer : Frame, TooltipBackdropTemplate
 --- @field layoutType string # "TooltipGluesLayout"
@@ -1563,25 +1523,17 @@ PlayersOnServer = {}
 PlayersOnServer["layoutType"] = "TooltipGluesLayout"
 PlayersOnServer["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L16)
---- child of CharacterSelectServerAlertFrame (created in template ServerAlertTemplate)
---- @type ServerAlertTemplate_ServerAlertTemplateScrollFrame
---- @field scrollBarTemplate string # "MinimalScrollBar"
-CharacterSelectServerAlertFrameScrollFrame = {}
-CharacterSelectServerAlertFrameScrollFrame["scrollBarTemplate"] = "MinimalScrollBar"
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1898)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1896)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectServerAlertFrame : Frame, ServerAlertTemplate
 CharacterSelectServerAlertFrame = {}
-CharacterSelectServerAlertFrame["ScrollFrame"] = CharacterSelectServerAlertFrameScrollFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L530)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CharSelectCharacterName : FontString, GlueFontNormalHuge
 CharSelectCharacterName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1919)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1917)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_FadeIn : AnimationGroup
 
@@ -1594,27 +1546,27 @@ CharSelectCharacterName = {}
 --- @field FadeIn CharacterSelect_CharacterSelectUI_FadeIn
 CharacterSelectUI = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1947)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1945)
 --- child of BillingWarningFrame
 --- @class CharacterSelect_BillingWarningFrame_BillingWarningButton : Button, GlueButtonTemplate
 BillingWarningButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1938)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1936)
 --- child of BillingWarningFrame
 --- @class CharacterSelect_BillingWarningFrame_BillingWarningText : FontString, GlueFontHighlight
 BillingWarningText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1935)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1933)
 --- child of CharacterSelect
 --- @class CharacterSelect_BillingWarningFrame : Frame
 BillingWarningFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1970)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1968)
 --- child of GameRoomBillingFrame
 --- @class CharacterSelect_GameRoomBillingFrame_GameRoomBillingFrameText : FontString, GlueFontNormalSmall
 GameRoomBillingFrameText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1959)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1957)
 --- child of CharacterSelect
 --- @class CharacterSelect_GameRoomBillingFrame : Frame, TooltipBackdropTemplate
 --- @field layoutType string # "TooltipGluesLayout"
@@ -1626,105 +1578,105 @@ GameRoomBillingFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 --- @class CharacterSelect : Frame
 CharacterSelect = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2026)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2024)
 --- child of CharacterDeleteBackground
 --- @class CharacterDeleteDialog_CharacterDeleteBackground_CharacterDeleteButton1 : Button, GlueDialogButtonTemplate
 CharacterDeleteButton1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2041)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2039)
 --- child of CharacterDeleteBackground
 --- @class CharacterDeleteDialog_CharacterDeleteBackground_CharacterDeleteButton2 : Button, GlueDialogButtonTemplate
 CharacterDeleteButton2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2005)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2003)
 --- child of CharacterDeleteBackground
 --- @class CharacterDeleteDialog_CharacterDeleteBackground_CharacterDeleteText1 : FontString, GlueFontNormalLarge
 CharacterDeleteText1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2011)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2009)
 --- child of CharacterDeleteBackground
 --- @class CharacterDeleteDialog_CharacterDeleteBackground_CharacterDeleteText2 : FontString, GlueFontNormalSmall
 CharacterDeleteText2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2017)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2015)
 --- child of CharacterDeleteBackground
 --- @class CharacterDeleteDialog_CharacterDeleteBackground_CharacterDeleteAlertIcon : Texture
 CharacterDeleteAlertIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1995)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1993)
 --- child of CharacterDeleteDialog
 --- @class CharacterDeleteDialog_CharacterDeleteBackground : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DIALOG_32_32
 CharacterDeleteBackground = {}
 CharacterDeleteBackground["backdropInfo"] = BACKDROP_DIALOG_32_32
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2057)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2055)
 --- child of CharacterDeleteDialog
 --- @class CharacterDeleteDialog_CharacterDeleteEditBox : EditBox
 CharacterDeleteEditBox = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1993)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1991)
 --- @class CharacterDeleteDialog : Frame
 CharacterDeleteDialog = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2141)
 --- child of CharacterRenameBackground
 --- @class CharacterRenameDialog_CharacterRenameBackground_CharacterRenameButton1 : Button, GlueDialogButtonTemplate
 CharacterRenameButton1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2156)
 --- child of CharacterRenameBackground
 --- @class CharacterRenameDialog_CharacterRenameBackground_CharacterRenameButton2 : Button, GlueDialogButtonTemplate
 CharacterRenameButton2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2120)
 --- child of CharacterRenameBackground
 --- @class CharacterRenameDialog_CharacterRenameBackground_CharacterRenameText1 : FontString, GlueFontNormalLarge
 CharacterRenameText1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2126)
 --- child of CharacterRenameBackground
 --- @class CharacterRenameDialog_CharacterRenameBackground_CharacterRenameText2 : FontString, GlueFontNormalSmall
 CharacterRenameText2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2134)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2132)
 --- child of CharacterRenameBackground
 --- @class CharacterRenameDialog_CharacterRenameBackground_CharacterRenameAlertIcon : Texture
 CharacterRenameAlertIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2110)
 --- child of CharacterRenameDialog
 --- @class CharacterRenameDialog_CharacterRenameBackground : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DIALOG_32_32
 CharacterRenameBackground = {}
 CharacterRenameBackground["backdropInfo"] = BACKDROP_DIALOG_32_32
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2171)
 --- child of CharacterRenameDialog
 --- @class CharacterRenameDialog_CharacterRenameEditBox : EditBox
 CharacterRenameEditBox = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2108)
 --- @class CharacterRenameDialog : Frame
 CharacterRenameDialog = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2221)
 --- child of CopyCharacterEntryTemplate
 --- @class CopyCharacterEntryTemplate_Name : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2227)
 --- child of CopyCharacterEntryTemplate
 --- @class CopyCharacterEntryTemplate_Server : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2235)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2233)
 --- child of CopyCharacterEntryTemplate
 --- @class CopyCharacterEntryTemplate_Class : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2239)
 --- child of CopyCharacterEntryTemplate
 --- @class CopyCharacterEntryTemplate_Level : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2217)
 --- Template
 --- @class CopyCharacterEntryTemplate : Button
 --- @field Name CopyCharacterEntryTemplate_Name
@@ -1732,90 +1684,53 @@ CharacterRenameDialog = {}
 --- @field Class CopyCharacterEntryTemplate_Class
 --- @field Level CopyCharacterEntryTemplate_Level
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2266)
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_SearchButton : Button, MagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2275)
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_CopyButton : Button, MagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2284)
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_CopyAccountData : Button, MagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L284)
---- child of CopyCharacterFrameRegionID (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-CopyCharacterFrameRegionIDButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L226)
---- child of CopyCharacterFrameRegionID (created in template UIDropDownMenuTemplate)
---- @type Texture
-CopyCharacterFrameRegionIDLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L239)
---- child of CopyCharacterFrameRegionID (created in template UIDropDownMenuTemplate)
---- @type Texture
-CopyCharacterFrameRegionIDMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L248)
---- child of CopyCharacterFrameRegionID (created in template UIDropDownMenuTemplate)
---- @type Texture
-CopyCharacterFrameRegionIDRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L257)
---- child of CopyCharacterFrameRegionID (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-CopyCharacterFrameRegionIDText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L271)
---- child of CopyCharacterFrameRegionID (created in template UIDropDownMenuTemplate)
---- @type Texture
-CopyCharacterFrameRegionIDIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2293)
 --- child of CopyCharacterFrame
---- @class CopyCharacterFrame_CopyCharacterFrameRegionID : Frame, UIDropDownMenuTemplate
+--- @class CopyCharacterFrame_CopyCharacterFrameRegionID : DropdownButton, WowStyle1DropdownTemplate
 CopyCharacterFrameRegionID = {}
-CopyCharacterFrameRegionID["Button"] = CopyCharacterFrameRegionIDButton -- inherited
-CopyCharacterFrameRegionID["Left"] = CopyCharacterFrameRegionIDLeft -- inherited
-CopyCharacterFrameRegionID["Middle"] = CopyCharacterFrameRegionIDMiddle -- inherited
-CopyCharacterFrameRegionID["Right"] = CopyCharacterFrameRegionIDRight -- inherited
-CopyCharacterFrameRegionID["Text"] = CopyCharacterFrameRegionIDText -- inherited
-CopyCharacterFrameRegionID["Icon"] = CopyCharacterFrameRegionIDIcon -- inherited
+CopyCharacterFrameRegionID["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2308)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2305)
 --- child of 
 --- @class CopyCharacterFrame_RealmName_Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2301)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2298)
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_RealmName : EditBox, InputBoxTemplate
 --- @field Text CopyCharacterFrame_RealmName_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2328)
 --- child of 
 --- @class CopyCharacterFrame_CharacterName_Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2321)
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_CharacterName : EditBox, InputBoxTemplate
 --- @field Text CopyCharacterFrame_CharacterName_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2354)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2351)
 --- child of CopyCharacterFrameScrollFrame
 --- @class CopyCharacterFrame_CopyCharacterFrameScrollFrame_CopyCharacterFrameScrollFrameScrollBarTop : Texture
 CopyCharacterFrameScrollFrameScrollBarTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2358)
 --- child of CopyCharacterFrameScrollFrame
 --- @class CopyCharacterFrame_CopyCharacterFrameScrollFrame_CopyCharacterFrameScrollFrameScrollBarBottom : Texture
 CopyCharacterFrameScrollFrameScrollBarBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2368)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2365)
 --- child of CopyCharacterFrameScrollFrame
 --- @class CopyCharacterFrame_CopyCharacterFrameScrollFrame_CopyCharacterFrameScrollFrameScrollBarMiddle : Texture
 CopyCharacterFrameScrollFrameScrollBarMiddle = {}
@@ -1843,13 +1758,13 @@ FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScro
 FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
 FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2344)
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_CopyCharacterFrameScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 CopyCharacterFrameScrollFrame = {}
 CopyCharacterFrameScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2384)
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_CopyCharacterEntry1 : Button, CopyCharacterEntryTemplate
 CopyCharacterEntry1 = {}
@@ -2003,7 +1918,7 @@ CopyCharacterFrameBtnCornerRight = {}
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 CopyCharacterFrameButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2260)
 --- @class CopyCharacterFrame : Frame, ButtonFrameTemplate
 --- @field SearchButton CopyCharacterFrame_SearchButton
 --- @field CopyButton CopyCharacterFrame_CopyButton

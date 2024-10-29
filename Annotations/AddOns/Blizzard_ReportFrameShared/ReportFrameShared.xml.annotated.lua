@@ -9,42 +9,42 @@
 --- @class ReportingFrameMinorCategoryButtonTemplate : CheckButton, ReportingFrameMinorCategoryButtonMixin
 --- @field Text ReportingFrameMinorCategoryButtonTemplate_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L104)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L105)
 --- child of 
 --- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown_Label : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L99)
 --- child of SharedReportFrameTemplate
---- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown : Frame, UIDropDownMenuTemplate, ReportingMajorCategoryDropdownMixin
+--- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown : DropdownButton, WowStyle1DropdownTemplate
 --- @field Label SharedReportFrameTemplate_ReportingMajorCategoryDropdown_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L114)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_ReportButton : Button, UIPanelButtonTemplate, ReportButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L125)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_Comment : ScrollFrame, InputScrollFrameTemplate
---- @field maxLetters number # 255
+--- @field maxLetters number # 127
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L133)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_CloseButton : Button, UIPanelCloseButton
 --- @field Border Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L67)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L69)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_ThankYouText : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L77)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_TitleText : FontString, Game16Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L84)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_ReportString : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L21)
 --- Template
 --- @class SharedReportFrameTemplate : Frame, ResizeLayoutFrame
 --- @field fixedWidth number # 400

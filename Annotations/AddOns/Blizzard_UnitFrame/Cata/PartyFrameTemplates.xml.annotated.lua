@@ -55,69 +55,65 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L211)
 --- child of PartyMemberFrameTemplate
---- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateDropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L222)
---- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplatePowerBarAlt : Frame, UnitPowerBarAltTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L244)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L233)
 --- child of 
 --- @class PartyMemberFrameTemplateName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L218)
 --- child of 
 --- @class  : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L227)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L216)
 --- child of PartyMemberFrameTemplate
 --- @class  : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L291)
 --- child of PartyMemberFrameTemplateHealthBar
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateHealthBar_MyHealPredictionBar : Frame, PartyFrameBarSegmentTemplate, MyHealPredictionBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L292)
 --- child of PartyMemberFrameTemplateHealthBar
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateHealthBar_OtherHealPredictionBar : Frame, PartyFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L285)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateHealthBar : StatusBar, TextStatusBar
 --- @field MyHealPredictionBar PartyMemberFrameTemplate_PartyMemberFrameTemplateHealthBar_MyHealPredictionBar
 --- @field OtherHealPredictionBar PartyMemberFrameTemplate_PartyMemberFrameTemplateHealthBar_OtherHealPredictionBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L325)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L314)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateManaBar : StatusBar, TextStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L344)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L333)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateReadyCheck : Frame, ReadyCheckStatusTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L354)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L343)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateNotPresentIcon : Frame
 --- @field texture Texture
 --- @field Border Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L365)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateDebuff1 : Button, PartyDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L370)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateDebuff2 : Button, PartyDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L386)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L375)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateDebuff3 : Button, PartyDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L380)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplateDebuff4 : Button, PartyDebuffFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L396)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/PartyFrameTemplates.xml#L385)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PartyMemberFrameTemplatePetFrame : Button, PartyMemberPetFrameTemplate
 

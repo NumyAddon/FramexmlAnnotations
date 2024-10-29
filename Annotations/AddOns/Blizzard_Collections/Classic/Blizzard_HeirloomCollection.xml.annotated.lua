@@ -31,13 +31,13 @@
 --- child of HeirloomsJournal
 --- @class HeirloomsJournal_progressBar : StatusBar, CollectionsProgressBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1262)
 --- child of HeirloomsJournalSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 --- @field texture Texture
 HeirloomsJournalSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1253)
 --- child of HeirloomsJournalSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 HeirloomsJournalSearchBoxSearchIcon = {}
@@ -49,141 +49,13 @@ HeirloomsJournalSearchBox = {}
 HeirloomsJournalSearchBox["clearButton"] = HeirloomsJournalSearchBoxClearButton -- inherited
 HeirloomsJournalSearchBox["searchIcon"] = HeirloomsJournalSearchBoxSearchIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L985)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-HeirloomsJournalTopLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L992)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-HeirloomsJournalTopRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L999)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-HeirloomsJournalBottomLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1006)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-HeirloomsJournalBottomRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1013)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-HeirloomsJournalTopMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1021)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-HeirloomsJournalMiddleLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1029)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-HeirloomsJournalMiddleRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1037)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-HeirloomsJournalBottomMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1045)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-HeirloomsJournalMiddleMiddle = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L112)
 --- child of HeirloomsJournal
---- @class HeirloomsJournal_FilterButton : DropDownToggleButton, UIMenuButtonStretchTemplate
---- @field Icon Texture
+--- @class HeirloomsJournal_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L284)
---- child of HeirloomsJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-HeirloomsJournalFilterDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L226)
---- child of HeirloomsJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-HeirloomsJournalFilterDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L239)
---- child of HeirloomsJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-HeirloomsJournalFilterDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L248)
---- child of HeirloomsJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-HeirloomsJournalFilterDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L257)
---- child of HeirloomsJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-HeirloomsJournalFilterDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L271)
---- child of HeirloomsJournalFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-HeirloomsJournalFilterDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L134)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L118)
 --- child of HeirloomsJournal
---- @class HeirloomsJournal_HeirloomsJournalFilterDropDown : Frame, UIDropDownMenuTemplate
-HeirloomsJournalFilterDropDown = {}
-HeirloomsJournalFilterDropDown["Button"] = HeirloomsJournalFilterDropDownButton -- inherited
-HeirloomsJournalFilterDropDown["Left"] = HeirloomsJournalFilterDropDownLeft -- inherited
-HeirloomsJournalFilterDropDown["Middle"] = HeirloomsJournalFilterDropDownMiddle -- inherited
-HeirloomsJournalFilterDropDown["Right"] = HeirloomsJournalFilterDropDownRight -- inherited
-HeirloomsJournalFilterDropDown["Text"] = HeirloomsJournalFilterDropDownText -- inherited
-HeirloomsJournalFilterDropDown["Icon"] = HeirloomsJournalFilterDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L284)
---- child of HeirloomsJournalClassDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-HeirloomsJournalClassDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L226)
---- child of HeirloomsJournalClassDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-HeirloomsJournalClassDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L239)
---- child of HeirloomsJournalClassDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-HeirloomsJournalClassDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L248)
---- child of HeirloomsJournalClassDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-HeirloomsJournalClassDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L257)
---- child of HeirloomsJournalClassDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-HeirloomsJournalClassDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L271)
---- child of HeirloomsJournalClassDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-HeirloomsJournalClassDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L140)
---- child of HeirloomsJournal
---- @class HeirloomsJournal_HeirloomsJournalClassDropDown : Frame, UIDropDownMenuTemplate
-HeirloomsJournalClassDropDown = {}
-HeirloomsJournalClassDropDown["Button"] = HeirloomsJournalClassDropDownButton -- inherited
-HeirloomsJournalClassDropDown["Left"] = HeirloomsJournalClassDropDownLeft -- inherited
-HeirloomsJournalClassDropDown["Middle"] = HeirloomsJournalClassDropDownMiddle -- inherited
-HeirloomsJournalClassDropDown["Right"] = HeirloomsJournalClassDropDownRight -- inherited
-HeirloomsJournalClassDropDown["Text"] = HeirloomsJournalClassDropDownText -- inherited
-HeirloomsJournalClassDropDown["Icon"] = HeirloomsJournalClassDropDownIcon -- inherited
+--- @class HeirloomsJournal_ClassDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L796)
 --- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
@@ -230,12 +102,12 @@ CollectionsBackgroundTemplateInsetLeftBorder = {}
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 CollectionsBackgroundTemplateInsetRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L150)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L124)
 --- child of HeirloomsJournal
 --- @class HeirloomsJournal_iconsFrame : Frame, CollectionsBackgroundTemplate
 --- @field watermark Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L136)
 --- child of HeirloomsJournal
 --- @class HeirloomsJournal_PagingFrame : Frame, CollectionsPagingFrameTemplate
 
@@ -243,13 +115,10 @@ CollectionsBackgroundTemplateInsetRightBorder = {}
 --- @class HeirloomsJournal : Frame, HeirloomsMixin
 --- @field progressBar HeirloomsJournal_progressBar
 --- @field SearchBox HeirloomsJournal_HeirloomsJournalSearchBox
---- @field FilterButton HeirloomsJournal_FilterButton
---- @field filterDropDown HeirloomsJournal_HeirloomsJournalFilterDropDown
---- @field classDropDown HeirloomsJournal_HeirloomsJournalClassDropDown
+--- @field FilterDropdown HeirloomsJournal_FilterDropdown
+--- @field ClassDropdown HeirloomsJournal_ClassDropdown
 --- @field iconsFrame HeirloomsJournal_iconsFrame
 --- @field PagingFrame HeirloomsJournal_PagingFrame
 HeirloomsJournal = {}
 HeirloomsJournal["SearchBox"] = HeirloomsJournalSearchBox
-HeirloomsJournal["filterDropDown"] = HeirloomsJournalFilterDropDown
-HeirloomsJournal["classDropDown"] = HeirloomsJournalClassDropDown
 

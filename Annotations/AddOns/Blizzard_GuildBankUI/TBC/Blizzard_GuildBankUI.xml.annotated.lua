@@ -314,7 +314,7 @@ GuildBankFrameTabTemplateMiddle = {}
 --- @type Texture
 GuildBankFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
 --- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 GuildBankFrameTabTemplateHighlightTexture = {}
@@ -354,7 +354,7 @@ GuildBankFrameTabTemplateMiddle = {}
 --- @type Texture
 GuildBankFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
 --- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 GuildBankFrameTabTemplateHighlightTexture = {}
@@ -394,7 +394,7 @@ GuildBankFrameTabTemplateMiddle = {}
 --- @type Texture
 GuildBankFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
 --- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 GuildBankFrameTabTemplateHighlightTexture = {}
@@ -434,7 +434,7 @@ GuildBankFrameTabTemplateMiddle = {}
 --- @type Texture
 GuildBankFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
 --- child of GuildBankFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 GuildBankFrameTabTemplateHighlightTexture = {}

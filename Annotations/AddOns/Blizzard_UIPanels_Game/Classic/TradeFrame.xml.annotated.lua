@@ -1344,17 +1344,17 @@ TradeRecipientMoneyInset["InsetBorderBottom"] = TradeRecipientMoneyInsetInsetBot
 TradeRecipientMoneyInset["InsetBorderLeft"] = TradeRecipientMoneyInsetInsetLeftBorder -- inherited
 TradeRecipientMoneyInset["InsetBorderRight"] = TradeRecipientMoneyInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L1894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L1665)
 --- child of TradeRecipientMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TradeRecipientMoneyBgLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L1902)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L1673)
 --- child of TradeRecipientMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TradeRecipientMoneyBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L1910)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L1681)
 --- child of TradeRecipientMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TradeRecipientMoneyBgMiddle = {}

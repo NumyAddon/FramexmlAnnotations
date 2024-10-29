@@ -34,7 +34,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L40)
 --- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateHotKey : FontString, NumberFontNormalSmallGray
+--- @class ActionButtonTemplate_ActionButtonTemplateHotKey : FontString, LetterAndNumberFontNormalSmallGray
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L46)
 --- child of ActionButtonTemplate

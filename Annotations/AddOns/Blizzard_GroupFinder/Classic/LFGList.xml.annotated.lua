@@ -92,33 +92,33 @@
 --- @field ItemLevel LFGListApplicantMemberTemplate_ItemLevel
 --- @field Rating LFGListApplicantMemberTemplate_Rating
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L278)
 --- child of LFGListApplicantTemplate
 --- @class LFGListApplicantTemplate_Member1 : Button, LFGListApplicantMemberTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L283)
 --- child of LFGListApplicantTemplate
 --- @class LFGListApplicantTemplate_DeclineButton : Button, UIMenuButtonStretchTemplate
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L309)
 --- child of LFGListApplicantTemplate
 --- @class LFGListApplicantTemplate_InviteButton : Button, UIMenuButtonStretchTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L336)
 --- child of LFGListApplicantTemplate
 --- @class LFGListApplicantTemplate_InviteButtonSmall : Button, UIMenuButtonStretchTemplate
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L373)
 --- child of LFGListApplicantTemplate
 --- @class LFGListApplicantTemplate_Spinner : Frame, LoadingSpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L269)
 --- child of LFGListApplicantTemplate
 --- @class LFGListApplicantTemplate_Status : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L256)
 --- Template
 --- @class LFGListApplicantTemplate : Button
 --- @field Member1 LFGListApplicantTemplate_Member1
@@ -129,16 +129,16 @@
 --- @field Background Texture
 --- @field Status LFGListApplicantTemplate_Status
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L388)
 --- child of LFGListRoleButtonTemplate
 --- @class LFGListRoleButtonTemplate_CheckButton : CheckButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L383)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L380)
 --- Template
 --- @class LFGListRoleButtonTemplate : Button
 --- @field CheckButton LFGListRoleButtonTemplate_CheckButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L430)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L427)
 --- Template
 --- @class LFGListCategoryTemplate : Button
 --- @field Icon Texture
@@ -146,65 +146,65 @@
 --- @field SelectedTexture Texture
 --- @field HighlightTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L473)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L470)
 --- Template
 --- @class LFGListVoiceChatIcon : Frame
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L491)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L488)
 --- Template
 --- @class LFGListButtonTemplate : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L503)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L500)
 --- Template
 --- @class LFGListMagicButtonTemplate : Button, MagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L515)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L512)
 --- Template
 --- @class LFGListLockButtonTemplate : Button, LFGListLockButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L544)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L541)
 --- child of LFGListEditBoxTemplate
 --- @class LFGListEditBoxTemplate_LockButton : Button, LFGListLockButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L525)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L522)
 --- Template
 --- @class LFGListEditBoxTemplate : EditBox, InputBoxInstructionsTemplate, LFGEditBoxMixin
 --- @field disabledColor any # GRAY_FONT_COLOR
 --- @field LockButton LFGListEditBoxTemplate_LockButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L571)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L568)
 --- child of LFGListOptionCheckButtonTemplate
 --- @class LFGListOptionCheckButtonTemplate_CheckButton : CheckButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L562)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L559)
 --- child of LFGListOptionCheckButtonTemplate
 --- @class LFGListOptionCheckButtonTemplate_Label : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L551)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L548)
 --- Template
 --- @class LFGListOptionCheckButtonTemplate : Frame
 --- @field CheckButton LFGListOptionCheckButtonTemplate_CheckButton
 --- @field Label LFGListOptionCheckButtonTemplate_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L639)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L636)
 --- child of LFGListRequirementTemplate
 --- @class LFGListRequirementTemplate_CheckButton : CheckButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L667)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L664)
 --- child of LFGListRequirementTemplate
 --- @class LFGListRequirementTemplate_EditBox : EditBox, LFGListEditBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L688)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L685)
 --- child of LFGListRequirementTemplate
 --- @class LFGListRequirementTemplate_WarningFrame : Frame
 --- @field Texture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L630)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L627)
 --- child of LFGListRequirementTemplate
 --- @class LFGListRequirementTemplate_Label : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L615)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L612)
 --- Template
 --- @class LFGListRequirementTemplate : Frame
 --- @field CheckButton LFGListRequirementTemplate_CheckButton
@@ -212,7 +212,7 @@
 --- @field WarningFrame LFGListRequirementTemplate_WarningFrame
 --- @field Label LFGListRequirementTemplate_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L730)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L727)
 --- Template
 --- @class LFGListColumnHeaderTemplate : Button
 --- @field Left Texture
@@ -220,40 +220,40 @@
 --- @field Middle Texture
 --- @field HighlightTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L840)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L837)
 --- child of LFGListSearchEntryTemplate
 --- @class LFGListSearchEntryTemplate_DataDisplay : Frame, LFGListGroupDataDisplayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L845)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L842)
 --- child of LFGListSearchEntryTemplate
 --- @class LFGListSearchEntryTemplate_VoiceChat : Button, LFGListVoiceChatIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L855)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L852)
 --- child of LFGListSearchEntryTemplate
 --- @class LFGListSearchEntryTemplate_Spinner : Frame, LoadingSpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L857)
 --- child of LFGListSearchEntryTemplate
 --- @class LFGListSearchEntryTemplate_CancelButton : Button, UIMenuButtonStretchTemplate
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L793)
 --- child of LFGListSearchEntryTemplate
 --- @class LFGListSearchEntryTemplate_Name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L799)
 --- child of LFGListSearchEntryTemplate
 --- @class LFGListSearchEntryTemplate_ActivityName : FontString, GameFontDisableSmallLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L808)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L805)
 --- child of LFGListSearchEntryTemplate
 --- @class LFGListSearchEntryTemplate_ExpirationTime : FontString, GameFontGreenSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L815)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L812)
 --- child of LFGListSearchEntryTemplate
 --- @class LFGListSearchEntryTemplate_PendingLabel : FontString, GameFontGreenSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L777)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L774)
 --- Template
 --- @class LFGListSearchEntryTemplate : Button
 --- @field DataDisplay LFGListSearchEntryTemplate_DataDisplay
@@ -269,43 +269,43 @@
 --- @field Selected Texture
 --- @field Highlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L910)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L907)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L911)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L908)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_HealerButton : Button, LFGListRoleButtonTemplate
 --- @field role string # "HEALER"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L921)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L918)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_TankButton : Button, LFGListRoleButtonTemplate
 --- @field role string # "TANK"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L931)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L928)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_DamagerButton : Button, LFGListRoleButtonTemplate
 --- @field role string # "DAMAGER"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L941)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L938)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_LFGListApplicationDialogDescription : ScrollFrame, InputScrollFrameTemplate
 --- @field maxLetters number # 63
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L960)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L957)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_SignUpButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L977)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L974)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_CancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L902)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L899)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_Label : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L898)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L895)
 --- Template
 --- @class LFGListApplicationDialogTemplate : Frame
 --- @field Border LFGListApplicationDialogTemplate_Border
@@ -317,52 +317,9 @@
 --- @field CancelButton LFGListApplicationDialogTemplate_CancelButton
 --- @field Label LFGListApplicationDialogTemplate_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L995)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L992)
 --- Template
 --- @class LFGListPanelTemplate : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L284)
---- child of LFGListFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-LFGListFrameDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L226)
---- child of LFGListFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListFrameDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L239)
---- child of LFGListFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListFrameDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L248)
---- child of LFGListFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListFrameDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L257)
---- child of LFGListFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-LFGListFrameDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L271)
---- child of LFGListFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListFrameDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1002)
---- child of LFGListFrame
---- @class LFGListFrame_LFGListFrameDropDown : Frame, UIDropDownMenuTemplate
-LFGListFrameDropDown = {}
-LFGListFrameDropDown["Button"] = LFGListFrameDropDownButton -- inherited
-LFGListFrameDropDown["Left"] = LFGListFrameDropDownLeft -- inherited
-LFGListFrameDropDown["Middle"] = LFGListFrameDropDownMiddle -- inherited
-LFGListFrameDropDown["Right"] = LFGListFrameDropDownRight -- inherited
-LFGListFrameDropDown["Text"] = LFGListFrameDropDownText -- inherited
-LFGListFrameDropDown["Icon"] = LFGListFrameDropDownIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L796)
 --- child of  (created in template InsetFrameTemplate)
@@ -409,28 +366,28 @@ LFGListFrameInsetLeftBorder = {}
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 LFGListFrameInsetRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1024)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1020)
 --- child of 
 --- @class LFGListFrame_CategorySelection_Inset : Frame, InsetFrameTemplate
 --- @field CustomBG Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1039)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1035)
 --- child of 
 --- @class  : Button, LFGListCategoryTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1044)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1040)
 --- child of 
 --- @class LFGListFrame_CategorySelection_FindGroupButton : Button, LFGListMagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1053)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1049)
 --- child of 
 --- @class LFGListFrame_CategorySelection_StartGroupButton : Button, LFGListMagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1009)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1005)
 --- child of 
 --- @class LFGListFrame_CategorySelection_Label : FontString, QuestFont_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1003)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L999)
 --- child of LFGListFrame
 --- @class LFGListFrame_CategorySelection : Frame, LFGListPanelTemplate
 --- @field updateAll any # LFGListCategorySelection_UpdateCategoryButtons
@@ -484,20 +441,20 @@ LFGListFrameInsetLeftBorder = {}
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 LFGListFrameInsetRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1070)
 --- child of 
 --- @class LFGListFrame_NothingAvailable_Inset : Frame, InsetFrameTemplate
 --- @field CustomBG Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1092)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1088)
 --- child of 
 --- @class LFGListFrame_NothingAvailable_Label : FontString, QuestFont_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1104)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1100)
 --- child of 
 --- @class LFGListFrame_NothingAvailable_Label : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1069)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1065)
 --- child of LFGListFrame
 --- @class LFGListFrame_NothingAvailable : Frame, LFGListPanelTemplate
 --- @field updateAll any # LFGListNothingAvailable_Update
@@ -505,139 +462,50 @@ LFGListFrameInsetRightBorder = {}
 --- @field Label LFGListFrame_NothingAvailable_Label
 --- @field Label LFGListFrame_NothingAvailable_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1262)
 --- child of  (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 --- @field texture Texture
 LFGListFrameClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1253)
 --- child of  (created in template SearchBoxTemplate)
 --- @type Texture
 LFGListFrameSearchIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1134)
 --- child of 
 --- @class LFGListFrame_SearchPanel_SearchBox : EditBox, SearchBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L985)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-LFGListFrameTopLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L992)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-LFGListFrameTopRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L999)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-LFGListFrameBottomLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1006)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-LFGListFrameBottomRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1013)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-LFGListFrameTopMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1021)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-LFGListFrameMiddleLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1029)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-LFGListFrameMiddleRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1037)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-LFGListFrameBottomMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1045)
---- child of  (created in template UIMenuButtonStretchTemplate)
---- @type Texture
-LFGListFrameMiddleMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1155)
 --- child of 
---- @class LFGListFrame_SearchPanel_FilterButton : DropDownToggleButton, UIMenuButtonStretchTemplate
---- @field Icon Texture
+--- @class LFGListFrame_SearchPanel_FilterButton : DropdownButton, WowStyle1FilterDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L284)
---- child of LFGListLanguageFilterDropDownFrame (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-LFGListLanguageFilterDropDownFrameButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L226)
---- child of LFGListLanguageFilterDropDownFrame (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListLanguageFilterDropDownFrameLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L239)
---- child of LFGListLanguageFilterDropDownFrame (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListLanguageFilterDropDownFrameMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L248)
---- child of LFGListLanguageFilterDropDownFrame (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListLanguageFilterDropDownFrameRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L257)
---- child of LFGListLanguageFilterDropDownFrame (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-LFGListLanguageFilterDropDownFrameText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L271)
---- child of LFGListLanguageFilterDropDownFrame (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListLanguageFilterDropDownFrameIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1182)
---- child of 
---- @class LFGListFrame_SearchPanel_LFGListLanguageFilterDropDownFrame : Frame, UIDropDownMenuTemplate
-LFGListLanguageFilterDropDownFrame = {}
-LFGListLanguageFilterDropDownFrame["Button"] = LFGListLanguageFilterDropDownFrameButton -- inherited
-LFGListLanguageFilterDropDownFrame["Left"] = LFGListLanguageFilterDropDownFrameLeft -- inherited
-LFGListLanguageFilterDropDownFrame["Middle"] = LFGListLanguageFilterDropDownFrameMiddle -- inherited
-LFGListLanguageFilterDropDownFrame["Right"] = LFGListLanguageFilterDropDownFrameRight -- inherited
-LFGListLanguageFilterDropDownFrame["Text"] = LFGListLanguageFilterDropDownFrameText -- inherited
-LFGListLanguageFilterDropDownFrame["Icon"] = LFGListLanguageFilterDropDownFrameIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1199)
 --- child of 
 --- @class  : Button, LFGListSearchAutoCompleteButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1168)
 --- child of 
 --- @class LFGListFrame_SearchPanel_AutoCompleteFrame_BottomLeftBorder : Texture, UI-Frame-BotCornerLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1173)
 --- child of 
 --- @class LFGListFrame_SearchPanel_AutoCompleteFrame_BottomRightBorder : Texture, UI-Frame-BotCornerRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1178)
 --- child of 
 --- @class LFGListFrame_SearchPanel_AutoCompleteFrame_BottomBorder : Texture, _UI-Frame-Bot
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1184)
 --- child of 
 --- @class LFGListFrame_SearchPanel_AutoCompleteFrame_LeftBorder : Texture, !UI-Frame-LeftTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1190)
 --- child of 
 --- @class LFGListFrame_SearchPanel_AutoCompleteFrame_RightBorder : Texture, !UI-Frame-RightTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1160)
 --- child of 
 --- @class LFGListFrame_SearchPanel_AutoCompleteFrame : Frame
 --- @field BottomLeftBorder LFGListFrame_SearchPanel_AutoCompleteFrame_BottomLeftBorder
@@ -646,7 +514,7 @@ LFGListLanguageFilterDropDownFrame["Icon"] = LFGListLanguageFilterDropDownFrameI
 --- @field LeftBorder LFGListFrame_SearchPanel_AutoCompleteFrame_LeftBorder
 --- @field RightBorder LFGListFrame_SearchPanel_AutoCompleteFrame_RightBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1207)
 --- child of 
 --- @class LFGListFrame_SearchPanel_RefreshButton : Button
 --- @field Icon Texture
@@ -696,54 +564,54 @@ LFGListFrameInsetLeftBorder = {}
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 LFGListFrameInsetRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1244)
 --- child of 
 --- @class LFGListFrame_SearchPanel_ResultsInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1266)
 --- child of 
 --- @class LFGListFrame_SearchPanel_ScrollBox_StartGroupButton : Button, LFGStartGroupButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1257)
 --- child of 
 --- @class LFGListFrame_SearchPanel_ScrollBox_NoResultsFound : FontString, GameFontDisable
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1279)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1250)
 --- child of 
 --- @class LFGListFrame_SearchPanel_ScrollBox : Frame, WowScrollBoxList
 --- @field StartGroupButton LFGListFrame_SearchPanel_ScrollBox_StartGroupButton
 --- @field NoResultsFound LFGListFrame_SearchPanel_ScrollBox_NoResultsFound
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1273)
 --- child of 
 --- @class LFGListFrame_SearchPanel_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1285)
 --- child of 
 --- @class LFGListFrame_SearchPanel_SearchingSpinner_Label : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1308)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1279)
 --- child of 
 --- @class LFGListFrame_SearchPanel_SearchingSpinner : Frame, LoadingSpinnerTemplate
 --- @field Label LFGListFrame_SearchPanel_SearchingSpinner_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1293)
 --- child of 
 --- @class LFGListFrame_SearchPanel_BackButton : Button, LFGListMagicButtonTemplate, LFGListSearchBackButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1302)
 --- child of 
 --- @class LFGListFrame_SearchPanel_BackToGroupButton : Button, LFGListMagicButtonTemplate, LFGListSearchBackToGroupButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1311)
 --- child of 
 --- @class LFGListFrame_SearchPanel_SignUpButton : Button, LFGListMagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1118)
 --- child of 
 --- @class LFGListFrame_SearchPanel_CategoryName : FontString, MailFont_Large
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1115)
 --- child of LFGListFrame
 --- @class LFGListFrame_SearchPanel : Frame, LFGListPanelTemplate
 --- @field SearchBox LFGListFrame_SearchPanel_SearchBox
@@ -759,28 +627,28 @@ LFGListFrameInsetRightBorder = {}
 --- @field SignUpButton LFGListFrame_SearchPanel_SignUpButton
 --- @field CategoryName LFGListFrame_SearchPanel_CategoryName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1398)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1369)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_DescriptionFrame_Text : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1362)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_DescriptionFrame : Frame
 --- @field Text LFGListFrame_ApplicationViewer_DescriptionFrame_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1415)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1386)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_DataDisplay : Frame, LFGListGroupDataDisplayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1430)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1401)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_VoiceChatFrame : Frame, LFGListVoiceChatIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1445)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1416)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_AutoAcceptButton_Label : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1435)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1406)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_AutoAcceptButton : CheckButton
 --- @field Label LFGListFrame_ApplicationViewer_AutoAcceptButton_Label
@@ -830,66 +698,66 @@ LFGListFrameInsetLeftBorder = {}
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 LFGListFrameInsetRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1439)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_Inset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1475)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1446)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_NameColumnHeader : Button, LFGListColumnHeaderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1481)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1452)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_RoleColumnHeader : Button, LFGListColumnHeaderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1487)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1458)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_ItemLevelColumnHeader : Button, LFGListColumnHeaderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1505)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1476)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_LFGApplicationViewerRatingColumnHeader : Button, LFGListColumnHeaderTemplate
 LFGApplicationViewerRatingColumnHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1511)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1482)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_RefreshButton : Button
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1527)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_ScrollBox_NoApplicants : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1549)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1520)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_ScrollBox : Frame, WowScrollBoxList
 --- @field NoApplicants LFGListFrame_ApplicationViewer_ScrollBox_NoApplicants
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1566)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1537)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1572)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1543)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_RemoveEntryButton : Button, LFGListButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1584)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1555)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_EditButton : Button, LFGListButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1593)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1564)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_BrowseGroupsButton : Button, LFGListButtonTemplate, LFGApplicationBrowseGroupsButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1614)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1585)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_UnempoweredCover_Label : FontString, GameFontNormalMed2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1611)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_UnempoweredCover_WaitAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1602)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1573)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_UnempoweredCover : Frame
 --- @field Background Texture
@@ -899,19 +767,19 @@ LFGApplicationViewerRatingColumnHeader = {}
 --- @field Waitdot3 Texture
 --- @field WaitAnim LFGListFrame_ApplicationViewer_UnempoweredCover_WaitAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1340)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_EntryName : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1347)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_PrivateGroup : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1382)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1353)
 --- child of 
 --- @class LFGListFrame_ApplicationViewer_ItemLevel : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1330)
 --- child of LFGListFrame
 --- @class LFGListFrame_ApplicationViewer : Frame, LFGListPanelTemplate
 --- @field DescriptionFrame LFGListFrame_ApplicationViewer_DescriptionFrame
@@ -980,55 +848,55 @@ LFGListFrameInsetLeftBorder = {}
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 LFGListFrameInsetRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1696)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1667)
 --- child of 
 --- @class LFGListFrame_EntryCreation_Inset : Frame, InsetFrameTemplate
 --- @field CustomBG Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1732)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1703)
 --- child of 
 --- @class LFGListFrame_EntryCreation_WorkingCover_Spinner : Frame, LoadingSpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1723)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1694)
 --- child of 
 --- @class LFGListFrame_EntryCreation_WorkingCover_Label : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1711)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1682)
 --- child of 
 --- @class LFGListFrame_EntryCreation_WorkingCover : Frame
 --- @field Spinner LFGListFrame_EntryCreation_WorkingCover_Spinner
 --- @field Background Texture
 --- @field Label LFGListFrame_EntryCreation_WorkingCover_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1768)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1739)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_Border : Frame, DialogBorderNoCenterTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1769)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1740)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_EntryBox : EditBox, LFGListEditBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1788)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1759)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1794)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1765)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1800)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1771)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_BorderFrame : Frame, TooltipBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1806)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1777)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_SelectButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1818)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1789)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog_CancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1752)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1723)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ActivityFinder_Dialog : Frame
 --- @field Border LFGListFrame_EntryCreation_ActivityFinder_Dialog_Border
@@ -1040,108 +908,34 @@ LFGListFrameInsetRightBorder = {}
 --- @field CancelButton LFGListFrame_EntryCreation_ActivityFinder_Dialog_CancelButton
 --- @field Bg Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1739)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1710)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ActivityFinder : Frame
 --- @field Dialog LFGListFrame_EntryCreation_ActivityFinder_Dialog
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1837)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1808)
 --- child of 
 --- @class LFGListFrame_EntryCreation_Name : EditBox, LFGListEditBoxTemplate
 --- @field tabCategory string # "ENTRY_CREATION"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L284)
---- child of LFGListEntryCreationGroupDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-LFGListEntryCreationGroupDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L226)
---- child of LFGListEntryCreationGroupDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationGroupDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L239)
---- child of LFGListEntryCreationGroupDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationGroupDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L248)
---- child of LFGListEntryCreationGroupDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationGroupDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L257)
---- child of LFGListEntryCreationGroupDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-LFGListEntryCreationGroupDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L271)
---- child of LFGListEntryCreationGroupDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationGroupDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1859)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1830)
 --- child of 
---- @class LFGListFrame_EntryCreation_LFGListEntryCreationGroupDropDown : Frame, UIDropDownMenuTemplate
-LFGListEntryCreationGroupDropDown = {}
-LFGListEntryCreationGroupDropDown["Button"] = LFGListEntryCreationGroupDropDownButton -- inherited
-LFGListEntryCreationGroupDropDown["Left"] = LFGListEntryCreationGroupDropDownLeft -- inherited
-LFGListEntryCreationGroupDropDown["Middle"] = LFGListEntryCreationGroupDropDownMiddle -- inherited
-LFGListEntryCreationGroupDropDown["Right"] = LFGListEntryCreationGroupDropDownRight -- inherited
-LFGListEntryCreationGroupDropDown["Text"] = LFGListEntryCreationGroupDropDownText -- inherited
-LFGListEntryCreationGroupDropDown["Icon"] = LFGListEntryCreationGroupDropDownIcon -- inherited
+--- @class LFGListFrame_EntryCreation_LFGListEntryCreationGroupDropdown : DropdownButton, WowStyle1DropdownTemplate
+LFGListEntryCreationGroupDropdown = {}
+LFGListEntryCreationGroupDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L284)
---- child of LFGListEntryCreationActivityDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-LFGListEntryCreationActivityDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L226)
---- child of LFGListEntryCreationActivityDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationActivityDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L239)
---- child of LFGListEntryCreationActivityDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationActivityDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L248)
---- child of LFGListEntryCreationActivityDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationActivityDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L257)
---- child of LFGListEntryCreationActivityDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-LFGListEntryCreationActivityDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L271)
---- child of LFGListEntryCreationActivityDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationActivityDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1865)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1835)
 --- child of 
---- @class LFGListFrame_EntryCreation_LFGListEntryCreationActivityDropDown : Frame, UIDropDownMenuTemplate
-LFGListEntryCreationActivityDropDown = {}
-LFGListEntryCreationActivityDropDown["Button"] = LFGListEntryCreationActivityDropDownButton -- inherited
-LFGListEntryCreationActivityDropDown["Left"] = LFGListEntryCreationActivityDropDownLeft -- inherited
-LFGListEntryCreationActivityDropDown["Middle"] = LFGListEntryCreationActivityDropDownMiddle -- inherited
-LFGListEntryCreationActivityDropDown["Right"] = LFGListEntryCreationActivityDropDownRight -- inherited
-LFGListEntryCreationActivityDropDown["Text"] = LFGListEntryCreationActivityDropDownText -- inherited
-LFGListEntryCreationActivityDropDown["Icon"] = LFGListEntryCreationActivityDropDownIcon -- inherited
+--- @class LFGListFrame_EntryCreation_LFGListEntryCreationActivityDropdown : DropdownButton, WowStyle1DropdownTemplate
+LFGListEntryCreationActivityDropdown = {}
+LFGListEntryCreationActivityDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1892)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1861)
 --- child of LFGListCreationDescription
 --- @class LFGListFrame_EntryCreation_LFGListCreationDescription_LockButton : Button, LFGListLockButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1871)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1840)
 --- child of 
 --- @class LFGListFrame_EntryCreation_LFGListCreationDescription : ScrollFrame, InputScrollFrameTemplate, LFGListCreationDescriptionMixin
 --- @field maxLetters number # 255
@@ -1150,123 +944,86 @@ LFGListCreationDescription = {}
 LFGListCreationDescription["maxLetters"] = 255
 LFGListCreationDescription["maxLetters"] = 0 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L284)
---- child of LFGListEntryCreationPlayStyleDropdown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-LFGListEntryCreationPlayStyleDropdownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L226)
---- child of LFGListEntryCreationPlayStyleDropdown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationPlayStyleDropdownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L239)
---- child of LFGListEntryCreationPlayStyleDropdown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationPlayStyleDropdownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L248)
---- child of LFGListEntryCreationPlayStyleDropdown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationPlayStyleDropdownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L257)
---- child of LFGListEntryCreationPlayStyleDropdown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-LFGListEntryCreationPlayStyleDropdownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L271)
---- child of LFGListEntryCreationPlayStyleDropdown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListEntryCreationPlayStyleDropdownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1899)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1868)
 --- child of 
---- @class LFGListFrame_EntryCreation_LFGListEntryCreationPlayStyleDropdown : Frame, UIDropDownMenuTemplate
+--- @class LFGListFrame_EntryCreation_LFGListEntryCreationPlayStyleDropdown : DropdownButton, WowStyle1DropdownTemplate
 LFGListEntryCreationPlayStyleDropdown = {}
-LFGListEntryCreationPlayStyleDropdown["Button"] = LFGListEntryCreationPlayStyleDropdownButton -- inherited
-LFGListEntryCreationPlayStyleDropdown["Left"] = LFGListEntryCreationPlayStyleDropdownLeft -- inherited
-LFGListEntryCreationPlayStyleDropdown["Middle"] = LFGListEntryCreationPlayStyleDropdownMiddle -- inherited
-LFGListEntryCreationPlayStyleDropdown["Right"] = LFGListEntryCreationPlayStyleDropdownRight -- inherited
-LFGListEntryCreationPlayStyleDropdown["Text"] = LFGListEntryCreationPlayStyleDropdownText -- inherited
-LFGListEntryCreationPlayStyleDropdown["Icon"] = LFGListEntryCreationPlayStyleDropdownIcon -- inherited
+LFGListEntryCreationPlayStyleDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1905)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1874)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ItemLevel : Frame, LFGListRequirementTemplate
 --- @field label any # LFG_LIST_ITEM_LEVEL_REQ
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1917)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1886)
 --- child of 
 --- @class LFGListFrame_EntryCreation_PvpItemLevel : Frame, LFGListRequirementTemplate
 --- @field label any # LFG_LIST_ITEM_LEVEL_PVP
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1929)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1898)
 --- child of 
 --- @class LFGListFrame_EntryCreation_PVPRating : Frame, LFGListRequirementTemplate
 --- @field label any # GROUP_FINDER_PVP_RATING_REQ_LABEL
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1940)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1909)
 --- child of 
 --- @class LFGListFrame_EntryCreation_MythicPlusRating : Frame, LFGListRequirementTemplate
 --- @field label any # GROUP_FINDER_MYTHIC_RATING_REQ_LABEL
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1951)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1920)
 --- child of 
 --- @class LFGListFrame_EntryCreation_VoiceChat : Frame, LFGListRequirementTemplate
 --- @field maxLetters number # 31
 --- @field label any # LFG_LIST_VOICE_CHAT
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1966)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1935)
 --- child of 
 --- @class LFGListFrame_EntryCreation_CrossFactionGroup : Frame, LFGListOptionCheckButtonTemplate
 --- @field label any # LFG_LIST_CROSS_FACTION
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1976)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1945)
 --- child of 
 --- @class LFGListFrame_EntryCreation_PrivateGroup : Frame, LFGListOptionCheckButtonTemplate
 --- @field label any # LFG_LIST_PRIVATE
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2002)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1971)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ListGroupButton_DisableStateClickButton : Button, LFGListCreateGroupDisabledStateButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1985)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1954)
 --- child of 
 --- @class LFGListFrame_EntryCreation_ListGroupButton : Button, LFGListMagicButtonTemplate
 --- @field DisableStateClickButton LFGListFrame_EntryCreation_ListGroupButton_DisableStateClickButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2011)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1980)
 --- child of 
 --- @class LFGListFrame_EntryCreation_CancelButton : Button, LFGListMagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1665)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1636)
 --- child of 
 --- @class LFGListFrame_EntryCreation_Label : FontString, QuestFont_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1677)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1648)
 --- child of 
 --- @class LFGListFrame_EntryCreation_NameLabel : FontString, GameFontNormalLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1682)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1653)
 --- child of 
 --- @class LFGListFrame_EntryCreation_DescriptionLabel : FontString, GameFontNormalLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1687)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1658)
 --- child of 
 --- @class LFGListFrame_EntryCreation_PlayStyleLabel : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1662)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1633)
 --- child of LFGListFrame
 --- @class LFGListFrame_EntryCreation : Frame, LFGListPanelTemplate
 --- @field Inset LFGListFrame_EntryCreation_Inset
 --- @field WorkingCover LFGListFrame_EntryCreation_WorkingCover
 --- @field ActivityFinder LFGListFrame_EntryCreation_ActivityFinder
 --- @field Name LFGListFrame_EntryCreation_Name
---- @field GroupDropDown LFGListFrame_EntryCreation_LFGListEntryCreationGroupDropDown
---- @field ActivityDropDown LFGListFrame_EntryCreation_LFGListEntryCreationActivityDropDown
+--- @field GroupDropdown LFGListFrame_EntryCreation_LFGListEntryCreationGroupDropdown
+--- @field ActivityDropdown LFGListFrame_EntryCreation_LFGListEntryCreationActivityDropdown
 --- @field Description LFGListFrame_EntryCreation_LFGListCreationDescription
 --- @field PlayStyleDropdown LFGListFrame_EntryCreation_LFGListEntryCreationPlayStyleDropdown
 --- @field ItemLevel LFGListFrame_EntryCreation_ItemLevel
@@ -1283,7 +1040,7 @@ LFGListEntryCreationPlayStyleDropdown["Icon"] = LFGListEntryCreationPlayStyleDro
 --- @field DescriptionLabel LFGListFrame_EntryCreation_DescriptionLabel
 --- @field PlayStyleLabel LFGListFrame_EntryCreation_PlayStyleLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L996)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L993)
 --- @class LFGListFrame : Frame
 --- @field CategorySelection LFGListFrame_CategorySelection
 --- @field NothingAvailable LFGListFrame_NothingAvailable
@@ -1292,7 +1049,7 @@ LFGListEntryCreationPlayStyleDropdown["Icon"] = LFGListEntryCreationPlayStyleDro
 --- @field EntryCreation LFGListFrame_EntryCreation
 LFGListFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L941)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L938)
 --- child of LFGListApplicationDialog (created in template LFGListApplicationDialogTemplate)
 --- @type LFGListApplicationDialogTemplate_LFGListApplicationDialogDescription
 --- @field maxLetters number # 63
@@ -1300,12 +1057,12 @@ LFGListApplicationDialogDescription = {}
 LFGListApplicationDialogDescription["maxLetters"] = 63
 LFGListApplicationDialogDescription["maxLetters"] = 0 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2035)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2004)
 --- @class LFGListApplicationDialog : Frame, LFGListApplicationDialogTemplate
 LFGListApplicationDialog = {}
 LFGListApplicationDialog["Description"] = LFGListApplicationDialogDescription -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L941)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L938)
 --- child of LFGListCreateRoleDialog (created in template LFGListApplicationDialogTemplate)
 --- @type LFGListApplicationDialogTemplate_LFGListApplicationDialogDescription
 --- @field maxLetters number # 63
@@ -1313,52 +1070,52 @@ LFGListApplicationDialogDescription = {}
 LFGListApplicationDialogDescription["maxLetters"] = 63
 LFGListApplicationDialogDescription["maxLetters"] = 0 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2036)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2005)
 --- @class LFGListCreateRoleDialog : Frame, LFGListApplicationDialogTemplate
 LFGListCreateRoleDialog = {}
 LFGListCreateRoleDialog["Description"] = LFGListApplicationDialogDescription -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2086)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2055)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2087)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2056)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_AcceptButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2069)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_DeclineButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2081)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_AcknowledgeButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2046)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2015)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_Label : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2051)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2020)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_GroupName : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2056)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2025)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_ActivityName : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2067)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2036)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_RoleDescription : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2072)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2041)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_Role : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2077)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2046)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_OfflineNotice : FontString, GameFontRed
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2042)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2011)
 --- @class LFGListInviteDialog : Frame
 --- @field Border LFGListInviteDialog_Border
 --- @field AcceptButton LFGListInviteDialog_AcceptButton

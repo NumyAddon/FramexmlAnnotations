@@ -11,9 +11,6 @@ IconIntroFlyinAnimMixin = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.lua#L8)
 function IconIntroTrackerMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.lua#L13)
-function IconIntroTrackerMixin:RegisterEvents() end
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.lua#L17)
 function IconIntroTrackerMixin:OnEvent(event, ...) end
 

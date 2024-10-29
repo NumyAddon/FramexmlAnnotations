@@ -762,17 +762,17 @@ SendMailMoneyInset["InsetBorderBottom"] = SendMailMoneyInsetInsetBottomBorder --
 SendMailMoneyInset["InsetBorderLeft"] = SendMailMoneyInsetInsetLeftBorder -- inherited
 SendMailMoneyInset["InsetBorderRight"] = SendMailMoneyInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1665)
 --- child of SendMailMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 SendMailMoneyBgLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1902)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1673)
 --- child of SendMailMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 SendMailMoneyBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1910)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1681)
 --- child of SendMailMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 SendMailMoneyBgMiddle = {}
@@ -893,7 +893,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L113)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}
@@ -933,7 +933,7 @@ FriendsFrameTabTemplateMiddle = {}
 --- @type Texture
 FriendsFrameTabTemplateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L113)
 --- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTabTemplateHighlightTexture = {}

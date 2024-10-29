@@ -30,55 +30,16 @@ ClassTrainerExpandTabMiddle = {}
 --- @class ClassTrainerFrame_ClassTrainerExpandButtonFrame : Frame
 ClassTrainerExpandButtonFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L284)
---- child of ClassTrainerFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-ClassTrainerFrameFilterDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L226)
---- child of ClassTrainerFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ClassTrainerFrameFilterDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L239)
---- child of ClassTrainerFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ClassTrainerFrameFilterDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L248)
---- child of ClassTrainerFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ClassTrainerFrameFilterDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L257)
---- child of ClassTrainerFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-ClassTrainerFrameFilterDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L271)
---- child of ClassTrainerFrameFilterDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-ClassTrainerFrameFilterDropDownIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L184)
 --- child of ClassTrainerFrame
---- @class ClassTrainerFrame_ClassTrainerFrameFilterDropDown : Frame, UIDropDownMenuTemplate
-ClassTrainerFrameFilterDropDown = {}
-ClassTrainerFrameFilterDropDown["Button"] = ClassTrainerFrameFilterDropDownButton -- inherited
-ClassTrainerFrameFilterDropDown["Left"] = ClassTrainerFrameFilterDropDownLeft -- inherited
-ClassTrainerFrameFilterDropDown["Middle"] = ClassTrainerFrameFilterDropDownMiddle -- inherited
-ClassTrainerFrameFilterDropDown["Right"] = ClassTrainerFrameFilterDropDownRight -- inherited
-ClassTrainerFrameFilterDropDown["Text"] = ClassTrainerFrameFilterDropDownText -- inherited
-ClassTrainerFrameFilterDropDown["Icon"] = ClassTrainerFrameFilterDropDownIcon -- inherited
+--- @class ClassTrainerFrame_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L198)
 --- child of ClassTrainerSkillHighlightFrame
 --- @class ClassTrainerFrame_ClassTrainerSkillHighlightFrame_ClassTrainerSkillHighlight : Texture
 ClassTrainerSkillHighlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L189)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkillHighlightFrame : Frame
 ClassTrainerSkillHighlightFrame = {}
@@ -93,7 +54,7 @@ ClassTrainerSkill1SubText = {}
 --- @type Texture
 ClassTrainerSkill1Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L202)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkill1 : Button, ClassTrainerSkillButtonTemplate
 ClassTrainerSkill1 = {}
@@ -108,7 +69,7 @@ ClassTrainerSkill2SubText = {}
 --- @type Texture
 ClassTrainerSkill2Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L211)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkill2 : Button, ClassTrainerSkillButtonTemplate
 ClassTrainerSkill2 = {}
@@ -123,7 +84,7 @@ ClassTrainerSkill3SubText = {}
 --- @type Texture
 ClassTrainerSkill3Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L220)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkill3 : Button, ClassTrainerSkillButtonTemplate
 ClassTrainerSkill3 = {}
@@ -138,7 +99,7 @@ ClassTrainerSkill4SubText = {}
 --- @type Texture
 ClassTrainerSkill4Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L229)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkill4 : Button, ClassTrainerSkillButtonTemplate
 ClassTrainerSkill4 = {}
@@ -153,7 +114,7 @@ ClassTrainerSkill5SubText = {}
 --- @type Texture
 ClassTrainerSkill5Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L246)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L238)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkill5 : Button, ClassTrainerSkillButtonTemplate
 ClassTrainerSkill5 = {}
@@ -168,7 +129,7 @@ ClassTrainerSkill6SubText = {}
 --- @type Texture
 ClassTrainerSkill6Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L247)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkill6 : Button, ClassTrainerSkillButtonTemplate
 ClassTrainerSkill6 = {}
@@ -183,7 +144,7 @@ ClassTrainerSkill7SubText = {}
 --- @type Texture
 ClassTrainerSkill7Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L256)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkill7 : Button, ClassTrainerSkillButtonTemplate
 ClassTrainerSkill7 = {}
@@ -198,7 +159,7 @@ ClassTrainerSkill8SubText = {}
 --- @type Texture
 ClassTrainerSkill8Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L265)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkill8 : Button, ClassTrainerSkillButtonTemplate
 ClassTrainerSkill8 = {}
@@ -213,7 +174,7 @@ ClassTrainerSkill9SubText = {}
 --- @type Texture
 ClassTrainerSkill9Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L274)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkill9 : Button, ClassTrainerSkillButtonTemplate
 ClassTrainerSkill9 = {}
@@ -228,7 +189,7 @@ ClassTrainerSkill10SubText = {}
 --- @type Texture
 ClassTrainerSkill10Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L291)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L283)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkill10 : Button, ClassTrainerSkillButtonTemplate
 ClassTrainerSkill10 = {}
@@ -243,7 +204,7 @@ ClassTrainerSkill11SubText = {}
 --- @type Texture
 ClassTrainerSkill11Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L292)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerSkill11 : Button, ClassTrainerSkillButtonTemplate
 ClassTrainerSkill11 = {}
@@ -271,7 +232,7 @@ FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScro
 FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
 FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L309)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L301)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerListScrollFrame : ScrollFrame, ClassTrainerListScrollFrameTemplate
 ClassTrainerListScrollFrame = {}
@@ -297,7 +258,7 @@ ClassTrainerMoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
 ClassTrainerMoneyFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L325)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerMoneyFrame : Frame, SmallMoneyFrameTemplate
 ClassTrainerMoneyFrame = {}
@@ -339,25 +300,25 @@ ClassTrainerDetailScrollFrameTop = {}
 --- @type Texture
 ClassTrainerDetailScrollFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L334)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerDetailScrollFrame : ScrollFrame, ClassTrainerDetailScrollFrameTemplate
 ClassTrainerDetailScrollFrame = {}
 ClassTrainerDetailScrollFrame["ScrollBar"] = ClassTrainerDetailScrollFrameTemplateScrollBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L482)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L474)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerTrainButton : Button, UIPanelButtonTemplate
 ClassTrainerTrainButton = {}
 ClassTrainerTrainButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L499)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L491)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerCancelButton : Button, UIPanelButtonTemplate
 ClassTrainerCancelButton = {}
 ClassTrainerCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L508)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerFrameCloseButton : Button, UIPanelCloseButton
 ClassTrainerFrameCloseButton = {}
@@ -394,5 +355,6 @@ ClassTrainerHorizontalBarLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L4)
 --- @class ClassTrainerFrame : Frame
+--- @field FilterDropdown ClassTrainerFrame_FilterDropdown
 ClassTrainerFrame = {}
 

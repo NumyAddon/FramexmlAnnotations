@@ -32,13 +32,13 @@
 --- @field SettingsCanvas Frame
 --- @field SettingsList SettingsPanel_Container_SettingsList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1262)
 --- child of  (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 --- @field texture Texture
 SettingsPanelClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1253)
 --- child of  (created in template SearchBoxTemplate)
 --- @type Texture
 SettingsPanelSearchIcon = {}
@@ -238,11 +238,9 @@ SharedTooltipTemplateTexture29 = {}
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
 SharedTooltipTemplateTexture30 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L116)
---- @class SettingsTooltip : GameTooltip, SharedTooltipTemplate, DefaultScaleFrame
---- @field maxScale any # .75
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L115)
+--- @class SettingsTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate
 SettingsTooltip = {}
-SettingsTooltip["maxScale"] = .75
 SettingsTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 SettingsTooltip["TextLeft1"] = SharedTooltipTemplateTextLeft1 -- inherited
 SettingsTooltip["TextRight1"] = SharedTooltipTemplateTextRight1 -- inherited

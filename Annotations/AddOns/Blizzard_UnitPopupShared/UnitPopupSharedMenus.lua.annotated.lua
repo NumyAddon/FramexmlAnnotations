@@ -1,14 +1,11 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedMenus.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedMenus.lua#L3)
 --- @class UnitPopupTopLevelMenuMixin
 UnitPopupTopLevelMenuMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedMenus.lua#L3)
-function UnitPopupTopLevelMenuMixin:GetMenuButtons() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedMenus.lua#L20)
+function UnitPopupTopLevelMenuMixin:IsInlineMenu() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedMenus.lua#L6)
-function UnitPopupTopLevelMenuMixin:GetButtons() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedMenus.lua#L23)
-function UnitPopupTopLevelMenuMixin:IsMenu() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedMenus.lua#L24)
+function UnitPopupTopLevelMenuMixin:AssembleMenuEntries(contextData) end

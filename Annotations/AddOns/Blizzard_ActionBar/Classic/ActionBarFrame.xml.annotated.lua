@@ -36,82 +36,82 @@ ActionBarButtonEventsFrame = {}
 --- @class ActionBarActionEventsFrame : Frame
 ActionBarActionEventsFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -192,82 +192,82 @@ ActionButton1["Name"] = ActionBarButtonTemplateName -- inherited
 ActionButton1["Border"] = ActionBarButtonTemplateBorder -- inherited
 ActionButton1["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -348,82 +348,82 @@ ActionButton2["Name"] = ActionBarButtonTemplateName -- inherited
 ActionButton2["Border"] = ActionBarButtonTemplateBorder -- inherited
 ActionButton2["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -504,82 +504,82 @@ ActionButton3["Name"] = ActionBarButtonTemplateName -- inherited
 ActionButton3["Border"] = ActionBarButtonTemplateBorder -- inherited
 ActionButton3["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -660,82 +660,82 @@ ActionButton4["Name"] = ActionBarButtonTemplateName -- inherited
 ActionButton4["Border"] = ActionBarButtonTemplateBorder -- inherited
 ActionButton4["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -816,82 +816,82 @@ ActionButton5["Name"] = ActionBarButtonTemplateName -- inherited
 ActionButton5["Border"] = ActionBarButtonTemplateBorder -- inherited
 ActionButton5["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -972,82 +972,82 @@ ActionButton6["Name"] = ActionBarButtonTemplateName -- inherited
 ActionButton6["Border"] = ActionBarButtonTemplateBorder -- inherited
 ActionButton6["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -1128,82 +1128,82 @@ ActionButton7["Name"] = ActionBarButtonTemplateName -- inherited
 ActionButton7["Border"] = ActionBarButtonTemplateBorder -- inherited
 ActionButton7["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -1284,82 +1284,82 @@ ActionButton8["Name"] = ActionBarButtonTemplateName -- inherited
 ActionButton8["Border"] = ActionBarButtonTemplateBorder -- inherited
 ActionButton8["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -1440,82 +1440,82 @@ ActionButton9["Name"] = ActionBarButtonTemplateName -- inherited
 ActionButton9["Border"] = ActionBarButtonTemplateBorder -- inherited
 ActionButton9["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -1596,82 +1596,82 @@ ActionButton10["Name"] = ActionBarButtonTemplateName -- inherited
 ActionButton10["Border"] = ActionBarButtonTemplateBorder -- inherited
 ActionButton10["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -1752,82 +1752,82 @@ ActionButton11["Name"] = ActionBarButtonTemplateName -- inherited
 ActionButton11["Border"] = ActionBarButtonTemplateBorder -- inherited
 ActionButton11["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}

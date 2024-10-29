@@ -33,7 +33,7 @@ function MinimalSliderWithSteppersMixin:ClearInteractionFlag(flag) end
 function MinimalSliderWithSteppersMixin:FormatValue(value) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L158)
-function MinimalSliderWithSteppersMixin:SetEnabled_(enabled) end
+function MinimalSliderWithSteppersMixin:SetEnabled(enabled) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L169)
 function MinimalSliderWithSteppersMixin:SetValue(value) end

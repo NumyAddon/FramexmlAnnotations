@@ -61,5 +61,5 @@ function ScriptAnimatedEffectControllerMixin:CancelEffect() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedEffectController.lua#L185)
 function ScriptAnimatedEffectControllerMixin:InternalCancelEffect(skipRemovingController) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedEffectController.lua#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXMLGame/ScriptedAnimations/ScriptAnimatedEffectController.lua#L212)
 function ScriptAnimatedEffectControllerMixin:BeginBehavior(behavior) end

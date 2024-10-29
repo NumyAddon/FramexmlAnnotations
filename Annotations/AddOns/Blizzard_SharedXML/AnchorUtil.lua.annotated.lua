@@ -4,7 +4,7 @@
 --- @class AnchorMixin
 AnchorMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L54)
 --- @class GridLayoutMixin
 GridLayoutMixin = {}
 
@@ -21,16 +21,19 @@ function AnchorMixin:SetFromPoint(region, pointIndex) end
 function AnchorMixin:Get() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L30)
+function AnchorMixin:GetRelativeTo() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L35)
 function AnchorMixin:SetPoint(region, clearAllPoints) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L42)
 function AnchorMixin:SetPointWithExtraOffset(region, clearAllPoints, extraOffsetX, extraOffsetY) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L75)
 function GridLayoutMixin:Init(direction, stride, paddingX, paddingY, horizontalSpacing, verticalSpacing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L84)
 function GridLayoutMixin:SetCustomOffsetFunction(func) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnchorUtil.lua#L88)
 function GridLayoutMixin:GetCustomOffset(row, col) end

@@ -162,10 +162,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L367)
 --- child of CommunitiesGuildNewsFrameTemplate
---- @class CommunitiesGuildNewsFrameTemplate_DropDown : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L373)
---- child of CommunitiesGuildNewsFrameTemplate
 --- @class CommunitiesGuildNewsFrameTemplate_BossModel : PlayerModel, CommunitiesGuildNewsBossModelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L276)
@@ -187,94 +183,93 @@
 --- @field GMImpeachButton CommunitiesGuildNewsFrameTemplate_GMImpeachButton
 --- @field ScrollBox CommunitiesGuildNewsFrameTemplate_ScrollBox
 --- @field ScrollBar CommunitiesGuildNewsFrameTemplate_ScrollBar
---- @field DropDown CommunitiesGuildNewsFrameTemplate_DropDown
 --- @field BossModel CommunitiesGuildNewsFrameTemplate_BossModel
 --- @field Header Texture
 --- @field TitleText CommunitiesGuildNewsFrameTemplate_TitleText
 --- @field NoNews CommunitiesGuildNewsFrameTemplate_NoNews
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L403)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L396)
 --- child of CommunitiesGuildNewsFiltersFrame
 --- @class CommunitiesGuildNewsFiltersFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L408)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L401)
 --- child of CommunitiesGuildNewsFiltersFrame
 --- @class CommunitiesGuildNewsFiltersFrame_GuildAchievement : CheckButton, CommunitiesGuildNewsCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L413)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L406)
 --- child of CommunitiesGuildNewsFiltersFrame
 --- @class CommunitiesGuildNewsFiltersFrame_Achievement : CheckButton, CommunitiesGuildNewsCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L411)
 --- child of CommunitiesGuildNewsFiltersFrame
 --- @class CommunitiesGuildNewsFiltersFrame_DungeonEncounter : CheckButton, CommunitiesGuildNewsCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L416)
 --- child of CommunitiesGuildNewsFiltersFrame
 --- @class CommunitiesGuildNewsFiltersFrame_EpicItemLooted : CheckButton, CommunitiesGuildNewsCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L428)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L421)
 --- child of CommunitiesGuildNewsFiltersFrame
 --- @class CommunitiesGuildNewsFiltersFrame_EpicItemPurchased : CheckButton, CommunitiesGuildNewsCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L433)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L426)
 --- child of CommunitiesGuildNewsFiltersFrame
 --- @class CommunitiesGuildNewsFiltersFrame_EpicItemCrafted : CheckButton, CommunitiesGuildNewsCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L438)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L431)
 --- child of CommunitiesGuildNewsFiltersFrame
 --- @class CommunitiesGuildNewsFiltersFrame_LegendaryItemLooted : CheckButton, CommunitiesGuildNewsCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L395)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L388)
 --- child of CommunitiesGuildNewsFiltersFrame
 --- @class CommunitiesGuildNewsFiltersFrame_Title : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1560)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1331)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type Texture
 CommunitiesGuildNewsFiltersFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1340)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopLeftCorner
 CommunitiesGuildNewsFiltersFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1574)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1345)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopRightCorner
 CommunitiesGuildNewsFiltersFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1579)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1350)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomLeftCorner
 CommunitiesGuildNewsFiltersFrameBottomLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1584)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1355)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomRightCorner
 CommunitiesGuildNewsFiltersFrameBottomRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1589)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1360)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopBorder
 CommunitiesGuildNewsFiltersFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1366)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomBorder
 CommunitiesGuildNewsFiltersFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1372)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateLeftBorder
 CommunitiesGuildNewsFiltersFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1378)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TranslucentFrameTemplateRightBorder
 CommunitiesGuildNewsFiltersFrameRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L384)
 --- @class CommunitiesGuildNewsFiltersFrame : Frame, TranslucentFrameTemplate
 --- @field CloseButton CommunitiesGuildNewsFiltersFrame_CloseButton
 --- @field GuildAchievement CommunitiesGuildNewsFiltersFrame_GuildAchievement

@@ -4,82 +4,82 @@
 --- Template
 --- @class StanceButtonTemplate : CheckButton, SecureFrameTemplate, ActionButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L15)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L22)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L29)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L36)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L43)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L50)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L57)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L64)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L71)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L78)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L85)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L92)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L99)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L113)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L120)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine16 = {}
@@ -166,82 +166,82 @@ StanceButton1["Name"] = StanceButtonTemplateName -- inherited
 StanceButton1["Border"] = StanceButtonTemplateBorder -- inherited
 StanceButton1["NormalTexture"] = StanceButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L15)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L22)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L29)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L36)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L43)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L50)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L57)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L64)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L71)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L78)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L85)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L92)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L99)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L113)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L120)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine16 = {}
@@ -328,82 +328,82 @@ StanceButton2["Name"] = StanceButtonTemplateName -- inherited
 StanceButton2["Border"] = StanceButtonTemplateBorder -- inherited
 StanceButton2["NormalTexture"] = StanceButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L15)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L22)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L29)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L36)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L43)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L50)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L57)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L64)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L71)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L78)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L85)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L92)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L99)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L113)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L120)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine16 = {}
@@ -490,82 +490,82 @@ StanceButton3["Name"] = StanceButtonTemplateName -- inherited
 StanceButton3["Border"] = StanceButtonTemplateBorder -- inherited
 StanceButton3["NormalTexture"] = StanceButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L15)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L22)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L29)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L36)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L43)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L50)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L57)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L64)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L71)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L78)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L85)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L92)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L99)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L113)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L120)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine16 = {}
@@ -652,82 +652,82 @@ StanceButton4["Name"] = StanceButtonTemplateName -- inherited
 StanceButton4["Border"] = StanceButtonTemplateBorder -- inherited
 StanceButton4["NormalTexture"] = StanceButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L15)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L22)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L29)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L36)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L43)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L50)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L57)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L64)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L71)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L78)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L85)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L92)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L99)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L113)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L120)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine16 = {}
@@ -814,82 +814,82 @@ StanceButton5["Name"] = StanceButtonTemplateName -- inherited
 StanceButton5["Border"] = StanceButtonTemplateBorder -- inherited
 StanceButton5["NormalTexture"] = StanceButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L15)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L22)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L29)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L36)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L43)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L50)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L57)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L64)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L71)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L78)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L85)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L92)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L99)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L113)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L120)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine16 = {}
@@ -976,82 +976,82 @@ StanceButton6["Name"] = StanceButtonTemplateName -- inherited
 StanceButton6["Border"] = StanceButtonTemplateBorder -- inherited
 StanceButton6["NormalTexture"] = StanceButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L15)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L22)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L29)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L36)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L43)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L50)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L57)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L64)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L71)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L78)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L85)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L92)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L99)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L113)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L120)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine16 = {}
@@ -1138,82 +1138,82 @@ StanceButton7["Name"] = StanceButtonTemplateName -- inherited
 StanceButton7["Border"] = StanceButtonTemplateBorder -- inherited
 StanceButton7["NormalTexture"] = StanceButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L15)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L22)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L29)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L36)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L43)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L50)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L57)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L64)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L71)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L78)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L85)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L92)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L99)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L113)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L120)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine16 = {}
@@ -1300,82 +1300,82 @@ StanceButton8["Name"] = StanceButtonTemplateName -- inherited
 StanceButton8["Border"] = StanceButtonTemplateBorder -- inherited
 StanceButton8["NormalTexture"] = StanceButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L15)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L22)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L29)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L36)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L43)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L50)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L57)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L64)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L71)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L78)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L85)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L92)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L99)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L113)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L120)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine16 = {}
@@ -1462,82 +1462,82 @@ StanceButton9["Name"] = StanceButtonTemplateName -- inherited
 StanceButton9["Border"] = StanceButtonTemplateBorder -- inherited
 StanceButton9["NormalTexture"] = StanceButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L15)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L22)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L29)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L36)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L43)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L50)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L57)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L64)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L71)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L78)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L85)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L92)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L99)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L106)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L113)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L120)
 --- child of StanceButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 StanceButtonTemplateShine16 = {}

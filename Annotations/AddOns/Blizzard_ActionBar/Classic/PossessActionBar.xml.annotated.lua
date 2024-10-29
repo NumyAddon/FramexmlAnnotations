@@ -4,82 +4,82 @@
 --- Template
 --- @class PossessButtonTemplate : CheckButton, SecureFrameTemplate, ActionButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L15)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L22)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L29)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L36)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L43)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L50)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L57)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L64)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L71)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L78)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L85)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L92)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L99)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L106)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L113)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L120)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine16 = {}
@@ -161,82 +161,82 @@ PossessButton1["Name"] = PossessButtonTemplateName -- inherited
 PossessButton1["Border"] = PossessButtonTemplateBorder -- inherited
 PossessButton1["NormalTexture"] = PossessButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L15)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L22)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L29)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L36)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L43)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L50)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L57)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L64)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L71)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L78)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L85)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L92)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L99)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L106)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L113)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L120)
 --- child of PossessButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 PossessButtonTemplateShine16 = {}

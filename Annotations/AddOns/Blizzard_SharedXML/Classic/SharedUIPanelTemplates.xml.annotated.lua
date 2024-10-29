@@ -571,35 +571,39 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1076)
 --- Template
+--- @class UIResetButtonTemplate : Button
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1082)
+--- Template
 --- @class UIGoldBorderButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1112)
 --- child of UIPanelButtonGrayTemplate
 --- @class  : Texture, UIPanelButtonDisabledTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1115)
 --- child of UIPanelButtonGrayTemplate
 --- @class  : Texture, UIPanelButtonHighlightTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1108)
 --- Template
 --- @class UIPanelButtonGrayTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1118)
 --- Template
 --- @class HorizontalSliderTemplate : Slider, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_SLIDER_8_8
 --- @field Thumb Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1159)
 --- child of NumericInputSpinnerTemplate
 --- @class NumericInputSpinnerTemplate_IncrementButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1174)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1180)
 --- child of NumericInputSpinnerTemplate
 --- @class NumericInputSpinnerTemplate_DecrementButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1130)
 --- Template
 --- @class NumericInputSpinnerTemplate : EditBox, InputBoxTemplate, NumericInputSpinnerMixin
 --- @field IncrementButton NumericInputSpinnerTemplate_IncrementButton
@@ -609,27 +613,27 @@
 --- @field Right Texture
 --- @field Middle Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1237)
 --- child of InputBoxInstructionsTemplate
 --- @class InputBoxInstructionsTemplate_Instructions : FontString, GameFontDisableSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1229)
 --- Template
 --- @class InputBoxInstructionsTemplate : EditBox, InputBoxTemplate
 --- @field Instructions InputBoxInstructionsTemplate_Instructions
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1262)
 --- child of SearchBoxTemplate
 --- @class SearchBoxTemplate_SearchBoxTemplateClearButton : Button
 --- @field texture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1244)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1250)
 --- Template
 --- @class SearchBoxTemplate : EditBox, InputBoxInstructionsTemplate
 --- @field clearButton SearchBoxTemplate_SearchBoxTemplateClearButton
 --- @field searchIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1308)
 --- Template
 --- @class TabButtonTemplate : Button
 --- @field LeftDisabled Texture
@@ -640,7 +644,7 @@
 --- @field Right Texture
 --- @field HighlightTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1402)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1408)
 --- Template
 --- @class PanelTabButtonTemplate : Button, PanelTabButtonMixin
 --- @field LeftActive Texture
@@ -653,62 +657,62 @@
 --- @field MiddleHighlight Texture
 --- @field RightHighlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1477)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1483)
 --- Template
 --- @class PanelTopTabButtonTemplate : Button, TabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1482)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1488)
 --- child of MaximizeMinimizeButtonFrameTemplate
 --- @class MaximizeMinimizeButtonFrameTemplate_MaximizeButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1501)
 --- child of MaximizeMinimizeButtonFrameTemplate
 --- @class MaximizeMinimizeButtonFrameTemplate_MinimizeButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1479)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1485)
 --- Template
 --- @class MaximizeMinimizeButtonFrameTemplate : Frame, MaximizeMinimizeButtonFrameMixin
 --- @field MaximizeButton MaximizeMinimizeButtonFrameTemplate_MaximizeButton
 --- @field MinimizeButton MaximizeMinimizeButtonFrameTemplate_MinimizeButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1514)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1520)
 --- Template
 --- @class NineSliceCodeTemplate : Frame, NineSlicePanelMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1534)
 --- Template
 --- @class NineSlicePanelTemplate : Frame, NineSliceCodeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1530)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1536)
 --- Template
 --- @class DialogBorderNoCenterTemplate : Frame, NineSlicePanelTemplate
 --- @field layoutType string # "Dialog"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1542)
 --- Template
 --- @class DialogBorderTemplate : Frame, DialogBorderNoCenterTemplate
 --- @field Bg Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1550)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1556)
 --- Template
 --- @class DialogBorderDarkTemplate : Frame, DialogBorderNoCenterTemplate
 --- @field Bg Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1564)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1570)
 --- Template
 --- @class DialogBorderTranslucentTemplate : Frame, DialogBorderNoCenterTemplate
 --- @field Bg Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1578)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1584)
 --- Template
 --- @class DialogBorderOpaqueTemplate : Frame, DialogBorderNoCenterTemplate
 --- @field Bg Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1637)
 --- child of DialogHeaderTemplate
 --- @class DialogHeaderTemplate_Text : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1599)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1605)
 --- Template
 --- @class DialogHeaderTemplate : Frame, DialogHeaderMixin
 --- @field headerTextPadding number # 64
@@ -717,7 +721,7 @@
 --- @field CenterBG Texture
 --- @field Text DialogHeaderTemplate_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1649)
 --- Template
 --- @class FlatPanelBackgroundTemplate : Frame
 --- @field BottomLeft Texture
@@ -725,245 +729,211 @@
 --- @field BottomEdge Texture
 --- @field TopSection Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1697)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1703)
 --- child of 
 --- @class DefaultPanelBaseTemplate_TitleContainer_DefaultPanelBaseTemplateTitleBg : Texture, _UI-Frame-TitleTileBg
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1705)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1711)
 --- child of 
 --- @class DefaultPanelBaseTemplate_TitleContainer_DefaultPanelBaseTemplateTitleText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1689)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1695)
 --- child of DefaultPanelBaseTemplate
 --- @class DefaultPanelBaseTemplate_TitleContainer : Frame
 --- @field TitleBg DefaultPanelBaseTemplate_TitleContainer_DefaultPanelBaseTemplateTitleBg
 --- @field TitleText DefaultPanelBaseTemplate_TitleContainer_DefaultPanelBaseTemplateTitleText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1715)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1721)
 --- child of DefaultPanelBaseTemplate
 --- @class DefaultPanelBaseTemplate_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1683)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1689)
 --- Template
 --- @class DefaultPanelBaseTemplate : Frame, DefaultPanelMixin
 --- @field layoutType string # "ButtonFrameTemplateNoPortrait"
 --- @field TitleContainer DefaultPanelBaseTemplate_TitleContainer
 --- @field NineSlice DefaultPanelBaseTemplate_NineSlice
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1730)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1736)
 --- child of DefaultPanelTemplate
 --- @class DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks : Texture, _UI-Frame-TopTileStreaks
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1719)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1725)
 --- Template
 --- @class DefaultPanelTemplate : Frame, DefaultPanelBaseTemplate
 --- @field Bg Texture
 --- @field TopTileStreaks DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1742)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1748)
 --- child of DefaultPanelFlatTemplate
 --- @class DefaultPanelFlatTemplate_DefaultPanelFlatTemplateBg : Frame, FlatPanelBackgroundTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1746)
 --- Template
 --- @class DefaultPanelFlatTemplate : Frame, DefaultPanelBaseTemplate
 --- @field Bg DefaultPanelFlatTemplate_DefaultPanelFlatTemplateBg
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1758)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1764)
 --- Template
 --- @class TruncatedButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1767)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1773)
 --- Template
 --- @class TruncatedTooltipScriptTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1792)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1798)
 --- child of ColumnDisplayTemplate
 --- @class ColumnDisplayTemplate_TopTileStreaks : Texture, _UI-Frame-TopTileStreaks
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1785)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1791)
 --- Template
 --- @class ColumnDisplayTemplate : Frame, ColumnDisplayMixin
 --- @field Background Texture
 --- @field TopTileStreaks ColumnDisplayTemplate_TopTileStreaks
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1805)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1811)
 --- Template
 --- @class ColumnDisplayButtonTemplate : Button
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1856)
---- child of SelectionPopoutEntryTemplate
---- @class SelectionPopoutEntryTemplate_HighlightBGTex : Frame
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1862)
+--- child of DarkMenuElementTemplate
+--- @class DarkMenuElementTemplate_HighlightBGTex : Frame
 --- @field ignoreInLayout boolean # true
---- @field Left Texture
---- @field Right Texture
---- @field Middle Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1850)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1856)
 --- Template
---- @class SelectionPopoutEntryTemplate : Button, ResizeLayoutFrame, SelectionPopoutEntryMixin
+--- @class DarkMenuElementTemplate : Button, ResizeLayoutFrame
 --- @field widthPadding number # 14
---- @field HighlightBGTex SelectionPopoutEntryTemplate_HighlightBGTex
+--- @field HighlightBGTex DarkMenuElementTemplate_HighlightBGTex
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1898)
---- child of SelectionPopoutTemplate
---- @class SelectionPopoutTemplate_Border : Frame, NineSlicePanelTemplate
---- @field layoutType string # "CharacterCreateDropdown"
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1880)
+--- child of DropdownWithSteppersTemplate
+--- @class DropdownWithSteppersTemplate_IncrementButton : Button, WowStyle2IconButtonTemplate
+--- @field normalAtlas string # "common-dropdown-icon-next"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1891)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1886)
+--- child of DropdownWithSteppersTemplate
+--- @class DropdownWithSteppersTemplate_DecrementButton : Button, WowStyle2IconButtonTemplate
+--- @field normalAtlas string # "common-dropdown-icon-back"
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1876)
 --- Template
---- @class SelectionPopoutTemplate : Frame, ResizeLayoutFrame, SelectionPopoutMixin
---- @field widthPadding number # 6
---- @field Border SelectionPopoutTemplate_Border
+--- @class DropdownWithSteppersTemplate : Frame, DropdownWithSteppersMixin
+--- @field IncrementButton DropdownWithSteppersTemplate_IncrementButton
+--- @field DecrementButton DropdownWithSteppersTemplate_DecrementButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1917)
---- child of SelectionPopoutButtonTemplate
---- @class SelectionPopoutButtonTemplate_Popout : Frame, SelectionPopoutTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1899)
+--- Template
+--- @class DropdownWithSteppersAndLabelTemplate : Frame, DropdownWithSteppersTemplate, DropdownWithSteppersAndLabelMixin
+--- @field Label FontString
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1911)
 --- Template
---- @class SelectionPopoutButtonTemplate : EventButton, SelectionPopoutButtonMixin
---- @field Popout SelectionPopoutButtonTemplate_Popout
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1937)
---- child of SelectionPopoutWithButtonsTemplate
---- @class SelectionPopoutWithButtonsTemplate_IncrementButton : Button, AlphaHighlightButtonTemplate
---- @field NormalTexture Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1943)
---- child of SelectionPopoutWithButtonsTemplate
---- @class SelectionPopoutWithButtonsTemplate_DecrementButton : Button, AlphaHighlightButtonTemplate
---- @field NormalTexture Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1934)
---- Template
---- @class SelectionPopoutWithButtonsTemplate : Frame, SelectionPopoutWithButtonsMixin
---- @field IncrementButton SelectionPopoutWithButtonsTemplate_IncrementButton
---- @field DecrementButton SelectionPopoutWithButtonsTemplate_DecrementButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1955)
---- Template
 --- @class AlphaHighlightButtonTemplate : Button, AlphaHighlightButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1972)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1928)
 --- Template
 --- @class DefaultScaleFrame : Frame, DefaultScaleFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2013)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1969)
 --- child of UIButtonTemplate
 --- @class UIButtonTemplate_Controller : Frame, ButtonControllerMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1979)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1935)
 --- Template
 --- @class UIButtonTemplate : Button, UIButtonMixin
 --- @field Controller UIButtonTemplate_Controller
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2027)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1983)
 --- Template
 --- @class IconButtonTemplate : Button, UIButtonTemplate, IconButtonMixin
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2063)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2019)
 --- Template
 --- @class SquareIconButtonTemplate : Button, IconButtonTemplate, SquareIconButtonMixin
 --- @field iconSize number # 16
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2085)
---- child of DropDownControlTemplate
---- @class DropDownControlTemplate_DropDownMenu : Frame, UIDropDownMenuTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2082)
---- Template
---- @class DropDownControlTemplate : Frame, DropDownControlMixin
---- @field DropDownMenu DropDownControlTemplate_DropDownMenu
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2096)
---- Template
---- @class EnumDropDownControlTemplate : Frame, DropDownControlTemplate, EnumDropDownControlMixin
---- @field noneSelectedText any # NONE
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2038)
 --- Template
 --- @class ClickToDragTemplate : Frame, ClickToDragMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2046)
 --- Template
 --- @class PanelDragBarTemplate : Frame, PanelDragBarMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2054)
 --- Template
 --- @class PanelResizeButtonTemplate : Button, PanelResizeButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2094)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateGlowTopLeft : Texture, HelpPlateBox-Glow-TopLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2099)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateGlowTopRight : Texture, HelpPlateBox-Glow-TopRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2105)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft : Texture, HelpPlateBox-Glow-BottomLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2111)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateGlowBottomRight : Texture, HelpPlateBox-Glow-BottomRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2117)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateGlowTop : Texture, _HelpPlateBox-Glow-Top
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2123)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateGlowBottom : Texture, _HelpPlateBox-Glow-Bottom
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2129)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateGlowLeft : Texture, !HelpPlateBox-Glow-Left
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2135)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateGlowRight : Texture, !HelpPlateBox-Glow-Right
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2143)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateShadowTopLeft : Texture, HelpPlateBox-Shadow-TopLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2148)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateShadowTopRight : Texture, HelpPlateBox-Shadow-TopRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2154)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft : Texture, HelpPlateBox-Shadow-BottomLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2160)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateShadowBottomRight : Texture, HelpPlateBox-Shadow-BottomRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2166)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateShadowTop : Texture, _HelpPlateBox-Shadow-Top
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2172)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateShadowBottom : Texture, _HelpPlateBox-Shadow-Bottom
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2178)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateShadowLeft : Texture, !HelpPlateBox-Shadow-Left
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2184)
 --- child of GlowBoxTemplate
 --- @class GlowBoxTemplate_GlowBoxTemplateShadowRight : Texture, !HelpPlateBox-Shadow-Right
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2071)
 --- Template
 --- @class GlowBoxTemplate : Frame
 --- @field BG Texture
@@ -984,91 +954,91 @@
 --- @field ShadowLeft GlowBoxTemplate_GlowBoxTemplateShadowLeft
 --- @field ShadowRight GlowBoxTemplate_GlowBoxTemplateShadowRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2247)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconButton : Button, SelectedIconButtonMixin
 --- @field Icon Texture
 --- @field Highlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2285)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconHeader : FontString, GameFontNormalSmall
 --- @field layoutIndex number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2291)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconDescription : FontString, GameFontHighlightSmall
 --- @field layoutIndex number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2275)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText : Frame, VerticalLayoutFrame
 --- @field spacing number # 2
 --- @field SelectedIconHeader IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconHeader
 --- @field SelectedIconDescription IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconDescription
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2241)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea : Frame
 --- @field SelectedIconButton IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconButton
 --- @field SelectedIconText IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2383)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2318)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent_PlusIcon : Texture
 --- @field layoutIndex number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2323)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent_IconDragText : FontString, GameFontGreenLarge
 --- @field layoutIndex number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2373)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2308)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent : Frame, HorizontalLayoutFrame
 --- @field spacing number # 5
 --- @field PlusIcon IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent_PlusIcon
 --- @field IconDragText IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent_IconDragText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2302)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_IconDragArea : Frame
 --- @field IconDragAreaContent IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2399)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2334)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_IconSelectorEditBox : EditBox, IconSelectorEditBoxMixin
 --- @field IconSelectorPopupNameLeft Texture
 --- @field IconSelectorPopupNameMiddle Texture
 --- @field IconSelectorPopupNameRight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2436)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2371)
 --- child of 
---- @class IconSelectorPopupFrameTemplate_BorderBox_IconTypeDropDown : Frame, EnumDropDownControlTemplate
+--- @class IconSelectorPopupFrameTemplate_BorderBox_IconTypeDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2228)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_EditBoxHeaderText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2233)
 --- child of 
 --- @class IconSelectorPopupFrameTemplate_BorderBox_IconSelectionText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2225)
 --- child of IconSelectorPopupFrameTemplate
 --- @class IconSelectorPopupFrameTemplate_BorderBox : Frame, SelectionFrameTemplate
 --- @field SelectedIconArea IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea
 --- @field IconDragArea IconSelectorPopupFrameTemplate_BorderBox_IconDragArea
 --- @field IconSelectorEditBox IconSelectorPopupFrameTemplate_BorderBox_IconSelectorEditBox
---- @field IconTypeDropDown IconSelectorPopupFrameTemplate_BorderBox_IconTypeDropDown
+--- @field IconTypeDropdown IconSelectorPopupFrameTemplate_BorderBox_IconTypeDropdown
 --- @field EditBoxHeaderText IconSelectorPopupFrameTemplate_BorderBox_EditBoxHeaderText
 --- @field IconSelectionText IconSelectorPopupFrameTemplate_BorderBox_IconSelectionText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2443)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2378)
 --- child of IconSelectorPopupFrameTemplate
 --- @class IconSelectorPopupFrameTemplate_IconSelector : Frame, ScrollBoxSelectorTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2267)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2202)
 --- Template
 --- @class IconSelectorPopupFrameTemplate : Frame, IconSelectorPopupFrameTemplateMixin
 --- @field editBoxHeaderText any # 
@@ -1076,85 +1046,85 @@
 --- @field IconSelector IconSelectorPopupFrameTemplate_IconSelector
 --- @field BG Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2457)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2392)
 --- Template
 --- @class _SearchBarSm : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2462)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2397)
 --- Template
 --- @class UI_Common_SearchIconFrameLg : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2467)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2402)
 --- Template
 --- @class UI_Common_SearchBarHighlightLg : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2419)
 --- child of SearchBoxListAllButtonTemplate
 --- @class SearchBoxListAllButtonTemplate_SearchBoxListAllButtonTemplateText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2492)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2427)
 --- child of SearchBoxListAllButtonTemplate
 --- @class  : Texture, _SearchBarSm
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2472)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2407)
 --- Template
 --- @class SearchBoxListAllButtonTemplate : Button, SearchBoxListElementMixin
 --- @field selectedTexture Texture
 --- @field text SearchBoxListAllButtonTemplate_SearchBoxListAllButtonTemplateText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2580)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2515)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateCloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2525)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2596)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2531)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2451)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTitleText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2458)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopLeftCorner : Texture, UI-Frame-TopCornerLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2463)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopRightCorner : Texture, UI-Frame-TopCornerRightSimple
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2533)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2468)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopBorder : Texture, _UI-Frame-Top
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2539)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2474)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateLeftBorder : Texture, !UI-Frame-LeftTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2545)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2480)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateRightBorder : Texture, !UI-Frame-RightTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2553)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2488)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopTileStreaks : Texture, _UI-Frame-TopTileStreaks
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2561)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2496)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopLeftCorner2 : Texture, UI-Frame-TopCornerLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2566)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2501)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopRightCorner2 : Texture, UI-Frame-TopCornerRightSimple
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2571)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2506)
 --- child of BottomPopupScrollBoxTemplate
 --- @class BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopBorder2 : Texture, _UI-Frame-Top
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2500)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2435)
 --- Template
 --- @class BottomPopupScrollBoxTemplate : Frame
 --- @field ScrollBox BottomPopupScrollBoxTemplate_ScrollBox
@@ -1162,46 +1132,46 @@
 --- @field TitleText BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTitleText
 --- @field leftBorderBar BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateLeftBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2635)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2570)
 --- child of ButtonFrameBaseTemplate
 --- @class ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton : Button, UIPanelCloseButtonDefaultAnchors
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2561)
 --- child of ButtonFrameBaseTemplate
 --- @class ButtonFrameBaseTemplate_TopTileStreaks : Texture, _UI-Frame-TopTileStreaks
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2615)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2550)
 --- Template
 --- @class ButtonFrameBaseTemplate : Frame, PortraitFrameBaseTemplate
 --- @field CloseButton ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 --- @field Bg Texture
 --- @field TopTileStreaks ButtonFrameBaseTemplate_TopTileStreaks
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2657)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2592)
 --- child of 
 --- @class SearchBoxListTemplate_searchPreviewContainer_botLeftCorner : Texture, UI-Frame-BotCornerLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2663)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2598)
 --- child of 
 --- @class SearchBoxListTemplate_searchPreviewContainer_botRightCorner : Texture, UI-Frame-BotCornerRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2669)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2604)
 --- child of 
 --- @class SearchBoxListTemplate_searchPreviewContainer_bottomBorder : Texture, _UI-Frame-Bot
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2675)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2610)
 --- child of 
 --- @class SearchBoxListTemplate_searchPreviewContainer_leftBorder : Texture, !UI-Frame-LeftTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2681)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2616)
 --- child of 
 --- @class SearchBoxListTemplate_searchPreviewContainer_rightBorder : Texture, !UI-Frame-RightTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2687)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2622)
 --- child of 
 --- @class SearchBoxListTemplate_searchPreviewContainer_topBorder : Texture, _UI-Frame-Bot
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2649)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2584)
 --- child of SearchBoxListTemplate
 --- @class SearchBoxListTemplate_searchPreviewContainer : Frame
 --- @field botLeftCorner SearchBoxListTemplate_searchPreviewContainer_botLeftCorner
@@ -1211,25 +1181,25 @@
 --- @field rightBorder SearchBoxListTemplate_searchPreviewContainer_rightBorder
 --- @field topBorder SearchBoxListTemplate_searchPreviewContainer_topBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2730)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2665)
 --- child of SearchBoxListTemplateSearchProgressLoading
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_spinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2721)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2656)
 --- child of SearchBoxListTemplateSearchProgressLoading
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_SearchBoxListTemplateSearchProgressLoadingText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2714)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2649)
 --- child of SearchBoxListTemplateSearchProgress
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading : Frame
 --- @field spinner SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_spinner
 --- @field text SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_SearchBoxListTemplateSearchProgressLoadingText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2754)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2689)
 --- child of SearchBoxListTemplateSearchProgressBar
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar_text : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2738)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2673)
 --- child of SearchBoxListTemplateSearchProgress
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar : StatusBar
 --- @field barBackground Texture
@@ -1238,24 +1208,24 @@
 --- @field barBorderRight Texture
 --- @field barBorderCenter Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2696)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2631)
 --- child of SearchBoxListTemplate
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress : Frame
 --- @field loading SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading
 --- @field bar SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar
 --- @field background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2639)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2574)
 --- Template
 --- @class SearchBoxListTemplate : EditBox, SearchBoxTemplate, SearchBoxListMixin
 --- @field searchPreviewContainer SearchBoxListTemplate_searchPreviewContainer
 --- @field searchProgress SearchBoxListTemplate_SearchBoxListTemplateSearchProgress
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2871)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2806)
 --- child of MainHelpPlateButton
 --- @class MainHelpPlateButton_Pulse : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2815)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2750)
 --- Template
 --- @class MainHelpPlateButton : Button
 --- @field I Texture
@@ -1263,4 +1233,8 @@
 --- @field BigIPulse Texture
 --- @field RingPulse Texture
 --- @field Pulse MainHelpPlateButton_Pulse
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2814)
+--- Template
+--- @class TopLevelParentScaleFrameTemplate : Frame
 

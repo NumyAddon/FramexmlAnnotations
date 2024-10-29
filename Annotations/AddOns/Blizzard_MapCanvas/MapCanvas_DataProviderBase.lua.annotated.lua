@@ -236,3 +236,9 @@ function MapCanvasPinMixin:GetFrameLevelType(pinFrameLevelType) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua#L403)
 function MapCanvasPinMixin:ApplyFrameLevel() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua#L408)
+function MapCanvasPinMixin:GetDataProvider() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua#L412)
+function MapCanvasPinMixin:SetDataProvider(dataProvider) end

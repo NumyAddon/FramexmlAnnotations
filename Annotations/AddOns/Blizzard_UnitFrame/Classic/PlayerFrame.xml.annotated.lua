@@ -190,70 +190,27 @@ PlayerFrameHealthBar = {}
 --- @class PlayerFrame_PlayerFrameManaBar : StatusBar, TextStatusBar
 PlayerFrameManaBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L284)
---- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-PlayerFrameDropDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L226)
---- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PlayerFrameDropDownLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L239)
---- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PlayerFrameDropDownMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L248)
---- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PlayerFrameDropDownRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L257)
---- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
-PlayerFrameDropDownText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L271)
---- child of PlayerFrameDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-PlayerFrameDropDownIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L332)
---- child of PlayerFrame
---- @class PlayerFrame_PlayerFrameDropDown : Frame, UIDropDownMenuTemplate
-PlayerFrameDropDown = {}
-PlayerFrameDropDown["Button"] = PlayerFrameDropDownButton -- inherited
-PlayerFrameDropDown["Left"] = PlayerFrameDropDownLeft -- inherited
-PlayerFrameDropDown["Middle"] = PlayerFrameDropDownMiddle -- inherited
-PlayerFrameDropDown["Right"] = PlayerFrameDropDownRight -- inherited
-PlayerFrameDropDown["Text"] = PlayerFrameDropDownText -- inherited
-PlayerFrameDropDown["Icon"] = PlayerFrameDropDownIcon -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L339)
 --- child of PlayerFrameGroupIndicator
 --- @class PlayerFrame_PlayerFrameGroupIndicator_PlayerFrameGroupIndicatorLeft : Texture
 PlayerFrameGroupIndicatorLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L346)
 --- child of PlayerFrameGroupIndicator
 --- @class PlayerFrame_PlayerFrameGroupIndicator_PlayerFrameGroupIndicatorRight : Texture
 PlayerFrameGroupIndicatorRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L362)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L353)
 --- child of PlayerFrameGroupIndicator
 --- @class PlayerFrame_PlayerFrameGroupIndicator_PlayerFrameGroupIndicatorMiddle : Texture
 PlayerFrameGroupIndicatorMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L370)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L361)
 --- child of PlayerFrameGroupIndicator
 --- @class PlayerFrame_PlayerFrameGroupIndicator_PlayerFrameGroupIndicatorText : FontString, GameFontHighlightSmall
 PlayerFrameGroupIndicatorText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L341)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L332)
 --- child of PlayerFrame
 --- @class PlayerFrame_PlayerFrameGroupIndicator : Frame
 PlayerFrameGroupIndicator = {}

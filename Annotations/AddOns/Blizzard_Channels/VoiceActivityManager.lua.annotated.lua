@@ -61,32 +61,32 @@ function VoiceActivityManagerMixin:ReleaseNotification(notification) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L243)
 function VoiceActivityManagerMixin:ReleaseNotifications(memberID, channelID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L273)
 function VoiceActivityManagerMixin:MemberHasExistingNotification(memberID, channelID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L277)
 function VoiceActivityManagerMixin:SetMemberHasExistingNotification(memberID, channelID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L285)
 function VoiceActivityManagerMixin:ClearMemberHasExistingNotification(memberID, channelID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L291)
 function VoiceActivityManagerMixin:ClearChannelExistingNotifications(channelID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L297)
 function VoiceActivityManagerMixin:StartReleaseTimer(memberID, channelID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L315)
 function VoiceActivityManagerMixin:ClearReleaseTimer(memberID, channelID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L328)
 function VoiceActivityManagerMixin:UpdateAlertNotificationVisibility() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L343)
 function VoiceActivityManagerMixin:RegisterExternalNotificationTemplate(notificationTemplate, frameType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L356)
 function VoiceActivityManagerMixin:RegisterFrameForVoiceActivityNotifications(frame, guid, voiceChannelID, notificationTemplate, frameType, notificationCreatedCallback) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L377)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/VoiceActivityManager.lua#L378)
 function VoiceActivityManagerMixin:UnregisterFrameForVoiceActivityNotifications(frame) end

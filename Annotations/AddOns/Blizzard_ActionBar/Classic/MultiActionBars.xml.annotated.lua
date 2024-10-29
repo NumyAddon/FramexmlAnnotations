@@ -233,82 +233,82 @@
 --- Template
 --- @class VerticalMultiBar4 : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -395,82 +395,82 @@ MultiBarBottomLeftButton1["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomLeftButton1["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomLeftButton1["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -557,82 +557,82 @@ MultiBarBottomLeftButton2["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomLeftButton2["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomLeftButton2["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -719,82 +719,82 @@ MultiBarBottomLeftButton3["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomLeftButton3["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomLeftButton3["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -881,82 +881,82 @@ MultiBarBottomLeftButton4["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomLeftButton4["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomLeftButton4["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -1043,82 +1043,82 @@ MultiBarBottomLeftButton5["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomLeftButton5["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomLeftButton5["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -1205,82 +1205,82 @@ MultiBarBottomLeftButton6["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomLeftButton6["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomLeftButton6["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -1367,82 +1367,82 @@ MultiBarBottomLeftButton7["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomLeftButton7["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomLeftButton7["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -1529,82 +1529,82 @@ MultiBarBottomLeftButton8["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomLeftButton8["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomLeftButton8["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -1691,82 +1691,82 @@ MultiBarBottomLeftButton9["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomLeftButton9["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomLeftButton9["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -1853,82 +1853,82 @@ MultiBarBottomLeftButton10["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomLeftButton10["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomLeftButton10["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -2015,82 +2015,82 @@ MultiBarBottomLeftButton11["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomLeftButton11["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomLeftButton11["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -2181,82 +2181,82 @@ MultiBarBottomLeftButton12["NormalTexture"] = ActionBarButtonTemplateNormalTextu
 --- @class MultiBarBottomLeft : Frame, HorizontalMultiBar1
 MultiBarBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -2343,82 +2343,82 @@ MultiBarBottomRightButton1["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomRightButton1["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomRightButton1["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -2505,82 +2505,82 @@ MultiBarBottomRightButton2["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomRightButton2["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomRightButton2["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -2667,82 +2667,82 @@ MultiBarBottomRightButton3["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomRightButton3["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomRightButton3["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -2829,82 +2829,82 @@ MultiBarBottomRightButton4["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomRightButton4["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomRightButton4["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -2991,82 +2991,82 @@ MultiBarBottomRightButton5["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomRightButton5["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomRightButton5["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -3153,82 +3153,82 @@ MultiBarBottomRightButton6["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomRightButton6["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomRightButton6["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -3315,82 +3315,82 @@ MultiBarBottomRightButton7["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomRightButton7["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomRightButton7["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -3477,82 +3477,82 @@ MultiBarBottomRightButton8["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomRightButton8["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomRightButton8["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -3639,82 +3639,82 @@ MultiBarBottomRightButton9["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomRightButton9["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomRightButton9["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -3801,82 +3801,82 @@ MultiBarBottomRightButton10["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomRightButton10["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomRightButton10["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -3963,82 +3963,82 @@ MultiBarBottomRightButton11["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarBottomRightButton11["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarBottomRightButton11["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -4133,82 +4133,82 @@ MultiBarBottomRight = {}
 --- child of MultiBarRight
 --- @class VerticalMultiBarsContainer_MultiBarRight_slideOut : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -4295,82 +4295,82 @@ MultiBarRightButton1["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarRightButton1["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarRightButton1["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -4457,82 +4457,82 @@ MultiBarRightButton2["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarRightButton2["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarRightButton2["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -4619,82 +4619,82 @@ MultiBarRightButton3["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarRightButton3["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarRightButton3["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -4781,82 +4781,82 @@ MultiBarRightButton4["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarRightButton4["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarRightButton4["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -4943,82 +4943,82 @@ MultiBarRightButton5["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarRightButton5["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarRightButton5["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -5105,82 +5105,82 @@ MultiBarRightButton6["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarRightButton6["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarRightButton6["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -5267,82 +5267,82 @@ MultiBarRightButton7["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarRightButton7["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarRightButton7["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -5429,82 +5429,82 @@ MultiBarRightButton8["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarRightButton8["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarRightButton8["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -5591,82 +5591,82 @@ MultiBarRightButton9["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarRightButton9["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarRightButton9["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -5753,82 +5753,82 @@ MultiBarRightButton10["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarRightButton10["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarRightButton10["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -5915,82 +5915,82 @@ MultiBarRightButton11["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarRightButton11["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarRightButton11["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -6087,82 +6087,82 @@ MultiBarRight = {}
 --- child of MultiBarLeft
 --- @class VerticalMultiBarsContainer_MultiBarLeft_slideOut : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -6249,82 +6249,82 @@ MultiBarLeftButton1["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarLeftButton1["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarLeftButton1["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -6411,82 +6411,82 @@ MultiBarLeftButton2["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarLeftButton2["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarLeftButton2["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -6573,82 +6573,82 @@ MultiBarLeftButton3["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarLeftButton3["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarLeftButton3["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -6735,82 +6735,82 @@ MultiBarLeftButton4["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarLeftButton4["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarLeftButton4["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -6897,82 +6897,82 @@ MultiBarLeftButton5["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarLeftButton5["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarLeftButton5["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -7059,82 +7059,82 @@ MultiBarLeftButton6["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarLeftButton6["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarLeftButton6["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -7221,82 +7221,82 @@ MultiBarLeftButton7["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarLeftButton7["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarLeftButton7["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -7383,82 +7383,82 @@ MultiBarLeftButton8["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarLeftButton8["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarLeftButton8["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -7545,82 +7545,82 @@ MultiBarLeftButton9["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarLeftButton9["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarLeftButton9["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -7707,82 +7707,82 @@ MultiBarLeftButton10["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarLeftButton10["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarLeftButton10["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}
@@ -7869,82 +7869,82 @@ MultiBarLeftButton11["Name"] = ActionBarButtonTemplateName -- inherited
 MultiBarLeftButton11["Border"] = ActionBarButtonTemplateBorder -- inherited
 MultiBarLeftButton11["NormalTexture"] = ActionBarButtonTemplateNormalTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L15)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L22)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L29)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L36)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L43)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L50)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L57)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L64)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L71)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L78)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L85)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L92)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L106)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L113)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L120)
 --- child of ActionBarButtonTemplateShine (created in template AutoCastShineTemplate)
 --- @type Texture
 ActionBarButtonTemplateShine16 = {}

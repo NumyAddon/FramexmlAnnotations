@@ -18,7 +18,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L113)
 --- child of CommunitiesGuildMemberDetailFrameTemplate
---- @class CommunitiesGuildMemberDetailFrameTemplate_RankDropdown : Frame, UIDropDownMenuTemplate
+--- @class CommunitiesGuildMemberDetailFrameTemplate_RankDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L125)
 --- child of 

@@ -59,7 +59,7 @@ RaidParentFrameTab1Middle = {}
 --- @type Texture
 RaidParentFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L113)
 --- child of RaidParentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 RaidParentFrameTab1HighlightTexture = {}
@@ -99,7 +99,7 @@ RaidParentFrameTab2Middle = {}
 --- @type Texture
 RaidParentFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L113)
 --- child of RaidParentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 RaidParentFrameTab2HighlightTexture = {}

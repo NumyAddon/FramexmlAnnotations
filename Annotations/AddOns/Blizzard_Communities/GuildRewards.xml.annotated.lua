@@ -61,10 +61,6 @@
 --- child of CommunitiesGuildRewardsFrameTemplate
 --- @class CommunitiesGuildRewardsFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L245)
---- child of CommunitiesGuildRewardsFrameTemplate
---- @class CommunitiesGuildRewardsFrameTemplate_DropDown : Frame, UIDropDownMenuTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L223)
 --- child of CommunitiesGuildRewardsFrameTemplate
 --- @class CommunitiesGuildRewardsFrameTemplate_TitleText : FontString, GameFontNormalMed1
@@ -74,7 +70,6 @@
 --- @class CommunitiesGuildRewardsFrameTemplate : Frame
 --- @field ScrollBox CommunitiesGuildRewardsFrameTemplate_ScrollBox
 --- @field ScrollBar CommunitiesGuildRewardsFrameTemplate_ScrollBar
---- @field DropDown CommunitiesGuildRewardsFrameTemplate_DropDown
 --- @field Bg Texture
 --- @field TitleText CommunitiesGuildRewardsFrameTemplate_TitleText
 

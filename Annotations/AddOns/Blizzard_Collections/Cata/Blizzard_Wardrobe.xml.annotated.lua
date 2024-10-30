@@ -26,6 +26,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L85)
 --- Template
+--- Adds itself to the parent inside the array `Buttons`
 --- @class WardrobeSlotButtonTemplate : Button, WardrobeItemsCollectionSlotButtonMixin
 --- @field transmogType any # Enum.TransmogType.Appearance
 --- @field SelectedTexture Texture
@@ -34,6 +35,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L117)
 --- Template
+--- Adds itself to the parent inside the array `Buttons`
 --- @class WardrobeSmallSlotButtonTemplate : Button, WardrobeItemsCollectionSlotButtonMixin
 --- @field isSmallButton boolean # true
 --- @field SelectedTexture Texture
@@ -79,39 +81,39 @@
 --- @field New WardrobeSetsDetailsItemFrameTemplate_New
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1314)
---- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
-PanelTopTabButtonTemplateLeftDisabled = {}
+WardrobeCollectionFrameTab1LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1327)
---- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
-PanelTopTabButtonTemplateMiddleDisabled = {}
+WardrobeCollectionFrameTab1MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1336)
---- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
-PanelTopTabButtonTemplateRightDisabled = {}
+WardrobeCollectionFrameTab1RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1345)
---- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
-PanelTopTabButtonTemplateLeft = {}
+WardrobeCollectionFrameTab1Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1354)
---- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
-PanelTopTabButtonTemplateMiddle = {}
+WardrobeCollectionFrameTab1Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1363)
---- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
-PanelTopTabButtonTemplateRight = {}
+WardrobeCollectionFrameTab1Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1394)
---- child of PanelTopTabButtonTemplate (created in template TabButtonTemplate)
+--- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
-PanelTopTabButtonTemplateHighlightTexture = {}
+WardrobeCollectionFrameTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L256)
 --- child of WardrobeCollectionFrame
@@ -119,13 +121,13 @@ PanelTopTabButtonTemplateHighlightTexture = {}
 --- @field minWidth number # 57
 WardrobeCollectionFrameTab1 = {}
 WardrobeCollectionFrameTab1["minWidth"] = 57
-WardrobeCollectionFrameTab1["LeftDisabled"] = PanelTopTabButtonTemplateLeftDisabled -- inherited
-WardrobeCollectionFrameTab1["MiddleDisabled"] = PanelTopTabButtonTemplateMiddleDisabled -- inherited
-WardrobeCollectionFrameTab1["RightDisabled"] = PanelTopTabButtonTemplateRightDisabled -- inherited
-WardrobeCollectionFrameTab1["Left"] = PanelTopTabButtonTemplateLeft -- inherited
-WardrobeCollectionFrameTab1["Middle"] = PanelTopTabButtonTemplateMiddle -- inherited
-WardrobeCollectionFrameTab1["Right"] = PanelTopTabButtonTemplateRight -- inherited
-WardrobeCollectionFrameTab1["HighlightTexture"] = PanelTopTabButtonTemplateHighlightTexture -- inherited
+WardrobeCollectionFrameTab1["LeftDisabled"] = WardrobeCollectionFrameTab1LeftDisabled -- inherited
+WardrobeCollectionFrameTab1["MiddleDisabled"] = WardrobeCollectionFrameTab1MiddleDisabled -- inherited
+WardrobeCollectionFrameTab1["RightDisabled"] = WardrobeCollectionFrameTab1RightDisabled -- inherited
+WardrobeCollectionFrameTab1["Left"] = WardrobeCollectionFrameTab1Left -- inherited
+WardrobeCollectionFrameTab1["Middle"] = WardrobeCollectionFrameTab1Middle -- inherited
+WardrobeCollectionFrameTab1["Right"] = WardrobeCollectionFrameTab1Right -- inherited
+WardrobeCollectionFrameTab1["HighlightTexture"] = WardrobeCollectionFrameTab1HighlightTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L355)
 --- child of 
@@ -195,7 +197,6 @@ WardrobeCollectionFrameSearchBoxText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1262)
 --- child of WardrobeCollectionFrameSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
 WardrobeCollectionFrameSearchBoxClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1253)
@@ -356,49 +357,49 @@ WardrobeCollectionFrameSearchBox["searchIcon"] = WardrobeCollectionFrameSearchBo
 --- @class WardrobeCollectionFrame_ItemsCollectionFrame_NoValidItemsLabel : FontString, GameFontNormalMed2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L796)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type Texture
-CollectionsBackgroundTemplateBg = {}
+WardrobeCollectionFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L804)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-CollectionsBackgroundTemplateInsetTopLeftCorner = {}
+WardrobeCollectionFrameInsetTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L809)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-CollectionsBackgroundTemplateInsetTopRightCorner = {}
+WardrobeCollectionFrameInsetTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L815)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-CollectionsBackgroundTemplateInsetBotLeftCorner = {}
+WardrobeCollectionFrameInsetBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L821)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-CollectionsBackgroundTemplateInsetBotRightCorner = {}
+WardrobeCollectionFrameInsetBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L827)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-CollectionsBackgroundTemplateInsetTopBorder = {}
+WardrobeCollectionFrameInsetTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L833)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-CollectionsBackgroundTemplateInsetBottomBorder = {}
+WardrobeCollectionFrameInsetBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L839)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-CollectionsBackgroundTemplateInsetLeftBorder = {}
+WardrobeCollectionFrameInsetLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L845)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-CollectionsBackgroundTemplateInsetRightBorder = {}
+WardrobeCollectionFrameInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L441)
 --- child of WardrobeCollectionFrame
@@ -408,23 +409,41 @@ CollectionsBackgroundTemplateInsetRightBorder = {}
 --- @field WeaponDropdown WardrobeCollectionFrame_ItemsCollectionFrame_WeaponDropdown
 --- @field SlotsFrame Frame
 --- @field ModelR1C1 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C1
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C1>
 --- @field ModelR1C2 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C2
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C2>
 --- @field ModelR1C3 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C3
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C3>
 --- @field ModelR1C4 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C4
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C4>
 --- @field ModelR1C5 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C5
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C5>
 --- @field ModelR1C6 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C6
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C6>
 --- @field ModelR2C1 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C1
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C1>
 --- @field ModelR2C2 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C2
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C2>
 --- @field ModelR2C3 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C3
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C3>
 --- @field ModelR2C4 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C4
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C4>
 --- @field ModelR2C5 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C5
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C5>
 --- @field ModelR2C6 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C6
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C6>
 --- @field ModelR3C1 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C1
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C1>
 --- @field ModelR3C2 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C2
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C2>
 --- @field ModelR3C3 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C3
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C3>
 --- @field ModelR3C4 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C4
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C4>
 --- @field ModelR3C5 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C5
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C5>
 --- @field ModelR3C6 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C6
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C6>
 --- @field HiddenModel WardrobeCollectionFrame_ItemsCollectionFrame_HiddenModel
 --- @field PendingTransmogFrame WardrobeCollectionFrame_ItemsCollectionFrame_PendingTransmogFrame
 --- @field NoValidItemsLabel WardrobeCollectionFrame_ItemsCollectionFrame_NoValidItemsLabel
@@ -436,6 +455,7 @@ CollectionsBackgroundTemplateInsetRightBorder = {}
 --- @field progressBar WardrobeCollectionFrame_progressBar
 --- @field FilterButton WardrobeCollectionFrame_FilterButton
 --- @field ItemsCollectionFrame WardrobeCollectionFrame_ItemsCollectionFrame
+--- @field ContentFrames table<number, WardrobeCollectionFrame_ItemsCollectionFrame>
 WardrobeCollectionFrame = {}
 WardrobeCollectionFrame["ItemsTab"] = WardrobeCollectionFrameTab1
 WardrobeCollectionFrame["SearchBox"] = WardrobeCollectionFrameSearchBox
@@ -658,9 +678,6 @@ WardrobeTransmogFrameMiddleMiddle = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L75)
 --- child of  (created in template ModelWithControlsTemplate)
 --- @type ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame
---- @field panButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton
---- @field rotateLeftButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton
---- @field rotateRightButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton
 WardrobeTransmogFrameControlFrame = {}
 WardrobeTransmogFrameControlFrame["panButton"] = ModelWithControlsTemplateControlFramePanButton
 WardrobeTransmogFrameControlFrame["rotateLeftButton"] = ModelWithControlsTemplateControlFrameRotateLeftButton
@@ -788,20 +805,35 @@ WardrobeTransmogMoneyFrame["GoldButton"] = WardrobeTransmogMoneyFrameGoldButton 
 --- @field OutfitDropdown WardrobeFrame_WardrobeTransmogFrame_OutfitDropdown
 --- @field Model WardrobeFrame_WardrobeTransmogFrame_Model
 --- @field HeadButton WardrobeFrame_WardrobeTransmogFrame_HeadButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_HeadButton>
 --- @field ShoulderButton WardrobeFrame_WardrobeTransmogFrame_ShoulderButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_ShoulderButton>
 --- @field SecondaryShoulderButton WardrobeFrame_WardrobeTransmogFrame_SecondaryShoulderButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_SecondaryShoulderButton>
 --- @field BackButton WardrobeFrame_WardrobeTransmogFrame_BackButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_BackButton>
 --- @field ChestButton WardrobeFrame_WardrobeTransmogFrame_ChestButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_ChestButton>
 --- @field ShirtButton WardrobeFrame_WardrobeTransmogFrame_ShirtButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_ShirtButton>
 --- @field TabardButton WardrobeFrame_WardrobeTransmogFrame_TabardButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_TabardButton>
 --- @field WristButton WardrobeFrame_WardrobeTransmogFrame_WristButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_WristButton>
 --- @field HandsButton WardrobeFrame_WardrobeTransmogFrame_HandsButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_HandsButton>
 --- @field WaistButton WardrobeFrame_WardrobeTransmogFrame_WaistButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_WaistButton>
 --- @field LegsButton WardrobeFrame_WardrobeTransmogFrame_LegsButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_LegsButton>
 --- @field FeetButton WardrobeFrame_WardrobeTransmogFrame_FeetButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_FeetButton>
 --- @field SecondaryHandButton WardrobeFrame_WardrobeTransmogFrame_SecondaryHandButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_SecondaryHandButton>
 --- @field MainHandButton WardrobeFrame_WardrobeTransmogFrame_MainHandButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_MainHandButton>
 --- @field RangedButton WardrobeFrame_WardrobeTransmogFrame_RangedButton
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_RangedButton>
 --- @field MoneyFrame WardrobeFrame_WardrobeTransmogFrame_WardrobeTransmogMoneyFrame
 --- @field ApplyButton WardrobeFrame_WardrobeTransmogFrame_ApplyButton
 --- @field MoneyLeft Texture
@@ -810,97 +842,97 @@ WardrobeTransmogMoneyFrame["GoldButton"] = WardrobeTransmogMoneyFrameGoldButton 
 WardrobeTransmogFrame = {}
 WardrobeTransmogFrame["MoneyFrame"] = WardrobeTransmogMoneyFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L563)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L569)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
-PortraitFrameTemplateTitleBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L577)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplatePortrait = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L585)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
-PortraitFrameTemplatePortraitFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L590)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
-PortraitFrameTemplateTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L595)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
-PortraitFrameTemplateTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L600)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
-PortraitFrameTemplateTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L606)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
-PortraitFrameTemplateTitleText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L615)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
-PortraitFrameTemplateTopTileStreaks = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L621)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
-PortraitFrameTemplateBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L626)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
-PortraitFrameTemplateBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L631)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
-PortraitFrameTemplateBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L637)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
-PortraitFrameTemplateLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L643)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
-PortraitFrameTemplateRightBorder = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L657)
 --- child of WardrobeFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 WardrobeFrameCloseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L563)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+WardrobeFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L569)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+WardrobeFrameTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L577)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+WardrobeFramePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L585)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+WardrobeFramePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L590)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+WardrobeFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L595)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+WardrobeFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L600)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+WardrobeFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L606)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+WardrobeFrameTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L615)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+WardrobeFrameTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L621)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+WardrobeFrameBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L626)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+WardrobeFrameBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L631)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+WardrobeFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L637)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+WardrobeFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L643)
+--- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+WardrobeFrameRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1096)
 --- @class WardrobeFrame : Frame, PortraitFrameTemplate, WardrobeFrameMixin
 WardrobeFrame = {}
-WardrobeFrame["Bg"] = PortraitFrameTemplateBg -- inherited
-WardrobeFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
-WardrobeFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
-WardrobeFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
-WardrobeFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
-WardrobeFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
-WardrobeFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
-WardrobeFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
-WardrobeFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
-WardrobeFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
-WardrobeFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
-WardrobeFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
-WardrobeFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
-WardrobeFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
 WardrobeFrame["CloseButton"] = WardrobeFrameCloseButton -- inherited
+WardrobeFrame["Bg"] = WardrobeFrameBg -- inherited
+WardrobeFrame["TitleBg"] = WardrobeFrameTitleBg -- inherited
+WardrobeFrame["portrait"] = WardrobeFramePortrait -- inherited
+WardrobeFrame["PortraitFrame"] = WardrobeFramePortraitFrame -- inherited
+WardrobeFrame["TopRightCorner"] = WardrobeFrameTopRightCorner -- inherited
+WardrobeFrame["TopLeftCorner"] = WardrobeFrameTopLeftCorner -- inherited
+WardrobeFrame["TopBorder"] = WardrobeFrameTopBorder -- inherited
+WardrobeFrame["TitleText"] = WardrobeFrameTitleText -- inherited
+WardrobeFrame["TopTileStreaks"] = WardrobeFrameTopTileStreaks -- inherited
+WardrobeFrame["BotLeftCorner"] = WardrobeFrameBotLeftCorner -- inherited
+WardrobeFrame["BotRightCorner"] = WardrobeFrameBotRightCorner -- inherited
+WardrobeFrame["BottomBorder"] = WardrobeFrameBottomBorder -- inherited
+WardrobeFrame["LeftBorder"] = WardrobeFrameLeftBorder -- inherited
+WardrobeFrame["RightBorder"] = WardrobeFrameRightBorder -- inherited
 

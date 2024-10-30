@@ -388,31 +388,6 @@ AchievementFrameHeaderShield = {}
 --- @class AchievementFrame_AchievementFrameHeader : Frame
 AchievementFrameHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L15)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBG = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L20)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L27)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L34)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L43)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateThumbTexture = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L51)
 --- child of AchievementFrameCategoriesContainerScrollBar (created in template HybridScrollBarTemplate)
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
@@ -423,54 +398,55 @@ AchievementFrameCategoriesContainerScrollBarScrollUpButton = {}
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
 AchievementFrameCategoriesContainerScrollBarScrollDownButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L15)
+--- child of AchievementFrameCategoriesContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameCategoriesContainerScrollBarBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L20)
+--- child of AchievementFrameCategoriesContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameCategoriesContainerScrollBarTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L27)
+--- child of AchievementFrameCategoriesContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameCategoriesContainerScrollBarBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L34)
+--- child of AchievementFrameCategoriesContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameCategoriesContainerScrollBarMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L43)
+--- child of AchievementFrameCategoriesContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameCategoriesContainerScrollBarThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L2461)
 --- child of AchievementFrameCategoriesContainer
 --- @class AchievementFrame_AchievementFrameCategories_AchievementFrameCategoriesContainer_AchievementFrameCategoriesContainerScrollBar : Slider, HybridScrollBarTemplate
 AchievementFrameCategoriesContainerScrollBar = {}
-AchievementFrameCategoriesContainerScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
-AchievementFrameCategoriesContainerScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
-AchievementFrameCategoriesContainerScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
-AchievementFrameCategoriesContainerScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
-AchievementFrameCategoriesContainerScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 AchievementFrameCategoriesContainerScrollBar["ScrollUpButton"] = AchievementFrameCategoriesContainerScrollBarScrollUpButton -- inherited
 AchievementFrameCategoriesContainerScrollBar["ScrollDownButton"] = AchievementFrameCategoriesContainerScrollBarScrollDownButton -- inherited
+AchievementFrameCategoriesContainerScrollBar["trackBG"] = AchievementFrameCategoriesContainerScrollBarBG -- inherited
+AchievementFrameCategoriesContainerScrollBar["ScrollBarTop"] = AchievementFrameCategoriesContainerScrollBarTop -- inherited
+AchievementFrameCategoriesContainerScrollBar["ScrollBarBottom"] = AchievementFrameCategoriesContainerScrollBarBottom -- inherited
+AchievementFrameCategoriesContainerScrollBar["ScrollBarMiddle"] = AchievementFrameCategoriesContainerScrollBarMiddle -- inherited
+AchievementFrameCategoriesContainerScrollBar["thumbTexture"] = AchievementFrameCategoriesContainerScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L2447)
 --- child of AchievementFrameCategories
 --- @class AchievementFrame_AchievementFrameCategories_AchievementFrameCategoriesContainer : ScrollFrame, HybridScrollFrameTemplate
+--- @field scrollBar AchievementFrame_AchievementFrameCategories_AchievementFrameCategoriesContainer_AchievementFrameCategoriesContainerScrollBar
 AchievementFrameCategoriesContainer = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L2425)
 --- child of AchievementFrame
 --- @class AchievementFrame_AchievementFrameCategories : Frame, AchivementGoldBorderBackdrop
 AchievementFrameCategories = {}
-AchievementFrameCategories["layoutType"] = "TooltipDefaultLayout" -- inherited
 AchievementFrameCategories["backdropColorAlpha"] = 0 -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L15)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBG = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L20)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L27)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L34)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L43)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateThumbTexture = {}
+AchievementFrameCategories["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L51)
 --- child of AchievementFrameAchievementsContainerScrollBar (created in template HybridScrollBarTemplate)
@@ -482,21 +458,47 @@ AchievementFrameAchievementsContainerScrollBarScrollUpButton = {}
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
 AchievementFrameAchievementsContainerScrollBarScrollDownButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L15)
+--- child of AchievementFrameAchievementsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameAchievementsContainerScrollBarBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L20)
+--- child of AchievementFrameAchievementsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameAchievementsContainerScrollBarTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L27)
+--- child of AchievementFrameAchievementsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameAchievementsContainerScrollBarBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L34)
+--- child of AchievementFrameAchievementsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameAchievementsContainerScrollBarMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L43)
+--- child of AchievementFrameAchievementsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameAchievementsContainerScrollBarThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L2554)
 --- child of AchievementFrameAchievementsContainer
 --- @class AchievementFrame_AchievementFrameAchievements_AchievementFrameAchievementsContainer_AchievementFrameAchievementsContainerScrollBar : Slider, HybridScrollBarTemplate
 AchievementFrameAchievementsContainerScrollBar = {}
-AchievementFrameAchievementsContainerScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
-AchievementFrameAchievementsContainerScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
-AchievementFrameAchievementsContainerScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
-AchievementFrameAchievementsContainerScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
-AchievementFrameAchievementsContainerScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 AchievementFrameAchievementsContainerScrollBar["ScrollUpButton"] = AchievementFrameAchievementsContainerScrollBarScrollUpButton -- inherited
 AchievementFrameAchievementsContainerScrollBar["ScrollDownButton"] = AchievementFrameAchievementsContainerScrollBarScrollDownButton -- inherited
+AchievementFrameAchievementsContainerScrollBar["trackBG"] = AchievementFrameAchievementsContainerScrollBarBG -- inherited
+AchievementFrameAchievementsContainerScrollBar["ScrollBarTop"] = AchievementFrameAchievementsContainerScrollBarTop -- inherited
+AchievementFrameAchievementsContainerScrollBar["ScrollBarBottom"] = AchievementFrameAchievementsContainerScrollBarBottom -- inherited
+AchievementFrameAchievementsContainerScrollBar["ScrollBarMiddle"] = AchievementFrameAchievementsContainerScrollBarMiddle -- inherited
+AchievementFrameAchievementsContainerScrollBar["thumbTexture"] = AchievementFrameAchievementsContainerScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L2540)
 --- child of AchievementFrameAchievements
 --- @class AchievementFrame_AchievementFrameAchievements_AchievementFrameAchievementsContainer : ScrollFrame, HybridScrollFrameTemplate
+--- @field scrollBar AchievementFrame_AchievementFrameAchievements_AchievementFrameAchievementsContainer_AchievementFrameAchievementsContainerScrollBar
 AchievementFrameAchievementsContainer = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L2570)
@@ -524,31 +526,6 @@ AchievementFrameAchievements = {}
 --- @class AchievementFrame_AchievementFrameStats_AchievementFrameStatsBG : Frame
 AchievementFrameStatsBG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L15)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBG = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L20)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L27)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L34)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L43)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateThumbTexture = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L51)
 --- child of AchievementFrameStatsContainerScrollBar (created in template HybridScrollBarTemplate)
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
@@ -559,26 +536,48 @@ AchievementFrameStatsContainerScrollBarScrollUpButton = {}
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
 AchievementFrameStatsContainerScrollBarScrollDownButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L15)
+--- child of AchievementFrameStatsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameStatsContainerScrollBarBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L20)
+--- child of AchievementFrameStatsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameStatsContainerScrollBarTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L27)
+--- child of AchievementFrameStatsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameStatsContainerScrollBarBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L34)
+--- child of AchievementFrameStatsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameStatsContainerScrollBarMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L43)
+--- child of AchievementFrameStatsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameStatsContainerScrollBarThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L2637)
 --- child of AchievementFrameStatsContainer
 --- @class AchievementFrame_AchievementFrameStats_AchievementFrameStatsContainer_AchievementFrameStatsContainerScrollBar : Slider, HybridScrollBarTemplate
 AchievementFrameStatsContainerScrollBar = {}
-AchievementFrameStatsContainerScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
-AchievementFrameStatsContainerScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
-AchievementFrameStatsContainerScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
-AchievementFrameStatsContainerScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
-AchievementFrameStatsContainerScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 AchievementFrameStatsContainerScrollBar["ScrollUpButton"] = AchievementFrameStatsContainerScrollBarScrollUpButton -- inherited
 AchievementFrameStatsContainerScrollBar["ScrollDownButton"] = AchievementFrameStatsContainerScrollBarScrollDownButton -- inherited
+AchievementFrameStatsContainerScrollBar["trackBG"] = AchievementFrameStatsContainerScrollBarBG -- inherited
+AchievementFrameStatsContainerScrollBar["ScrollBarTop"] = AchievementFrameStatsContainerScrollBarTop -- inherited
+AchievementFrameStatsContainerScrollBar["ScrollBarBottom"] = AchievementFrameStatsContainerScrollBarBottom -- inherited
+AchievementFrameStatsContainerScrollBar["ScrollBarMiddle"] = AchievementFrameStatsContainerScrollBarMiddle -- inherited
+AchievementFrameStatsContainerScrollBar["thumbTexture"] = AchievementFrameStatsContainerScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L2623)
 --- child of AchievementFrameStats
 --- @class AchievementFrame_AchievementFrameStats_AchievementFrameStatsContainer : ScrollFrame, HybridScrollFrameTemplate
+--- @field scrollBar AchievementFrame_AchievementFrameStats_AchievementFrameStatsContainer_AchievementFrameStatsContainerScrollBar
 AchievementFrameStatsContainer = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L2653)
---- child of AchievementFrameStats
---- @class  : Frame, AchivementGoldBorderBackdrop
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L2577)
 --- child of AchievementFrame
@@ -1126,8 +1125,8 @@ AchievementFrameComparisonSummaryPlayerBackground = {}
 --- @field statusBar AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonSummary_AchievementFrameComparisonSummaryPlayer_AchievementFrameComparisonSummaryPlayerStatusBar
 AchievementFrameComparisonSummaryPlayer = {}
 AchievementFrameComparisonSummaryPlayer["statusBar"] = AchievementFrameComparisonSummaryPlayerStatusBar
-AchievementFrameComparisonSummaryPlayer["layoutType"] = "TooltipDefaultLayout" -- inherited
 AchievementFrameComparisonSummaryPlayer["backdropColorAlpha"] = 0 -- inherited
+AchievementFrameComparisonSummaryPlayer["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L641)
 --- child of AchievementFrameComparisonSummaryFriendStatusBar (created in template AchievementHeaderStatusBarTemplate)
@@ -1177,38 +1176,13 @@ AchievementFrameComparisonSummaryFriendBackground = {}
 --- @field statusBar AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonSummary_AchievementFrameComparisonSummaryFriend_AchievementFrameComparisonSummaryFriendStatusBar
 AchievementFrameComparisonSummaryFriend = {}
 AchievementFrameComparisonSummaryFriend["statusBar"] = AchievementFrameComparisonSummaryFriendStatusBar
-AchievementFrameComparisonSummaryFriend["layoutType"] = "TooltipDefaultLayout" -- inherited
 AchievementFrameComparisonSummaryFriend["backdropColorAlpha"] = 0 -- inherited
+AchievementFrameComparisonSummaryFriend["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3021)
 --- child of AchievementFrameComparison
 --- @class AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonSummary : Frame
 AchievementFrameComparisonSummary = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L15)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBG = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L20)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L27)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L34)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L43)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L51)
 --- child of AchievementFrameComparisonContainerScrollBar (created in template HybridScrollBarTemplate)
@@ -1220,47 +1194,48 @@ AchievementFrameComparisonContainerScrollBarScrollUpButton = {}
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
 AchievementFrameComparisonContainerScrollBarScrollDownButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L15)
+--- child of AchievementFrameComparisonContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameComparisonContainerScrollBarBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L20)
+--- child of AchievementFrameComparisonContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameComparisonContainerScrollBarTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L27)
+--- child of AchievementFrameComparisonContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameComparisonContainerScrollBarBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L34)
+--- child of AchievementFrameComparisonContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameComparisonContainerScrollBarMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L43)
+--- child of AchievementFrameComparisonContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameComparisonContainerScrollBarThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3124)
 --- child of AchievementFrameComparisonContainer
 --- @class AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonContainer_AchievementFrameComparisonContainerScrollBar : Slider, HybridScrollBarTemplate
 AchievementFrameComparisonContainerScrollBar = {}
-AchievementFrameComparisonContainerScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
-AchievementFrameComparisonContainerScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
-AchievementFrameComparisonContainerScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
-AchievementFrameComparisonContainerScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
-AchievementFrameComparisonContainerScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 AchievementFrameComparisonContainerScrollBar["ScrollUpButton"] = AchievementFrameComparisonContainerScrollBarScrollUpButton -- inherited
 AchievementFrameComparisonContainerScrollBar["ScrollDownButton"] = AchievementFrameComparisonContainerScrollBarScrollDownButton -- inherited
+AchievementFrameComparisonContainerScrollBar["trackBG"] = AchievementFrameComparisonContainerScrollBarBG -- inherited
+AchievementFrameComparisonContainerScrollBar["ScrollBarTop"] = AchievementFrameComparisonContainerScrollBarTop -- inherited
+AchievementFrameComparisonContainerScrollBar["ScrollBarBottom"] = AchievementFrameComparisonContainerScrollBarBottom -- inherited
+AchievementFrameComparisonContainerScrollBar["ScrollBarMiddle"] = AchievementFrameComparisonContainerScrollBarMiddle -- inherited
+AchievementFrameComparisonContainerScrollBar["thumbTexture"] = AchievementFrameComparisonContainerScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3112)
 --- child of AchievementFrameComparison
 --- @class AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonContainer : ScrollFrame, HybridScrollFrameTemplate
+--- @field scrollBar AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonContainer_AchievementFrameComparisonContainerScrollBar
 AchievementFrameComparisonContainer = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L15)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBG = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L20)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L27)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L34)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L43)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L51)
 --- child of AchievementFrameComparisonStatsContainerScrollBar (created in template HybridScrollBarTemplate)
@@ -1272,26 +1247,48 @@ AchievementFrameComparisonStatsContainerScrollBarScrollUpButton = {}
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
 AchievementFrameComparisonStatsContainerScrollBarScrollDownButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L15)
+--- child of AchievementFrameComparisonStatsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameComparisonStatsContainerScrollBarBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L20)
+--- child of AchievementFrameComparisonStatsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameComparisonStatsContainerScrollBarTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L27)
+--- child of AchievementFrameComparisonStatsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameComparisonStatsContainerScrollBarBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L34)
+--- child of AchievementFrameComparisonStatsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameComparisonStatsContainerScrollBarMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L43)
+--- child of AchievementFrameComparisonStatsContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+AchievementFrameComparisonStatsContainerScrollBarThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3166)
 --- child of AchievementFrameComparisonStatsContainer
 --- @class AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonStatsContainer_AchievementFrameComparisonStatsContainerScrollBar : Slider, HybridScrollBarTemplate
 AchievementFrameComparisonStatsContainerScrollBar = {}
-AchievementFrameComparisonStatsContainerScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
-AchievementFrameComparisonStatsContainerScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
-AchievementFrameComparisonStatsContainerScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
-AchievementFrameComparisonStatsContainerScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
-AchievementFrameComparisonStatsContainerScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 AchievementFrameComparisonStatsContainerScrollBar["ScrollUpButton"] = AchievementFrameComparisonStatsContainerScrollBarScrollUpButton -- inherited
 AchievementFrameComparisonStatsContainerScrollBar["ScrollDownButton"] = AchievementFrameComparisonStatsContainerScrollBarScrollDownButton -- inherited
+AchievementFrameComparisonStatsContainerScrollBar["trackBG"] = AchievementFrameComparisonStatsContainerScrollBarBG -- inherited
+AchievementFrameComparisonStatsContainerScrollBar["ScrollBarTop"] = AchievementFrameComparisonStatsContainerScrollBarTop -- inherited
+AchievementFrameComparisonStatsContainerScrollBar["ScrollBarBottom"] = AchievementFrameComparisonStatsContainerScrollBarBottom -- inherited
+AchievementFrameComparisonStatsContainerScrollBar["ScrollBarMiddle"] = AchievementFrameComparisonStatsContainerScrollBarMiddle -- inherited
+AchievementFrameComparisonStatsContainerScrollBar["thumbTexture"] = AchievementFrameComparisonStatsContainerScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3152)
 --- child of AchievementFrameComparison
 --- @class AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonStatsContainer : ScrollFrame, HybridScrollFrameTemplate
+--- @field scrollBar AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonStatsContainer_AchievementFrameComparisonStatsContainerScrollBar
 AchievementFrameComparisonStatsContainer = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3189)
---- child of AchievementFrameComparison
---- @class  : Frame, AchivementGoldBorderBackdrop
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3193)
 --- child of AchievementFrameComparison

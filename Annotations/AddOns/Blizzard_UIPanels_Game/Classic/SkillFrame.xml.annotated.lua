@@ -177,33 +177,33 @@ SkillTypeLabel12NormalTexture = {}
 SkillTypeLabel12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L10)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of SkillListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+SkillListScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of SkillListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+SkillListScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L30)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of SkillListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-FauxScrollFrameTemplateScrollBarThumbTexture = {}
+SkillListScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L46)
---- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of SkillListScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-FauxScrollFrameTemplateScrollBar = {}
-FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
-FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
-FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+SkillListScrollFrameScrollBar = {}
+SkillListScrollFrameScrollBar["ScrollUpButton"] = SkillListScrollFrameScrollBarScrollUpButton -- inherited
+SkillListScrollFrameScrollBar["ScrollDownButton"] = SkillListScrollFrameScrollBarScrollDownButton -- inherited
+SkillListScrollFrameScrollBar["ThumbTexture"] = SkillListScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L415)
 --- child of SkillFrame
 --- @class SkillFrame_SkillListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 SkillListScrollFrame = {}
-SkillListScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+SkillListScrollFrame["ScrollBar"] = SkillListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L10)
 --- child of SkillDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)

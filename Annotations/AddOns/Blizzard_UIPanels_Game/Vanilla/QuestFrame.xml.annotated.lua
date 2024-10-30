@@ -59,29 +59,6 @@ QuestFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 QuestFrameCompleteQuestButton = {}
 QuestFrameCompleteQuestButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L10)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-QuestScrollFrameTemplateScrollBarScrollUpButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L18)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-QuestScrollFrameTemplateScrollBarScrollDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L30)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-QuestScrollFrameTemplateScrollBarThumbTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L46)
---- child of QuestScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-QuestScrollFrameTemplateScrollBar = {}
-QuestScrollFrameTemplateScrollBar["ScrollUpButton"] = QuestScrollFrameTemplateScrollBarScrollUpButton -- inherited
-QuestScrollFrameTemplateScrollBar["ScrollDownButton"] = QuestScrollFrameTemplateScrollBarScrollDownButton -- inherited
-QuestScrollFrameTemplateScrollBar["ThumbTexture"] = QuestScrollFrameTemplateScrollBarThumbTexture -- inherited
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
 --- child of QuestRewardScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
@@ -97,11 +74,34 @@ QuestRewardScrollFrameBottom = {}
 --- @type Texture
 QuestRewardScrollFrameMiddle = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L10)
+--- child of QuestRewardScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+QuestRewardScrollFrameScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L18)
+--- child of QuestRewardScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+QuestRewardScrollFrameScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L30)
+--- child of QuestRewardScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+QuestRewardScrollFrameScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L46)
+--- child of QuestRewardScrollFrame (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+QuestRewardScrollFrameScrollBar = {}
+QuestRewardScrollFrameScrollBar["ScrollUpButton"] = QuestRewardScrollFrameScrollBarScrollUpButton -- inherited
+QuestRewardScrollFrameScrollBar["ScrollDownButton"] = QuestRewardScrollFrameScrollBarScrollDownButton -- inherited
+QuestRewardScrollFrameScrollBar["ThumbTexture"] = QuestRewardScrollFrameScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L104)
 --- child of QuestFrameRewardPanel
 --- @class QuestFrame_QuestFrameRewardPanel_QuestRewardScrollFrame : ScrollFrame, QuestScrollFrameTemplate
 QuestRewardScrollFrame = {}
-QuestRewardScrollFrame["ScrollBar"] = QuestScrollFrameTemplateScrollBar -- inherited
+QuestRewardScrollFrame["ScrollBar"] = QuestRewardScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L44)
 --- child of QuestFrameRewardPanel (created in template QuestFramePanelTemplate)
@@ -140,29 +140,6 @@ QuestFrameGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 QuestFrameCompleteButton = {}
 QuestFrameCompleteButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L10)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-QuestScrollFrameTemplateScrollBarScrollUpButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L18)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-QuestScrollFrameTemplateScrollBarScrollDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L30)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-QuestScrollFrameTemplateScrollBarThumbTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L46)
---- child of QuestScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-QuestScrollFrameTemplateScrollBar = {}
-QuestScrollFrameTemplateScrollBar["ScrollUpButton"] = QuestScrollFrameTemplateScrollBarScrollUpButton -- inherited
-QuestScrollFrameTemplateScrollBar["ScrollDownButton"] = QuestScrollFrameTemplateScrollBarScrollDownButton -- inherited
-QuestScrollFrameTemplateScrollBar["ThumbTexture"] = QuestScrollFrameTemplateScrollBarThumbTexture -- inherited
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
 --- child of QuestProgressScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
@@ -178,11 +155,34 @@ QuestProgressScrollFrameBottom = {}
 --- @type Texture
 QuestProgressScrollFrameMiddle = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L10)
+--- child of QuestProgressScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+QuestProgressScrollFrameScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L18)
+--- child of QuestProgressScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+QuestProgressScrollFrameScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L30)
+--- child of QuestProgressScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+QuestProgressScrollFrameScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L46)
+--- child of QuestProgressScrollFrame (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+QuestProgressScrollFrameScrollBar = {}
+QuestProgressScrollFrameScrollBar["ScrollUpButton"] = QuestProgressScrollFrameScrollBarScrollUpButton -- inherited
+QuestProgressScrollFrameScrollBar["ScrollDownButton"] = QuestProgressScrollFrameScrollBarScrollDownButton -- inherited
+QuestProgressScrollFrameScrollBar["ThumbTexture"] = QuestProgressScrollFrameScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L136)
 --- child of QuestFrameProgressPanel
 --- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame : ScrollFrame, QuestScrollFrameTemplate
 QuestProgressScrollFrame = {}
-QuestProgressScrollFrame["ScrollBar"] = QuestScrollFrameTemplateScrollBar -- inherited
+QuestProgressScrollFrame["ScrollBar"] = QuestProgressScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L44)
 --- child of QuestFrameProgressPanel (created in template QuestFramePanelTemplate)
@@ -221,29 +221,6 @@ QuestFrameDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 QuestFrameAcceptButton = {}
 QuestFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L10)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-QuestScrollFrameTemplateScrollBarScrollUpButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L18)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-QuestScrollFrameTemplateScrollBarScrollDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L30)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-QuestScrollFrameTemplateScrollBarThumbTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L46)
---- child of QuestScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-QuestScrollFrameTemplateScrollBar = {}
-QuestScrollFrameTemplateScrollBar["ScrollUpButton"] = QuestScrollFrameTemplateScrollBarScrollUpButton -- inherited
-QuestScrollFrameTemplateScrollBar["ScrollDownButton"] = QuestScrollFrameTemplateScrollBarScrollDownButton -- inherited
-QuestScrollFrameTemplateScrollBar["ThumbTexture"] = QuestScrollFrameTemplateScrollBarThumbTexture -- inherited
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
 --- child of QuestDetailScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
@@ -259,11 +236,34 @@ QuestDetailScrollFrameBottom = {}
 --- @type Texture
 QuestDetailScrollFrameMiddle = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L10)
+--- child of QuestDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+QuestDetailScrollFrameScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L18)
+--- child of QuestDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+QuestDetailScrollFrameScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L30)
+--- child of QuestDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+QuestDetailScrollFrameScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L46)
+--- child of QuestDetailScrollFrame (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+QuestDetailScrollFrameScrollBar = {}
+QuestDetailScrollFrameScrollBar["ScrollUpButton"] = QuestDetailScrollFrameScrollBarScrollUpButton -- inherited
+QuestDetailScrollFrameScrollBar["ScrollDownButton"] = QuestDetailScrollFrameScrollBarScrollDownButton -- inherited
+QuestDetailScrollFrameScrollBar["ThumbTexture"] = QuestDetailScrollFrameScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L290)
 --- child of QuestFrameDetailPanel
 --- @class QuestFrame_QuestFrameDetailPanel_QuestDetailScrollFrame : ScrollFrame, QuestScrollFrameTemplate
 QuestDetailScrollFrame = {}
-QuestDetailScrollFrame["ScrollBar"] = QuestScrollFrameTemplateScrollBar -- inherited
+QuestDetailScrollFrame["ScrollBar"] = QuestDetailScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L44)
 --- child of QuestFrameDetailPanel (created in template QuestFramePanelTemplate)
@@ -296,29 +296,6 @@ QuestFrameDetailPanel = {}
 QuestFrameGreetingGoodbyeButton = {}
 QuestFrameGreetingGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L10)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-QuestScrollFrameTemplateScrollBarScrollUpButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L18)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-QuestScrollFrameTemplateScrollBarScrollDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L30)
---- child of QuestScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-QuestScrollFrameTemplateScrollBarThumbTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L46)
---- child of QuestScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-QuestScrollFrameTemplateScrollBar = {}
-QuestScrollFrameTemplateScrollBar["ScrollUpButton"] = QuestScrollFrameTemplateScrollBarScrollUpButton -- inherited
-QuestScrollFrameTemplateScrollBar["ScrollDownButton"] = QuestScrollFrameTemplateScrollBarScrollDownButton -- inherited
-QuestScrollFrameTemplateScrollBar["ThumbTexture"] = QuestScrollFrameTemplateScrollBarThumbTexture -- inherited
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
 --- child of QuestGreetingScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
@@ -334,11 +311,34 @@ QuestGreetingScrollFrameBottom = {}
 --- @type Texture
 QuestGreetingScrollFrameMiddle = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L10)
+--- child of QuestGreetingScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+QuestGreetingScrollFrameScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L18)
+--- child of QuestGreetingScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+QuestGreetingScrollFrameScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L30)
+--- child of QuestGreetingScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+QuestGreetingScrollFrameScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L46)
+--- child of QuestGreetingScrollFrame (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+QuestGreetingScrollFrameScrollBar = {}
+QuestGreetingScrollFrameScrollBar["ScrollUpButton"] = QuestGreetingScrollFrameScrollBarScrollUpButton -- inherited
+QuestGreetingScrollFrameScrollBar["ScrollDownButton"] = QuestGreetingScrollFrameScrollBarScrollDownButton -- inherited
+QuestGreetingScrollFrameScrollBar["ThumbTexture"] = QuestGreetingScrollFrameScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L333)
 --- child of QuestFrameGreetingPanel
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame : ScrollFrame, QuestScrollFrameTemplate
 QuestGreetingScrollFrame = {}
-QuestGreetingScrollFrame["ScrollBar"] = QuestScrollFrameTemplateScrollBar -- inherited
+QuestGreetingScrollFrame["ScrollBar"] = QuestGreetingScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L44)
 --- child of QuestFrameGreetingPanel (created in template QuestFramePanelTemplate)

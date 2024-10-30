@@ -1,183 +1,183 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L35)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
-SharedTooltipTemplateTextLeft1 = {}
+FrameStackTooltipTextLeft1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L36)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
-SharedTooltipTemplateTextRight1 = {}
+FrameStackTooltipTextRight1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L41)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
-SharedTooltipTemplateTextLeft2 = {}
+FrameStackTooltipTextLeft2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L42)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
-SharedTooltipTemplateTextRight2 = {}
+FrameStackTooltipTextRight2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L47)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
-SharedTooltipTemplateTexture1 = {}
+FrameStackTooltipTexture1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L48)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
-SharedTooltipTemplateTexture2 = {}
+FrameStackTooltipTexture2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L49)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
-SharedTooltipTemplateTexture3 = {}
+FrameStackTooltipTexture3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L50)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
-SharedTooltipTemplateTexture4 = {}
+FrameStackTooltipTexture4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L51)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
-SharedTooltipTemplateTexture5 = {}
+FrameStackTooltipTexture5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L52)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
-SharedTooltipTemplateTexture6 = {}
+FrameStackTooltipTexture6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L53)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
-SharedTooltipTemplateTexture7 = {}
+FrameStackTooltipTexture7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L54)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
-SharedTooltipTemplateTexture8 = {}
+FrameStackTooltipTexture8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L55)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
-SharedTooltipTemplateTexture9 = {}
+FrameStackTooltipTexture9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L56)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
-SharedTooltipTemplateTexture10 = {}
+FrameStackTooltipTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L57)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
-SharedTooltipTemplateTexture11 = {}
+FrameStackTooltipTexture11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L58)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
-SharedTooltipTemplateTexture12 = {}
+FrameStackTooltipTexture12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L59)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
-SharedTooltipTemplateTexture13 = {}
+FrameStackTooltipTexture13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L60)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
-SharedTooltipTemplateTexture14 = {}
+FrameStackTooltipTexture14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L61)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
-SharedTooltipTemplateTexture15 = {}
+FrameStackTooltipTexture15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L62)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
-SharedTooltipTemplateTexture16 = {}
+FrameStackTooltipTexture16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L63)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
-SharedTooltipTemplateTexture17 = {}
+FrameStackTooltipTexture17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L64)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
-SharedTooltipTemplateTexture18 = {}
+FrameStackTooltipTexture18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L65)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
-SharedTooltipTemplateTexture19 = {}
+FrameStackTooltipTexture19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L66)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
-SharedTooltipTemplateTexture20 = {}
+FrameStackTooltipTexture20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L67)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
-SharedTooltipTemplateTexture21 = {}
+FrameStackTooltipTexture21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L68)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
-SharedTooltipTemplateTexture22 = {}
+FrameStackTooltipTexture22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L69)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
-SharedTooltipTemplateTexture23 = {}
+FrameStackTooltipTexture23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L70)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
-SharedTooltipTemplateTexture24 = {}
+FrameStackTooltipTexture24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L71)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
-SharedTooltipTemplateTexture25 = {}
+FrameStackTooltipTexture25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L72)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
-SharedTooltipTemplateTexture26 = {}
+FrameStackTooltipTexture26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L73)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
-SharedTooltipTemplateTexture27 = {}
+FrameStackTooltipTexture27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L74)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
-SharedTooltipTemplateTexture28 = {}
+FrameStackTooltipTexture28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L75)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
-SharedTooltipTemplateTexture29 = {}
+FrameStackTooltipTexture29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L76)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of FrameStackTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
-SharedTooltipTemplateTexture30 = {}
+FrameStackTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L4)
 --- @class FrameStackTooltip : GameTooltip, SharedTooltipTemplate
 FrameStackTooltip = {}
 FrameStackTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
-FrameStackTooltip["TextLeft1"] = SharedTooltipTemplateTextLeft1 -- inherited
-FrameStackTooltip["TextRight1"] = SharedTooltipTemplateTextRight1 -- inherited
-FrameStackTooltip["TextLeft2"] = SharedTooltipTemplateTextLeft2 -- inherited
-FrameStackTooltip["TextRight2"] = SharedTooltipTemplateTextRight2 -- inherited
+FrameStackTooltip["TextLeft1"] = FrameStackTooltipTextLeft1 -- inherited
+FrameStackTooltip["TextRight1"] = FrameStackTooltipTextRight1 -- inherited
+FrameStackTooltip["TextLeft2"] = FrameStackTooltipTextLeft2 -- inherited
+FrameStackTooltip["TextRight2"] = FrameStackTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L17)
 --- Template
@@ -189,6 +189,7 @@ FrameStackHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L29)
 --- Template
+--- Adds itself to the parent inside the array `AnchorHighlights`
 --- @class FrameStackAnchorHighlightTemplate : Frame
 --- @field AnchorPoint Texture
 

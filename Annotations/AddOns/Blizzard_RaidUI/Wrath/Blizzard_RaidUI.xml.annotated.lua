@@ -40,10 +40,6 @@
 --- Template
 --- @class RaidGroupButtonTemplate : Button, SecureUnitButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L268)
---- child of RaidGroupSlotTemplate
---- @class  : FontString, GameFontDarkGraySmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L264)
 --- Template
 --- @class RaidGroupSlotTemplate : Button
@@ -100,10 +96,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L597)
 --- child of 
 --- @class RaidPulloutButtonTemplateTargetTargetName : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L590)
---- child of RaidPulloutButtonTemplateTargetTarget
---- @class  : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L566)
 --- child of RaidPulloutButtonTemplate

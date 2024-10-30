@@ -123,6 +123,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L248)
 --- Template
+--- Adds itself to the parent with key `castBar`
 --- @class CompactUnitFrameCastBarTemplate : StatusBar
 --- @field Background Texture
 --- @field Text CompactUnitFrameCastBarTemplate_Text

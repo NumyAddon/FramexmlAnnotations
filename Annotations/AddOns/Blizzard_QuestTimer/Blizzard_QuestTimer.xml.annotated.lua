@@ -263,10 +263,6 @@ QuestTimer25 = {}
 --- @class QuestTimerFrame_QuestTimerHeader : Texture
 QuestTimerHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.xml#L61)
---- child of QuestTimerFrame
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.xml#L28)
 --- @class QuestTimerFrame : Frame, BackdropTemplate, QuestTimerMixin
 --- @field backdropInfo any # BACKDROP_DIALOG_32_32

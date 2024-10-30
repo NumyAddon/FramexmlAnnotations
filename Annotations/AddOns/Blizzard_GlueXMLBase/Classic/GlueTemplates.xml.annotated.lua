@@ -12,25 +12,9 @@
 --- Template
 --- @class GlueScrollBarButton : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L36)
---- child of GlueScrollUpButtonTemplate
---- @class  : Texture, GlueScrollBarButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L39)
---- child of GlueScrollUpButtonTemplate
---- @class  : Texture, GlueScrollBarButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L32)
 --- Template
 --- @class GlueScrollUpButtonTemplate : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L45)
---- child of GlueScrollDownButtonTemplate
---- @class  : Texture, GlueScrollBarButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L48)
---- child of GlueScrollDownButtonTemplate
---- @class  : Texture, GlueScrollBarButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L41)
 --- Template
@@ -39,14 +23,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L50)
 --- Template
 --- @class GluePanelButtonDisabledDownTexture : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L57)
---- child of GluePanelButtonGrayTemplate
---- @class  : Texture, GluePanelButtonDisabledTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L60)
---- child of GluePanelButtonGrayTemplate
---- @class  : Texture, GluePanelButtonHighlightTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L53)
 --- Template
@@ -81,10 +57,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L202)
 --- child of GlueScrollBarTemplate
 --- @class GlueScrollBarTemplate_GlueScrollBarTemplateScrollDownButton : Button, GlueScrollDownButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L228)
---- child of GlueScrollBarTemplate
---- @class  : Texture, GlueScrollBarButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXMLBase/Classic/GlueTemplates.xml#L185)
 --- Template

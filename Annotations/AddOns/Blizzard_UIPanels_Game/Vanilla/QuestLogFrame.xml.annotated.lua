@@ -286,33 +286,33 @@ QuestLogTitle6["groupMates"] = QuestLogTitle6GroupMates -- inherited
 QuestLogTitle6["check"] = QuestLogTitle6Check -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L10)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of QuestLogListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+QuestLogListScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L18)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of QuestLogListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+QuestLogListScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L30)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of QuestLogListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-FauxScrollFrameTemplateScrollBarThumbTexture = {}
+QuestLogListScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L46)
---- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of QuestLogListScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-FauxScrollFrameTemplateScrollBar = {}
-FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
-FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
-FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+QuestLogListScrollFrameScrollBar = {}
+QuestLogListScrollFrameScrollBar["ScrollUpButton"] = QuestLogListScrollFrameScrollBarScrollUpButton -- inherited
+QuestLogListScrollFrameScrollBar["ScrollDownButton"] = QuestLogListScrollFrameScrollBarScrollDownButton -- inherited
+QuestLogListScrollFrameScrollBar["ThumbTexture"] = QuestLogListScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L580)
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 QuestLogListScrollFrame = {}
-QuestLogListScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+QuestLogListScrollFrame["ScrollBar"] = QuestLogListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L10)
 --- child of QuestLogDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)

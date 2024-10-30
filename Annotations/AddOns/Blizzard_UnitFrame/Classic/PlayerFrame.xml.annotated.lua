@@ -115,10 +115,6 @@ PlayerRestIcon = {}
 --- @class PlayerAttackIcon : Texture
 PlayerAttackIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L48)
---- child of 
---- @class  : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L7)
 --- child of PlayerFrameReadyCheck (created in template ReadyCheckStatusTemplate)
 --- @type Texture
@@ -164,11 +160,6 @@ PlayerPlayTime = {}
 --- @class MultiGroupFrame : Button
 --- @field HomePartyIcon Texture
 --- @field InstancePartyIcon Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L46)
---- child of PlayerFrame
---- @class  : Frame
---- @field MultiGroupFrame MultiGroupFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L299)
 --- child of PlayerFrameHealthBar

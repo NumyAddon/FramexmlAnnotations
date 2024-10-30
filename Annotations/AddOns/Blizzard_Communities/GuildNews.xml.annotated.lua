@@ -168,10 +168,6 @@
 --- child of CommunitiesGuildNewsFrameTemplate
 --- @class CommunitiesGuildNewsFrameTemplate_TitleText : FontString, GameFontNormalMed1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L282)
---- child of CommunitiesGuildNewsFrameTemplate
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L288)
 --- child of CommunitiesGuildNewsFrameTemplate
 --- @class CommunitiesGuildNewsFrameTemplate_NoNews : FontString, GameFontDisable
@@ -273,12 +269,19 @@ CommunitiesGuildNewsFiltersFrameRightBorder = {}
 --- @class CommunitiesGuildNewsFiltersFrame : Frame, TranslucentFrameTemplate
 --- @field CloseButton CommunitiesGuildNewsFiltersFrame_CloseButton
 --- @field GuildAchievement CommunitiesGuildNewsFiltersFrame_GuildAchievement
+--- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_GuildAchievement>
 --- @field Achievement CommunitiesGuildNewsFiltersFrame_Achievement
+--- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_Achievement>
 --- @field DungeonEncounter CommunitiesGuildNewsFiltersFrame_DungeonEncounter
+--- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_DungeonEncounter>
 --- @field EpicItemLooted CommunitiesGuildNewsFiltersFrame_EpicItemLooted
+--- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_EpicItemLooted>
 --- @field EpicItemPurchased CommunitiesGuildNewsFiltersFrame_EpicItemPurchased
+--- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_EpicItemPurchased>
 --- @field EpicItemCrafted CommunitiesGuildNewsFiltersFrame_EpicItemCrafted
+--- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_EpicItemCrafted>
 --- @field LegendaryItemLooted CommunitiesGuildNewsFiltersFrame_LegendaryItemLooted
+--- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_LegendaryItemLooted>
 --- @field Title CommunitiesGuildNewsFiltersFrame_Title
 CommunitiesGuildNewsFiltersFrame = {}
 CommunitiesGuildNewsFiltersFrame["Bg"] = CommunitiesGuildNewsFiltersFrameBg -- inherited

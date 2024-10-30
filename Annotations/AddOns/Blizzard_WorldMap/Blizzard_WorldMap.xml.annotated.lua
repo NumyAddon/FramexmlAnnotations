@@ -42,17 +42,9 @@ MiniWorldMapTitle = {}
 --- @class WorldMapFrame_WorldMapTitleButton : Button
 WorldMapTitleButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L258)
---- child of 
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L111)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_BorderFrame : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L280)
---- child of WorldMapContinentDropdown
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L270)
 --- child of WorldMapFrame
@@ -60,19 +52,11 @@ WorldMapTitleButton = {}
 WorldMapContinentDropdown = {}
 WorldMapContinentDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L306)
---- child of WorldMapZoneDropdown
---- @class  : FontString, GameFontNormalSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L296)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapZoneDropdown : DropdownButton, WowStyle1DropdownTemplate
 WorldMapZoneDropdown = {}
 WorldMapZoneDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L332)
---- child of WorldMapZoneMinimapDropdown
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L322)
 --- child of WorldMapFrame
@@ -109,6 +93,7 @@ WorldMapFrameCloseButton = {}
 --- @field ZoneDropdown WorldMapFrame_WorldMapZoneDropdown
 --- @field MinimapDropdown WorldMapFrame_WorldMapZoneMinimapDropdown
 --- @field MaximizeMinimizeFrame WorldMapFrame_MaximizeMinimizeFrame
+--- @field MaxMinButtonFrame WorldMapFrame_MaximizeMinimizeFrame
 WorldMapFrame = {}
 WorldMapFrame["ContinentDropdown"] = WorldMapContinentDropdown
 WorldMapFrame["ZoneDropdown"] = WorldMapZoneDropdown

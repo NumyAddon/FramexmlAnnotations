@@ -40,14 +40,6 @@ EquipmentFlyoutFrameButtons = {}
 --- child of 
 --- @class EquipmentFlyoutFrame_NavigationFrame_BottomBackground : Texture, EquipmentFlyoutTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L91)
---- child of 
---- @class  : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L96)
---- child of 
---- @class  : FontString, GameFontHighlightSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L79)
 --- child of EquipmentFlyoutFrame
 --- @class EquipmentFlyoutFrame_NavigationFrame : Frame

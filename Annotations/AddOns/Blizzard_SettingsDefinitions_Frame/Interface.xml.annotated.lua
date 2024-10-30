@@ -5,10 +5,6 @@
 --- @class RaidFramePreviewTemplate_RaidFrameSettingsPreviewFrame : Button, CompactUnitFrameTemplate
 --- @field ignoreCUFNameRequirement boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Interface.xml#L19)
---- child of RaidFramePreviewTemplate
---- @class  : FontString, GameFontHighlightSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Interface.xml#L5)
 --- Template
 --- @class RaidFramePreviewTemplate : Frame, RaidFramePreviewMixin

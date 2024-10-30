@@ -9,7 +9,7 @@
 --- @class CreateChannelPopupButtonTemplate : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L63)
---- child of 
+--- child of CreateChannelPopup_Name
 --- @class CreateChannelPopup_Name_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L57)
@@ -18,7 +18,7 @@
 --- @field Label CreateChannelPopup_Name_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L77)
---- child of 
+--- child of CreateChannelPopup_Password
 --- @class CreateChannelPopup_Password_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L71)
@@ -27,7 +27,7 @@
 --- @field Label CreateChannelPopup_Password_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L468)
---- child of  (created in template UICheckButtonTemplate)
+--- child of CreateChannelPopup_UseVoiceChat (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 CreateChannelPopupText = {}
 

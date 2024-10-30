@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MovieFrame.xml#L39)
---- child of 
+--- child of MovieFrame_CloseDialog
 --- @class MovieFrame_CloseDialog_ConfirmButton : Button, CinematicDialogButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MovieFrame.xml#L49)
---- child of 
+--- child of MovieFrame_CloseDialog
 --- @class MovieFrame_CloseDialog_ResumeButton : Button, CinematicDialogButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MovieFrame.xml#L20)

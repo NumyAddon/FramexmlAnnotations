@@ -13,47 +13,47 @@
 --- @class ChannelFrame_ChannelList : ScrollFrame, ChannelListTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L796)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_LeftInset (created in template InsetFrameTemplate)
 --- @type Texture
 ChannelFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L804)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_LeftInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
 ChannelFrameInsetTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L809)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_LeftInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
 ChannelFrameInsetTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L815)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_LeftInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
 ChannelFrameInsetBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L821)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_LeftInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
 ChannelFrameInsetBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L827)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_LeftInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
 ChannelFrameInsetTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L833)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_LeftInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
 ChannelFrameInsetBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L839)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_LeftInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
 ChannelFrameInsetLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L845)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_LeftInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 ChannelFrameInsetRightBorder = {}
 
@@ -66,47 +66,47 @@ ChannelFrameInsetRightBorder = {}
 --- @class ChannelFrame_ChannelRoster : Frame, ChannelRosterTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L796)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_RightInset (created in template InsetFrameTemplate)
 --- @type Texture
 ChannelFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L804)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_RightInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
 ChannelFrameInsetTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L809)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_RightInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
 ChannelFrameInsetTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L815)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_RightInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
 ChannelFrameInsetBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L821)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_RightInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
 ChannelFrameInsetBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L827)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_RightInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
 ChannelFrameInsetTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L833)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_RightInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
 ChannelFrameInsetBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L839)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_RightInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
 ChannelFrameInsetLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L845)
---- child of  (created in template InsetFrameTemplate)
+--- child of ChannelFrame_RightInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 ChannelFrameInsetRightBorder = {}
 
@@ -115,109 +115,109 @@ ChannelFrameInsetRightBorder = {}
 --- @class ChannelFrame_RightInset : Frame, InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L92)
---- child of 
+--- child of ChannelFrame_Tutorial
 --- @class ChannelFrame_Tutorial_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L698)
---- child of  (created in template GlowBoxArrowTemplate)
+--- child of ChannelFrame_Tutorial_Arrow (created in template GlowBoxArrowTemplate)
 --- @type GlowBoxArrowTemplate_GlowBoxArrowTemplateArrow
 ChannelFrameArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L705)
---- child of  (created in template GlowBoxArrowTemplate)
+--- child of ChannelFrame_Tutorial_Arrow (created in template GlowBoxArrowTemplate)
 --- @type GlowBoxArrowTemplate_GlowBoxArrowTemplateGlow
 ChannelFrameGlow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L102)
---- child of 
+--- child of ChannelFrame_Tutorial
 --- @class ChannelFrame_Tutorial_Arrow : Frame, GlowBoxArrowTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L83)
---- child of 
+--- child of ChannelFrame_Tutorial
 --- @class ChannelFrame_Tutorial_Text : FontString, GameFontHighlightLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2081)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type Texture
 ChannelFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2094)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
 ChannelFrameGlowTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2099)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
 ChannelFrameGlowTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2105)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
 ChannelFrameGlowBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2111)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
 ChannelFrameGlowBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2117)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
 ChannelFrameGlowTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2123)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
 ChannelFrameGlowBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2129)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
 ChannelFrameGlowLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2135)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
 ChannelFrameGlowRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2143)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
 ChannelFrameShadowTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2148)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
 ChannelFrameShadowTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2154)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
 ChannelFrameShadowBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2160)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
 ChannelFrameShadowBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2166)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
 ChannelFrameShadowTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2172)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
 ChannelFrameShadowBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2178)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
 ChannelFrameShadowLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2184)
---- child of  (created in template GlowBoxTemplate)
+--- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
 --- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
 ChannelFrameShadowRight = {}
 

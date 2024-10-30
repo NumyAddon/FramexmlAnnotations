@@ -54,23 +54,23 @@
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L156)
---- child of 
+--- child of CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay
 --- @class CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderTopLeft : Texture, UI-Frame-InnerTopLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L161)
---- child of 
+--- child of CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay
 --- @class CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderTopRight : Texture, UI-Frame-InnerTopRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L166)
---- child of 
+--- child of CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay
 --- @class CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderBottomLeft : Texture, UI-Frame-InnerBotLeftCorner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L171)
---- child of 
+--- child of CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay
 --- @class CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderTop : Texture, _UI-Frame-InnerTopTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L177)
---- child of 
+--- child of CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay
 --- @class CommunitiesTicketManagerScrollFrameTemplate_ColumnDisplay_InsetBorderLeft : Texture, !UI-Frame-InnerLeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L148)
@@ -111,7 +111,7 @@
 --- @class CommunitiesTicketManagerDialog_GenerateLinkButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.xml#L200)
---- child of  (created in template UIPanelSquareButton)
+--- child of CommunitiesTicketManagerDialog_MaximizeButton (created in template UIPanelSquareButton)
 --- @type Texture
 CommunitiesTicketManagerDialogIcon = {}
 

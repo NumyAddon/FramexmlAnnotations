@@ -1,42 +1,42 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesCharacterSelector.xml#L12)
---- child of 
+--- child of CharacterServicesCharacterSelector_GlowBox
 --- @class CharacterServicesCharacterSelector_GlowBox_CharacterServicesCharacterSelectorGlowTopLeft : Texture
 CharacterServicesCharacterSelectorGlowTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesCharacterSelector.xml#L19)
---- child of 
+--- child of CharacterServicesCharacterSelector_GlowBox
 --- @class CharacterServicesCharacterSelector_GlowBox_CharacterServicesCharacterSelectorGlowTopRight : Texture
 CharacterServicesCharacterSelectorGlowTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesCharacterSelector.xml#L27)
---- child of 
+--- child of CharacterServicesCharacterSelector_GlowBox
 --- @class CharacterServicesCharacterSelector_GlowBox_CharacterServicesCharacterSelectorGlowBottomLeft : Texture
 CharacterServicesCharacterSelectorGlowBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesCharacterSelector.xml#L35)
---- child of 
+--- child of CharacterServicesCharacterSelector_GlowBox
 --- @class CharacterServicesCharacterSelector_GlowBox_CharacterServicesCharacterSelectorGlowBottomRight : Texture
 CharacterServicesCharacterSelectorGlowBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesCharacterSelector.xml#L43)
---- child of 
+--- child of CharacterServicesCharacterSelector_GlowBox
 --- @class CharacterServicesCharacterSelector_GlowBox_CharacterServicesCharacterSelectorGlowTop : Texture
 CharacterServicesCharacterSelectorGlowTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesCharacterSelector.xml#L51)
---- child of 
+--- child of CharacterServicesCharacterSelector_GlowBox
 --- @class CharacterServicesCharacterSelector_GlowBox_CharacterServicesCharacterSelectorGlowBottom : Texture
 CharacterServicesCharacterSelectorGlowBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesCharacterSelector.xml#L59)
---- child of 
+--- child of CharacterServicesCharacterSelector_GlowBox
 --- @class CharacterServicesCharacterSelector_GlowBox_CharacterServicesCharacterSelectorGlowLeft : Texture
 CharacterServicesCharacterSelectorGlowLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesCharacterSelector.xml#L67)
---- child of 
+--- child of CharacterServicesCharacterSelector_GlowBox
 --- @class CharacterServicesCharacterSelector_GlowBox_CharacterServicesCharacterSelectorGlowRight : Texture
 CharacterServicesCharacterSelectorGlowRight = {}
 

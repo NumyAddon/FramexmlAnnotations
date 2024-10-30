@@ -6,7 +6,7 @@
 --- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedWidgetFrames/Blizzard_UIWidgetCenterDisplayFrame.xml#L39)
---- child of 
+--- child of UIWidgetCenterDisplayFrame_TitleContainer
 --- @class UIWidgetCenterDisplayFrame_TitleContainer_Title : FontString, QuestFont_39
 --- @field layoutIndex number # 1
 

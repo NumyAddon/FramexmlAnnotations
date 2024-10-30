@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.xml#L10)
---- child of 
+--- child of STTTemplate_SubTextContainer
 --- @class STTTemplate_SubTextContainer_SubText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/TextToSpeech.xml#L7)

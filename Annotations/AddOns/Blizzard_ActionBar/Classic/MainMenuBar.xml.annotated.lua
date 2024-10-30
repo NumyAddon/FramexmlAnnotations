@@ -16,7 +16,7 @@
 --- @field Overlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L95)
---- child of 
+--- child of MainMenuBarWatchBarTemplate_OverlayFrame
 --- @class MainMenuBarWatchBarTemplate_OverlayFrame_Text : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L92)

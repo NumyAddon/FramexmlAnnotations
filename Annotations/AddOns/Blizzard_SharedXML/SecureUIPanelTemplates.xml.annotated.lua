@@ -59,7 +59,7 @@
 --- @class ScrollFrameTemplate : ScrollFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L191)
---- child of 
+--- child of InputScrollFrameTemplate_EditBox
 --- @class InputScrollFrameTemplate_EditBox_Instructions : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L184)

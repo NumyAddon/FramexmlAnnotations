@@ -435,7 +435,7 @@ CharacterStatsPaneCategory1CollapsedIcon = {}
 CharacterStatsPaneCategory1ExpandedIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L418)
---- child of 
+--- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory1 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory1 = {}
 CharacterStatsPaneCategory1["BgTop"] = CharacterStatsPaneCategory1BgTop -- inherited
@@ -516,7 +516,7 @@ CharacterStatsPaneCategory2CollapsedIcon = {}
 CharacterStatsPaneCategory2ExpandedIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L419)
---- child of 
+--- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory2 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory2 = {}
 CharacterStatsPaneCategory2["BgTop"] = CharacterStatsPaneCategory2BgTop -- inherited
@@ -597,7 +597,7 @@ CharacterStatsPaneCategory3CollapsedIcon = {}
 CharacterStatsPaneCategory3ExpandedIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L420)
---- child of 
+--- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory3 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory3 = {}
 CharacterStatsPaneCategory3["BgTop"] = CharacterStatsPaneCategory3BgTop -- inherited
@@ -678,7 +678,7 @@ CharacterStatsPaneCategory4CollapsedIcon = {}
 CharacterStatsPaneCategory4ExpandedIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L421)
---- child of 
+--- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory4 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory4 = {}
 CharacterStatsPaneCategory4["BgTop"] = CharacterStatsPaneCategory4BgTop -- inherited
@@ -759,7 +759,7 @@ CharacterStatsPaneCategory5CollapsedIcon = {}
 CharacterStatsPaneCategory5ExpandedIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L422)
---- child of 
+--- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory5 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory5 = {}
 CharacterStatsPaneCategory5["BgTop"] = CharacterStatsPaneCategory5BgTop -- inherited
@@ -840,7 +840,7 @@ CharacterStatsPaneCategory6CollapsedIcon = {}
 CharacterStatsPaneCategory6ExpandedIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L423)
---- child of 
+--- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory6 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory6 = {}
 CharacterStatsPaneCategory6["BgTop"] = CharacterStatsPaneCategory6BgTop -- inherited
@@ -921,7 +921,7 @@ CharacterStatsPaneCategory7CollapsedIcon = {}
 CharacterStatsPaneCategory7ExpandedIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L424)
---- child of 
+--- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory7 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory7 = {}
 CharacterStatsPaneCategory7["BgTop"] = CharacterStatsPaneCategory7BgTop -- inherited
@@ -933,7 +933,7 @@ CharacterStatsPaneCategory7["CollapsedIcon"] = CharacterStatsPaneCategory7Collap
 CharacterStatsPaneCategory7["ExpandedIcon"] = CharacterStatsPaneCategory7ExpandedIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L412)
---- child of 
+--- child of CharacterFrame_CharacterStatsPane_ScrollBox
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents : Frame, ResizeLayoutFrame
 --- @field scrollable boolean # true
 

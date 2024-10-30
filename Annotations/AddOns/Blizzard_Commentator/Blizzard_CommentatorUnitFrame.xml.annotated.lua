@@ -28,11 +28,11 @@
 --- @field Overlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L152)
---- child of 
+--- child of CommentatorUnitFrameTemplate_Circle
 --- @class CommentatorUnitFrameTemplate_Circle_CCCooldown : Cooldown, CommentatorRadialCooldownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L131)
---- child of 
+--- child of CommentatorUnitFrameTemplate_Circle
 --- @class CommentatorUnitFrameTemplate_Circle_CCText : FontString, CommentatorCCFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L67)
@@ -61,16 +61,16 @@
 --- @class CommentatorUnitFrameTemplate_RacialAbilityTracker : Frame, CooldownCircleTrackerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L196)
---- child of 
+--- child of CommentatorUnitFrameTemplate_Bars
 --- @class CommentatorUnitFrameTemplate_Bars_HealthBar : StatusBar, CommentatorUnitFrameStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L209)
---- child of 
+--- child of CommentatorUnitFrameTemplate_Bars
 --- @class CommentatorUnitFrameTemplate_Bars_AbsorbBar : StatusBar, CommentatorUFStatusBarTemplate
 --- @field OverAbsorb Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L226)
---- child of 
+--- child of CommentatorUnitFrameTemplate_Bars
 --- @class CommentatorUnitFrameTemplate_Bars_PowerBar : StatusBar, CommentatorUnitFrameStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L185)

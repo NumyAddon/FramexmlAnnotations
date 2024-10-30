@@ -24474,12 +24474,12 @@ ContainerFrame13["Portrait"] = ContainerFrame13Portrait -- inherited
 --- @class BagHelpBox_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L698)
---- child of  (created in template GlowBoxArrowTemplate)
+--- child of BagHelpBox_Arrow (created in template GlowBoxArrowTemplate)
 --- @type GlowBoxArrowTemplate_GlowBoxArrowTemplateArrow
 BagHelpBoxArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L705)
---- child of  (created in template GlowBoxArrowTemplate)
+--- child of BagHelpBox_Arrow (created in template GlowBoxArrowTemplate)
 --- @type GlowBoxArrowTemplate_GlowBoxArrowTemplateGlow
 BagHelpBoxGlow = {}
 

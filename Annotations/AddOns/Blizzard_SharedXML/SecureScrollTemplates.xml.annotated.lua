@@ -33,7 +33,7 @@
 --- @field ScrollBar UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L139)
---- child of 
+--- child of UIPanelInputScrollFrameTemplate_EditBox
 --- @class UIPanelInputScrollFrameTemplate_EditBox_Instructions : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L132)

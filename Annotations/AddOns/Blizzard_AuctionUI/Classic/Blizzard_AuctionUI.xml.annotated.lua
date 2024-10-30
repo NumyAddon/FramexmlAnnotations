@@ -450,19 +450,19 @@ BrowseScrollFrame["ScrollChildFrame"] = BrowseScrollFrameScrollChildFrame -- inh
 BrowseScrollFrame["ScrollBar"] = BrowseScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L458)
---- child of 
+--- child of AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Label : FontString, GameFontNormalHuge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L465)
---- child of 
+--- child of AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Tutorial1 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L478)
---- child of 
+--- child of AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Tutorial2 : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L484)
---- child of 
+--- child of AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Tutorial3 : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L451)
@@ -474,25 +474,25 @@ BrowseScrollFrame["ScrollBar"] = BrowseScrollFrameScrollBar -- inherited
 --- @field Tutorial3 AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_LeftDisplay_Tutorial3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L540)
---- child of 
+--- child of AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_StoreButton : Button, UIPanelGoldButtonTemplate
 --- @field Logo Texture
 StoreButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L500)
---- child of 
+--- child of AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_Label : FontString, GameFontNormalHuge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L507)
---- child of 
+--- child of AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_Tutorial1 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L520)
---- child of 
+--- child of AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_Tutorial2 : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L526)
---- child of 
+--- child of AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_Tutorial3 : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L493)

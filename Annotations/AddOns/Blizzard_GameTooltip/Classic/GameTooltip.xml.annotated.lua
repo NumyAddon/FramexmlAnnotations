@@ -429,7 +429,7 @@ EmbeddedItemTooltipTooltipTexture9 = {}
 EmbeddedItemTooltipTooltipTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L103)
---- child of  (created in template InternalEmbeddedItemTooltipTemplate)
+--- child of EmbeddedItemTooltip_ItemTooltip (created in template InternalEmbeddedItemTooltipTemplate)
 --- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateTooltip
 EmbeddedItemTooltipTooltip = {}
 EmbeddedItemTooltipTooltip["IsEmbedded"] = true

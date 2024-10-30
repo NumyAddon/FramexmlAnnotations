@@ -49,7 +49,7 @@
 --- @field Box ServerAlertTemplate_Box
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/ServerAlert.xml#L77)
---- child of 
+--- child of CollapsibleServerAlertTemplate_ExpandBar
 --- @class CollapsibleServerAlertTemplate_ExpandBar_Text : FontString, GlueFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/ServerAlert.xml#L69)

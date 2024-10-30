@@ -84,42 +84,42 @@ BankFrameItem1["searchOverlay"] = BankFrameItem1SearchOverlay -- inherited
 BankFrameItem1["subicon"] = BankFrameItem1SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L41)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag1 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L42)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag1 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateHighlightFrame
 BankSlotsFrameHighlightFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L85)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag1 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L88)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag1 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 BankSlotsFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L97)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag1 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 BankSlotsFrameStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L108)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag1 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L127)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag1 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L135)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag1 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameNormalTexture = {}
 
@@ -128,42 +128,42 @@ BankSlotsFrameNormalTexture = {}
 --- @class BankFrame_BankSlotsFrame_Bag1 : Button, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L41)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag2 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L42)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag2 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateHighlightFrame
 BankSlotsFrameHighlightFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L85)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag2 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L88)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag2 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 BankSlotsFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L97)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag2 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 BankSlotsFrameStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L108)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag2 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L127)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag2 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L135)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag2 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameNormalTexture = {}
 
@@ -172,42 +172,42 @@ BankSlotsFrameNormalTexture = {}
 --- @class BankFrame_BankSlotsFrame_Bag2 : Button, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L41)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag3 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L42)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag3 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateHighlightFrame
 BankSlotsFrameHighlightFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L85)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag3 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L88)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag3 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 BankSlotsFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L97)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag3 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 BankSlotsFrameStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L108)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag3 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L127)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag3 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L135)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag3 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameNormalTexture = {}
 
@@ -216,42 +216,42 @@ BankSlotsFrameNormalTexture = {}
 --- @class BankFrame_BankSlotsFrame_Bag3 : Button, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L41)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag4 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L42)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag4 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateHighlightFrame
 BankSlotsFrameHighlightFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L85)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag4 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L88)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag4 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 BankSlotsFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L97)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag4 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 BankSlotsFrameStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L108)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag4 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L127)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag4 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L135)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag4 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameNormalTexture = {}
 
@@ -260,42 +260,42 @@ BankSlotsFrameNormalTexture = {}
 --- @class BankFrame_BankSlotsFrame_Bag4 : Button, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L41)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag5 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L42)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag5 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateHighlightFrame
 BankSlotsFrameHighlightFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L85)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag5 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L88)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag5 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 BankSlotsFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L97)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag5 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 BankSlotsFrameStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L108)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag5 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L127)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag5 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L135)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag5 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameNormalTexture = {}
 
@@ -304,42 +304,42 @@ BankSlotsFrameNormalTexture = {}
 --- @class BankFrame_BankSlotsFrame_Bag5 : Button, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L41)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag6 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L42)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag6 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateHighlightFrame
 BankSlotsFrameHighlightFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L85)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag6 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L88)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag6 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 BankSlotsFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L97)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag6 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 BankSlotsFrameStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L108)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag6 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L127)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag6 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L135)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag6 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameNormalTexture = {}
 
@@ -348,42 +348,42 @@ BankSlotsFrameNormalTexture = {}
 --- @class BankFrame_BankSlotsFrame_Bag6 : Button, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L41)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag7 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L42)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag7 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateHighlightFrame
 BankSlotsFrameHighlightFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L85)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag7 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L88)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag7 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 BankSlotsFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L97)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag7 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 BankSlotsFrameStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L108)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag7 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L127)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag7 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameSubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/BankFrame.xml#L135)
---- child of  (created in template ItemButtonTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag7 (created in template ItemButtonTemplate)
 --- @type Texture
 BankSlotsFrameNormalTexture = {}
 

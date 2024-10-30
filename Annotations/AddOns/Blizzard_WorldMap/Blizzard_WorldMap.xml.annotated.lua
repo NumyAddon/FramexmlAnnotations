@@ -19,17 +19,17 @@ WorldMapScreenAnchor = {}
 --- @field Blackout Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L57)
---- child of 
+--- child of WorldMapFrame_MiniBorderFrame
 --- @class WorldMapFrame_MiniBorderFrame_MiniBorderLeft : Texture
 MiniBorderLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L69)
---- child of 
+--- child of WorldMapFrame_MiniBorderFrame
 --- @class WorldMapFrame_MiniBorderFrame_MiniBorderRight : Texture
 MiniBorderRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L81)
---- child of 
+--- child of WorldMapFrame_MiniBorderFrame
 --- @class WorldMapFrame_MiniBorderFrame_MiniWorldMapTitle : FontString, GameFontNormal
 MiniWorldMapTitle = {}
 

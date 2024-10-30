@@ -91,7 +91,7 @@
 CommunitiesGuildTextEditFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L318)
---- child of 
+--- child of CommunitiesGuildTextEditFrame_Container
 --- @class CommunitiesGuildTextEditFrame_Container_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 6
 --- @field EditBox EditBox
@@ -184,12 +184,12 @@ CommunitiesGuildTextEditFrame["RightBorder"] = CommunitiesGuildTextEditFrameRigh
 CommunitiesGuildLogFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L420)
---- child of 
+--- child of CommunitiesGuildLogFrame_Container_ScrollFrame
 --- @class CommunitiesGuildLogFrame_Container_ScrollFrame_Child : Frame
 --- @field HTMLFrame SimpleHTML
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L413)
---- child of 
+--- child of CommunitiesGuildLogFrame_Container
 --- @class CommunitiesGuildLogFrame_Container_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field Child CommunitiesGuildLogFrame_Container_ScrollFrame_Child
 

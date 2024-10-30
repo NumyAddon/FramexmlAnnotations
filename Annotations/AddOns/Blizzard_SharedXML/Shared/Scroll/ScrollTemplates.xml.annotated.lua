@@ -18,7 +18,7 @@
 --- @field isHorizontal boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L29)
---- child of 
+--- child of ScrollingEditBoxTemplate_ScrollBox
 --- @class ScrollingEditBoxTemplate_ScrollBox_EditBox : EventEditBox
 --- @field scrollable boolean # true
 
@@ -34,7 +34,7 @@
 --- @field ScrollBox ScrollingEditBoxTemplate_ScrollBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L48)
---- child of 
+--- child of ScrollingFontTemplate_ScrollBox
 --- @class ScrollingFontTemplate_ScrollBox_FontStringContainer : Frame
 --- @field scrollable boolean # true
 --- @field FontString FontString

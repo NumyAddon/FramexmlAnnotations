@@ -21,7 +21,7 @@
 --- @field Label EventTraceMenuButtonTemplate_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L72)
---- child of 
+--- child of EventTraceScrollBoxButtonTemplate_FlashOverlay
 --- @class EventTraceScrollBoxButtonTemplate_FlashOverlay_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L69)
@@ -97,15 +97,15 @@
 --- @class EventTrace_ResizeButton : Button, PanelResizeButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L195)
---- child of 
+--- child of EventTrace_SubtitleBar
 --- @class EventTrace_SubtitleBar_ViewLog : Button, EventTraceMenuButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L200)
---- child of 
+--- child of EventTrace_SubtitleBar
 --- @class EventTrace_SubtitleBar_ViewFilter : Button, EventTraceMenuButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L205)
---- child of 
+--- child of EventTrace_SubtitleBar
 --- @class EventTrace_SubtitleBar_OptionsDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L188)
@@ -116,39 +116,39 @@
 --- @field OptionsDropdown EventTrace_SubtitleBar_OptionsDropdown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L235)
---- child of 
+--- child of EventTrace_Log_Bar
 --- @class EventTrace_Log_Bar_MarkButton : Button, EventTraceMenuButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L240)
---- child of 
+--- child of EventTrace_Log_Bar
 --- @class EventTrace_Log_Bar_PlaybackButton : Button, EventTraceMenuButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L245)
---- child of 
+--- child of EventTrace_Log_Bar
 --- @class EventTrace_Log_Bar_DiscardAllButton : Button, EventTraceMenuButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1262)
---- child of  (created in template SearchBoxTemplate)
+--- child of EventTrace_Log_Bar_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 EventTraceClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1253)
---- child of  (created in template SearchBoxTemplate)
+--- child of EventTrace_Log_Bar_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 EventTraceSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L250)
---- child of 
+--- child of EventTrace_Log_Bar
 --- Template
 --- Adds itself to the parent with key `SearchBox`
 --- @class EventTrace_Log_Bar_SearchBox : EditBox, SearchBoxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L226)
---- child of 
+--- child of EventTrace_Log_Bar
 --- @class EventTrace_Log_Bar_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L218)
---- child of 
+--- child of EventTrace_Log
 --- @class EventTrace_Log_Bar : Frame
 --- @field MarkButton EventTrace_Log_Bar_MarkButton
 --- @field PlaybackButton EventTrace_Log_Bar_PlaybackButton
@@ -157,29 +157,29 @@ EventTraceSearchIcon = {}
 --- @field Label EventTrace_Log_Bar_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L264)
---- child of 
+--- child of EventTrace_Log_Events
 --- @class EventTrace_Log_Events_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L277)
---- child of 
+--- child of EventTrace_Log_Events
 --- @class EventTrace_Log_Events_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L258)
---- child of 
+--- child of EventTrace_Log
 --- @class EventTrace_Log_Events : Frame
 --- @field ScrollBox EventTrace_Log_Events_ScrollBox
 --- @field ScrollBar EventTrace_Log_Events_ScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L291)
---- child of 
+--- child of EventTrace_Log_Search
 --- @class EventTrace_Log_Search_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L304)
---- child of 
+--- child of EventTrace_Log_Search
 --- @class EventTrace_Log_Search_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L285)
---- child of 
+--- child of EventTrace_Log
 --- @class EventTrace_Log_Search : Frame
 --- @field ScrollBox EventTrace_Log_Search_ScrollBox
 --- @field ScrollBar EventTrace_Log_Search_ScrollBar
@@ -192,23 +192,23 @@ EventTraceSearchIcon = {}
 --- @field Search EventTrace_Log_Search
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L337)
---- child of 
+--- child of EventTrace_Filter_Bar
 --- @class EventTrace_Filter_Bar_CheckAllButton : Button, EventTraceMenuButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L342)
---- child of 
+--- child of EventTrace_Filter_Bar
 --- @class EventTrace_Filter_Bar_UncheckAllButton : Button, EventTraceMenuButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L347)
---- child of 
+--- child of EventTrace_Filter_Bar
 --- @class EventTrace_Filter_Bar_DiscardAllButton : Button, EventTraceMenuButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L328)
---- child of 
+--- child of EventTrace_Filter_Bar
 --- @class EventTrace_Filter_Bar_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L320)
---- child of 
+--- child of EventTrace_Filter
 --- @class EventTrace_Filter_Bar : Frame
 --- @field CheckAllButton EventTrace_Filter_Bar_CheckAllButton
 --- @field UncheckAllButton EventTrace_Filter_Bar_UncheckAllButton
@@ -216,11 +216,11 @@ EventTraceSearchIcon = {}
 --- @field Label EventTrace_Filter_Bar_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L355)
---- child of 
+--- child of EventTrace_Filter
 --- @class EventTrace_Filter_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L368)
---- child of 
+--- child of EventTrace_Filter
 --- @class EventTrace_Filter_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L314)

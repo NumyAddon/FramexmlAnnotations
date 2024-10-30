@@ -26,31 +26,31 @@
 --- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L188)
---- child of 
+--- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
 --- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_TextFrameBg : Texture, QuestPortrait-MrBrownstone
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L194)
---- child of 
+--- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
 --- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderBottomLeft : Texture, UI-Frame-BotCornerLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L199)
---- child of 
+--- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
 --- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderBottomRight : Texture, UI-Frame-BotCornerRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L204)
---- child of 
+--- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
 --- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderBottom : Texture, _UI-Frame-Bot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L210)
---- child of 
+--- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
 --- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderLeft : Texture, !UI-Frame-LeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L216)
---- child of 
+--- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
 --- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderRight : Texture, !UI-Frame-RightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L222)
---- child of 
+--- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
 --- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BossLocationText : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L181)
@@ -141,7 +141,7 @@
 --- @field CornerBottomRight CommunitiesGuildNewsBossModelTemplate_CornerBottomRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L329)
---- child of 
+--- child of CommunitiesGuildNewsFrameTemplate_GMImpeachButton
 --- @class CommunitiesGuildNewsFrameTemplate_GMImpeachButton_Text : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L317)

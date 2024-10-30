@@ -33,7 +33,7 @@
 --- @class productchoice_card : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L88)
---- child of 
+--- child of ProductChoiceItemDisplayTemplate_ModelScene
 --- @class ProductChoiceItemDisplayTemplate_ModelScene_PreviewButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L82)
@@ -42,7 +42,7 @@
 --- @field PreviewButton ProductChoiceItemDisplayTemplate_ModelScene_PreviewButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L107)
---- child of 
+--- child of ProductChoiceItemDisplayTemplate_Covers
 --- @class ProductChoiceItemDisplayTemplate_Covers_CheckMark : Texture, productchoice-icon-checkmark
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L104)
@@ -88,23 +88,23 @@
 --- @class ProductChoiceItemTemplate : CheckButton, ProductChoiceItemDisplayTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L204)
---- child of 
+--- child of ProductChoiceFrame_Inset_NoTakeBacksies_Dialog
 --- @class ProductChoiceFrame_Inset_NoTakeBacksies_Dialog_ItemPreview : Frame, ProductChoiceItemDisplayTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L209)
---- child of 
+--- child of ProductChoiceFrame_Inset_NoTakeBacksies_Dialog
 --- @class ProductChoiceFrame_Inset_NoTakeBacksies_Dialog_AcceptButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L221)
---- child of 
+--- child of ProductChoiceFrame_Inset_NoTakeBacksies_Dialog
 --- @class ProductChoiceFrame_Inset_NoTakeBacksies_Dialog_DeclineButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L195)
---- child of 
+--- child of ProductChoiceFrame_Inset_NoTakeBacksies_Dialog
 --- @class ProductChoiceFrame_Inset_NoTakeBacksies_Dialog_Text : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L185)
---- child of 
+--- child of ProductChoiceFrame_Inset_NoTakeBacksies
 --- @class ProductChoiceFrame_Inset_NoTakeBacksies_Dialog : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field ItemPreview ProductChoiceFrame_Inset_NoTakeBacksies_Dialog_ItemPreview
@@ -113,69 +113,69 @@
 --- @field Text ProductChoiceFrame_Inset_NoTakeBacksies_Dialog_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L176)
---- child of 
+--- child of ProductChoiceFrame_Inset
 --- @class ProductChoiceFrame_Inset_NoTakeBacksies : Frame
 --- @field Dialog ProductChoiceFrame_Inset_NoTakeBacksies_Dialog
 --- @field Cover Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L242)
---- child of 
+--- child of ProductChoiceFrame_Inset
 --- @class ProductChoiceFrame_Inset_ClaimButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L254)
---- child of 
+--- child of ProductChoiceFrame_Inset
 --- @class ProductChoiceFrame_Inset_PrevPageButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L269)
---- child of 
+--- child of ProductChoiceFrame_Inset
 --- @class ProductChoiceFrame_Inset_NextPageButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L168)
---- child of 
+--- child of ProductChoiceFrame_Inset
 --- @class ProductChoiceFrame_Inset_PageText : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L796)
---- child of  (created in template InsetFrameTemplate)
+--- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
 --- @type Texture
 ProductChoiceFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L804)
---- child of  (created in template InsetFrameTemplate)
+--- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
 ProductChoiceFrameInsetTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L809)
---- child of  (created in template InsetFrameTemplate)
+--- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
 ProductChoiceFrameInsetTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L815)
---- child of  (created in template InsetFrameTemplate)
+--- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
 ProductChoiceFrameInsetBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L821)
---- child of  (created in template InsetFrameTemplate)
+--- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
 ProductChoiceFrameInsetBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L827)
---- child of  (created in template InsetFrameTemplate)
+--- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
 ProductChoiceFrameInsetTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L833)
---- child of  (created in template InsetFrameTemplate)
+--- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
 ProductChoiceFrameInsetBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L839)
---- child of  (created in template InsetFrameTemplate)
+--- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
 ProductChoiceFrameInsetLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L845)
---- child of  (created in template InsetFrameTemplate)
+--- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 ProductChoiceFrameInsetRightBorder = {}
 

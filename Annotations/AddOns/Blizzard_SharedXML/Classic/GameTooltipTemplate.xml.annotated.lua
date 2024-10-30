@@ -132,7 +132,7 @@
 --- @field Text TooltipStatusBarTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L484)
---- child of 
+--- child of TooltipProgressBarTemplate_Bar
 --- @class TooltipProgressBarTemplate_Bar_Label : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L438)

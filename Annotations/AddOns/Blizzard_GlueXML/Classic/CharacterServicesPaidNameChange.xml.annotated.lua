@@ -7,11 +7,11 @@
 PNCCharacterSelect = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidNameChange.xml#L29)
---- child of 
+--- child of PNCNameSelect_ControlsFrame
 --- @class PNCNameSelect_ControlsFrame_NewNameEditbox : EditBox, CharacterServicesEditBoxHorizontalLabelTemplate, NewNameEditboxMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidNameChange.xml#L21)
---- child of 
+--- child of PNCNameSelect_ControlsFrame
 --- @class PNCNameSelect_ControlsFrame_NewNameLabel : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesPaidNameChange.xml#L18)

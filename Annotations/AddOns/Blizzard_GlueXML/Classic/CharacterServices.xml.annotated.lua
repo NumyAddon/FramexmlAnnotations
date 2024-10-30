@@ -67,55 +67,55 @@
 --- @field Label CharacterServicesBonusResultTemplate_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L103)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_CreateCharacterButton : Button, GlueButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L109)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_CreateCharacterClassTrialButton : Button, GlueButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L119)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowTopLeft : Texture
 CharacterUpgradeSelectCharacterFrameGlowTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L126)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowTopRight : Texture
 CharacterUpgradeSelectCharacterFrameGlowTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L134)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowBottomLeft : Texture
 CharacterUpgradeSelectCharacterFrameGlowBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L142)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowBottomRight : Texture
 CharacterUpgradeSelectCharacterFrameGlowBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L150)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowTop : Texture
 CharacterUpgradeSelectCharacterFrameGlowTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L158)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowBottom : Texture
 CharacterUpgradeSelectCharacterFrameGlowBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L166)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowLeft : Texture
 CharacterUpgradeSelectCharacterFrameGlowLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L174)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowRight : Texture
 CharacterUpgradeSelectCharacterFrameGlowRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L115)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox : Frame
 --- @field GlowTopLeft CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowTopLeft
 --- @field GlowTopRight CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowTopRight
@@ -127,29 +127,29 @@ CharacterUpgradeSelectCharacterFrameGlowRight = {}
 --- @field GlowRight CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L199)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel_BonusIcon : Texture, services-icon-bonus-large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L204)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel_BonusText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L194)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel : Frame
 --- @field BonusIcon CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel_BonusIcon
 --- @field BonusText CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel_BonusText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L90)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_OrLabel : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L93)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_OrLabel2 : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L96)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_ClassTrialButtonHintText : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L87)
@@ -166,11 +166,11 @@ CharacterUpgradeSelectCharacterFrameGlowRight = {}
 --- @field BonusIcons table<number, CharacterServicesBonusIconTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L223)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_NoBonusResult
 --- @class CharacterUpgradeSelectCharacterFrame_NoBonusResult_Icon : Texture, services-icon-bonus-red
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L228)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_NoBonusResult
 --- @class CharacterUpgradeSelectCharacterFrame_NoBonusResult_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L216)

@@ -10,7 +10,7 @@
 --- @field Text ReportingFrameMinorCategoryButtonTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L105)
---- child of 
+--- child of SharedReportFrameTemplate_ReportingMajorCategoryDropdown
 --- @class SharedReportFrameTemplate_ReportingMajorCategoryDropdown_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L99)

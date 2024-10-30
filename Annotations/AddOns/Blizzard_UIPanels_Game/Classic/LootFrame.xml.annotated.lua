@@ -403,7 +403,7 @@ LootFrame["LeftBorder"] = LootFrameLeftBorder -- inherited
 LootFrame["RightBorder"] = LootFrameRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L241)
---- child of 
+--- child of GroupLootFrameTemplate_IconFrame
 --- @class GroupLootFrameTemplate_IconFrame_Count : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L226)
@@ -579,7 +579,7 @@ GroupLootFrame4["Name"] = GroupLootFrame4Name -- inherited
 --- @field Name MasterLooterPlayerTemplate_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L461)
---- child of 
+--- child of MasterLooterFrame_Item
 --- @class MasterLooterFrame_Item_ItemName : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L414)

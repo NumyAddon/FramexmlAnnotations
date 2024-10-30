@@ -229,12 +229,18 @@ RealmListScrollFrameScrollBar["Bottom"] = RealmListScrollFrameScrollBarBottom --
 RealmListScrollFrameScrollBar["Middle"] = RealmListScrollFrameScrollBarMiddle -- inherited
 RealmListScrollFrameScrollBar["thumbTexture"] = RealmListScrollFrameScrollBarThumbTexture -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L184)
+--- child of RealmListScrollFrame (created in template HybridScrollFrameTemplate)
+--- @type Frame
+RealmListScrollFrameScrollChild = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L509)
 --- child of RealmListBackground
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListScrollFrame : ScrollFrame, HybridScrollFrameTemplate
 --- @field scrollBar RealmListUI_RealmList_RealmListBackground_RealmListScrollFrame_RealmListScrollFrameScrollBar
 RealmListScrollFrame = {}
 RealmListScrollFrame["scrollBar"] = RealmListScrollFrameScrollBar
+RealmListScrollFrame["ScrollChild"] = RealmListScrollFrameScrollChild -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Vanilla/RealmList.xml#L529)
 --- child of RealmListBackground

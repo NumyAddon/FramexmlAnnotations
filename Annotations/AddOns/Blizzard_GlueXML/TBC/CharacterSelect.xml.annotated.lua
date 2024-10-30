@@ -1495,6 +1495,11 @@ CopyCharacterFrameRegionID["menuMixin"] = MenuStyle1Mixin -- inherited
 --- @class CopyCharacterFrame_CharacterName : EditBox, InputBoxTemplate
 --- @field Text CopyCharacterFrame_CharacterName_Text
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L2339)
+--- child of CopyCharacterFrameScrollFrame
+--- @class CopyCharacterFrame_CopyCharacterFrameScrollFrame_CopyCharacterFrameScrollFrameScrollChildFrame : Frame
+CopyCharacterFrameScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L2311)
 --- child of CopyCharacterFrameScrollFrame
 --- @class CopyCharacterFrame_CopyCharacterFrameScrollFrame_CopyCharacterFrameScrollFrameScrollBarTop : Texture
@@ -1509,6 +1514,11 @@ CopyCharacterFrameScrollFrameScrollBarBottom = {}
 --- child of CopyCharacterFrameScrollFrame
 --- @class CopyCharacterFrame_CopyCharacterFrameScrollFrame_CopyCharacterFrameScrollFrameScrollBarMiddle : Texture
 CopyCharacterFrameScrollFrameScrollBarMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L163)
+--- child of CopyCharacterFrameScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+CopyCharacterFrameScrollFrameScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L10)
 --- child of CopyCharacterFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
@@ -1537,6 +1547,7 @@ CopyCharacterFrameScrollFrameScrollBar["ThumbTexture"] = CopyCharacterFrameScrol
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_CopyCharacterFrameScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 CopyCharacterFrameScrollFrame = {}
+CopyCharacterFrameScrollFrame["ScrollChildFrame"] = CopyCharacterFrameScrollFrameScrollChildFrame -- inherited
 CopyCharacterFrameScrollFrame["ScrollBar"] = CopyCharacterFrameScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L2344)

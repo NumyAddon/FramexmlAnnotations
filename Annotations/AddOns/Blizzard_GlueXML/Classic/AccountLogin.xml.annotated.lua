@@ -219,6 +219,7 @@ WoWAccountSelectDialogScrollFrameScrollBar["ScrollDownButton"] = WoWAccountSelec
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L582)
 --- child of 
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_Container_WoWAccountSelectDialogScrollFrame : ScrollFrame, GlueScrollFrameTemplate
+--- @field ChildFrame Frame
 WoWAccountSelectDialogScrollFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L533)

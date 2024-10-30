@@ -262,6 +262,11 @@ Craft8Highlight = {}
 --- @class CraftFrame_Craft8 : Button, CraftButtonTemplate
 Craft8 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L163)
+--- child of CraftListScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+CraftListScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L10)
 --- child of CraftListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -289,7 +294,290 @@ CraftListScrollFrameScrollBar["ThumbTexture"] = CraftListScrollFrameScrollBarThu
 --- child of CraftFrame
 --- @class CraftFrame_CraftListScrollFrame : ScrollFrame, ClassTrainerListScrollFrameTemplate
 CraftListScrollFrame = {}
+CraftListScrollFrame["ScrollChildFrame"] = CraftListScrollFrameScrollChildFrame -- inherited
 CraftListScrollFrame["ScrollBar"] = CraftListScrollFrameScrollBar -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L609)
+--- child of CraftIcon
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftIcon_CraftIconCount : FontString, NumberFontNormal
+CraftIconCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L596)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftIcon : Button
+CraftIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L206)
+--- child of CraftReagent1 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent1IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L212)
+--- child of CraftReagent1 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent1NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L220)
+--- child of CraftReagent1 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+CraftReagent1Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L228)
+--- child of CraftReagent1 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+CraftReagent1Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L628)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftReagent1 : Button, CraftItemTemplate
+CraftReagent1 = {}
+CraftReagent1["Icon"] = CraftReagent1IconTexture -- inherited
+CraftReagent1["NameFrame"] = CraftReagent1NameFrame -- inherited
+CraftReagent1["Name"] = CraftReagent1Name -- inherited
+CraftReagent1["Count"] = CraftReagent1Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L206)
+--- child of CraftReagent2 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent2IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L212)
+--- child of CraftReagent2 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent2NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L220)
+--- child of CraftReagent2 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+CraftReagent2Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L228)
+--- child of CraftReagent2 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+CraftReagent2Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L637)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftReagent2 : Button, CraftItemTemplate
+CraftReagent2 = {}
+CraftReagent2["Icon"] = CraftReagent2IconTexture -- inherited
+CraftReagent2["NameFrame"] = CraftReagent2NameFrame -- inherited
+CraftReagent2["Name"] = CraftReagent2Name -- inherited
+CraftReagent2["Count"] = CraftReagent2Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L206)
+--- child of CraftReagent3 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent3IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L212)
+--- child of CraftReagent3 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent3NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L220)
+--- child of CraftReagent3 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+CraftReagent3Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L228)
+--- child of CraftReagent3 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+CraftReagent3Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L646)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftReagent3 : Button, CraftItemTemplate
+CraftReagent3 = {}
+CraftReagent3["Icon"] = CraftReagent3IconTexture -- inherited
+CraftReagent3["NameFrame"] = CraftReagent3NameFrame -- inherited
+CraftReagent3["Name"] = CraftReagent3Name -- inherited
+CraftReagent3["Count"] = CraftReagent3Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L206)
+--- child of CraftReagent4 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent4IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L212)
+--- child of CraftReagent4 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent4NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L220)
+--- child of CraftReagent4 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+CraftReagent4Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L228)
+--- child of CraftReagent4 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+CraftReagent4Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L655)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftReagent4 : Button, CraftItemTemplate
+CraftReagent4 = {}
+CraftReagent4["Icon"] = CraftReagent4IconTexture -- inherited
+CraftReagent4["NameFrame"] = CraftReagent4NameFrame -- inherited
+CraftReagent4["Name"] = CraftReagent4Name -- inherited
+CraftReagent4["Count"] = CraftReagent4Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L206)
+--- child of CraftReagent5 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent5IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L212)
+--- child of CraftReagent5 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent5NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L220)
+--- child of CraftReagent5 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+CraftReagent5Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L228)
+--- child of CraftReagent5 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+CraftReagent5Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L664)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftReagent5 : Button, CraftItemTemplate
+CraftReagent5 = {}
+CraftReagent5["Icon"] = CraftReagent5IconTexture -- inherited
+CraftReagent5["NameFrame"] = CraftReagent5NameFrame -- inherited
+CraftReagent5["Name"] = CraftReagent5Name -- inherited
+CraftReagent5["Count"] = CraftReagent5Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L206)
+--- child of CraftReagent6 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent6IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L212)
+--- child of CraftReagent6 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent6NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L220)
+--- child of CraftReagent6 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+CraftReagent6Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L228)
+--- child of CraftReagent6 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+CraftReagent6Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L673)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftReagent6 : Button, CraftItemTemplate
+CraftReagent6 = {}
+CraftReagent6["Icon"] = CraftReagent6IconTexture -- inherited
+CraftReagent6["NameFrame"] = CraftReagent6NameFrame -- inherited
+CraftReagent6["Name"] = CraftReagent6Name -- inherited
+CraftReagent6["Count"] = CraftReagent6Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L206)
+--- child of CraftReagent7 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent7IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L212)
+--- child of CraftReagent7 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent7NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L220)
+--- child of CraftReagent7 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+CraftReagent7Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L228)
+--- child of CraftReagent7 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+CraftReagent7Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L682)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftReagent7 : Button, CraftItemTemplate
+CraftReagent7 = {}
+CraftReagent7["Icon"] = CraftReagent7IconTexture -- inherited
+CraftReagent7["NameFrame"] = CraftReagent7NameFrame -- inherited
+CraftReagent7["Name"] = CraftReagent7Name -- inherited
+CraftReagent7["Count"] = CraftReagent7Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L206)
+--- child of CraftReagent8 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent8IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L212)
+--- child of CraftReagent8 (created in template LargeItemButtonTemplate)
+--- @type Texture
+CraftReagent8NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L220)
+--- child of CraftReagent8 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+CraftReagent8Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L228)
+--- child of CraftReagent8 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+CraftReagent8Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L691)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftReagent8 : Button, CraftItemTemplate
+CraftReagent8 = {}
+CraftReagent8["Icon"] = CraftReagent8IconTexture -- inherited
+CraftReagent8["NameFrame"] = CraftReagent8NameFrame -- inherited
+CraftReagent8["Name"] = CraftReagent8Name -- inherited
+CraftReagent8["Count"] = CraftReagent8Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L509)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftName : FontString, GameFontNormal
+CraftName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L521)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftRequirements : FontString, GameFontHighlightSmall
+CraftRequirements = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L530)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftCost : FontString, GameFontHighlightSmall
+CraftCost = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L539)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftCooldown : FontString, GameFontRedSmall
+CraftCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L548)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftDetailHeaderLeft : Texture
+CraftDetailHeaderLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L572)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftDescription : FontString, GameFontHighlightSmall
+CraftDescription = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L584)
+--- child of CraftDetailScrollChildFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame_CraftReagentLabel : FontString, GameFontNormalSmall
+CraftReagentLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L503)
+--- child of CraftDetailScrollFrame
+--- @class CraftFrame_CraftDetailScrollFrame_CraftDetailScrollChildFrame : Frame
+CraftDetailScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/TBC/Blizzard_CraftUI.xml#L84)
 --- child of CraftDetailScrollFrame (created in template ClassTrainerDetailScrollFrameTemplate)

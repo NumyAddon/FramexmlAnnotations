@@ -58,6 +58,15 @@
 --- Template
 --- @class ScrollFrameTemplate : ScrollFrame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L191)
+--- child of 
+--- @class InputScrollFrameTemplate_EditBox_Instructions : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L184)
+--- child of InputScrollFrameTemplate
+--- @class InputScrollFrameTemplate_EditBox : EditBox
+--- @field Instructions InputScrollFrameTemplate_EditBox_Instructions
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L172)
 --- child of InputScrollFrameTemplate
 --- @class InputScrollFrameTemplate_CharCount : FontString, GameFontDisableLarge
@@ -66,6 +75,7 @@
 --- Template
 --- @class InputScrollFrameTemplate : ScrollFrame, ScrollFrameTemplate
 --- @field maxLetters number # 0
+--- @field EditBox InputScrollFrameTemplate_EditBox
 --- @field TopLeftTex Texture
 --- @field TopRightTex Texture
 --- @field TopTex Texture

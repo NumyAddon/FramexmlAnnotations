@@ -230,11 +230,17 @@ GlyphFrameScrollFrameScrollBar["ScrollBarBottom"] = GlyphFrameScrollFrameScrollB
 GlyphFrameScrollFrameScrollBar["ScrollBarMiddle"] = GlyphFrameScrollFrameScrollBarMiddle -- inherited
 GlyphFrameScrollFrameScrollBar["thumbTexture"] = GlyphFrameScrollFrameScrollBarThumbTexture -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L184)
+--- child of GlyphFrameScrollFrame (created in template HybridScrollFrameTemplate)
+--- @type Frame
+GlyphFrameScrollFrameScrollChild = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L464)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameScrollFrame : ScrollFrame, HybridScrollFrameTemplate
 --- @field scrollBar GlyphFrame_GlyphFrameScrollFrame_GlyphFrameScrollFrameScrollBar
 GlyphFrameScrollFrame = {}
+GlyphFrameScrollFrame["ScrollChild"] = GlyphFrameScrollFrameScrollChild -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L195)
 --- child of GlyphFrameGlyph2 (created in template GlyphTemplate)

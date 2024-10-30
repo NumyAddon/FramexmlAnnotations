@@ -88,6 +88,7 @@ LootHistoryFrameScrollFrameScrollBar["ThumbTexture"] = LootHistoryFrameScrollFra
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L277)
 --- child of LootHistoryFrame
 --- @class LootHistoryFrame_LootHistoryFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
+--- @field ScrollChild Frame
 --- @field ScrollBarBackground Texture
 LootHistoryFrameScrollFrame = {}
 LootHistoryFrameScrollFrame["ScrollBar"] = LootHistoryFrameScrollFrameScrollBar -- inherited

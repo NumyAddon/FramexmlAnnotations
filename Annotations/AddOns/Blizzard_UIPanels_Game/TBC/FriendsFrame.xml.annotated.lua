@@ -189,6 +189,15 @@ FriendsFrameBattlenetFrameTexture = {}
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton : Button, UIPanelInfoButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L963)
+--- child of 
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame_EditBox_PromptText : FontString, FriendsFont_Small
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L959)
+--- child of FriendsFrameBattlenetFrameScrollFrame
+--- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame_EditBox : EditBox
+--- @field PromptText FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame_EditBox_PromptText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L921)
 --- child of FriendsFrameBattlenetFrameScrollFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame_UpdateButton : Button, UIPanelButtonTemplate
@@ -223,6 +232,7 @@ FriendsFrameBattlenetFrameScrollFrameScrollBar["ThumbTexture"] = FriendsFrameBat
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L856)
 --- child of 
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
+--- @field EditBox FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame_EditBox
 --- @field UpdateButton FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame_UpdateButton
 --- @field CancelButton FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame_CancelButton
 --- @field TopLeftBorder Texture
@@ -569,12 +579,18 @@ FriendsFrameFriendsScrollFrameBottom = {}
 --- @class FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_FriendsFrameFriendsScrollFrameMiddle : Texture
 FriendsFrameFriendsScrollFrameMiddle = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L184)
+--- child of FriendsFrameFriendsScrollFrame (created in template HybridScrollFrameTemplate)
+--- @type Frame
+FriendsFrameFriendsScrollFrameScrollChild = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1308)
 --- child of FriendsListFrame
 --- @class FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame : ScrollFrame, HybridScrollFrameTemplate
 --- @field PendingInvitesHeaderButton FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton
 --- @field scrollBar FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_FriendsFrameFriendsScrollFrameScrollBar
 FriendsFrameFriendsScrollFrame = {}
+FriendsFrameFriendsScrollFrame["ScrollChild"] = FriendsFrameFriendsScrollFrameScrollChild -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1217)
 --- child of FriendsFrame
@@ -635,6 +651,11 @@ FriendsFrameIgnoreButton1Name = {}
 FriendsFrameIgnoreButton1 = {}
 FriendsFrameIgnoreButton1["name"] = FriendsFrameIgnoreButton1Name -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L163)
+--- child of FriendsFrameIgnoreScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+FriendsFrameIgnoreScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L10)
 --- child of FriendsFrameIgnoreScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -662,6 +683,7 @@ FriendsFrameIgnoreScrollFrameScrollBar["ThumbTexture"] = FriendsFrameIgnoreScrol
 --- child of IgnoreListFrame
 --- @class FriendsFrame_IgnoreListFrame_FriendsFrameIgnoreScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 FriendsFrameIgnoreScrollFrame = {}
+FriendsFrameIgnoreScrollFrame["ScrollChildFrame"] = FriendsFrameIgnoreScrollFrameScrollChildFrame -- inherited
 FriendsFrameIgnoreScrollFrame["ScrollBar"] = FriendsFrameIgnoreScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1413)
@@ -978,6 +1000,11 @@ WhoFrameEditBoxInset["InsetBorderRight"] = WhoFrameEditBoxInsetInsetRightBorder 
 --- @class FriendsFrame_WhoFrame_WhoFrameEditBox : EditBox
 WhoFrameEditBox = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L163)
+--- child of WhoListScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+WhoListScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L10)
 --- child of WhoListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -1005,6 +1032,7 @@ WhoListScrollFrameScrollBar["ThumbTexture"] = WhoListScrollFrameScrollBarThumbTe
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 WhoListScrollFrame = {}
+WhoListScrollFrame["ScrollChildFrame"] = WhoListScrollFrameScrollChildFrame -- inherited
 WhoListScrollFrame["ScrollBar"] = WhoListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1511)
@@ -2105,6 +2133,11 @@ GuildNameChangeAlertFrame["ShadowBottom"] = GuildNameChangeAlertFrameShadowBotto
 GuildNameChangeAlertFrame["ShadowLeft"] = GuildNameChangeAlertFrameShadowLeft -- inherited
 GuildNameChangeAlertFrame["ShadowRight"] = GuildNameChangeAlertFrameShadowRight -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L163)
+--- child of GuildListScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+GuildListScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L10)
 --- child of GuildListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -2132,6 +2165,7 @@ GuildListScrollFrameScrollBar["ThumbTexture"] = GuildListScrollFrameScrollBarThu
 --- child of GuildFrame
 --- @class FriendsFrame_GuildFrame_GuildListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 GuildListScrollFrame = {}
+GuildListScrollFrame["ScrollChildFrame"] = GuildListScrollFrameScrollChildFrame -- inherited
 GuildListScrollFrame["ScrollBar"] = GuildListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2435)
@@ -2540,6 +2574,11 @@ GuildControlPopupFrameTabPermissions["layoutType"] = "TooltipDefaultLayout" -- i
 --- child of FriendsFrame
 --- @class FriendsFrame_GuildControlPopupFrame : Frame
 GuildControlPopupFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3416)
+--- child of GuildInfoFrameScrollFrame
+--- @class FriendsFrame_GuildInfoFrame_GuildInfoTextBackground_GuildInfoFrameScrollFrame_GuildInfoEditBox : EditBox
+GuildInfoEditBox = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L10)
 --- child of GuildInfoFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
@@ -3276,6 +3315,16 @@ AddFriendNameEditBoxFill = {}
 --- @class AddFriendFrame_AddFriendEntryFrame_AddFriendNameEditBox : EditBox, AutoCompleteEditBoxTemplate
 AddFriendNameEditBox = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4425)
+--- child of AddFriendNoteEditBox
+--- @class AddFriendFrame_AddFriendEntryFrame_AddFriendNoteFrame_AddFriendNoteFrameScrollFrame_AddFriendNoteEditBox_AddFriendNoteEditBoxFill : FontString, FriendsFont_Small
+AddFriendNoteEditBoxFill = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4421)
+--- child of AddFriendNoteFrameScrollFrame
+--- @class AddFriendFrame_AddFriendEntryFrame_AddFriendNoteFrame_AddFriendNoteFrameScrollFrame_AddFriendNoteEditBox : EditBox
+AddFriendNoteEditBox = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L10)
 --- child of AddFriendNoteFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -3563,6 +3612,11 @@ FriendsFriendsButton11Name = {}
 FriendsFriendsButton11 = {}
 FriendsFriendsButton11["name"] = FriendsFriendsButton11Name -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L163)
+--- child of FriendsFriendsScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+FriendsFriendsScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L10)
 --- child of FriendsFriendsScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -3590,6 +3644,7 @@ FriendsFriendsScrollFrameScrollBar["ThumbTexture"] = FriendsFriendsScrollFrameSc
 --- child of FriendsFriendsFrame
 --- @class FriendsFriendsFrame_FriendsFriendsScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 FriendsFriendsScrollFrame = {}
+FriendsFriendsScrollFrame["ScrollChildFrame"] = FriendsFriendsScrollFrameScrollChildFrame -- inherited
 FriendsFriendsScrollFrame["ScrollBar"] = FriendsFriendsScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4592)

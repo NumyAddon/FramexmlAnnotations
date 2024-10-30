@@ -34,6 +34,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L5)
 --- Template
+--- Adds itself to the parent inside the array `DeathRecapEntry`
 --- @class DeathRecapEntryTemplate : Frame
 --- @field DamageInfo DeathRecapEntryTemplate_DamageInfo
 --- @field SpellInfo DeathRecapEntryTemplate_SpellInfo
@@ -120,10 +121,15 @@ DeathRecapFrameBorderRight = {}
 --- @field CloseXButton DeathRecapFrame_CloseXButton
 --- @field DragButton Button
 --- @field Recap1 DeathRecapFrame_Recap1
+--- @field DeathRecapEntry table<number, DeathRecapFrame_Recap1>
 --- @field Recap2 DeathRecapFrame_Recap2
+--- @field DeathRecapEntry table<number, DeathRecapFrame_Recap2>
 --- @field Recap3 DeathRecapFrame_Recap3
+--- @field DeathRecapEntry table<number, DeathRecapFrame_Recap3>
 --- @field Recap4 DeathRecapFrame_Recap4
+--- @field DeathRecapEntry table<number, DeathRecapFrame_Recap4>
 --- @field Recap5 DeathRecapFrame_Recap5
+--- @field DeathRecapEntry table<number, DeathRecapFrame_Recap5>
 --- @field CloseButton DeathRecapFrame_CloseButton
 --- @field Background Texture
 --- @field BackgroundInnerGlow Texture

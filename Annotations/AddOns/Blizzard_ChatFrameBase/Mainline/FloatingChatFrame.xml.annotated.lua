@@ -66,6 +66,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L277)
 --- Template
+--- Adds itself to the parent inside the array `Tabs`
 --- @class ChatTabTemplate : Button, ChatTabArtTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L391)
@@ -122,14 +123,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L145)
 --- child of GeneralDockManager (created in template DockManagerTemplate)
 --- @type DockManagerTemplate_DockManagerTemplateOverflowButton
---- @field list DockManagerTemplate_DockManagerTemplateOverflowButton_DockManagerTemplateOverflowButtonList
 GeneralDockManagerOverflowButton = {}
 GeneralDockManagerOverflowButton["list"] = DockManagerTemplateOverflowButtonList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L172)
 --- child of GeneralDockManager (created in template DockManagerTemplate)
 --- @type DockManagerTemplate_DockManagerTemplateScrollFrame
---- @field dynTabSize number # 1
 GeneralDockManagerScrollFrame = {}
 GeneralDockManagerScrollFrame["dynTabSize"] = 1
 
@@ -145,65 +144,20 @@ GeneralDockManager["overflowButton"] = GeneralDockManagerOverflowButton -- inher
 GeneralDockManager["scrollFrame"] = GeneralDockManagerScrollFrame -- inherited
 GeneralDockManager["insertHighlight"] = GeneralDockManagerInsertHighlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
---- child of ChatTabTemplate (created in template ChatTabArtTemplate)
---- @type Texture
-ChatTabTemplateGlow = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L282)
 --- child of ChatFrame1Tab (created in template ChatTabTemplate)
 --- @type ChatTabTemplate_ChatTabTemplateFlash
 ChatFrame1TabFlash = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
+--- child of ChatFrame1Tab (created in template ChatTabArtTemplate)
+--- @type Texture
+ChatFrame1TabGlow = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L628)
 --- @class ChatFrame1Tab : Button, ChatTabTemplate
 ChatFrame1Tab = {}
-ChatFrame1Tab["glow"] = ChatTabTemplateGlow -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopTexture = {}
+ChatFrame1Tab["glow"] = ChatFrame1TabGlow -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L378)
 --- child of ChatFrame1 (created in template FloatingChatFrameTemplate)
@@ -267,7 +221,6 @@ ChatFrame1ButtonFrameTopTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L430)
 --- child of ChatFrame1 (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field minimizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame1ButtonFrame = {}
 ChatFrame1ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame1ButtonFrame["Background"] = ChatFrame1ButtonFrameBackground -- inherited
@@ -339,80 +292,81 @@ ChatFrame1EditBox["headerSuffix"] = ChatFrame1EditBoxHeaderSuffix -- inherited
 ChatFrame1EditBox["NewcomerHint"] = ChatFrame1EditBoxNewcomerHint -- inherited
 ChatFrame1EditBox["prompt"] = ChatFrame1EditBoxPrompt -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
+--- child of ChatFrame1 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame1Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
+--- child of ChatFrame1 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame1TopLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
+--- child of ChatFrame1 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame1BottomLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
+--- child of ChatFrame1 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame1TopRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- child of ChatFrame1 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame1BottomRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
+--- child of ChatFrame1 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame1LeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
+--- child of ChatFrame1 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame1RightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
+--- child of ChatFrame1 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame1BottomTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
+--- child of ChatFrame1 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame1TopTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L629)
 --- @class ChatFrame1 : ScrollingMessageFrame, FloatingChatFrameTemplate, EditModeChatFrameSystemTemplate, PrimaryChatFrameMixin
 --- @field allowAtGlues boolean # true
 ChatFrame1 = {}
 ChatFrame1["allowAtGlues"] = true
-ChatFrame1["Background"] = FloatingChatFrameTemplateBackground -- inherited
 ChatFrame1["clickAnywhereButton"] = ChatFrame1ClickAnywhereButton -- inherited
 ChatFrame1["ResizeButton"] = ChatFrame1ResizeButton -- inherited
 ChatFrame1["buttonFrame"] = ChatFrame1ButtonFrame -- inherited
 ChatFrame1["editBox"] = ChatFrame1EditBox -- inherited
+ChatFrame1["Background"] = ChatFrame1Background -- inherited
+ChatFrame1["system"] = Enum.EditModeSystem.ChatFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L643)
 --- @class ChatFrameMenuButton : DropdownButton, ChatFrameMenuButtonMixin
 ChatFrameMenuButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
---- child of ChatTabTemplate (created in template ChatTabArtTemplate)
---- @type Texture
-ChatTabTemplateGlow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L282)
 --- child of ChatFrame2Tab (created in template ChatTabTemplate)
 --- @type ChatTabTemplate_ChatTabTemplateFlash
 ChatFrame2TabFlash = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
+--- child of ChatFrame2Tab (created in template ChatTabArtTemplate)
+--- @type Texture
+ChatFrame2TabGlow = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L659)
 --- @class ChatFrame2Tab : Button, ChatTabTemplate
 ChatFrame2Tab = {}
-ChatFrame2Tab["glow"] = ChatTabTemplateGlow -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopTexture = {}
+ChatFrame2Tab["glow"] = ChatFrame2TabGlow -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L378)
 --- child of ChatFrame2 (created in template FloatingChatFrameTemplate)
@@ -476,7 +430,6 @@ ChatFrame2ButtonFrameTopTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L430)
 --- child of ChatFrame2 (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field minimizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame2ButtonFrame = {}
 ChatFrame2ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame2ButtonFrame["Background"] = ChatFrame2ButtonFrameBackground -- inherited
@@ -548,74 +501,74 @@ ChatFrame2EditBox["headerSuffix"] = ChatFrame2EditBoxHeaderSuffix -- inherited
 ChatFrame2EditBox["NewcomerHint"] = ChatFrame2EditBoxNewcomerHint -- inherited
 ChatFrame2EditBox["prompt"] = ChatFrame2EditBoxPrompt -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
+--- child of ChatFrame2 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame2Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
+--- child of ChatFrame2 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame2TopLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
+--- child of ChatFrame2 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame2BottomLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
+--- child of ChatFrame2 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame2TopRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- child of ChatFrame2 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame2BottomRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
+--- child of ChatFrame2 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame2LeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
+--- child of ChatFrame2 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame2RightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
+--- child of ChatFrame2 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame2BottomTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
+--- child of ChatFrame2 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame2TopTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L660)
 --- @class ChatFrame2 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame2 = {}
-ChatFrame2["Background"] = FloatingChatFrameTemplateBackground -- inherited
 ChatFrame2["clickAnywhereButton"] = ChatFrame2ClickAnywhereButton -- inherited
 ChatFrame2["ResizeButton"] = ChatFrame2ResizeButton -- inherited
 ChatFrame2["buttonFrame"] = ChatFrame2ButtonFrame -- inherited
 ChatFrame2["editBox"] = ChatFrame2EditBox -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
---- child of ChatTabTemplate (created in template ChatTabArtTemplate)
---- @type Texture
-ChatTabTemplateGlow = {}
+ChatFrame2["Background"] = ChatFrame2Background -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L282)
 --- child of ChatFrame3Tab (created in template ChatTabTemplate)
 --- @type ChatTabTemplate_ChatTabTemplateFlash
 ChatFrame3TabFlash = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
+--- child of ChatFrame3Tab (created in template ChatTabArtTemplate)
+--- @type Texture
+ChatFrame3TabGlow = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L669)
 --- @class ChatFrame3Tab : Button, ChatTabTemplate
 ChatFrame3Tab = {}
-ChatFrame3Tab["glow"] = ChatTabTemplateGlow -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopTexture = {}
+ChatFrame3Tab["glow"] = ChatFrame3TabGlow -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L378)
 --- child of ChatFrame3 (created in template FloatingChatFrameTemplate)
@@ -679,7 +632,6 @@ ChatFrame3ButtonFrameTopTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L430)
 --- child of ChatFrame3 (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field minimizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame3ButtonFrame = {}
 ChatFrame3ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame3ButtonFrame["Background"] = ChatFrame3ButtonFrameBackground -- inherited
@@ -751,74 +703,74 @@ ChatFrame3EditBox["headerSuffix"] = ChatFrame3EditBoxHeaderSuffix -- inherited
 ChatFrame3EditBox["NewcomerHint"] = ChatFrame3EditBoxNewcomerHint -- inherited
 ChatFrame3EditBox["prompt"] = ChatFrame3EditBoxPrompt -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
+--- child of ChatFrame3 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame3Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
+--- child of ChatFrame3 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame3TopLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
+--- child of ChatFrame3 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame3BottomLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
+--- child of ChatFrame3 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame3TopRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- child of ChatFrame3 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame3BottomRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
+--- child of ChatFrame3 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame3LeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
+--- child of ChatFrame3 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame3RightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
+--- child of ChatFrame3 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame3BottomTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
+--- child of ChatFrame3 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame3TopTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L670)
 --- @class ChatFrame3 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame3 = {}
-ChatFrame3["Background"] = FloatingChatFrameTemplateBackground -- inherited
 ChatFrame3["clickAnywhereButton"] = ChatFrame3ClickAnywhereButton -- inherited
 ChatFrame3["ResizeButton"] = ChatFrame3ResizeButton -- inherited
 ChatFrame3["buttonFrame"] = ChatFrame3ButtonFrame -- inherited
 ChatFrame3["editBox"] = ChatFrame3EditBox -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
---- child of ChatTabTemplate (created in template ChatTabArtTemplate)
---- @type Texture
-ChatTabTemplateGlow = {}
+ChatFrame3["Background"] = ChatFrame3Background -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L282)
 --- child of ChatFrame4Tab (created in template ChatTabTemplate)
 --- @type ChatTabTemplate_ChatTabTemplateFlash
 ChatFrame4TabFlash = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
+--- child of ChatFrame4Tab (created in template ChatTabArtTemplate)
+--- @type Texture
+ChatFrame4TabGlow = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L671)
 --- @class ChatFrame4Tab : Button, ChatTabTemplate
 ChatFrame4Tab = {}
-ChatFrame4Tab["glow"] = ChatTabTemplateGlow -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopTexture = {}
+ChatFrame4Tab["glow"] = ChatFrame4TabGlow -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L378)
 --- child of ChatFrame4 (created in template FloatingChatFrameTemplate)
@@ -882,7 +834,6 @@ ChatFrame4ButtonFrameTopTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L430)
 --- child of ChatFrame4 (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field minimizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame4ButtonFrame = {}
 ChatFrame4ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame4ButtonFrame["Background"] = ChatFrame4ButtonFrameBackground -- inherited
@@ -954,74 +905,74 @@ ChatFrame4EditBox["headerSuffix"] = ChatFrame4EditBoxHeaderSuffix -- inherited
 ChatFrame4EditBox["NewcomerHint"] = ChatFrame4EditBoxNewcomerHint -- inherited
 ChatFrame4EditBox["prompt"] = ChatFrame4EditBoxPrompt -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
+--- child of ChatFrame4 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame4Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
+--- child of ChatFrame4 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame4TopLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
+--- child of ChatFrame4 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame4BottomLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
+--- child of ChatFrame4 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame4TopRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- child of ChatFrame4 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame4BottomRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
+--- child of ChatFrame4 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame4LeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
+--- child of ChatFrame4 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame4RightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
+--- child of ChatFrame4 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame4BottomTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
+--- child of ChatFrame4 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame4TopTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L672)
 --- @class ChatFrame4 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame4 = {}
-ChatFrame4["Background"] = FloatingChatFrameTemplateBackground -- inherited
 ChatFrame4["clickAnywhereButton"] = ChatFrame4ClickAnywhereButton -- inherited
 ChatFrame4["ResizeButton"] = ChatFrame4ResizeButton -- inherited
 ChatFrame4["buttonFrame"] = ChatFrame4ButtonFrame -- inherited
 ChatFrame4["editBox"] = ChatFrame4EditBox -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
---- child of ChatTabTemplate (created in template ChatTabArtTemplate)
---- @type Texture
-ChatTabTemplateGlow = {}
+ChatFrame4["Background"] = ChatFrame4Background -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L282)
 --- child of ChatFrame5Tab (created in template ChatTabTemplate)
 --- @type ChatTabTemplate_ChatTabTemplateFlash
 ChatFrame5TabFlash = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
+--- child of ChatFrame5Tab (created in template ChatTabArtTemplate)
+--- @type Texture
+ChatFrame5TabGlow = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L673)
 --- @class ChatFrame5Tab : Button, ChatTabTemplate
 ChatFrame5Tab = {}
-ChatFrame5Tab["glow"] = ChatTabTemplateGlow -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopTexture = {}
+ChatFrame5Tab["glow"] = ChatFrame5TabGlow -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L378)
 --- child of ChatFrame5 (created in template FloatingChatFrameTemplate)
@@ -1085,7 +1036,6 @@ ChatFrame5ButtonFrameTopTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L430)
 --- child of ChatFrame5 (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field minimizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame5ButtonFrame = {}
 ChatFrame5ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame5ButtonFrame["Background"] = ChatFrame5ButtonFrameBackground -- inherited
@@ -1157,74 +1107,74 @@ ChatFrame5EditBox["headerSuffix"] = ChatFrame5EditBoxHeaderSuffix -- inherited
 ChatFrame5EditBox["NewcomerHint"] = ChatFrame5EditBoxNewcomerHint -- inherited
 ChatFrame5EditBox["prompt"] = ChatFrame5EditBoxPrompt -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
+--- child of ChatFrame5 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame5Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
+--- child of ChatFrame5 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame5TopLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
+--- child of ChatFrame5 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame5BottomLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
+--- child of ChatFrame5 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame5TopRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- child of ChatFrame5 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame5BottomRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
+--- child of ChatFrame5 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame5LeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
+--- child of ChatFrame5 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame5RightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
+--- child of ChatFrame5 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame5BottomTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
+--- child of ChatFrame5 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame5TopTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L674)
 --- @class ChatFrame5 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame5 = {}
-ChatFrame5["Background"] = FloatingChatFrameTemplateBackground -- inherited
 ChatFrame5["clickAnywhereButton"] = ChatFrame5ClickAnywhereButton -- inherited
 ChatFrame5["ResizeButton"] = ChatFrame5ResizeButton -- inherited
 ChatFrame5["buttonFrame"] = ChatFrame5ButtonFrame -- inherited
 ChatFrame5["editBox"] = ChatFrame5EditBox -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
---- child of ChatTabTemplate (created in template ChatTabArtTemplate)
---- @type Texture
-ChatTabTemplateGlow = {}
+ChatFrame5["Background"] = ChatFrame5Background -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L282)
 --- child of ChatFrame6Tab (created in template ChatTabTemplate)
 --- @type ChatTabTemplate_ChatTabTemplateFlash
 ChatFrame6TabFlash = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
+--- child of ChatFrame6Tab (created in template ChatTabArtTemplate)
+--- @type Texture
+ChatFrame6TabGlow = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L675)
 --- @class ChatFrame6Tab : Button, ChatTabTemplate
 ChatFrame6Tab = {}
-ChatFrame6Tab["glow"] = ChatTabTemplateGlow -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopTexture = {}
+ChatFrame6Tab["glow"] = ChatFrame6TabGlow -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L378)
 --- child of ChatFrame6 (created in template FloatingChatFrameTemplate)
@@ -1288,7 +1238,6 @@ ChatFrame6ButtonFrameTopTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L430)
 --- child of ChatFrame6 (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field minimizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame6ButtonFrame = {}
 ChatFrame6ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame6ButtonFrame["Background"] = ChatFrame6ButtonFrameBackground -- inherited
@@ -1360,74 +1309,74 @@ ChatFrame6EditBox["headerSuffix"] = ChatFrame6EditBoxHeaderSuffix -- inherited
 ChatFrame6EditBox["NewcomerHint"] = ChatFrame6EditBoxNewcomerHint -- inherited
 ChatFrame6EditBox["prompt"] = ChatFrame6EditBoxPrompt -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
+--- child of ChatFrame6 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame6Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
+--- child of ChatFrame6 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame6TopLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
+--- child of ChatFrame6 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame6BottomLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
+--- child of ChatFrame6 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame6TopRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- child of ChatFrame6 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame6BottomRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
+--- child of ChatFrame6 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame6LeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
+--- child of ChatFrame6 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame6RightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
+--- child of ChatFrame6 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame6BottomTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
+--- child of ChatFrame6 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame6TopTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L676)
 --- @class ChatFrame6 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame6 = {}
-ChatFrame6["Background"] = FloatingChatFrameTemplateBackground -- inherited
 ChatFrame6["clickAnywhereButton"] = ChatFrame6ClickAnywhereButton -- inherited
 ChatFrame6["ResizeButton"] = ChatFrame6ResizeButton -- inherited
 ChatFrame6["buttonFrame"] = ChatFrame6ButtonFrame -- inherited
 ChatFrame6["editBox"] = ChatFrame6EditBox -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
---- child of ChatTabTemplate (created in template ChatTabArtTemplate)
---- @type Texture
-ChatTabTemplateGlow = {}
+ChatFrame6["Background"] = ChatFrame6Background -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L282)
 --- child of ChatFrame7Tab (created in template ChatTabTemplate)
 --- @type ChatTabTemplate_ChatTabTemplateFlash
 ChatFrame7TabFlash = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
+--- child of ChatFrame7Tab (created in template ChatTabArtTemplate)
+--- @type Texture
+ChatFrame7TabGlow = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L677)
 --- @class ChatFrame7Tab : Button, ChatTabTemplate
 ChatFrame7Tab = {}
-ChatFrame7Tab["glow"] = ChatTabTemplateGlow -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopTexture = {}
+ChatFrame7Tab["glow"] = ChatFrame7TabGlow -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L378)
 --- child of ChatFrame7 (created in template FloatingChatFrameTemplate)
@@ -1491,7 +1440,6 @@ ChatFrame7ButtonFrameTopTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L430)
 --- child of ChatFrame7 (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field minimizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame7ButtonFrame = {}
 ChatFrame7ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame7ButtonFrame["Background"] = ChatFrame7ButtonFrameBackground -- inherited
@@ -1563,74 +1511,74 @@ ChatFrame7EditBox["headerSuffix"] = ChatFrame7EditBoxHeaderSuffix -- inherited
 ChatFrame7EditBox["NewcomerHint"] = ChatFrame7EditBoxNewcomerHint -- inherited
 ChatFrame7EditBox["prompt"] = ChatFrame7EditBoxPrompt -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
+--- child of ChatFrame7 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame7Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
+--- child of ChatFrame7 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame7TopLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
+--- child of ChatFrame7 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame7BottomLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
+--- child of ChatFrame7 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame7TopRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- child of ChatFrame7 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame7BottomRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
+--- child of ChatFrame7 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame7LeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
+--- child of ChatFrame7 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame7RightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
+--- child of ChatFrame7 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame7BottomTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
+--- child of ChatFrame7 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame7TopTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L678)
 --- @class ChatFrame7 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame7 = {}
-ChatFrame7["Background"] = FloatingChatFrameTemplateBackground -- inherited
 ChatFrame7["clickAnywhereButton"] = ChatFrame7ClickAnywhereButton -- inherited
 ChatFrame7["ResizeButton"] = ChatFrame7ResizeButton -- inherited
 ChatFrame7["buttonFrame"] = ChatFrame7ButtonFrame -- inherited
 ChatFrame7["editBox"] = ChatFrame7EditBox -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
---- child of ChatTabTemplate (created in template ChatTabArtTemplate)
---- @type Texture
-ChatTabTemplateGlow = {}
+ChatFrame7["Background"] = ChatFrame7Background -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L282)
 --- child of ChatFrame8Tab (created in template ChatTabTemplate)
 --- @type ChatTabTemplate_ChatTabTemplateFlash
 ChatFrame8TabFlash = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
+--- child of ChatFrame8Tab (created in template ChatTabArtTemplate)
+--- @type Texture
+ChatFrame8TabGlow = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L679)
 --- @class ChatFrame8Tab : Button, ChatTabTemplate
 ChatFrame8Tab = {}
-ChatFrame8Tab["glow"] = ChatTabTemplateGlow -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopTexture = {}
+ChatFrame8Tab["glow"] = ChatFrame8TabGlow -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L378)
 --- child of ChatFrame8 (created in template FloatingChatFrameTemplate)
@@ -1694,7 +1642,6 @@ ChatFrame8ButtonFrameTopTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L430)
 --- child of ChatFrame8 (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field minimizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame8ButtonFrame = {}
 ChatFrame8ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame8ButtonFrame["Background"] = ChatFrame8ButtonFrameBackground -- inherited
@@ -1766,74 +1713,74 @@ ChatFrame8EditBox["headerSuffix"] = ChatFrame8EditBoxHeaderSuffix -- inherited
 ChatFrame8EditBox["NewcomerHint"] = ChatFrame8EditBoxNewcomerHint -- inherited
 ChatFrame8EditBox["prompt"] = ChatFrame8EditBoxPrompt -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
+--- child of ChatFrame8 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame8Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
+--- child of ChatFrame8 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame8TopLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
+--- child of ChatFrame8 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame8BottomLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
+--- child of ChatFrame8 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame8TopRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- child of ChatFrame8 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame8BottomRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
+--- child of ChatFrame8 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame8LeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
+--- child of ChatFrame8 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame8RightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
+--- child of ChatFrame8 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame8BottomTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
+--- child of ChatFrame8 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame8TopTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L680)
 --- @class ChatFrame8 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame8 = {}
-ChatFrame8["Background"] = FloatingChatFrameTemplateBackground -- inherited
 ChatFrame8["clickAnywhereButton"] = ChatFrame8ClickAnywhereButton -- inherited
 ChatFrame8["ResizeButton"] = ChatFrame8ResizeButton -- inherited
 ChatFrame8["buttonFrame"] = ChatFrame8ButtonFrame -- inherited
 ChatFrame8["editBox"] = ChatFrame8EditBox -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
---- child of ChatTabTemplate (created in template ChatTabArtTemplate)
---- @type Texture
-ChatTabTemplateGlow = {}
+ChatFrame8["Background"] = ChatFrame8Background -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L282)
 --- child of ChatFrame9Tab (created in template ChatTabTemplate)
 --- @type ChatTabTemplate_ChatTabTemplateFlash
 ChatFrame9TabFlash = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
+--- child of ChatFrame9Tab (created in template ChatTabArtTemplate)
+--- @type Texture
+ChatFrame9TabGlow = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L681)
 --- @class ChatFrame9Tab : Button, ChatTabTemplate
 ChatFrame9Tab = {}
-ChatFrame9Tab["glow"] = ChatTabTemplateGlow -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopTexture = {}
+ChatFrame9Tab["glow"] = ChatFrame9TabGlow -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L378)
 --- child of ChatFrame9 (created in template FloatingChatFrameTemplate)
@@ -1897,7 +1844,6 @@ ChatFrame9ButtonFrameTopTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L430)
 --- child of ChatFrame9 (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field minimizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame9ButtonFrame = {}
 ChatFrame9ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame9ButtonFrame["Background"] = ChatFrame9ButtonFrameBackground -- inherited
@@ -1969,74 +1915,74 @@ ChatFrame9EditBox["headerSuffix"] = ChatFrame9EditBoxHeaderSuffix -- inherited
 ChatFrame9EditBox["NewcomerHint"] = ChatFrame9EditBoxNewcomerHint -- inherited
 ChatFrame9EditBox["prompt"] = ChatFrame9EditBoxPrompt -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
+--- child of ChatFrame9 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame9Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
+--- child of ChatFrame9 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame9TopLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
+--- child of ChatFrame9 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame9BottomLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
+--- child of ChatFrame9 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame9TopRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- child of ChatFrame9 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame9BottomRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
+--- child of ChatFrame9 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame9LeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
+--- child of ChatFrame9 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame9RightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
+--- child of ChatFrame9 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame9BottomTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
+--- child of ChatFrame9 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame9TopTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L682)
 --- @class ChatFrame9 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame9 = {}
-ChatFrame9["Background"] = FloatingChatFrameTemplateBackground -- inherited
 ChatFrame9["clickAnywhereButton"] = ChatFrame9ClickAnywhereButton -- inherited
 ChatFrame9["ResizeButton"] = ChatFrame9ResizeButton -- inherited
 ChatFrame9["buttonFrame"] = ChatFrame9ButtonFrame -- inherited
 ChatFrame9["editBox"] = ChatFrame9EditBox -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
---- child of ChatTabTemplate (created in template ChatTabArtTemplate)
---- @type Texture
-ChatTabTemplateGlow = {}
+ChatFrame9["Background"] = ChatFrame9Background -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L282)
 --- child of ChatFrame10Tab (created in template ChatTabTemplate)
 --- @type ChatTabTemplate_ChatTabTemplateFlash
 ChatFrame10TabFlash = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L247)
+--- child of ChatFrame10Tab (created in template ChatTabArtTemplate)
+--- @type Texture
+ChatFrame10TabGlow = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L683)
 --- @class ChatFrame10Tab : Button, ChatTabTemplate
 ChatFrame10Tab = {}
-ChatFrame10Tab["glow"] = ChatTabTemplateGlow -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopTexture = {}
+ChatFrame10Tab["glow"] = ChatFrame10TabGlow -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L378)
 --- child of ChatFrame10 (created in template FloatingChatFrameTemplate)
@@ -2100,7 +2046,6 @@ ChatFrame10ButtonFrameTopTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L430)
 --- child of ChatFrame10 (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field minimizeButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame10ButtonFrame = {}
 ChatFrame10ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame10ButtonFrame["Background"] = ChatFrame10ButtonFrameBackground -- inherited
@@ -2172,14 +2117,59 @@ ChatFrame10EditBox["headerSuffix"] = ChatFrame10EditBoxHeaderSuffix -- inherited
 ChatFrame10EditBox["NewcomerHint"] = ChatFrame10EditBoxNewcomerHint -- inherited
 ChatFrame10EditBox["prompt"] = ChatFrame10EditBoxPrompt -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
+--- child of ChatFrame10 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame10Background = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L16)
+--- child of ChatFrame10 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame10TopLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L22)
+--- child of ChatFrame10 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame10BottomLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L29)
+--- child of ChatFrame10 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame10TopRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- child of ChatFrame10 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame10BottomRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L43)
+--- child of ChatFrame10 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame10LeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L50)
+--- child of ChatFrame10 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame10RightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L58)
+--- child of ChatFrame10 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame10BottomTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L66)
+--- child of ChatFrame10 (created in template FloatingBorderedFrame)
+--- @type Texture
+ChatFrame10TopTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L684)
 --- @class ChatFrame10 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame10 = {}
-ChatFrame10["Background"] = FloatingChatFrameTemplateBackground -- inherited
 ChatFrame10["clickAnywhereButton"] = ChatFrame10ClickAnywhereButton -- inherited
 ChatFrame10["ResizeButton"] = ChatFrame10ResizeButton -- inherited
 ChatFrame10["buttonFrame"] = ChatFrame10ButtonFrame -- inherited
 ChatFrame10["editBox"] = ChatFrame10EditBox -- inherited
+ChatFrame10["Background"] = ChatFrame10Background -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L687)
 --- @class FloatingChatFrameManager : Frame

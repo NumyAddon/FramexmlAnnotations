@@ -51,12 +51,16 @@
 --- @field Spec ConduitListConduitButtonTemplate_Spec
 --- @field Icon Texture
 --- @field Icon2 Texture
+--- @field Hovers table<number, Texture>
 --- @field IconDark Texture
+--- @field Hovers table<number, Texture>
 --- @field IconGlassOverlay Texture
 --- @field IconOverlay Texture
 --- @field IconPulse ConduitListConduitButtonTemplate_IconPulse
 --- @field IconOverlayPulse ConduitListConduitButtonTemplate_IconOverlayPulse
 --- @field IconOverlay2 Texture
+--- @field Hovers table<number, Texture>
+--- @field Hovers table<number, Texture>
 --- @field PendingBackground Texture
 --- @field IconOverlayDark Texture
 --- @field ConduitName ConduitListConduitButtonTemplate_ConduitName
@@ -70,6 +74,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L217)
 --- child of 
 --- @class ConduitListSectionTemplate_CategoryButton_Container : Frame
+--- @field Hovers table<number, Texture>
 --- @field ExpandableIcon Texture
 --- @field Name ConduitListSectionTemplate_CategoryButton_Container_Name
 --- @field ConduitIcon Texture
@@ -109,21 +114,12 @@
 --- child of 
 --- @class ConduitListTemplate_Clip_ModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L308)
---- child of 
---- @class  : Texture, ConduitButtonGlow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L309)
---- child of 
---- @class  : Texture, ConduitButtonGlow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L310)
---- child of 
---- @class  : Texture, ConduitButtonGlow
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L304)
 --- child of 
 --- @class ConduitListTemplate_Clip_Effects : Frame
+--- @field Glows table<number, >
+--- @field Glows table<number, >
+--- @field Glows table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L295)
 --- child of ConduitListTemplate

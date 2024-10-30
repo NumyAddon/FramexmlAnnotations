@@ -17,20 +17,24 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L28)
 --- Template
+--- Adds itself to the parent inside the array `debuffFrames`
 --- @class CompactDebuffTemplate : Button, CompactAuraTemplate, CompactDebuffMixin
 --- @field border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L49)
 --- Template
+--- Adds itself to the parent inside the array `buffFrames`
 --- @class CompactBuffTemplate : Button, CompactAuraTemplate, CompactBuffMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L55)
 --- Template
+--- Adds itself to the parent inside the array `dispelDebuffFrames`
 --- @class CompactDispelDebuffTemplate : Button, CompactDispelDebuffMixin
 --- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L69)
 --- Template
+--- Adds itself to the parent inside the array `PrivateAuraAnchors`
 --- @class CompactUnitPrivateAuraAnchorTemplate : Frame, CompactUnitPrivateAuraAnchorMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L113)
@@ -133,11 +137,27 @@
 --- @field healthBar CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar
 --- @field TempMaxHealthLoss CompactUnitFrameTemplate_CompactUnitFrameTemplateTempMaxHealthLoss
 --- @field powerBar CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar
+--- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff1>
+--- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff2>
+--- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff3>
+--- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff4>
+--- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff5>
+--- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff6>
+--- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff7>
+--- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff8>
 --- @field Debuff1 CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff1
+--- @field debuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff1>
 --- @field Debuff2 CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff2
+--- @field debuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff2>
 --- @field Debuff3 CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff3
+--- @field debuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff3>
 --- @field PrivateAuraAnchor1 CompactUnitFrameTemplate_PrivateAuraAnchor1
+--- @field PrivateAuraAnchors table<number, CompactUnitFrameTemplate_PrivateAuraAnchor1>
 --- @field PrivateAuraAnchor2 CompactUnitFrameTemplate_PrivateAuraAnchor2
+--- @field PrivateAuraAnchors table<number, CompactUnitFrameTemplate_PrivateAuraAnchor2>
+--- @field dispelDebuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff1>
+--- @field dispelDebuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff2>
+--- @field dispelDebuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff3>
 --- @field centerStatusIcon CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon
 --- @field background Texture
 --- @field myHealPrediction Texture

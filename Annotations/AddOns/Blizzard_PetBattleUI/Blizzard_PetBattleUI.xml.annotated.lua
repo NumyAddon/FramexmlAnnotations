@@ -596,10 +596,6 @@ PetBattleFrameXPBar = {}
 --- child of 
 --- @class PetBattleFrame_BottomFrame_FlowFrame_RightEndCap : Texture, BattleBar-ButtonBG-EndCap
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1467)
---- child of 
---- @class  : Texture, _BattleBar-ButtonBGMid
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1475)
 --- child of 
 --- @class PetBattleFrame_BottomFrame_FlowFrame_SelectPetInstruction : FontString, GameFontNormalLarge
@@ -638,10 +634,6 @@ PetBattleFrameCooldownFlash = {}
 --- child of 
 --- @class PetBattleFrame_BottomFrame_ForfeitButton : Button, PetBattleActionButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1548)
---- child of 
---- @class  : Texture, BattleBar-ButtonBG-Divider
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1543)
 --- child of 
 --- @class PetBattleFrame_BottomFrame_Delimiter : Frame
@@ -653,10 +645,6 @@ PetBattleFrameCooldownFlash = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1569)
 --- child of 
 --- @class PetBattleFrame_BottomFrame_MicroButtonFrame_RightEndCap : Texture, BattleBar-ButtonBG-EndCap
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1576)
---- child of 
---- @class  : Texture, _BattleBar-ButtonBGMid
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1556)
 --- child of 
@@ -741,10 +729,6 @@ PetBattlePrimaryUnitTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 --- @class PetBattlePrimaryAbilityTooltip : Frame, SharedPetBattleAbilityTooltipTemplate
 PetBattlePrimaryAbilityTooltip = {}
 PetBattlePrimaryAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1647)
---- child of StartSplashTexture
---- @class  : Texture, Start-VersusSplash
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Blizzard_PetBattleUI.xml#L1619)
 --- child of StartSplashTexture

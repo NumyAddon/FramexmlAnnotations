@@ -123,10 +123,6 @@ CompanionInfoGLine = {}
 --- @class DelvesCompanionConfigurationFrame_CompanionUtilityTrinketSlot : Button, CompanionConfigSlotTemplate
 --- @field type string # "Utility"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L358)
---- child of 
---- @class  : FontString, GameFontNormalSmall2
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L351)
 --- child of DelvesCompanionConfigurationFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionConfigShowAbilitiesButton : Button, UIPanelButtonTemplate, CompanionConfigShowAbilitiesButtonMixin

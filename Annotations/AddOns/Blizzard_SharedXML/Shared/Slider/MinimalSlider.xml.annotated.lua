@@ -48,8 +48,13 @@
 --- @field Back MinimalSliderWithSteppersTemplate_Back
 --- @field Forward MinimalSliderWithSteppersTemplate_Forward
 --- @field LeftText MinimalSliderWithSteppersTemplate_LeftText
+--- @field Labels table<number, MinimalSliderWithSteppersTemplate_LeftText>
 --- @field RightText MinimalSliderWithSteppersTemplate_RightText
+--- @field Labels table<number, MinimalSliderWithSteppersTemplate_RightText>
 --- @field TopText MinimalSliderWithSteppersTemplate_TopText
+--- @field Labels table<number, MinimalSliderWithSteppersTemplate_TopText>
 --- @field MinText MinimalSliderWithSteppersTemplate_MinText
+--- @field Labels table<number, MinimalSliderWithSteppersTemplate_MinText>
 --- @field MaxText MinimalSliderWithSteppersTemplate_MaxText
+--- @field Labels table<number, MinimalSliderWithSteppersTemplate_MaxText>
 

@@ -48,15 +48,22 @@
 --- @field ChoiceBackground Texture
 --- @field ChoiceBackground2 Texture
 --- @field Icon1 Texture
+--- @field Icon1Textures table<number, Texture>
 --- @field Icon2 Texture
+--- @field Icon2Textures table<number, Texture>
 --- @field Icon1Hover Texture
+--- @field Icon1Textures table<number, Texture>
 --- @field Icon2Hover Texture
+--- @field Icon2Textures table<number, Texture>
 --- @field Icon1Anim Texture
+--- @field Icon1Textures table<number, Texture>
 --- @field HeroClassIconSheen HeroTalentSpecButtonTemplate_HeroClassIconSheen
 --- @field HeroClassIconSheenMask MaskTexture
 --- @field IconMask MaskTexture
 --- @field Icon1SplitMask MaskTexture
+--- @field IconSplitMasks table<number, MaskTexture>
 --- @field Icon2SplitMask MaskTexture
+--- @field IconSplitMasks table<number, MaskTexture>
 --- @field Border Texture
 --- @field ChoiceBorder Texture
 --- @field BorderHover Texture
@@ -178,35 +185,65 @@
 --- child of HeroTalentsContainerTemplate
 --- @class HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame : Frame, HeroTalentsUnlockedAnimFrameMixin
 --- @field BlackCover Texture
+--- @field Textures table<number, Texture>
 --- @field BlackCover2 Texture
+--- @field Textures table<number, Texture>
 --- @field Titans Texture
+--- @field Textures table<number, Texture>
 --- @field Titans2 Texture
+--- @field Textures table<number, Texture>
 --- @field HeroClassAnimBackgroundRunes Texture
+--- @field Textures table<number, Texture>
 --- @field HeroClassAnimBackgroundRunes2 Texture
+--- @field Textures table<number, Texture>
 --- @field PadlockAnim Texture
+--- @field Textures table<number, Texture>
 --- @field Rune HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune
+--- @field Textures table<number, HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune>
 --- @field RuneFlipped HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped
+--- @field Textures table<number, HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped>
 --- @field Rune2 HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune2
+--- @field Textures table<number, HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune2>
 --- @field RuneFlipped2 HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped2
+--- @field Textures table<number, HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped2>
 --- @field RingLargeFlip Texture
+--- @field Textures table<number, Texture>
 --- @field RingLargeFlip2 Texture
+--- @field Textures table<number, Texture>
 --- @field RuneStatic HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneStatic
+--- @field Textures table<number, HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneStatic>
 --- @field Sunburst Texture
+--- @field Textures table<number, Texture>
 --- @field RingLarge Texture
+--- @field Textures table<number, Texture>
 --- @field RingSmall Texture
+--- @field Textures table<number, Texture>
 --- @field RingConstellation Texture
+--- @field Textures table<number, Texture>
 --- @field OrbActivated Texture
+--- @field Textures table<number, Texture>
 --- @field OrbActivated2 Texture
+--- @field Textures table<number, Texture>
 --- @field Starfield Texture
+--- @field Textures table<number, Texture>
 --- @field Glowies Texture
+--- @field Textures table<number, Texture>
 --- @field Glowies2 Texture
+--- @field Textures table<number, Texture>
 --- @field BackplateGlow Texture
+--- @field Textures table<number, Texture>
 --- @field BackplateGlow2 Texture
+--- @field Textures table<number, Texture>
 --- @field BackplateIntroGlow Texture
+--- @field Textures table<number, Texture>
 --- @field BackplateIntroGlow2 Texture
+--- @field Textures table<number, Texture>
 --- @field LensflareLine Texture
+--- @field Textures table<number, Texture>
 --- @field LensflareLine3 Texture
+--- @field Textures table<number, Texture>
 --- @field LensflareLine2 Texture
+--- @field Textures table<number, Texture>
 --- @field Anim HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L617)
@@ -241,7 +278,11 @@
 --- @field CollapsedContainer HeroTalentsContainerTemplate_CollapsedContainer
 --- @field HeroSpecLabel HeroTalentsContainerTemplate_HeroSpecLabel
 --- @field ChooseSpecLabel1 HeroTalentsContainerTemplate_ChooseSpecLabel1
+--- @field ChooseSpecLabels table<number, HeroTalentsContainerTemplate_ChooseSpecLabel1>
 --- @field ChooseSpecLabel2 HeroTalentsContainerTemplate_ChooseSpecLabel2
+--- @field ChooseSpecLabels table<number, HeroTalentsContainerTemplate_ChooseSpecLabel2>
 --- @field LockedLabel1 HeroTalentsContainerTemplate_LockedLabel1
+--- @field LockedLabels table<number, HeroTalentsContainerTemplate_LockedLabel1>
 --- @field LockedLabel2 HeroTalentsContainerTemplate_LockedLabel2
+--- @field LockedLabels table<number, HeroTalentsContainerTemplate_LockedLabel2>
 

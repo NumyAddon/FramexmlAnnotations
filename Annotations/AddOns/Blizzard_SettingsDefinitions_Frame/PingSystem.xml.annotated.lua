@@ -63,21 +63,21 @@
 --- @field ImageBounds PingSystemTutorial_Tutorial4_ImageBounds
 --- @field TutorialHeader PingSystemTutorial_Tutorial4_TutorialHeader
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1148)
 --- child of PingSystemTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 PingSystemTutorialInset = {}
 PingSystemTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1142)
+--- child of PingSystemTutorial (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+PingSystemTutorialCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1125)
+--- child of PingSystemTutorial (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+PingSystemTutorialBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L6)
 --- @class PingSystemTutorial : Frame, ButtonFrameTemplate, PingSystemTutorialMixin
@@ -88,8 +88,8 @@ PingSystemTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field Tutorial4 PingSystemTutorial_Tutorial4
 --- @field Tutorial Texture
 PingSystemTutorial = {}
-PingSystemTutorial["layoutType"] = "PortraitFrameTemplate" -- inherited
-PingSystemTutorial["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-PingSystemTutorial["Bg"] = ButtonFrameTemplateBg -- inherited
 PingSystemTutorial["Inset"] = PingSystemTutorialInset -- inherited
+PingSystemTutorial["CloseButton"] = PingSystemTutorialCloseButton -- inherited
+PingSystemTutorial["Bg"] = PingSystemTutorialBg -- inherited
+PingSystemTutorial["layoutType"] = "PortraitFrameTemplate" -- inherited
 

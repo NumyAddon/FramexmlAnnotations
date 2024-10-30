@@ -170,8 +170,8 @@
 --- @field layoutIndex number # 2
 PlayerCastingBarFrame = {}
 PlayerCastingBarFrame["layoutIndex"] = 2
-PlayerCastingBarFrame["isManagedFrame"] = true -- inherited
 PlayerCastingBarFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+PlayerCastingBarFrame["isManagedFrame"] = true -- inherited
 PlayerCastingBarFrame["system"] = Enum.EditModeSystem.CastBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L498)

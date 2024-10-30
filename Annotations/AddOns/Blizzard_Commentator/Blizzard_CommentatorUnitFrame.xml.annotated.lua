@@ -31,70 +31,6 @@
 --- child of 
 --- @class CommentatorUnitFrameTemplate_Circle_CCCooldown : Cooldown, CommentatorRadialCooldownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L100)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L101)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L102)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L103)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L104)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L105)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L106)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L107)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L108)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L109)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L110)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L111)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L112)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L113)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L114)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L115)
---- child of 
---- @class  : Texture, CommentatorTeamOverlayTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L132)
 --- child of 
 --- @class CommentatorUnitFrameTemplate_Circle_CCText : FontString, CommentatorCCFont
@@ -106,6 +42,22 @@
 --- @field ClassIcon Texture
 --- @field CCIcon Texture
 --- @field FeignDeathIcon Texture
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
+--- @field TeamOverlays table<number, >
 --- @field DeathIcon Texture
 --- @field TrimOverlay Texture
 --- @field CCText CommentatorUnitFrameTemplate_Circle_CCText
@@ -173,8 +125,11 @@
 --- @field RacialAbilityTracker CommentatorUnitFrameTemplate_RacialAbilityTracker
 --- @field Bars CommentatorUnitFrameTemplate_Bars
 --- @field DefensiveSpellTray CommentatorUnitFrameTemplate_DefensiveSpellTray
+--- @field spellTrays table<number, CommentatorUnitFrameTemplate_DefensiveSpellTray>
 --- @field DebuffSpellTray CommentatorUnitFrameTemplate_DebuffSpellTray
+--- @field spellTrays table<number, CommentatorUnitFrameTemplate_DebuffSpellTray>
 --- @field OffensiveSpellTray CommentatorUnitFrameTemplate_OffensiveSpellTray
+--- @field spellTrays table<number, CommentatorUnitFrameTemplate_OffensiveSpellTray>
 --- @field ModelScene CommentatorUnitFrameTemplate_ModelScene
 --- @field FlagIconStatic Texture
 --- @field FlagIconStatic2 Texture

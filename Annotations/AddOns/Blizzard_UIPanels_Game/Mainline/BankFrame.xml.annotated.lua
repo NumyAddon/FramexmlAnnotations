@@ -11,6 +11,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L30)
 --- Template
+--- Adds itself to the parent inside the array `DepositSettingsCheckboxes`
 --- @class BankPanelTabDepositSettingsCheckboxTemplate : CheckButton, BankPanelCheckboxTemplate
 --- @field fontObject any # GameFontHighlightSmall
 
@@ -74,11 +75,17 @@
 --- Template
 --- @class BankTabDepositSettingsMenuTemplate : Frame, BankTabDepositSettingsMenuMixin
 --- @field AssignEquipmentCheckbox BankTabDepositSettingsMenuTemplate_AssignEquipmentCheckbox
+--- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_AssignEquipmentCheckbox>
 --- @field AssignConsumablesCheckbox BankTabDepositSettingsMenuTemplate_AssignConsumablesCheckbox
+--- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_AssignConsumablesCheckbox>
 --- @field AssignProfessionGoodsCheckbox BankTabDepositSettingsMenuTemplate_AssignProfessionGoodsCheckbox
+--- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_AssignProfessionGoodsCheckbox>
 --- @field AssignReagentsCheckbox BankTabDepositSettingsMenuTemplate_AssignReagentsCheckbox
+--- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_AssignReagentsCheckbox>
 --- @field AssignJunkCheckbox BankTabDepositSettingsMenuTemplate_AssignJunkCheckbox
+--- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_AssignJunkCheckbox>
 --- @field IgnoreCleanUpCheckbox BankTabDepositSettingsMenuTemplate_IgnoreCleanUpCheckbox
+--- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_IgnoreCleanUpCheckbox>
 --- @field ExpansionFilterDropdown BankTabDepositSettingsMenuTemplate_ExpansionFilterDropdown
 --- @field AssignExpansionHeader BankTabDepositSettingsMenuTemplate_AssignExpansionHeader
 --- @field AssignSettingsHeader BankTabDepositSettingsMenuTemplate_AssignSettingsHeader
@@ -289,23 +296,22 @@ BankFrameTab2 = {}
 BankFrameTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1504)
---- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- child of BankItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
-BagSearchBoxTemplateClearButton = {}
+BankItemSearchBoxClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1495)
---- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- child of BankItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
-BagSearchBoxTemplateSearchIcon = {}
+BankItemSearchBoxSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L736)
 --- child of BankFrame
 --- @class BankFrame_BankItemSearchBox : EditBox, BagSearchBoxTemplate
 BankItemSearchBox = {}
 BankItemSearchBox["instructionText"] = SEARCH -- inherited
-BankItemSearchBox["clearButton"] = BagSearchBoxTemplateClearButton -- inherited
-BankItemSearchBox["searchIcon"] = BagSearchBoxTemplateSearchIcon -- inherited
+BankItemSearchBox["clearButton"] = BankItemSearchBoxClearButton -- inherited
+BankItemSearchBox["searchIcon"] = BankItemSearchBoxSearchIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L743)
 --- child of BankFrame
@@ -430,10 +436,6 @@ BankFrameDetailMoneyFrame["CopperButton"] = BankFrameDetailMoneyFrameCopperButto
 BankFrameDetailMoneyFrame["SilverButton"] = BankFrameDetailMoneyFrameSilverButton -- inherited
 BankFrameDetailMoneyFrame["GoldButton"] = BankFrameDetailMoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L836)
---- child of BankFramePurchaseInfo
---- @class  : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L842)
 --- child of BankFramePurchaseInfo
 --- @class BankFrame_BankSlotsFrame_BankFramePurchaseInfo_BankFrameSlotCost : FontString, GameFontNormal
@@ -493,14 +495,6 @@ BankFrameMoneyFrame["CopperButton"] = BankFrameMoneyFrameCopperButton -- inherit
 BankFrameMoneyFrame["SilverButton"] = BankFrameMoneyFrameSilverButton -- inherited
 BankFrameMoneyFrame["GoldButton"] = BankFrameMoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L759)
---- child of BankSlotsFrame
---- @class  : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L764)
---- child of BankSlotsFrame
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L752)
 --- child of BankFrame
 --- @class BankFrame_BankSlotsFrame : Frame
@@ -530,6 +524,7 @@ BankSlotsFrame["layoutType"] = "InsetFrameTemplate"
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L929)
 --- child of ReagentBankFrame
 --- Template
+--- Adds itself to the parent with key `DespositButton`
 --- @class BankFrame_ReagentBankFrame_DespositButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L110)
@@ -694,7 +689,9 @@ ReagentBankFrame["layoutType"] = "InsetFrameTemplate"
 --- @field EdgeShadows BankFrame_AccountBankPanel_EdgeShadows
 --- @field ItemDepositFrame BankFrame_AccountBankPanel_ItemDepositFrame
 --- @field PurchasePrompt BankFrame_AccountBankPanel_PurchasePrompt
+--- @field Prompts table<number, BankFrame_AccountBankPanel_PurchasePrompt>
 --- @field LockPrompt BankFrame_AccountBankPanel_LockPrompt
+--- @field Prompts table<number, BankFrame_AccountBankPanel_LockPrompt>
 --- @field TabSettingsMenu BankFrame_AccountBankPanel_TabSettingsMenu
 AccountBankPanel = {}
 AccountBankPanel["layoutType"] = "InsetFrameTemplate"
@@ -704,21 +701,24 @@ AccountBankPanel["layoutType"] = "InsetFrameTemplate"
 --- @class BankFrame_BankFrameTitleText : FontString, GameFontHighlight
 BankFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1095)
 --- child of BankFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 BankFrameCloseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1062)
+--- child of BankFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+BankFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L690)
 --- @class BankFrame : Frame, PortraitFrameTemplate, BankFrameMixin
+--- @field Tabs table<number, BankFrame_BankFrameTab1>
+--- @field Tabs table<number, BankFrame_BankFrameTab2>
+--- @field Tabs table<number, BankFrame_BankFrameTab3>
 --- @field Background Texture
 BankFrame = {}
-BankFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-BankFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 BankFrame["CloseButton"] = BankFrameCloseButton -- inherited
+BankFrame["Bg"] = BankFrameBg -- inherited
+BankFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

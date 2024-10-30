@@ -72,5 +72,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L162)
 --- Template
+--- Adds itself to the parent with key `SearchBox`
 --- @class SpellSearchBoxTemplate : EditBox, SearchBoxTemplate, SpellSearchBoxMixin
 

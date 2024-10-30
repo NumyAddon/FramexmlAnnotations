@@ -47,10 +47,15 @@
 --- @field ItemBorderGlow Texture
 --- @field GlowSmokeBurst Texture
 --- @field Arrow1 LootItemExtended_Arrow1
+--- @field arrows table<number, LootItemExtended_Arrow1>
 --- @field Arrow2 LootItemExtended_Arrow2
+--- @field arrows table<number, LootItemExtended_Arrow2>
 --- @field Arrow3 LootItemExtended_Arrow3
+--- @field arrows table<number, LootItemExtended_Arrow3>
 --- @field Arrow4 LootItemExtended_Arrow4
+--- @field arrows table<number, LootItemExtended_Arrow4>
 --- @field Arrow5 LootItemExtended_Arrow5
+--- @field arrows table<number, LootItemExtended_Arrow5>
 --- @field animArrows LootItemExtended_animArrows
 --- @field IconAnim LootItemExtended_IconAnim
 

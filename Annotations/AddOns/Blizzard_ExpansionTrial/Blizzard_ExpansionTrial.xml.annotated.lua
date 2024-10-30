@@ -31,11 +31,6 @@
 --- @class ExpansionTrialCheckPointDialog_Button : Button, UIPanelButtonTemplate
 --- @field layoutIndex number # 5
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L41)
---- child of ExpansionTrialCheckPointDialog
---- @class  : Texture
---- @field ignoreInLayout boolean # true
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L53)
 --- child of ExpansionTrialCheckPointDialog
 --- @class ExpansionTrialCheckPointDialog_Title : FontString, GameFontHighlightLarge

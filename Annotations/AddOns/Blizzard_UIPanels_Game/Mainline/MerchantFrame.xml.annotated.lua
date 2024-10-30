@@ -1294,18 +1294,10 @@ MerchantMoneyFrame["CopperButton"] = MerchantMoneyFrameCopperButton -- inherited
 MerchantMoneyFrame["SilverButton"] = MerchantMoneyFrameSilverButton -- inherited
 MerchantMoneyFrame["GoldButton"] = MerchantMoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L517)
---- child of MerchantPrevPageButton
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L510)
 --- child of MerchantFrame
 --- @class MerchantFrame_MerchantPrevPageButton : Button
 MerchantPrevPageButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L545)
---- child of MerchantNextPageButton
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L538)
 --- child of MerchantFrame
@@ -1346,28 +1338,30 @@ MerchantPageText = {}
 --- @class MerchantFrame_MerchantFrameBottomLeftBorder : Texture
 MerchantFrameBottomLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1148)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MerchantFrameInset = {}
 MerchantFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1142)
+--- child of MerchantFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+MerchantFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1125)
+--- child of MerchantFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+MerchantFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L81)
 --- @class MerchantFrame : Frame, ButtonFrameTemplate
+--- @field Tabs table<number, MerchantFrame_MerchantFrameTab1>
+--- @field Tabs table<number, MerchantFrame_MerchantFrameTab2>
 --- @field FilterDropdown MerchantFrame_FilterDropdown
 MerchantFrame = {}
-MerchantFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-MerchantFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-MerchantFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 MerchantFrame["Inset"] = MerchantFrameInset -- inherited
+MerchantFrame["CloseButton"] = MerchantFrameCloseButton -- inherited
+MerchantFrame["Bg"] = MerchantFrameBg -- inherited
+MerchantFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

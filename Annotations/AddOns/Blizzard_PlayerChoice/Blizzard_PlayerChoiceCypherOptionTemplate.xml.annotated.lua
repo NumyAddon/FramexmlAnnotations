@@ -10,14 +10,6 @@
 --- @field layoutIndex number # 2
 --- @field Text PlayerChoiceCypherOptionTemplate_Header_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L115)
---- child of PlayerChoiceCypherOptionTemplate
---- @class  : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L118)
---- child of PlayerChoiceCypherOptionTemplate
---- @class  : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L4)
 --- Template
 --- @class PlayerChoiceCypherOptionTemplate : Frame, PlayerChoicePowerChoiceTemplate, PlayerChoiceCypherOptionTemplateMixin
@@ -36,4 +28,6 @@
 --- @field LineGlow Texture
 --- @field LineGlowMask MaskTexture
 --- @field BottomMask MaskTexture
+--- @field PassiveAnimations table<number, >
+--- @field PassiveAnimations table<number, >
 

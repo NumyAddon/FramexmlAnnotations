@@ -42,5 +42,6 @@
 --- @field PointBurstLeft Texture
 --- @field PointBurstRight Texture
 --- @field SwirlAndGlowAnimations PlayerChoiceTorghastOptionTemplate_SwirlAndGlowAnimations
+--- @field PassiveAnimations table<number, PlayerChoiceTorghastOptionTemplate_SwirlAndGlowAnimations>
 --- @field ChoiceSelectedAnimation PlayerChoiceTorghastOptionTemplate_ChoiceSelectedAnimation
 

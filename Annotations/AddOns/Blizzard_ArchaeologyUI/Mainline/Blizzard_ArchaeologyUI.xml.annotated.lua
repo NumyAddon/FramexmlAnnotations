@@ -1004,21 +1004,21 @@ ArchaeologyFrameBgLeft = {}
 --- @class ArchaeologyFrame_ArchaeologyFrameBgRight : Texture
 ArchaeologyFrameBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1148)
 --- child of ArchaeologyFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ArchaeologyFrameInset = {}
 ArchaeologyFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1142)
+--- child of ArchaeologyFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ArchaeologyFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1125)
+--- child of ArchaeologyFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ArchaeologyFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L236)
 --- @class ArchaeologyFrame : Frame, ButtonFrameTemplate
@@ -1047,8 +1047,8 @@ ArchaeologyFrame["helpPage"] = ArchaeologyFrameHelpPage
 ArchaeologyFrame["factionIcon"] = ArchaeologyFrameFactionIcon
 ArchaeologyFrame["bgLeft"] = ArchaeologyFrameBgLeft
 ArchaeologyFrame["bgRight"] = ArchaeologyFrameBgRight
-ArchaeologyFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ArchaeologyFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-ArchaeologyFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 ArchaeologyFrame["Inset"] = ArchaeologyFrameInset -- inherited
+ArchaeologyFrame["CloseButton"] = ArchaeologyFrameCloseButton -- inherited
+ArchaeologyFrame["Bg"] = ArchaeologyFrameBg -- inherited
+ArchaeologyFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

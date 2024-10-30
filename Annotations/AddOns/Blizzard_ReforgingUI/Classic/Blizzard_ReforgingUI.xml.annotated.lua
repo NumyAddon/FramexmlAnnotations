@@ -251,16 +251,6 @@ ReforgingFrameTitleTextLeft = {}
 --- @class ReforgingFrame_ReforgingFrameTitleTextRight : FontString, GameFontNormalMed3
 ReforgingFrameTitleTextRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1095)
---- child of EtherealFrameTemplate (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
-EtherealFrameTemplateCloseButton = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1029)
 --- child of ReforgingFrame (created in template EtherealFrameTemplate)
 --- @type Texture
@@ -301,6 +291,16 @@ ReforgingFrameTopEdge = {}
 --- @type Texture
 ReforgingFrameBottomEdge = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1095)
+--- child of ReforgingFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ReforgingFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L1062)
+--- child of ReforgingFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+ReforgingFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L163)
 --- @class ReforgingFrame : Frame, EtherealFrameTemplate
 --- @field glow ReforgingFrame_ReforgingFrameFinishedGlow
@@ -309,11 +309,11 @@ ReforgingFrameBottomEdge = {}
 ReforgingFrame = {}
 ReforgingFrame["glow"] = ReforgingFrameFinishedGlow
 ReforgingFrame["invisButton"] = ReforgingFrameInvisibleButton
-ReforgingFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ReforgingFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
-ReforgingFrame["CloseButton"] = EtherealFrameTemplateCloseButton -- inherited
 ReforgingFrame["CornerTL"] = ReforgingFrameCornerTL -- inherited
 ReforgingFrame["CornerTR"] = ReforgingFrameCornerTR -- inherited
 ReforgingFrame["CornerBL"] = ReforgingFrameCornerBL -- inherited
 ReforgingFrame["CornerBR"] = ReforgingFrameCornerBR -- inherited
+ReforgingFrame["CloseButton"] = ReforgingFrameCloseButton -- inherited
+ReforgingFrame["Bg"] = ReforgingFrameBg -- inherited
+ReforgingFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

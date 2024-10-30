@@ -32,7 +32,9 @@
 --- Template
 --- @class KeyBindingFrameBindingTemplate : Frame, KeyBindingFrameBindingTemplateMixin
 --- @field Button1 KeyBindingFrameBindingTemplate_Button1
+--- @field Buttons table<number, KeyBindingFrameBindingTemplate_Button1>
 --- @field Button2 KeyBindingFrameBindingTemplate_Button2
+--- @field Buttons table<number, KeyBindingFrameBindingTemplate_Button2>
 --- @field Label KeyBindingFrameBindingTemplate_Label
 --- @field Highlight Texture
 

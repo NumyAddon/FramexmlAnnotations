@@ -173,27 +173,28 @@ DressUpFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class DressUpFrame_LinkButton : DropdownButton, UIPanelButtonTemplate, DressUpModelFrameLinkButtonMixin
 --- @field menuPointX number # 15
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L1148)
+--- child of DressUpFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+DressUpFrameInset = {}
+DressUpFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- child of DressUpFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
+DressUpFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- child of DressUpFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
-ButtonFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L1148)
---- child of ButtonFrameTemplateMinimizable (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
-ButtonFrameTemplateMinimizableInset = {}
-ButtonFrameTemplateMinimizableInset["layoutType"] = "InsetFrameTemplate" -- inherited
+DressUpFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L272)
 --- @class DressUpFrame : Frame, ButtonFrameTemplateMinimizable, DressUpModelFrameMixin
 --- @field hasOutfitControls boolean # true
 --- @field OutfitDropdown DressUpFrame_DressUpFrameOutfitDropdown
 --- @field MaximizeMinimizeFrame DressUpFrame_MaximizeMinimizeFrame
+--- @field MaxMinButtonFrame DressUpFrame_MaximizeMinimizeFrame
 --- @field ModelScene DressUpFrame_ModelScene
 --- @field ToggleOutfitDetailsButton DressUpFrame_ToggleOutfitDetailsButton
 --- @field SetSelectionPanel DressUpFrame_SetSelectionPanel
@@ -205,8 +206,8 @@ DressUpFrame = {}
 DressUpFrame["OutfitDropdown"] = DressUpFrameOutfitDropdown
 DressUpFrame["ResetButton"] = DressUpFrameResetButton
 DressUpFrame["hasOutfitControls"] = true
-DressUpFrame["layoutType"] = "PortraitFrameTemplateMinimizable" -- inherited
-DressUpFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-DressUpFrame["Bg"] = ButtonFrameTemplateBg -- inherited
-DressUpFrame["Inset"] = ButtonFrameTemplateMinimizableInset -- inherited
+DressUpFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+DressUpFrame["Inset"] = DressUpFrameInset -- inherited
+DressUpFrame["CloseButton"] = DressUpFrameCloseButton -- inherited
+DressUpFrame["Bg"] = DressUpFrameBg -- inherited
 

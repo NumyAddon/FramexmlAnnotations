@@ -71,6 +71,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L173)
 --- Template
+--- Adds itself to the parent inside the array `FrameTick`
 --- @class OrderHallTalentFrameTick : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L242)
@@ -149,15 +150,15 @@
 --- child of OrderHallTalentFrame
 --- @class OrderHallTalentFrame_Tick8 : FontString, OrderHallTalentFrameTick
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1095)
 --- child of OrderHallTalentFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 OrderHallTalentFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1062)
+--- child of OrderHallTalentFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+OrderHallTalentFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L177)
 --- @class OrderHallTalentFrame : Frame, PortraitFrameTemplate, OrderHallTalentFrameMixin
@@ -172,15 +173,23 @@ OrderHallTalentFrameCloseButton = {}
 --- @field CurrencyBG Texture
 --- @field SingleCost OrderHallTalentFrame_SingleCost
 --- @field Tick1 OrderHallTalentFrame_Tick1
+--- @field FrameTick table<number, OrderHallTalentFrame_Tick1>
 --- @field Tick2 OrderHallTalentFrame_Tick2
+--- @field FrameTick table<number, OrderHallTalentFrame_Tick2>
 --- @field Tick3 OrderHallTalentFrame_Tick3
+--- @field FrameTick table<number, OrderHallTalentFrame_Tick3>
 --- @field Tick4 OrderHallTalentFrame_Tick4
+--- @field FrameTick table<number, OrderHallTalentFrame_Tick4>
 --- @field Tick5 OrderHallTalentFrame_Tick5
+--- @field FrameTick table<number, OrderHallTalentFrame_Tick5>
 --- @field Tick6 OrderHallTalentFrame_Tick6
+--- @field FrameTick table<number, OrderHallTalentFrame_Tick6>
 --- @field Tick7 OrderHallTalentFrame_Tick7
+--- @field FrameTick table<number, OrderHallTalentFrame_Tick7>
 --- @field Tick8 OrderHallTalentFrame_Tick8
+--- @field FrameTick table<number, OrderHallTalentFrame_Tick8>
 OrderHallTalentFrame = {}
-OrderHallTalentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-OrderHallTalentFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 OrderHallTalentFrame["CloseButton"] = OrderHallTalentFrameCloseButton -- inherited
+OrderHallTalentFrame["Bg"] = OrderHallTalentFrameBg -- inherited
+OrderHallTalentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

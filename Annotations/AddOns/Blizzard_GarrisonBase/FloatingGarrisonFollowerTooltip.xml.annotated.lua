@@ -27,14 +27,6 @@
 --- child of GarrisonFollowerTooltipContentsTemplate
 --- @class GarrisonFollowerTooltipContentsTemplate_PortraitFrame : Frame, GarrisonFollowerPortraitTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L152)
---- child of GarrisonFollowerTooltipContentsTemplate
---- @class  : Frame, GarrisonFollowerAbilityTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L158)
---- child of GarrisonFollowerTooltipContentsTemplate
---- @class  : Frame, GarrisonFollowerAbilityTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L78)
 --- child of GarrisonFollowerTooltipContentsTemplate
 --- @class GarrisonFollowerTooltipContentsTemplate_Name : FontString, GameFontNormal
@@ -75,6 +67,8 @@
 --- Template
 --- @class GarrisonFollowerTooltipContentsTemplate : Frame
 --- @field PortraitFrame GarrisonFollowerTooltipContentsTemplate_PortraitFrame
+--- @field Abilities table<number, >
+--- @field Traits table<number, >
 --- @field Class Texture
 --- @field XPBarBackground Texture
 --- @field Name GarrisonFollowerTooltipContentsTemplate_Name
@@ -128,9 +122,13 @@
 --- Template
 --- @class GarrisonShipyardFollowerTooltipTemplate : Frame, TooltipBackdropTemplate
 --- @field Property1 GarrisonShipyardFollowerTooltipTemplate_Property1
+--- @field Properties table<number, GarrisonShipyardFollowerTooltipTemplate_Property1>
 --- @field Property2 GarrisonShipyardFollowerTooltipTemplate_Property2
+--- @field Properties table<number, GarrisonShipyardFollowerTooltipTemplate_Property2>
 --- @field Property3 GarrisonShipyardFollowerTooltipTemplate_Property3
+--- @field Properties table<number, GarrisonShipyardFollowerTooltipTemplate_Property3>
 --- @field Property4 GarrisonShipyardFollowerTooltipTemplate_Property4
+--- @field Properties table<number, GarrisonShipyardFollowerTooltipTemplate_Property4>
 --- @field XPBarBackground Texture
 --- @field Name GarrisonShipyardFollowerTooltipTemplate_Name
 --- @field ClassSpecName GarrisonShipyardFollowerTooltipTemplate_ClassSpecName
@@ -233,8 +231,8 @@ FloatingGarrisonShipyardFollowerTooltip["layoutType"] = "TooltipDefaultLayout" -
 --- @class FloatingGarrisonFollowerAbilityTooltip : Frame, GarrisonFollowerAbilityTooltipTemplate
 --- @field CloseButton FloatingGarrisonFollowerAbilityTooltip_CloseButton
 FloatingGarrisonFollowerAbilityTooltip = {}
-FloatingGarrisonFollowerAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 FloatingGarrisonFollowerAbilityTooltip["abilityFrameHeightBase"] = 30 -- inherited
+FloatingGarrisonFollowerAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L472)
 --- child of FloatingGarrisonMissionTooltip

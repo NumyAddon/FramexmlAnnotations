@@ -29,23 +29,18 @@ NamePlateDriverFrame = {}
 --- Template
 --- @class NamePlateFullBorderTemplate : Frame, NamePlateBorderTemplateMixin
 --- @field Left Texture
---- @field Textures table<number, Texture>
 --- @field Right Texture
---- @field Textures table<number, Texture>
 --- @field Bottom Texture
---- @field Textures table<number, Texture>
 --- @field Top Texture
---- @field Textures table<number, Texture>
+--- @field Textures table<number, Texture | Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L100)
 --- Template
 --- @class NamePlateSecondaryBarBorderTemplate : Frame, NamePlateBorderTemplateMixin
 --- @field Left Texture
---- @field Textures table<number, Texture>
 --- @field Right Texture
---- @field Textures table<number, Texture>
 --- @field Bottom Texture
---- @field Textures table<number, Texture>
+--- @field Textures table<number, Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L155)
 --- child of 

@@ -19,12 +19,10 @@
 --- @class AnimatedStatusBarTemplate : StatusBar, AnimatedStatusBarMixin
 --- @field tileTemplate string # "AnimatedStatusBarGlowLinesTemplate"
 --- @field BarGain Texture
---- @field ColorableTextures table<number, Texture>
 --- @field BarTrailGlow Texture
---- @field ColorableTextures table<number, Texture>
 --- @field BarGlow Texture
---- @field ColorableTextures table<number, Texture>
 --- @field SparkBurstMove Texture
---- @field AnimatedTextures table<number, Texture>
 --- @field Anim AnimatedStatusBarTemplate_Anim
+--- @field ColorableTextures table<number, Texture | Texture | Texture>
+--- @field AnimatedTextures table<number, Texture>
 

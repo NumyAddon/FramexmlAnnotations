@@ -15,12 +15,10 @@
 --- Template
 --- @class BonusTrackerProgressBarFlareAnimTemplate : Frame
 --- @field AnimTopLine Texture
---- @field AlphaTextures table<number, Texture>
 --- @field AnimBottomLine Texture
---- @field AlphaTextures table<number, Texture>
 --- @field AnimBarGlow Texture
---- @field AlphaTextures table<number, Texture>
 --- @field FlareAnim BonusTrackerProgressBarFlareAnimTemplate_FlareAnim
+--- @field AlphaTextures table<number, Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L70)
 --- child of BonusTrackerProgressBarFullBarFlareTemplate
@@ -30,8 +28,8 @@
 --- Template
 --- @class BonusTrackerProgressBarFullBarFlareTemplate : Frame
 --- @field BarGlow Texture
---- @field AlphaTextures table<number, Texture>
 --- @field FlareAnim BonusTrackerProgressBarFullBarFlareTemplate_FlareAnim
+--- @field AlphaTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L93)
 --- child of BonusTrackerProgressBarSmallFlareAnimTemplate
@@ -42,8 +40,8 @@
 --- Template
 --- @class BonusTrackerProgressBarSmallFlareAnimTemplate : Frame
 --- @field BarGlow Texture
---- @field AlphaTextures table<number, Texture>
 --- @field FlareAnim BonusTrackerProgressBarSmallFlareAnimTemplate_FlareAnim
+--- @field AlphaTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L127)
 --- child of 
@@ -60,18 +58,14 @@
 --- @field IconBG Texture
 --- @field Label BonusTrackerProgressBarTemplate_Bar_Label
 --- @field BarFrame2 Texture
---- @field AlphaTextures table<number, Texture>
 --- @field BarFrame3 Texture
---- @field AlphaTextures table<number, Texture>
 --- @field BarBG Texture
 --- @field Icon Texture
 --- @field BarGlow Texture
---- @field AlphaTextures table<number, Texture>
 --- @field Sheen Texture
---- @field AlphaTextures table<number, Texture>
 --- @field Starburst Texture
---- @field AlphaTextures table<number, Texture>
 --- @field AnimIn BonusTrackerProgressBarTemplate_Bar_AnimIn
+--- @field AlphaTextures table<number, Texture | Texture | Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L203)
 --- child of BonusTrackerProgressBarTemplate
@@ -101,19 +95,13 @@
 --- Template
 --- @class BonusTrackerProgressBarTemplate : Frame, BonusObjectiveTrackerProgressBarMixin
 --- @field Bar BonusTrackerProgressBarTemplate_Bar
---- @field AnimatableFrames table<number, BonusTrackerProgressBarTemplate_Bar>
 --- @field Flare1 BonusTrackerProgressBarTemplate_Flare1
---- @field AnimatableFrames table<number, BonusTrackerProgressBarTemplate_Flare1>
 --- @field Flare2 BonusTrackerProgressBarTemplate_Flare2
---- @field AnimatableFrames table<number, BonusTrackerProgressBarTemplate_Flare2>
 --- @field SmallFlare1 BonusTrackerProgressBarTemplate_SmallFlare1
---- @field AnimatableFrames table<number, BonusTrackerProgressBarTemplate_SmallFlare1>
 --- @field SmallFlare2 BonusTrackerProgressBarTemplate_SmallFlare2
---- @field AnimatableFrames table<number, BonusTrackerProgressBarTemplate_SmallFlare2>
 --- @field FullBarFlare1 BonusTrackerProgressBarTemplate_FullBarFlare1
---- @field AnimatableFrames table<number, BonusTrackerProgressBarTemplate_FullBarFlare1>
 --- @field FullBarFlare2 BonusTrackerProgressBarTemplate_FullBarFlare2
---- @field AnimatableFrames table<number, BonusTrackerProgressBarTemplate_FullBarFlare2>
+--- @field AnimatableFrames table<number, BonusTrackerProgressBarTemplate_Bar | BonusTrackerProgressBarTemplate_Flare1 | BonusTrackerProgressBarTemplate_Flare2 | BonusTrackerProgressBarTemplate_SmallFlare1 | BonusTrackerProgressBarTemplate_SmallFlare2 | BonusTrackerProgressBarTemplate_FullBarFlare1 | BonusTrackerProgressBarTemplate_FullBarFlare2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L283)
 --- child of ObjectiveTrackerTopBannerFrame

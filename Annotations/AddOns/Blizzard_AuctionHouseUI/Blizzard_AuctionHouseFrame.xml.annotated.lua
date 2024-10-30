@@ -135,11 +135,8 @@ AuctionHouseFrameBg = {}
 --- @field MoneyFrameInset AuctionHouseFrame_MoneyFrameInset
 --- @field MoneyFrameBorder AuctionHouseFrame_MoneyFrameBorder
 --- @field BuyTab AuctionHouseFrame_AuctionHouseFrameBuyTab
---- @field Tabs table<number, AuctionHouseFrame_AuctionHouseFrameBuyTab>
 --- @field SellTab AuctionHouseFrame_AuctionHouseFrameSellTab
---- @field Tabs table<number, AuctionHouseFrame_AuctionHouseFrameSellTab>
 --- @field AuctionsTab AuctionHouseFrame_AuctionHouseFrameAuctionsTab
---- @field Tabs table<number, AuctionHouseFrame_AuctionHouseFrameAuctionsTab>
 --- @field SearchBar AuctionHouseFrame_SearchBar
 --- @field CategoriesList AuctionHouseFrame_CategoriesList
 --- @field BrowseResultsFrame AuctionHouseFrame_BrowseResultsFrame
@@ -155,6 +152,7 @@ AuctionHouseFrameBg = {}
 --- @field DialogOverlay Button
 --- @field BuyDialog AuctionHouseFrame_BuyDialog
 --- @field DummyMoneyDisplayFrame AuctionHouseFrame_DummyMoneyDisplayFrame
+--- @field Tabs table<number, AuctionHouseFrame_AuctionHouseFrameBuyTab | AuctionHouseFrame_AuctionHouseFrameSellTab | AuctionHouseFrame_AuctionHouseFrameAuctionsTab>
 AuctionHouseFrame = {}
 AuctionHouseFrame["BuyTab"] = AuctionHouseFrameBuyTab
 AuctionHouseFrame["SellTab"] = AuctionHouseFrameSellTab

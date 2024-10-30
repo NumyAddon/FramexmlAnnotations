@@ -157,18 +157,15 @@
 --- @class GroupLootFrameTemplate : Frame
 --- @field IconFrame GroupLootFrameTemplate_IconFrame
 --- @field NeedButton GroupLootFrameTemplate_NeedButton
---- @field LootButtons table<number, GroupLootFrameTemplate_NeedButton>
 --- @field PassButton GroupLootFrameTemplate_PassButton
---- @field LootButtons table<number, GroupLootFrameTemplate_PassButton>
 --- @field GreedButton GroupLootFrameTemplate_GreedButton
---- @field LootButtons table<number, GroupLootFrameTemplate_GreedButton>
 --- @field TransmogButton GroupLootFrameTemplate_TransmogButton
---- @field LootButtons table<number, GroupLootFrameTemplate_TransmogButton>
 --- @field Timer GroupLootFrameTemplate_Timer
 --- @field NeedRollAnim GroupLootFrameTemplate_NeedRollAnim
 --- @field Background Texture
 --- @field Border Texture
 --- @field Name GroupLootFrameTemplate_Name
+--- @field LootButtons table<number, GroupLootFrameTemplate_NeedButton | GroupLootFrameTemplate_PassButton | GroupLootFrameTemplate_GreedButton | GroupLootFrameTemplate_TransmogButton>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L537)
 --- @class GroupLootContainer : ContainedAlertFrame, UIParentBottomManagedFrameTemplate

@@ -502,18 +502,15 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 --- @field ZoneChoiceFrame CharacterCreateFrame_ZoneChoiceFrame
 --- @field NewPlayerTutorial CharacterCreateFrame_NewPlayerTutorial
 --- @field TopBackgroundOverlay CharacterCreateFrame_TopBackgroundOverlay
---- @field BGTex table<number, CharacterCreateFrame_TopBackgroundOverlay>
 --- @field LeftBackgroundOverlay CharacterCreateFrame_LeftBackgroundOverlay
---- @field BGTex table<number, CharacterCreateFrame_LeftBackgroundOverlay>
 --- @field RightBackgroundOverlay CharacterCreateFrame_RightBackgroundOverlay
---- @field BGTex table<number, CharacterCreateFrame_RightBackgroundOverlay>
 --- @field BottomBackgroundOverlay CharacterCreateFrame_BottomBackgroundOverlay
---- @field BGTex table<number, CharacterCreateFrame_BottomBackgroundOverlay>
 --- @field LeftBackgroundWidescreenOverlay Texture
 --- @field RightBackgroundWidescreenOverlay Texture
 --- @field LeftBlackBar Texture
 --- @field RightBlackBar Texture
 --- @field TopBlackBar Texture
+--- @field BGTex table<number, CharacterCreateFrame_TopBackgroundOverlay | CharacterCreateFrame_LeftBackgroundOverlay | CharacterCreateFrame_RightBackgroundOverlay | CharacterCreateFrame_BottomBackgroundOverlay>
 CharacterCreateFrame = {}
 CharacterCreateFrame["maxScale"] = CHAR_CUSTOMIZE_MAX_SCALE
 

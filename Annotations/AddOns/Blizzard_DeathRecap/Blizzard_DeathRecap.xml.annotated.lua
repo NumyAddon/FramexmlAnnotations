@@ -121,20 +121,16 @@ DeathRecapFrameBorderRight = {}
 --- @field CloseXButton DeathRecapFrame_CloseXButton
 --- @field DragButton Button
 --- @field Recap1 DeathRecapFrame_Recap1
---- @field DeathRecapEntry table<number, DeathRecapFrame_Recap1>
 --- @field Recap2 DeathRecapFrame_Recap2
---- @field DeathRecapEntry table<number, DeathRecapFrame_Recap2>
 --- @field Recap3 DeathRecapFrame_Recap3
---- @field DeathRecapEntry table<number, DeathRecapFrame_Recap3>
 --- @field Recap4 DeathRecapFrame_Recap4
---- @field DeathRecapEntry table<number, DeathRecapFrame_Recap4>
 --- @field Recap5 DeathRecapFrame_Recap5
---- @field DeathRecapEntry table<number, DeathRecapFrame_Recap5>
 --- @field CloseButton DeathRecapFrame_CloseButton
 --- @field Background Texture
 --- @field BackgroundInnerGlow Texture
 --- @field Title DeathRecapFrame_Title
 --- @field Divider Texture
 --- @field Unavailable DeathRecapFrame_Unavailable
+--- @field DeathRecapEntry table<number, DeathRecapFrame_Recap1 | DeathRecapFrame_Recap2 | DeathRecapFrame_Recap3 | DeathRecapFrame_Recap4 | DeathRecapFrame_Recap5>
 DeathRecapFrame = {}
 

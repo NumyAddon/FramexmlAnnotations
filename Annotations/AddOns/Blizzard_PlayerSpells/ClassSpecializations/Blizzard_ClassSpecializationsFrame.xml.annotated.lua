@@ -85,25 +85,15 @@
 --- @field Separator Texture
 --- @field ColumnDivider Texture
 --- @field ActivatedBackgroundBack1 Texture
---- @field ActivatedBackFrames table<number, Texture>
 --- @field ActivatedBackgroundBack2 Texture
---- @field ActivatedBackFrames table<number, Texture>
 --- @field ActivatedBackgroundLeft1 Texture
---- @field ActivatedLeftFrames table<number, Texture>
 --- @field ActivatedBackgroundLeft2 Texture
---- @field ActivatedLeftFrames table<number, Texture>
 --- @field ActivatedBackgroundLeft3 Texture
---- @field ActivatedLeftFrames table<number, Texture>
 --- @field ActivatedBackgroundLeft4 Texture
---- @field ActivatedLeftFrames table<number, Texture>
 --- @field ActivatedBackgroundRight1 Texture
---- @field ActivatedRightFrames table<number, Texture>
 --- @field ActivatedBackgroundRight2 Texture
---- @field ActivatedRightFrames table<number, Texture>
 --- @field ActivatedBackgroundRight3 Texture
---- @field ActivatedRightFrames table<number, Texture>
 --- @field ActivatedBackgroundRight4 Texture
---- @field ActivatedRightFrames table<number, Texture>
 --- @field ActivationFlashBGBack1 Texture
 --- @field ActivationFlashBGBack2 Texture
 --- @field ActivationFlashBGLeft1 Texture
@@ -117,4 +107,7 @@
 --- @field ActivationExpandFx Texture
 --- @field ActivationExpandFxMask MaskTexture
 --- @field ActivationExpandFxMask2 MaskTexture
+--- @field ActivatedBackFrames table<number, Texture | Texture>
+--- @field ActivatedLeftFrames table<number, Texture | Texture | Texture | Texture>
+--- @field ActivatedRightFrames table<number, Texture | Texture | Texture | Texture>
 

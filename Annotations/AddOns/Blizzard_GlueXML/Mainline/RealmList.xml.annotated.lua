@@ -180,9 +180,9 @@ RealmListOkButton["atlasName"] = "128-RedButton" -- inherited
 --- child of RealmList
 --- @class RealmListUI_RealmList_RealmListBackground : Frame
 --- @field Header RealmListUI_RealmList_RealmListBackground_Header
---- @field RealmSelectionTabs table<number, RealmListUI_RealmList_RealmListBackground_RealmListTab1>
 --- @field ScrollBox RealmListUI_RealmList_RealmListBackground_ScrollBox
 --- @field ScrollBar RealmListUI_RealmList_RealmListBackground_ScrollBar
+--- @field RealmSelectionTabs table<number, RealmListUI_RealmList_RealmListBackground_RealmListTab1>
 RealmListBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/RealmList.xml#L183)

@@ -41,10 +41,9 @@
 --- @class SpellBookFrameTemplate_PagedSpellsFrame : Frame, PagedCondensedVerticalGridContentFrameTemplate
 --- @field viewsPerPage number # 2
 --- @field View1 SpellBookFrameTemplate_PagedSpellsFrame_View1
---- @field ViewFrames table<number, SpellBookFrameTemplate_PagedSpellsFrame_View1>
 --- @field View2 SpellBookFrameTemplate_PagedSpellsFrame_View2
---- @field ViewFrames table<number, SpellBookFrameTemplate_PagedSpellsFrame_View2>
 --- @field PagingControls SpellBookFrameTemplate_PagedSpellsFrame_PagingControls
+--- @field ViewFrames table<number, SpellBookFrameTemplate_PagedSpellsFrame_View1 | SpellBookFrameTemplate_PagedSpellsFrame_View2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L45)
 --- child of 
@@ -67,12 +66,10 @@
 --- @field PagedSpellsFrame SpellBookFrameTemplate_PagedSpellsFrame
 --- @field TopBar Texture
 --- @field BookBGHalved Texture
---- @field minimizedArt table<number, Texture>
 --- @field BookBGLeft Texture
---- @field maximizedArt table<number, Texture>
 --- @field BookBGRight Texture
---- @field maximizedArt table<number, Texture>
 --- @field BookCornerFlipbook SpellBookFrameTemplate_BookCornerFlipbook
 --- @field Bookmark Texture
---- @field maximizedArt table<number, Texture>
+--- @field minimizedArt table<number, Texture>
+--- @field maximizedArt table<number, Texture | Texture | Texture>
 

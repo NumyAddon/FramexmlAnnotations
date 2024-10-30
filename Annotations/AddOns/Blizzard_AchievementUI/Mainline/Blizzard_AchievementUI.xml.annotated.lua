@@ -1546,15 +1546,10 @@ AchievementFrameSearchIcon = {}
 --- child of AchievementFrame
 --- @class AchievementFrame_SearchPreviewContainer : Frame
 --- @field SearchPreview1 AchievementFrame_SearchPreviewContainer_SearchPreview1
---- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview1>
 --- @field SearchPreview2 AchievementFrame_SearchPreviewContainer_SearchPreview2
---- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview2>
 --- @field SearchPreview3 AchievementFrame_SearchPreviewContainer_SearchPreview3
---- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview3>
 --- @field SearchPreview4 AchievementFrame_SearchPreviewContainer_SearchPreview4
---- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview4>
 --- @field SearchPreview5 AchievementFrame_SearchPreviewContainer_SearchPreview5
---- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview5>
 --- @field ShowAllSearchResults AchievementFrame_SearchPreviewContainer_ShowAllSearchResults
 --- @field Background Texture
 --- @field BorderAnchor AchievementFrame_SearchPreviewContainer_BorderAnchor
@@ -1563,6 +1558,7 @@ AchievementFrameSearchIcon = {}
 --- @field LeftBorder AchievementFrame_SearchPreviewContainer_LeftBorder
 --- @field RightBorder AchievementFrame_SearchPreviewContainer_RightBorder
 --- @field TopBorder AchievementFrame_SearchPreviewContainer_TopBorder
+--- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview1 | AchievementFrame_SearchPreviewContainer_SearchPreview2 | AchievementFrame_SearchPreviewContainer_SearchPreview3 | AchievementFrame_SearchPreviewContainer_SearchPreview4 | AchievementFrame_SearchPreviewContainer_SearchPreview5>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2511)
 --- child of 

@@ -12,11 +12,11 @@
 --- Template
 --- @class QuickJoinButtonTemplate : Button, QuickJoinButtonMixin
 --- @field Background Texture
---- @field Members table<number, >
 --- @field Icon Texture
---- @field Queues table<number, >
 --- @field Highlight Texture
 --- @field Selected Texture
+--- @field Members table<number, >
+--- @field Queues table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L71)
 --- child of QuickJoinFrame

@@ -170,11 +170,11 @@ GroupLootHistoryFrameBg = {}
 --- @field ScrollBox GroupLootHistoryFrame_ScrollBox
 --- @field ScrollBar GroupLootHistoryFrame_ScrollBar
 --- @field EncounterDropdown GroupLootHistoryFrame_EncounterDropdown
---- @field uncommittedRegions table<number, GroupLootHistoryFrame_EncounterDropdown>
 --- @field Timer GroupLootHistoryFrame_Timer
 --- @field ResizeButton GroupLootHistoryFrame_ResizeButton
 --- @field PerfectAnimFrame GroupLootHistoryFrame_PerfectAnimFrame
 --- @field NoInfoString GroupLootHistoryFrame_NoInfoString
+--- @field uncommittedRegions table<number, GroupLootHistoryFrame_EncounterDropdown>
 GroupLootHistoryFrame = {}
 GroupLootHistoryFrame["panelMaxHeight"] = 590
 GroupLootHistoryFrame["Bg"] = GroupLootHistoryFrameBg -- inherited

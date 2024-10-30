@@ -120,19 +120,7 @@ BFAMissionFrameMissions["Tab2"] = BFAMissionFrameMissionsTab2 -- inherited
 --- @field MissionList BFAMissionFrame_MissionTab_BFAMissionFrameMissions
 --- @field ZoneSupportMissionPageBackground BFAMissionFrame_MissionTab_ZoneSupportMissionPageBackground
 --- @field MissionPage BFAMissionFrame_MissionTab_MissionPage
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number,  |  |  |  |  |  |  |  |  |  |  |  | >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L215)
 --- child of BFAMissionFrame
@@ -200,17 +188,15 @@ BFAMissionFrameMissions["Tab2"] = BFAMissionFrameMissionsTab2 -- inherited
 --- @field OverlayElements BFAMissionFrame_OverlayElements
 --- @field TitleScroll BFAMissionFrame_TitleScroll
 --- @field Tab1 BFAMissionFrame_BFAMissionFrameTab1
---- @field Tabs table<number, BFAMissionFrame_BFAMissionFrameTab1>
 --- @field Tab2 BFAMissionFrame_BFAMissionFrameTab2
---- @field Tabs table<number, BFAMissionFrame_BFAMissionFrameTab2>
 --- @field Tab3 BFAMissionFrame_BFAMissionFrameTab3
---- @field Tabs table<number, BFAMissionFrame_BFAMissionFrameTab3>
 --- @field FollowerList BFAMissionFrame_BFAMissionFrameFollowers
 --- @field MapTab BFAMissionFrame_MapTab
 --- @field MissionTab BFAMissionFrame_MissionTab
 --- @field FollowerTab BFAMissionFrame_FollowerTab
 --- @field MissionCompleteBackground BFAMissionFrame_MissionCompleteBackground
 --- @field MissionComplete BFAMissionFrame_MissionComplete
+--- @field Tabs table<number, BFAMissionFrame_BFAMissionFrameTab1 | BFAMissionFrame_BFAMissionFrameTab2 | BFAMissionFrame_BFAMissionFrameTab3>
 BFAMissionFrame = {}
 BFAMissionFrame["Tab1"] = BFAMissionFrameTab1
 BFAMissionFrame["Tab2"] = BFAMissionFrameTab2

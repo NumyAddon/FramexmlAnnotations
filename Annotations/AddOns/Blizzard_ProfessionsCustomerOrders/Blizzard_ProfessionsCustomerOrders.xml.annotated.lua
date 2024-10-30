@@ -74,13 +74,11 @@ ProfessionsCustomerOrdersFrameBg = {}
 --- @field MoneyFrameBorder ProfessionsCustomerOrdersFrame_MoneyFrameBorder
 --- @field Form ProfessionsCustomerOrdersFrame_Form
 --- @field BrowseOrders ProfessionsCustomerOrdersFrame_BrowseOrders
---- @field Pages table<number, ProfessionsCustomerOrdersFrame_BrowseOrders>
 --- @field MyOrdersPage ProfessionsCustomerOrdersFrame_MyOrdersPage
---- @field Pages table<number, ProfessionsCustomerOrdersFrame_MyOrdersPage>
 --- @field BrowseTab ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameBrowseTab
---- @field Tabs table<number, ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameBrowseTab>
 --- @field OrdersTab ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameOrdersTab
---- @field Tabs table<number, ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameOrdersTab>
+--- @field Pages table<number, ProfessionsCustomerOrdersFrame_BrowseOrders | ProfessionsCustomerOrdersFrame_MyOrdersPage>
+--- @field Tabs table<number, ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameBrowseTab | ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameOrdersTab>
 ProfessionsCustomerOrdersFrame = {}
 ProfessionsCustomerOrdersFrame["BrowseTab"] = ProfessionsCustomerOrdersFrameBrowseTab
 ProfessionsCustomerOrdersFrame["OrdersTab"] = ProfessionsCustomerOrdersFrameOrdersTab

@@ -75,21 +75,16 @@
 --- Template
 --- @class BankTabDepositSettingsMenuTemplate : Frame, BankTabDepositSettingsMenuMixin
 --- @field AssignEquipmentCheckbox BankTabDepositSettingsMenuTemplate_AssignEquipmentCheckbox
---- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_AssignEquipmentCheckbox>
 --- @field AssignConsumablesCheckbox BankTabDepositSettingsMenuTemplate_AssignConsumablesCheckbox
---- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_AssignConsumablesCheckbox>
 --- @field AssignProfessionGoodsCheckbox BankTabDepositSettingsMenuTemplate_AssignProfessionGoodsCheckbox
---- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_AssignProfessionGoodsCheckbox>
 --- @field AssignReagentsCheckbox BankTabDepositSettingsMenuTemplate_AssignReagentsCheckbox
---- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_AssignReagentsCheckbox>
 --- @field AssignJunkCheckbox BankTabDepositSettingsMenuTemplate_AssignJunkCheckbox
---- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_AssignJunkCheckbox>
 --- @field IgnoreCleanUpCheckbox BankTabDepositSettingsMenuTemplate_IgnoreCleanUpCheckbox
---- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_IgnoreCleanUpCheckbox>
 --- @field ExpansionFilterDropdown BankTabDepositSettingsMenuTemplate_ExpansionFilterDropdown
 --- @field AssignExpansionHeader BankTabDepositSettingsMenuTemplate_AssignExpansionHeader
 --- @field AssignSettingsHeader BankTabDepositSettingsMenuTemplate_AssignSettingsHeader
 --- @field CleanUpSettingsHeader BankTabDepositSettingsMenuTemplate_CleanUpSettingsHeader
+--- @field DepositSettingsCheckboxes table<number, BankTabDepositSettingsMenuTemplate_AssignEquipmentCheckbox | BankTabDepositSettingsMenuTemplate_AssignConsumablesCheckbox | BankTabDepositSettingsMenuTemplate_AssignProfessionGoodsCheckbox | BankTabDepositSettingsMenuTemplate_AssignReagentsCheckbox | BankTabDepositSettingsMenuTemplate_AssignJunkCheckbox | BankTabDepositSettingsMenuTemplate_IgnoreCleanUpCheckbox>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L168)
 --- child of BankPanelHeaderFrameTemplate
@@ -689,10 +684,9 @@ ReagentBankFrame["layoutType"] = "InsetFrameTemplate"
 --- @field EdgeShadows BankFrame_AccountBankPanel_EdgeShadows
 --- @field ItemDepositFrame BankFrame_AccountBankPanel_ItemDepositFrame
 --- @field PurchasePrompt BankFrame_AccountBankPanel_PurchasePrompt
---- @field Prompts table<number, BankFrame_AccountBankPanel_PurchasePrompt>
 --- @field LockPrompt BankFrame_AccountBankPanel_LockPrompt
---- @field Prompts table<number, BankFrame_AccountBankPanel_LockPrompt>
 --- @field TabSettingsMenu BankFrame_AccountBankPanel_TabSettingsMenu
+--- @field Prompts table<number, BankFrame_AccountBankPanel_PurchasePrompt | BankFrame_AccountBankPanel_LockPrompt>
 AccountBankPanel = {}
 AccountBankPanel["layoutType"] = "InsetFrameTemplate"
 
@@ -713,10 +707,8 @@ BankFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L690)
 --- @class BankFrame : Frame, PortraitFrameTemplate, BankFrameMixin
---- @field Tabs table<number, BankFrame_BankFrameTab1>
---- @field Tabs table<number, BankFrame_BankFrameTab2>
---- @field Tabs table<number, BankFrame_BankFrameTab3>
 --- @field Background Texture
+--- @field Tabs table<number, BankFrame_BankFrameTab1 | BankFrame_BankFrameTab2 | BankFrame_BankFrameTab3>
 BankFrame = {}
 BankFrame["CloseButton"] = BankFrameCloseButton -- inherited
 BankFrame["Bg"] = BankFrameBg -- inherited

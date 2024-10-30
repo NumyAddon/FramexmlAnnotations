@@ -29,8 +29,8 @@ TorghastPlayerChoiceToggleButton["hidePowersSound"] = SOUNDKIT.UI_PLAYER_CHOICE_
 --- @class CypherPlayerChoiceToggleButton : Button, PlayerChoiceToggleButtonTemplate, CypherPlayerChoiceToggleButtonMixin
 --- @field hidePowersSound any # SOUNDKIT.UI_PLAYER_CHOICE_CYPHER_HIDE_POWERS
 --- @field Glow Texture
---- @field pendingPieces table<number, Texture>
 --- @field Mask MaskTexture
+--- @field pendingPieces table<number, Texture>
 --- @field pendingAnimations table<number, >
 CypherPlayerChoiceToggleButton = {}
 CypherPlayerChoiceToggleButton["hidePowersSound"] = SOUNDKIT.UI_PLAYER_CHOICE_CYPHER_HIDE_POWERS

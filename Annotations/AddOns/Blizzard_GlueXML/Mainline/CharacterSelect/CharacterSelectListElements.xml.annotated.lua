@@ -140,13 +140,13 @@
 --- @class CharacterSelectListCharacterTemplate : Button, CharacterSelectListCharacterMixin
 --- @field Arrow CharacterSelectListCharacterTemplate_Arrow
 --- @field PaidService CharacterSelectListCharacterTemplate_PaidService
---- @field PaidServiceButtons table<number, CharacterSelectListCharacterTemplate_PaidService>
 --- @field RestoreCharacterServiceFrame CharacterSelectListCharacterTemplate_RestoreCharacterServiceFrame
 --- @field InnerContent CharacterSelectListCharacterTemplate_InnerContent
 --- @field Drop Texture
 --- @field GlowAnim CharacterSelectListCharacterTemplate_GlowAnim
 --- @field GlowMoveAnim CharacterSelectListCharacterTemplate_GlowMoveAnim
 --- @field PulseAnim CharacterSelectListCharacterTemplate_PulseAnim
+--- @field PaidServiceButtons table<number, CharacterSelectListCharacterTemplate_PaidService>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L420)
 --- child of CharacterSelectListEmptyCharacterTemplate

@@ -71,11 +71,9 @@
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines : Frame, VerticalLayoutFrame
 --- @field layoutIndex number # 3
 --- @field DifficultyStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_DifficultyStatLine
---- @field StatLines table<number, ProfessionsRecipeCrafterDetailsTemplate_StatLines_DifficultyStatLine>
 --- @field SkillStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_SkillStatLine
---- @field StatLines table<number, ProfessionsRecipeCrafterDetailsTemplate_StatLines_SkillStatLine>
 --- @field ConcentrationStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_ConcentrationStatLine
---- @field StatLines table<number, ProfessionsRecipeCrafterDetailsTemplate_StatLines_ConcentrationStatLine>
+--- @field StatLines table<number, ProfessionsRecipeCrafterDetailsTemplate_StatLines_DifficultyStatLine | ProfessionsRecipeCrafterDetailsTemplate_StatLines_SkillStatLine | ProfessionsRecipeCrafterDetailsTemplate_StatLines_ConcentrationStatLine>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L210)
 --- child of 

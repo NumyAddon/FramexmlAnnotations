@@ -29,9 +29,5 @@
 --- Template
 --- @class CompactPartyFrameTemplate : Frame, CompactRaidGroupTemplate, CompactPartyFrameMixin
 --- @field layoutIndex number # 1
---- @field petUnitFrames table<number, CompactPartyFrameTemplate_CompactPartyFrameTemplatePet1>
---- @field petUnitFrames table<number, CompactPartyFrameTemplate_CompactPartyFrameTemplatePet2>
---- @field petUnitFrames table<number, CompactPartyFrameTemplate_CompactPartyFrameTemplatePet3>
---- @field petUnitFrames table<number, CompactPartyFrameTemplate_CompactPartyFrameTemplatePet4>
---- @field petUnitFrames table<number, CompactPartyFrameTemplate_CompactPartyFrameTemplatePet5>
+--- @field petUnitFrames table<number, CompactPartyFrameTemplate_CompactPartyFrameTemplatePet1 | CompactPartyFrameTemplate_CompactPartyFrameTemplatePet2 | CompactPartyFrameTemplate_CompactPartyFrameTemplatePet3 | CompactPartyFrameTemplate_CompactPartyFrameTemplatePet4 | CompactPartyFrameTemplate_CompactPartyFrameTemplatePet5>
 

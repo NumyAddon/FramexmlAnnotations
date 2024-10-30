@@ -59,11 +59,9 @@ PVPScoreFrameTab3["factionEnum"] = 0
 --- child of 
 --- @class PVPMatchResults_content_tabContainer_tabGroup : Frame
 --- @field tab1 PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab1
---- @field Tabs table<number, PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab1>
 --- @field tab2 PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab2
---- @field Tabs table<number, PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab2>
 --- @field tab3 PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab3
---- @field Tabs table<number, PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab3>
+--- @field Tabs table<number, PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab1 | PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab2 | PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab3>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L178)
 --- child of 

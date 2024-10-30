@@ -33,11 +33,7 @@
 --- Template
 --- @class CompactRaidGroupTemplate : Frame
 --- @field isFlowGroup boolean # true
---- @field memberUnitFrames table<number, CompactRaidGroupTemplate_CompactRaidGroupTemplateMember1>
---- @field memberUnitFrames table<number, CompactRaidGroupTemplate_CompactRaidGroupTemplateMember2>
---- @field memberUnitFrames table<number, CompactRaidGroupTemplate_CompactRaidGroupTemplateMember3>
---- @field memberUnitFrames table<number, CompactRaidGroupTemplate_CompactRaidGroupTemplateMember4>
---- @field memberUnitFrames table<number, CompactRaidGroupTemplate_CompactRaidGroupTemplateMember5>
 --- @field title Button
 --- @field borderFrame CompactRaidGroupTemplate_CompactRaidGroupTemplateBorderFrame
+--- @field memberUnitFrames table<number, CompactRaidGroupTemplate_CompactRaidGroupTemplateMember1 | CompactRaidGroupTemplate_CompactRaidGroupTemplateMember2 | CompactRaidGroupTemplate_CompactRaidGroupTemplateMember3 | CompactRaidGroupTemplate_CompactRaidGroupTemplateMember4 | CompactRaidGroupTemplate_CompactRaidGroupTemplateMember5>
 

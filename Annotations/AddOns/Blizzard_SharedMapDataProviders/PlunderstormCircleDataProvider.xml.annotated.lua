@@ -84,20 +84,13 @@
 --- @field Lightning4 PlunderstormOuterCirclePinTemplate_Lightning4
 --- @field Corners Texture
 --- @field BoundsTL PlunderstormOuterCirclePinTemplate_BoundsTL
---- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsTL>
 --- @field BoundsT PlunderstormOuterCirclePinTemplate_BoundsT
---- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsT>
 --- @field BoundsTR PlunderstormOuterCirclePinTemplate_BoundsTR
---- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsTR>
 --- @field BoundsR PlunderstormOuterCirclePinTemplate_BoundsR
---- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsR>
 --- @field BoundsBR PlunderstormOuterCirclePinTemplate_BoundsBR
---- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsBR>
 --- @field BoundsB PlunderstormOuterCirclePinTemplate_BoundsB
---- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsB>
 --- @field BoundsBL PlunderstormOuterCirclePinTemplate_BoundsBL
---- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsBL>
 --- @field BoundsL PlunderstormOuterCirclePinTemplate_BoundsL
---- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsL>
 --- @field LightningPulse PlunderstormOuterCirclePinTemplate_LightningPulse
+--- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsTL | PlunderstormOuterCirclePinTemplate_BoundsT | PlunderstormOuterCirclePinTemplate_BoundsTR | PlunderstormOuterCirclePinTemplate_BoundsR | PlunderstormOuterCirclePinTemplate_BoundsBR | PlunderstormOuterCirclePinTemplate_BoundsB | PlunderstormOuterCirclePinTemplate_BoundsBL | PlunderstormOuterCirclePinTemplate_BoundsL>
 

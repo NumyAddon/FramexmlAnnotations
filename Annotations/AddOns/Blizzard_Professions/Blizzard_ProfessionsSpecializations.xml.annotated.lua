@@ -168,18 +168,15 @@
 --- @class ProfessionsSpecPageTemplate_TreePreview : Frame
 --- @field PathIcon ProfessionsSpecPageTemplate_TreePreview_PathIcon
 --- @field Highlight1 ProfessionsSpecPageTemplate_TreePreview_Highlight1
---- @field Highlights table<number, ProfessionsSpecPageTemplate_TreePreview_Highlight1>
 --- @field Highlight2 ProfessionsSpecPageTemplate_TreePreview_Highlight2
---- @field Highlights table<number, ProfessionsSpecPageTemplate_TreePreview_Highlight2>
 --- @field Highlight3 ProfessionsSpecPageTemplate_TreePreview_Highlight3
---- @field Highlights table<number, ProfessionsSpecPageTemplate_TreePreview_Highlight3>
 --- @field Highlight4 ProfessionsSpecPageTemplate_TreePreview_Highlight4
---- @field Highlights table<number, ProfessionsSpecPageTemplate_TreePreview_Highlight4>
 --- @field Background Texture
 --- @field Title ProfessionsSpecPageTemplate_TreePreview_Title
 --- @field Description ProfessionsSpecPageTemplate_TreePreview_Description
 --- @field Separator Texture
 --- @field HighlightsHeader ProfessionsSpecPageTemplate_TreePreview_HighlightsHeader
+--- @field Highlights table<number, ProfessionsSpecPageTemplate_TreePreview_Highlight1 | ProfessionsSpecPageTemplate_TreePreview_Highlight2 | ProfessionsSpecPageTemplate_TreePreview_Highlight3 | ProfessionsSpecPageTemplate_TreePreview_Highlight4>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L461)
 --- child of ProfessionsSpecPageTemplate

@@ -64,7 +64,6 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L142)
 --- @class BossBanner : Frame
---- @field LootFrames table<number, BossBannerLootFrameTemplate>
 --- @field BannerTop Texture
 --- @field BannerTopGlow Texture
 --- @field BannerBottom Texture
@@ -73,7 +72,7 @@
 --- @field BannerMiddleGlow Texture
 --- @field SkullCircle Texture
 --- @field LootCircle Texture
---- @field RedFlash Texture
+--- @field RedFlash Texture | Texture
 --- @field BottomFillagree Texture
 --- @field SkullSpikes Texture
 --- @field RightFillagree Texture
@@ -83,9 +82,9 @@
 --- @field FlashBurst Texture
 --- @field FlashBurstLeft Texture
 --- @field FlashBurstCenter Texture
---- @field RedFlash Texture
 --- @field AnimIn BossBanner_AnimIn
 --- @field AnimSwitch BossBanner_AnimSwitch
 --- @field AnimOut BossBanner_AnimOut
+--- @field LootFrames table<number, BossBannerLootFrameTemplate>
 BossBanner = {}
 

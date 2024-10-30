@@ -101,11 +101,9 @@
 --- @class IslandsQueueFrameCardFrameTemplate : Frame, UIWidgetContainerTemplate
 --- @field showAndHideOnWidgetSetRegistration boolean # false
 --- @field CenterCard IslandsQueueFrameCardFrameTemplate_CenterCard
---- @field IslandCards table<number, IslandsQueueFrameCardFrameTemplate_CenterCard>
 --- @field LeftCard IslandsQueueFrameCardFrameTemplate_LeftCard
---- @field IslandCards table<number, IslandsQueueFrameCardFrameTemplate_LeftCard>
 --- @field RightCard IslandsQueueFrameCardFrameTemplate_RightCard
---- @field IslandCards table<number, IslandsQueueFrameCardFrameTemplate_RightCard>
+--- @field IslandCards table<number, IslandsQueueFrameCardFrameTemplate_CenterCard | IslandsQueueFrameCardFrameTemplate_LeftCard | IslandsQueueFrameCardFrameTemplate_RightCard>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L410)
 --- child of 

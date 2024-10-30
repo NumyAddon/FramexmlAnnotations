@@ -2035,21 +2035,7 @@ BrowseSearchDotsText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L106)
 --- child of AuctionFrame
 --- @class AuctionFrame_AuctionFrameBrowse : Frame
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton1>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton2>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton3>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton4>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton5>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton6>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton7>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton8>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton9>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton10>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton11>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton12>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton13>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton14>
---- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton15>
+--- @field FilterButtons table<number, AuctionFrame_AuctionFrameBrowse_AuctionFilterButton1 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton2 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton3 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton4 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton5 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton6 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton7 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton8 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton9 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton10 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton11 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton12 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton13 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton14 | AuctionFrame_AuctionFrameBrowse_AuctionFilterButton15>
 AuctionFrameBrowse = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L87)

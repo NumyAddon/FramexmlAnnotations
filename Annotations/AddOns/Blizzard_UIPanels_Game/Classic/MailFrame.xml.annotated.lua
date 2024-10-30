@@ -816,22 +816,7 @@ SendMailHorizontalBarLeft2 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L451)
 --- child of MailFrame
 --- @class MailFrame_SendMailFrame : Frame
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment1>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment2>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment3>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment4>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment5>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment6>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment7>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment8>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment9>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment10>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment11>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment12>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment13>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment14>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment15>
---- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment16>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment1 | MailFrame_SendMailFrame_SendMailAttachment2 | MailFrame_SendMailFrame_SendMailAttachment3 | MailFrame_SendMailFrame_SendMailAttachment4 | MailFrame_SendMailFrame_SendMailAttachment5 | MailFrame_SendMailFrame_SendMailAttachment6 | MailFrame_SendMailFrame_SendMailAttachment7 | MailFrame_SendMailFrame_SendMailAttachment8 | MailFrame_SendMailFrame_SendMailAttachment9 | MailFrame_SendMailFrame_SendMailAttachment10 | MailFrame_SendMailFrame_SendMailAttachment11 | MailFrame_SendMailFrame_SendMailAttachment12 | MailFrame_SendMailFrame_SendMailAttachment13 | MailFrame_SendMailFrame_SendMailAttachment14 | MailFrame_SendMailFrame_SendMailAttachment15 | MailFrame_SendMailFrame_SendMailAttachment16>
 SendMailFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L9)
@@ -2056,22 +2041,7 @@ OpenMailFrameRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L860)
 --- @class OpenMailFrame : Frame, ButtonFrameTemplate
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton1>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton2>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton3>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton4>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton5>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton6>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton7>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton8>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton9>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton10>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton11>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton12>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton13>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton14>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton15>
---- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton16>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton1 | OpenMailFrame_OpenMailAttachmentButton2 | OpenMailFrame_OpenMailAttachmentButton3 | OpenMailFrame_OpenMailAttachmentButton4 | OpenMailFrame_OpenMailAttachmentButton5 | OpenMailFrame_OpenMailAttachmentButton6 | OpenMailFrame_OpenMailAttachmentButton7 | OpenMailFrame_OpenMailAttachmentButton8 | OpenMailFrame_OpenMailAttachmentButton9 | OpenMailFrame_OpenMailAttachmentButton10 | OpenMailFrame_OpenMailAttachmentButton11 | OpenMailFrame_OpenMailAttachmentButton12 | OpenMailFrame_OpenMailAttachmentButton13 | OpenMailFrame_OpenMailAttachmentButton14 | OpenMailFrame_OpenMailAttachmentButton15 | OpenMailFrame_OpenMailAttachmentButton16>
 OpenMailFrame = {}
 OpenMailFrame["Inset"] = OpenMailFrameInset -- inherited
 OpenMailFrame["CloseButton"] = OpenMailFrameCloseButton -- inherited

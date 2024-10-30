@@ -235,23 +235,15 @@ BarberShopFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class BarberShopFrame : Frame, VerticalLayoutFrame
 --- @field fixedWidth number # 271
 --- @field FaceSelector BarberShopFrame_FaceSelector
---- @field Selector table<number, BarberShopFrame_FaceSelector>
 --- @field HairStyleSelector BarberShopFrame_HairStyleSelector
---- @field Selector table<number, BarberShopFrame_HairStyleSelector>
 --- @field HairColorSelector BarberShopFrame_HairColorSelector
---- @field Selector table<number, BarberShopFrame_HairColorSelector>
 --- @field FacialHairSelector BarberShopFrame_FacialHairSelector
---- @field Selector table<number, BarberShopFrame_FacialHairSelector>
 --- @field SkinColorSelector BarberShopFrame_SkinColorSelector
---- @field Selector table<number, BarberShopFrame_SkinColorSelector>
 --- @field CustomSelector1 BarberShopFrame_CustomSelector1
---- @field Selector table<number, BarberShopFrame_CustomSelector1>
 --- @field CustomSelector2 BarberShopFrame_CustomSelector2
---- @field Selector table<number, BarberShopFrame_CustomSelector2>
 --- @field CustomSelector3 BarberShopFrame_CustomSelector3
---- @field Selector table<number, BarberShopFrame_CustomSelector3>
 --- @field CustomSelector4 BarberShopFrame_CustomSelector4
---- @field Selector table<number, BarberShopFrame_CustomSelector4>
+--- @field Selector table<number, BarberShopFrame_FaceSelector | BarberShopFrame_HairStyleSelector | BarberShopFrame_HairColorSelector | BarberShopFrame_FacialHairSelector | BarberShopFrame_SkinColorSelector | BarberShopFrame_CustomSelector1 | BarberShopFrame_CustomSelector2 | BarberShopFrame_CustomSelector3 | BarberShopFrame_CustomSelector4>
 BarberShopFrame = {}
 BarberShopFrame["fixedWidth"] = 271
 

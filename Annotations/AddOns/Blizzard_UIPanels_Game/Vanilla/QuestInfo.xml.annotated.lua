@@ -342,7 +342,6 @@ QuestInfoItemHighlight = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L262)
 --- @class QuestInfoRewardsFrame : Frame
 --- @field HonorFrame QuestInfoRewardsFrame_HonorFrame
---- @field RewardButtons table<number, QuestInfoRewardsFrame_QuestInfoRewardsFrameQuestInfoItem1>
 --- @field MoneyFrame QuestInfoRewardsFrame_QuestInfoMoneyFrame
 --- @field SkillPointFrame QuestInfoRewardsFrame_QuestInfoSkillPointFrame
 --- @field XPFrame QuestInfoRewardsFrame_QuestInfoXPFrame
@@ -353,6 +352,7 @@ QuestInfoItemHighlight = {}
 --- @field ItemChooseText QuestInfoRewardsFrame_ItemChooseText
 --- @field ItemReceiveText QuestInfoRewardsFrame_ItemReceiveText
 --- @field PlayerTitleText QuestInfoRewardsFrame_PlayerTitleText
+--- @field RewardButtons table<number, QuestInfoRewardsFrame_QuestInfoRewardsFrameQuestInfoItem1>
 QuestInfoRewardsFrame = {}
 QuestInfoRewardsFrame["MoneyFrame"] = QuestInfoMoneyFrame
 QuestInfoRewardsFrame["SkillPointFrame"] = QuestInfoSkillPointFrame
@@ -463,7 +463,6 @@ MapQuestInfoRewardsFrameIconTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L446)
 --- @class MapQuestInfoRewardsFrame : Frame
 --- @field Header Frame
---- @field RewardButtons table<number, MapQuestInfoRewardsFrame_MapQuestInfoRewardsFrameQuestInfoItem1>
 --- @field XPFrame MapQuestInfoRewardsFrame_XPFrame
 --- @field HonorFrame MapQuestInfoRewardsFrame_HonorFrame
 --- @field ArtifactXPFrame MapQuestInfoRewardsFrame_ArtifactXPFrame
@@ -473,6 +472,7 @@ MapQuestInfoRewardsFrameIconTexture = {}
 --- @field ItemChooseText MapQuestInfoRewardsFrame_ItemChooseText
 --- @field ItemReceiveText MapQuestInfoRewardsFrame_ItemReceiveText
 --- @field PlayerTitleText MapQuestInfoRewardsFrame_PlayerTitleText
+--- @field RewardButtons table<number, MapQuestInfoRewardsFrame_MapQuestInfoRewardsFrameQuestInfoItem1>
 MapQuestInfoRewardsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L584)

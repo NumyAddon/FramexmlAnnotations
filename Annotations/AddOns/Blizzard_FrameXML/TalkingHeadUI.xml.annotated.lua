@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L18)
---- child of 
+--- child of TalkingHeadFrame_NameFrame
 --- @class TalkingHeadFrame_NameFrame_Name : FontString, Fancy22Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L27)
---- child of 
+--- child of TalkingHeadFrame_NameFrame
 --- @class TalkingHeadFrame_NameFrame_Fadein : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L30)
---- child of 
+--- child of TalkingHeadFrame_NameFrame
 --- @class TalkingHeadFrame_NameFrame_Fadeout : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L33)
---- child of 
+--- child of TalkingHeadFrame_NameFrame
 --- @class TalkingHeadFrame_NameFrame_Close : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L15)
@@ -25,20 +25,20 @@
 --- @field Close TalkingHeadFrame_NameFrame_Close
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L41)
---- child of 
+--- child of TalkingHeadFrame_TextFrame
 --- @class TalkingHeadFrame_TextFrame_Text : FontString, GameFontHighlightLarge, AutoScalingFontStringMixin
 --- @field minLineHeight number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L54)
---- child of 
+--- child of TalkingHeadFrame_TextFrame
 --- @class TalkingHeadFrame_TextFrame_Fadein : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L57)
---- child of 
+--- child of TalkingHeadFrame_TextFrame
 --- @class TalkingHeadFrame_TextFrame_Fadeout : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L60)
---- child of 
+--- child of TalkingHeadFrame_TextFrame
 --- @class TalkingHeadFrame_TextFrame_Close : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L38)
@@ -50,11 +50,11 @@
 --- @field Close TalkingHeadFrame_TextFrame_Close
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L72)
---- child of 
+--- child of TalkingHeadFrame_BackgroundFrame
 --- @class TalkingHeadFrame_BackgroundFrame_Fadein : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L75)
---- child of 
+--- child of TalkingHeadFrame_BackgroundFrame
 --- @class TalkingHeadFrame_BackgroundFrame_Close : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L65)
@@ -65,11 +65,11 @@
 --- @field Close TalkingHeadFrame_BackgroundFrame_Close
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L91)
---- child of 
+--- child of TalkingHeadFrame_PortraitFrame
 --- @class TalkingHeadFrame_PortraitFrame_Fadein : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L94)
---- child of 
+--- child of TalkingHeadFrame_PortraitFrame
 --- @class TalkingHeadFrame_PortraitFrame_Close : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L80)
@@ -80,27 +80,27 @@
 --- @field Close TalkingHeadFrame_PortraitFrame_Close
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L115)
---- child of 
+--- child of TalkingHeadFrame_MainFrame
 --- @class TalkingHeadFrame_MainFrame_Model : PlayerModel, TalkingHeadFrameModelMixin
 --- @field PortraitBg Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L135)
---- child of 
+--- child of TalkingHeadFrame_MainFrame
 --- @class TalkingHeadFrame_MainFrame_Overlay : Frame
 --- @field Glow_TopBar Texture
 --- @field Glow_LeftBar Texture
 --- @field Glow_RightBar Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L160)
---- child of 
+--- child of TalkingHeadFrame_MainFrame
 --- @class TalkingHeadFrame_MainFrame_CloseButton : Button, UIPanelCloseButtonNoScripts
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L172)
---- child of 
+--- child of TalkingHeadFrame_MainFrame
 --- @class TalkingHeadFrame_MainFrame_TalkingHeadsInAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L202)
---- child of 
+--- child of TalkingHeadFrame_MainFrame
 --- @class TalkingHeadFrame_MainFrame_Close : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L99)

@@ -25,11 +25,11 @@
 --- @field Text ProfessionsOutputLogExtraIconsRowTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.xml#L83)
---- child of 
+--- child of ProfessionsCraftingOutputLogElementTemplate_ItemContainer
 --- @class ProfessionsCraftingOutputLogElementTemplate_ItemContainer_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.xml#L111)
---- child of 
+--- child of ProfessionsCraftingOutputLogElementTemplate_ItemContainer
 --- @class ProfessionsCraftingOutputLogElementTemplate_ItemContainer_CritText : FontString, GameFontNormalTiny
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.xml#L52)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.xml#L72)
---- child of 
+--- child of ProfessionsReagentSlotBaseTemplate_Button
 --- @class ProfessionsReagentSlotBaseTemplate_Button_InputOverlay : Frame
 --- @field AddIcon Texture
 --- @field AddIconHighlight Texture

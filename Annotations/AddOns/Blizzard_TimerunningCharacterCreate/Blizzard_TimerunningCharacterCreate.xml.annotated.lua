@@ -24,44 +24,44 @@ TimerunningCreateCharacterButtonGlow = {}
 TimerunningCreateCharacterButtonGlow["frameMaskOverrideHeight"] = 296
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L169)
---- child of 
+--- child of TimerunningFirstTimeDialog_InfoPanel
 --- @class TimerunningFirstTimeDialog_InfoPanel_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L180)
---- child of 
+--- child of TimerunningFirstTimeDialog_InfoPanel_CreateButton
 --- @class TimerunningFirstTimeDialog_InfoPanel_CreateButton_Glow : Frame, TimerunningCreateCharacterButtonGlowTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L174)
---- child of 
+--- child of TimerunningFirstTimeDialog_InfoPanel
 --- @class TimerunningFirstTimeDialog_InfoPanel_CreateButton : Button, GlueButtonSmallTemplate
 --- @field Glow TimerunningFirstTimeDialog_InfoPanel_CreateButton_Glow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L107)
---- child of 
+--- child of TimerunningFirstTimeDialog_InfoPanel
 --- @class TimerunningFirstTimeDialog_InfoPanel_TopDescription : FontString, GameFontNormalOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L113)
---- child of 
+--- child of TimerunningFirstTimeDialog_InfoPanel
 --- @class TimerunningFirstTimeDialog_InfoPanel_QuestsHeader : FontString, GameFontHighlightMed2Outline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L123)
---- child of 
+--- child of TimerunningFirstTimeDialog_InfoPanel
 --- @class TimerunningFirstTimeDialog_InfoPanel_QuestsDescription : FontString, GameFontNormalSmallOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L129)
---- child of 
+--- child of TimerunningFirstTimeDialog_InfoPanel
 --- @class TimerunningFirstTimeDialog_InfoPanel_ItemsHeader : FontString, GameFontHighlightMed2Outline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L139)
---- child of 
+--- child of TimerunningFirstTimeDialog_InfoPanel
 --- @class TimerunningFirstTimeDialog_InfoPanel_ItemsDescription : FontString, GameFontNormalSmallOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L145)
---- child of 
+--- child of TimerunningFirstTimeDialog_InfoPanel
 --- @class TimerunningFirstTimeDialog_InfoPanel_RewardsHeader : FontString, GameFontHighlightMed2Outline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L155)
---- child of 
+--- child of TimerunningFirstTimeDialog_InfoPanel
 --- @class TimerunningFirstTimeDialog_InfoPanel_RewardsDescription : FontString, GameFontNormalSmallOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L72)

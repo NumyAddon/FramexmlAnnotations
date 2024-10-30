@@ -27,7 +27,7 @@
 --- @field BackgroundTile Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L105)
---- child of 
+--- child of ChromieTimeFrame_Title
 --- @class ChromieTimeFrame_Title_Text : FontString, SystemFont_Large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L76)
@@ -48,11 +48,11 @@
 --- @class ChromieTimeFrame_SelectButton : Button, UIPanelButtonTemplate, ChromieTimeSelectButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L161)
---- child of 
+--- child of ChromieTimeFrame_CurrentlySelectedExpansionInfoFrame
 --- @class ChromieTimeFrame_CurrentlySelectedExpansionInfoFrame_Name : FontString, QuestFont_Super_Huge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L168)
---- child of 
+--- child of ChromieTimeFrame_CurrentlySelectedExpansionInfoFrame
 --- @class ChromieTimeFrame_CurrentlySelectedExpansionInfoFrame_Description : FontString, SystemFont_Med3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.xml#L134)

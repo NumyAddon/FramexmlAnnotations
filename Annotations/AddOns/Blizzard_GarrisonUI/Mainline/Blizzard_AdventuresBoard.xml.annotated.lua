@@ -69,7 +69,7 @@
 --- @class FollowerEmptySocketTemplate : Frame, AdventuresBoardEmptySocketTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L121)
---- child of 
+--- child of AdventuresBoardTemplate_EnemyContainer
 --- @class AdventuresBoardTemplate_EnemyContainer_FadeOut : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L115)
@@ -78,7 +78,7 @@
 --- @field FadeOut AdventuresBoardTemplate_EnemyContainer_FadeOut
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L138)
---- child of 
+--- child of AdventuresBoardTemplate_FollowerContainer
 --- @class AdventuresBoardTemplate_FollowerContainer_FadeIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L132)

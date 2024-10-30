@@ -127,7 +127,7 @@
 --- @class GarrisonLandingPage_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L412)
---- child of 
+--- child of GarrisonLandingPage_InvasionBadge
 --- @class GarrisonLandingPage_InvasionBadge_InvasionBadgeAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L392)
@@ -214,93 +214,93 @@ GarrisonLandingPageFollowerList = {}
 GarrisonLandingPageFollowerList["showUncollected"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L676)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_UpgradeClickTarget : Button, GarrisonFollowerUpgradeClickTargetTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L689)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_QualityFrame
 --- @class GarrisonLandingPage_FollowerTab_QualityFrame_Text : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L682)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_QualityFrame : Frame
 --- @field Text GarrisonLandingPage_FollowerTab_QualityFrame_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L697)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_PortraitFrame : Frame, GarrisonFollowerPortraitTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L702)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_CovenantFollowerPortraitFrame : Frame, CovenantPortraitTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L714)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_XPBar
 --- @class GarrisonLandingPage_FollowerTab_XPBar_Label : FontString, NumberFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L707)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_XPBar : StatusBar, GarrisonFollowerXPBarTemplate
 --- @field Label GarrisonLandingPage_FollowerTab_XPBar_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L722)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_DurabilityFrame : Frame, GarrisonMissionFollowerDurabilityFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L727)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_ModelCluster : ScrollFrame, GarrisonFollowerTabModelCluster
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L797)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_AbilitiesFrame
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell1 : Button, GarrisonFollowerCombatAllySpellTemplate
 --- @field layoutIndex number # 402
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L804)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_AbilitiesFrame
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell2 : Button, GarrisonFollowerCombatAllySpellTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L739)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_AbilitiesFrame
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame_StatsLabel : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 51
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L746)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_AbilitiesFrame
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame_SpecializationLabel : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 100
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L753)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_AbilitiesFrame
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame_AbilitiesText : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 200
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L760)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_AbilitiesFrame
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame_TraitsText : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 300
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L767)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_AbilitiesFrame
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllyLabel : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 400
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L773)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_AbilitiesFrame
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllyDescriptionLabel : FontString, GameFontHighlight
 --- @field layoutIndex number # 401
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L780)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_AbilitiesFrame
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame_FlavorText : FontString, GameFontNormalLarge
 --- @field layoutIndex number # 500
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L788)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_AbilitiesFrame
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame_EquipmentSlotsLabel : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L728)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame : Frame, VerticalLayoutFrame
 --- @field expand boolean # true
 --- @field CombatAllySpell1 GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell1
@@ -316,57 +316,57 @@ GarrisonLandingPageFollowerList["showUncollected"] = true
 --- @field CombatAllySpell table<number, GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell1 | GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L818)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_Source
 --- @class GarrisonLandingPage_FollowerTab_Source_SourceText : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L811)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_Source : Frame
 --- @field SourceText GarrisonLandingPage_FollowerTab_Source_SourceText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L824)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_ItemWeapon : Frame, GarrisonFollowerItemButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L829)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_ItemArmor : Frame, GarrisonFollowerItemButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L841)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab_ItemAverageLevel
 --- @class GarrisonLandingPage_FollowerTab_ItemAverageLevel_Level : FontString, GameFontNormalLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L834)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_ItemAverageLevel : Frame
 --- @field Level GarrisonLandingPage_FollowerTab_ItemAverageLevel_Level
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L626)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_NoFollowersLabel : FontString, GameFontNormalLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L634)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_FollowerText : FontString, GameFontNormalMed2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L639)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_NumFollowers : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L650)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_XPText : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L655)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_XPLabel : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L660)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_Name : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L667)
---- child of 
+--- child of GarrisonLandingPage_FollowerTab
 --- @class GarrisonLandingPage_FollowerTab_ClassSpec : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L614)
@@ -407,63 +407,63 @@ GarrisonLandingPageShipFollowerList = {}
 GarrisonLandingPageShipFollowerList["showUncollected"] = false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L952)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab_QualityFrame
 --- @class GarrisonLandingPage_ShipFollowerTab_QualityFrame_Text : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L945)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_QualityFrame : Frame
 --- @field Text GarrisonLandingPage_ShipFollowerTab_QualityFrame_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L967)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab_XPBar
 --- @class GarrisonLandingPage_ShipFollowerTab_XPBar_Label : FontString, NumberFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L960)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_XPBar : StatusBar, GarrisonFollowerXPBarTemplate
 --- @field Label GarrisonLandingPage_ShipFollowerTab_XPBar_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L975)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_Model : CinematicModel, ModelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L1005)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab_Trait1
 --- @class GarrisonLandingPage_ShipFollowerTab_Trait1_Name : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L999)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_Trait1 : Button, GarrisonShipTraitTemplate
 --- @field Name GarrisonLandingPage_ShipFollowerTab_Trait1_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L1025)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab_Trait2
 --- @class GarrisonLandingPage_ShipFollowerTab_Trait2_Name : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L1019)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_Trait2 : Button, GarrisonShipTraitTemplate
 --- @field Name GarrisonLandingPage_ShipFollowerTab_Trait2_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L1054)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab_EquipmentFrame
 --- @class GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment1 : Button, GarrisonShipEquipmentTemplate
 --- @field quality string # "rare"
 --- @field Lock Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L1081)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab_EquipmentFrame
 --- @class GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment2 : Button, GarrisonShipEquipmentTemplate
 --- @field quality string # "epic"
 --- @field Lock Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L1046)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab_EquipmentFrame
 --- @class GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_EquipmentTitle : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L1039)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_EquipmentFrame : Frame, GarrisonAbilitiesFrameMixin
 --- @field Equipment1 GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment1
 --- @field Equipment2 GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment2
@@ -471,36 +471,36 @@ GarrisonLandingPageShipFollowerList["showUncollected"] = false
 --- @field Equipment table<number, GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment1 | GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L1110)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_ThreatCountersFrame : Frame, GarrisonThreatCountersFrameTemplate
 --- @field listName string # "ShipFollowerList"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L889)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_NoFollowersLabel : FontString, GameFontNormalLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L897)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_FollowerText : FontString, GameFontNormalMed2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L902)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_NumFollowers : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L907)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_XPLabel : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L912)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_XPText : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L923)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_BoatName : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L929)
---- child of 
+--- child of GarrisonLandingPage_ShipFollowerTab
 --- @class GarrisonLandingPage_ShipFollowerTab_BoatType : FontString, GameFontDisable
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L878)

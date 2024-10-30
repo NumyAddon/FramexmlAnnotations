@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.xml#L28)
---- child of 
+--- child of SettingsListTemplate_Header
 --- @class SettingsListTemplate_Header_DefaultsButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.xml#L34)
---- child of 
+--- child of SettingsListTemplate_Header
 --- @class SettingsListTemplate_Header_TutorialButton : Button, MainHelpPlateButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.xml#L15)
---- child of 
+--- child of SettingsListTemplate_Header
 --- @class SettingsListTemplate_Header_Title : FontString, GameFontHighlightHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.xml#L7)

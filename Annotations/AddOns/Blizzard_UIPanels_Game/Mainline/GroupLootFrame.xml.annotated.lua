@@ -6,11 +6,11 @@
 --- @class LootRollButtonTemplate : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L114)
---- child of 
+--- child of BonusRollFrameTemplate_RollingFrame
 --- @class BonusRollFrameTemplate_RollingFrame_Label : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L132)
---- child of 
+--- child of BonusRollFrameTemplate_RollingFrame
 --- @class BonusRollFrameTemplate_RollingFrame_LootSpinnerFinalText : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L111)
@@ -23,29 +23,29 @@
 --- @field DieIcon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L159)
---- child of 
+--- child of BonusRollFrameTemplate_PromptFrame
 --- @class BonusRollFrameTemplate_PromptFrame_EncounterJournalLinkButton : Button, EncounterJournalLinkButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L178)
---- child of 
+--- child of BonusRollFrameTemplate_PromptFrame_InfoFrame
 --- @class BonusRollFrameTemplate_PromptFrame_InfoFrame_Label : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L185)
---- child of 
+--- child of BonusRollFrameTemplate_PromptFrame_InfoFrame
 --- @class BonusRollFrameTemplate_PromptFrame_InfoFrame_Cost : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L171)
---- child of 
+--- child of BonusRollFrameTemplate_PromptFrame
 --- @class BonusRollFrameTemplate_PromptFrame_InfoFrame : Frame
 --- @field Label BonusRollFrameTemplate_PromptFrame_InfoFrame_Label
 --- @field Cost BonusRollFrameTemplate_PromptFrame_InfoFrame_Cost
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L203)
---- child of 
+--- child of BonusRollFrameTemplate_PromptFrame
 --- @class BonusRollFrameTemplate_PromptFrame_RollButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L227)
---- child of 
+--- child of BonusRollFrameTemplate_PromptFrame
 --- @class BonusRollFrameTemplate_PromptFrame_PassButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L147)
@@ -64,7 +64,7 @@
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L269)
---- child of 
+--- child of BonusRollFrameTemplate_CurrentCountFrame
 --- @class BonusRollFrameTemplate_CurrentCountFrame_Text : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L262)
@@ -97,7 +97,7 @@
 --- @field FinishRollAnim BonusRollFrameTemplate_FinishRollAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L333)
---- child of 
+--- child of GroupLootFrameTemplate_IconFrame
 --- @class GroupLootFrameTemplate_IconFrame_Count : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L318)
@@ -129,11 +129,11 @@
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L448)
---- child of 
+--- child of GroupLootFrameTemplate_NeedRollAnim
 --- @class GroupLootFrameTemplate_NeedRollAnim_RollNumber : FontString, Game32Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L498)
---- child of 
+--- child of GroupLootFrameTemplate_NeedRollAnim
 --- @class GroupLootFrameTemplate_NeedRollAnim_Animation : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L441)
@@ -215,7 +215,7 @@ BonusRollMoneyWonFrame = {}
 --- @field Name MasterLooterPlayerTemplate_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L663)
---- child of 
+--- child of MasterLooterFrame_Item
 --- @class MasterLooterFrame_Item_ItemName : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L616)

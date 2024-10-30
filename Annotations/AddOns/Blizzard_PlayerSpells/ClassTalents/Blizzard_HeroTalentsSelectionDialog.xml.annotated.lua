@@ -68,11 +68,11 @@ HeroTalentsSelectionDialog["layoutType"] = "ButtonFrameTemplateNoPortrait" -- in
 --- @field ActivatedRightFrames table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L241)
---- child of 
+--- child of HeroTalentSpecContentTemplate_CurrencyFrame
 --- @class HeroTalentSpecContentTemplate_CurrencyFrame_LabelText : FontString, SystemFont_Shadow_Small2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L244)
---- child of 
+--- child of HeroTalentSpecContentTemplate_CurrencyFrame
 --- @class HeroTalentSpecContentTemplate_CurrencyFrame_AmountText : FontString, Game32Font_Shadow2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L233)

@@ -177,19 +177,19 @@ ScriptErrorsFrame = {}
 --- @field Tex Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L437)
---- child of 
+--- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_CloseButton : Button, SharedButtonLargeTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L400)
---- child of 
+--- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_Title : FontString, Game30Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L412)
---- child of 
+--- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_Description : FontString, System15Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L419)
---- child of 
+--- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_DescriptionDuplicate : FontString, System15Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L387)

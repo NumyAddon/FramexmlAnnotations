@@ -6,11 +6,11 @@
 --- @field labelText any # HUD_CLASS_TALENTS_EDIT_LOADOUT_DIALOG_EDIT_BOX_LABEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.xml#L29)
---- child of 
+--- child of ClassTalentLoadoutEditDialog_UsesSharedActionBars
 --- @class ClassTalentLoadoutEditDialog_UsesSharedActionBars_CheckButton : CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.xml#L42)
---- child of 
+--- child of ClassTalentLoadoutEditDialog_UsesSharedActionBars
 --- @class ClassTalentLoadoutEditDialog_UsesSharedActionBars_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.xml#L21)

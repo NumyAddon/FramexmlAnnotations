@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L88)
---- child of 
+--- child of GuildInviteFrame_Points
 --- @class GuildInviteFrame_Points_Title : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L95)
---- child of 
+--- child of GuildInviteFrame_Points
 --- @class GuildInviteFrame_Points_Text : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L81)

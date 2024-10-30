@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCraftingFrame.xml#L34)
---- child of 
+--- child of RuneforgeCraftingFrameTemplate_AnimWrapper
 --- @class RuneforgeCraftingFrameTemplate_AnimWrapper_CrossFadeToBackground : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCraftingFrame.xml#L39)
---- child of 
+--- child of RuneforgeCraftingFrameTemplate_AnimWrapper
 --- @class RuneforgeCraftingFrameTemplate_AnimWrapper_CrossFadeToRuneLitBackground : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCraftingFrame.xml#L9)

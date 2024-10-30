@@ -5,92 +5,92 @@
 --- @class SoulbindsUndoButtonTemplate : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L231)
---- child of 
+--- child of SoulbindViewer_Fx_ActivateFXLensFlare1
 --- @class SoulbindViewer_Fx_ActivateFXLensFlare1_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L225)
---- child of 
+--- child of SoulbindViewer_Fx
 --- @class SoulbindViewer_Fx_ActivateFXLensFlare1 : Texture
 --- @field ActivateAnim SoulbindViewer_Fx_ActivateFXLensFlare1_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L242)
---- child of 
+--- child of SoulbindViewer_Fx_ActivateFXLensFlare2
 --- @class SoulbindViewer_Fx_ActivateFXLensFlare2_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L236)
---- child of 
+--- child of SoulbindViewer_Fx
 --- @class SoulbindViewer_Fx_ActivateFXLensFlare2 : Texture
 --- @field ActivateAnim SoulbindViewer_Fx_ActivateFXLensFlare2_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L253)
---- child of 
+--- child of SoulbindViewer_Fx_ActivateFXRunes1
 --- @class SoulbindViewer_Fx_ActivateFXRunes1_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L248)
---- child of 
+--- child of SoulbindViewer_Fx
 --- @class SoulbindViewer_Fx_ActivateFXRunes1 : Texture
 --- @field ActivateAnim SoulbindViewer_Fx_ActivateFXRunes1_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L264)
---- child of 
+--- child of SoulbindViewer_Fx_ActivateFXRunes2
 --- @class SoulbindViewer_Fx_ActivateFXRunes2_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L259)
---- child of 
+--- child of SoulbindViewer_Fx
 --- @class SoulbindViewer_Fx_ActivateFXRunes2 : Texture
 --- @field ActivateAnim SoulbindViewer_Fx_ActivateFXRunes2_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L275)
---- child of 
+--- child of SoulbindViewer_Fx_ActivateFXDiamond
 --- @class SoulbindViewer_Fx_ActivateFXDiamond_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L270)
---- child of 
+--- child of SoulbindViewer_Fx
 --- @class SoulbindViewer_Fx_ActivateFXDiamond : Texture
 --- @field ActivateAnim SoulbindViewer_Fx_ActivateFXDiamond_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L287)
---- child of 
+--- child of SoulbindViewer_Fx_ActivateFXDiamondArrows
 --- @class SoulbindViewer_Fx_ActivateFXDiamondArrows_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L282)
---- child of 
+--- child of SoulbindViewer_Fx
 --- @class SoulbindViewer_Fx_ActivateFXDiamondArrows : Texture
 --- @field ActivateAnim SoulbindViewer_Fx_ActivateFXDiamondArrows_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L299)
---- child of 
+--- child of SoulbindViewer_Fx_ActivateFXDiamondFlipped
 --- @class SoulbindViewer_Fx_ActivateFXDiamondFlipped_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L294)
---- child of 
+--- child of SoulbindViewer_Fx
 --- @class SoulbindViewer_Fx_ActivateFXDiamondFlipped : Texture
 --- @field ActivateAnim SoulbindViewer_Fx_ActivateFXDiamondFlipped_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L310)
---- child of 
+--- child of SoulbindViewer_Fx_ActivateFXStarfield
 --- @class SoulbindViewer_Fx_ActivateFXStarfield_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L305)
---- child of 
+--- child of SoulbindViewer_Fx
 --- @class SoulbindViewer_Fx_ActivateFXStarfield : Texture
 --- @field ActivateAnim SoulbindViewer_Fx_ActivateFXStarfield_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L321)
---- child of 
+--- child of SoulbindViewer_Fx_ActivateFXRingLarge
 --- @class SoulbindViewer_Fx_ActivateFXRingLarge_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L316)
---- child of 
+--- child of SoulbindViewer_Fx
 --- @class SoulbindViewer_Fx_ActivateFXRingLarge : Texture
 --- @field ActivateAnim SoulbindViewer_Fx_ActivateFXRingLarge_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L333)
---- child of 
+--- child of SoulbindViewer_Fx_ActivateFXRingSmall
 --- @class SoulbindViewer_Fx_ActivateFXRingSmall_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L328)
---- child of 
+--- child of SoulbindViewer_Fx
 --- @class SoulbindViewer_Fx_ActivateFXRingSmall : Texture
 --- @field ActivateAnim SoulbindViewer_Fx_ActivateFXRingSmall_ActivateAnim
 
@@ -134,7 +134,7 @@
 --- @class SoulbindViewer_CommitConduitsButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L29)
---- child of 
+--- child of SoulbindViewer_Background2
 --- @class SoulbindViewer_Background2_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L24)
@@ -143,7 +143,7 @@
 --- @field ActivateAnim SoulbindViewer_Background2_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L57)
---- child of 
+--- child of SoulbindViewer_ActivateFX
 --- @class SoulbindViewer_ActivateFX_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L52)
@@ -152,7 +152,7 @@
 --- @field ActivateAnim SoulbindViewer_ActivateFX_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L67)
---- child of 
+--- child of SoulbindViewer_ActivateFX2
 --- @class SoulbindViewer_ActivateFX2_ActivateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L62)
@@ -161,7 +161,7 @@
 --- @field ActivateAnim SoulbindViewer_ActivateFX2_ActivateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L79)
---- child of 
+--- child of SoulbindViewer_ForgeSheen
 --- @class SoulbindViewer_ForgeSheen_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L74)
@@ -170,7 +170,7 @@
 --- @field Anim SoulbindViewer_ForgeSheen_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L95)
---- child of 
+--- child of SoulbindViewer_BackgroundSheen
 --- @class SoulbindViewer_BackgroundSheen_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L90)
@@ -179,7 +179,7 @@
 --- @field Anim SoulbindViewer_BackgroundSheen_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L111)
---- child of 
+--- child of SoulbindViewer_GridSheen
 --- @class SoulbindViewer_GridSheen_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L105)
@@ -188,7 +188,7 @@
 --- @field Anim SoulbindViewer_GridSheen_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L126)
---- child of 
+--- child of SoulbindViewer_BackgroundRuneLeft
 --- @class SoulbindViewer_BackgroundRuneLeft_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L121)
@@ -197,7 +197,7 @@
 --- @field Anim SoulbindViewer_BackgroundRuneLeft_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L141)
---- child of 
+--- child of SoulbindViewer_BackgroundRuneRight
 --- @class SoulbindViewer_BackgroundRuneRight_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L136)

@@ -5,7 +5,7 @@
 --- @class InspectRecipeFrame_CloseButton : Button, UIPanelCloseButtonDefaultAnchors
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsInspectRecipe.xml#L29)
---- child of 
+--- child of InspectRecipeFrame_SchematicForm
 --- @class InspectRecipeFrame_SchematicForm_NineSlice : Frame, NineSlicePanelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsInspectRecipe.xml#L9)

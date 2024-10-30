@@ -84,7 +84,7 @@
 --- @field Text ObjectiveTrackerLineTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.xml#L256)
---- child of 
+--- child of ObjectiveTrackerProgressBarTemplate_Bar
 --- @class ObjectiveTrackerProgressBarTemplate_Bar_Label : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.xml#L228)

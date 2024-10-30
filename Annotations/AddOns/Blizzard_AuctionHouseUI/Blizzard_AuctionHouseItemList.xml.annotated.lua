@@ -32,7 +32,7 @@
 --- @class AuctionHouseItemListTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L82)
---- child of 
+--- child of AuctionHouseItemListTemplate_LoadingSpinner
 --- @class AuctionHouseItemListTemplate_LoadingSpinner_SearchingText : FontString, GameFontNormalHuge4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.xml#L75)

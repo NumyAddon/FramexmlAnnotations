@@ -29,7 +29,7 @@
 --- @field Border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L83)
---- child of 
+--- child of AnimaDiversionFrame_AnimaDiversionCurrencyFrame
 --- @class AnimaDiversionFrame_AnimaDiversionCurrencyFrame_CurrencyFrame : Frame, AnimaDiversionCurrencyCostFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L72)
@@ -39,11 +39,11 @@
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L105)
---- child of 
+--- child of AnimaDiversionFrame_ReinforceProgressFrame
 --- @class AnimaDiversionFrame_ReinforceProgressFrame_ModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L106)
---- child of 
+--- child of AnimaDiversionFrame_ReinforceProgressFrame
 --- @class AnimaDiversionFrame_ReinforceProgressFrame_OverlayModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L94)
@@ -54,11 +54,11 @@
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L135)
---- child of 
+--- child of AnimaDiversionFrame_ReinforceInfoFrame
 --- @class AnimaDiversionFrame_ReinforceInfoFrame_AnimaNodeReinforceButton : Button, UIPanelButtonTemplate, AnimaNodeReinforceButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L127)
---- child of 
+--- child of AnimaDiversionFrame_ReinforceInfoFrame
 --- @class AnimaDiversionFrame_ReinforceInfoFrame_Title : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.xml#L113)

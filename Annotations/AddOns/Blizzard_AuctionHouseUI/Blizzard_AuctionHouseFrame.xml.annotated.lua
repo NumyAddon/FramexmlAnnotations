@@ -5,21 +5,21 @@
 --- @class AuctionHouseFrame_MoneyFrameInset : Frame, InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L24)
---- child of 
+--- child of AuctionHouseFrame_MoneyFrameBorder
 --- @class AuctionHouseFrame_MoneyFrameBorder_MoneyFrame : Frame, MoneyDisplayFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L1484)
---- child of  (created in template ThinGoldEdgeTemplate)
+--- child of AuctionHouseFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 AuctionHouseFrameLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L1492)
---- child of  (created in template ThinGoldEdgeTemplate)
+--- child of AuctionHouseFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 AuctionHouseFrameRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L1500)
---- child of  (created in template ThinGoldEdgeTemplate)
+--- child of AuctionHouseFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 AuctionHouseFrameMiddle = {}
 

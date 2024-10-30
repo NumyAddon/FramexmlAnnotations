@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.xml#L18)
---- child of 
+--- child of UIWidgetTemplateScenarioHeaderDelves_TierFrame
 --- @class UIWidgetTemplateScenarioHeaderDelves_TierFrame_Text : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderDelves.xml#L5)

@@ -56,7 +56,7 @@
 --- @field targetingTextureAtlas string # "Adventures-Target-Indicator"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.xml#L152)
---- child of 
+--- child of AdventuresPuckAnimatedTemplate_DeathAnimationFrame
 --- @class AdventuresPuckAnimatedTemplate_DeathAnimationFrame_DeathAnimation : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.xml#L136)

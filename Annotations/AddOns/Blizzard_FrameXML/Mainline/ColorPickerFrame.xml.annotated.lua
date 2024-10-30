@@ -40,7 +40,7 @@ OpacityFrame = {}
 --- @class ColorPickerFrame_DragBar : Frame, PanelDragBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L122)
---- child of 
+--- child of ColorPickerFrame_Content
 --- @class ColorPickerFrame_Content_ColorPicker : ColorSelect
 --- @field Wheel Texture
 --- @field WheelThumb Texture
@@ -50,11 +50,11 @@ OpacityFrame = {}
 --- @field AlphaThumb Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L165)
---- child of 
+--- child of ColorPickerFrame_Content_HexBox
 --- @class ColorPickerFrame_Content_HexBox_Hash : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L158)
---- child of 
+--- child of ColorPickerFrame_Content
 --- @class ColorPickerFrame_Content_HexBox : EditBox, InputBoxInstructionsTemplate, ColorPickerHexBoxMixin
 --- @field Hash ColorPickerFrame_Content_HexBox_Hash
 
@@ -68,11 +68,11 @@ OpacityFrame = {}
 --- @field ColorSwatchOriginal Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L187)
---- child of 
+--- child of ColorPickerFrame_Footer
 --- @class ColorPickerFrame_Footer_CancelButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L193)
---- child of 
+--- child of ColorPickerFrame_Footer
 --- @class ColorPickerFrame_Footer_OkayButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L181)

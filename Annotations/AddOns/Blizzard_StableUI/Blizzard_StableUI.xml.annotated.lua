@@ -64,92 +64,92 @@
 --- @class StableFrame_MainHelpButton : Button, MainHelpPlateButton, StableTutorialButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L271)
---- child of 
+--- child of StableFrame_PetModelScene
 --- @class StableFrame_PetModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L277)
---- child of 
+--- child of StableFrame_PetModelScene
 --- @class StableFrame_PetModelScene_Inset : Frame, InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L277)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L282)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L290)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L298)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L306)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L312)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L318)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L324)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L284)
---- child of 
+--- child of StableFrame_PetModelScene
 --- @class StableFrame_PetModelScene_PetModelSceneShadow : Frame, ShadowOverlayTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L332)
---- child of 
+--- child of StableFrame_PetModelScene_PetInfo
 --- @class StableFrame_PetModelScene_PetInfo_FavoriteButton : CheckButton, StablePetFavoriteButtonMixin
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L362)
---- child of 
+--- child of StableFrame_PetModelScene_PetInfo_NameBox
 --- @class StableFrame_PetModelScene_PetInfo_NameBox_EditButton : Button, StablePetNameEditButtonMixin
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L351)
---- child of 
+--- child of StableFrame_PetModelScene_PetInfo_NameBox
 --- @class StableFrame_PetModelScene_PetInfo_NameBox_Name : FontString, GameFontNormalHuge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L343)
---- child of 
+--- child of StableFrame_PetModelScene_PetInfo
 --- @class StableFrame_PetModelScene_PetInfo_NameBox : Frame, StablePetNameBoxMixin
 --- @field EditButton StableFrame_PetModelScene_PetInfo_NameBox_EditButton
 --- @field Name StableFrame_PetModelScene_PetInfo_NameBox_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L299)
---- child of 
+--- child of StableFrame_PetModelScene_PetInfo
 --- @class StableFrame_PetModelScene_PetInfo_Specialization : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L307)
---- child of 
+--- child of StableFrame_PetModelScene_PetInfo
 --- @class StableFrame_PetModelScene_PetInfo_Exotic : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L317)
---- child of 
+--- child of StableFrame_PetModelScene_PetInfo
 --- @class StableFrame_PetModelScene_PetInfo_Type : FontString, GameFontHighlightLarge, StablePetTypeStringMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L291)
---- child of 
+--- child of StableFrame_PetModelScene
 --- @class StableFrame_PetModelScene_PetInfo : Frame, StablePetInfoMixin
 --- @field FavoriteButton StableFrame_PetModelScene_PetInfo_FavoriteButton
 --- @field NameBox StableFrame_PetModelScene_PetInfo_NameBox
@@ -158,11 +158,11 @@ StableFrameRight = {}
 --- @field Type StableFrame_PetModelScene_PetInfo_Type
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L386)
---- child of 
+--- child of StableFrame_PetModelScene_AbilitiesList
 --- @class StableFrame_PetModelScene_AbilitiesList_ListHeader : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L377)
---- child of 
+--- child of StableFrame_PetModelScene
 --- @class StableFrame_PetModelScene_AbilitiesList : Frame, ResizeLayoutFrame, StablePetAbilitiesListMixin
 --- @field fixedWidth number # 250
 --- @field ListHeader StableFrame_PetModelScene_AbilitiesList_ListHeader
@@ -188,53 +188,53 @@ StableFrameRight = {}
 --- @field disabledTooltip any # STABLE_RELEASE_PET_BUTTON_ERR_NOT_SUMMONED
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L462)
---- child of 
+--- child of StableFrame_StabledPetList_ListCounter
 --- @class StableFrame_StabledPetList_ListCounter_Count : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L450)
---- child of 
+--- child of StableFrame_StabledPetList
 --- @class StableFrame_StabledPetList_ListCounter : Frame, InsetFrameTemplate3
 --- @field Count StableFrame_StabledPetList_ListCounter_Count
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L471)
---- child of 
+--- child of StableFrame_StabledPetList
 --- @class StableFrame_StabledPetList_Inset : Frame, InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L478)
---- child of 
+--- child of StableFrame_StabledPetList
 --- @class StableFrame_StabledPetList_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L485)
---- child of 
+--- child of StableFrame_StabledPetList
 --- @class StableFrame_StabledPetList_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1504)
---- child of  (created in template SearchBoxTemplate)
+--- child of StableFrame_StabledPetList_FilterBar_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 StableFrameClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1495)
---- child of  (created in template SearchBoxTemplate)
+--- child of StableFrame_StabledPetList_FilterBar_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 StableFrameSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L508)
---- child of 
+--- child of StableFrame_StabledPetList_FilterBar
 --- @class StableFrame_StabledPetList_FilterBar_SearchBox : EditBox, SearchBoxTemplate, StableSearchBoxMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L518)
---- child of 
+--- child of StableFrame_StabledPetList_FilterBar
 --- @class StableFrame_StabledPetList_FilterBar_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L492)
---- child of 
+--- child of StableFrame_StabledPetList
 --- @class StableFrame_StabledPetList_FilterBar : Frame
 --- @field SearchBox StableFrame_StabledPetList_FilterBar_SearchBox
 --- @field FilterDropdown StableFrame_StabledPetList_FilterBar_FilterDropdown
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L437)
---- child of 
+--- child of StableFrame_StabledPetList
 --- @class StableFrame_StabledPetList_ListName : FontString, Game36Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L426)
@@ -249,36 +249,36 @@ StableFrameSearchIcon = {}
 --- @field ListName StableFrame_StabledPetList_ListName
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L561)
---- child of 
+--- child of StableFrame_ActivePetList
 --- @class StableFrame_ActivePetList_PetButton1 : Button, StableActivePetButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L567)
---- child of 
+--- child of StableFrame_ActivePetList
 --- @class StableFrame_ActivePetList_PetButton2 : Button, StableActivePetButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L573)
---- child of 
+--- child of StableFrame_ActivePetList
 --- @class StableFrame_ActivePetList_PetButton3 : Button, StableActivePetButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L579)
---- child of 
+--- child of StableFrame_ActivePetList
 --- @class StableFrame_ActivePetList_PetButton4 : Button, StableActivePetButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L585)
---- child of 
+--- child of StableFrame_ActivePetList
 --- @class StableFrame_ActivePetList_PetButton5 : Button, StableActivePetButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L591)
---- child of 
+--- child of StableFrame_ActivePetList
 --- @class StableFrame_ActivePetList_Divider : Frame
 --- @field Bar Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L609)
---- child of 
+--- child of StableFrame_ActivePetList
 --- @class StableFrame_ActivePetList_BeastMasterSecondaryPetButton : Button, StableActivePetButtonTemplate, StableBeastMasterSecondaryPetButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L553)
---- child of 
+--- child of StableFrame_ActivePetList
 --- @class StableFrame_ActivePetList_ListName : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L532)

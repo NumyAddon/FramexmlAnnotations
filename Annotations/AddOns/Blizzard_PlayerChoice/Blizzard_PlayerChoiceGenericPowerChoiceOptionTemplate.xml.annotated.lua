@@ -16,7 +16,7 @@
 --- @field BackgroundBorderShineGoldMask MaskTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L133)
---- child of 
+--- child of PlayerChoiceGenericPowerChoiceOptionTemplate_Header
 --- @class PlayerChoiceGenericPowerChoiceOptionTemplate_Header_Text : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L127)

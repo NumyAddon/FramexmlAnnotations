@@ -7,17 +7,17 @@
 --- @field CloseButtonBorder Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L48)
---- child of 
+--- child of BFAMissionFrame_TitleScroll
 --- @class BFAMissionFrame_TitleScroll_ScrollLeft : Texture
 --- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L58)
---- child of 
+--- child of BFAMissionFrame_TitleScroll
 --- @class BFAMissionFrame_TitleScroll_ScrollRight : Texture
 --- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L68)
---- child of 
+--- child of BFAMissionFrame_TitleScroll
 --- @class BFAMissionFrame_TitleScroll_ScrollMiddle : Texture
 --- @field ignoreInLayout boolean # true
 
@@ -49,12 +49,12 @@ BFAMissionFrameTab3 = {}
 --- @class BFAMissionFrame_BFAMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L1504)
---- child of  (created in template SearchBoxTemplate)
+--- child of BFAMissionFrame_BFAMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 BFAMissionFrameFollowersClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L1495)
---- child of  (created in template SearchBoxTemplate)
+--- child of BFAMissionFrame_BFAMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 BFAMissionFrameFollowersSearchIcon = {}
 
@@ -72,13 +72,13 @@ BFAMissionFrameFollowers = {}
 BFAMissionFrameFollowers["showUncollected"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L134)
---- child of 
+--- child of BFAMissionFrame_MapTab_ScrollContainer
 --- @class BFAMissionFrame_MapTab_ScrollContainer_Child : Frame
 --- @field TiledBackground Texture
 --- @field ZoneArea Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L126)
---- child of 
+--- child of BFAMissionFrame_MapTab
 --- @class BFAMissionFrame_MapTab_ScrollContainer : ScrollFrame, MapCanvasScrollControllerMixin
 --- @field Child BFAMissionFrame_MapTab_ScrollContainer_Child
 
@@ -106,19 +106,19 @@ BFAMissionFrameMissionsTab1 = {}
 BFAMissionFrameMissionsTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L169)
---- child of 
+--- child of BFAMissionFrame_MissionTab
 --- @class BFAMissionFrame_MissionTab_BFAMissionFrameMissions : Frame, GarrisonMissionListTemplate, OrderHallMissionListMixin
 BFAMissionFrameMissions = {}
 BFAMissionFrameMissions["Tab1"] = BFAMissionFrameMissionsTab1 -- inherited
 BFAMissionFrameMissions["Tab2"] = BFAMissionFrameMissionsTab2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L179)
---- child of 
+--- child of BFAMissionFrame_MissionTab
 --- @class BFAMissionFrame_MissionTab_ZoneSupportMissionPageBackground : Frame
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L194)
---- child of 
+--- child of BFAMissionFrame_MissionTab
 --- @class BFAMissionFrame_MissionTab_MissionPage : Button, OrderHallMissionPageTemplate, GarrisonMissionPageMixin, GarrisonFollowerMissionPageMixin, OrderHallFollowerMissionPageMixin, BFAFollowerMissionPageMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L167)
@@ -138,46 +138,46 @@ BFAMissionFrameMissions["Tab2"] = BFAMissionFrameMissionsTab2 -- inherited
 --- @class BFAMissionFrame_MissionCompleteBackground : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L235)
---- child of 
+--- child of BFAMissionFrame_MissionComplete
 --- @class BFAMissionFrame_MissionComplete_Stage : Frame, GarrisonFollowerMissionCompleteStageTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L243)
---- child of 
+--- child of BFAMissionFrame_MissionComplete_BonusRewards
 --- @class BFAMissionFrame_MissionComplete_BonusRewards_BonusChanceLabel : FontString, Game18Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L240)
---- child of 
+--- child of BFAMissionFrame_MissionComplete
 --- @class BFAMissionFrame_MissionComplete_BonusRewards : Frame, GarrisonFollowerMissionRewardsFrameTemplate, GarrisonMissionBonusRewardsTemplate
 --- @field BonusChanceLabel BFAMissionFrame_MissionComplete_BonusRewards_BonusChanceLabel
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L278)
---- child of 
+--- child of BFAMissionFrame_MissionComplete_BonusChanceFail
 --- @class BFAMissionFrame_MissionComplete_BonusChanceFail_BonusFailed : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L256)
---- child of 
+--- child of BFAMissionFrame_MissionComplete
 --- @class BFAMissionFrame_MissionComplete_BonusChanceFail : Frame
 --- @field CrossLeft Texture
 --- @field CrossRight Texture
 --- @field BonusFailed BFAMissionFrame_MissionComplete_BonusChanceFail_BonusFailed
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L300)
---- child of 
+--- child of BFAMissionFrame_MissionComplete_BonusText
 --- @class BFAMissionFrame_MissionComplete_BonusText_BonusText : FontString, Game48FontShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L309)
---- child of 
+--- child of BFAMissionFrame_MissionComplete_BonusText
 --- @class BFAMissionFrame_MissionComplete_BonusText_BonusTextGlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L286)
---- child of 
+--- child of BFAMissionFrame_MissionComplete
 --- @class BFAMissionFrame_MissionComplete_BonusText : Frame
 --- @field BonusGlow Texture
 --- @field BonusText BFAMissionFrame_MissionComplete_BonusText_BonusText
 --- @field BonusTextGlowAnim BFAMissionFrame_MissionComplete_BonusText_BonusTextGlowAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L318)
---- child of 
+--- child of BFAMissionFrame_MissionComplete
 --- @class BFAMissionFrame_MissionComplete_ChanceFrame : Frame, GarrisonMissionChanceFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L233)

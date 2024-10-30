@@ -17,7 +17,7 @@
 --- @class SpellSearchPreviewContainerTemplate_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L110)
---- child of 
+--- child of SpellSearchPreviewContainerTemplate_OverflowCount
 --- @class SpellSearchPreviewContainerTemplate_OverflowCount_Text : FontString, GameFontDisableSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L102)
@@ -26,7 +26,7 @@
 --- @field Text SpellSearchPreviewContainerTemplate_OverflowCount_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L143)
---- child of 
+--- child of SpellSearchPreviewContainerTemplate_DefaultResultButton
 --- @class SpellSearchPreviewContainerTemplate_DefaultResultButton_Text : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L121)

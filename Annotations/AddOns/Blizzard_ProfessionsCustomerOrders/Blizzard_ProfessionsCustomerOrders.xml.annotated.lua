@@ -9,21 +9,21 @@
 --- @class ProfessionsCustomerOrdersFrame_MoneyFrameInset : Frame, InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L30)
---- child of 
+--- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder
 --- @class ProfessionsCustomerOrdersFrame_MoneyFrameBorder_MoneyFrame : Frame, MoneyDisplayFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1484)
---- child of  (created in template ThinGoldEdgeTemplate)
+--- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ProfessionsCustomerOrdersFrameLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1492)
---- child of  (created in template ThinGoldEdgeTemplate)
+--- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ProfessionsCustomerOrdersFrameRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1500)
---- child of  (created in template ThinGoldEdgeTemplate)
+--- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ProfessionsCustomerOrdersFrameMiddle = {}
 

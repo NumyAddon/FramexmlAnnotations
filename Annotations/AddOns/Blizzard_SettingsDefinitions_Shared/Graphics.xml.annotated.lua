@@ -147,7 +147,7 @@
 --- @field tabText any # BASE_SETTINGS_TAB
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L242)
---- child of 
+--- child of SettingsAdvancedQualitySectionTemplate_BaseQualityControls
 --- @class SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideSliderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L240)
@@ -157,7 +157,7 @@
 --- @field Controls table<number, SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L253)
---- child of 
+--- child of SettingsAdvancedQualitySectionTemplate_RaidQualityControls
 --- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideCheckboxSliderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L251)

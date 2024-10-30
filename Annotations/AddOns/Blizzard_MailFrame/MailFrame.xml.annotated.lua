@@ -830,12 +830,12 @@ OpenMailBodyText["tooltipFrame"] = GameTooltip -- inherited
 --- @field hideCopper boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1076)
---- child of 
+--- child of OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionPaidDisplay
 --- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionPaidDisplay_MoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1067)
---- child of 
+--- child of OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionPaidDisplay
 --- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionPaidDisplay_CommissionPaidText : FontString, InvoiceTextFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1053)

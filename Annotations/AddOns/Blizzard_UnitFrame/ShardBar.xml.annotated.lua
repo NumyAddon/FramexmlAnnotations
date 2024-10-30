@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/ShardBar.xml#L98)
---- child of 
+--- child of ShardTemplate_FillIncrement
 --- @class ShardTemplate_FillIncrement_FillAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/ShardBar.xml#L80)

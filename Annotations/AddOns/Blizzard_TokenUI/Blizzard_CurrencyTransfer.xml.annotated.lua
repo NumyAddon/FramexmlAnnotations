@@ -47,12 +47,12 @@
 --- @class CurrencyTransferCancelButtonTemplate : Button, UIPanelButtonTemplate, CurrencyTransferCancelButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L124)
---- child of 
+--- child of CurrencyTransferBalancePreviewTemplate_BalanceInfo
 --- @class CurrencyTransferBalancePreviewTemplate_BalanceInfo_TransferCostDisplay : Button, CurrencyTransferCostDisplayMixin
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L112)
---- child of 
+--- child of CurrencyTransferBalancePreviewTemplate_BalanceInfo
 --- @class CurrencyTransferBalancePreviewTemplate_BalanceInfo_Amount : FontString, GameFontHighlight, AutoScalingFontStringMixin
 --- @field minLineHeight number # 10
 

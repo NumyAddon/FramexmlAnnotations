@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.xml#L15)
---- child of 
+--- child of TableAttributeLineBaseTemplate_Key
 --- @class TableAttributeLineBaseTemplate_Key_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.xml#L8)
@@ -43,7 +43,7 @@
 --- @field Value TableAttributeLineEditableTemplate_Value
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.xml#L98)
---- child of 
+--- child of TableAttributeLineReferenceTemplate_ValueButton
 --- @class TableAttributeLineReferenceTemplate_ValueButton_Text : FontString, GameFontWhite
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.xml#L86)

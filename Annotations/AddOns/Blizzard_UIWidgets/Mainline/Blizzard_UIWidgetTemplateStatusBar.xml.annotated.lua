@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L87)
---- child of 
+--- child of UIWidgetTemplateStatusBar_Bar
 --- @class UIWidgetTemplateStatusBar_Bar_Label : FontString, GameFontHighlightMedium, UIWidgetBaseTextMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L95)
---- child of 
+--- child of UIWidgetTemplateStatusBar_Bar
 --- @class UIWidgetTemplateStatusBar_Bar_GlowPulseAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L5)

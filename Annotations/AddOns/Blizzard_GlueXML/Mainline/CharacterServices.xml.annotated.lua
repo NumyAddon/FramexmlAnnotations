@@ -74,37 +74,37 @@
 --- @field Label CharacterServicesBonusResultTemplate_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L203)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_CreateCharacterButton : Button, GlueButtonSmallTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L209)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_CreateCharacterClassTrialButton : Button, GlueButtonSmallTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L220)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel_BonusIcon : Texture, services-icon-bonus-large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L225)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel_BonusText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L215)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel : Frame
 --- @field BonusIcon CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel_BonusIcon
 --- @field BonusText CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel_BonusText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L190)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_OrLabel : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L193)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_OrLabel2 : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L196)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_ClassTrialButtonHintText : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L187)
@@ -118,11 +118,11 @@
 --- @field ClassTrialButtonHintText CharacterUpgradeSelectCharacterFrame_ControlsFrame_ClassTrialButtonHintText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L244)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_NoBonusResult
 --- @class CharacterUpgradeSelectCharacterFrame_NoBonusResult_Icon : Texture, services-icon-bonus-red
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L249)
---- child of 
+--- child of CharacterUpgradeSelectCharacterFrame_NoBonusResult
 --- @class CharacterUpgradeSelectCharacterFrame_NoBonusResult_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L237)
@@ -158,52 +158,52 @@ CharacterUpgradeMaxCharactersFrame = {}
 CharacterUpgradeSelectSpecFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L120)
---- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- child of CharacterUpgradeSelectFactionFrame_ControlsFrame_HordeButton (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
 --- @type Texture
 CharacterUpgradeSelectFactionFrameFactionOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L141)
---- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- child of CharacterUpgradeSelectFactionFrame_ControlsFrame_HordeButton (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
 --- @type Texture
 CharacterUpgradeSelectFactionFrameFactionIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L147)
---- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- child of CharacterUpgradeSelectFactionFrame_ControlsFrame_HordeButton (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
 --- @type CharacterUpgradeSelectFactionRadioButtonTemplate_CharacterUpgradeSelectFactionRadioButtonTemplateFactionName
 CharacterUpgradeSelectFactionFrameFactionName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L477)
---- child of  (created in template UIRadialButtonTemplate)
+--- child of CharacterUpgradeSelectFactionFrame_ControlsFrame_HordeButton (created in template UIRadialButtonTemplate)
 --- @type UIRadialButtonTemplate_UIRadialButtonTemplateText
 CharacterUpgradeSelectFactionFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L314)
---- child of 
+--- child of CharacterUpgradeSelectFactionFrame_ControlsFrame
 --- @class CharacterUpgradeSelectFactionFrame_ControlsFrame_HordeButton : CheckButton, CharacterUpgradeSelectFactionRadioButtonTemplate
 --- @field factionID number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L120)
---- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- child of CharacterUpgradeSelectFactionFrame_ControlsFrame_AllianceButton (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
 --- @type Texture
 CharacterUpgradeSelectFactionFrameFactionOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L141)
---- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- child of CharacterUpgradeSelectFactionFrame_ControlsFrame_AllianceButton (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
 --- @type Texture
 CharacterUpgradeSelectFactionFrameFactionIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L147)
---- child of  (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
+--- child of CharacterUpgradeSelectFactionFrame_ControlsFrame_AllianceButton (created in template CharacterUpgradeSelectFactionRadioButtonTemplate)
 --- @type CharacterUpgradeSelectFactionRadioButtonTemplate_CharacterUpgradeSelectFactionRadioButtonTemplateFactionName
 CharacterUpgradeSelectFactionFrameFactionName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L477)
---- child of  (created in template UIRadialButtonTemplate)
+--- child of CharacterUpgradeSelectFactionFrame_ControlsFrame_AllianceButton (created in template UIRadialButtonTemplate)
 --- @type UIRadialButtonTemplate_UIRadialButtonTemplateText
 CharacterUpgradeSelectFactionFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L322)
---- child of 
+--- child of CharacterUpgradeSelectFactionFrame_ControlsFrame
 --- @class CharacterUpgradeSelectFactionFrame_ControlsFrame_AllianceButton : CheckButton, CharacterUpgradeSelectFactionRadioButtonTemplate
 --- @field factionID number # 1
 
@@ -249,23 +249,23 @@ RPEUpgradeMinimizedFrame = {}
 --- @field Text RPEUpgradeInfoSubFrameTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L451)
---- child of 
+--- child of RPEUPgradeInfoFrame_ControlsFrame
 --- @class RPEUPgradeInfoFrame_ControlsFrame_Line1 : Frame, RPEUpgradeInfoSubFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L456)
---- child of 
+--- child of RPEUPgradeInfoFrame_ControlsFrame
 --- @class RPEUPgradeInfoFrame_ControlsFrame_Line2 : Frame, RPEUpgradeInfoSubFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L461)
---- child of 
+--- child of RPEUPgradeInfoFrame_ControlsFrame
 --- @class RPEUPgradeInfoFrame_ControlsFrame_Line3 : Frame, RPEUpgradeInfoSubFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L435)
---- child of 
+--- child of RPEUPgradeInfoFrame_ControlsFrame
 --- @class RPEUPgradeInfoFrame_ControlsFrame_Title : FontString, GameFontHighlightHuge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L441)
---- child of 
+--- child of RPEUPgradeInfoFrame_ControlsFrame
 --- @class RPEUPgradeInfoFrame_ControlsFrame_Header : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L422)
@@ -285,15 +285,15 @@ RPEUpgradeMinimizedFrame = {}
 RPEUPgradeInfoFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L522)
---- child of 
+--- child of RPEUpgradeSelectSpecFrame_ControlsFrame_CharacterBlock
 --- @class RPEUpgradeSelectSpecFrame_ControlsFrame_CharacterBlock_Name : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L528)
---- child of 
+--- child of RPEUpgradeSelectSpecFrame_ControlsFrame_CharacterBlock
 --- @class RPEUpgradeSelectSpecFrame_ControlsFrame_CharacterBlock_Level : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L507)
---- child of 
+--- child of RPEUpgradeSelectSpecFrame_ControlsFrame
 --- @class RPEUpgradeSelectSpecFrame_ControlsFrame_CharacterBlock : Frame
 --- @field BackgroundFrame Texture
 --- @field Name RPEUpgradeSelectSpecFrame_ControlsFrame_CharacterBlock_Name
@@ -301,20 +301,20 @@ RPEUPgradeInfoFrame = {}
 --- @field CharacterCheckmark Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L541)
---- child of 
+--- child of RPEUpgradeSelectSpecFrame_ControlsFrame
 --- @class RPEUpgradeSelectSpecFrame_ControlsFrame_SpecBlock : Frame
 --- @field BackgroundFrame Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L485)
---- child of 
+--- child of RPEUpgradeSelectSpecFrame_ControlsFrame
 --- @class RPEUpgradeSelectSpecFrame_ControlsFrame_FrameHeader : FontString, GameFontHighlightHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L491)
---- child of 
+--- child of RPEUpgradeSelectSpecFrame_ControlsFrame
 --- @class RPEUpgradeSelectSpecFrame_ControlsFrame_CharacterHeader : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L498)
---- child of 
+--- child of RPEUpgradeSelectSpecFrame_ControlsFrame
 --- @class RPEUpgradeSelectSpecFrame_ControlsFrame_SpecHeader : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L475)
@@ -333,15 +333,15 @@ RPEUPgradeInfoFrame = {}
 RPEUpgradeSelectSpecFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L612)
---- child of 
+--- child of RPEUpgradeReviewFrame_ControlsFrame_CharacterBlock
 --- @class RPEUpgradeReviewFrame_ControlsFrame_CharacterBlock_Name : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L618)
---- child of 
+--- child of RPEUpgradeReviewFrame_ControlsFrame_CharacterBlock
 --- @class RPEUpgradeReviewFrame_ControlsFrame_CharacterBlock_Level : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L597)
---- child of 
+--- child of RPEUpgradeReviewFrame_ControlsFrame
 --- @class RPEUpgradeReviewFrame_ControlsFrame_CharacterBlock : Frame
 --- @field BackgroundFrame Texture
 --- @field Name RPEUpgradeReviewFrame_ControlsFrame_CharacterBlock_Name
@@ -349,26 +349,26 @@ RPEUpgradeSelectSpecFrame = {}
 --- @field CharacterCheckmark Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L646)
---- child of 
+--- child of RPEUpgradeReviewFrame_ControlsFrame_SpecBlock
 --- @class RPEUpgradeReviewFrame_ControlsFrame_SpecBlock_SpecName : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L631)
---- child of 
+--- child of RPEUpgradeReviewFrame_ControlsFrame
 --- @class RPEUpgradeReviewFrame_ControlsFrame_SpecBlock : Frame
 --- @field BackgroundFrame Texture
 --- @field SpecName RPEUpgradeReviewFrame_ControlsFrame_SpecBlock_SpecName
 --- @field SpecCheckmark Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L574)
---- child of 
+--- child of RPEUpgradeReviewFrame_ControlsFrame
 --- @class RPEUpgradeReviewFrame_ControlsFrame_FrameHeader : FontString, GameFontHighlightHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L580)
---- child of 
+--- child of RPEUpgradeReviewFrame_ControlsFrame
 --- @class RPEUpgradeReviewFrame_ControlsFrame_CharacterHeader : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L587)
---- child of 
+--- child of RPEUpgradeReviewFrame_ControlsFrame
 --- @class RPEUpgradeReviewFrame_ControlsFrame_SpecHeader : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L564)

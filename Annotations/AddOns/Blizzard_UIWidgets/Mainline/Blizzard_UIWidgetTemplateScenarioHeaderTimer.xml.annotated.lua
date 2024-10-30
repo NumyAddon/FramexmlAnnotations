@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.xml#L12)
---- child of 
+--- child of UIWidgetTemplateScenarioHeaderTimer_Timer
 --- @class UIWidgetTemplateScenarioHeaderTimer_Timer_Text : FontString, GameFontHighlightHuge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderTimer.xml#L5)

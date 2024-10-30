@@ -18,7 +18,7 @@
 --- @field TutorialText FontString
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L105)
---- child of 
+--- child of IslandsQueueFrameWeeklyQuestFrameTemplate_OverlayFrame
 --- @class IslandsQueueFrameWeeklyQuestFrameTemplate_OverlayFrame_Text : FontString, TextStatusBarTextLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L80)
@@ -56,7 +56,7 @@
 --- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L246)
---- child of 
+--- child of IslandsQueueScreenDifficultySelector_QueueButton
 --- @class IslandsQueueScreenDifficultySelector_QueueButton_FlashAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L224)
@@ -106,7 +106,7 @@
 --- @field IslandCards table<number, IslandsQueueFrameCardFrameTemplate_CenterCard | IslandsQueueFrameCardFrameTemplate_LeftCard | IslandsQueueFrameCardFrameTemplate_RightCard>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L410)
---- child of 
+--- child of IslandsQueueFrame_TitleBanner
 --- @class IslandsQueueFrame_TitleBanner_TitleText : FontString, GameFontNormalMed2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L398)
@@ -132,7 +132,7 @@
 --- @class IslandsQueueFrame_TutorialFrame : Frame, IslandsQueueFrameTutorialTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L467)
---- child of 
+--- child of IslandsQueueFrame_ArtOverlayFrame
 --- @class IslandsQueueFrame_ArtOverlayFrame_PortraitFrame : Texture, UI-Frame-Portrait
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L438)

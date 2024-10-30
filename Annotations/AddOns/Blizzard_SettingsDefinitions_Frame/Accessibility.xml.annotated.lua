@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Accessibility.xml#L42)
---- child of 
+--- child of ArachnophobiaTemplate_SubTextContainer
 --- @class ArachnophobiaTemplate_SubTextContainer_SubText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Accessibility.xml#L39)

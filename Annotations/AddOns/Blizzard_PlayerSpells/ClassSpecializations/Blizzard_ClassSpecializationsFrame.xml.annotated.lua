@@ -24,15 +24,15 @@
 --- @class ClassSpecContentFrameTemplate_ActivateButton : Button, MagicButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L319)
---- child of 
+--- child of ClassSpecContentFrameTemplate_AnimationHolder
 --- @class ClassSpecContentFrameTemplate_AnimationHolder_ActivationFlashBack : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L327)
---- child of 
+--- child of ClassSpecContentFrameTemplate_AnimationHolder
 --- @class ClassSpecContentFrameTemplate_AnimationHolder_ActivationFlashLeft : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L333)
---- child of 
+--- child of ClassSpecContentFrameTemplate_AnimationHolder
 --- @class ClassSpecContentFrameTemplate_AnimationHolder_ActivationFlashRight : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L317)

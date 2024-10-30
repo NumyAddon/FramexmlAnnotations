@@ -22,6 +22,15 @@
 PetBattleQueueReadyFrame = {}
 PetBattleQueueReadyFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L176)
+--- child of 
+--- @class PlayerReportFrame_Comment_ScrollFrame_CommentBox_Fill : FontString, ChatFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L172)
+--- child of 
+--- @class PlayerReportFrame_Comment_ScrollFrame_CommentBox : EditBox
+--- @field Fill PlayerReportFrame_Comment_ScrollFrame_CommentBox_Fill
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L10)
 --- child of PlayerReportFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -48,6 +57,7 @@ PlayerReportFrameScrollBar["ThumbTexture"] = PlayerReportFrameScrollBarThumbText
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L148)
 --- child of 
 --- @class PlayerReportFrame_Comment_ScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
+--- @field CommentBox PlayerReportFrame_Comment_ScrollFrame_CommentBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L84)
 --- child of PlayerReportFrame

@@ -1,5 +1,74 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L174)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardLabel : FontString, GameFontHighlightMedium
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L194)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardHonorAmount : FontString, NumberFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L214)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardArenaAmount : FontString, NumberFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L156)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward : Frame
+--- @field honorSymbol Texture
+--- @field honorAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardHonorAmount
+--- @field arenaSymbol Texture
+--- @field arenaAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardArenaAmount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L245)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardLabel : FontString, GameFontHighlightMedium
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L265)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardHonorAmount : FontString, NumberFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L285)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardArenaAmount : FontString, NumberFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L227)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward : Frame
+--- @field honorSymbol Texture
+--- @field honorAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardHonorAmount
+--- @field arenaSymbol Texture
+--- @field arenaAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardArenaAmount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L123)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoTitle : FontString, QuestTitleFontBlackShadow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L132)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoDescription : FontString, QuestFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L144)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoRewardsLabel : FontString, QuestTitleFontBlackShadow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L114)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrame
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo : Frame
+--- @field winReward PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
+--- @field lossReward PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
+--- @field title PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoTitle
+--- @field description PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoDescription
+--- @field rewardsLabel PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoRewardsLabel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L99)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrame
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameDescription : FontString, GameFontBlackMedium
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L90)
+--- child of PVPQueueInfoScrollFrameTemplate
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame : Frame
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L3)
 --- Template
 --- @class PVPQueueInfoScrollFrameTemplate : ScrollFrame, UIPanelScrollFrameTemplate
@@ -72,6 +141,11 @@ BattlegroundType5Highlight = {}
 BattlegroundType5 = {}
 BattlegroundType5["highlight"] = BattlegroundType5Highlight -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L163)
+--- child of BattlefieldFrameTypeScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+BattlefieldFrameTypeScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L10)
 --- child of BattlefieldFrameTypeScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -99,6 +173,7 @@ BattlefieldFrameTypeScrollFrameScrollBar["ThumbTexture"] = BattlefieldFrameTypeS
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldFrameTypeScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BattlefieldFrameTypeScrollFrame = {}
+BattlefieldFrameTypeScrollFrame["ScrollChildFrame"] = BattlefieldFrameTypeScrollFrameScrollChildFrame -- inherited
 BattlefieldFrameTypeScrollFrame["ScrollBar"] = BattlefieldFrameTypeScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L551)
@@ -106,6 +181,76 @@ BattlefieldFrameTypeScrollFrame["ScrollBar"] = BattlefieldFrameTypeScrollFrameSc
 --- @class BattlefieldFrame_BattlefieldFrameCancelButton : Button, UIPanelButtonTemplate
 BattlefieldFrameCancelButton = {}
 BattlefieldFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L260)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardLabel : FontString, GameFontHighlightMedium
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L280)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardHonorAmount : FontString, NumberFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L300)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardArenaAmount : FontString, NumberFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L242)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward : Frame
+--- @field honorSymbol Texture
+--- @field honorAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardHonorAmount
+--- @field arenaSymbol Texture
+--- @field arenaAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardArenaAmount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L331)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardLabel : FontString, GameFontHighlightMedium
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L351)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardHonorAmount : FontString, NumberFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L371)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardArenaAmount : FontString, NumberFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L313)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward : Frame
+--- @field honorSymbol Texture
+--- @field honorAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardHonorAmount
+--- @field arenaSymbol Texture
+--- @field arenaAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardArenaAmount
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L209)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoTitle : FontString, QuestTitleFontBlackShadow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L218)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoDescription : FontString, QuestFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L230)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoRewardsLabel : FontString, QuestTitleFontBlackShadow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L200)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrame
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo : Frame
+--- @field winReward PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
+--- @field lossReward PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
+--- @field title PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoTitle
+--- @field description PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoDescription
+--- @field rewardsLabel PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoRewardsLabel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L185)
+--- child of PVPQueueInfoScrollFrameTemplateChildFrame
+--- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameDescription : FontString, GameFontBlackMedium
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L176)
+--- child of BattlefieldFrameInfoScrollFrame (created in template PVPQueueInfoScrollFrameTemplate)
+--- @type PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame
+BattlefieldFrameInfoScrollFrameChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L10)
 --- child of BattlefieldFrameInfoScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)

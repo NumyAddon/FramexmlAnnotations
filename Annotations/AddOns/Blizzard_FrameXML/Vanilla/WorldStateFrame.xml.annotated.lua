@@ -383,6 +383,11 @@ WorldStateScoreButton1["healingDone"] = WorldStateScoreButton1HealingDone -- inh
 --- @class WorldStateScoreFrame_WorldStateScoreScrollFrame_WorldStateScoreScrollFrameScrollBarTop : Texture
 WorldStateScoreScrollFrameScrollBarTop = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L163)
+--- child of WorldStateScoreScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+WorldStateScoreScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L10)
 --- child of WorldStateScoreScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -410,6 +415,7 @@ WorldStateScoreScrollFrameScrollBar["ThumbTexture"] = WorldStateScoreScrollFrame
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrame_WorldStateScoreScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 WorldStateScoreScrollFrame = {}
+WorldStateScoreScrollFrame["ScrollChildFrame"] = WorldStateScoreScrollFrameScrollChildFrame -- inherited
 WorldStateScoreScrollFrame["ScrollBar"] = WorldStateScoreScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L786)

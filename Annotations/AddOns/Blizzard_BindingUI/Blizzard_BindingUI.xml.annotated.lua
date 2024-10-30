@@ -138,6 +138,11 @@ KeyBindingFrameCategoryList["labelText"] = CATEGORY
 --- @class KeyBindingFrame_bindingsContainer : Frame, TooltipBorderBackdropTemplate
 --- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L163)
+--- child of KeyBindingFrameScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+KeyBindingFrameScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L10)
 --- child of KeyBindingFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -169,6 +174,7 @@ KeyBindingFrameScrollFrameScrollBar["ThumbTexture"] = KeyBindingFrameScrollFrame
 --- @field scrollBorderMiddle Texture
 --- @field scrollFrameScrollBarBackground Texture
 KeyBindingFrameScrollFrame = {}
+KeyBindingFrameScrollFrame["ScrollChildFrame"] = KeyBindingFrameScrollFrameScrollChildFrame -- inherited
 KeyBindingFrameScrollFrame["ScrollBar"] = KeyBindingFrameScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L96)

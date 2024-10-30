@@ -215,6 +215,11 @@ TradeSkillSkill8Highlight = {}
 --- @class TradeSkillFrame_TradeSkillSkill8 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill8 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L163)
+--- child of TradeSkillListScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+TradeSkillListScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L10)
 --- child of TradeSkillListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -242,7 +247,285 @@ TradeSkillListScrollFrameScrollBar["ThumbTexture"] = TradeSkillListScrollFrameSc
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillListScrollFrame : ScrollFrame, ClassTrainerListScrollFrameTemplate
 TradeSkillListScrollFrame = {}
+TradeSkillListScrollFrame["ScrollChildFrame"] = TradeSkillListScrollFrameScrollChildFrame -- inherited
 TradeSkillListScrollFrame["ScrollBar"] = TradeSkillListScrollFrameScrollBar -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L542)
+--- child of TradeSkillSkillIcon
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillSkillIcon_TradeSkillSkillIconCount : FontString, NumberFontNormal
+TradeSkillSkillIconCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L529)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillSkillIcon : Button
+TradeSkillSkillIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L206)
+--- child of TradeSkillReagent1 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent1IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L212)
+--- child of TradeSkillReagent1 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent1NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L220)
+--- child of TradeSkillReagent1 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+TradeSkillReagent1Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L228)
+--- child of TradeSkillReagent1 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+TradeSkillReagent1Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L580)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillReagent1 : Button, TradeSkillItemTemplate
+TradeSkillReagent1 = {}
+TradeSkillReagent1["Icon"] = TradeSkillReagent1IconTexture -- inherited
+TradeSkillReagent1["NameFrame"] = TradeSkillReagent1NameFrame -- inherited
+TradeSkillReagent1["Name"] = TradeSkillReagent1Name -- inherited
+TradeSkillReagent1["Count"] = TradeSkillReagent1Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L206)
+--- child of TradeSkillReagent2 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent2IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L212)
+--- child of TradeSkillReagent2 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent2NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L220)
+--- child of TradeSkillReagent2 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+TradeSkillReagent2Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L228)
+--- child of TradeSkillReagent2 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+TradeSkillReagent2Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L589)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillReagent2 : Button, TradeSkillItemTemplate
+TradeSkillReagent2 = {}
+TradeSkillReagent2["Icon"] = TradeSkillReagent2IconTexture -- inherited
+TradeSkillReagent2["NameFrame"] = TradeSkillReagent2NameFrame -- inherited
+TradeSkillReagent2["Name"] = TradeSkillReagent2Name -- inherited
+TradeSkillReagent2["Count"] = TradeSkillReagent2Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L206)
+--- child of TradeSkillReagent3 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent3IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L212)
+--- child of TradeSkillReagent3 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent3NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L220)
+--- child of TradeSkillReagent3 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+TradeSkillReagent3Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L228)
+--- child of TradeSkillReagent3 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+TradeSkillReagent3Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L598)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillReagent3 : Button, TradeSkillItemTemplate
+TradeSkillReagent3 = {}
+TradeSkillReagent3["Icon"] = TradeSkillReagent3IconTexture -- inherited
+TradeSkillReagent3["NameFrame"] = TradeSkillReagent3NameFrame -- inherited
+TradeSkillReagent3["Name"] = TradeSkillReagent3Name -- inherited
+TradeSkillReagent3["Count"] = TradeSkillReagent3Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L206)
+--- child of TradeSkillReagent4 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent4IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L212)
+--- child of TradeSkillReagent4 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent4NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L220)
+--- child of TradeSkillReagent4 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+TradeSkillReagent4Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L228)
+--- child of TradeSkillReagent4 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+TradeSkillReagent4Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L607)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillReagent4 : Button, TradeSkillItemTemplate
+TradeSkillReagent4 = {}
+TradeSkillReagent4["Icon"] = TradeSkillReagent4IconTexture -- inherited
+TradeSkillReagent4["NameFrame"] = TradeSkillReagent4NameFrame -- inherited
+TradeSkillReagent4["Name"] = TradeSkillReagent4Name -- inherited
+TradeSkillReagent4["Count"] = TradeSkillReagent4Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L206)
+--- child of TradeSkillReagent5 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent5IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L212)
+--- child of TradeSkillReagent5 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent5NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L220)
+--- child of TradeSkillReagent5 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+TradeSkillReagent5Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L228)
+--- child of TradeSkillReagent5 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+TradeSkillReagent5Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L616)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillReagent5 : Button, TradeSkillItemTemplate
+TradeSkillReagent5 = {}
+TradeSkillReagent5["Icon"] = TradeSkillReagent5IconTexture -- inherited
+TradeSkillReagent5["NameFrame"] = TradeSkillReagent5NameFrame -- inherited
+TradeSkillReagent5["Name"] = TradeSkillReagent5Name -- inherited
+TradeSkillReagent5["Count"] = TradeSkillReagent5Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L206)
+--- child of TradeSkillReagent6 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent6IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L212)
+--- child of TradeSkillReagent6 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent6NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L220)
+--- child of TradeSkillReagent6 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+TradeSkillReagent6Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L228)
+--- child of TradeSkillReagent6 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+TradeSkillReagent6Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L625)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillReagent6 : Button, TradeSkillItemTemplate
+TradeSkillReagent6 = {}
+TradeSkillReagent6["Icon"] = TradeSkillReagent6IconTexture -- inherited
+TradeSkillReagent6["NameFrame"] = TradeSkillReagent6NameFrame -- inherited
+TradeSkillReagent6["Name"] = TradeSkillReagent6Name -- inherited
+TradeSkillReagent6["Count"] = TradeSkillReagent6Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L206)
+--- child of TradeSkillReagent7 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent7IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L212)
+--- child of TradeSkillReagent7 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent7NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L220)
+--- child of TradeSkillReagent7 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+TradeSkillReagent7Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L228)
+--- child of TradeSkillReagent7 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+TradeSkillReagent7Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L634)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillReagent7 : Button, TradeSkillItemTemplate
+TradeSkillReagent7 = {}
+TradeSkillReagent7["Icon"] = TradeSkillReagent7IconTexture -- inherited
+TradeSkillReagent7["NameFrame"] = TradeSkillReagent7NameFrame -- inherited
+TradeSkillReagent7["Name"] = TradeSkillReagent7Name -- inherited
+TradeSkillReagent7["Count"] = TradeSkillReagent7Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L206)
+--- child of TradeSkillReagent8 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent8IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L212)
+--- child of TradeSkillReagent8 (created in template LargeItemButtonTemplate)
+--- @type Texture
+TradeSkillReagent8NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L220)
+--- child of TradeSkillReagent8 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+TradeSkillReagent8Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L228)
+--- child of TradeSkillReagent8 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+TradeSkillReagent8Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L643)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillReagent8 : Button, TradeSkillItemTemplate
+TradeSkillReagent8 = {}
+TradeSkillReagent8["Icon"] = TradeSkillReagent8IconTexture -- inherited
+TradeSkillReagent8["NameFrame"] = TradeSkillReagent8NameFrame -- inherited
+TradeSkillReagent8["Name"] = TradeSkillReagent8Name -- inherited
+TradeSkillReagent8["Count"] = TradeSkillReagent8Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L440)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillSkillName : FontString, GameFontNormal
+TradeSkillSkillName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L452)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillRequirementLabel : FontString, GameFontHighlightSmall
+TradeSkillRequirementLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L461)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillRequirementText : FontString, GameFontHighlightSmall
+TradeSkillRequirementText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L484)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillSkillCooldown : FontString, GameFontRedSmall
+TradeSkillSkillCooldown = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L493)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillDetailHeaderLeft : Texture
+TradeSkillDetailHeaderLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L517)
+--- child of TradeSkillDetailScrollChildFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillReagentLabel : FontString, GameFontNormalSmall
+TradeSkillReagentLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L434)
+--- child of TradeSkillDetailScrollFrame
+--- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame : Frame
+TradeSkillDetailScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L84)
 --- child of TradeSkillDetailScrollFrame (created in template ClassTrainerDetailScrollFrameTemplate)

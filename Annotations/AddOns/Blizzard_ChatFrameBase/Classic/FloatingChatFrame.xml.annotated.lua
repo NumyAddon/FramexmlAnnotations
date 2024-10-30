@@ -30,11 +30,16 @@
 --- @class DockManagerTemplate_DockManagerTemplateOverflowButton : Button
 --- @field list DockManagerTemplate_DockManagerTemplateOverflowButton_DockManagerTemplateOverflowButtonList
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L179)
+--- child of DockManagerTemplate
+--- @class DockManagerTemplate_DockManagerTemplateScrollFrame : ScrollFrame
+--- @field child Frame
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L136)
 --- Template
 --- @class DockManagerTemplate : Frame
 --- @field overflowButton DockManagerTemplate_DockManagerTemplateOverflowButton
---- @field scrollFrame ScrollFrame
+--- @field scrollFrame DockManagerTemplate_DockManagerTemplateScrollFrame
 --- @field insertHighlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L204)
@@ -141,7 +146,7 @@ GeneralDockManagerOverflowButton["list"] = DockManagerTemplateOverflowButtonList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L179)
 --- child of GeneralDockManager (created in template DockManagerTemplate)
---- @type ScrollFrame
+--- @type DockManagerTemplate_DockManagerTemplateScrollFrame
 GeneralDockManagerScrollFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L140)

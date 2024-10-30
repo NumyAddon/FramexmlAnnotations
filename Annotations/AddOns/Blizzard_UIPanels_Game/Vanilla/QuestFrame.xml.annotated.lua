@@ -59,6 +59,11 @@ QuestFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 QuestFrameCompleteQuestButton = {}
 QuestFrameCompleteQuestButton["fitTextCanWidthDecrease"] = true -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L106)
+--- child of QuestRewardScrollFrame
+--- @class QuestFrame_QuestFrameRewardPanel_QuestRewardScrollFrame_QuestRewardScrollChildFrame : Frame
+QuestRewardScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
 --- child of QuestRewardScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
@@ -139,6 +144,228 @@ QuestFrameGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class QuestFrame_QuestFrameProgressPanel_QuestFrameCompleteButton : Button, UIPanelButtonTemplate
 QuestFrameCompleteButton = {}
 QuestFrameCompleteButton["fitTextCanWidthDecrease"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L18)
+--- child of QuestProgressRequiredMoneyFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_MoneyFrameTemplateCopperButton
+QuestProgressRequiredMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L57)
+--- child of QuestProgressRequiredMoneyFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_MoneyFrameTemplateSilverButton
+QuestProgressRequiredMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L96)
+--- child of QuestProgressRequiredMoneyFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_MoneyFrameTemplateGoldButton
+QuestProgressRequiredMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L192)
+--- child of QuestProgressScrollChildFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame_QuestProgressRequiredMoneyFrame : Frame, MoneyFrameTemplate
+QuestProgressRequiredMoneyFrame = {}
+QuestProgressRequiredMoneyFrame["CopperButton"] = QuestProgressRequiredMoneyFrameCopperButton -- inherited
+QuestProgressRequiredMoneyFrame["SilverButton"] = QuestProgressRequiredMoneyFrameSilverButton -- inherited
+QuestProgressRequiredMoneyFrame["GoldButton"] = QuestProgressRequiredMoneyFrameGoldButton -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L206)
+--- child of QuestProgressItem1 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem1IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L212)
+--- child of QuestProgressItem1 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem1NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L220)
+--- child of QuestProgressItem1 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+QuestProgressItem1Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L228)
+--- child of QuestProgressItem1 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+QuestProgressItem1Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L207)
+--- child of QuestProgressScrollChildFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame_QuestProgressItem1 : Button, QuestItemTemplate
+QuestProgressItem1 = {}
+QuestProgressItem1["Icon"] = QuestProgressItem1IconTexture -- inherited
+QuestProgressItem1["NameFrame"] = QuestProgressItem1NameFrame -- inherited
+QuestProgressItem1["Name"] = QuestProgressItem1Name -- inherited
+QuestProgressItem1["Count"] = QuestProgressItem1Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L206)
+--- child of QuestProgressItem2 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem2IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L212)
+--- child of QuestProgressItem2 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem2NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L220)
+--- child of QuestProgressItem2 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+QuestProgressItem2Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L228)
+--- child of QuestProgressItem2 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+QuestProgressItem2Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L216)
+--- child of QuestProgressScrollChildFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame_QuestProgressItem2 : Button, QuestItemTemplate
+QuestProgressItem2 = {}
+QuestProgressItem2["Icon"] = QuestProgressItem2IconTexture -- inherited
+QuestProgressItem2["NameFrame"] = QuestProgressItem2NameFrame -- inherited
+QuestProgressItem2["Name"] = QuestProgressItem2Name -- inherited
+QuestProgressItem2["Count"] = QuestProgressItem2Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L206)
+--- child of QuestProgressItem3 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem3IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L212)
+--- child of QuestProgressItem3 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem3NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L220)
+--- child of QuestProgressItem3 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+QuestProgressItem3Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L228)
+--- child of QuestProgressItem3 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+QuestProgressItem3Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L225)
+--- child of QuestProgressScrollChildFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame_QuestProgressItem3 : Button, QuestItemTemplate
+QuestProgressItem3 = {}
+QuestProgressItem3["Icon"] = QuestProgressItem3IconTexture -- inherited
+QuestProgressItem3["NameFrame"] = QuestProgressItem3NameFrame -- inherited
+QuestProgressItem3["Name"] = QuestProgressItem3Name -- inherited
+QuestProgressItem3["Count"] = QuestProgressItem3Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L206)
+--- child of QuestProgressItem4 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem4IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L212)
+--- child of QuestProgressItem4 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem4NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L220)
+--- child of QuestProgressItem4 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+QuestProgressItem4Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L228)
+--- child of QuestProgressItem4 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+QuestProgressItem4Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L234)
+--- child of QuestProgressScrollChildFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame_QuestProgressItem4 : Button, QuestItemTemplate
+QuestProgressItem4 = {}
+QuestProgressItem4["Icon"] = QuestProgressItem4IconTexture -- inherited
+QuestProgressItem4["NameFrame"] = QuestProgressItem4NameFrame -- inherited
+QuestProgressItem4["Name"] = QuestProgressItem4Name -- inherited
+QuestProgressItem4["Count"] = QuestProgressItem4Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L206)
+--- child of QuestProgressItem5 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem5IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L212)
+--- child of QuestProgressItem5 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem5NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L220)
+--- child of QuestProgressItem5 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+QuestProgressItem5Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L228)
+--- child of QuestProgressItem5 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+QuestProgressItem5Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L243)
+--- child of QuestProgressScrollChildFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame_QuestProgressItem5 : Button, QuestItemTemplate
+QuestProgressItem5 = {}
+QuestProgressItem5["Icon"] = QuestProgressItem5IconTexture -- inherited
+QuestProgressItem5["NameFrame"] = QuestProgressItem5NameFrame -- inherited
+QuestProgressItem5["Name"] = QuestProgressItem5Name -- inherited
+QuestProgressItem5["Count"] = QuestProgressItem5Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L206)
+--- child of QuestProgressItem6 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem6IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L212)
+--- child of QuestProgressItem6 (created in template LargeItemButtonTemplate)
+--- @type Texture
+QuestProgressItem6NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L220)
+--- child of QuestProgressItem6 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+QuestProgressItem6Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L228)
+--- child of QuestProgressItem6 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+QuestProgressItem6Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L252)
+--- child of QuestProgressScrollChildFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame_QuestProgressItem6 : Button, QuestItemTemplate
+QuestProgressItem6 = {}
+QuestProgressItem6["Icon"] = QuestProgressItem6IconTexture -- inherited
+QuestProgressItem6["NameFrame"] = QuestProgressItem6NameFrame -- inherited
+QuestProgressItem6["Name"] = QuestProgressItem6Name -- inherited
+QuestProgressItem6["Count"] = QuestProgressItem6Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L144)
+--- child of QuestProgressScrollChildFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame_QuestProgressTitleText : FontString, QuestTitleFont
+QuestProgressTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L156)
+--- child of QuestProgressScrollChildFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame_QuestProgressText : FontString, QuestFont
+QuestProgressText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L168)
+--- child of QuestProgressScrollChildFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame_QuestProgressRequiredItemsText : FontString, QuestTitleFont
+QuestProgressRequiredItemsText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L180)
+--- child of QuestProgressScrollChildFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame_QuestProgressRequiredMoneyText : FontString, QuestFontNormalSmall
+QuestProgressRequiredMoneyText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L138)
+--- child of QuestProgressScrollFrame
+--- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame : Frame
+QuestProgressScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
 --- child of QuestProgressScrollFrame (created in template QuestScrollFrameTemplate)
@@ -221,6 +448,11 @@ QuestFrameDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 QuestFrameAcceptButton = {}
 QuestFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L292)
+--- child of QuestDetailScrollFrame
+--- @class QuestFrame_QuestFrameDetailPanel_QuestDetailScrollFrame_QuestDetailScrollChildFrame : Frame
+QuestDetailScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
 --- child of QuestDetailScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
@@ -295,6 +527,281 @@ QuestFrameDetailPanel = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestFrameGreetingGoodbyeButton : Button, UIPanelButtonTemplate
 QuestFrameGreetingGoodbyeButton = {}
 QuestFrameGreetingGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton1 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton1QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L366)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton1 : Button, QuestTitleButtonTemplate
+QuestTitleButton1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton2 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton2QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L371)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton2 : Button, QuestTitleButtonTemplate
+QuestTitleButton2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton3 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton3QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L376)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton3 : Button, QuestTitleButtonTemplate
+QuestTitleButton3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton4 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton4QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L381)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton4 : Button, QuestTitleButtonTemplate
+QuestTitleButton4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton5 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton5QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L386)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton5 : Button, QuestTitleButtonTemplate
+QuestTitleButton5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton6 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton6QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L391)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton6 : Button, QuestTitleButtonTemplate
+QuestTitleButton6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton7 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton7QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L396)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton7 : Button, QuestTitleButtonTemplate
+QuestTitleButton7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton8 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton8QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L401)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton8 : Button, QuestTitleButtonTemplate
+QuestTitleButton8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton9 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton9QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L406)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton9 : Button, QuestTitleButtonTemplate
+QuestTitleButton9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton10 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton10QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L411)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton10 : Button, QuestTitleButtonTemplate
+QuestTitleButton10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton11 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton11QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L416)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton11 : Button, QuestTitleButtonTemplate
+QuestTitleButton11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton12 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton12QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L421)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton12 : Button, QuestTitleButtonTemplate
+QuestTitleButton12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton13 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton13QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L426)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton13 : Button, QuestTitleButtonTemplate
+QuestTitleButton13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton14 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton14QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L431)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton14 : Button, QuestTitleButtonTemplate
+QuestTitleButton14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton15 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton15QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L436)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton15 : Button, QuestTitleButtonTemplate
+QuestTitleButton15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton16 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton16QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L441)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton16 : Button, QuestTitleButtonTemplate
+QuestTitleButton16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton17 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton17QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L446)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton17 : Button, QuestTitleButtonTemplate
+QuestTitleButton17 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton18 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton18QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L451)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton18 : Button, QuestTitleButtonTemplate
+QuestTitleButton18 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton19 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton19QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L456)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton19 : Button, QuestTitleButtonTemplate
+QuestTitleButton19 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton20 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton20QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L461)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton20 : Button, QuestTitleButtonTemplate
+QuestTitleButton20 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton21 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton21QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L466)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton21 : Button, QuestTitleButtonTemplate
+QuestTitleButton21 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton22 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton22QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L471)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton22 : Button, QuestTitleButtonTemplate
+QuestTitleButton22 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton23 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton23QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L476)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton23 : Button, QuestTitleButtonTemplate
+QuestTitleButton23 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton24 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton24QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L481)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton24 : Button, QuestTitleButtonTemplate
+QuestTitleButton24 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- child of QuestTitleButton25 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+QuestTitleButton25QuestIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L486)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton25 : Button, QuestTitleButtonTemplate
+QuestTitleButton25 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L339)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_GreetingText : FontString, QuestFont
+GreetingText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L345)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_CurrentQuestsText : FontString, QuestTitleFont
+CurrentQuestsText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L351)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestGreetingFrameHorizontalBreak : Texture
+QuestGreetingFrameHorizontalBreak = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L357)
+--- child of QuestGreetingScrollChildFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_AvailableQuestsText : FontString, QuestTitleFont
+AvailableQuestsText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L335)
+--- child of QuestGreetingScrollFrame
+--- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame : Frame
+QuestGreetingScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
 --- child of QuestGreetingScrollFrame (created in template QuestScrollFrameTemplate)
@@ -378,6 +885,16 @@ QuestFrame = {}
 --- child of QuestNPCModel
 --- @class QuestNPCModel_QuestNPCModelNameTooltipFrame : Frame
 QuestNPCModelNameTooltipFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L689)
+--- child of QuestNPCModelTextScrollChildFrame
+--- @class QuestNPCModel_QuestNPCModelTextFrame_QuestNPCModelTextScrollFrame_QuestNPCModelTextScrollChildFrame_QuestNPCModelText : FontString, GameFontHighlight
+QuestNPCModelText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L685)
+--- child of QuestNPCModelTextScrollFrame
+--- @class QuestNPCModel_QuestNPCModelTextFrame_QuestNPCModelTextScrollFrame_QuestNPCModelTextScrollChildFrame : Frame
+QuestNPCModelTextScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L10)
 --- child of QuestNPCModelTextScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)

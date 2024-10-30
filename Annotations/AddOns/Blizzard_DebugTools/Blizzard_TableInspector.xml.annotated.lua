@@ -17,7 +17,7 @@
 --- @class TableAttributeDisplayTemplate_DuplicateButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L148)
---- child of 
+--- child of TableAttributeDisplayTemplate_VisibilityButton
 --- @class TableAttributeDisplayTemplate_VisibilityButton_Label : FontString, GameFontWhite
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L141)
@@ -26,7 +26,7 @@
 --- @field Label TableAttributeDisplayTemplate_VisibilityButton_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L171)
---- child of 
+--- child of TableAttributeDisplayTemplate_HighlightButton
 --- @class TableAttributeDisplayTemplate_HighlightButton_Label : FontString, GameFontWhite
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L164)
@@ -35,7 +35,7 @@
 --- @field Label TableAttributeDisplayTemplate_HighlightButton_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L194)
---- child of 
+--- child of TableAttributeDisplayTemplate_DynamicUpdateButton
 --- @class TableAttributeDisplayTemplate_DynamicUpdateButton_Label : FontString, GameFontWhite
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L187)
@@ -52,11 +52,11 @@
 --- @class TableAttributeDisplayTemplate_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L243)
---- child of 
+--- child of TableAttributeDisplayTemplate_TitleButton
 --- @class TableAttributeDisplayTemplate_TitleButton_Highlight : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L234)
---- child of 
+--- child of TableAttributeDisplayTemplate_TitleButton
 --- @class TableAttributeDisplayTemplate_TitleButton_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L226)

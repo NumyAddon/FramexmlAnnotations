@@ -38,11 +38,11 @@
 --- @field ignoreScaleChangesOnSelect boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.xml#L97)
---- child of 
+--- child of RadialWheelFrameTemplate_Cooldown
 --- @class RadialWheelFrameTemplate_Cooldown_IntroAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.xml#L100)
---- child of 
+--- child of RadialWheelFrameTemplate_Cooldown
 --- @class RadialWheelFrameTemplate_Cooldown_OutroAnim : AnimationGroup, RadialWheelCooldownOutroAnimMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.xml#L72)

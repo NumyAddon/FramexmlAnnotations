@@ -137,11 +137,11 @@ PaperDollSidebarTab1 = {}
 PaperDollSidebarTabs = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L502)
---- child of 
+--- child of PaperDollFrame_TitleManagerPane
 --- @class PaperDollFrame_TitleManagerPane_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L513)
---- child of 
+--- child of PaperDollFrame_TitleManagerPane
 --- @class PaperDollFrame_TitleManagerPane_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L496)
@@ -151,21 +151,21 @@ PaperDollSidebarTabs = {}
 --- @field ScrollBar PaperDollFrame_TitleManagerPane_ScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L533)
---- child of 
+--- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L539)
---- child of 
+--- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L546)
---- child of 
+--- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_PaperDollFrameEquipSet : Button, UIPanelButtonTemplate
 PaperDollFrameEquipSet = {}
 PaperDollFrameEquipSet["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L555)
---- child of 
+--- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_PaperDollFrameSaveSet : Button, UIPanelButtonTemplate
 PaperDollFrameSaveSet = {}
 PaperDollFrameSaveSet["fitTextCanWidthDecrease"] = true -- inherited

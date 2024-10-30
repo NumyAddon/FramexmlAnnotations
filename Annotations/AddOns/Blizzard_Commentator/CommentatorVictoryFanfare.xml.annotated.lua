@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L18)
---- child of 
+--- child of CommentatorVictoryFanfareFrame_BackgroundModelScene
 --- @class CommentatorVictoryFanfareFrame_BackgroundModelScene_EffectAnimIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L12)

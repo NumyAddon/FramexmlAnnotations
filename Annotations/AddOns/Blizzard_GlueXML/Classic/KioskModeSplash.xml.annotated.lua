@@ -6,7 +6,7 @@
 KioskBackgroundModel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/KioskModeSplash.xml#L20)
---- child of 
+--- child of KioskModeSplash_UI
 --- @class KioskModeSplash_UI_NewCharacterChoice : Button, GlueButtonTemplateBlue, NewCharacterButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Classic/KioskModeSplash.xml#L8)

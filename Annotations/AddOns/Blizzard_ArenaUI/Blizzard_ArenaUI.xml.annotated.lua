@@ -88,7 +88,7 @@
 --- @class ArenaEnemyFrameTemplate_ArenaEnemyFrameTemplatePetFrame : Button, ArenaEnemyPetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L327)
---- child of 
+--- child of ArenaEnemyFrameTemplate_CC
 --- @class ArenaEnemyFrameTemplate_CC_ArenaEnemyFrameTemplateCooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L316)

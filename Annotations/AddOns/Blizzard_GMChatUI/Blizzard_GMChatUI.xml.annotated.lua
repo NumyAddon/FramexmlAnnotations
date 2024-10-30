@@ -207,7 +207,7 @@ GMChatFrame["Background"] = GMChatFrameBackground -- inherited
 --- @class GMChatStatusFrame_NineSlice : Frame, NineSlicePanelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L161)
---- child of 
+--- child of GMChatStatusFrame_Pulse
 --- @class GMChatStatusFrame_Pulse_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L159)

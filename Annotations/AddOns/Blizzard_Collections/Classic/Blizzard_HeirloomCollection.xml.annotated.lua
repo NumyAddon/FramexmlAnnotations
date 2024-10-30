@@ -57,47 +57,47 @@ HeirloomsJournalSearchBox["searchIcon"] = HeirloomsJournalSearchBoxSearchIcon --
 --- @class HeirloomsJournal_ClassDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L796)
---- child of  (created in template InsetFrameTemplate)
+--- child of HeirloomsJournal_iconsFrame (created in template InsetFrameTemplate)
 --- @type Texture
 HeirloomsJournalBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L804)
---- child of  (created in template InsetFrameTemplate)
+--- child of HeirloomsJournal_iconsFrame (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
 HeirloomsJournalInsetTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L809)
---- child of  (created in template InsetFrameTemplate)
+--- child of HeirloomsJournal_iconsFrame (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
 HeirloomsJournalInsetTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L815)
---- child of  (created in template InsetFrameTemplate)
+--- child of HeirloomsJournal_iconsFrame (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
 HeirloomsJournalInsetBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L821)
---- child of  (created in template InsetFrameTemplate)
+--- child of HeirloomsJournal_iconsFrame (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
 HeirloomsJournalInsetBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L827)
---- child of  (created in template InsetFrameTemplate)
+--- child of HeirloomsJournal_iconsFrame (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
 HeirloomsJournalInsetTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L833)
---- child of  (created in template InsetFrameTemplate)
+--- child of HeirloomsJournal_iconsFrame (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
 HeirloomsJournalInsetBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L839)
---- child of  (created in template InsetFrameTemplate)
+--- child of HeirloomsJournal_iconsFrame (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
 HeirloomsJournalInsetLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L845)
---- child of  (created in template InsetFrameTemplate)
+--- child of HeirloomsJournal_iconsFrame (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 HeirloomsJournalInsetRightBorder = {}
 

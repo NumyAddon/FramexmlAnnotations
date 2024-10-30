@@ -109,11 +109,11 @@
 --- @class ClubsRecruitmentDialogTemplate_BG : Frame, DialogBorderDarkTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L267)
---- child of 
+--- child of ClubsRecruitmentDialogTemplate_ShouldListClub
 --- @class ClubsRecruitmentDialogTemplate_ShouldListClub_Button : CheckButton, ClubFinderCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L282)
---- child of 
+--- child of ClubsRecruitmentDialogTemplate_ShouldListClub
 --- @class ClubsRecruitmentDialogTemplate_ShouldListClub_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L261)
@@ -135,12 +135,12 @@
 --- @class ClubsRecruitmentDialogTemplate_LanguageDropdown : DropdownButton, CommunitiesLanguageDropdown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L378)
---- child of 
+--- child of ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame
 --- @class ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame_RecruitmentMessageInput : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
 --- @field maxLetters number # 250
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L369)
---- child of 
+--- child of ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame
 --- @class ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L306)
@@ -159,11 +159,11 @@
 --- @field Label ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L392)
---- child of 
+--- child of ClubsRecruitmentDialogTemplate_MaxLevelOnly
 --- @class ClubsRecruitmentDialogTemplate_MaxLevelOnly_Button : CheckButton, ClubFinderCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L401)
---- child of 
+--- child of ClubsRecruitmentDialogTemplate_MaxLevelOnly
 --- @class ClubsRecruitmentDialogTemplate_MaxLevelOnly_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L386)
@@ -173,20 +173,20 @@
 --- @field Label ClubsRecruitmentDialogTemplate_MaxLevelOnly_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L416)
---- child of 
+--- child of ClubsRecruitmentDialogTemplate_MinIlvlOnly
 --- @class ClubsRecruitmentDialogTemplate_MinIlvlOnly_Button : CheckButton, ClubFinderCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L438)
---- child of 
+--- child of ClubsRecruitmentDialogTemplate_MinIlvlOnly_EditBox
 --- @class ClubsRecruitmentDialogTemplate_MinIlvlOnly_EditBox_Text : FontString, GameFontDisable
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L431)
---- child of 
+--- child of ClubsRecruitmentDialogTemplate_MinIlvlOnly
 --- @class ClubsRecruitmentDialogTemplate_MinIlvlOnly_EditBox : EditBox, InputBoxTemplate
 --- @field Text ClubsRecruitmentDialogTemplate_MinIlvlOnly_EditBox_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L455)
---- child of 
+--- child of ClubsRecruitmentDialogTemplate_MinIlvlOnly
 --- @class ClubsRecruitmentDialogTemplate_MinIlvlOnly_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L410)
@@ -256,7 +256,7 @@
 --- @class ClubFinderRequestToJoinTemplate_BG : Frame, DialogBorderDarkTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L653)
---- child of 
+--- child of ClubFinderRequestToJoinTemplate_MessageFrame
 --- @class ClubFinderRequestToJoinTemplate_MessageFrame_MessageScroll : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
 --- @field instructions any # CLUB_FINDER_RECRUITING_NOTE
 
@@ -405,7 +405,7 @@
 --- @class ClubFinderGuildCardsFrameTemplate_NextPage : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L883)
---- child of 
+--- child of ClubFinderGuildCardsFrameTemplate_SearchingSpinner
 --- @class ClubFinderGuildCardsFrameTemplate_SearchingSpinner_Label : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L876)
@@ -430,7 +430,7 @@
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L993)
---- child of 
+--- child of ClubFinderCommunitiesCardTemplate_RequestJoin
 --- @class ClubFinderCommunitiesCardTemplate_RequestJoin_InvitedString : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L986)
@@ -496,7 +496,7 @@
 --- @field ScrollBar ClubFinderCommunitiesCardFrameTemplate_ScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1051)
---- child of 
+--- child of ClubFinderOptionsTemplate_PendingTextFrame
 --- @class ClubFinderOptionsTemplate_PendingTextFrame_Text : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1044)
@@ -519,7 +519,7 @@
 --- @field labelText any # CLUB_FINDER_SORT_BY
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1076)
---- child of 
+--- child of ClubFinderOptionsTemplate_TankRoleFrame
 --- @class ClubFinderOptionsTemplate_TankRoleFrame_Checkbox : CheckButton, ClubFinderCheckboxTemplate, ClubFinderRoleCheckboxMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1066)
@@ -529,7 +529,7 @@
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1102)
---- child of 
+--- child of ClubFinderOptionsTemplate_HealerRoleFrame
 --- @class ClubFinderOptionsTemplate_HealerRoleFrame_Checkbox : CheckButton, ClubFinderCheckboxTemplate, ClubFinderRoleCheckboxMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1092)
@@ -539,7 +539,7 @@
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1128)
---- child of 
+--- child of ClubFinderOptionsTemplate_DpsRoleFrame
 --- @class ClubFinderOptionsTemplate_DpsRoleFrame_Checkbox : CheckButton, ClubFinderCheckboxTemplate, ClubFinderRoleCheckboxMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1118)
@@ -594,11 +594,11 @@
 --- @class ClubFinderGuildAndCommunityFrameTemplate_RequestToJoinFrame : Frame, ClubFinderRequestToJoinTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1224)
---- child of 
+--- child of ClubFinderGuildAndCommunityFrameTemplate_InsetFrame
 --- @class ClubFinderGuildAndCommunityFrameTemplate_InsetFrame_GuildDescription : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1230)
---- child of 
+--- child of ClubFinderGuildAndCommunityFrameTemplate_InsetFrame
 --- @class ClubFinderGuildAndCommunityFrameTemplate_InsetFrame_ErrorDescription : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1217)
@@ -608,11 +608,11 @@
 --- @field ErrorDescription ClubFinderGuildAndCommunityFrameTemplate_InsetFrame_ErrorDescription
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1269)
---- child of 
+--- child of ClubFinderGuildAndCommunityFrameTemplate_DisabledFrame
 --- @class ClubFinderGuildAndCommunityFrameTemplate_DisabledFrame_Title : FontString, Game30Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1274)
---- child of 
+--- child of ClubFinderGuildAndCommunityFrameTemplate_DisabledFrame
 --- @class ClubFinderGuildAndCommunityFrameTemplate_DisabledFrame_Description : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1255)

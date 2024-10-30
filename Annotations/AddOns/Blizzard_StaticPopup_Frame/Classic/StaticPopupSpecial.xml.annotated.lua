@@ -23,11 +23,11 @@ PetBattleQueueReadyFrame = {}
 PetBattleQueueReadyFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L176)
---- child of 
+--- child of PlayerReportFrame_Comment_ScrollFrame_CommentBox
 --- @class PlayerReportFrame_Comment_ScrollFrame_CommentBox_Fill : FontString, ChatFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L172)
---- child of 
+--- child of PlayerReportFrame_Comment_ScrollFrame
 --- @class PlayerReportFrame_Comment_ScrollFrame_CommentBox : EditBox
 --- @field Fill PlayerReportFrame_Comment_ScrollFrame_CommentBox_Fill
 
@@ -47,7 +47,7 @@ PlayerReportFrameScrollBarScrollDownButton = {}
 PlayerReportFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L46)
---- child of  (created in template UIPanelScrollFrameTemplate)
+--- child of PlayerReportFrame_Comment_ScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
 PlayerReportFrameScrollBar = {}
 PlayerReportFrameScrollBar["ScrollUpButton"] = PlayerReportFrameScrollBarScrollUpButton -- inherited
@@ -55,7 +55,7 @@ PlayerReportFrameScrollBar["ScrollDownButton"] = PlayerReportFrameScrollBarScrol
 PlayerReportFrameScrollBar["ThumbTexture"] = PlayerReportFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L148)
---- child of 
+--- child of PlayerReportFrame_Comment
 --- @class PlayerReportFrame_Comment_ScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 --- @field CommentBox PlayerReportFrame_Comment_ScrollFrame_CommentBox
 

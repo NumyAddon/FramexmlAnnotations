@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/SocialContract.xml#L66)
---- child of 
+--- child of SocialContractFrame_ScrollBox
 --- @class SocialContractFrame_ScrollBox_Text : SimpleHTML
 --- @field scrollable boolean # true
 

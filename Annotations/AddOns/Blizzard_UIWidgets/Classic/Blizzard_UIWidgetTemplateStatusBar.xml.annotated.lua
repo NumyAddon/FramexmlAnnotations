@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateStatusBar.xml#L30)
---- child of 
+--- child of UIWidgetTemplateStatusBar_Bar
 --- @class UIWidgetTemplateStatusBar_Bar_Label : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateStatusBar.xml#L5)

@@ -289,6 +289,8 @@ class XmlFileParser
         foreach ($frame->getKeyValues() as $key => $value) {
             $data .= '--- @field ' . $key . ' ' . $value[1] . ' # ' . $value[0] . "\n";
         }
+        $allParentKeys = [];
+        $allParentArrays = [];
         foreach ($frame->getChildren() as $child) {
             $typehint = $this->childHasInterestingData($child) ? $child->getClassName() : $child->getType();
             $parentKeys = [];
@@ -301,9 +303,7 @@ class XmlFileParser
                     $parentKeys[$inherit->getParentKey()] = $inheritTypehint;
                 }
             }
-            foreach ($parentKeys as $parentKey => $typehint) {
-                $data .= '--- @field ' . $parentKey . ' ' . $typehint . "\n";
-            }
+            $allParentKeys[] = $parentKeys;
 
             $parentArrays = [];
             if ($child->getParentArray()) {
@@ -315,9 +315,27 @@ class XmlFileParser
                     $parentArrays[$inherit->getParentArray()] ??= $inheritTypehint;
                 }
             }
-            foreach ($parentArrays as $parentArray => $typehint) {
-                $data .= '--- @field ' . $parentArray . ' table<number, ' . $typehint . ">\n";
+            $allParentArrays[] = $parentArrays;
+        }
+
+        $mergedParentKeys = [];
+        foreach ($allParentKeys as $parentKeys) {
+            foreach ($parentKeys as $key => $type) {
+                $mergedParentKeys[$key][] = $type;
             }
+        }
+        foreach ($mergedParentKeys as $key => $types) {
+            $data .= '--- @field ' . $key . ' ' . implode(' | ', $types) . "\n";
+        }
+
+        $mergedParentArrays = [];
+        foreach ($allParentArrays as $parentArrays) {
+            foreach ($parentArrays as $key => $type) {
+                $mergedParentArrays[$key][] = $type;
+            }
+        }
+        foreach ($mergedParentArrays as $key => $types) {
+            $data .= '--- @field ' . $key . ' table<number, ' . implode(' | ', $types) . ">\n";
         }
 
         return $data;

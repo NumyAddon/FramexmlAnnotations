@@ -448,11 +448,18 @@ GuildBankMessageFrame["tooltipFrame"] = GameTooltip -- inherited
 GuildBankInfoSaveButton = {}
 GuildBankInfoSaveButton["fitTextCanWidthDecrease"] = true -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L759)
+--- child of GuildBankInfoScrollFrame
+--- @class GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame_GuildBankTabInfoEditBox : EditBox
+GuildBankTabInfoEditBox = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L732)
 --- child of GuildBankInfo
 --- @class GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 4
+--- @field EditBox GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame_GuildBankTabInfoEditBox
 GuildBankInfoScrollFrame = {}
+GuildBankInfoScrollFrame["EditBox"] = GuildBankTabInfoEditBox
 GuildBankInfoScrollFrame["scrollBarX"] = 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L708)

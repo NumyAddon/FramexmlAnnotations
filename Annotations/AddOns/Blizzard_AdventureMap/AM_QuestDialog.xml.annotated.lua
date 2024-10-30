@@ -21,10 +21,36 @@
 --- child of AdventureMapQuestChoiceDialog
 --- @class AdventureMapQuestChoiceDialog_CloseButton : Button, UIPanelCloseButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L120)
+--- child of 
+--- @class AdventureMapQuestChoiceDialog_Details_Child_TitleHeader : FontString, QuestTitleFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L126)
+--- child of 
+--- @class AdventureMapQuestChoiceDialog_Details_Child_DescriptionText : FontString, QuestFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L133)
+--- child of 
+--- @class AdventureMapQuestChoiceDialog_Details_Child_ObjectivesHeader : FontString, QuestTitleFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L140)
+--- child of 
+--- @class AdventureMapQuestChoiceDialog_Details_Child_ObjectivesText : FontString, QuestFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L116)
+--- child of 
+--- @class AdventureMapQuestChoiceDialog_Details_Child : Frame
+--- @field TitleHeader AdventureMapQuestChoiceDialog_Details_Child_TitleHeader
+--- @field DescriptionText AdventureMapQuestChoiceDialog_Details_Child_DescriptionText
+--- @field ObjectivesHeader AdventureMapQuestChoiceDialog_Details_Child_ObjectivesHeader
+--- @field ObjectivesText AdventureMapQuestChoiceDialog_Details_Child_ObjectivesText
+--- @field Elements table<number, AdventureMapQuestChoiceDialog_Details_Child_TitleHeader | AdventureMapQuestChoiceDialog_Details_Child_DescriptionText | AdventureMapQuestChoiceDialog_Details_Child_ObjectivesHeader | AdventureMapQuestChoiceDialog_Details_Child_ObjectivesText>
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L104)
 --- child of AdventureMapQuestChoiceDialog
 --- @class AdventureMapQuestChoiceDialog_Details : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
+--- @field Child AdventureMapQuestChoiceDialog_Details_Child
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L152)
 --- child of AdventureMapQuestChoiceDialog

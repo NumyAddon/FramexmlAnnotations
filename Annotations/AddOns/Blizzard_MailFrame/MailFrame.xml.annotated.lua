@@ -330,6 +330,16 @@ InboxCurrentPage = {}
 --- @class MailFrame_InboxFrame : Frame
 InboxFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L527)
+--- child of SendMailScrollChildFrame
+--- @class MailFrame_SendMailFrame_SendMailScrollFrame_SendMailScrollChildFrame_SendMailBodyEditBox : EditBox
+SendMailBodyEditBox = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L521)
+--- child of SendMailScrollFrame
+--- @class MailFrame_SendMailFrame_SendMailScrollFrame_SendMailScrollChildFrame : Frame
+SendMailScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L506)
 --- child of SendMailScrollFrame
 --- @class MailFrame_SendMailFrame_SendMailScrollFrame_SendStationeryBackgroundLeft : Texture
@@ -807,6 +817,241 @@ OpenMailReportSpamButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class OpenMailFrame_OpenMailSender : Frame
 --- @field Name OpenMailFrame_OpenMailSender_Name
 OpenMailSender = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L997)
+--- child of OpenMailScrollChildFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailBodyText : SimpleHTML, InlineHyperlinkFrameTemplate
+OpenMailBodyText = {}
+OpenMailBodyText["tooltipFrame"] = GameTooltip -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1040)
+--- child of ConsortiumMailFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionReceivedDisplay : Frame, MoneyDisplayFrameTemplate
+--- @field hideCopper boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1076)
+--- child of 
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionPaidDisplay_MoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
+--- @field hideCopper boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1067)
+--- child of 
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionPaidDisplay_CommissionPaidText : FontString, InvoiceTextFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1053)
+--- child of ConsortiumMailFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionPaidDisplay : Frame
+--- @field MoneyDisplayFrame OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionPaidDisplay_MoneyDisplayFrame
+--- @field Separator Texture
+--- @field CommissionPaidText OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionPaidDisplay_CommissionPaidText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1007)
+--- child of ConsortiumMailFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_OpeningText : FontString, InvoiceTextFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1013)
+--- child of ConsortiumMailFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CrafterText : FontString, InvoiceTextFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1019)
+--- child of ConsortiumMailFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionReceived : FontString, InvoiceTextFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1025)
+--- child of ConsortiumMailFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CrafterNote : FontString, InvoiceTextFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1031)
+--- child of ConsortiumMailFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_ConsortiumNote : FontString, InvoiceTextFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1004)
+--- child of OpenMailScrollChildFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame : Frame
+--- @field CommissionReceivedDisplay OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionReceivedDisplay
+--- @field CommissionPaidDisplay OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionPaidDisplay
+--- @field OpeningText OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_OpeningText
+--- @field CrafterText OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CrafterText
+--- @field CommissionReceived OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CommissionReceived
+--- @field CrafterNote OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_CrafterNote
+--- @field ConsortiumNote OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_ConsortiumMailFrame_ConsortiumNote
+ConsortiumMailFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L110)
+--- child of OpenMailTransactionAmountMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+OpenMailTransactionAmountMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L138)
+--- child of OpenMailTransactionAmountMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+OpenMailTransactionAmountMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L162)
+--- child of OpenMailTransactionAmountMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+OpenMailTransactionAmountMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L186)
+--- child of OpenMailTransactionAmountMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+OpenMailTransactionAmountMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1155)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailTransactionAmountMoneyFrame : Frame, SmallMoneyFrameTemplate
+OpenMailTransactionAmountMoneyFrame = {}
+OpenMailTransactionAmountMoneyFrame["trialErrorButton"] = OpenMailTransactionAmountMoneyFrameTrialErrorButton -- inherited
+OpenMailTransactionAmountMoneyFrame["CopperButton"] = OpenMailTransactionAmountMoneyFrameCopperButton -- inherited
+OpenMailTransactionAmountMoneyFrame["SilverButton"] = OpenMailTransactionAmountMoneyFrameSilverButton -- inherited
+OpenMailTransactionAmountMoneyFrame["GoldButton"] = OpenMailTransactionAmountMoneyFrameGoldButton -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L110)
+--- child of OpenMailDepositMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+OpenMailDepositMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L138)
+--- child of OpenMailDepositMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+OpenMailDepositMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L162)
+--- child of OpenMailDepositMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+OpenMailDepositMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L186)
+--- child of OpenMailDepositMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+OpenMailDepositMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1166)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailDepositMoneyFrame : Frame, SmallMoneyFrameTemplate
+OpenMailDepositMoneyFrame = {}
+OpenMailDepositMoneyFrame["trialErrorButton"] = OpenMailDepositMoneyFrameTrialErrorButton -- inherited
+OpenMailDepositMoneyFrame["CopperButton"] = OpenMailDepositMoneyFrameCopperButton -- inherited
+OpenMailDepositMoneyFrame["SilverButton"] = OpenMailDepositMoneyFrameSilverButton -- inherited
+OpenMailDepositMoneyFrame["GoldButton"] = OpenMailDepositMoneyFrameGoldButton -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L110)
+--- child of OpenMailHouseCutMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+OpenMailHouseCutMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L138)
+--- child of OpenMailHouseCutMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+OpenMailHouseCutMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L162)
+--- child of OpenMailHouseCutMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+OpenMailHouseCutMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L186)
+--- child of OpenMailHouseCutMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+OpenMailHouseCutMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1186)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailHouseCutMoneyFrame : Frame, SmallMoneyFrameTemplate
+OpenMailHouseCutMoneyFrame = {}
+OpenMailHouseCutMoneyFrame["trialErrorButton"] = OpenMailHouseCutMoneyFrameTrialErrorButton -- inherited
+OpenMailHouseCutMoneyFrame["CopperButton"] = OpenMailHouseCutMoneyFrameCopperButton -- inherited
+OpenMailHouseCutMoneyFrame["SilverButton"] = OpenMailHouseCutMoneyFrameSilverButton -- inherited
+OpenMailHouseCutMoneyFrame["GoldButton"] = OpenMailHouseCutMoneyFrameGoldButton -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1212)
+--- child of OpenMailSalePriceMoneyFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailSalePriceMoneyFrame_Count : FontString, InvoiceTextFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L110)
+--- child of OpenMailSalePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+OpenMailSalePriceMoneyFrameTrialErrorButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L138)
+--- child of OpenMailSalePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+OpenMailSalePriceMoneyFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L162)
+--- child of OpenMailSalePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+OpenMailSalePriceMoneyFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L186)
+--- child of OpenMailSalePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+OpenMailSalePriceMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1206)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailSalePriceMoneyFrame : Frame, SmallMoneyFrameTemplate
+--- @field Count OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailSalePriceMoneyFrame_Count
+OpenMailSalePriceMoneyFrame = {}
+OpenMailSalePriceMoneyFrame["trialErrorButton"] = OpenMailSalePriceMoneyFrameTrialErrorButton -- inherited
+OpenMailSalePriceMoneyFrame["CopperButton"] = OpenMailSalePriceMoneyFrameCopperButton -- inherited
+OpenMailSalePriceMoneyFrame["SilverButton"] = OpenMailSalePriceMoneyFrameSilverButton -- inherited
+OpenMailSalePriceMoneyFrame["GoldButton"] = OpenMailSalePriceMoneyFrameGoldButton -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1105)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailInvoiceItemLabel : FontString, InvoiceTextFontNormal
+OpenMailInvoiceItemLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1111)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailInvoicePurchaser : FontString, InvoiceTextFontNormal
+OpenMailInvoicePurchaser = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1116)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailInvoiceSalePrice : FontString, InvoiceTextFontNormal
+OpenMailInvoiceSalePrice = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1121)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailInvoiceDeposit : FontString, InvoiceTextFontNormal
+OpenMailInvoiceDeposit = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1126)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailInvoiceHouseCut : FontString, InvoiceTextFontNormal
+OpenMailInvoiceHouseCut = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1131)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailArithmeticLine : Texture
+OpenMailArithmeticLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1137)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailInvoiceAmountReceived : FontString, InvoiceTextFontNormal
+OpenMailInvoiceAmountReceived = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1142)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailInvoiceNotYetSent : FontString, InvoiceTextFontNormal
+OpenMailInvoiceNotYetSent = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1147)
+--- child of OpenMailInvoiceFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailInvoiceMoneyDelay : FontString, InvoiceTextFontNormal
+OpenMailInvoiceMoneyDelay = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1102)
+--- child of OpenMailScrollChildFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame : Frame
+OpenMailInvoiceFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L991)
+--- child of OpenMailScrollFrame
+--- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame : Frame
+OpenMailScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L976)
 --- child of OpenMailScrollFrame

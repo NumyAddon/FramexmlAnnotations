@@ -99,6 +99,7 @@
 --- child of QuestLogPopupDetailFrame
 --- @class QuestLogPopupDetailFrame_QuestLogPopupDetailFrameScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 6
+--- @field ScrollChild Frame
 QuestLogPopupDetailFrameScrollFrame = {}
 QuestLogPopupDetailFrameScrollFrame["scrollBarX"] = 6
 
@@ -368,6 +369,11 @@ QuestMapDetailsScrollFrame["scrollBarX"] = 13
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L918)
 --- child of QuestMapFrame
 --- @class QuestMapFrame_CampaignOverview : Frame, CampaignOverviewTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L45)
+--- child of MapLegendScrollFrame
+--- @class MapLegendFrameTemplate_MapLegendScrollFrame_ScrollChild : Frame, VerticalLayoutFrame
+--- @field leftPadding number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L24)
 --- child of  (created in template MapLegendFrameTemplate)

@@ -58,6 +58,71 @@
 --- @class EditModeManagerFrame_EnableAdvancedOptionsCheckButton : Frame, EditModeCheckButtonTemplate
 --- @field labelText any # HUD_EDIT_MODE_ENABLE_ADVANCED_OPTIONS
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L154)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_BasicOptionsContainer : Frame, EditModeManagerSettingsOptionsContainerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L168)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_FramesTitle_Title : FontString, GameFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L161)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_FramesTitle : Frame
+--- @field layoutIndex number # 1
+--- @field Title EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_FramesTitle_Title
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L176)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_FramesContainer : Frame, EditModeManagerSettingsOptionsContainerTemplate
+--- @field layoutIndex number # 2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L190)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_CombatTitle_Title : FontString, GameFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L183)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_CombatTitle : Frame
+--- @field layoutIndex number # 3
+--- @field Title EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_CombatTitle_Title
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L198)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_CombatContainer : Frame, EditModeManagerSettingsOptionsContainerTemplate
+--- @field layoutIndex number # 4
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L212)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_MiscTitle_Title : FontString, GameFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L205)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_MiscTitle : Frame
+--- @field layoutIndex number # 5
+--- @field Title EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_MiscTitle_Title
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L220)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_MiscContainer : Frame, EditModeManagerSettingsOptionsContainerTemplate
+--- @field layoutIndex number # 6
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L155)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer : Frame, VerticalLayoutFrame
+--- @field FramesTitle EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_FramesTitle
+--- @field FramesContainer EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_FramesContainer
+--- @field CombatTitle EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_CombatTitle
+--- @field CombatContainer EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_CombatContainer
+--- @field MiscTitle EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_MiscTitle
+--- @field MiscContainer EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer_MiscContainer
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L152)
+--- child of 
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild : Frame, ResizeLayoutFrame
+--- @field BasicOptionsContainer EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_BasicOptionsContainer
+--- @field AdvancedOptionsContainer EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild_AdvancedOptionsContainer
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L231)
 --- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_BorderArt : Frame, NineSliceCodeTemplate
@@ -177,6 +242,7 @@
 --- child of 
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer : ScrollFrame, ResizeLayoutFrame, ScrollFrameTemplate
 --- @field layoutIndex number # 1
+--- @field ScrollChild EditModeManagerFrame_AccountSettings_SettingsContainer_ScrollChild
 --- @field BorderArt EditModeManagerFrame_AccountSettings_SettingsContainer_BorderArt
 --- @field TargetAndFocus EditModeManagerFrame_AccountSettings_SettingsContainer_TargetAndFocus
 --- @field PetFrame EditModeManagerFrame_AccountSettings_SettingsContainer_PetFrame

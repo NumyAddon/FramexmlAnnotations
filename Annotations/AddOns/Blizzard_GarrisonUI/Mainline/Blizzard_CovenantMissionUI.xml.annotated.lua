@@ -249,9 +249,15 @@ CovenantMissionFrameTab3 = {}
 CovenantMissionFrameFollowers = {}
 CovenantMissionFrameFollowers["followerTemplate"] = "CovenantMissionFollowerOrCategoryListButtonTemplate"
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L526)
+--- child of 
+--- @class CovenantMissionFrame_MapTab_ScrollContainer_Child : Frame
+--- @field TiledBackground Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L518)
 --- child of 
 --- @class CovenantMissionFrame_MapTab_ScrollContainer : ScrollFrame, MapCanvasScrollControllerMixin
+--- @field Child CovenantMissionFrame_MapTab_ScrollContainer_Child
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L508)
 --- child of CovenantMissionFrame

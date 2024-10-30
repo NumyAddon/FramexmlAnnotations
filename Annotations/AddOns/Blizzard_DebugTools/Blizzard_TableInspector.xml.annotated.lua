@@ -69,6 +69,7 @@
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_LinesScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
+--- @field LinesContainer Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L274)
 --- child of TableAttributeDisplayTemplate

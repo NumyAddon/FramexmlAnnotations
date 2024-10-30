@@ -11,7 +11,7 @@
 --- @field Right Texture
 --- @field Bottom Texture
 --- @field Top Texture
---- @field Textures table<number, Texture | Texture | Texture | Texture>
+--- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.xml#L85)
 --- child of CommentatorNamePlateTemplate

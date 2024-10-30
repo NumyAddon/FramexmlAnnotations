@@ -23,6 +23,6 @@
 --- @field BarGlow Texture
 --- @field SparkBurstMove Texture
 --- @field Anim AnimatedStatusBarTemplate_Anim
---- @field ColorableTextures table<number, Texture | Texture | Texture>
+--- @field ColorableTextures table<number, Texture>
 --- @field AnimatedTextures table<number, Texture>
 

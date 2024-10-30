@@ -645,7 +645,7 @@
 --- @field LeftHighlight Texture
 --- @field MiddleHighlight Texture
 --- @field RightHighlight Texture
---- @field TabTextures table<number, Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field TabTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1483)
 --- Template

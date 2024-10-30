@@ -412,7 +412,7 @@
 --- @field Bottom Texture
 --- @field Left Texture
 --- @field Right Texture
---- @field Textures table<number, Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L783)
 --- Template
@@ -425,7 +425,7 @@
 --- @field Bottom Texture
 --- @field Left Texture
 --- @field Right Texture
---- @field Textures table<number, Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L908)
 --- child of BaseBasicFrameTemplate

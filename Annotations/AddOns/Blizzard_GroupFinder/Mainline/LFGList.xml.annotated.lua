@@ -14,7 +14,7 @@
 --- @field ClassCircle Texture
 --- @field RoleIcon Texture
 --- @field RoleIconWithBackground Texture
---- @field Textures table<number, Texture | Texture | Texture>
+--- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L57)
 --- child of LFGListGroupDataDisplayTemplate
@@ -319,7 +319,7 @@
 --- @field FindGroupButton LFGListFrame_CategorySelection_FindGroupButton
 --- @field StartGroupButton LFGListFrame_CategorySelection_StartGroupButton
 --- @field Label LFGListFrame_CategorySelection_Label
---- @field CategoryButtons table<number, >
+--- @field CategoryButtons table<number, LFGListCategoryTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L972)
 --- child of 
@@ -339,7 +339,7 @@
 --- @class LFGListFrame_NothingAvailable : Frame, LFGListPanelTemplate
 --- @field updateAll any # LFGListNothingAvailable_Update
 --- @field Inset LFGListFrame_NothingAvailable_Inset
---- @field Label LFGListFrame_NothingAvailable_Label | LFGListFrame_NothingAvailable_Label
+--- @field Label LFGListFrame_NothingAvailable_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1504)
 --- child of  (created in template SearchBoxTemplate)
@@ -387,7 +387,7 @@ LFGListFrameSearchIcon = {}
 --- @field BottomBorder LFGListFrame_SearchPanel_AutoCompleteFrame_BottomBorder
 --- @field LeftBorder LFGListFrame_SearchPanel_AutoCompleteFrame_LeftBorder
 --- @field RightBorder LFGListFrame_SearchPanel_AutoCompleteFrame_RightBorder
---- @field Results table<number, >
+--- @field Results table<number, LFGListSearchAutoCompleteButtonTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1103)
 --- child of 

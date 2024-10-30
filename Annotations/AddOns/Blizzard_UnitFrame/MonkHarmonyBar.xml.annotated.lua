@@ -23,7 +23,7 @@
 --- @field Orb_Gleam Texture
 --- @field activate MonkLightEnergyTemplate_activate
 --- @field deactivate MonkLightEnergyTemplate_deactivate
---- @field fxTextures table<number, Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field fxTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/MonkHarmonyBar.xml#L105)
 --- Template

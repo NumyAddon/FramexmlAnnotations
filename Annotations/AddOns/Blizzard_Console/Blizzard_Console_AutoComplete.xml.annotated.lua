@@ -53,5 +53,5 @@
 --- @field BorderRight Texture
 --- @field BorderLeft Texture
 --- @field BorderBottom Texture
---- @field BackgroundElements table<number, Texture | Texture | Texture | Texture | Texture>
+--- @field BackgroundElements table<number, Texture>
 

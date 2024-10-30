@@ -210,7 +210,7 @@ RecruitAFriendRecruitmentFrame = {}
 --- @field DividerTexture Texture
 --- @field Name RecruitListButtonTemplate_Name
 --- @field InfoText RecruitListButtonTemplate_InfoText
---- @field Activities table<number,  |  | >
+--- @field Activities table<number, RecruitActivityButtonTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L529)
 --- child of 

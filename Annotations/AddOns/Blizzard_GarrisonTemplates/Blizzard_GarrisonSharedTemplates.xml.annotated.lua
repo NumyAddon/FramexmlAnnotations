@@ -148,8 +148,8 @@
 --- @field AbilitiesBG Texture
 --- @field UpArrow Texture
 --- @field DownArrow Texture
---- @field Counters table<number, >
---- @field Abilities table<number, >
+--- @field Counters table<number, GarrisonMissionAbilityCounterTemplate>
+--- @field Abilities table<number, GarrisonFollowerListButtonAbilityTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L539)
 --- child of GarrisonMissionFollowerOrCategoryListButtonTemplate
@@ -221,7 +221,7 @@ GarrisonTruncationFrame = {}
 --- Template
 --- @class GarrisonThreatCountersFrameTemplate : Frame
 --- @field listName string # "FollowerList"
---- @field ThreatsList table<number, >
+--- @field ThreatsList table<number, GarrisonThreatCounterTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L705)
 --- @class GarrisonThreatCountersFrame : Frame, GarrisonThreatCountersFrameTemplate

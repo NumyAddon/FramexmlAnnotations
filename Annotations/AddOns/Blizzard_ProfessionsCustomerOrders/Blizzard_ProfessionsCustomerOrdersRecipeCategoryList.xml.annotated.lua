@@ -8,7 +8,7 @@
 --- @field HighlightTexture Texture
 --- @field SelectedTexture Texture
 --- @field SpacerLine Texture
---- @field buttonRegions table<number, Texture | Texture | Texture>
+--- @field buttonRegions table<number, Texture>
 --- @field spacerRegions table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeCategoryList.xml#L76)

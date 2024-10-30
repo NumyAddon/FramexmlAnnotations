@@ -162,7 +162,7 @@ OrderHallTalentFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L177)
 --- @class OrderHallTalentFrame : Frame, PortraitFrameTemplate, OrderHallTalentFrameMixin
---- @field FriendshipStatusBar OrderHallTalentFrame_FriendshipStatusBar | OrderHallTalentFrame_FriendshipStatusBar
+--- @field FriendshipStatusBar OrderHallTalentFrame_FriendshipStatusBar
 --- @field OverlayElements OrderHallTalentFrame_OverlayElements
 --- @field Currency OrderHallTalentFrame_Currency
 --- @field CurrencyHitTest Frame

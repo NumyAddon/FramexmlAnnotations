@@ -57,8 +57,8 @@
 --- @field depleteAnimA ShardTemplate_depleteAnimA
 --- @field depleteAnimB ShardTemplate_depleteAnimB
 --- @field depleteAnimC ShardTemplate_depleteAnimC
---- @field fxTextures table<number, Texture | Texture | Texture | Texture | Texture | Texture>
---- @field fxFlipBooks table<number, Texture | Texture | Texture | Texture>
+--- @field fxTextures table<number, Texture>
+--- @field fxFlipBooks table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/ShardBar.xml#L150)
 --- Template

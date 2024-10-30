@@ -41,7 +41,7 @@
 --- @class ClickBindingFramePortraitTemplate : Button, ClickBindingFramePortraitMixin
 --- @field Portrait Texture
 --- @field Frame Texture
---- @field UnselectedFrame Texture | Texture
+--- @field UnselectedFrame Texture
 --- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L153)

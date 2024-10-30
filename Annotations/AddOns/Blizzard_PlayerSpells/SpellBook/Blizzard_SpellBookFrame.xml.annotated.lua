@@ -71,5 +71,5 @@
 --- @field BookCornerFlipbook SpellBookFrameTemplate_BookCornerFlipbook
 --- @field Bookmark Texture
 --- @field minimizedArt table<number, Texture>
---- @field maximizedArt table<number, Texture | Texture | Texture>
+--- @field maximizedArt table<number, Texture>
 

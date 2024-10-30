@@ -107,7 +107,7 @@
 --- @field ActivationExpandFx Texture
 --- @field ActivationExpandFxMask MaskTexture
 --- @field ActivationExpandFxMask2 MaskTexture
---- @field ActivatedBackFrames table<number, Texture | Texture>
---- @field ActivatedLeftFrames table<number, Texture | Texture | Texture | Texture>
---- @field ActivatedRightFrames table<number, Texture | Texture | Texture | Texture>
+--- @field ActivatedBackFrames table<number, Texture>
+--- @field ActivatedLeftFrames table<number, Texture>
+--- @field ActivatedRightFrames table<number, Texture>
 

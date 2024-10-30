@@ -241,7 +241,7 @@ QuestScrollFrameSearchIcon = {}
 --- @field ProgressCount QuestMapFrame_QuestScrollFrame_StoryTooltip_ProgressCount
 --- @field Line1 QuestMapFrame_QuestScrollFrame_StoryTooltip_Line1
 --- @field Lines table<number, QuestMapFrame_QuestScrollFrame_StoryTooltip_Line1>
---- @field CheckMarks table<number, >
+--- @field CheckMarks table<number, GreenCheckMarkTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L486)
 --- child of QuestScrollFrame

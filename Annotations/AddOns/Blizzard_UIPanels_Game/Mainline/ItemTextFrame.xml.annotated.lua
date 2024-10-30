@@ -1,5 +1,15 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L71)
+--- child of ItemTextPageScrollChild
+--- @class ItemTextFrame_ItemTextScrollFrame_ItemTextPageScrollChild_ItemTextPageText : SimpleHTML
+ItemTextPageText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L68)
+--- child of ItemTextScrollFrame
+--- @class ItemTextFrame_ItemTextScrollFrame_ItemTextPageScrollChild : Frame
+ItemTextPageScrollChild = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L57)
 --- child of ItemTextFrame
 --- @class ItemTextFrame_ItemTextScrollFrame : ScrollFrame, ScrollFrameTemplate

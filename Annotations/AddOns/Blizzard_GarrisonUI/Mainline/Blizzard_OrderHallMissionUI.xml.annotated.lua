@@ -104,9 +104,16 @@ OrderHallMissionFrameFollowersSearchIcon = {}
 OrderHallMissionFrameFollowers = {}
 OrderHallMissionFrameFollowers["showUncollected"] = true
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L335)
+--- child of 
+--- @class OrderHallMissionFrame_MapTab_ScrollContainer_Child : Frame
+--- @field TiledBackground Texture
+--- @field ZoneArea Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L327)
 --- child of 
 --- @class OrderHallMissionFrame_MapTab_ScrollContainer : ScrollFrame, MapCanvasScrollControllerMixin
+--- @field Child OrderHallMissionFrame_MapTab_ScrollContainer_Child
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L317)
 --- child of OrderHallMissionFrame

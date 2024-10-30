@@ -74,6 +74,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L178)
 --- Template
 --- @class HybridScrollFrameTemplate : ScrollFrame
+--- @field ScrollChild Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L198)
 --- child of BasicHybridScrollFrameTemplate

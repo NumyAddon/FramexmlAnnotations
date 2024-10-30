@@ -30,11 +30,163 @@ ScenarioQueueFrameTypeDropdownName = {}
 ScenarioQueueFrameTypeDropdown = {}
 ScenarioQueueFrameTypeDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L654)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon1 (created in template LFGRewardsLootShortageTemplate)
+--- @type Texture
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon1Texture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L695)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1 (created in template LFGRewardsLootTemplate)
+--- @type LFGRewardsLootTemplate_LFGRewardsLootTemplateRoleIcon1
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon1 = {}
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon1["texture"] = ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon1Texture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L654)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon2 (created in template LFGRewardsLootShortageTemplate)
+--- @type Texture
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon2Texture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L700)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1 (created in template LFGRewardsLootTemplate)
+--- @type LFGRewardsLootTemplate_LFGRewardsLootTemplateRoleIcon2
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon2 = {}
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon2["texture"] = ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon2Texture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L670)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1 (created in template LFGRewardsLootTemplate)
+--- @type LFGRewardsLootTemplate_LFGRewardsLootTemplateShortageBorder
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1ShortageBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L250)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
+--- @type Texture
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L256)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
+--- @type Texture
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L264)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L296)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L783)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateItem1
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1 = {}
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1["roleIcon1"] = ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon1 -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1["roleIcon2"] = ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon2 -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1["shortageBorder"] = ScenarioQueueFrameRandomScrollFrameChildFrameItem1ShortageBorder -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1["largeItemButton"] = true -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1["Icon"] = ScenarioQueueFrameRandomScrollFrameChildFrameItem1IconTexture -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1["NameFrame"] = ScenarioQueueFrameRandomScrollFrameChildFrameItem1NameFrame -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1["Name"] = ScenarioQueueFrameRandomScrollFrameChildFrameItem1Name -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrameItem1["Count"] = ScenarioQueueFrameRandomScrollFrameChildFrameItem1Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L250)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
+--- @type Texture
+ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L256)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
+--- @type Texture
+ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardNameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L264)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L296)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L788)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateMoneyReward
+ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward = {}
+ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward["largeItemButton"] = true -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward["Icon"] = ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardIconTexture -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward["NameFrame"] = ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardNameFrame -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward["Name"] = ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardName -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward["Count"] = ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardCount -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L803)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateRandomList
+ScenarioQueueFrameRandomScrollFrameChildFrameRandomList = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L829)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateEncounterList
+ScenarioQueueFrameRandomScrollFrameChildFrameEncounterList = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L846)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type Frame
+ScenarioQueueFrameRandomScrollFrameChildFrameSpacer = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L739)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateTitle
+ScenarioQueueFrameRandomScrollFrameChildFrameTitle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L745)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateDescription
+ScenarioQueueFrameRandomScrollFrameChildFrameDescription = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L754)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsLabel
+ScenarioQueueFrameRandomScrollFrameChildFrameRewardsLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L759)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsDescription
+ScenarioQueueFrameRandomScrollFrameChildFrameRewardsDescription = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L768)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateXPLabel
+ScenarioQueueFrameRandomScrollFrameChildFrameXPLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L773)
+--- child of ScenarioQueueFrameRandomScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateXPAmount
+ScenarioQueueFrameRandomScrollFrameChildFrameXPAmount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L97)
+--- child of ScenarioQueueFrameRandomScrollFrame
+--- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameRandom_ScenarioQueueFrameRandomScrollFrame_ScenarioQueueFrameRandomScrollFrameChildFrame : Frame, LFGRewardFrameTemplate
+ScenarioQueueFrameRandomScrollFrameChildFrame = {}
+ScenarioQueueFrameRandomScrollFrameChildFrame["MoneyReward"] = ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrame["randomList"] = ScenarioQueueFrameRandomScrollFrameChildFrameRandomList -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrame["encounterList"] = ScenarioQueueFrameRandomScrollFrameChildFrameEncounterList -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrame["spacer"] = ScenarioQueueFrameRandomScrollFrameChildFrameSpacer -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrame["title"] = ScenarioQueueFrameRandomScrollFrameChildFrameTitle -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrame["description"] = ScenarioQueueFrameRandomScrollFrameChildFrameDescription -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrame["rewardsLabel"] = ScenarioQueueFrameRandomScrollFrameChildFrameRewardsLabel -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrame["rewardsDescription"] = ScenarioQueueFrameRandomScrollFrameChildFrameRewardsDescription -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrame["xpLabel"] = ScenarioQueueFrameRandomScrollFrameChildFrameXPLabel -- inherited
+ScenarioQueueFrameRandomScrollFrameChildFrame["xpAmount"] = ScenarioQueueFrameRandomScrollFrameChildFrameXPAmount -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L85)
 --- child of ScenarioQueueFrameRandom
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameRandom_ScenarioQueueFrameRandomScrollFrame : ScrollFrame, UIPanelScrollFrameCodeTemplate
 --- @field scrollBarX number # 4
+--- @field Child ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameRandom_ScenarioQueueFrameRandomScrollFrame_ScenarioQueueFrameRandomScrollFrameChildFrame
 ScenarioQueueFrameRandomScrollFrame = {}
+ScenarioQueueFrameRandomScrollFrame["Child"] = ScenarioQueueFrameRandomScrollFrameChildFrame
 ScenarioQueueFrameRandomScrollFrame["scrollBarX"] = 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L83)
@@ -95,6 +247,11 @@ ScenarioQueueFrameSpecificScrollFrameScrollBackgroundTopLeft = {}
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameSpecific_ScenarioQueueFrameSpecificScrollFrame_ScenarioQueueFrameSpecificScrollFrameScrollBackgroundBottomRight : Texture
 ScenarioQueueFrameSpecificScrollFrameScrollBackgroundBottomRight = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L163)
+--- child of ScenarioQueueFrameSpecificScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+ScenarioQueueFrameSpecificScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L10)
 --- child of ScenarioQueueFrameSpecificScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -122,6 +279,7 @@ ScenarioQueueFrameSpecificScrollFrameScrollBar["ThumbTexture"] = ScenarioQueueFr
 --- child of ScenarioQueueFrameSpecific
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameSpecific_ScenarioQueueFrameSpecificScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 ScenarioQueueFrameSpecificScrollFrame = {}
+ScenarioQueueFrameSpecificScrollFrame["ScrollChildFrame"] = ScenarioQueueFrameSpecificScrollFrameScrollChildFrame -- inherited
 ScenarioQueueFrameSpecificScrollFrame["ScrollBar"] = ScenarioQueueFrameSpecificScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L108)

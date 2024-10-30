@@ -39,6 +39,8 @@ if (is_file($inputDir) && (str_ends_with($inputDir, '.lua') || str_ends_with($in
     $inputDir = rtrim($inputDir, '/');
     $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($inputDir));
     $iterator->rewind();
+
+    $tocFiles = [];
     /** @var $iterator RecursiveDirectoryIterator */
     while ($iterator->valid()) {
         if (
@@ -47,7 +49,23 @@ if (is_file($inputDir) && (str_ends_with($inputDir, '.lua') || str_ends_with($in
         ) {
             $fileList[$iterator->getPath() . '/' . $iterator->getFilename()] = $iterator->getExtension();
         }
+        if ('toc' === $iterator->getExtension()) {
+            $tocFiles[] = $iterator->getPath() . '/' . $iterator->getFilename();
+        }
         $iterator->next();
+    }
+
+    foreach ($tocFiles as $tocFile) {
+        $toc = file_get_contents($tocFile);
+        if (str_contains($toc, '## AllowLoad: glue')) {
+            // remove all files with shared basepath from $fileList
+            $basePath = dirname($tocFile);
+            foreach ($fileList as $filePath => $extension) {
+                if (str_starts_with($filePath, $basePath)) {
+                    unset($fileList[$filePath]);
+                }
+            }
+        }
     }
 }
 

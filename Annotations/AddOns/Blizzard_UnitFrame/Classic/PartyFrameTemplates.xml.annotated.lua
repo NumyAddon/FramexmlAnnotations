@@ -16,14 +16,6 @@
 --- child of 
 --- @class PartyMemberPetFrameTemplateName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L97)
---- child of 
---- @class  : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L95)
---- child of PartyMemberPetFrameTemplate
---- @class  : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L116)
 --- child of PartyMemberPetFrameTemplate
 --- @class PartyMemberPetFrameTemplate_PartyMemberPetFrameTemplateHealthBar : StatusBar, TextStatusBar
@@ -51,14 +43,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L221)
 --- child of 
 --- @class PartyMemberFrameTemplateName : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L206)
---- child of 
---- @class  : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L204)
---- child of PartyMemberFrameTemplate
---- @class  : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L273)
 --- child of PartyMemberFrameTemplate

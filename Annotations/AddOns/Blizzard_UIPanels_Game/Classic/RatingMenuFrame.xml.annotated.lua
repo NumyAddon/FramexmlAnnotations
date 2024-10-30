@@ -11,10 +11,6 @@ RatingMenuButtonOkay["fitTextCanWidthDecrease"] = true -- inherited
 --- @class RatingMenuFrame_RatingMenuFrameHeader : Texture
 RatingMenuFrameHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L27)
---- child of RatingMenuFrame
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L36)
 --- child of RatingMenuFrame
 --- @class RatingMenuFrame_RatingMenuAge : Texture

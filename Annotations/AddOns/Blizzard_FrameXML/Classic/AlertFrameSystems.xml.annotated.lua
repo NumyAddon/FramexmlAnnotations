@@ -6,6 +6,7 @@ AlertFrameSystemsRegistrar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L8)
 --- Template
+--- Adds itself to the parent inside the array `RewardFrames`
 --- @class DungeonCompletionAlertFrameRewardTemplate : Button
 --- @field texture Texture
 
@@ -30,10 +31,6 @@ AlertFrameSystemsRegistrar = {}
 --- child of DungeonCompletionAlertFrameTemplate
 --- @class DungeonCompletionAlertFrameTemplate_glowFrame : Frame
 --- @field glow DungeonCompletionAlertFrameTemplate_glowFrame_glow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L112)
---- child of DungeonCompletionAlertFrameTemplate
---- @class  : FontString, GameFontWhiteTiny
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L118)
 --- child of DungeonCompletionAlertFrameTemplate
@@ -199,10 +196,6 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn CriteriaAlertFrameTemplate_animIn
 --- @field waitAndAnimOut CriteriaAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L541)
---- child of GuildChallengeAlertFrameTemplate
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L546)
 --- child of GuildChallengeAlertFrameTemplate
 --- @class GuildChallengeAlertFrameTemplate_Type : FontString, GameFontWhiteTiny
@@ -251,10 +244,6 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn GuildChallengeAlertFrameTemplate_animIn
 --- @field waitAndAnimOut GuildChallengeAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L639)
---- child of ScenarioLegionInvasionAlertFrameTemplate
---- @class  : FontString, GameFontWhiteTiny
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L646)
 --- child of ScenarioLegionInvasionAlertFrameTemplate
 --- @class ScenarioLegionInvasionAlertFrameTemplate_ZoneName : FontString, GameFontHighlight
@@ -289,10 +278,6 @@ AlertFrameSystemsRegistrar = {}
 --- child of ScenarioAlertFrameTemplate
 --- @class ScenarioAlertFrameTemplate_glowFrame : Frame
 --- @field glow ScenarioAlertFrameTemplate_glowFrame_glow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L701)
---- child of ScenarioAlertFrameTemplate
---- @class  : FontString, GameFontWhiteTiny
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L708)
 --- child of ScenarioAlertFrameTemplate
@@ -693,14 +678,6 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn GarrisonBuildingAlertFrameTemplate_animIn
 --- @field waitAndAnimOut GarrisonBuildingAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L1603)
---- child of GarrisonRandomMissionAlertFrameTemplate
---- @class  : FontString, SystemFont_Med3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L1609)
---- child of GarrisonRandomMissionAlertFrameTemplate
---- @class  : FontString, Game24Font
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L1615)
 --- child of GarrisonRandomMissionAlertFrameTemplate
 --- @class GarrisonRandomMissionAlertFrameTemplate_Level : FontString, Game24Font
@@ -1022,10 +999,6 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn NewRecipeLearnedAlertFrameTemplate_animIn
 --- @field waitAndAnimOut NewRecipeLearnedAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2271)
---- child of WorldQuestCompleteAlertFrameTemplate
---- @class  : FontString, GameFontWhiteTiny
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2277)
 --- child of WorldQuestCompleteAlertFrameTemplate
 --- @class WorldQuestCompleteAlertFrameTemplate_QuestName : FontString, GameFontNormal
@@ -1074,10 +1047,6 @@ AlertFrameSystemsRegistrar = {}
 --- child of LegendaryItemAlertFrameTemplate
 --- @class LegendaryItemAlertFrameTemplate_Background3 : Texture
 --- @field animIn LegendaryItemAlertFrameTemplate_Background3_animIn
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2387)
---- child of LegendaryItemAlertFrameTemplate
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2392)
 --- child of LegendaryItemAlertFrameTemplate

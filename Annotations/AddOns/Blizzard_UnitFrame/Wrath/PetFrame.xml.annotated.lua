@@ -50,14 +50,6 @@ PetName = {}
 --- @class PetAttackModeTexture : Texture
 PetAttackModeTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L31)
---- child of 
---- @class  : Frame
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L29)
---- child of PetFrame
---- @class  : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/PetFrame.xml#L94)
 --- child of PetFrame
 --- @class PetFrame_PetFrameHealthBar : StatusBar, TextStatusBar

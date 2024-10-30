@@ -189,33 +189,33 @@ BattlefieldZone12Highlight = {}
 BattlefieldZone12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L10)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of BattlefieldListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+BattlefieldListScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L18)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of BattlefieldListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+BattlefieldListScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L30)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of BattlefieldListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-FauxScrollFrameTemplateScrollBarThumbTexture = {}
+BattlefieldListScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L46)
---- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of BattlefieldListScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-FauxScrollFrameTemplateScrollBar = {}
-FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
-FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
-FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+BattlefieldListScrollFrameScrollBar = {}
+BattlefieldListScrollFrameScrollBar["ScrollUpButton"] = BattlefieldListScrollFrameScrollBarScrollUpButton -- inherited
+BattlefieldListScrollFrameScrollBar["ScrollDownButton"] = BattlefieldListScrollFrameScrollBarScrollDownButton -- inherited
+BattlefieldListScrollFrameScrollBar["ThumbTexture"] = BattlefieldListScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L256)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BattlefieldListScrollFrame = {}
-BattlefieldListScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+BattlefieldListScrollFrame["ScrollBar"] = BattlefieldListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L303)
 --- child of BattlefieldFrame

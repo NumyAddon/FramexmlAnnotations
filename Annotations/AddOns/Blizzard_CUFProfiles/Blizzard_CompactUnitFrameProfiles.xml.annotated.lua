@@ -66,15 +66,15 @@ CompactUnitFrameProfilesDeleteButton = {}
 CompactUnitFrameProfilesDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L468)
---- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- child of CompactUnitFrameProfilesRaidStylePartyFrames (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
-OptionsBaseCheckButtonTemplateText = {}
+CompactUnitFrameProfilesRaidStylePartyFramesText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L209)
 --- child of CompactUnitFrameProfiles
 --- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesRaidStylePartyFrames : CheckButton, OptionsBaseCheckButtonTemplate
 CompactUnitFrameProfilesRaidStylePartyFrames = {}
-CompactUnitFrameProfilesRaidStylePartyFrames["Text"] = OptionsBaseCheckButtonTemplateText -- inherited
+CompactUnitFrameProfilesRaidStylePartyFrames["Text"] = CompactUnitFrameProfilesRaidStylePartyFramesText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L260)
 --- child of CompactUnitFrameProfilesNewProfileDialogEditBox
@@ -95,10 +95,6 @@ CompactUnitFrameProfilesNewProfileDialogEditBoxMid = {}
 --- child of CompactUnitFrameProfilesNewProfileDialog
 --- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogEditBox : EditBox
 CompactUnitFrameProfilesNewProfileDialogEditBox = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L314)
---- child of CompactUnitFrameProfilesNewProfileDialogBaseProfileSelector
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L308)
 --- child of CompactUnitFrameProfilesNewProfileDialog
@@ -240,8 +236,8 @@ CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdownLabel = {}
 --- @field width number # 110
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown = {}
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["width"] = 110
-CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["label"] = CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdownLabel -- inherited
+CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameDisplayPowerBar (created in template CompactUnitFrameProfilesCheckButtonTemplate)
@@ -329,13 +325,8 @@ CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownLabel = {}
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
 --- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown : DropdownButton, CompactUnitFrameProfilesDropdownTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown = {}
-CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown["label"] = CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownLabel -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1125)
---- child of CompactUnitFrameProfilesSliderTemplate (created in template HorizontalSliderTemplate)
---- @type Texture
-CompactUnitFrameProfilesSliderTemplateThumb = {}
+CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L81)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider (created in template CompactUnitFrameProfilesSliderTemplate)
@@ -352,20 +343,20 @@ CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderLow = {}
 --- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderHigh = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1125)
+--- child of CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider (created in template HorizontalSliderTemplate)
+--- @type Texture
+CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderThumb = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L616)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
 --- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider : Slider, CompactUnitFrameProfilesSliderTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider = {}
-CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
-CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider["Thumb"] = CompactUnitFrameProfilesSliderTemplateThumb -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider["label"] = CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderLabel -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider["minLabel"] = CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderLow -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider["maxLabel"] = CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderHigh -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1125)
---- child of CompactUnitFrameProfilesSliderTemplate (created in template HorizontalSliderTemplate)
---- @type Texture
-CompactUnitFrameProfilesSliderTemplateThumb = {}
+CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider["Thumb"] = CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderThumb -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L81)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider (created in template CompactUnitFrameProfilesSliderTemplate)
@@ -382,15 +373,20 @@ CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderLow = {}
 --- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderHigh = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1125)
+--- child of CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider (created in template HorizontalSliderTemplate)
+--- @type Texture
+CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderThumb = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L626)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
 --- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider : Slider, CompactUnitFrameProfilesSliderTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider = {}
-CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
-CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider["Thumb"] = CompactUnitFrameProfilesSliderTemplateThumb -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider["label"] = CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderLabel -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider["minLabel"] = CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderLow -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider["maxLabel"] = CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderHigh -- inherited
+CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider["backdropInfo"] = BACKDROP_SLIDER_8_8 -- inherited
+CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider["Thumb"] = CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderThumb -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate2Players (created in template CompactUnitFrameProfilesCheckButtonTemplate)

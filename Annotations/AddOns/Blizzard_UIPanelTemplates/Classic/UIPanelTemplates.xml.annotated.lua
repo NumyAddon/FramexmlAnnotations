@@ -405,25 +405,41 @@
 --- Template
 --- @class ThinBorderTemplate : Frame
 --- @field TopLeft Texture
+--- @field Textures table<number, Texture>
 --- @field TopRight Texture
+--- @field Textures table<number, Texture>
 --- @field BottomLeft Texture
+--- @field Textures table<number, Texture>
 --- @field BottomRight Texture
+--- @field Textures table<number, Texture>
 --- @field Top Texture
+--- @field Textures table<number, Texture>
 --- @field Bottom Texture
+--- @field Textures table<number, Texture>
 --- @field Left Texture
+--- @field Textures table<number, Texture>
 --- @field Right Texture
+--- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L783)
 --- Template
 --- @class GlowBorderTemplate : Frame
 --- @field TopLeft Texture
+--- @field Textures table<number, Texture>
 --- @field TopRight Texture
+--- @field Textures table<number, Texture>
 --- @field BottomLeft Texture
+--- @field Textures table<number, Texture>
 --- @field BottomRight Texture
+--- @field Textures table<number, Texture>
 --- @field Top Texture
+--- @field Textures table<number, Texture>
 --- @field Bottom Texture
+--- @field Textures table<number, Texture>
 --- @field Left Texture
+--- @field Textures table<number, Texture>
 --- @field Right Texture
+--- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L908)
 --- child of BaseBasicFrameTemplate

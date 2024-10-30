@@ -251,10 +251,6 @@ RealmListOkButton = {}
 --- @class RealmListUI_RealmList_RealmListBackground_RealmListHeader : Texture
 RealmListHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/RealmList.xml#L346)
---- child of RealmListBackground
---- @class  : FontString, GlueFontNormalSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Cata/RealmList.xml#L260)
 --- child of RealmList
 --- @class RealmListUI_RealmList_RealmListBackground : Frame

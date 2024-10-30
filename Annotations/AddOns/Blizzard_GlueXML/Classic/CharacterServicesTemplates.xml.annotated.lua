@@ -1,11 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesTemplates.xml#L9)
---- child of CharacterServicesAutoCompleteButtonTemplate
---- @class  : Texture, UIPanelButtonHighlightTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesTemplates.xml#L3)
 --- Template
+--- Adds itself to the parent inside the array `Buttons`
 --- @class CharacterServicesAutoCompleteButtonTemplate : Button, CharacterServicesAutoCompleteButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesTemplates.xml#L51)
@@ -33,14 +30,11 @@
 --- child of 
 --- @class CharacterServicesEditBoxWithAutoCompleteTemplate_AutoCompleteBox_Border : Frame, TooltipBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesTemplates.xml#L89)
---- child of 
---- @class  : Button, CharacterServicesAutoCompleteButtonTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesTemplates.xml#L82)
 --- child of CharacterServicesEditBoxWithAutoCompleteTemplate
 --- @class CharacterServicesEditBoxWithAutoCompleteTemplate_AutoCompleteBox : Frame, AutoCompleteBoxMixin
 --- @field Border CharacterServicesEditBoxWithAutoCompleteTemplate_AutoCompleteBox_Border
+--- @field Buttons table<number, CharacterServicesAutoCompleteButtonTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServicesTemplates.xml#L80)
 --- Template

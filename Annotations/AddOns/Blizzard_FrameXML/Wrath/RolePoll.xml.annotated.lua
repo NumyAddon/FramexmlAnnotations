@@ -40,10 +40,6 @@ RolePollPopupRoleButtonDPS = {}
 RolePollPopupAcceptButton = {}
 RolePollPopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Wrath/RolePoll.xml#L71)
---- child of RolePollPopup
---- @class  : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Wrath/RolePoll.xml#L65)
 --- @class RolePollPopup : Frame
 --- @field Border RolePollPopup_Border

@@ -38,9 +38,6 @@ SideDressUpModelCloseButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L75)
 --- child of SideDressUpModel (created in template ModelWithControlsTemplate)
 --- @type ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame
---- @field panButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton
---- @field rotateLeftButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton
---- @field rotateRightButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton
 SideDressUpModelControlFrame = {}
 SideDressUpModelControlFrame["panButton"] = ModelWithControlsTemplateControlFramePanButton
 SideDressUpModelControlFrame["rotateLeftButton"] = ModelWithControlsTemplateControlFrameRotateLeftButton

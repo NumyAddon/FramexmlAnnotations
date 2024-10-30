@@ -32,14 +32,6 @@
 --- Template
 --- @class productchoice_card : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L93)
---- child of 
---- @class  : Texture, productchoice-icon-magnifyingglass
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L94)
---- child of 
---- @class  : Texture, productchoice-icon-magnifyingglass
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L88)
 --- child of 
 --- @class ProductChoiceItemDisplayTemplate_ModelScene_PreviewButton : Button
@@ -91,10 +83,6 @@
 --- @field Icon Texture
 --- @field IconBorder ProductChoiceItemDisplayTemplate_IconBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L135)
---- child of ProductChoiceItemTemplate
---- @class  : Texture, productchoice-card-hover
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L131)
 --- Template
 --- @class ProductChoiceItemTemplate : CheckButton, ProductChoiceItemDisplayTemplate
@@ -129,10 +117,6 @@
 --- @class ProductChoiceFrame_Inset_NoTakeBacksies : Frame
 --- @field Dialog ProductChoiceFrame_Inset_NoTakeBacksies_Dialog
 --- @field Cover Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L237)
---- child of 
---- @class  : CheckButton, ProductChoiceItemTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L242)
 --- child of 
@@ -199,6 +183,7 @@ ProductChoiceFrameInsetRightBorder = {}
 --- child of ProductChoiceFrame
 --- @class ProductChoiceFrame_Inset : Frame, InsetFrameTemplate
 --- @field NoTakeBacksies ProductChoiceFrame_Inset_NoTakeBacksies
+--- @field Buttons table<number, >
 --- @field ClaimButton ProductChoiceFrame_Inset_ClaimButton
 --- @field PrevPageButton ProductChoiceFrame_Inset_PrevPageButton
 --- @field NextPageButton ProductChoiceFrame_Inset_NextPageButton
@@ -208,99 +193,99 @@ ProductChoiceFrameInsetRightBorder = {}
 --- child of ProductChoiceFrame
 --- @class ProductChoiceFrame_Instruction : FontString, GameFontNormalHuge3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L563)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L569)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
-PortraitFrameTemplateTitleBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L577)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplatePortrait = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L585)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
-PortraitFrameTemplatePortraitFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L590)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
-PortraitFrameTemplateTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L595)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
-PortraitFrameTemplateTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L600)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
-PortraitFrameTemplateTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L606)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
-PortraitFrameTemplateTitleText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L615)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
-PortraitFrameTemplateTopTileStreaks = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L621)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
-PortraitFrameTemplateBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L626)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
-PortraitFrameTemplateBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L631)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
-PortraitFrameTemplateBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L637)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
-PortraitFrameTemplateLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L643)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
-PortraitFrameTemplateRightBorder = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L657)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ProductChoiceFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L563)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+ProductChoiceFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L569)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+ProductChoiceFrameTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L577)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+ProductChoiceFramePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L585)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+ProductChoiceFramePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L590)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+ProductChoiceFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L595)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+ProductChoiceFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L600)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+ProductChoiceFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L606)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+ProductChoiceFrameTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L615)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+ProductChoiceFrameTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L621)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+ProductChoiceFrameBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L626)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+ProductChoiceFrameBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L631)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+ProductChoiceFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L637)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+ProductChoiceFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L643)
+--- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+ProductChoiceFrameRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L146)
 --- @class ProductChoiceFrame : Frame, PortraitFrameTemplate
 --- @field Inset ProductChoiceFrame_Inset
 --- @field Instruction ProductChoiceFrame_Instruction
 ProductChoiceFrame = {}
-ProductChoiceFrame["Bg"] = PortraitFrameTemplateBg -- inherited
-ProductChoiceFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
-ProductChoiceFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
-ProductChoiceFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
-ProductChoiceFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
-ProductChoiceFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
-ProductChoiceFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
-ProductChoiceFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
-ProductChoiceFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
-ProductChoiceFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
-ProductChoiceFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
-ProductChoiceFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
-ProductChoiceFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
-ProductChoiceFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
 ProductChoiceFrame["CloseButton"] = ProductChoiceFrameCloseButton -- inherited
+ProductChoiceFrame["Bg"] = ProductChoiceFrameBg -- inherited
+ProductChoiceFrame["TitleBg"] = ProductChoiceFrameTitleBg -- inherited
+ProductChoiceFrame["portrait"] = ProductChoiceFramePortrait -- inherited
+ProductChoiceFrame["PortraitFrame"] = ProductChoiceFramePortraitFrame -- inherited
+ProductChoiceFrame["TopRightCorner"] = ProductChoiceFrameTopRightCorner -- inherited
+ProductChoiceFrame["TopLeftCorner"] = ProductChoiceFrameTopLeftCorner -- inherited
+ProductChoiceFrame["TopBorder"] = ProductChoiceFrameTopBorder -- inherited
+ProductChoiceFrame["TitleText"] = ProductChoiceFrameTitleText -- inherited
+ProductChoiceFrame["TopTileStreaks"] = ProductChoiceFrameTopTileStreaks -- inherited
+ProductChoiceFrame["BotLeftCorner"] = ProductChoiceFrameBotLeftCorner -- inherited
+ProductChoiceFrame["BotRightCorner"] = ProductChoiceFrameBotRightCorner -- inherited
+ProductChoiceFrame["BottomBorder"] = ProductChoiceFrameBottomBorder -- inherited
+ProductChoiceFrame["LeftBorder"] = ProductChoiceFrameLeftBorder -- inherited
+ProductChoiceFrame["RightBorder"] = ProductChoiceFrameRightBorder -- inherited
 

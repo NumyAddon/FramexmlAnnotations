@@ -130,7 +130,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1262)
 --- child of  (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
 EventTraceClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1253)
@@ -141,6 +140,7 @@ EventTraceSearchIcon = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L250)
 --- child of 
 --- Template
+--- Adds itself to the parent with key `SearchBox`
 --- @class EventTrace_Log_Bar_SearchBox : EditBox, SearchBoxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L226)
@@ -230,81 +230,6 @@ EventTraceSearchIcon = {}
 --- @field ScrollBox EventTrace_Filter_ScrollBox
 --- @field ScrollBar EventTrace_Filter_ScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L563)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L569)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
-PortraitFrameTemplateTitleBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L577)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplatePortrait = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L585)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
-PortraitFrameTemplatePortraitFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L590)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
-PortraitFrameTemplateTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L595)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
-PortraitFrameTemplateTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L600)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
-PortraitFrameTemplateTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L606)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
-PortraitFrameTemplateTitleText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L615)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
-PortraitFrameTemplateTopTileStreaks = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L621)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
-PortraitFrameTemplateBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L626)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
-PortraitFrameTemplateBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L631)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
-PortraitFrameTemplateBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L637)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
-PortraitFrameTemplateLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L643)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
-PortraitFrameTemplateRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L657)
---- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L796)
 --- child of EventTraceInset (created in template InsetFrameTemplate)
 --- @type Texture
@@ -379,6 +304,81 @@ EventTraceBtnCornerRight = {}
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 EventTraceButtonBottomBorder = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L657)
+--- child of EventTrace (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+EventTraceCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L563)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+EventTraceBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L569)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+EventTraceTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L577)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+EventTracePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L585)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+EventTracePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L590)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+EventTraceTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L595)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+EventTraceTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L600)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+EventTraceTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L606)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+EventTraceTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L615)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+EventTraceTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L621)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+EventTraceBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L626)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+EventTraceBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L631)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+EventTraceBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L637)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+EventTraceLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L643)
+--- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+EventTraceRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L168)
 --- @class EventTrace : Frame, ButtonFrameTemplate, EventTracePanelMixin
 --- @field TitleBar EventTrace_TitleBar
@@ -387,199 +387,199 @@ EventTraceButtonBottomBorder = {}
 --- @field Log EventTrace_Log
 --- @field Filter EventTrace_Filter
 EventTrace = {}
-EventTrace["Bg"] = PortraitFrameTemplateBg -- inherited
-EventTrace["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
-EventTrace["portrait"] = PortraitFrameTemplatePortrait -- inherited
-EventTrace["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
-EventTrace["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
-EventTrace["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
-EventTrace["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
-EventTrace["TitleText"] = PortraitFrameTemplateTitleText -- inherited
-EventTrace["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
-EventTrace["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
-EventTrace["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
-EventTrace["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
-EventTrace["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
-EventTrace["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
-EventTrace["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 EventTrace["Inset"] = EventTraceInset -- inherited
+EventTrace["CloseButton"] = EventTraceCloseButton -- inherited
+EventTrace["Bg"] = EventTraceBg -- inherited
+EventTrace["TitleBg"] = EventTraceTitleBg -- inherited
+EventTrace["portrait"] = EventTracePortrait -- inherited
+EventTrace["PortraitFrame"] = EventTracePortraitFrame -- inherited
+EventTrace["TopRightCorner"] = EventTraceTopRightCorner -- inherited
+EventTrace["TopLeftCorner"] = EventTraceTopLeftCorner -- inherited
+EventTrace["TopBorder"] = EventTraceTopBorder -- inherited
+EventTrace["TitleText"] = EventTraceTitleText -- inherited
+EventTrace["TopTileStreaks"] = EventTraceTopTileStreaks -- inherited
+EventTrace["BotLeftCorner"] = EventTraceBotLeftCorner -- inherited
+EventTrace["BotRightCorner"] = EventTraceBotRightCorner -- inherited
+EventTrace["BottomBorder"] = EventTraceBottomBorder -- inherited
+EventTrace["LeftBorder"] = EventTraceLeftBorder -- inherited
+EventTrace["RightBorder"] = EventTraceRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L35)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
-SharedTooltipTemplateTextLeft1 = {}
+EventTraceTooltipTextLeft1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L36)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
-SharedTooltipTemplateTextRight1 = {}
+EventTraceTooltipTextRight1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L41)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
-SharedTooltipTemplateTextLeft2 = {}
+EventTraceTooltipTextLeft2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L42)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
-SharedTooltipTemplateTextRight2 = {}
+EventTraceTooltipTextRight2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L47)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
-SharedTooltipTemplateTexture1 = {}
+EventTraceTooltipTexture1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L48)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
-SharedTooltipTemplateTexture2 = {}
+EventTraceTooltipTexture2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L49)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
-SharedTooltipTemplateTexture3 = {}
+EventTraceTooltipTexture3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L50)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
-SharedTooltipTemplateTexture4 = {}
+EventTraceTooltipTexture4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L51)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
-SharedTooltipTemplateTexture5 = {}
+EventTraceTooltipTexture5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L52)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
-SharedTooltipTemplateTexture6 = {}
+EventTraceTooltipTexture6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L53)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
-SharedTooltipTemplateTexture7 = {}
+EventTraceTooltipTexture7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L54)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
-SharedTooltipTemplateTexture8 = {}
+EventTraceTooltipTexture8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L55)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
-SharedTooltipTemplateTexture9 = {}
+EventTraceTooltipTexture9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L56)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
-SharedTooltipTemplateTexture10 = {}
+EventTraceTooltipTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L57)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
-SharedTooltipTemplateTexture11 = {}
+EventTraceTooltipTexture11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L58)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
-SharedTooltipTemplateTexture12 = {}
+EventTraceTooltipTexture12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L59)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
-SharedTooltipTemplateTexture13 = {}
+EventTraceTooltipTexture13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L60)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
-SharedTooltipTemplateTexture14 = {}
+EventTraceTooltipTexture14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L61)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
-SharedTooltipTemplateTexture15 = {}
+EventTraceTooltipTexture15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L62)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
-SharedTooltipTemplateTexture16 = {}
+EventTraceTooltipTexture16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L63)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
-SharedTooltipTemplateTexture17 = {}
+EventTraceTooltipTexture17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L64)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
-SharedTooltipTemplateTexture18 = {}
+EventTraceTooltipTexture18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L65)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
-SharedTooltipTemplateTexture19 = {}
+EventTraceTooltipTexture19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L66)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
-SharedTooltipTemplateTexture20 = {}
+EventTraceTooltipTexture20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L67)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
-SharedTooltipTemplateTexture21 = {}
+EventTraceTooltipTexture21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L68)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
-SharedTooltipTemplateTexture22 = {}
+EventTraceTooltipTexture22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L69)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
-SharedTooltipTemplateTexture23 = {}
+EventTraceTooltipTexture23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L70)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
-SharedTooltipTemplateTexture24 = {}
+EventTraceTooltipTexture24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L71)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
-SharedTooltipTemplateTexture25 = {}
+EventTraceTooltipTexture25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L72)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
-SharedTooltipTemplateTexture26 = {}
+EventTraceTooltipTexture26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L73)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
-SharedTooltipTemplateTexture27 = {}
+EventTraceTooltipTexture27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L74)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
-SharedTooltipTemplateTexture28 = {}
+EventTraceTooltipTexture28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L75)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
-SharedTooltipTemplateTexture29 = {}
+EventTraceTooltipTexture29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L76)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
-SharedTooltipTemplateTexture30 = {}
+EventTraceTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L385)
 --- @class EventTraceTooltip : GameTooltip, SharedTooltipTemplate
 EventTraceTooltip = {}
 EventTraceTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
-EventTraceTooltip["TextLeft1"] = SharedTooltipTemplateTextLeft1 -- inherited
-EventTraceTooltip["TextRight1"] = SharedTooltipTemplateTextRight1 -- inherited
-EventTraceTooltip["TextLeft2"] = SharedTooltipTemplateTextLeft2 -- inherited
-EventTraceTooltip["TextRight2"] = SharedTooltipTemplateTextRight2 -- inherited
+EventTraceTooltip["TextLeft1"] = EventTraceTooltipTextLeft1 -- inherited
+EventTraceTooltip["TextRight1"] = EventTraceTooltipTextRight1 -- inherited
+EventTraceTooltip["TextLeft2"] = EventTraceTooltipTextLeft2 -- inherited
+EventTraceTooltip["TextRight2"] = EventTraceTooltipTextRight2 -- inherited
 

@@ -199,39 +199,39 @@ PlayerTalentFrameScrollFrame["ScrollBar"] = PlayerTalentFrameScrollFrameScrollBa
 PlayerTalentFrameScrollButtonOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L9)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateLeftDisabled = {}
+PlayerTalentFrameTab1LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateMiddleDisabled = {}
+PlayerTalentFrameTab1MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L31)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateRightDisabled = {}
+PlayerTalentFrameTab1RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L40)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateLeft = {}
+PlayerTalentFrameTab1Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L49)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateMiddle = {}
+PlayerTalentFrameTab1Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L58)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateRight = {}
+PlayerTalentFrameTab1Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L113)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateHighlightTexture = {}
+PlayerTalentFrameTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L649)
 --- child of PlayerTalentFrame
@@ -239,39 +239,39 @@ PlayerTalentTabTemplateHighlightTexture = {}
 PlayerTalentFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L9)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateLeftDisabled = {}
+PlayerTalentFrameTab2LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateMiddleDisabled = {}
+PlayerTalentFrameTab2MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L31)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateRightDisabled = {}
+PlayerTalentFrameTab2RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L40)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateLeft = {}
+PlayerTalentFrameTab2Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L49)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateMiddle = {}
+PlayerTalentFrameTab2Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L58)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateRight = {}
+PlayerTalentFrameTab2Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L113)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateHighlightTexture = {}
+PlayerTalentFrameTab2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L658)
 --- child of PlayerTalentFrame
@@ -279,39 +279,39 @@ PlayerTalentTabTemplateHighlightTexture = {}
 PlayerTalentFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L9)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateLeftDisabled = {}
+PlayerTalentFrameTab3LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateMiddleDisabled = {}
+PlayerTalentFrameTab3MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L31)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateRightDisabled = {}
+PlayerTalentFrameTab3RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L40)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateLeft = {}
+PlayerTalentFrameTab3Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L49)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateMiddle = {}
+PlayerTalentFrameTab3Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L58)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateRight = {}
+PlayerTalentFrameTab3Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L113)
---- child of PlayerTalentTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerTalentTabTemplateHighlightTexture = {}
+PlayerTalentFrameTab3HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L667)
 --- child of PlayerTalentFrame
@@ -319,39 +319,39 @@ PlayerTalentTabTemplateHighlightTexture = {}
 PlayerTalentFrameTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L9)
---- child of PlayerGlyphTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerGlyphTabTemplateLeftDisabled = {}
+PlayerTalentFrameTab4LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
---- child of PlayerGlyphTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerGlyphTabTemplateMiddleDisabled = {}
+PlayerTalentFrameTab4MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L31)
---- child of PlayerGlyphTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerGlyphTabTemplateRightDisabled = {}
+PlayerTalentFrameTab4RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L40)
---- child of PlayerGlyphTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerGlyphTabTemplateLeft = {}
+PlayerTalentFrameTab4Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L49)
---- child of PlayerGlyphTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerGlyphTabTemplateMiddle = {}
+PlayerTalentFrameTab4Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L58)
---- child of PlayerGlyphTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerGlyphTabTemplateRight = {}
+PlayerTalentFrameTab4Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L113)
---- child of PlayerGlyphTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of PlayerTalentFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-PlayerGlyphTabTemplateHighlightTexture = {}
+PlayerTalentFrameTab4HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L676)
 --- child of PlayerTalentFrame

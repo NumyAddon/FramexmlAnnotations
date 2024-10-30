@@ -249,39 +249,39 @@
 --- @field missingText SecondaryProfessionTemplate_missingText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L9)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateLeftDisabled = {}
+SpellBookFrameTabButton1LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L22)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateMiddleDisabled = {}
+SpellBookFrameTabButton1MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L31)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateRightDisabled = {}
+SpellBookFrameTabButton1RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L40)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateLeft = {}
+SpellBookFrameTabButton1Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L49)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateMiddle = {}
+SpellBookFrameTabButton1Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L58)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateRight = {}
+SpellBookFrameTabButton1Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L113)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateHighlightTexture = {}
+SpellBookFrameTabButton1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L561)
 --- child of SpellBookFrame
@@ -289,39 +289,39 @@ SpellBookFrameTabButtonTemplateHighlightTexture = {}
 SpellBookFrameTabButton1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L9)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateLeftDisabled = {}
+SpellBookFrameTabButton2LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L22)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateMiddleDisabled = {}
+SpellBookFrameTabButton2MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L31)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateRightDisabled = {}
+SpellBookFrameTabButton2RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L40)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateLeft = {}
+SpellBookFrameTabButton2Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L49)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateMiddle = {}
+SpellBookFrameTabButton2Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L58)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateRight = {}
+SpellBookFrameTabButton2Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L113)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateHighlightTexture = {}
+SpellBookFrameTabButton2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L566)
 --- child of SpellBookFrame
@@ -329,39 +329,39 @@ SpellBookFrameTabButtonTemplateHighlightTexture = {}
 SpellBookFrameTabButton2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L9)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateLeftDisabled = {}
+SpellBookFrameTabButton3LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L22)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateMiddleDisabled = {}
+SpellBookFrameTabButton3MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L31)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateRightDisabled = {}
+SpellBookFrameTabButton3RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L40)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateLeft = {}
+SpellBookFrameTabButton3Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L49)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateMiddle = {}
+SpellBookFrameTabButton3Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L58)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateRight = {}
+SpellBookFrameTabButton3Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L113)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateHighlightTexture = {}
+SpellBookFrameTabButton3HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L571)
 --- child of SpellBookFrame
@@ -369,39 +369,39 @@ SpellBookFrameTabButtonTemplateHighlightTexture = {}
 SpellBookFrameTabButton3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L9)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateLeftDisabled = {}
+SpellBookFrameTabButton4LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L22)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateMiddleDisabled = {}
+SpellBookFrameTabButton4MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L31)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateRightDisabled = {}
+SpellBookFrameTabButton4RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L40)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateLeft = {}
+SpellBookFrameTabButton4Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L49)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateMiddle = {}
+SpellBookFrameTabButton4Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L58)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateRight = {}
+SpellBookFrameTabButton4Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L113)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateHighlightTexture = {}
+SpellBookFrameTabButton4HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L576)
 --- child of SpellBookFrame
@@ -409,39 +409,39 @@ SpellBookFrameTabButtonTemplateHighlightTexture = {}
 SpellBookFrameTabButton4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L9)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateLeftDisabled = {}
+SpellBookFrameTabButton5LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L22)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateMiddleDisabled = {}
+SpellBookFrameTabButton5MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L31)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateRightDisabled = {}
+SpellBookFrameTabButton5RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L40)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateLeft = {}
+SpellBookFrameTabButton5Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L49)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateMiddle = {}
+SpellBookFrameTabButton5Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L58)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateRight = {}
+SpellBookFrameTabButton5Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L113)
---- child of SpellBookFrameTabButtonTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of SpellBookFrameTabButton5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-SpellBookFrameTabButtonTemplateHighlightTexture = {}
+SpellBookFrameTabButton5HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L581)
 --- child of SpellBookFrame
@@ -480,7 +480,6 @@ SpellButton1Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton1 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -574,7 +573,7 @@ SpellButton1Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton1 : CheckButton, SpellButtonTemplate
 SpellButton1 = {}
 SpellButton1["cooldown"] = SpellButton1Cooldown -- inherited
-SpellButton1["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton1["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton1["EmptySlot"] = SpellButton1Background -- inherited
 SpellButton1["TextBackground"] = SpellButton1TextBackground -- inherited
 SpellButton1["TextBackground2"] = SpellButton1TextBackground2 -- inherited
@@ -601,7 +600,6 @@ SpellButton2Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton2 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -695,7 +693,7 @@ SpellButton2Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton2 : CheckButton, SpellButtonTemplate
 SpellButton2 = {}
 SpellButton2["cooldown"] = SpellButton2Cooldown -- inherited
-SpellButton2["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton2["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton2["EmptySlot"] = SpellButton2Background -- inherited
 SpellButton2["TextBackground"] = SpellButton2TextBackground -- inherited
 SpellButton2["TextBackground2"] = SpellButton2TextBackground2 -- inherited
@@ -722,7 +720,6 @@ SpellButton3Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton3 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -816,7 +813,7 @@ SpellButton3Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton3 : CheckButton, SpellButtonTemplate
 SpellButton3 = {}
 SpellButton3["cooldown"] = SpellButton3Cooldown -- inherited
-SpellButton3["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton3["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton3["EmptySlot"] = SpellButton3Background -- inherited
 SpellButton3["TextBackground"] = SpellButton3TextBackground -- inherited
 SpellButton3["TextBackground2"] = SpellButton3TextBackground2 -- inherited
@@ -843,7 +840,6 @@ SpellButton4Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton4 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -937,7 +933,7 @@ SpellButton4Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton4 : CheckButton, SpellButtonTemplate
 SpellButton4 = {}
 SpellButton4["cooldown"] = SpellButton4Cooldown -- inherited
-SpellButton4["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton4["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton4["EmptySlot"] = SpellButton4Background -- inherited
 SpellButton4["TextBackground"] = SpellButton4TextBackground -- inherited
 SpellButton4["TextBackground2"] = SpellButton4TextBackground2 -- inherited
@@ -964,7 +960,6 @@ SpellButton5Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton5 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -1058,7 +1053,7 @@ SpellButton5Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton5 : CheckButton, SpellButtonTemplate
 SpellButton5 = {}
 SpellButton5["cooldown"] = SpellButton5Cooldown -- inherited
-SpellButton5["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton5["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton5["EmptySlot"] = SpellButton5Background -- inherited
 SpellButton5["TextBackground"] = SpellButton5TextBackground -- inherited
 SpellButton5["TextBackground2"] = SpellButton5TextBackground2 -- inherited
@@ -1085,7 +1080,6 @@ SpellButton6Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton6 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -1179,7 +1173,7 @@ SpellButton6Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton6 : CheckButton, SpellButtonTemplate
 SpellButton6 = {}
 SpellButton6["cooldown"] = SpellButton6Cooldown -- inherited
-SpellButton6["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton6["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton6["EmptySlot"] = SpellButton6Background -- inherited
 SpellButton6["TextBackground"] = SpellButton6TextBackground -- inherited
 SpellButton6["TextBackground2"] = SpellButton6TextBackground2 -- inherited
@@ -1206,7 +1200,6 @@ SpellButton7Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton7 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -1300,7 +1293,7 @@ SpellButton7Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton7 : CheckButton, SpellButtonTemplate
 SpellButton7 = {}
 SpellButton7["cooldown"] = SpellButton7Cooldown -- inherited
-SpellButton7["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton7["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton7["EmptySlot"] = SpellButton7Background -- inherited
 SpellButton7["TextBackground"] = SpellButton7TextBackground -- inherited
 SpellButton7["TextBackground2"] = SpellButton7TextBackground2 -- inherited
@@ -1327,7 +1320,6 @@ SpellButton8Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton8 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -1421,7 +1413,7 @@ SpellButton8Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton8 : CheckButton, SpellButtonTemplate
 SpellButton8 = {}
 SpellButton8["cooldown"] = SpellButton8Cooldown -- inherited
-SpellButton8["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton8["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton8["EmptySlot"] = SpellButton8Background -- inherited
 SpellButton8["TextBackground"] = SpellButton8TextBackground -- inherited
 SpellButton8["TextBackground2"] = SpellButton8TextBackground2 -- inherited
@@ -1448,7 +1440,6 @@ SpellButton9Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton9 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -1542,7 +1533,7 @@ SpellButton9Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton9 : CheckButton, SpellButtonTemplate
 SpellButton9 = {}
 SpellButton9["cooldown"] = SpellButton9Cooldown -- inherited
-SpellButton9["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton9["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton9["EmptySlot"] = SpellButton9Background -- inherited
 SpellButton9["TextBackground"] = SpellButton9TextBackground -- inherited
 SpellButton9["TextBackground2"] = SpellButton9TextBackground2 -- inherited
@@ -1569,7 +1560,6 @@ SpellButton10Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton10 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -1663,7 +1653,7 @@ SpellButton10Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton10 : CheckButton, SpellButtonTemplate
 SpellButton10 = {}
 SpellButton10["cooldown"] = SpellButton10Cooldown -- inherited
-SpellButton10["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton10["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton10["EmptySlot"] = SpellButton10Background -- inherited
 SpellButton10["TextBackground"] = SpellButton10TextBackground -- inherited
 SpellButton10["TextBackground2"] = SpellButton10TextBackground2 -- inherited
@@ -1690,7 +1680,6 @@ SpellButton11Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton11 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -1784,7 +1773,7 @@ SpellButton11Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton11 : CheckButton, SpellButtonTemplate
 SpellButton11 = {}
 SpellButton11["cooldown"] = SpellButton11Cooldown -- inherited
-SpellButton11["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton11["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton11["EmptySlot"] = SpellButton11Background -- inherited
 SpellButton11["TextBackground"] = SpellButton11TextBackground -- inherited
 SpellButton11["TextBackground2"] = SpellButton11TextBackground2 -- inherited
@@ -1811,7 +1800,6 @@ SpellButton12Cooldown = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L196)
 --- child of SpellButton12 (created in template SpellButtonTemplate)
 --- @type SpellButtonTemplate_textureTrainBook
---- @field Icon SpellButtonTemplate_textureTrainBook_textureTrainBookTrainBook
 _G["$textureTrainBook"] = {}
 _G["$textureTrainBook"]["Icon"] = _G["$textureTrainBookTrainBook"]
 
@@ -1905,7 +1893,7 @@ SpellButton12Highlight = {}
 --- @class SpellBookFrame_SpellBookSpellIconsFrame_SpellButton12 : CheckButton, SpellButtonTemplate
 SpellButton12 = {}
 SpellButton12["cooldown"] = SpellButton12Cooldown -- inherited
-SpellButton12["TrainBook"] = _G["_G["$textureTrainBook"]"] -- inherited
+SpellButton12["TrainBook"] = _G["$textureTrainBook"] -- inherited
 SpellButton12["EmptySlot"] = SpellButton12Background -- inherited
 SpellButton12["TextBackground"] = SpellButton12TextBackground -- inherited
 SpellButton12["TextBackground2"] = SpellButton12TextBackground2 -- inherited
@@ -2994,81 +2982,6 @@ SpellBookPage1 = {}
 --- @class SpellBookFrame_SpellBookPage2 : Texture
 SpellBookPage2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L563)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L569)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
-PortraitFrameTemplateTitleBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L577)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplatePortrait = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L585)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
-PortraitFrameTemplatePortraitFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L590)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
-PortraitFrameTemplateTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L595)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
-PortraitFrameTemplateTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L600)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
-PortraitFrameTemplateTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L606)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
-PortraitFrameTemplateTitleText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L615)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
-PortraitFrameTemplateTopTileStreaks = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L621)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
-PortraitFrameTemplateBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L626)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
-PortraitFrameTemplateBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L631)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
-PortraitFrameTemplateBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L637)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
-PortraitFrameTemplateLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L643)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
-PortraitFrameTemplateRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L657)
---- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L796)
 --- child of SpellBookFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
@@ -3143,23 +3056,98 @@ SpellBookFrameBtnCornerRight = {}
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 SpellBookFrameButtonBottomBorder = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L657)
+--- child of SpellBookFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+SpellBookFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L563)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+SpellBookFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L569)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+SpellBookFrameTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L577)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+SpellBookFramePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L585)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+SpellBookFramePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L590)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+SpellBookFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L595)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+SpellBookFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L600)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+SpellBookFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L606)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+SpellBookFrameTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L615)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+SpellBookFrameTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L621)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+SpellBookFrameBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L626)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+SpellBookFrameBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L631)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+SpellBookFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L637)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+SpellBookFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L643)
+--- child of SpellBookFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+SpellBookFrameRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L544)
 --- @class SpellBookFrame : Frame, ButtonFrameTemplate
 SpellBookFrame = {}
-SpellBookFrame["Bg"] = PortraitFrameTemplateBg -- inherited
-SpellBookFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
-SpellBookFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
-SpellBookFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
-SpellBookFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
-SpellBookFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
-SpellBookFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
-SpellBookFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
-SpellBookFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
-SpellBookFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
-SpellBookFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
-SpellBookFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
-SpellBookFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
-SpellBookFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
-SpellBookFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 SpellBookFrame["Inset"] = SpellBookFrameInset -- inherited
+SpellBookFrame["CloseButton"] = SpellBookFrameCloseButton -- inherited
+SpellBookFrame["Bg"] = SpellBookFrameBg -- inherited
+SpellBookFrame["TitleBg"] = SpellBookFrameTitleBg -- inherited
+SpellBookFrame["portrait"] = SpellBookFramePortrait -- inherited
+SpellBookFrame["PortraitFrame"] = SpellBookFramePortraitFrame -- inherited
+SpellBookFrame["TopRightCorner"] = SpellBookFrameTopRightCorner -- inherited
+SpellBookFrame["TopLeftCorner"] = SpellBookFrameTopLeftCorner -- inherited
+SpellBookFrame["TopBorder"] = SpellBookFrameTopBorder -- inherited
+SpellBookFrame["TitleText"] = SpellBookFrameTitleText -- inherited
+SpellBookFrame["TopTileStreaks"] = SpellBookFrameTopTileStreaks -- inherited
+SpellBookFrame["BotLeftCorner"] = SpellBookFrameBotLeftCorner -- inherited
+SpellBookFrame["BotRightCorner"] = SpellBookFrameBotRightCorner -- inherited
+SpellBookFrame["BottomBorder"] = SpellBookFrameBottomBorder -- inherited
+SpellBookFrame["LeftBorder"] = SpellBookFrameLeftBorder -- inherited
+SpellBookFrame["RightBorder"] = SpellBookFrameRightBorder -- inherited
 

@@ -232,81 +232,6 @@ ChannelFrameShadowRight = {}
 --- child of ChannelFrame
 --- @class ChannelFrame_TitleText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L563)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L569)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
-PortraitFrameTemplateTitleBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L577)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplatePortrait = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L585)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
-PortraitFrameTemplatePortraitFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L590)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
-PortraitFrameTemplateTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L595)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
-PortraitFrameTemplateTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L600)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
-PortraitFrameTemplateTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L606)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
-PortraitFrameTemplateTitleText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L615)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
-PortraitFrameTemplateTopTileStreaks = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L621)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
-PortraitFrameTemplateBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L626)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
-PortraitFrameTemplateBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L631)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
-PortraitFrameTemplateBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L637)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
-PortraitFrameTemplateLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L643)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
-PortraitFrameTemplateRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L657)
---- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L796)
 --- child of ChannelFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
@@ -381,6 +306,81 @@ ChannelFrameBtnCornerRight = {}
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 ChannelFrameButtonBottomBorder = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L657)
+--- child of ChannelFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+ChannelFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L563)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+ChannelFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L569)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+ChannelFrameTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L577)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+ChannelFramePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L585)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+ChannelFramePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L590)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+ChannelFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L595)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+ChannelFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L600)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+ChannelFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L606)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+ChannelFrameTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L615)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+ChannelFrameTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L621)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+ChannelFrameBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L626)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+ChannelFrameBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L631)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+ChannelFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L637)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+ChannelFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L643)
+--- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+ChannelFrameRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L5)
 --- @class ChannelFrame : Frame, ButtonFrameTemplate, ChannelFrameMixin
 --- @field NewButton ChannelFrame_NewButton
@@ -393,20 +393,20 @@ ChannelFrameButtonBottomBorder = {}
 --- @field Icon Texture
 --- @field TitleText ChannelFrame_TitleText
 ChannelFrame = {}
-ChannelFrame["Bg"] = PortraitFrameTemplateBg -- inherited
-ChannelFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
-ChannelFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
-ChannelFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
-ChannelFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
-ChannelFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
-ChannelFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
-ChannelFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
-ChannelFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
-ChannelFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
-ChannelFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
-ChannelFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
-ChannelFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
-ChannelFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
-ChannelFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 ChannelFrame["Inset"] = ChannelFrameInset -- inherited
+ChannelFrame["CloseButton"] = ChannelFrameCloseButton -- inherited
+ChannelFrame["Bg"] = ChannelFrameBg -- inherited
+ChannelFrame["TitleBg"] = ChannelFrameTitleBg -- inherited
+ChannelFrame["portrait"] = ChannelFramePortrait -- inherited
+ChannelFrame["PortraitFrame"] = ChannelFramePortraitFrame -- inherited
+ChannelFrame["TopRightCorner"] = ChannelFrameTopRightCorner -- inherited
+ChannelFrame["TopLeftCorner"] = ChannelFrameTopLeftCorner -- inherited
+ChannelFrame["TopBorder"] = ChannelFrameTopBorder -- inherited
+ChannelFrame["TitleText"] = ChannelFrameTitleText -- inherited
+ChannelFrame["TopTileStreaks"] = ChannelFrameTopTileStreaks -- inherited
+ChannelFrame["BotLeftCorner"] = ChannelFrameBotLeftCorner -- inherited
+ChannelFrame["BotRightCorner"] = ChannelFrameBotRightCorner -- inherited
+ChannelFrame["BottomBorder"] = ChannelFrameBottomBorder -- inherited
+ChannelFrame["LeftBorder"] = ChannelFrameLeftBorder -- inherited
+ChannelFrame["RightBorder"] = ChannelFrameRightBorder -- inherited
 

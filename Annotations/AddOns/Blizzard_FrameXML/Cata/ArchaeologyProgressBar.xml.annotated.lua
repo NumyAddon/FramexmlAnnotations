@@ -15,6 +15,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Cata/ArchaeologyProgressBar.xml#L64)
 --- child of ArcheologyDigsiteProgressBar
 --- Template
+--- Adds itself to the parent with key `Flash`
 --- @class ArcheologyDigsiteProgressBar_Flash : Texture
 --- @field AnimIn ArcheologyDigsiteProgressBar_Flash_AnimIn
 

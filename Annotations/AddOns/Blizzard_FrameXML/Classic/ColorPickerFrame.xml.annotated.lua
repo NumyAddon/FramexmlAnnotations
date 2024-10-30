@@ -17,14 +17,6 @@ ColorPickerOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class ColorPickerFrame_OpacitySliderFrame_OpacitySliderFrameText : FontString, GameFontNormalSmall
 OpacitySliderFrameText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L110)
---- child of OpacitySliderFrame
---- @class  : FontString, GameFontNormalHuge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L120)
---- child of OpacitySliderFrame
---- @class  : FontString, GameFontNormalHuge
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L89)
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_OpacitySliderFrame : Slider, BackdropTemplate
@@ -42,10 +34,6 @@ ColorSwatch = {}
 --- @class ColorPickerFrame_ColorPickerFrameHeader : Texture
 ColorPickerFrameHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L40)
---- child of ColorPickerFrame
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L172)
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_ColorPickerWheel : Texture
@@ -61,14 +49,6 @@ ColorPickerFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 --- child of OpacityFrameSlider
 --- @class OpacityFrame_OpacityFrameSlider_OpacityFrameSliderText : FontString, GameFontNormalSmall
 OpacityFrameSliderText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L249)
---- child of OpacityFrameSlider
---- @class  : FontString, GameFontNormalHuge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L259)
---- child of OpacityFrameSlider
---- @class  : FontString, GameFontNormalHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L224)
 --- child of OpacityFrame

@@ -8,10 +8,6 @@
 --- Template
 --- @class CreditsFrameSwitchButtonTemplate : Button, GlueButtonSmallTemplateBlue
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L291)
---- child of CreditsScrollFrame
---- @class  : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CreditsFrame.xml#L285)
 --- child of CreditsFrame
 --- @class CreditsFrame_CreditsScrollFrame : ScrollFrame

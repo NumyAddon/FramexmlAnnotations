@@ -215,10 +215,6 @@ GuildControlUIRankOrderFrame = {}
 GuildControlUIRankOrderFrame["newButton"] = GuildControlUIRankOrderFrameNewButton
 GuildControlUIRankOrderFrame["dupButton"] = GuildControlUIRankOrderFrameDupButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L402)
---- child of GuildControlUIRankBankFrameRankDropdown
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L396)
 --- child of GuildControlUIRankBankFrame
 --- @class GuildControlUI_GuildControlUIRankBankFrame_GuildControlUIRankBankFrameRankDropdown : DropdownButton, WowStyle1DropdownTemplate
@@ -247,10 +243,6 @@ GuildControlUIRankBankFrameInset["scrollFrame"] = GuildControlUIRankBankFrameIns
 GuildControlUIRankBankFrame = {}
 GuildControlUIRankBankFrame["dropdown"] = GuildControlUIRankBankFrameRankDropdown
 GuildControlUIRankBankFrame["inset"] = GuildControlUIRankBankFrameInset
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L493)
---- child of GuildControlUIRankSettingsFrameRankDropdown
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L487)
 --- child of GuildControlUIRankSettingsFrame

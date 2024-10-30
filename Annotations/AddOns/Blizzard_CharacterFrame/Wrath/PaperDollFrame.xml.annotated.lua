@@ -858,33 +858,33 @@ GearManagerDialogSaveSet = {}
 GearManagerDialogSaveSet["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L10)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of GearManagerDialogPopupScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+GearManagerDialogPopupScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L18)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of GearManagerDialogPopupScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+GearManagerDialogPopupScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L30)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of GearManagerDialogPopupScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-FauxScrollFrameTemplateScrollBarThumbTexture = {}
+GearManagerDialogPopupScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L46)
---- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of GearManagerDialogPopupScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-FauxScrollFrameTemplateScrollBar = {}
-FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
-FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
-FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+GearManagerDialogPopupScrollFrameScrollBar = {}
+GearManagerDialogPopupScrollFrameScrollBar["ScrollUpButton"] = GearManagerDialogPopupScrollFrameScrollBarScrollUpButton -- inherited
+GearManagerDialogPopupScrollFrameScrollBar["ScrollDownButton"] = GearManagerDialogPopupScrollFrameScrollBarScrollDownButton -- inherited
+GearManagerDialogPopupScrollFrameScrollBar["ThumbTexture"] = GearManagerDialogPopupScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1108)
 --- child of GearManagerDialogPopup
 --- @class GearManagerDialog_GearManagerDialogPopup_GearManagerDialogPopupScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 GearManagerDialogPopupScrollFrame = {}
-GearManagerDialogPopupScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+GearManagerDialogPopupScrollFrame["ScrollBar"] = GearManagerDialogPopupScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1128)
 --- child of GearManagerDialogPopupEditBox
@@ -905,14 +905,6 @@ GearManagerDialogPopupEditBoxRight = {}
 --- child of GearManagerDialogPopup
 --- @class GearManagerDialog_GearManagerDialogPopup_GearManagerDialogPopupEditBox : EditBox
 GearManagerDialogPopupEditBox = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1082)
---- child of GearManagerDialogPopup
---- @class  : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1089)
---- child of GearManagerDialogPopup
---- @class  : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PaperDollFrame.xml#L1071)
 --- child of GearManagerDialog

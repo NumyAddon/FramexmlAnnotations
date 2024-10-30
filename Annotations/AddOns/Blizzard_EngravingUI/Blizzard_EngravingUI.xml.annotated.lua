@@ -140,31 +140,6 @@ EngravingFrameSearchBox["searchIcon"] = EngravingFrameSearchBoxSearchIcon
 --- child of EngravingFrame
 --- @class EngravingFrame_FilterDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L15)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBG = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L20)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L27)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L34)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L43)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateThumbTexture = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L51)
 --- child of EngravingFrameScrollFrameScrollBar (created in template HybridScrollBarTemplate)
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
@@ -175,17 +150,42 @@ EngravingFrameScrollFrameScrollBarScrollUpButton = {}
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
 EngravingFrameScrollFrameScrollBarScrollDownButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L15)
+--- child of EngravingFrameScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+EngravingFrameScrollFrameScrollBarBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L20)
+--- child of EngravingFrameScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+EngravingFrameScrollFrameScrollBarTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L27)
+--- child of EngravingFrameScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+EngravingFrameScrollFrameScrollBarBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L34)
+--- child of EngravingFrameScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+EngravingFrameScrollFrameScrollBarMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L43)
+--- child of EngravingFrameScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+EngravingFrameScrollFrameScrollBarThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L247)
 --- child of EngravingFrameScrollFrame
 --- @class EngravingFrame_EngravingFrameScrollFrame_EngravingFrameScrollFrameScrollBar : Slider, HybridScrollBarTemplate
 EngravingFrameScrollFrameScrollBar = {}
-EngravingFrameScrollFrameScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
-EngravingFrameScrollFrameScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
-EngravingFrameScrollFrameScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
-EngravingFrameScrollFrameScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
-EngravingFrameScrollFrameScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 EngravingFrameScrollFrameScrollBar["ScrollUpButton"] = EngravingFrameScrollFrameScrollBarScrollUpButton -- inherited
 EngravingFrameScrollFrameScrollBar["ScrollDownButton"] = EngravingFrameScrollFrameScrollBarScrollDownButton -- inherited
+EngravingFrameScrollFrameScrollBar["trackBG"] = EngravingFrameScrollFrameScrollBarBG -- inherited
+EngravingFrameScrollFrameScrollBar["ScrollBarTop"] = EngravingFrameScrollFrameScrollBarTop -- inherited
+EngravingFrameScrollFrameScrollBar["ScrollBarBottom"] = EngravingFrameScrollFrameScrollBarBottom -- inherited
+EngravingFrameScrollFrameScrollBar["ScrollBarMiddle"] = EngravingFrameScrollFrameScrollBarMiddle -- inherited
+EngravingFrameScrollFrameScrollBar["thumbTexture"] = EngravingFrameScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L256)
 --- child of EngravingFrameScrollFrame
@@ -195,6 +195,7 @@ EngravingFrameScrollFrameEmptyLabel = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L240)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameScrollFrame : ScrollFrame, HybridScrollFrameTemplate
+--- @field scrollBar EngravingFrame_EngravingFrameScrollFrame_EngravingFrameScrollFrameScrollBar
 --- @field emptyText EngravingFrame_EngravingFrameScrollFrame_EngravingFrameScrollFrameEmptyLabel
 EngravingFrameScrollFrame = {}
 EngravingFrameScrollFrame["emptyText"] = EngravingFrameScrollFrameEmptyLabel

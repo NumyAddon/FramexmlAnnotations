@@ -248,10 +248,6 @@ ItemSocketingSocket3Color = {}
 ItemSocketingSocket3 = {}
 ItemSocketingSocket3["icon"] = ItemSocketingSocket3IconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L361)
---- child of ItemSocketingSocketButton
---- @class  : Texture, UIPanelButtonHighlightTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L301)
 --- child of ItemSocketingFrame
 --- @class ItemSocketingFrame_ItemSocketingSocketButton : Button
@@ -269,10 +265,6 @@ ItemSocketingCloseButton = {}
 --- child of ItemSocketingFrame
 --- @class ItemSocketingFrame_ItemSocketingFramePortrait : Texture
 ItemSocketingFramePortrait = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L185)
---- child of ItemSocketingFrame
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L143)
 --- @class ItemSocketingFrame : Frame

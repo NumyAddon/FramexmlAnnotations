@@ -11,11 +11,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L92)
 --- child of BarberShopSelectorTemplate
 --- Template
+--- Adds itself to the parent with key `Prev`
 --- @class BarberShopSelectorTemplate_Prev : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L115)
 --- child of BarberShopSelectorTemplate
 --- Template
+--- Adds itself to the parent with key `Next`
 --- @class BarberShopSelectorTemplate_Next : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L86)
@@ -69,30 +71,30 @@ BarberShopAlternateFormBottomHighlight = {}
 --- @class BarberShopFrame_BarberShopAlternateFormBottom : CheckButton
 BarberShopAlternateFormBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L7)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
-CharacterCreateGenderButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L18)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L27)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L34)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateDisableTexture = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L80)
 --- child of BarberShopFrameMaleButton (created in template CharacterCreateGenderButtonTemplate)
 --- @type Texture
 BarberShopFrameMaleButtonNormalTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L7)
+--- child of BarberShopFrameMaleButton (created in template CharacterCreateIconButtonTemplate)
+--- @type FontString
+BarberShopFrameMaleButtonHighlightText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L18)
+--- child of BarberShopFrameMaleButton (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+BarberShopFrameMaleButtonShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L27)
+--- child of BarberShopFrameMaleButton (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+BarberShopFrameMaleButtonBevelEdge = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L34)
+--- child of BarberShopFrameMaleButton (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+BarberShopFrameMaleButtonDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L255)
 --- child of BarberShopFrame
@@ -101,30 +103,30 @@ BarberShopFrameMaleButtonNormalTexture = {}
 BarberShopFrameMaleButton = {}
 BarberShopFrameMaleButton["layoutIndex"] = 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L7)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
-CharacterCreateGenderButtonTemplateHighlightText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L18)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateShadow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L27)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateBevelEdge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L34)
---- child of CharacterCreateGenderButtonTemplate (created in template CharacterCreateIconButtonTemplate)
---- @type Texture
-CharacterCreateGenderButtonTemplateDisableTexture = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L80)
 --- child of BarberShopFrameFemaleButton (created in template CharacterCreateGenderButtonTemplate)
 --- @type Texture
 BarberShopFrameFemaleButtonNormalTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L7)
+--- child of BarberShopFrameFemaleButton (created in template CharacterCreateIconButtonTemplate)
+--- @type FontString
+BarberShopFrameFemaleButtonHighlightText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L18)
+--- child of BarberShopFrameFemaleButton (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+BarberShopFrameFemaleButtonShadow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L27)
+--- child of BarberShopFrameFemaleButton (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+BarberShopFrameFemaleButtonBevelEdge = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L34)
+--- child of BarberShopFrameFemaleButton (created in template CharacterCreateIconButtonTemplate)
+--- @type Texture
+BarberShopFrameFemaleButtonDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L271)
 --- child of BarberShopFrame
@@ -233,14 +235,23 @@ BarberShopFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class BarberShopFrame : Frame, VerticalLayoutFrame
 --- @field fixedWidth number # 271
 --- @field FaceSelector BarberShopFrame_FaceSelector
+--- @field Selector table<number, BarberShopFrame_FaceSelector>
 --- @field HairStyleSelector BarberShopFrame_HairStyleSelector
+--- @field Selector table<number, BarberShopFrame_HairStyleSelector>
 --- @field HairColorSelector BarberShopFrame_HairColorSelector
+--- @field Selector table<number, BarberShopFrame_HairColorSelector>
 --- @field FacialHairSelector BarberShopFrame_FacialHairSelector
+--- @field Selector table<number, BarberShopFrame_FacialHairSelector>
 --- @field SkinColorSelector BarberShopFrame_SkinColorSelector
+--- @field Selector table<number, BarberShopFrame_SkinColorSelector>
 --- @field CustomSelector1 BarberShopFrame_CustomSelector1
+--- @field Selector table<number, BarberShopFrame_CustomSelector1>
 --- @field CustomSelector2 BarberShopFrame_CustomSelector2
+--- @field Selector table<number, BarberShopFrame_CustomSelector2>
 --- @field CustomSelector3 BarberShopFrame_CustomSelector3
+--- @field Selector table<number, BarberShopFrame_CustomSelector3>
 --- @field CustomSelector4 BarberShopFrame_CustomSelector4
+--- @field Selector table<number, BarberShopFrame_CustomSelector4>
 BarberShopFrame = {}
 BarberShopFrame["fixedWidth"] = 271
 

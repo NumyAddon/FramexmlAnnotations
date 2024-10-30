@@ -3,7 +3,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenu.xml#L173)
 --- child of DropDownList1 (created in template UIDropDownListTemplate)
 --- @type UIDropDownListTemplate_UIDropDownListTemplateBackdrop
---- @field backdropInfo any # BACKDROP_DARK_DIALOG_32_32
 DropDownList1Backdrop = {}
 DropDownList1Backdrop["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32
 
@@ -364,7 +363,6 @@ DropDownList1 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenu.xml#L173)
 --- child of DropDownList2 (created in template UIDropDownListTemplate)
 --- @type UIDropDownListTemplate_UIDropDownListTemplateBackdrop
---- @field backdropInfo any # BACKDROP_DARK_DIALOG_32_32
 DropDownList2Backdrop = {}
 DropDownList2Backdrop["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32
 
@@ -725,7 +723,6 @@ DropDownList2 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenu.xml#L173)
 --- child of DropDownList3 (created in template UIDropDownListTemplate)
 --- @type UIDropDownListTemplate_UIDropDownListTemplateBackdrop
---- @field backdropInfo any # BACKDROP_DARK_DIALOG_32_32
 DropDownList3Backdrop = {}
 DropDownList3Backdrop["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32
 

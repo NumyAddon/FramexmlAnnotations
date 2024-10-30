@@ -6,6 +6,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L7)
 --- Template
+--- Adds itself to the parent with key `scrollBar`
 --- @class HybridScrollBarBackgroundTemplate : Slider
 --- @field trackBG Texture
 --- @field ScrollBarTop Texture
@@ -41,6 +42,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L75)
 --- Template
+--- Adds itself to the parent with key `scrollBar`
 --- @class HybridScrollBarTrimTemplate : Slider
 --- @field UpButton HybridScrollBarTrimTemplate_HybridScrollBarTrimTemplateScrollUpButton
 --- @field DownButton HybridScrollBarTrimTemplate_HybridScrollBarTrimTemplateScrollDownButton
@@ -64,6 +66,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L136)
 --- Template
+--- Adds itself to the parent with key `scrollBar`
 --- @class MinimalHybridScrollBarTemplate : Slider
 --- @field trackBG Texture
 --- @field thumbTexture MinimalHybridScrollBarTemplate_MinimalHybridScrollBarTemplateThumbTexture
@@ -80,6 +83,7 @@
 --- Template
 --- @class BasicHybridScrollFrameTemplate : ScrollFrame, HybridScrollFrameTemplate
 --- @field ScrollBar BasicHybridScrollFrameTemplate_BasicHybridScrollFrameTemplateScrollBar
+--- @field scrollBar BasicHybridScrollFrameTemplate_BasicHybridScrollFrameTemplateScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L210)
 --- child of MinimalHybridScrollFrameTemplate
@@ -88,4 +92,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/HybridScrollFrame.xml#L208)
 --- Template
 --- @class MinimalHybridScrollFrameTemplate : ScrollFrame, HybridScrollFrameTemplate
+--- @field scrollBar MinimalHybridScrollFrameTemplate_MinimalHybridScrollFrameTemplateScrollBar
 

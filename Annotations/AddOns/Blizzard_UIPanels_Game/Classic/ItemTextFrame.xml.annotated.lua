@@ -49,18 +49,10 @@ ItemTextScrollFrame["ScrollBar"] = ItemTextScrollFrameScrollBar -- inherited
 --- @class ItemTextFrame_ItemTextStatusBar : StatusBar
 ItemTextStatusBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L206)
---- child of ItemTextPrevPageButton
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L199)
 --- child of ItemTextFrame
 --- @class ItemTextFrame_ItemTextPrevPageButton : Button
 ItemTextPrevPageButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L231)
---- child of ItemTextNextPageButton
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L224)
 --- child of ItemTextFrame

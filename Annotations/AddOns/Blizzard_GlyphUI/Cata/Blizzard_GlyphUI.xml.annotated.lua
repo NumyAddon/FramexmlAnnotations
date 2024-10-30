@@ -183,31 +183,6 @@ GlyphFrameSearchBox["searchIcon"] = GlyphFrameSearchBoxSearchIcon
 --- child of GlyphFrame
 --- @class GlyphFrame_FilterDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L15)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBG = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L20)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L27)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L34)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateThumbTexture = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L51)
 --- child of GlyphFrameScrollFrameScrollBar (created in template HybridScrollBarTemplate)
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
@@ -218,21 +193,47 @@ GlyphFrameScrollFrameScrollBarScrollUpButton = {}
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
 GlyphFrameScrollFrameScrollBarScrollDownButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L15)
+--- child of GlyphFrameScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+GlyphFrameScrollFrameScrollBarBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L20)
+--- child of GlyphFrameScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+GlyphFrameScrollFrameScrollBarTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L27)
+--- child of GlyphFrameScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+GlyphFrameScrollFrameScrollBarBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L34)
+--- child of GlyphFrameScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+GlyphFrameScrollFrameScrollBarMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L43)
+--- child of GlyphFrameScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+GlyphFrameScrollFrameScrollBarThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L471)
 --- child of GlyphFrameScrollFrame
 --- @class GlyphFrame_GlyphFrameScrollFrame_GlyphFrameScrollFrameScrollBar : Slider, HybridScrollBarTemplate
 GlyphFrameScrollFrameScrollBar = {}
-GlyphFrameScrollFrameScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
-GlyphFrameScrollFrameScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
-GlyphFrameScrollFrameScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
-GlyphFrameScrollFrameScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
-GlyphFrameScrollFrameScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 GlyphFrameScrollFrameScrollBar["ScrollUpButton"] = GlyphFrameScrollFrameScrollBarScrollUpButton -- inherited
 GlyphFrameScrollFrameScrollBar["ScrollDownButton"] = GlyphFrameScrollFrameScrollBarScrollDownButton -- inherited
+GlyphFrameScrollFrameScrollBar["trackBG"] = GlyphFrameScrollFrameScrollBarBG -- inherited
+GlyphFrameScrollFrameScrollBar["ScrollBarTop"] = GlyphFrameScrollFrameScrollBarTop -- inherited
+GlyphFrameScrollFrameScrollBar["ScrollBarBottom"] = GlyphFrameScrollFrameScrollBarBottom -- inherited
+GlyphFrameScrollFrameScrollBar["ScrollBarMiddle"] = GlyphFrameScrollFrameScrollBarMiddle -- inherited
+GlyphFrameScrollFrameScrollBar["thumbTexture"] = GlyphFrameScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L464)
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameScrollFrame : ScrollFrame, HybridScrollFrameTemplate
+--- @field scrollBar GlyphFrame_GlyphFrameScrollFrame_GlyphFrameScrollFrameScrollBar
 GlyphFrameScrollFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L195)

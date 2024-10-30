@@ -139,27 +139,27 @@ KeyBindingFrameCategoryList["labelText"] = CATEGORY
 --- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L10)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of KeyBindingFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+KeyBindingFrameScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L18)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of KeyBindingFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+KeyBindingFrameScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L30)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of KeyBindingFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-FauxScrollFrameTemplateScrollBarThumbTexture = {}
+KeyBindingFrameScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L46)
---- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of KeyBindingFrameScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-FauxScrollFrameTemplateScrollBar = {}
-FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
-FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
-FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+KeyBindingFrameScrollFrameScrollBar = {}
+KeyBindingFrameScrollFrameScrollBar["ScrollUpButton"] = KeyBindingFrameScrollFrameScrollBarScrollUpButton -- inherited
+KeyBindingFrameScrollFrameScrollBar["ScrollDownButton"] = KeyBindingFrameScrollFrameScrollBarScrollDownButton -- inherited
+KeyBindingFrameScrollFrameScrollBar["ThumbTexture"] = KeyBindingFrameScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L220)
 --- child of KeyBindingFrame
@@ -169,7 +169,7 @@ FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScroll
 --- @field scrollBorderMiddle Texture
 --- @field scrollFrameScrollBarBackground Texture
 KeyBindingFrameScrollFrame = {}
-KeyBindingFrameScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+KeyBindingFrameScrollFrame["ScrollBar"] = KeyBindingFrameScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L96)
 --- child of KeyBindingFrame

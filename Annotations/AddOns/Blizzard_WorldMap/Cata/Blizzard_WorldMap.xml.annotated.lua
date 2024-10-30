@@ -51,29 +51,17 @@ WorldMapTitle = {}
 --- child of WorldMapFrame
 --- @class WorldMapFrame_BorderFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L279)
---- child of WorldMapContinentDropdown
---- @class  : FontString, GameFontNormalSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L269)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapContinentDropdown : DropdownButton, WowStyle1DropdownTemplate
 WorldMapContinentDropdown = {}
 WorldMapContinentDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L305)
---- child of WorldMapZoneDropdown
---- @class  : FontString, GameFontNormalSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L295)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapZoneDropdown : DropdownButton, WowStyle1DropdownTemplate
 WorldMapZoneDropdown = {}
 WorldMapZoneDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L331)
---- child of WorldMapZoneMinimapDropdown
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L321)
 --- child of WorldMapFrame
@@ -108,24 +96,24 @@ WorldMapMagnifyingGlassButton = {}
 WorldMapFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L468)
---- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
+--- child of WorldMapTrackQuest (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
-OptionsBaseCheckButtonTemplateText = {}
+WorldMapTrackQuestText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L454)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapTrackQuest : CheckButton, OptionsBaseCheckButtonTemplate
 WorldMapTrackQuest = {}
-WorldMapTrackQuest["Text"] = OptionsBaseCheckButtonTemplateText -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L468)
---- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
-OptionsBaseCheckButtonTemplateText = {}
+WorldMapTrackQuest["Text"] = WorldMapTrackQuestText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L21)
 --- child of WorldMapQuestShowObjectives (created in template OptionsSmallCheckButtonTemplate)
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+WorldMapQuestShowObjectivesText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L468)
+--- child of WorldMapQuestShowObjectives (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
 WorldMapQuestShowObjectivesText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L474)
@@ -134,14 +122,14 @@ WorldMapQuestShowObjectivesText = {}
 WorldMapQuestShowObjectives = {}
 WorldMapQuestShowObjectives["Text"] = WorldMapQuestShowObjectivesText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L468)
---- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
-OptionsBaseCheckButtonTemplateText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L21)
 --- child of WorldMapShowDigsites (created in template OptionsSmallCheckButtonTemplate)
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+WorldMapShowDigsitesText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L468)
+--- child of WorldMapShowDigsites (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
 WorldMapShowDigsitesText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L494)
@@ -163,6 +151,7 @@ WorldMapShowDigsites["Text"] = WorldMapShowDigsitesText -- inherited
 --- @field ZoneDropdown WorldMapFrame_WorldMapZoneDropdown
 --- @field MinimapDropdown WorldMapFrame_WorldMapZoneMinimapDropdown
 --- @field MaximizeMinimizeFrame WorldMapFrame_MaximizeMinimizeFrame
+--- @field MaxMinButtonFrame WorldMapFrame_MaximizeMinimizeFrame
 WorldMapFrame = {}
 WorldMapFrame["ContinentDropdown"] = WorldMapContinentDropdown
 WorldMapFrame["ZoneDropdown"] = WorldMapZoneDropdown

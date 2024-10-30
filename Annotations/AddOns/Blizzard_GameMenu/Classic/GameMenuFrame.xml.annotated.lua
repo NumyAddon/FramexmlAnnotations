@@ -59,10 +59,6 @@ GameMenuButtonContinue["fitTextCanWidthDecrease"] = true -- inherited
 --- @class GameMenuFrame_GameMenuFrameHeader : Texture
 GameMenuFrameHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GameMenu/Classic/GameMenuFrame.xml#L19)
---- child of GameMenuFrame
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GameMenu/Classic/GameMenuFrame.xml#L3)
 --- @class GameMenuFrame : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DIALOG_32_32

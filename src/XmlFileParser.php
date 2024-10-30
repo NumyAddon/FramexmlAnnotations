@@ -292,10 +292,14 @@ class XmlFileParser
         $allParentKeys = [];
         $allParentArrays = [];
         foreach ($frame->getChildren() as $child) {
-            $typehint = $this->childHasInterestingData($child) ? $child->getClassName() : $child->getType();
+            $typehint = $this->childHasInterestingData($child) ? $child->getClassName() : null;
+            if (empty($typehint) && 1 === count($child->getInherits())) {
+                $typehint = $child->getInherits()[0];
+            }
+            $typehint = $typehint ?: $child->getType();
             $parentKeys = [];
             if ($child->getParentKey()) {
-                $parentKeys[$child->getParentKey()] = $typehint;
+                $parentKeys[$child->getParentKey()] = $typehint ?: 'table';
             }
             foreach ($this->iterateInherits($child) as $inherit) {
                 if ($inherit->getParentKey()) {
@@ -307,7 +311,7 @@ class XmlFileParser
 
             $parentArrays = [];
             if ($child->getParentArray()) {
-                $parentArrays[$child->getParentArray()] = $typehint;
+                $parentArrays[$child->getParentArray()] = $typehint ?: 'table';
             }
             foreach ($this->iterateInherits($child) as $inherit) {
                 if ($inherit->getParentArray()) {

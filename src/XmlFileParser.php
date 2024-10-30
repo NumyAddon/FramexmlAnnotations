@@ -182,6 +182,10 @@ class XmlFileParser
     private function writeFrame(Frame $frame, ?string $linkPrefix, ?string $typeOverride = null): string
     {
         $shouldWriteGlobal = $frame->getRootNode()->getName() && $frame->getRootNode()::class === Frame::class;
+        $shouldWriteExplicitGlobal = $shouldWriteGlobal && $frame->getName();
+        $shouldWriteType = $typeOverride && $shouldWriteExplicitGlobal;
+        $shouldWriteClass = !$typeOverride && $frame->getClassName();
+
         $data = '';
         $globalChildrenWithParentKey = [];
         $inheritedKeyValues = [];
@@ -202,6 +206,10 @@ class XmlFileParser
             );
         }
 
+        if (!$shouldWriteType && !$shouldWriteClass && !$shouldWriteExplicitGlobal) {
+            return $data;
+        }
+
         if ($linkPrefix) {
             $data .= "--- [Source]($linkPrefix#L" . $frame->getLineNumber() . ")\n";
         }
@@ -217,43 +225,23 @@ class XmlFileParser
         } elseif ($frame instanceof Template) {
             $data .= "--- Template\n";
         }
-        if ($typeOverride) {
-            $data .= '--- @type ' . $typeOverride;
-        } else {
-            $data .= '--- @class ' . $frame->getClassName() . ' : ' . $frame->getType();
-            foreach ($frame->getInherits() as $inherit) {
-                $data .= ', ' . $inherit;
+        if ($frame instanceof Template) { // includes Intrinsics
+            if ($frame->getParentArray()) {
+                $data .= "--- Adds itself to the parent inside the array `{$frame->getParentArray()}`\n";
             }
-            foreach ($frame->getMixins() as $mixin) {
-                $data .= ', ' . $mixin;
+            if ($frame->getParentKey()) {
+                $data .= "--- Adds itself to the parent with key `{$frame->getParentKey()}`\n";
             }
         }
-        $data .= "\n";
+        if ($shouldWriteType) {
+            $data .= '--- @type ' . $typeOverride . "\n";
+        }
+        if ($shouldWriteClass) {
+            $data .= $this->writeClassAndFieldHints($frame);
+        }
 
-        foreach ($frame->getKeyValues() as $key => $value) {
-            $data .= '--- @field ' . $key . ' ' . $value[1] . ' # ' . $value[0] . "\n";
-        }
-        foreach ($frame->getChildren() as $child) {
-            if ($child->getParentKey()) {
-                if ($this->childHasInterestingData($child)) {
-                    $data .= '--- @field ' . $child->getParentKey() . ' ' . $child->getClassName() . "\n";
-                } else {
-                    $data .= '--- @field ' . $child->getParentKey() . ' ' . $child->getType() . "\n";
-                }
-            }
-        }
-        if ($shouldWriteGlobal && $frame->getName()) {
-            $name = $this->wrapInGIfNeeded($frame->getName());
-            $data .= $name . " = {}\n";
-            foreach ($globalChildrenWithParentKey as $key => $value) {
-                $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value) . "\n";
-            }
-            foreach ($frame->getKeyValues() as $key => $value) {
-                $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value[0]) . "\n";
-            }
-            foreach ($inheritedKeyValues as $key => $value) {
-                $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value[0]) . " -- inherited\n";
-            }
+        if ($shouldWriteExplicitGlobal) {
+            $data .= $this->writeExplicitGlobal($frame, $globalChildrenWithParentKey, $inheritedKeyValues);
         }
 
         return $data . "\n";
@@ -261,13 +249,8 @@ class XmlFileParser
 
     private function handleInherits(Frame $frame, array &$inheritedKeyValues, ?string $linkPrefix, string &$data): void
     {
-        foreach ($frame->getInherits() as $templateName) {
-            $template = $this->templateRegistry->get($templateName);
-            if (!$template) {
-                continue;
-            }
+        foreach ($this->iterateInherits($frame) as $template) {
             $template = $template->withParent($frame);
-            $this->handleInherits($template, $inheritedKeyValues, $linkPrefix, $data);
             foreach ($template->getKeyValues() as $key => $value) {
                 $inheritedKeyValues[$key] = $value;
             }
@@ -283,10 +266,97 @@ class XmlFileParser
                             : $child->getType(),
                     );
                     if ($clone->getParentKey()) {
-                        $inheritedKeyValues[$clone->getParentKey()] = [$this->wrapInGIfNeeded($clone->getName())];
+                        $inheritedKeyValues[$clone->getParentKey()] = [$clone->getName()];
                     }
                 }
             }
         }
+    }
+
+    private function writeClassAndFieldHints(Frame $frame): string
+    {
+        if (!$frame->getClassName()) {
+            return '';
+        }
+        $data = '--- @class ' . $frame->getClassName() . ' : ' . $frame->getType();
+        foreach ($frame->getInherits() as $inherit) {
+            $data .= ', ' . $inherit;
+        }
+        foreach ($frame->getMixins() as $mixin) {
+            $data .= ', ' . $mixin;
+        }
+        $data .= "\n";
+        foreach ($frame->getKeyValues() as $key => $value) {
+            $data .= '--- @field ' . $key . ' ' . $value[1] . ' # ' . $value[0] . "\n";
+        }
+        foreach ($frame->getChildren() as $child) {
+            $typehint = $this->childHasInterestingData($child) ? $child->getClassName() : $child->getType();
+            $parentKeys = [];
+            if ($child->getParentKey()) {
+                $parentKeys[$child->getParentKey()] = $typehint;
+            }
+            foreach ($this->iterateInherits($child) as $inherit) {
+                if ($inherit->getParentKey()) {
+                    $inheritTypehint = $typehint ?: $inherit->getClassName();
+                    $parentKeys[$inherit->getParentKey()] = $inheritTypehint;
+                }
+            }
+            foreach ($parentKeys as $parentKey => $typehint) {
+                $data .= '--- @field ' . $parentKey . ' ' . $typehint . "\n";
+            }
+
+            $parentArrays = [];
+            if ($child->getParentArray()) {
+                $parentArrays[$child->getParentArray()] = $typehint;
+            }
+            foreach ($this->iterateInherits($child) as $inherit) {
+                if ($inherit->getParentArray()) {
+                    $inheritTypehint = $typehint ?: $inherit->getClassName();
+                    $parentArrays[$inherit->getParentArray()] ??= $inheritTypehint;
+                }
+            }
+            foreach ($parentArrays as $parentArray => $typehint) {
+                $data .= '--- @field ' . $parentArray . ' table<number, ' . $typehint . ">\n";
+            }
+        }
+
+        return $data;
+    }
+
+    /**
+     * @param Frame $frame
+     *
+     * @return iterable<Template>
+     */
+    private function iterateInherits(Frame $frame): iterable
+    {
+        foreach ($frame->getInherits() as $templateName) {
+            $template = $this->templateRegistry->get($templateName);
+            if (!$template) {
+                continue;
+            }
+            yield $template;
+            yield from $this->iterateInherits($template);
+        }
+    }
+
+    private function writeExplicitGlobal(
+        Frame $frame,
+        array $globalChildrenWithParentKey,
+        array $inheritedKeyValues,
+    ): string {
+        $name = $this->wrapInGIfNeeded($frame->getName());
+        $data = $name . " = {}\n";
+        foreach ($globalChildrenWithParentKey as $key => $value) {
+            $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value) . "\n";
+        }
+        foreach ($frame->getKeyValues() as $key => $value) {
+            $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value[0]) . "\n";
+        }
+        foreach ($inheritedKeyValues as $key => $value) {
+            $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value[0]) . " -- inherited\n";
+        }
+
+        return $data;
     }
 }

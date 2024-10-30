@@ -93,6 +93,13 @@ class Frame
         return $parentKey === '' ? null : $parentKey;
     }
 
+    public function getParentArray(): ?string
+    {
+        $parentArray = (string) $this->xmlElement->attributes()['parentArray'] ?? '';
+
+        return $parentArray === '' ? null : $parentArray;
+    }
+
     public function getType(): string
     {
         return $this->type;

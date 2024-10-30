@@ -34,11 +34,11 @@
 --- @field iconAtlas string # "talents-button-undo"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L104)
---- child of 
+--- child of ProfessionsSpecPageTemplate_TreeView
 --- @class ProfessionsSpecPageTemplate_TreeView_TreeName : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L110)
---- child of 
+--- child of ProfessionsSpecPageTemplate_TreeView
 --- @class ProfessionsSpecPageTemplate_TreeView_TreeDescription : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L94)
@@ -49,19 +49,19 @@
 --- @field TreeDescription ProfessionsSpecPageTemplate_TreeView_TreeDescription
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L225)
---- child of 
+--- child of ProfessionsSpecPageTemplate_DetailedView_Path
 --- @class ProfessionsSpecPageTemplate_DetailedView_Path_LockInAnimation : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L256)
---- child of 
+--- child of ProfessionsSpecPageTemplate_DetailedView_Path
 --- @class ProfessionsSpecPageTemplate_DetailedView_Path_CompleteDialAnimation : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L268)
---- child of 
+--- child of ProfessionsSpecPageTemplate_DetailedView_Path
 --- @class ProfessionsSpecPageTemplate_DetailedView_Path_AddKnowledgeAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L126)
---- child of 
+--- child of ProfessionsSpecPageTemplate_DetailedView
 --- @class ProfessionsSpecPageTemplate_DetailedView_Path : Button, ProfessionsSpecPathTemplate, ProfessionsDetailedSpecPathMixin
 --- @field iconSize number # 63
 --- @field DialBG Texture
@@ -84,30 +84,30 @@
 --- @field AddKnowledgeAnim ProfessionsSpecPageTemplate_DetailedView_Path_AddKnowledgeAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L274)
---- child of 
+--- child of ProfessionsSpecPageTemplate_DetailedView
 --- @class ProfessionsSpecPageTemplate_DetailedView_SpendPointsButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L280)
---- child of 
+--- child of ProfessionsSpecPageTemplate_DetailedView
 --- @class ProfessionsSpecPageTemplate_DetailedView_UnlockPathButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L309)
---- child of 
+--- child of ProfessionsSpecPageTemplate_DetailedView_UnspentPoints
 --- @class ProfessionsSpecPageTemplate_DetailedView_UnspentPoints_Count : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L286)
---- child of 
+--- child of ProfessionsSpecPageTemplate_DetailedView
 --- @class ProfessionsSpecPageTemplate_DetailedView_UnspentPoints : Frame
 --- @field CurrencyBackground Texture
 --- @field Icon Texture
 --- @field Count ProfessionsSpecPageTemplate_DetailedView_UnspentPoints_Count
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L327)
---- child of 
+--- child of ProfessionsSpecPageTemplate_DetailedView
 --- @class ProfessionsSpecPageTemplate_DetailedView_PathName : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L333)
---- child of 
+--- child of ProfessionsSpecPageTemplate_DetailedView
 --- @class ProfessionsSpecPageTemplate_DetailedView_PointsText : FontString, GameFontHighlightHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L120)
@@ -130,37 +130,37 @@
 --- @class ProfessionsSpecPageTemplate_TopDivider : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L415)
---- child of 
+--- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_PathIcon : Frame
 --- @field Ring Texture
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L438)
---- child of 
+--- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_Highlight1 : Frame, ProfessionSpecHighlightTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L443)
---- child of 
+--- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_Highlight2 : Frame, ProfessionSpecHighlightTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L448)
---- child of 
+--- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_Highlight3 : Frame, ProfessionSpecHighlightTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L453)
---- child of 
+--- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_Highlight4 : Frame, ProfessionSpecHighlightTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L388)
---- child of 
+--- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_Title : FontString, GameFontHighlightHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L394)
---- child of 
+--- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_Description : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L406)
---- child of 
+--- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_HighlightsHeader : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L378)

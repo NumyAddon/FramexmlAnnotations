@@ -8,7 +8,7 @@
 --- @field TopEmbellishment Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.xml#L48)
---- child of 
+--- child of WarWithinLandingOverlayTemplate_Header
 --- @class WarWithinLandingOverlayTemplate_Header_Title : FontString, Fancy48Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_WarWithinLandingPage.xml#L41)

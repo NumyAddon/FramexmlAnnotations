@@ -30,7 +30,7 @@
 --- @class GarrisonTalentButtonAnimationTemplate_SwirlContainer : Frame, PowerSwirlAnimationTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L139)
---- child of 
+--- child of GarrisonTalentButtonAnimationTemplate_HighlightFlash
 --- @class GarrisonTalentButtonAnimationTemplate_HighlightFlash_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L117)
@@ -84,7 +84,7 @@
 --- @field CornerLogo Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L265)
---- child of 
+--- child of OrderHallTalentFrame_Currency
 --- @class OrderHallTalentFrame_Currency_Text : FontString, SystemFont_Shadow_Med2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L258)
@@ -102,7 +102,7 @@
 --- @class OrderHallTalentFrame_BackButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L319)
---- child of 
+--- child of OrderHallTalentFrame_CypherEquipmentLevel
 --- @class OrderHallTalentFrame_CypherEquipmentLevel_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L312)

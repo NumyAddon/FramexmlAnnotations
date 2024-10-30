@@ -44,7 +44,7 @@
 --- @class TalentButtonArtTemplate_SpendTextShadow4 : FontString, SystemFont16_Shadow_ThickOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L159)
---- child of 
+--- child of TalentButtonArtTemplate_Glow
 --- @class TalentButtonArtTemplate_Glow_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L153)

@@ -53,7 +53,7 @@
 --- @class ProfessionsCraftingPageTemplate_RecipeList : Frame, ProfessionsRecipeListTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L163)
---- child of 
+--- child of ProfessionsCraftingPageTemplate_SchematicForm
 --- @class ProfessionsCraftingPageTemplate_SchematicForm_NineSlice : Frame, NineSlicePanelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L144)
@@ -70,11 +70,11 @@
 --- @field buttonTemplate string # "CraftingSearchSMTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L184)
---- child of 
+--- child of ProfessionsCraftingPageTemplate_MinimizedSearchResults
 --- @class ProfessionsCraftingPageTemplate_MinimizedSearchResults_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L190)
---- child of 
+--- child of ProfessionsCraftingPageTemplate_MinimizedSearchResults
 --- @class ProfessionsCraftingPageTemplate_MinimizedSearchResults_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L178)

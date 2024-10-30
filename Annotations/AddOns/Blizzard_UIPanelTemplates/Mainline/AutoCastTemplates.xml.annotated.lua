@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/AutoCastTemplates.xml#L16)
---- child of 
+--- child of AutoCastOverlayTemplate_Shine
 --- @class AutoCastOverlayTemplate_Shine_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/AutoCastTemplates.xml#L10)

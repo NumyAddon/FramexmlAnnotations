@@ -201,15 +201,15 @@
 --- @class BankPanelLockPromptTemplate : Frame, BankPanelPromptTemplate, BankPanelLockPromptMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L506)
---- child of 
+--- child of BankPanelPurchasePromptTemplate_TabCostFrame
 --- @class BankPanelPurchasePromptTemplate_TabCostFrame_MoneyDisplay : Frame, SmallMoneyFrameTemplate, BankPanelTabCostMoneyDisplayMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L515)
---- child of 
+--- child of BankPanelPurchasePromptTemplate_TabCostFrame
 --- @class BankPanelPurchasePromptTemplate_TabCostFrame_PurchaseButton : Button, UIPanelButtonTemplate, BankPanelPurchaseTabButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L527)
---- child of 
+--- child of BankPanelPurchasePromptTemplate_TabCostFrame
 --- @class BankPanelPurchasePromptTemplate_TabCostFrame_TabCost : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L499)
@@ -333,7 +333,7 @@ BankFrameItem1 = {}
 BankFrameItem1["Cooldown"] = BankFrameItem1Cooldown -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L625)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag1 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
@@ -342,7 +342,7 @@ BankSlotsFrameCooldown = {}
 --- @class BankFrame_BankSlotsFrame_Bag1 : ItemButton, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L625)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag2 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
@@ -351,7 +351,7 @@ BankSlotsFrameCooldown = {}
 --- @class BankFrame_BankSlotsFrame_Bag2 : ItemButton, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L625)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag3 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
@@ -360,7 +360,7 @@ BankSlotsFrameCooldown = {}
 --- @class BankFrame_BankSlotsFrame_Bag3 : ItemButton, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L625)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag4 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
@@ -369,7 +369,7 @@ BankSlotsFrameCooldown = {}
 --- @class BankFrame_BankSlotsFrame_Bag4 : ItemButton, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L625)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag5 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
@@ -378,7 +378,7 @@ BankSlotsFrameCooldown = {}
 --- @class BankFrame_BankSlotsFrame_Bag5 : ItemButton, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L625)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag6 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 
@@ -387,7 +387,7 @@ BankSlotsFrameCooldown = {}
 --- @class BankFrame_BankSlotsFrame_Bag6 : ItemButton, BankItemButtonBagTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L625)
---- child of  (created in template BankItemButtonBagTemplate)
+--- child of BankFrame_BankSlotsFrame_Bag7 (created in template BankItemButtonBagTemplate)
 --- @type BankItemButtonBagTemplate_BankItemButtonBagTemplateCooldown
 BankSlotsFrameCooldown = {}
 

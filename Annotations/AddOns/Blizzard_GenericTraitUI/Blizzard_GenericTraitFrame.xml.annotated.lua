@@ -11,7 +11,7 @@
 --- @field DetailTop Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L72)
---- child of 
+--- child of GenericTraitFrame_Header
 --- @class GenericTraitFrame_Header_Title : FontString, Fancy24Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L65)
@@ -25,7 +25,7 @@
 --- @class GenericTraitFrame_Inset : Frame, InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L113)
---- child of 
+--- child of GenericTraitFrame_Currency
 --- @class GenericTraitFrame_Currency_UnspentPointsCount : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L95)

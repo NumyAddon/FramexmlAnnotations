@@ -44,11 +44,11 @@
 --- @field BarText ReputationBarTemplate_BarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L135)
---- child of 
+--- child of ReputationEntryTemplate_Content
 --- @class ReputationEntryTemplate_Content_ReputationBar : StatusBar, ReputationBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L140)
---- child of 
+--- child of ReputationEntryTemplate_Content
 --- @class ReputationEntryTemplate_Content_ParagonIcon : Button, ReputationBarParagonIconMixin
 --- @field Glow Texture
 --- @field Icon Texture
@@ -56,7 +56,7 @@
 --- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L179)
---- child of 
+--- child of ReputationEntryTemplate_Content
 --- @class ReputationEntryTemplate_Content_BackgroundHighlight : Frame
 --- @field Left Texture
 --- @field Right Texture
@@ -64,12 +64,12 @@
 --- @field TextureRegions table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L206)
---- child of 
+--- child of ReputationEntryTemplate_Content
 --- @class ReputationEntryTemplate_Content_AccountWideIcon : Frame, ReputationEntryAccountWideIconMixin
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L227)
---- child of 
+--- child of ReputationEntryTemplate_Content
 --- @class ReputationEntryTemplate_Content_Name : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L133)
@@ -99,61 +99,61 @@
 --- @class ReputationFrame_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L306)
---- child of 
+--- child of ReputationFrame_ReputationDetailFrame
 --- @class ReputationFrame_ReputationDetailFrame_Border : Frame, DialogBorderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L307)
---- child of 
+--- child of ReputationFrame_ReputationDetailFrame
 --- @class ReputationFrame_ReputationDetailFrame_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L319)
---- child of 
+--- child of ReputationFrame_ReputationDetailFrame_AtWarCheckbox
 --- @class ReputationFrame_ReputationDetailFrame_AtWarCheckbox_Label : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L312)
---- child of 
+--- child of ReputationFrame_ReputationDetailFrame
 --- @class ReputationFrame_ReputationDetailFrame_AtWarCheckbox : CheckButton, ReputationDetailAtWarCheckboxMixin
 --- @field Label ReputationFrame_ReputationDetailFrame_AtWarCheckbox_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L353)
---- child of 
+--- child of ReputationFrame_ReputationDetailFrame_MakeInactiveCheckbox
 --- @class ReputationFrame_ReputationDetailFrame_MakeInactiveCheckbox_Label : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L501)
---- child of  (created in template UICheckButtonTemplate)
+--- child of ReputationFrame_ReputationDetailFrame_MakeInactiveCheckbox (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 ReputationFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L343)
---- child of 
+--- child of ReputationFrame_ReputationDetailFrame
 --- @class ReputationFrame_ReputationDetailFrame_MakeInactiveCheckbox : CheckButton, UICheckButtonTemplate, ReputationDetailInactiveCheckboxMixin
 --- @field Label ReputationFrame_ReputationDetailFrame_MakeInactiveCheckbox_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L376)
---- child of 
+--- child of ReputationFrame_ReputationDetailFrame_WatchFactionCheckbox
 --- @class ReputationFrame_ReputationDetailFrame_WatchFactionCheckbox_Label : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L501)
---- child of  (created in template UICheckButtonTemplate)
+--- child of ReputationFrame_ReputationDetailFrame_WatchFactionCheckbox (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 ReputationFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L366)
---- child of 
+--- child of ReputationFrame_ReputationDetailFrame
 --- @class ReputationFrame_ReputationDetailFrame_WatchFactionCheckbox : CheckButton, UICheckButtonTemplate, ReputationDetailWatchFactionCheckboxMixin
 --- @field Label ReputationFrame_ReputationDetailFrame_WatchFactionCheckbox_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L389)
---- child of 
+--- child of ReputationFrame_ReputationDetailFrame
 --- @class ReputationFrame_ReputationDetailFrame_ViewRenownButton : Button, SharedGoldRedButtonSmallTemplate, DisabledTooltipButtonTemplate, ReputationDetailViewRenownButtonMixin
 --- @field disabledTooltipAnchor string # "ANCHOR_RIGHT"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L277)
---- child of 
+--- child of ReputationFrame_ReputationDetailFrame
 --- @class ReputationFrame_ReputationDetailFrame_Title : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L283)
---- child of 
+--- child of ReputationFrame_ReputationDetailFrame
 --- @class ReputationFrame_ReputationDetailFrame_Description : FontString, ReputationDetailFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L270)

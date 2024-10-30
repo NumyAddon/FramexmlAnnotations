@@ -55,15 +55,15 @@
 --- @class ProfessionsRecipeSchematicFormTemplate_Concentrate : Frame, ProfessionsConcentrateContainerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L96)
---- child of 
+--- child of ProfessionsRecipeSchematicFormTemplate_Stars
 --- @class ProfessionsRecipeSchematicFormTemplate_Stars_Star1 : Frame, ProfessionsRecipeFormStarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L101)
---- child of 
+--- child of ProfessionsRecipeSchematicFormTemplate_Stars
 --- @class ProfessionsRecipeSchematicFormTemplate_Stars_Star2 : Frame, ProfessionsRecipeFormStarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L106)
---- child of 
+--- child of ProfessionsRecipeSchematicFormTemplate_Stars
 --- @class ProfessionsRecipeSchematicFormTemplate_Stars_Star3 : Frame, ProfessionsRecipeFormStarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L93)
@@ -87,7 +87,7 @@
 --- @class ProfessionsRecipeSchematicFormTemplate_Details : Frame, ProfessionsRecipeCrafterDetailsTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L132)
---- child of 
+--- child of ProfessionsRecipeSchematicFormTemplate_RecipeSourceButton
 --- @class ProfessionsRecipeSchematicFormTemplate_RecipeSourceButton_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L128)
@@ -97,12 +97,12 @@
 --- @field LetterI Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L168)
---- child of 
+--- child of ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus
 --- @class ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus_Icon : Texture
 --- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L174)
---- child of 
+--- child of ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus
 --- @class ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus_Text : FontString, GameFontNormal
 --- @field layoutIndex number # 2
 

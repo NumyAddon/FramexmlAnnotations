@@ -5,11 +5,11 @@
 --- @class LossOfControlFrame_Cooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/LossOfControlFrame.xml#L79)
---- child of 
+--- child of LossOfControlFrame_TimeLeft
 --- @class LossOfControlFrame_TimeLeft_NumberText : FontString, GameFontNormalHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/LossOfControlFrame.xml#L92)
---- child of 
+--- child of LossOfControlFrame_TimeLeft
 --- @class LossOfControlFrame_TimeLeft_SecondsText : FontString, GameFontNormalHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/LossOfControlFrame.xml#L75)

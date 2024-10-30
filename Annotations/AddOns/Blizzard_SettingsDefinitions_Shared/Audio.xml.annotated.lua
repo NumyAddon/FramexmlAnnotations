@@ -6,11 +6,11 @@
 --- @field Texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Audio.xml#L42)
---- child of 
+--- child of VoiceTestMicrophoneTemplate_VUMeter
 --- @class VoiceTestMicrophoneTemplate_VUMeter_Status : StatusBar, TextStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Audio.xml#L34)
---- child of 
+--- child of VoiceTestMicrophoneTemplate_VUMeter
 --- @class VoiceTestMicrophoneTemplate_VUMeter_VoiceTestMicrophoneTemplateTitle : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Audio.xml#L24)

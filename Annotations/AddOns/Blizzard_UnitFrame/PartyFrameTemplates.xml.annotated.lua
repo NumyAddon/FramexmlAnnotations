@@ -75,35 +75,35 @@
 --- @class PartyMemberFrameTemplate_PowerBarAlt : Frame, UnitPowerBarAltTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L240)
---- child of 
+--- child of PartyMemberFrameTemplate_HealthBarContainer
 --- @class PartyMemberFrameTemplate_HealthBarContainer_TempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L253)
---- child of 
+--- child of PartyMemberFrameTemplate_HealthBarContainer_HealthBar
 --- @class PartyMemberFrameTemplate_HealthBarContainer_HealthBar_MyHealPredictionBar : Frame, PartyFrameBarSegmentTemplate, MyHealPredictionBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L254)
---- child of 
+--- child of PartyMemberFrameTemplate_HealthBarContainer_HealthBar
 --- @class PartyMemberFrameTemplate_HealthBarContainer_HealthBar_OtherHealPredictionBar : Frame, PartyFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L255)
---- child of 
+--- child of PartyMemberFrameTemplate_HealthBarContainer_HealthBar
 --- @class PartyMemberFrameTemplate_HealthBarContainer_HealthBar_HealAbsorbBar : Frame, PartyFrameBarSegmentTemplate, HealAbsorbBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L256)
---- child of 
+--- child of PartyMemberFrameTemplate_HealthBarContainer_HealthBar
 --- @class PartyMemberFrameTemplate_HealthBarContainer_HealthBar_TotalAbsorbBar : Frame, PartyFrameBarSegmentTemplate, TotalAbsorbBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L266)
---- child of 
+--- child of PartyMemberFrameTemplate_HealthBarContainer_HealthBar
 --- @class PartyMemberFrameTemplate_HealthBarContainer_HealthBar_OverAbsorbGlow : Texture, OverAbsorbGlowTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L267)
---- child of 
+--- child of PartyMemberFrameTemplate_HealthBarContainer_HealthBar
 --- @class PartyMemberFrameTemplate_HealthBarContainer_HealthBar_OverHealAbsorbGlow : Texture, OverHealAbsorbGlowTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L247)
---- child of 
+--- child of PartyMemberFrameTemplate_HealthBarContainer
 --- @class PartyMemberFrameTemplate_HealthBarContainer_HealthBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate
 --- @field MyHealPredictionBar PartyMemberFrameTemplate_HealthBarContainer_HealthBar_MyHealPredictionBar
 --- @field OtherHealPredictionBar PartyMemberFrameTemplate_HealthBarContainer_HealthBar_OtherHealPredictionBar
@@ -114,15 +114,15 @@
 --- @field OverHealAbsorbGlow PartyMemberFrameTemplate_HealthBarContainer_HealthBar_OverHealAbsorbGlow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L301)
---- child of 
+--- child of PartyMemberFrameTemplate_HealthBarContainer
 --- @class PartyMemberFrameTemplate_HealthBarContainer_CenterText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L306)
---- child of 
+--- child of PartyMemberFrameTemplate_HealthBarContainer
 --- @class PartyMemberFrameTemplate_HealthBarContainer_LeftText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L311)
---- child of 
+--- child of PartyMemberFrameTemplate_HealthBarContainer
 --- @class PartyMemberFrameTemplate_HealthBarContainer_RightText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L234)
@@ -136,15 +136,15 @@
 --- @field HealthBarMask MaskTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L345)
---- child of 
+--- child of PartyMemberFrameTemplate_ManaBar
 --- @class PartyMemberFrameTemplate_ManaBar_CenterText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L350)
---- child of 
+--- child of PartyMemberFrameTemplate_ManaBar
 --- @class PartyMemberFrameTemplate_ManaBar_LeftText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L355)
---- child of 
+--- child of PartyMemberFrameTemplate_ManaBar
 --- @class PartyMemberFrameTemplate_ManaBar_RightText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L338)

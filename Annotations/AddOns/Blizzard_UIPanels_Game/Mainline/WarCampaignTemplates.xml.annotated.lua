@@ -40,7 +40,7 @@
 --- @class LoreButtonTemplate : Button, CampaignLoreButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L143)
---- child of 
+--- child of CampaignHeaderDisplayTemplate_NextObjective
 --- @class CampaignHeaderDisplayTemplate_NextObjective_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L136)

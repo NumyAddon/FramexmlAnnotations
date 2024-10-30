@@ -6,22 +6,22 @@
 --- @field layoutType string # "PerksProgramProductsPanelTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L136)
---- child of 
+--- child of PlunderstormBasicsContainerFrame_RenownPreview
 --- @class PlunderstormBasicsContainerFrame_RenownPreview_RewardsContainer : Frame, ResizeLayoutFrame
 --- @field layoutIndex number # 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L98)
---- child of 
+--- child of PlunderstormBasicsContainerFrame_RenownPreview
 --- @class PlunderstormBasicsContainerFrame_RenownPreview_PreviewTitle : FontString, SystemFont_Huge2
 --- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L110)
---- child of 
+--- child of PlunderstormBasicsContainerFrame_RenownPreview
 --- @class PlunderstormBasicsContainerFrame_RenownPreview_Separator : Texture
 --- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L121)
---- child of 
+--- child of PlunderstormBasicsContainerFrame_RenownPreview
 --- @class PlunderstormBasicsContainerFrame_RenownPreview_PreviewDescription : FontString, Game16Font
 --- @field layoutIndex number # 3
 

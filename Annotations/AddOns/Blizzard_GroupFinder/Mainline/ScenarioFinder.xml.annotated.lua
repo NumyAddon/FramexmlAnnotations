@@ -5,7 +5,7 @@
 --- @class ScenarioSpecificChoiceTemplate : Frame, LFGSpecificChoiceTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L31)
---- child of 
+--- child of ScenarioFinderFrame_NoScenariosCover
 --- @class ScenarioFinderFrame_NoScenariosCover_Label : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L19)

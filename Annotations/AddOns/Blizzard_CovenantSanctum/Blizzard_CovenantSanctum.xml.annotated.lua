@@ -9,7 +9,7 @@
 --- @class CovenantSanctumFrame_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctum.xml#L38)
---- child of 
+--- child of CovenantSanctumFrame_LevelFrame
 --- @class CovenantSanctumFrame_LevelFrame_Level : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctum.xml#L24)

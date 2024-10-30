@@ -70,7 +70,7 @@
 --- @class ClickBindingFrame_ResetButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L213)
---- child of 
+--- child of ClickBindingFrame_EnableMouseoverCastCheckbox
 --- @class ClickBindingFrame_EnableMouseoverCastCheckbox_Label : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L193)
@@ -79,7 +79,7 @@
 --- @field Label ClickBindingFrame_EnableMouseoverCastCheckbox_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L227)
---- child of 
+--- child of ClickBindingFrame_MouseoverCastKeyDropdown
 --- @class ClickBindingFrame_MouseoverCastKeyDropdown_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L221)
@@ -98,28 +98,28 @@
 --- @field FrameName string # "MacroFrame"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L276)
---- child of 
+--- child of ClickBindingFrame_TutorialFrame
 --- @class ClickBindingFrame_TutorialFrame_SummaryText : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L281)
---- child of 
+--- child of ClickBindingFrame_TutorialFrame
 --- @class ClickBindingFrame_TutorialFrame_InfoText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L287)
---- child of 
+--- child of ClickBindingFrame_TutorialFrame
 --- @class ClickBindingFrame_TutorialFrame_AlternateText : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L292)
---- child of 
+--- child of ClickBindingFrame_TutorialFrame
 --- @class ClickBindingFrame_TutorialFrame_ThrallName : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1095)
---- child of  (created in template PortraitFrameTemplate)
+--- child of ClickBindingFrame_TutorialFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ClickBindingFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1062)
---- child of  (created in template PortraitFrameTexturedBaseTemplate)
+--- child of ClickBindingFrame_TutorialFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ClickBindingFrameBg = {}
 

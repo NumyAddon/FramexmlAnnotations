@@ -14,23 +14,23 @@
 --- @class AdventuresCompleteScreenTemplate_CombatLog : Frame, CombatLogTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L78)
---- child of 
+--- child of AdventuresCompleteScreenTemplate_MissionInfo
 --- @class AdventuresCompleteScreenTemplate_MissionInfo_EncounterIcon : Frame, SmallCovenantMissionEncounterIconTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L44)
---- child of 
+--- child of AdventuresCompleteScreenTemplate_MissionInfo
 --- @class AdventuresCompleteScreenTemplate_MissionInfo_Level : FontString, Game24Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L50)
---- child of 
+--- child of AdventuresCompleteScreenTemplate_MissionInfo
 --- @class AdventuresCompleteScreenTemplate_MissionInfo_ItemLevel : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L56)
---- child of 
+--- child of AdventuresCompleteScreenTemplate_MissionInfo
 --- @class AdventuresCompleteScreenTemplate_MissionInfo_Title : FontString, QuestFont_Super_Huge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L66)
---- child of 
+--- child of AdventuresCompleteScreenTemplate_MissionInfo
 --- @class AdventuresCompleteScreenTemplate_MissionInfo_Location : FontString, QuestFont_Huge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L20)
@@ -54,15 +54,15 @@
 --- @field useViewInsetNormalization boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L112)
---- child of 
+--- child of AdventuresCompleteScreenTemplate_CompleteFrame
 --- @class AdventuresCompleteScreenTemplate_CompleteFrame_ContinueButton : Button, UIPanelButtonTemplate, AdventuresCompleteScreenContinueButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L128)
---- child of 
+--- child of AdventuresCompleteScreenTemplate_CompleteFrame_SpeedButton
 --- @class AdventuresCompleteScreenTemplate_CompleteFrame_SpeedButton_SpeedUp : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.xml#L121)
---- child of 
+--- child of AdventuresCompleteScreenTemplate_CompleteFrame
 --- @class AdventuresCompleteScreenTemplate_CompleteFrame_SpeedButton : Button, UIPanelButtonTemplate, AdventuresCompleteScreenSpeedButtonMixin
 --- @field SpeedUp AdventuresCompleteScreenTemplate_CompleteFrame_SpeedButton_SpeedUp
 

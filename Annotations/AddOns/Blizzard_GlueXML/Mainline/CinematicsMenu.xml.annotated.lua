@@ -22,7 +22,7 @@
 --- @class CinematicsMenu_CloseButton : Button, UIPanelCloseButtonNoScripts
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L7)
---- child of  (created in template GlueCheckButtonTemplate)
+--- child of CinematicsMenu_SubtitlesCheckbox (created in template GlueCheckButtonTemplate)
 --- @type GlueCheckButtonTemplate_GlueCheckButtonTemplateText
 CinematicsMenuText = {}
 

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L36)
---- child of 
+--- child of OrderHallMissionPageEnemyTemplate_MechanicEffect
 --- @class OrderHallMissionPageEnemyTemplate_MechanicEffect_Countered : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L5)
@@ -82,12 +82,12 @@ OrderHallMissionFrameTab3 = {}
 --- @class OrderHallMissionFrame_OrderHallMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L1504)
---- child of  (created in template SearchBoxTemplate)
+--- child of OrderHallMissionFrame_OrderHallMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 OrderHallMissionFrameFollowersClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L1495)
---- child of  (created in template SearchBoxTemplate)
+--- child of OrderHallMissionFrame_OrderHallMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 OrderHallMissionFrameFollowersSearchIcon = {}
 
@@ -105,13 +105,13 @@ OrderHallMissionFrameFollowers = {}
 OrderHallMissionFrameFollowers["showUncollected"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L335)
---- child of 
+--- child of OrderHallMissionFrame_MapTab_ScrollContainer
 --- @class OrderHallMissionFrame_MapTab_ScrollContainer_Child : Frame
 --- @field TiledBackground Texture
 --- @field ZoneArea Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L327)
---- child of 
+--- child of OrderHallMissionFrame_MapTab
 --- @class OrderHallMissionFrame_MapTab_ScrollContainer : ScrollFrame, MapCanvasScrollControllerMixin
 --- @field Child OrderHallMissionFrame_MapTab_ScrollContainer_Child
 
@@ -121,11 +121,11 @@ OrderHallMissionFrameFollowers["showUncollected"] = true
 --- @field ScrollContainer OrderHallMissionFrame_MapTab_ScrollContainer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L409)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available_AddFollowerButton
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available_AddFollowerButton_AddFollowerText : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L385)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available_AddFollowerButton : Button
 --- @field EmptyPortrait Texture
 --- @field Plus Texture
@@ -133,46 +133,46 @@ OrderHallMissionFrameFollowers["showUncollected"] = true
 --- @field AddFollowerText OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available_AddFollowerButton_AddFollowerText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L438)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available_CombatAllyLabel : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L443)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available_Description : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L383)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available : Frame
 --- @field AddFollowerButton OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available_AddFollowerButton
 --- @field CombatAllyLabel OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available_CombatAllyLabel
 --- @field Description OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_Available_Description
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L454)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress_PortraitFrame : Frame, GarrisonFollowerPortraitTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L459)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress_CombatAllySpell : Frame, GarrisonFollowerCombatAllySpellTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L465)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress_Unassign : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L479)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress_Name : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L484)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress_Description : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L490)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress_ZoneSupportName : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L452)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress : Frame
 --- @field PortraitFrame OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress_PortraitFrame
 --- @field CombatAllySpell OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI_InProgress_CombatAllySpell
@@ -207,7 +207,7 @@ OrderHallMissionFrameMissionsTab1 = {}
 OrderHallMissionFrameMissionsTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L370)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab
 --- @class OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions : Frame, GarrisonMissionListTemplate, OrderHallMissionListMixin
 --- @field CombatAllyUI OrderHallMissionFrame_MissionTab_OrderHallMissionFrameMissions_CombatAllyUI
 OrderHallMissionFrameMissions = {}
@@ -215,47 +215,47 @@ OrderHallMissionFrameMissions["Tab1"] = OrderHallMissionFrameMissionsTab1 -- inh
 OrderHallMissionFrameMissions["Tab2"] = OrderHallMissionFrameMissionsTab2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L503)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPageBackground : Frame
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L541)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CloseButton : Button, GarrisonMissionPageCloseButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L546)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CostFrame : Frame, GarrisonMissionPageCostWithTooltipTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L552)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_Follower1 : Frame, GarrisonMissionPageFollowerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L564)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllySpell : Frame, GarrisonFollowerCombatAllySpellTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L585)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllyLabel
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllyLabel_Text : FontString, SystemFont_Shadow_Huge3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L591)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllyLabel
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllyLabel_FadeInAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L574)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllyLabel : Frame
 --- @field TextBackground Texture
 --- @field Text OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllyLabel_Text
 --- @field FadeInAnim OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllyLabel_FadeInAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L532)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllyDescriptionLabel : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L517)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage : Button, GarrisonFollowerMissionRewardsFrameTemplate, GarrisonMissionPageMixin, GarrisonFollowerMissionPageMixin, ZoneSupportMissionPageMixin
 --- @field debugZoneArea boolean # false
 --- @field CloseButton OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CloseButton
@@ -269,7 +269,7 @@ OrderHallMissionFrameMissions["Tab2"] = OrderHallMissionFrameMissionsTab2 -- inh
 --- @field Followers table<number, OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_Follower1>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L624)
---- child of 
+--- child of OrderHallMissionFrame_MissionTab
 --- @class OrderHallMissionFrame_MissionTab_MissionPage : Button, OrderHallMissionPageTemplate, GarrisonMissionPageMixin, GarrisonFollowerMissionPageMixin, OrderHallFollowerMissionPageMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L368)
@@ -290,46 +290,46 @@ OrderHallMissionFrameMissions["Tab2"] = OrderHallMissionFrameMissionsTab2 -- inh
 --- @class OrderHallMissionFrame_MissionCompleteBackground : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L661)
---- child of 
+--- child of OrderHallMissionFrame_MissionComplete
 --- @class OrderHallMissionFrame_MissionComplete_Stage : Frame, GarrisonFollowerMissionCompleteStageTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L669)
---- child of 
+--- child of OrderHallMissionFrame_MissionComplete_BonusRewards
 --- @class OrderHallMissionFrame_MissionComplete_BonusRewards_BonusChanceLabel : FontString, Game18Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L666)
---- child of 
+--- child of OrderHallMissionFrame_MissionComplete
 --- @class OrderHallMissionFrame_MissionComplete_BonusRewards : Frame, GarrisonFollowerMissionRewardsFrameTemplate, GarrisonMissionBonusRewardsTemplate
 --- @field BonusChanceLabel OrderHallMissionFrame_MissionComplete_BonusRewards_BonusChanceLabel
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L704)
---- child of 
+--- child of OrderHallMissionFrame_MissionComplete_BonusChanceFail
 --- @class OrderHallMissionFrame_MissionComplete_BonusChanceFail_BonusFailed : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L682)
---- child of 
+--- child of OrderHallMissionFrame_MissionComplete
 --- @class OrderHallMissionFrame_MissionComplete_BonusChanceFail : Frame
 --- @field CrossLeft Texture
 --- @field CrossRight Texture
 --- @field BonusFailed OrderHallMissionFrame_MissionComplete_BonusChanceFail_BonusFailed
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L726)
---- child of 
+--- child of OrderHallMissionFrame_MissionComplete_BonusText
 --- @class OrderHallMissionFrame_MissionComplete_BonusText_BonusText : FontString, Game48FontShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L735)
---- child of 
+--- child of OrderHallMissionFrame_MissionComplete_BonusText
 --- @class OrderHallMissionFrame_MissionComplete_BonusText_BonusTextGlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L712)
---- child of 
+--- child of OrderHallMissionFrame_MissionComplete
 --- @class OrderHallMissionFrame_MissionComplete_BonusText : Frame
 --- @field BonusGlow Texture
 --- @field BonusText OrderHallMissionFrame_MissionComplete_BonusText_BonusText
 --- @field BonusTextGlowAnim OrderHallMissionFrame_MissionComplete_BonusText_BonusTextGlowAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L744)
---- child of 
+--- child of OrderHallMissionFrame_MissionComplete
 --- @class OrderHallMissionFrame_MissionComplete_ChanceFrame : Frame, GarrisonMissionChanceFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L659)

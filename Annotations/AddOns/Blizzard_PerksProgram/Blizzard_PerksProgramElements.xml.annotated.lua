@@ -54,27 +54,27 @@
 --- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L249)
---- child of 
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
 --- @class PerksProgramProductButtonTemplate_ContentsContainer_PurchasePendingSpinner : Frame, SpinnerTemplate, PerksProgramPurchasePendingSpinnerMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L204)
---- child of 
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
 --- @class PerksProgramProductButtonTemplate_ContentsContainer_Label : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L210)
---- child of 
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
 --- @class PerksProgramProductButtonTemplate_ContentsContainer_Price : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L217)
---- child of 
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
 --- @class PerksProgramProductButtonTemplate_ContentsContainer_RefundIcon : Texture, PerksRefundIconTooltipMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L232)
---- child of 
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
 --- @class PerksProgramProductButtonTemplate_ContentsContainer_TimeRemaining : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L241)
---- child of 
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
 --- @class PerksProgramProductButtonTemplate_ContentsContainer_NewItems : Texture, store-icon-new
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L180)
@@ -98,7 +98,7 @@
 --- @field ContentsContainer PerksProgramProductButtonTemplate_ContentsContainer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L278)
---- child of 
+--- child of PerksProgramFrozenProductButtonTemplate_FrozenContentContainer
 --- @class PerksProgramFrozenProductButtonTemplate_FrozenContentContainer_InstructionsText : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L275)
@@ -107,11 +107,11 @@
 --- @field InstructionsText PerksProgramFrozenProductButtonTemplate_FrozenContentContainer_InstructionsText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L294)
---- child of 
+--- child of PerksProgramFrozenProductButtonTemplate_FrozenArtContainer
 --- @class PerksProgramFrozenProductButtonTemplate_FrozenArtContainer_CancelledFreezeAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L299)
---- child of 
+--- child of PerksProgramFrozenProductButtonTemplate_FrozenArtContainer
 --- @class PerksProgramFrozenProductButtonTemplate_FrozenArtContainer_ConfirmedFreezeAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L288)

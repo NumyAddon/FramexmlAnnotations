@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.xml#L22)
---- child of 
+--- child of ProfessionsCustomerOrdersBrowseOrdersTemplate_SearchBar
 --- @class ProfessionsCustomerOrdersBrowseOrdersTemplate_SearchBar_FavoritesSearchButton : Button, SquareIconButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.xml#L30)
---- child of 
+--- child of ProfessionsCustomerOrdersBrowseOrdersTemplate_SearchBar
 --- @class ProfessionsCustomerOrdersBrowseOrdersTemplate_SearchBar_SearchBox : EditBox, SearchBoxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.xml#L36)
---- child of 
+--- child of ProfessionsCustomerOrdersBrowseOrdersTemplate_SearchBar
 --- @class ProfessionsCustomerOrdersBrowseOrdersTemplate_SearchBar_SearchButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.xml#L42)
---- child of 
+--- child of ProfessionsCustomerOrdersBrowseOrdersTemplate_SearchBar
 --- @class ProfessionsCustomerOrdersBrowseOrdersTemplate_SearchBar_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.xml#L16)

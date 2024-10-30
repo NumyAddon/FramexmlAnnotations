@@ -100,25 +100,25 @@
 --- @class CommunitiesNotificationSettingsDialogTemplate_CommunitiesListDropdown : DropdownButton, CommunitiesListDropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L248)
---- child of 
+--- child of CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child
 --- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_QuickJoinButton : CheckButton, UICheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L261)
---- child of 
+--- child of CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child
 --- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_NoneButton : Button, CommunitiesMassNotificationsSettingsButtonTemplate
 --- @field filter any # Enum.ClubStreamNotificationFilter.None
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L270)
---- child of 
+--- child of CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child
 --- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_AllButton : Button, CommunitiesMassNotificationsSettingsButtonTemplate
 --- @field filter any # Enum.ClubStreamNotificationFilter.All
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L230)
---- child of 
+--- child of CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child
 --- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_SettingsLabel : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L221)
---- child of 
+--- child of CommunitiesNotificationSettingsDialogTemplate_ScrollFrame
 --- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child : Frame
 --- @field QuickJoinButton CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_QuickJoinButton
 --- @field NoneButton CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_NoneButton

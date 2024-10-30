@@ -61,7 +61,7 @@
 --- @field ReappearAnim ItemUpgradePreviewTemplate_ReappearAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L254)
---- child of 
+--- child of ItemUpgradeFrame_UpgradeItemButton
 --- @class ItemUpgradeFrame_UpgradeItemButton_PulseEmptySlotGlow : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L232)
@@ -72,24 +72,24 @@
 --- @field PulseEmptySlotGlow ItemUpgradeFrame_UpgradeItemButton_PulseEmptySlotGlow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L301)
---- child of 
+--- child of ItemUpgradeFrame_ItemInfo
 --- @class ItemUpgradeFrame_ItemInfo_Dropdown : DropdownButton, WowStyle1DropdownTemplate
 --- @field resizeToText boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L274)
---- child of 
+--- child of ItemUpgradeFrame_ItemInfo
 --- @class ItemUpgradeFrame_ItemInfo_MissingItemText : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L280)
---- child of 
+--- child of ItemUpgradeFrame_ItemInfo
 --- @class ItemUpgradeFrame_ItemInfo_ItemName : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L287)
---- child of 
+--- child of ItemUpgradeFrame_ItemInfo
 --- @class ItemUpgradeFrame_ItemInfo_UpgradeProgress : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L293)
---- child of 
+--- child of ItemUpgradeFrame_ItemInfo
 --- @class ItemUpgradeFrame_ItemInfo_UpgradeTo : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L268)
@@ -646,7 +646,7 @@ ItemUpgradeFrameItemHoverPreviewFrame["TextLeft2"] = ItemUpgradeFrameItemHoverPr
 ItemUpgradeFrameItemHoverPreviewFrame["TextRight2"] = ItemUpgradeFrameItemHoverPreviewFrameTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L350)
---- child of 
+--- child of ItemUpgradeFrame_Arrow
 --- @class ItemUpgradeFrame_Arrow_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L335)
@@ -656,7 +656,7 @@ ItemUpgradeFrameItemHoverPreviewFrame["TextRight2"] = ItemUpgradeFrameItemHoverP
 --- @field Anim ItemUpgradeFrame_Arrow_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L373)
---- child of 
+--- child of ItemUpgradeFrame_UpgradeButton
 --- @class ItemUpgradeFrame_UpgradeButton_GlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L358)
@@ -697,7 +697,7 @@ ItemUpgradeFramePlayerCurrenciesBorder = {}
 --- @field fixedHeight number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L426)
---- child of 
+--- child of ItemUpgradeFrame_AnimationHolder
 --- @class ItemUpgradeFrame_AnimationHolder_UpgradedFlash : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L424)

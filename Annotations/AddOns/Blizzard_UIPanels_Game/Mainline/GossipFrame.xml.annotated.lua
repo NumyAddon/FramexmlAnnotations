@@ -6,29 +6,29 @@
 --- @field MaterialTopLeft Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L51)
---- child of 
+--- child of GossipFrame_GreetingPanel
 --- @class GossipFrame_GreetingPanel_GoodbyeButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L62)
---- child of 
+--- child of GossipFrame_GreetingPanel
 --- @class GossipFrame_GreetingPanel_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L68)
---- child of 
+--- child of GossipFrame_GreetingPanel
 --- @class GossipFrame_GreetingPanel_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L16)
---- child of  (created in template GossipFramePanelTemplate)
+--- child of GossipFrame_GreetingPanel (created in template GossipFramePanelTemplate)
 --- @type Texture
 GossipFrameMaterialTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L22)
---- child of  (created in template GossipFramePanelTemplate)
+--- child of GossipFrame_GreetingPanel (created in template GossipFramePanelTemplate)
 --- @type Texture
 GossipFrameMaterialBotLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L28)
---- child of  (created in template GossipFramePanelTemplate)
+--- child of GossipFrame_GreetingPanel (created in template GossipFramePanelTemplate)
 --- @type Texture
 GossipFrameMaterialBotRight = {}
 

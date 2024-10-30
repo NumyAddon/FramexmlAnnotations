@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L74)
---- child of 
+--- child of EssencePointButtonTemplate_EssenceFilling
 --- @class EssencePointButtonTemplate_EssenceFilling_FillingAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L100)
---- child of 
+--- child of EssencePointButtonTemplate_EssenceFilling
 --- @class EssencePointButtonTemplate_EssenceFilling_CircleAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L8)
@@ -25,7 +25,7 @@
 --- @field CircleAnim EssencePointButtonTemplate_EssenceFilling_CircleAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L170)
---- child of 
+--- child of EssencePointButtonTemplate_EssenceFillDone
 --- @class EssencePointButtonTemplate_EssenceFillDone_AnimIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L117)
@@ -51,7 +51,7 @@
 --- @field EssenceIconActive Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L264)
---- child of 
+--- child of EssencePointButtonTemplate_EssenceDepleting
 --- @class EssencePointButtonTemplate_EssenceDepleting_AnimIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L215)

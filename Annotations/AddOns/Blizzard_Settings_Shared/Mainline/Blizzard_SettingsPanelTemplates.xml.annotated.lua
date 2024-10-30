@@ -5,7 +5,7 @@
 --- @class SettingsFrameTemplate_Bg : Frame, FlatPanelBackgroundTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Mainline/Blizzard_SettingsPanelTemplates.xml#L18)
---- child of 
+--- child of SettingsFrameTemplate_NineSlice
 --- @class SettingsFrameTemplate_NineSlice_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Mainline/Blizzard_SettingsPanelTemplates.xml#L12)

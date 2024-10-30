@@ -47,7 +47,7 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field Texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L121)
---- child of 
+--- child of ActionButtonCastingAnimFrameTemplate_Fill
 --- @class ActionButtonCastingAnimFrameTemplate_Fill_CastingAnim : AnimationGroup, ActionButtonCastingAnimationFillMixin
 --- @field CastFillTranslation Translation
 
@@ -60,7 +60,7 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field CastingAnim ActionButtonCastingAnimFrameTemplate_Fill_CastingAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L154)
---- child of 
+--- child of ActionButtonCastingAnimFrameTemplate_EndBurst
 --- @class ActionButtonCastingAnimFrameTemplate_EndBurst_FinishCastAnim : AnimationGroup, ActionButtonCastingFinishAnimMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L131)
@@ -89,7 +89,7 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field HighlightAnim ActionButtonTargetReticleFrameTemplate_HighlightAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L229)
---- child of 
+--- child of ActionButtonInterruptTemplate_Highlight
 --- @class ActionButtonInterruptTemplate_Highlight_AnimIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L206)
@@ -100,7 +100,7 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field AnimIn ActionButtonInterruptTemplate_Highlight_AnimIn
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L249)
---- child of 
+--- child of ActionButtonInterruptTemplate_Base
 --- @class ActionButtonInterruptTemplate_Base_AnimIn : AnimationGroup, ActionButtonInterruptAnimInMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L234)
@@ -150,11 +150,11 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field CooldownFlash ActionButtonSpellFXTemplate_CooldownFlash
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L359)
---- child of 
+--- child of ActionButtonTemplate_TextOverlayContainer
 --- @class ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateHotKey : FontString, NumberFontNormalSmallGray
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L365)
---- child of 
+--- child of ActionButtonTemplate_TextOverlayContainer
 --- @class ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateCount : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L356)

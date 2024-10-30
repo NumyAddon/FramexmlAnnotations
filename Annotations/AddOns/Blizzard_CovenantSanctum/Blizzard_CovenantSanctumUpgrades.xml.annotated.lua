@@ -33,16 +33,16 @@
 --- @class CovenantSanctumUpgradeReservoirTemplate_ModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L136)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements_FillBackground
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_FillBackground_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L131)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_FillBackground : Texture
 --- @field Anim CovenantSanctumUpgradeReservoirTemplate_ClippedElements_FillBackground_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L149)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements_InnerGlow
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_InnerGlow_AlphaAnim : AnimationGroup
 --- @field Step1 Alpha
 --- @field Step2 Alpha
@@ -50,51 +50,51 @@
 --- @field Step4 Alpha
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L155)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements_InnerGlow
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_InnerGlow_RotateAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L144)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_InnerGlow : Texture
 --- @field AlphaAnim CovenantSanctumUpgradeReservoirTemplate_ClippedElements_InnerGlow_AlphaAnim
 --- @field RotateAnim CovenantSanctumUpgradeReservoirTemplate_ClippedElements_InnerGlow_RotateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L211)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements_LowSpeck1
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_LowSpeck1_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L206)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_LowSpeck1 : Texture
 --- @field Anim CovenantSanctumUpgradeReservoirTemplate_ClippedElements_LowSpeck1_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L223)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements_LowSpeck2
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_LowSpeck2_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L218)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_LowSpeck2 : Texture
 --- @field Anim CovenantSanctumUpgradeReservoirTemplate_ClippedElements_LowSpeck2_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L256)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_SpiralsAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L261)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_PulseAlphaAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L265)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_PulseRotateAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L269)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_Pulse2AlphaAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L273)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_ClippedElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_ClippedElements_Pulse2RotateAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L124)
@@ -120,29 +120,29 @@
 --- @field Pulse2RotateAnim CovenantSanctumUpgradeReservoirTemplate_ClippedElements_Pulse2RotateAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L287)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_FullElements_HighSpeck1
 --- @class CovenantSanctumUpgradeReservoirTemplate_FullElements_HighSpeck1_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L282)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_FullElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_FullElements_HighSpeck1 : Texture
 --- @field Anim CovenantSanctumUpgradeReservoirTemplate_FullElements_HighSpeck1_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L299)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_FullElements_HighSpeck2
 --- @class CovenantSanctumUpgradeReservoirTemplate_FullElements_HighSpeck2_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L294)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_FullElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_FullElements_HighSpeck2 : Texture
 --- @field Anim CovenantSanctumUpgradeReservoirTemplate_FullElements_HighSpeck2_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L343)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_FullElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_FullElements_GlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L351)
---- child of 
+--- child of CovenantSanctumUpgradeReservoirTemplate_FullElements
 --- @class CovenantSanctumUpgradeReservoirTemplate_FullElements_SparkGlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.xml#L279)

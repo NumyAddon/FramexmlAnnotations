@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.xml#L23)
---- child of 
+--- child of RuneforgeCreateFrameTemplate_Cost
 --- @class RuneforgeCreateFrameTemplate_Cost_Currencies : Frame, CurrencyDisplayGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.xml#L15)
---- child of 
+--- child of RuneforgeCreateFrameTemplate_Cost
 --- @class RuneforgeCreateFrameTemplate_Cost_CostLabel : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.xml#L8)

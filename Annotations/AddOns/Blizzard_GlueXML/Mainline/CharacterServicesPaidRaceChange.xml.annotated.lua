@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidRaceChange.xml#L14)
---- child of 
+--- child of PRCCharacterSelect_ResultsFrame
 --- @class PRCCharacterSelect_ResultsFrame_CurrentRaceLabel : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidRaceChange.xml#L21)
---- child of 
+--- child of PRCCharacterSelect_ResultsFrame
 --- @class PRCCharacterSelect_ResultsFrame_CustomizeLabel : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidRaceChange.xml#L7)

@@ -65,51 +65,6 @@ GMChatFrameLeft = {}
 --- @class GMChatFrame_GMChatFrameRight : Texture, !Thin-BorderRight
 GMChatFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L6)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L16)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L22)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L29)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L36)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L43)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateLeftTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L50)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateRightTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L58)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateBottomTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L66)
---- child of FloatingChatFrameTemplate (created in template FloatingBorderedFrame)
---- @type Texture
-FloatingChatFrameTemplateTopTexture = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L396)
 --- child of GMChatFrame (created in template FloatingChatFrameTemplate)
 --- @type Button
@@ -138,10 +93,6 @@ GMChatFrameResizeButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L448)
 --- child of GMChatFrame (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame
---- @field fixedWidth number # 29
---- @field bottomButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameBottomButton
---- @field downButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameDownButton
---- @field upButton FloatingChatFrameTemplate_FloatingChatFrameTemplateButtonFrame_FloatingChatFrameTemplateButtonFrameUpButton
 GMChatFrameButtonFrame = {}
 GMChatFrameButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 GMChatFrameButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
@@ -196,15 +147,60 @@ GMChatFrameEditBox["header"] = GMChatFrameEditBoxHeader -- inherited
 GMChatFrameEditBox["headerSuffix"] = GMChatFrameEditBoxHeaderSuffix -- inherited
 GMChatFrameEditBox["prompt"] = GMChatFrameEditBoxPrompt -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L6)
+--- child of GMChatFrame (created in template FloatingBorderedFrame)
+--- @type Texture
+GMChatFrameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L16)
+--- child of GMChatFrame (created in template FloatingBorderedFrame)
+--- @type Texture
+GMChatFrameTopLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L22)
+--- child of GMChatFrame (created in template FloatingBorderedFrame)
+--- @type Texture
+GMChatFrameBottomLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L29)
+--- child of GMChatFrame (created in template FloatingBorderedFrame)
+--- @type Texture
+GMChatFrameTopRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L36)
+--- child of GMChatFrame (created in template FloatingBorderedFrame)
+--- @type Texture
+GMChatFrameBottomRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L43)
+--- child of GMChatFrame (created in template FloatingBorderedFrame)
+--- @type Texture
+GMChatFrameLeftTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L50)
+--- child of GMChatFrame (created in template FloatingBorderedFrame)
+--- @type Texture
+GMChatFrameRightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L58)
+--- child of GMChatFrame (created in template FloatingBorderedFrame)
+--- @type Texture
+GMChatFrameBottomTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L66)
+--- child of GMChatFrame (created in template FloatingBorderedFrame)
+--- @type Texture
+GMChatFrameTopTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L3)
 --- @class GMChatFrame : ScrollingMessageFrame, FloatingChatFrameTemplate
 GMChatFrame = {}
-GMChatFrame["Background"] = FloatingChatFrameTemplateBackground -- inherited
 GMChatFrame["clickAnywhereButton"] = GMChatFrameClickAnywhereButton -- inherited
 GMChatFrame["ResizeButton"] = GMChatFrameResizeButton -- inherited
 GMChatFrame["buttonFrame"] = GMChatFrameButtonFrame -- inherited
 GMChatFrame["minimizeButton"] = GMChatFrameMinimizeButton -- inherited
 GMChatFrame["editBox"] = GMChatFrameEditBox -- inherited
+GMChatFrame["Background"] = GMChatFrameBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L158)
 --- child of GMChatStatusFrame

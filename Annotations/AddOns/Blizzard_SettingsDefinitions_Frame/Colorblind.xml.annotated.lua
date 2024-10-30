@@ -6,6 +6,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Colorblind.xml#L10)
 --- Template
+--- Adds itself to the parent inside the array `ItemQuality`
 --- @class ColorblindItemQualityTemplate2 : FontString, OptionsFontSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Colorblind.xml#L31)
@@ -68,10 +69,6 @@
 --- child of 
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ItemQuality5 : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Colorblind.xml#L125)
---- child of 
---- @class  : FontString, ColorblindItemQualityTemplate2
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Colorblind.xml#L17)
 --- child of ColorblindSelectorTemplate
 --- @class ColorblindSelectorTemplate_ColorblindExamples : Frame
@@ -90,10 +87,16 @@
 --- @field ExampleIcon6 ColorblindSelectorTemplate_ColorblindExamples_ExampleIcon6
 --- @field ItemQualityText ColorblindSelectorTemplate_ColorblindExamples_ItemQualityText
 --- @field ItemQuality1 ColorblindSelectorTemplate_ColorblindExamples_ItemQuality1
+--- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality1>
 --- @field ItemQuality2 ColorblindSelectorTemplate_ColorblindExamples_ItemQuality2
+--- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality2>
 --- @field ItemQuality3 ColorblindSelectorTemplate_ColorblindExamples_ItemQuality3
+--- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality3>
 --- @field ItemQuality4 ColorblindSelectorTemplate_ColorblindExamples_ItemQuality4
+--- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality4>
 --- @field ItemQuality5 ColorblindSelectorTemplate_ColorblindExamples_ItemQuality5
+--- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality5>
+--- @field ItemQuality table<number, ColorblindItemQualityTemplate2>
 --- @field ExampleIcon1Border Texture
 --- @field ExampleIcon2Border Texture
 --- @field ExampleIcon3Border Texture

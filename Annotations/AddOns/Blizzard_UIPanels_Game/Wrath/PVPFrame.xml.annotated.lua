@@ -505,10 +505,6 @@ PVPFrameToggleButton = {}
 --- @class PVPParentFrame_PVPFrame_PVPFramePortrait : Texture
 PVPFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L52)
---- child of PVPFrame
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/PVPFrame.xml#L114)
 --- child of PVPFrame
 --- @class PVPParentFrame_PVPFrame_PVPFrameBackground : Texture

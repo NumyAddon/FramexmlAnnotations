@@ -126,14 +126,14 @@ TradeSkillHighlight = {}
 TradeSkillHighlightFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill1 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
-TradeSkillSkillButtonTemplateSubText = {}
+TradeSkillSkill1SubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L41)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill1 (created in template ClassTrainerSkillButtonTemplate)
 --- @type Texture
-TradeSkillSkillButtonTemplateHighlight = {}
+TradeSkillSkill1Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L448)
 --- child of TradeSkillFrame
@@ -141,14 +141,14 @@ TradeSkillSkillButtonTemplateHighlight = {}
 TradeSkillSkill1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill2 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
-TradeSkillSkillButtonTemplateSubText = {}
+TradeSkillSkill2SubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L41)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill2 (created in template ClassTrainerSkillButtonTemplate)
 --- @type Texture
-TradeSkillSkillButtonTemplateHighlight = {}
+TradeSkillSkill2Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L457)
 --- child of TradeSkillFrame
@@ -156,14 +156,14 @@ TradeSkillSkillButtonTemplateHighlight = {}
 TradeSkillSkill2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill3 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
-TradeSkillSkillButtonTemplateSubText = {}
+TradeSkillSkill3SubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L41)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill3 (created in template ClassTrainerSkillButtonTemplate)
 --- @type Texture
-TradeSkillSkillButtonTemplateHighlight = {}
+TradeSkillSkill3Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L466)
 --- child of TradeSkillFrame
@@ -171,14 +171,14 @@ TradeSkillSkillButtonTemplateHighlight = {}
 TradeSkillSkill3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill4 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
-TradeSkillSkillButtonTemplateSubText = {}
+TradeSkillSkill4SubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L41)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill4 (created in template ClassTrainerSkillButtonTemplate)
 --- @type Texture
-TradeSkillSkillButtonTemplateHighlight = {}
+TradeSkillSkill4Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L475)
 --- child of TradeSkillFrame
@@ -186,14 +186,14 @@ TradeSkillSkillButtonTemplateHighlight = {}
 TradeSkillSkill4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill5 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
-TradeSkillSkillButtonTemplateSubText = {}
+TradeSkillSkill5SubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L41)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill5 (created in template ClassTrainerSkillButtonTemplate)
 --- @type Texture
-TradeSkillSkillButtonTemplateHighlight = {}
+TradeSkillSkill5Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L484)
 --- child of TradeSkillFrame
@@ -201,14 +201,14 @@ TradeSkillSkillButtonTemplateHighlight = {}
 TradeSkillSkill5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill6 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
-TradeSkillSkillButtonTemplateSubText = {}
+TradeSkillSkill6SubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L41)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill6 (created in template ClassTrainerSkillButtonTemplate)
 --- @type Texture
-TradeSkillSkillButtonTemplateHighlight = {}
+TradeSkillSkill6Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L493)
 --- child of TradeSkillFrame
@@ -216,14 +216,14 @@ TradeSkillSkillButtonTemplateHighlight = {}
 TradeSkillSkill6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill7 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
-TradeSkillSkillButtonTemplateSubText = {}
+TradeSkillSkill7SubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L41)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill7 (created in template ClassTrainerSkillButtonTemplate)
 --- @type Texture
-TradeSkillSkillButtonTemplateHighlight = {}
+TradeSkillSkill7Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L502)
 --- child of TradeSkillFrame
@@ -231,14 +231,14 @@ TradeSkillSkillButtonTemplateHighlight = {}
 TradeSkillSkill7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill8 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
-TradeSkillSkillButtonTemplateSubText = {}
+TradeSkillSkill8SubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L41)
---- child of TradeSkillSkillButtonTemplate (created in template ClassTrainerSkillButtonTemplate)
+--- child of TradeSkillSkill8 (created in template ClassTrainerSkillButtonTemplate)
 --- @type Texture
-TradeSkillSkillButtonTemplateHighlight = {}
+TradeSkillSkill8Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L511)
 --- child of TradeSkillFrame
@@ -246,56 +246,33 @@ TradeSkillSkillButtonTemplateHighlight = {}
 TradeSkillSkill8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L10)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of TradeSkillListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+TradeSkillListScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L18)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of TradeSkillListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+TradeSkillListScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L30)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of TradeSkillListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-FauxScrollFrameTemplateScrollBarThumbTexture = {}
+TradeSkillListScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L46)
---- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of TradeSkillListScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-FauxScrollFrameTemplateScrollBar = {}
-FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
-FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
-FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+TradeSkillListScrollFrameScrollBar = {}
+TradeSkillListScrollFrameScrollBar["ScrollUpButton"] = TradeSkillListScrollFrameScrollBarScrollUpButton -- inherited
+TradeSkillListScrollFrameScrollBar["ScrollDownButton"] = TradeSkillListScrollFrameScrollBarScrollDownButton -- inherited
+TradeSkillListScrollFrameScrollBar["ThumbTexture"] = TradeSkillListScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L520)
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillListScrollFrame : ScrollFrame, ClassTrainerListScrollFrameTemplate
 TradeSkillListScrollFrame = {}
-TradeSkillListScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L10)
---- child of ClassTrainerDetailScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-ClassTrainerDetailScrollFrameTemplateScrollBarScrollUpButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L18)
---- child of ClassTrainerDetailScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-ClassTrainerDetailScrollFrameTemplateScrollBarScrollDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L30)
---- child of ClassTrainerDetailScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-ClassTrainerDetailScrollFrameTemplateScrollBarThumbTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L46)
---- child of ClassTrainerDetailScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-ClassTrainerDetailScrollFrameTemplateScrollBar = {}
-ClassTrainerDetailScrollFrameTemplateScrollBar["ScrollUpButton"] = ClassTrainerDetailScrollFrameTemplateScrollBarScrollUpButton -- inherited
-ClassTrainerDetailScrollFrameTemplateScrollBar["ScrollDownButton"] = ClassTrainerDetailScrollFrameTemplateScrollBarScrollDownButton -- inherited
-ClassTrainerDetailScrollFrameTemplateScrollBar["ThumbTexture"] = ClassTrainerDetailScrollFrameTemplateScrollBarThumbTexture -- inherited
+TradeSkillListScrollFrame["ScrollBar"] = TradeSkillListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L84)
 --- child of TradeSkillDetailScrollFrame (created in template ClassTrainerDetailScrollFrameTemplate)
@@ -307,11 +284,34 @@ TradeSkillDetailScrollFrameTop = {}
 --- @type Texture
 TradeSkillDetailScrollFrameBottom = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L10)
+--- child of TradeSkillDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+TradeSkillDetailScrollFrameScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L18)
+--- child of TradeSkillDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+TradeSkillDetailScrollFrameScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L30)
+--- child of TradeSkillDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+TradeSkillDetailScrollFrameScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L46)
+--- child of TradeSkillDetailScrollFrame (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+TradeSkillDetailScrollFrameScrollBar = {}
+TradeSkillDetailScrollFrameScrollBar["ScrollUpButton"] = TradeSkillDetailScrollFrameScrollBarScrollUpButton -- inherited
+TradeSkillDetailScrollFrameScrollBar["ScrollDownButton"] = TradeSkillDetailScrollFrameScrollBarScrollDownButton -- inherited
+TradeSkillDetailScrollFrameScrollBar["ThumbTexture"] = TradeSkillDetailScrollFrameScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L537)
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillDetailScrollFrame : ScrollFrame, ClassTrainerDetailScrollFrameTemplate
 TradeSkillDetailScrollFrame = {}
-TradeSkillDetailScrollFrame["ScrollBar"] = ClassTrainerDetailScrollFrameTemplateScrollBar -- inherited
+TradeSkillDetailScrollFrame["ScrollBar"] = TradeSkillDetailScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L785)
 --- child of TradeSkillCreateButton

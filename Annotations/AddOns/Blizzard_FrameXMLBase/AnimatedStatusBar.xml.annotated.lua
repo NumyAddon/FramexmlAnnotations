@@ -10,46 +10,6 @@
 --- @field GlowLines Texture
 --- @field Anim AnimatedStatusBarGlowLinesTemplate_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L63)
---- child of 
---- @class  : Translation
---- @field durationPerDistance number # 0.008
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L70)
---- child of 
---- @class  : Scale
---- @field delayPerDistance number # 0.008
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L77)
---- child of 
---- @class  : Scale
---- @field setStatusBarOnUpdate boolean # true
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L91)
---- child of 
---- @class  : Translation
---- @field durationPerDistance number # 0.008
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L98)
---- child of 
---- @class  : Scale
---- @field durationPerDistance number # 0.008
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L108)
---- child of 
---- @class  : Scale
---- @field durationPerDistance number # 0.008
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L117)
---- child of 
---- @class  : Scale
---- @field delayPerDistance number # 0.008
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L124)
---- child of 
---- @class  : Alpha
---- @field delayPerDistance number # 0.008
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L61)
 --- child of AnimatedStatusBarTemplate
 --- @class AnimatedStatusBarTemplate_Anim : AnimationGroup
@@ -59,8 +19,12 @@
 --- @class AnimatedStatusBarTemplate : StatusBar, AnimatedStatusBarMixin
 --- @field tileTemplate string # "AnimatedStatusBarGlowLinesTemplate"
 --- @field BarGain Texture
+--- @field ColorableTextures table<number, Texture>
 --- @field BarTrailGlow Texture
+--- @field ColorableTextures table<number, Texture>
 --- @field BarGlow Texture
+--- @field ColorableTextures table<number, Texture>
 --- @field SparkBurstMove Texture
+--- @field AnimatedTextures table<number, Texture>
 --- @field Anim AnimatedStatusBarTemplate_Anim
 

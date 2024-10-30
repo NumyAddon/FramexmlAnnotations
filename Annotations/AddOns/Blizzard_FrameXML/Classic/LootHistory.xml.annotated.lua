@@ -107,6 +107,6 @@ LootHistoryFrameScrollFrame["ScrollBar"] = LootHistoryFrameScrollFrameScrollBar 
 --- @field Divider Texture
 LootHistoryFrame = {}
 LootHistoryFrame["ScrollFrame"] = LootHistoryFrameScrollFrame
-LootHistoryFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 LootHistoryFrame["backdropColorAlpha"] = 0.8 -- inherited
+LootHistoryFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 

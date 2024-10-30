@@ -34,10 +34,6 @@
 --- @class GlueMenuFrame_GameMenuFrameHeader : Texture
 GameMenuFrameHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L24)
---- child of GlueMenuFrame
---- @class  : FontString, GlueFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L8)
 --- @class GlueMenuFrame : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DIALOG_32_32

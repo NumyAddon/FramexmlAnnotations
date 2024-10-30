@@ -249,31 +249,6 @@ QuestLogDailyQuestCount = {}
 --- @class QuestLogFrame_QuestLogCount : Frame
 QuestLogCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L15)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBG = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L20)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L27)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L34)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L43)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateThumbTexture = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L51)
 --- child of QuestLogListScrollFrameScrollBar (created in template HybridScrollBarTemplate)
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
@@ -284,17 +259,42 @@ QuestLogListScrollFrameScrollBarScrollUpButton = {}
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
 QuestLogListScrollFrameScrollBarScrollDownButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L15)
+--- child of QuestLogListScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+QuestLogListScrollFrameScrollBarBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L20)
+--- child of QuestLogListScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+QuestLogListScrollFrameScrollBarTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L27)
+--- child of QuestLogListScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+QuestLogListScrollFrameScrollBarBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L34)
+--- child of QuestLogListScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+QuestLogListScrollFrameScrollBarMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L43)
+--- child of QuestLogListScrollFrameScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+QuestLogListScrollFrameScrollBarThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L741)
 --- child of QuestLogListScrollFrame
 --- @class QuestLogFrame_QuestLogListScrollFrame_QuestLogListScrollFrameScrollBar : Slider, HybridScrollBarTemplate
 QuestLogListScrollFrameScrollBar = {}
-QuestLogListScrollFrameScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
-QuestLogListScrollFrameScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
-QuestLogListScrollFrameScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
-QuestLogListScrollFrameScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
-QuestLogListScrollFrameScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 QuestLogListScrollFrameScrollBar["ScrollUpButton"] = QuestLogListScrollFrameScrollBarScrollUpButton -- inherited
 QuestLogListScrollFrameScrollBar["ScrollDownButton"] = QuestLogListScrollFrameScrollBarScrollDownButton -- inherited
+QuestLogListScrollFrameScrollBar["trackBG"] = QuestLogListScrollFrameScrollBarBG -- inherited
+QuestLogListScrollFrameScrollBar["ScrollBarTop"] = QuestLogListScrollFrameScrollBarTop -- inherited
+QuestLogListScrollFrameScrollBar["ScrollBarBottom"] = QuestLogListScrollFrameScrollBarBottom -- inherited
+QuestLogListScrollFrameScrollBar["ScrollBarMiddle"] = QuestLogListScrollFrameScrollBarMiddle -- inherited
+QuestLogListScrollFrameScrollBar["thumbTexture"] = QuestLogListScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestLogFrame.xml#L767)
 --- child of QuestLogHighlightFrame

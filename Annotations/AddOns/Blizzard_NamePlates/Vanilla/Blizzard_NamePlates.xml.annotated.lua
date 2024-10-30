@@ -48,6 +48,7 @@ NamePlateDriverFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_NamePlates/Vanilla/Blizzard_NamePlates.xml#L24)
 --- Template
+--- Adds itself to the parent with key `UnitFrame`
 --- @class BaseNamePlateUnitFrameTemplate : Button
 --- @field disableMouse boolean # true
 --- @field healthBar BaseNamePlateUnitFrameTemplate_healthBar

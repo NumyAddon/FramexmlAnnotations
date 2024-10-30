@@ -102,16 +102,6 @@
 --- @field flashAnim UnitPowerBarAltTemplate_flashAnim
 --- @field flashOutAnim UnitPowerBarAltTemplate_flashOutAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L10)
---- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
---- @type Texture
-UnitPowerBarAltTemplateFill = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L16)
---- child of UnitPowerBarAltTemplate (created in template UnitPowerBarAltTexturableTemplate)
---- @type Texture
-UnitPowerBarAltTemplateFlash = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L98)
 --- child of PlayerPowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
 --- @type UnitPowerBarAltCounterTemplate_UnitPowerBarAltCounterTemplateDigit1
@@ -166,17 +156,26 @@ PlayerPowerBarAltCounterBar["digit7"] = PlayerPowerBarAltCounterBarDigit7 -- inh
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L157)
 --- child of PlayerPowerBarAlt (created in template UnitPowerBarAltTemplate)
 --- @type UnitPowerBarAltTemplate_UnitPowerBarAltTemplateStatusFrame
---- @field text UnitPowerBarAltTemplate_UnitPowerBarAltTemplateStatusFrame_UnitPowerBarAltTemplateStatusFrameText
 PlayerPowerBarAltStatusFrame = {}
 PlayerPowerBarAltStatusFrame["text"] = UnitPowerBarAltTemplateStatusFrameText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L10)
+--- child of PlayerPowerBarAlt (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+PlayerPowerBarAltFill = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L16)
+--- child of PlayerPowerBarAlt (created in template UnitPowerBarAltTexturableTemplate)
+--- @type Texture
+PlayerPowerBarAltFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L201)
 --- @class PlayerPowerBarAlt : Frame, UnitPowerBarAltTemplate
 PlayerPowerBarAlt = {}
-PlayerPowerBarAlt["fill"] = UnitPowerBarAltTemplateFill -- inherited
-PlayerPowerBarAlt["flash"] = UnitPowerBarAltTemplateFlash -- inherited
 PlayerPowerBarAlt["counterBar"] = PlayerPowerBarAltCounterBar -- inherited
 PlayerPowerBarAlt["statusFrame"] = PlayerPowerBarAltStatusFrame -- inherited
+PlayerPowerBarAlt["fill"] = PlayerPowerBarAltFill -- inherited
+PlayerPowerBarAlt["flash"] = PlayerPowerBarAltFlash -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/UnitPowerBarAlt.xml#L221)
 --- @class PlayerBuffTimerManager : Frame

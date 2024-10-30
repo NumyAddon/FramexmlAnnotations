@@ -38,6 +38,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L167)
 --- Template
+--- Adds itself to the parent inside the array `SendMailAttachments`
 --- @class SendMailAttachment : Button
 --- @field Count SendMailAttachment_SendMailAttachmentCount
 --- @field IconBorder Texture
@@ -45,6 +46,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L226)
 --- Template
+--- Adds itself to the parent inside the array `OpenMailAttachments`
 --- @class OpenMailAttachment : Button, ItemButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L323)
@@ -73,9 +75,6 @@ MailItem1ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L73)
 --- child of MailItem1 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
 MailItem1Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L36)
@@ -110,9 +109,6 @@ MailItem2ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L73)
 --- child of MailItem2 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
 MailItem2Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L36)
@@ -147,9 +143,6 @@ MailItem3ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L73)
 --- child of MailItem3 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
 MailItem3Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L36)
@@ -184,9 +177,6 @@ MailItem4ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L73)
 --- child of MailItem4 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
 MailItem4Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L36)
@@ -221,9 +211,6 @@ MailItem5ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L73)
 --- child of MailItem5 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
 MailItem5Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L36)
@@ -258,9 +245,6 @@ MailItem6ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L73)
 --- child of MailItem6 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
 MailItem6Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L36)
@@ -295,9 +279,6 @@ MailItem7ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L73)
 --- child of MailItem7 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
 MailItem7Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L36)
@@ -316,18 +297,10 @@ MailItem7Subject = {}
 MailItem7 = {}
 MailItem7["Button"] = MailItem7Button -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L392)
---- child of InboxPrevPageButton
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L385)
 --- child of InboxFrame
 --- @class MailFrame_InboxFrame_InboxPrevPageButton : Button
 InboxPrevPageButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L417)
---- child of InboxNextPageButton
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L410)
 --- child of InboxFrame
@@ -382,12 +355,8 @@ MailEditBox["fontName"] = "GameFontHighlight" -- inherited
 --- child of SendMailFrame
 --- @class MailFrame_SendMailFrame_MailEditBoxScrollBar : EventFrame, WowClassicScrollBar
 MailEditBoxScrollBar = {}
-MailEditBoxScrollBar["canInterpolateScroll"] = false -- inherited
 MailEditBoxScrollBar["minThumbExtent"] = 24 -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L554)
---- child of SendMailNameEditBox
---- @class  : FontString, GameFontNormal
+MailEditBoxScrollBar["canInterpolateScroll"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L559)
 --- child of SendMailNameEditBox
@@ -408,10 +377,6 @@ SendMailNameEditBoxRight = {}
 --- child of SendMailFrame
 --- @class MailFrame_SendMailFrame_SendMailNameEditBox : EditBox, AutoCompleteEditBoxTemplate
 SendMailNameEditBox = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L620)
---- child of SendMailCostMoneyFrame
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L159)
 --- child of SendMailCostMoneyFrame (created in template SmallMoneyFrameTemplate)
@@ -441,10 +406,6 @@ SendMailCostMoneyFrame["trialErrorButton"] = SendMailCostMoneyFrameTrialErrorBut
 SendMailCostMoneyFrame["CopperButton"] = SendMailCostMoneyFrameCopperButton -- inherited
 SendMailCostMoneyFrame["SilverButton"] = SendMailCostMoneyFrameSilverButton -- inherited
 SendMailCostMoneyFrame["GoldButton"] = SendMailCostMoneyFrameGoldButton -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L642)
---- child of SendMailSubjectEditBox
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L647)
 --- child of SendMailSubjectEditBox
@@ -645,22 +606,16 @@ SendMailAttachment16["Count"] = SendMailAttachment16Count -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L8)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateGold
---- @field texture Texture
---- @field label FontString
 SendMailMoneyGold = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L105)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver
---- @field texture Texture
---- @field label FontString
 SendMailMoneySilver = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L205)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper
---- @field texture Texture
---- @field label FontString
 SendMailMoneyCopper = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L713)
@@ -672,26 +627,26 @@ SendMailMoney["silver"] = SendMailMoneySilver -- inherited
 SendMailMoney["copper"] = SendMailMoneyCopper -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L442)
---- child of SendMailRadioButtonTemplate (created in template UIRadioButtonTemplate)
+--- child of SendMailSendMoneyButton (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_UIRadioButtonTemplateText
-SendMailRadioButtonTemplateText = {}
+SendMailSendMoneyButtonText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L723)
 --- child of SendMailMoneyButton
 --- @class MailFrame_SendMailFrame_SendMailMoneyButton_SendMailSendMoneyButton : CheckButton, SendMailRadioButtonTemplate
 SendMailSendMoneyButton = {}
-SendMailSendMoneyButton["text"] = SendMailRadioButtonTemplateText -- inherited
+SendMailSendMoneyButton["text"] = SendMailSendMoneyButtonText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L442)
---- child of SendMailRadioButtonTemplate (created in template UIRadioButtonTemplate)
+--- child of SendMailCODButton (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_UIRadioButtonTemplateText
-SendMailRadioButtonTemplateText = {}
+SendMailCODButtonText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L733)
 --- child of SendMailMoneyButton
 --- @class MailFrame_SendMailFrame_SendMailMoneyButton_SendMailCODButton : CheckButton, SendMailRadioButtonTemplate
 SendMailCODButton = {}
-SendMailCODButton["text"] = SendMailRadioButtonTemplateText -- inherited
+SendMailCODButton["text"] = SendMailCODButtonText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L705)
 --- child of SendMailMoneyButton
@@ -861,42 +816,58 @@ SendMailHorizontalBarLeft2 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L451)
 --- child of MailFrame
 --- @class MailFrame_SendMailFrame : Frame
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment1>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment2>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment3>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment4>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment5>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment6>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment7>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment8>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment9>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment10>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment11>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment12>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment13>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment14>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment15>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment16>
 SendMailFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L9)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeftDisabled = {}
+MailFrameTab1LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L22)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddleDisabled = {}
+MailFrameTab1MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L31)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRightDisabled = {}
+MailFrameTab1RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L40)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeft = {}
+MailFrameTab1Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L49)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddle = {}
+MailFrameTab1Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L58)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRight = {}
+MailFrameTab1Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L113)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateHighlightTexture = {}
+MailFrameTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L823)
 --- child of MailFrame
@@ -904,39 +875,39 @@ FriendsFrameTabTemplateHighlightTexture = {}
 MailFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L9)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeftDisabled = {}
+MailFrameTab2LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L22)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddleDisabled = {}
+MailFrameTab2MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L31)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRightDisabled = {}
+MailFrameTab2RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L40)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeft = {}
+MailFrameTab2Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L49)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddle = {}
+MailFrameTab2Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L58)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRight = {}
+MailFrameTab2Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L113)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of MailFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateHighlightTexture = {}
+MailFrameTab2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L833)
 --- child of MailFrame
@@ -947,81 +918,6 @@ MailFrameTab2 = {}
 --- child of MailFrame
 --- @class MailFrame_MailFrameTrialError : FontString, GameFontNormal
 MailFrameTrialError = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L563)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L569)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
-PortraitFrameTemplateTitleBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L577)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplatePortrait = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L585)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
-PortraitFrameTemplatePortraitFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L590)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
-PortraitFrameTemplateTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L595)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
-PortraitFrameTemplateTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L600)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
-PortraitFrameTemplateTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L606)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
-PortraitFrameTemplateTitleText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L615)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
-PortraitFrameTemplateTopTileStreaks = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L621)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
-PortraitFrameTemplateBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L626)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
-PortraitFrameTemplateBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L631)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
-PortraitFrameTemplateBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L637)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
-PortraitFrameTemplateLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L643)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
-PortraitFrameTemplateRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L657)
---- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L796)
 --- child of MailFrameInset (created in template InsetFrameTemplate)
@@ -1097,27 +993,102 @@ MailFrameBtnCornerRight = {}
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 MailFrameButtonBottomBorder = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L657)
+--- child of MailFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+MailFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L563)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+MailFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L569)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+MailFrameTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L577)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+MailFramePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L585)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+MailFramePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L590)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+MailFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L595)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+MailFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L600)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+MailFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L606)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+MailFrameTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L615)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+MailFrameTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L621)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+MailFrameBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L626)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+MailFrameBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L631)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+MailFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L637)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+MailFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L643)
+--- child of MailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+MailFrameRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L264)
 --- @class MailFrame : Frame, ButtonFrameTemplate
 --- @field trialError MailFrame_MailFrameTrialError
 MailFrame = {}
 MailFrame["trialError"] = MailFrameTrialError
-MailFrame["Bg"] = PortraitFrameTemplateBg -- inherited
-MailFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
-MailFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
-MailFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
-MailFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
-MailFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
-MailFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
-MailFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
-MailFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
-MailFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
-MailFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
-MailFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
-MailFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
-MailFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
-MailFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 MailFrame["Inset"] = MailFrameInset -- inherited
+MailFrame["CloseButton"] = MailFrameCloseButton -- inherited
+MailFrame["Bg"] = MailFrameBg -- inherited
+MailFrame["TitleBg"] = MailFrameTitleBg -- inherited
+MailFrame["portrait"] = MailFramePortrait -- inherited
+MailFrame["PortraitFrame"] = MailFramePortraitFrame -- inherited
+MailFrame["TopRightCorner"] = MailFrameTopRightCorner -- inherited
+MailFrame["TopLeftCorner"] = MailFrameTopLeftCorner -- inherited
+MailFrame["TopBorder"] = MailFrameTopBorder -- inherited
+MailFrame["TitleText"] = MailFrameTitleText -- inherited
+MailFrame["TopTileStreaks"] = MailFrameTopTileStreaks -- inherited
+MailFrame["BotLeftCorner"] = MailFrameBotLeftCorner -- inherited
+MailFrame["BotRightCorner"] = MailFrameBotRightCorner -- inherited
+MailFrame["BottomBorder"] = MailFrameBottomBorder -- inherited
+MailFrame["LeftBorder"] = MailFrameLeftBorder -- inherited
+MailFrame["RightBorder"] = MailFrameRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L918)
 --- child of OpenMailFrame
@@ -1219,628 +1190,628 @@ OpenMailLetterButton["searchOverlay"] = OpenMailLetterButtonSearchOverlay -- inh
 OpenMailLetterButton["subicon"] = OpenMailLetterButtonSubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton1 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton1IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton1 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton1 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton1Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton1 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton1SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton1 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton1SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton1 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton1NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1200)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton1 : Button, OpenMailAttachment
 OpenMailAttachmentButton1 = {}
-OpenMailAttachmentButton1["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton1["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton1["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton1["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton1["icon"] = OpenMailAttachmentButton1IconTexture -- inherited
+OpenMailAttachmentButton1["Count"] = OpenMailAttachmentButton1Count -- inherited
+OpenMailAttachmentButton1["searchOverlay"] = OpenMailAttachmentButton1SearchOverlay -- inherited
+OpenMailAttachmentButton1["subicon"] = OpenMailAttachmentButton1SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton2 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton2IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton2 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton2 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton2Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton2 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton2SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton2 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton2SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton2 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton2NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1201)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton2 : Button, OpenMailAttachment
 OpenMailAttachmentButton2 = {}
-OpenMailAttachmentButton2["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton2["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton2["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton2["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton2["icon"] = OpenMailAttachmentButton2IconTexture -- inherited
+OpenMailAttachmentButton2["Count"] = OpenMailAttachmentButton2Count -- inherited
+OpenMailAttachmentButton2["searchOverlay"] = OpenMailAttachmentButton2SearchOverlay -- inherited
+OpenMailAttachmentButton2["subicon"] = OpenMailAttachmentButton2SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton3 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton3IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton3 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton3Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton3 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton3Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton3 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton3SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton3 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton3SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton3 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton3NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1202)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton3 : Button, OpenMailAttachment
 OpenMailAttachmentButton3 = {}
-OpenMailAttachmentButton3["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton3["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton3["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton3["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton3["icon"] = OpenMailAttachmentButton3IconTexture -- inherited
+OpenMailAttachmentButton3["Count"] = OpenMailAttachmentButton3Count -- inherited
+OpenMailAttachmentButton3["searchOverlay"] = OpenMailAttachmentButton3SearchOverlay -- inherited
+OpenMailAttachmentButton3["subicon"] = OpenMailAttachmentButton3SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton4 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton4IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton4 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton4 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton4Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton4 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton4SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton4 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton4SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton4 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton4NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1203)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton4 : Button, OpenMailAttachment
 OpenMailAttachmentButton4 = {}
-OpenMailAttachmentButton4["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton4["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton4["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton4["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton4["icon"] = OpenMailAttachmentButton4IconTexture -- inherited
+OpenMailAttachmentButton4["Count"] = OpenMailAttachmentButton4Count -- inherited
+OpenMailAttachmentButton4["searchOverlay"] = OpenMailAttachmentButton4SearchOverlay -- inherited
+OpenMailAttachmentButton4["subicon"] = OpenMailAttachmentButton4SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton5 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton5IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton5 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton5Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton5 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton5Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton5 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton5SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton5 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton5SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton5 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton5NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1204)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton5 : Button, OpenMailAttachment
 OpenMailAttachmentButton5 = {}
-OpenMailAttachmentButton5["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton5["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton5["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton5["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton5["icon"] = OpenMailAttachmentButton5IconTexture -- inherited
+OpenMailAttachmentButton5["Count"] = OpenMailAttachmentButton5Count -- inherited
+OpenMailAttachmentButton5["searchOverlay"] = OpenMailAttachmentButton5SearchOverlay -- inherited
+OpenMailAttachmentButton5["subicon"] = OpenMailAttachmentButton5SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton6 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton6IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton6 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton6 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton6Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton6 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton6SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton6 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton6SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton6 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton6NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1205)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton6 : Button, OpenMailAttachment
 OpenMailAttachmentButton6 = {}
-OpenMailAttachmentButton6["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton6["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton6["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton6["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton6["icon"] = OpenMailAttachmentButton6IconTexture -- inherited
+OpenMailAttachmentButton6["Count"] = OpenMailAttachmentButton6Count -- inherited
+OpenMailAttachmentButton6["searchOverlay"] = OpenMailAttachmentButton6SearchOverlay -- inherited
+OpenMailAttachmentButton6["subicon"] = OpenMailAttachmentButton6SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton7 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton7IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton7 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton7Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton7 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton7Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton7 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton7SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton7 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton7SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton7 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton7NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1206)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton7 : Button, OpenMailAttachment
 OpenMailAttachmentButton7 = {}
-OpenMailAttachmentButton7["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton7["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton7["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton7["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton7["icon"] = OpenMailAttachmentButton7IconTexture -- inherited
+OpenMailAttachmentButton7["Count"] = OpenMailAttachmentButton7Count -- inherited
+OpenMailAttachmentButton7["searchOverlay"] = OpenMailAttachmentButton7SearchOverlay -- inherited
+OpenMailAttachmentButton7["subicon"] = OpenMailAttachmentButton7SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton8 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton8IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton8 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton8 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton8Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton8 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton8SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton8 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton8SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton8 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton8NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1207)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton8 : Button, OpenMailAttachment
 OpenMailAttachmentButton8 = {}
-OpenMailAttachmentButton8["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton8["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton8["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton8["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton8["icon"] = OpenMailAttachmentButton8IconTexture -- inherited
+OpenMailAttachmentButton8["Count"] = OpenMailAttachmentButton8Count -- inherited
+OpenMailAttachmentButton8["searchOverlay"] = OpenMailAttachmentButton8SearchOverlay -- inherited
+OpenMailAttachmentButton8["subicon"] = OpenMailAttachmentButton8SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton9 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton9IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton9 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton9Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton9 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton9Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton9 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton9SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton9 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton9SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton9 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton9NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1208)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton9 : Button, OpenMailAttachment
 OpenMailAttachmentButton9 = {}
-OpenMailAttachmentButton9["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton9["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton9["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton9["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton9["icon"] = OpenMailAttachmentButton9IconTexture -- inherited
+OpenMailAttachmentButton9["Count"] = OpenMailAttachmentButton9Count -- inherited
+OpenMailAttachmentButton9["searchOverlay"] = OpenMailAttachmentButton9SearchOverlay -- inherited
+OpenMailAttachmentButton9["subicon"] = OpenMailAttachmentButton9SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton10 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton10IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton10 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton10Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton10 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton10Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton10 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton10SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton10 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton10SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton10 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton10NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1209)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton10 : Button, OpenMailAttachment
 OpenMailAttachmentButton10 = {}
-OpenMailAttachmentButton10["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton10["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton10["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton10["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton10["icon"] = OpenMailAttachmentButton10IconTexture -- inherited
+OpenMailAttachmentButton10["Count"] = OpenMailAttachmentButton10Count -- inherited
+OpenMailAttachmentButton10["searchOverlay"] = OpenMailAttachmentButton10SearchOverlay -- inherited
+OpenMailAttachmentButton10["subicon"] = OpenMailAttachmentButton10SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton11 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton11IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton11 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton11Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton11 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton11Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton11 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton11SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton11 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton11SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton11 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton11NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1210)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton11 : Button, OpenMailAttachment
 OpenMailAttachmentButton11 = {}
-OpenMailAttachmentButton11["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton11["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton11["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton11["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton11["icon"] = OpenMailAttachmentButton11IconTexture -- inherited
+OpenMailAttachmentButton11["Count"] = OpenMailAttachmentButton11Count -- inherited
+OpenMailAttachmentButton11["searchOverlay"] = OpenMailAttachmentButton11SearchOverlay -- inherited
+OpenMailAttachmentButton11["subicon"] = OpenMailAttachmentButton11SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton12 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton12IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton12 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton12Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton12 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton12Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton12 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton12SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton12 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton12SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton12 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton12NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1211)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton12 : Button, OpenMailAttachment
 OpenMailAttachmentButton12 = {}
-OpenMailAttachmentButton12["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton12["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton12["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton12["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton12["icon"] = OpenMailAttachmentButton12IconTexture -- inherited
+OpenMailAttachmentButton12["Count"] = OpenMailAttachmentButton12Count -- inherited
+OpenMailAttachmentButton12["searchOverlay"] = OpenMailAttachmentButton12SearchOverlay -- inherited
+OpenMailAttachmentButton12["subicon"] = OpenMailAttachmentButton12SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton13 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton13IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton13 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton13Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton13 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton13Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton13 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton13SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton13 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton13SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton13 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton13NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1212)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton13 : Button, OpenMailAttachment
 OpenMailAttachmentButton13 = {}
-OpenMailAttachmentButton13["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton13["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton13["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton13["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton13["icon"] = OpenMailAttachmentButton13IconTexture -- inherited
+OpenMailAttachmentButton13["Count"] = OpenMailAttachmentButton13Count -- inherited
+OpenMailAttachmentButton13["searchOverlay"] = OpenMailAttachmentButton13SearchOverlay -- inherited
+OpenMailAttachmentButton13["subicon"] = OpenMailAttachmentButton13SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton14 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton14IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton14 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton14Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton14 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton14Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton14 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton14SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton14 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton14SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton14 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton14NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1213)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton14 : Button, OpenMailAttachment
 OpenMailAttachmentButton14 = {}
-OpenMailAttachmentButton14["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton14["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton14["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton14["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton14["icon"] = OpenMailAttachmentButton14IconTexture -- inherited
+OpenMailAttachmentButton14["Count"] = OpenMailAttachmentButton14Count -- inherited
+OpenMailAttachmentButton14["searchOverlay"] = OpenMailAttachmentButton14SearchOverlay -- inherited
+OpenMailAttachmentButton14["subicon"] = OpenMailAttachmentButton14SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton15 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton15IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton15 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton15Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton15 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton15Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton15 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton15SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton15 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton15SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton15 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton15NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1214)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton15 : Button, OpenMailAttachment
 OpenMailAttachmentButton15 = {}
-OpenMailAttachmentButton15["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton15["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton15["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton15["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton15["icon"] = OpenMailAttachmentButton15IconTexture -- inherited
+OpenMailAttachmentButton15["Count"] = OpenMailAttachmentButton15Count -- inherited
+OpenMailAttachmentButton15["searchOverlay"] = OpenMailAttachmentButton15SearchOverlay -- inherited
+OpenMailAttachmentButton15["subicon"] = OpenMailAttachmentButton15SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton16 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentIconTexture = {}
+OpenMailAttachmentButton16IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L88)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton16 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
-OpenMailAttachmentCount = {}
+OpenMailAttachmentButton16Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L97)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton16 (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
-OpenMailAttachmentStock = {}
+OpenMailAttachmentButton16Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L108)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton16 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSearchOverlay = {}
+OpenMailAttachmentButton16SearchOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L127)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton16 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentSubIconTexture = {}
+OpenMailAttachmentButton16SubIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L135)
---- child of OpenMailAttachment (created in template ItemButtonTemplate)
+--- child of OpenMailAttachmentButton16 (created in template ItemButtonTemplate)
 --- @type Texture
-OpenMailAttachmentNormalTexture = {}
+OpenMailAttachmentButton16NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1215)
 --- child of OpenMailFrame
 --- @class OpenMailFrame_OpenMailAttachmentButton16 : Button, OpenMailAttachment
 OpenMailAttachmentButton16 = {}
-OpenMailAttachmentButton16["icon"] = OpenMailAttachmentIconTexture -- inherited
-OpenMailAttachmentButton16["Count"] = OpenMailAttachmentCount -- inherited
-OpenMailAttachmentButton16["searchOverlay"] = OpenMailAttachmentSearchOverlay -- inherited
-OpenMailAttachmentButton16["subicon"] = OpenMailAttachmentSubIconTexture -- inherited
+OpenMailAttachmentButton16["icon"] = OpenMailAttachmentButton16IconTexture -- inherited
+OpenMailAttachmentButton16["Count"] = OpenMailAttachmentButton16Count -- inherited
+OpenMailAttachmentButton16["searchOverlay"] = OpenMailAttachmentButton16SearchOverlay -- inherited
+OpenMailAttachmentButton16["subicon"] = OpenMailAttachmentButton16SubIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L85)
 --- child of OpenMailMoneyButton (created in template ItemButtonTemplate)
@@ -1934,81 +1905,6 @@ OpenMailSubject = {}
 --- @class OpenMailFrame_OpenMailHorizontalBarLeft : Texture
 OpenMailHorizontalBarLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L563)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L569)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
-PortraitFrameTemplateTitleBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L577)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplatePortrait = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L585)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
-PortraitFrameTemplatePortraitFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L590)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
-PortraitFrameTemplateTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L595)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
-PortraitFrameTemplateTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L600)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
-PortraitFrameTemplateTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L606)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
-PortraitFrameTemplateTitleText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L615)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
-PortraitFrameTemplateTopTileStreaks = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L621)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
-PortraitFrameTemplateBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L626)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
-PortraitFrameTemplateBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L631)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
-PortraitFrameTemplateBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L637)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
-PortraitFrameTemplateLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L643)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
-PortraitFrameTemplateRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L657)
---- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L796)
 --- child of OpenMailFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
@@ -2083,23 +1979,114 @@ OpenMailFrameBtnCornerRight = {}
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 OpenMailFrameButtonBottomBorder = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L657)
+--- child of OpenMailFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+OpenMailFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L563)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+OpenMailFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L569)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+OpenMailFrameTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L577)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+OpenMailFramePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L585)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+OpenMailFramePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L590)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+OpenMailFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L595)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+OpenMailFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L600)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+OpenMailFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L606)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+OpenMailFrameTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L615)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+OpenMailFrameTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L621)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+OpenMailFrameBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L626)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+OpenMailFrameBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L631)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+OpenMailFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L637)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+OpenMailFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L643)
+--- child of OpenMailFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+OpenMailFrameRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L860)
 --- @class OpenMailFrame : Frame, ButtonFrameTemplate
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton1>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton2>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton3>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton4>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton5>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton6>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton7>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton8>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton9>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton10>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton11>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton12>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton13>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton14>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton15>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton16>
 OpenMailFrame = {}
-OpenMailFrame["Bg"] = PortraitFrameTemplateBg -- inherited
-OpenMailFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
-OpenMailFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
-OpenMailFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
-OpenMailFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
-OpenMailFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
-OpenMailFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
-OpenMailFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
-OpenMailFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
-OpenMailFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
-OpenMailFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
-OpenMailFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
-OpenMailFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
-OpenMailFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
-OpenMailFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 OpenMailFrame["Inset"] = OpenMailFrameInset -- inherited
+OpenMailFrame["CloseButton"] = OpenMailFrameCloseButton -- inherited
+OpenMailFrame["Bg"] = OpenMailFrameBg -- inherited
+OpenMailFrame["TitleBg"] = OpenMailFrameTitleBg -- inherited
+OpenMailFrame["portrait"] = OpenMailFramePortrait -- inherited
+OpenMailFrame["PortraitFrame"] = OpenMailFramePortraitFrame -- inherited
+OpenMailFrame["TopRightCorner"] = OpenMailFrameTopRightCorner -- inherited
+OpenMailFrame["TopLeftCorner"] = OpenMailFrameTopLeftCorner -- inherited
+OpenMailFrame["TopBorder"] = OpenMailFrameTopBorder -- inherited
+OpenMailFrame["TitleText"] = OpenMailFrameTitleText -- inherited
+OpenMailFrame["TopTileStreaks"] = OpenMailFrameTopTileStreaks -- inherited
+OpenMailFrame["BotLeftCorner"] = OpenMailFrameBotLeftCorner -- inherited
+OpenMailFrame["BotRightCorner"] = OpenMailFrameBotRightCorner -- inherited
+OpenMailFrame["BottomBorder"] = OpenMailFrameBottomBorder -- inherited
+OpenMailFrame["LeftBorder"] = OpenMailFrameLeftBorder -- inherited
+OpenMailFrame["RightBorder"] = OpenMailFrameRightBorder -- inherited
 

@@ -13,31 +13,6 @@
 --- @class TokenButtonTemplate : Button
 --- @field LinkButton Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L15)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBG = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L20)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L27)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L34)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L43)
---- child of HybridScrollBarTemplate (created in template HybridScrollBarBackgroundTemplate)
---- @type Texture
-HybridScrollBarTemplateThumbTexture = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L51)
 --- child of TokenFrameContainerScrollBar (created in template HybridScrollBarTemplate)
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
@@ -48,21 +23,47 @@ TokenFrameContainerScrollBarScrollUpButton = {}
 --- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
 TokenFrameContainerScrollBarScrollDownButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L15)
+--- child of TokenFrameContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+TokenFrameContainerScrollBarBG = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L20)
+--- child of TokenFrameContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+TokenFrameContainerScrollBarTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L27)
+--- child of TokenFrameContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+TokenFrameContainerScrollBarBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L34)
+--- child of TokenFrameContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+TokenFrameContainerScrollBarMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L43)
+--- child of TokenFrameContainerScrollBar (created in template HybridScrollBarBackgroundTemplate)
+--- @type Texture
+TokenFrameContainerScrollBarThumbTexture = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L221)
 --- child of TokenFrameContainer
 --- @class TokenFrame_TokenFrameContainer_TokenFrameContainerScrollBar : Slider, HybridScrollBarTemplate
 TokenFrameContainerScrollBar = {}
-TokenFrameContainerScrollBar["trackBG"] = HybridScrollBarTemplateBG -- inherited
-TokenFrameContainerScrollBar["ScrollBarTop"] = HybridScrollBarTemplateTop -- inherited
-TokenFrameContainerScrollBar["ScrollBarBottom"] = HybridScrollBarTemplateBottom -- inherited
-TokenFrameContainerScrollBar["ScrollBarMiddle"] = HybridScrollBarTemplateMiddle -- inherited
-TokenFrameContainerScrollBar["thumbTexture"] = HybridScrollBarTemplateThumbTexture -- inherited
 TokenFrameContainerScrollBar["ScrollUpButton"] = TokenFrameContainerScrollBarScrollUpButton -- inherited
 TokenFrameContainerScrollBar["ScrollDownButton"] = TokenFrameContainerScrollBarScrollDownButton -- inherited
+TokenFrameContainerScrollBar["trackBG"] = TokenFrameContainerScrollBarBG -- inherited
+TokenFrameContainerScrollBar["ScrollBarTop"] = TokenFrameContainerScrollBarTop -- inherited
+TokenFrameContainerScrollBar["ScrollBarBottom"] = TokenFrameContainerScrollBarBottom -- inherited
+TokenFrameContainerScrollBar["ScrollBarMiddle"] = TokenFrameContainerScrollBarMiddle -- inherited
+TokenFrameContainerScrollBar["thumbTexture"] = TokenFrameContainerScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L211)
 --- child of TokenFrame
 --- @class TokenFrame_TokenFrameContainer : ScrollFrame, HybridScrollFrameTemplate
+--- @field scrollBar TokenFrame_TokenFrameContainer_TokenFrameContainerScrollBar
 TokenFrameContainer = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L159)
@@ -100,22 +101,18 @@ TokenFrameMoneyFrame["GoldButton"] = TokenFrameMoneyFrameGoldButton -- inherited
 TokenFrameCancelButton = {}
 TokenFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L261)
---- child of TokenFrame
---- @class  : Button, UIPanelCloseButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L154)
 --- @class TokenFrame : Frame
 TokenFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L468)
---- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
-OptionsBaseCheckButtonTemplateText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L21)
 --- child of TokenFramePopupInactiveCheckbox (created in template OptionsSmallCheckButtonTemplate)
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+TokenFramePopupInactiveCheckboxText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L468)
+--- child of TokenFramePopupInactiveCheckbox (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TokenFramePopupInactiveCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L318)
@@ -124,14 +121,14 @@ TokenFramePopupInactiveCheckboxText = {}
 TokenFramePopupInactiveCheckbox = {}
 TokenFramePopupInactiveCheckbox["Text"] = TokenFramePopupInactiveCheckboxText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L468)
---- child of OptionsBaseCheckButtonTemplate (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
-OptionsBaseCheckButtonTemplateText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L21)
 --- child of TokenFramePopupBackpackCheckbox (created in template OptionsSmallCheckButtonTemplate)
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+TokenFramePopupBackpackCheckboxText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L468)
+--- child of TokenFramePopupBackpackCheckbox (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TokenFramePopupBackpackCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L352)

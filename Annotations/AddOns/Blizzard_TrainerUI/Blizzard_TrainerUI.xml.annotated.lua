@@ -210,33 +210,33 @@ ClassTrainerSkill11Highlight = {}
 ClassTrainerSkill11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L10)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of ClassTrainerListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+ClassTrainerListScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L18)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of ClassTrainerListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+ClassTrainerListScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L30)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of ClassTrainerListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-FauxScrollFrameTemplateScrollBarThumbTexture = {}
+ClassTrainerListScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L46)
---- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of ClassTrainerListScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-FauxScrollFrameTemplateScrollBar = {}
-FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
-FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
-FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+ClassTrainerListScrollFrameScrollBar = {}
+ClassTrainerListScrollFrameScrollBar["ScrollUpButton"] = ClassTrainerListScrollFrameScrollBarScrollUpButton -- inherited
+ClassTrainerListScrollFrameScrollBar["ScrollDownButton"] = ClassTrainerListScrollFrameScrollBarScrollDownButton -- inherited
+ClassTrainerListScrollFrameScrollBar["ThumbTexture"] = ClassTrainerListScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L301)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerListScrollFrame : ScrollFrame, ClassTrainerListScrollFrameTemplate
 ClassTrainerListScrollFrame = {}
-ClassTrainerListScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+ClassTrainerListScrollFrame["ScrollBar"] = ClassTrainerListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L159)
 --- child of ClassTrainerMoneyFrame (created in template SmallMoneyFrameTemplate)
@@ -267,29 +267,6 @@ ClassTrainerMoneyFrame["CopperButton"] = ClassTrainerMoneyFrameCopperButton -- i
 ClassTrainerMoneyFrame["SilverButton"] = ClassTrainerMoneyFrameSilverButton -- inherited
 ClassTrainerMoneyFrame["GoldButton"] = ClassTrainerMoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L10)
---- child of ClassTrainerDetailScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-ClassTrainerDetailScrollFrameTemplateScrollBarScrollUpButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L18)
---- child of ClassTrainerDetailScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-ClassTrainerDetailScrollFrameTemplateScrollBarScrollDownButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L30)
---- child of ClassTrainerDetailScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-ClassTrainerDetailScrollFrameTemplateScrollBarThumbTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L46)
---- child of ClassTrainerDetailScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-ClassTrainerDetailScrollFrameTemplateScrollBar = {}
-ClassTrainerDetailScrollFrameTemplateScrollBar["ScrollUpButton"] = ClassTrainerDetailScrollFrameTemplateScrollBarScrollUpButton -- inherited
-ClassTrainerDetailScrollFrameTemplateScrollBar["ScrollDownButton"] = ClassTrainerDetailScrollFrameTemplateScrollBarScrollDownButton -- inherited
-ClassTrainerDetailScrollFrameTemplateScrollBar["ThumbTexture"] = ClassTrainerDetailScrollFrameTemplateScrollBarThumbTexture -- inherited
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L84)
 --- child of ClassTrainerDetailScrollFrame (created in template ClassTrainerDetailScrollFrameTemplate)
 --- @type Texture
@@ -300,11 +277,34 @@ ClassTrainerDetailScrollFrameTop = {}
 --- @type Texture
 ClassTrainerDetailScrollFrameBottom = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L10)
+--- child of ClassTrainerDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+ClassTrainerDetailScrollFrameScrollBarScrollUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L18)
+--- child of ClassTrainerDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+ClassTrainerDetailScrollFrameScrollBarScrollDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L30)
+--- child of ClassTrainerDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
+--- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+ClassTrainerDetailScrollFrameScrollBarThumbTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L46)
+--- child of ClassTrainerDetailScrollFrame (created in template UIPanelScrollFrameTemplate)
+--- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+ClassTrainerDetailScrollFrameScrollBar = {}
+ClassTrainerDetailScrollFrameScrollBar["ScrollUpButton"] = ClassTrainerDetailScrollFrameScrollBarScrollUpButton -- inherited
+ClassTrainerDetailScrollFrameScrollBar["ScrollDownButton"] = ClassTrainerDetailScrollFrameScrollBarScrollDownButton -- inherited
+ClassTrainerDetailScrollFrameScrollBar["ThumbTexture"] = ClassTrainerDetailScrollFrameScrollBarThumbTexture -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L334)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerDetailScrollFrame : ScrollFrame, ClassTrainerDetailScrollFrameTemplate
 ClassTrainerDetailScrollFrame = {}
-ClassTrainerDetailScrollFrame["ScrollBar"] = ClassTrainerDetailScrollFrameTemplateScrollBar -- inherited
+ClassTrainerDetailScrollFrame["ScrollBar"] = ClassTrainerDetailScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L474)
 --- child of ClassTrainerFrame

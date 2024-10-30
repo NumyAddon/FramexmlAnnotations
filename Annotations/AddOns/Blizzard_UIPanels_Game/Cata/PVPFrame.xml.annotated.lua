@@ -229,13 +229,11 @@ PVPFrameTab4 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L1547)
 --- child of PVPFrameConquestBar (created in template CapProgressBarTemplate)
 --- @type CapProgressBarTemplate_CapProgressBarTemplateCap1Marker
---- @field tex Texture
 PVPFrameConquestBarCap1Marker = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L1563)
 --- child of PVPFrameConquestBar (created in template CapProgressBarTemplate)
 --- @type CapProgressBarTemplate_CapProgressBarTemplateCap2Marker
---- @field tex Texture
 PVPFrameConquestBarCap2Marker = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L1469)
@@ -380,33 +378,33 @@ PVPFrameRightButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class PVPFrame_PVPHonorFrame_bgTypeScrollBar : EventFrame, WowClassicScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L10)
---- child of PVPQueueInfoScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of PVPHonorFrameInfoScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-PVPQueueInfoScrollFrameTemplateScrollBarScrollUpButton = {}
+PVPHonorFrameInfoScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L18)
---- child of PVPQueueInfoScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of PVPHonorFrameInfoScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-PVPQueueInfoScrollFrameTemplateScrollBarScrollDownButton = {}
+PVPHonorFrameInfoScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L30)
---- child of PVPQueueInfoScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of PVPHonorFrameInfoScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-PVPQueueInfoScrollFrameTemplateScrollBarThumbTexture = {}
+PVPHonorFrameInfoScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L46)
---- child of PVPQueueInfoScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of PVPHonorFrameInfoScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-PVPQueueInfoScrollFrameTemplateScrollBar = {}
-PVPQueueInfoScrollFrameTemplateScrollBar["ScrollUpButton"] = PVPQueueInfoScrollFrameTemplateScrollBarScrollUpButton -- inherited
-PVPQueueInfoScrollFrameTemplateScrollBar["ScrollDownButton"] = PVPQueueInfoScrollFrameTemplateScrollBarScrollDownButton -- inherited
-PVPQueueInfoScrollFrameTemplateScrollBar["ThumbTexture"] = PVPQueueInfoScrollFrameTemplateScrollBarThumbTexture -- inherited
+PVPHonorFrameInfoScrollFrameScrollBar = {}
+PVPHonorFrameInfoScrollFrameScrollBar["ScrollUpButton"] = PVPHonorFrameInfoScrollFrameScrollBarScrollUpButton -- inherited
+PVPHonorFrameInfoScrollFrameScrollBar["ScrollDownButton"] = PVPHonorFrameInfoScrollFrameScrollBarScrollDownButton -- inherited
+PVPHonorFrameInfoScrollFrameScrollBar["ThumbTexture"] = PVPHonorFrameInfoScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L653)
 --- child of PVPHonorFrame
 --- @class PVPFrame_PVPHonorFrame_PVPHonorFrameInfoScrollFrame : ScrollFrame, PVPQueueInfoScrollFrameTemplate
 PVPHonorFrameInfoScrollFrame = {}
-PVPHonorFrameInfoScrollFrame["ScrollBar"] = PVPQueueInfoScrollFrameTemplateScrollBar -- inherited
+PVPHonorFrameInfoScrollFrame["ScrollBar"] = PVPHonorFrameInfoScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L596)
 --- child of PVPHonorFrame
@@ -1269,8 +1267,6 @@ PVPTeamManagementFrameWeeklyDisplay = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L284)
 --- child of PVPDropDown (created in template UIDropDownMenuTemplate)
 --- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
 PVPDropDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L226)
@@ -2308,81 +2304,6 @@ PVPFrameLowLevelFrame["ShadowBottom"] = PVPFrameLowLevelFrameShadowBottom -- inh
 PVPFrameLowLevelFrame["ShadowLeft"] = PVPFrameLowLevelFrameShadowLeft -- inherited
 PVPFrameLowLevelFrame["ShadowRight"] = PVPFrameLowLevelFrameShadowRight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L563)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L569)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
-PortraitFrameTemplateTitleBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L577)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplatePortrait = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L585)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
-PortraitFrameTemplatePortraitFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L590)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
-PortraitFrameTemplateTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L595)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
-PortraitFrameTemplateTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L600)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
-PortraitFrameTemplateTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L606)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
-PortraitFrameTemplateTitleText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L615)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
-PortraitFrameTemplateTopTileStreaks = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L621)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
-PortraitFrameTemplateBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L626)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
-PortraitFrameTemplateBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L631)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
-PortraitFrameTemplateBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L637)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
-PortraitFrameTemplateLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L643)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
-PortraitFrameTemplateRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L657)
---- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L796)
 --- child of PVPFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
@@ -2457,6 +2378,81 @@ PVPFrameBtnCornerRight = {}
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 PVPFrameButtonBottomBorder = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L657)
+--- child of PVPFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+PVPFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L563)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PVPFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L569)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+PVPFrameTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L577)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+PVPFramePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L585)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+PVPFramePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L590)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+PVPFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L595)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+PVPFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L600)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+PVPFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L606)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+PVPFrameTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L615)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+PVPFrameTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L621)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+PVPFrameBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L626)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+PVPFrameBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L631)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+PVPFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L637)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+PVPFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L643)
+--- child of PVPFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+PVPFrameRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L391)
 --- @class PVPFrame : Frame, ButtonFrameTemplate
 --- @field TankIcon PVPFrame_TankIcon
@@ -2475,22 +2471,22 @@ PVPFrame["panel2"] = PVPConquestFrame
 PVPFrame["panel3"] = PVPTeamManagementFrame
 PVPFrame["panel4"] = WarGamesFrame
 PVPFrame["lowLevelFrame"] = PVPFrameLowLevelFrame
-PVPFrame["Bg"] = PortraitFrameTemplateBg -- inherited
-PVPFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
-PVPFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
-PVPFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
-PVPFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
-PVPFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
-PVPFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
-PVPFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
-PVPFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
-PVPFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
-PVPFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
-PVPFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
-PVPFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
-PVPFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
-PVPFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 PVPFrame["Inset"] = PVPFrameInset -- inherited
+PVPFrame["CloseButton"] = PVPFrameCloseButton -- inherited
+PVPFrame["Bg"] = PVPFrameBg -- inherited
+PVPFrame["TitleBg"] = PVPFrameTitleBg -- inherited
+PVPFrame["portrait"] = PVPFramePortrait -- inherited
+PVPFrame["PortraitFrame"] = PVPFramePortraitFrame -- inherited
+PVPFrame["TopRightCorner"] = PVPFrameTopRightCorner -- inherited
+PVPFrame["TopLeftCorner"] = PVPFrameTopLeftCorner -- inherited
+PVPFrame["TopBorder"] = PVPFrameTopBorder -- inherited
+PVPFrame["TitleText"] = PVPFrameTitleText -- inherited
+PVPFrame["TopTileStreaks"] = PVPFrameTopTileStreaks -- inherited
+PVPFrame["BotLeftCorner"] = PVPFrameBotLeftCorner -- inherited
+PVPFrame["BotRightCorner"] = PVPFrameBotRightCorner -- inherited
+PVPFrame["BottomBorder"] = PVPFrameBottomBorder -- inherited
+PVPFrame["LeftBorder"] = PVPFrameLeftBorder -- inherited
+PVPFrame["RightBorder"] = PVPFrameRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2056)
 --- @class PVPTimerFrame : Frame

@@ -10,6 +10,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L30)
 --- Template
+--- Adds itself to the parent inside the array `FilterButtons`
 --- @class AuctionClassButtonTemplate : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L84)
@@ -43,6 +44,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L199)
 --- Template
+--- Adds itself to the parent inside the array `LogButtons`
 --- @class WowTokenLogButtonTemplate : Button
 --- @field BG Texture
 --- @field Date WowTokenLogButtonTemplate_Date
@@ -213,10 +215,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L1109)
 --- child of AuctionsButtonTemplateBuyoutFrame
 --- @class AuctionsButtonTemplate_AuctionsButtonTemplateBuyoutFrame_AuctionsButtonTemplateBuyoutFrameMoney : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L1132)
---- child of AuctionsButtonTemplateBuyoutFrameText
---- @class  : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUITemplates.xml#L1121)
 --- child of AuctionsButtonTemplateBuyoutFrame

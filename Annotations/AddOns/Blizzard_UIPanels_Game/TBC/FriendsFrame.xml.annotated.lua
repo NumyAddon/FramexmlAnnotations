@@ -237,10 +237,6 @@ FriendsFrameBattlenetFrameScrollFrameScrollBar["ThumbTexture"] = FriendsFrameBat
 FriendsFrameBattlenetFrameScrollFrame = {}
 FriendsFrameBattlenetFrameScrollFrame["ScrollBar"] = FriendsFrameBattlenetFrameScrollFrameScrollBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L846)
---- child of 
---- @class  : FontString, GameFontNormalMed3
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L827)
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame : Frame, BackdropTemplate
@@ -465,10 +461,6 @@ FriendsListFramePlayerIcon = {}
 --- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFrameTitle : FontString, GameFontNormal
 FriendsListFrameTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1285)
---- child of 
---- @class  : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1248)
 --- child of FriendsListFrame
 --- @class FriendsFrame_FriendsListFrame_RIDWarning : Frame
@@ -581,6 +573,7 @@ FriendsFrameFriendsScrollFrameMiddle = {}
 --- child of FriendsListFrame
 --- @class FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame : ScrollFrame, HybridScrollFrameTemplate
 --- @field PendingInvitesHeaderButton FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton
+--- @field scrollBar FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_FriendsFrameFriendsScrollFrameScrollBar
 FriendsFrameFriendsScrollFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1220)
@@ -643,33 +636,33 @@ FriendsFrameIgnoreButton1 = {}
 FriendsFrameIgnoreButton1["name"] = FriendsFrameIgnoreButton1Name -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L10)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of FriendsFrameIgnoreScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+FriendsFrameIgnoreScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L18)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of FriendsFrameIgnoreScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+FriendsFrameIgnoreScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L30)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of FriendsFrameIgnoreScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-FauxScrollFrameTemplateScrollBarThumbTexture = {}
+FriendsFrameIgnoreScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L46)
---- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of FriendsFrameIgnoreScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-FauxScrollFrameTemplateScrollBar = {}
-FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
-FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
-FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+FriendsFrameIgnoreScrollFrameScrollBar = {}
+FriendsFrameIgnoreScrollFrameScrollBar["ScrollUpButton"] = FriendsFrameIgnoreScrollFrameScrollBarScrollUpButton -- inherited
+FriendsFrameIgnoreScrollFrameScrollBar["ScrollDownButton"] = FriendsFrameIgnoreScrollFrameScrollBarScrollDownButton -- inherited
+FriendsFrameIgnoreScrollFrameScrollBar["ThumbTexture"] = FriendsFrameIgnoreScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1494)
 --- child of IgnoreListFrame
 --- @class FriendsFrame_IgnoreListFrame_FriendsFrameIgnoreScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 FriendsFrameIgnoreScrollFrame = {}
-FriendsFrameIgnoreScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+FriendsFrameIgnoreScrollFrame["ScrollBar"] = FriendsFrameIgnoreScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1416)
 --- child of IgnoreListFrame
@@ -986,33 +979,33 @@ WhoFrameEditBoxInset["InsetBorderRight"] = WhoFrameEditBoxInsetInsetRightBorder 
 WhoFrameEditBox = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L10)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of WhoListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+WhoListScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L18)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of WhoListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+WhoListScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L30)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of WhoListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-FauxScrollFrameTemplateScrollBarThumbTexture = {}
+WhoListScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L46)
---- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of WhoListScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-FauxScrollFrameTemplateScrollBar = {}
-FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
-FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
-FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+WhoListScrollFrameScrollBar = {}
+WhoListScrollFrameScrollBar["ScrollUpButton"] = WhoListScrollFrameScrollBarScrollUpButton -- inherited
+WhoListScrollFrameScrollBar["ScrollDownButton"] = WhoListScrollFrameScrollBarScrollDownButton -- inherited
+WhoListScrollFrameScrollBar["ThumbTexture"] = WhoListScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1674)
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 WhoListScrollFrame = {}
-WhoListScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+WhoListScrollFrame["ScrollBar"] = WhoListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1514)
 --- child of FriendsFrame
@@ -2113,33 +2106,33 @@ GuildNameChangeAlertFrame["ShadowLeft"] = GuildNameChangeAlertFrameShadowLeft --
 GuildNameChangeAlertFrame["ShadowRight"] = GuildNameChangeAlertFrameShadowRight -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L10)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of GuildListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+GuildListScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L18)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of GuildListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+GuildListScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L30)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of GuildListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-FauxScrollFrameTemplateScrollBarThumbTexture = {}
+GuildListScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L46)
---- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of GuildListScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-FauxScrollFrameTemplateScrollBar = {}
-FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
-FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
-FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+GuildListScrollFrameScrollBar = {}
+GuildListScrollFrameScrollBar["ScrollUpButton"] = GuildListScrollFrameScrollBarScrollUpButton -- inherited
+GuildListScrollFrameScrollBar["ScrollDownButton"] = GuildListScrollFrameScrollBarScrollDownButton -- inherited
+GuildListScrollFrameScrollBar["ThumbTexture"] = GuildListScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2391)
 --- child of GuildFrame
 --- @class FriendsFrame_GuildFrame_GuildListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 GuildListScrollFrame = {}
-GuildListScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
+GuildListScrollFrame["ScrollBar"] = GuildListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2438)
 --- child of GuildFrame
@@ -2416,10 +2409,6 @@ GuildControlPopupFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherite
 GuildControlPopupAcceptButton = {}
 GuildControlPopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3120)
---- child of GuildControlPopupFrameEditBox
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3081)
 --- child of GuildControlPopupFrame
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameEditBox : EditBox
@@ -2547,14 +2536,6 @@ GuildBankTabLabel = {}
 GuildControlPopupFrameTabPermissions = {}
 GuildControlPopupFrameTabPermissions["backdropColor"] = VERY_DARK_GRAY_COLOR
 GuildControlPopupFrameTabPermissions["layoutType"] = "TooltipDefaultLayout" -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2708)
---- child of GuildControlPopupFrame
---- @class  : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2717)
---- child of GuildControlPopupFrame
---- @class  : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2634)
 --- child of FriendsFrame
@@ -2742,39 +2723,39 @@ GuildMemberDetailFrame = {}
 GuildMemberDetailFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L9)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeftDisabled = {}
+FriendsFrameTab1LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L22)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddleDisabled = {}
+FriendsFrameTab1MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L31)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRightDisabled = {}
+FriendsFrameTab1RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L40)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeft = {}
+FriendsFrameTab1Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L49)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddle = {}
+FriendsFrameTab1Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L58)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRight = {}
+FriendsFrameTab1Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L113)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateHighlightTexture = {}
+FriendsFrameTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3861)
 --- child of FriendsFrame
@@ -2782,39 +2763,39 @@ FriendsFrameTabTemplateHighlightTexture = {}
 FriendsFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L9)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeftDisabled = {}
+FriendsFrameTab2LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L22)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddleDisabled = {}
+FriendsFrameTab2MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L31)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRightDisabled = {}
+FriendsFrameTab2RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L40)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeft = {}
+FriendsFrameTab2Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L49)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddle = {}
+FriendsFrameTab2Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L58)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRight = {}
+FriendsFrameTab2Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L113)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateHighlightTexture = {}
+FriendsFrameTab2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3876)
 --- child of FriendsFrame
@@ -2822,39 +2803,39 @@ FriendsFrameTabTemplateHighlightTexture = {}
 FriendsFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L9)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeftDisabled = {}
+FriendsFrameTab3LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L22)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddleDisabled = {}
+FriendsFrameTab3MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L31)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRightDisabled = {}
+FriendsFrameTab3RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L40)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeft = {}
+FriendsFrameTab3Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L49)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddle = {}
+FriendsFrameTab3Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L58)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRight = {}
+FriendsFrameTab3Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L113)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateHighlightTexture = {}
+FriendsFrameTab3HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3891)
 --- child of FriendsFrame
@@ -2862,39 +2843,39 @@ FriendsFrameTabTemplateHighlightTexture = {}
 FriendsFrameTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L9)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeftDisabled = {}
+FriendsFrameTab4LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L22)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddleDisabled = {}
+FriendsFrameTab4MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L31)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRightDisabled = {}
+FriendsFrameTab4RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L40)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeft = {}
+FriendsFrameTab4Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L49)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddle = {}
+FriendsFrameTab4Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L58)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRight = {}
+FriendsFrameTab4Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L113)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateHighlightTexture = {}
+FriendsFrameTab4HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3906)
 --- child of FriendsFrame
@@ -2907,39 +2888,39 @@ FriendsFrameTab4 = {}
 --- @field UnreadNotificationIcon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L9)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeftDisabled = {}
+FriendsFrameTab5LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L22)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddleDisabled = {}
+FriendsFrameTab5MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L31)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRightDisabled = {}
+FriendsFrameTab5RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L40)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateLeft = {}
+FriendsFrameTab5Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L49)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateMiddle = {}
+FriendsFrameTab5Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L58)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateRight = {}
+FriendsFrameTab5Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L113)
---- child of FriendsFrameTabTemplate (created in template CharacterFrameTabButtonTemplate)
+--- child of FriendsFrameTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-FriendsFrameTabTemplateHighlightTexture = {}
+FriendsFrameTab5HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3925)
 --- child of FriendsFrame
@@ -3053,81 +3034,6 @@ FriendsFrameIcon = {}
 --- @class FriendsFrame_FriendsFrameTitleText : FontString, GameFontNormal
 FriendsFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L563)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L569)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
-PortraitFrameTemplateTitleBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L577)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type Texture
-PortraitFrameTemplatePortrait = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L585)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
-PortraitFrameTemplatePortraitFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L590)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
-PortraitFrameTemplateTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L595)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
-PortraitFrameTemplateTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L600)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
-PortraitFrameTemplateTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L606)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
-PortraitFrameTemplateTitleText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L615)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
-PortraitFrameTemplateTopTileStreaks = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L621)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
-PortraitFrameTemplateBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L626)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
-PortraitFrameTemplateBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L631)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
-PortraitFrameTemplateBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
-PortraitFrameTemplateLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L643)
---- child of PortraitFrameTemplate (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
-PortraitFrameTemplateRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L657)
---- child of ButtonFrameTemplate (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L796)
 --- child of FriendsFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
@@ -3202,27 +3108,102 @@ FriendsFrameBtnCornerRight = {}
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 FriendsFrameButtonBottomBorder = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L657)
+--- child of FriendsFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+FriendsFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L563)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+FriendsFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L569)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+FriendsFrameTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L577)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+FriendsFramePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L585)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+FriendsFramePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L590)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+FriendsFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L595)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+FriendsFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L600)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+FriendsFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L606)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+FriendsFrameTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L615)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+FriendsFrameTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L621)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+FriendsFrameBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L626)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+FriendsFrameBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L631)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+FriendsFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+FriendsFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L643)
+--- child of FriendsFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+FriendsFrameRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L734)
 --- @class FriendsFrame : Frame, ButtonFrameTemplate
 --- @field FriendsTabHeader FriendsFrame_FriendsTabHeader
 FriendsFrame = {}
 FriendsFrame["FriendsTabHeader"] = FriendsTabHeader
-FriendsFrame["Bg"] = PortraitFrameTemplateBg -- inherited
-FriendsFrame["TitleBg"] = PortraitFrameTemplateTitleBg -- inherited
-FriendsFrame["portrait"] = PortraitFrameTemplatePortrait -- inherited
-FriendsFrame["PortraitFrame"] = PortraitFrameTemplatePortraitFrame -- inherited
-FriendsFrame["TopRightCorner"] = PortraitFrameTemplateTopRightCorner -- inherited
-FriendsFrame["TopLeftCorner"] = PortraitFrameTemplateTopLeftCorner -- inherited
-FriendsFrame["TopBorder"] = PortraitFrameTemplateTopBorder -- inherited
-FriendsFrame["TitleText"] = PortraitFrameTemplateTitleText -- inherited
-FriendsFrame["TopTileStreaks"] = PortraitFrameTemplateTopTileStreaks -- inherited
-FriendsFrame["BotLeftCorner"] = PortraitFrameTemplateBotLeftCorner -- inherited
-FriendsFrame["BotRightCorner"] = PortraitFrameTemplateBotRightCorner -- inherited
-FriendsFrame["BottomBorder"] = PortraitFrameTemplateBottomBorder -- inherited
-FriendsFrame["LeftBorder"] = PortraitFrameTemplateLeftBorder -- inherited
-FriendsFrame["RightBorder"] = PortraitFrameTemplateRightBorder -- inherited
-FriendsFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
 FriendsFrame["Inset"] = FriendsFrameInset -- inherited
+FriendsFrame["CloseButton"] = FriendsFrameCloseButton -- inherited
+FriendsFrame["Bg"] = FriendsFrameBg -- inherited
+FriendsFrame["TitleBg"] = FriendsFrameTitleBg -- inherited
+FriendsFrame["portrait"] = FriendsFramePortrait -- inherited
+FriendsFrame["PortraitFrame"] = FriendsFramePortraitFrame -- inherited
+FriendsFrame["TopRightCorner"] = FriendsFrameTopRightCorner -- inherited
+FriendsFrame["TopLeftCorner"] = FriendsFrameTopLeftCorner -- inherited
+FriendsFrame["TopBorder"] = FriendsFrameTopBorder -- inherited
+FriendsFrame["TitleText"] = FriendsFrameTitleText -- inherited
+FriendsFrame["TopTileStreaks"] = FriendsFrameTopTileStreaks -- inherited
+FriendsFrame["BotLeftCorner"] = FriendsFrameBotLeftCorner -- inherited
+FriendsFrame["BotRightCorner"] = FriendsFrameBotRightCorner -- inherited
+FriendsFrame["BottomBorder"] = FriendsFrameBottomBorder -- inherited
+FriendsFrame["LeftBorder"] = FriendsFrameLeftBorder -- inherited
+FriendsFrame["RightBorder"] = FriendsFrameRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4175)
 --- child of AddFriendInfoFrame
@@ -3254,14 +3235,6 @@ AddFriendInfoFrameLeftTitle = {}
 --- child of AddFriendInfoFrame
 --- @class AddFriendFrame_AddFriendInfoFrame_AddFriendInfoFrameRightTitle : FontString, GameFontNormal
 AddFriendInfoFrameRightTitle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4160)
---- child of AddFriendInfoFrame
---- @class  : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4166)
---- child of AddFriendInfoFrame
---- @class  : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4121)
 --- child of AddFriendFrame
@@ -3596,37 +3569,33 @@ FriendsFriendsButton11 = {}
 FriendsFriendsButton11["name"] = FriendsFriendsButton11Name -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L10)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of FriendsFriendsScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
-FauxScrollFrameTemplateScrollBarScrollUpButton = {}
+FriendsFriendsScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L18)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of FriendsFriendsScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
-FauxScrollFrameTemplateScrollBarScrollDownButton = {}
+FriendsFriendsScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L30)
---- child of FauxScrollFrameTemplateScrollBar (created in template UIPanelScrollBarTemplate)
+--- child of FriendsFriendsScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
-FauxScrollFrameTemplateScrollBarThumbTexture = {}
+FriendsFriendsScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L46)
---- child of FauxScrollFrameTemplate (created in template UIPanelScrollFrameTemplate)
+--- child of FriendsFriendsScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
-FauxScrollFrameTemplateScrollBar = {}
-FauxScrollFrameTemplateScrollBar["ScrollUpButton"] = FauxScrollFrameTemplateScrollBarScrollUpButton -- inherited
-FauxScrollFrameTemplateScrollBar["ScrollDownButton"] = FauxScrollFrameTemplateScrollBarScrollDownButton -- inherited
-FauxScrollFrameTemplateScrollBar["ThumbTexture"] = FauxScrollFrameTemplateScrollBarThumbTexture -- inherited
+FriendsFriendsScrollFrameScrollBar = {}
+FriendsFriendsScrollFrameScrollBar["ScrollUpButton"] = FriendsFriendsScrollFrameScrollBarScrollUpButton -- inherited
+FriendsFriendsScrollFrameScrollBar["ScrollDownButton"] = FriendsFriendsScrollFrameScrollBarScrollDownButton -- inherited
+FriendsFriendsScrollFrameScrollBar["ThumbTexture"] = FriendsFriendsScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4580)
 --- child of FriendsFriendsFrame
 --- @class FriendsFriendsFrame_FriendsFriendsScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 FriendsFriendsScrollFrame = {}
-FriendsFriendsScrollFrame["ScrollBar"] = FauxScrollFrameTemplateScrollBar -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4598)
---- child of FriendsFriendsWaitFrame
---- @class  : FontString, ChatFontNormal
+FriendsFriendsScrollFrame["ScrollBar"] = FriendsFriendsScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4591)
 --- child of FriendsFriendsFrame
@@ -3656,18 +3625,6 @@ FriendsFriendsFrameTitle = {}
 --- @field FriendsDropdown FriendsFriendsFrame_FriendsFriendsFrameDropdown
 FriendsFriendsFrame = {}
 FriendsFriendsFrame["FriendsDropdown"] = FriendsFriendsFrameDropdown
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4671)
---- child of BattleTagInviteFrame
---- @class  : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4684)
---- child of BattleTagInviteFrame
---- @class  : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4651)
---- child of BattleTagInviteFrame
---- @class  : FontString, FriendsFont_Normal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4656)
 --- child of BattleTagInviteFrame

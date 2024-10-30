@@ -126,14 +126,6 @@ CharacterUpgradeSelectCharacterFrameGlowRight = {}
 --- @field GlowLeft CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowLeft
 --- @field GlowRight CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox_CharacterUpgradeSelectCharacterFrameGlowRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L192)
---- child of 
---- @class  : Frame, CharacterServicesArrowTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L193)
---- child of 
---- @class  : Frame, CharacterServicesBonusIconTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L199)
 --- child of 
 --- @class CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel_BonusIcon : Texture, services-icon-bonus-large
@@ -166,14 +158,12 @@ CharacterUpgradeSelectCharacterFrameGlowRight = {}
 --- @field CreateCharacterButton CharacterUpgradeSelectCharacterFrame_ControlsFrame_CreateCharacterButton
 --- @field CreateCharacterClassTrialButton CharacterUpgradeSelectCharacterFrame_ControlsFrame_CreateCharacterClassTrialButton
 --- @field GlowBox CharacterUpgradeSelectCharacterFrame_ControlsFrame_GlowBox
+--- @field Arrows table<number, >
+--- @field BonusIcons table<number, >
 --- @field BonusLabel CharacterUpgradeSelectCharacterFrame_ControlsFrame_BonusLabel
 --- @field OrLabel CharacterUpgradeSelectCharacterFrame_ControlsFrame_OrLabel
 --- @field OrLabel2 CharacterUpgradeSelectCharacterFrame_ControlsFrame_OrLabel2
 --- @field ClassTrialButtonHintText CharacterUpgradeSelectCharacterFrame_ControlsFrame_ClassTrialButtonHintText
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L215)
---- child of CharacterUpgradeSelectCharacterFrame
---- @class  : Frame, CharacterServicesBonusResultTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L223)
 --- child of 
@@ -192,6 +182,7 @@ CharacterUpgradeSelectCharacterFrameGlowRight = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterServices.xml#L84)
 --- @class CharacterUpgradeSelectCharacterFrame : Frame, CharacterServicesBlockTemplate
 --- @field ControlsFrame CharacterUpgradeSelectCharacterFrame_ControlsFrame
+--- @field BonusResults table<number, >
 --- @field NoBonusResult CharacterUpgradeSelectCharacterFrame_NoBonusResult
 CharacterUpgradeSelectCharacterFrame = {}
 

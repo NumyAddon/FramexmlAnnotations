@@ -32,6 +32,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L122)
 --- Template
+--- Adds itself to the parent with key `navBar`
 --- @class NavBarTemplate : Frame
 --- @field overlay NavBarTemplate_overlay
 --- @field overflow NavBarTemplate_NavBarTemplateOverflowButton

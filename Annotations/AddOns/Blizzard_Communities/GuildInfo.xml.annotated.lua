@@ -63,14 +63,14 @@
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_Header2Label : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L154)
---- child of CommunitiesGuildInfoFrameTemplate
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L60)
 --- Template
 --- @class CommunitiesGuildInfoFrameTemplate : Frame
 --- @field MOTDScrollFrame CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateMOTDScrollFrame
+--- @field Challenges table<number, CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge1>
+--- @field Challenges table<number, CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge2>
+--- @field Challenges table<number, CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge3>
+--- @field Challenges table<number, CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge4>
 --- @field EditMOTDButton CommunitiesGuildInfoFrameTemplate_EditMOTDButton
 --- @field EditDetailsButton CommunitiesGuildInfoFrameTemplate_EditDetailsButton
 --- @field DetailsFrame CommunitiesGuildInfoFrameTemplate_DetailsFrame

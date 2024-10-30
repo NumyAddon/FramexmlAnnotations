@@ -11,7 +11,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1262)
 --- child of  (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
 ToyBoxClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1253)
@@ -100,49 +99,49 @@ ToyBoxSearchIcon = {}
 --- @class ToyBox_iconsFrame_spellButton18 : CheckButton, ToySpellButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L796)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type Texture
-CollectionsBackgroundTemplateBg = {}
+ToyBoxBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L804)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-CollectionsBackgroundTemplateInsetTopLeftCorner = {}
+ToyBoxInsetTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L809)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-CollectionsBackgroundTemplateInsetTopRightCorner = {}
+ToyBoxInsetTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L815)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-CollectionsBackgroundTemplateInsetBotLeftCorner = {}
+ToyBoxInsetBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L821)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-CollectionsBackgroundTemplateInsetBotRightCorner = {}
+ToyBoxInsetBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L827)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-CollectionsBackgroundTemplateInsetTopBorder = {}
+ToyBoxInsetTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L833)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-CollectionsBackgroundTemplateInsetBottomBorder = {}
+ToyBoxInsetBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L839)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-CollectionsBackgroundTemplateInsetLeftBorder = {}
+ToyBoxInsetLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L845)
---- child of CollectionsBackgroundTemplate (created in template InsetFrameTemplate)
+--- child of  (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-CollectionsBackgroundTemplateInsetRightBorder = {}
+ToyBoxInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L42)
 --- child of ToyBox

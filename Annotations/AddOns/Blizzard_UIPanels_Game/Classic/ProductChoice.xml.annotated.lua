@@ -187,7 +187,7 @@ ProductChoiceFrameInsetRightBorder = {}
 --- @field PrevPageButton ProductChoiceFrame_Inset_PrevPageButton
 --- @field NextPageButton ProductChoiceFrame_Inset_NextPageButton
 --- @field PageText ProductChoiceFrame_Inset_PageText
---- @field Buttons table<number, >
+--- @field Buttons table<number, ProductChoiceItemTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L153)
 --- child of ProductChoiceFrame

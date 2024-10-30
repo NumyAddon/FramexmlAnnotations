@@ -20,7 +20,7 @@
 --- @field Icon3 Texture
 --- @field Icon4 Texture
 --- @field Icon5 Texture
---- @field Icons table<number, Texture | Texture | Texture | Texture | Texture>
+--- @field Icons table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L79)
 --- child of 
@@ -389,7 +389,7 @@ LFGListFrameInsetRightBorder = {}
 --- @field FindGroupButton LFGListFrame_CategorySelection_FindGroupButton
 --- @field StartGroupButton LFGListFrame_CategorySelection_StartGroupButton
 --- @field Label LFGListFrame_CategorySelection_Label
---- @field CategoryButtons table<number, >
+--- @field CategoryButtons table<number, LFGListCategoryTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L796)
 --- child of  (created in template InsetFrameTemplate)
@@ -454,7 +454,7 @@ LFGListFrameInsetRightBorder = {}
 --- @class LFGListFrame_NothingAvailable : Frame, LFGListPanelTemplate
 --- @field updateAll any # LFGListNothingAvailable_Update
 --- @field Inset LFGListFrame_NothingAvailable_Inset
---- @field Label LFGListFrame_NothingAvailable_Label | LFGListFrame_NothingAvailable_Label
+--- @field Label LFGListFrame_NothingAvailable_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1262)
 --- child of  (created in template SearchBoxTemplate)
@@ -502,7 +502,7 @@ LFGListFrameSearchIcon = {}
 --- @field BottomBorder LFGListFrame_SearchPanel_AutoCompleteFrame_BottomBorder
 --- @field LeftBorder LFGListFrame_SearchPanel_AutoCompleteFrame_LeftBorder
 --- @field RightBorder LFGListFrame_SearchPanel_AutoCompleteFrame_RightBorder
---- @field Results table<number, >
+--- @field Results table<number, LFGListSearchAutoCompleteButtonTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1207)
 --- child of 

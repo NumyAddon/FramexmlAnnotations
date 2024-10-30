@@ -325,7 +325,7 @@ class XmlFileParser
             }
         }
         foreach ($mergedParentKeys as $key => $types) {
-            $data .= '--- @field ' . $key . ' ' . implode(' | ', $types) . "\n";
+            $data .= '--- @field ' . $key . ' ' . implode(' | ', array_unique($types)) . "\n";
         }
 
         $mergedParentArrays = [];
@@ -335,7 +335,7 @@ class XmlFileParser
             }
         }
         foreach ($mergedParentArrays as $key => $types) {
-            $data .= '--- @field ' . $key . ' table<number, ' . implode(' | ', $types) . ">\n";
+            $data .= '--- @field ' . $key . ' table<number, ' . implode(' | ', array_unique($types)) . ">\n";
         }
 
         return $data;

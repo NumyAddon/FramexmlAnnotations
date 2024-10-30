@@ -385,7 +385,6 @@ QuestInfoItemHighlight = {}
 --- @class QuestInfoRewardsFrame : Frame
 --- @field HonorFrame QuestInfoRewardsFrame_HonorFrame
 --- @field ArenaPointsFrame QuestInfoRewardsFrame_ArenaPointsFrame
---- @field RewardButtons table<number, QuestInfoRewardsFrame_QuestInfoRewardsFrameQuestInfoItem1>
 --- @field MoneyFrame QuestInfoRewardsFrame_QuestInfoMoneyFrame
 --- @field SkillPointFrame QuestInfoRewardsFrame_QuestInfoSkillPointFrame
 --- @field XPFrame QuestInfoRewardsFrame_QuestInfoXPFrame
@@ -396,6 +395,7 @@ QuestInfoItemHighlight = {}
 --- @field Header QuestInfoRewardsFrame_Header
 --- @field ItemChooseText QuestInfoRewardsFrame_ItemChooseText
 --- @field ItemReceiveText QuestInfoRewardsFrame_ItemReceiveText
+--- @field RewardButtons table<number, QuestInfoRewardsFrame_QuestInfoRewardsFrameQuestInfoItem1>
 QuestInfoRewardsFrame = {}
 QuestInfoRewardsFrame["MoneyFrame"] = QuestInfoMoneyFrame
 QuestInfoRewardsFrame["SkillPointFrame"] = QuestInfoSkillPointFrame
@@ -574,7 +574,6 @@ MapQuestInfoRewardsFrameIconTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L422)
 --- @class MapQuestInfoRewardsFrame : Frame
 --- @field Header Frame
---- @field RewardButtons table<number, MapQuestInfoRewardsFrame_MapQuestInfoRewardsFrameQuestInfoItem1>
 --- @field XPFrame MapQuestInfoRewardsFrame_XPFrame
 --- @field QuestInfoPlayerTitleFrame MapQuestInfoRewardsFrame_QuestInfoPlayerTitleFrame
 --- @field HonorFrame MapQuestInfoRewardsFrame_HonorFrame
@@ -587,6 +586,7 @@ MapQuestInfoRewardsFrameIconTexture = {}
 --- @field ItemChooseText MapQuestInfoRewardsFrame_ItemChooseText
 --- @field ItemReceiveText MapQuestInfoRewardsFrame_ItemReceiveText
 --- @field PlayerTitleText MapQuestInfoRewardsFrame_PlayerTitleText
+--- @field RewardButtons table<number, MapQuestInfoRewardsFrame_MapQuestInfoRewardsFrameQuestInfoItem1>
 MapQuestInfoRewardsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L564)

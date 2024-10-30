@@ -226,22 +226,15 @@ WoWAccountSelectDialogScrollFrame = {}
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_Container : Frame, TooltipBorderBackdropTemplate
 --- @field layoutType string # "TooltipGluesLayout"
 --- @field Button1 AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button1
---- @field Buttons table<number, AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button1>
 --- @field Button2 AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button2
---- @field Buttons table<number, AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button2>
 --- @field Button3 AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button3
---- @field Buttons table<number, AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button3>
 --- @field Button4 AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button4
---- @field Buttons table<number, AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button4>
 --- @field Button5 AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button5
---- @field Buttons table<number, AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button5>
 --- @field Button6 AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button6
---- @field Buttons table<number, AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button6>
 --- @field Button7 AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button7
---- @field Buttons table<number, AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button7>
 --- @field Button8 AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button8
---- @field Buttons table<number, AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button8>
 --- @field ScrollFrame AccountLogin_UI_WoWAccountSelectDialog_Background_Container_WoWAccountSelectDialogScrollFrame
+--- @field Buttons table<number, AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button1 | AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button2 | AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button3 | AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button4 | AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button5 | AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button6 | AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button7 | AccountLogin_UI_WoWAccountSelectDialog_Background_Container_Button8>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L602)
 --- child of 
@@ -370,32 +363,19 @@ WorldOfWarcraftRating = {}
 --- child of AccountLogin
 --- @class AccountLogin_UI : Frame
 --- @field AccountEditBox AccountLogin_UI_AccountEditBox
---- @field ManualLoginRegions table<number, AccountLogin_UI_AccountEditBox>
 --- @field PasswordEditBox AccountLogin_UI_PasswordEditBox
---- @field ManualLoginRegions table<number, AccountLogin_UI_PasswordEditBox>
 --- @field CachedLoginFrameContainer Frame
---- @field ManualLoginRegions table<number, Frame>
 --- @field LoginButton AccountLogin_UI_LoginButton
---- @field ManualLoginRegions table<number, AccountLogin_UI_LoginButton>
 --- @field ReconnectLoginButton AccountLogin_UI_ReconnectLoginButton
---- @field ReconnectLoginRegions table<number, AccountLogin_UI_ReconnectLoginButton>
 --- @field ReconnectSwitchButton AccountLogin_UI_ReconnectSwitchButton
---- @field ReconnectLoginRegions table<number, AccountLogin_UI_ReconnectSwitchButton>
 --- @field ExitButton AccountLogin_UI_ExitButton
 --- @field CreditsButton AccountLogin_UI_CreditsButton
---- @field NormalLoginRegions table<number, AccountLogin_UI_CreditsButton>
 --- @field CinematicsButton AccountLogin_UI_CinematicsButton
---- @field NormalLoginRegions table<number, AccountLogin_UI_CinematicsButton>
 --- @field OptionsButton AccountLogin_UI_OptionsButton
---- @field NormalLoginRegions table<number, AccountLogin_UI_OptionsButton>
 --- @field CommunityButton AccountLogin_UI_AccountLoginCommunityButton
---- @field NormalLoginRegions table<number, AccountLogin_UI_AccountLoginCommunityButton>
 --- @field ManageAccountButton AccountLogin_UI_ManageAccountButton
---- @field NormalLoginRegions table<number, AccountLogin_UI_ManageAccountButton>
 --- @field CreateAccountButton AccountLogin_UI_CreateAccountButton
---- @field NormalLoginRegions table<number, AccountLogin_UI_CreateAccountButton>
 --- @field SaveAccountNameCheckButton AccountLogin_UI_SaveAccountNameCheckButton
---- @field ManualLoginRegions table<number, AccountLogin_UI_SaveAccountNameCheckButton>
 --- @field WoWAccountSelectDialog AccountLogin_UI_WoWAccountSelectDialog
 --- @field CaptchaEntryDialog AccountLogin_UI_CaptchaEntryDialog
 --- @field TokenEntryDialog AccountLogin_UI_TokenEntryDialog
@@ -404,6 +384,9 @@ WorldOfWarcraftRating = {}
 --- @field ClientVersion AccountLogin_UI_ClientVersion
 --- @field GameLogo Texture
 --- @field FadeIn AccountLogin_UI_FadeIn
+--- @field ManualLoginRegions table<number, AccountLogin_UI_AccountEditBox | AccountLogin_UI_PasswordEditBox | Frame | AccountLogin_UI_LoginButton | AccountLogin_UI_SaveAccountNameCheckButton>
+--- @field ReconnectLoginRegions table<number, AccountLogin_UI_ReconnectLoginButton | AccountLogin_UI_ReconnectSwitchButton>
+--- @field NormalLoginRegions table<number, AccountLogin_UI_CreditsButton | AccountLogin_UI_CinematicsButton | AccountLogin_UI_OptionsButton | AccountLogin_UI_AccountLoginCommunityButton | AccountLogin_UI_ManageAccountButton | AccountLogin_UI_CreateAccountButton>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L177)
 --- @class AccountLogin : Frame

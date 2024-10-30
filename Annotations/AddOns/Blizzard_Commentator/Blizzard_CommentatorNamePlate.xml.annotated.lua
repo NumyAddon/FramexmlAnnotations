@@ -8,13 +8,10 @@
 --- Template
 --- @class CommentatorNamePlateFullBorderTemplate : Frame, CommentatorNamePlateBorderTemplateMixin
 --- @field Left Texture
---- @field Textures table<number, Texture>
 --- @field Right Texture
---- @field Textures table<number, Texture>
 --- @field Bottom Texture
---- @field Textures table<number, Texture>
 --- @field Top Texture
---- @field Textures table<number, Texture>
+--- @field Textures table<number, Texture | Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.xml#L85)
 --- child of CommentatorNamePlateTemplate

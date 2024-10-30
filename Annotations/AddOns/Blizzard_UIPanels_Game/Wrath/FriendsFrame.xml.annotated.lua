@@ -2196,8 +2196,7 @@ GuildFrameBarLeft = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1712)
 --- child of FriendsFrame
 --- @class FriendsFrame_GuildFrame : Frame
---- @field nameAlert FriendsFrame_GuildFrame_GuildNameChangeFrame
---- @field nameAlert FriendsFrame_GuildFrame_GuildNameChangeAlertFrame
+--- @field nameAlert FriendsFrame_GuildFrame_GuildNameChangeFrame | FriendsFrame_GuildFrame_GuildNameChangeAlertFrame
 GuildFrame = {}
 GuildFrame["nameAlert"] = GuildNameChangeAlertFrame
 

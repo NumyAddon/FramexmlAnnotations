@@ -16,15 +16,11 @@
 --- child of LFGListGroupDataDisplayTemplate
 --- @class LFGListGroupDataDisplayTemplate_Enumerate : Frame
 --- @field Icon1 Texture
---- @field Icons table<number, Texture>
 --- @field Icon2 Texture
---- @field Icons table<number, Texture>
 --- @field Icon3 Texture
---- @field Icons table<number, Texture>
 --- @field Icon4 Texture
---- @field Icons table<number, Texture>
 --- @field Icon5 Texture
---- @field Icons table<number, Texture>
+--- @field Icons table<number, Texture | Texture | Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L79)
 --- child of 
@@ -123,13 +119,13 @@
 --- Template
 --- @class LFGListApplicantTemplate : Button
 --- @field Member1 LFGListApplicantTemplate_Member1
---- @field Members table<number, LFGListApplicantTemplate_Member1>
 --- @field DeclineButton LFGListApplicantTemplate_DeclineButton
 --- @field InviteButton LFGListApplicantTemplate_InviteButton
 --- @field InviteButtonSmall LFGListApplicantTemplate_InviteButtonSmall
 --- @field Spinner LFGListApplicantTemplate_Spinner
 --- @field Background Texture
 --- @field Status LFGListApplicantTemplate_Status
+--- @field Members table<number, LFGListApplicantTemplate_Member1>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L388)
 --- child of LFGListRoleButtonTemplate
@@ -390,10 +386,10 @@ LFGListFrameInsetRightBorder = {}
 --- @class LFGListFrame_CategorySelection : Frame, LFGListPanelTemplate
 --- @field updateAll any # LFGListCategorySelection_UpdateCategoryButtons
 --- @field Inset LFGListFrame_CategorySelection_Inset
---- @field CategoryButtons table<number, >
 --- @field FindGroupButton LFGListFrame_CategorySelection_FindGroupButton
 --- @field StartGroupButton LFGListFrame_CategorySelection_StartGroupButton
 --- @field Label LFGListFrame_CategorySelection_Label
+--- @field CategoryButtons table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L796)
 --- child of  (created in template InsetFrameTemplate)
@@ -458,8 +454,7 @@ LFGListFrameInsetRightBorder = {}
 --- @class LFGListFrame_NothingAvailable : Frame, LFGListPanelTemplate
 --- @field updateAll any # LFGListNothingAvailable_Update
 --- @field Inset LFGListFrame_NothingAvailable_Inset
---- @field Label LFGListFrame_NothingAvailable_Label
---- @field Label LFGListFrame_NothingAvailable_Label
+--- @field Label LFGListFrame_NothingAvailable_Label | LFGListFrame_NothingAvailable_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1262)
 --- child of  (created in template SearchBoxTemplate)
@@ -502,12 +497,12 @@ LFGListFrameSearchIcon = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1160)
 --- child of 
 --- @class LFGListFrame_SearchPanel_AutoCompleteFrame : Frame
---- @field Results table<number, >
 --- @field BottomLeftBorder LFGListFrame_SearchPanel_AutoCompleteFrame_BottomLeftBorder
 --- @field BottomRightBorder LFGListFrame_SearchPanel_AutoCompleteFrame_BottomRightBorder
 --- @field BottomBorder LFGListFrame_SearchPanel_AutoCompleteFrame_BottomBorder
 --- @field LeftBorder LFGListFrame_SearchPanel_AutoCompleteFrame_LeftBorder
 --- @field RightBorder LFGListFrame_SearchPanel_AutoCompleteFrame_RightBorder
+--- @field Results table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1207)
 --- child of 

@@ -1641,15 +1641,6 @@ StanceBarRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L32)
 --- @class StanceBarFrame : Frame
---- @field StanceButtons table<number, StanceBarFrame_StanceButton1>
---- @field StanceButtons table<number, StanceBarFrame_StanceButton2>
---- @field StanceButtons table<number, StanceBarFrame_StanceButton3>
---- @field StanceButtons table<number, StanceBarFrame_StanceButton4>
---- @field StanceButtons table<number, StanceBarFrame_StanceButton5>
---- @field StanceButtons table<number, StanceBarFrame_StanceButton6>
---- @field StanceButtons table<number, StanceBarFrame_StanceButton7>
---- @field StanceButtons table<number, StanceBarFrame_StanceButton8>
---- @field StanceButtons table<number, StanceBarFrame_StanceButton9>
---- @field StanceButtons table<number, StanceBarFrame_StanceButton10>
+--- @field StanceButtons table<number, StanceBarFrame_StanceButton1 | StanceBarFrame_StanceButton2 | StanceBarFrame_StanceButton3 | StanceBarFrame_StanceButton4 | StanceBarFrame_StanceButton5 | StanceBarFrame_StanceButton6 | StanceBarFrame_StanceButton7 | StanceBarFrame_StanceButton8 | StanceBarFrame_StanceButton9 | StanceBarFrame_StanceButton10>
 StanceBarFrame = {}
 

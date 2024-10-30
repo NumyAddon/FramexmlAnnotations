@@ -1588,12 +1588,7 @@ TradeFrameRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L153)
 --- @class TradeFrame : Frame, ButtonFrameTemplate
---- @field LeftInset TradeFrame_TradeRecipientItemsInset
---- @field LeftInset TradeFrame_TradeRecipientEnchantInset
---- @field LeftInset TradeFrame_TradePlayerItemsInset
---- @field LeftInset TradeFrame_TradePlayerEnchantInset
---- @field LeftInset TradeFrame_TradePlayerInputMoneyInset
---- @field LeftInset TradeFrame_TradeRecipientMoneyInset
+--- @field LeftInset TradeFrame_TradeRecipientItemsInset | TradeFrame_TradeRecipientEnchantInset | TradeFrame_TradePlayerItemsInset | TradeFrame_TradePlayerEnchantInset | TradeFrame_TradePlayerInputMoneyInset | TradeFrame_TradeRecipientMoneyInset
 --- @field portraitFrame TradeFrame_TradeRecipientPortraitFrame
 --- @field leftBorderBar TradeFrame_TradeRecipientLeftBorder
 TradeFrame = {}

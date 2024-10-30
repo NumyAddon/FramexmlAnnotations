@@ -51,21 +51,18 @@
 --- @field Spec ConduitListConduitButtonTemplate_Spec
 --- @field Icon Texture
 --- @field Icon2 Texture
---- @field Hovers table<number, Texture>
 --- @field IconDark Texture
---- @field Hovers table<number, Texture>
 --- @field IconGlassOverlay Texture
 --- @field IconOverlay Texture
 --- @field IconPulse ConduitListConduitButtonTemplate_IconPulse
 --- @field IconOverlayPulse ConduitListConduitButtonTemplate_IconOverlayPulse
 --- @field IconOverlay2 Texture
---- @field Hovers table<number, Texture>
---- @field Hovers table<number, Texture>
 --- @field PendingBackground Texture
 --- @field IconOverlayDark Texture
 --- @field ConduitName ConduitListConduitButtonTemplate_ConduitName
 --- @field ItemLevel ConduitListConduitButtonTemplate_ItemLevel
 --- @field Pending Texture
+--- @field Hovers table<number, Texture | Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L231)
 --- child of 
@@ -74,10 +71,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L217)
 --- child of 
 --- @class ConduitListSectionTemplate_CategoryButton_Container : Frame
---- @field Hovers table<number, Texture>
 --- @field ExpandableIcon Texture
 --- @field Name ConduitListSectionTemplate_CategoryButton_Container_Name
 --- @field ConduitIcon Texture
+--- @field Hovers table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L211)
 --- child of ConduitListSectionTemplate
@@ -96,10 +93,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L203)
 --- Template
 --- @class ConduitListSectionTemplate : EventFrame, ResizeLayoutFrame, ConduitListSectionMixin
---- @field Spacer Frame
+--- @field Spacer Frame | ConduitListSectionTemplate_Spacer
 --- @field CategoryButton ConduitListSectionTemplate_CategoryButton
 --- @field Container ConduitListSectionTemplate_Container
---- @field Spacer ConduitListSectionTemplate_Spacer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L279)
 --- child of ConduitListTemplate
@@ -117,9 +113,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L304)
 --- child of 
 --- @class ConduitListTemplate_Clip_Effects : Frame
---- @field Glows table<number, >
---- @field Glows table<number, >
---- @field Glows table<number, >
+--- @field Glows table<number,  |  | >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L295)
 --- child of ConduitListTemplate

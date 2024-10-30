@@ -96,9 +96,7 @@
 --- @class GarrisonMissionPageRewardTemplate : Frame
 --- @field OvermaxItem GarrisonMissionPageRewardTemplate_OvermaxItem
 --- @field Reward1 GarrisonMissionPageRewardTemplate_Reward1
---- @field Rewards table<number, GarrisonMissionPageRewardTemplate_Reward1>
 --- @field Reward2 GarrisonMissionPageRewardTemplate_Reward2
---- @field Rewards table<number, GarrisonMissionPageRewardTemplate_Reward2>
 --- @field MissionXPTooltipHitBox Frame
 --- @field TooltipHitBox Frame
 --- @field Chest Texture
@@ -107,6 +105,7 @@
 --- @field ChanceLabel GarrisonMissionPageRewardTemplate_ChanceLabel
 --- @field Glow Texture
 --- @field ChanceGlowAnim GarrisonMissionPageRewardTemplate_ChanceGlowAnim
+--- @field Rewards table<number, GarrisonMissionPageRewardTemplate_Reward1 | GarrisonMissionPageRewardTemplate_Reward2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L331)
 --- Template
@@ -156,9 +155,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L466)
 --- Template
 --- @class GarrisonMissionPartyBuffsFrameTemplate : Frame
---- @field Buffs table<number, GarrisonMissionPartyBuffTemplate>
 --- @field BuffsBG Texture
 --- @field BuffsTitle GarrisonMissionPartyBuffsFrameTemplate_BuffsTitle
+--- @field Buffs table<number, GarrisonMissionPartyBuffTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L501)
 --- child of StartMissionButtonTemplate
@@ -402,16 +401,12 @@
 --- Template
 --- @class GarrisonMissionCompleteModelCluster : Frame, GarrisonMissionCompleteModelClusterMixin
 --- @field Model1 GarrisonMissionCompleteModelCluster_Model1
---- @field Model table<number, GarrisonMissionCompleteModelCluster_Model1>
 --- @field Model2 GarrisonMissionCompleteModelCluster_Model2
---- @field Model table<number, GarrisonMissionCompleteModelCluster_Model2>
 --- @field Model3 GarrisonMissionCompleteModelCluster_Model3
---- @field Model table<number, GarrisonMissionCompleteModelCluster_Model3>
 --- @field Model4 GarrisonMissionCompleteModelCluster_Model4
---- @field Model table<number, GarrisonMissionCompleteModelCluster_Model4>
 --- @field Model5 GarrisonMissionCompleteModelCluster_Model5
---- @field Model table<number, GarrisonMissionCompleteModelCluster_Model5>
 --- @field FadeOut GarrisonMissionCompleteModelCluster_FadeOut
+--- @field Model table<number, GarrisonMissionCompleteModelCluster_Model1 | GarrisonMissionCompleteModelCluster_Model2 | GarrisonMissionCompleteModelCluster_Model3 | GarrisonMissionCompleteModelCluster_Model4 | GarrisonMissionCompleteModelCluster_Model5>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L977)
 --- child of GarrisonFollowerTabModelCluster
@@ -524,12 +519,10 @@
 --- Template
 --- @class GarrisonMissionCompleteStageTemplate : Frame
 --- @field ModelLeft GarrisonMissionCompleteStageTemplate_ModelLeft
---- @field ModelCluster table<number, GarrisonMissionCompleteStageTemplate_ModelLeft>
 --- @field ModelRight GarrisonMissionCompleteStageTemplate_ModelRight
---- @field ModelCluster table<number, GarrisonMissionCompleteStageTemplate_ModelRight>
 --- @field ModelMiddle GarrisonMissionCompleteStageTemplate_ModelMiddle
---- @field ModelCluster table<number, GarrisonMissionCompleteStageTemplate_ModelMiddle>
 --- @field Miss GarrisonMissionCompleteStageTemplate_Miss
+--- @field ModelCluster table<number, GarrisonMissionCompleteStageTemplate_ModelLeft | GarrisonMissionCompleteStageTemplate_ModelRight | GarrisonMissionCompleteStageTemplate_ModelMiddle>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1336)
 --- child of GarrisonMissionCompleteTemplate

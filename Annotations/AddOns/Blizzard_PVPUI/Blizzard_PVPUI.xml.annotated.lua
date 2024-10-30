@@ -527,16 +527,14 @@ HonorFrameQueueButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @field ConquestBar PVPUIFrame_PVPQueueFrame_HonorFrame_ConquestBar
 --- @field Inset PVPUIFrame_PVPQueueFrame_HonorFrame_Inset
 --- @field TankIcon PVPUIFrame_PVPQueueFrame_HonorFrame_TankIcon
---- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_HonorFrame_TankIcon>
 --- @field HealerIcon PVPUIFrame_PVPQueueFrame_HonorFrame_HealerIcon
---- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_HonorFrame_HealerIcon>
 --- @field DPSIcon PVPUIFrame_PVPQueueFrame_HonorFrame_DPSIcon
---- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_HonorFrame_DPSIcon>
 --- @field TypeDropdown PVPUIFrame_PVPQueueFrame_HonorFrame_HonorFrameTypeDropdown
 --- @field SpecificScrollBox PVPUIFrame_PVPQueueFrame_HonorFrame_SpecificScrollBox
 --- @field SpecificScrollBar PVPUIFrame_PVPQueueFrame_HonorFrame_SpecificScrollBar
 --- @field BonusFrame PVPUIFrame_PVPQueueFrame_HonorFrame_BonusFrame
 --- @field QueueButton PVPUIFrame_PVPQueueFrame_HonorFrame_HonorFrameQueueButton
+--- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_HonorFrame_TankIcon | PVPUIFrame_PVPQueueFrame_HonorFrame_HealerIcon | PVPUIFrame_PVPQueueFrame_HonorFrame_DPSIcon>
 HonorFrame = {}
 HonorFrame["TypeDropdown"] = HonorFrameTypeDropdown
 HonorFrame["QueueButton"] = HonorFrameQueueButton
@@ -838,11 +836,8 @@ ConquestFrameShadowRight = {}
 --- @field ConquestBar PVPUIFrame_PVPQueueFrame_ConquestFrame_ConquestBar
 --- @field Inset PVPUIFrame_PVPQueueFrame_ConquestFrame_Inset
 --- @field TankIcon PVPUIFrame_PVPQueueFrame_ConquestFrame_TankIcon
---- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_ConquestFrame_TankIcon>
 --- @field HealerIcon PVPUIFrame_PVPQueueFrame_ConquestFrame_HealerIcon
---- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_ConquestFrame_HealerIcon>
 --- @field DPSIcon PVPUIFrame_PVPQueueFrame_ConquestFrame_DPSIcon
---- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_ConquestFrame_DPSIcon>
 --- @field RatedSoloShuffle PVPUIFrame_PVPQueueFrame_ConquestFrame_RatedSoloShuffle
 --- @field RatedBGBlitz PVPUIFrame_PVPQueueFrame_ConquestFrame_RatedBGBlitz
 --- @field Arena2v2 PVPUIFrame_PVPQueueFrame_ConquestFrame_Arena2v2
@@ -853,6 +848,7 @@ ConquestFrameShadowRight = {}
 --- @field NoSeason PVPUIFrame_PVPQueueFrame_ConquestFrame_NoSeason
 --- @field Disabled PVPUIFrame_PVPQueueFrame_ConquestFrame_Disabled
 --- @field RatedBGTexture Texture
+--- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_ConquestFrame_TankIcon | PVPUIFrame_PVPQueueFrame_ConquestFrame_HealerIcon | PVPUIFrame_PVPQueueFrame_ConquestFrame_DPSIcon>
 ConquestFrame = {}
 ConquestFrame["JoinButton"] = ConquestJoinButton
 
@@ -1016,33 +1012,20 @@ PVPUIFrame = {}
 --- @class ConquestTooltip : Frame, TooltipBackdropTemplate, ResizeLayoutFrame
 --- @field minimumWidth number # 152
 --- @field Title ConquestTooltip_Title
---- @field Content table<number, ConquestTooltip_Title>
 --- @field Tier ConquestTooltip_Tier
---- @field Content table<number, ConquestTooltip_Tier>
 --- @field SpecRank ConquestTooltip_SpecRank
---- @field Content table<number, ConquestTooltip_SpecRank>
 --- @field WeeklyLabel ConquestTooltip_WeeklyLabel
---- @field Content table<number, ConquestTooltip_WeeklyLabel>
 --- @field WeeklyBest ConquestTooltip_WeeklyBest
---- @field Content table<number, ConquestTooltip_WeeklyBest>
 --- @field WeeklyWon ConquestTooltip_WeeklyWon
---- @field Content table<number, ConquestTooltip_WeeklyWon>
 --- @field WeeklyPlayed ConquestTooltip_WeeklyPlayed
---- @field Content table<number, ConquestTooltip_WeeklyPlayed>
 --- @field WeeklyMostPlayedSpec ConquestTooltip_WeeklyMostPlayedSpec
---- @field Content table<number, ConquestTooltip_WeeklyMostPlayedSpec>
 --- @field SeasonLabel ConquestTooltip_SeasonLabel
---- @field Content table<number, ConquestTooltip_SeasonLabel>
 --- @field SeasonBest ConquestTooltip_SeasonBest
---- @field Content table<number, ConquestTooltip_SeasonBest>
 --- @field SeasonWon ConquestTooltip_SeasonWon
---- @field Content table<number, ConquestTooltip_SeasonWon>
 --- @field SeasonPlayed ConquestTooltip_SeasonPlayed
---- @field Content table<number, ConquestTooltip_SeasonPlayed>
 --- @field SeasonMostPlayedSpec ConquestTooltip_SeasonMostPlayedSpec
---- @field Content table<number, ConquestTooltip_SeasonMostPlayedSpec>
 --- @field ModeDescription ConquestTooltip_ModeDescription
---- @field Content table<number, ConquestTooltip_ModeDescription>
+--- @field Content table<number, ConquestTooltip_Title | ConquestTooltip_Tier | ConquestTooltip_SpecRank | ConquestTooltip_WeeklyLabel | ConquestTooltip_WeeklyBest | ConquestTooltip_WeeklyWon | ConquestTooltip_WeeklyPlayed | ConquestTooltip_WeeklyMostPlayedSpec | ConquestTooltip_SeasonLabel | ConquestTooltip_SeasonBest | ConquestTooltip_SeasonWon | ConquestTooltip_SeasonPlayed | ConquestTooltip_SeasonMostPlayedSpec | ConquestTooltip_ModeDescription>
 ConquestTooltip = {}
 ConquestTooltip["minimumWidth"] = 152
 ConquestTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited

@@ -61,8 +61,7 @@ RaidParentFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L96)
 --- @class RaidParentFrame : Frame, ButtonFrameTemplate
---- @field Tabs table<number, RaidParentFrame_RaidParentFrameTab1>
---- @field Tabs table<number, RaidParentFrame_RaidParentFrameTab2>
+--- @field Tabs table<number, RaidParentFrame_RaidParentFrameTab1 | RaidParentFrame_RaidParentFrameTab2>
 RaidParentFrame = {}
 RaidParentFrame["Inset"] = RaidParentFrameInset -- inherited
 RaidParentFrame["CloseButton"] = RaidParentFrameCloseButton -- inherited

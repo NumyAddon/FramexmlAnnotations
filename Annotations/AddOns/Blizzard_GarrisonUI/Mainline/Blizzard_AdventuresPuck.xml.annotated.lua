@@ -37,9 +37,7 @@
 --- Template
 --- @class AdventuresPuckTemplate : Frame, AdventuresPuckMixin
 --- @field AbilityTwo AdventuresPuckTemplate_AbilityTwo
---- @field AbilityButtons table<number, AdventuresPuckTemplate_AbilityTwo>
 --- @field AbilityOne AdventuresPuckTemplate_AbilityOne
---- @field AbilityButtons table<number, AdventuresPuckTemplate_AbilityOne>
 --- @field HealthBar AdventuresPuckTemplate_HealthBar
 --- @field SupportColorationAnimator AdventuresPuckTemplate_SupportColorationAnimator
 --- @field PuckShadow Texture
@@ -50,6 +48,7 @@
 --- @field CircleMask MaskTexture
 --- @field BorderOverlay Texture
 --- @field RotateBursts AdventuresPuckTemplate_RotateBursts
+--- @field AbilityButtons table<number, AdventuresPuckTemplate_AbilityTwo | AdventuresPuckTemplate_AbilityOne>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.xml#L129)
 --- child of AdventuresPuckAnimatedTemplate

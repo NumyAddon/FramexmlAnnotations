@@ -4,13 +4,11 @@
 --- Template
 --- @class ProfessionsCustomerOrdersCategoryButtonTemplate : Button, TruncatedTooltipScriptTemplate, ProfessionsCustomerOrdersCategoryButtonMixin
 --- @field Lines Texture
---- @field buttonRegions table<number, Texture>
 --- @field NormalTexture Texture
---- @field buttonRegions table<number, Texture>
 --- @field HighlightTexture Texture
 --- @field SelectedTexture Texture
---- @field buttonRegions table<number, Texture>
 --- @field SpacerLine Texture
+--- @field buttonRegions table<number, Texture | Texture | Texture>
 --- @field spacerRegions table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeCategoryList.xml#L76)

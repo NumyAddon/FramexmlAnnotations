@@ -285,20 +285,16 @@ StableFrameSearchIcon = {}
 --- child of StableFrame
 --- @class StableFrame_ActivePetList : Frame, StableActivePetListMixin
 --- @field PetButton1 StableFrame_ActivePetList_PetButton1
---- @field PetButtons table<number, StableFrame_ActivePetList_PetButton1>
 --- @field PetButton2 StableFrame_ActivePetList_PetButton2
---- @field PetButtons table<number, StableFrame_ActivePetList_PetButton2>
 --- @field PetButton3 StableFrame_ActivePetList_PetButton3
---- @field PetButtons table<number, StableFrame_ActivePetList_PetButton3>
 --- @field PetButton4 StableFrame_ActivePetList_PetButton4
---- @field PetButtons table<number, StableFrame_ActivePetList_PetButton4>
 --- @field PetButton5 StableFrame_ActivePetList_PetButton5
---- @field PetButtons table<number, StableFrame_ActivePetList_PetButton5>
 --- @field Divider StableFrame_ActivePetList_Divider
 --- @field BeastMasterSecondaryPetButton StableFrame_ActivePetList_BeastMasterSecondaryPetButton
 --- @field ActivePetListBG Texture
 --- @field ActivePetListBGBar Texture
 --- @field ListName StableFrame_ActivePetList_ListName
+--- @field PetButtons table<number, StableFrame_ActivePetList_PetButton1 | StableFrame_ActivePetList_PetButton2 | StableFrame_ActivePetList_PetButton3 | StableFrame_ActivePetList_PetButton4 | StableFrame_ActivePetList_PetButton5>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1095)
 --- child of StableFrame (created in template PortraitFrameTemplate)

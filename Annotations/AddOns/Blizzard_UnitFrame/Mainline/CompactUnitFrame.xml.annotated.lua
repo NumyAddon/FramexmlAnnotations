@@ -137,27 +137,11 @@
 --- @field healthBar CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar
 --- @field TempMaxHealthLoss CompactUnitFrameTemplate_CompactUnitFrameTemplateTempMaxHealthLoss
 --- @field powerBar CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar
---- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff1>
---- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff2>
---- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff3>
---- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff4>
---- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff5>
---- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff6>
---- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff7>
---- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff8>
 --- @field Debuff1 CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff1
---- @field debuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff1>
 --- @field Debuff2 CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff2
---- @field debuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff2>
 --- @field Debuff3 CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff3
---- @field debuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff3>
 --- @field PrivateAuraAnchor1 CompactUnitFrameTemplate_PrivateAuraAnchor1
---- @field PrivateAuraAnchors table<number, CompactUnitFrameTemplate_PrivateAuraAnchor1>
 --- @field PrivateAuraAnchor2 CompactUnitFrameTemplate_PrivateAuraAnchor2
---- @field PrivateAuraAnchors table<number, CompactUnitFrameTemplate_PrivateAuraAnchor2>
---- @field dispelDebuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff1>
---- @field dispelDebuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff2>
---- @field dispelDebuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff3>
 --- @field centerStatusIcon CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon
 --- @field background Texture
 --- @field myHealPrediction Texture
@@ -180,4 +164,8 @@
 --- @field overHealAbsorbGlow Texture
 --- @field selectionHighlight Texture
 --- @field readyCheckIcon Texture
+--- @field buffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff1 | CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff2 | CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff3 | CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff4 | CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff5 | CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff6 | CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff7 | CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff8>
+--- @field debuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff1 | CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff2 | CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff3>
+--- @field PrivateAuraAnchors table<number, CompactUnitFrameTemplate_PrivateAuraAnchor1 | CompactUnitFrameTemplate_PrivateAuraAnchor2>
+--- @field dispelDebuffFrames table<number, CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff1 | CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff2 | CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff3>
 

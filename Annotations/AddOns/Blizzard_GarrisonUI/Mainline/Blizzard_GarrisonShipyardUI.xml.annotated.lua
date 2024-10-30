@@ -423,44 +423,28 @@ GarrisonShipyardMapMissionTooltipGarrisonFollowerTooltip = {}
 --- @class GarrisonShipyardMapMissionTooltip : Frame, TooltipBackdropTemplate
 --- @field ItemTooltip GarrisonShipyardMapMissionTooltip_ItemTooltip
 --- @field BonusEffect GarrisonShipyardMapMissionTooltip_BonusEffect
---- @field BonusEffects table<number, GarrisonShipyardMapMissionTooltip_BonusEffect>
 --- @field BonusReward GarrisonShipyardMapMissionTooltip_BonusReward
 --- @field Name GarrisonShipyardMapMissionTooltip_Name
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_Name>
 --- @field RareMission GarrisonShipyardMapMissionTooltip_RareMission
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_RareMission>
 --- @field Description GarrisonShipyardMapMissionTooltip_Description
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_Description>
 --- @field NumFollowers GarrisonShipyardMapMissionTooltip_NumFollowers
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_NumFollowers>
 --- @field MissionDuration GarrisonShipyardMapMissionTooltip_MissionDuration
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_MissionDuration>
 --- @field MissionExpires GarrisonShipyardMapMissionTooltip_MissionExpires
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_MissionExpires>
 --- @field TimeRemaining GarrisonShipyardMapMissionTooltip_TimeRemaining
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_TimeRemaining>
 --- @field RewardString GarrisonShipyardMapMissionTooltip_RewardString
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_RewardString>
 --- @field Reward GarrisonShipyardMapMissionTooltip_Reward
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_Reward>
 --- @field BonusTitle GarrisonShipyardMapMissionTooltip_BonusTitle
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_BonusTitle>
 --- @field SiegebreakerWarning GarrisonShipyardMapMissionTooltip_SiegebreakerWarning
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_SiegebreakerWarning>
 --- @field InProgress GarrisonShipyardMapMissionTooltip_InProgress
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_InProgress>
 --- @field InProgressTimeLeft GarrisonShipyardMapMissionTooltip_InProgressTimeLeft
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_InProgressTimeLeft>
 --- @field SuccessChance GarrisonShipyardMapMissionTooltip_SuccessChance
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_SuccessChance>
 --- @field ShipsString GarrisonShipyardMapMissionTooltip_ShipsString
---- @field Lines table<number, GarrisonShipyardMapMissionTooltip_ShipsString>
 --- @field Ship1 GarrisonShipyardMapMissionTooltip_Ship1
---- @field Ships table<number, GarrisonShipyardMapMissionTooltip_Ship1>
 --- @field Ship2 GarrisonShipyardMapMissionTooltip_Ship2
---- @field Ships table<number, GarrisonShipyardMapMissionTooltip_Ship2>
 --- @field Ship3 GarrisonShipyardMapMissionTooltip_Ship3
---- @field Ships table<number, GarrisonShipyardMapMissionTooltip_Ship3>
+--- @field BonusEffects table<number, GarrisonShipyardMapMissionTooltip_BonusEffect>
+--- @field Lines table<number, GarrisonShipyardMapMissionTooltip_Name | GarrisonShipyardMapMissionTooltip_RareMission | GarrisonShipyardMapMissionTooltip_Description | GarrisonShipyardMapMissionTooltip_NumFollowers | GarrisonShipyardMapMissionTooltip_MissionDuration | GarrisonShipyardMapMissionTooltip_MissionExpires | GarrisonShipyardMapMissionTooltip_TimeRemaining | GarrisonShipyardMapMissionTooltip_RewardString | GarrisonShipyardMapMissionTooltip_Reward | GarrisonShipyardMapMissionTooltip_BonusTitle | GarrisonShipyardMapMissionTooltip_SiegebreakerWarning | GarrisonShipyardMapMissionTooltip_InProgress | GarrisonShipyardMapMissionTooltip_InProgressTimeLeft | GarrisonShipyardMapMissionTooltip_SuccessChance | GarrisonShipyardMapMissionTooltip_ShipsString>
+--- @field Ships table<number, GarrisonShipyardMapMissionTooltip_Ship1 | GarrisonShipyardMapMissionTooltip_Ship2 | GarrisonShipyardMapMissionTooltip_Ship3>
 GarrisonShipyardMapMissionTooltip = {}
 GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
@@ -499,12 +483,12 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L733)
 --- Template
 --- @class GarrisonShipMissionFollowerTemplate : Frame
---- @field Counters table<number, >
 --- @field Portrait Texture
 --- @field Highlight Texture
 --- @field Name GarrisonShipMissionFollowerTemplate_Name
 --- @field NameBG Texture
 --- @field PulseAnim GarrisonShipMissionFollowerTemplate_PulseAnim
+--- @field Counters table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L837)
 --- child of GarrisonShipMissionCompleteFollowerTemplate
@@ -589,11 +573,11 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L944)
 --- Template
 --- @class GarrisonShipMissionEnemyTemplate : Frame
---- @field Mechanics table<number, >
 --- @field PortraitRing Texture
 --- @field Portrait Texture
 --- @field PortraitIcon Texture
 --- @field Name GarrisonShipMissionEnemyTemplate_Name
+--- @field Mechanics table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1015)
 --- child of GarrisonShipFollowerListTemplateHeader
@@ -636,8 +620,6 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1030)
 --- Template
 --- @class GarrisonShipFollowerButtonTemplate : Button
---- @field Counters table<number, >
---- @field Abilities table<number, >
 --- @field BusyFrame GarrisonShipFollowerButtonTemplate_BusyFrame
 --- @field BG Texture
 --- @field AbilitiesBG Texture
@@ -648,6 +630,8 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- @field BoatName GarrisonShipFollowerButtonTemplate_BoatName
 --- @field BoatType GarrisonShipFollowerButtonTemplate_BoatType
 --- @field Status GarrisonShipFollowerButtonTemplate_Status
+--- @field Counters table<number, >
+--- @field Abilities table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1150)
 --- @class GarrisonShipFollowerPlacer : Frame
@@ -674,12 +658,10 @@ GarrisonShipFollowerPlacer = {}
 --- child of GarrisonShipyardMissionCompleteStageTemplate
 --- @class GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame : Frame
 --- @field Encounter1 GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter1
---- @field Encounters table<number, GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter1>
 --- @field Encounter2 GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter2
---- @field Encounters table<number, GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter2>
 --- @field Encounter3 GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter3
---- @field Encounters table<number, GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter3>
 --- @field FadeOut GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_FadeOut
+--- @field Encounters table<number, GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter1 | GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter2 | GarrisonShipyardMissionCompleteStageTemplate_EncountersFrame_Encounter3>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1206)
 --- child of 
@@ -701,12 +683,10 @@ GarrisonShipFollowerPlacer = {}
 --- child of GarrisonShipyardMissionCompleteStageTemplate
 --- @class GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame : Frame
 --- @field Follower1 GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower1
---- @field Followers table<number, GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower1>
 --- @field Follower2 GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower2
---- @field Followers table<number, GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower2>
 --- @field Follower3 GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower3
---- @field Followers table<number, GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower3>
 --- @field FadeIn GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_FadeIn
+--- @field Followers table<number, GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower1 | GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower2 | GarrisonShipyardMissionCompleteStageTemplate_FollowersFrame_Follower3>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1273)
 --- child of 
@@ -818,10 +798,9 @@ GarrisonShipFollowerPlacer = {}
 --- child of GarrisonShipyardFollowerTabTemplate
 --- @class GarrisonShipyardFollowerTabTemplate_EquipmentFrame : Frame, GarrisonAbilitiesFrameMixin
 --- @field Equipment1 GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment1
---- @field Equipment table<number, GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment1>
 --- @field Equipment2 GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment2
---- @field Equipment table<number, GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment2>
 --- @field EquipmentTitle GarrisonShipyardFollowerTabTemplate_EquipmentFrame_EquipmentTitle
+--- @field Equipment table<number, GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment1 | GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1628)
 --- child of GarrisonShipyardFollowerTabTemplate
@@ -854,9 +833,7 @@ GarrisonShipFollowerPlacer = {}
 --- @field XPBar GarrisonShipyardFollowerTabTemplate_XPBar
 --- @field Model GarrisonShipyardFollowerTabTemplate_Model
 --- @field Trait1 GarrisonShipyardFollowerTabTemplate_Trait1
---- @field Traits table<number, GarrisonShipyardFollowerTabTemplate_Trait1>
 --- @field Trait2 GarrisonShipyardFollowerTabTemplate_Trait2
---- @field Traits table<number, GarrisonShipyardFollowerTabTemplate_Trait2>
 --- @field EquipmentFrame GarrisonShipyardFollowerTabTemplate_EquipmentFrame
 --- @field ThreatCountersFrame GarrisonShipyardFollowerTabTemplate_ThreatCountersFrame
 --- @field HeaderBG Texture
@@ -867,6 +844,7 @@ GarrisonShipFollowerPlacer = {}
 --- @field BoatName GarrisonShipyardFollowerTabTemplate_BoatName
 --- @field BoatType GarrisonShipyardFollowerTabTemplate_BoatType
 --- @field Quality Texture
+--- @field Traits table<number, GarrisonShipyardFollowerTabTemplate_Trait1 | GarrisonShipyardFollowerTabTemplate_Trait2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1660)
 --- child of GarrisonShipyardFrame
@@ -931,13 +909,11 @@ GarrisonShipyardFrameFollowers["showUncollected"] = false
 --- child of 
 --- @class GarrisonShipyardFrame_MissionTab_MissionList : Frame, GarrisonShipyardMissionListMixin
 --- @field FogFrame1 GarrisonShipyardFrame_MissionTab_MissionList_FogFrame1
---- @field FogFrames table<number, GarrisonShipyardFrame_MissionTab_MissionList_FogFrame1>
 --- @field FogFrame2 GarrisonShipyardFrame_MissionTab_MissionList_FogFrame2
---- @field FogFrames table<number, GarrisonShipyardFrame_MissionTab_MissionList_FogFrame2>
 --- @field FogFrame3 GarrisonShipyardFrame_MissionTab_MissionList_FogFrame3
---- @field FogFrames table<number, GarrisonShipyardFrame_MissionTab_MissionList_FogFrame3>
 --- @field CompleteDialog GarrisonShipyardFrame_MissionTab_MissionList_CompleteDialog
 --- @field MapTexture Texture
+--- @field FogFrames table<number, GarrisonShipyardFrame_MissionTab_MissionList_FogFrame1 | GarrisonShipyardFrame_MissionTab_MissionList_FogFrame2 | GarrisonShipyardFrame_MissionTab_MissionList_FogFrame3>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1782)
 --- child of 
@@ -967,29 +943,20 @@ GarrisonShipyardFrameFollowers["showUncollected"] = false
 --- child of 
 --- @class GarrisonShipyardFrame_MissionTab_MissionPage : Button, ShipyardMissionPageTemplate, GarrisonMissionPageMixin
 --- @field Enemy1 GarrisonShipyardFrame_MissionTab_MissionPage_Enemy1
---- @field Enemies table<number, GarrisonShipyardFrame_MissionTab_MissionPage_Enemy1>
 --- @field Enemy2 GarrisonShipyardFrame_MissionTab_MissionPage_Enemy2
---- @field Enemies table<number, GarrisonShipyardFrame_MissionTab_MissionPage_Enemy2>
 --- @field Enemy3 GarrisonShipyardFrame_MissionTab_MissionPage_Enemy3
---- @field Enemies table<number, GarrisonShipyardFrame_MissionTab_MissionPage_Enemy3>
 --- @field Follower1 GarrisonShipyardFrame_MissionTab_MissionPage_Follower1
---- @field Followers table<number, GarrisonShipyardFrame_MissionTab_MissionPage_Follower1>
 --- @field Follower2 GarrisonShipyardFrame_MissionTab_MissionPage_Follower2
---- @field Followers table<number, GarrisonShipyardFrame_MissionTab_MissionPage_Follower2>
 --- @field Follower3 GarrisonShipyardFrame_MissionTab_MissionPage_Follower3
---- @field Followers table<number, GarrisonShipyardFrame_MissionTab_MissionPage_Follower3>
+--- @field Enemies table<number, GarrisonShipyardFrame_MissionTab_MissionPage_Enemy1 | GarrisonShipyardFrame_MissionTab_MissionPage_Enemy2 | GarrisonShipyardFrame_MissionTab_MissionPage_Enemy3>
+--- @field Followers table<number, GarrisonShipyardFrame_MissionTab_MissionPage_Follower1 | GarrisonShipyardFrame_MissionTab_MissionPage_Follower2 | GarrisonShipyardFrame_MissionTab_MissionPage_Follower3>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1730)
 --- child of GarrisonShipyardFrame
 --- @class GarrisonShipyardFrame_MissionTab : Frame
 --- @field MissionList GarrisonShipyardFrame_MissionTab_MissionList
 --- @field MissionPage GarrisonShipyardFrame_MissionTab_MissionPage
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
---- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number,  |  |  |  |  | >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1835)
 --- child of GarrisonShipyardFrame

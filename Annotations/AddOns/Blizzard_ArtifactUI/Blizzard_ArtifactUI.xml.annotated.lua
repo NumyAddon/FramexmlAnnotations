@@ -68,13 +68,12 @@ ArtifactFrameTab2 = {}
 --- @field ForgeBadgeFrame ArtifactFrame_ForgeBadgeFrame
 --- @field ForgeLevelFrame Frame
 --- @field PerksTabButton ArtifactFrame_ArtifactFrameTab1
---- @field Tabs table<number, ArtifactFrame_ArtifactFrameTab1>
 --- @field AppearancesTabButton ArtifactFrame_ArtifactFrameTab2
---- @field Tabs table<number, ArtifactFrame_ArtifactFrameTab2>
 --- @field PerksTab ArtifactFrame_PerksTab
 --- @field AppearancesTab ArtifactFrame_AppearancesTab
 --- @field CloseButton ArtifactFrame_CloseButton
 --- @field Background Texture
+--- @field Tabs table<number, ArtifactFrame_ArtifactFrameTab1 | ArtifactFrame_ArtifactFrameTab2>
 ArtifactFrame = {}
 ArtifactFrame["PerksTabButton"] = ArtifactFrameTab1
 ArtifactFrame["AppearancesTabButton"] = ArtifactFrameTab2

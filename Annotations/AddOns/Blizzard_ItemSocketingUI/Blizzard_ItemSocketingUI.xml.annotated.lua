@@ -270,9 +270,6 @@ ItemSocketingFrameBg = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L123)
 --- @class ItemSocketingFrame : Frame, ButtonFrameTemplate
 --- @field ScrollFrame ItemSocketingFrame_ItemSocketingScrollFrame
---- @field Sockets table<number, ItemSocketingFrame_ItemSocketingSocket1>
---- @field Sockets table<number, ItemSocketingFrame_ItemSocketingSocket2>
---- @field Sockets table<number, ItemSocketingFrame_ItemSocketingSocket3>
 --- @field ParchmentFrame-Top Texture
 --- @field ParchmentFrame-Bottom Texture
 --- @field ParchmentFrame-Left Texture
@@ -306,6 +303,7 @@ ItemSocketingFrameBg = {}
 --- @field MiddleRightNub ItemSocketingFrame_MiddleRightNub
 --- @field TopLeftNub ItemSocketingFrame_TopLeftNub
 --- @field TopRightNub ItemSocketingFrame_TopRightNub
+--- @field Sockets table<number, ItemSocketingFrame_ItemSocketingSocket1 | ItemSocketingFrame_ItemSocketingSocket2 | ItemSocketingFrame_ItemSocketingSocket3>
 ItemSocketingFrame = {}
 ItemSocketingFrame["ScrollFrame"] = ItemSocketingScrollFrame
 ItemSocketingFrame["Inset"] = ItemSocketingFrameInset -- inherited

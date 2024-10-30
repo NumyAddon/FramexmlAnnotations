@@ -221,14 +221,11 @@ PVEFrameBg = {}
 --- @class PVEFrame : Frame, PortraitFrameTemplate, PVEFrameMixin
 --- @field Inset PVEFrame_PVEFrameLeftInset
 --- @field tab1 PVEFrame_PVEFrameTab1
---- @field Tabs table<number, PVEFrame_PVEFrameTab1>
 --- @field tab2 PVEFrame_PVEFrameTab2
---- @field Tabs table<number, PVEFrame_PVEFrameTab2>
 --- @field tab3 PVEFrame_PVEFrameTab3
---- @field Tabs table<number, PVEFrame_PVEFrameTab3>
 --- @field tab4 PVEFrame_PVEFrameTab4
---- @field Tabs table<number, PVEFrame_PVEFrameTab4>
 --- @field shadows PVEFrame_shadows
+--- @field Tabs table<number, PVEFrame_PVEFrameTab1 | PVEFrame_PVEFrameTab2 | PVEFrame_PVEFrameTab3 | PVEFrame_PVEFrameTab4>
 PVEFrame = {}
 PVEFrame["Inset"] = PVEFrameLeftInset
 PVEFrame["tab1"] = PVEFrameTab1

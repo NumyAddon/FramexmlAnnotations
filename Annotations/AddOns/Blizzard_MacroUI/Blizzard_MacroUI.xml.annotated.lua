@@ -133,8 +133,7 @@ MacroFrameBg = {}
 --- @field maxTabWidth number # 140
 --- @field SelectedMacroButton MacroFrame_MacroFrameSelectedMacroButton
 --- @field MacroSelector MacroFrame_MacroSelector
---- @field Tabs table<number, MacroFrame_MacroFrameTab1>
---- @field Tabs table<number, MacroFrame_MacroFrameTab2>
+--- @field Tabs table<number, MacroFrame_MacroFrameTab1 | MacroFrame_MacroFrameTab2>
 MacroFrame = {}
 MacroFrame["SelectedMacroButton"] = MacroFrameSelectedMacroButton
 MacroFrame["maxTabWidth"] = 140

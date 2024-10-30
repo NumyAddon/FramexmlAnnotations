@@ -31,14 +31,11 @@
 --- @field Background Texture
 --- @field Border Texture
 --- @field NormalTexture InstanceDifficultyTemplate_Default_NormalTexture
---- @field DifficultyTextures table<number, InstanceDifficultyTemplate_Default_NormalTexture>
 --- @field HeroicTexture InstanceDifficultyTemplate_Default_HeroicTexture
---- @field DifficultyTextures table<number, InstanceDifficultyTemplate_Default_HeroicTexture>
 --- @field MythicTexture InstanceDifficultyTemplate_Default_MythicTexture
---- @field DifficultyTextures table<number, InstanceDifficultyTemplate_Default_MythicTexture>
 --- @field WalkInTexture InstanceDifficultyTemplate_Default_WalkInTexture
---- @field DifficultyTextures table<number, InstanceDifficultyTemplate_Default_WalkInTexture>
 --- @field Text InstanceDifficultyTemplate_Default_Text
+--- @field DifficultyTextures table<number, InstanceDifficultyTemplate_Default_NormalTexture | InstanceDifficultyTemplate_Default_HeroicTexture | InstanceDifficultyTemplate_Default_MythicTexture | InstanceDifficultyTemplate_Default_WalkInTexture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L120)
 --- child of 
@@ -75,16 +72,12 @@
 --- @class InstanceDifficultyTemplate_Guild_Instance : Frame, HorizontalLayoutFrame
 --- @field spacing number # 1
 --- @field NormalTexture InstanceDifficultyTemplate_Guild_Instance_NormalTexture
---- @field DifficultyTextures table<number, InstanceDifficultyTemplate_Guild_Instance_NormalTexture>
 --- @field HeroicTexture InstanceDifficultyTemplate_Guild_Instance_HeroicTexture
---- @field DifficultyTextures table<number, InstanceDifficultyTemplate_Guild_Instance_HeroicTexture>
 --- @field MythicTexture InstanceDifficultyTemplate_Guild_Instance_MythicTexture
---- @field DifficultyTextures table<number, InstanceDifficultyTemplate_Guild_Instance_MythicTexture>
 --- @field ChallengeModeTexture InstanceDifficultyTemplate_Guild_Instance_ChallengeModeTexture
---- @field DifficultyTextures table<number, InstanceDifficultyTemplate_Guild_Instance_ChallengeModeTexture>
 --- @field WalkInTexture InstanceDifficultyTemplate_Guild_Instance_WalkInTexture
---- @field DifficultyTextures table<number, InstanceDifficultyTemplate_Guild_Instance_WalkInTexture>
 --- @field Text InstanceDifficultyTemplate_Guild_Instance_Text
+--- @field DifficultyTextures table<number, InstanceDifficultyTemplate_Guild_Instance_NormalTexture | InstanceDifficultyTemplate_Guild_Instance_HeroicTexture | InstanceDifficultyTemplate_Guild_Instance_MythicTexture | InstanceDifficultyTemplate_Guild_Instance_ChallengeModeTexture | InstanceDifficultyTemplate_Guild_Instance_WalkInTexture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L77)
 --- child of 
@@ -120,9 +113,7 @@
 --- Template
 --- @class InstanceDifficultyTemplate : Frame, InstanceDifficultyMixin
 --- @field Default InstanceDifficultyTemplate_Default
---- @field ContentModes table<number, InstanceDifficultyTemplate_Default>
 --- @field Guild InstanceDifficultyTemplate_Guild
---- @field ContentModes table<number, InstanceDifficultyTemplate_Guild>
 --- @field ChallengeMode InstanceDifficultyTemplate_ChallengeMode
---- @field ContentModes table<number, InstanceDifficultyTemplate_ChallengeMode>
+--- @field ContentModes table<number, InstanceDifficultyTemplate_Default | InstanceDifficultyTemplate_Guild | InstanceDifficultyTemplate_ChallengeMode>
 

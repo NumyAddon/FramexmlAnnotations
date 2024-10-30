@@ -38,9 +38,8 @@ SecondaryStatusTrackingBarContainer["system"] = Enum.EditModeSystem.StatusTracki
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L35)
 --- @class StatusTrackingBarManager : Frame, StatusTrackingManagerMixin
 --- @field MainStatusTrackingBarContainer StatusTrackingBarManager_MainStatusTrackingBarContainer
---- @field barContainers table<number, StatusTrackingBarManager_MainStatusTrackingBarContainer>
 --- @field SecondaryStatusTrackingBarContainer StatusTrackingBarManager_SecondaryStatusTrackingBarContainer
---- @field barContainers table<number, StatusTrackingBarManager_SecondaryStatusTrackingBarContainer>
+--- @field barContainers table<number, StatusTrackingBarManager_MainStatusTrackingBarContainer | StatusTrackingBarManager_SecondaryStatusTrackingBarContainer>
 StatusTrackingBarManager = {}
 StatusTrackingBarManager["MainStatusTrackingBarContainer"] = MainStatusTrackingBarContainer
 StatusTrackingBarManager["SecondaryStatusTrackingBarContainer"] = SecondaryStatusTrackingBarContainer

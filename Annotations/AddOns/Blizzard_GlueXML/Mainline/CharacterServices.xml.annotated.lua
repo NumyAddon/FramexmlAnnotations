@@ -134,8 +134,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L184)
 --- @class CharacterUpgradeSelectCharacterFrame : Frame, CharacterServicesBlockTemplate
 --- @field ControlsFrame CharacterUpgradeSelectCharacterFrame_ControlsFrame
---- @field BonusResults table<number, >
 --- @field NoBonusResult CharacterUpgradeSelectCharacterFrame_NoBonusResult
+--- @field BonusResults table<number, >
 CharacterUpgradeSelectCharacterFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L288)
@@ -211,9 +211,8 @@ CharacterUpgradeSelectFactionFrameText = {}
 --- child of CharacterUpgradeSelectFactionFrame
 --- @class CharacterUpgradeSelectFactionFrame_ControlsFrame : Frame
 --- @field HordeButton CharacterUpgradeSelectFactionFrame_ControlsFrame_HordeButton
---- @field FactionButtons table<number, CharacterUpgradeSelectFactionFrame_ControlsFrame_HordeButton>
 --- @field AllianceButton CharacterUpgradeSelectFactionFrame_ControlsFrame_AllianceButton
---- @field FactionButtons table<number, CharacterUpgradeSelectFactionFrame_ControlsFrame_AllianceButton>
+--- @field FactionButtons table<number, CharacterUpgradeSelectFactionFrame_ControlsFrame_HordeButton | CharacterUpgradeSelectFactionFrame_ControlsFrame_AllianceButton>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L309)
 --- @class CharacterUpgradeSelectFactionFrame : Frame, CharacterServicesBlockTemplate

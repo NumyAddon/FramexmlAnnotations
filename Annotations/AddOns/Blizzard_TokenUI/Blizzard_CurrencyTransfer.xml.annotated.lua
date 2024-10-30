@@ -149,11 +149,9 @@ CurrencyTransferMenu["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- child of CurrencyTransferLogEntryTemplate
 --- @class CurrencyTransferLogEntryTemplate_BackgroundHighlight : Frame
 --- @field Left Texture
---- @field TextureRegions table<number, Texture>
 --- @field Right Texture
---- @field TextureRegions table<number, Texture>
 --- @field Middle Texture
---- @field TextureRegions table<number, Texture>
+--- @field TextureRegions table<number, Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L269)
 --- child of CurrencyTransferLogEntryTemplate

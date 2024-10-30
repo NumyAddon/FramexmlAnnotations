@@ -323,53 +323,36 @@ WardrobeCollectionFrameSearchBox["searchIcon"] = WardrobeCollectionFrameSearchBo
 --- @field WeaponDropdown WardrobeCollectionFrame_ItemsCollectionFrame_WeaponDropdown
 --- @field SlotsFrame Frame
 --- @field ModelR1C1 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C1
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C1>
 --- @field ModelR1C2 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C2
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C2>
 --- @field ModelR1C3 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C3
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C3>
 --- @field ModelR1C4 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C4
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C4>
 --- @field ModelR1C5 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C5
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C5>
 --- @field ModelR1C6 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C6
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C6>
 --- @field ModelR2C1 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C1
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C1>
 --- @field ModelR2C2 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C2
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C2>
 --- @field ModelR2C3 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C3
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C3>
 --- @field ModelR2C4 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C4
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C4>
 --- @field ModelR2C5 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C5
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C5>
 --- @field ModelR2C6 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C6
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C6>
 --- @field ModelR3C1 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C1
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C1>
 --- @field ModelR3C2 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C2
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C2>
 --- @field ModelR3C3 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C3
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C3>
 --- @field ModelR3C4 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C4
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C4>
 --- @field ModelR3C5 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C5
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C5>
 --- @field ModelR3C6 WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C6
---- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C6>
 --- @field HiddenModel WardrobeCollectionFrame_ItemsCollectionFrame_HiddenModel
 --- @field PendingTransmogFrame WardrobeCollectionFrame_ItemsCollectionFrame_PendingTransmogFrame
 --- @field NoValidItemsLabel WardrobeCollectionFrame_ItemsCollectionFrame_NoValidItemsLabel
+--- @field Models table<number, WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C1 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C2 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C3 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C4 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C5 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR1C6 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C1 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C2 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C3 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C4 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C5 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR2C6 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C1 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C2 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C3 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C4 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C5 | WardrobeCollectionFrame_ItemsCollectionFrame_ModelR3C6>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L254)
 --- @class WardrobeCollectionFrame : Frame, WardrobeCollectionFrameMixin
 --- @field ItemsTab WardrobeCollectionFrame_WardrobeCollectionFrameTab1
---- @field Tabs table<number, WardrobeCollectionFrame_WardrobeCollectionFrameTab1>
 --- @field SearchBox WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox
 --- @field progressBar WardrobeCollectionFrame_progressBar
 --- @field FilterButton WardrobeCollectionFrame_FilterButton
 --- @field ItemsCollectionFrame WardrobeCollectionFrame_ItemsCollectionFrame
+--- @field Tabs table<number, WardrobeCollectionFrame_WardrobeCollectionFrameTab1>
 --- @field ContentFrames table<number, WardrobeCollectionFrame_ItemsCollectionFrame>
 WardrobeCollectionFrame = {}
 WardrobeCollectionFrame["ItemsTab"] = WardrobeCollectionFrameTab1
@@ -679,40 +662,26 @@ WardrobeTransmogMoneyFrame["GoldButton"] = WardrobeTransmogMoneyFrameGoldButton 
 --- @field OutfitDropdown WardrobeFrame_WardrobeTransmogFrame_OutfitDropdown
 --- @field Model WardrobeFrame_WardrobeTransmogFrame_Model
 --- @field HeadButton WardrobeFrame_WardrobeTransmogFrame_HeadButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_HeadButton>
 --- @field ShoulderButton WardrobeFrame_WardrobeTransmogFrame_ShoulderButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_ShoulderButton>
 --- @field SecondaryShoulderButton WardrobeFrame_WardrobeTransmogFrame_SecondaryShoulderButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_SecondaryShoulderButton>
 --- @field BackButton WardrobeFrame_WardrobeTransmogFrame_BackButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_BackButton>
 --- @field ChestButton WardrobeFrame_WardrobeTransmogFrame_ChestButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_ChestButton>
 --- @field ShirtButton WardrobeFrame_WardrobeTransmogFrame_ShirtButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_ShirtButton>
 --- @field TabardButton WardrobeFrame_WardrobeTransmogFrame_TabardButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_TabardButton>
 --- @field WristButton WardrobeFrame_WardrobeTransmogFrame_WristButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_WristButton>
 --- @field HandsButton WardrobeFrame_WardrobeTransmogFrame_HandsButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_HandsButton>
 --- @field WaistButton WardrobeFrame_WardrobeTransmogFrame_WaistButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_WaistButton>
 --- @field LegsButton WardrobeFrame_WardrobeTransmogFrame_LegsButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_LegsButton>
 --- @field FeetButton WardrobeFrame_WardrobeTransmogFrame_FeetButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_FeetButton>
 --- @field SecondaryHandButton WardrobeFrame_WardrobeTransmogFrame_SecondaryHandButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_SecondaryHandButton>
 --- @field MainHandButton WardrobeFrame_WardrobeTransmogFrame_MainHandButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_MainHandButton>
 --- @field RangedButton WardrobeFrame_WardrobeTransmogFrame_RangedButton
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_RangedButton>
 --- @field MoneyFrame WardrobeFrame_WardrobeTransmogFrame_WardrobeTransmogMoneyFrame
 --- @field ApplyButton WardrobeFrame_WardrobeTransmogFrame_ApplyButton
 --- @field MoneyLeft Texture
 --- @field MoneyMiddle Texture
 --- @field MoneyRight Texture
+--- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_HeadButton | WardrobeFrame_WardrobeTransmogFrame_ShoulderButton | WardrobeFrame_WardrobeTransmogFrame_SecondaryShoulderButton | WardrobeFrame_WardrobeTransmogFrame_BackButton | WardrobeFrame_WardrobeTransmogFrame_ChestButton | WardrobeFrame_WardrobeTransmogFrame_ShirtButton | WardrobeFrame_WardrobeTransmogFrame_TabardButton | WardrobeFrame_WardrobeTransmogFrame_WristButton | WardrobeFrame_WardrobeTransmogFrame_HandsButton | WardrobeFrame_WardrobeTransmogFrame_WaistButton | WardrobeFrame_WardrobeTransmogFrame_LegsButton | WardrobeFrame_WardrobeTransmogFrame_FeetButton | WardrobeFrame_WardrobeTransmogFrame_SecondaryHandButton | WardrobeFrame_WardrobeTransmogFrame_MainHandButton | WardrobeFrame_WardrobeTransmogFrame_RangedButton>
 WardrobeTransmogFrame = {}
 WardrobeTransmogFrame["MoneyFrame"] = WardrobeTransmogMoneyFrame
 

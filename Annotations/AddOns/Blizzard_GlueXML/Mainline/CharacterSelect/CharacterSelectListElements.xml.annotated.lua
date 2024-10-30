@@ -132,12 +132,12 @@
 --- @field Arrow CharacterSelectListCharacterTemplate_Arrow
 --- @field UpgradeIcon CharacterSelectListCharacterTemplate_UpgradeIcon
 --- @field PaidService CharacterSelectListCharacterTemplate_PaidService
---- @field PaidServiceButtons table<number, CharacterSelectListCharacterTemplate_PaidService>
 --- @field InnerContent CharacterSelectListCharacterTemplate_InnerContent
 --- @field Drop Texture
 --- @field GlowAnim CharacterSelectListCharacterTemplate_GlowAnim
 --- @field GlowMoveAnim CharacterSelectListCharacterTemplate_GlowMoveAnim
 --- @field PulseAnim CharacterSelectListCharacterTemplate_PulseAnim
+--- @field PaidServiceButtons table<number, CharacterSelectListCharacterTemplate_PaidService>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L406)
 --- child of CharacterSelectListEmptyCharacterTemplate

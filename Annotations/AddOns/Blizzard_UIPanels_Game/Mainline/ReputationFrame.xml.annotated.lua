@@ -11,12 +11,10 @@
 --- @field Right Texture
 --- @field Middle Texture
 --- @field HighlightLeft Texture
---- @field HighlightTextureRegions table<number, Texture>
 --- @field HighlightRight Texture
---- @field HighlightTextureRegions table<number, Texture>
 --- @field HighlightMiddle Texture
---- @field HighlightTextureRegions table<number, Texture>
 --- @field Name ReputationHeaderTemplate_Name
+--- @field HighlightTextureRegions table<number, Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L62)
 --- child of ReputationSubHeaderTemplate
@@ -61,11 +59,9 @@
 --- child of 
 --- @class ReputationEntryTemplate_Content_BackgroundHighlight : Frame
 --- @field Left Texture
---- @field TextureRegions table<number, Texture>
 --- @field Right Texture
---- @field TextureRegions table<number, Texture>
 --- @field Middle Texture
---- @field TextureRegions table<number, Texture>
+--- @field TextureRegions table<number, Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L206)
 --- child of 

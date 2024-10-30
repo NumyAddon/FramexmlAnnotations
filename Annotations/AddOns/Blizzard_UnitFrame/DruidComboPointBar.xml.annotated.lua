@@ -15,17 +15,14 @@
 --- @field BG_Active Texture
 --- @field BG_Inactive Texture
 --- @field BG_Glow Texture
---- @field fxTextures table<number, Texture>
 --- @field Point_Deplete Texture
---- @field fxTextures table<number, Texture>
 --- @field Point_Icon Texture
 --- @field FX_RingGlow Texture
---- @field fxTextures table<number, Texture>
 --- @field FB_Slash Texture
 --- @field Smoke Texture
---- @field fxTextures table<number, Texture>
 --- @field activateAnim DruidComboPointTemplate_activateAnim
 --- @field deactivateAnim DruidComboPointTemplate_deactivateAnim
+--- @field fxTextures table<number, Texture | Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L91)
 --- Template

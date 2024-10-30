@@ -54,17 +54,11 @@
 --- @field AnimaLinkBlack Texture
 --- @field Mask MaskTexture
 --- @field AlphaAnim AnimaDiversionConnectionTemplate_AlphaAnim
---- @field animationGroups table<number, AnimaDiversionConnectionTemplate_AlphaAnim>
 --- @field TranslateAnim1 AnimaDiversionConnectionTemplate_TranslateAnim1
---- @field animationGroups table<number, AnimaDiversionConnectionTemplate_TranslateAnim1>
 --- @field TranslateAnim2 AnimaDiversionConnectionTemplate_TranslateAnim2
---- @field animationGroups table<number, AnimaDiversionConnectionTemplate_TranslateAnim2>
 --- @field TranslateAnim3 AnimaDiversionConnectionTemplate_TranslateAnim3
---- @field animationGroups table<number, AnimaDiversionConnectionTemplate_TranslateAnim3>
 --- @field RotateAnim1 AnimaDiversionConnectionTemplate_RotateAnim1
---- @field animationGroups table<number, AnimaDiversionConnectionTemplate_RotateAnim1>
 --- @field RotateAnim2 AnimaDiversionConnectionTemplate_RotateAnim2
---- @field animationGroups table<number, AnimaDiversionConnectionTemplate_RotateAnim2>
 --- @field RotateAnim3 AnimaDiversionConnectionTemplate_RotateAnim3
---- @field animationGroups table<number, AnimaDiversionConnectionTemplate_RotateAnim3>
+--- @field animationGroups table<number, AnimaDiversionConnectionTemplate_AlphaAnim | AnimaDiversionConnectionTemplate_TranslateAnim1 | AnimaDiversionConnectionTemplate_TranslateAnim2 | AnimaDiversionConnectionTemplate_TranslateAnim3 | AnimaDiversionConnectionTemplate_RotateAnim1 | AnimaDiversionConnectionTemplate_RotateAnim2 | AnimaDiversionConnectionTemplate_RotateAnim3>
 

@@ -417,14 +417,12 @@
 --- Template
 --- @class ClubFinderGuildCardsFrameTemplate : Frame
 --- @field FirstCard ClubFinderGuildCardsFrameTemplate_FirstCard
---- @field Cards table<number, ClubFinderGuildCardsFrameTemplate_FirstCard>
 --- @field SecondCard ClubFinderGuildCardsFrameTemplate_SecondCard
---- @field Cards table<number, ClubFinderGuildCardsFrameTemplate_SecondCard>
 --- @field ThirdCard ClubFinderGuildCardsFrameTemplate_ThirdCard
---- @field Cards table<number, ClubFinderGuildCardsFrameTemplate_ThirdCard>
 --- @field PreviousPage ClubFinderGuildCardsFrameTemplate_PreviousPage
 --- @field NextPage ClubFinderGuildCardsFrameTemplate_NextPage
 --- @field SearchingSpinner ClubFinderGuildCardsFrameTemplate_SearchingSpinner
+--- @field Cards table<number, ClubFinderGuildCardsFrameTemplate_FirstCard | ClubFinderGuildCardsFrameTemplate_SecondCard | ClubFinderGuildCardsFrameTemplate_ThirdCard>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L894)
 --- Template

@@ -4,11 +4,9 @@
 --- Template
 --- @class PVPTableRowTemplate : Frame, PVPRowMixin
 --- @field backgroundLeft Texture
---- @field Backgrounds table<number, Texture>
 --- @field backgroundRight Texture
---- @field Backgrounds table<number, Texture>
 --- @field backgroundCenter Texture
---- @field Backgrounds table<number, Texture>
+--- @field Backgrounds table<number, Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L35)
 --- child of PVPStringTemplate

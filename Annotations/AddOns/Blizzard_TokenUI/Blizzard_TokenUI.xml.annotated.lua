@@ -12,11 +12,9 @@
 --- @field Middle Texture
 --- @field Name TokenHeaderTemplate_Name
 --- @field HighlightLeft Texture
---- @field HighlightTextureRegions table<number, Texture>
 --- @field HighlightRight Texture
---- @field HighlightTextureRegions table<number, Texture>
 --- @field HighlightMiddle Texture
---- @field HighlightTextureRegions table<number, Texture>
+--- @field HighlightTextureRegions table<number, Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L63)
 --- child of TokenSubHeaderTemplate
@@ -36,11 +34,9 @@
 --- child of 
 --- @class TokenEntryTemplate_Content_BackgroundHighlight : Frame
 --- @field Left Texture
---- @field TextureRegions table<number, Texture>
 --- @field Right Texture
---- @field TextureRegions table<number, Texture>
 --- @field Middle Texture
---- @field TextureRegions table<number, Texture>
+--- @field TextureRegions table<number, Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L125)
 --- child of 

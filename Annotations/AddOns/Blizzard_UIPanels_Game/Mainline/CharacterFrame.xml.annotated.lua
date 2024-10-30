@@ -181,11 +181,9 @@ CharacterFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L147)
 --- @class CharacterFrame : Frame, ButtonFrameTemplate, CharacterFrameMixin
---- @field Tabs table<number, CharacterFrame_CharacterFrameTab1>
---- @field Tabs table<number, CharacterFrame_CharacterFrameTab2>
---- @field Tabs table<number, CharacterFrame_CharacterFrameTab3>
 --- @field InsetRight CharacterFrame_CharacterFrameInsetRight
 --- @field Background Texture
+--- @field Tabs table<number, CharacterFrame_CharacterFrameTab1 | CharacterFrame_CharacterFrameTab2 | CharacterFrame_CharacterFrameTab3>
 CharacterFrame = {}
 CharacterFrame["InsetRight"] = CharacterFrameInsetRight
 CharacterFrame["Inset"] = CharacterFrameInset -- inherited

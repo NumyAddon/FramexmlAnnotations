@@ -111,8 +111,7 @@
 --- Template
 --- @class PlayerChoiceBaseOptionTemplate : Frame, PlayerChoiceBaseOptionTemplateMixin
 --- @field OptionText PlayerChoiceBaseOptionTemplate_OptionText
---- @field AlignedSections table<number, PlayerChoiceBaseOptionTemplate_OptionText>
 --- @field OptionButtonsContainer PlayerChoiceBaseOptionTemplate_OptionButtonsContainer
---- @field AlignedSections table<number, PlayerChoiceBaseOptionTemplate_OptionButtonsContainer>
 --- @field WidgetContainer PlayerChoiceBaseOptionTemplate_WidgetContainer
+--- @field AlignedSections table<number, PlayerChoiceBaseOptionTemplate_OptionText | PlayerChoiceBaseOptionTemplate_OptionButtonsContainer>
 

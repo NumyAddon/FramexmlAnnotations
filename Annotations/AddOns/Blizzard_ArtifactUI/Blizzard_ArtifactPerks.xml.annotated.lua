@@ -104,15 +104,13 @@
 --- child of ArtifactPerksTabTemplate
 --- @class ArtifactPerksTabTemplate_TitleContainer : Frame, ArtifactTitleTemplateMixin
 --- @field RelicSlot1 ArtifactPerksTabTemplate_TitleContainer_RelicSlot1
---- @field RelicSlots table<number, ArtifactPerksTabTemplate_TitleContainer_RelicSlot1>
 --- @field RelicSlot2 ArtifactPerksTabTemplate_TitleContainer_RelicSlot2
---- @field RelicSlots table<number, ArtifactPerksTabTemplate_TitleContainer_RelicSlot2>
 --- @field RelicSlot3 ArtifactPerksTabTemplate_TitleContainer_RelicSlot3
---- @field RelicSlots table<number, ArtifactPerksTabTemplate_TitleContainer_RelicSlot3>
 --- @field Background Texture
 --- @field ArtifactName ArtifactPerksTabTemplate_TitleContainer_ArtifactName
 --- @field PointsRemainingLabel ArtifactPerksTabTemplate_TitleContainer_PointsRemainingLabel
 --- @field ArtifactPower ArtifactPerksTabTemplate_TitleContainer_ArtifactPower
+--- @field RelicSlots table<number, ArtifactPerksTabTemplate_TitleContainer_RelicSlot1 | ArtifactPerksTabTemplate_TitleContainer_RelicSlot2 | ArtifactPerksTabTemplate_TitleContainer_RelicSlot3>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L269)
 --- child of 

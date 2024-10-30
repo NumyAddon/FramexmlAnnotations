@@ -42,25 +42,10 @@
 --- @field ClassIcon Texture
 --- @field CCIcon Texture
 --- @field FeignDeathIcon Texture
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
---- @field TeamOverlays table<number, >
 --- @field DeathIcon Texture
 --- @field TrimOverlay Texture
 --- @field CCText CommentatorUnitFrameTemplate_Circle_CCText
+--- @field TeamOverlays table<number,  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L161)
 --- child of CommentatorUnitFrameTemplate
@@ -125,14 +110,12 @@
 --- @field RacialAbilityTracker CommentatorUnitFrameTemplate_RacialAbilityTracker
 --- @field Bars CommentatorUnitFrameTemplate_Bars
 --- @field DefensiveSpellTray CommentatorUnitFrameTemplate_DefensiveSpellTray
---- @field spellTrays table<number, CommentatorUnitFrameTemplate_DefensiveSpellTray>
 --- @field DebuffSpellTray CommentatorUnitFrameTemplate_DebuffSpellTray
---- @field spellTrays table<number, CommentatorUnitFrameTemplate_DebuffSpellTray>
 --- @field OffensiveSpellTray CommentatorUnitFrameTemplate_OffensiveSpellTray
---- @field spellTrays table<number, CommentatorUnitFrameTemplate_OffensiveSpellTray>
 --- @field ModelScene CommentatorUnitFrameTemplate_ModelScene
 --- @field FlagIconStatic Texture
 --- @field FlagIconStatic2 Texture
 --- @field FlagIcon Texture
 --- @field Name CommentatorUnitFrameTemplate_Name
+--- @field spellTrays table<number, CommentatorUnitFrameTemplate_DefensiveSpellTray | CommentatorUnitFrameTemplate_DebuffSpellTray | CommentatorUnitFrameTemplate_OffensiveSpellTray>
 

@@ -13,22 +13,17 @@
 --- @class MonkLightEnergyTemplate : Frame, MonkLightEnergyMixin
 --- @field Chi_BG Texture
 --- @field Chi_BG_Glow Texture
---- @field fxTextures table<number, Texture>
 --- @field Chi_BG_Active Texture
 --- @field FB_Wind_FX Texture
---- @field fxTextures table<number, Texture>
 --- @field Chi_FX_2 Texture
---- @field fxTextures table<number, Texture>
 --- @field Chi_Icon Texture
 --- @field Chi_Deplete Texture
---- @field fxTextures table<number, Texture>
 --- @field FX_OuterGlow Texture
---- @field fxTextures table<number, Texture>
 --- @field FX_Smoke Texture
---- @field fxTextures table<number, Texture>
 --- @field Orb_Gleam Texture
 --- @field activate MonkLightEnergyTemplate_activate
 --- @field deactivate MonkLightEnergyTemplate_deactivate
+--- @field fxTextures table<number, Texture | Texture | Texture | Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/MonkHarmonyBar.xml#L105)
 --- Template

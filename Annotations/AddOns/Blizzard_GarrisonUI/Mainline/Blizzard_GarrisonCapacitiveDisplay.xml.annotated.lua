@@ -70,12 +70,12 @@
 --- child of GarrisonCapacitiveDisplayFrame
 --- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay : Frame
 --- @field ShipmentIconFrame GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame
---- @field Reagents table<number, GarrisonCapacitiveItemButtonTemplate>
 --- @field IconBG Texture
 --- @field LastComplete GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_LastComplete
 --- @field Description GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_Description
 --- @field Reagents GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_Reagents
 --- @field FollowerActive GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_FollowerActive
+--- @field Reagents table<number, GarrisonCapacitiveItemButtonTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L223)
 --- child of 

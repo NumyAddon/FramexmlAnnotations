@@ -26,12 +26,11 @@
 --- @field Background Line
 --- @field Fill Line
 --- @field FillScroll1 Line
---- @field FillScrolls table<number, Line>
 --- @field FillScroll2 Line
---- @field FillScrolls table<number, Line>
 --- @field ScrollAnim PowerDependencyLineTemplate_ScrollAnim
 --- @field FadeAnim PowerDependencyLineTemplate_FadeAnim
 --- @field RevealAnim PowerDependencyLineTemplate_RevealAnim
+--- @field FillScrolls table<number, Line | Line>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L60)
 --- child of PowerDependencyCurvedLineTemplate

@@ -47,12 +47,10 @@
 --- @field Border RoleSelectionTemplate_Border
 --- @field CloseButton RoleSelectionTemplate_CloseButton
 --- @field RoleButtonTank RoleSelectionTemplate_RoleButtonTank
---- @field Roles table<number, RoleSelectionTemplate_RoleButtonTank>
 --- @field RoleButtonHealer RoleSelectionTemplate_RoleButtonHealer
---- @field Roles table<number, RoleSelectionTemplate_RoleButtonHealer>
 --- @field RoleButtonDPS RoleSelectionTemplate_RoleButtonDPS
---- @field Roles table<number, RoleSelectionTemplate_RoleButtonDPS>
 --- @field AcceptButton RoleSelectionTemplate_AcceptButton
 --- @field CancelButton RoleSelectionTemplate_CancelButton
 --- @field QueueWarningText RoleSelectionTemplate_QueueWarningText
+--- @field Roles table<number, RoleSelectionTemplate_RoleButtonTank | RoleSelectionTemplate_RoleButtonHealer | RoleSelectionTemplate_RoleButtonDPS>
 

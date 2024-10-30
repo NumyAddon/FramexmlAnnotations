@@ -87,22 +87,18 @@
 --- @field ExampleIcon6 ColorblindSelectorTemplate_ColorblindExamples_ExampleIcon6
 --- @field ItemQualityText ColorblindSelectorTemplate_ColorblindExamples_ItemQualityText
 --- @field ItemQuality1 ColorblindSelectorTemplate_ColorblindExamples_ItemQuality1
---- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality1>
 --- @field ItemQuality2 ColorblindSelectorTemplate_ColorblindExamples_ItemQuality2
---- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality2>
 --- @field ItemQuality3 ColorblindSelectorTemplate_ColorblindExamples_ItemQuality3
---- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality3>
 --- @field ItemQuality4 ColorblindSelectorTemplate_ColorblindExamples_ItemQuality4
---- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality4>
 --- @field ItemQuality5 ColorblindSelectorTemplate_ColorblindExamples_ItemQuality5
---- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality5>
---- @field ItemQuality table<number, ColorblindItemQualityTemplate2>
 --- @field ExampleIcon1Border Texture
 --- @field ExampleIcon2Border Texture
 --- @field ExampleIcon3Border Texture
 --- @field ExampleIcon4Border Texture
 --- @field ExampleIcon5Border Texture
 --- @field ExampleIcon6Border Texture
+--- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality1 | ColorblindSelectorTemplate_ColorblindExamples_ItemQuality2 | ColorblindSelectorTemplate_ColorblindExamples_ItemQuality3 | ColorblindSelectorTemplate_ColorblindExamples_ItemQuality4 | ColorblindSelectorTemplate_ColorblindExamples_ItemQuality5>
+--- @field ItemQuality table<number, ColorblindItemQualityTemplate2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Colorblind.xml#L180)
 --- child of ColorblindSelectorTemplate

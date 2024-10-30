@@ -38,11 +38,9 @@
 --- child of AzeriteLevelUpToast
 --- @class AzeriteLevelUpToast_UnlockItemsFrame : Frame, HorizontalLayoutFrame
 --- @field EssenceSlotFrame AzeriteLevelUpToast_UnlockItemsFrame_EssenceSlotFrame
---- @field Frames table<number, AzeriteLevelUpToast_UnlockItemsFrame_EssenceSlotFrame>
 --- @field EssenceStaminaFrame AzeriteLevelUpToast_UnlockItemsFrame_EssenceStaminaFrame
---- @field Frames table<number, AzeriteLevelUpToast_UnlockItemsFrame_EssenceStaminaFrame>
 --- @field EssenceRankedFrame AzeriteLevelUpToast_UnlockItemsFrame_EssenceRankedFrame
---- @field Frames table<number, AzeriteLevelUpToast_UnlockItemsFrame_EssenceRankedFrame>
+--- @field Frames table<number, AzeriteLevelUpToast_UnlockItemsFrame_EssenceSlotFrame | AzeriteLevelUpToast_UnlockItemsFrame_EssenceStaminaFrame | AzeriteLevelUpToast_UnlockItemsFrame_EssenceRankedFrame>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L163)
 --- child of AzeriteLevelUpToast
@@ -66,7 +64,6 @@
 --- @field GlowLineTop Texture
 --- @field GlowLineBottom Texture
 --- @field GlowLineBottomBurst Texture
---- @field BottomRegions table<number, Texture>
 --- @field LineBurst1 Texture
 --- @field LineBurst2 Texture
 --- @field LineBurst3 Texture
@@ -77,9 +74,7 @@
 --- @field CloudyLineLeft Texture
 --- @field CloudyLineLMover Texture
 --- @field BottomLineLeft Texture
---- @field BottomRegions table<number, Texture>
 --- @field BottomLineRight Texture
---- @field BottomRegions table<number, Texture>
 --- @field Stars1 Texture
 --- @field Stars2 Texture
 --- @field Icon Texture
@@ -90,5 +85,6 @@
 --- @field ItemName AzeriteLevelUpToast_ItemName
 --- @field TextLabel AzeriteLevelUpToast_TextLabel
 --- @field ShowAnim AzeriteLevelUpToast_ShowAnim
+--- @field BottomRegions table<number, Texture | Texture | Texture>
 AzeriteLevelUpToast = {}
 

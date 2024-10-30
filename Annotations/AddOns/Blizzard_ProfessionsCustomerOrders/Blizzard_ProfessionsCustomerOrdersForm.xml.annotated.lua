@@ -53,8 +53,8 @@
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_MinimumQuality : Frame
 --- @field Dropdown ProfessionsCustomerOrderFormTemplate_MinimumQuality_Dropdown
---- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_MinimumQuality_Dropdown>
 --- @field Text ProfessionsCustomerOrderFormTemplate_MinimumQuality_Text
+--- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_MinimumQuality_Dropdown>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L142)
 --- child of ProfessionsCustomerOrderFormTemplate
@@ -211,28 +211,21 @@
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer : Frame
 --- @field NoteEditBox ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox
 --- @field TipMoneyInputFrame ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyInputFrame
---- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyInputFrame>
 --- @field ViewListingsButton ProfessionsCustomerOrderFormTemplate_PaymentContainer_ViewListingsButton
---- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_ViewListingsButton>
 --- @field TipMoneyDisplayFrame ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyDisplayFrame
---- @field committedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyDisplayFrame>
 --- @field DurationDropdown ProfessionsCustomerOrderFormTemplate_PaymentContainer_DurationDropdown
---- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_DurationDropdown>
 --- @field TimeRemainingDisplay ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemainingDisplay
---- @field committedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemainingDisplay>
 --- @field PostingFeeMoneyDisplayFrame ProfessionsCustomerOrderFormTemplate_PaymentContainer_PostingFeeMoneyDisplayFrame
 --- @field TotalPriceMoneyDisplayFrame ProfessionsCustomerOrderFormTemplate_PaymentContainer_TotalPriceMoneyDisplayFrame
 --- @field ListOrderButton ProfessionsCustomerOrderFormTemplate_PaymentContainer_ListOrderButton
---- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_ListOrderButton>
 --- @field CancelOrderButton ProfessionsCustomerOrderFormTemplate_PaymentContainer_CancelOrderButton
---- @field committedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_CancelOrderButton>
 --- @field Tip ProfessionsCustomerOrderFormTemplate_PaymentContainer_Tip
 --- @field Duration ProfessionsCustomerOrderFormTemplate_PaymentContainer_Duration
---- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_Duration>
 --- @field TimeRemaining ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemaining
---- @field committedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemaining>
 --- @field PostingFee ProfessionsCustomerOrderFormTemplate_PaymentContainer_PostingFee
 --- @field TotalPrice ProfessionsCustomerOrderFormTemplate_PaymentContainer_TotalPrice
+--- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyInputFrame | ProfessionsCustomerOrderFormTemplate_PaymentContainer_ViewListingsButton | ProfessionsCustomerOrderFormTemplate_PaymentContainer_DurationDropdown | ProfessionsCustomerOrderFormTemplate_PaymentContainer_ListOrderButton | ProfessionsCustomerOrderFormTemplate_PaymentContainer_Duration>
+--- @field committedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyDisplayFrame | ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemainingDisplay | ProfessionsCustomerOrderFormTemplate_PaymentContainer_CancelOrderButton | ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemaining>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L506)
 --- child of 
@@ -318,13 +311,9 @@
 --- @field FavoriteButton ProfessionsCustomerOrderFormTemplate_FavoriteButton
 --- @field OutputIcon ProfessionsCustomerOrderFormTemplate_OutputIcon
 --- @field MinimumQuality ProfessionsCustomerOrderFormTemplate_MinimumQuality
---- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_MinimumQuality>
 --- @field OrderRecipientDropdown ProfessionsCustomerOrderFormTemplate_OrderRecipientDropdown
---- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_OrderRecipientDropdown>
 --- @field OrderRecipientTarget ProfessionsCustomerOrderFormTemplate_OrderRecipientTarget
---- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_OrderRecipientTarget>
 --- @field OrderRecipientDisplay ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay
---- @field committedRegions table<number, ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay>
 --- @field RecraftSlot ProfessionsCustomerOrderFormTemplate_RecraftSlot
 --- @field ReagentContainer ProfessionsCustomerOrderFormTemplate_ReagentContainer
 --- @field PaymentContainer ProfessionsCustomerOrderFormTemplate_PaymentContainer
@@ -337,6 +326,7 @@
 --- @field RecraftRecipeName ProfessionsCustomerOrderFormTemplate_RecraftRecipeName
 --- @field ProfessionText ProfessionsCustomerOrderFormTemplate_ProfessionText
 --- @field OrderStateText ProfessionsCustomerOrderFormTemplate_OrderStateText
---- @field committedRegions table<number, ProfessionsCustomerOrderFormTemplate_OrderStateText>
 --- @field MinimumQualityIcon Texture
+--- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_MinimumQuality | ProfessionsCustomerOrderFormTemplate_OrderRecipientDropdown | ProfessionsCustomerOrderFormTemplate_OrderRecipientTarget>
+--- @field committedRegions table<number, ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay | ProfessionsCustomerOrderFormTemplate_OrderStateText>
 

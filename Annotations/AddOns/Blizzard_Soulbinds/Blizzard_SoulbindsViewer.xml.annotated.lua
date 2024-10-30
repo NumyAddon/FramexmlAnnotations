@@ -98,25 +98,16 @@
 --- child of SoulbindViewer
 --- @class SoulbindViewer_Fx : Frame
 --- @field ActivateFXLensFlare1 SoulbindViewer_Fx_ActivateFXLensFlare1
---- @field Textures table<number, SoulbindViewer_Fx_ActivateFXLensFlare1>
 --- @field ActivateFXLensFlare2 SoulbindViewer_Fx_ActivateFXLensFlare2
---- @field Textures table<number, SoulbindViewer_Fx_ActivateFXLensFlare2>
 --- @field ActivateFXRunes1 SoulbindViewer_Fx_ActivateFXRunes1
---- @field Textures table<number, SoulbindViewer_Fx_ActivateFXRunes1>
 --- @field ActivateFXRunes2 SoulbindViewer_Fx_ActivateFXRunes2
---- @field Textures table<number, SoulbindViewer_Fx_ActivateFXRunes2>
 --- @field ActivateFXDiamond SoulbindViewer_Fx_ActivateFXDiamond
---- @field Textures table<number, SoulbindViewer_Fx_ActivateFXDiamond>
 --- @field ActivateFXDiamondArrows SoulbindViewer_Fx_ActivateFXDiamondArrows
---- @field Textures table<number, SoulbindViewer_Fx_ActivateFXDiamondArrows>
 --- @field ActivateFXDiamondFlipped SoulbindViewer_Fx_ActivateFXDiamondFlipped
---- @field Textures table<number, SoulbindViewer_Fx_ActivateFXDiamondFlipped>
 --- @field ActivateFXStarfield SoulbindViewer_Fx_ActivateFXStarfield
---- @field Textures table<number, SoulbindViewer_Fx_ActivateFXStarfield>
 --- @field ActivateFXRingLarge SoulbindViewer_Fx_ActivateFXRingLarge
---- @field Textures table<number, SoulbindViewer_Fx_ActivateFXRingLarge>
 --- @field ActivateFXRingSmall SoulbindViewer_Fx_ActivateFXRingSmall
---- @field Textures table<number, SoulbindViewer_Fx_ActivateFXRingSmall>
+--- @field Textures table<number, SoulbindViewer_Fx_ActivateFXLensFlare1 | SoulbindViewer_Fx_ActivateFXLensFlare2 | SoulbindViewer_Fx_ActivateFXRunes1 | SoulbindViewer_Fx_ActivateFXRunes2 | SoulbindViewer_Fx_ActivateFXDiamond | SoulbindViewer_Fx_ActivateFXDiamondArrows | SoulbindViewer_Fx_ActivateFXDiamondFlipped | SoulbindViewer_Fx_ActivateFXStarfield | SoulbindViewer_Fx_ActivateFXRingLarge | SoulbindViewer_Fx_ActivateFXRingSmall>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.xml#L344)
 --- child of SoulbindViewer

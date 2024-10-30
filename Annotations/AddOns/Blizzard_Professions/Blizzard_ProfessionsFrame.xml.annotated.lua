@@ -41,11 +41,9 @@ ProfessionsFrameBg = {}
 --- @field MaxMinButtonFrame ProfessionsFrame_MaximizeMinimize
 --- @field TabSystem ProfessionsFrame_TabSystem
 --- @field CraftingPage ProfessionsFrame_CraftingPage
---- @field Pages table<number, ProfessionsFrame_CraftingPage>
 --- @field SpecPage ProfessionsFrame_SpecPage
---- @field Pages table<number, ProfessionsFrame_SpecPage>
 --- @field OrdersPage ProfessionsFrame_OrdersPage
---- @field Pages table<number, ProfessionsFrame_OrdersPage>
+--- @field Pages table<number, ProfessionsFrame_CraftingPage | ProfessionsFrame_SpecPage | ProfessionsFrame_OrdersPage>
 ProfessionsFrame = {}
 ProfessionsFrame["Bg"] = ProfessionsFrameBg -- inherited
 ProfessionsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited

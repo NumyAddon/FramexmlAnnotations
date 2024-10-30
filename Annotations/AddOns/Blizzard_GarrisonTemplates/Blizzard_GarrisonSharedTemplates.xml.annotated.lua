@@ -144,12 +144,12 @@
 --- Template
 --- @class GarrisonMissionFollowerButtonTemplate : Button, GarrisonFollowerButtonTemplate
 --- @field DurabilityFrame GarrisonMissionFollowerButtonTemplate_DurabilityFrame
---- @field Counters table<number, >
---- @field Abilities table<number, >
 --- @field BusyFrame GarrisonMissionFollowerButtonTemplate_BusyFrame
 --- @field AbilitiesBG Texture
 --- @field UpArrow Texture
 --- @field DownArrow Texture
+--- @field Counters table<number, >
+--- @field Abilities table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L539)
 --- child of GarrisonMissionFollowerOrCategoryListButtonTemplate

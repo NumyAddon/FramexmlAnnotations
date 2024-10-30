@@ -104,15 +104,12 @@
 --- @field BackButton ProfessionsCraftingOrderPageTemplate_BrowseFrame_BackButton
 --- @field OrderList ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList
 --- @field PublicOrdersButton ProfessionsCraftingOrderPageTemplate_BrowseFrame_PublicOrdersButton
---- @field orderTypeTabs table<number, ProfessionsCraftingOrderPageTemplate_BrowseFrame_PublicOrdersButton>
 --- @field GuildOrdersButton ProfessionsCraftingOrderPageTemplate_BrowseFrame_GuildOrdersButton
---- @field orderTypeTabs table<number, ProfessionsCraftingOrderPageTemplate_BrowseFrame_GuildOrdersButton>
 --- @field NpcOrdersButton ProfessionsCraftingOrderPageTemplate_BrowseFrame_NpcOrdersButton
---- @field orderTypeTabs table<number, ProfessionsCraftingOrderPageTemplate_BrowseFrame_NpcOrdersButton>
 --- @field NpcOrdersNewFeature ProfessionsCraftingOrderPageTemplate_BrowseFrame_NpcOrdersNewFeature
 --- @field PersonalOrdersButton ProfessionsCraftingOrderPageTemplate_BrowseFrame_PersonalOrdersButton
---- @field orderTypeTabs table<number, ProfessionsCraftingOrderPageTemplate_BrowseFrame_PersonalOrdersButton>
 --- @field OrdersRemainingDisplay ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrdersRemainingDisplay
+--- @field orderTypeTabs table<number, ProfessionsCraftingOrderPageTemplate_BrowseFrame_PublicOrdersButton | ProfessionsCraftingOrderPageTemplate_BrowseFrame_GuildOrdersButton | ProfessionsCraftingOrderPageTemplate_BrowseFrame_NpcOrdersButton | ProfessionsCraftingOrderPageTemplate_BrowseFrame_PersonalOrdersButton>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L226)
 --- child of ProfessionsCraftingOrderPageTemplate

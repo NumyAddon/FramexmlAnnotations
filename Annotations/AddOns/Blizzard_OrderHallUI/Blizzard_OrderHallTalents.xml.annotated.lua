@@ -162,32 +162,24 @@ OrderHallTalentFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L177)
 --- @class OrderHallTalentFrame : Frame, PortraitFrameTemplate, OrderHallTalentFrameMixin
---- @field FriendshipStatusBar OrderHallTalentFrame_FriendshipStatusBar
+--- @field FriendshipStatusBar OrderHallTalentFrame_FriendshipStatusBar | OrderHallTalentFrame_FriendshipStatusBar
 --- @field OverlayElements OrderHallTalentFrame_OverlayElements
 --- @field Currency OrderHallTalentFrame_Currency
 --- @field CurrencyHitTest Frame
 --- @field Inset OrderHallTalentFrame_Inset
 --- @field BackButton OrderHallTalentFrame_BackButton
 --- @field CypherEquipmentLevel OrderHallTalentFrame_CypherEquipmentLevel
---- @field FriendshipStatusBar OrderHallTalentFrame_FriendshipStatusBar
 --- @field CurrencyBG Texture
 --- @field SingleCost OrderHallTalentFrame_SingleCost
 --- @field Tick1 OrderHallTalentFrame_Tick1
---- @field FrameTick table<number, OrderHallTalentFrame_Tick1>
 --- @field Tick2 OrderHallTalentFrame_Tick2
---- @field FrameTick table<number, OrderHallTalentFrame_Tick2>
 --- @field Tick3 OrderHallTalentFrame_Tick3
---- @field FrameTick table<number, OrderHallTalentFrame_Tick3>
 --- @field Tick4 OrderHallTalentFrame_Tick4
---- @field FrameTick table<number, OrderHallTalentFrame_Tick4>
 --- @field Tick5 OrderHallTalentFrame_Tick5
---- @field FrameTick table<number, OrderHallTalentFrame_Tick5>
 --- @field Tick6 OrderHallTalentFrame_Tick6
---- @field FrameTick table<number, OrderHallTalentFrame_Tick6>
 --- @field Tick7 OrderHallTalentFrame_Tick7
---- @field FrameTick table<number, OrderHallTalentFrame_Tick7>
 --- @field Tick8 OrderHallTalentFrame_Tick8
---- @field FrameTick table<number, OrderHallTalentFrame_Tick8>
+--- @field FrameTick table<number, OrderHallTalentFrame_Tick1 | OrderHallTalentFrame_Tick2 | OrderHallTalentFrame_Tick3 | OrderHallTalentFrame_Tick4 | OrderHallTalentFrame_Tick5 | OrderHallTalentFrame_Tick6 | OrderHallTalentFrame_Tick7 | OrderHallTalentFrame_Tick8>
 OrderHallTalentFrame = {}
 OrderHallTalentFrame["CloseButton"] = OrderHallTalentFrameCloseButton -- inherited
 OrderHallTalentFrame["Bg"] = OrderHallTalentFrameBg -- inherited

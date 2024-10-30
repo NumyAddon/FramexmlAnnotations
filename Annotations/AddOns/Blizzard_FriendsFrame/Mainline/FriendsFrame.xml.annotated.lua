@@ -296,11 +296,9 @@ FriendsTabHeaderTab3 = {}
 --- @field maxTabWidth number # 110
 --- @field StatusDropdown FriendsFrame_FriendsTabHeader_FriendsFrameStatusDropdown
 --- @field Tab1 FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab1
---- @field Tabs table<number, FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab1>
 --- @field Tab2 FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab2
---- @field Tabs table<number, FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab2>
 --- @field Tab3 FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab3
---- @field Tabs table<number, FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab3>
+--- @field Tabs table<number, FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab1 | FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab2 | FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab3>
 FriendsTabHeader = {}
 FriendsTabHeader["StatusDropdown"] = FriendsFrameStatusDropdown
 FriendsTabHeader["Tab1"] = FriendsTabHeaderTab1
@@ -716,10 +714,7 @@ FriendsFrameBg = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L495)
 --- @class FriendsFrame : Frame, ButtonFrameTemplate
 --- @field FriendsTabHeader FriendsFrame_FriendsTabHeader
---- @field Tabs table<number, FriendsFrame_FriendsFrameTab1>
---- @field Tabs table<number, FriendsFrame_FriendsFrameTab2>
---- @field Tabs table<number, FriendsFrame_FriendsFrameTab3>
---- @field Tabs table<number, FriendsFrame_FriendsFrameTab4>
+--- @field Tabs table<number, FriendsFrame_FriendsFrameTab1 | FriendsFrame_FriendsFrameTab2 | FriendsFrame_FriendsFrameTab3 | FriendsFrame_FriendsFrameTab4>
 FriendsFrame = {}
 FriendsFrame["FriendsTabHeader"] = FriendsTabHeader
 FriendsFrame["Inset"] = FriendsFrameInset -- inherited

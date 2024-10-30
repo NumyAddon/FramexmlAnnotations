@@ -70,34 +70,21 @@
 --- Adds itself to the parent inside the array `Columns`
 --- @class GuildBankFrameColumnTemplate : Frame
 --- @field Button1 GuildBankFrameColumnTemplate_Button1
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button1>
 --- @field Button2 GuildBankFrameColumnTemplate_Button2
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button2>
 --- @field Button3 GuildBankFrameColumnTemplate_Button3
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button3>
 --- @field Button4 GuildBankFrameColumnTemplate_Button4
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button4>
 --- @field Button5 GuildBankFrameColumnTemplate_Button5
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button5>
 --- @field Button6 GuildBankFrameColumnTemplate_Button6
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button6>
 --- @field Button7 GuildBankFrameColumnTemplate_Button7
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button7>
 --- @field Button8 GuildBankFrameColumnTemplate_Button8
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button8>
 --- @field Button9 GuildBankFrameColumnTemplate_Button9
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button9>
 --- @field Button10 GuildBankFrameColumnTemplate_Button10
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button10>
 --- @field Button11 GuildBankFrameColumnTemplate_Button11
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button11>
 --- @field Button12 GuildBankFrameColumnTemplate_Button12
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button12>
 --- @field Button13 GuildBankFrameColumnTemplate_Button13
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button13>
 --- @field Button14 GuildBankFrameColumnTemplate_Button14
---- @field Buttons table<number, GuildBankFrameColumnTemplate_Button14>
 --- @field Background Texture
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button1 | GuildBankFrameColumnTemplate_Button2 | GuildBankFrameColumnTemplate_Button3 | GuildBankFrameColumnTemplate_Button4 | GuildBankFrameColumnTemplate_Button5 | GuildBankFrameColumnTemplate_Button6 | GuildBankFrameColumnTemplate_Button7 | GuildBankFrameColumnTemplate_Button8 | GuildBankFrameColumnTemplate_Button9 | GuildBankFrameColumnTemplate_Button10 | GuildBankFrameColumnTemplate_Button11 | GuildBankFrameColumnTemplate_Button12 | GuildBankFrameColumnTemplate_Button13 | GuildBankFrameColumnTemplate_Button14>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L126)
 --- child of 
@@ -678,35 +665,16 @@ GuildBankFrameRight = {}
 --- @class GuildBankFrame : Frame, GuildBankFrameMixin
 --- @field Emblem GuildBankFrame_Emblem
 --- @field Column1 GuildBankFrame_Column1
---- @field Columns table<number, GuildBankFrame_Column1>
 --- @field Column2 GuildBankFrame_Column2
---- @field Columns table<number, GuildBankFrame_Column2>
 --- @field Column3 GuildBankFrame_Column3
---- @field Columns table<number, GuildBankFrame_Column3>
 --- @field Column4 GuildBankFrame_Column4
---- @field Columns table<number, GuildBankFrame_Column4>
 --- @field Column5 GuildBankFrame_Column5
---- @field Columns table<number, GuildBankFrame_Column5>
 --- @field Column6 GuildBankFrame_Column6
---- @field Columns table<number, GuildBankFrame_Column6>
 --- @field Column7 GuildBankFrame_Column7
---- @field Columns table<number, GuildBankFrame_Column7>
 --- @field MoneyFrame GuildBankFrame_GuildBankMoneyFrame
 --- @field WithdrawMoneyFrame GuildBankFrame_GuildBankWithdrawMoneyFrame
 --- @field DepositButton GuildBankFrame_DepositButton
 --- @field WithdrawButton GuildBankFrame_WithdrawButton
---- @field FrameTabs table<number, GuildBankFrame_GuildBankFrameTab1>
---- @field FrameTabs table<number, GuildBankFrame_GuildBankFrameTab2>
---- @field FrameTabs table<number, GuildBankFrame_GuildBankFrameTab3>
---- @field FrameTabs table<number, GuildBankFrame_GuildBankFrameTab4>
---- @field BankTabs table<number, GuildBankFrame_GuildBankTab1>
---- @field BankTabs table<number, GuildBankFrame_GuildBankTab2>
---- @field BankTabs table<number, GuildBankFrame_GuildBankTab3>
---- @field BankTabs table<number, GuildBankFrame_GuildBankTab4>
---- @field BankTabs table<number, GuildBankFrame_GuildBankTab5>
---- @field BankTabs table<number, GuildBankFrame_GuildBankTab6>
---- @field BankTabs table<number, GuildBankFrame_GuildBankTab7>
---- @field BankTabs table<number, GuildBankFrame_GuildBankTab8>
 --- @field BuyInfo GuildBankFrame_BuyInfo
 --- @field Log GuildBankFrame_Log
 --- @field Info GuildBankFrame_GuildBankInfo
@@ -717,12 +685,14 @@ GuildBankFrameRight = {}
 --- @field TabLimitBG Texture
 --- @field TabLimitBGLeft Texture
 --- @field TabLimitBGRight Texture
---- @field LimitLabel GuildBankFrame_LimitLabel
---- @field LimitLabel GuildBankFrame_GuildBankLimitLabel
+--- @field LimitLabel GuildBankFrame_LimitLabel | GuildBankFrame_GuildBankLimitLabel
 --- @field MoneyLimitLabel GuildBankFrame_GuildBankMoneyLimitLabel
 --- @field UnlimitedLabel GuildBankFrame_GuildBankMoneyUnlimitedLabel
 --- @field ErrorMessage GuildBankFrame_ErrorMessage
 --- @field Portrait Texture
+--- @field Columns table<number, GuildBankFrame_Column1 | GuildBankFrame_Column2 | GuildBankFrame_Column3 | GuildBankFrame_Column4 | GuildBankFrame_Column5 | GuildBankFrame_Column6 | GuildBankFrame_Column7>
+--- @field FrameTabs table<number, GuildBankFrame_GuildBankFrameTab1 | GuildBankFrame_GuildBankFrameTab2 | GuildBankFrame_GuildBankFrameTab3 | GuildBankFrame_GuildBankFrameTab4>
+--- @field BankTabs table<number, GuildBankFrame_GuildBankTab1 | GuildBankFrame_GuildBankTab2 | GuildBankFrame_GuildBankTab3 | GuildBankFrame_GuildBankTab4 | GuildBankFrame_GuildBankTab5 | GuildBankFrame_GuildBankTab6 | GuildBankFrame_GuildBankTab7 | GuildBankFrame_GuildBankTab8>
 GuildBankFrame = {}
 GuildBankFrame["MoneyFrame"] = GuildBankMoneyFrame
 GuildBankFrame["WithdrawMoneyFrame"] = GuildBankWithdrawMoneyFrame

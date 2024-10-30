@@ -49,13 +49,9 @@
 --- @class DeveloperConsoleAutoCompleteTemplate : Frame, DeveloperConsoleAutoCompleteMixin
 --- @field Tooltip DeveloperConsoleAutoCompleteTemplate_Tooltip
 --- @field Background Texture
---- @field BackgroundElements table<number, Texture>
 --- @field BorderTop Texture
---- @field BackgroundElements table<number, Texture>
 --- @field BorderRight Texture
---- @field BackgroundElements table<number, Texture>
 --- @field BorderLeft Texture
---- @field BackgroundElements table<number, Texture>
 --- @field BorderBottom Texture
---- @field BackgroundElements table<number, Texture>
+--- @field BackgroundElements table<number, Texture | Texture | Texture | Texture | Texture>
 

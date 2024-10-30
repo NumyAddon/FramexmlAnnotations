@@ -705,25 +705,8 @@ CharacterRangedSlot["popoutButton"] = CharacterRangedSlotPopoutButton -- inherit
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L690)
 --- child of PaperDollFrame
 --- @class PaperDollFrame_PaperDollItemsFrame : Frame
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterHeadSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterNeckSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterShoulderSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterBackSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterChestSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterShirtSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterTabardSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterWristSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterHandsSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterWaistSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterLegsSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterFeetSlot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterFinger0Slot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterFinger1Slot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterTrinket0Slot>
---- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterTrinket1Slot>
---- @field WeaponSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterMainHandSlot>
---- @field WeaponSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterSecondaryHandSlot>
---- @field WeaponSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterRangedSlot>
+--- @field EquipmentSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterHeadSlot | PaperDollFrame_PaperDollItemsFrame_CharacterNeckSlot | PaperDollFrame_PaperDollItemsFrame_CharacterShoulderSlot | PaperDollFrame_PaperDollItemsFrame_CharacterBackSlot | PaperDollFrame_PaperDollItemsFrame_CharacterChestSlot | PaperDollFrame_PaperDollItemsFrame_CharacterShirtSlot | PaperDollFrame_PaperDollItemsFrame_CharacterTabardSlot | PaperDollFrame_PaperDollItemsFrame_CharacterWristSlot | PaperDollFrame_PaperDollItemsFrame_CharacterHandsSlot | PaperDollFrame_PaperDollItemsFrame_CharacterWaistSlot | PaperDollFrame_PaperDollItemsFrame_CharacterLegsSlot | PaperDollFrame_PaperDollItemsFrame_CharacterFeetSlot | PaperDollFrame_PaperDollItemsFrame_CharacterFinger0Slot | PaperDollFrame_PaperDollItemsFrame_CharacterFinger1Slot | PaperDollFrame_PaperDollItemsFrame_CharacterTrinket0Slot | PaperDollFrame_PaperDollItemsFrame_CharacterTrinket1Slot>
+--- @field WeaponSlots table<number, PaperDollFrame_PaperDollItemsFrame_CharacterMainHandSlot | PaperDollFrame_PaperDollItemsFrame_CharacterSecondaryHandSlot | PaperDollFrame_PaperDollItemsFrame_CharacterRangedSlot>
 PaperDollItemsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L416)

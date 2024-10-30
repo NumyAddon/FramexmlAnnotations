@@ -99,10 +99,38 @@
 --- child of CommunitiesNotificationSettingsDialogTemplate
 --- @class CommunitiesNotificationSettingsDialogTemplate_CommunitiesListDropdown : DropdownButton, CommunitiesListDropdownTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L248)
+--- child of 
+--- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_QuickJoinButton : CheckButton, UICheckButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L261)
+--- child of 
+--- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_NoneButton : Button, CommunitiesMassNotificationsSettingsButtonTemplate
+--- @field filter any # Enum.ClubStreamNotificationFilter.None
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L270)
+--- child of 
+--- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_AllButton : Button, CommunitiesMassNotificationsSettingsButtonTemplate
+--- @field filter any # Enum.ClubStreamNotificationFilter.All
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L230)
+--- child of 
+--- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_SettingsLabel : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L221)
+--- child of 
+--- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child : Frame
+--- @field QuickJoinButton CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_QuickJoinButton
+--- @field NoneButton CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_NoneButton
+--- @field AllButton CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_AllButton
+--- @field SettingsLabel CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child_SettingsLabel
+--- @field Separator Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L210)
 --- child of CommunitiesNotificationSettingsDialogTemplate
 --- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 5
+--- @field Child CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L182)
 --- child of CommunitiesNotificationSettingsDialogTemplate

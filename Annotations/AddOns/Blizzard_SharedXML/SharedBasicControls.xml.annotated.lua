@@ -69,6 +69,7 @@ BasicMessageDialog = {}
 --- child of ScriptErrorsFrame
 --- @class ScriptErrorsFrame_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarTemplate string # "MinimalScrollBar"
+--- @field Text EditBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L245)
 --- child of ScriptErrorsFrame

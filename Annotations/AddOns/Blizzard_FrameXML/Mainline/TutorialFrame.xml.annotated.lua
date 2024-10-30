@@ -1,5 +1,15 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L139)
+--- child of TutorialFrameTextScrollChildFrame
+--- @class TutorialFrame_TutorialFrameTextScrollFrame_TutorialFrameTextScrollChildFrame_TutorialFrameText : FontString, GameFontNormal
+TutorialFrameText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L135)
+--- child of TutorialFrameTextScrollFrame
+--- @class TutorialFrame_TutorialFrameTextScrollFrame_TutorialFrameTextScrollChildFrame : Frame
+TutorialFrameTextScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L126)
 --- child of TutorialFrame
 --- @class TutorialFrame_TutorialFrameTextScrollFrame : ScrollFrame, ScrollFrameTemplate

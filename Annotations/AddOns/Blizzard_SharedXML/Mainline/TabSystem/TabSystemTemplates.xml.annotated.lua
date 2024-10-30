@@ -13,7 +13,7 @@
 --- @field LeftHighlight Texture
 --- @field MiddleHighlight Texture
 --- @field RightHighlight Texture
---- @field RotatedTextures table<number, Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field RotatedTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.xml#L71)
 --- Template

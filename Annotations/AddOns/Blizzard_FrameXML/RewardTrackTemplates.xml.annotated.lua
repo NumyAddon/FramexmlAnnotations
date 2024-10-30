@@ -13,7 +13,7 @@
 --- @field Level RenownLevelTemplate_Level
 --- @field HexMask MaskTexture
 --- @field HighlightTexture Texture
---- @field Textures table<number, Texture | Texture | Texture | Texture>
+--- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L55)
 --- Template

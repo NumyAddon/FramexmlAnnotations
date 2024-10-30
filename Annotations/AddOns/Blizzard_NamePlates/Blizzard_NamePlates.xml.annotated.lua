@@ -32,7 +32,7 @@ NamePlateDriverFrame = {}
 --- @field Right Texture
 --- @field Bottom Texture
 --- @field Top Texture
---- @field Textures table<number, Texture | Texture | Texture | Texture>
+--- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L100)
 --- Template
@@ -40,7 +40,7 @@ NamePlateDriverFrame = {}
 --- @field Left Texture
 --- @field Right Texture
 --- @field Bottom Texture
---- @field Textures table<number, Texture | Texture | Texture>
+--- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L155)
 --- child of 

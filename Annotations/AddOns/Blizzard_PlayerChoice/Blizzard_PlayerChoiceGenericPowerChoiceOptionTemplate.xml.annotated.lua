@@ -36,5 +36,5 @@
 --- @field ArtworkBack Texture
 --- @field CircleBorderShine Texture
 --- @field CircleBorderShineMask MaskTexture
---- @field PassiveAnimations table<number,  |  |  |  |  | >
+--- @field PassiveAnimations table<number, AnimationGroup>
 

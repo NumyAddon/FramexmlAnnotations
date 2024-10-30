@@ -6,7 +6,7 @@
 --- @field backgroundLeft Texture
 --- @field backgroundRight Texture
 --- @field backgroundCenter Texture
---- @field Backgrounds table<number, Texture | Texture | Texture>
+--- @field Backgrounds table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L35)
 --- child of PVPStringTemplate

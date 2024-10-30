@@ -24,7 +24,7 @@
 --- @field Artwork Texture
 --- @field PendingGlow Texture
 --- @field PipLockinAnim ProfessionsSpecPerkTemplate_PipLockinAnim
---- @field RotatedTextures table<number, Texture | Texture>
+--- @field RotatedTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.xml#L84)
 --- Template

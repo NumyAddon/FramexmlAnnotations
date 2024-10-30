@@ -117,7 +117,7 @@ GarrisonBuildingFrameTutorialButton["MainHelpPlateButtonTooltipText"] = MAIN_HEL
 --- @field Tab2 GarrisonBuildingFrame_BuildingList_Tab2
 --- @field Tab3 GarrisonBuildingFrame_BuildingList_Tab3
 --- @field MaterialFrame GarrisonBuildingFrame_BuildingList_MaterialFrame
---- @field Buttons table<number, >
+--- @field Buttons table<number, GarrisonBuildingListButtonTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L565)
 --- child of 
@@ -245,7 +245,7 @@ GarrisonBuildingFrameFollowers = {}
 --- @class GarrisonBuildingFrame_InfoBox_SpecFrame : Frame
 --- @field BGLeft Texture
 --- @field BGRight Texture
---- @field Specs table<number, >
+--- @field Specs table<number, GarrisonBuildingSpecTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L974)
 --- child of 
@@ -413,7 +413,7 @@ GarrisonBuildingFrameFollowers = {}
 --- @class GarrisonBuildingFrame_MapFrame : Frame
 --- @field TownHall GarrisonBuildingFrame_MapFrame_TownHall
 --- @field Map Texture
---- @field Plots table<number, >
+--- @field Plots table<number, GarrisonPlotTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L1376)
 --- child of 

@@ -135,7 +135,7 @@
 --- @class CharacterUpgradeSelectCharacterFrame : Frame, CharacterServicesBlockTemplate
 --- @field ControlsFrame CharacterUpgradeSelectCharacterFrame_ControlsFrame
 --- @field NoBonusResult CharacterUpgradeSelectCharacterFrame_NoBonusResult
---- @field BonusResults table<number, >
+--- @field BonusResults table<number, CharacterServicesBonusResultTemplate>
 CharacterUpgradeSelectCharacterFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServices.xml#L288)

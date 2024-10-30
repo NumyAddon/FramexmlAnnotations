@@ -82,7 +82,7 @@
 --- @field chargedFullToChargedEmpty RogueComboPointTemplate_chargedFullToChargedEmpty
 --- @field chargedFullToUnchargedEmpty RogueComboPointTemplate_chargedFullToUnchargedEmpty
 --- @field chargedFullToUnchargedFull RogueComboPointTemplate_chargedFullToUnchargedFull
---- @field fxTextures table<number, Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field fxTextures table<number, Texture>
 --- @field transitionAnims table<number, RogueComboPointTemplate_unchargedEmpty | RogueComboPointTemplate_unchargedEmptyToUnchargedFull | RogueComboPointTemplate_unchargedEmptyToChargedFull | RogueComboPointTemplate_unchargedEmptyToChargedEmpty | RogueComboPointTemplate_chargedEmptyToChargedFull | RogueComboPointTemplate_chargedEmptyToUnchargedFull | RogueComboPointTemplate_chargedEmptyToUnchargedEmpty | RogueComboPointTemplate_unchargedFullToUnchargedEmpty | RogueComboPointTemplate_unchargedFullToChargedFull | RogueComboPointTemplate_unchargedFullToChargedEmpty | RogueComboPointTemplate_chargedFullToChargedEmpty | RogueComboPointTemplate_chargedFullToUnchargedEmpty | RogueComboPointTemplate_chargedFullToUnchargedFull>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RogueComboPointBar.xml#L228)

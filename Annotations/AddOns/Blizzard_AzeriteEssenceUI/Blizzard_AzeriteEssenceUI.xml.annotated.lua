@@ -456,6 +456,6 @@ AzeriteEssenceUI["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- @field LensflareLine3 Texture
 --- @field LensflareLine2 Texture
 --- @field Anim AzeriteEssenceLearnAnimFrame_Anim
---- @field Textures table<number, Texture | Texture | Texture | Texture | AzeriteEssenceLearnAnimFrame_Rune | AzeriteEssenceLearnAnimFrame_RuneFlipped | AzeriteEssenceLearnAnimFrame_Rune2 | AzeriteEssenceLearnAnimFrame_RuneFlipped2 | Texture | Texture | AzeriteEssenceLearnAnimFrame_RuneStatic | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field Textures table<number, Texture | AzeriteEssenceLearnAnimFrame_Rune | AzeriteEssenceLearnAnimFrame_RuneFlipped | AzeriteEssenceLearnAnimFrame_Rune2 | AzeriteEssenceLearnAnimFrame_RuneFlipped2 | AzeriteEssenceLearnAnimFrame_RuneStatic>
 AzeriteEssenceLearnAnimFrame = {}
 

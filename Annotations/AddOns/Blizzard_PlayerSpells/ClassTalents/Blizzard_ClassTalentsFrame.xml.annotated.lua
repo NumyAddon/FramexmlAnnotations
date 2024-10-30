@@ -118,9 +118,9 @@
 --- @field ActivationClassFx4 Texture
 --- @field ActivationTitansFX Texture
 --- @field FullMask MaskTexture
---- @field specBackgrounds table<number, Texture | Texture | Texture>
---- @field classActivationTextures table<number, Texture | Texture | Texture | Texture>
+--- @field specBackgrounds table<number, Texture>
+--- @field classActivationTextures table<number, Texture>
 --- @field Textures table<number, Texture>
---- @field commitFlashAnims table<number, >
---- @field backgroundAnims table<number,  |  |  |  |  | >
+--- @field commitFlashAnims table<number, TargetsVisibleWhilePlayingAnimGroupTemplate>
+--- @field backgroundAnims table<number, TargetsVisibleWhilePlayingAnimGroupTemplate>
 

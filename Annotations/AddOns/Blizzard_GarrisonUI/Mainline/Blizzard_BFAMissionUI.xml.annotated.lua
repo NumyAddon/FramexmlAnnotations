@@ -120,7 +120,7 @@ BFAMissionFrameMissions["Tab2"] = BFAMissionFrameMissionsTab2 -- inherited
 --- @field MissionList BFAMissionFrame_MissionTab_BFAMissionFrameMissions
 --- @field ZoneSupportMissionPageBackground BFAMissionFrame_MissionTab_ZoneSupportMissionPageBackground
 --- @field MissionPage BFAMissionFrame_MissionTab_MissionPage
---- @field MissionCompletePreloadModels table<number,  |  |  |  |  |  |  |  |  |  |  |  | >
+--- @field MissionCompletePreloadModels table<number, MissionCompletePreloadModelTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L215)
 --- child of BFAMissionFrame

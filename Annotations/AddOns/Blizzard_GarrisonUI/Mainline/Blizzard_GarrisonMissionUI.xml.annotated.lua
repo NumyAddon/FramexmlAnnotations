@@ -162,7 +162,7 @@
 --- @field HighlightBL Texture
 --- @field HighlightBR Texture
 --- @field Highlight Texture
---- @field Rewards table<number, >
+--- @field Rewards table<number, GarrisonMissionListButtonRewardTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L614)
 --- Template
@@ -201,7 +201,7 @@
 --- @field Class Texture
 --- @field DurabilityBackground Texture
 --- @field Name GarrisonMissionPageFollowerTemplate_Name
---- @field Counters table<number, >
+--- @field Counters table<number, GarrisonMissionAbilityLargeCounterTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L784)
 --- Template
@@ -223,7 +223,7 @@
 --- @class GarrisonMissionPageEnemyTemplate : Frame
 --- @field PortraitFrame GarrisonMissionPageEnemyTemplate_PortraitFrame
 --- @field Name GarrisonMissionPageEnemyTemplate_Name
---- @field Mechanics table<number, >
+--- @field Mechanics table<number, GarrisonMissionEnemyLargeMechanicTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L843)
 --- child of 
@@ -622,7 +622,7 @@ GarrisonMissionTutorialFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1688)
 --- child of 
 --- @class GarrisonFollowerMissionCompleteStageTemplate_EncountersFrame_MechanicsFrame : Frame
---- @field Mechanics table<number, >
+--- @field Mechanics table<number, GarrisonMissionEnemyMechanicTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1666)
 --- child of 
@@ -813,7 +813,7 @@ GarrisonMissionFrameMissions["Tab2"] = GarrisonMissionFrameMissionsTab2 -- inher
 --- @class GarrisonMissionFrame_MissionTab : Frame
 --- @field MissionList GarrisonMissionFrame_MissionTab_GarrisonMissionFrameMissions
 --- @field MissionPage GarrisonMissionFrame_MissionTab_MissionPage
---- @field MissionCompletePreloadModels table<number,  |  |  |  |  | >
+--- @field MissionCompletePreloadModels table<number, MissionCompletePreloadModelTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1996)
 --- child of GarrisonMissionFrame
@@ -864,6 +864,6 @@ GarrisonFollowerPlacer = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L2034)
 --- @class GarrisonMissionListTooltipThreatsFrame : Frame
---- @field Threats table<number, >
+--- @field Threats table<number, GarrisonAbilityCounterWithCheckTemplate>
 GarrisonMissionListTooltipThreatsFrame = {}
 

@@ -15,8 +15,8 @@
 --- @field Icon Texture
 --- @field Highlight Texture
 --- @field Selected Texture
---- @field Members table<number, >
---- @field Queues table<number, >
+--- @field Members table<number, QuickJoinButtonMemberTemplate>
+--- @field Queues table<number, QuickJoinButtonQueueTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L71)
 --- child of QuickJoinFrame

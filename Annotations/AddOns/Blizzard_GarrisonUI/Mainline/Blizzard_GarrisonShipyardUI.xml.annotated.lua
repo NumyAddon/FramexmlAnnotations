@@ -488,7 +488,7 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- @field Name GarrisonShipMissionFollowerTemplate_Name
 --- @field NameBG Texture
 --- @field PulseAnim GarrisonShipMissionFollowerTemplate_PulseAnim
---- @field Counters table<number, >
+--- @field Counters table<number, GarrisonMissionAbilityCounterTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L837)
 --- child of GarrisonShipMissionCompleteFollowerTemplate
@@ -550,7 +550,7 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L931)
 --- child of GarrisonShipMissionCompleteEnemyTemplate
 --- @class GarrisonShipMissionCompleteEnemyTemplate_MechanicsFrame : Frame
---- @field Mechanics table<number, >
+--- @field Mechanics table<number, GarrisonMissionEnemyMechanicTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L917)
 --- child of GarrisonShipMissionCompleteEnemyTemplate
@@ -577,7 +577,7 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- @field Portrait Texture
 --- @field PortraitIcon Texture
 --- @field Name GarrisonShipMissionEnemyTemplate_Name
---- @field Mechanics table<number, >
+--- @field Mechanics table<number, GarrisonMissionEnemyLargeMechanicTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1015)
 --- child of GarrisonShipFollowerListTemplateHeader
@@ -630,8 +630,8 @@ GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- @field BoatName GarrisonShipFollowerButtonTemplate_BoatName
 --- @field BoatType GarrisonShipFollowerButtonTemplate_BoatType
 --- @field Status GarrisonShipFollowerButtonTemplate_Status
---- @field Counters table<number, >
---- @field Abilities table<number, >
+--- @field Counters table<number, GarrisonMissionAbilityCounterTemplate>
+--- @field Abilities table<number, GarrisonFollowerListButtonAbilityTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1150)
 --- @class GarrisonShipFollowerPlacer : Frame
@@ -956,7 +956,7 @@ GarrisonShipyardFrameFollowers["showUncollected"] = false
 --- @class GarrisonShipyardFrame_MissionTab : Frame
 --- @field MissionList GarrisonShipyardFrame_MissionTab_MissionList
 --- @field MissionPage GarrisonShipyardFrame_MissionTab_MissionPage
---- @field MissionCompletePreloadModels table<number,  |  |  |  |  | >
+--- @field MissionCompletePreloadModels table<number, MissionCompletePreloadModelTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1835)
 --- child of GarrisonShipyardFrame

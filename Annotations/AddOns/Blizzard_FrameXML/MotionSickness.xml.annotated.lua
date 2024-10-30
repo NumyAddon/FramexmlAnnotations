@@ -8,6 +8,6 @@
 --- @field LandscapeDarkeningTop Texture
 --- @field LandscapeDarkeningBottom Texture
 --- @field FocalCircle Texture
---- @field LandscapeDarkeningTextures table<number, Texture | Texture | Texture | Texture | Texture>
+--- @field LandscapeDarkeningTextures table<number, Texture>
 MotionSicknessFrame = {}
 

@@ -72,7 +72,7 @@
 --- @field BannerMiddleGlow Texture
 --- @field SkullCircle Texture
 --- @field LootCircle Texture
---- @field RedFlash Texture | Texture
+--- @field RedFlash Texture
 --- @field BottomFillagree Texture
 --- @field SkullSpikes Texture
 --- @field RightFillagree Texture

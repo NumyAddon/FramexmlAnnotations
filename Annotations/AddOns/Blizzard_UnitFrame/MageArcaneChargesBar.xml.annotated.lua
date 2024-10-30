@@ -25,7 +25,7 @@
 --- @field FrameGlow Texture
 --- @field activateAnim ArcaneChargeTemplate_activateAnim
 --- @field deactivateAnim ArcaneChargeTemplate_deactivateAnim
---- @field fxTextures table<number, Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field fxTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L115)
 --- Template

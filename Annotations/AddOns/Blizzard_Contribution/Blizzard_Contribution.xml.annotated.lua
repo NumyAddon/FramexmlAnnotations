@@ -23,7 +23,7 @@
 --- Adds itself to the parent inside the array `Rewards`
 --- @class ContributionRewardTemplate : Frame, ContributionRewardMixin
 --- @field MouseOver ContributionRewardTemplate_MouseOver
---- @field Border Texture | Texture
+--- @field Border Texture
 --- @field Icon Texture
 --- @field PadLock Texture
 --- @field RewardName FontString

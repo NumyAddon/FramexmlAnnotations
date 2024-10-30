@@ -14,7 +14,7 @@
 --- @field HighlightRight Texture
 --- @field HighlightMiddle Texture
 --- @field Name ReputationHeaderTemplate_Name
---- @field HighlightTextureRegions table<number, Texture | Texture | Texture>
+--- @field HighlightTextureRegions table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L62)
 --- child of ReputationSubHeaderTemplate
@@ -61,7 +61,7 @@
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
---- @field TextureRegions table<number, Texture | Texture | Texture>
+--- @field TextureRegions table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L206)
 --- child of 

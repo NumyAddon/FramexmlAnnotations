@@ -79,8 +79,8 @@
 --- @field AbilitiesLabel GarrisonFollowerTooltipContentsTemplate_AbilitiesLabel
 --- @field TraitsLabel GarrisonFollowerTooltipContentsTemplate_TraitsLabel
 --- @field UnderBiased GarrisonFollowerTooltipContentsTemplate_UnderBiased
---- @field Abilities table<number, >
---- @field Traits table<number, >
+--- @field Abilities table<number, GarrisonFollowerAbilityTemplate>
+--- @field Traits table<number, GarrisonFollowerAbilityTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonBase/FloatingGarrisonFollowerTooltip.xml#L165)
 --- Template

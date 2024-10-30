@@ -15,7 +15,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MirrorTimer/MirrorTimer.xml#L57)
 --- @class MirrorTimerContainer : Frame, EditModeTimerBarsSystemTemplate, VerticalLayoutFrame, MirrorTimerContainerMixin
---- @field mirrorTimers table<number, MirrorTimerTemplate | MirrorTimerTemplate | MirrorTimerTemplate>
+--- @field mirrorTimers table<number, MirrorTimerTemplate>
 MirrorTimerContainer = {}
 MirrorTimerContainer["system"] = Enum.EditModeSystem.TimerBars -- inherited
 

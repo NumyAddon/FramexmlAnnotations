@@ -85,6 +85,6 @@
 --- @field ItemName AzeriteLevelUpToast_ItemName
 --- @field TextLabel AzeriteLevelUpToast_TextLabel
 --- @field ShowAnim AzeriteLevelUpToast_ShowAnim
---- @field BottomRegions table<number, Texture | Texture | Texture>
+--- @field BottomRegions table<number, Texture>
 AzeriteLevelUpToast = {}
 

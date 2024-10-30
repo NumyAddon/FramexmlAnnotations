@@ -66,9 +66,9 @@
 --- @field HeroClassRingBorderSheenMask MaskTexture
 --- @field ChoiceGlowAnim HeroTalentSpecButtonTemplate_ChoiceGlowAnim
 --- @field HeroClassPassiveAnim HeroTalentSpecButtonTemplate_HeroClassPassiveAnim
---- @field Icon1Textures table<number, Texture | Texture | Texture>
---- @field Icon2Textures table<number, Texture | Texture>
---- @field IconSplitMasks table<number, MaskTexture | MaskTexture>
+--- @field Icon1Textures table<number, Texture>
+--- @field Icon2Textures table<number, Texture>
+--- @field IconSplitMasks table<number, MaskTexture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L188)
 --- child of HeroTalentsContainerTemplate
@@ -211,7 +211,7 @@
 --- @field LensflareLine3 Texture
 --- @field LensflareLine2 Texture
 --- @field Anim HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Anim
---- @field Textures table<number, Texture | Texture | Texture | Texture | Texture | Texture | Texture | HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune | HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped | HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune2 | HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped2 | Texture | Texture | HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneStatic | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field Textures table<number, Texture | HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune | HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped | HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_Rune2 | HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneFlipped2 | HeroTalentsContainerTemplate_HeroTalentsUnlockedAnimFrame_RuneStatic>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L617)
 --- child of HeroTalentsContainerTemplate

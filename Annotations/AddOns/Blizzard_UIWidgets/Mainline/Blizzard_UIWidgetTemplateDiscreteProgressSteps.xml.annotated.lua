@@ -77,10 +77,10 @@
 --- @field Step3DisableAnim UIWidgetTemplateDiscreteProgressSteps_Steps_Step3DisableAnim
 --- @field Step4DisableAnim UIWidgetTemplateDiscreteProgressSteps_Steps_Step4DisableAnim
 --- @field Step5DisableAnim UIWidgetTemplateDiscreteProgressSteps_Steps_Step5DisableAnim
---- @field BGArray table<number, Texture | Texture | Texture | Texture | Texture>
---- @field DisabledArray table<number, Texture | Texture | Texture | Texture | Texture>
---- @field EnabledArray table<number, Texture | Texture | Texture | Texture | Texture>
---- @field ActivationArray table<number, Texture | Texture | Texture | Texture | Texture>
+--- @field BGArray table<number, Texture>
+--- @field DisabledArray table<number, Texture>
+--- @field EnabledArray table<number, Texture>
+--- @field ActivationArray table<number, Texture>
 --- @field ActivationAnimArray table<number, UIWidgetTemplateDiscreteProgressSteps_Steps_Step1ActivationAnim | UIWidgetTemplateDiscreteProgressSteps_Steps_Step2ActivationAnim | UIWidgetTemplateDiscreteProgressSteps_Steps_Step3ActivationAnim | UIWidgetTemplateDiscreteProgressSteps_Steps_Step4ActivationAnim | UIWidgetTemplateDiscreteProgressSteps_Steps_Step5ActivationAnim>
 --- @field DisableAnimArray table<number, UIWidgetTemplateDiscreteProgressSteps_Steps_Step1DisableAnim | UIWidgetTemplateDiscreteProgressSteps_Steps_Step2DisableAnim | UIWidgetTemplateDiscreteProgressSteps_Steps_Step3DisableAnim | UIWidgetTemplateDiscreteProgressSteps_Steps_Step4DisableAnim | UIWidgetTemplateDiscreteProgressSteps_Steps_Step5DisableAnim>
 

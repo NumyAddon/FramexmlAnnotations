@@ -272,7 +272,7 @@ OrderHallMissionFrameMissions["Tab2"] = OrderHallMissionFrameMissionsTab2 -- inh
 --- @field ZoneSupportMissionPageBackground OrderHallMissionFrame_MissionTab_ZoneSupportMissionPageBackground
 --- @field ZoneSupportMissionPage OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage
 --- @field MissionPage OrderHallMissionFrame_MissionTab_MissionPage
---- @field MissionCompletePreloadModels table<number,  |  |  |  |  |  |  |  |  |  |  |  | >
+--- @field MissionCompletePreloadModels table<number, MissionCompletePreloadModelTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L645)
 --- child of OrderHallMissionFrame

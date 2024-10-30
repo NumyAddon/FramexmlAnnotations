@@ -269,20 +269,14 @@ CommunitiesGuildNewsFiltersFrameRightBorder = {}
 --- @class CommunitiesGuildNewsFiltersFrame : Frame, TranslucentFrameTemplate
 --- @field CloseButton CommunitiesGuildNewsFiltersFrame_CloseButton
 --- @field GuildAchievement CommunitiesGuildNewsFiltersFrame_GuildAchievement
---- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_GuildAchievement>
 --- @field Achievement CommunitiesGuildNewsFiltersFrame_Achievement
---- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_Achievement>
 --- @field DungeonEncounter CommunitiesGuildNewsFiltersFrame_DungeonEncounter
---- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_DungeonEncounter>
 --- @field EpicItemLooted CommunitiesGuildNewsFiltersFrame_EpicItemLooted
---- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_EpicItemLooted>
 --- @field EpicItemPurchased CommunitiesGuildNewsFiltersFrame_EpicItemPurchased
---- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_EpicItemPurchased>
 --- @field EpicItemCrafted CommunitiesGuildNewsFiltersFrame_EpicItemCrafted
---- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_EpicItemCrafted>
 --- @field LegendaryItemLooted CommunitiesGuildNewsFiltersFrame_LegendaryItemLooted
---- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_LegendaryItemLooted>
 --- @field Title CommunitiesGuildNewsFiltersFrame_Title
+--- @field GuildNewsFilterButtons table<number, CommunitiesGuildNewsFiltersFrame_GuildAchievement | CommunitiesGuildNewsFiltersFrame_Achievement | CommunitiesGuildNewsFiltersFrame_DungeonEncounter | CommunitiesGuildNewsFiltersFrame_EpicItemLooted | CommunitiesGuildNewsFiltersFrame_EpicItemPurchased | CommunitiesGuildNewsFiltersFrame_EpicItemCrafted | CommunitiesGuildNewsFiltersFrame_LegendaryItemLooted>
 CommunitiesGuildNewsFiltersFrame = {}
 CommunitiesGuildNewsFiltersFrame["Bg"] = CommunitiesGuildNewsFiltersFrameBg -- inherited
 CommunitiesGuildNewsFiltersFrame["TopLeftCorner"] = CommunitiesGuildNewsFiltersFrameTopLeftCorner -- inherited

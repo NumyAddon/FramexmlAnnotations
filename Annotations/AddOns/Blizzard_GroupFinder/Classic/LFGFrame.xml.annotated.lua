@@ -428,8 +428,7 @@ LFGDungeonReadyDialogRewardsFrameLabel = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGFrame.xml#L604)
 --- child of LFGDungeonReadyDialog
 --- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRewardsFrame : Frame
---- @field Rewards table<number, LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRewardsFrame_LFGDungeonReadyDialogRewardsFrameReward1>
---- @field Rewards table<number, LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRewardsFrame_LFGDungeonReadyDialogRewardsFrameReward2>
+--- @field Rewards table<number, LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRewardsFrame_LFGDungeonReadyDialogRewardsFrameReward1 | LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRewardsFrame_LFGDungeonReadyDialogRewardsFrameReward2>
 LFGDungeonReadyDialogRewardsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGFrame.xml#L454)
@@ -614,10 +613,8 @@ LFGInvitePopupText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGFrame.xml#L865)
 --- @class LFGInvitePopup : Frame
 --- @field Border LFGInvitePopup_Border
---- @field RoleButtons table<number, LFGInvitePopup_LFGInvitePopupRoleButtonTank>
---- @field RoleButtons table<number, LFGInvitePopup_LFGInvitePopupRoleButtonHealer>
---- @field RoleButtons table<number, LFGInvitePopup_LFGInvitePopupRoleButtonDPS>
 --- @field QueueWarningText LFGInvitePopup_QueueWarningText
+--- @field RoleButtons table<number, LFGInvitePopup_LFGInvitePopupRoleButtonTank | LFGInvitePopup_LFGInvitePopupRoleButtonHealer | LFGInvitePopup_LFGInvitePopupRoleButtonDPS>
 LFGInvitePopup = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGFrame.xml#L965)
@@ -697,22 +694,8 @@ LFGInvitePopup = {}
 --- @class LFGCooldownCoverTemplate : Frame
 --- @field description LFGCooldownCoverTemplate_LFGCooldownCoverTemplateDescription
 --- @field time LFGCooldownCoverTemplate_LFGCooldownCoverTemplateTime
---- @field Names table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName1>
---- @field Statuses table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus1>
---- @field Names table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName2>
---- @field Statuses table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus2>
---- @field Names table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName3>
---- @field Statuses table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus3>
---- @field Names table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName4>
---- @field Statuses table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus4>
---- @field Names table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName5>
---- @field Statuses table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus5>
---- @field Names table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName6>
---- @field Statuses table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus6>
---- @field Names table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName7>
---- @field Statuses table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus7>
---- @field Names table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName8>
---- @field Statuses table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus8>
+--- @field Names table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName1 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName2 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName3 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName4 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName5 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName6 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName7 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName8>
+--- @field Statuses table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus1 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus2 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus3 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus4 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus5 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus6 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus7 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus8>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGFrame.xml#L1096)
 --- child of LFGBackfillCoverTemplate

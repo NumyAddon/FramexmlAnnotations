@@ -3,7 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/ChannelRoster.xml#L24)
 --- child of ChannelRosterTemplate
 --- @class ChannelRosterTemplate_ScrollFrame : ScrollFrame, HybridScrollFrameTemplate
---- @field scrollBar HybridScrollBarBackgroundTemplate
+--- @field scrollBar HybridScrollBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Channels/ChannelRoster.xml#L8)
 --- child of ChannelRosterTemplate

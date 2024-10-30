@@ -872,11 +872,25 @@ ArchaeologyFrameArtifactPageSolveFrame["keystone4"] = ArchaeologyFrameArtifactPa
 ArchaeologyFrameArtifactPageSolveFrame["solveButton"] = ArchaeologyFrameArtifactPageSolveFrameSolveButton
 ArchaeologyFrameArtifactPageSolveFrame["statusBar"] = ArchaeologyFrameArtifactPageSolveFrameStatusBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L876)
+--- child of ArchaeologyFrameArtifactPageHistoryScrollChild
+--- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryScroll_ArchaeologyFrameArtifactPageHistoryScrollChild_ArchaeologyFrameArtifactPageHistoryScrollChildText : FontString, SystemFont_Med1
+ArchaeologyFrameArtifactPageHistoryScrollChildText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L870)
+--- child of ArchaeologyFrameArtifactPageHistoryScroll
+--- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryScroll_ArchaeologyFrameArtifactPageHistoryScrollChild : Frame
+--- @field text ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryScroll_ArchaeologyFrameArtifactPageHistoryScrollChild_ArchaeologyFrameArtifactPageHistoryScrollChildText
+ArchaeologyFrameArtifactPageHistoryScrollChild = {}
+ArchaeologyFrameArtifactPageHistoryScrollChild["text"] = ArchaeologyFrameArtifactPageHistoryScrollChildText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L862)
 --- child of ArchaeologyFrameArtifactPage
 --- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryScroll : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
+--- @field child ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryScroll_ArchaeologyFrameArtifactPageHistoryScrollChild
 ArchaeologyFrameArtifactPageHistoryScroll = {}
+ArchaeologyFrameArtifactPageHistoryScroll["child"] = ArchaeologyFrameArtifactPageHistoryScrollChild
 ArchaeologyFrameArtifactPageHistoryScroll["scrollBarHideIfUnscrollable"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L900)
@@ -964,6 +978,11 @@ ArchaeologyFrameInfoButtonTexture = {}
 --- @class ArchaeologyFrame_ArchaeologyFrameInfoButton : Button, UIPanelInfoButton
 ArchaeologyFrameInfoButton = {}
 ArchaeologyFrameInfoButton["texture"] = ArchaeologyFrameInfoButtonTexture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L978)
+--- child of 
+--- @class ArchaeologyFrameHelpPageHelpScrollHelpText : FontString, SystemFont_Med1
+ArchaeologyFrameHelpPageHelpScrollHelpText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L962)
 --- child of ArchaeologyFrameHelpPage

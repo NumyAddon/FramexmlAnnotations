@@ -537,6 +537,11 @@ ChatConfigTextToSpeechChannelSettingsLeft["layoutType"] = "TooltipDefaultLayout"
 --- @class ChatConfigFrame_ChatConfigTextToSpeechChannelSettings : Frame
 ChatConfigTextToSpeechChannelSettings = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L530)
+--- child of ChatConfigCombatSettingsFiltersScrollFrame (created in template FauxScrollFrameTemplateLight)
+--- @type Frame
+ChatConfigCombatSettingsFiltersScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L305)
 --- child of ChatConfigCombatSettingsFiltersScrollFrameScrollBar (created in template UIPanelScrollBarTemplateLightBorder)
 --- @type UIPanelScrollBarTemplateLightBorder_UIPanelScrollBarTemplateLightBorderScrollUpButton

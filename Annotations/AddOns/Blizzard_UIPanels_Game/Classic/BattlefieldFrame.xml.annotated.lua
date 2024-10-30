@@ -188,6 +188,11 @@ BattlefieldZone12Highlight = {}
 --- @class BattlefieldFrame_BattlefieldZone12 : Button, BattlefieldButtonTemplate
 BattlefieldZone12 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L163)
+--- child of BattlefieldListScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+BattlefieldListScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L10)
 --- child of BattlefieldListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -215,6 +220,7 @@ BattlefieldListScrollFrameScrollBar["ThumbTexture"] = BattlefieldListScrollFrame
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BattlefieldListScrollFrame = {}
+BattlefieldListScrollFrame["ScrollChildFrame"] = BattlefieldListScrollFrameScrollChildFrame -- inherited
 BattlefieldListScrollFrame["ScrollBar"] = BattlefieldListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L303)

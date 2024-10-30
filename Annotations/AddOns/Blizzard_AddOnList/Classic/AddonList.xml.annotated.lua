@@ -832,6 +832,11 @@ AddonListEntry19["LoadAddonButton"] = AddonListEntry19Load -- inherited
 AddonListEntry19["Status"] = AddonListEntry19Status -- inherited
 AddonListEntry19["Reload"] = AddonListEntry19Reload -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L354)
+--- child of AddonListScrollFrame
+--- @class AddonList_AddonListScrollFrame_AddonListScrollFrameScrollChildFrame : Frame
+AddonListScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L324)
 --- child of AddonListScrollFrame
 --- @class AddonList_AddonListScrollFrame_AddonListScrollFrameScrollBarTop : Texture
@@ -846,6 +851,11 @@ AddonListScrollFrameScrollBarBottom = {}
 --- child of AddonListScrollFrame
 --- @class AddonList_AddonListScrollFrame_AddonListScrollFrameScrollBarMiddle : Texture
 AddonListScrollFrameScrollBarMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L163)
+--- child of AddonListScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+AddonListScrollFrameScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L10)
 --- child of AddonListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
@@ -874,6 +884,7 @@ AddonListScrollFrameScrollBar["ThumbTexture"] = AddonListScrollFrameScrollBarThu
 --- child of AddonList
 --- @class AddonList_AddonListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 AddonListScrollFrame = {}
+AddonListScrollFrame["ScrollChildFrame"] = AddonListScrollFrameScrollChildFrame -- inherited
 AddonListScrollFrame["ScrollBar"] = AddonListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L796)

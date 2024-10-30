@@ -19,6 +19,7 @@
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateMOTDScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideTrackIfThumbExceedsTrack boolean # true
+--- @field MOTD SimpleHTML
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L191)
 --- child of CommunitiesGuildInfoFrameTemplate
@@ -45,6 +46,10 @@
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_EditDetailsButton : Button
 --- @field editType string # "info"
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L266)
+--- child of 
+--- @class Details : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L247)
 --- child of CommunitiesGuildInfoFrameTemplate
@@ -89,6 +94,7 @@ CommunitiesGuildTextEditFrameCloseButton = {}
 --- child of 
 --- @class CommunitiesGuildTextEditFrame_Container_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 6
+--- @field EditBox EditBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L307)
 --- child of CommunitiesGuildTextEditFrame
@@ -177,9 +183,15 @@ CommunitiesGuildTextEditFrame["RightBorder"] = CommunitiesGuildTextEditFrameRigh
 --- @class CommunitiesGuildLogFrame_CommunitiesGuildLogFrameCloseButton : Button, UIPanelCloseButton
 CommunitiesGuildLogFrameCloseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L420)
+--- child of 
+--- @class CommunitiesGuildLogFrame_Container_ScrollFrame_Child : Frame
+--- @field HTMLFrame SimpleHTML
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L413)
 --- child of 
 --- @class CommunitiesGuildLogFrame_Container_ScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @field Child CommunitiesGuildLogFrame_Container_ScrollFrame_Child
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L402)
 --- child of CommunitiesGuildLogFrame

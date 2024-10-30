@@ -379,6 +379,11 @@ AuctionFilterButton15NormalTexture = {}
 --- @class AuctionFrame_AuctionFrameBrowse_AuctionFilterButton15 : Button, AuctionClassButtonTemplate
 AuctionFilterButton15 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L163)
+--- child of BrowseFilterScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+BrowseFilterScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L10)
 --- child of BrowseFilterScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -406,7 +411,13 @@ BrowseFilterScrollFrameScrollBar["ThumbTexture"] = BrowseFilterScrollFrameScroll
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseFilterScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BrowseFilterScrollFrame = {}
+BrowseFilterScrollFrame["ScrollChildFrame"] = BrowseFilterScrollFrameScrollChildFrame -- inherited
 BrowseFilterScrollFrame["ScrollBar"] = BrowseFilterScrollFrameScrollBar -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L163)
+--- child of BrowseScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+BrowseScrollFrameScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L10)
 --- child of BrowseScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
@@ -435,6 +446,7 @@ BrowseScrollFrameScrollBar["ThumbTexture"] = BrowseScrollFrameScrollBarThumbText
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BrowseScrollFrame = {}
+BrowseScrollFrame["ScrollChildFrame"] = BrowseScrollFrameScrollChildFrame -- inherited
 BrowseScrollFrame["ScrollBar"] = BrowseScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L458)
@@ -2194,6 +2206,11 @@ BidBidSortArrow = {}
 BidBidSort = {}
 BidBidSort["Arrow"] = BidBidSortArrow -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L163)
+--- child of BidScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+BidScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L10)
 --- child of BidScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -2221,6 +2238,7 @@ BidScrollFrameScrollBar["ThumbTexture"] = BidScrollFrameScrollBarThumbTexture --
 --- child of AuctionFrameBid
 --- @class AuctionFrame_AuctionFrameBid_BidScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BidScrollFrame = {}
+BidScrollFrame["ScrollChildFrame"] = BidScrollFrameScrollChildFrame -- inherited
 BidScrollFrame["ScrollBar"] = BidScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L689)
@@ -3423,6 +3441,11 @@ AuctionsBidSortArrow = {}
 AuctionsBidSort = {}
 AuctionsBidSort["Arrow"] = AuctionsBidSortArrow -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L163)
+--- child of AuctionsScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+AuctionsScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L10)
 --- child of AuctionsScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -3450,6 +3473,7 @@ AuctionsScrollFrameScrollBar["ThumbTexture"] = AuctionsScrollFrameScrollBarThumb
 --- child of AuctionFrameAuctions
 --- @class AuctionFrame_AuctionFrameAuctions_AuctionsScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 AuctionsScrollFrame = {}
+AuctionsScrollFrame["ScrollChildFrame"] = AuctionsScrollFrameScrollChildFrame -- inherited
 AuctionsScrollFrame["ScrollBar"] = AuctionsScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L938)

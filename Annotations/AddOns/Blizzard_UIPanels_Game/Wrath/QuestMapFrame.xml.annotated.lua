@@ -45,10 +45,15 @@
 --- Template
 --- @class QuestDetailsButtonTemplate : Button
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L172)
+--- child of QuestScrollFrame
+--- @class QuestMapFrame_QuestScrollFrame_Contents : Frame, VerticalLayoutFrame
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L160)
 --- child of QuestMapFrame
 --- @class QuestMapFrame_QuestScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 0
+--- @field Contents QuestMapFrame_QuestScrollFrame_Contents
 --- @field DetailFrame Frame
 QuestScrollFrame = {}
 QuestScrollFrame["scrollBarX"] = 0

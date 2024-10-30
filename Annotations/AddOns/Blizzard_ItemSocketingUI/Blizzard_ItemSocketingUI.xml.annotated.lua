@@ -21,6 +21,154 @@
 --- Template
 --- @class NubTemplate : Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L222)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type StatusBar
+ItemSocketingDescriptionStatusBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L25)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft1
+ItemSocketingDescriptionTextLeft1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L34)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight1
+ItemSocketingDescriptionTextRight1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L43)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft2
+ItemSocketingDescriptionTextLeft2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L52)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight2
+ItemSocketingDescriptionTextRight2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L61)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft3
+ItemSocketingDescriptionTextLeft3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L70)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight3
+ItemSocketingDescriptionTextRight3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L79)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft4
+ItemSocketingDescriptionTextLeft4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L88)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight4
+ItemSocketingDescriptionTextRight4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L97)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft5
+ItemSocketingDescriptionTextLeft5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L106)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight5
+ItemSocketingDescriptionTextRight5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L115)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft6
+ItemSocketingDescriptionTextLeft6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L124)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight6
+ItemSocketingDescriptionTextRight6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L133)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft7
+ItemSocketingDescriptionTextLeft7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L142)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight7
+ItemSocketingDescriptionTextRight7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L151)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextLeft8
+ItemSocketingDescriptionTextLeft8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L160)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_GameTooltipTemplateTextRight8
+ItemSocketingDescriptionTextRight8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L169)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type Texture
+ItemSocketingDescriptionTexture1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L174)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type Texture
+ItemSocketingDescriptionTexture2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L179)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type Texture
+ItemSocketingDescriptionTexture3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L184)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type Texture
+ItemSocketingDescriptionTexture4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L189)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type Texture
+ItemSocketingDescriptionTexture5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L194)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type Texture
+ItemSocketingDescriptionTexture6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L199)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type Texture
+ItemSocketingDescriptionTexture7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L204)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type Texture
+ItemSocketingDescriptionTexture8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L209)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type Texture
+ItemSocketingDescriptionTexture9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L214)
+--- child of ItemSocketingDescription (created in template GameTooltipTemplate)
+--- @type Texture
+ItemSocketingDescriptionTexture10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L244)
+--- child of ItemSocketingScrollChild
+--- @class ItemSocketingFrame_ItemSocketingScrollFrame_ItemSocketingScrollChild_ItemSocketingDescription : GameTooltip, GameTooltipTemplate
+--- @field IsEmbedded boolean # true
+ItemSocketingDescription = {}
+ItemSocketingDescription["IsEmbedded"] = true
+ItemSocketingDescription["layoutType"] = "TooltipDefaultLayout" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L241)
+--- child of ItemSocketingScrollFrame
+--- @class ItemSocketingFrame_ItemSocketingScrollFrame_ItemSocketingScrollChild : Frame
+ItemSocketingScrollChild = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L204)
 --- child of ItemSocketingScrollFrame
 --- @class ItemSocketingFrame_ItemSocketingScrollFrame_ItemSocketingScrollFrameBottom : Texture

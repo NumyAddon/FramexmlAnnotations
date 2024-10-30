@@ -46,6 +46,21 @@ CharacterCreateFactionIcon = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterFaction_CharacterCreateFactionIconFrame : Frame
 CharacterCreateFactionIconFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L302)
+--- child of CharacterCreateFactionScrollChild
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterFaction_CharacterCreateFactionScrollFrame_CharacterCreateFactionScrollChild_CharacterCreateFactionLabel : FontString, GlueFontNormalLarge
+CharacterCreateFactionLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L314)
+--- child of CharacterCreateFactionScrollChild
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterFaction_CharacterCreateFactionScrollFrame_CharacterCreateFactionScrollChild_CharacterCreateFactionText : FontString, GlueFontCharacterCreate
+CharacterCreateFactionText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L296)
+--- child of CharacterCreateFactionScrollFrame
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterFaction_CharacterCreateFactionScrollFrame_CharacterCreateFactionScrollChild : Frame
+CharacterCreateFactionScrollChild = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L250)
 --- child of CharacterCreateFactionScrollFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterFaction_CharacterCreateFactionScrollFrame_CharacterCreateFactionScrollFrameTop : Texture
@@ -95,6 +110,26 @@ CharacterCreateRaceIcon = {}
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceIconFrame : Frame
 CharacterCreateRaceIconFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L455)
+--- child of CharacterCreateRaceScrollChild
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceScrollFrame_CharacterCreateRaceScrollChild_CharacterCreateRaceLabel : FontString, GlueFontNormalLarge
+CharacterCreateRaceLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L467)
+--- child of CharacterCreateRaceScrollChild
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceScrollFrame_CharacterCreateRaceScrollChild_CharacterCreateRaceText : FontString, GlueFontCharacterCreate
+CharacterCreateRaceText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L479)
+--- child of CharacterCreateRaceScrollChild
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceScrollFrame_CharacterCreateRaceScrollChild_CharacterCreateRaceAbilityText : FontString, GlueFontNormalSmall
+CharacterCreateRaceAbilityText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L449)
+--- child of CharacterCreateRaceScrollFrame
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceScrollFrame_CharacterCreateRaceScrollChild : Frame
+CharacterCreateRaceScrollChild = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L403)
 --- child of CharacterCreateRaceScrollFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceScrollFrame_CharacterCreateRaceScrollFrameTop : Texture
@@ -143,6 +178,21 @@ CharacterCreateClassIcon = {}
 --- child of CharacterCreateCharacterClass
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterClass_CharacterCreateClassIconFrame : Frame
 CharacterCreateClassIconFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L608)
+--- child of CharacterCreateClassScrollChild
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterClass_CharacterCreateClassScrollFrame_CharacterCreateClassScrollChild_CharacterCreateClassLabel : FontString, GlueFontNormalLarge
+CharacterCreateClassLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L620)
+--- child of CharacterCreateClassScrollChild
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterClass_CharacterCreateClassScrollFrame_CharacterCreateClassScrollChild_CharacterCreateClassText : FontString, GlueFontCharacterCreate
+CharacterCreateClassText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L602)
+--- child of CharacterCreateClassScrollFrame
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterClass_CharacterCreateClassScrollFrame_CharacterCreateClassScrollChild : Frame
+CharacterCreateClassScrollChild = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterCreate.xml#L556)
 --- child of CharacterCreateClassScrollFrame

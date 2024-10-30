@@ -46,6 +46,11 @@ QuestLogControlPanel = {}
 --- @class QuestLogDetailFrame_QuestLogDetailFrameCloseButton : Button, UIPanelCloseButton
 QuestLogDetailFrameCloseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L370)
+--- child of QuestLogDetailScrollFrame
+--- @class QuestLogDetailFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame : Frame
+QuestLogDetailScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L336)
 --- child of QuestLogDetailScrollFrame
 --- @class QuestLogDetailFrame_QuestLogDetailScrollFrame_QuestLogDummyText : FontString, GameFontNormal
@@ -306,12 +311,18 @@ QuestLogSkillHighlight = {}
 --- @class QuestLogFrame_QuestLogListScrollFrame_QuestLogHighlightFrame : Frame
 QuestLogHighlightFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L184)
+--- child of QuestLogListScrollFrame (created in template HybridScrollFrameTemplate)
+--- @type Frame
+QuestLogListScrollFrameScrollChild = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L729)
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogListScrollFrame : ScrollFrame, HybridScrollFrameTemplate
 --- @field scrollBar QuestLogFrame_QuestLogListScrollFrame_QuestLogListScrollFrameScrollBar
 QuestLogListScrollFrame = {}
 QuestLogListScrollFrame["scrollBar"] = QuestLogListScrollFrameScrollBar
+QuestLogListScrollFrame["ScrollChild"] = QuestLogListScrollFrameScrollChild -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L427)
 --- child of QuestLogFrame

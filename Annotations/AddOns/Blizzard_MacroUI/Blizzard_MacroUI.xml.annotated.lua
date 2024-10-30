@@ -25,6 +25,11 @@ MacroFrameSelectedMacroButton = {}
 MacroEditButton = {}
 MacroEditButton["fitTextCanWidthDecrease"] = true -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L120)
+--- child of MacroFrameScrollFrame
+--- @class MacroFrame_MacroFrameScrollFrame_MacroFrameText : EditBox
+MacroFrameText = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L10)
 --- child of MacroFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton

@@ -219,7 +219,7 @@ class XmlFileParser
             $data .= "--- [Source]($linkPrefix#L" . $frame->getLineNumber() . ")\n";
         }
         if ($frame->getParent()) {
-            $data .= '--- child of ' . $frame->getParent()->getName();
+            $data .= '--- child of ' . ($frame->getParent()->getName() ?: $frame->getParent()->getClassName());
             if ($frame->getOriginalParent() && $frame->getOriginalParent() !== $frame->getParent()) {
                 $data .= ' (created in template ' . $frame->getOriginalParent()->getName() . ')';
             }

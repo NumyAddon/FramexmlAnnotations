@@ -10,8 +10,8 @@
 --- @field Header ObjectiveTrackerFrame_Header
 ObjectiveTrackerFrame = {}
 ObjectiveTrackerFrame["topPadding"] = 0
-ObjectiveTrackerFrame["isManagedFrame"] = true -- inherited
 ObjectiveTrackerFrame["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
+ObjectiveTrackerFrame["isManagedFrame"] = true -- inherited
 ObjectiveTrackerFrame["system"] = Enum.EditModeSystem.ObjectiveTracker -- inherited
 ObjectiveTrackerFrame["topModulePadding"] = 0 -- inherited
 

@@ -414,27 +414,27 @@ TabardFrameNameText = {}
 --- @class TabardFrame_TabardFrameGreetingText : FontString, GameFontHighlight
 TabardFrameGreetingText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1148)
 --- child of TabardFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 TabardFrameInset = {}
 TabardFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1142)
+--- child of TabardFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+TabardFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1125)
+--- child of TabardFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+TabardFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L70)
 --- @class TabardFrame : Frame, ButtonFrameTemplate
 TabardFrame = {}
-TabardFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-TabardFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-TabardFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 TabardFrame["Inset"] = TabardFrameInset -- inherited
+TabardFrame["CloseButton"] = TabardFrameCloseButton -- inherited
+TabardFrame["Bg"] = TabardFrameBg -- inherited
+TabardFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

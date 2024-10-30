@@ -5,10 +5,10 @@
 --- @field resourceBarMixin any # ClassNameplateBar
 ClassNameplateBarWindwalkerMonkFrame = {}
 ClassNameplateBarWindwalkerMonkFrame["resourceBarMixin"] = ClassNameplateBar
-ClassNameplateBarWindwalkerMonkFrame["isManagedFrame"] = true -- inherited
-ClassNameplateBarWindwalkerMonkFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
-ClassNameplateBarWindwalkerMonkFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarWindwalkerMonkFrame["powerToken"] = "CHI" -- inherited
+ClassNameplateBarWindwalkerMonkFrame["maxUsablePoints"] = 5 -- inherited
+ClassNameplateBarWindwalkerMonkFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+ClassNameplateBarWindwalkerMonkFrame["isManagedFrame"] = true -- inherited
 ClassNameplateBarWindwalkerMonkFrame["scale"] = ".75" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Monk.xml#L14)

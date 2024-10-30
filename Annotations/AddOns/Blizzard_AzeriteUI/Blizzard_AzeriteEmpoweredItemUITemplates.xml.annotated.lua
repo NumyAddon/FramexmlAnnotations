@@ -30,6 +30,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L41)
 --- Template
+--- Adds itself to the parent inside the array `Plugs`
 --- @class AzeritePlugTexture : Texture, AzeriteUITexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L47)
@@ -56,6 +57,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L53)
 --- Template
+--- Adds itself to the parent inside the array `RankFrames`
 --- @class AzeriteRankFrameTemplate : Frame
 --- @field SelectionActiveFadeAnim AzeriteRankFrameTemplate_SelectionActiveFadeAnim
 --- @field SelectionActiveLoopAnim AzeriteRankFrameTemplate_SelectionActiveLoopAnim
@@ -119,15 +121,24 @@
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay : Frame
 --- @field Channel AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Channel
 --- @field Rank5Slot AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank5Slot
+--- @field Slots table<number, AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank5Slot>
 --- @field Rank4Slot AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank4Slot
+--- @field Slots table<number, AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank4Slot>
 --- @field Rank3Slot AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank3Slot
+--- @field Slots table<number, AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank3Slot>
 --- @field Rank2Slot AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank2Slot
+--- @field Slots table<number, AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank2Slot>
 --- @field Rank1Slot AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank1Slot
+--- @field Slots table<number, AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank1Slot>
 --- @field Texture AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Texture
 --- @field Rank5Plug AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank5Plug
+--- @field Plugs table<number, AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank5Plug>
 --- @field Rank4Plug AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank4Plug
+--- @field Plugs table<number, AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank4Plug>
 --- @field Rank3Plug AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank3Plug
+--- @field Plugs table<number, AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank3Plug>
 --- @field Rank2Plug AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank2Plug
+--- @field Plugs table<number, AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank2Plug>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L153)
 --- child of 
@@ -157,17 +168,6 @@
 --- child of 
 --- @class PlugBg : Texture, AzeritePlugBackgroundTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L150)
---- child of 
---- @class  : Frame, AzeriteRankFrameTemplate
---- @field GearBg GearBg
---- @field Gear Gear
---- @field RingBg RingBg
---- @field RingBgGlow RG
---- @field RingLights RingLights
---- @field Ring Ring
---- @field PlugBg PlugBg
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L178)
 --- child of 
 --- @class GearBg : Texture, AzeriteGearBackgroundTexture
@@ -195,17 +195,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L196)
 --- child of 
 --- @class PlugBg : Texture, AzeritePlugBackgroundTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L175)
---- child of 
---- @class  : Frame, AzeriteRankFrameTemplate
---- @field GearBg GearBg
---- @field Gear Gear
---- @field RingBg RingBg
---- @field RingBgGlow RingBgGlow
---- @field RingLights RingLights
---- @field Ring Ring
---- @field PlugBg PlugBg
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L203)
 --- child of 
@@ -235,17 +224,6 @@
 --- child of 
 --- @class PlugBg : Texture, AzeritePlugBackgroundTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L200)
---- child of 
---- @class  : Frame, AzeriteRankFrameTemplate
---- @field GearBg GearBg
---- @field Gear Gear
---- @field RingBg RingBg
---- @field RingBgGlow RingBgGlow
---- @field RingLights RingLights
---- @field Ring Ring
---- @field PlugBg PlugBg
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L228)
 --- child of 
 --- @class GearBg : Texture, AzeriteGearBackgroundTexture
@@ -274,21 +252,14 @@
 --- child of 
 --- @class PlugBg : Texture, AzeritePlugBackgroundTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L225)
---- child of 
---- @class  : Frame, AzeriteRankFrameTemplate
---- @field GearBg GearBg
---- @field Gear Gear
---- @field RingBg RingBg
---- @field RingBgGlow RingBgGlow
---- @field RingLights RingLights
---- @field Ring Ring
---- @field PlugBg PlugBg
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L109)
 --- child of 
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame : Frame
 --- @field KeyOverlay AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
+--- @field RankFrames table<number, AzeriteRankFrameTemplate>
+--- @field RankFrames table<number, AzeriteRankFrameTemplate>
+--- @field RankFrames table<number, AzeriteRankFrameTemplate>
+--- @field RankFrames table<number, AzeriteRankFrameTemplate>
 --- @field Bg Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L103)

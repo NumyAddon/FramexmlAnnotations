@@ -66,10 +66,6 @@ AddonDialog = {}
 --- child of AddonList
 --- @class AddonList_Dropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L152)
---- child of AddonListForceLoad
---- @class  : FontString, GameFontNormalSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L145)
 --- child of AddonList
 --- @class AddonList_AddonListForceLoad : CheckButton
@@ -107,21 +103,21 @@ AddonListDisableAllButton["atlasName"] = "128-RedButton" -- inherited
 --- child of AddonList
 --- @class AddonList_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1148)
 --- child of AddonList (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 AddonListInset = {}
 AddonListInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1142)
+--- child of AddonList (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+AddonListCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1125)
+--- child of AddonList (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+AddonListBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L134)
 --- @class AddonList : Frame, ButtonFrameTemplate
@@ -137,8 +133,8 @@ AddonList["CancelButton"] = AddonListCancelButton
 AddonList["OkayButton"] = AddonListOkayButton
 AddonList["EnableAllButton"] = AddonListEnableAllButton
 AddonList["DisableAllButton"] = AddonListDisableAllButton
-AddonList["layoutType"] = "PortraitFrameTemplate" -- inherited
-AddonList["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-AddonList["Bg"] = ButtonFrameTemplateBg -- inherited
 AddonList["Inset"] = AddonListInset -- inherited
+AddonList["CloseButton"] = AddonListCloseButton -- inherited
+AddonList["Bg"] = AddonListBg -- inherited
+AddonList["layoutType"] = "PortraitFrameTemplate" -- inherited
 

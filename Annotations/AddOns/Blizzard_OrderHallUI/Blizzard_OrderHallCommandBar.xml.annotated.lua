@@ -6,6 +6,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallCommandBar.xml#L5)
 --- Template
+--- Adds itself to the parent inside the array `TroopSummary`
 --- @class OrderHallClassSpecCategoryTemplate : Frame, OrderHallClassSpecCategory
 --- @field Icon Texture
 --- @field Count OrderHallClassSpecCategoryTemplate_Count

@@ -70,9 +70,6 @@ ItemSocketingSocket1Shine = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L46)
 --- child of ItemSocketingSocket1 (created in template ItemSocketingSocketButtonTemplate)
 --- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame
---- @field ClosedBracket Texture
---- @field OpenBracket Texture
---- @field ColorText ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame_ColorText
 ItemSocketingSocket1BracketFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L8)
@@ -135,9 +132,6 @@ ItemSocketingSocket2Shine = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L46)
 --- child of ItemSocketingSocket2 (created in template ItemSocketingSocketButtonTemplate)
 --- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame
---- @field ClosedBracket Texture
---- @field OpenBracket Texture
---- @field ColorText ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame_ColorText
 ItemSocketingSocket2BracketFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L8)
@@ -200,9 +194,6 @@ ItemSocketingSocket3Shine = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L46)
 --- child of ItemSocketingSocket3 (created in template ItemSocketingSocketButtonTemplate)
 --- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame
---- @field ClosedBracket Texture
---- @field OpenBracket Texture
---- @field ColorText ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame_ColorText
 ItemSocketingSocket3BracketFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L8)
@@ -228,10 +219,6 @@ ItemSocketingSocket3["BracketFrame"] = ItemSocketingSocket3BracketFrame -- inher
 ItemSocketingSocket3["Background"] = ItemSocketingSocket3Background -- inherited
 ItemSocketingSocket3["icon"] = ItemSocketingSocket3IconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L507)
---- child of ItemSocketingSocketButton
---- @class  : Texture, UIPanelButtonHighlightTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L447)
 --- child of ItemSocketingFrame
 --- @class ItemSocketingFrame_ItemSocketingSocketButton : Button
@@ -239,10 +226,6 @@ ItemSocketingSocket3["icon"] = ItemSocketingSocket3IconTexture -- inherited
 --- @field Right Texture
 --- @field Middle Texture
 ItemSocketingSocketButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L126)
---- child of ItemSocketingFrame
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L338)
 --- child of ItemSocketingFrame
@@ -268,25 +251,28 @@ ItemSocketingSocketButton = {}
 --- child of ItemSocketingFrame
 --- @class ItemSocketingFrame_TopRightNub : Texture, NubTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L1148)
 --- child of ItemSocketingFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ItemSocketingFrameInset = {}
 ItemSocketingFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L1142)
+--- child of ItemSocketingFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ItemSocketingFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L1125)
+--- child of ItemSocketingFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ItemSocketingFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L123)
 --- @class ItemSocketingFrame : Frame, ButtonFrameTemplate
 --- @field ScrollFrame ItemSocketingFrame_ItemSocketingScrollFrame
+--- @field Sockets table<number, ItemSocketingFrame_ItemSocketingSocket1>
+--- @field Sockets table<number, ItemSocketingFrame_ItemSocketingSocket2>
+--- @field Sockets table<number, ItemSocketingFrame_ItemSocketingSocket3>
 --- @field ParchmentFrame-Top Texture
 --- @field ParchmentFrame-Bottom Texture
 --- @field ParchmentFrame-Left Texture
@@ -322,8 +308,8 @@ ItemSocketingFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field TopRightNub ItemSocketingFrame_TopRightNub
 ItemSocketingFrame = {}
 ItemSocketingFrame["ScrollFrame"] = ItemSocketingScrollFrame
-ItemSocketingFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ItemSocketingFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-ItemSocketingFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 ItemSocketingFrame["Inset"] = ItemSocketingFrameInset -- inherited
+ItemSocketingFrame["CloseButton"] = ItemSocketingFrameCloseButton -- inherited
+ItemSocketingFrame["Bg"] = ItemSocketingFrameBg -- inherited
+ItemSocketingFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

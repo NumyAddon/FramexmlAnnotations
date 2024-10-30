@@ -132,6 +132,7 @@
 --- @field Arrow CharacterSelectListCharacterTemplate_Arrow
 --- @field UpgradeIcon CharacterSelectListCharacterTemplate_UpgradeIcon
 --- @field PaidService CharacterSelectListCharacterTemplate_PaidService
+--- @field PaidServiceButtons table<number, CharacterSelectListCharacterTemplate_PaidService>
 --- @field InnerContent CharacterSelectListCharacterTemplate_InnerContent
 --- @field Drop Texture
 --- @field GlowAnim CharacterSelectListCharacterTemplate_GlowAnim

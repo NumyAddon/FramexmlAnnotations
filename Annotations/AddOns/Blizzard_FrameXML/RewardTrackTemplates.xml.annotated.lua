@@ -8,11 +8,15 @@
 --- Template
 --- @class RenownLevelTemplate : Frame, RenownLevelMixin
 --- @field Icon Texture
+--- @field Textures table<number, Texture>
 --- @field IconBorder Texture
+--- @field Textures table<number, Texture>
 --- @field Check Texture
+--- @field Textures table<number, Texture>
 --- @field Level RenownLevelTemplate_Level
 --- @field HexMask MaskTexture
 --- @field HighlightTexture Texture
+--- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L55)
 --- Template

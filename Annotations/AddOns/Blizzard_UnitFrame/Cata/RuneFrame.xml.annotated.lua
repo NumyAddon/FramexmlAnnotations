@@ -12,10 +12,6 @@
 --- child of RuneButtonIndividualTemplate
 --- @class RuneButtonIndividualTemplate_RuneButtonIndividualTemplateShine : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L62)
---- child of RuneButtonIndividualTemplate
---- @class  : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L5)
 --- child of RuneButtonIndividualTemplate
 --- @class RuneButtonIndividualTemplate_energize : AnimationGroup

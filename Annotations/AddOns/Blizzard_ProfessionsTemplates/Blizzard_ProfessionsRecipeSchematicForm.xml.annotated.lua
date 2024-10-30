@@ -70,8 +70,11 @@
 --- child of ProfessionsRecipeSchematicFormTemplate
 --- @class ProfessionsRecipeSchematicFormTemplate_Stars : Frame
 --- @field Star1 ProfessionsRecipeSchematicFormTemplate_Stars_Star1
+--- @field Stars table<number, ProfessionsRecipeSchematicFormTemplate_Stars_Star1>
 --- @field Star2 ProfessionsRecipeSchematicFormTemplate_Stars_Star2
+--- @field Stars table<number, ProfessionsRecipeSchematicFormTemplate_Stars_Star2>
 --- @field Star3 ProfessionsRecipeSchematicFormTemplate_Stars_Star3
+--- @field Stars table<number, ProfessionsRecipeSchematicFormTemplate_Stars_Star3>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L114)
 --- child of ProfessionsRecipeSchematicFormTemplate
@@ -170,6 +173,7 @@
 --- @field OutputText ProfessionsRecipeSchematicFormTemplate_OutputText
 --- @field RecraftingOutputText ProfessionsRecipeSchematicFormTemplate_RecraftingOutputText
 --- @field RecraftingDescription ProfessionsRecipeSchematicFormTemplate_RecraftingDescription
+--- @field recipeInfoFrames table<number, ProfessionsRecipeSchematicFormTemplate_RecraftingDescription>
 --- @field OutputSubText ProfessionsRecipeSchematicFormTemplate_OutputSubText
 --- @field RequiredTools ProfessionsRecipeSchematicFormTemplate_RequiredTools
 --- @field RecraftingRequiredTools ProfessionsRecipeSchematicFormTemplate_RecraftingRequiredTools

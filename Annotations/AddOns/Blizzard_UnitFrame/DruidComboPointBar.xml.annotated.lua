@@ -15,11 +15,15 @@
 --- @field BG_Active Texture
 --- @field BG_Inactive Texture
 --- @field BG_Glow Texture
+--- @field fxTextures table<number, Texture>
 --- @field Point_Deplete Texture
+--- @field fxTextures table<number, Texture>
 --- @field Point_Icon Texture
 --- @field FX_RingGlow Texture
+--- @field fxTextures table<number, Texture>
 --- @field FB_Slash Texture
 --- @field Smoke Texture
+--- @field fxTextures table<number, Texture>
 --- @field activateAnim DruidComboPointTemplate_activateAnim
 --- @field deactivateAnim DruidComboPointTemplate_deactivateAnim
 
@@ -33,8 +37,8 @@
 --- @field topPadding number # 7
 DruidComboPointBarFrame = {}
 DruidComboPointBarFrame["topPadding"] = 7
-DruidComboPointBarFrame["isManagedFrame"] = true -- inherited
-DruidComboPointBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
-DruidComboPointBarFrame["maxUsablePoints"] = 5 -- inherited
 DruidComboPointBarFrame["powerToken"] = "COMBO_POINTS" -- inherited
+DruidComboPointBarFrame["maxUsablePoints"] = 5 -- inherited
+DruidComboPointBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+DruidComboPointBarFrame["isManagedFrame"] = true -- inherited
 

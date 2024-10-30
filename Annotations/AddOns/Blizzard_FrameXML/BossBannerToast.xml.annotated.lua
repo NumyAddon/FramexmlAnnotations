@@ -31,6 +31,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L6)
 --- Template
+--- Adds itself to the parent inside the array `LootFrames`
 --- @class BossBannerLootFrameTemplate : Frame
 --- @field IconHitBox BossBannerLootFrameTemplate_IconHitBox
 --- @field Background Texture
@@ -40,10 +41,6 @@
 --- @field SetName BossBannerLootFrameTemplate_SetName
 --- @field PlayerName BossBannerLootFrameTemplate_PlayerName
 --- @field Anim BossBannerLootFrameTemplate_Anim
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L263)
---- child of BossBanner
---- @class  : Frame, BossBannerLootFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L222)
 --- child of BossBanner
@@ -67,6 +64,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L142)
 --- @class BossBanner : Frame
+--- @field LootFrames table<number, BossBannerLootFrameTemplate>
 --- @field BannerTop Texture
 --- @field BannerTopGlow Texture
 --- @field BannerBottom Texture

@@ -8,6 +8,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L24)
 --- Template
+--- Adds itself to the parent inside the array `SeasonDescriptions`
 --- @class PVPSeasonChangesDescriptionTemplate : FontString
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L151)
@@ -341,9 +342,9 @@ PVPTalentPrestigeLevelDialogCloseButton = {}
 --- @class PVPUIFrame_PVPQueueFrame_PVPTalentPrestigeLevelDialog_Warning : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- child of PVPTalentPrestigeLevelDialog (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
+PVPTalentPrestigeLevelDialogBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L873)
 --- child of PVPQueueFrame
@@ -364,8 +365,8 @@ PortraitFrameTemplateNoCloseButtonBg = {}
 --- @field PrestigeIcon Texture
 PVPTalentPrestigeLevelDialog = {}
 PVPTalentPrestigeLevelDialog["CloseButton"] = PVPTalentPrestigeLevelDialogCloseButton
+PVPTalentPrestigeLevelDialog["Bg"] = PVPTalentPrestigeLevelDialogBg -- inherited
 PVPTalentPrestigeLevelDialog["layoutType"] = "PortraitFrameTemplate" -- inherited
-PVPTalentPrestigeLevelDialog["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1036)
 --- child of PVPQueueFrameCategoryButton1
@@ -424,6 +425,7 @@ PVPQueueFrameCategoryButton3 = {}
 --- child of HonorFrame
 --- @class PVPUIFrame_PVPQueueFrame_HonorFrame_HonorFrameTypeDropdown : DropdownButton, WowStyle1DropdownTemplate
 HonorFrameTypeDropdown = {}
+HonorFrameTypeDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1122)
 --- child of HonorFrame
@@ -525,8 +527,11 @@ HonorFrameQueueButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @field ConquestBar PVPUIFrame_PVPQueueFrame_HonorFrame_ConquestBar
 --- @field Inset PVPUIFrame_PVPQueueFrame_HonorFrame_Inset
 --- @field TankIcon PVPUIFrame_PVPQueueFrame_HonorFrame_TankIcon
+--- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_HonorFrame_TankIcon>
 --- @field HealerIcon PVPUIFrame_PVPQueueFrame_HonorFrame_HealerIcon
+--- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_HonorFrame_HealerIcon>
 --- @field DPSIcon PVPUIFrame_PVPQueueFrame_HonorFrame_DPSIcon
+--- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_HonorFrame_DPSIcon>
 --- @field TypeDropdown PVPUIFrame_PVPQueueFrame_HonorFrame_HonorFrameTypeDropdown
 --- @field SpecificScrollBox PVPUIFrame_PVPQueueFrame_HonorFrame_SpecificScrollBox
 --- @field SpecificScrollBar PVPUIFrame_PVPQueueFrame_HonorFrame_SpecificScrollBar
@@ -833,8 +838,11 @@ ConquestFrameShadowRight = {}
 --- @field ConquestBar PVPUIFrame_PVPQueueFrame_ConquestFrame_ConquestBar
 --- @field Inset PVPUIFrame_PVPQueueFrame_ConquestFrame_Inset
 --- @field TankIcon PVPUIFrame_PVPQueueFrame_ConquestFrame_TankIcon
+--- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_ConquestFrame_TankIcon>
 --- @field HealerIcon PVPUIFrame_PVPQueueFrame_ConquestFrame_HealerIcon
+--- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_ConquestFrame_HealerIcon>
 --- @field DPSIcon PVPUIFrame_PVPQueueFrame_ConquestFrame_DPSIcon
+--- @field RoleIcons table<number, PVPUIFrame_PVPQueueFrame_ConquestFrame_DPSIcon>
 --- @field RatedSoloShuffle PVPUIFrame_PVPQueueFrame_ConquestFrame_RatedSoloShuffle
 --- @field RatedBGBlitz PVPUIFrame_PVPQueueFrame_ConquestFrame_RatedBGBlitz
 --- @field Arena2v2 PVPUIFrame_PVPQueueFrame_ConquestFrame_Arena2v2
@@ -890,10 +898,6 @@ LFGListPVPStub = {}
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_Tier : Frame, PVPRatedTierTemplate
 --- @field NextTier PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_Tier_NextTier
 --- @field Title PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_Tier_Title
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1534)
---- child of 
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1522)
 --- child of 
@@ -1012,19 +1016,33 @@ PVPUIFrame = {}
 --- @class ConquestTooltip : Frame, TooltipBackdropTemplate, ResizeLayoutFrame
 --- @field minimumWidth number # 152
 --- @field Title ConquestTooltip_Title
+--- @field Content table<number, ConquestTooltip_Title>
 --- @field Tier ConquestTooltip_Tier
+--- @field Content table<number, ConquestTooltip_Tier>
 --- @field SpecRank ConquestTooltip_SpecRank
+--- @field Content table<number, ConquestTooltip_SpecRank>
 --- @field WeeklyLabel ConquestTooltip_WeeklyLabel
+--- @field Content table<number, ConquestTooltip_WeeklyLabel>
 --- @field WeeklyBest ConquestTooltip_WeeklyBest
+--- @field Content table<number, ConquestTooltip_WeeklyBest>
 --- @field WeeklyWon ConquestTooltip_WeeklyWon
+--- @field Content table<number, ConquestTooltip_WeeklyWon>
 --- @field WeeklyPlayed ConquestTooltip_WeeklyPlayed
+--- @field Content table<number, ConquestTooltip_WeeklyPlayed>
 --- @field WeeklyMostPlayedSpec ConquestTooltip_WeeklyMostPlayedSpec
+--- @field Content table<number, ConquestTooltip_WeeklyMostPlayedSpec>
 --- @field SeasonLabel ConquestTooltip_SeasonLabel
+--- @field Content table<number, ConquestTooltip_SeasonLabel>
 --- @field SeasonBest ConquestTooltip_SeasonBest
+--- @field Content table<number, ConquestTooltip_SeasonBest>
 --- @field SeasonWon ConquestTooltip_SeasonWon
+--- @field Content table<number, ConquestTooltip_SeasonWon>
 --- @field SeasonPlayed ConquestTooltip_SeasonPlayed
+--- @field Content table<number, ConquestTooltip_SeasonPlayed>
 --- @field SeasonMostPlayedSpec ConquestTooltip_SeasonMostPlayedSpec
+--- @field Content table<number, ConquestTooltip_SeasonMostPlayedSpec>
 --- @field ModeDescription ConquestTooltip_ModeDescription
+--- @field Content table<number, ConquestTooltip_ModeDescription>
 ConquestTooltip = {}
 ConquestTooltip["minimumWidth"] = 152
 ConquestTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited

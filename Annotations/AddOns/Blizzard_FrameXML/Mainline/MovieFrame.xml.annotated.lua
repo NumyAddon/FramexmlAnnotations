@@ -12,10 +12,6 @@
 --- child of 
 --- @class MovieFrame_CloseDialog_ResumeButton : Button, CinematicDialogButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/MovieFrame.xml#L19)
---- child of 
---- @class  : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/MovieFrame.xml#L12)
 --- child of MovieFrame
 --- @class MovieFrame_CloseDialog : Frame

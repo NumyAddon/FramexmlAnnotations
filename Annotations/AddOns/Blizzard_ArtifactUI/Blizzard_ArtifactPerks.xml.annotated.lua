@@ -2,6 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L5)
 --- Template
+--- Adds itself to the parent inside the array `DependencyLines`
 --- @class ArtifactDependencyLineTemplate : Frame, PowerDependencyLineTemplate, ArtifactLineMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L9)
@@ -12,6 +13,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L7)
 --- Template
+--- Adds itself to the parent inside the array `CurvedDependencyLines`
 --- @class ArtifactCurvedDependencyLineTemplate : Frame, PowerDependencyCurvedLineTemplate, ArtifactLineMixin
 --- @field Tier2FadeInAnim ArtifactCurvedDependencyLineTemplate_Tier2FadeInAnim
 
@@ -64,6 +66,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L141)
 --- Template
+--- Adds itself to the parent inside the array `FloatingNumbers`
 --- @class ArtifactFloatingRankStringTemplate : Frame
 --- @field Glow Texture
 --- @field Rune Texture
@@ -101,8 +104,11 @@
 --- child of ArtifactPerksTabTemplate
 --- @class ArtifactPerksTabTemplate_TitleContainer : Frame, ArtifactTitleTemplateMixin
 --- @field RelicSlot1 ArtifactPerksTabTemplate_TitleContainer_RelicSlot1
+--- @field RelicSlots table<number, ArtifactPerksTabTemplate_TitleContainer_RelicSlot1>
 --- @field RelicSlot2 ArtifactPerksTabTemplate_TitleContainer_RelicSlot2
+--- @field RelicSlots table<number, ArtifactPerksTabTemplate_TitleContainer_RelicSlot2>
 --- @field RelicSlot3 ArtifactPerksTabTemplate_TitleContainer_RelicSlot3
+--- @field RelicSlots table<number, ArtifactPerksTabTemplate_TitleContainer_RelicSlot3>
 --- @field Background Texture
 --- @field ArtifactName ArtifactPerksTabTemplate_TitleContainer_ArtifactName
 --- @field PointsRemainingLabel ArtifactPerksTabTemplate_TitleContainer_PointsRemainingLabel
@@ -221,10 +227,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L661)
 --- child of 
 --- @class ArtifactPerksTabTemplate_DisabledFrame_ArtifactName : FontString, Fancy24Font
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L691)
---- child of 
---- @class  : FontString, Fancy22Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L651)
 --- child of ArtifactPerksTabTemplate

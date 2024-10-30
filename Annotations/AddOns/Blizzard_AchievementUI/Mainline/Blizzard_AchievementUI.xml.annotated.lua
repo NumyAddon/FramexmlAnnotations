@@ -11,6 +11,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L14)
 --- Template
+--- Adds itself to the parent inside the array `searchPreviews`
 --- @class AchievementSearchPreviewButton : Button
 --- @field SelectedTexture Texture
 --- @field IconFrame Texture
@@ -28,10 +29,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L94)
 --- child of AchievementFullSearchResultsButtonTemplate
 --- @class AchievementFullSearchResultsButtonTemplate_ResultType : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L103)
---- child of AchievementFullSearchResultsButtonTemplate
---- @class  : Texture, _SearchBarLg
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L62)
 --- Template
@@ -455,8 +452,8 @@ AchievementFrameAchievementsObjectives = {}
 --- @field ScrollBox AchievementFrame_AchievementFrameCategories_ScrollBox
 --- @field ScrollBar AchievementFrame_AchievementFrameCategories_ScrollBar
 AchievementFrameCategories = {}
-AchievementFrameCategories["layoutType"] = "TooltipDefaultLayout" -- inherited
 AchievementFrameCategories["backdropColorAlpha"] = 0 -- inherited
+AchievementFrameCategories["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1797)
 --- child of AchievementFrameAchievements
@@ -465,10 +462,6 @@ AchievementFrameCategories["backdropColorAlpha"] = 0 -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1804)
 --- child of AchievementFrameAchievements
 --- @class AchievementFrame_AchievementFrameAchievements_ScrollBar : EventFrame, MinimalScrollBar
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1810)
---- child of AchievementFrameAchievements
---- @class  : Frame, AchivementGoldBorderBackdrop
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1774)
 --- child of AchievementFrameAchievements
@@ -496,20 +489,12 @@ AchievementFrameStatsBG = {}
 --- child of AchievementFrameStats
 --- @class AchievementFrame_AchievementFrameStats_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1860)
---- child of AchievementFrameStats
---- @class  : Frame, AchivementGoldBorderBackdrop
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1813)
 --- child of AchievementFrame
 --- @class AchievementFrame_AchievementFrameStats : Frame
 --- @field ScrollBox AchievementFrame_AchievementFrameStats_ScrollBox
 --- @field ScrollBar AchievementFrame_AchievementFrameStats_ScrollBar
 AchievementFrameStats = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1881)
---- child of AchievementFrameSummary
---- @class  : Frame, AchivementGoldBorderBackdrop
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1906)
 --- child of AchievementFrameSummaryAchievementsHeader
@@ -1304,10 +1289,6 @@ AchievementFrameComparisonBackground = {}
 --- @field ScrollBox AchievementFrame_AchievementFrameComparison_StatContainer_ScrollBox
 --- @field ScrollBar AchievementFrame_AchievementFrameComparison_StatContainer_ScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2268)
---- child of AchievementFrameComparison
---- @class  : Frame, AchivementGoldBorderBackdrop
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2272)
 --- child of AchievementFrameComparison
 --- @class AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonBackground : Texture
@@ -1496,7 +1477,6 @@ AchievementFrameFilterDropdown["text"] = FILTER -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1504)
 --- child of  (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
 AchievementFrameClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1495)
@@ -1566,10 +1546,15 @@ AchievementFrameSearchIcon = {}
 --- child of AchievementFrame
 --- @class AchievementFrame_SearchPreviewContainer : Frame
 --- @field SearchPreview1 AchievementFrame_SearchPreviewContainer_SearchPreview1
+--- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview1>
 --- @field SearchPreview2 AchievementFrame_SearchPreviewContainer_SearchPreview2
+--- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview2>
 --- @field SearchPreview3 AchievementFrame_SearchPreviewContainer_SearchPreview3
+--- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview3>
 --- @field SearchPreview4 AchievementFrame_SearchPreviewContainer_SearchPreview4
+--- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview4>
 --- @field SearchPreview5 AchievementFrame_SearchPreviewContainer_SearchPreview5
+--- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview5>
 --- @field ShowAllSearchResults AchievementFrame_SearchPreviewContainer_ShowAllSearchResults
 --- @field Background Texture
 --- @field BorderAnchor AchievementFrame_SearchPreviewContainer_BorderAnchor

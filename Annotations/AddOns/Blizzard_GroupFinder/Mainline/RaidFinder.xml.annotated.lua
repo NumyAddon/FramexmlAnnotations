@@ -25,22 +25,20 @@ RaidFinderFrameRoleInset["layoutType"] = "InsetFrameTemplate" -- inherited
 RaidFinderFrameBottomInset = {}
 RaidFinderFrameBottomInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L167)
---- child of LFGRoleButtonWithBackgroundAndRewardTemplate (created in template LFGRoleButtonWithBackgroundTemplate)
---- @type Texture
-LFGRoleButtonWithBackgroundAndRewardTemplateBackground = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L188)
---- child of RaidFinderRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of RaidFinderQueueFrameRoleButtonTank (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
---- @field texture Texture
---- @field border Texture
-RaidFinderRoleButtonTemplateIncentiveIcon = {}
+RaidFinderQueueFrameRoleButtonTankIncentiveIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L179)
---- child of RaidFinderRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of RaidFinderQueueFrameRoleButtonTank (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type Texture
-RaidFinderRoleButtonTemplateShortageBorder = {}
+RaidFinderQueueFrameRoleButtonTankShortageBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L167)
+--- child of RaidFinderQueueFrameRoleButtonTank (created in template LFGRoleButtonWithBackgroundTemplate)
+--- @type Texture
+RaidFinderQueueFrameRoleButtonTankBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L86)
 --- child of RaidFinderQueueFrame
@@ -48,26 +46,24 @@ RaidFinderRoleButtonTemplateShortageBorder = {}
 --- @field role string # "TANK"
 RaidFinderQueueFrameRoleButtonTank = {}
 RaidFinderQueueFrameRoleButtonTank["role"] = "TANK"
-RaidFinderQueueFrameRoleButtonTank["background"] = LFGRoleButtonWithBackgroundAndRewardTemplateBackground -- inherited
-RaidFinderQueueFrameRoleButtonTank["incentiveIcon"] = RaidFinderRoleButtonTemplateIncentiveIcon -- inherited
-RaidFinderQueueFrameRoleButtonTank["shortageBorder"] = RaidFinderRoleButtonTemplateShortageBorder -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L167)
---- child of LFGRoleButtonWithBackgroundAndRewardTemplate (created in template LFGRoleButtonWithBackgroundTemplate)
---- @type Texture
-LFGRoleButtonWithBackgroundAndRewardTemplateBackground = {}
+RaidFinderQueueFrameRoleButtonTank["incentiveIcon"] = RaidFinderQueueFrameRoleButtonTankIncentiveIcon -- inherited
+RaidFinderQueueFrameRoleButtonTank["shortageBorder"] = RaidFinderQueueFrameRoleButtonTankShortageBorder -- inherited
+RaidFinderQueueFrameRoleButtonTank["background"] = RaidFinderQueueFrameRoleButtonTankBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L188)
---- child of RaidFinderRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of RaidFinderQueueFrameRoleButtonHealer (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
---- @field texture Texture
---- @field border Texture
-RaidFinderRoleButtonTemplateIncentiveIcon = {}
+RaidFinderQueueFrameRoleButtonHealerIncentiveIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L179)
---- child of RaidFinderRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of RaidFinderQueueFrameRoleButtonHealer (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type Texture
-RaidFinderRoleButtonTemplateShortageBorder = {}
+RaidFinderQueueFrameRoleButtonHealerShortageBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L167)
+--- child of RaidFinderQueueFrameRoleButtonHealer (created in template LFGRoleButtonWithBackgroundTemplate)
+--- @type Texture
+RaidFinderQueueFrameRoleButtonHealerBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L94)
 --- child of RaidFinderQueueFrame
@@ -75,26 +71,24 @@ RaidFinderRoleButtonTemplateShortageBorder = {}
 --- @field role string # "HEALER"
 RaidFinderQueueFrameRoleButtonHealer = {}
 RaidFinderQueueFrameRoleButtonHealer["role"] = "HEALER"
-RaidFinderQueueFrameRoleButtonHealer["background"] = LFGRoleButtonWithBackgroundAndRewardTemplateBackground -- inherited
-RaidFinderQueueFrameRoleButtonHealer["incentiveIcon"] = RaidFinderRoleButtonTemplateIncentiveIcon -- inherited
-RaidFinderQueueFrameRoleButtonHealer["shortageBorder"] = RaidFinderRoleButtonTemplateShortageBorder -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L167)
---- child of LFGRoleButtonWithBackgroundAndRewardTemplate (created in template LFGRoleButtonWithBackgroundTemplate)
---- @type Texture
-LFGRoleButtonWithBackgroundAndRewardTemplateBackground = {}
+RaidFinderQueueFrameRoleButtonHealer["incentiveIcon"] = RaidFinderQueueFrameRoleButtonHealerIncentiveIcon -- inherited
+RaidFinderQueueFrameRoleButtonHealer["shortageBorder"] = RaidFinderQueueFrameRoleButtonHealerShortageBorder -- inherited
+RaidFinderQueueFrameRoleButtonHealer["background"] = RaidFinderQueueFrameRoleButtonHealerBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L188)
---- child of RaidFinderRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of RaidFinderQueueFrameRoleButtonDPS (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
---- @field texture Texture
---- @field border Texture
-RaidFinderRoleButtonTemplateIncentiveIcon = {}
+RaidFinderQueueFrameRoleButtonDPSIncentiveIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L179)
---- child of RaidFinderRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of RaidFinderQueueFrameRoleButtonDPS (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type Texture
-RaidFinderRoleButtonTemplateShortageBorder = {}
+RaidFinderQueueFrameRoleButtonDPSShortageBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L167)
+--- child of RaidFinderQueueFrameRoleButtonDPS (created in template LFGRoleButtonWithBackgroundTemplate)
+--- @type Texture
+RaidFinderQueueFrameRoleButtonDPSBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L102)
 --- child of RaidFinderQueueFrame
@@ -102,9 +96,9 @@ RaidFinderRoleButtonTemplateShortageBorder = {}
 --- @field role string # "DAMAGER"
 RaidFinderQueueFrameRoleButtonDPS = {}
 RaidFinderQueueFrameRoleButtonDPS["role"] = "DAMAGER"
-RaidFinderQueueFrameRoleButtonDPS["background"] = LFGRoleButtonWithBackgroundAndRewardTemplateBackground -- inherited
-RaidFinderQueueFrameRoleButtonDPS["incentiveIcon"] = RaidFinderRoleButtonTemplateIncentiveIcon -- inherited
-RaidFinderQueueFrameRoleButtonDPS["shortageBorder"] = RaidFinderRoleButtonTemplateShortageBorder -- inherited
+RaidFinderQueueFrameRoleButtonDPS["incentiveIcon"] = RaidFinderQueueFrameRoleButtonDPSIncentiveIcon -- inherited
+RaidFinderQueueFrameRoleButtonDPS["shortageBorder"] = RaidFinderQueueFrameRoleButtonDPSShortageBorder -- inherited
+RaidFinderQueueFrameRoleButtonDPS["background"] = RaidFinderQueueFrameRoleButtonDPSBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L110)
 --- child of RaidFinderQueueFrame
@@ -120,6 +114,7 @@ RaidFinderQueueFrameSelectionDropdownName = {}
 --- child of RaidFinderQueueFrame
 --- @class RaidFinderFrame_RaidFinderQueueFrame_RaidFinderQueueFrameSelectionDropdown : DropdownButton, WowStyle1DropdownTemplate
 RaidFinderQueueFrameSelectionDropdown = {}
+RaidFinderQueueFrameSelectionDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L144)
 --- child of RaidFinderQueueFrame
@@ -292,6 +287,7 @@ RaidFinderQueueFrameBackground = {}
 --- child of RaidFinderFrame
 --- @class RaidFinderFrame_RaidFinderQueueFrame : Frame
 --- @field SelectionDropdown RaidFinderFrame_RaidFinderQueueFrame_RaidFinderQueueFrameSelectionDropdown
+--- @field PartyBackfill RaidFinderFrame_RaidFinderQueueFrame_RaidFinderQueueFramePartyBackfill
 --- @field CooldownFrame RaidFinderFrame_RaidFinderQueueFrame_RaidFinderQueueFrameCooldownFrame
 RaidFinderQueueFrame = {}
 RaidFinderQueueFrame["SelectionDropdown"] = RaidFinderQueueFrameSelectionDropdown

@@ -58,15 +58,15 @@ ProfessionsCustomerOrdersFrameBrowseTab["mode"] = ProfessionsCustomerOrdersMode.
 ProfessionsCustomerOrdersFrameOrdersTab = {}
 ProfessionsCustomerOrdersFrameOrdersTab["mode"] = ProfessionsCustomerOrdersMode.Orders
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1095)
 --- child of ProfessionsCustomerOrdersFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ProfessionsCustomerOrdersFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1062)
+--- child of ProfessionsCustomerOrdersFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+ProfessionsCustomerOrdersFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L11)
 --- @class ProfessionsCustomerOrdersFrame : Frame, PortraitFrameTemplate, ProfessionsCustomerOrdersMixin
@@ -74,13 +74,17 @@ ProfessionsCustomerOrdersFrameCloseButton = {}
 --- @field MoneyFrameBorder ProfessionsCustomerOrdersFrame_MoneyFrameBorder
 --- @field Form ProfessionsCustomerOrdersFrame_Form
 --- @field BrowseOrders ProfessionsCustomerOrdersFrame_BrowseOrders
+--- @field Pages table<number, ProfessionsCustomerOrdersFrame_BrowseOrders>
 --- @field MyOrdersPage ProfessionsCustomerOrdersFrame_MyOrdersPage
+--- @field Pages table<number, ProfessionsCustomerOrdersFrame_MyOrdersPage>
 --- @field BrowseTab ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameBrowseTab
+--- @field Tabs table<number, ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameBrowseTab>
 --- @field OrdersTab ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameOrdersTab
+--- @field Tabs table<number, ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameOrdersTab>
 ProfessionsCustomerOrdersFrame = {}
 ProfessionsCustomerOrdersFrame["BrowseTab"] = ProfessionsCustomerOrdersFrameBrowseTab
 ProfessionsCustomerOrdersFrame["OrdersTab"] = ProfessionsCustomerOrdersFrameOrdersTab
-ProfessionsCustomerOrdersFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ProfessionsCustomerOrdersFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 ProfessionsCustomerOrdersFrame["CloseButton"] = ProfessionsCustomerOrdersFrameCloseButton -- inherited
+ProfessionsCustomerOrdersFrame["Bg"] = ProfessionsCustomerOrdersFrameBg -- inherited
+ProfessionsCustomerOrdersFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

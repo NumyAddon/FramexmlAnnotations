@@ -117,18 +117,31 @@
 --- Template
 --- @class SettingsAdvancedQualityControlsTemplate : Frame, SettingsAdvancedQualityControlsMixin
 --- @field ShadowQuality SettingsAdvancedQualityControlsTemplate_ShadowQuality
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_ShadowQuality>
 --- @field LiquidDetail SettingsAdvancedQualityControlsTemplate_LiquidDetail
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_LiquidDetail>
 --- @field ParticleDensity SettingsAdvancedQualityControlsTemplate_ParticleDensity
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_ParticleDensity>
 --- @field SSAO SettingsAdvancedQualityControlsTemplate_SSAO
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_SSAO>
 --- @field DepthEffects SettingsAdvancedQualityControlsTemplate_DepthEffects
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_DepthEffects>
 --- @field ComputeEffects SettingsAdvancedQualityControlsTemplate_ComputeEffects
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_ComputeEffects>
 --- @field OutlineMode SettingsAdvancedQualityControlsTemplate_OutlineMode
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_OutlineMode>
 --- @field TextureResolution SettingsAdvancedQualityControlsTemplate_TextureResolution
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_TextureResolution>
 --- @field SpellDensity SettingsAdvancedQualityControlsTemplate_SpellDensity
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_SpellDensity>
 --- @field ProjectedTextures SettingsAdvancedQualityControlsTemplate_ProjectedTextures
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_ProjectedTextures>
 --- @field ViewDistance SettingsAdvancedQualityControlsTemplate_ViewDistance
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_ViewDistance>
 --- @field EnvironmentDetail SettingsAdvancedQualityControlsTemplate_EnvironmentDetail
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_EnvironmentDetail>
 --- @field GroundClutter SettingsAdvancedQualityControlsTemplate_GroundClutter
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_GroundClutter>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L209)
 --- child of SettingsAdvancedQualitySectionTemplate
@@ -153,6 +166,7 @@
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_BaseQualityControls : Frame, SettingsAdvancedQualityControlsTemplate
 --- @field GraphicsQuality SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality
+--- @field Controls table<number, SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L253)
 --- child of 
@@ -162,10 +176,7 @@
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls : Frame, SettingsAdvancedQualityControlsTemplate
 --- @field GraphicsQuality SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L201)
---- child of SettingsAdvancedQualitySectionTemplate
---- @class  : FontString, GameFontHighlightLarge
+--- @field Controls table<number, SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L198)
 --- Template

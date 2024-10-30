@@ -31,6 +31,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L102)
 --- Template
+--- Adds itself to the parent inside the array `Rewards`
 --- @class GarrisonMissionRewardEffectsTemplate : Frame
 --- @field BG Texture
 --- @field Icon Texture
@@ -95,7 +96,9 @@
 --- @class GarrisonMissionPageRewardTemplate : Frame
 --- @field OvermaxItem GarrisonMissionPageRewardTemplate_OvermaxItem
 --- @field Reward1 GarrisonMissionPageRewardTemplate_Reward1
+--- @field Rewards table<number, GarrisonMissionPageRewardTemplate_Reward1>
 --- @field Reward2 GarrisonMissionPageRewardTemplate_Reward2
+--- @field Rewards table<number, GarrisonMissionPageRewardTemplate_Reward2>
 --- @field MissionXPTooltipHitBox Frame
 --- @field TooltipHitBox Frame
 --- @field Chest Texture
@@ -146,10 +149,6 @@
 --- @field LocMid Texture
 --- @field LocFore Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L480)
---- child of GarrisonMissionPartyBuffsFrameTemplate
---- @class  : Frame, GarrisonMissionPartyBuffTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L471)
 --- child of GarrisonMissionPartyBuffsFrameTemplate
 --- @class GarrisonMissionPartyBuffsFrameTemplate_BuffsTitle : FontString, GameFontNormal
@@ -157,6 +156,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L466)
 --- Template
 --- @class GarrisonMissionPartyBuffsFrameTemplate : Frame
+--- @field Buffs table<number, GarrisonMissionPartyBuffTemplate>
 --- @field BuffsBG Texture
 --- @field BuffsTitle GarrisonMissionPartyBuffsFrameTemplate_BuffsTitle
 
@@ -166,6 +166,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L488)
 --- Template
+--- Adds itself to the parent with key `StartMissionButton`
 --- @class StartMissionButtonTemplate : Button, UIPanelButtonTemplate
 --- @field Flash Texture
 --- @field FlashAnim StartMissionButtonTemplate_FlashAnim
@@ -292,10 +293,6 @@
 --- child of MissionPageTemplate
 --- @class MissionPageTemplate_BuffsFrame : Frame, GarrisonMissionPartyBuffsFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L750)
---- child of MissionPageTemplate
---- @class  : Button, StartMissionButtonTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L755)
 --- child of MissionPageTemplate
 --- @class MissionPageTemplate_CostFrame : Frame, GarrisonMissionPageCostWithTooltipTemplate
@@ -312,6 +309,7 @@
 --- @field ItemLevelHitboxFrame MissionPageTemplate_ItemLevelHitboxFrame
 --- @field BuffsFrameAnchor Frame
 --- @field BuffsFrame MissionPageTemplate_BuffsFrame
+--- @field StartMissionButton StartMissionButtonTemplate
 --- @field CostFrame MissionPageTemplate_CostFrame
 --- @field EmptyString MissionPageTemplate_EmptyString
 
@@ -404,10 +402,15 @@
 --- Template
 --- @class GarrisonMissionCompleteModelCluster : Frame, GarrisonMissionCompleteModelClusterMixin
 --- @field Model1 GarrisonMissionCompleteModelCluster_Model1
+--- @field Model table<number, GarrisonMissionCompleteModelCluster_Model1>
 --- @field Model2 GarrisonMissionCompleteModelCluster_Model2
+--- @field Model table<number, GarrisonMissionCompleteModelCluster_Model2>
 --- @field Model3 GarrisonMissionCompleteModelCluster_Model3
+--- @field Model table<number, GarrisonMissionCompleteModelCluster_Model3>
 --- @field Model4 GarrisonMissionCompleteModelCluster_Model4
+--- @field Model table<number, GarrisonMissionCompleteModelCluster_Model4>
 --- @field Model5 GarrisonMissionCompleteModelCluster_Model5
+--- @field Model table<number, GarrisonMissionCompleteModelCluster_Model5>
 --- @field FadeOut GarrisonMissionCompleteModelCluster_FadeOut
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L977)
@@ -483,10 +486,6 @@
 --- @field Banner Texture
 --- @field FadeIn GarrisonMissionBonusRewardsTemplate_Saturated_FadeIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1069)
---- child of GarrisonMissionBonusRewardsTemplate
---- @class  : FontString, QuestFont_Huge
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1058)
 --- Template
 --- @class GarrisonMissionBonusRewardsTemplate : Frame
@@ -525,8 +524,11 @@
 --- Template
 --- @class GarrisonMissionCompleteStageTemplate : Frame
 --- @field ModelLeft GarrisonMissionCompleteStageTemplate_ModelLeft
+--- @field ModelCluster table<number, GarrisonMissionCompleteStageTemplate_ModelLeft>
 --- @field ModelRight GarrisonMissionCompleteStageTemplate_ModelRight
+--- @field ModelCluster table<number, GarrisonMissionCompleteStageTemplate_ModelRight>
 --- @field ModelMiddle GarrisonMissionCompleteStageTemplate_ModelMiddle
+--- @field ModelCluster table<number, GarrisonMissionCompleteStageTemplate_ModelMiddle>
 --- @field Miss GarrisonMissionCompleteStageTemplate_Miss
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1336)
@@ -602,180 +604,180 @@ GarrisonFollowerPlacerFrame = {}
 --- child of GarrisonMissionMechanicTooltip
 --- @class GarrisonMissionMechanicTooltip_Description : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L35)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
-SharedTooltipTemplateTextLeft1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L36)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
-SharedTooltipTemplateTextRight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L41)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
-SharedTooltipTemplateTextLeft2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L42)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
-SharedTooltipTemplateTextRight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L47)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
-SharedTooltipTemplateTexture1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L48)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
-SharedTooltipTemplateTexture2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L49)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
-SharedTooltipTemplateTexture3 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L50)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
-SharedTooltipTemplateTexture4 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L51)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
-SharedTooltipTemplateTexture5 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L52)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
-SharedTooltipTemplateTexture6 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L53)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
-SharedTooltipTemplateTexture7 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L54)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
-SharedTooltipTemplateTexture8 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L55)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
-SharedTooltipTemplateTexture9 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L56)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
-SharedTooltipTemplateTexture10 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L57)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
-SharedTooltipTemplateTexture11 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L58)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
-SharedTooltipTemplateTexture12 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L59)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
-SharedTooltipTemplateTexture13 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L60)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
-SharedTooltipTemplateTexture14 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L61)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
-SharedTooltipTemplateTexture15 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L62)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
-SharedTooltipTemplateTexture16 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L63)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
-SharedTooltipTemplateTexture17 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L64)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
-SharedTooltipTemplateTexture18 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L65)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
-SharedTooltipTemplateTexture19 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L66)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
-SharedTooltipTemplateTexture20 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L67)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
-SharedTooltipTemplateTexture21 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L68)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
-SharedTooltipTemplateTexture22 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L69)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
-SharedTooltipTemplateTexture23 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L70)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
-SharedTooltipTemplateTexture24 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L71)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
-SharedTooltipTemplateTexture25 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L72)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
-SharedTooltipTemplateTexture26 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L73)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
-SharedTooltipTemplateTexture27 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L74)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
-SharedTooltipTemplateTexture28 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L75)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
-SharedTooltipTemplateTexture29 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L76)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
-SharedTooltipTemplateTexture30 = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L9)
 --- child of GarrisonMissionMechanicTooltip (created in template GameTooltipTemplate)
 --- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
 GarrisonMissionMechanicTooltipStatusBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L35)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
+GarrisonMissionMechanicTooltipTextLeft1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L36)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
+GarrisonMissionMechanicTooltipTextRight1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L41)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
+GarrisonMissionMechanicTooltipTextLeft2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L42)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
+GarrisonMissionMechanicTooltipTextRight2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L47)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
+GarrisonMissionMechanicTooltipTexture1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L48)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
+GarrisonMissionMechanicTooltipTexture2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L49)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
+GarrisonMissionMechanicTooltipTexture3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L50)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
+GarrisonMissionMechanicTooltipTexture4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L51)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
+GarrisonMissionMechanicTooltipTexture5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L52)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
+GarrisonMissionMechanicTooltipTexture6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L53)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
+GarrisonMissionMechanicTooltipTexture7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L54)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
+GarrisonMissionMechanicTooltipTexture8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L55)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
+GarrisonMissionMechanicTooltipTexture9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L56)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
+GarrisonMissionMechanicTooltipTexture10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L57)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
+GarrisonMissionMechanicTooltipTexture11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L58)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
+GarrisonMissionMechanicTooltipTexture12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L59)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
+GarrisonMissionMechanicTooltipTexture13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L60)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
+GarrisonMissionMechanicTooltipTexture14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L61)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
+GarrisonMissionMechanicTooltipTexture15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L62)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
+GarrisonMissionMechanicTooltipTexture16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L63)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
+GarrisonMissionMechanicTooltipTexture17 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L64)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
+GarrisonMissionMechanicTooltipTexture18 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L65)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
+GarrisonMissionMechanicTooltipTexture19 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L66)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
+GarrisonMissionMechanicTooltipTexture20 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L67)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
+GarrisonMissionMechanicTooltipTexture21 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L68)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
+GarrisonMissionMechanicTooltipTexture22 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L69)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
+GarrisonMissionMechanicTooltipTexture23 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L70)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
+GarrisonMissionMechanicTooltipTexture24 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L71)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
+GarrisonMissionMechanicTooltipTexture25 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L72)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
+GarrisonMissionMechanicTooltipTexture26 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L73)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
+GarrisonMissionMechanicTooltipTexture27 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L74)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
+GarrisonMissionMechanicTooltipTexture28 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L75)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
+GarrisonMissionMechanicTooltipTexture29 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L76)
+--- child of GarrisonMissionMechanicTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
+GarrisonMissionMechanicTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1535)
 --- @class GarrisonMissionMechanicTooltip : GameTooltip, GameTooltipTemplate
@@ -784,13 +786,13 @@ GarrisonMissionMechanicTooltipStatusBar = {}
 --- @field Name GarrisonMissionMechanicTooltip_Name
 --- @field Description GarrisonMissionMechanicTooltip_Description
 GarrisonMissionMechanicTooltip = {}
-GarrisonMissionMechanicTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
-GarrisonMissionMechanicTooltip["TextLeft1"] = SharedTooltipTemplateTextLeft1 -- inherited
-GarrisonMissionMechanicTooltip["TextRight1"] = SharedTooltipTemplateTextRight1 -- inherited
-GarrisonMissionMechanicTooltip["TextLeft2"] = SharedTooltipTemplateTextLeft2 -- inherited
-GarrisonMissionMechanicTooltip["TextRight2"] = SharedTooltipTemplateTextRight2 -- inherited
 GarrisonMissionMechanicTooltip["supportsDataRefresh"] = true -- inherited
 GarrisonMissionMechanicTooltip["StatusBar"] = GarrisonMissionMechanicTooltipStatusBar -- inherited
+GarrisonMissionMechanicTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+GarrisonMissionMechanicTooltip["TextLeft1"] = GarrisonMissionMechanicTooltipTextLeft1 -- inherited
+GarrisonMissionMechanicTooltip["TextRight1"] = GarrisonMissionMechanicTooltipTextRight1 -- inherited
+GarrisonMissionMechanicTooltip["TextLeft2"] = GarrisonMissionMechanicTooltipTextLeft2 -- inherited
+GarrisonMissionMechanicTooltip["TextRight2"] = GarrisonMissionMechanicTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1585)
 --- child of GarrisonMissionMechanicFollowerCounterTooltip
@@ -812,180 +814,180 @@ GarrisonMissionMechanicTooltip["StatusBar"] = GarrisonMissionMechanicTooltipStat
 --- child of GarrisonMissionMechanicFollowerCounterTooltip
 --- @class GarrisonMissionMechanicFollowerCounterTooltip_CounterName : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L35)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
-SharedTooltipTemplateTextLeft1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L36)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
-SharedTooltipTemplateTextRight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L41)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
-SharedTooltipTemplateTextLeft2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L42)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
-SharedTooltipTemplateTextRight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L47)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
-SharedTooltipTemplateTexture1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L48)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
-SharedTooltipTemplateTexture2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L49)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
-SharedTooltipTemplateTexture3 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L50)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
-SharedTooltipTemplateTexture4 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L51)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
-SharedTooltipTemplateTexture5 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L52)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
-SharedTooltipTemplateTexture6 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L53)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
-SharedTooltipTemplateTexture7 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L54)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
-SharedTooltipTemplateTexture8 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L55)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
-SharedTooltipTemplateTexture9 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L56)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
-SharedTooltipTemplateTexture10 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L57)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
-SharedTooltipTemplateTexture11 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L58)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
-SharedTooltipTemplateTexture12 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L59)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
-SharedTooltipTemplateTexture13 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L60)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
-SharedTooltipTemplateTexture14 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L61)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
-SharedTooltipTemplateTexture15 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L62)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
-SharedTooltipTemplateTexture16 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L63)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
-SharedTooltipTemplateTexture17 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L64)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
-SharedTooltipTemplateTexture18 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L65)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
-SharedTooltipTemplateTexture19 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L66)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
-SharedTooltipTemplateTexture20 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L67)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
-SharedTooltipTemplateTexture21 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L68)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
-SharedTooltipTemplateTexture22 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L69)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
-SharedTooltipTemplateTexture23 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L70)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
-SharedTooltipTemplateTexture24 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L71)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
-SharedTooltipTemplateTexture25 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L72)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
-SharedTooltipTemplateTexture26 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L73)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
-SharedTooltipTemplateTexture27 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L74)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
-SharedTooltipTemplateTexture28 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L75)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
-SharedTooltipTemplateTexture29 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L76)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
-SharedTooltipTemplateTexture30 = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L9)
 --- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template GameTooltipTemplate)
 --- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
 GarrisonMissionMechanicFollowerCounterTooltipStatusBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L35)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
+GarrisonMissionMechanicFollowerCounterTooltipTextLeft1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L36)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
+GarrisonMissionMechanicFollowerCounterTooltipTextRight1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L41)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
+GarrisonMissionMechanicFollowerCounterTooltipTextLeft2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L42)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
+GarrisonMissionMechanicFollowerCounterTooltipTextRight2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L47)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
+GarrisonMissionMechanicFollowerCounterTooltipTexture1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L48)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
+GarrisonMissionMechanicFollowerCounterTooltipTexture2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L49)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
+GarrisonMissionMechanicFollowerCounterTooltipTexture3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L50)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
+GarrisonMissionMechanicFollowerCounterTooltipTexture4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L51)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
+GarrisonMissionMechanicFollowerCounterTooltipTexture5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L52)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
+GarrisonMissionMechanicFollowerCounterTooltipTexture6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L53)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
+GarrisonMissionMechanicFollowerCounterTooltipTexture7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L54)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
+GarrisonMissionMechanicFollowerCounterTooltipTexture8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L55)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
+GarrisonMissionMechanicFollowerCounterTooltipTexture9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L56)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
+GarrisonMissionMechanicFollowerCounterTooltipTexture10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L57)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
+GarrisonMissionMechanicFollowerCounterTooltipTexture11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L58)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
+GarrisonMissionMechanicFollowerCounterTooltipTexture12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L59)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
+GarrisonMissionMechanicFollowerCounterTooltipTexture13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L60)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
+GarrisonMissionMechanicFollowerCounterTooltipTexture14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L61)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
+GarrisonMissionMechanicFollowerCounterTooltipTexture15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L62)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
+GarrisonMissionMechanicFollowerCounterTooltipTexture16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L63)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
+GarrisonMissionMechanicFollowerCounterTooltipTexture17 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L64)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
+GarrisonMissionMechanicFollowerCounterTooltipTexture18 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L65)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
+GarrisonMissionMechanicFollowerCounterTooltipTexture19 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L66)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
+GarrisonMissionMechanicFollowerCounterTooltipTexture20 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L67)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
+GarrisonMissionMechanicFollowerCounterTooltipTexture21 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L68)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
+GarrisonMissionMechanicFollowerCounterTooltipTexture22 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L69)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
+GarrisonMissionMechanicFollowerCounterTooltipTexture23 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L70)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
+GarrisonMissionMechanicFollowerCounterTooltipTexture24 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L71)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
+GarrisonMissionMechanicFollowerCounterTooltipTexture25 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L72)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
+GarrisonMissionMechanicFollowerCounterTooltipTexture26 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L73)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
+GarrisonMissionMechanicFollowerCounterTooltipTexture27 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L74)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
+GarrisonMissionMechanicFollowerCounterTooltipTexture28 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L75)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
+GarrisonMissionMechanicFollowerCounterTooltipTexture29 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L76)
+--- child of GarrisonMissionMechanicFollowerCounterTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
+GarrisonMissionMechanicFollowerCounterTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1570)
 --- @class GarrisonMissionMechanicFollowerCounterTooltip : GameTooltip, GameTooltipTemplate
@@ -998,11 +1000,11 @@ GarrisonMissionMechanicFollowerCounterTooltipStatusBar = {}
 --- @field CounterIcon Texture
 --- @field CounterName GarrisonMissionMechanicFollowerCounterTooltip_CounterName
 GarrisonMissionMechanicFollowerCounterTooltip = {}
-GarrisonMissionMechanicFollowerCounterTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
-GarrisonMissionMechanicFollowerCounterTooltip["TextLeft1"] = SharedTooltipTemplateTextLeft1 -- inherited
-GarrisonMissionMechanicFollowerCounterTooltip["TextRight1"] = SharedTooltipTemplateTextRight1 -- inherited
-GarrisonMissionMechanicFollowerCounterTooltip["TextLeft2"] = SharedTooltipTemplateTextLeft2 -- inherited
-GarrisonMissionMechanicFollowerCounterTooltip["TextRight2"] = SharedTooltipTemplateTextRight2 -- inherited
 GarrisonMissionMechanicFollowerCounterTooltip["supportsDataRefresh"] = true -- inherited
 GarrisonMissionMechanicFollowerCounterTooltip["StatusBar"] = GarrisonMissionMechanicFollowerCounterTooltipStatusBar -- inherited
+GarrisonMissionMechanicFollowerCounterTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+GarrisonMissionMechanicFollowerCounterTooltip["TextLeft1"] = GarrisonMissionMechanicFollowerCounterTooltipTextLeft1 -- inherited
+GarrisonMissionMechanicFollowerCounterTooltip["TextRight1"] = GarrisonMissionMechanicFollowerCounterTooltipTextRight1 -- inherited
+GarrisonMissionMechanicFollowerCounterTooltip["TextLeft2"] = GarrisonMissionMechanicFollowerCounterTooltipTextLeft2 -- inherited
+GarrisonMissionMechanicFollowerCounterTooltip["TextRight2"] = GarrisonMissionMechanicFollowerCounterTooltipTextRight2 -- inherited
 

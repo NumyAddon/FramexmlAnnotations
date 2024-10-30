@@ -5,7 +5,7 @@
 --- @field spacing number # -30
 ExtraAbilityContainer = {}
 ExtraAbilityContainer["spacing"] = -30
-ExtraAbilityContainer["isManagedFrame"] = true -- inherited
 ExtraAbilityContainer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+ExtraAbilityContainer["isManagedFrame"] = true -- inherited
 ExtraAbilityContainer["system"] = Enum.EditModeSystem.ExtraAbilities -- inherited
 

@@ -2,6 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/VehicleSeatIndicator.xml#L3)
 --- Template
+--- Adds itself to the parent inside the array `buttons`
 --- @class VehicleSeatIndicatorButtonTemplate : Button, VehicleSeatIndicatorButtonMixin
 --- @field BG Texture
 --- @field PlayerIcon Texture
@@ -15,7 +16,7 @@
 --- @field BackgroundTexture Texture
 VehicleSeatIndicator = {}
 VehicleSeatIndicator["layoutIndex"] = 3
-VehicleSeatIndicator["isManagedFrame"] = true -- inherited
 VehicleSeatIndicator["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
+VehicleSeatIndicator["isManagedFrame"] = true -- inherited
 VehicleSeatIndicator["system"] = Enum.EditModeSystem.VehicleSeatIndicator -- inherited
 

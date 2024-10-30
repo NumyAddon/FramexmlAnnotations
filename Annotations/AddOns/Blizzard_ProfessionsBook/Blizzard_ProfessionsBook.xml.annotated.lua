@@ -962,29 +962,29 @@ ProfessionsBookPage1 = {}
 --- @class ProfessionsBookFrame_ProfessionsBookPage2 : Texture
 ProfessionsBookPage2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L1148)
 --- child of ProfessionsBookFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ProfessionsBookFrameInset = {}
 ProfessionsBookFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L1142)
+--- child of ProfessionsBookFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ProfessionsBookFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L1125)
+--- child of ProfessionsBookFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ProfessionsBookFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L309)
 --- @class ProfessionsBookFrame : Frame, ButtonFrameTemplate
 --- @field MainHelpButton ProfessionsBookFrame_ProfessionsBookFrameTutorialButton
 ProfessionsBookFrame = {}
 ProfessionsBookFrame["MainHelpButton"] = ProfessionsBookFrameTutorialButton
-ProfessionsBookFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ProfessionsBookFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-ProfessionsBookFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 ProfessionsBookFrame["Inset"] = ProfessionsBookFrameInset -- inherited
+ProfessionsBookFrame["CloseButton"] = ProfessionsBookFrameCloseButton -- inherited
+ProfessionsBookFrame["Bg"] = ProfessionsBookFrameBg -- inherited
+ProfessionsBookFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

@@ -23,10 +23,6 @@
 --- @class CharacterVASTemplate_Timer : Frame, BaseTextTimer
 --- @field TimerText CharacterVASTemplate_Timer_TimerText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L178)
---- child of 
---- @class  : Texture, services-ring-large-glowspin
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L182)
 --- child of 
 --- @class CharacterVASTemplate_GlowSpin_SpinAnim : AnimationGroup
@@ -35,14 +31,6 @@
 --- child of CharacterVASTemplate
 --- @class CharacterVASTemplate_GlowSpin : Frame
 --- @field SpinAnim CharacterVASTemplate_GlowSpin_SpinAnim
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L194)
---- child of 
---- @class  : Texture, services-ring-large-glowpulse
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L197)
---- child of 
---- @class  : Texture, services-ring-large-glowpulse
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L201)
 --- child of 
@@ -69,6 +57,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L105)
 --- Template
+--- Adds itself to the parent inside the array `CharacterVAS`
 --- @class CharacterVASTemplate : Button, CharacterVASMixin
 --- @field Timer CharacterVASTemplate_Timer
 --- @field GlowSpin CharacterVASTemplate_GlowSpin
@@ -356,8 +345,8 @@ CharSelectEnterWorldButton["atlasName"] = "128-RedButton" -- inherited
 --- @field iconAtlas string # "common-icon-rotateleft"
 CharacterSelectRotateLeft = {}
 CharacterSelectRotateLeft["iconAtlas"] = "common-icon-rotateleft"
-CharacterSelectRotateLeft["iconSize"] = 24 -- inherited
 CharacterSelectRotateLeft["onClickSoundKit"] = SOUNDKIT.IG_INVENTORY_ROTATE_CHARACTER -- inherited
+CharacterSelectRotateLeft["iconSize"] = 16 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L593)
 --- child of CharacterSelectUI
@@ -365,8 +354,8 @@ CharacterSelectRotateLeft["onClickSoundKit"] = SOUNDKIT.IG_INVENTORY_ROTATE_CHAR
 --- @field iconAtlas string # "common-icon-rotateright"
 CharacterSelectRotateRight = {}
 CharacterSelectRotateRight["iconAtlas"] = "common-icon-rotateright"
-CharacterSelectRotateRight["iconSize"] = 24 -- inherited
 CharacterSelectRotateRight["onClickSoundKit"] = SOUNDKIT.IG_INVENTORY_ROTATE_CHARACTER -- inherited
+CharacterSelectRotateRight["iconSize"] = 16 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L613)
 --- child of 
@@ -413,14 +402,12 @@ CopyCharacterButton["atlasName"] = "128-RedButton" -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L52)
 --- child of CharacterSelectCharacterFrame (created in template CharacterSelectListTemplate)
 --- @type CharacterSelectListTemplate_CharSelectCreateCharacterButton
---- @field NewFeatureFrame CharacterSelectListTemplate_CharSelectCreateCharacterButton_NewFeatureFrame
 CharSelectCreateCharacterButton = {}
 CharSelectCreateCharacterButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L78)
 --- child of CharacterSelectCharacterFrame (created in template CharacterSelectListTemplate)
 --- @type CharacterSelectListTemplate_CharSelectUndeleteCharacterButton
---- @field tooltipText any # UNDELETE_TOOLTIP
 CharSelectUndeleteCharacterButton = {}
 CharSelectUndeleteCharacterButton["tooltipText"] = UNDELETE_TOOLTIP
 CharSelectUndeleteCharacterButton["buttonArtKit"] = "128-RedButton-Refresh" -- inherited
@@ -583,14 +570,6 @@ CharacterUpgradeSecondChanceWarningFrame = {}
 --- child of CharacterTemplatesFrame
 --- @class CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame_CreateTemplateButton : Button, GlueButtonSmallTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1022)
---- child of CharacterTemplatesFrame
---- @class  : FontString, GlueFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1027)
---- child of CharacterTemplatesFrame
---- @class  : FontString, GlueFontHighlightSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1015)
 --- child of CharacterSelectUI
 --- @class CharacterSelect_CharacterSelectUI_CharacterTemplatesFrame : Frame, TooltipBackdropTemplate
@@ -606,10 +585,6 @@ CharacterTemplatesFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 --- @class CharacterSelect_CharacterSelectUI_PlayersOnServer_ActivateFactionChange : Button
 --- @field texture Texture
 ActivateFactionChange = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1063)
---- child of PlayersOnServer
---- @class  : FontString, GlueFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1068)
 --- child of PlayersOnServer
@@ -846,6 +821,7 @@ CharacterRenameDialog = {}
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_CopyCharacterFrameRegionID : DropdownButton, WowStyle1DropdownTemplate
 CopyCharacterFrameRegionID = {}
+CopyCharacterFrameRegionID["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1485)
 --- child of 
@@ -873,21 +849,21 @@ CopyCharacterFrameRegionID = {}
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1148)
 --- child of CopyCharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CopyCharacterFrameInset = {}
 CopyCharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1142)
+--- child of CopyCharacterFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+CopyCharacterFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1125)
+--- child of CopyCharacterFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+CopyCharacterFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1431)
 --- @class CopyCharacterFrame : Frame, ButtonFrameTemplate
@@ -902,8 +878,8 @@ CopyCharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field ScrollBar CopyCharacterFrame_ScrollBar
 CopyCharacterFrame = {}
 CopyCharacterFrame["RegionID"] = CopyCharacterFrameRegionID
-CopyCharacterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-CopyCharacterFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-CopyCharacterFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 CopyCharacterFrame["Inset"] = CopyCharacterFrameInset -- inherited
+CopyCharacterFrame["CloseButton"] = CopyCharacterFrameCloseButton -- inherited
+CopyCharacterFrame["Bg"] = CopyCharacterFrameBg -- inherited
+CopyCharacterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

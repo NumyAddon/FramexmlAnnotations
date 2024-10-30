@@ -16,14 +16,6 @@
 --- Template
 --- @class DialogButtonHighlightTexture : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L39)
---- child of DialogBoxFrameButton
---- @class  : Texture, DialogButtonNormalTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L41)
---- child of DialogBoxFrameButton
---- @class  : Texture, DialogButtonHighlightTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L29)
 --- child of DialogBoxFrame
 --- @class DialogBoxFrame_DialogBoxFrameButton : Button
@@ -49,14 +41,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L160)
 --- child of BasicMessageDialog
 --- @class BasicMessageDialog_Border : Frame, DialogBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L171)
---- child of BasicMessageDialogButton
---- @class  : Texture, DialogButtonNormalTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L173)
---- child of BasicMessageDialogButton
---- @class  : Texture, DialogButtonHighlightTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L161)
 --- child of BasicMessageDialog

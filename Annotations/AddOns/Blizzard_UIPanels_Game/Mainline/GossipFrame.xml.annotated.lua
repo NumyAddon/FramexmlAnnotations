@@ -43,21 +43,21 @@ GossipFrameMaterialBotRight = {}
 --- child of GossipFrame
 --- @class GossipFrame_FriendshipStatusBar : StatusBar, NPCFriendshipStatusBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L1148)
 --- child of GossipFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 GossipFrameInset = {}
 GossipFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L1142)
+--- child of GossipFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+GossipFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L1125)
+--- child of GossipFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+GossipFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L37)
 --- @class GossipFrame : Frame, ButtonFrameTemplate, GossipFrameMixin
@@ -65,10 +65,10 @@ GossipFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field FriendshipStatusBar GossipFrame_FriendshipStatusBar
 --- @field Background Texture
 GossipFrame = {}
-GossipFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-GossipFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-GossipFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 GossipFrame["Inset"] = GossipFrameInset -- inherited
+GossipFrame["CloseButton"] = GossipFrameCloseButton -- inherited
+GossipFrame["Bg"] = GossipFrameBg -- inherited
+GossipFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L90)
 --- Template

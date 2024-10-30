@@ -23,27 +23,28 @@
 --- @class PlayerSpellsFrame_SpellBookFrame : Frame, SpellBookFrameTemplate
 --- @field minimizedWidth string # "806"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L1095)
 --- child of PlayerSpellsFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 PlayerSpellsFrameCloseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L1062)
+--- child of PlayerSpellsFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PlayerSpellsFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L5)
 --- @class PlayerSpellsFrame : Frame, PortraitFrameTemplate, TabSystemOwnerTemplate, PlayerSpellsFrameMixin
 --- @field minimizedWidth string # "809"
 --- @field MaximizeMinimizeButton PlayerSpellsFrame_MaximizeMinimizeButton
+--- @field MaxMinButtonFrame PlayerSpellsFrame_MaximizeMinimizeButton
 --- @field TabSystem PlayerSpellsFrame_TabSystem
 --- @field SpecFrame PlayerSpellsFrame_SpecFrame
 --- @field TalentsFrame PlayerSpellsFrame_TalentsFrame
 --- @field SpellBookFrame PlayerSpellsFrame_SpellBookFrame
 PlayerSpellsFrame = {}
 PlayerSpellsFrame["minimizedWidth"] = "809"
-PlayerSpellsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-PlayerSpellsFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 PlayerSpellsFrame["CloseButton"] = PlayerSpellsFrameCloseButton -- inherited
+PlayerSpellsFrame["Bg"] = PlayerSpellsFrameBg -- inherited
+PlayerSpellsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

@@ -5,39 +5,39 @@
 --- @class CollectionsJournalTab : Button, PanelTabButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L9)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabLeftDisabled = {}
+CollectionsJournalTab1LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L22)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabMiddleDisabled = {}
+CollectionsJournalTab1MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L31)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabRightDisabled = {}
+CollectionsJournalTab1RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L40)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabLeft = {}
+CollectionsJournalTab1Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L49)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabMiddle = {}
+CollectionsJournalTab1Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L58)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabRight = {}
+CollectionsJournalTab1Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L113)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabHighlightTexture = {}
+CollectionsJournalTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L20)
 --- child of CollectionsJournal
@@ -45,39 +45,39 @@ CollectionsJournalTabHighlightTexture = {}
 CollectionsJournalTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L9)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabLeftDisabled = {}
+CollectionsJournalTab2LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L22)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabMiddleDisabled = {}
+CollectionsJournalTab2MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L31)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabRightDisabled = {}
+CollectionsJournalTab2RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L40)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabLeft = {}
+CollectionsJournalTab2Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L49)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabMiddle = {}
+CollectionsJournalTab2Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L58)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabRight = {}
+CollectionsJournalTab2Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L113)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabHighlightTexture = {}
+CollectionsJournalTab2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L25)
 --- child of CollectionsJournal
@@ -85,39 +85,39 @@ CollectionsJournalTabHighlightTexture = {}
 CollectionsJournalTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L9)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabLeftDisabled = {}
+CollectionsJournalTab3LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L22)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabMiddleDisabled = {}
+CollectionsJournalTab3MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L31)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabRightDisabled = {}
+CollectionsJournalTab3RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L40)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabLeft = {}
+CollectionsJournalTab3Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L49)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabMiddle = {}
+CollectionsJournalTab3Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L58)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabRight = {}
+CollectionsJournalTab3Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L113)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabHighlightTexture = {}
+CollectionsJournalTab3HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L30)
 --- child of CollectionsJournal
@@ -125,39 +125,39 @@ CollectionsJournalTabHighlightTexture = {}
 CollectionsJournalTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L9)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabLeftDisabled = {}
+CollectionsJournalTab4LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L22)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabMiddleDisabled = {}
+CollectionsJournalTab4MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L31)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabRightDisabled = {}
+CollectionsJournalTab4RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L40)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabLeft = {}
+CollectionsJournalTab4Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L49)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabMiddle = {}
+CollectionsJournalTab4Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L58)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabRight = {}
+CollectionsJournalTab4Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L113)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabHighlightTexture = {}
+CollectionsJournalTab4HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L35)
 --- child of CollectionsJournal
@@ -165,54 +165,54 @@ CollectionsJournalTabHighlightTexture = {}
 CollectionsJournalTab4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L9)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabLeftDisabled = {}
+CollectionsJournalTab5LeftDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L22)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabMiddleDisabled = {}
+CollectionsJournalTab5MiddleDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L31)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabRightDisabled = {}
+CollectionsJournalTab5RightDisabled = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L40)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabLeft = {}
+CollectionsJournalTab5Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L49)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabMiddle = {}
+CollectionsJournalTab5Middle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L58)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabRight = {}
+CollectionsJournalTab5Right = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L113)
---- child of CollectionsJournalTab (created in template CharacterFrameTabButtonTemplate)
+--- child of CollectionsJournalTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
-CollectionsJournalTabHighlightTexture = {}
+CollectionsJournalTab5HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L40)
 --- child of CollectionsJournal
 --- @class CollectionsJournal_CollectionsJournalTab5 : Button, CollectionsJournalTab
 CollectionsJournalTab5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L1095)
 --- child of CollectionsJournal (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 CollectionsJournalCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L1062)
+--- child of CollectionsJournal (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+CollectionsJournalBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L14)
 --- @class CollectionsJournal : Frame, PortraitFrameTemplate
@@ -227,7 +227,7 @@ CollectionsJournal["PetsTab"] = CollectionsJournalTab2
 CollectionsJournal["ToysTab"] = CollectionsJournalTab3
 CollectionsJournal["HeirloomsTab"] = CollectionsJournalTab4
 CollectionsJournal["WardrobeTab"] = CollectionsJournalTab5
-CollectionsJournal["layoutType"] = "PortraitFrameTemplate" -- inherited
-CollectionsJournal["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 CollectionsJournal["CloseButton"] = CollectionsJournalCloseButton -- inherited
+CollectionsJournal["Bg"] = CollectionsJournalBg -- inherited
+CollectionsJournal["layoutType"] = "PortraitFrameTemplate" -- inherited
 

@@ -116,10 +116,6 @@ PVPRoleCheckPopupDescriptionText = {}
 PVPRoleCheckPopupDescription = {}
 PVPRoleCheckPopupDescription["Text"] = PVPRoleCheckPopupDescriptionText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L106)
---- child of PVPRoleCheckPopup
---- @class  : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L102)
 --- @class PVPRoleCheckPopup : Frame
 --- @field Border PVPRoleCheckPopup_Border

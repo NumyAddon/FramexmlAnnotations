@@ -12,8 +12,11 @@
 --- @field Middle Texture
 --- @field Name TokenHeaderTemplate_Name
 --- @field HighlightLeft Texture
+--- @field HighlightTextureRegions table<number, Texture>
 --- @field HighlightRight Texture
+--- @field HighlightTextureRegions table<number, Texture>
 --- @field HighlightMiddle Texture
+--- @field HighlightTextureRegions table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L63)
 --- child of TokenSubHeaderTemplate
@@ -33,8 +36,11 @@
 --- child of 
 --- @class TokenEntryTemplate_Content_BackgroundHighlight : Frame
 --- @field Left Texture
+--- @field TextureRegions table<number, Texture>
 --- @field Right Texture
+--- @field TextureRegions table<number, Texture>
 --- @field Middle Texture
+--- @field TextureRegions table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L121)
 --- child of 
@@ -83,29 +89,29 @@
 --- @field CurrencyTransferLogToggleButton TokenFrame_CurrencyTransferLogToggleButton
 TokenFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L1148)
+--- child of CurrencyTransferLog (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+CurrencyTransferLogInset = {}
+CurrencyTransferLogInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- child of CurrencyTransferLog (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
+CurrencyTransferLogCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- child of CurrencyTransferLog (created in template ButtonFrameBaseTemplate)
 --- @type Texture
-ButtonFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L1148)
---- child of CurrencyTransferLogTemplate (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
-CurrencyTransferLogTemplateInset = {}
-CurrencyTransferLogTemplateInset["layoutType"] = "InsetFrameTemplate" -- inherited
+CurrencyTransferLogBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L209)
 --- @class CurrencyTransferLog : Frame, CurrencyTransferLogTemplate
 CurrencyTransferLog = {}
+CurrencyTransferLog["Inset"] = CurrencyTransferLogInset -- inherited
+CurrencyTransferLog["CloseButton"] = CurrencyTransferLogCloseButton -- inherited
+CurrencyTransferLog["Bg"] = CurrencyTransferLogBg -- inherited
 CurrencyTransferLog["layoutType"] = "PortraitFrameTemplate" -- inherited
-CurrencyTransferLog["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-CurrencyTransferLog["Bg"] = ButtonFrameTemplateBg -- inherited
-CurrencyTransferLog["Inset"] = CurrencyTransferLogTemplateInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L230)
 --- child of TokenFramePopup

@@ -120,23 +120,26 @@ AuctionHouseFrameAuctionsFrame["BidsTab"] = AuctionHouseFrameAuctionsFrameBidsTa
 --- @class AuctionHouseFrame_DummyMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L1095)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 AuctionHouseFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L1062)
+--- child of AuctionHouseFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+AuctionHouseFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L5)
 --- @class AuctionHouseFrame : Frame, PortraitFrameTemplate, AuctionHouseFrameMixin
 --- @field MoneyFrameInset AuctionHouseFrame_MoneyFrameInset
 --- @field MoneyFrameBorder AuctionHouseFrame_MoneyFrameBorder
 --- @field BuyTab AuctionHouseFrame_AuctionHouseFrameBuyTab
+--- @field Tabs table<number, AuctionHouseFrame_AuctionHouseFrameBuyTab>
 --- @field SellTab AuctionHouseFrame_AuctionHouseFrameSellTab
+--- @field Tabs table<number, AuctionHouseFrame_AuctionHouseFrameSellTab>
 --- @field AuctionsTab AuctionHouseFrame_AuctionHouseFrameAuctionsTab
+--- @field Tabs table<number, AuctionHouseFrame_AuctionHouseFrameAuctionsTab>
 --- @field SearchBar AuctionHouseFrame_SearchBar
 --- @field CategoriesList AuctionHouseFrame_CategoriesList
 --- @field BrowseResultsFrame AuctionHouseFrame_BrowseResultsFrame
@@ -157,7 +160,7 @@ AuctionHouseFrame["BuyTab"] = AuctionHouseFrameBuyTab
 AuctionHouseFrame["SellTab"] = AuctionHouseFrameSellTab
 AuctionHouseFrame["AuctionsTab"] = AuctionHouseFrameAuctionsTab
 AuctionHouseFrame["AuctionsFrame"] = AuctionHouseFrameAuctionsFrame
-AuctionHouseFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-AuctionHouseFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 AuctionHouseFrame["CloseButton"] = AuctionHouseFrameCloseButton -- inherited
+AuctionHouseFrame["Bg"] = AuctionHouseFrameBg -- inherited
+AuctionHouseFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

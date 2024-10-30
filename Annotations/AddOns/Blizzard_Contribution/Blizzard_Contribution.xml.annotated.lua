@@ -20,6 +20,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L61)
 --- Template
+--- Adds itself to the parent inside the array `Rewards`
 --- @class ContributionRewardTemplate : Frame, ContributionRewardMixin
 --- @field MouseOver ContributionRewardTemplate_MouseOver
 --- @field Border Texture

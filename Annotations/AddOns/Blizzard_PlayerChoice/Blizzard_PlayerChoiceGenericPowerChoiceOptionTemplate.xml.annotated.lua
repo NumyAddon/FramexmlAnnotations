@@ -25,30 +25,6 @@
 --- @field layoutIndex number # 1
 --- @field Text PlayerChoiceGenericPowerChoiceOptionTemplate_Header_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L144)
---- child of PlayerChoiceGenericPowerChoiceOptionTemplate
---- @class  : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L147)
---- child of PlayerChoiceGenericPowerChoiceOptionTemplate
---- @class  : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L150)
---- child of PlayerChoiceGenericPowerChoiceOptionTemplate
---- @class  : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L154)
---- child of PlayerChoiceGenericPowerChoiceOptionTemplate
---- @class  : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L157)
---- child of PlayerChoiceGenericPowerChoiceOptionTemplate
---- @class  : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L160)
---- child of PlayerChoiceGenericPowerChoiceOptionTemplate
---- @class  : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L4)
 --- Template
 --- @class PlayerChoiceGenericPowerChoiceOptionTemplate : Frame, PlayerChoicePowerChoiceTemplate, PlayerChoiceGenericPowerChoiceOptionTemplateMixin
@@ -60,4 +36,10 @@
 --- @field ArtworkBack Texture
 --- @field CircleBorderShine Texture
 --- @field CircleBorderShineMask MaskTexture
+--- @field PassiveAnimations table<number, >
+--- @field PassiveAnimations table<number, >
+--- @field PassiveAnimations table<number, >
+--- @field PassiveAnimations table<number, >
+--- @field PassiveAnimations table<number, >
+--- @field PassiveAnimations table<number, >
 

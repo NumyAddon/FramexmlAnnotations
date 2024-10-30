@@ -322,35 +322,19 @@ BlackMarketMoneyFrame["GoldButton"] = BlackMarketMoneyFrameGoldButton -- inherit
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_BidButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L669)
---- child of BlackMarketBidPrice
---- @class  : FontString, GameFontHighlightSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L6)
 --- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateGold
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 BlackMarketBidPriceGold = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L80)
 --- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 BlackMarketBidPriceSilver = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L155)
 --- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 BlackMarketBidPriceCopper = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L662)
@@ -360,10 +344,6 @@ BlackMarketBidPrice = {}
 BlackMarketBidPrice["gold"] = BlackMarketBidPriceGold -- inherited
 BlackMarketBidPrice["silver"] = BlackMarketBidPriceSilver -- inherited
 BlackMarketBidPrice["copper"] = BlackMarketBidPriceCopper -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L348)
---- child of BlackMarketFrame
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L262)
 --- child of BlackMarketFrame (created in template WoodFrameTemplate)

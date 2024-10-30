@@ -33,6 +33,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L74)
 --- Template
+--- Adds itself to the parent inside the array `PrivateAuraAnchors`
 --- @class BuffFramePrivateAuraAnchorTemplate : Frame, BuffFramePrivateAuraAnchorMixin
 --- @field isAuraAnchor boolean # true
 --- @field Icon Frame
@@ -75,7 +76,9 @@ BuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
 --- @class DebuffFrame : Frame, AuraFrameTemplate, DebuffFrameMixin
 --- @field exampleAuraType string # "Debuff"
 --- @field privateAuraAnchor1 DebuffFrame_privateAuraAnchor1
+--- @field PrivateAuraAnchors table<number, DebuffFrame_privateAuraAnchor1>
 --- @field privateAuraAnchor2 DebuffFrame_privateAuraAnchor2
+--- @field PrivateAuraAnchors table<number, DebuffFrame_privateAuraAnchor2>
 DebuffFrame = {}
 DebuffFrame["exampleAuraType"] = "Debuff"
 DebuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited

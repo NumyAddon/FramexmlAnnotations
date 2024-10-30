@@ -62,7 +62,7 @@
 --- @field ConduitName ConduitListConduitButtonTemplate_ConduitName
 --- @field ItemLevel ConduitListConduitButtonTemplate_ItemLevel
 --- @field Pending Texture
---- @field Hovers table<number, Texture | Texture | Texture | Texture>
+--- @field Hovers table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L231)
 --- child of 
@@ -113,7 +113,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L304)
 --- child of 
 --- @class ConduitListTemplate_Clip_Effects : Frame
---- @field Glows table<number,  |  | >
+--- @field Glows table<number, ConduitButtonGlow>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L295)
 --- child of ConduitListTemplate

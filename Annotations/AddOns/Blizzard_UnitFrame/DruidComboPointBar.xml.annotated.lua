@@ -22,7 +22,7 @@
 --- @field Smoke Texture
 --- @field activateAnim DruidComboPointTemplate_activateAnim
 --- @field deactivateAnim DruidComboPointTemplate_deactivateAnim
---- @field fxTextures table<number, Texture | Texture | Texture | Texture>
+--- @field fxTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L91)
 --- Template

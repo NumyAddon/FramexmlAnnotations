@@ -28,5 +28,5 @@
 --- @field LineGlow Texture
 --- @field LineGlowMask MaskTexture
 --- @field BottomMask MaskTexture
---- @field PassiveAnimations table<number,  | >
+--- @field PassiveAnimations table<number, AnimationGroup>
 

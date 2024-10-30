@@ -37,13 +37,13 @@
 --- Template
 --- @class EditModeActionBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeActionBarSystemMixin
 --- @field system any # Enum.EditModeSystem.ActionBar
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionDoubleLabelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L60)
 --- Template
 --- @class EditModeUnitFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeUnitFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.UnitFrame
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionDoubleLabelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L69)
 --- Template
@@ -59,37 +59,37 @@
 --- Template
 --- @class EditModeMinimapSystemTemplate : Frame, EditModeSystemTemplate, EditModeMinimapSystemMixin
 --- @field system any # Enum.EditModeSystem.Minimap
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L99)
 --- Template
 --- @class EditModeCastBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeCastBarSystemMixin
 --- @field system any # Enum.EditModeSystem.CastBar
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L110)
 --- Template
 --- @class EditModeEncounterBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeEncounterBarSystemMixin
 --- @field system any # Enum.EditModeSystem.EncounterBar
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L121)
 --- Template
 --- @class EditModeExtraAbilitiesSystemTemplate : Frame, EditModeSystemTemplate, EditModeExtraAbilitiesSystemMixin
 --- @field system any # Enum.EditModeSystem.ExtraAbilities
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L132)
 --- Template
 --- @class EditModeAuraFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeAuraFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.AuraFrame
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L142)
 --- Template
 --- @class EditModeTalkingHeadFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeTalkingHeadFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.TalkingHeadFrame
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L165)
 --- child of EditModeChatFrameSystemTemplate
@@ -99,50 +99,50 @@
 --- Template
 --- @class EditModeChatFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeChatFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.ChatFrame
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 --- @field EditModeResizeButton EditModeChatFrameSystemTemplate_EditModeResizeButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L181)
 --- Template
 --- @class EditModeVehicleLeaveButtonSystemTemplate : Frame, EditModeSystemTemplate, EditModeVehicleLeaveButtonSystemMixin
 --- @field system any # Enum.EditModeSystem.VehicleLeaveButton
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L197)
 --- Template
 --- @class EditModeLootFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeLootFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.LootFrame
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L208)
 --- Template
 --- @class EditModeHudTooltipSystemTemplate : Frame, EditModeSystemTemplate
 --- @field system any # Enum.EditModeSystem.HudTooltip
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L218)
 --- Template
 --- @class EditModeObjectiveTrackerSystemTemplate : Frame, EditModeSystemTemplate, EditModeObjectiveTrackerSystemMixin
 --- @field system any # Enum.EditModeSystem.ObjectiveTracker
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L229)
 --- Template
 --- @class EditModeMicroMenuSystemTemplate : Frame, EditModeSystemTemplate, EditModeMicroMenuSystemMixin
 --- @field system any # Enum.EditModeSystem.MicroMenu
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L239)
 --- Template
 --- @class EditModeBagsSystemTemplate : Frame, EditModeSystemTemplate, EditModeBagsSystemMixin
 --- @field system any # Enum.EditModeSystem.Bags
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L249)
 --- Template
 --- @class EditModeStatusTrackingBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeStatusTrackingBarSystemMixin
 --- @field system any # Enum.EditModeSystem.StatusTrackingBar
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L258)
 --- Template
@@ -158,7 +158,7 @@
 --- Template
 --- @class EditModeDurabilityFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeDurabilityFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.DurabilityFrame
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L286)
 --- Template
@@ -174,17 +174,17 @@
 --- Template
 --- @class EditModeTimerBarsSystemTemplate : Frame, EditModeSystemTemplate, EditModeTimerBarsSystemMixin
 --- @field system any # Enum.EditModeSystem.TimerBars
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L312)
 --- Template
 --- @class EditModeVehicleSeatIndicatorSystemTemplate : Frame, EditModeSystemTemplate, EditModeVehicleSeatIndicatorSystemMixin
 --- @field system any # Enum.EditModeSystem.VehicleSeatIndicator
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L323)
 --- Template
 --- @class EditModeArchaeologyBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeArchaeologyBarSystemMixin
 --- @field system any # Enum.EditModeSystem.ArchaeologyBar
---- @field Selection EditModeSystemSelectionBaseTemplate
+--- @field Selection EditModeSystemSelectionTemplate
 

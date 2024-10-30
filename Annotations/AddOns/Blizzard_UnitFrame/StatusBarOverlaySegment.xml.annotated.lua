@@ -11,7 +11,7 @@
 --- @class ShadowedStatusBarOverlaySegmentTemplate : Frame, StatusBarOverlaySegmentTemplate
 --- @field LeftShadow Texture
 --- @field RightShadow Texture
---- @field fillOverlays table<number, Texture | Texture>
+--- @field fillOverlays table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/StatusBarOverlaySegment.xml#L60)
 --- Template

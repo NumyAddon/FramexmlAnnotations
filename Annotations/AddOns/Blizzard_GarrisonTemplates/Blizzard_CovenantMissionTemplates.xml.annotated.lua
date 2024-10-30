@@ -78,8 +78,8 @@
 --- @field DurabilityFrame CovenantMissionFollowerButtonTemplate_DurabilityFrame
 --- @field BusyFrame CovenantMissionFollowerButtonTemplate_BusyFrame
 --- @field AbilitiesBG Texture
---- @field Counters table<number, >
---- @field Abilities table<number, >
+--- @field Counters table<number, GarrisonMissionAbilityCounterTemplate>
+--- @field Abilities table<number, GarrisonFollowerListButtonAbilityTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L260)
 --- child of CovenantMissionFollowerOrCategoryListButtonTemplate
@@ -126,7 +126,7 @@
 --- @field Durability CovenantMissionPageFollowerTemplate_Durability
 --- @field DurabilityBackground Texture
 --- @field Name CovenantMissionPageFollowerTemplate_Name
---- @field Abilities table<number, >
+--- @field Abilities table<number, CovenantMissionAutoSpellAbilityTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L446)
 --- child of CovenantMissionBaseFrameTemplate
@@ -387,7 +387,7 @@
 --- @field Summary CovenantMissionListButtonTemplate_Summary
 --- @field CompleteCheck Texture
 --- @field Highlight Texture
---- @field Rewards table<number, >
+--- @field Rewards table<number, GarrisonMissionListButtonRewardTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L1054)
 --- child of AdventuresTargetingIndicatorTemplate
@@ -421,8 +421,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L1093)
 --- child of AdventuresFriendlyTargetingIndicatorTemplate
 --- @class AdventuresFriendlyTargetingIndicatorTemplate_FadeInAndOut : AnimationGroup
---- @field Fade Alpha | Alpha
---- @field Scale Scale | Scale
+--- @field Fade Alpha
+--- @field Scale Scale
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L1099)
 --- child of AdventuresFriendlyTargetingIndicatorTemplate

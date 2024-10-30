@@ -16,7 +16,7 @@
 --- @field FillScroll1 Line
 --- @field FillScroll2 Line
 --- @field ScrollAnim TalentEdgeStraightTemplate_ScrollAnim
---- @field FillScrolls table<number, Line | Line>
+--- @field FillScrolls table<number, Line>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentEdgeTemplates.xml#L29)
 --- Template

@@ -41,5 +41,5 @@
 --- @field FlowAnim4 SoulbindTreeNodeLinkTemplate_FlowAnim4
 --- @field FlowAnim5 SoulbindTreeNodeLinkTemplate_FlowAnim5
 --- @field FlowAnim6 SoulbindTreeNodeLinkTemplate_FlowAnim6
---- @field foregrounds table<number, Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field foregrounds table<number, Texture>
 

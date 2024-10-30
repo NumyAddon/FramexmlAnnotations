@@ -63,9 +63,9 @@ HeroTalentsSelectionDialog["layoutType"] = "ButtonFrameTemplateNoPortrait" -- in
 --- @field ActivationExpandFxMask MaskTexture
 --- @field ActivationExpandFxMask2 MaskTexture
 --- @field ActivationFlash HeroTalentSpecFXTemplate_ActivationFlash
---- @field ActivatedBackFrames table<number, Texture | Texture>
---- @field ActivatedLeftFrames table<number, Texture | Texture | Texture | Texture>
---- @field ActivatedRightFrames table<number, Texture | Texture | Texture | Texture>
+--- @field ActivatedBackFrames table<number, Texture>
+--- @field ActivatedLeftFrames table<number, Texture>
+--- @field ActivatedRightFrames table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L241)
 --- child of 

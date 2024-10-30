@@ -18,7 +18,7 @@
 --- @field AnimBottomLine Texture
 --- @field AnimBarGlow Texture
 --- @field FlareAnim BonusTrackerProgressBarFlareAnimTemplate_FlareAnim
---- @field AlphaTextures table<number, Texture | Texture | Texture>
+--- @field AlphaTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L70)
 --- child of BonusTrackerProgressBarFullBarFlareTemplate
@@ -65,7 +65,7 @@
 --- @field Sheen Texture
 --- @field Starburst Texture
 --- @field AnimIn BonusTrackerProgressBarTemplate_Bar_AnimIn
---- @field AlphaTextures table<number, Texture | Texture | Texture | Texture | Texture>
+--- @field AlphaTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L203)
 --- child of BonusTrackerProgressBarTemplate

@@ -250,7 +250,7 @@
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame : Frame
 --- @field KeyOverlay AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @field Bg Texture
---- @field RankFrames table<number, AzeriteRankFrameTemplate | AzeriteRankFrameTemplate | AzeriteRankFrameTemplate | AzeriteRankFrameTemplate>
+--- @field RankFrames table<number, AzeriteRankFrameTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L103)
 --- child of AzeriteEmpoweredItemUITemplate

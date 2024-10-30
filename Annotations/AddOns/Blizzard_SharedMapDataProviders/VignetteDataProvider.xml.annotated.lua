@@ -22,5 +22,5 @@
 --- @field FlameTrail2 Texture
 --- @field FlameTrail Texture
 --- @field Anim FyrakkFlightVignettePinTemplate_Anim
---- @field Textures table<number, Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field Textures table<number, Texture>
 

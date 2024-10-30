@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L37)
---- child of 
+--- child of PaperDollAzeriteItemOverlayTemplate_RankFrame
 --- @class PaperDollAzeriteItemOverlayTemplate_RankFrame_Label : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L24)
@@ -11,11 +11,11 @@
 --- @field Label PaperDollAzeriteItemOverlayTemplate_RankFrame_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L159)
---- child of 
+--- child of PaperDollAzeriteItemOverlayTemplate_AvailableTraitFrame
 --- @class PaperDollAzeriteItemOverlayTemplate_AvailableTraitFrame_AvailableAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L180)
---- child of 
+--- child of PaperDollAzeriteItemOverlayTemplate_AvailableTraitFrame
 --- @class PaperDollAzeriteItemOverlayTemplate_AvailableTraitFrame_AvailableAnimGlow : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L45)

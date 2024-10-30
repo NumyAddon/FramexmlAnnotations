@@ -190,11 +190,11 @@
 --- @class CovenantFollowerTabTemplate_UpgradeClickTarget : Button, GarrisonFollowerUpgradeClickTargetTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L615)
---- child of 
+--- child of CovenantFollowerTabTemplate_HealFollowerFrame
 --- @class CovenantFollowerTabTemplate_HealFollowerFrame_HealFollowerButtonTemplate : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L626)
---- child of 
+--- child of CovenantFollowerTabTemplate_HealFollowerFrame
 --- @class CovenantFollowerTabTemplate_HealFollowerFrame_CostFrame : Frame, GarrisonMissionPageCostFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L604)
@@ -209,12 +209,12 @@
 --- @class CovenantFollowerTabTemplate_ModelCluster : ScrollFrame, GarrisonFollowerTabModelCluster
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L645)
---- child of 
+--- child of CovenantFollowerTabTemplate_StatsFrame
 --- @class CovenantFollowerTabTemplate_StatsFrame_StatsLabel : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 100
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L652)
---- child of 
+--- child of CovenantFollowerTabTemplate_StatsFrame
 --- @class CovenantFollowerTabTemplate_StatsFrame_AbilitiesText : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 200
 
@@ -301,7 +301,7 @@
 --- @field RightFiligree Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L807)
---- child of 
+--- child of CovenantMissionListTemplate_CompleteDialog
 --- @class CovenantMissionListTemplate_CompleteDialog_BorderFrame : Frame, GarrisonMissionPageBaseTemplate, GarrisonMissionCompleteDialogTemplate, GarrisonMissionTopBorderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L794)

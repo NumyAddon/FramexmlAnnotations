@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidFactionChange.xml#L14)
---- child of 
+--- child of PFCCharacterSelect_ResultsFrame
 --- @class PFCCharacterSelect_ResultsFrame_CurrentFactionLabel : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidFactionChange.xml#L20)
---- child of 
+--- child of PFCCharacterSelect_ResultsFrame
 --- @class PFCCharacterSelect_ResultsFrame_WillBeChangedLabel : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidFactionChange.xml#L27)
---- child of 
+--- child of PFCCharacterSelect_ResultsFrame
 --- @class PFCCharacterSelect_ResultsFrame_NewFactionLabel : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidFactionChange.xml#L33)
---- child of 
+--- child of PFCCharacterSelect_ResultsFrame
 --- @class PFCCharacterSelect_ResultsFrame_CustomizeLabel : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidFactionChange.xml#L7)

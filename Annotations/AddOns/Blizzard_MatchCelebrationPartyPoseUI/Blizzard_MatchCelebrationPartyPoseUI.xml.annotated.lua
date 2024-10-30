@@ -15,12 +15,12 @@
 --- @field showAndHideOnWidgetSetRegistration boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.xml#L45)
---- child of 
+--- child of MatchCelebrationPartyPoseFrame_ButtonContainer
 --- @class MatchCelebrationPartyPoseFrame_ButtonContainer_LeaveButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, MatchCelebrationMainButtonMixin
 --- @field layoutIndex number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.xml#L54)
---- child of 
+--- child of MatchCelebrationPartyPoseFrame_ButtonContainer
 --- @class MatchCelebrationPartyPoseFrame_ButtonContainer_ExtraButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, MatchCelebrationExtraButtonMixin
 --- @field layoutIndex number # 1
 

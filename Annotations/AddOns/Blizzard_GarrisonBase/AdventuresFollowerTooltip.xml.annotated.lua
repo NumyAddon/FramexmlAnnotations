@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonBase/AdventuresFollowerTooltip.xml#L39)
---- child of 
+--- child of AdventuresLevelPortraitTemplate_LevelDisplayFrame
 --- @class AdventuresLevelPortraitTemplate_LevelDisplayFrame_LevelText : FontString, GameNormalNumberFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonBase/AdventuresFollowerTooltip.xml#L31)

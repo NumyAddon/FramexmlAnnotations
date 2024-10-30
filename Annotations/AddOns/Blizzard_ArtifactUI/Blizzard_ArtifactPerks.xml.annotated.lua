@@ -77,27 +77,27 @@
 --- @class ArtifactsModelTemplate : PlayerModel
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L247)
---- child of 
+--- child of ArtifactPerksTabTemplate_TitleContainer
 --- @class ArtifactPerksTabTemplate_TitleContainer_RelicSlot1 : Button, ArtifactsRelicSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L248)
---- child of 
+--- child of ArtifactPerksTabTemplate_TitleContainer
 --- @class ArtifactPerksTabTemplate_TitleContainer_RelicSlot2 : Button, ArtifactsRelicSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L249)
---- child of 
+--- child of ArtifactPerksTabTemplate_TitleContainer
 --- @class ArtifactPerksTabTemplate_TitleContainer_RelicSlot3 : Button, ArtifactsRelicSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L221)
---- child of 
+--- child of ArtifactPerksTabTemplate_TitleContainer
 --- @class ArtifactPerksTabTemplate_TitleContainer_ArtifactName : FontString, Fancy24Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L231)
---- child of 
+--- child of ArtifactPerksTabTemplate_TitleContainer
 --- @class ArtifactPerksTabTemplate_TitleContainer_PointsRemainingLabel : FontString, SystemFont_Shadow_Large, AnimatedNumericFontStringMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L238)
---- child of 
+--- child of ArtifactPerksTabTemplate_TitleContainer
 --- @class ArtifactPerksTabTemplate_TitleContainer_ArtifactPower : FontString, SystemFont_Shadow_Large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L205)
@@ -113,11 +113,11 @@
 --- @field RelicSlots table<number, ArtifactPerksTabTemplate_TitleContainer_RelicSlot1 | ArtifactPerksTabTemplate_TitleContainer_RelicSlot2 | ArtifactPerksTabTemplate_TitleContainer_RelicSlot3>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L269)
---- child of 
+--- child of ArtifactPerksTabTemplate_Tier2ForgingScene
 --- @class ArtifactPerksTabTemplate_Tier2ForgingScene_ForgingEffectAnimIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L272)
---- child of 
+--- child of ArtifactPerksTabTemplate_Tier2ForgingScene
 --- @class ArtifactPerksTabTemplate_Tier2ForgingScene_ForgingEffectAnimOut : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L257)
@@ -132,12 +132,12 @@
 --- @class ArtifactPerksTabTemplate_AltModel : PlayerModel, ArtifactsModelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L293)
---- child of 
+--- child of ArtifactPerksTabTemplate_Model
 --- @class ArtifactPerksTabTemplate_Model_ForgingEffectAnimIn : AnimationGroup
 --- @field Fade Alpha
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L296)
---- child of 
+--- child of ArtifactPerksTabTemplate_Model
 --- @class ArtifactPerksTabTemplate_Model_ForgingEffectAnimOut : AnimationGroup
 --- @field Fade Alpha
 
@@ -150,19 +150,19 @@
 --- @field ForgingEffectAnimOut ArtifactPerksTabTemplate_Model_ForgingEffectAnimOut
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L539)
---- child of 
+--- child of ArtifactPerksTabTemplate_CrestFrame
 --- @class ArtifactPerksTabTemplate_CrestFrame_RunePulse : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L544)
---- child of 
+--- child of ArtifactPerksTabTemplate_CrestFrame
 --- @class ArtifactPerksTabTemplate_CrestFrame_RuneAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L604)
---- child of 
+--- child of ArtifactPerksTabTemplate_CrestFrame
 --- @class ArtifactPerksTabTemplate_CrestFrame_IntroCrestAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L637)
---- child of 
+--- child of ArtifactPerksTabTemplate_CrestFrame
 --- @class ArtifactPerksTabTemplate_CrestFrame_CracksAnim : AnimationGroup
 --- @field Fade Alpha
 --- @field Fade2 Alpha
@@ -223,7 +223,7 @@
 --- @class ArtifactPerksTabTemplate_Tier2SlamEffectModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L661)
---- child of 
+--- child of ArtifactPerksTabTemplate_DisabledFrame
 --- @class ArtifactPerksTabTemplate_DisabledFrame_ArtifactName : FontString, Fancy24Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.xml#L651)

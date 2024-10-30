@@ -54,7 +54,7 @@
 --- @field CancelButton CreditsExpansionListTemplate_CancelButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CreditsFrame.xml#L165)
---- child of 
+--- child of CreditsFrame_ScrollFrame
 --- @class CreditsFrame_ScrollFrame_Text : SimpleHTML
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CreditsFrame.xml#L151)

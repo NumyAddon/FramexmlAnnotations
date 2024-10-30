@@ -9,17 +9,17 @@
 --- @class ItemInteractionFrame_DescriptionCurrencies : Frame, CurrencyDisplayGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L61)
---- child of 
+--- child of ItemInteractionFrame_CurrencyCost_Currency
 --- @class ItemInteractionFrame_CurrencyCost_Currency_Count : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L54)
---- child of 
+--- child of ItemInteractionFrame_CurrencyCost
 --- @class ItemInteractionFrame_CurrencyCost_Currency : Button, BackpackTokenTemplate
 --- @field Count ItemInteractionFrame_CurrencyCost_Currency_Count
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L45)
---- child of 
+--- child of ItemInteractionFrame_CurrencyCost
 --- @class ItemInteractionFrame_CurrencyCost_Costs : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L40)
@@ -35,17 +35,17 @@
 --- @field GlowOverlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L170)
---- child of 
+--- child of ItemInteractionFrame_ItemConversionFrame_ItemConversionInputSlot_Glow
 --- @class ItemInteractionFrame_ItemConversionFrame_ItemConversionInputSlot_Glow_PulseEmptySlotGlow : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L157)
---- child of 
+--- child of ItemInteractionFrame_ItemConversionFrame_ItemConversionInputSlot
 --- @class ItemInteractionFrame_ItemConversionFrame_ItemConversionInputSlot_Glow : Frame
 --- @field EmptySlotGlow Texture
 --- @field PulseEmptySlotGlow ItemInteractionFrame_ItemConversionFrame_ItemConversionInputSlot_Glow_PulseEmptySlotGlow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L132)
---- child of 
+--- child of ItemInteractionFrame_ItemConversionFrame
 --- @class ItemInteractionFrame_ItemConversionFrame_ItemConversionInputSlot : ItemButton, ItemInteractionItemConversionInputSlotMixin
 --- @field Glow ItemInteractionFrame_ItemConversionFrame_ItemConversionInputSlot_Glow
 --- @field ButtonFrame Texture
@@ -53,33 +53,33 @@
 --- @field InputSlot_Flash2 Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L200)
---- child of 
+--- child of ItemInteractionFrame_ItemConversionFrame_AnimatedArrow
 --- @class ItemInteractionFrame_ItemConversionFrame_AnimatedArrow_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L185)
---- child of 
+--- child of ItemInteractionFrame_ItemConversionFrame
 --- @class ItemInteractionFrame_ItemConversionFrame_AnimatedArrow : Frame
 --- @field arrow Texture
 --- @field Anim ItemInteractionFrame_ItemConversionFrame_AnimatedArrow_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L207)
---- child of 
+--- child of ItemInteractionFrame_ItemConversionFrame
 --- @class ItemInteractionFrame_ItemConversionFrame_DimArrow : Frame
 --- @field arrow Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L220)
---- child of 
+--- child of ItemInteractionFrame_ItemConversionFrame
 --- @class ItemInteractionFrame_ItemConversionFrame_ItemConversionOutputSlot : ItemButton, ItemInteractionItemConversionOutputSlotMixin
 --- @field ButtonFrame Texture
 --- @field OutputSlot_Flash Texture
 --- @field OutputSlot_Flash2 Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L252)
---- child of 
+--- child of ItemInteractionFrame_ItemConversionFrame_AnimationHolder
 --- @class ItemInteractionFrame_ItemConversionFrame_AnimationHolder_ConversionFlash : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L250)
---- child of 
+--- child of ItemInteractionFrame_ItemConversionFrame
 --- @class ItemInteractionFrame_ItemConversionFrame_AnimationHolder : Frame
 --- @field ConversionFlash ItemInteractionFrame_ItemConversionFrame_AnimationHolder_ConversionFlash
 
@@ -95,11 +95,11 @@
 --- @field Background_Flash2 Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L277)
---- child of 
+--- child of ItemInteractionFrame_ButtonFrame
 --- @class ItemInteractionFrame_ButtonFrame_ActionButton : Button, MagicButtonTemplate, ItemInteractionActionButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L288)
---- child of 
+--- child of ItemInteractionFrame_ButtonFrame
 --- @class ItemInteractionFrame_ButtonFrame_Currency : Button, BackpackTokenTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L110)
@@ -123,7 +123,7 @@ ItemInteractionFrameMoneyFrameSilverButton = {}
 ItemInteractionFrameMoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L299)
---- child of 
+--- child of ItemInteractionFrame_ButtonFrame
 --- @class ItemInteractionFrame_ButtonFrame_ItemInteractionFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 ItemInteractionFrameMoneyFrame = {}
 ItemInteractionFrameMoneyFrame["trialErrorButton"] = ItemInteractionFrameMoneyFrameTrialErrorButton -- inherited
@@ -132,30 +132,30 @@ ItemInteractionFrameMoneyFrame["SilverButton"] = ItemInteractionFrameMoneyFrameS
 ItemInteractionFrameMoneyFrame["GoldButton"] = ItemInteractionFrameMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1484)
---- child of  (created in template ThinGoldEdgeTemplate)
+--- child of ItemInteractionFrame_ButtonFrame_MoneyFrameEdge (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemInteractionFrameLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1492)
---- child of  (created in template ThinGoldEdgeTemplate)
+--- child of ItemInteractionFrame_ButtonFrame_MoneyFrameEdge (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemInteractionFrameRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1500)
---- child of  (created in template ThinGoldEdgeTemplate)
+--- child of ItemInteractionFrame_ButtonFrame_MoneyFrameEdge (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemInteractionFrameMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L313)
---- child of 
+--- child of ItemInteractionFrame_ButtonFrame
 --- @class ItemInteractionFrame_ButtonFrame_MoneyFrameEdge : Frame, ThinGoldEdgeTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L334)
---- child of 
+--- child of ItemInteractionFrame_ButtonFrame
 --- @class ItemInteractionFrame_ButtonFrame_ButtonBorder : Texture, _UI-Frame-InnerBotTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L340)
---- child of 
+--- child of ItemInteractionFrame_ButtonFrame
 --- @class ItemInteractionFrame_ButtonFrame_ButtonBottomBorder : Texture, _UI-Frame-BtnBotTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L270)

@@ -21,7 +21,7 @@
 --- @class PvPTalentSlotTrayTemplate_TalentSlot3 : Button, PvPTalentSlotButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentSlotTemplates.xml#L85)
---- child of 
+--- child of PvPTalentSlotTrayTemplate_NewContainer
 --- @class PvPTalentSlotTrayTemplate_NewContainer_Text : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentSlotTemplates.xml#L80)

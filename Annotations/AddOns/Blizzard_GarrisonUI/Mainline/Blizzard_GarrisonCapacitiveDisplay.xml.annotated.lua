@@ -31,19 +31,19 @@
 --- @field Lock Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L196)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame
 --- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame_Follower : Frame, GarrisonFollowerPortraitTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L182)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame
 --- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame_ShipmentName : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L188)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame
 --- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame_ShipmentsAvailable : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L167)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_CapacitiveDisplay
 --- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame : Frame
 --- @field Follower GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame_Follower
 --- @field Icon Texture
@@ -51,19 +51,19 @@
 --- @field ShipmentsAvailable GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_ShipmentIconFrame_ShipmentsAvailable
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L142)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_CapacitiveDisplay
 --- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_LastComplete : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L148)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_CapacitiveDisplay
 --- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_Description : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L154)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_CapacitiveDisplay
 --- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_Reagents : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L159)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_CapacitiveDisplay
 --- @class GarrisonCapacitiveDisplayFrame_CapacitiveDisplay_FollowerActive : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L127)
@@ -78,7 +78,7 @@
 --- @field Reagents table<number, GarrisonCapacitiveItemButtonTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L223)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_FinishedGlow
 --- @class GarrisonCapacitiveDisplayFrame_FinishedGlow_FinishedAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L221)
@@ -100,17 +100,17 @@
 --- @class GarrisonCapacitiveDisplayFrame_DecrementButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L286)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_Count
 --- @class GarrisonCapacitiveDisplayFrame_Count_GarrisonCapacitiveDisplayFrameLeft : Texture
 GarrisonCapacitiveDisplayFrameLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L293)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_Count
 --- @class GarrisonCapacitiveDisplayFrame_Count_GarrisonCapacitiveDisplayFrameRight : Texture
 GarrisonCapacitiveDisplayFrameRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L300)
---- child of 
+--- child of GarrisonCapacitiveDisplayFrame_Count
 --- @class GarrisonCapacitiveDisplayFrame_Count_GarrisonCapacitiveDisplayFrameMiddle : Texture
 GarrisonCapacitiveDisplayFrameMiddle = {}
 

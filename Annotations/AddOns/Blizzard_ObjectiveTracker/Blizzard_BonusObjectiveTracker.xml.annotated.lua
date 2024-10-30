@@ -44,11 +44,11 @@
 --- @field AlphaTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L127)
---- child of 
+--- child of BonusTrackerProgressBarTemplate_Bar
 --- @class BonusTrackerProgressBarTemplate_Bar_Label : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L180)
---- child of 
+--- child of BonusTrackerProgressBarTemplate_Bar
 --- @class BonusTrackerProgressBarTemplate_Bar_AnimIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.xml#L110)

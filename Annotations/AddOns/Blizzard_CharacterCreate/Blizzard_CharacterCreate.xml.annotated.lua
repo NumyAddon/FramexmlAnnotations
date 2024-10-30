@@ -208,7 +208,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 --- @field ClassName CharacterCreateClassButtonTemplate_ClassName
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L98)
---- child of 
+--- child of CharacterCreateRaceButtonTemplate_RaceName
 --- @class CharacterCreateRaceButtonTemplate_RaceName_Text : FontString, GameFontNormalMed2Outline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L91)
@@ -258,7 +258,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 --- @field RoleName CharacterCreateSpecButtonTemplate_RoleName
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L191)
---- child of 
+--- child of CharacterCreateStartingZoneTemplate_ZoneArt
 --- @class CharacterCreateStartingZoneTemplate_ZoneArt_Border : Frame, NineSlicePanelTemplate
 --- @field layoutType string # "CharacterCreateThickBorder"
 
@@ -269,13 +269,13 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 --- @field BGTex Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L209)
---- child of 
+--- child of CharacterCreateStartingZoneTemplate_ZoneNameButton
 --- @class CharacterCreateStartingZoneTemplate_ZoneNameButton_Button : CheckButton
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L226)
---- child of 
+--- child of CharacterCreateStartingZoneTemplate_ZoneNameButton
 --- @class CharacterCreateStartingZoneTemplate_ZoneNameButton_Label : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L204)
@@ -311,66 +311,66 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 --- @field charCreateOnClickMethod string # "NavForward"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L371)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame_AllianceHeader
 --- @class CharacterCreateFrame_RaceAndClassFrame_AllianceHeader_Text : FontString, GameFontNormalLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L355)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame
 --- @class CharacterCreateFrame_RaceAndClassFrame_AllianceHeader : Frame, ResizeLayoutFrame, CharCustomizeFrameWithTooltipTemplate, CharacterCreateFactionHeaderMixin
 --- @field tooltipAnchor string # "ANCHOR_TOPLEFT"
 --- @field Logo Texture
 --- @field Text CharacterCreateFrame_RaceAndClassFrame_AllianceHeader_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L395)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame_HordeHeader
 --- @class CharacterCreateFrame_RaceAndClassFrame_HordeHeader_Text : FontString, GameFontNormalLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L379)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame
 --- @class CharacterCreateFrame_RaceAndClassFrame_HordeHeader : Frame, ResizeLayoutFrame, CharCustomizeFrameWithTooltipTemplate, CharacterCreateFactionHeaderMixin
 --- @field tooltipAnchor string # "ANCHOR_TOPRIGHT"
 --- @field Logo Texture
 --- @field Text CharacterCreateFrame_RaceAndClassFrame_HordeHeader_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L403)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame
 --- @class CharacterCreateFrame_RaceAndClassFrame_BodyTypes : Frame, HorizontalLayoutFrame
 --- @field spacing number # 22
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L411)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame
 --- @class CharacterCreateFrame_RaceAndClassFrame_AllianceRaces : Frame, CharacterCreateVerticalLayoutFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L416)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame
 --- @class CharacterCreateFrame_RaceAndClassFrame_AllianceAlliedRaces : Frame, CharacterCreateVerticalLayoutFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L421)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame
 --- @class CharacterCreateFrame_RaceAndClassFrame_HordeRaces : Frame, CharacterCreateVerticalLayoutFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L426)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame
 --- @class CharacterCreateFrame_RaceAndClassFrame_HordeAlliedRaces : Frame, CharacterCreateVerticalLayoutFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L439)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame
 --- @class CharacterCreateFrame_RaceAndClassFrame_ClassTrialCheckButton : Frame, CharCustomizeFrameWithTooltipTemplate, ResizeCheckButtonTemplate, ClassTrialCheckButtonMixin
 --- @field labelText any # CHARACTER_TYPE_FRAME_TRIAL_BOOST_CHARACTER
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L456)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame_RacialAbilityList
 --- @class CharacterCreateFrame_RaceAndClassFrame_RacialAbilityList_Label : FontString
 --- @field layoutIndex number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L450)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame
 --- @class CharacterCreateFrame_RaceAndClassFrame_RacialAbilityList : Frame, VerticalLayoutFrame, CharacterCreateRacialAbilityListMixin
 --- @field spacing number # 10
 --- @field Label CharacterCreateFrame_RaceAndClassFrame_RacialAbilityList_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L347)
---- child of 
+--- child of CharacterCreateFrame_RaceAndClassFrame
 --- @class CharacterCreateFrame_RaceAndClassFrame_CurrentRealmText : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L344)
@@ -389,18 +389,18 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 --- @field CurrentRealmText CharacterCreateFrame_RaceAndClassFrame_CurrentRealmText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L497)
---- child of 
+--- child of CharacterCreateFrame_NameChoiceFrame_EditBox
 --- @class CharacterCreateFrame_NameChoiceFrame_EditBox_NameAvailabilityState : Button, CharCustomizeFrameWithTooltipTemplate, CharacterCreateNameAvailabilityStateMixin
 --- @field tooltipMinWidth any # nil
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L489)
---- child of 
+--- child of CharacterCreateFrame_NameChoiceFrame
 --- @class CharacterCreateFrame_NameChoiceFrame_EditBox : EditBox, SharedEditBoxTemplate, CharacterCreateEditBoxMixin
 --- @field justifyH string # "CENTER"
 --- @field NameAvailabilityState CharacterCreateFrame_NameChoiceFrame_EditBox_NameAvailabilityState
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L523)
---- child of 
+--- child of CharacterCreateFrame_NameChoiceFrame
 --- @class CharacterCreateFrame_NameChoiceFrame_RandomNameButton : Button, CharCustomizeSmallButtonTemplate, CharacterCreateRandomNameButtonMixin
 --- @field simpleTooltipLine any # RANDOMIZE
 
@@ -412,7 +412,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 --- @field Label FontString
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L546)
---- child of 
+--- child of CharacterCreateFrame_ClassTrialSpecs
 --- @class CharacterCreateFrame_ClassTrialSpecs_Title : FontString, SystemFont_Shadow_Large
 --- @field layoutIndex number # 0
 
@@ -423,21 +423,21 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 --- @field Title CharacterCreateFrame_ClassTrialSpecs_Title
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L581)
---- child of 
+--- child of CharacterCreateFrame_ZoneChoiceFrame
 --- @class CharacterCreateFrame_ZoneChoiceFrame_NPEZone : Frame, CharacterCreateStartingZoneTemplate
 --- @field isNPE boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L589)
---- child of 
+--- child of CharacterCreateFrame_ZoneChoiceFrame
 --- @class CharacterCreateFrame_ZoneChoiceFrame_NormalStartingZone : Frame, CharacterCreateStartingZoneTemplate
 --- @field isNPE boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L573)
---- child of 
+--- child of CharacterCreateFrame_ZoneChoiceFrame
 --- @class CharacterCreateFrame_ZoneChoiceFrame_Title : FontString, GameFont72NormalShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L599)
---- child of 
+--- child of CharacterCreateFrame_ZoneChoiceFrame
 --- @class CharacterCreateFrame_ZoneChoiceFrame_FadeIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L565)
@@ -450,11 +450,11 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 --- @field FadeIn CharacterCreateFrame_ZoneChoiceFrame_FadeIn
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L615)
---- child of 
+--- child of CharacterCreateFrame_NewPlayerTutorial
 --- @class CharacterCreateFrame_NewPlayerTutorial_Title : FontString, GameFontHighlightShadowHuge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L620)
---- child of 
+--- child of CharacterCreateFrame_NewPlayerTutorial
 --- @class CharacterCreateFrame_NewPlayerTutorial_Description : FontString, GameFontNormalLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L609)
@@ -476,12 +476,12 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 --- @class CharacterCreateFrame_RightBackgroundOverlay : Texture, CharacterCreateBackgroundOverlayTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L281)
---- child of 
+--- child of CharacterCreateFrame_BottomBackgroundOverlay
 --- @class CharacterCreateFrame_BottomBackgroundOverlay_FadeOut : AnimationGroup
 --- @field AlphaAnim Alpha
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L284)
---- child of 
+--- child of CharacterCreateFrame_BottomBackgroundOverlay
 --- @class CharacterCreateFrame_BottomBackgroundOverlay_FadeIn : AnimationGroup
 --- @field AlphaAnim Alpha
 

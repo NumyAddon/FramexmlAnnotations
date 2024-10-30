@@ -21,7 +21,7 @@
 --- @class CommunitiesGuildMemberDetailFrameTemplate_RankDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L125)
---- child of 
+--- child of CommunitiesGuildMemberDetailFrameTemplate_NoteBackground
 --- @class CommunitiesGuildMemberDetailFrameTemplate_NoteBackground_PersonalNoteText : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L118)
@@ -31,7 +31,7 @@
 --- @field PersonalNoteText CommunitiesGuildMemberDetailFrameTemplate_NoteBackground_PersonalNoteText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L155)
---- child of 
+--- child of CommunitiesGuildMemberDetailFrameTemplate_OfficerNoteBackground
 --- @class CommunitiesGuildMemberDetailFrameTemplate_OfficerNoteBackground_OfficerNoteText : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L148)

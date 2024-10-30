@@ -78,11 +78,11 @@
 --- @field CircleMask MaskTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L249)
---- child of 
+--- child of MonthlyActivitiesThresholdTemplate_RewardCurrency
 --- @class MonthlyActivitiesThresholdTemplate_RewardCurrency_Points : FontString, NumberFontSmallWhiteLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L273)
---- child of 
+--- child of MonthlyActivitiesThresholdTemplate_RewardCurrency
 --- @class MonthlyActivitiesThresholdTemplate_RewardCurrency_EarnedAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L213)
@@ -122,30 +122,30 @@
 --- @class MonthlyActivitiesFrameTemplate_HelpButton : Button, MainHelpPlateButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L391)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_ThresholdContainer_TextContainer
 --- @class MonthlyActivitiesFrameTemplate_ThresholdContainer_TextContainer_Points : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L397)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_ThresholdContainer_TextContainer
 --- @class MonthlyActivitiesFrameTemplate_ThresholdContainer_TextContainer_ProgressText : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L388)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_ThresholdContainer
 --- @class MonthlyActivitiesFrameTemplate_ThresholdContainer_TextContainer : Frame
 --- @field Points MonthlyActivitiesFrameTemplate_ThresholdContainer_TextContainer_Points
 --- @field ProgressText MonthlyActivitiesFrameTemplate_ThresholdContainer_TextContainer_ProgressText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L406)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_ThresholdContainer
 --- @class MonthlyActivitiesFrameTemplate_ThresholdContainer_BarEnd : Frame
 --- @field line Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L420)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_ThresholdContainer
 --- @class MonthlyActivitiesFrameTemplate_ThresholdContainer_FadeOutAnim : AnimationGroup, TargetsHiddenOnFinishedAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L424)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_ThresholdContainer
 --- @class MonthlyActivitiesFrameTemplate_ThresholdContainer_GlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L336)
@@ -164,19 +164,19 @@
 --- @field GlowAnim MonthlyActivitiesFrameTemplate_ThresholdContainer_GlowAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L435)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_BarComplete
 --- @class MonthlyActivitiesFrameTemplate_BarComplete_AllRewardsCollectedText : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L441)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_BarComplete
 --- @class MonthlyActivitiesFrameTemplate_BarComplete_PendingRewardsText : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L462)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_BarComplete
 --- @class MonthlyActivitiesFrameTemplate_BarComplete_FadeInAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L466)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_BarComplete
 --- @class MonthlyActivitiesFrameTemplate_BarComplete_PendingRewardsChestGlowPulse : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L432)
@@ -190,11 +190,11 @@
 --- @field PendingRewardsChestGlowPulse MonthlyActivitiesFrameTemplate_BarComplete_PendingRewardsChestGlowPulse
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L483)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_FilterList
 --- @class MonthlyActivitiesFrameTemplate_FilterList_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L484)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_FilterList
 --- @class MonthlyActivitiesFrameTemplate_FilterList_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L472)
@@ -213,15 +213,15 @@
 --- @class MonthlyActivitiesFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L510)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_HeaderContainer
 --- @class MonthlyActivitiesFrameTemplate_HeaderContainer_Title : FontString, GameFontNormalLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L516)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_HeaderContainer
 --- @class MonthlyActivitiesFrameTemplate_HeaderContainer_Month : FontString, GameFontHighlightMed2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L522)
---- child of 
+--- child of MonthlyActivitiesFrameTemplate_HeaderContainer
 --- @class MonthlyActivitiesFrameTemplate_HeaderContainer_TimeLeft : FontString, GameFontWhite
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L507)

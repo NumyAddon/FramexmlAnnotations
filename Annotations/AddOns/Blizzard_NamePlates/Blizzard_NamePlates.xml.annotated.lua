@@ -9,7 +9,7 @@ NamePlateDriverFrame = {}
 --- @class NameplateBuffButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L39)
---- child of 
+--- child of NameplateBuffButtonTemplate_CountFrame
 --- @class NameplateBuffButtonTemplate_CountFrame_Count : FontString, NumberFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L36)
@@ -43,15 +43,15 @@ NamePlateDriverFrame = {}
 --- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L155)
---- child of 
+--- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_border : Frame, NamePlateFullBorderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L156)
---- child of 
+--- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_TempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L163)
---- child of 
+--- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar : StatusBar
 --- @field myHealPrediction Texture
 --- @field otherHealPrediction Texture
@@ -72,7 +72,7 @@ NamePlateDriverFrame = {}
 --- @field background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L208)
---- child of 
+--- child of BaseNamePlateUnitFrameTemplate_castBar
 --- @class BaseNamePlateUnitFrameTemplate_castBar_Text : FontString, SystemFont_Shadow_Small
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L194)
@@ -101,7 +101,7 @@ NamePlateDriverFrame = {}
 --- @field classificationIndicator Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L300)
---- child of 
+--- child of BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame
 --- @class BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame_playerLevelDiffText : FontString, GameFontWhiteTiny2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L285)

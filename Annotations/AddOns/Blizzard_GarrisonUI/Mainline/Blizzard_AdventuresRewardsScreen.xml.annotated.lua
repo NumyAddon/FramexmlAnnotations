@@ -5,11 +5,11 @@
 --- @class AdventuresRewardsFollowerTemplate_FollowerExperienceDisplay : Cooldown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L27)
---- child of 
+--- child of AdventuresRewardsFollowerTemplate_XPFloatingText
 --- @class AdventuresRewardsFollowerTemplate_XPFloatingText_Text : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L19)
---- child of 
+--- child of AdventuresRewardsFollowerTemplate_XPFloatingText
 --- @class AdventuresRewardsFollowerTemplate_XPFloatingText_FadeIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L13)
@@ -19,7 +19,7 @@
 --- @field FadeIn AdventuresRewardsFollowerTemplate_XPFloatingText_FadeIn
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L58)
---- child of 
+--- child of AdventuresRewardsFollowerTemplate_LevelUpAnimFrame
 --- @class AdventuresRewardsFollowerTemplate_LevelUpAnimFrame_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L43)
@@ -45,7 +45,7 @@
 --- @field RewardsFollower AdventuresRewardsPaddedFollower_RewardsFollower
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L118)
---- child of 
+--- child of AdventuresRewardsScreenTemplate_CombatCompleteSuccessFrame
 --- @class AdventuresRewardsScreenTemplate_CombatCompleteSuccessFrame_TextCenter : FontString, QuestFont_Enormous
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L96)
@@ -57,50 +57,50 @@
 --- @field TextCenter AdventuresRewardsScreenTemplate_CombatCompleteSuccessFrame_TextCenter
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L218)
---- child of 
+--- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel_ContinueButton
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_ContinueButton_FlashAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L195)
---- child of 
+--- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_ContinueButton : Button, UIPanelButtonTemplate, AdventuresRewardsScreenContinueButtonMixin
 --- @field Flash Texture
 --- @field FlashAnim AdventuresRewardsScreenTemplate_FinalRewardsPanel_ContinueButton_FlashAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L235)
---- child of 
+--- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_RewardsEarnedFrame : Frame, HorizontalLayoutFrame
 --- @field expand boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L245)
---- child of 
+--- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_FollowerExperienceEarnedFrame : Frame, HorizontalLayoutFrame
 --- @field expand boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L226)
---- child of 
+--- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame : Frame, HorizontalLayoutFrame
 --- @field expand boolean # true
 --- @field RewardsEarnedFrame AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_RewardsEarnedFrame
 --- @field FollowerExperienceEarnedFrame AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_FollowerExperienceEarnedFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L165)
---- child of 
+--- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_RewardsHeader : FontString, SystemFont_Huge1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L170)
---- child of 
+--- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_MissionName : FontString, Fancy24Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L176)
---- child of 
+--- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_MissionStatus : FontString, Fancy32Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L182)
---- child of 
+--- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_RewardsEarnedLabel : FontString, GameFontNormalOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L187)
---- child of 
+--- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_FollowerProgressLabel : FontString, GameFontNormalOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L128)

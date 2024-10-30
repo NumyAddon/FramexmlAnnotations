@@ -5,7 +5,7 @@
 --- @class CampaignOverviewTemplate_BorderFrame : Frame, QuestLogBorderFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L15)
---- child of 
+--- child of CampaignOverviewTemplate_Header
 --- @class CampaignOverviewTemplate_Header_BackButton : Button, LoreButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.xml#L7)

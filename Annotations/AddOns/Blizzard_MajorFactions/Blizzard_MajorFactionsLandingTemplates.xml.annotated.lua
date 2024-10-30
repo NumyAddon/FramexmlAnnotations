@@ -15,11 +15,11 @@
 --- @field ScrollBar LandingPageMajorFactionListTemplate_ScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L48)
---- child of 
+--- child of MajorFactionButtonTemplate_LockedState
 --- @class MajorFactionButtonTemplate_LockedState_Title : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L55)
---- child of 
+--- child of MajorFactionButtonTemplate_LockedState
 --- @class MajorFactionButtonTemplate_LockedState_StateInfo : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L33)
@@ -30,36 +30,36 @@
 --- @field StateInfo MajorFactionButtonTemplate_LockedState_StateInfo
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L120)
---- child of 
+--- child of MajorFactionButtonTemplate_UnlockedState_WatchFactionButton
 --- @class MajorFactionButtonTemplate_UnlockedState_WatchFactionButton_Label : FontString, GameFontHighlightSmall
 --- @field minLineHeight number # 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L113)
---- child of 
+--- child of MajorFactionButtonTemplate_UnlockedState
 --- @class MajorFactionButtonTemplate_UnlockedState_WatchFactionButton : CheckButton, UICheckButtonArtTemplate, MajorFactionWatchFactionButtonMixin
 --- @field Label MajorFactionButtonTemplate_UnlockedState_WatchFactionButton_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L139)
---- child of 
+--- child of MajorFactionButtonTemplate_UnlockedState
 --- @class MajorFactionButtonTemplate_UnlockedState_RenownProgressBar : Cooldown, MajorFactionRenownProgressBarMixin
 --- @field Border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L166)
---- child of 
+--- child of MajorFactionButtonTemplate_UnlockedState_UnlockFlash
 --- @class MajorFactionButtonTemplate_UnlockedState_UnlockFlash_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L153)
---- child of 
+--- child of MajorFactionButtonTemplate_UnlockedState
 --- @class MajorFactionButtonTemplate_UnlockedState_UnlockFlash : Frame
 --- @field UnlockFlashBackground Texture
 --- @field Anim MajorFactionButtonTemplate_UnlockedState_UnlockFlash_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L98)
---- child of 
+--- child of MajorFactionButtonTemplate_UnlockedState
 --- @class MajorFactionButtonTemplate_UnlockedState_Title : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L104)
---- child of 
+--- child of MajorFactionButtonTemplate_UnlockedState
 --- @class MajorFactionButtonTemplate_UnlockedState_RenownLevel : FontString, GameFontNormalLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.xml#L69)

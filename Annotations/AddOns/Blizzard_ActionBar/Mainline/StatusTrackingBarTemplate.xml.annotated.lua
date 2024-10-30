@@ -8,7 +8,7 @@
 --- @field Overlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBarTemplate.xml#L34)
---- child of 
+--- child of StatusTrackingBarTemplate_OverlayFrame
 --- @class StatusTrackingBarTemplate_OverlayFrame_Text : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBarTemplate.xml#L31)

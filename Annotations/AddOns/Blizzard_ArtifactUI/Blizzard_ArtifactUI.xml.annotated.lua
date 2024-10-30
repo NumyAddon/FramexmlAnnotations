@@ -26,7 +26,7 @@ ArtifactFrameUnderlay = {}
 --- @field ForgeLeftBorder Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L143)
---- child of 
+--- child of ArtifactFrame_ForgeBadgeFrame
 --- @class ArtifactFrame_ForgeBadgeFrame_ForgeLevelLabel : FontString, SystemFont_Shadow_Med2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L110)

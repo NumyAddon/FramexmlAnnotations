@@ -22,15 +22,15 @@
 --- @field RevealAnim AzeriteMilestoneBaseTemplate_RevealAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L83)
---- child of 
+--- child of AzeriteMilestoneMinorSlotTemplate_UnlockedState
 --- @class AzeriteMilestoneMinorSlotTemplate_UnlockedState_PurpleGemModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L74)
---- child of 
+--- child of AzeriteMilestoneMinorSlotTemplate_UnlockedState_EmptyGlow
 --- @class AzeriteMilestoneMinorSlotTemplate_UnlockedState_EmptyGlow_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L68)
---- child of 
+--- child of AzeriteMilestoneMinorSlotTemplate_UnlockedState
 --- @class AzeriteMilestoneMinorSlotTemplate_UnlockedState_EmptyGlow : Texture
 --- @field Anim AzeriteMilestoneMinorSlotTemplate_UnlockedState_EmptyGlow_Anim
 
@@ -47,11 +47,11 @@
 --- @field EmptyGlow AzeriteMilestoneMinorSlotTemplate_UnlockedState_EmptyGlow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L111)
---- child of 
+--- child of AzeriteMilestoneMinorSlotTemplate_AvailableState
 --- @class AzeriteMilestoneMinorSlotTemplate_AvailableState_GlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L115)
---- child of 
+--- child of AzeriteMilestoneMinorSlotTemplate_AvailableState
 --- @class AzeriteMilestoneMinorSlotTemplate_AvailableState_ForgeGlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L91)
@@ -63,7 +63,7 @@
 --- @field ForgeGlowAnim AzeriteMilestoneMinorSlotTemplate_AvailableState_ForgeGlowAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L124)
---- child of 
+--- child of AzeriteMilestoneMinorSlotTemplate_LockedState
 --- @class AzeriteMilestoneMinorSlotTemplate_LockedState_UnlockLevelText : FontString, Game16Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L121)
@@ -86,15 +86,15 @@
 --- @class AzeriteMilestoneRankedTemplate_EffectsModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L186)
---- child of 
+--- child of AzeriteMilestoneRankedTemplate_AvailableState
 --- @class AzeriteMilestoneRankedTemplate_AvailableState_RankText : FontString, ChatFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L203)
---- child of 
+--- child of AzeriteMilestoneRankedTemplate_AvailableState
 --- @class AzeriteMilestoneRankedTemplate_AvailableState_GlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L207)
---- child of 
+--- child of AzeriteMilestoneRankedTemplate_AvailableState
 --- @class AzeriteMilestoneRankedTemplate_AvailableState_ForgeGlowAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L151)
@@ -110,7 +110,7 @@
 --- @field ForgeGlowAnim AzeriteMilestoneRankedTemplate_AvailableState_ForgeGlowAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L216)
---- child of 
+--- child of AzeriteMilestoneRankedTemplate_LockedState
 --- @class AzeriteMilestoneRankedTemplate_LockedState_UnlockLevelText : FontString, Game16Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L213)
@@ -129,19 +129,19 @@
 --- @field StateFrames table<number, AzeriteMilestoneRankedTemplate_AvailableState | AzeriteMilestoneRankedTemplate_LockedState>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L313)
---- child of 
+--- child of AzeriteMilestoneMajorSlotTemplate_UnlockedState
 --- @class AzeriteMilestoneMajorSlotTemplate_UnlockedState_BlueGemModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L319)
---- child of 
+--- child of AzeriteMilestoneMajorSlotTemplate_UnlockedState
 --- @class AzeriteMilestoneMajorSlotTemplate_UnlockedState_PurpleGemModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L304)
---- child of 
+--- child of AzeriteMilestoneMajorSlotTemplate_UnlockedState_EmptyGlow
 --- @class AzeriteMilestoneMajorSlotTemplate_UnlockedState_EmptyGlow_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L299)
---- child of 
+--- child of AzeriteMilestoneMajorSlotTemplate_UnlockedState
 --- @class AzeriteMilestoneMajorSlotTemplate_UnlockedState_EmptyGlow : Texture
 --- @field Anim AzeriteMilestoneMajorSlotTemplate_UnlockedState_EmptyGlow_Anim
 
@@ -206,7 +206,7 @@
 --- @class AzeriteEssenceButtonTemplate_Name : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L408)
---- child of 
+--- child of AzeriteEssenceButtonTemplate_Glow
 --- @class AzeriteEssenceButtonTemplate_Glow_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L402)
@@ -215,7 +215,7 @@
 --- @field Anim AzeriteEssenceButtonTemplate_Glow_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L419)
---- child of 
+--- child of AzeriteEssenceButtonTemplate_Glow2
 --- @class AzeriteEssenceButtonTemplate_Glow2_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L413)
@@ -224,7 +224,7 @@
 --- @field Anim AzeriteEssenceButtonTemplate_Glow2_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L430)
---- child of 
+--- child of AzeriteEssenceButtonTemplate_Glow3
 --- @class AzeriteEssenceButtonTemplate_Glow3_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L424)
@@ -283,7 +283,7 @@
 --- @field Anim AzeriteEssenceStarsAnimationFrameTemplate_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L580)
---- child of 
+--- child of AzeriteEssenceUI_PowerLevelBadgeFrame
 --- @class AzeriteEssenceUI_PowerLevelBadgeFrame_Label : FontString, SystemFont_Shadow_Med2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L567)
@@ -303,7 +303,7 @@
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L635)
---- child of 
+--- child of AzeriteEssenceUI_ItemModelScene
 --- @class AzeriteEssenceUI_ItemModelScene_AlphaAnim : AnimationGroup
 --- @field AlphaAnim Alpha
 
@@ -328,15 +328,15 @@
 --- @field startDelay number # 6
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L678)
---- child of 
+--- child of AzeriteEssenceUI_EssenceList
 --- @class AzeriteEssenceUI_EssenceList_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L685)
---- child of 
+--- child of AzeriteEssenceUI_EssenceList
 --- @class AzeriteEssenceUI_EssenceList_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L691)
---- child of 
+--- child of AzeriteEssenceUI_EssenceList
 --- @class AzeriteEssenceUI_EssenceList_LearnEssenceModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L671)
@@ -351,7 +351,7 @@
 --- @class AzeriteEssenceUI_DisabledFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L756)
---- child of 
+--- child of AzeriteEssenceUI_OrbGlass
 --- @class AzeriteEssenceUI_OrbGlass_AlphaAnim : AnimationGroup
 --- @field AlphaAnim Alpha
 
@@ -361,7 +361,7 @@
 --- @field AlphaAnim AzeriteEssenceUI_OrbGlass_AlphaAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L777)
---- child of 
+--- child of AzeriteEssenceUI_ActivationGlow
 --- @class AzeriteEssenceUI_ActivationGlow_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L771)

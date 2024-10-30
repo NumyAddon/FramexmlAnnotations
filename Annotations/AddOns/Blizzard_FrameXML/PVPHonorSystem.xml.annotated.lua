@@ -5,17 +5,17 @@
 --- @class PVPHonorRewardCodeTemplate : Frame, PVPHonorRewardCodeMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L61)
---- child of 
+--- child of PVPHonorSystemLargeXPBar_Bar
 --- @class PVPHonorSystemLargeXPBar_Bar_ExhaustionTick : Button
 --- @field Normal Texture
 --- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L80)
---- child of 
+--- child of PVPHonorSystemLargeXPBar_Bar_OverlayFrame
 --- @class PVPHonorSystemLargeXPBar_Bar_OverlayFrame_Text : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L77)
---- child of 
+--- child of PVPHonorSystemLargeXPBar_Bar
 --- @class PVPHonorSystemLargeXPBar_Bar_OverlayFrame : Frame
 --- @field Text PVPHonorSystemLargeXPBar_Bar_OverlayFrame_Text
 
@@ -35,15 +35,15 @@
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L194)
---- child of 
+--- child of PVPHonorSystemLargeXPBar_PrestigeReward
 --- @class PVPHonorSystemLargeXPBar_PrestigeReward_Accept : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L183)
---- child of 
+--- child of PVPHonorSystemLargeXPBar_PrestigeReward
 --- @class PVPHonorSystemLargeXPBar_PrestigeReward_PrestigeSpinAnimation : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L186)
---- child of 
+--- child of PVPHonorSystemLargeXPBar_PrestigeReward
 --- @class PVPHonorSystemLargeXPBar_PrestigeReward_PrestigePulseAnimation : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L131)
@@ -73,22 +73,22 @@
 --- @field Level PVPHonorSystemLargeXPBar_Level
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L269)
---- child of 
+--- child of PVPHonorSystemSmallXPBar_Bar
 --- @class PVPHonorSystemSmallXPBar_Bar_ExhaustionTick : Button
 --- @field Normal Texture
 --- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L288)
---- child of 
+--- child of PVPHonorSystemSmallXPBar_Bar_OverlayFrame
 --- @class PVPHonorSystemSmallXPBar_Bar_OverlayFrame_Text : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L285)
---- child of 
+--- child of PVPHonorSystemSmallXPBar_Bar
 --- @class PVPHonorSystemSmallXPBar_Bar_OverlayFrame : Frame
 --- @field Text PVPHonorSystemSmallXPBar_Bar_OverlayFrame_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L296)
---- child of 
+--- child of PVPHonorSystemSmallXPBar_Bar
 --- @class PVPHonorSystemSmallXPBar_Bar_Lock : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L236)
@@ -108,15 +108,15 @@
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L423)
---- child of 
+--- child of PVPHonorSystemSmallXPBar_PrestigeReward
 --- @class PVPHonorSystemSmallXPBar_PrestigeReward_Accept : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L412)
---- child of 
+--- child of PVPHonorSystemSmallXPBar_PrestigeReward
 --- @class PVPHonorSystemSmallXPBar_PrestigeReward_PrestigeSpinAnimation : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L415)
---- child of 
+--- child of PVPHonorSystemSmallXPBar_PrestigeReward
 --- @class PVPHonorSystemSmallXPBar_PrestigeReward_PrestigePulseAnimation : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.xml#L360)

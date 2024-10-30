@@ -5,15 +5,15 @@
 --- @class ProfessionsGuildCrafterButtonTemplate : Button, ProfessionsGuildCrafterButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.xml#L42)
---- child of 
+--- child of ProfessionsGuildListingTemplate_Container
 --- @class ProfessionsGuildListingTemplate_Container_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.xml#L48)
---- child of 
+--- child of ProfessionsGuildListingTemplate_Container
 --- @class ProfessionsGuildListingTemplate_Container_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.xml#L54)
---- child of 
+--- child of ProfessionsGuildListingTemplate_Container
 --- @class ProfessionsGuildListingTemplate_Container_Spinner : Frame, SpinnerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.xml#L31)

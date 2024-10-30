@@ -552,7 +552,7 @@ QuestNPCModelText = {}
 QuestNPCModelTextScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L362)
---- child of 
+--- child of QuestModelScene_ModelTextFrame
 --- @class QuestModelScene_ModelTextFrame_QuestNPCModelTextScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # -4
 QuestNPCModelTextScrollFrame = {}

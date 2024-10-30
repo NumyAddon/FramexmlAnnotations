@@ -5,7 +5,7 @@
 --- @class ProfessionsItemFlyoutButtonTemplate : ItemButton, ProfessionsItemFlyoutButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L31)
---- child of 
+--- child of ProfessionsItemFlyoutTemplate_UndoItem
 --- @class ProfessionsItemFlyoutTemplate_UndoItem_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L25)

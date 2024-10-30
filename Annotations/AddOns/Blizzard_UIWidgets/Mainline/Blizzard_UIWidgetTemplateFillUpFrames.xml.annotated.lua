@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateFillUpFrames.xml#L81)
---- child of 
+--- child of UIWidgetFillUpFrameTemplate_Bar
 --- @class UIWidgetFillUpFrameTemplate_Bar_FillupFlipbookAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateFillUpFrames.xml#L84)
---- child of 
+--- child of UIWidgetFillUpFrameTemplate_Bar
 --- @class UIWidgetFillUpFrameTemplate_Bar_BurstFlipbookAnim : AnimationGroup, BurstFlipbookAnimMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateFillUpFrames.xml#L90)
---- child of 
+--- child of UIWidgetFillUpFrameTemplate_Bar
 --- @class UIWidgetFillUpFrameTemplate_Bar_FilledFlipbookAnim : AnimationGroup, FilledFlipbookAnimMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateFillUpFrames.xml#L51)
@@ -24,13 +24,13 @@
 --- @field FilledFlipbookAnim UIWidgetFillUpFrameTemplate_Bar_FilledFlipbookAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateFillUpFrames.xml#L38)
---- child of 
+--- child of UIWidgetFillUpFrameTemplate_Flash
 --- @class UIWidgetFillUpFrameTemplate_Flash_FlashAnim : AnimationGroup
 --- @field FadeIn Alpha
 --- @field FadeOut Alpha
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateFillUpFrames.xml#L42)
---- child of 
+--- child of UIWidgetFillUpFrameTemplate_Flash
 --- @class UIWidgetFillUpFrameTemplate_Flash_PulseAnim : AnimationGroup
 --- @field FadeIn Alpha
 --- @field FadeOut Alpha

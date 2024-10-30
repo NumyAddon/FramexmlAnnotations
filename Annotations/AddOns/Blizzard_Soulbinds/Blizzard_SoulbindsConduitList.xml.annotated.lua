@@ -16,7 +16,7 @@
 --- @field IconOverlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L89)
---- child of 
+--- child of ConduitListConduitButtonTemplate_IconPulse
 --- @class ConduitListConduitButtonTemplate_IconPulse_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 --- @field FadeIn Alpha
 --- @field FadeOut Alpha
@@ -27,7 +27,7 @@
 --- @field Anim ConduitListConduitButtonTemplate_IconPulse_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L103)
---- child of 
+--- child of ConduitListConduitButtonTemplate_IconOverlayPulse
 --- @class ConduitListConduitButtonTemplate_IconOverlayPulse_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 --- @field FadeIn Alpha
 --- @field FadeOut Alpha
@@ -65,11 +65,11 @@
 --- @field Hovers table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L231)
---- child of 
+--- child of ConduitListSectionTemplate_CategoryButton_Container
 --- @class ConduitListSectionTemplate_CategoryButton_Container_Name : FontString, SystemFont_Shadow_Med1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L217)
---- child of 
+--- child of ConduitListSectionTemplate_CategoryButton
 --- @class ConduitListSectionTemplate_CategoryButton_Container : Frame
 --- @field ExpandableIcon Texture
 --- @field Name ConduitListSectionTemplate_CategoryButton_Container_Name
@@ -107,11 +107,11 @@
 --- @field lowerShadow string # "Soulbinds_Collection_Shadow"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L301)
---- child of 
+--- child of ConduitListTemplate_Clip
 --- @class ConduitListTemplate_Clip_ModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L304)
---- child of 
+--- child of ConduitListTemplate_Clip
 --- @class ConduitListTemplate_Clip_Effects : Frame
 --- @field Glows table<number, ConduitButtonGlow>
 

@@ -5,7 +5,7 @@
 --- @class OribosScrollBarButtonScripts : Frame, OribosScrollBarButtonScriptsMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L33)
---- child of 
+--- child of OribosScrollBar_Track
 --- @class OribosScrollBar_Track_Thumb : EventButton, OribosScrollBarButtonScripts
 --- @field mouseDownSoundKitID any # SOUNDKIT.U_CHAT_SCROLL_BUTTON
 --- @field Enter Texture

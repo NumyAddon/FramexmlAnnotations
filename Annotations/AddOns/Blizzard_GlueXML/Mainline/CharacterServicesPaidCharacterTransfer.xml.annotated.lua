@@ -6,15 +6,15 @@
 PCTCharacterSelect = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidCharacterTransfer.xml#L25)
---- child of 
+--- child of PCTDestinationSelect_ControlsFrame
 --- @class PCTDestinationSelect_ControlsFrame_TransferRealmEditbox : EditBox, CharacterServicesEditBoxWithAutoCompleteTemplate, TransferRealmEditboxMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidCharacterTransfer.xml#L36)
---- child of 
+--- child of PCTDestinationSelect_ControlsFrame
 --- @class PCTDestinationSelect_ControlsFrame_TransferAccountContainer : Frame, AccountSelectorTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidCharacterTransfer.xml#L16)
---- child of 
+--- child of PCTDestinationSelect_ControlsFrame
 --- @class PCTDestinationSelect_ControlsFrame_TransferRealmLabel : FontString, GameFontNormalMed3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesPaidCharacterTransfer.xml#L13)

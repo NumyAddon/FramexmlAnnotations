@@ -5,43 +5,43 @@
 --- @class UIWidgetTemplateDiscreteProgressSteps_Bar : Frame, UIWidgetBaseCircularStatusBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDiscreteProgressSteps.xml#L138)
---- child of 
+--- child of UIWidgetTemplateDiscreteProgressSteps_Steps
 --- @class UIWidgetTemplateDiscreteProgressSteps_Steps_Step1ActivationAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDiscreteProgressSteps.xml#L150)
---- child of 
+--- child of UIWidgetTemplateDiscreteProgressSteps_Steps
 --- @class UIWidgetTemplateDiscreteProgressSteps_Steps_Step2ActivationAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDiscreteProgressSteps.xml#L162)
---- child of 
+--- child of UIWidgetTemplateDiscreteProgressSteps_Steps
 --- @class UIWidgetTemplateDiscreteProgressSteps_Steps_Step3ActivationAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDiscreteProgressSteps.xml#L174)
---- child of 
+--- child of UIWidgetTemplateDiscreteProgressSteps_Steps
 --- @class UIWidgetTemplateDiscreteProgressSteps_Steps_Step4ActivationAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDiscreteProgressSteps.xml#L186)
---- child of 
+--- child of UIWidgetTemplateDiscreteProgressSteps_Steps
 --- @class UIWidgetTemplateDiscreteProgressSteps_Steps_Step5ActivationAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDiscreteProgressSteps.xml#L198)
---- child of 
+--- child of UIWidgetTemplateDiscreteProgressSteps_Steps
 --- @class UIWidgetTemplateDiscreteProgressSteps_Steps_Step1DisableAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDiscreteProgressSteps.xml#L209)
---- child of 
+--- child of UIWidgetTemplateDiscreteProgressSteps_Steps
 --- @class UIWidgetTemplateDiscreteProgressSteps_Steps_Step2DisableAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDiscreteProgressSteps.xml#L220)
---- child of 
+--- child of UIWidgetTemplateDiscreteProgressSteps_Steps
 --- @class UIWidgetTemplateDiscreteProgressSteps_Steps_Step3DisableAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDiscreteProgressSteps.xml#L231)
---- child of 
+--- child of UIWidgetTemplateDiscreteProgressSteps_Steps
 --- @class UIWidgetTemplateDiscreteProgressSteps_Steps_Step4DisableAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDiscreteProgressSteps.xml#L242)
---- child of 
+--- child of UIWidgetTemplateDiscreteProgressSteps_Steps
 --- @class UIWidgetTemplateDiscreteProgressSteps_Steps_Step5DisableAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDiscreteProgressSteps.xml#L24)

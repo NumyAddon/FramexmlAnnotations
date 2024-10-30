@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.xml#L19)
---- child of 
+--- child of CharacterSelectToolTrayTemplate_ExpandBar
 --- @class CharacterSelectToolTrayTemplate_ExpandBar_Text : FontString, GlueFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectTemplates.xml#L6)

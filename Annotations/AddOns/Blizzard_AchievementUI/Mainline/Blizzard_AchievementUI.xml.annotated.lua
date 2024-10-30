@@ -153,7 +153,7 @@ AchievementFrameAchievementsObjectives = {}
 --- @field Middle Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L642)
---- child of 
+--- child of AchievementCategoryTemplate_Button
 --- @class AchievementCategoryTemplate_Button_Label : FontString, GameFontNormalLeftBottom
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L625)
@@ -205,11 +205,11 @@ AchievementFrameAchievementsObjectives = {}
 --- @class AchievementTemplate_Tabard : Frame, AchievementGuildTabardTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L973)
---- child of 
+--- child of AchievementTemplate_Shield
 --- @class AchievementTemplate_Shield_Points : FontString, AchievementPointsFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L979)
---- child of 
+--- child of AchievementTemplate_Shield
 --- @class AchievementTemplate_Shield_DateCompleted : FontString, AchievementDateFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L957)
@@ -275,7 +275,7 @@ AchievementFrameAchievementsObjectives = {}
 --- @field frame Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1121)
---- child of 
+--- child of ComparisonPlayerTemplate_Shield
 --- @class ComparisonPlayerTemplate_Shield_Points : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1105)
@@ -331,24 +331,24 @@ AchievementFrameAchievementsObjectives = {}
 --- @class AchievementComparisonTemplate_Player : Frame, ComparisonPlayerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1275)
---- child of 
+--- child of AchievementComparisonTemplate_Friend
 --- @class AchievementComparisonTemplate_Friend_Icon : Frame
 --- @field bling Texture
 --- @field texture Texture
 --- @field frame Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1327)
---- child of 
+--- child of AchievementComparisonTemplate_Friend_Shield
 --- @class AchievementComparisonTemplate_Friend_Shield_Points : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1311)
---- child of 
+--- child of AchievementComparisonTemplate_Friend
 --- @class AchievementComparisonTemplate_Friend_Shield : Frame
 --- @field Icon Texture
 --- @field Points AchievementComparisonTemplate_Friend_Shield_Points
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1267)
---- child of 
+--- child of AchievementComparisonTemplate_Friend
 --- @class AchievementComparisonTemplate_Friend_Status : FontString, AchievementDateFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1232)
@@ -418,12 +418,12 @@ AchievementFrameAchievementsObjectives = {}
 --- @field FriendValue AchievementComparisonStatTemplate_FriendValue
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1687)
---- child of 
+--- child of AchievementFrame_Header
 --- @class AchievementFrame_Header_Title : FontString, GameFontNormalSmall, AutoScalingFontStringMixin
 --- @field minLineHeight number # 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1710)
---- child of 
+--- child of AchievementFrame_Header
 --- @class AchievementFrame_Header_Points : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1657)
@@ -1166,91 +1166,91 @@ AchievementFrameComparisonHeaderName = {}
 AchievementFrameComparisonHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L641)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Player_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type AchievementHeaderStatusBarTemplate_AchievementHeaderStatusBarTemplateTitle
 AchievementFrameComparisonTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L650)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Player_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type AchievementHeaderStatusBarTemplate_AchievementHeaderStatusBarTemplateText
 AchievementFrameComparisonText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L660)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Player_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type Texture
 AchievementFrameComparisonLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L671)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Player_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type Texture
 AchievementFrameComparisonRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L682)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Player_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type Texture
 AchievementFrameComparisonMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L691)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Player_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type Texture
 AchievementFrameComparisonFillBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2172)
---- child of 
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Player
 --- @class AchievementFrame_AchievementFrameComparison_Summary_Player_StatusBar : StatusBar, AchievementHeaderStatusBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2162)
---- child of 
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Player
 --- @class AchievementFrame_AchievementFrameComparison_Summary_Player_AchievementFrameComparisonBackground : Texture
 AchievementFrameComparisonBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2152)
---- child of 
+--- child of AchievementFrame_AchievementFrameComparison_Summary
 --- @class AchievementFrame_AchievementFrameComparison_Summary_Player : Frame, TooltipBorderBackdropTemplate
 --- @field backdropBorderColor any # ACHIEVEMENT_YELLOW_BORDER_COLOR
 --- @field StatusBar AchievementFrame_AchievementFrameComparison_Summary_Player_StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L641)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Friend_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type AchievementHeaderStatusBarTemplate_AchievementHeaderStatusBarTemplateTitle
 AchievementFrameComparisonTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L650)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Friend_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type AchievementHeaderStatusBarTemplate_AchievementHeaderStatusBarTemplateText
 AchievementFrameComparisonText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L660)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Friend_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type Texture
 AchievementFrameComparisonLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L671)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Friend_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type Texture
 AchievementFrameComparisonRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L682)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Friend_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type Texture
 AchievementFrameComparisonMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L691)
---- child of  (created in template AchievementHeaderStatusBarTemplate)
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Friend_StatusBar (created in template AchievementHeaderStatusBarTemplate)
 --- @type Texture
 AchievementFrameComparisonFillBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2201)
---- child of 
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Friend
 --- @class AchievementFrame_AchievementFrameComparison_Summary_Friend_StatusBar : StatusBar, AchievementHeaderStatusBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2191)
---- child of 
+--- child of AchievementFrame_AchievementFrameComparison_Summary_Friend
 --- @class AchievementFrame_AchievementFrameComparison_Summary_Friend_AchievementFrameComparisonBackground : Texture
 AchievementFrameComparisonBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2181)
---- child of 
+--- child of AchievementFrame_AchievementFrameComparison_Summary
 --- @class AchievementFrame_AchievementFrameComparison_Summary_Friend : Frame, TooltipBorderBackdropTemplate
 --- @field backdropBorderColor any # ACHIEVEMENT_YELLOW_BORDER_COLOR
 --- @field StatusBar AchievementFrame_AchievementFrameComparison_Summary_Friend_StatusBar
@@ -1262,11 +1262,11 @@ AchievementFrameComparisonBackground = {}
 --- @field Friend AchievementFrame_AchievementFrameComparison_Summary_Friend
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2211)
---- child of 
+--- child of AchievementFrame_AchievementFrameComparison_AchievementContainer
 --- @class AchievementFrame_AchievementFrameComparison_AchievementContainer_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2218)
---- child of 
+--- child of AchievementFrame_AchievementFrameComparison_AchievementContainer
 --- @class AchievementFrame_AchievementFrameComparison_AchievementContainer_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2209)
@@ -1276,11 +1276,11 @@ AchievementFrameComparisonBackground = {}
 --- @field ScrollBar AchievementFrame_AchievementFrameComparison_AchievementContainer_ScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2245)
---- child of 
+--- child of AchievementFrame_AchievementFrameComparison_StatContainer
 --- @class AchievementFrame_AchievementFrameComparison_StatContainer_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2252)
---- child of 
+--- child of AchievementFrame_AchievementFrameComparison_StatContainer
 --- @class AchievementFrame_AchievementFrameComparison_StatContainer_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2239)
@@ -1475,12 +1475,12 @@ AchievementFrameFilterDropdown = {}
 AchievementFrameFilterDropdown["text"] = FILTER -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1504)
---- child of  (created in template SearchBoxTemplate)
+--- child of AchievementFrame_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 AchievementFrameClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1495)
---- child of  (created in template SearchBoxTemplate)
+--- child of AchievementFrame_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 AchievementFrameSearchIcon = {}
 
@@ -1489,57 +1489,57 @@ AchievementFrameSearchIcon = {}
 --- @class AchievementFrame_SearchBox : EditBox, SearchBoxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2419)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_SearchPreview1 : Button, AchievementSearchPreviewButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2424)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_SearchPreview2 : Button, AchievementSearchPreviewButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2429)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_SearchPreview3 : Button, AchievementSearchPreviewButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2434)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_SearchPreview4 : Button, AchievementSearchPreviewButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2439)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_SearchPreview5 : Button, AchievementSearchPreviewButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2461)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer_ShowAllSearchResults
 --- @class AchievementFrame_SearchPreviewContainer_ShowAllSearchResults_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2444)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_ShowAllSearchResults : Button
 --- @field SelectedTexture Texture
 --- @field Text AchievementFrame_SearchPreviewContainer_ShowAllSearchResults_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2380)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_BorderAnchor : Texture, UI-Frame-BotCornerLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2386)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_BotRightCorner : Texture, UI-Frame-BotCornerRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2392)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_BottomBorder : Texture, _UI-Frame-Bot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2398)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_LeftBorder : Texture, !UI-Frame-LeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2404)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_RightBorder : Texture, !UI-Frame-RightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2410)
---- child of 
+--- child of AchievementFrame_SearchPreviewContainer
 --- @class AchievementFrame_SearchPreviewContainer_TopBorder : Texture, _UI-Frame-Bot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2365)
@@ -1561,7 +1561,7 @@ AchievementFrameSearchIcon = {}
 --- @field searchPreviews table<number, AchievementFrame_SearchPreviewContainer_SearchPreview1 | AchievementFrame_SearchPreviewContainer_SearchPreview2 | AchievementFrame_SearchPreviewContainer_SearchPreview3 | AchievementFrame_SearchPreviewContainer_SearchPreview4 | AchievementFrame_SearchPreviewContainer_SearchPreview5>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2511)
---- child of 
+--- child of AchievementFrame_searchProgressBar
 --- @class AchievementFrame_searchProgressBar_Text : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2495)
@@ -1574,67 +1574,67 @@ AchievementFrameSearchIcon = {}
 --- @field BorderCenter Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2657)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2667)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2674)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2577)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_TitleText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2584)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_TopLeftCorner : Texture, UI-Frame-TopCornerLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2589)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_TopRightCorner : Texture, UI-Frame-TopCornerRightSimple
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2594)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_TopBorder : Texture, _UI-Frame-Top
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2600)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_BottomLeftCorner : Texture, UI-Frame-BotCornerLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2605)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_BottomRightCorner : Texture, UI-Frame-BotCornerRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2610)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_BottomBorder : Texture, _UI-Frame-Bot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2616)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_LeftBorder : Texture, !UI-Frame-LeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2622)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_RightBorder : Texture, !UI-Frame-RightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2630)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_TopTileStreaks : Texture, _UI-Frame-TopTileStreaks
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2638)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_TopLeftCorner2 : Texture, UI-Frame-TopCornerLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2643)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_TopRightCorner2 : Texture, UI-Frame-TopCornerRightSimple
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2648)
---- child of 
+--- child of AchievementFrame_SearchResults
 --- @class AchievementFrame_SearchResults_TopBorder2 : Texture, _UI-Frame-Top
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L2561)

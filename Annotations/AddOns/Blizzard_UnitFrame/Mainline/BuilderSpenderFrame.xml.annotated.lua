@@ -8,7 +8,7 @@
 --- @field GainGlowTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L43)
---- child of 
+--- child of FullResourcePulseFrame_SpikeFrame
 --- @class FullResourcePulseFrame_SpikeFrame_SpikeAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L23)
@@ -19,7 +19,7 @@
 --- @field SpikeAnim FullResourcePulseFrame_SpikeFrame_SpikeAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L78)
---- child of 
+--- child of FullResourcePulseFrame_PulseFrame
 --- @class FullResourcePulseFrame_PulseFrame_PulseAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/BuilderSpenderFrame.xml#L56)

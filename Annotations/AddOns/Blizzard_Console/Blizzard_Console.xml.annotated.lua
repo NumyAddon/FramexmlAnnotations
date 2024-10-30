@@ -8,7 +8,7 @@
 --- @field BorderBottom Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L64)
---- child of 
+--- child of DeveloperConsole_EditBox
 --- @class DeveloperConsole_EditBox_Background : Frame, DeveloperConsoleBackgroundTemplate
 Background = {}
 
@@ -17,29 +17,29 @@ Background = {}
 --- @class DeveloperConsole_EditBox : EditBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L149)
---- child of 
+--- child of DeveloperConsole_Filters
 --- @class DeveloperConsole_Filters_Background : Frame, DeveloperConsoleBackgroundTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L157)
---- child of 
+--- child of DeveloperConsole_Filters_ProgressBar
 --- @class DeveloperConsole_Filters_ProgressBar_FadeAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L151)
---- child of 
+--- child of DeveloperConsole_Filters
 --- @class DeveloperConsole_Filters_ProgressBar : StatusBar, SmoothStatusBarMixin
 --- @field FadeAnim DeveloperConsole_Filters_ProgressBar_FadeAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L193)
---- child of 
+--- child of DeveloperConsole_Filters_EditBox
 --- @class DeveloperConsole_Filters_EditBox_ClearTextButton : Button, UIPanelCloseButtonNoScripts
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L166)
---- child of 
+--- child of DeveloperConsole_Filters
 --- @class DeveloperConsole_Filters_EditBox : EditBox
 --- @field ClearTextButton DeveloperConsole_Filters_EditBox_ClearTextButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L130)
---- child of 
+--- child of DeveloperConsole_Filters
 --- @class DeveloperConsole_Filters_FilterLabel : FontString, NumberFont_Shadow_Med
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L122)
@@ -58,15 +58,15 @@ Background = {}
 --- @field Border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L290)
---- child of 
+--- child of DeveloperConsole_MessageFrame_CopyNoticeFrame
 --- @class DeveloperConsole_MessageFrame_CopyNoticeFrame_Label : FontString, SystemFont_Shadow_Large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L296)
---- child of 
+--- child of DeveloperConsole_MessageFrame_CopyNoticeFrame
 --- @class DeveloperConsole_MessageFrame_CopyNoticeFrame_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L282)
---- child of 
+--- child of DeveloperConsole_MessageFrame
 --- @class DeveloperConsole_MessageFrame_CopyNoticeFrame : Frame
 --- @field Label DeveloperConsole_MessageFrame_CopyNoticeFrame_Label
 --- @field Anim DeveloperConsole_MessageFrame_CopyNoticeFrame_Anim

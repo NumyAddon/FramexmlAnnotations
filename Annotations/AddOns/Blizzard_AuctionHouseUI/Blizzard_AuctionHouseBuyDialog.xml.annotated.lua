@@ -24,7 +24,7 @@
 --- @class AuctionHouseBuyDialogTemplate_Border : Frame, DialogBorderDarkTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBuyDialog.xml#L64)
---- child of 
+--- child of AuctionHouseBuyDialogTemplate_ItemDisplay
 --- @class AuctionHouseBuyDialogTemplate_ItemDisplay_ItemText : FontString, Number15FontWhite
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBuyDialog.xml#L57)

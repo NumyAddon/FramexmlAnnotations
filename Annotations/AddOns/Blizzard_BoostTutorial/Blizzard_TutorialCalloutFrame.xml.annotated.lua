@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialCalloutFrame.xml#L8)
---- child of 
+--- child of NPE_TutorialCallout_Animator
 --- @class NPE_TutorialCallout_Animator_Anim_Pulse : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialCalloutFrame.xml#L6)

@@ -80,7 +80,7 @@
 --- @class DelvesCompanionConfigurationFrame_CompanionExperienceRingFrame : Cooldown, CompanionExperienceRingFrameMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L272)
---- child of 
+--- child of DelvesCompanionConfigurationFrame_CompanionLevelFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionLevelFrame_CompanionLevel : FontString, SystemFont_Large2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L265)
@@ -89,15 +89,15 @@
 --- @field CompanionLevel DelvesCompanionConfigurationFrame_CompanionLevelFrame_CompanionLevel
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L298)
---- child of 
+--- child of DelvesCompanionConfigurationFrame_CompanionInfoFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionInfoFrame_CompanionName : FontString, SystemFont_Huge4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L305)
---- child of 
+--- child of DelvesCompanionConfigurationFrame_CompanionInfoFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionInfoFrame_CompanionDescription : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L312)
---- child of 
+--- child of DelvesCompanionConfigurationFrame_CompanionInfoFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionInfoFrame_CompanionInfoGLine : Texture
 CompanionInfoGLine = {}
 

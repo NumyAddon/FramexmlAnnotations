@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.xml#L18)
---- child of 
+--- child of ClassTalentButtonArtTemplate_BorderSheen
 --- @class ClassTalentButtonArtTemplate_BorderSheen_Anim : AnimationGroup, SyncedAnimGroupTemplate
 --- @field syncKey any # ClassTalentBorderSheenSyncKey
 
@@ -18,7 +18,7 @@
 --- @field BorderSheenMask MaskTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.xml#L48)
---- child of 
+--- child of ClassTalentBaseButtonTemplate_SelectableGlow
 --- @class ClassTalentBaseButtonTemplate_SelectableGlow_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.xml#L42)

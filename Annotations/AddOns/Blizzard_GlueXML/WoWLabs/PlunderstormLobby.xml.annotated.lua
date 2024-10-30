@@ -5,11 +5,11 @@
 --- @class PlunderstormLobbyFrame_GameEnvironmentToggleFrame : Frame, GameEnvironmentFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L13)
---- child of 
+--- child of PlunderstormLobbyFrame_GameModeDescriptionFrame
 --- @class PlunderstormLobbyFrame_GameModeDescriptionFrame_GameModeHeader : FontString, Game58Font_Shadow2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L20)
---- child of 
+--- child of PlunderstormLobbyFrame_GameModeDescriptionFrame
 --- @class PlunderstormLobbyFrame_GameModeDescriptionFrame_GameModeDescription : FontString, SystemFont_Large2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L9)
@@ -19,19 +19,19 @@
 --- @field GameModeDescription PlunderstormLobbyFrame_GameModeDescriptionFrame_GameModeDescription
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L41)
---- child of 
+--- child of PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton
 --- @class PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton_FriendsOnline : FontString, SystemFont_Large2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L47)
---- child of 
+--- child of PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton
 --- @class PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton_FriendsOnlineLabel : FontString, SystemFont_Large2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L57)
---- child of 
+--- child of PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton_Flash
 --- @class PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton_Flash_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L55)
---- child of 
+--- child of PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton
 --- @class PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton_Flash : Texture
 --- @field Anim PlunderstormLobbyFrame_PlunderstormLobbyFriendsButton_Flash_Anim
 
@@ -71,11 +71,11 @@ PlunderstormBackground = {}
 --- @class PlunderstormLobbyFrame_MatchmakingQueueFrame : Frame, MatchmakingQueueFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L154)
---- child of 
+--- child of PlunderstormLobbyFrame_SubNoticeFrame
 --- @class PlunderstormLobbyFrame_SubNoticeFrame_SuscribeButton : Button, GlueButtonTemplate, WoWLabsSubscribeButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L145)
---- child of 
+--- child of PlunderstormLobbyFrame_SubNoticeFrame
 --- @class PlunderstormLobbyFrame_SubNoticeFrame_SubRequiredText : FontString, GlueFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.xml#L138)

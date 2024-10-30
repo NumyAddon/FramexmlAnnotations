@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.xml#L41)
---- child of 
+--- child of ProfessionsRecraftSlotTemplate_InputSlot_Glow
 --- @class ProfessionsRecraftSlotTemplate_InputSlot_Glow_PulseEmptySlotGlow : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.xml#L28)
---- child of 
+--- child of ProfessionsRecraftSlotTemplate_InputSlot
 --- @class ProfessionsRecraftSlotTemplate_InputSlot_Glow : Frame
 --- @field EmptySlotGlow Texture
 --- @field PulseEmptySlotGlow ProfessionsRecraftSlotTemplate_InputSlot_Glow_PulseEmptySlotGlow
@@ -17,7 +17,7 @@
 --- @field Glow ProfessionsRecraftSlotTemplate_InputSlot_Glow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.xml#L67)
---- child of 
+--- child of ProfessionsRecraftSlotTemplate_AnimatedArrow
 --- @class ProfessionsRecraftSlotTemplate_AnimatedArrow_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.xml#L52)

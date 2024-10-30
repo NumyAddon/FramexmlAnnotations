@@ -23,90 +23,90 @@
 --- @class ProfessionsCrafterOrderViewTemplate_ConcentrationDisplay : Frame, ProfessionsCurrencyTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L109)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # "InsetFrameTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L115)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_BackButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L122)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_SocialDropdown : DropdownButton, UIMenuButtonStretchTemplate
 --- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L147)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo_NoteBox
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NoteBox_Background : Frame
 --- @field Border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L161)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo_NoteBox
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NoteBox_NoteTitle : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L167)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo_NoteBox
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NoteBox_NoteText : FontString, GameFontDisable
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L141)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NoteBox : Frame
 --- @field Background ProfessionsCrafterOrderViewTemplate_OrderInfo_NoteBox_Background
 --- @field NoteTitle ProfessionsCrafterOrderViewTemplate_OrderInfo_NoteBox_NoteTitle
 --- @field NoteText ProfessionsCrafterOrderViewTemplate_OrderInfo_NoteBox_NoteText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L177)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_StartOrderButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L193)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo_OrderReagentsWarning
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_OrderReagentsWarning_Text : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L185)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_OrderReagentsWarning : Frame, ResizeLayoutFrame
 --- @field Icon Texture
 --- @field Text ProfessionsCrafterOrderViewTemplate_OrderInfo_OrderReagentsWarning_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L202)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_DeclineOrderButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L209)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_ReleaseOrderButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L216)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_CommissionTitleMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field leftAlign boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L228)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_ConsortiumCutMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field leftAlign boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L251)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_FinalTipMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field leftAlign boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L287)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem1 : ItemButton, ProfessionsCrafterOrderRewardTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L292)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem2 : ItemButton, ProfessionsCrafterOrderRewardTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L279)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_RewardText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L263)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame : Frame
 --- @field RewardItem1 ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem1
 --- @field RewardItem2 ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem2
@@ -116,31 +116,31 @@
 --- @field RewardItems table<number, ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem1 | ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L59)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_PostedByTitle : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L65)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_PostedByValue : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L71)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_CommissionTitle : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L77)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_ConsortiumCutTitle : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L88)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_FinalTipTitle : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L94)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_TimeRemainingTitle : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L100)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_TimeRemainingValue : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L44)
@@ -169,54 +169,54 @@
 --- @field TimeRemainingValue ProfessionsCrafterOrderViewTemplate_OrderInfo_TimeRemainingValue
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L316)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderDetails
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # "InsetFrameTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L322)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderDetails
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_SchematicForm : Frame, ProfessionsRecipeSchematicFormTemplate
 --- @field showTrackRecipe boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L332)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_ItemIcon : Button, ProfessionsOutputButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L341)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_RecraftSlot : Frame, ProfessionsRecraftSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L369)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox_TitleBox
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox_TitleBox_Title : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L362)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox_TitleBox : Frame
 --- @field Title ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox_TitleBox_Title
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L379)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox_ScrollingEditBox : Frame, ScrollingEditBoxTemplate
 --- @field fontName string # "GameFontHighlight"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L347)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox : Frame
 --- @field TitleBox ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox_TitleBox
 --- @field ScrollingEditBox ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox_ScrollingEditBox
 --- @field Border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L395)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_ItemName : FontString, GameFontHighlightMed2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L403)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_OrderCompleteText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L330)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_OrderDetails
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm : Frame
 --- @field ItemIcon ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_ItemIcon
 --- @field RecraftSlot ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_RecraftSlot
@@ -254,36 +254,36 @@
 --- @class ProfessionsCrafterOrderViewTemplate_StopRecraftButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L501)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox_TitleBox
 --- @class ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox_TitleBox_Title : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L494)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox
 --- @class ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox_TitleBox : Frame
 --- @field Title ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox_TitleBox_Title
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L511)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox
 --- @class ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox_ScrollingEditBox : Frame, ScrollingEditBoxTemplate
 --- @field fontName string # "GameFontHighlight"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L479)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog
 --- @class ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox : Frame
 --- @field TitleBox ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox_TitleBox
 --- @field ScrollingEditBox ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox_ScrollingEditBox
 --- @field Border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L525)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog
 --- @class ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_CancelButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L531)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog
 --- @class ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_ConfirmButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L470)
---- child of 
+--- child of ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog
 --- @class ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_ConfirmationText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L455)

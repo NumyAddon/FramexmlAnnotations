@@ -35,7 +35,7 @@
 --- @field isInspect boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
---- child of  (created in template InspectPvpStatTemplate)
+--- child of InspectPVPFrame_RatedBG (created in template InspectPvpStatTemplate)
 --- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
 InspectPVPFrameBGType = {}
 
@@ -44,7 +44,7 @@ InspectPVPFrameBGType = {}
 --- @class InspectPVPFrame_RatedBG : Frame, InspectPvpStatTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
---- child of  (created in template InspectPvpStatTemplate)
+--- child of InspectPVPFrame_Arena2v2 (created in template InspectPvpStatTemplate)
 --- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
 InspectPVPFrameBGType = {}
 
@@ -53,7 +53,7 @@ InspectPVPFrameBGType = {}
 --- @class InspectPVPFrame_Arena2v2 : Frame, InspectPvpStatTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
---- child of  (created in template InspectPvpStatTemplate)
+--- child of InspectPVPFrame_Arena3v3 (created in template InspectPvpStatTemplate)
 --- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
 InspectPVPFrameBGType = {}
 
@@ -62,7 +62,7 @@ InspectPVPFrameBGType = {}
 --- @class InspectPVPFrame_Arena3v3 : Frame, InspectPvpStatTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
---- child of  (created in template InspectPvpStatTemplate)
+--- child of InspectPVPFrame_RatedSoloShuffle (created in template InspectPvpStatTemplate)
 --- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
 InspectPVPFrameBGType = {}
 
@@ -71,7 +71,7 @@ InspectPVPFrameBGType = {}
 --- @class InspectPVPFrame_RatedSoloShuffle : Frame, InspectPvpStatTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
---- child of  (created in template InspectPvpStatTemplate)
+--- child of InspectPVPFrame_RatedBGBlitz (created in template InspectPvpStatTemplate)
 --- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
 InspectPVPFrameBGType = {}
 

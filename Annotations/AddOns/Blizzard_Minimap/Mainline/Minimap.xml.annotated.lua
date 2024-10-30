@@ -6,7 +6,7 @@
 --- @field layoutType string # "UniqueCornersLayout"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L32)
---- child of 
+--- child of MinimapCluster_ZoneTextButton
 --- @class MinimapCluster_ZoneTextButton_MinimapZoneText : FontString, GameFontNormal
 MinimapZoneText = {}
 
@@ -15,7 +15,7 @@ MinimapZoneText = {}
 --- @class MinimapCluster_ZoneTextButton : Button, MinimapZoneTextButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L59)
---- child of 
+--- child of MinimapCluster_Tracking
 --- @class MinimapCluster_Tracking_Button : DropdownButton, MiniMapTrackingButtonMixin
 --- @field menuPoint string # "TOPRIGHT"
 
@@ -26,20 +26,20 @@ MinimapZoneText = {}
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L96)
---- child of 
+--- child of MinimapCluster_IndicatorFrame_MailFrame
 --- @class MinimapCluster_IndicatorFrame_MailFrame_MiniMapMailIcon : Texture
 MiniMapMailIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L125)
---- child of 
+--- child of MinimapCluster_IndicatorFrame_MailFrame
 --- @class MinimapCluster_IndicatorFrame_MailFrame_NewMailAnim : AnimationGroup, MinimapMailAnimMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L133)
---- child of 
+--- child of MinimapCluster_IndicatorFrame_MailFrame
 --- @class MinimapCluster_IndicatorFrame_MailFrame_MailReminderAnim : AnimationGroup, MinimapMailAnimMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L89)
---- child of 
+--- child of MinimapCluster_IndicatorFrame
 --- @class MinimapCluster_IndicatorFrame_MailFrame : Frame, MiniMapMailFrameMixin
 --- @field layoutIndex number # 1
 --- @field MailIcon MinimapCluster_IndicatorFrame_MailFrame_MiniMapMailIcon
@@ -49,12 +49,12 @@ MiniMapMailIcon = {}
 --- @field MailReminderAnim MinimapCluster_IndicatorFrame_MailFrame_MailReminderAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L150)
---- child of 
+--- child of MinimapCluster_IndicatorFrame_CraftingOrderFrame
 --- @class MinimapCluster_IndicatorFrame_CraftingOrderFrame_MiniMapCraftingOrderIcon : Texture
 MiniMapCraftingOrderIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L143)
---- child of 
+--- child of MinimapCluster_IndicatorFrame
 --- @class MinimapCluster_IndicatorFrame_CraftingOrderFrame : Frame, MiniMapCraftingOrderFrameMixin
 --- @field layoutIndex number # 2
 
@@ -116,7 +116,7 @@ MinimapCompassTexture = {}
 MinimapBackdrop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L175)
---- child of 
+--- child of MinimapCluster_MinimapContainer
 --- @class MinimapCluster_MinimapContainer_Minimap : Minimap, MinimapMixin
 --- @field ZoomHitArea Frame
 --- @field ZoomIn MinimapCluster_MinimapContainer_Minimap_ZoomIn

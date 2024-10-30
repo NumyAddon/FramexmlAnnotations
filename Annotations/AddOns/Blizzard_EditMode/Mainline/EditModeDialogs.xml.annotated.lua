@@ -196,12 +196,12 @@ EditModeUnsavedChangesDialog = {}
 --- @field spacing number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L297)
---- child of 
+--- child of EditModeSystemSettingsDialog_Buttons
 --- @class EditModeSystemSettingsDialog_Buttons_RevertChangesButton : Button, EditModeSystemSettingsDialogButtonTemplate
 --- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L305)
---- child of 
+--- child of EditModeSystemSettingsDialog_Buttons
 --- @class EditModeSystemSettingsDialog_Buttons_Divider : Texture
 --- @field layoutIndex number # 2
 

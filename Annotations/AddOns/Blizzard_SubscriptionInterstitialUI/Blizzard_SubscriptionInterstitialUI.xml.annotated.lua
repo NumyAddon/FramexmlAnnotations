@@ -16,42 +16,42 @@
 --- @class SubscriptionInterstitialFrame_Inset : Frame, InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1214)
---- child of  (created in template ShadowOverlaySmallTemplate)
+--- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1220)
---- child of  (created in template ShadowOverlaySmallTemplate)
+--- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1226)
---- child of  (created in template ShadowOverlaySmallTemplate)
+--- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1232)
---- child of  (created in template ShadowOverlaySmallTemplate)
+--- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1238)
---- child of  (created in template ShadowOverlaySmallTemplate)
+--- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1245)
---- child of  (created in template ShadowOverlaySmallTemplate)
+--- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1252)
---- child of  (created in template ShadowOverlaySmallTemplate)
+--- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1259)
---- child of  (created in template ShadowOverlaySmallTemplate)
+--- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameRight = {}
 
@@ -60,22 +60,22 @@ SubscriptionInterstitialFrameRight = {}
 --- @class SubscriptionInterstitialFrame_ShadowOverlay : Frame, ShadowOverlaySmallTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L72)
---- child of 
+--- child of SubscriptionInterstitialFrame_SubscribeButton
 --- @class SubscriptionInterstitialFrame_SubscribeButton_FirstLine : FontString, Game58Font_Shadow2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 40
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L82)
---- child of 
+--- child of SubscriptionInterstitialFrame_SubscribeButton
 --- @class SubscriptionInterstitialFrame_SubscribeButton_ThirdLine : FontString, Game69Font_Shadow2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 40
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L92)
---- child of 
+--- child of SubscriptionInterstitialFrame_SubscribeButton
 --- @class SubscriptionInterstitialFrame_SubscribeButton_SecondLine : FontString, Game52Font_Shadow2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 40
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L103)
---- child of 
+--- child of SubscriptionInterstitialFrame_SubscribeButton
 --- @class SubscriptionInterstitialFrame_SubscribeButton_ButtonText : FontString, SystemFont_Med3, AutoScalingFontStringMixin
 --- @field minLineHeight number # 9
 
@@ -89,17 +89,17 @@ SubscriptionInterstitialFrameRight = {}
 --- @field ButtonText SubscriptionInterstitialFrame_SubscribeButton_ButtonText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L123)
---- child of 
+--- child of SubscriptionInterstitialFrame_UpgradeButton
 --- @class SubscriptionInterstitialFrame_UpgradeButton_TitleLine : FontString, Game40Font_Shadow2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L133)
---- child of 
+--- child of SubscriptionInterstitialFrame_UpgradeButton
 --- @class SubscriptionInterstitialFrame_UpgradeButton_TitleSubText : FontString, Game17Font_Shadow, AutoScalingFontStringMixin
 --- @field minLineHeight number # 11
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L143)
---- child of 
+--- child of SubscriptionInterstitialFrame_UpgradeButton
 --- @class SubscriptionInterstitialFrame_UpgradeButton_ButtonText : FontString, SystemFont_Med3, AutoScalingFontStringMixin
 --- @field minLineHeight number # 9
 

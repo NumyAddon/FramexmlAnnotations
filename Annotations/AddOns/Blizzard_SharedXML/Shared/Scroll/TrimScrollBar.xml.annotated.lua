@@ -16,7 +16,7 @@
 --- @field Middle Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L70)
---- child of 
+--- child of WowTrimScrollBar_Track
 --- @class WowTrimScrollBar_Track_Thumb : EventButton, WowTrimScrollBarThumbScripts
 --- @field mouseDownSoundKitID any # SOUNDKIT.U_CHAT_SCROLL_BUTTON
 --- @field Middle Texture
@@ -60,7 +60,7 @@
 --- @field Middle Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.xml#L208)
---- child of 
+--- child of WowTrimHorizontalScrollBar_Track
 --- @class WowTrimHorizontalScrollBar_Track_Thumb : EventButton, WowTrimScrollBarThumbScripts
 --- @field isHorizontal boolean # true
 --- @field Middle Texture

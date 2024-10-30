@@ -14,20 +14,20 @@
 --- @class AzeriteLevelUpToast_IconEffect : ModelScene, NonInteractableModelSceneMixinTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L197)
---- child of 
+--- child of AzeriteLevelUpToast_UnlockItemsFrame
 --- @class AzeriteLevelUpToast_UnlockItemsFrame_EssenceSlotFrame : Frame
 --- @field layoutIndex number # 10
 --- @field GlassCover Texture
 --- @field Ring Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L211)
---- child of 
+--- child of AzeriteLevelUpToast_UnlockItemsFrame
 --- @class AzeriteLevelUpToast_UnlockItemsFrame_EssenceStaminaFrame : Frame
 --- @field layoutIndex number # 11
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L222)
---- child of 
+--- child of AzeriteLevelUpToast_UnlockItemsFrame
 --- @class AzeriteLevelUpToast_UnlockItemsFrame_EssenceRankedFrame : Frame
 --- @field layoutIndex number # 12
 --- @field Icon Texture

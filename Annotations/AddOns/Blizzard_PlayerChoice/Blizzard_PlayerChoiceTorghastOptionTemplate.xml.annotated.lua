@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L89)
---- child of 
+--- child of PlayerChoiceTorghastOptionTemplate_Header
 --- @class PlayerChoiceTorghastOptionTemplate_Header_Text : FontString, QuestFontHighlightHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L82)

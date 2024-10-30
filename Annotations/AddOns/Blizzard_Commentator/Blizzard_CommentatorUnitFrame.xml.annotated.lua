@@ -28,11 +28,11 @@
 --- @field Overlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L153)
---- child of 
+--- child of CommentatorUnitFrameTemplate_Circle
 --- @class CommentatorUnitFrameTemplate_Circle_CCCooldown : Cooldown, CommentatorRadialCooldownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L132)
---- child of 
+--- child of CommentatorUnitFrameTemplate_Circle
 --- @class CommentatorUnitFrameTemplate_Circle_CCText : FontString, CommentatorCCFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L68)
@@ -61,16 +61,16 @@
 --- @class CommentatorUnitFrameTemplate_RacialAbilityTracker : Frame, CooldownCircleTrackerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L197)
---- child of 
+--- child of CommentatorUnitFrameTemplate_Bars
 --- @class CommentatorUnitFrameTemplate_Bars_HealthBar : StatusBar, CommentatorUnitFrameStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L210)
---- child of 
+--- child of CommentatorUnitFrameTemplate_Bars
 --- @class CommentatorUnitFrameTemplate_Bars_AbsorbBar : StatusBar, CommentatorUFStatusBarTemplate
 --- @field OverAbsorb Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L227)
---- child of 
+--- child of CommentatorUnitFrameTemplate_Bars
 --- @class CommentatorUnitFrameTemplate_Bars_PowerBar : StatusBar, CommentatorUnitFrameStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L186)

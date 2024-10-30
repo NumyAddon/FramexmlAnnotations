@@ -5,23 +5,23 @@
 --- @class DummyAuctionHouseScrollBarTemplate : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L74)
---- child of 
+--- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay
 --- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay_Label : FontString, GameFontNormalHuge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L81)
---- child of 
+--- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay
 --- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay_Tutorial1 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L94)
---- child of 
+--- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay
 --- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay_Tutorial2 : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L100)
---- child of 
+--- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay
 --- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay_Tutorial3 : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L67)
---- child of 
+--- child of BrowseWowTokenResultsTemplate_GameTimeTutorial
 --- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay : Frame
 --- @field Label BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay_Label
 --- @field Tutorial1 BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay_Tutorial1
@@ -29,28 +29,28 @@
 --- @field Tutorial3 BrowseWowTokenResultsTemplate_GameTimeTutorial_LeftDisplay_Tutorial3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L156)
---- child of 
+--- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay
 --- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_StoreButton : Button, UIPanelGoldButtonTemplate
 --- @field Logo Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L116)
---- child of 
+--- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay
 --- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_Label : FontString, GameFontNormalHuge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L123)
---- child of 
+--- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay
 --- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_Tutorial1 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L136)
---- child of 
+--- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay
 --- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_Tutorial2 : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L142)
---- child of 
+--- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay
 --- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_Tutorial3 : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L109)
---- child of 
+--- child of BrowseWowTokenResultsTemplate_GameTimeTutorial
 --- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay : Frame
 --- @field StoreButton BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_StoreButton
 --- @field Label BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_Label
@@ -114,7 +114,7 @@
 --- @class WoWTokenSellFrameTemplate_PostButton : Button, UIPanelButtonTemplate, AuctionHouseSellFramePostButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L395)
---- child of 
+--- child of WoWTokenSellFrameTemplate_DummyItemList
 --- @class WoWTokenSellFrameTemplate_DummyItemList_DummyScrollBar : Slider, DummyAuctionHouseScrollBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L385)

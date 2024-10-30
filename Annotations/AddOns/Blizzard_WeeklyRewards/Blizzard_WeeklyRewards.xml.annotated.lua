@@ -23,24 +23,24 @@
 --- @field Name WeeklyRewardActivityTypeTemplate_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L146)
---- child of 
+--- child of WeeklyRewardActivityTemplate_RewardGenerated_Sparkles
 --- @class WeeklyRewardActivityTemplate_RewardGenerated_Sparkles_Sparkle3 : Frame
 --- @field Sparkle3 Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L140)
---- child of 
+--- child of WeeklyRewardActivityTemplate_RewardGenerated
 --- @class WeeklyRewardActivityTemplate_RewardGenerated_Sparkles : Frame
 --- @field Sparkle3 WeeklyRewardActivityTemplate_RewardGenerated_Sparkles_Sparkle3
 --- @field Sparkle1 Texture
 --- @field Sparkle2 Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L194)
---- child of 
+--- child of WeeklyRewardActivityTemplate_RewardGenerated
 --- @class WeeklyRewardActivityTemplate_RewardGenerated_BurstFX : Frame
 --- @field Swirl Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L220)
---- child of 
+--- child of WeeklyRewardActivityTemplate_RewardGenerated
 --- @class WeeklyRewardActivityTemplate_RewardGenerated_Overlay : Frame
 --- @field OverlayGlow Texture
 --- @field OverlayMask MaskTexture
@@ -61,12 +61,12 @@
 --- @class WeeklyRewardActivityTemplate_UnselectedFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L277)
---- child of 
+--- child of WeeklyRewardActivityTemplate_SelectionGlow
 --- @class WeeklyRewardActivityTemplate_SelectionGlow_SideGlows : Frame
 --- @field SideGlows Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L298)
---- child of 
+--- child of WeeklyRewardActivityTemplate_SelectionGlow
 --- @class WeeklyRewardActivityTemplate_SelectionGlow_EdgeGlow : Frame
 --- @field OuterGlow Texture
 --- @field RotateGlow Texture
@@ -87,7 +87,7 @@
 --- @class WeeklyRewardActivityTemplate_Progress : FontString, GameFontGreen
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L119)
---- child of 
+--- child of WeeklyRewardActivityTemplate_UncollectedGlow
 --- @class WeeklyRewardActivityTemplate_UncollectedGlow_FadeAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L114)
@@ -141,7 +141,7 @@
 --- @class WeeklyRewardConfirmSelectionTemplate_ItemFrame : Frame, LargeItemButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L430)
---- child of 
+--- child of WeeklyRewardConfirmSelectionTemplate_AlsoItemsFrame
 --- @class WeeklyRewardConfirmSelectionTemplate_AlsoItemsFrame_Text : FontString, GameFontHighlight
 --- @field layoutIndex number # 0
 
@@ -199,7 +199,7 @@
 --- @field Texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L581)
---- child of 
+--- child of WeeklyRewardsFrame_HeaderFrame
 --- @class WeeklyRewardsFrame_HeaderFrame_Text : FontString, SystemFont_Large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L574)
@@ -229,24 +229,24 @@
 --- @class WeeklyRewardsFrame_ModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L675)
---- child of 
+--- child of WeeklyRewardsFrame_ConcessionFrame_RewardsFrame
 --- @class WeeklyRewardsFrame_ConcessionFrame_RewardsFrame_Label : FontString, GameFontNormal
 --- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L681)
---- child of 
+--- child of WeeklyRewardsFrame_ConcessionFrame_RewardsFrame
 --- @class WeeklyRewardsFrame_ConcessionFrame_RewardsFrame_Text : FontString, GameFontHighlight
 --- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L664)
---- child of 
+--- child of WeeklyRewardsFrame_ConcessionFrame
 --- @class WeeklyRewardsFrame_ConcessionFrame_RewardsFrame : Frame, HorizontalLayoutFrame
 --- @field fixedHeight number # 24
 --- @field Label WeeklyRewardsFrame_ConcessionFrame_RewardsFrame_Label
 --- @field Text WeeklyRewardsFrame_ConcessionFrame_RewardsFrame_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L690)
---- child of 
+--- child of WeeklyRewardsFrame_ConcessionFrame
 --- @class WeeklyRewardsFrame_ConcessionFrame_UnselectedFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L616)

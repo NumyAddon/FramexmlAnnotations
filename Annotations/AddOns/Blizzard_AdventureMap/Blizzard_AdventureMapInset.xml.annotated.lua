@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMapInset.xml#L21)
---- child of 
+--- child of AdventureMapInsetTemplate_ExpandedFrame
 --- @class AdventureMapInsetTemplate_ExpandedFrame_CloseButton : Button, UIPanelCloseButtonNoScripts
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMapInset.xml#L9)
@@ -11,7 +11,7 @@
 --- @field Border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMapInset.xml#L44)
---- child of 
+--- child of AdventureMapInsetTemplate_CollapsedFrame
 --- @class AdventureMapInsetTemplate_CollapsedFrame_Text : FontString, SystemFont_Small2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMapInset.xml#L34)

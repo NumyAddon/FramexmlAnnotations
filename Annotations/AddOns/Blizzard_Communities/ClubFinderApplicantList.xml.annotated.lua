@@ -6,7 +6,7 @@
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L36)
---- child of 
+--- child of ClubFinderApplicantEntryTemplate_InviteButton
 --- @class ClubFinderApplicantEntryTemplate_InviteButton_Text : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.xml#L29)

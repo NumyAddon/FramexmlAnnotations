@@ -31,21 +31,21 @@
 --- @class SplashFrame_BottomLeftFeature : Frame, SplashFeatureFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L149)
---- child of 
+--- child of SplashFrame_RightFeature_StartQuestButton
 --- @class SplashFrame_RightFeature_StartQuestButton_Text : FontString, Game27Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L135)
---- child of 
+--- child of SplashFrame_RightFeature
 --- @class SplashFrame_RightFeature_StartQuestButton : Button, StartQuestButtonMixin
 --- @field Texture Texture
 --- @field Text SplashFrame_RightFeature_StartQuestButton_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L110)
---- child of 
+--- child of SplashFrame_RightFeature
 --- @class SplashFrame_RightFeature_Description : FontString, SystemFont_Shadow_Med2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/SplashFrame.xml#L116)
---- child of 
+--- child of SplashFrame_RightFeature
 --- @class SplashFrame_RightFeature_Title : FontString, Game72Font, AutoScalingFontStringMixin
 --- @field minLineHeight number # 18
 

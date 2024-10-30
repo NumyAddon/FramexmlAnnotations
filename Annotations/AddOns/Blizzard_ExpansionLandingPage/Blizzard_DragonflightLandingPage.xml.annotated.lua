@@ -8,7 +8,7 @@
 --- @field GoldDetailBottom Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.xml#L49)
---- child of 
+--- child of DragonflightLandingOverlayTemplate_Header
 --- @class DragonflightLandingOverlayTemplate_Header_Title : FontString, Fancy48Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.xml#L42)
@@ -24,29 +24,29 @@
 --- @field Bottom Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.xml#L125)
---- child of 
+--- child of DragonflightLandingOverlayTemplate_DragonridingPanel_SkillsButton
 --- @class DragonflightLandingOverlayTemplate_DragonridingPanel_SkillsButton_YellowGlow : Frame
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.xml#L154)
---- child of 
+--- child of DragonflightLandingOverlayTemplate_DragonridingPanel_SkillsButton
 --- @class DragonflightLandingOverlayTemplate_DragonridingPanel_SkillsButton_UnspentGlyphsAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.xml#L115)
---- child of 
+--- child of DragonflightLandingOverlayTemplate_DragonridingPanel
 --- @class DragonflightLandingOverlayTemplate_DragonridingPanel_SkillsButton : Button, CallbackRegistrantTemplate, UIPanelButtonTemplate, DisabledTooltipButtonTemplate, DragonridingPanelSkillsButtonMixin
 --- @field disabledTooltip any # LANDING_DRAGONRIDING_TREE_BUTTON_DISABLED
 --- @field YellowGlow DragonflightLandingOverlayTemplate_DragonridingPanel_SkillsButton_YellowGlow
 --- @field UnspentGlyphsAnim DragonflightLandingOverlayTemplate_DragonridingPanel_SkillsButton_UnspentGlyphsAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.xml#L100)
---- child of 
+--- child of DragonflightLandingOverlayTemplate_DragonridingPanel
 --- @class DragonflightLandingOverlayTemplate_DragonridingPanel_Title : FontString, Game27Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.xml#L106)
---- child of 
+--- child of DragonflightLandingOverlayTemplate_DragonridingPanel
 --- @class DragonflightLandingOverlayTemplate_DragonridingPanel_Subtitle : FontString, Game20Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.xml#L86)

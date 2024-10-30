@@ -325,7 +325,7 @@
 --- @field Title EventToastManagerSingleLineWithIconTemplate_Title
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L717)
---- child of 
+--- child of EventToastManagerFrame_HideButton
 --- @class EventToastManagerFrame_HideButton_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L707)
@@ -335,7 +335,7 @@
 --- @field Text EventToastManagerFrame_HideButton_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L632)
---- child of 
+--- child of EventToastManagerFrame_BlackBG
 --- @class EventToastManagerFrame_BlackBG_grow : AnimationGroup
 --- @field anim1 Scale
 
@@ -346,7 +346,7 @@
 --- @field grow EventToastManagerFrame_BlackBG_grow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L660)
---- child of 
+--- child of EventToastManagerFrame_GLine2
 --- @class EventToastManagerFrame_GLine2_grow : AnimationGroup
 --- @field anim1 Scale
 
@@ -357,7 +357,7 @@
 --- @field grow EventToastManagerFrame_GLine2_grow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L680)
---- child of 
+--- child of EventToastManagerFrame_GLine
 --- @class EventToastManagerFrame_GLine_grow : AnimationGroup
 --- @field anim1 Scale
 
@@ -412,15 +412,15 @@ EventToastManagerFrame["fixedWidth"] = 418
 EventToastManagerSideDisplay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L896)
---- child of 
+--- child of EventToastManagerWeeklyRewardToastUnlockTemplate_Contents
 --- @class EventToastManagerWeeklyRewardToastUnlockTemplate_Contents_Title : FontString, DestinyFontHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L902)
---- child of 
+--- child of EventToastManagerWeeklyRewardToastUnlockTemplate_Contents
 --- @class EventToastManagerWeeklyRewardToastUnlockTemplate_Contents_SubTitle : FontString, SystemFont_Shadow_Large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L966)
---- child of 
+--- child of EventToastManagerWeeklyRewardToastUnlockTemplate_Contents
 --- @class EventToastManagerWeeklyRewardToastUnlockTemplate_Contents_GVUnlockAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L796)
@@ -461,15 +461,15 @@ EventToastManagerSideDisplay = {}
 --- @field Contents EventToastManagerWeeklyRewardToastUnlockTemplate_Contents
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1206)
---- child of 
+--- child of EventToastManagerWeeklyRewardToastUpgradeTemplate_Contents
 --- @class EventToastManagerWeeklyRewardToastUpgradeTemplate_Contents_Title : FontString, DestinyFontHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1212)
---- child of 
+--- child of EventToastManagerWeeklyRewardToastUpgradeTemplate_Contents
 --- @class EventToastManagerWeeklyRewardToastUpgradeTemplate_Contents_SubTitle : FontString, SystemFont_Shadow_Large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1246)
---- child of 
+--- child of EventToastManagerWeeklyRewardToastUpgradeTemplate_Contents
 --- @class EventToastManagerWeeklyRewardToastUpgradeTemplate_Contents_GVUpgradeAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1113)

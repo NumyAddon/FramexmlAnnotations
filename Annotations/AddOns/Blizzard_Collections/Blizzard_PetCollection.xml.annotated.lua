@@ -5,11 +5,11 @@
 --- @class ExpBar_Divider : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L108)
---- child of 
+--- child of CompanionListButtonTemplate_dragButton
 --- @class CompanionListButtonTemplate_dragButton_Cooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L94)
---- child of 
+--- child of CompanionListButtonTemplate_dragButton
 --- @class CompanionListButtonTemplate_dragButton_CompanionListButtonTemplateLevel : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L79)
@@ -222,11 +222,11 @@
 --- @field LevelRequirement PetSpellSelectButtonTemplate_LevelRequirement
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L803)
---- child of 
+--- child of PetJournal_PetCount
 --- @class PetJournal_PetCount_Count : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L808)
---- child of 
+--- child of PetJournal_PetCount
 --- @class PetJournal_PetCount_Label : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L796)

@@ -73,51 +73,51 @@
 --- @class AzeriteEmpoweredItemUITemplate_PreviewItemOverlayFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L141)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Channel : Frame, AzeriteEmpoweredItemChannelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L142)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank5Slot : Frame, AzeriteEmpoweredItemSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L143)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank4Slot : Frame, AzeriteEmpoweredItemSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L144)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank3Slot : Frame, AzeriteEmpoweredItemSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L145)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank2Slot : Frame, AzeriteEmpoweredItemSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L146)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank1Slot : Frame, AzeriteEmpoweredItemSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L127)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Texture : Texture, AzeriteUITexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L134)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank5Plug : Texture, AzeritePlugTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L135)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank4Plug : Texture, AzeritePlugTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L136)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank3Plug : Texture, AzeritePlugTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L137)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank2Plug : Texture, AzeritePlugTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L124)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay : Frame
 --- @field Channel AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Channel
 --- @field Rank5Slot AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay_Rank5Slot
@@ -246,7 +246,7 @@
 --- @class PlugBg : Texture, AzeritePlugBackgroundTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUITemplates.xml#L109)
---- child of 
+--- child of AzeriteEmpoweredItemUITemplate_ClipFrame
 --- @class AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame : Frame
 --- @field KeyOverlay AzeriteEmpoweredItemUITemplate_ClipFrame_BackgroundFrame_KeyOverlay
 --- @field Bg Texture

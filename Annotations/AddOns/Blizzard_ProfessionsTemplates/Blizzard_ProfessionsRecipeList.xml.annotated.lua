@@ -66,7 +66,7 @@
 --- @field CollapseIconAlphaAdd Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L167)
---- child of 
+--- child of ProfessionsRecipeListRecipeTemplate_SkillUps
 --- @class ProfessionsRecipeListRecipeTemplate_SkillUps_Text : FontString, GameFontHighlight_NoShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L154)

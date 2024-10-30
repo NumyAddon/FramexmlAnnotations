@@ -28,7 +28,7 @@
 --- @class CovenantRenownFrame_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L151)
---- child of 
+--- child of CovenantRenownFrame_HeaderFrame
 --- @class CovenantRenownFrame_HeaderFrame_Level : FontString, Game32Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L137)

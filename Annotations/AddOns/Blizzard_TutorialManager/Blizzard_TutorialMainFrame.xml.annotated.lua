@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L27)
---- child of 
+--- child of TutorialMainFrame_Frame_ContainerFrame
 --- @class TutorialMainFrame_Frame_ContainerFrame_Text : FontString, GameFontNormalHuge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L14)
@@ -28,11 +28,11 @@ TutorialMainFrame_Frame = {}
 TutorialMainFrame_Frame["widthPadding"] = 180
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L72)
---- child of 
+--- child of TutorialSingleKey_Frame_ContainerFrame
 --- @class TutorialSingleKey_Frame_ContainerFrame_KeyBind : Frame, KeyBindingTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L80)
---- child of 
+--- child of TutorialSingleKey_Frame_ContainerFrame
 --- @class TutorialSingleKey_Frame_ContainerFrame_Text : FontString, GameFontNormalHuge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L67)

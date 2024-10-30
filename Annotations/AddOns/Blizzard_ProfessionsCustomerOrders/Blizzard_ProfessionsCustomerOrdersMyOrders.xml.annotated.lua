@@ -10,20 +10,20 @@
 --- @class ProfessionsCustomerOrdersMyOrdersTemplate_RefreshButton : Button, RefreshButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L60)
---- child of 
+--- child of ProfessionsCustomerOrdersMyOrdersTemplate_OrderList
 --- @class ProfessionsCustomerOrdersMyOrdersTemplate_OrderList_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # "InsetFrameTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L69)
---- child of 
+--- child of ProfessionsCustomerOrdersMyOrdersTemplate_OrderList
 --- @class ProfessionsCustomerOrdersMyOrdersTemplate_OrderList_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L75)
---- child of 
+--- child of ProfessionsCustomerOrdersMyOrdersTemplate_OrderList
 --- @class ProfessionsCustomerOrdersMyOrdersTemplate_OrderList_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L81)
---- child of 
+--- child of ProfessionsCustomerOrdersMyOrdersTemplate_OrderList
 --- @class ProfessionsCustomerOrdersMyOrdersTemplate_OrderList_LoadingSpinner : Frame, SpinnerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L37)

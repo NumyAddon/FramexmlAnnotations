@@ -5,7 +5,7 @@
 --- @class RuneButtonIndividualTemplate_Cooldown : Cooldown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L120)
---- child of 
+--- child of RuneButtonIndividualTemplate_DepleteVisuals
 --- @class RuneButtonIndividualTemplate_DepleteVisuals_DepleteAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L93)

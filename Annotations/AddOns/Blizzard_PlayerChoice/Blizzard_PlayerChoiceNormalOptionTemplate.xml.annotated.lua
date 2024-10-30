@@ -1,17 +1,17 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceNormalOptionTemplate.xml#L60)
---- child of 
+--- child of PlayerChoiceNormalOptionTemplate_Header_Contents
 --- @class PlayerChoiceNormalOptionTemplate_Header_Contents_Icon : Texture
 --- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceNormalOptionTemplate.xml#L68)
---- child of 
+--- child of PlayerChoiceNormalOptionTemplate_Header_Contents
 --- @class PlayerChoiceNormalOptionTemplate_Header_Contents_Text : FontString
 --- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceNormalOptionTemplate.xml#L49)
---- child of 
+--- child of PlayerChoiceNormalOptionTemplate_Header
 --- @class PlayerChoiceNormalOptionTemplate_Header_Contents : Frame, HorizontalLayoutFrame
 --- @field fixedHeight number # 32
 --- @field Icon PlayerChoiceNormalOptionTemplate_Header_Contents_Icon

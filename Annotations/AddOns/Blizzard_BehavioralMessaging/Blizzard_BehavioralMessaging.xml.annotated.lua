@@ -24,11 +24,11 @@
 BehavioralMessagingTray = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L104)
---- child of 
+--- child of BehavioralMessagingDetails_Body
 --- @class BehavioralMessagingDetails_Body_TitleText : FontString, Game18Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L110)
---- child of 
+--- child of BehavioralMessagingDetails_Body
 --- @class BehavioralMessagingDetails_Body_BodyText : FontString, Game13Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.xml#L97)

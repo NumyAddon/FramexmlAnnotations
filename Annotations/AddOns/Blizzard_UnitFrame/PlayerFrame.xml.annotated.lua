@@ -16,55 +16,55 @@
 --- @field FrameFlash Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L100)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HitIndicator
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HitIndicator_HitText : FontString, NumberFontNormalHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L97)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HitIndicator : Frame
 --- @field HitText PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HitIndicator_HitText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L115)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_TempMaxHealthLossDivider : Frame, SecureFrameParentPropagationTemplate, TempMaxHealthLossDividerMixin
 --- @field TempHPLossDivider Texture
 --- @field TempHPLossDividerShadow Texture
 --- @field TempHPLossDividerMask MaskTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L144)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_PlayerFrameTempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L151)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_PlayerFrameHealthBarAnimatedLoss : StatusBar, AnimatedHealthLossMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L163)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar_MyHealPredictionBar : Frame, PlayerFrameBarSegmentTemplate, MyHealPredictionBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L164)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar_OtherHealPredictionBar : Frame, PlayerFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L165)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar_HealAbsorbBar : Frame, PlayerFrameBarSegmentTemplate, HealAbsorbBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L166)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar_TotalAbsorbBar : Frame, PlayerFrameBarSegmentTemplate, TotalAbsorbBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L176)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar_OverAbsorbGlow : Texture, OverAbsorbGlowTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L177)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar_OverHealAbsorbGlow : Texture, OverHealAbsorbGlowTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L157)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate
 --- @field MyHealPredictionBar PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar_MyHealPredictionBar
 --- @field OtherHealPredictionBar PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar_OtherHealPredictionBar
@@ -75,19 +75,19 @@
 --- @field OverHealAbsorbGlow PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar_OverHealAbsorbGlow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L200)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBarText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L205)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_LeftText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L210)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_RightText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L108)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer : Frame, SecureFrameParentPropagationTemplate
 --- @field TempMaxHealthLossDivider PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_TempMaxHealthLossDivider
 --- @field PlayerFrameTempMaxHealthLoss PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_PlayerFrameTempMaxHealthLoss
@@ -99,36 +99,36 @@
 --- @field HealthBarMask MaskTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L245)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_ManaCostPredictionBar : Frame, ManaCostPredictionBarTemplate
 --- @field fillAtlas string # "UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L250)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_FeedbackFrame : Frame, BuilderSpenderFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L251)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_FullPowerFrame : Frame, FullResourcePulseFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L260)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_ManaBarText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L265)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_LeftText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L270)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_RightText : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L277)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_Spark : Texture, TextStatusBarSparkTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L239)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate
 --- @field ManaCostPredictionBar PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_ManaCostPredictionBar
 --- @field FeedbackFrame PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_FeedbackFrame
@@ -140,27 +140,27 @@
 --- @field ManaBarMask MaskTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L237)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea : Frame, SecureFrameParentPropagationTemplate
 --- @field ManaBar PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L305)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_PlayerFrameAlternatePowerBarArea : Frame, SecureFrameParentPropagationTemplate
 PlayerFrameAlternatePowerBarArea = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L74)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_PlayerName : FontString, GameFontNormalSmall
 PlayerName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L80)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_PlayerLevelText : FontString, GameNormalNumberFont
 PlayerLevelText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L71)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain : Frame, SecureFrameParentPropagationTemplate
 --- @field HitIndicator PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HitIndicator
 --- @field HealthBarsContainer PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
@@ -169,55 +169,55 @@ PlayerLevelText = {}
 --- @field StatusTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L371)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_ReadyCheck : Frame, ReadyCheckStatusTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L396)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerRestLoop
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerRestLoop_PlayerRestLoopAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L380)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerRestLoop : Frame
 --- @field RestTexture Texture
 --- @field PlayerRestLoopAnim PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerRestLoop_PlayerRestLoopAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L401)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerPlayTime : Frame
 --- @field PlayTimeIcon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L428)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator_PlayerFrameGroupIndicatorLeft : Texture
 PlayerFrameGroupIndicatorLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L435)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator_PlayerFrameGroupIndicatorRight : Texture
 PlayerFrameGroupIndicatorRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L442)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator_PlayerFrameGroupIndicatorMiddle : Texture
 PlayerFrameGroupIndicatorMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L450)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator_PlayerFrameGroupIndicatorText : FontString, GameFontHighlightSmall
 PlayerFrameGroupIndicatorText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L421)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L363)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerPVPTimerText : FontString, GameFontNormalSmall
 PlayerPVPTimerText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L308)
---- child of 
+--- child of PlayerFrame_PlayerFrameContent
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual : Frame
 --- @field ReadyCheck PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_ReadyCheck
 --- @field PlayerRestLoop PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerRestLoop

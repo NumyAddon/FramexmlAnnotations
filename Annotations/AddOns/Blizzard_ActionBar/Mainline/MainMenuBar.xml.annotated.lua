@@ -23,17 +23,17 @@
 --- @field RightEndCap Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L130)
---- child of 
+--- child of MainMenuBar_ActionBarPageNumber
 --- @class MainMenuBar_ActionBarPageNumber_UpButton : Button, QuickKeybindButtonTemplate, MainActionBarUpButtonMixin
 --- @field commandName string # "NEXTACTIONPAGE"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L147)
---- child of 
+--- child of MainMenuBar_ActionBarPageNumber
 --- @class MainMenuBar_ActionBarPageNumber_DownButton : Button, QuickKeybindButtonTemplate, MainActionBarDownButtonMixin
 --- @field commandName string # "PREVIOUSACTIONPAGE"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L121)
---- child of 
+--- child of MainMenuBar_ActionBarPageNumber
 --- @class MainMenuBar_ActionBarPageNumber_Text : FontString, GameFontNormalCenter
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L112)

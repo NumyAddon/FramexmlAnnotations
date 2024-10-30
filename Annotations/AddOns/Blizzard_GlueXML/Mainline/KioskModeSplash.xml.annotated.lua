@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.xml#L28)
---- child of 
+--- child of KioskModeSplash_NewExpansionButton
 --- @class KioskModeSplash_NewExpansionButton_Text : FontString, GameFontNormalHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.xml#L18)
@@ -12,7 +12,7 @@
 --- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.xml#L53)
---- child of 
+--- child of KioskModeSplash_NewPlayerButton
 --- @class KioskModeSplash_NewPlayerButton_Text : FontString, GameFontNormalSmall2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/KioskModeSplash.xml#L43)

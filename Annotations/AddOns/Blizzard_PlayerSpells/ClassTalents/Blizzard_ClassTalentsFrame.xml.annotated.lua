@@ -39,7 +39,7 @@
 --- @class ClassTalentsFrameTemplate_SearchPreviewContainer : Frame, SpellSearchPreviewContainerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L234)
---- child of 
+--- child of ClassTalentsFrameTemplate_ApplyButton
 --- @class ClassTalentsFrameTemplate_ApplyButton_YellowGlow : Frame
 --- @field Left Texture
 --- @field Right Texture

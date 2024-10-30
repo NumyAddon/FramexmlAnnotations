@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L21)
---- child of 
+--- child of CommunitiesMemberListEntryTemplate_NameFrame
 --- @class CommunitiesMemberListEntryTemplate_NameFrame_Name : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L8)
@@ -29,15 +29,15 @@
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L110)
---- child of 
+--- child of CommunitiesMemberListEntryTemplate_ProfessionHeader
 --- @class CommunitiesMemberListEntryTemplate_ProfessionHeader_ExpandedIcon : Texture, Char-Stat-Minus
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L115)
---- child of 
+--- child of CommunitiesMemberListEntryTemplate_ProfessionHeader
 --- @class CommunitiesMemberListEntryTemplate_ProfessionHeader_CollapsedIcon : Texture, Char-Stat-Plus
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L127)
---- child of 
+--- child of CommunitiesMemberListEntryTemplate_ProfessionHeader
 --- @class CommunitiesMemberListEntryTemplate_ProfessionHeader_Name : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L81)
@@ -105,23 +105,23 @@
 --- @class CommunitiesMemberListFrameTemplate_ShowOfflineButton : CheckButton, UICheckButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L300)
---- child of 
+--- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopLeft : Texture, UI-Frame-InnerTopLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L305)
---- child of 
+--- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopRight : Texture, UI-Frame-InnerTopRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L310)
---- child of 
+--- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderBottomLeft : Texture, UI-Frame-InnerBotLeftCorner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L315)
---- child of 
+--- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTop : Texture, _UI-Frame-InnerTopTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L321)
---- child of 
+--- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderLeft : Texture, !UI-Frame-InnerLeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L290)

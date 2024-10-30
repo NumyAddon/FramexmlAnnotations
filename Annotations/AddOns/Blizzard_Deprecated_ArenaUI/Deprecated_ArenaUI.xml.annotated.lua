@@ -111,7 +111,7 @@
 --- @class ArenaEnemyMatchFrameTemplate_ArenaEnemyMatchFrameTemplatePetFrame : Button, ArenaEnemyPetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L347)
---- child of 
+--- child of ArenaEnemyMatchFrameTemplate_CC
 --- @class ArenaEnemyMatchFrameTemplate_CC_ArenaEnemyMatchFrameTemplateCooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L336)

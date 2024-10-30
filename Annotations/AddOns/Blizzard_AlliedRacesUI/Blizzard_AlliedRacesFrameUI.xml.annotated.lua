@@ -16,15 +16,15 @@
 --- @field Text AlliedRaceAbilityTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L92)
---- child of 
+--- child of AlliedRacesFrame_ModelScene
 --- @class AlliedRacesFrame_ModelScene_AlliedRacesMaleButton : CheckButton, AlliedRacesMaleButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L104)
---- child of 
+--- child of AlliedRacesFrame_ModelScene
 --- @class AlliedRacesFrame_ModelScene_AlliedRacesFemaleButton : CheckButton, AlliedRacesFemaleButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L116)
---- child of 
+--- child of AlliedRacesFrame_ModelScene
 --- @class AlliedRacesFrame_ModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L69)
@@ -37,33 +37,33 @@
 --- @field ​BackgroundOverlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L143)
---- child of 
+--- child of AlliedRacesFrame_RaceInfoFrame_ScrollFrame_Child
 --- @class AlliedRacesFrame_RaceInfoFrame_ScrollFrame_Child_ObjectivesFrame : Frame, AchievementDisplayTemplate
 --- @field title any # ALLIED_RACE_UNLOCK_TEXT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L155)
---- child of 
+--- child of AlliedRacesFrame_RaceInfoFrame_ScrollFrame_Child
 --- @class AlliedRacesFrame_RaceInfoFrame_ScrollFrame_Child_RaceDescriptionText : FontString, QuestFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L163)
---- child of 
+--- child of AlliedRacesFrame_RaceInfoFrame_ScrollFrame_Child
 --- @class AlliedRacesFrame_RaceInfoFrame_ScrollFrame_Child_RacialTraitsLabel : FontString, QuestFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L140)
---- child of 
+--- child of AlliedRacesFrame_RaceInfoFrame_ScrollFrame
 --- @class AlliedRacesFrame_RaceInfoFrame_ScrollFrame_Child : Frame
 --- @field ObjectivesFrame AlliedRacesFrame_RaceInfoFrame_ScrollFrame_Child_ObjectivesFrame
 --- @field RaceDescriptionText AlliedRacesFrame_RaceInfoFrame_ScrollFrame_Child_RaceDescriptionText
 --- @field RacialTraitsLabel AlliedRacesFrame_RaceInfoFrame_ScrollFrame_Child_RacialTraitsLabel
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L129)
---- child of 
+--- child of AlliedRacesFrame_RaceInfoFrame
 --- @class AlliedRacesFrame_RaceInfoFrame_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 8
 --- @field Child AlliedRacesFrame_RaceInfoFrame_ScrollFrame_Child
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L177)
---- child of 
+--- child of AlliedRacesFrame_RaceInfoFrame
 --- @class AlliedRacesFrame_RaceInfoFrame_AlliedRacesRaceName : FontString, Fancy32Font, AutoScalingFontStringMixin
 --- @field minLineHeight number # 16
 

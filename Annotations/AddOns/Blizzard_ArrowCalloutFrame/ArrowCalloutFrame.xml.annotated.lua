@@ -37,7 +37,7 @@
 --- @field Anim ArrowCalloutPointerRight_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L129)
---- child of 
+--- child of ArrowCalloutContainerTemplate_Content
 --- @class ArrowCalloutContainerTemplate_Content_Text : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L122)

@@ -128,12 +128,12 @@ CharacterFrameInsetRight["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field titleText any # STAT_AVERAGE_ITEM_LEVEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L244)
---- child of 
+--- child of CharacterFrame_CharacterStatsPane_ItemLevelFrame
 --- @class CharacterFrame_CharacterStatsPane_ItemLevelFrame_Corruption : Frame
 --- @field Eye Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L236)
---- child of 
+--- child of CharacterFrame_CharacterStatsPane_ItemLevelFrame
 --- @class CharacterFrame_CharacterStatsPane_ItemLevelFrame_Value : FontString, Game15Font_o1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L222)

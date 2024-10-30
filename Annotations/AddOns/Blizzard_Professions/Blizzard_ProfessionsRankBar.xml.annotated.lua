@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRankBar.xml#L55)
---- child of 
+--- child of ProfessionsRankBarTemplate_Rank
 --- @class ProfessionsRankBarTemplate_Rank_Text : FontString, Number12FontOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRankBar.xml#L48)

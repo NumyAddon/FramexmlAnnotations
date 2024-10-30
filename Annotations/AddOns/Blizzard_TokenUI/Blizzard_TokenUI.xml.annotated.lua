@@ -31,7 +31,7 @@
 --- @field Text TokenSubHeaderTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L98)
---- child of 
+--- child of TokenEntryTemplate_Content
 --- @class TokenEntryTemplate_Content_BackgroundHighlight : Frame
 --- @field Left Texture
 --- @field Right Texture
@@ -39,16 +39,16 @@
 --- @field TextureRegions table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L125)
---- child of 
+--- child of TokenEntryTemplate_Content
 --- @class TokenEntryTemplate_Content_AccountWideIcon : Frame, TokenEntryAccountWideIconMixin
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L152)
---- child of 
+--- child of TokenEntryTemplate_Content
 --- @class TokenEntryTemplate_Content_Count : FontString, GameFontHighlightRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L157)
---- child of 
+--- child of TokenEntryTemplate_Content
 --- @class TokenEntryTemplate_Content_Name : FontString, GameFontHighlightLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L96)
@@ -125,7 +125,7 @@ CurrencyTransferLog["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- @class TokenFramePopup_Border : Frame, SecureDialogBorderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L501)
---- child of  (created in template UICheckButtonTemplate)
+--- child of TokenFramePopup_InactiveCheckbox (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TokenFramePopupText = {}
 
@@ -134,7 +134,7 @@ TokenFramePopupText = {}
 --- @class TokenFramePopup_InactiveCheckbox : CheckButton, UICheckButtonTemplate, InactiveCurrencyCheckboxMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L501)
---- child of  (created in template UICheckButtonTemplate)
+--- child of TokenFramePopup_BackpackCheckbox (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TokenFramePopupText = {}
 

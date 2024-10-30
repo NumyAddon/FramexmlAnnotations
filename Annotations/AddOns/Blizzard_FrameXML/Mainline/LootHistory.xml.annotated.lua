@@ -11,7 +11,7 @@
 --- @field BorderFrame Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L39)
---- child of 
+--- child of LootHistoryElementTemplate_WinningRollInfo
 --- @class LootHistoryElementTemplate_WinningRollInfo_WinningRoll : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L32)
@@ -21,11 +21,11 @@
 --- @field Check Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L60)
---- child of 
+--- child of LootHistoryElementTemplate_PendingRollInfo
 --- @class LootHistoryElementTemplate_PendingRollInfo_CurrentWinnerText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L80)
---- child of 
+--- child of LootHistoryElementTemplate_PendingRollInfo
 --- @class LootHistoryElementTemplate_PendingRollInfo_WaitAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L53)
@@ -37,7 +37,7 @@
 --- @field WaitAnim LootHistoryElementTemplate_PendingRollInfo_WaitAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L95)
---- child of 
+--- child of LootHistoryElementTemplate_AllPassedInfo
 --- @class LootHistoryElementTemplate_AllPassedInfo_AllPassedText : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L88)
@@ -118,11 +118,11 @@
 --- @class GroupLootHistoryFrame_ResizeButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L333)
---- child of 
+--- child of GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollFrame
 --- @class GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollFrame_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L277)
---- child of 
+--- child of GroupLootHistoryFrame_PerfectAnimFrame
 --- @class GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollFrame : Frame
 --- @field outerGlow_2 Texture
 --- @field innerGlow Texture
@@ -134,11 +134,11 @@
 --- @field Anim GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollFrame_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L399)
---- child of 
+--- child of GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollTopFrame
 --- @class GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollTopFrame_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L365)
---- child of 
+--- child of GroupLootHistoryFrame_PerfectAnimFrame
 --- @class GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollTopFrame : Frame
 --- @field sparkSlam1 Texture
 --- @field sparksTrail1 Texture

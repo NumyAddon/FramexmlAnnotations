@@ -25,7 +25,7 @@
 --- @field Label CharacterServicesEditBoxHorizontalLabelTemplate_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesTemplates.xml#L59)
---- child of 
+--- child of CharacterServicesEditBoxWithAutoCompleteTemplate_AutoCompleteBox
 --- @class CharacterServicesEditBoxWithAutoCompleteTemplate_AutoCompleteBox_Border : Frame, TooltipBackdropTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterServicesTemplates.xml#L53)

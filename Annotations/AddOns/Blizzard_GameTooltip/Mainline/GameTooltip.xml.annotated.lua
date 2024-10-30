@@ -70,7 +70,7 @@
 --- @field Text TooltipStatusBarTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L229)
---- child of 
+--- child of TooltipProgressBarTemplate_Bar
 --- @class TooltipProgressBarTemplate_Bar_Label : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L183)
@@ -667,7 +667,7 @@ GameTooltipTooltipTexture29 = {}
 GameTooltipTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L88)
---- child of  (created in template InternalEmbeddedItemTooltipTemplate)
+--- child of GameTooltip_ItemTooltip (created in template InternalEmbeddedItemTooltipTemplate)
 --- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateTooltip
 GameTooltipTooltip = {}
 GameTooltipTooltip["IsEmbedded"] = true
@@ -680,7 +680,7 @@ GameTooltipTooltip["TextLeft2"] = GameTooltipTooltipTextLeft2 -- inherited
 GameTooltipTooltip["TextRight2"] = GameTooltipTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L101)
---- child of  (created in template InternalEmbeddedItemTooltipTemplate)
+--- child of GameTooltip_ItemTooltip (created in template InternalEmbeddedItemTooltipTemplate)
 --- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateGarrisonFollowerTooltip
 GameTooltipGarrisonFollowerTooltip = {}
 
@@ -1054,7 +1054,7 @@ EmbeddedItemTooltipTooltipTexture29 = {}
 EmbeddedItemTooltipTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L88)
---- child of  (created in template InternalEmbeddedItemTooltipTemplate)
+--- child of EmbeddedItemTooltip_ItemTooltip (created in template InternalEmbeddedItemTooltipTemplate)
 --- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateTooltip
 EmbeddedItemTooltipTooltip = {}
 EmbeddedItemTooltipTooltip["IsEmbedded"] = true
@@ -1067,7 +1067,7 @@ EmbeddedItemTooltipTooltip["TextLeft2"] = EmbeddedItemTooltipTooltipTextLeft2 --
 EmbeddedItemTooltipTooltip["TextRight2"] = EmbeddedItemTooltipTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L101)
---- child of  (created in template InternalEmbeddedItemTooltipTemplate)
+--- child of EmbeddedItemTooltip_ItemTooltip (created in template InternalEmbeddedItemTooltipTemplate)
 --- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateGarrisonFollowerTooltip
 EmbeddedItemTooltipGarrisonFollowerTooltip = {}
 

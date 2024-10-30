@@ -190,11 +190,11 @@ PaperDollSidebarTab1 = {}
 PaperDollSidebarTabs = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L548)
---- child of 
+--- child of PaperDollFrame_TitleManagerPane
 --- @class PaperDollFrame_TitleManagerPane_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L559)
---- child of 
+--- child of PaperDollFrame_TitleManagerPane
 --- @class PaperDollFrame_TitleManagerPane_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L542)
@@ -204,21 +204,21 @@ PaperDollSidebarTabs = {}
 --- @field ScrollBar PaperDollFrame_TitleManagerPane_ScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L579)
---- child of 
+--- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_ScrollBox : Frame, WowScrollBoxList
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L585)
---- child of 
+--- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L592)
---- child of 
+--- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_PaperDollFrameEquipSet : Button, UIPanelButtonTemplate
 PaperDollFrameEquipSet = {}
 PaperDollFrameEquipSet["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L601)
---- child of 
+--- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_PaperDollFrameSaveSet : Button, UIPanelButtonTemplate
 PaperDollFrameSaveSet = {}
 PaperDollFrameSaveSet["fitTextCanWidthDecrease"] = true -- inherited
@@ -236,11 +236,11 @@ PaperDollFrameSaveSet["fitTextCanWidthDecrease"] = true -- inherited
 --- @class PaperDollFrame_CharacterModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L770)
---- child of 
+--- child of PaperDollFrame_CharacterModelScene_GearEnchantAnimation_FrameFX
 --- @class PaperDollFrame_CharacterModelScene_GearEnchantAnimation_FrameFX_FrameFXAnimGroup : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L735)
---- child of 
+--- child of PaperDollFrame_CharacterModelScene_GearEnchantAnimation
 --- @class PaperDollFrame_CharacterModelScene_GearEnchantAnimation_FrameFX : Frame
 --- @field PurpleGlow Texture
 --- @field BlueGlow Texture
@@ -249,11 +249,11 @@ PaperDollFrameSaveSet["fitTextCanWidthDecrease"] = true -- inherited
 --- @field FrameFXAnimGroup PaperDollFrame_CharacterModelScene_GearEnchantAnimation_FrameFX_FrameFXAnimGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L801)
---- child of 
+--- child of PaperDollFrame_CharacterModelScene_GearEnchantAnimation_TopFrame
 --- @class PaperDollFrame_CharacterModelScene_GearEnchantAnimation_TopFrame_TopFrameAnimGroup : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.xml#L786)
---- child of 
+--- child of PaperDollFrame_CharacterModelScene_GearEnchantAnimation
 --- @class PaperDollFrame_CharacterModelScene_GearEnchantAnimation_TopFrame : Frame
 --- @field Frame Texture
 --- @field TopFrameAnimGroup PaperDollFrame_CharacterModelScene_GearEnchantAnimation_TopFrame_TopFrameAnimGroup

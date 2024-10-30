@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemPowerMixin.xml#L36)
---- child of 
+--- child of AzeriteEmpoweredItemPowerTemplate_FinalEffectContainer
 --- @class AzeriteEmpoweredItemPowerTemplate_FinalEffectContainer_SparkleAnim : AnimationGroup
 --- @field Sparkle1In Alpha
 --- @field Sparkle2In Alpha
@@ -9,7 +9,7 @@
 --- @field Sparkle2Out Alpha
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemPowerMixin.xml#L44)
---- child of 
+--- child of AzeriteEmpoweredItemPowerTemplate_FinalEffectContainer
 --- @class AzeriteEmpoweredItemPowerTemplate_FinalEffectContainer_GoldOverlayAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemPowerMixin.xml#L6)

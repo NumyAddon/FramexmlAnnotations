@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BNet/BNet.xml#L55)
---- child of 
+--- child of BNToastFrame_TooltipFrame
 --- @class BNToastFrame_TooltipFrame_Text : FontString, FriendsFont_Small
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BNet/BNet.xml#L48)

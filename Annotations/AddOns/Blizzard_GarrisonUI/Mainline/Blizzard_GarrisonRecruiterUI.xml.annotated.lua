@@ -30,7 +30,7 @@
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L119)
---- child of 
+--- child of GarrisonRecruitTemplate_Abilities
 --- @class GarrisonRecruitTemplate_Abilities_Title : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L112)
@@ -39,7 +39,7 @@
 --- @field Title GarrisonRecruitTemplate_Abilities_Title
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L132)
---- child of 
+--- child of GarrisonRecruitTemplate_Traits
 --- @class GarrisonRecruitTemplate_Traits_Title : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L128)
@@ -82,51 +82,51 @@
 --- @field Status GarrisonRecruitTemplate_Status
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L455)
---- child of  (created in template UIRadioButtonTemplate)
+--- child of GarrisonRecruiterFrame_Pick_Radio1 (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_UIRadioButtonTemplateText
 GarrisonRecruiterFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L225)
---- child of 
+--- child of GarrisonRecruiterFrame_Pick
 --- @class GarrisonRecruiterFrame_Pick_Radio1 : CheckButton, GarrisonRecruiterRadioButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L455)
---- child of  (created in template UIRadioButtonTemplate)
+--- child of GarrisonRecruiterFrame_Pick_Radio2 (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_UIRadioButtonTemplateText
 GarrisonRecruiterFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L233)
---- child of 
+--- child of GarrisonRecruiterFrame_Pick
 --- @class GarrisonRecruiterFrame_Pick_Radio2 : CheckButton, GarrisonRecruiterRadioButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L243)
---- child of 
+--- child of GarrisonRecruiterFrame_Pick
 --- @class GarrisonRecruiterFrame_Pick_ThreatDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L256)
---- child of 
+--- child of GarrisonRecruiterFrame_Pick_Counter
 --- @class GarrisonRecruiterFrame_Pick_Counter_Title : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L263)
---- child of 
+--- child of GarrisonRecruiterFrame_Pick_Counter
 --- @class GarrisonRecruiterFrame_Pick_Counter_Description : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L250)
---- child of 
+--- child of GarrisonRecruiterFrame_Pick
 --- @class GarrisonRecruiterFrame_Pick_Counter : Frame, GarrisonAbilityCounterTemplate
 --- @field Title GarrisonRecruiterFrame_Pick_Counter_Title
 --- @field Description GarrisonRecruiterFrame_Pick_Counter_Description
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L274)
---- child of 
+--- child of GarrisonRecruiterFrame_Pick
 --- @class GarrisonRecruiterFrame_Pick_ChooseRecruits : Button, MagicButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L195)
---- child of 
+--- child of GarrisonRecruiterFrame_Pick
 --- @class GarrisonRecruiterFrame_Pick_Title1 : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L208)
---- child of 
+--- child of GarrisonRecruiterFrame_Pick
 --- @class GarrisonRecruiterFrame_Pick_Title2 : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L192)
@@ -143,11 +143,11 @@ GarrisonRecruiterFrameText = {}
 --- @field Line2 Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L304)
---- child of 
+--- child of GarrisonRecruiterFrame_Random
 --- @class GarrisonRecruiterFrame_Random_ChooseRecruits : Button, MagicButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L292)
---- child of 
+--- child of GarrisonRecruiterFrame_Random
 --- @class GarrisonRecruiterFrame_Random_Title : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L289)
@@ -157,7 +157,7 @@ GarrisonRecruiterFrameText = {}
 --- @field Title GarrisonRecruiterFrame_Random_Title
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L322)
---- child of 
+--- child of GarrisonRecruiterFrame_UnavailableFrame
 --- @class GarrisonRecruiterFrame_UnavailableFrame_Title : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L319)
@@ -195,17 +195,17 @@ GarrisonRecruiterFrame["Bg"] = GarrisonRecruiterFrameBg -- inherited
 GarrisonRecruiterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L1504)
---- child of  (created in template SearchBoxTemplate)
+--- child of GarrisonRecruitSelectFrame_FollowerList_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 GarrisonRecruitSelectFrameClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L1495)
---- child of  (created in template SearchBoxTemplate)
+--- child of GarrisonRecruitSelectFrame_FollowerList_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 GarrisonRecruitSelectFrameSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L371)
---- child of 
+--- child of GarrisonRecruitSelectFrame_FollowerList
 --- @class GarrisonRecruitSelectFrame_FollowerList_SearchBox : EditBox, SearchBoxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L362)
@@ -215,23 +215,23 @@ GarrisonRecruitSelectFrameSearchIcon = {}
 --- @field SearchBox GarrisonRecruitSelectFrame_FollowerList_SearchBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L437)
---- child of 
+--- child of GarrisonRecruitSelectFrame_FollowerSelection
 --- @class GarrisonRecruitSelectFrame_FollowerSelection_Recruit1 : Frame, GarrisonRecruitTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L442)
---- child of 
+--- child of GarrisonRecruitSelectFrame_FollowerSelection
 --- @class GarrisonRecruitSelectFrame_FollowerSelection_Recruit2 : Frame, GarrisonRecruitTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L447)
---- child of 
+--- child of GarrisonRecruitSelectFrame_FollowerSelection
 --- @class GarrisonRecruitSelectFrame_FollowerSelection_Recruit3 : Frame, GarrisonRecruitTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L402)
---- child of 
+--- child of GarrisonRecruitSelectFrame_FollowerSelection
 --- @class GarrisonRecruitSelectFrame_FollowerSelection_ChooseFollower : FontString, GameFontHighlightLarge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L425)
---- child of 
+--- child of GarrisonRecruitSelectFrame_FollowerSelection
 --- @class GarrisonRecruitSelectFrame_FollowerSelection_WaitText : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L387)

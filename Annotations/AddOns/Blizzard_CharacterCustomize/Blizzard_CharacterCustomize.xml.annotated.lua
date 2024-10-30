@@ -304,7 +304,7 @@ CharCustomizeNoHeaderTooltip["TextRight2"] = CharCustomizeNoHeaderTooltipTextRig
 --- @field SelectionDetails CharCustomizeDropdownElementTemplate_SelectionDetails
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L331)
---- child of 
+--- child of CharCustomizeDropdownWithSteppersAndLabelTemplate_Dropdown
 --- @class CharCustomizeDropdownWithSteppersAndLabelTemplate_Dropdown_SelectionDetails : Frame, CharCustomizeDropdownElementDetailsTemplate, ResizeLayoutFrame
 --- @field selectable boolean # false
 
@@ -337,7 +337,7 @@ CharCustomizeNoHeaderTooltip["TextRight2"] = CharCustomizeNoHeaderTooltipTextRig
 --- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L412)
---- child of 
+--- child of CharCustomizeAudioInterface_MuteButton
 --- @class CharCustomizeAudioInterface_MuteButton_PulseAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L393)
@@ -375,27 +375,27 @@ CharCustomizeNoHeaderTooltip["TextRight2"] = CharCustomizeNoHeaderTooltipTextRig
 --- @field baseSpacing number # 32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L493)
---- child of 
+--- child of CharCustomizeFrame_SmallButtons
 --- @class CharCustomizeFrame_SmallButtons_ResetCameraButton : Button, CharCustomizeSmallButtonTemplate, CharCustomizeResetCameraButtonMixin
 --- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L500)
---- child of 
+--- child of CharCustomizeFrame_SmallButtons
 --- @class CharCustomizeFrame_SmallButtons_ZoomOutButton : Button, CharCustomizeClickOrHoldButtonTemplate, CharCustomizeZoomButtonMixin
 --- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L509)
---- child of 
+--- child of CharCustomizeFrame_SmallButtons
 --- @class CharCustomizeFrame_SmallButtons_ZoomInButton : Button, CharCustomizeClickOrHoldButtonTemplate, CharCustomizeZoomButtonMixin
 --- @field layoutIndex number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L518)
---- child of 
+--- child of CharCustomizeFrame_SmallButtons
 --- @class CharCustomizeFrame_SmallButtons_RotateLeftButton : Button, CharCustomizeClickOrHoldButtonTemplate, CharCustomizeRotateButtonMixin
 --- @field layoutIndex number # 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L528)
---- child of 
+--- child of CharCustomizeFrame_SmallButtons
 --- @class CharCustomizeFrame_SmallButtons_RotateRightButton : Button, CharCustomizeClickOrHoldButtonTemplate, CharCustomizeRotateButtonMixin
 --- @field layoutIndex number # 5
 

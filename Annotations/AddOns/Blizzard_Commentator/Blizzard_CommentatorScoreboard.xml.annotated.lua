@@ -22,7 +22,7 @@
 --- @class CommentatorScoreboardTemplate_ScoreRight : Frame, CommentatorScoreboardScoreTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.xml#L56)
---- child of 
+--- child of CommentatorScoreboardTemplate_Clock
 --- @class CommentatorScoreboardTemplate_Clock_Label : FontString, CommentatorTeamScoreFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.xml#L46)
@@ -31,7 +31,7 @@
 --- @field Label CommentatorScoreboardTemplate_Clock_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.xml#L92)
---- child of 
+--- child of CommentatorScoreboardTemplate_Dampener
 --- @class CommentatorScoreboardTemplate_Dampener_FadeCycle : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.xml#L64)

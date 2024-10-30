@@ -44,7 +44,7 @@
 --- @field SocketDisplay InspectPaperDollItemSlotButtonBottomTemplate_SocketDisplay
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L89)
---- child of 
+--- child of InspectPaperDollFrame_LevelTextWrapper
 --- @class InspectPaperDollFrame_LevelTextWrapper_InspectLevelText : FontString, GameFontNormalSmall
 InspectLevelText = {}
 

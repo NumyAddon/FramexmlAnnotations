@@ -5,7 +5,7 @@
 --- @class MinimalScrollBarStepperScripts : Frame, MinimalScrollBarStepperScriptsMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L50)
---- child of 
+--- child of MinimalScrollBar_Track
 --- @class MinimalScrollBar_Track_Thumb : EventButton, MinimalScrollBarThumbScriptsMixin
 --- @field upBeginTexture string # "minimal-scrollbar-small-thumb-top"
 --- @field Begin Texture

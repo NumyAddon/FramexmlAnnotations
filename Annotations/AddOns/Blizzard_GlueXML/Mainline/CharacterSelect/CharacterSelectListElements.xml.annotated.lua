@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L40)
---- child of 
+--- child of CharacterSelectListGroupTemplate_Header
 --- @class CharacterSelectListGroupTemplate_Header_Text : FontString, GlueFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L24)
@@ -42,7 +42,7 @@
 --- @field Texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L170)
---- child of 
+--- child of CharacterSelectListCharacterTemplate_RestoreCharacterServiceFrame
 --- @class CharacterSelectListCharacterTemplate_RestoreCharacterServiceFrame_Button : Button, RestoreCharacterServiceButtonMixin
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
@@ -54,23 +54,23 @@
 --- @field Pointer Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L277)
---- child of 
+--- child of CharacterSelectListCharacterTemplate_InnerContent_Text
 --- @class CharacterSelectListCharacterTemplate_InnerContent_Text_LastVersion : FontString, GlueFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L283)
---- child of 
+--- child of CharacterSelectListCharacterTemplate_InnerContent_Text
 --- @class CharacterSelectListCharacterTemplate_InnerContent_Text_Name : FontString, GlueFontNormalHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L289)
---- child of 
+--- child of CharacterSelectListCharacterTemplate_InnerContent_Text
 --- @class CharacterSelectListCharacterTemplate_InnerContent_Text_Info : FontString, GlueFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L295)
---- child of 
+--- child of CharacterSelectListCharacterTemplate_InnerContent_Text
 --- @class CharacterSelectListCharacterTemplate_InnerContent_Text_Status : FontString, GlueFontDisableLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L274)
---- child of 
+--- child of CharacterSelectListCharacterTemplate_InnerContent
 --- @class CharacterSelectListCharacterTemplate_InnerContent_Text : Frame
 --- @field LastVersion CharacterSelectListCharacterTemplate_InnerContent_Text_LastVersion
 --- @field Name CharacterSelectListCharacterTemplate_InnerContent_Text_Name
@@ -78,25 +78,25 @@
 --- @field Status CharacterSelectListCharacterTemplate_InnerContent_Text_Status
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L310)
---- child of 
+--- child of CharacterSelectListCharacterTemplate_InnerContent_NotificationButton
 --- @class CharacterSelectListCharacterTemplate_InnerContent_NotificationButton_IconFrame : Frame
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L304)
---- child of 
+--- child of CharacterSelectListCharacterTemplate_InnerContent
 --- @class CharacterSelectListCharacterTemplate_InnerContent_NotificationButton : Button, CharacterSelectListNotificationButtonMixin
 --- @field IconFrame CharacterSelectListCharacterTemplate_InnerContent_NotificationButton_IconFrame
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L331)
---- child of 
+--- child of CharacterSelectListCharacterTemplate_InnerContent
 --- @class CharacterSelectListCharacterTemplate_InnerContent_UpButton : Button, CharacterSelectListMoveButtonTemplate
 --- @field moveOffset number # -1
 --- @field NormalTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectListElements.xml#L345)
---- child of 
+--- child of CharacterSelectListCharacterTemplate_InnerContent
 --- @class CharacterSelectListCharacterTemplate_InnerContent_DownButton : Button, CharacterSelectListMoveButtonTemplate
 --- @field moveOffset number # 1
 --- @field NormalTexture Texture

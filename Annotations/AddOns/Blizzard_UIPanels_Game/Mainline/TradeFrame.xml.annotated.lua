@@ -645,12 +645,7 @@ TradeFrameBg = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L143)
 --- @class TradeFrame : Frame, ButtonFrameTemplate
 --- @field RecipientOverlay TradeFrame_RecipientOverlay
---- @field LeftInset TradeFrame_TradeRecipientItemsInset
---- @field LeftInset TradeFrame_TradeRecipientEnchantInset
---- @field LeftInset TradeFrame_TradePlayerItemsInset
---- @field LeftInset TradeFrame_TradePlayerEnchantInset
---- @field LeftInset TradeFrame_TradePlayerInputMoneyInset
---- @field LeftInset TradeFrame_TradeRecipientMoneyInset
+--- @field LeftInset TradeFrame_TradeRecipientItemsInset | TradeFrame_TradeRecipientEnchantInset | TradeFrame_TradePlayerItemsInset | TradeFrame_TradePlayerEnchantInset | TradeFrame_TradePlayerInputMoneyInset | TradeFrame_TradeRecipientMoneyInset
 --- @field leftBorderBar TradeFrame_TradeRecipientLeftBorder
 TradeFrame = {}
 TradeFrame["LeftInset"] = TradeRecipientMoneyInset

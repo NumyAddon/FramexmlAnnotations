@@ -41,8 +41,7 @@
 --- @class ClickBindingFramePortraitTemplate : Button, ClickBindingFramePortraitMixin
 --- @field Portrait Texture
 --- @field Frame Texture
---- @field UnselectedFrame Texture
---- @field UnselectedFrame Texture
+--- @field UnselectedFrame Texture | Texture
 --- @field Highlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L153)
@@ -163,12 +162,11 @@ ClickBindingFrameBg = {}
 --- @field EnableMouseoverCastCheckbox ClickBindingFrame_EnableMouseoverCastCheckbox
 --- @field MouseoverCastKeyDropdown ClickBindingFrame_MouseoverCastKeyDropdown
 --- @field PlayerSpellsPortrait ClickBindingFrame_PlayerSpellsPortrait
---- @field FramePortraits table<number, ClickBindingFrame_PlayerSpellsPortrait>
 --- @field MacrosPortrait ClickBindingFrame_MacrosPortrait
---- @field FramePortraits table<number, ClickBindingFrame_MacrosPortrait>
 --- @field TutorialFrame ClickBindingFrame_TutorialFrame
 --- @field TutorialButton ClickBindingFrame_TutorialButton
 --- @field UnboundText ClickBindingFrame_UnboundText
+--- @field FramePortraits table<number, ClickBindingFrame_PlayerSpellsPortrait | ClickBindingFrame_MacrosPortrait>
 ClickBindingFrame = {}
 ClickBindingFrame["CloseButton"] = ClickBindingFrameCloseButton -- inherited
 ClickBindingFrame["Bg"] = ClickBindingFrameBg -- inherited

@@ -547,13 +547,9 @@
 --- child of EncounterInfoTemplate
 --- @class EncounterInfoTemplate_EncounterInfoTemplateHeaderButton : Button
 --- @field icon1 EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon1
---- @field icons table<number, EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon1>
 --- @field icon2 EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon2
---- @field icons table<number, EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon2>
 --- @field icon3 EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon3
---- @field icons table<number, EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon3>
 --- @field icon4 EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon4
---- @field icons table<number, EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon4>
 --- @field portrait EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonPortrait
 --- @field expandedIcon EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonExpandedIcon
 --- @field abilityIcon Texture
@@ -570,6 +566,7 @@
 --- @field eMidDown EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonEMidDown
 --- @field cMidUp EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonCMidUp
 --- @field cMidDown EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonCMidDown
+--- @field icons table<number, EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon1 | EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon2 | EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon3 | EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon4>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L989)
 --- child of EncounterInfoTemplate
@@ -596,11 +593,11 @@
 --- @class EncounterInfoTemplate : Frame, InlineHyperlinkFrameTemplate
 --- @field button EncounterInfoTemplate_EncounterInfoTemplateHeaderButton
 --- @field overviewDescription EncounterInfoTemplate_overviewDescription
---- @field Bullets table<number, EncounterOverviewBulletTemplate>
 --- @field description EncounterInfoTemplate_EncounterInfoTemplateDescription
 --- @field descriptionBG EncounterInfoTemplate_EncounterInfoTemplateDescriptionBG
 --- @field descriptionBGBottom EncounterInfoTemplate_descriptionBGBottom
 --- @field flashAnim EncounterInfoTemplate_flashAnim
+--- @field Bullets table<number, EncounterOverviewBulletTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1047)
 --- child of EncounterItemDividerTemplate
@@ -1261,12 +1258,12 @@ EncounterJournalEncounterFrameInfoInstanceTitle = {}
 --- @field overviewScroll EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewScrollFrame
 --- @field LootContainer EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer
 --- @field model EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame
---- @field creatureButtons table<number, EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoCreatureButton1>
 --- @field leftShadow EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoLeftHeaderShadow
 --- @field rightShadow EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoRightHeaderShadow
 --- @field encounterTitle EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoEncounterTitle
 --- @field difficultyIcon EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoDifficultyIcon
 --- @field instanceTitle EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoInstanceTitle
+--- @field creatureButtons table<number, EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoCreatureButton1>
 EncounterJournalEncounterFrameInfo = {}
 EncounterJournalEncounterFrameInfo["instanceButton"] = EncounterJournalEncounterFrameInfoInstanceButton
 EncounterJournalEncounterFrameInfo["overviewTab"] = EncounterJournalEncounterFrameInfoOverviewTab
@@ -1442,9 +1439,8 @@ EncounterJournalBg = {}
 --- @field instanceSelect EncounterJournal_EncounterJournalInstanceSelect
 --- @field encounter EncounterJournal_EncounterJournalEncounterFrame
 --- @field dungeonsTab EncounterJournal_EncounterJournalDungeonTab
---- @field Tabs table<number, EncounterJournal_EncounterJournalDungeonTab>
 --- @field raidsTab EncounterJournal_EncounterJournalRaidTab
---- @field Tabs table<number, EncounterJournal_EncounterJournalRaidTab>
+--- @field Tabs table<number, EncounterJournal_EncounterJournalDungeonTab | EncounterJournal_EncounterJournalRaidTab>
 EncounterJournal = {}
 EncounterJournal["searchBox"] = EncounterJournalSearchBox
 EncounterJournal["searchResults"] = EncounterJournalSearchResults

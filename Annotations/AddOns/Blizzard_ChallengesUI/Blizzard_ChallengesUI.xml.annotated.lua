@@ -18,7 +18,6 @@
 --- Template
 --- @class MythicPlusSeasonChangesNoticeTemplate : Frame
 --- @field Affix MythicPlusSeasonChangesNoticeTemplate_Affix
---- @field Affixes table<number, MythicPlusSeasonChangesNoticeTemplate_Affix>
 --- @field Leave MythicPlusSeasonChangesNoticeTemplate_Leave
 --- @field BottomLeftCorner Texture
 --- @field BottomRightCorner Texture
@@ -41,6 +40,7 @@
 --- @field SeasonDescription FontString
 --- @field SeasonDescription2 FontString
 --- @field SeasonDescription3 FontString
+--- @field Affixes table<number, MythicPlusSeasonChangesNoticeTemplate_Affix>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L188)
 --- child of ChallengesKeystoneFrameAffixTemplate
@@ -112,7 +112,6 @@
 --- @field CloseButton ChallengesKeystoneFrame_CloseButton
 --- @field StartButton ChallengesKeystoneFrame_StartButton
 --- @field KeystoneSlot ChallengesKeystoneFrame_KeystoneSlot
---- @field Affixes table<number, ChallengesKeystoneFrameAffixTemplate>
 --- @field RuneBG Texture
 --- @field InstructionBackground Texture
 --- @field BgBurst2 Texture
@@ -151,6 +150,7 @@
 --- @field RunesLargeAnim ChallengesKeystoneFrame_RunesLargeAnim
 --- @field RunesSmallRotateAnim ChallengesKeystoneFrame_RunesSmallRotateAnim
 --- @field RunesSmallAnim ChallengesKeystoneFrame_RunesSmallAnim
+--- @field Affixes table<number, ChallengesKeystoneFrameAffixTemplate>
 ChallengesKeystoneFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L543)
@@ -206,7 +206,6 @@ ChallengesKeystoneFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L560)
 --- @class ChallengeModeCompleteBanner : Frame, ChallengeModeCompleteBannerMixin
---- @field PartyMembers table<number, ChallengeModeBannerPartyMemberTemplate>
 --- @field BannerTop Texture
 --- @field BannerTopGlow Texture
 --- @field BannerBottom Texture
@@ -225,6 +224,7 @@ ChallengesKeystoneFrame = {}
 --- @field Glow Texture
 --- @field AnimIn ChallengeModeCompleteBanner_AnimIn
 --- @field AnimOut ChallengeModeCompleteBanner_AnimOut
+--- @field PartyMembers table<number, ChallengeModeBannerPartyMemberTemplate>
 ChallengeModeCompleteBanner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L741)
@@ -255,8 +255,8 @@ ChallengesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L761)
 --- @class ChallengesFrame : Frame, ChallengesFrameMixin
 --- @field WeeklyInfo ChallengesFrame_WeeklyInfo
---- @field DungeonIcons table<number, ChallengesDungeonIconFrameTemplate>
 --- @field SeasonChangeNoticeFrame ChallengesFrame_SeasonChangeNoticeFrame
 --- @field Background Texture
+--- @field DungeonIcons table<number, ChallengesDungeonIconFrameTemplate>
 ChallengesFrame = {}
 

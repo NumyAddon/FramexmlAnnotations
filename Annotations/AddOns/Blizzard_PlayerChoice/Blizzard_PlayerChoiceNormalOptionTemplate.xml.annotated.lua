@@ -48,8 +48,8 @@
 --- @field Header PlayerChoiceNormalOptionTemplate_Header
 --- @field SubHeader PlayerChoiceNormalOptionTemplate_SubHeader
 --- @field Rewards PlayerChoiceNormalOptionTemplate_Rewards
---- @field AlignedSections table<number, PlayerChoiceNormalOptionTemplate_Rewards>
 --- @field Background Texture
 --- @field ArtworkBorder PlayerChoiceNormalOptionTemplate_ArtworkBorder
 --- @field Artwork Texture
+--- @field AlignedSections table<number, PlayerChoiceNormalOptionTemplate_Rewards>
 

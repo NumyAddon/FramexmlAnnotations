@@ -29,17 +29,11 @@
 --- @class SoulbindTreeNodeLinkTemplate : Frame, SoulbindTreeNodeLinkMixin
 --- @field Background Texture
 --- @field Foreground1 Texture
---- @field foregrounds table<number, Texture>
 --- @field Foreground2 Texture
---- @field foregrounds table<number, Texture>
 --- @field Foreground3 Texture
---- @field foregrounds table<number, Texture>
 --- @field Foreground4 Texture
---- @field foregrounds table<number, Texture>
 --- @field Foreground5 Texture
---- @field foregrounds table<number, Texture>
 --- @field Foreground6 Texture
---- @field foregrounds table<number, Texture>
 --- @field FillMask MaskTexture
 --- @field FlowAnim1 SoulbindTreeNodeLinkTemplate_FlowAnim1
 --- @field FlowAnim2 SoulbindTreeNodeLinkTemplate_FlowAnim2
@@ -47,4 +41,5 @@
 --- @field FlowAnim4 SoulbindTreeNodeLinkTemplate_FlowAnim4
 --- @field FlowAnim5 SoulbindTreeNodeLinkTemplate_FlowAnim5
 --- @field FlowAnim6 SoulbindTreeNodeLinkTemplate_FlowAnim6
+--- @field foregrounds table<number, Texture | Texture | Texture | Texture | Texture | Texture>
 

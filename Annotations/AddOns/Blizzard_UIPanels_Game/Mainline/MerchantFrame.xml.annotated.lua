@@ -1356,9 +1356,8 @@ MerchantFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L81)
 --- @class MerchantFrame : Frame, ButtonFrameTemplate
---- @field Tabs table<number, MerchantFrame_MerchantFrameTab1>
---- @field Tabs table<number, MerchantFrame_MerchantFrameTab2>
 --- @field FilterDropdown MerchantFrame_FilterDropdown
+--- @field Tabs table<number, MerchantFrame_MerchantFrameTab1 | MerchantFrame_MerchantFrameTab2>
 MerchantFrame = {}
 MerchantFrame["Inset"] = MerchantFrameInset -- inherited
 MerchantFrame["CloseButton"] = MerchantFrameCloseButton -- inherited

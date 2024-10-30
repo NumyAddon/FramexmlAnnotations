@@ -109,12 +109,11 @@
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame : Frame
 --- @field RewardItem1 ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem1
---- @field RewardItems table<number, ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem1>
 --- @field RewardItem2 ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem2
---- @field RewardItems table<number, ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem2>
 --- @field Background Texture
 --- @field RewardIcon Texture
 --- @field RewardText ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_RewardText
+--- @field RewardItems table<number, ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem1 | ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L59)
 --- child of 

@@ -23,10 +23,9 @@
 --- Adds itself to the parent inside the array `Rewards`
 --- @class ContributionRewardTemplate : Frame, ContributionRewardMixin
 --- @field MouseOver ContributionRewardTemplate_MouseOver
---- @field Border Texture
+--- @field Border Texture | Texture
 --- @field Icon Texture
 --- @field PadLock Texture
---- @field Border Texture
 --- @field RewardName FontString
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L139)

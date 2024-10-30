@@ -77,11 +77,9 @@
 --- Adds itself to the parent inside the array `Slots`
 --- @class AzeriteMilestoneMinorSlotTemplate : Frame, AzeriteMilestoneBaseTemplate, AzeriteMilestoneSlotMixin
 --- @field UnlockedState AzeriteMilestoneMinorSlotTemplate_UnlockedState
---- @field StateFrames table<number, AzeriteMilestoneMinorSlotTemplate_UnlockedState>
 --- @field AvailableState AzeriteMilestoneMinorSlotTemplate_AvailableState
---- @field StateFrames table<number, AzeriteMilestoneMinorSlotTemplate_AvailableState>
 --- @field LockedState AzeriteMilestoneMinorSlotTemplate_LockedState
---- @field StateFrames table<number, AzeriteMilestoneMinorSlotTemplate_LockedState>
+--- @field StateFrames table<number, AzeriteMilestoneMinorSlotTemplate_UnlockedState | AzeriteMilestoneMinorSlotTemplate_AvailableState | AzeriteMilestoneMinorSlotTemplate_LockedState>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L145)
 --- child of AzeriteMilestoneRankedTemplate
@@ -127,9 +125,8 @@
 --- @class AzeriteMilestoneRankedTemplate : Frame, AzeriteMilestoneBaseTemplate, AzeriteMilestoneRankedMixin
 --- @field EffectsModelScene AzeriteMilestoneRankedTemplate_EffectsModelScene
 --- @field AvailableState AzeriteMilestoneRankedTemplate_AvailableState
---- @field StateFrames table<number, AzeriteMilestoneRankedTemplate_AvailableState>
 --- @field LockedState AzeriteMilestoneRankedTemplate_LockedState
---- @field StateFrames table<number, AzeriteMilestoneRankedTemplate_LockedState>
+--- @field StateFrames table<number, AzeriteMilestoneRankedTemplate_AvailableState | AzeriteMilestoneRankedTemplate_LockedState>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L313)
 --- child of 
@@ -239,9 +236,7 @@
 --- Template
 --- @class AzeriteEssenceButtonTemplate : Button, AzeriteEssenceButtonMixin
 --- @field ActivatedMarkerMain AzeriteEssenceButtonTemplate_ActivatedMarkerMain
---- @field ActivatedMarkers table<number, AzeriteEssenceButtonTemplate_ActivatedMarkerMain>
 --- @field ActivatedMarkerPassive AzeriteEssenceButtonTemplate_ActivatedMarkerPassive
---- @field ActivatedMarkers table<number, AzeriteEssenceButtonTemplate_ActivatedMarkerPassive>
 --- @field PendingGlow Texture
 --- @field Icon Texture
 --- @field Name AzeriteEssenceButtonTemplate_Name
@@ -250,6 +245,7 @@
 --- @field Glow2 AzeriteEssenceButtonTemplate_Glow2
 --- @field Glow3 AzeriteEssenceButtonTemplate_Glow3
 --- @field Background Texture
+--- @field ActivatedMarkers table<number, AzeriteEssenceButtonTemplate_ActivatedMarkerMain | AzeriteEssenceButtonTemplate_ActivatedMarkerPassive>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L499)
 --- child of AzeriteEssenceHeaderButtonTemplate
@@ -390,11 +386,8 @@ AzeriteEssenceUIBg = {}
 --- @field RightInset AzeriteEssenceUI_RightInset
 --- @field ItemModelScene AzeriteEssenceUI_ItemModelScene
 --- @field StarsAnimationFrame1 AzeriteEssenceUI_StarsAnimationFrame1
---- @field StarsAnimations table<number, AzeriteEssenceUI_StarsAnimationFrame1>
 --- @field StarsAnimationFrame2 AzeriteEssenceUI_StarsAnimationFrame2
---- @field StarsAnimations table<number, AzeriteEssenceUI_StarsAnimationFrame2>
 --- @field StarsAnimationFrame3 AzeriteEssenceUI_StarsAnimationFrame3
---- @field StarsAnimations table<number, AzeriteEssenceUI_StarsAnimationFrame3>
 --- @field EssenceList AzeriteEssenceUI_EssenceList
 --- @field DisabledFrame AzeriteEssenceUI_DisabledFrame
 --- @field OrbBackground Texture
@@ -402,6 +395,7 @@ AzeriteEssenceUIBg = {}
 --- @field OrbShadow Texture
 --- @field ActivationGlow AzeriteEssenceUI_ActivationGlow
 --- @field OrbRing Texture
+--- @field StarsAnimations table<number, AzeriteEssenceUI_StarsAnimationFrame1 | AzeriteEssenceUI_StarsAnimationFrame2 | AzeriteEssenceUI_StarsAnimationFrame3>
 AzeriteEssenceUI = {}
 AzeriteEssenceUI["CloseButton"] = AzeriteEssenceUICloseButton -- inherited
 AzeriteEssenceUI["Bg"] = AzeriteEssenceUIBg -- inherited
@@ -439,51 +433,29 @@ AzeriteEssenceUI["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L802)
 --- @class AzeriteEssenceLearnAnimFrame : Frame, AzeriteEssenceLearnAnimFrameMixin
 --- @field BlackCover Texture
---- @field Textures table<number, Texture>
 --- @field BlackCover2 Texture
---- @field Textures table<number, Texture>
 --- @field Titans Texture
---- @field Textures table<number, Texture>
 --- @field Titans2 Texture
---- @field Textures table<number, Texture>
 --- @field Rune AzeriteEssenceLearnAnimFrame_Rune
---- @field Textures table<number, AzeriteEssenceLearnAnimFrame_Rune>
 --- @field RuneFlipped AzeriteEssenceLearnAnimFrame_RuneFlipped
---- @field Textures table<number, AzeriteEssenceLearnAnimFrame_RuneFlipped>
 --- @field Rune2 AzeriteEssenceLearnAnimFrame_Rune2
---- @field Textures table<number, AzeriteEssenceLearnAnimFrame_Rune2>
 --- @field RuneFlipped2 AzeriteEssenceLearnAnimFrame_RuneFlipped2
---- @field Textures table<number, AzeriteEssenceLearnAnimFrame_RuneFlipped2>
 --- @field RingLargeFlip Texture
---- @field Textures table<number, Texture>
 --- @field RingLargeFlip2 Texture
---- @field Textures table<number, Texture>
 --- @field RuneStatic AzeriteEssenceLearnAnimFrame_RuneStatic
---- @field Textures table<number, AzeriteEssenceLearnAnimFrame_RuneStatic>
 --- @field Sunburst Texture
---- @field Textures table<number, Texture>
 --- @field RingLarge Texture
---- @field Textures table<number, Texture>
 --- @field RingSmall Texture
---- @field Textures table<number, Texture>
 --- @field RingConstellation Texture
---- @field Textures table<number, Texture>
 --- @field OrbActivated Texture
---- @field Textures table<number, Texture>
 --- @field OrbActivated2 Texture
---- @field Textures table<number, Texture>
 --- @field Starfield Texture
---- @field Textures table<number, Texture>
 --- @field Glowies Texture
---- @field Textures table<number, Texture>
 --- @field Glowies2 Texture
---- @field Textures table<number, Texture>
 --- @field LensflareLine Texture
---- @field Textures table<number, Texture>
 --- @field LensflareLine3 Texture
---- @field Textures table<number, Texture>
 --- @field LensflareLine2 Texture
---- @field Textures table<number, Texture>
 --- @field Anim AzeriteEssenceLearnAnimFrame_Anim
+--- @field Textures table<number, Texture | Texture | Texture | Texture | AzeriteEssenceLearnAnimFrame_Rune | AzeriteEssenceLearnAnimFrame_RuneFlipped | AzeriteEssenceLearnAnimFrame_Rune2 | AzeriteEssenceLearnAnimFrame_RuneFlipped2 | Texture | Texture | AzeriteEssenceLearnAnimFrame_RuneStatic | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture | Texture>
 AzeriteEssenceLearnAnimFrame = {}
 

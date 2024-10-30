@@ -102,12 +102,9 @@
 --- @field BlackBG Texture
 --- @field BottomBar Texture
 --- @field Background Texture
---- @field specBackgrounds table<number, Texture>
 --- @field OverlayBackgroundRight Texture
---- @field specBackgrounds table<number, Texture>
 --- @field OverlayBackgroundRightMask MaskTexture
 --- @field OverlayBackgroundMid Texture
---- @field specBackgrounds table<number, Texture>
 --- @field OverlayBackgroundMidMask MaskTexture
 --- @field Clouds1 Texture
 --- @field Clouds2 Texture
@@ -116,21 +113,14 @@
 --- @field ActivationExpandFx Texture
 --- @field ActivationExpandFxMask MaskTexture
 --- @field ActivationClassFx Texture
---- @field classActivationTextures table<number, Texture>
 --- @field ActivationClassFx2 Texture
---- @field classActivationTextures table<number, Texture>
 --- @field ActivationClassFx3 Texture
---- @field classActivationTextures table<number, Texture>
 --- @field ActivationClassFx4 Texture
---- @field classActivationTextures table<number, Texture>
 --- @field ActivationTitansFX Texture
---- @field Textures table<number, Texture>
 --- @field FullMask MaskTexture
+--- @field specBackgrounds table<number, Texture | Texture | Texture>
+--- @field classActivationTextures table<number, Texture | Texture | Texture | Texture>
+--- @field Textures table<number, Texture>
 --- @field commitFlashAnims table<number, >
---- @field backgroundAnims table<number, >
---- @field backgroundAnims table<number, >
---- @field backgroundAnims table<number, >
---- @field backgroundAnims table<number, >
---- @field backgroundAnims table<number, >
---- @field backgroundAnims table<number, >
+--- @field backgroundAnims table<number,  |  |  |  |  | >
 

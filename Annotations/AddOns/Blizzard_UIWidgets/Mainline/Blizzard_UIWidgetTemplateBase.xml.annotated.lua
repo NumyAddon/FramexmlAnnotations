@@ -54,15 +54,14 @@
 --- Template
 --- @class UIWidgetBaseCurrencyTemplate : Frame, UIWidgetTemplateTooltipFrame, UIWidgetBaseCurrencyTemplateMixin
 --- @field LeadingText UIWidgetBaseCurrencyTemplate_LeadingText
---- @field ColoredStrings table<number, UIWidgetBaseCurrencyTemplate_LeadingText>
 --- @field Icon Texture
 --- @field Text UIWidgetBaseCurrencyTemplate_Text
---- @field ColoredStrings table<number, UIWidgetBaseCurrencyTemplate_Text>
 --- @field LineGlow Texture
 --- @field SoftGlow Texture
 --- @field StarBurst Texture
 --- @field LineSheen Texture
 --- @field Flash UIWidgetBaseCurrencyTemplate_Flash
+--- @field ColoredStrings table<number, UIWidgetBaseCurrencyTemplate_LeadingText | UIWidgetBaseCurrencyTemplate_Text>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L151)
 --- child of UIWidgetBaseSpellTemplate
@@ -79,11 +78,11 @@
 --- @field IconMask MaskTexture
 --- @field CircleMask MaskTexture
 --- @field Text UIWidgetBaseSpellTemplate_Text
---- @field ColoredStrings table<number, UIWidgetBaseSpellTemplate_Text>
 --- @field Border Texture
 --- @field DebuffBorder Texture
 --- @field AmountBorder Texture
 --- @field StackCount UIWidgetBaseSpellTemplate_StackCount
+--- @field ColoredStrings table<number, UIWidgetBaseSpellTemplate_Text>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L208)
 --- child of UIWidgetBaseStatusBarPartitionTemplate

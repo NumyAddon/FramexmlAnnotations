@@ -298,11 +298,8 @@ CombatLog = {}
 --- @field OverlayElements CovenantMissionFrame_OverlayElements
 --- @field RaisedBorder CovenantMissionFrame_RaisedBorder
 --- @field Tab1 CovenantMissionFrame_CovenantMissionFrameTab1
---- @field Tabs table<number, CovenantMissionFrame_CovenantMissionFrameTab1>
 --- @field Tab2 CovenantMissionFrame_CovenantMissionFrameTab2
---- @field Tabs table<number, CovenantMissionFrame_CovenantMissionFrameTab2>
 --- @field Tab3 CovenantMissionFrame_CovenantMissionFrameTab3
---- @field Tabs table<number, CovenantMissionFrame_CovenantMissionFrameTab3>
 --- @field FollowerList CovenantMissionFrame_CovenantMissionFrameFollowers
 --- @field MapTab CovenantMissionFrame_MapTab
 --- @field MissionTab CovenantMissionFrame_MissionTab
@@ -310,6 +307,7 @@ CombatLog = {}
 --- @field MissionCompleteBackground Frame
 --- @field MissionComplete CovenantMissionFrame_MissionComplete
 --- @field Border Texture
+--- @field Tabs table<number, CovenantMissionFrame_CovenantMissionFrameTab1 | CovenantMissionFrame_CovenantMissionFrameTab2 | CovenantMissionFrame_CovenantMissionFrameTab3>
 CovenantMissionFrame = {}
 CovenantMissionFrame["Tab1"] = CovenantMissionFrameTab1
 CovenantMissionFrame["Tab2"] = CovenantMissionFrameTab2

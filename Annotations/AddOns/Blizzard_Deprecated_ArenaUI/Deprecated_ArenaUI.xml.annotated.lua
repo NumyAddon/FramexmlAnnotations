@@ -300,11 +300,7 @@ ArenaEnemyPrepFrame5["classPortrait"] = ArenaEnemyPrepFrame5ClassPortrait -- inh
 --- child of ArenaEnemyFramesContainer
 --- @class ArenaEnemyFramesContainer_ArenaEnemyPrepFramesContainer : Frame, VerticalLayoutFrame, ArenaEnemyPrepFramesContainerMixin
 --- @field spacing number # 10
---- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyPrepFramesContainer_ArenaEnemyPrepFrame1>
---- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyPrepFramesContainer_ArenaEnemyPrepFrame2>
---- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyPrepFramesContainer_ArenaEnemyPrepFrame3>
---- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyPrepFramesContainer_ArenaEnemyPrepFrame4>
---- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyPrepFramesContainer_ArenaEnemyPrepFrame5>
+--- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyPrepFramesContainer_ArenaEnemyPrepFrame1 | ArenaEnemyFramesContainer_ArenaEnemyPrepFramesContainer_ArenaEnemyPrepFrame2 | ArenaEnemyFramesContainer_ArenaEnemyPrepFramesContainer_ArenaEnemyPrepFrame3 | ArenaEnemyFramesContainer_ArenaEnemyPrepFramesContainer_ArenaEnemyPrepFrame4 | ArenaEnemyFramesContainer_ArenaEnemyPrepFramesContainer_ArenaEnemyPrepFrame5>
 ArenaEnemyPrepFramesContainer = {}
 ArenaEnemyPrepFramesContainer["spacing"] = 10
 
@@ -617,11 +613,7 @@ ArenaEnemyMatchFrame5["classPortrait"] = ArenaEnemyMatchFrame5ClassPortrait -- i
 --- child of ArenaEnemyFramesContainer
 --- @class ArenaEnemyFramesContainer_ArenaEnemyMatchFramesContainer : Frame, VerticalLayoutFrame, ArenaEnemyMatchFramesContainerMixin
 --- @field spacing number # 10
---- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyMatchFramesContainer_ArenaEnemyMatchFrame1>
---- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyMatchFramesContainer_ArenaEnemyMatchFrame2>
---- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyMatchFramesContainer_ArenaEnemyMatchFrame3>
---- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyMatchFramesContainer_ArenaEnemyMatchFrame4>
---- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyMatchFramesContainer_ArenaEnemyMatchFrame5>
+--- @field UnitFrames table<number, ArenaEnemyFramesContainer_ArenaEnemyMatchFramesContainer_ArenaEnemyMatchFrame1 | ArenaEnemyFramesContainer_ArenaEnemyMatchFramesContainer_ArenaEnemyMatchFrame2 | ArenaEnemyFramesContainer_ArenaEnemyMatchFramesContainer_ArenaEnemyMatchFrame3 | ArenaEnemyFramesContainer_ArenaEnemyMatchFramesContainer_ArenaEnemyMatchFrame4 | ArenaEnemyFramesContainer_ArenaEnemyMatchFramesContainer_ArenaEnemyMatchFrame5>
 ArenaEnemyMatchFramesContainer = {}
 ArenaEnemyMatchFramesContainer["spacing"] = 10
 

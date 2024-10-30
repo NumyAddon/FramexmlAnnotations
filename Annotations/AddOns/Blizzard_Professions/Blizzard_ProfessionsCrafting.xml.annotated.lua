@@ -182,24 +182,16 @@
 --- @field GuildFrame ProfessionsCraftingPageTemplate_GuildFrame
 --- @field CraftingOutputLog ProfessionsCraftingPageTemplate_CraftingOutputLog
 --- @field Prof0ToolSlot ProfessionsCraftingPageTemplate_Prof0ToolSlot
---- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof0ToolSlot>
 --- @field Prof0Gear0Slot ProfessionsCraftingPageTemplate_Prof0Gear0Slot
---- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof0Gear0Slot>
 --- @field Prof0Gear1Slot ProfessionsCraftingPageTemplate_Prof0Gear1Slot
---- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof0Gear1Slot>
 --- @field Prof1ToolSlot ProfessionsCraftingPageTemplate_Prof1ToolSlot
---- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof1ToolSlot>
 --- @field Prof1Gear0Slot ProfessionsCraftingPageTemplate_Prof1Gear0Slot
---- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof1Gear0Slot>
 --- @field Prof1Gear1Slot ProfessionsCraftingPageTemplate_Prof1Gear1Slot
---- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof1Gear1Slot>
 --- @field CookingToolSlot ProfessionsCraftingPageTemplate_CookingToolSlot
---- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_CookingToolSlot>
 --- @field CookingGear0Slot ProfessionsCraftingPageTemplate_CookingGear0Slot
---- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_CookingGear0Slot>
 --- @field FishingToolSlot ProfessionsCraftingPageTemplate_FishingToolSlot
---- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_FishingToolSlot>
 --- @field GearSlotDivider ProfessionsCraftingPageTemplate_GearSlotDivider
 --- @field LinkButton ProfessionsCraftingPageTemplate_LinkButton
 --- @field OverlayCastBarAnchor Frame
+--- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof0ToolSlot | ProfessionsCraftingPageTemplate_Prof0Gear0Slot | ProfessionsCraftingPageTemplate_Prof0Gear1Slot | ProfessionsCraftingPageTemplate_Prof1ToolSlot | ProfessionsCraftingPageTemplate_Prof1Gear0Slot | ProfessionsCraftingPageTemplate_Prof1Gear1Slot | ProfessionsCraftingPageTemplate_CookingToolSlot | ProfessionsCraftingPageTemplate_CookingGear0Slot | ProfessionsCraftingPageTemplate_FishingToolSlot>
 

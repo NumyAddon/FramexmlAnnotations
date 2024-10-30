@@ -76,10 +76,10 @@
 --- Template
 --- @class CovenantMissionFollowerButtonTemplate : Button, CovenantFollowerButtonTemplate
 --- @field DurabilityFrame CovenantMissionFollowerButtonTemplate_DurabilityFrame
---- @field Counters table<number, >
---- @field Abilities table<number, >
 --- @field BusyFrame CovenantMissionFollowerButtonTemplate_BusyFrame
 --- @field AbilitiesBG Texture
+--- @field Counters table<number, >
+--- @field Abilities table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L260)
 --- child of CovenantMissionFollowerOrCategoryListButtonTemplate
@@ -123,10 +123,10 @@
 --- Template
 --- @class CovenantMissionPageFollowerTemplate : Frame
 --- @field PortraitFrame CovenantMissionPageFollowerTemplate_PortraitFrame
---- @field Abilities table<number, >
 --- @field Durability CovenantMissionPageFollowerTemplate_Durability
 --- @field DurabilityBackground Texture
 --- @field Name CovenantMissionPageFollowerTemplate_Name
+--- @field Abilities table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L446)
 --- child of CovenantMissionBaseFrameTemplate
@@ -378,7 +378,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L960)
 --- Template
 --- @class CovenantMissionListButtonTemplate : Button
---- @field Rewards table<number, >
 --- @field EncounterIcon CovenantMissionListButtonTemplate_EncounterIcon
 --- @field Overlay CovenantMissionListButtonTemplate_Overlay
 --- @field ButtonBG Texture
@@ -388,6 +387,7 @@
 --- @field Summary CovenantMissionListButtonTemplate_Summary
 --- @field CompleteCheck Texture
 --- @field Highlight Texture
+--- @field Rewards table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L1054)
 --- child of AdventuresTargetingIndicatorTemplate
@@ -421,10 +421,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L1093)
 --- child of AdventuresFriendlyTargetingIndicatorTemplate
 --- @class AdventuresFriendlyTargetingIndicatorTemplate_FadeInAndOut : AnimationGroup
---- @field Fade Alpha
---- @field Scale Scale
---- @field Fade Alpha
---- @field Scale Scale
+--- @field Fade Alpha | Alpha
+--- @field Scale Scale | Scale
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L1099)
 --- child of AdventuresFriendlyTargetingIndicatorTemplate

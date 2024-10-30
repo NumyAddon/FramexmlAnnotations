@@ -41,32 +41,24 @@
 --- @field FillIncrement ShardTemplate_FillIncrement
 --- @field Background Texture
 --- @field Frame_Glow Texture
---- @field fxTextures table<number, Texture>
 --- @field Shard_Icon Texture
 --- @field FB_DepleteA Texture
---- @field fxFlipBooks table<number, Texture>
 --- @field FB_DepleteB Texture
---- @field fxFlipBooks table<number, Texture>
 --- @field FB_DepleteC Texture
---- @field fxFlipBooks table<number, Texture>
 --- @field Shard_Refill Texture
---- @field fxTextures table<number, Texture>
 --- @field Shard_RefillFX Texture
---- @field fxTextures table<number, Texture>
 --- @field Shard_IconFX2 Texture
---- @field fxTextures table<number, Texture>
 --- @field Shard_IconGlow Texture
---- @field fxTextures table<number, Texture>
 --- @field Shard_IconFX3 Texture
---- @field fxTextures table<number, Texture>
 --- @field Shard_Soul Texture
---- @field fxFlipBooks table<number, Texture>
 --- @field emptyToFullAnim ShardTemplate_emptyToFullAnim
 --- @field fillDoneAnim ShardTemplate_fillDoneAnim
 --- @field readyLoopAnim ShardTemplate_readyLoopAnim
 --- @field depleteAnimA ShardTemplate_depleteAnimA
 --- @field depleteAnimB ShardTemplate_depleteAnimB
 --- @field depleteAnimC ShardTemplate_depleteAnimC
+--- @field fxTextures table<number, Texture | Texture | Texture | Texture | Texture | Texture>
+--- @field fxFlipBooks table<number, Texture | Texture | Texture | Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/ShardBar.xml#L150)
 --- Template

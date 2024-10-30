@@ -67,10 +67,6 @@
 --- Template
 --- @class CommunitiesGuildInfoFrameTemplate : Frame
 --- @field MOTDScrollFrame CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateMOTDScrollFrame
---- @field Challenges table<number, CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge1>
---- @field Challenges table<number, CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge2>
---- @field Challenges table<number, CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge3>
---- @field Challenges table<number, CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge4>
 --- @field EditMOTDButton CommunitiesGuildInfoFrameTemplate_EditMOTDButton
 --- @field EditDetailsButton CommunitiesGuildInfoFrameTemplate_EditDetailsButton
 --- @field DetailsFrame CommunitiesGuildInfoFrameTemplate_DetailsFrame
@@ -82,6 +78,7 @@
 --- @field BG Texture
 --- @field Header1Label CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateHeader1Label
 --- @field Header2Label CommunitiesGuildInfoFrameTemplate_Header2Label
+--- @field Challenges table<number, CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge1 | CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge2 | CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge3 | CommunitiesGuildInfoFrameTemplate_CommunitiesGuildInfoFrameTemplateChallenge4>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L302)
 --- child of CommunitiesGuildTextEditFrame

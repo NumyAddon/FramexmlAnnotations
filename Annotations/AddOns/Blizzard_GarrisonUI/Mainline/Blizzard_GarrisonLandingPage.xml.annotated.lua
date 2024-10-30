@@ -49,17 +49,15 @@
 --- @class GarrisonLandingPageReportMissionTemplate : Button
 --- @field EncounterIcon GarrisonLandingPageReportMissionTemplate_EncounterIcon
 --- @field Reward1 GarrisonLandingPageReportMissionTemplate_Reward1
---- @field Rewards table<number, GarrisonLandingPageReportMissionTemplate_Reward1>
 --- @field Reward2 GarrisonLandingPageReportMissionTemplate_Reward2
---- @field Rewards table<number, GarrisonLandingPageReportMissionTemplate_Reward2>
 --- @field Reward3 GarrisonLandingPageReportMissionTemplate_Reward3
---- @field Rewards table<number, GarrisonLandingPageReportMissionTemplate_Reward3>
 --- @field BG Texture
 --- @field MissionTypeIcon Texture
 --- @field Title GarrisonLandingPageReportMissionTemplate_Title
 --- @field MissionType GarrisonLandingPageReportMissionTemplate_MissionType
 --- @field TimeLeft GarrisonLandingPageReportMissionTemplate_TimeLeft
 --- @field Status GarrisonLandingPageReportMissionTemplate_Status
+--- @field Rewards table<number, GarrisonLandingPageReportMissionTemplate_Reward1 | GarrisonLandingPageReportMissionTemplate_Reward2 | GarrisonLandingPageReportMissionTemplate_Reward3>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L175)
 --- child of GarrisonLandingPageReportShipmentStatusTemplate
@@ -306,9 +304,7 @@ GarrisonLandingPageFollowerList["showUncollected"] = true
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame : Frame, VerticalLayoutFrame
 --- @field expand boolean # true
 --- @field CombatAllySpell1 GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell1
---- @field CombatAllySpell table<number, GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell1>
 --- @field CombatAllySpell2 GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell2
---- @field CombatAllySpell table<number, GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell2>
 --- @field StatsLabel GarrisonLandingPage_FollowerTab_AbilitiesFrame_StatsLabel
 --- @field SpecializationLabel GarrisonLandingPage_FollowerTab_AbilitiesFrame_SpecializationLabel
 --- @field AbilitiesText GarrisonLandingPage_FollowerTab_AbilitiesFrame_AbilitiesText
@@ -317,6 +313,7 @@ GarrisonLandingPageFollowerList["showUncollected"] = true
 --- @field CombatAllyDescriptionLabel GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllyDescriptionLabel
 --- @field FlavorText GarrisonLandingPage_FollowerTab_AbilitiesFrame_FlavorText
 --- @field EquipmentSlotsLabel GarrisonLandingPage_FollowerTab_AbilitiesFrame_EquipmentSlotsLabel
+--- @field CombatAllySpell table<number, GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell1 | GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L818)
 --- child of 
@@ -469,10 +466,9 @@ GarrisonLandingPageShipFollowerList["showUncollected"] = false
 --- child of 
 --- @class GarrisonLandingPage_ShipFollowerTab_EquipmentFrame : Frame, GarrisonAbilitiesFrameMixin
 --- @field Equipment1 GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment1
---- @field Equipment table<number, GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment1>
 --- @field Equipment2 GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment2
---- @field Equipment table<number, GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment2>
 --- @field EquipmentTitle GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_EquipmentTitle
+--- @field Equipment table<number, GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment1 | GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L1110)
 --- child of 
@@ -515,9 +511,7 @@ GarrisonLandingPageShipFollowerList["showUncollected"] = false
 --- @field XPBar GarrisonLandingPage_ShipFollowerTab_XPBar
 --- @field Model GarrisonLandingPage_ShipFollowerTab_Model
 --- @field Trait1 GarrisonLandingPage_ShipFollowerTab_Trait1
---- @field Traits table<number, GarrisonLandingPage_ShipFollowerTab_Trait1>
 --- @field Trait2 GarrisonLandingPage_ShipFollowerTab_Trait2
---- @field Traits table<number, GarrisonLandingPage_ShipFollowerTab_Trait2>
 --- @field EquipmentFrame GarrisonLandingPage_ShipFollowerTab_EquipmentFrame
 --- @field ThreatCountersFrame GarrisonLandingPage_ShipFollowerTab_ThreatCountersFrame
 --- @field NoFollowersLabel GarrisonLandingPage_ShipFollowerTab_NoFollowersLabel
@@ -529,17 +523,15 @@ GarrisonLandingPageShipFollowerList["showUncollected"] = false
 --- @field BoatName GarrisonLandingPage_ShipFollowerTab_BoatName
 --- @field BoatType GarrisonLandingPage_ShipFollowerTab_BoatType
 --- @field Quality Texture
+--- @field Traits table<number, GarrisonLandingPage_ShipFollowerTab_Trait1 | GarrisonLandingPage_ShipFollowerTab_Trait2>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L318)
 --- @class GarrisonLandingPage : Frame, GarrisonLandingPageMixin
 --- @field CloseButton GarrisonLandingPage_CloseButton
 --- @field InvasionBadge GarrisonLandingPage_InvasionBadge
 --- @field ReportTab GarrisonLandingPage_GarrisonLandingPageTab1
---- @field Tabs table<number, GarrisonLandingPage_GarrisonLandingPageTab1>
 --- @field FollowerTabButton GarrisonLandingPage_GarrisonLandingPageTab2
---- @field Tabs table<number, GarrisonLandingPage_GarrisonLandingPageTab2>
 --- @field FleetTab GarrisonLandingPage_GarrisonLandingPageTab3
---- @field Tabs table<number, GarrisonLandingPage_GarrisonLandingPageTab3>
 --- @field Report GarrisonLandingPage_GarrisonLandingPageReport
 --- @field FollowerList GarrisonLandingPage_GarrisonLandingPageFollowerList
 --- @field FollowerTab GarrisonLandingPage_FollowerTab
@@ -550,6 +542,7 @@ GarrisonLandingPageShipFollowerList["showUncollected"] = false
 --- @field BL Texture
 --- @field BR Texture
 --- @field HeaderBar Texture
+--- @field Tabs table<number, GarrisonLandingPage_GarrisonLandingPageTab1 | GarrisonLandingPage_GarrisonLandingPageTab2 | GarrisonLandingPage_GarrisonLandingPageTab3>
 GarrisonLandingPage = {}
 GarrisonLandingPage["ReportTab"] = GarrisonLandingPageTab1
 GarrisonLandingPage["FollowerTabButton"] = GarrisonLandingPageTab2

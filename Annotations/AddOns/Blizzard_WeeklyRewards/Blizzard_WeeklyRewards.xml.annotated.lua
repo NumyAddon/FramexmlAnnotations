@@ -284,7 +284,6 @@
 --- @field WorldFrame WeeklyRewardsFrame_WorldFrame
 --- @field ModelScene WeeklyRewardsFrame_ModelScene
 --- @field ConcessionFrame WeeklyRewardsFrame_ConcessionFrame
---- @field Activities table<number, WeeklyRewardsFrame_ConcessionFrame>
 --- @field SelectRewardButton WeeklyRewardsFrame_SelectRewardButton
 --- @field CloseButton WeeklyRewardsFrame_CloseButton
 --- @field Background Texture
@@ -292,6 +291,7 @@
 --- @field Divider1 Texture
 --- @field Divider2 Texture
 --- @field PreviousRewardNotification WeeklyRewardsFrame_PreviousRewardNotification
+--- @field Activities table<number, WeeklyRewardsFrame_ConcessionFrame>
 WeeklyRewardsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L767)

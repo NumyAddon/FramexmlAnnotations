@@ -64,17 +64,14 @@
 --- @field SpendText TalentButtonArtTemplate_SpendText
 --- @field SelectableIcon Texture
 --- @field SpendTextShadow1 TalentButtonArtTemplate_SpendTextShadow1
---- @field spendTextShadows table<number, TalentButtonArtTemplate_SpendTextShadow1>
 --- @field SpendTextShadow2 TalentButtonArtTemplate_SpendTextShadow2
---- @field spendTextShadows table<number, TalentButtonArtTemplate_SpendTextShadow2>
 --- @field SpendTextShadow3 TalentButtonArtTemplate_SpendTextShadow3
---- @field spendTextShadows table<number, TalentButtonArtTemplate_SpendTextShadow3>
 --- @field SpendTextShadow4 TalentButtonArtTemplate_SpendTextShadow4
---- @field spendTextShadows table<number, TalentButtonArtTemplate_SpendTextShadow4>
 --- @field IconMask MaskTexture
 --- @field DisabledOverlayMask MaskTexture
 --- @field Glow TalentButtonArtTemplate_Glow
 --- @field Ghost Texture
+--- @field spendTextShadows table<number, TalentButtonArtTemplate_SpendTextShadow1 | TalentButtonArtTemplate_SpendTextShadow2 | TalentButtonArtTemplate_SpendTextShadow3 | TalentButtonArtTemplate_SpendTextShadow4>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L221)
 --- child of TalentButtonBasicArtTemplate

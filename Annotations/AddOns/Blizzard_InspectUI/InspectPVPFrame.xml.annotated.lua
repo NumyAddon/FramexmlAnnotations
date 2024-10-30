@@ -107,14 +107,12 @@ InspectPVPFrameBGType = {}
 --- @field RatedSoloShuffle InspectPVPFrame_RatedSoloShuffle
 --- @field RatedBGBlitz InspectPVPFrame_RatedBGBlitz
 --- @field TalentSlot1 InspectPVPFrame_TalentSlot1
---- @field Slots table<number, InspectPVPFrame_TalentSlot1>
 --- @field TalentSlot2 InspectPVPFrame_TalentSlot2
---- @field Slots table<number, InspectPVPFrame_TalentSlot2>
 --- @field TalentSlot3 InspectPVPFrame_TalentSlot3
---- @field Slots table<number, InspectPVPFrame_TalentSlot3>
 --- @field BG Texture
 --- @field HKs InspectPVPFrame_HKs
 --- @field HonorLevel InspectPVPFrame_HonorLevel
 --- @field SmallWreath Texture
+--- @field Slots table<number, InspectPVPFrame_TalentSlot1 | InspectPVPFrame_TalentSlot2 | InspectPVPFrame_TalentSlot3>
 InspectPVPFrame = {}
 

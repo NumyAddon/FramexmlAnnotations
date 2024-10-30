@@ -265,19 +265,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L224)
 --- @class ScenarioObjectiveTracker : Frame, ObjectiveTrackerModuleTemplate, ScenarioObjectiveTrackerMixin
 --- @field ObjectivesBlock ScenarioObjectiveTracker_ObjectivesBlock
---- @field FixedBlocks table<number, ScenarioObjectiveTracker_ObjectivesBlock>
 --- @field StageBlock ScenarioObjectiveTracker_StageBlock
---- @field FixedBlocks table<number, ScenarioObjectiveTracker_StageBlock>
 --- @field TopWidgetContainerBlock ScenarioObjectiveTracker_TopWidgetContainerBlock
---- @field FixedBlocks table<number, ScenarioObjectiveTracker_TopWidgetContainerBlock>
 --- @field BottomWidgetContainerBlock ScenarioObjectiveTracker_BottomWidgetContainerBlock
---- @field FixedBlocks table<number, ScenarioObjectiveTracker_BottomWidgetContainerBlock>
 --- @field MawBuffsBlock ScenarioObjectiveTracker_MawBuffsBlock
---- @field FixedBlocks table<number, ScenarioObjectiveTracker_MawBuffsBlock>
 --- @field ChallengeModeBlock ScenarioObjectiveTracker_ChallengeModeBlock
---- @field FixedBlocks table<number, ScenarioObjectiveTracker_ChallengeModeBlock>
 --- @field ProvingGroundsBlock ScenarioObjectiveTracker_ProvingGroundsBlock
---- @field FixedBlocks table<number, ScenarioObjectiveTracker_ProvingGroundsBlock>
+--- @field FixedBlocks table<number, ScenarioObjectiveTracker_ObjectivesBlock | ScenarioObjectiveTracker_StageBlock | ScenarioObjectiveTracker_TopWidgetContainerBlock | ScenarioObjectiveTracker_BottomWidgetContainerBlock | ScenarioObjectiveTracker_MawBuffsBlock | ScenarioObjectiveTracker_ChallengeModeBlock | ScenarioObjectiveTracker_ProvingGroundsBlock>
 ScenarioObjectiveTracker = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L627)

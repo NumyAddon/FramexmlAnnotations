@@ -22,8 +22,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.xml#L34)
 --- Template
 --- @class LootJournalItemSetButtonTemplate : Button, LootJournalItemSetButtonMixin
---- @field ItemButtons table<number, LootJournalItemSetItemButtonTemplate>
 --- @field Background Texture
 --- @field SetName LootJournalItemSetButtonTemplate_SetName
 --- @field ItemLevel LootJournalItemSetButtonTemplate_ItemLevel
+--- @field ItemButtons table<number, LootJournalItemSetItemButtonTemplate>
 

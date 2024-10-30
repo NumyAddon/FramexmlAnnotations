@@ -10,6 +10,7 @@ use SimpleXMLElement;
 class XmlFileParser
 {
     private const string TYPE_ANIMATION_GROUP = 'AnimationGroup';
+    private const string TYPE_SCROLL_FRAME = 'ScrollFrame';
     /**
      * @var array<string, string> [alias => type]
      */
@@ -89,7 +90,6 @@ class XmlFileParser
         if (isset(self::TYPE_ALIASSES[$type])) {
             $type = self::TYPE_ALIASSES[$type];
         }
-        $frame = null;
         if ($isIntrinsic) {
             $frame = new Intrinsic($name, $type, $node, $parent);
             $this->intrinsicRegistry->register($frame->getClassName(), $frame);
@@ -105,6 +105,11 @@ class XmlFileParser
         }
         $parent?->addChild($frame);
 
+        if (self::TYPE_SCROLL_FRAME === $type && isset($node->ScrollChild)) {
+            foreach ($node->ScrollChild->children() as $scrollChild) {
+                $this->parseNode($scrollChild, $fileRegistry, $frame);
+            }
+        }
         if (isset($node->Frames)) {
             foreach ($node->Frames->children() as $frameChild) {
                 $this->parseNode($frameChild, $fileRegistry, $frame);

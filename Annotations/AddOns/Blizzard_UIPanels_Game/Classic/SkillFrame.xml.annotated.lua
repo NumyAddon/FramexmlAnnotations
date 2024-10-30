@@ -176,6 +176,11 @@ SkillTypeLabel12NormalTexture = {}
 --- @class SkillFrame_SkillTypeLabel12 : Button, SkillLabelTemplate
 SkillTypeLabel12 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L163)
+--- child of SkillListScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+SkillListScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L10)
 --- child of SkillListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -203,7 +208,58 @@ SkillListScrollFrameScrollBar["ThumbTexture"] = SkillListScrollFrameScrollBarThu
 --- child of SkillFrame
 --- @class SkillFrame_SkillListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 SkillListScrollFrame = {}
+SkillListScrollFrame["ScrollChildFrame"] = SkillListScrollFrameScrollChildFrame -- inherited
 SkillListScrollFrame["ScrollBar"] = SkillListScrollFrameScrollBar -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L598)
+--- child of SkillDetailStatusBar
+--- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarUnlearnButton : Button
+SkillDetailStatusBarUnlearnButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L556)
+--- child of SkillDetailStatusBar
+--- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarBorder : Texture
+SkillDetailStatusBarBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L568)
+--- child of SkillDetailStatusBar
+--- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarSkillName : FontString, GameFontNormalSmall
+SkillDetailStatusBarSkillName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L577)
+--- child of SkillDetailStatusBar
+--- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarSkillRank : FontString, GameFontHighlightSmall
+SkillDetailStatusBarSkillRank = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L584)
+--- child of SkillDetailStatusBar
+--- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarFillBar : Texture
+SkillDetailStatusBarFillBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L592)
+--- child of SkillDetailStatusBar
+--- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarBackground : Texture
+SkillDetailStatusBarBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L543)
+--- child of SkillDetailScrollChildFrame
+--- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar : StatusBar
+SkillDetailStatusBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L516)
+--- child of SkillDetailScrollChildFrame
+--- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailCostText : FontString, GameFontNormalSmall
+SkillDetailCostText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L528)
+--- child of SkillDetailScrollChildFrame
+--- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailDescriptionText : FontString, GameFontHighlightSmall
+SkillDetailDescriptionText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L510)
+--- child of SkillDetailScrollFrame
+--- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame : Frame
+SkillDetailScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L10)
 --- child of SkillDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)

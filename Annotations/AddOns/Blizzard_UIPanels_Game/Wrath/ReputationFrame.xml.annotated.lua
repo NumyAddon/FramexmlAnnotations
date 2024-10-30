@@ -605,6 +605,11 @@ ReputationBar15FactionName = {}
 --- @class ReputationFrame_ReputationBar15 : Button, ReputationBarTemplate
 ReputationBar15 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L163)
+--- child of ReputationListScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+ReputationListScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L10)
 --- child of ReputationListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -632,6 +637,7 @@ ReputationListScrollFrameScrollBar["ThumbTexture"] = ReputationListScrollFrameSc
 --- child of ReputationFrame
 --- @class ReputationFrame_ReputationListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 ReputationListScrollFrame = {}
+ReputationListScrollFrame["ScrollChildFrame"] = ReputationListScrollFrameScrollChildFrame -- inherited
 ReputationListScrollFrame["ScrollBar"] = ReputationListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/ReputationFrame.xml#L519)

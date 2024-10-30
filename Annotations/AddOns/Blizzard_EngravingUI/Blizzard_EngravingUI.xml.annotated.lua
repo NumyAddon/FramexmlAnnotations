@@ -192,6 +192,11 @@ EngravingFrameScrollFrameScrollBar["thumbTexture"] = EngravingFrameScrollFrameSc
 --- @class EngravingFrame_EngravingFrameScrollFrame_EngravingFrameScrollFrameEmptyLabel : FontString, GameFontNormal
 EngravingFrameScrollFrameEmptyLabel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L184)
+--- child of EngravingFrameScrollFrame (created in template HybridScrollFrameTemplate)
+--- @type Frame
+EngravingFrameScrollFrameScrollChild = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L240)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameScrollFrame : ScrollFrame, HybridScrollFrameTemplate
@@ -199,6 +204,7 @@ EngravingFrameScrollFrameEmptyLabel = {}
 --- @field emptyText EngravingFrame_EngravingFrameScrollFrame_EngravingFrameScrollFrameEmptyLabel
 EngravingFrameScrollFrame = {}
 EngravingFrameScrollFrame["emptyText"] = EngravingFrameScrollFrameEmptyLabel
+EngravingFrameScrollFrame["ScrollChild"] = EngravingFrameScrollFrameScrollChild -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L272)
 --- child of EngravingFrameCollectedFrame

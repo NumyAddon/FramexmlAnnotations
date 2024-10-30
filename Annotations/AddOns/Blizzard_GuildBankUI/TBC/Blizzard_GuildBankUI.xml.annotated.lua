@@ -545,6 +545,11 @@ GuildBankFrameTabCost = {}
 GuildBankMessageFrame = {}
 GuildBankMessageFrame["tooltipFrame"] = GameTooltip -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L163)
+--- child of GuildBankTransactionsScrollFrame (created in template FauxScrollFrameTemplate)
+--- @type Frame
+GuildBankTransactionsScrollFrameScrollChildFrame = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L10)
 --- child of GuildBankTransactionsScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
@@ -572,6 +577,7 @@ GuildBankTransactionsScrollFrameScrollBar["ThumbTexture"] = GuildBankTransaction
 --- child of 
 --- @class GuildBankFrame_Log_GuildBankTransactionsScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 GuildBankTransactionsScrollFrame = {}
+GuildBankTransactionsScrollFrame["ScrollChildFrame"] = GuildBankTransactionsScrollFrameScrollChildFrame -- inherited
 GuildBankTransactionsScrollFrame["ScrollBar"] = GuildBankTransactionsScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L594)
@@ -585,6 +591,11 @@ GuildBankTransactionsScrollFrame["ScrollBar"] = GuildBankTransactionsScrollFrame
 --- @class GuildBankFrame_GuildBankInfo_GuildBankInfoSaveButton : Button, UIPanelButtonTemplate
 GuildBankInfoSaveButton = {}
 GuildBankInfoSaveButton["fitTextCanWidthDecrease"] = true -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L710)
+--- child of GuildBankInfoScrollFrame
+--- @class GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame_GuildBankTabInfoEditBox : EditBox
+GuildBankTabInfoEditBox = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L10)
 --- child of GuildBankInfoScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
@@ -612,7 +623,9 @@ GuildBankInfoScrollFrameScrollBar["ThumbTexture"] = GuildBankInfoScrollFrameScro
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L670)
 --- child of GuildBankInfo
 --- @class GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
+--- @field EditBox GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame_GuildBankTabInfoEditBox
 GuildBankInfoScrollFrame = {}
+GuildBankInfoScrollFrame["EditBox"] = GuildBankTabInfoEditBox
 GuildBankInfoScrollFrame["ScrollBar"] = GuildBankInfoScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L646)
@@ -752,6 +765,11 @@ GuildBankPopupFrameBottom = {}
 --- child of  (created in template ListScrollFrameTemplate)
 --- @type Texture
 GuildBankPopupFrameMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L163)
+--- child of  (created in template FauxScrollFrameTemplate)
+--- @type Frame
+GuildBankPopupFrameScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L10)
 --- child of GuildBankPopupFrameScrollBar (created in template UIPanelScrollBarTemplate)

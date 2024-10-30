@@ -433,9 +433,19 @@
 --- child of PlayerTalentFramePanelTemplateSummary
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBonus5 : Frame, PlayerTalentPassiveBonusTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L765)
+--- child of PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild
+--- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChildText : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L761)
+--- child of PlayerTalentFramePanelTemplateSummaryDescription
+--- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild : Frame
+--- @field Text PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChildText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L755)
 --- child of PlayerTalentFramePanelTemplateSummary
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription : ScrollFrame, HybridScrollFrameTemplate
+--- @field ScrollChild PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L631)
 --- child of PlayerTalentFramePanelTemplateSummary
@@ -3885,9 +3895,19 @@ PlayerTalentFramePanel1HeaderIcon["PointsSpent"] = PlayerTalentFramePanelTemplat
 --- child of PlayerTalentFramePanelTemplateSummary
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBonus5 : Frame, PlayerTalentPassiveBonusTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L765)
+--- child of PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild
+--- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChildText : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L761)
+--- child of PlayerTalentFramePanelTemplateSummaryDescription
+--- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild : Frame
+--- @field Text PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChildText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L755)
 --- child of PlayerTalentFramePanelTemplateSummary
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription : ScrollFrame, HybridScrollFrameTemplate
+--- @field ScrollChild PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L631)
 --- child of PlayerTalentFramePanelTemplateSummary
@@ -6874,9 +6894,19 @@ PlayerTalentFramePanel2HeaderIcon["PointsSpent"] = PlayerTalentFramePanelTemplat
 --- child of PlayerTalentFramePanelTemplateSummary
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBonus5 : Frame, PlayerTalentPassiveBonusTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L765)
+--- child of PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild
+--- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChildText : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L761)
+--- child of PlayerTalentFramePanelTemplateSummaryDescription
+--- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild : Frame
+--- @field Text PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChildText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L755)
 --- child of PlayerTalentFramePanelTemplateSummary
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription : ScrollFrame, HybridScrollFrameTemplate
+--- @field ScrollChild PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L631)
 --- child of PlayerTalentFramePanelTemplateSummary
@@ -9863,9 +9893,19 @@ PlayerTalentFramePanel3HeaderIcon["PointsSpent"] = PlayerTalentFramePanelTemplat
 --- child of PlayerTalentFramePanelTemplateSummary
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryBonus5 : Frame, PlayerTalentPassiveBonusTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L765)
+--- child of PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild
+--- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChildText : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L761)
+--- child of PlayerTalentFramePanelTemplateSummaryDescription
+--- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild : Frame
+--- @field Text PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChildText
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L755)
 --- child of PlayerTalentFramePanelTemplateSummary
 --- @class PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription : ScrollFrame, HybridScrollFrameTemplate
+--- @field ScrollChild PlayerTalentFramePanelTemplate_PlayerTalentFramePanelTemplateSummary_PlayerTalentFramePanelTemplateSummaryDescription_PlayerTalentFramePanelTemplateSummaryDescriptionScrollChild
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L631)
 --- child of PlayerTalentFramePanelTemplateSummary

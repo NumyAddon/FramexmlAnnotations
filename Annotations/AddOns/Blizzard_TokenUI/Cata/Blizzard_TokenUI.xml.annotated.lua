@@ -63,11 +63,17 @@ TokenFrameContainerScrollBar["ScrollBarBottom"] = TokenFrameContainerScrollBarBo
 TokenFrameContainerScrollBar["ScrollBarMiddle"] = TokenFrameContainerScrollBarMiddle -- inherited
 TokenFrameContainerScrollBar["thumbTexture"] = TokenFrameContainerScrollBarThumbTexture -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L184)
+--- child of TokenFrameContainer (created in template HybridScrollFrameTemplate)
+--- @type Frame
+TokenFrameContainerScrollChild = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L149)
 --- child of TokenFrame
 --- @class TokenFrame_TokenFrameContainer : ScrollFrame, HybridScrollFrameTemplate
 --- @field scrollBar TokenFrame_TokenFrameContainer_TokenFrameContainerScrollBar
 TokenFrameContainer = {}
+TokenFrameContainer["ScrollChild"] = TokenFrameContainerScrollChild -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L147)
 --- @class TokenFrame : Frame

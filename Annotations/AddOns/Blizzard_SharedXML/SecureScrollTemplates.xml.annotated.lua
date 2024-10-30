@@ -32,6 +32,15 @@
 --- @class UIPanelScrollFrameTemplate : ScrollFrame, UIPanelScrollFrameCodeTemplate
 --- @field ScrollBar UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L139)
+--- child of 
+--- @class UIPanelInputScrollFrameTemplate_EditBox_Instructions : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L132)
+--- child of UIPanelInputScrollFrameTemplate
+--- @class UIPanelInputScrollFrameTemplate_EditBox : EditBox
+--- @field Instructions UIPanelInputScrollFrameTemplate_EditBox_Instructions
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L120)
 --- child of UIPanelInputScrollFrameTemplate
 --- @class UIPanelInputScrollFrameTemplate_CharCount : FontString, GameFontDisableLarge
@@ -40,6 +49,7 @@
 --- Template
 --- @class UIPanelInputScrollFrameTemplate : ScrollFrame, UIPanelScrollFrameTemplate
 --- @field maxLetters number # 0
+--- @field EditBox UIPanelInputScrollFrameTemplate_EditBox
 --- @field TopLeftTex Texture
 --- @field TopRightTex Texture
 --- @field TopTex Texture
@@ -54,6 +64,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L158)
 --- Template
 --- @class FauxScrollFrameTemplate : ScrollFrame, UIPanelScrollFrameTemplate
+--- @field ScrollChildFrame Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SecureScrollTemplates.xml#L168)
 --- Template

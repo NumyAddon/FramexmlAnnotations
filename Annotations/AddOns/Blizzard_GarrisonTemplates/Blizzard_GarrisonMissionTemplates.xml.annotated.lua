@@ -408,6 +408,42 @@
 --- @field FadeOut GarrisonMissionCompleteModelCluster_FadeOut
 --- @field Model table<number, GarrisonMissionCompleteModelCluster_Model1 | GarrisonMissionCompleteModelCluster_Model2 | GarrisonMissionCompleteModelCluster_Model3 | GarrisonMissionCompleteModelCluster_Model4 | GarrisonMissionCompleteModelCluster_Model5>
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L937)
+--- child of 
+--- @class GarrisonFollowerTabModelCluster_Child_Model1 : CinematicModel, GarrisonFollowerTabModelClusterModel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L938)
+--- child of 
+--- @class GarrisonFollowerTabModelCluster_Child_Model2 : CinematicModel, GarrisonFollowerTabModelClusterModel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L939)
+--- child of 
+--- @class GarrisonFollowerTabModelCluster_Child_Model3 : CinematicModel, GarrisonFollowerTabModelClusterModel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L940)
+--- child of 
+--- @class GarrisonFollowerTabModelCluster_Child_Model4 : CinematicModel, GarrisonFollowerTabModelClusterModel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L941)
+--- child of 
+--- @class GarrisonFollowerTabModelCluster_Child_Model5 : CinematicModel, GarrisonFollowerTabModelClusterModel
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L942)
+--- child of 
+--- @class GarrisonFollowerTabModelCluster_Child_Shadows : Frame
+--- @field Shadow table<number, Texture>
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L931)
+--- child of GarrisonFollowerTabModelCluster
+--- @class GarrisonFollowerTabModelCluster_Child : Frame
+--- @field Model1 GarrisonFollowerTabModelCluster_Child_Model1
+--- @field Model2 GarrisonFollowerTabModelCluster_Child_Model2
+--- @field Model3 GarrisonFollowerTabModelCluster_Child_Model3
+--- @field Model4 GarrisonFollowerTabModelCluster_Child_Model4
+--- @field Model5 GarrisonFollowerTabModelCluster_Child_Model5
+--- @field Shadows GarrisonFollowerTabModelCluster_Child_Shadows
+--- @field Model table<number, GarrisonFollowerTabModelCluster_Child_Model1 | GarrisonFollowerTabModelCluster_Child_Model2 | GarrisonFollowerTabModelCluster_Child_Model3 | GarrisonFollowerTabModelCluster_Child_Model4 | GarrisonFollowerTabModelCluster_Child_Model5>
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L977)
 --- child of GarrisonFollowerTabModelCluster
 --- @class GarrisonFollowerTabModelCluster_UpgradeFrame : Frame, GarrisonFollowerModelUpgradeTemplate
@@ -415,6 +451,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L929)
 --- Template
 --- @class GarrisonFollowerTabModelCluster : ScrollFrame
+--- @field Child GarrisonFollowerTabModelCluster_Child
 --- @field UpgradeFrame GarrisonFollowerTabModelCluster_UpgradeFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1007)

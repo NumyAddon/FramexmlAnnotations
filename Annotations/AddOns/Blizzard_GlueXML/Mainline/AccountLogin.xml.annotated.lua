@@ -52,6 +52,31 @@ KoreanRatings = {}
 --- child of ChinaAgeAppropriatenessWarning
 --- @class ChinaAgeAppropriatenessWarning_Border : Frame, DialogBorderTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L124)
+--- child of TextContainer
+--- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_HealthyGamingTextTitle : FontString, GlueFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L129)
+--- child of TextContainer
+--- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_HealthyGamingText : FontString, GlueFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L135)
+--- child of TextContainer
+--- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_AgeAppropriatenessTextTitle : FontString, GlueFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L140)
+--- child of TextContainer
+--- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_AgeAppropriatenessText : FontString, GlueFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L117)
+--- child of 
+--- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer : Button
+--- @field HealthyGamingTextTitle ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_HealthyGamingTextTitle
+--- @field HealthyGamingText ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_HealthyGamingText
+--- @field AgeAppropriatenessTextTitle ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_AgeAppropriatenessTextTitle
+--- @field AgeAppropriatenessText ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_AgeAppropriatenessText
+TextContainer = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L106)
 --- child of ChinaAgeAppropriatenessWarning
 --- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame : ScrollFrame, ScrollFrameTemplate

@@ -34,6 +34,7 @@
 --- child of DockManagerTemplate
 --- @class DockManagerTemplate_DockManagerTemplateScrollFrame : ScrollFrame
 --- @field dynTabSize number # 1
+--- @field child Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L135)
 --- Template

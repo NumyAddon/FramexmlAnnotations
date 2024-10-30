@@ -53,9 +53,14 @@
 --- @field OKButton CreditsExpansionListTemplate_OKButton
 --- @field CancelButton CreditsExpansionListTemplate_CancelButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CreditsFrame.xml#L165)
+--- child of 
+--- @class CreditsFrame_ScrollFrame_Text : SimpleHTML
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CreditsFrame.xml#L151)
 --- child of CreditsFrame
 --- @class CreditsFrame_ScrollFrame : ScrollFrame
+--- @field Text CreditsFrame_ScrollFrame_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CreditsFrame.xml#L174)
 --- child of CreditsFrame

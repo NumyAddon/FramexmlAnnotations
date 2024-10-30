@@ -116,6 +116,156 @@ RaidFinderQueueFrameSelectionDropdownName = {}
 RaidFinderQueueFrameSelectionDropdown = {}
 RaidFinderQueueFrameSelectionDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L654)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon1 (created in template LFGRewardsLootShortageTemplate)
+--- @type Texture
+RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon1Texture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L695)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameItem1 (created in template LFGRewardsLootTemplate)
+--- @type LFGRewardsLootTemplate_LFGRewardsLootTemplateRoleIcon1
+RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon1 = {}
+RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon1["texture"] = RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon1Texture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L654)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon2 (created in template LFGRewardsLootShortageTemplate)
+--- @type Texture
+RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon2Texture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L700)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameItem1 (created in template LFGRewardsLootTemplate)
+--- @type LFGRewardsLootTemplate_LFGRewardsLootTemplateRoleIcon2
+RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon2 = {}
+RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon2["texture"] = RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon2Texture -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L670)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameItem1 (created in template LFGRewardsLootTemplate)
+--- @type LFGRewardsLootTemplate_LFGRewardsLootTemplateShortageBorder
+RaidFinderQueueFrameScrollFrameChildFrameItem1ShortageBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L250)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
+--- @type Texture
+RaidFinderQueueFrameScrollFrameChildFrameItem1IconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L256)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
+--- @type Texture
+RaidFinderQueueFrameScrollFrameChildFrameItem1NameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L264)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+RaidFinderQueueFrameScrollFrameChildFrameItem1Name = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L296)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+RaidFinderQueueFrameScrollFrameChildFrameItem1Count = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L783)
+--- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateItem1
+RaidFinderQueueFrameScrollFrameChildFrameItem1 = {}
+RaidFinderQueueFrameScrollFrameChildFrameItem1["roleIcon1"] = RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon1 -- inherited
+RaidFinderQueueFrameScrollFrameChildFrameItem1["roleIcon2"] = RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon2 -- inherited
+RaidFinderQueueFrameScrollFrameChildFrameItem1["shortageBorder"] = RaidFinderQueueFrameScrollFrameChildFrameItem1ShortageBorder -- inherited
+RaidFinderQueueFrameScrollFrameChildFrameItem1["largeItemButton"] = true -- inherited
+RaidFinderQueueFrameScrollFrameChildFrameItem1["Icon"] = RaidFinderQueueFrameScrollFrameChildFrameItem1IconTexture -- inherited
+RaidFinderQueueFrameScrollFrameChildFrameItem1["NameFrame"] = RaidFinderQueueFrameScrollFrameChildFrameItem1NameFrame -- inherited
+RaidFinderQueueFrameScrollFrameChildFrameItem1["Name"] = RaidFinderQueueFrameScrollFrameChildFrameItem1Name -- inherited
+RaidFinderQueueFrameScrollFrameChildFrameItem1["Count"] = RaidFinderQueueFrameScrollFrameChildFrameItem1Count -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L250)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
+--- @type Texture
+RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardIconTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L256)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
+--- @type Texture
+RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardNameFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L264)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardName = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L296)
+--- child of RaidFinderQueueFrameScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
+--- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardCount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L788)
+--- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateMoneyReward
+RaidFinderQueueFrameScrollFrameChildFrameMoneyReward = {}
+RaidFinderQueueFrameScrollFrameChildFrameMoneyReward["largeItemButton"] = true -- inherited
+RaidFinderQueueFrameScrollFrameChildFrameMoneyReward["Icon"] = RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardIconTexture -- inherited
+RaidFinderQueueFrameScrollFrameChildFrameMoneyReward["NameFrame"] = RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardNameFrame -- inherited
+RaidFinderQueueFrameScrollFrameChildFrameMoneyReward["Name"] = RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardName -- inherited
+RaidFinderQueueFrameScrollFrameChildFrameMoneyReward["Count"] = RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardCount -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L803)
+--- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateRandomList
+RaidFinderQueueFrameScrollFrameChildFrameRandomList = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L829)
+--- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateEncounterList
+RaidFinderQueueFrameScrollFrameChildFrameEncounterList = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L846)
+--- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type Frame
+RaidFinderQueueFrameScrollFrameChildFrameSpacer = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L739)
+--- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateTitle
+RaidFinderQueueFrameScrollFrameChildFrameTitle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L745)
+--- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateDescription
+RaidFinderQueueFrameScrollFrameChildFrameDescription = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L754)
+--- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsLabel
+RaidFinderQueueFrameScrollFrameChildFrameRewardsLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L759)
+--- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsDescription
+RaidFinderQueueFrameScrollFrameChildFrameRewardsDescription = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L768)
+--- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateXPLabel
+RaidFinderQueueFrameScrollFrameChildFrameXPLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L773)
+--- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
+--- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateXPAmount
+RaidFinderQueueFrameScrollFrameChildFrameXPAmount = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L156)
+--- child of RaidFinderQueueFrameScrollFrame
+--- @class RaidFinderFrame_RaidFinderQueueFrame_RaidFinderQueueFrameScrollFrame_RaidFinderQueueFrameScrollFrameChildFrame : Frame, LFGRewardFrameTemplate
+RaidFinderQueueFrameScrollFrameChildFrame = {}
+RaidFinderQueueFrameScrollFrameChildFrame["MoneyReward"] = RaidFinderQueueFrameScrollFrameChildFrameMoneyReward -- inherited
+RaidFinderQueueFrameScrollFrameChildFrame["randomList"] = RaidFinderQueueFrameScrollFrameChildFrameRandomList -- inherited
+RaidFinderQueueFrameScrollFrameChildFrame["encounterList"] = RaidFinderQueueFrameScrollFrameChildFrameEncounterList -- inherited
+RaidFinderQueueFrameScrollFrameChildFrame["spacer"] = RaidFinderQueueFrameScrollFrameChildFrameSpacer -- inherited
+RaidFinderQueueFrameScrollFrameChildFrame["title"] = RaidFinderQueueFrameScrollFrameChildFrameTitle -- inherited
+RaidFinderQueueFrameScrollFrameChildFrame["description"] = RaidFinderQueueFrameScrollFrameChildFrameDescription -- inherited
+RaidFinderQueueFrameScrollFrameChildFrame["rewardsLabel"] = RaidFinderQueueFrameScrollFrameChildFrameRewardsLabel -- inherited
+RaidFinderQueueFrameScrollFrameChildFrame["rewardsDescription"] = RaidFinderQueueFrameScrollFrameChildFrameRewardsDescription -- inherited
+RaidFinderQueueFrameScrollFrameChildFrame["xpLabel"] = RaidFinderQueueFrameScrollFrameChildFrameXPLabel -- inherited
+RaidFinderQueueFrameScrollFrameChildFrame["xpAmount"] = RaidFinderQueueFrameScrollFrameChildFrameXPAmount -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/RaidFinder.xml#L144)
 --- child of RaidFinderQueueFrame
 --- @class RaidFinderFrame_RaidFinderQueueFrame_RaidFinderQueueFrameScrollFrame : ScrollFrame, ScrollFrameTemplate

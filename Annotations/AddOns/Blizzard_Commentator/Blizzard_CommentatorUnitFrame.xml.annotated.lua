@@ -45,7 +45,7 @@
 --- @field DeathIcon Texture
 --- @field TrimOverlay Texture
 --- @field CCText CommentatorUnitFrameTemplate_Circle_CCText
---- @field TeamOverlays table<number,  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | >
+--- @field TeamOverlays table<number, CommentatorTeamOverlayTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L160)
 --- child of CommentatorUnitFrameTemplate

@@ -14,12 +14,20 @@
 --- Template
 --- @class FyrakkFlightVignettePinTemplate : Frame, SuperTrackableMapPinTemplate, FyrakkFlightVignettePinMixin
 --- @field FlameBoundsBottom Texture
+--- @field Textures table<number, Texture>
 --- @field Shadow Texture
+--- @field Textures table<number, Texture>
 --- @field Trail Texture
+--- @field Textures table<number, Texture>
 --- @field FyrakkIcon Texture
+--- @field Textures table<number, Texture>
 --- @field FyrakkFlame Texture
+--- @field Textures table<number, Texture>
 --- @field FlameBoundsTop Texture
+--- @field Textures table<number, Texture>
 --- @field FlameTrail2 Texture
+--- @field Textures table<number, Texture>
 --- @field FlameTrail Texture
+--- @field Textures table<number, Texture>
 --- @field Anim FyrakkFlightVignettePinTemplate_Anim
 

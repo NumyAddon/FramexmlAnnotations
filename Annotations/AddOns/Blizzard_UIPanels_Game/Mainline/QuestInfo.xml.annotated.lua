@@ -129,6 +129,7 @@ QuestInfoObjective1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L337)
 --- @class QuestInfoObjectivesFrame : Frame
+--- @field Objectives table<number, QuestInfoObjectivesFrame_QuestInfoObjective1>
 QuestInfoObjectivesFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L85)
@@ -238,34 +239,34 @@ QuestInfoRewardsFrameCount = {}
 --- @class QuestInfoRewardsFrame_HonorFrame : Button, LargeItemButtonTemplate, QuestInfoHonorFrameScriptTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L250)
---- child of LargeQuestRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
+--- child of QuestInfoRewardsFrameQuestInfoItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
-LargeQuestRewardItemButtonTemplateIconTexture = {}
+QuestInfoRewardsFrameQuestInfoItem1IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L256)
---- child of LargeQuestRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
+--- child of QuestInfoRewardsFrameQuestInfoItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
-LargeQuestRewardItemButtonTemplateNameFrame = {}
+QuestInfoRewardsFrameQuestInfoItem1NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L264)
---- child of LargeQuestRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
+--- child of QuestInfoRewardsFrameQuestInfoItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
-LargeQuestRewardItemButtonTemplateName = {}
+QuestInfoRewardsFrameQuestInfoItem1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L296)
---- child of LargeQuestRewardItemButtonTemplate (created in template LargeItemButtonTemplate)
+--- child of QuestInfoRewardsFrameQuestInfoItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
-LargeQuestRewardItemButtonTemplateCount = {}
+QuestInfoRewardsFrameQuestInfoItem1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L443)
 --- child of QuestInfoRewardsFrame
 --- @class QuestInfoRewardsFrame_QuestInfoRewardsFrameQuestInfoItem1 : Button, LargeQuestRewardItemButtonTemplate
 QuestInfoRewardsFrameQuestInfoItem1 = {}
 QuestInfoRewardsFrameQuestInfoItem1["largeItemButton"] = true -- inherited
-QuestInfoRewardsFrameQuestInfoItem1["Icon"] = LargeQuestRewardItemButtonTemplateIconTexture -- inherited
-QuestInfoRewardsFrameQuestInfoItem1["NameFrame"] = LargeQuestRewardItemButtonTemplateNameFrame -- inherited
-QuestInfoRewardsFrameQuestInfoItem1["Name"] = LargeQuestRewardItemButtonTemplateName -- inherited
-QuestInfoRewardsFrameQuestInfoItem1["Count"] = LargeQuestRewardItemButtonTemplateCount -- inherited
+QuestInfoRewardsFrameQuestInfoItem1["Icon"] = QuestInfoRewardsFrameQuestInfoItem1IconTexture -- inherited
+QuestInfoRewardsFrameQuestInfoItem1["NameFrame"] = QuestInfoRewardsFrameQuestInfoItem1NameFrame -- inherited
+QuestInfoRewardsFrameQuestInfoItem1["Name"] = QuestInfoRewardsFrameQuestInfoItem1Name -- inherited
+QuestInfoRewardsFrameQuestInfoItem1["Count"] = QuestInfoRewardsFrameQuestInfoItem1Count -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L16)
 --- child of QuestInfoMoneyFrame (created in template MoneyFrameTemplate)
@@ -433,6 +434,7 @@ QuestInfoItemHighlight = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L418)
 --- @class QuestInfoRewardsFrame : Frame
 --- @field HonorFrame QuestInfoRewardsFrame_HonorFrame
+--- @field RewardButtons table<number, QuestInfoRewardsFrame_QuestInfoRewardsFrameQuestInfoItem1>
 --- @field MoneyFrame QuestInfoRewardsFrame_QuestInfoMoneyFrame
 --- @field SkillPointFrame QuestInfoRewardsFrame_QuestInfoSkillPointFrame
 --- @field XPFrame QuestInfoRewardsFrame_QuestInfoXPFrame
@@ -457,16 +459,16 @@ QuestInfoRewardsFrame["ItemHighlight"] = QuestInfoItemHighlight
 --- @class MapQuestInfoSpellHeaderTemplate : FontString, QuestMapRewardsFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L312)
---- child of SmallQuestRewardItemButtonTemplate (created in template SmallItemButtonTemplate)
+--- child of MapQuestInfoRewardsFrameQuestInfoItem1 (created in template SmallItemButtonTemplate)
 --- @type Texture
-SmallQuestRewardItemButtonTemplateIconTexture = {}
+MapQuestInfoRewardsFrameQuestInfoItem1IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L636)
 --- child of MapQuestInfoRewardsFrame
 --- @class MapQuestInfoRewardsFrame_MapQuestInfoRewardsFrameQuestInfoItem1 : Button, SmallQuestRewardItemButtonTemplate
 MapQuestInfoRewardsFrameQuestInfoItem1 = {}
 MapQuestInfoRewardsFrameQuestInfoItem1["smallItemButton"] = true -- inherited
-MapQuestInfoRewardsFrameQuestInfoItem1["Icon"] = SmallQuestRewardItemButtonTemplateIconTexture -- inherited
+MapQuestInfoRewardsFrameQuestInfoItem1["Icon"] = MapQuestInfoRewardsFrameQuestInfoItem1IconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L312)
 --- child of  (created in template SmallItemButtonTemplate)
@@ -569,6 +571,7 @@ MapQuestInfoRewardsFrameIconTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L607)
 --- @class MapQuestInfoRewardsFrame : Frame
 --- @field Header Frame
+--- @field RewardButtons table<number, MapQuestInfoRewardsFrame_MapQuestInfoRewardsFrameQuestInfoItem1>
 --- @field XPFrame MapQuestInfoRewardsFrame_XPFrame
 --- @field HonorFrame MapQuestInfoRewardsFrame_HonorFrame
 --- @field ArtifactXPFrame MapQuestInfoRewardsFrame_ArtifactXPFrame

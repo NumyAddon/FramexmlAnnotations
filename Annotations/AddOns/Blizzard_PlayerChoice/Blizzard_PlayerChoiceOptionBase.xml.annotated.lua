@@ -19,6 +19,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L26)
 --- Template
+--- Adds itself to the parent inside the array `AlignedSections`
 --- @class PlayerChoiceBaseOptionAlignedSection : Frame, PlayerChoiceBaseOptionAlignedSectionMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L28)
@@ -110,6 +111,8 @@
 --- Template
 --- @class PlayerChoiceBaseOptionTemplate : Frame, PlayerChoiceBaseOptionTemplateMixin
 --- @field OptionText PlayerChoiceBaseOptionTemplate_OptionText
+--- @field AlignedSections table<number, PlayerChoiceBaseOptionTemplate_OptionText>
 --- @field OptionButtonsContainer PlayerChoiceBaseOptionTemplate_OptionButtonsContainer
+--- @field AlignedSections table<number, PlayerChoiceBaseOptionTemplate_OptionButtonsContainer>
 --- @field WidgetContainer PlayerChoiceBaseOptionTemplate_WidgetContainer
 

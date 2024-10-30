@@ -2,6 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L4)
 --- Template
+--- Adds itself to the parent inside the array `memberUnitFrames`
 --- @class CompactRaidGroupUnitFrameTemplate : Button, CompactUnitFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L18)
@@ -32,6 +33,11 @@
 --- Template
 --- @class CompactRaidGroupTemplate : Frame
 --- @field isFlowGroup boolean # true
+--- @field memberUnitFrames table<number, CompactRaidGroupTemplate_CompactRaidGroupTemplateMember1>
+--- @field memberUnitFrames table<number, CompactRaidGroupTemplate_CompactRaidGroupTemplateMember2>
+--- @field memberUnitFrames table<number, CompactRaidGroupTemplate_CompactRaidGroupTemplateMember3>
+--- @field memberUnitFrames table<number, CompactRaidGroupTemplate_CompactRaidGroupTemplateMember4>
+--- @field memberUnitFrames table<number, CompactRaidGroupTemplate_CompactRaidGroupTemplateMember5>
 --- @field title Button
 --- @field borderFrame CompactRaidGroupTemplate_CompactRaidGroupTemplateBorderFrame
 

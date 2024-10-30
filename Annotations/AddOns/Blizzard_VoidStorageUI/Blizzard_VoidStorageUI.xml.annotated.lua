@@ -45,10 +45,6 @@ VoidStorageDepositButton1 = {}
 VoidStorageDepositButton1["icon"] = VoidStorageDepositButton1IconTexture -- inherited
 VoidStorageDepositButton1["searchOverlay"] = VoidStorageDepositButton1SearchOverlay -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L259)
---- child of VoidStorageDepositFrame
---- @class  : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L252)
 --- child of VoidStorageContentFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageDepositFrame : Frame, VoidStorageInsetFrameTemplate
@@ -77,10 +73,6 @@ VoidStorageWithdrawButton1 = {}
 VoidStorageWithdrawButton1["icon"] = VoidStorageWithdrawButton1IconTexture -- inherited
 VoidStorageWithdrawButton1["searchOverlay"] = VoidStorageWithdrawButton1SearchOverlay -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L288)
---- child of VoidStorageWithdrawFrame
---- @class  : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L281)
 --- child of VoidStorageContentFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageWithdrawFrame : Frame, VoidStorageInsetFrameTemplate
@@ -108,10 +100,6 @@ VoidStorageStorageButton1SearchOverlay = {}
 VoidStorageStorageButton1 = {}
 VoidStorageStorageButton1["icon"] = VoidStorageStorageButton1IconTexture -- inherited
 VoidStorageStorageButton1["searchOverlay"] = VoidStorageStorageButton1SearchOverlay -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L317)
---- child of VoidStorageStorageFrame
---- @class  : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L322)
 --- child of VoidStorageStorageFrame
@@ -173,10 +161,6 @@ VoidStorageMoneyFrame["trialErrorButton"] = VoidStorageMoneyFrameTrialErrorButto
 VoidStorageMoneyFrame["CopperButton"] = VoidStorageMoneyFrameCopperButton -- inherited
 VoidStorageMoneyFrame["SilverButton"] = VoidStorageMoneyFrameSilverButton -- inherited
 VoidStorageMoneyFrame["GoldButton"] = VoidStorageMoneyFrameGoldButton -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L368)
---- child of VoidStorageCostFrame
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L360)
 --- child of VoidStorageContentFrame
@@ -369,20 +353,19 @@ VoidStorageFrameLines = {}
 VoidStorageFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1504)
---- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- child of VoidItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
-BagSearchBoxTemplateClearButton = {}
+VoidItemSearchBoxClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1495)
---- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- child of VoidItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
-BagSearchBoxTemplateSearchIcon = {}
+VoidItemSearchBoxSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L657)
 --- @class VoidItemSearchBox : EditBox, BagSearchBoxTemplate
 VoidItemSearchBox = {}
 VoidItemSearchBox["instructionText"] = SEARCH -- inherited
-VoidItemSearchBox["clearButton"] = BagSearchBoxTemplateClearButton -- inherited
-VoidItemSearchBox["searchIcon"] = BagSearchBoxTemplateSearchIcon -- inherited
+VoidItemSearchBox["clearButton"] = VoidItemSearchBoxClearButton -- inherited
+VoidItemSearchBox["searchIcon"] = VoidItemSearchBoxSearchIcon -- inherited
 

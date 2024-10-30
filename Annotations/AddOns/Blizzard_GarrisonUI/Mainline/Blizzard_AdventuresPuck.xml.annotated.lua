@@ -37,7 +37,9 @@
 --- Template
 --- @class AdventuresPuckTemplate : Frame, AdventuresPuckMixin
 --- @field AbilityTwo AdventuresPuckTemplate_AbilityTwo
+--- @field AbilityButtons table<number, AdventuresPuckTemplate_AbilityTwo>
 --- @field AbilityOne AdventuresPuckTemplate_AbilityOne
+--- @field AbilityButtons table<number, AdventuresPuckTemplate_AbilityOne>
 --- @field HealthBar AdventuresPuckTemplate_HealthBar
 --- @field SupportColorationAnimator AdventuresPuckTemplate_SupportColorationAnimator
 --- @field PuckShadow Texture

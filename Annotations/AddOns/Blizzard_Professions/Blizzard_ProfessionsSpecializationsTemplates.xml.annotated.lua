@@ -22,7 +22,9 @@
 --- Template
 --- @class ProfessionsSpecPerkTemplate : Frame, ProfessionsSpecPerkMixin
 --- @field Artwork Texture
+--- @field RotatedTextures table<number, Texture>
 --- @field PendingGlow Texture
+--- @field RotatedTextures table<number, Texture>
 --- @field PipLockinAnim ProfessionsSpecPerkTemplate_PipLockinAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.xml#L84)
@@ -62,6 +64,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.xml#L174)
 --- Template
+--- Adds itself to the parent inside the array `Highlights`
 --- @class ProfessionSpecHighlightTemplate : Frame
 --- @field Pip Texture
 --- @field Description ProfessionSpecHighlightTemplate_Description

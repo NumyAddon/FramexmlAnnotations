@@ -118,29 +118,29 @@ PetitionFrameMemberName9 = {}
 --- @class PetitionFrame_PetitionFrameInstructions : FontString, QuestFont
 PetitionFrameInstructions = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L1148)
 --- child of PetitionFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 PetitionFrameInset = {}
 PetitionFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L1142)
+--- child of PetitionFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+PetitionFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L1125)
+--- child of PetitionFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+PetitionFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L3)
 --- @class PetitionFrame : Frame, ButtonFrameTemplate
 --- @field ScrollBar PetitionFrame_ScrollBar
 --- @field Bg Texture
 PetitionFrame = {}
-PetitionFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-PetitionFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-PetitionFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 PetitionFrame["Inset"] = PetitionFrameInset -- inherited
+PetitionFrame["CloseButton"] = PetitionFrameCloseButton -- inherited
+PetitionFrame["Bg"] = PetitionFrameBg -- inherited
+PetitionFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

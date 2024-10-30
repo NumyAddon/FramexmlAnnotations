@@ -83,10 +83,6 @@
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_CommissionTitleMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field leftAlign boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L241)
---- child of 
---- @class  : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L228)
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_ConsortiumCutMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
@@ -113,7 +109,9 @@
 --- child of 
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame : Frame
 --- @field RewardItem1 ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem1
+--- @field RewardItems table<number, ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem1>
 --- @field RewardItem2 ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem2
+--- @field RewardItems table<number, ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_ProfessionsCrafterOrderRewardItem2>
 --- @field Background Texture
 --- @field RewardIcon Texture
 --- @field RewardText ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame_RewardText

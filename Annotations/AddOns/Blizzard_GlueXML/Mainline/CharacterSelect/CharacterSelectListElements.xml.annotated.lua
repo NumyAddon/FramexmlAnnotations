@@ -140,6 +140,7 @@
 --- @class CharacterSelectListCharacterTemplate : Button, CharacterSelectListCharacterMixin
 --- @field Arrow CharacterSelectListCharacterTemplate_Arrow
 --- @field PaidService CharacterSelectListCharacterTemplate_PaidService
+--- @field PaidServiceButtons table<number, CharacterSelectListCharacterTemplate_PaidService>
 --- @field RestoreCharacterServiceFrame CharacterSelectListCharacterTemplate_RestoreCharacterServiceFrame
 --- @field InnerContent CharacterSelectListCharacterTemplate_InnerContent
 --- @field Drop Texture

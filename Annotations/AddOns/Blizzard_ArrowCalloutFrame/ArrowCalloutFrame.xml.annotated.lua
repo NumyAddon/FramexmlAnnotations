@@ -45,10 +45,6 @@
 --- @class ArrowCalloutContainerTemplate_Content : Frame, GlowBoxTemplate
 --- @field Text ArrowCalloutContainerTemplate_Content_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L144)
---- child of 
---- @class  : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArrowCalloutFrame/ArrowCalloutFrame.xml#L138)
 --- child of ArrowCalloutContainerTemplate
 --- @class ArrowCalloutContainerTemplate_Glow : Frame, BackdropTemplate

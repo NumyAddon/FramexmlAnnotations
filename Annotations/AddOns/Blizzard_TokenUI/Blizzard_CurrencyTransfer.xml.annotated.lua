@@ -126,36 +126,39 @@
 --- @class CurrencyTransferToggleButtonTemplate : Button, UIPanelButtonTemplate, DisabledTooltipButtonTemplate, CurrencyTransferToggleButtonMixin
 --- @field LoadingSpinner CurrencyTransferToggleButtonTemplate_LoadingSpinner
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L1148)
+--- child of CurrencyTransferMenu (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+CurrencyTransferMenuInset = {}
+CurrencyTransferMenuInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- child of CurrencyTransferMenu (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
+CurrencyTransferMenuCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
+--- child of CurrencyTransferMenu (created in template ButtonFrameBaseTemplate)
 --- @type Texture
-ButtonFrameTemplateBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L1148)
---- child of CurrencyTransferMenuTemplate (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
-CurrencyTransferMenuTemplateInset = {}
-CurrencyTransferMenuTemplateInset["layoutType"] = "InsetFrameTemplate" -- inherited
+CurrencyTransferMenuBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L264)
 --- @class CurrencyTransferMenu : Frame, CurrencyTransferMenuTemplate
 CurrencyTransferMenu = {}
+CurrencyTransferMenu["Inset"] = CurrencyTransferMenuInset -- inherited
+CurrencyTransferMenu["CloseButton"] = CurrencyTransferMenuCloseButton -- inherited
+CurrencyTransferMenu["Bg"] = CurrencyTransferMenuBg -- inherited
 CurrencyTransferMenu["layoutType"] = "PortraitFrameTemplate" -- inherited
-CurrencyTransferMenu["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-CurrencyTransferMenu["Bg"] = ButtonFrameTemplateBg -- inherited
-CurrencyTransferMenu["Inset"] = CurrencyTransferMenuTemplateInset -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L304)
 --- child of CurrencyTransferLogEntryTemplate
 --- @class CurrencyTransferLogEntryTemplate_BackgroundHighlight : Frame
 --- @field Left Texture
+--- @field TextureRegions table<number, Texture>
 --- @field Right Texture
+--- @field TextureRegions table<number, Texture>
 --- @field Middle Texture
+--- @field TextureRegions table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L276)
 --- child of CurrencyTransferLogEntryTemplate

@@ -35,7 +35,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1504)
 --- child of  (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
 SettingsPanelClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1495)
@@ -69,181 +68,181 @@ SettingsPanelSearchIcon = {}
 SettingsPanel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L35)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
-SharedTooltipTemplateTextLeft1 = {}
+SettingsTooltipTextLeft1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L36)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
-SharedTooltipTemplateTextRight1 = {}
+SettingsTooltipTextRight1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L41)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
-SharedTooltipTemplateTextLeft2 = {}
+SettingsTooltipTextLeft2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L42)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
-SharedTooltipTemplateTextRight2 = {}
+SettingsTooltipTextRight2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L47)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
-SharedTooltipTemplateTexture1 = {}
+SettingsTooltipTexture1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L48)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
-SharedTooltipTemplateTexture2 = {}
+SettingsTooltipTexture2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L49)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
-SharedTooltipTemplateTexture3 = {}
+SettingsTooltipTexture3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L50)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
-SharedTooltipTemplateTexture4 = {}
+SettingsTooltipTexture4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L51)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
-SharedTooltipTemplateTexture5 = {}
+SettingsTooltipTexture5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L52)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
-SharedTooltipTemplateTexture6 = {}
+SettingsTooltipTexture6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L53)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
-SharedTooltipTemplateTexture7 = {}
+SettingsTooltipTexture7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L54)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
-SharedTooltipTemplateTexture8 = {}
+SettingsTooltipTexture8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L55)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
-SharedTooltipTemplateTexture9 = {}
+SettingsTooltipTexture9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L56)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
-SharedTooltipTemplateTexture10 = {}
+SettingsTooltipTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L57)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
-SharedTooltipTemplateTexture11 = {}
+SettingsTooltipTexture11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L58)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
-SharedTooltipTemplateTexture12 = {}
+SettingsTooltipTexture12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L59)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
-SharedTooltipTemplateTexture13 = {}
+SettingsTooltipTexture13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L60)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
-SharedTooltipTemplateTexture14 = {}
+SettingsTooltipTexture14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L61)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
-SharedTooltipTemplateTexture15 = {}
+SettingsTooltipTexture15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L62)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
-SharedTooltipTemplateTexture16 = {}
+SettingsTooltipTexture16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L63)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
-SharedTooltipTemplateTexture17 = {}
+SettingsTooltipTexture17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L64)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
-SharedTooltipTemplateTexture18 = {}
+SettingsTooltipTexture18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L65)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
-SharedTooltipTemplateTexture19 = {}
+SettingsTooltipTexture19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L66)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
-SharedTooltipTemplateTexture20 = {}
+SettingsTooltipTexture20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L67)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
-SharedTooltipTemplateTexture21 = {}
+SettingsTooltipTexture21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L68)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
-SharedTooltipTemplateTexture22 = {}
+SettingsTooltipTexture22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L69)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
-SharedTooltipTemplateTexture23 = {}
+SettingsTooltipTexture23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L70)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
-SharedTooltipTemplateTexture24 = {}
+SettingsTooltipTexture24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L71)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
-SharedTooltipTemplateTexture25 = {}
+SettingsTooltipTexture25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L72)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
-SharedTooltipTemplateTexture26 = {}
+SettingsTooltipTexture26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L73)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
-SharedTooltipTemplateTexture27 = {}
+SettingsTooltipTexture27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L74)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
-SharedTooltipTemplateTexture28 = {}
+SettingsTooltipTexture28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L75)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
-SharedTooltipTemplateTexture29 = {}
+SettingsTooltipTexture29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L76)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
-SharedTooltipTemplateTexture30 = {}
+SettingsTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L115)
 --- @class SettingsTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate
 SettingsTooltip = {}
 SettingsTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
-SettingsTooltip["TextLeft1"] = SharedTooltipTemplateTextLeft1 -- inherited
-SettingsTooltip["TextRight1"] = SharedTooltipTemplateTextRight1 -- inherited
-SettingsTooltip["TextLeft2"] = SharedTooltipTemplateTextLeft2 -- inherited
-SettingsTooltip["TextRight2"] = SharedTooltipTemplateTextRight2 -- inherited
+SettingsTooltip["TextLeft1"] = SettingsTooltipTextLeft1 -- inherited
+SettingsTooltip["TextRight1"] = SettingsTooltipTextRight1 -- inherited
+SettingsTooltip["TextLeft2"] = SettingsTooltipTextLeft2 -- inherited
+SettingsTooltip["TextRight2"] = SettingsTooltipTextRight2 -- inherited
 

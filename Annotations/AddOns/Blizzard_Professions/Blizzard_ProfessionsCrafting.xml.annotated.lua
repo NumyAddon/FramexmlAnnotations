@@ -8,10 +8,6 @@
 --- child of CraftingSearchSMTemplate
 --- @class CraftingSearchSMTemplate_Name : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L41)
---- child of CraftingSearchSMTemplate
---- @class  : Texture, _SearchBarSm
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L5)
 --- Template
 --- @class CraftingSearchSMTemplate : Button, SearchBoxListElementMixin
@@ -32,14 +28,6 @@
 --- child of CraftingSearchLGTemplate
 --- @class CraftingSearchLGTemplate_Name : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L78)
---- child of CraftingSearchLGTemplate
---- @class  : Texture, _SearchBarLg
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L82)
---- child of CraftingSearchLGTemplate
---- @class  : Texture, UI-Common-SearchBarHighlightLg
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L51)
 --- Template
 --- @class CraftingSearchLGTemplate : Button, CraftingSearchLGMixin
@@ -49,6 +37,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L86)
 --- Template
+--- Adds itself to the parent inside the array `InventorySlots`
 --- @class ProfessionsGearSlotTemplate : ItemButton, ProfessionsGearSlotTemplateMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L124)
@@ -193,14 +182,23 @@
 --- @field GuildFrame ProfessionsCraftingPageTemplate_GuildFrame
 --- @field CraftingOutputLog ProfessionsCraftingPageTemplate_CraftingOutputLog
 --- @field Prof0ToolSlot ProfessionsCraftingPageTemplate_Prof0ToolSlot
+--- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof0ToolSlot>
 --- @field Prof0Gear0Slot ProfessionsCraftingPageTemplate_Prof0Gear0Slot
+--- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof0Gear0Slot>
 --- @field Prof0Gear1Slot ProfessionsCraftingPageTemplate_Prof0Gear1Slot
+--- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof0Gear1Slot>
 --- @field Prof1ToolSlot ProfessionsCraftingPageTemplate_Prof1ToolSlot
+--- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof1ToolSlot>
 --- @field Prof1Gear0Slot ProfessionsCraftingPageTemplate_Prof1Gear0Slot
+--- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof1Gear0Slot>
 --- @field Prof1Gear1Slot ProfessionsCraftingPageTemplate_Prof1Gear1Slot
+--- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof1Gear1Slot>
 --- @field CookingToolSlot ProfessionsCraftingPageTemplate_CookingToolSlot
+--- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_CookingToolSlot>
 --- @field CookingGear0Slot ProfessionsCraftingPageTemplate_CookingGear0Slot
+--- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_CookingGear0Slot>
 --- @field FishingToolSlot ProfessionsCraftingPageTemplate_FishingToolSlot
+--- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_FishingToolSlot>
 --- @field GearSlotDivider ProfessionsCraftingPageTemplate_GearSlotDivider
 --- @field LinkButton ProfessionsCraftingPageTemplate_LinkButton
 --- @field OverlayCastBarAnchor Frame

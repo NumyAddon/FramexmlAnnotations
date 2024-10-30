@@ -176,21 +176,21 @@ ClassTrainerFrameMoneyBg = {}
 --- @class ClassTrainerFrame_ClassTrainerFrameBg : Texture
 ClassTrainerFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1148)
 --- child of ClassTrainerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ClassTrainerFrameInset = {}
 ClassTrainerFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1142)
+--- child of ClassTrainerFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ClassTrainerFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1125)
+--- child of ClassTrainerFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ClassTrainerFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L110)
 --- @class ClassTrainerFrame : Frame, ButtonFrameTemplate
@@ -204,8 +204,8 @@ ClassTrainerFrame = {}
 ClassTrainerFrame["skillStepButton"] = ClassTrainerFrameSkillStepButton
 ClassTrainerFrame["bottomInset"] = ClassTrainerFrameBottomInset
 ClassTrainerFrame["BG"] = ClassTrainerFrameBg
-ClassTrainerFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ClassTrainerFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-ClassTrainerFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 ClassTrainerFrame["Inset"] = ClassTrainerFrameInset -- inherited
+ClassTrainerFrame["CloseButton"] = ClassTrainerFrameCloseButton -- inherited
+ClassTrainerFrame["Bg"] = ClassTrainerFrameBg -- inherited
+ClassTrainerFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

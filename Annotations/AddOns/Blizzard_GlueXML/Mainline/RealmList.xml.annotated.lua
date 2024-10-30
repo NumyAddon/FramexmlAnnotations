@@ -2,6 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/RealmList.xml#L3)
 --- Template
+--- Adds itself to the parent inside the array `RealmSelectionTabs`
 --- @class RealmListTabButtonTemplate : Button
 --- @field LeftActive Texture
 --- @field RightActive Texture
@@ -179,6 +180,7 @@ RealmListOkButton["atlasName"] = "128-RedButton" -- inherited
 --- child of RealmList
 --- @class RealmListUI_RealmList_RealmListBackground : Frame
 --- @field Header RealmListUI_RealmList_RealmListBackground_Header
+--- @field RealmSelectionTabs table<number, RealmListUI_RealmList_RealmListBackground_RealmListTab1>
 --- @field ScrollBox RealmListUI_RealmList_RealmListBackground_ScrollBox
 --- @field ScrollBar RealmListUI_RealmList_RealmListBackground_ScrollBar
 RealmListBackground = {}

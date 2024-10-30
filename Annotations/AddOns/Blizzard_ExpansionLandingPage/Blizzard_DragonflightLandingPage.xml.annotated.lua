@@ -59,6 +59,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.xml#L3)
 --- Template
+--- Adds itself to the parent with key `DragonflightLandingOverlay`
 --- @class DragonflightLandingOverlayTemplate : Frame, LandingPageExpansionOverlayTemplate, DragonflightLandingOverlayMixin
 --- @field NineSlice DragonflightLandingOverlayTemplate_NineSlice
 --- @field Header DragonflightLandingOverlayTemplate_Header

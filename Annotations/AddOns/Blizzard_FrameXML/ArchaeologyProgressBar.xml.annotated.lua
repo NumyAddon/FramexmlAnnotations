@@ -15,6 +15,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L64)
 --- child of ArcheologyDigsiteProgressBar
 --- Template
+--- Adds itself to the parent with key `Flash`
 --- @class ArcheologyDigsiteProgressBar_Flash : Texture
 --- @field AnimIn ArcheologyDigsiteProgressBar_Flash_AnimIn
 
@@ -44,7 +45,7 @@
 --- @field AnimOutAndTriggerToast ArcheologyDigsiteProgressBar_AnimOutAndTriggerToast
 ArcheologyDigsiteProgressBar = {}
 ArcheologyDigsiteProgressBar["layoutIndex"] = 7
-ArcheologyDigsiteProgressBar["isManagedFrame"] = true -- inherited
 ArcheologyDigsiteProgressBar["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+ArcheologyDigsiteProgressBar["isManagedFrame"] = true -- inherited
 ArcheologyDigsiteProgressBar["system"] = Enum.EditModeSystem.ArchaeologyBar -- inherited
 

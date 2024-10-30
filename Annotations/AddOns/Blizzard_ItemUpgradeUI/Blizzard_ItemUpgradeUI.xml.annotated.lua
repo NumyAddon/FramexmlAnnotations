@@ -102,174 +102,174 @@
 --- @field UpgradeTo ItemUpgradeFrame_ItemInfo_UpgradeTo
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L35)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
-SharedTooltipTemplateTextLeft1 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTextLeft1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L36)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
-SharedTooltipTemplateTextRight1 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTextRight1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L41)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
-SharedTooltipTemplateTextLeft2 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTextLeft2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L42)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
-SharedTooltipTemplateTextRight2 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTextRight2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L47)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
-SharedTooltipTemplateTexture1 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L48)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
-SharedTooltipTemplateTexture2 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L49)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
-SharedTooltipTemplateTexture3 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L50)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
-SharedTooltipTemplateTexture4 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L51)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
-SharedTooltipTemplateTexture5 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L52)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
-SharedTooltipTemplateTexture6 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L53)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
-SharedTooltipTemplateTexture7 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L54)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
-SharedTooltipTemplateTexture8 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L55)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
-SharedTooltipTemplateTexture9 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L56)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
-SharedTooltipTemplateTexture10 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L57)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
-SharedTooltipTemplateTexture11 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L58)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
-SharedTooltipTemplateTexture12 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L59)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
-SharedTooltipTemplateTexture13 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L60)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
-SharedTooltipTemplateTexture14 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L61)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
-SharedTooltipTemplateTexture15 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L62)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
-SharedTooltipTemplateTexture16 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L63)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
-SharedTooltipTemplateTexture17 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L64)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
-SharedTooltipTemplateTexture18 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L65)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
-SharedTooltipTemplateTexture19 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L66)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
-SharedTooltipTemplateTexture20 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L67)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
-SharedTooltipTemplateTexture21 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L68)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
-SharedTooltipTemplateTexture22 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L69)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
-SharedTooltipTemplateTexture23 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L70)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
-SharedTooltipTemplateTexture24 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L71)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
-SharedTooltipTemplateTexture25 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L72)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
-SharedTooltipTemplateTexture26 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L73)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
-SharedTooltipTemplateTexture27 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L74)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
-SharedTooltipTemplateTexture28 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L75)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
-SharedTooltipTemplateTexture29 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L76)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameLeftItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
-SharedTooltipTemplateTexture30 = {}
+ItemUpgradeFrameLeftItemPreviewFrameTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L315)
 --- child of ItemUpgradeFrame
@@ -277,181 +277,181 @@ SharedTooltipTemplateTexture30 = {}
 --- @field isUpgrade boolean # false
 ItemUpgradeFrameLeftItemPreviewFrame = {}
 ItemUpgradeFrameLeftItemPreviewFrame["isUpgrade"] = false
-ItemUpgradeFrameLeftItemPreviewFrame["textLeft1Font"] = "GameTooltipText" -- inherited
-ItemUpgradeFrameLeftItemPreviewFrame["TextLeft1"] = SharedTooltipTemplateTextLeft1 -- inherited
-ItemUpgradeFrameLeftItemPreviewFrame["TextRight1"] = SharedTooltipTemplateTextRight1 -- inherited
-ItemUpgradeFrameLeftItemPreviewFrame["TextLeft2"] = SharedTooltipTemplateTextLeft2 -- inherited
-ItemUpgradeFrameLeftItemPreviewFrame["TextRight2"] = SharedTooltipTemplateTextRight2 -- inherited
+ItemUpgradeFrameLeftItemPreviewFrame["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+ItemUpgradeFrameLeftItemPreviewFrame["TextLeft1"] = ItemUpgradeFrameLeftItemPreviewFrameTextLeft1 -- inherited
+ItemUpgradeFrameLeftItemPreviewFrame["TextRight1"] = ItemUpgradeFrameLeftItemPreviewFrameTextRight1 -- inherited
+ItemUpgradeFrameLeftItemPreviewFrame["TextLeft2"] = ItemUpgradeFrameLeftItemPreviewFrameTextLeft2 -- inherited
+ItemUpgradeFrameLeftItemPreviewFrame["TextRight2"] = ItemUpgradeFrameLeftItemPreviewFrameTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L35)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
-SharedTooltipTemplateTextLeft1 = {}
+ItemUpgradeFrameRightItemPreviewFrameTextLeft1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L36)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
-SharedTooltipTemplateTextRight1 = {}
+ItemUpgradeFrameRightItemPreviewFrameTextRight1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L41)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
-SharedTooltipTemplateTextLeft2 = {}
+ItemUpgradeFrameRightItemPreviewFrameTextLeft2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L42)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
-SharedTooltipTemplateTextRight2 = {}
+ItemUpgradeFrameRightItemPreviewFrameTextRight2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L47)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
-SharedTooltipTemplateTexture1 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L48)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
-SharedTooltipTemplateTexture2 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L49)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
-SharedTooltipTemplateTexture3 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L50)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
-SharedTooltipTemplateTexture4 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L51)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
-SharedTooltipTemplateTexture5 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L52)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
-SharedTooltipTemplateTexture6 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L53)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
-SharedTooltipTemplateTexture7 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L54)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
-SharedTooltipTemplateTexture8 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L55)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
-SharedTooltipTemplateTexture9 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L56)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
-SharedTooltipTemplateTexture10 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L57)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
-SharedTooltipTemplateTexture11 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L58)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
-SharedTooltipTemplateTexture12 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L59)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
-SharedTooltipTemplateTexture13 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L60)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
-SharedTooltipTemplateTexture14 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L61)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
-SharedTooltipTemplateTexture15 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L62)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
-SharedTooltipTemplateTexture16 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L63)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
-SharedTooltipTemplateTexture17 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L64)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
-SharedTooltipTemplateTexture18 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L65)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
-SharedTooltipTemplateTexture19 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L66)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
-SharedTooltipTemplateTexture20 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L67)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
-SharedTooltipTemplateTexture21 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L68)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
-SharedTooltipTemplateTexture22 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L69)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
-SharedTooltipTemplateTexture23 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L70)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
-SharedTooltipTemplateTexture24 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L71)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
-SharedTooltipTemplateTexture25 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L72)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
-SharedTooltipTemplateTexture26 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L73)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
-SharedTooltipTemplateTexture27 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L74)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
-SharedTooltipTemplateTexture28 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L75)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
-SharedTooltipTemplateTexture29 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L76)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameRightItemPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
-SharedTooltipTemplateTexture30 = {}
+ItemUpgradeFrameRightItemPreviewFrameTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L324)
 --- child of ItemUpgradeFrame
@@ -459,191 +459,191 @@ SharedTooltipTemplateTexture30 = {}
 --- @field isUpgrade boolean # true
 ItemUpgradeFrameRightItemPreviewFrame = {}
 ItemUpgradeFrameRightItemPreviewFrame["isUpgrade"] = true
-ItemUpgradeFrameRightItemPreviewFrame["textLeft1Font"] = "GameTooltipText" -- inherited
-ItemUpgradeFrameRightItemPreviewFrame["TextLeft1"] = SharedTooltipTemplateTextLeft1 -- inherited
-ItemUpgradeFrameRightItemPreviewFrame["TextRight1"] = SharedTooltipTemplateTextRight1 -- inherited
-ItemUpgradeFrameRightItemPreviewFrame["TextLeft2"] = SharedTooltipTemplateTextLeft2 -- inherited
-ItemUpgradeFrameRightItemPreviewFrame["TextRight2"] = SharedTooltipTemplateTextRight2 -- inherited
+ItemUpgradeFrameRightItemPreviewFrame["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+ItemUpgradeFrameRightItemPreviewFrame["TextLeft1"] = ItemUpgradeFrameRightItemPreviewFrameTextLeft1 -- inherited
+ItemUpgradeFrameRightItemPreviewFrame["TextRight1"] = ItemUpgradeFrameRightItemPreviewFrameTextRight1 -- inherited
+ItemUpgradeFrameRightItemPreviewFrame["TextLeft2"] = ItemUpgradeFrameRightItemPreviewFrameTextLeft2 -- inherited
+ItemUpgradeFrameRightItemPreviewFrame["TextRight2"] = ItemUpgradeFrameRightItemPreviewFrameTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L35)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
-SharedTooltipTemplateTextLeft1 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTextLeft1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L36)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
-SharedTooltipTemplateTextRight1 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTextRight1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L41)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
-SharedTooltipTemplateTextLeft2 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTextLeft2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L42)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
-SharedTooltipTemplateTextRight2 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTextRight2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L47)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
-SharedTooltipTemplateTexture1 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L48)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
-SharedTooltipTemplateTexture2 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L49)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
-SharedTooltipTemplateTexture3 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L50)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
-SharedTooltipTemplateTexture4 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L51)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
-SharedTooltipTemplateTexture5 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L52)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
-SharedTooltipTemplateTexture6 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L53)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
-SharedTooltipTemplateTexture7 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L54)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
-SharedTooltipTemplateTexture8 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L55)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
-SharedTooltipTemplateTexture9 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L56)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
-SharedTooltipTemplateTexture10 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L57)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
-SharedTooltipTemplateTexture11 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L58)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
-SharedTooltipTemplateTexture12 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L59)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
-SharedTooltipTemplateTexture13 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L60)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
-SharedTooltipTemplateTexture14 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L61)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
-SharedTooltipTemplateTexture15 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L62)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
-SharedTooltipTemplateTexture16 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L63)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
-SharedTooltipTemplateTexture17 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L64)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
-SharedTooltipTemplateTexture18 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L65)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
-SharedTooltipTemplateTexture19 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L66)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
-SharedTooltipTemplateTexture20 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L67)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
-SharedTooltipTemplateTexture21 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L68)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
-SharedTooltipTemplateTexture22 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L69)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
-SharedTooltipTemplateTexture23 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L70)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
-SharedTooltipTemplateTexture24 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L71)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
-SharedTooltipTemplateTexture25 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L72)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
-SharedTooltipTemplateTexture26 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L73)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
-SharedTooltipTemplateTexture27 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L74)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
-SharedTooltipTemplateTexture28 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L75)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
-SharedTooltipTemplateTexture29 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L76)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
+--- child of ItemUpgradeFrameItemHoverPreviewFrame (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
-SharedTooltipTemplateTexture30 = {}
+ItemUpgradeFrameItemHoverPreviewFrameTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L333)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_ItemUpgradeFrameItemHoverPreviewFrame : GameTooltip, ItemUpgradeTooltipTemplate
 ItemUpgradeFrameItemHoverPreviewFrame = {}
-ItemUpgradeFrameItemHoverPreviewFrame["textLeft1Font"] = "GameTooltipText" -- inherited
-ItemUpgradeFrameItemHoverPreviewFrame["TextLeft1"] = SharedTooltipTemplateTextLeft1 -- inherited
-ItemUpgradeFrameItemHoverPreviewFrame["TextRight1"] = SharedTooltipTemplateTextRight1 -- inherited
-ItemUpgradeFrameItemHoverPreviewFrame["TextLeft2"] = SharedTooltipTemplateTextLeft2 -- inherited
-ItemUpgradeFrameItemHoverPreviewFrame["TextRight2"] = SharedTooltipTemplateTextRight2 -- inherited
+ItemUpgradeFrameItemHoverPreviewFrame["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+ItemUpgradeFrameItemHoverPreviewFrame["TextLeft1"] = ItemUpgradeFrameItemHoverPreviewFrameTextLeft1 -- inherited
+ItemUpgradeFrameItemHoverPreviewFrame["TextRight1"] = ItemUpgradeFrameItemHoverPreviewFrameTextRight1 -- inherited
+ItemUpgradeFrameItemHoverPreviewFrame["TextLeft2"] = ItemUpgradeFrameItemHoverPreviewFrameTextLeft2 -- inherited
+ItemUpgradeFrameItemHoverPreviewFrame["TextRight2"] = ItemUpgradeFrameItemHoverPreviewFrameTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L350)
 --- child of 
@@ -729,15 +729,15 @@ ItemUpgradeFramePlayerCurrenciesBorder = {}
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_IdleGlowSlide : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L1095)
 --- child of ItemUpgradeFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ItemUpgradeFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L1062)
+--- child of ItemUpgradeFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+ItemUpgradeFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L144)
 --- @class ItemUpgradeFrame : Frame, PortraitFrameTemplate, ItemUpgradeMixin
@@ -772,7 +772,7 @@ ItemUpgradeFrame["LeftItemPreviewFrame"] = ItemUpgradeFrameLeftItemPreviewFrame
 ItemUpgradeFrame["RightItemPreviewFrame"] = ItemUpgradeFrameRightItemPreviewFrame
 ItemUpgradeFrame["ItemHoverPreviewFrame"] = ItemUpgradeFrameItemHoverPreviewFrame
 ItemUpgradeFrame["PlayerCurrenciesBorder"] = ItemUpgradeFramePlayerCurrenciesBorder
-ItemUpgradeFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ItemUpgradeFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 ItemUpgradeFrame["CloseButton"] = ItemUpgradeFrameCloseButton -- inherited
+ItemUpgradeFrame["Bg"] = ItemUpgradeFrameBg -- inherited
+ItemUpgradeFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

@@ -117,6 +117,7 @@ RecruitAFriendRewardsFrame["widthPadding"] = 20
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L309)
 --- child of RecruitAFriendRecruitmentFrame
 --- Template
+--- Adds itself to the parent with key `EditBox`
 --- @class RecruitAFriendRecruitmentFrame_EditBox : EditBox, InputBoxTemplate
 --- @field Instructions RecruitAFriendRecruitmentFrame_EditBox_Instructions
 
@@ -193,18 +194,6 @@ RecruitAFriendRecruitmentFrame = {}
 --- @field ClaimGlowOutAnim RecruitActivityButtonTemplate_ClaimGlowOutAnim
 --- @field ModelFadeOutAnim RecruitActivityButtonTemplate_ModelFadeOutAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L442)
---- child of RecruitListButtonTemplate
---- @class  : Button, RecruitActivityButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L447)
---- child of RecruitListButtonTemplate
---- @class  : Button, RecruitActivityButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L452)
---- child of RecruitListButtonTemplate
---- @class  : Button, RecruitActivityButtonTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L427)
 --- child of RecruitListButtonTemplate
 --- @class RecruitListButtonTemplate_Name : FontString, RecruitTextTemplate
@@ -216,6 +205,9 @@ RecruitAFriendRecruitmentFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L406)
 --- Template
 --- @class RecruitListButtonTemplate : Button, RecruitListButtonMixin
+--- @field Activities table<number, >
+--- @field Activities table<number, >
+--- @field Activities table<number, >
 --- @field Background Texture
 --- @field Icon Texture
 --- @field DividerTexture Texture

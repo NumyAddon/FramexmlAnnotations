@@ -27,7 +27,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem1 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem1ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -120,7 +119,6 @@ MerchantItem1["Name"] = MerchantItem1Name -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem2 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem2ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -213,7 +211,6 @@ MerchantItem2["Name"] = MerchantItem2Name -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem3 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem3ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -306,7 +303,6 @@ MerchantItem3["Name"] = MerchantItem3Name -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem4 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem4ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -399,7 +395,6 @@ MerchantItem4["Name"] = MerchantItem4Name -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem5 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem5ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -492,7 +487,6 @@ MerchantItem5["Name"] = MerchantItem5Name -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem6 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem6ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -585,7 +579,6 @@ MerchantItem6["Name"] = MerchantItem6Name -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem7 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem7ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -678,7 +671,6 @@ MerchantItem7["Name"] = MerchantItem7Name -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem8 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem8ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -771,7 +763,6 @@ MerchantItem8["Name"] = MerchantItem8Name -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem9 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem9ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -864,7 +855,6 @@ MerchantItem9["Name"] = MerchantItem9Name -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem10 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem10ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -957,7 +947,6 @@ MerchantItem10["Name"] = MerchantItem10Name -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem11 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem11ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -1050,7 +1039,6 @@ MerchantItem11["Name"] = MerchantItem11Name -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L28)
 --- child of MerchantItem12 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field IconQuestTexture Texture
 MerchantItem12ItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L110)
@@ -1311,18 +1299,10 @@ MerchantMoneyFrame["CopperButton"] = MerchantMoneyFrameCopperButton -- inherited
 MerchantMoneyFrame["SilverButton"] = MerchantMoneyFrameSilverButton -- inherited
 MerchantMoneyFrame["GoldButton"] = MerchantMoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L527)
---- child of MerchantPrevPageButton
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L520)
 --- child of MerchantFrame
 --- @class MerchantFrame_MerchantPrevPageButton : Button
 MerchantPrevPageButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L555)
---- child of MerchantNextPageButton
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L548)
 --- child of MerchantFrame
@@ -1363,28 +1343,30 @@ MerchantPageText = {}
 --- @class MerchantFrame_MerchantFrameBottomLeftBorder : Texture
 MerchantFrameBottomLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1148)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MerchantFrameInset = {}
 MerchantFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1142)
+--- child of MerchantFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+MerchantFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1125)
+--- child of MerchantFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+MerchantFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L91)
 --- @class MerchantFrame : Frame, ButtonFrameTemplate
+--- @field Tabs table<number, MerchantFrame_MerchantFrameTab1>
+--- @field Tabs table<number, MerchantFrame_MerchantFrameTab2>
 --- @field FilterDropdown MerchantFrame_FilterDropdown
 MerchantFrame = {}
-MerchantFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-MerchantFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-MerchantFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 MerchantFrame["Inset"] = MerchantFrameInset -- inherited
+MerchantFrame["CloseButton"] = MerchantFrameCloseButton -- inherited
+MerchantFrame["Bg"] = MerchantFrameBg -- inherited
+MerchantFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

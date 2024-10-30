@@ -2,6 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L3)
 --- Template
+--- Adds itself to the parent inside the array `LootButtons`
 --- @class LootRollButtonTemplate : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L114)
@@ -156,9 +157,13 @@
 --- @class GroupLootFrameTemplate : Frame
 --- @field IconFrame GroupLootFrameTemplate_IconFrame
 --- @field NeedButton GroupLootFrameTemplate_NeedButton
+--- @field LootButtons table<number, GroupLootFrameTemplate_NeedButton>
 --- @field PassButton GroupLootFrameTemplate_PassButton
+--- @field LootButtons table<number, GroupLootFrameTemplate_PassButton>
 --- @field GreedButton GroupLootFrameTemplate_GreedButton
+--- @field LootButtons table<number, GroupLootFrameTemplate_GreedButton>
 --- @field TransmogButton GroupLootFrameTemplate_TransmogButton
+--- @field LootButtons table<number, GroupLootFrameTemplate_TransmogButton>
 --- @field Timer GroupLootFrameTemplate_Timer
 --- @field NeedRollAnim GroupLootFrameTemplate_NeedRollAnim
 --- @field Background Texture
@@ -170,8 +175,8 @@
 --- @field layoutIndex number # 3
 GroupLootContainer = {}
 GroupLootContainer["layoutIndex"] = 3
-GroupLootContainer["isManagedFrame"] = true -- inherited
 GroupLootContainer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+GroupLootContainer["isManagedFrame"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L546)
 --- @class GroupLootFrame1 : Frame, GroupLootFrameTemplate
@@ -229,10 +234,6 @@ BonusRollMoneyWonFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L672)
 --- child of MasterLooterFrame
 --- @class MasterLooterFrame_player1 : Button, MasterLooterPlayerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L677)
---- child of MasterLooterFrame
---- @class  : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L610)
 --- @class MasterLooterFrame : Frame, TooltipBackdropTemplate

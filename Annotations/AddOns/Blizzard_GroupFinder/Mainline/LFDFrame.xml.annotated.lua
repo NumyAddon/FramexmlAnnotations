@@ -104,22 +104,20 @@ LFDReadyCheckPopup = {}
 LFDParentFrameInset = {}
 LFDParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L167)
---- child of LFGRoleButtonWithBackgroundAndRewardTemplate (created in template LFGRoleButtonWithBackgroundTemplate)
---- @type Texture
-LFGRoleButtonWithBackgroundAndRewardTemplateBackground = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L188)
---- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of LFDQueueFrameRoleButtonTank (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
---- @field texture Texture
---- @field border Texture
-LFDRoleButtonTemplateIncentiveIcon = {}
+LFDQueueFrameRoleButtonTankIncentiveIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L179)
---- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of LFDQueueFrameRoleButtonTank (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type Texture
-LFDRoleButtonTemplateShortageBorder = {}
+LFDQueueFrameRoleButtonTankShortageBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L167)
+--- child of LFDQueueFrameRoleButtonTank (created in template LFGRoleButtonWithBackgroundTemplate)
+--- @type Texture
+LFDQueueFrameRoleButtonTankBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L224)
 --- child of LFDQueueFrame
@@ -127,26 +125,24 @@ LFDRoleButtonTemplateShortageBorder = {}
 --- @field role string # "TANK"
 LFDQueueFrameRoleButtonTank = {}
 LFDQueueFrameRoleButtonTank["role"] = "TANK"
-LFDQueueFrameRoleButtonTank["background"] = LFGRoleButtonWithBackgroundAndRewardTemplateBackground -- inherited
-LFDQueueFrameRoleButtonTank["incentiveIcon"] = LFDRoleButtonTemplateIncentiveIcon -- inherited
-LFDQueueFrameRoleButtonTank["shortageBorder"] = LFDRoleButtonTemplateShortageBorder -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L167)
---- child of LFGRoleButtonWithBackgroundAndRewardTemplate (created in template LFGRoleButtonWithBackgroundTemplate)
---- @type Texture
-LFGRoleButtonWithBackgroundAndRewardTemplateBackground = {}
+LFDQueueFrameRoleButtonTank["incentiveIcon"] = LFDQueueFrameRoleButtonTankIncentiveIcon -- inherited
+LFDQueueFrameRoleButtonTank["shortageBorder"] = LFDQueueFrameRoleButtonTankShortageBorder -- inherited
+LFDQueueFrameRoleButtonTank["background"] = LFDQueueFrameRoleButtonTankBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L188)
---- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of LFDQueueFrameRoleButtonHealer (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
---- @field texture Texture
---- @field border Texture
-LFDRoleButtonTemplateIncentiveIcon = {}
+LFDQueueFrameRoleButtonHealerIncentiveIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L179)
---- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of LFDQueueFrameRoleButtonHealer (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type Texture
-LFDRoleButtonTemplateShortageBorder = {}
+LFDQueueFrameRoleButtonHealerShortageBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L167)
+--- child of LFDQueueFrameRoleButtonHealer (created in template LFGRoleButtonWithBackgroundTemplate)
+--- @type Texture
+LFDQueueFrameRoleButtonHealerBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L232)
 --- child of LFDQueueFrame
@@ -154,26 +150,24 @@ LFDRoleButtonTemplateShortageBorder = {}
 --- @field role string # "HEALER"
 LFDQueueFrameRoleButtonHealer = {}
 LFDQueueFrameRoleButtonHealer["role"] = "HEALER"
-LFDQueueFrameRoleButtonHealer["background"] = LFGRoleButtonWithBackgroundAndRewardTemplateBackground -- inherited
-LFDQueueFrameRoleButtonHealer["incentiveIcon"] = LFDRoleButtonTemplateIncentiveIcon -- inherited
-LFDQueueFrameRoleButtonHealer["shortageBorder"] = LFDRoleButtonTemplateShortageBorder -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L167)
---- child of LFGRoleButtonWithBackgroundAndRewardTemplate (created in template LFGRoleButtonWithBackgroundTemplate)
---- @type Texture
-LFGRoleButtonWithBackgroundAndRewardTemplateBackground = {}
+LFDQueueFrameRoleButtonHealer["incentiveIcon"] = LFDQueueFrameRoleButtonHealerIncentiveIcon -- inherited
+LFDQueueFrameRoleButtonHealer["shortageBorder"] = LFDQueueFrameRoleButtonHealerShortageBorder -- inherited
+LFDQueueFrameRoleButtonHealer["background"] = LFDQueueFrameRoleButtonHealerBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L188)
---- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of LFDQueueFrameRoleButtonDPS (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
---- @field texture Texture
---- @field border Texture
-LFDRoleButtonTemplateIncentiveIcon = {}
+LFDQueueFrameRoleButtonDPSIncentiveIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L179)
---- child of LFDRoleButtonTemplate (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
+--- child of LFDQueueFrameRoleButtonDPS (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
 --- @type Texture
-LFDRoleButtonTemplateShortageBorder = {}
+LFDQueueFrameRoleButtonDPSShortageBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L167)
+--- child of LFDQueueFrameRoleButtonDPS (created in template LFGRoleButtonWithBackgroundTemplate)
+--- @type Texture
+LFDQueueFrameRoleButtonDPSBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L240)
 --- child of LFDQueueFrame
@@ -181,9 +175,9 @@ LFDRoleButtonTemplateShortageBorder = {}
 --- @field role string # "DAMAGER"
 LFDQueueFrameRoleButtonDPS = {}
 LFDQueueFrameRoleButtonDPS["role"] = "DAMAGER"
-LFDQueueFrameRoleButtonDPS["background"] = LFGRoleButtonWithBackgroundAndRewardTemplateBackground -- inherited
-LFDQueueFrameRoleButtonDPS["incentiveIcon"] = LFDRoleButtonTemplateIncentiveIcon -- inherited
-LFDQueueFrameRoleButtonDPS["shortageBorder"] = LFDRoleButtonTemplateShortageBorder -- inherited
+LFDQueueFrameRoleButtonDPS["incentiveIcon"] = LFDQueueFrameRoleButtonDPSIncentiveIcon -- inherited
+LFDQueueFrameRoleButtonDPS["shortageBorder"] = LFDQueueFrameRoleButtonDPSShortageBorder -- inherited
+LFDQueueFrameRoleButtonDPS["background"] = LFDQueueFrameRoleButtonDPSBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L248)
 --- child of LFDQueueFrame

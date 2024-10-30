@@ -77,10 +77,6 @@
 --- @class TutorialPointerFrame_TutorialPointerFrameContent : Frame, GlowBoxTemplate
 --- @field Text TutorialPointerFrame_TutorialPointerFrameContent_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialPointerFrame.xml#L150)
---- child of 
---- @class  : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialPointerFrame.xml#L144)
 --- child of TutorialPointerFrame
 --- @class TutorialPointerFrame_Glow : Frame, BackdropTemplate

@@ -15,27 +15,30 @@ InspectFrameTab2 = {}
 --- @class InspectFrame_InspectFrameTab3 : Button, PanelTabButtonTemplate
 InspectFrameTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L1148)
 --- child of InspectFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 InspectFrameInset = {}
 InspectFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L1142)
+--- child of InspectFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+InspectFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L1125)
+--- child of InspectFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+InspectFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L4)
 --- @class InspectFrame : Frame, ButtonFrameTemplate
+--- @field Tabs table<number, InspectFrame_InspectFrameTab1>
+--- @field Tabs table<number, InspectFrame_InspectFrameTab2>
+--- @field Tabs table<number, InspectFrame_InspectFrameTab3>
 InspectFrame = {}
-InspectFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-InspectFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-InspectFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 InspectFrame["Inset"] = InspectFrameInset -- inherited
+InspectFrame["CloseButton"] = InspectFrameCloseButton -- inherited
+InspectFrame["Bg"] = InspectFrameBg -- inherited
+InspectFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

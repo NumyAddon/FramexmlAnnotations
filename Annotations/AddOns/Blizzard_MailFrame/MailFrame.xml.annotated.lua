@@ -39,6 +39,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L173)
 --- Template
+--- Adds itself to the parent inside the array `SendMailAttachments`
 --- @class SendMailAttachment : Button
 --- @field Count SendMailAttachment_SendMailAttachmentCount
 --- @field IconBorder Texture
@@ -47,6 +48,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L240)
 --- Template
+--- Adds itself to the parent inside the array `OpenMailAttachments`
 --- @class OpenMailAttachment : ItemButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L319)
@@ -75,10 +77,6 @@ MailItem1ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L71)
 --- child of MailItem1 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
---- @field IconOverlay2 Texture
 MailItem1Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L36)
@@ -113,10 +111,6 @@ MailItem2ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L71)
 --- child of MailItem2 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
---- @field IconOverlay2 Texture
 MailItem2Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L36)
@@ -151,10 +145,6 @@ MailItem3ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L71)
 --- child of MailItem3 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
---- @field IconOverlay2 Texture
 MailItem3Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L36)
@@ -189,10 +179,6 @@ MailItem4ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L71)
 --- child of MailItem4 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
---- @field IconOverlay2 Texture
 MailItem4Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L36)
@@ -227,10 +213,6 @@ MailItem5ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L71)
 --- child of MailItem5 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
---- @field IconOverlay2 Texture
 MailItem5Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L36)
@@ -265,10 +247,6 @@ MailItem6ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L71)
 --- child of MailItem6 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
---- @field IconOverlay2 Texture
 MailItem6Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L36)
@@ -303,10 +281,6 @@ MailItem7ExpireTime = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L71)
 --- child of MailItem7 (created in template MailItemTemplate)
 --- @type MailItemTemplate_MailItemTemplateButton
---- @field Icon Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
---- @field IconOverlay2 Texture
 MailItem7Button = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L36)
@@ -325,18 +299,10 @@ MailItem7Subject = {}
 MailItem7 = {}
 MailItem7["Button"] = MailItem7Button -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L388)
---- child of InboxPrevPageButton
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L381)
 --- child of InboxFrame
 --- @class MailFrame_InboxFrame_InboxPrevPageButton : Button
 InboxPrevPageButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L413)
---- child of InboxNextPageButton
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L406)
 --- child of InboxFrame
@@ -381,10 +347,6 @@ SendStationeryBackgroundRight = {}
 SendMailScrollFrame = {}
 SendMailScrollFrame["scrollBarX"] = 10
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L569)
---- child of SendMailNameEditBox
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L574)
 --- child of SendMailNameEditBox
 --- @class MailFrame_SendMailFrame_SendMailNameEditBox_SendMailNameEditBoxLeft : Texture
@@ -404,10 +366,6 @@ SendMailNameEditBoxRight = {}
 --- child of SendMailFrame
 --- @class MailFrame_SendMailFrame_SendMailNameEditBox : EditBox, AutoCompleteEditBoxTemplate
 SendMailNameEditBox = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L635)
---- child of SendMailCostMoneyFrame
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L110)
 --- child of SendMailCostMoneyFrame (created in template SmallMoneyFrameTemplate)
@@ -437,10 +395,6 @@ SendMailCostMoneyFrame["trialErrorButton"] = SendMailCostMoneyFrameTrialErrorBut
 SendMailCostMoneyFrame["CopperButton"] = SendMailCostMoneyFrameCopperButton -- inherited
 SendMailCostMoneyFrame["SilverButton"] = SendMailCostMoneyFrameSilverButton -- inherited
 SendMailCostMoneyFrame["GoldButton"] = SendMailCostMoneyFrameGoldButton -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L657)
---- child of SendMailSubjectEditBox
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L662)
 --- child of SendMailSubjectEditBox
@@ -641,28 +595,16 @@ SendMailAttachment16["Count"] = SendMailAttachment16Count -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L6)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateGold
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 SendMailMoneyGold = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L80)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 SendMailMoneySilver = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L155)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 SendMailMoneyCopper = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L728)
@@ -674,26 +616,26 @@ SendMailMoney["silver"] = SendMailMoneySilver -- inherited
 SendMailMoney["copper"] = SendMailMoneyCopper -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L455)
---- child of SendMailRadioButtonTemplate (created in template UIRadioButtonTemplate)
+--- child of SendMailSendMoneyButton (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_UIRadioButtonTemplateText
-SendMailRadioButtonTemplateText = {}
+SendMailSendMoneyButtonText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L741)
 --- child of SendMailMoneyButton
 --- @class MailFrame_SendMailFrame_SendMailMoneyButton_SendMailSendMoneyButton : CheckButton, SendMailRadioButtonTemplate
 SendMailSendMoneyButton = {}
-SendMailSendMoneyButton["text"] = SendMailRadioButtonTemplateText -- inherited
+SendMailSendMoneyButton["text"] = SendMailSendMoneyButtonText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L455)
---- child of SendMailRadioButtonTemplate (created in template UIRadioButtonTemplate)
+--- child of SendMailCODButton (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_UIRadioButtonTemplateText
-SendMailRadioButtonTemplateText = {}
+SendMailCODButtonText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L751)
 --- child of SendMailMoneyButton
 --- @class MailFrame_SendMailFrame_SendMailMoneyButton_SendMailCODButton : CheckButton, SendMailRadioButtonTemplate
 SendMailCODButton = {}
-SendMailCODButton["text"] = SendMailRadioButtonTemplateText -- inherited
+SendMailCODButton["text"] = SendMailCODButtonText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L720)
 --- child of SendMailMoneyButton
@@ -805,6 +747,22 @@ SendMailHorizontalBarLeft2 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L447)
 --- child of MailFrame
 --- @class MailFrame_SendMailFrame : Frame
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment1>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment2>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment3>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment4>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment5>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment6>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment7>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment8>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment9>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment10>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment11>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment12>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment13>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment14>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment15>
+--- @field SendMailAttachments table<number, MailFrame_SendMailFrame_SendMailAttachment16>
 SendMailFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L840)
@@ -822,31 +780,33 @@ MailFrameTab2 = {}
 --- @class MailFrame_MailFrameTrialError : FontString, GameFontNormal
 MailFrameTrialError = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1148)
 --- child of MailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MailFrameInset = {}
 MailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1142)
+--- child of MailFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+MailFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1125)
+--- child of MailFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+MailFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L274)
 --- @class MailFrame : Frame, ButtonFrameTemplate
+--- @field Tabs table<number, MailFrame_MailFrameTab1>
+--- @field Tabs table<number, MailFrame_MailFrameTab2>
 --- @field trialError MailFrame_MailFrameTrialError
 MailFrame = {}
 MailFrame["trialError"] = MailFrameTrialError
-MailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-MailFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-MailFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 MailFrame["Inset"] = MailFrameInset -- inherited
+MailFrame["CloseButton"] = MailFrameCloseButton -- inherited
+MailFrame["Bg"] = MailFrameBg -- inherited
+MailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L929)
 --- child of OpenMailFrame
@@ -1019,27 +979,43 @@ OpenMailSubject = {}
 --- @class OpenMailFrame_OpenMailHorizontalBarLeft : Texture
 OpenMailHorizontalBarLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1148)
 --- child of OpenMailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 OpenMailFrameInset = {}
 OpenMailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1142)
+--- child of OpenMailFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+OpenMailFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1125)
+--- child of OpenMailFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+OpenMailFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L877)
 --- @class OpenMailFrame : Frame, ButtonFrameTemplate
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton1>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton2>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton3>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton4>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton5>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton6>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton7>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton8>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton9>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton10>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton11>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton12>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton13>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton14>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton15>
+--- @field OpenMailAttachments table<number, OpenMailFrame_OpenMailAttachmentButton16>
 OpenMailFrame = {}
-OpenMailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-OpenMailFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-OpenMailFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 OpenMailFrame["Inset"] = OpenMailFrameInset -- inherited
+OpenMailFrame["CloseButton"] = OpenMailFrameCloseButton -- inherited
+OpenMailFrame["Bg"] = OpenMailFrameBg -- inherited
+OpenMailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

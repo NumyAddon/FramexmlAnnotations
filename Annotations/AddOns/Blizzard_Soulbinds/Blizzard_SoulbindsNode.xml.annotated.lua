@@ -191,23 +191,37 @@
 --- @field IconOverlay Texture
 --- @field Ring Texture
 --- @field PickupOverlay SoulbindConduitNodeTemplate_PickupOverlay
+--- @field PickupAnimTextures table<number, SoulbindConduitNodeTemplate_PickupOverlay>
 --- @field PickupOverlay2 SoulbindConduitNodeTemplate_PickupOverlay2
+--- @field PickupAnimTextures table<number, SoulbindConduitNodeTemplate_PickupOverlay2>
 --- @field PickupArrowsOverlay SoulbindConduitNodeTemplate_PickupArrowsOverlay
+--- @field PickupAnimTextures table<number, SoulbindConduitNodeTemplate_PickupArrowsOverlay>
 --- @field PickupArrowsStatic Texture
 --- @field UnsocketedWarning SoulbindConduitNodeTemplate_UnsocketedWarning
+--- @field UnsocketedWarningTextures table<number, SoulbindConduitNodeTemplate_UnsocketedWarning>
 --- @field UnsocketedWarning2 SoulbindConduitNodeTemplate_UnsocketedWarning2
+--- @field UnsocketedWarningTextures table<number, SoulbindConduitNodeTemplate_UnsocketedWarning2>
 --- @field EnhancedNodeSheen SoulbindConduitNodeTemplate_EnhancedNodeSheen
 --- @field RingOverlay SoulbindConduitNodeTemplate_RingOverlay
 --- @field MouseOverlay Texture
 --- @field EmblemBg Texture
 --- @field Ring2 SoulbindConduitNodeTemplate_Ring2
+--- @field SocketAnimTextures table<number, SoulbindConduitNodeTemplate_Ring2>
 --- @field Ring3 SoulbindConduitNodeTemplate_Ring3
+--- @field SocketAnimTextures table<number, SoulbindConduitNodeTemplate_Ring3>
 --- @field Ring4 SoulbindConduitNodeTemplate_Ring4
+--- @field SocketAnimTextures table<number, SoulbindConduitNodeTemplate_Ring4>
 --- @field Ring5 SoulbindConduitNodeTemplate_Ring5
+--- @field SocketAnimTextures table<number, SoulbindConduitNodeTemplate_Ring5>
 --- @field Ring6 SoulbindConduitNodeTemplate_Ring6
+--- @field SocketAnimTextures table<number, SoulbindConduitNodeTemplate_Ring6>
 --- @field Ring7 SoulbindConduitNodeTemplate_Ring7
+--- @field SocketAnimTextures table<number, SoulbindConduitNodeTemplate_Ring7>
 --- @field Pending Texture
+--- @field PendingAnimTextures table<number, Texture>
 --- @field PendingStick SoulbindConduitNodeTemplate_PendingStick
+--- @field PendingAnimTextures table<number, SoulbindConduitNodeTemplate_PendingStick>
 --- @field PendingStick2 SoulbindConduitNodeTemplate_PendingStick2
+--- @field PendingAnimTextures table<number, SoulbindConduitNodeTemplate_PendingStick2>
 --- @field Emblem Texture
 

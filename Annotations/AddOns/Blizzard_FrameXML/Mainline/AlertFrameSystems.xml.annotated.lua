@@ -6,6 +6,7 @@ AlertFrameSystemsRegistrar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L8)
 --- Template
+--- Adds itself to the parent inside the array `RewardFrames`
 --- @class DungeonCompletionAlertFrameRewardTemplate : Button
 --- @field texture Texture
 
@@ -197,10 +198,6 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn CriteriaAlertFrameTemplate_animIn
 --- @field waitAndAnimOut CriteriaAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L487)
---- child of GuildChallengeAlertFrameTemplate
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L492)
 --- child of GuildChallengeAlertFrameTemplate
 --- @class GuildChallengeAlertFrameTemplate_Type : FontString, GameFontWhiteTiny
@@ -249,10 +246,6 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn GuildChallengeAlertFrameTemplate_animIn
 --- @field waitAndAnimOut GuildChallengeAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L585)
---- child of ScenarioLegionInvasionAlertFrameTemplate
---- @class  : FontString, GameFontWhiteTiny
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L592)
 --- child of ScenarioLegionInvasionAlertFrameTemplate
 --- @class ScenarioLegionInvasionAlertFrameTemplate_ZoneName : FontString, GameFontHighlight
@@ -287,10 +280,6 @@ AlertFrameSystemsRegistrar = {}
 --- child of ScenarioAlertFrameTemplate
 --- @class ScenarioAlertFrameTemplate_glowFrame : Frame
 --- @field glow ScenarioAlertFrameTemplate_glowFrame_glow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L647)
---- child of ScenarioAlertFrameTemplate
---- @class  : FontString, GameFontWhiteTiny
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L654)
 --- child of ScenarioAlertFrameTemplate
@@ -683,14 +672,6 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn GarrisonBuildingAlertFrameTemplate_animIn
 --- @field waitAndAnimOut GarrisonBuildingAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1520)
---- child of GarrisonRandomMissionAlertFrameTemplate
---- @class  : FontString, SystemFont_Med3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1532)
---- child of GarrisonRandomMissionAlertFrameTemplate
---- @class  : FontString, Game24Font
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1544)
 --- child of GarrisonRandomMissionAlertFrameTemplate
 --- @class GarrisonRandomMissionAlertFrameTemplate_Level : FontString, Game24Font
@@ -903,6 +884,7 @@ AlertFrameSystemsRegistrar = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1936)
 --- child of GarrisonStandardMissionAlertFrameTemplate
 --- Template
+--- Adds itself to the parent with key `EncounterIcon`
 --- @class GarrisonStandardMissionAlertFrameTemplate_EncounterIcon : Frame
 --- @field Portrait Texture
 --- @field PortraitBorder Texture
@@ -1124,10 +1106,6 @@ AlertFrameSystemsRegistrar = {}
 --- child of LegendaryItemAlertFrameTemplate
 --- @class LegendaryItemAlertFrameTemplate_Background3 : Texture
 --- @field animIn LegendaryItemAlertFrameTemplate_Background3_animIn
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2430)
---- child of LegendaryItemAlertFrameTemplate
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2435)
 --- child of LegendaryItemAlertFrameTemplate

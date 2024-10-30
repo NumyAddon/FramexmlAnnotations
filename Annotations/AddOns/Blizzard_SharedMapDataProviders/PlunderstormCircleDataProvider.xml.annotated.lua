@@ -16,6 +16,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L29)
 --- Template
+--- Adds itself to the parent inside the array `Bounds`
 --- @class PlunderstormBoundsStripTemplate : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.xml#L33)
@@ -83,12 +84,20 @@
 --- @field Lightning4 PlunderstormOuterCirclePinTemplate_Lightning4
 --- @field Corners Texture
 --- @field BoundsTL PlunderstormOuterCirclePinTemplate_BoundsTL
+--- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsTL>
 --- @field BoundsT PlunderstormOuterCirclePinTemplate_BoundsT
+--- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsT>
 --- @field BoundsTR PlunderstormOuterCirclePinTemplate_BoundsTR
+--- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsTR>
 --- @field BoundsR PlunderstormOuterCirclePinTemplate_BoundsR
+--- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsR>
 --- @field BoundsBR PlunderstormOuterCirclePinTemplate_BoundsBR
+--- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsBR>
 --- @field BoundsB PlunderstormOuterCirclePinTemplate_BoundsB
+--- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsB>
 --- @field BoundsBL PlunderstormOuterCirclePinTemplate_BoundsBL
+--- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsBL>
 --- @field BoundsL PlunderstormOuterCirclePinTemplate_BoundsL
+--- @field Bounds table<number, PlunderstormOuterCirclePinTemplate_BoundsL>
 --- @field LightningPulse PlunderstormOuterCirclePinTemplate_LightningPulse
 

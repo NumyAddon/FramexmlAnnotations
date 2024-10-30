@@ -5,8 +5,8 @@
 --- @field scale string # "0.7"
 ClassNameplateBarMageFrame = {}
 ClassNameplateBarMageFrame["scale"] = "0.7"
-ClassNameplateBarMageFrame["isManagedFrame"] = true -- inherited
-ClassNameplateBarMageFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
-ClassNameplateBarMageFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarMageFrame["powerToken"] = "ARCANE_CHARGES" -- inherited
+ClassNameplateBarMageFrame["maxUsablePoints"] = 5 -- inherited
+ClassNameplateBarMageFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+ClassNameplateBarMageFrame["isManagedFrame"] = true -- inherited
 

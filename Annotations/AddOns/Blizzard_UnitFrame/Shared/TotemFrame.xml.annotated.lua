@@ -10,10 +10,6 @@
 --- @field cooldown TotemButtonTemplate_TotemButtonTemplateIcon_TotemButtonTemplateIconCooldown
 --- @field texture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TotemFrame.xml#L44)
---- child of TotemButtonTemplate
---- @class  : Frame
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TotemFrame.xml#L18)
 --- child of TotemButtonTemplate
 --- @class TotemButtonTemplate_TotemButtonTemplateDuration : FontString, GameFontNormalSmall
@@ -31,8 +27,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TotemFrame.xml#L28)
 --- child of TotemFrameTotem1 (created in template TotemButtonTemplate)
 --- @type TotemButtonTemplate_TotemButtonTemplateIcon
---- @field cooldown TotemButtonTemplate_TotemButtonTemplateIcon_TotemButtonTemplateIconCooldown
---- @field texture Texture
 TotemFrameTotem1Icon = {}
 TotemFrameTotem1Icon["cooldown"] = TotemButtonTemplateIconCooldown
 
@@ -60,8 +54,6 @@ TotemFrameTotem1["duration"] = TotemFrameTotem1Duration -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TotemFrame.xml#L28)
 --- child of TotemFrameTotem2 (created in template TotemButtonTemplate)
 --- @type TotemButtonTemplate_TotemButtonTemplateIcon
---- @field cooldown TotemButtonTemplate_TotemButtonTemplateIcon_TotemButtonTemplateIconCooldown
---- @field texture Texture
 TotemFrameTotem2Icon = {}
 TotemFrameTotem2Icon["cooldown"] = TotemButtonTemplateIconCooldown
 
@@ -89,8 +81,6 @@ TotemFrameTotem2["duration"] = TotemFrameTotem2Duration -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TotemFrame.xml#L28)
 --- child of TotemFrameTotem3 (created in template TotemButtonTemplate)
 --- @type TotemButtonTemplate_TotemButtonTemplateIcon
---- @field cooldown TotemButtonTemplate_TotemButtonTemplateIcon_TotemButtonTemplateIconCooldown
---- @field texture Texture
 TotemFrameTotem3Icon = {}
 TotemFrameTotem3Icon["cooldown"] = TotemButtonTemplateIconCooldown
 
@@ -118,8 +108,6 @@ TotemFrameTotem3["duration"] = TotemFrameTotem3Duration -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TotemFrame.xml#L28)
 --- child of TotemFrameTotem4 (created in template TotemButtonTemplate)
 --- @type TotemButtonTemplate_TotemButtonTemplateIcon
---- @field cooldown TotemButtonTemplate_TotemButtonTemplateIcon_TotemButtonTemplateIconCooldown
---- @field texture Texture
 TotemFrameTotem4Icon = {}
 TotemFrameTotem4Icon["cooldown"] = TotemButtonTemplateIconCooldown
 

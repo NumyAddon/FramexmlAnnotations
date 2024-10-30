@@ -15,21 +15,21 @@
 --- child of ScrappingMachineFrame
 --- @class ScrappingMachineFrame_ScrapButton : Button, MagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L1148)
 --- child of ScrappingMachineFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ScrappingMachineFrameInset = {}
 ScrappingMachineFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L1142)
+--- child of ScrappingMachineFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ScrappingMachineFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L1125)
+--- child of ScrappingMachineFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ScrappingMachineFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L45)
 --- @class ScrappingMachineFrame : Frame, ButtonFrameTemplate, ScrappingMachineMixin
@@ -37,8 +37,8 @@ ScrappingMachineFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field ScrapButton ScrappingMachineFrame_ScrapButton
 --- @field Background Texture
 ScrappingMachineFrame = {}
-ScrappingMachineFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ScrappingMachineFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-ScrappingMachineFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 ScrappingMachineFrame["Inset"] = ScrappingMachineFrameInset -- inherited
+ScrappingMachineFrame["CloseButton"] = ScrappingMachineFrameCloseButton -- inherited
+ScrappingMachineFrame["Bg"] = ScrappingMachineFrameBg -- inherited
+ScrappingMachineFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

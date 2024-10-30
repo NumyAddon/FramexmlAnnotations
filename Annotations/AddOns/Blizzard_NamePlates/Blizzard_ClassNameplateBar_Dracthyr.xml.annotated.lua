@@ -5,10 +5,10 @@
 --- @field shouldShowBarFunc any # ClassNameplateBarDracthyr.SetupDracthyr
 ClassNameplateBarDracthyrFrame = {}
 ClassNameplateBarDracthyrFrame["shouldShowBarFunc"] = ClassNameplateBarDracthyr.SetupDracthyr
-ClassNameplateBarDracthyrFrame["isManagedFrame"] = true -- inherited
-ClassNameplateBarDracthyrFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
-ClassNameplateBarDracthyrFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarDracthyrFrame["powerToken"] = "ESSENCE" -- inherited
+ClassNameplateBarDracthyrFrame["maxUsablePoints"] = 5 -- inherited
+ClassNameplateBarDracthyrFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+ClassNameplateBarDracthyrFrame["isManagedFrame"] = true -- inherited
 ClassNameplateBarDracthyrFrame["scale"] = ".75" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Dracthyr.xml#L16)

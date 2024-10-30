@@ -52,21 +52,21 @@
 --- @field ScrollFrame AlliedRacesFrame_RaceInfoFrame_ScrollFrame
 --- @field AlliedRacesRaceName AlliedRacesFrame_RaceInfoFrame_AlliedRacesRaceName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L1148)
 --- child of AlliedRacesFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 AlliedRacesFrameInset = {}
 AlliedRacesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L1142)
+--- child of AlliedRacesFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+AlliedRacesFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L1125)
+--- child of AlliedRacesFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+AlliedRacesFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L63)
 --- @class AlliedRacesFrame : Frame, ButtonFrameTemplate, AlliedRacesFrameMixin
@@ -75,8 +75,8 @@ AlliedRacesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field FrameBackground Texture
 --- @field Banner Texture
 AlliedRacesFrame = {}
-AlliedRacesFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-AlliedRacesFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-AlliedRacesFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 AlliedRacesFrame["Inset"] = AlliedRacesFrameInset -- inherited
+AlliedRacesFrame["CloseButton"] = AlliedRacesFrameCloseButton -- inherited
+AlliedRacesFrame["Bg"] = AlliedRacesFrameBg -- inherited
+AlliedRacesFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

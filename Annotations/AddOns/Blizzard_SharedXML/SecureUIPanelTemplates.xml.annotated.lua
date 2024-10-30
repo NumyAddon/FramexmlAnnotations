@@ -77,10 +77,6 @@
 --- @field MiddleTex Texture
 --- @field CharCount InputScrollFrameTemplate_CharCount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L256)
---- child of UIPanelButtonNoTooltipTemplate
---- @class  : Texture, UIPanelButtonHighlightTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L210)
 --- Template
 --- @class UIPanelButtonNoTooltipTemplate : Button, UIButtonFitToTextBehaviorMixin

@@ -44,6 +44,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L67)
 --- Template
+--- Adds itself to the parent inside the array `preMatchUnitFrames`
 --- @class PreMatchArenaUnitFrameTemplate : Frame, PreMatchArenaUnitFrameMixin
 --- @field SpecPortraitBorderTexture Texture
 --- @field BarTexture Texture
@@ -58,6 +59,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L117)
 --- Template
+--- Adds itself to the parent inside the array `stealthedUnitFrames`
 --- @class StealthedArenaUnitFrameTemplate : Frame, StealthedArenaUnitFrameMixin
 --- @field BackgroundTexture Texture
 --- @field BarTexture Texture

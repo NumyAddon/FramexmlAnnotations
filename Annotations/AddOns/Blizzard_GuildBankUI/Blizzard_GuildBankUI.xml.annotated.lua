@@ -6,6 +6,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L5)
 --- Template
+--- Adds itself to the parent inside the array `Buttons`
 --- @class GuildBankItemButtonTemplate : ItemButton, GuildBankItemButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L31)
@@ -66,21 +67,36 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L21)
 --- Template
+--- Adds itself to the parent inside the array `Columns`
 --- @class GuildBankFrameColumnTemplate : Frame
 --- @field Button1 GuildBankFrameColumnTemplate_Button1
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button1>
 --- @field Button2 GuildBankFrameColumnTemplate_Button2
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button2>
 --- @field Button3 GuildBankFrameColumnTemplate_Button3
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button3>
 --- @field Button4 GuildBankFrameColumnTemplate_Button4
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button4>
 --- @field Button5 GuildBankFrameColumnTemplate_Button5
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button5>
 --- @field Button6 GuildBankFrameColumnTemplate_Button6
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button6>
 --- @field Button7 GuildBankFrameColumnTemplate_Button7
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button7>
 --- @field Button8 GuildBankFrameColumnTemplate_Button8
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button8>
 --- @field Button9 GuildBankFrameColumnTemplate_Button9
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button9>
 --- @field Button10 GuildBankFrameColumnTemplate_Button10
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button10>
 --- @field Button11 GuildBankFrameColumnTemplate_Button11
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button11>
 --- @field Button12 GuildBankFrameColumnTemplate_Button12
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button12>
 --- @field Button13 GuildBankFrameColumnTemplate_Button13
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button13>
 --- @field Button14 GuildBankFrameColumnTemplate_Button14
+--- @field Buttons table<number, GuildBankFrameColumnTemplate_Button14>
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L128)
@@ -97,6 +113,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L104)
 --- Template
+--- Adds itself to the parent inside the array `BankTabs`
 --- @class GuildBankTabTemplate : Frame, GuildBankTabMixin
 --- @field Button GuildBankTabTemplate_Button
 
@@ -556,17 +573,36 @@ GuildBankFrameBottomInner = {}
 --- @class GuildBankFrame : Frame, BasicFrameTemplate, GuildBankFrameMixin
 --- @field Emblem GuildBankFrame_Emblem
 --- @field Column1 GuildBankFrame_Column1
+--- @field Columns table<number, GuildBankFrame_Column1>
 --- @field Column2 GuildBankFrame_Column2
+--- @field Columns table<number, GuildBankFrame_Column2>
 --- @field Column3 GuildBankFrame_Column3
+--- @field Columns table<number, GuildBankFrame_Column3>
 --- @field Column4 GuildBankFrame_Column4
+--- @field Columns table<number, GuildBankFrame_Column4>
 --- @field Column5 GuildBankFrame_Column5
+--- @field Columns table<number, GuildBankFrame_Column5>
 --- @field Column6 GuildBankFrame_Column6
+--- @field Columns table<number, GuildBankFrame_Column6>
 --- @field Column7 GuildBankFrame_Column7
+--- @field Columns table<number, GuildBankFrame_Column7>
 --- @field MoneyFrameBG GuildBankFrame_MoneyFrameBG
 --- @field MoneyFrame GuildBankFrame_GuildBankMoneyFrame
 --- @field WithdrawMoneyFrame GuildBankFrame_GuildBankWithdrawMoneyFrame
 --- @field DepositButton GuildBankFrame_DepositButton
 --- @field WithdrawButton GuildBankFrame_WithdrawButton
+--- @field Tabs table<number, GuildBankFrame_GuildBankFrameTab1>
+--- @field Tabs table<number, GuildBankFrame_GuildBankFrameTab2>
+--- @field Tabs table<number, GuildBankFrame_GuildBankFrameTab3>
+--- @field Tabs table<number, GuildBankFrame_GuildBankFrameTab4>
+--- @field BankTabs table<number, GuildBankFrame_GuildBankTab1>
+--- @field BankTabs table<number, GuildBankFrame_GuildBankTab2>
+--- @field BankTabs table<number, GuildBankFrame_GuildBankTab3>
+--- @field BankTabs table<number, GuildBankFrame_GuildBankTab4>
+--- @field BankTabs table<number, GuildBankFrame_GuildBankTab5>
+--- @field BankTabs table<number, GuildBankFrame_GuildBankTab6>
+--- @field BankTabs table<number, GuildBankFrame_GuildBankTab7>
+--- @field BankTabs table<number, GuildBankFrame_GuildBankTab8>
 --- @field BuyInfo GuildBankFrame_BuyInfo
 --- @field Log GuildBankFrame_Log
 --- @field Info GuildBankFrame_GuildBankInfo
@@ -595,20 +631,19 @@ GuildBankPopupFrame["editBoxHeaderText"] = GUILDBANK_POPUP_TEXT
 GuildBankPopupFrame["editBoxHeaderText"] =  -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1504)
---- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- child of GuildItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
-BagSearchBoxTemplateClearButton = {}
+GuildItemSearchBoxClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1495)
---- child of BagSearchBoxTemplate (created in template SearchBoxTemplate)
+--- child of GuildItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
-BagSearchBoxTemplateSearchIcon = {}
+GuildItemSearchBoxSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L810)
 --- @class GuildItemSearchBox : EditBox, BagSearchBoxTemplate
 GuildItemSearchBox = {}
 GuildItemSearchBox["instructionText"] = SEARCH -- inherited
-GuildItemSearchBox["clearButton"] = BagSearchBoxTemplateClearButton -- inherited
-GuildItemSearchBox["searchIcon"] = BagSearchBoxTemplateSearchIcon -- inherited
+GuildItemSearchBox["clearButton"] = GuildItemSearchBoxClearButton -- inherited
+GuildItemSearchBox["searchIcon"] = GuildItemSearchBoxSearchIcon -- inherited
 

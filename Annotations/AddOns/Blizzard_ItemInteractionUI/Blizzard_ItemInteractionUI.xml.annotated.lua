@@ -173,15 +173,15 @@ ItemInteractionFrameMiddle = {}
 --- child of ItemInteractionFrame
 --- @class ItemInteractionFrame_Description : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1095)
 --- child of ItemInteractionFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ItemInteractionFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1062)
+--- child of ItemInteractionFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+ItemInteractionFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L5)
 --- @class ItemInteractionFrame : Frame, PortraitFrameTemplate, ItemInteractionMixin
@@ -195,7 +195,7 @@ ItemInteractionFrameCloseButton = {}
 --- @field Description ItemInteractionFrame_Description
 --- @field CircleMask MaskTexture
 ItemInteractionFrame = {}
-ItemInteractionFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ItemInteractionFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 ItemInteractionFrame["CloseButton"] = ItemInteractionFrameCloseButton -- inherited
+ItemInteractionFrame["Bg"] = ItemInteractionFrameBg -- inherited
+ItemInteractionFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

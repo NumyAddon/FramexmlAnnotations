@@ -27,6 +27,6 @@
 --- @field layoutIndex number # 50
 TotemFrame = {}
 TotemFrame["layoutIndex"] = 50
-TotemFrame["isManagedFrame"] = true -- inherited
 TotemFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+TotemFrame["isManagedFrame"] = true -- inherited
 

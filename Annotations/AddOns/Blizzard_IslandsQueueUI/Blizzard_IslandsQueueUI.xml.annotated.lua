@@ -101,8 +101,11 @@
 --- @class IslandsQueueFrameCardFrameTemplate : Frame, UIWidgetContainerTemplate
 --- @field showAndHideOnWidgetSetRegistration boolean # false
 --- @field CenterCard IslandsQueueFrameCardFrameTemplate_CenterCard
+--- @field IslandCards table<number, IslandsQueueFrameCardFrameTemplate_CenterCard>
 --- @field LeftCard IslandsQueueFrameCardFrameTemplate_LeftCard
+--- @field IslandCards table<number, IslandsQueueFrameCardFrameTemplate_LeftCard>
 --- @field RightCard IslandsQueueFrameCardFrameTemplate_RightCard
+--- @field IslandCards table<number, IslandsQueueFrameCardFrameTemplate_RightCard>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L410)
 --- child of 
@@ -146,15 +149,15 @@
 --- child of IslandsQueueFrame
 --- @class IslandsQueueFrame_HelpButton : Button, MainHelpPlateButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L1095)
 --- child of IslandsQueueFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 IslandsQueueFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L1062)
+--- child of IslandsQueueFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+IslandsQueueFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L331)
 --- @class IslandsQueueFrame : Frame, PortraitFrameTemplate, IslandsQueueFrameMixin
@@ -174,7 +177,7 @@ IslandsQueueFrameCloseButton = {}
 --- @field BottomLeftWoodCorner Texture
 --- @field BottomRightWoodCorner Texture
 IslandsQueueFrame = {}
-IslandsQueueFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-IslandsQueueFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 IslandsQueueFrame["CloseButton"] = IslandsQueueFrameCloseButton -- inherited
+IslandsQueueFrame["Bg"] = IslandsQueueFrameBg -- inherited
+IslandsQueueFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

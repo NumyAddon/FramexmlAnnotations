@@ -37,6 +37,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L104)
 --- Template
+--- Adds itself to the parent inside the array `FramePortraits`
 --- @class ClickBindingFramePortraitTemplate : Button, ClickBindingFramePortraitMixin
 --- @field Portrait Texture
 --- @field Frame Texture
@@ -113,15 +114,15 @@
 --- child of 
 --- @class ClickBindingFrame_TutorialFrame_ThrallName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1095)
 --- child of  (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ClickBindingFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1062)
+--- child of  (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+ClickBindingFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L259)
 --- child of ClickBindingFrame
@@ -141,15 +142,15 @@ ClickBindingFrameCloseButton = {}
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_UnboundText : FontString, GameFontRed
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1095)
 --- child of ClickBindingFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ClickBindingFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1062)
+--- child of ClickBindingFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+ClickBindingFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L147)
 --- @class ClickBindingFrame : Frame, PortraitFrameTemplate, ClickBindingFrameMixin
@@ -162,12 +163,14 @@ ClickBindingFrameCloseButton = {}
 --- @field EnableMouseoverCastCheckbox ClickBindingFrame_EnableMouseoverCastCheckbox
 --- @field MouseoverCastKeyDropdown ClickBindingFrame_MouseoverCastKeyDropdown
 --- @field PlayerSpellsPortrait ClickBindingFrame_PlayerSpellsPortrait
+--- @field FramePortraits table<number, ClickBindingFrame_PlayerSpellsPortrait>
 --- @field MacrosPortrait ClickBindingFrame_MacrosPortrait
+--- @field FramePortraits table<number, ClickBindingFrame_MacrosPortrait>
 --- @field TutorialFrame ClickBindingFrame_TutorialFrame
 --- @field TutorialButton ClickBindingFrame_TutorialButton
 --- @field UnboundText ClickBindingFrame_UnboundText
 ClickBindingFrame = {}
-ClickBindingFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ClickBindingFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 ClickBindingFrame["CloseButton"] = ClickBindingFrameCloseButton -- inherited
+ClickBindingFrame["Bg"] = ClickBindingFrameBg -- inherited
+ClickBindingFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

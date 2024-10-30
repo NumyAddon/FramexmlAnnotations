@@ -4,8 +4,11 @@
 --- Template
 --- @class PVPTableRowTemplate : Frame, PVPRowMixin
 --- @field backgroundLeft Texture
+--- @field Backgrounds table<number, Texture>
 --- @field backgroundRight Texture
+--- @field Backgrounds table<number, Texture>
 --- @field backgroundCenter Texture
+--- @field Backgrounds table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L35)
 --- child of PVPStringTemplate
@@ -23,14 +26,17 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L52)
 --- Template
+--- Adds itself to the parent with key `cell`
 --- @class PVPCellHonorLevelTemplate : Frame, PVPIconTemplate, PVPCellHonorLevelMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L58)
 --- Template
+--- Adds itself to the parent with key `cell`
 --- @class PVPCellClassTemplate : Frame, PVPIconTemplate, PVPCellClassMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L64)
 --- Template
+--- Adds itself to the parent with key `cell`
 --- @class PVPCellNameTemplate : Button, PVPStringTemplate, PVPCellNameMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L71)
@@ -39,10 +45,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L72)
 --- Template
+--- Adds itself to the parent with key `cell`
 --- @class PVPCellStringTemplate : Frame, PVPStringTemplate, PVPCellStringMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L78)
 --- Template
+--- Adds itself to the parent with key `cell`
 --- @class PVPCellStatTemplate : Frame, PVPStringTemplate, PVPCellStatMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L79)
@@ -51,13 +59,16 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L81)
 --- Template
+--- Adds itself to the parent with key `cell`
 --- @class PVPNewRatingTemplate : Frame, PVPStringTemplate, PVPNewRatingMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L82)
 --- Template
+--- Adds itself to the parent with key `header`
 --- @class PVPHeaderStringTemplate : Button, PVPStringTemplate, PVPHeaderStringMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.xml#L89)
 --- Template
+--- Adds itself to the parent with key `header`
 --- @class PVPHeaderIconTemplate : Button, PVPIconTemplate, PVPHeaderIconMixin
 

@@ -9,14 +9,6 @@
 --- @class OpacityFrame_OpacityFrameSlider_OpacityFrameSliderText : FontString, GameFontNormalSmall
 OpacityFrameSliderText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L25)
---- child of OpacityFrameSlider
---- @class  : FontString, GameFontNormalHuge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L31)
---- child of OpacityFrameSlider
---- @class  : FontString, GameFontNormalHuge
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/ColorPickerFrame.xml#L10)
 --- child of OpacityFrame
 --- @class OpacityFrame_OpacityFrameSlider : Slider, BackdropTemplate

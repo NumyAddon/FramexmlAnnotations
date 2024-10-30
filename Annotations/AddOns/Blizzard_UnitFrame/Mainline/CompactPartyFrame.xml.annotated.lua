@@ -2,6 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L4)
 --- Template
+--- Adds itself to the parent inside the array `petUnitFrames`
 --- @class CompactPartyPetUnitFrameTemplate : Button, CompactUnitFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L15)
@@ -28,4 +29,9 @@
 --- Template
 --- @class CompactPartyFrameTemplate : Frame, CompactRaidGroupTemplate, CompactPartyFrameMixin
 --- @field layoutIndex number # 1
+--- @field petUnitFrames table<number, CompactPartyFrameTemplate_CompactPartyFrameTemplatePet1>
+--- @field petUnitFrames table<number, CompactPartyFrameTemplate_CompactPartyFrameTemplatePet2>
+--- @field petUnitFrames table<number, CompactPartyFrameTemplate_CompactPartyFrameTemplatePet3>
+--- @field petUnitFrames table<number, CompactPartyFrameTemplate_CompactPartyFrameTemplatePet4>
+--- @field petUnitFrames table<number, CompactPartyFrameTemplate_CompactPartyFrameTemplatePet5>
 

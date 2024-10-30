@@ -49,8 +49,11 @@
 --- @class GarrisonLandingPageReportMissionTemplate : Button
 --- @field EncounterIcon GarrisonLandingPageReportMissionTemplate_EncounterIcon
 --- @field Reward1 GarrisonLandingPageReportMissionTemplate_Reward1
+--- @field Rewards table<number, GarrisonLandingPageReportMissionTemplate_Reward1>
 --- @field Reward2 GarrisonLandingPageReportMissionTemplate_Reward2
+--- @field Rewards table<number, GarrisonLandingPageReportMissionTemplate_Reward2>
 --- @field Reward3 GarrisonLandingPageReportMissionTemplate_Reward3
+--- @field Rewards table<number, GarrisonLandingPageReportMissionTemplate_Reward3>
 --- @field BG Texture
 --- @field MissionTypeIcon Texture
 --- @field Title GarrisonLandingPageReportMissionTemplate_Title
@@ -72,6 +75,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L122)
 --- Template
+--- Adds itself to the parent inside the array `Shipments`
 --- @class GarrisonLandingPageReportShipmentStatusTemplate : Frame
 --- @field Swipe GarrisonLandingPageReportShipmentStatusTemplate_Swipe
 --- @field Icon Texture
@@ -83,6 +87,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L195)
 --- Template
+--- Adds itself to the parent inside the array `Tabs`
 --- @class GarrisonLandingPageTabTemplate : Button
 --- @field LeftActive Texture
 --- @field RightActive Texture
@@ -301,7 +306,9 @@ GarrisonLandingPageFollowerList["showUncollected"] = true
 --- @class GarrisonLandingPage_FollowerTab_AbilitiesFrame : Frame, VerticalLayoutFrame
 --- @field expand boolean # true
 --- @field CombatAllySpell1 GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell1
+--- @field CombatAllySpell table<number, GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell1>
 --- @field CombatAllySpell2 GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell2
+--- @field CombatAllySpell table<number, GarrisonLandingPage_FollowerTab_AbilitiesFrame_CombatAllySpell2>
 --- @field StatsLabel GarrisonLandingPage_FollowerTab_AbilitiesFrame_StatsLabel
 --- @field SpecializationLabel GarrisonLandingPage_FollowerTab_AbilitiesFrame_SpecializationLabel
 --- @field AbilitiesText GarrisonLandingPage_FollowerTab_AbilitiesFrame_AbilitiesText
@@ -390,10 +397,6 @@ GarrisonLandingPageFollowerList["showUncollected"] = true
 --- @field Name GarrisonLandingPage_FollowerTab_Name
 --- @field ClassSpec GarrisonLandingPage_FollowerTab_ClassSpec
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L859)
---- child of GarrisonLandingPageShipFollowerList
---- @class  : FontString, QuestFont_Enormous
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L866)
 --- child of GarrisonLandingPageShipFollowerList
 --- @class GarrisonLandingPage_GarrisonLandingPageShipFollowerList_NoShipsLabel : FontString, GameFontNormalLarge2
@@ -466,7 +469,9 @@ GarrisonLandingPageShipFollowerList["showUncollected"] = false
 --- child of 
 --- @class GarrisonLandingPage_ShipFollowerTab_EquipmentFrame : Frame, GarrisonAbilitiesFrameMixin
 --- @field Equipment1 GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment1
+--- @field Equipment table<number, GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment1>
 --- @field Equipment2 GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment2
+--- @field Equipment table<number, GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_Equipment2>
 --- @field EquipmentTitle GarrisonLandingPage_ShipFollowerTab_EquipmentFrame_EquipmentTitle
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.xml#L1110)
@@ -510,7 +515,9 @@ GarrisonLandingPageShipFollowerList["showUncollected"] = false
 --- @field XPBar GarrisonLandingPage_ShipFollowerTab_XPBar
 --- @field Model GarrisonLandingPage_ShipFollowerTab_Model
 --- @field Trait1 GarrisonLandingPage_ShipFollowerTab_Trait1
+--- @field Traits table<number, GarrisonLandingPage_ShipFollowerTab_Trait1>
 --- @field Trait2 GarrisonLandingPage_ShipFollowerTab_Trait2
+--- @field Traits table<number, GarrisonLandingPage_ShipFollowerTab_Trait2>
 --- @field EquipmentFrame GarrisonLandingPage_ShipFollowerTab_EquipmentFrame
 --- @field ThreatCountersFrame GarrisonLandingPage_ShipFollowerTab_ThreatCountersFrame
 --- @field NoFollowersLabel GarrisonLandingPage_ShipFollowerTab_NoFollowersLabel
@@ -528,8 +535,11 @@ GarrisonLandingPageShipFollowerList["showUncollected"] = false
 --- @field CloseButton GarrisonLandingPage_CloseButton
 --- @field InvasionBadge GarrisonLandingPage_InvasionBadge
 --- @field ReportTab GarrisonLandingPage_GarrisonLandingPageTab1
+--- @field Tabs table<number, GarrisonLandingPage_GarrisonLandingPageTab1>
 --- @field FollowerTabButton GarrisonLandingPage_GarrisonLandingPageTab2
+--- @field Tabs table<number, GarrisonLandingPage_GarrisonLandingPageTab2>
 --- @field FleetTab GarrisonLandingPage_GarrisonLandingPageTab3
+--- @field Tabs table<number, GarrisonLandingPage_GarrisonLandingPageTab3>
 --- @field Report GarrisonLandingPage_GarrisonLandingPageReport
 --- @field FollowerList GarrisonLandingPage_GarrisonLandingPageFollowerList
 --- @field FollowerTab GarrisonLandingPage_FollowerTab

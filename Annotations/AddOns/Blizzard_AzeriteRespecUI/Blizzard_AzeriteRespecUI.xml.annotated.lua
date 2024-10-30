@@ -75,16 +75,6 @@ AzeriteRespecFrameMoneyFrame["GoldButton"] = AzeriteRespecFrameMoneyFrameGoldBut
 --- @field ButtonBorder AzeriteRespecFrame_ButtonFrame_ButtonBorder
 --- @field ButtonBottomBorder AzeriteRespecFrame_ButtonFrame_ButtonBottomBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1095)
---- child of EtherealFrameTemplate (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
-EtherealFrameTemplateCloseButton = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1029)
 --- child of AzeriteRespecFrame (created in template EtherealFrameTemplate)
 --- @type Texture
@@ -125,17 +115,27 @@ AzeriteRespecFrameTopEdge = {}
 --- @type Texture
 AzeriteRespecFrameBottomEdge = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1095)
+--- child of AzeriteRespecFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+AzeriteRespecFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1062)
+--- child of AzeriteRespecFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+AzeriteRespecFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L5)
 --- @class AzeriteRespecFrame : Frame, EtherealFrameTemplate, AzeriteRespecMixin
 --- @field ItemSlot AzeriteRespecFrame_ItemSlot
 --- @field ButtonFrame AzeriteRespecFrame_ButtonFrame
 --- @field Background Texture
 AzeriteRespecFrame = {}
-AzeriteRespecFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-AzeriteRespecFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
-AzeriteRespecFrame["CloseButton"] = EtherealFrameTemplateCloseButton -- inherited
 AzeriteRespecFrame["CornerTL"] = AzeriteRespecFrameCornerTL -- inherited
 AzeriteRespecFrame["CornerTR"] = AzeriteRespecFrameCornerTR -- inherited
 AzeriteRespecFrame["CornerBL"] = AzeriteRespecFrameCornerBL -- inherited
 AzeriteRespecFrame["CornerBR"] = AzeriteRespecFrameCornerBR -- inherited
+AzeriteRespecFrame["CloseButton"] = AzeriteRespecFrameCloseButton -- inherited
+AzeriteRespecFrame["Bg"] = AzeriteRespecFrameBg -- inherited
+AzeriteRespecFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

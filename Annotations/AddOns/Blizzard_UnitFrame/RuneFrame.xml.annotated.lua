@@ -86,18 +86,24 @@
 --- @class RuneFrameTemplate : Frame, HorizontalLayoutFrame, PlayerFrameBottomManagedFrameTemplate, RuneFrameMixin
 --- @field spacing number # -1
 --- @field Rune1 RuneFrameTemplate_Rune1
+--- @field Runes table<number, RuneFrameTemplate_Rune1>
 --- @field Rune2 RuneFrameTemplate_Rune2
+--- @field Runes table<number, RuneFrameTemplate_Rune2>
 --- @field Rune3 RuneFrameTemplate_Rune3
+--- @field Runes table<number, RuneFrameTemplate_Rune3>
 --- @field Rune4 RuneFrameTemplate_Rune4
+--- @field Runes table<number, RuneFrameTemplate_Rune4>
 --- @field Rune5 RuneFrameTemplate_Rune5
+--- @field Runes table<number, RuneFrameTemplate_Rune5>
 --- @field Rune6 RuneFrameTemplate_Rune6
+--- @field Runes table<number, RuneFrameTemplate_Rune6>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L233)
 --- @class RuneFrame : Frame, RuneFrameTemplate
 --- @field layoutIndex number # 2
 RuneFrame = {}
 RuneFrame["layoutIndex"] = 2
-RuneFrame["isManagedFrame"] = true -- inherited
-RuneFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 RuneFrame["spacing"] = -1 -- inherited
+RuneFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+RuneFrame["isManagedFrame"] = true -- inherited
 

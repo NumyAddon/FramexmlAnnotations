@@ -43,29 +43,31 @@ RaidParentFrameTab1 = {}
 --- @class RaidParentFrame_RaidParentFrameTab2 : Button, PanelTabButtonTemplate
 RaidParentFrameTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1148)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 RaidParentFrameInset = {}
 RaidParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1142)
+--- child of RaidParentFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+RaidParentFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1125)
+--- child of RaidParentFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+RaidParentFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L96)
 --- @class RaidParentFrame : Frame, ButtonFrameTemplate
+--- @field Tabs table<number, RaidParentFrame_RaidParentFrameTab1>
+--- @field Tabs table<number, RaidParentFrame_RaidParentFrameTab2>
 RaidParentFrame = {}
-RaidParentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-RaidParentFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-RaidParentFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 RaidParentFrame["Inset"] = RaidParentFrameInset -- inherited
+RaidParentFrame["CloseButton"] = RaidParentFrameCloseButton -- inherited
+RaidParentFrame["Bg"] = RaidParentFrameBg -- inherited
+RaidParentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L141)
 --- child of RaidFrame

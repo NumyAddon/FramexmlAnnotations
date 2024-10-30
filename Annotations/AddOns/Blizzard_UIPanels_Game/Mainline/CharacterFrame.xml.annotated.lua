@@ -163,30 +163,33 @@ CharacterFrameInsetRight["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field ClassBackground Texture
 CharacterStatsPane = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L1148)
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CharacterFrameInset = {}
 CharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L1142)
+--- child of CharacterFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+CharacterFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L1125)
+--- child of CharacterFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+CharacterFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L147)
 --- @class CharacterFrame : Frame, ButtonFrameTemplate, CharacterFrameMixin
+--- @field Tabs table<number, CharacterFrame_CharacterFrameTab1>
+--- @field Tabs table<number, CharacterFrame_CharacterFrameTab2>
+--- @field Tabs table<number, CharacterFrame_CharacterFrameTab3>
 --- @field InsetRight CharacterFrame_CharacterFrameInsetRight
 --- @field Background Texture
 CharacterFrame = {}
 CharacterFrame["InsetRight"] = CharacterFrameInsetRight
-CharacterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-CharacterFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-CharacterFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 CharacterFrame["Inset"] = CharacterFrameInset -- inherited
+CharacterFrame["CloseButton"] = CharacterFrameCloseButton -- inherited
+CharacterFrame["Bg"] = CharacterFrameBg -- inherited
+CharacterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

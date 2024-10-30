@@ -14,6 +14,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.xml#L21)
 --- Template
+--- Adds itself to the parent with key `ScrollContainer`
 --- @class MapCanvasFrameScrollContainerTemplate : ScrollFrame, MapCanvasScrollControllerMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.xml#L52)

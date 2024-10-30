@@ -14,15 +14,24 @@
 --- @field ArcaneBGShadow Texture
 --- @field ArcaneBG Texture
 --- @field ArcaneCircle Texture
+--- @field fxTextures table<number, Texture>
 --- @field ArcaneTriangle Texture
+--- @field fxTextures table<number, Texture>
 --- @field ArcaneSquare Texture
+--- @field fxTextures table<number, Texture>
 --- @field ArcaneDiamond Texture
+--- @field fxTextures table<number, Texture>
 --- @field ArcaneIcon Texture
+--- @field fxTextures table<number, Texture>
 --- @field Orb Texture
 --- @field ArcaneFlare Texture
+--- @field fxTextures table<number, Texture>
 --- @field FBArcaneFX Texture
+--- @field fxTextures table<number, Texture>
 --- @field ArcaneOuterFX Texture
+--- @field fxTextures table<number, Texture>
 --- @field FrameGlow Texture
+--- @field fxTextures table<number, Texture>
 --- @field activateAnim ArcaneChargeTemplate_activateAnim
 --- @field deactivateAnim ArcaneChargeTemplate_deactivateAnim
 
@@ -36,8 +45,8 @@
 --- @field showTooltip boolean # true
 MageArcaneChargesFrame = {}
 MageArcaneChargesFrame["showTooltip"] = true
-MageArcaneChargesFrame["isManagedFrame"] = true -- inherited
-MageArcaneChargesFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
-MageArcaneChargesFrame["maxUsablePoints"] = 5 -- inherited
 MageArcaneChargesFrame["powerToken"] = "ARCANE_CHARGES" -- inherited
+MageArcaneChargesFrame["maxUsablePoints"] = 5 -- inherited
+MageArcaneChargesFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+MageArcaneChargesFrame["isManagedFrame"] = true -- inherited
 

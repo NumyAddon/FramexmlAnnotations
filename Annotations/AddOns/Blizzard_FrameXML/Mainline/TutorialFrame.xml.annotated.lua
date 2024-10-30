@@ -22,10 +22,6 @@ TutorialTextBorder = {}
 --- @class TutorialFrameCallOutPulser : Alpha
 TutorialFrameCallOutPulser = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L166)
---- child of TutorialFrameCallOut
---- @class  : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L164)
 --- child of TutorialFrame
 --- @class TutorialFrame_TutorialFrameCallOut : Frame, BackdropTemplate
@@ -38,31 +34,15 @@ TutorialFrameCallOut["backdropInfo"] = BACKDROP_CALLOUT_GLOW_0_16
 --- @class TutorialFrame_TutorialFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
 TutorialFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L188)
---- child of TutorialFrameOkayButton
---- @class  : Texture, DialogButtonNormalTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L190)
---- child of TutorialFrameOkayButton
---- @class  : Texture, DialogButtonHighlightTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L180)
 --- child of TutorialFrame
 --- @class TutorialFrame_TutorialFrameOkayButton : Button
 TutorialFrameOkayButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L202)
---- child of TutorialFramePrevButton
---- @class  : FontString, GameFontHighlightSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L195)
 --- child of TutorialFrame
 --- @class TutorialFrame_TutorialFramePrevButton : Button
 TutorialFramePrevButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L227)
---- child of TutorialFrameNextButton
---- @class  : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L220)
 --- child of TutorialFrame
@@ -200,8 +180,8 @@ TutorialFrame["onCloseCallback"] = TutorialFrame_Hide
 --- @field layoutIndex number # 24
 TutorialFrameAlertButton = {}
 TutorialFrameAlertButton["layoutIndex"] = 24
-TutorialFrameAlertButton["isManagedFrame"] = true -- inherited
 TutorialFrameAlertButton["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+TutorialFrameAlertButton["isManagedFrame"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L305)
 --- child of TutorialFrameAlertButtonBadge

@@ -5,10 +5,6 @@
 --- @class TimerunningCreateCharacterButtonGlowTemplate_FrameBase : Frame
 --- @field FrameBase Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L36)
---- child of 
---- @class  : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L14)
 --- child of TimerunningCreateCharacterButtonGlowTemplate
 --- @class TimerunningCreateCharacterButtonGlowTemplate_RotatingGlow : Frame
@@ -115,10 +111,6 @@ TimerunningFirstTimeDialog = {}
 --- @class TimerunningChoiceInfoButtonTemplate : Button, TimerunningChoiceInfoButtonMixin
 --- @field LetterI Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L271)
---- child of TimerunningChoiceSandCornersTemplate
---- @class  : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L253)
 --- Template
 --- @class TimerunningChoiceSandCornersTemplate : Frame, AnimateWhileShownTemplate
@@ -130,10 +122,6 @@ TimerunningFirstTimeDialog = {}
 --- @class TimerunningChoiceFrameGlowTemplate_FrameBase : Frame
 --- @field FrameBase Texture
 --- @field FrameTop Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L312)
---- child of 
---- @class  : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L295)
 --- child of TimerunningChoiceFrameGlowTemplate
@@ -152,10 +140,6 @@ TimerunningFirstTimeDialog = {}
 --- @class TimerunningEventBannerGlowTemplate_FrameBase : Frame
 --- @field FrameBase Texture
 --- @field FrameMask MaskTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L367)
---- child of 
---- @class  : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TimerunningCharacterCreate/Blizzard_TimerunningCharacterCreate.xml#L342)
 --- child of TimerunningEventBannerGlowTemplate

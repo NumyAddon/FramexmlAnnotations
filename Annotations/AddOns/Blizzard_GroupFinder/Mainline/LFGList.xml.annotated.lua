@@ -4,10 +4,6 @@
 --- Template
 --- @class LFGStartGroupButtonTemplate : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L21)
---- child of LFGStartGroupButtonListTemplate
---- @class  : Button, LFGStartGroupButtonTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L18)
 --- Template
 --- @class LFGStartGroupButtonListTemplate : Frame
@@ -16,8 +12,11 @@
 --- Template
 --- @class LFGListGroupDataDisplayClassRoleTemplate : Frame
 --- @field ClassCircle Texture
+--- @field Textures table<number, Texture>
 --- @field RoleIcon Texture
+--- @field Textures table<number, Texture>
 --- @field RoleIconWithBackground Texture
+--- @field Textures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L57)
 --- child of LFGListGroupDataDisplayTemplate
@@ -47,10 +46,15 @@
 --- child of LFGListGroupDataDisplayTemplate
 --- @class LFGListGroupDataDisplayTemplate_Enumerate : Frame
 --- @field Icon1 LFGListGroupDataDisplayTemplate_Enumerate_Icon1
+--- @field Icons table<number, LFGListGroupDataDisplayTemplate_Enumerate_Icon1>
 --- @field Icon2 LFGListGroupDataDisplayTemplate_Enumerate_Icon2
+--- @field Icons table<number, LFGListGroupDataDisplayTemplate_Enumerate_Icon2>
 --- @field Icon3 LFGListGroupDataDisplayTemplate_Enumerate_Icon3
+--- @field Icons table<number, LFGListGroupDataDisplayTemplate_Enumerate_Icon3>
 --- @field Icon4 LFGListGroupDataDisplayTemplate_Enumerate_Icon4
+--- @field Icons table<number, LFGListGroupDataDisplayTemplate_Enumerate_Icon4>
 --- @field Icon5 LFGListGroupDataDisplayTemplate_Enumerate_Icon5
+--- @field Icons table<number, LFGListGroupDataDisplayTemplate_Enumerate_Icon5>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L97)
 --- child of 
@@ -149,6 +153,7 @@
 --- Template
 --- @class LFGListApplicantTemplate : Button
 --- @field Member1 LFGListApplicantTemplate_Member1
+--- @field Members table<number, LFGListApplicantTemplate_Member1>
 --- @field DeclineButton LFGListApplicantTemplate_DeclineButton
 --- @field InviteButton LFGListApplicantTemplate_InviteButton
 --- @field InviteButtonSmall LFGListApplicantTemplate_InviteButtonSmall
@@ -300,10 +305,6 @@
 --- @class LFGListFrame_CategorySelection_Inset : Frame, InsetFrameTemplate
 --- @field CustomBG Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L937)
---- child of 
---- @class  : Button, LFGListCategoryTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L942)
 --- child of 
 --- @class LFGListFrame_CategorySelection_FindGroupButton : Button, LFGListMagicButtonTemplate
@@ -321,6 +322,7 @@
 --- @class LFGListFrame_CategorySelection : Frame, LFGListPanelTemplate
 --- @field updateAll any # LFGListCategorySelection_UpdateCategoryButtons
 --- @field Inset LFGListFrame_CategorySelection_Inset
+--- @field CategoryButtons table<number, >
 --- @field FindGroupButton LFGListFrame_CategorySelection_FindGroupButton
 --- @field StartGroupButton LFGListFrame_CategorySelection_StartGroupButton
 --- @field Label LFGListFrame_CategorySelection_Label
@@ -349,7 +351,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1504)
 --- child of  (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
 LFGListFrameClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1495)
@@ -364,10 +365,6 @@ LFGListFrameSearchIcon = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1051)
 --- child of 
 --- @class LFGListFrame_SearchPanel_FilterButton : DropdownButton, WowStyle1FilterDropdownTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1095)
---- child of 
---- @class  : Button, LFGListSearchAutoCompleteButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1064)
 --- child of 
@@ -392,6 +389,7 @@ LFGListFrameSearchIcon = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1056)
 --- child of 
 --- @class LFGListFrame_SearchPanel_AutoCompleteFrame : Frame
+--- @field Results table<number, >
 --- @field BottomLeftBorder LFGListFrame_SearchPanel_AutoCompleteFrame_BottomLeftBorder
 --- @field BottomRightBorder LFGListFrame_SearchPanel_AutoCompleteFrame_BottomRightBorder
 --- @field BottomBorder LFGListFrame_SearchPanel_AutoCompleteFrame_BottomBorder

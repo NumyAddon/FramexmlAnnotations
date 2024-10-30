@@ -89,6 +89,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L338)
 --- Template
+--- Adds itself to the parent inside the array `Equipment`
 --- @class GarrisonFollowerEquipmentTemplate : Button, GarrisonEquipmentTemplate, GarrisonFollowerEquipmentMixin
 --- @field BG Texture
 --- @field Border Texture
@@ -96,6 +97,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L370)
 --- Template
+--- Adds itself to the parent inside the array `durability`
 --- @class GarrisonMissionFollowerButtonDurabilityTemplate : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L373)
@@ -133,14 +135,6 @@
 --- child of GarrisonMissionFollowerButtonTemplate
 --- @class GarrisonMissionFollowerButtonTemplate_DurabilityFrame : Frame, GarrisonMissionFollowerDurabilityFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L489)
---- child of GarrisonMissionFollowerButtonTemplate
---- @class  : Frame, GarrisonMissionAbilityCounterTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L494)
---- child of GarrisonMissionFollowerButtonTemplate
---- @class  : Frame, GarrisonFollowerListButtonAbilityTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L505)
 --- child of GarrisonMissionFollowerButtonTemplate
 --- @class GarrisonMissionFollowerButtonTemplate_BusyFrame : Frame
@@ -150,6 +144,8 @@
 --- Template
 --- @class GarrisonMissionFollowerButtonTemplate : Button, GarrisonFollowerButtonTemplate
 --- @field DurabilityFrame GarrisonMissionFollowerButtonTemplate_DurabilityFrame
+--- @field Counters table<number, >
+--- @field Abilities table<number, >
 --- @field BusyFrame GarrisonMissionFollowerButtonTemplate_BusyFrame
 --- @field AbilitiesBG Texture
 --- @field UpArrow Texture
@@ -168,10 +164,6 @@
 --- @class GarrisonMissionFollowerOrCategoryListButtonTemplate : Frame
 --- @field Follower GarrisonMissionFollowerOrCategoryListButtonTemplate_Follower
 --- @field Category GarrisonMissionFollowerOrCategoryListButtonTemplate_Category
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L556)
---- child of MaterialFrameTemplate
---- @class  : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L561)
 --- child of MaterialFrameTemplate
@@ -225,14 +217,11 @@ GarrisonTruncationFrame = {}
 --- @class GarrisonThreatCounterTemplate : Button, GarrisonAbilityCounterTemplate
 --- @field Count GarrisonThreatCounterTemplate_Count
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L692)
---- child of GarrisonThreatCountersFrameTemplate
---- @class  : Button, GarrisonThreatCounterTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L686)
 --- Template
 --- @class GarrisonThreatCountersFrameTemplate : Frame
 --- @field listName string # "FollowerList"
+--- @field ThreatsList table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L705)
 --- @class GarrisonThreatCountersFrame : Frame, GarrisonThreatCountersFrameTemplate

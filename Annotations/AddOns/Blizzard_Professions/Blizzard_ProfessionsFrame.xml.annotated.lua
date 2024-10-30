@@ -30,19 +30,23 @@
 --- @class ProfessionsFrame_OrdersPage : Frame, ProfessionsCraftingOrderPageTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
+--- child of ProfessionsFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
+ProfessionsFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L7)
 --- @class ProfessionsFrame : Frame, PortraitFrameTemplateNoCloseButton, TabSystemOwnerTemplate, ProfessionsMixin
 --- @field CloseButton ProfessionsFrame_CloseButton
 --- @field MaximizeMinimize ProfessionsFrame_MaximizeMinimize
+--- @field MaxMinButtonFrame ProfessionsFrame_MaximizeMinimize
 --- @field TabSystem ProfessionsFrame_TabSystem
 --- @field CraftingPage ProfessionsFrame_CraftingPage
+--- @field Pages table<number, ProfessionsFrame_CraftingPage>
 --- @field SpecPage ProfessionsFrame_SpecPage
+--- @field Pages table<number, ProfessionsFrame_SpecPage>
 --- @field OrdersPage ProfessionsFrame_OrdersPage
+--- @field Pages table<number, ProfessionsFrame_OrdersPage>
 ProfessionsFrame = {}
+ProfessionsFrame["Bg"] = ProfessionsFrameBg -- inherited
 ProfessionsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ProfessionsFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 

@@ -106,10 +106,6 @@ GarrisonBuildingFrameTutorialButton["MainHelpPlateButtonTooltipText"] = MAIN_HEL
 --- child of 
 --- @class GarrisonBuildingFrame_BuildingList_Tab3 : Button, GarrisonBuildingTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L547)
---- child of 
---- @class  : Button, GarrisonBuildingListButtonTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L552)
 --- child of 
 --- @class GarrisonBuildingFrame_BuildingList_MaterialFrame : Frame, MaterialFrameTemplate
@@ -120,6 +116,7 @@ GarrisonBuildingFrameTutorialButton["MainHelpPlateButtonTooltipText"] = MAIN_HEL
 --- @field Tab1 GarrisonBuildingFrame_BuildingList_Tab1
 --- @field Tab2 GarrisonBuildingFrame_BuildingList_Tab2
 --- @field Tab3 GarrisonBuildingFrame_BuildingList_Tab3
+--- @field Buttons table<number, >
 --- @field MaterialFrame GarrisonBuildingFrame_BuildingList_MaterialFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L565)
@@ -206,10 +203,6 @@ GarrisonBuildingFrameFollowers = {}
 --- @field BG Texture
 --- @field CompleteRing Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L855)
---- child of 
---- @class  : FontString, GameFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L834)
 --- child of 
 --- @class GarrisonBuildingFrame_InfoBox_PlansNeeded : Frame
@@ -247,13 +240,10 @@ GarrisonBuildingFrameFollowers = {}
 --- @field TimeLabel GarrisonBuildingFrame_InfoBox_UpgradeCostBar_TimeLabel
 --- @field TimeAmount GarrisonBuildingFrame_InfoBox_UpgradeCostBar_TimeAmount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L947)
---- child of 
---- @class  : Button, GarrisonBuildingSpecTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L920)
 --- child of 
 --- @class GarrisonBuildingFrame_InfoBox_SpecFrame : Frame
+--- @field Specs table<number, >
 --- @field BGLeft Texture
 --- @field BGRight Texture
 
@@ -418,14 +408,11 @@ GarrisonBuildingFrameFollowers = {}
 --- @field UpgradeArrow Texture
 --- @field BuildingGlowPulseAnim GarrisonBuildingFrame_MapFrame_TownHall_BuildingGlowPulseAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L1313)
---- child of 
---- @class  : Button, GarrisonPlotTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L1195)
 --- child of GarrisonBuildingFrame
 --- @class GarrisonBuildingFrame_MapFrame : Frame
 --- @field TownHall GarrisonBuildingFrame_MapFrame_TownHall
+--- @field Plots table<number, >
 --- @field Map Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L1376)

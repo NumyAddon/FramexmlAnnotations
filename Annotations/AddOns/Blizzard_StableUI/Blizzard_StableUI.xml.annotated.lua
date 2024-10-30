@@ -211,7 +211,6 @@ StableFrameRight = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1504)
 --- child of  (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
 StableFrameClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1495)
@@ -286,25 +285,30 @@ StableFrameSearchIcon = {}
 --- child of StableFrame
 --- @class StableFrame_ActivePetList : Frame, StableActivePetListMixin
 --- @field PetButton1 StableFrame_ActivePetList_PetButton1
+--- @field PetButtons table<number, StableFrame_ActivePetList_PetButton1>
 --- @field PetButton2 StableFrame_ActivePetList_PetButton2
+--- @field PetButtons table<number, StableFrame_ActivePetList_PetButton2>
 --- @field PetButton3 StableFrame_ActivePetList_PetButton3
+--- @field PetButtons table<number, StableFrame_ActivePetList_PetButton3>
 --- @field PetButton4 StableFrame_ActivePetList_PetButton4
+--- @field PetButtons table<number, StableFrame_ActivePetList_PetButton4>
 --- @field PetButton5 StableFrame_ActivePetList_PetButton5
+--- @field PetButtons table<number, StableFrame_ActivePetList_PetButton5>
 --- @field Divider StableFrame_ActivePetList_Divider
 --- @field BeastMasterSecondaryPetButton StableFrame_ActivePetList_BeastMasterSecondaryPetButton
 --- @field ActivePetListBG Texture
 --- @field ActivePetListBGBar Texture
 --- @field ListName StableFrame_ActivePetList_ListName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1095)
 --- child of StableFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 StableFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1062)
+--- child of StableFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+StableFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L229)
 --- @class StableFrame : Frame, PortraitFrameTemplate, StableFrameMixin
@@ -318,7 +322,7 @@ StableFrameCloseButton = {}
 --- @field Topper Texture
 StableFrame = {}
 StableFrame["portraitIcon"] = "Interface\\Icons\\ClassIcon_Hunter"
-StableFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-StableFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 StableFrame["CloseButton"] = StableFrameCloseButton -- inherited
+StableFrame["Bg"] = StableFrameBg -- inherited
+StableFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

@@ -70,10 +70,6 @@
 --- Template
 --- @class LootHistoryPassedHeaderPaddingTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L151)
---- child of LootHistoryPassedHeaderTemplate
---- @class  : FontString, GameFontNormalMed2
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L147)
 --- Template
 --- @class LootHistoryPassedHeaderTemplate : Frame
@@ -153,6 +149,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L271)
 --- child of GroupLootHistoryFrame
 --- Template
+--- Adds itself to the parent with key `PerfectAnimFrame`
 --- @class GroupLootHistoryFrame_PerfectAnimFrame : Frame, LootHistoryElementTemplate, LootHistoryElementAnimationMixin
 --- @field PerfectRollFrame GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollFrame
 --- @field PerfectRollTopFrame GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollTopFrame
@@ -173,12 +170,13 @@ GroupLootHistoryFrameBg = {}
 --- @field ScrollBox GroupLootHistoryFrame_ScrollBox
 --- @field ScrollBar GroupLootHistoryFrame_ScrollBar
 --- @field EncounterDropdown GroupLootHistoryFrame_EncounterDropdown
+--- @field uncommittedRegions table<number, GroupLootHistoryFrame_EncounterDropdown>
 --- @field Timer GroupLootHistoryFrame_Timer
 --- @field ResizeButton GroupLootHistoryFrame_ResizeButton
 --- @field PerfectAnimFrame GroupLootHistoryFrame_PerfectAnimFrame
 --- @field NoInfoString GroupLootHistoryFrame_NoInfoString
 GroupLootHistoryFrame = {}
 GroupLootHistoryFrame["panelMaxHeight"] = 590
-GroupLootHistoryFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 GroupLootHistoryFrame["Bg"] = GroupLootHistoryFrameBg -- inherited
+GroupLootHistoryFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 

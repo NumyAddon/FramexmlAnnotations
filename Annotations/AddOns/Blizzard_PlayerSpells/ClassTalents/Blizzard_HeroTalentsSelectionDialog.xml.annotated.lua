@@ -37,9 +37,9 @@ HeroTalentsSelectionDialogTopTileStreaks = {}
 --- @field Background Texture
 HeroTalentsSelectionDialog = {}
 HeroTalentsSelectionDialog["checkFitExtraWidth"] = 0
-HeroTalentsSelectionDialog["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 HeroTalentsSelectionDialog["Bg"] = HeroTalentsSelectionDialogBg -- inherited
 HeroTalentsSelectionDialog["TopTileStreaks"] = HeroTalentsSelectionDialogTopTileStreaks -- inherited
+HeroTalentsSelectionDialog["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L159)
 --- child of HeroTalentSpecFXTemplate
@@ -50,15 +50,25 @@ HeroTalentsSelectionDialog["TopTileStreaks"] = HeroTalentsSelectionDialogTopTile
 --- @class HeroTalentSpecFXTemplate : Frame
 --- @field ColumnDivider Texture
 --- @field ActivatedBackgroundBack1 Texture
+--- @field ActivatedBackFrames table<number, Texture>
 --- @field ActivatedBackgroundBack2 Texture
+--- @field ActivatedBackFrames table<number, Texture>
 --- @field ActivatedBackgroundLeft1 Texture
+--- @field ActivatedLeftFrames table<number, Texture>
 --- @field ActivatedBackgroundLeft2 Texture
+--- @field ActivatedLeftFrames table<number, Texture>
 --- @field ActivatedBackgroundLeft3 Texture
+--- @field ActivatedLeftFrames table<number, Texture>
 --- @field ActivatedBackgroundLeft4 Texture
+--- @field ActivatedLeftFrames table<number, Texture>
 --- @field ActivatedBackgroundRight1 Texture
+--- @field ActivatedRightFrames table<number, Texture>
 --- @field ActivatedBackgroundRight2 Texture
+--- @field ActivatedRightFrames table<number, Texture>
 --- @field ActivatedBackgroundRight3 Texture
+--- @field ActivatedRightFrames table<number, Texture>
 --- @field ActivatedBackgroundRight4 Texture
+--- @field ActivatedRightFrames table<number, Texture>
 --- @field ActivationExpandFx Texture
 --- @field ActivationExpandFxMask MaskTexture
 --- @field ActivationExpandFxMask2 MaskTexture

@@ -276,10 +276,6 @@
 --- @field BottomLeft Texture
 --- @field BottomRight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L418)
---- child of UIPanelGoldButtonTemplate
---- @class  : Texture, UIPanelButtonHighlightTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L334)
 --- Template
 --- @class UIPanelGoldButtonTemplate : Button
@@ -729,14 +725,6 @@
 --- Template
 --- @class UIGoldBorderButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1361)
---- child of UIPanelButtonGrayTemplate
---- @class  : Texture, UIPanelButtonDisabledTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1364)
---- child of UIPanelButtonGrayTemplate
---- @class  : Texture, UIPanelButtonHighlightTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1357)
 --- Template
 --- @class UIPanelButtonGrayTemplate : Button
@@ -782,16 +770,26 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1548)
 --- Template
+--- Adds itself to the parent inside the array `Tabs`
 --- @class PanelTabButtonTemplate : Button, PanelTabButtonMixin
 --- @field LeftActive Texture
+--- @field TabTextures table<number, Texture>
 --- @field RightActive Texture
+--- @field TabTextures table<number, Texture>
 --- @field MiddleActive Texture
+--- @field TabTextures table<number, Texture>
 --- @field Left Texture
+--- @field TabTextures table<number, Texture>
 --- @field Right Texture
+--- @field TabTextures table<number, Texture>
 --- @field Middle Texture
+--- @field TabTextures table<number, Texture>
 --- @field LeftHighlight Texture
+--- @field TabTextures table<number, Texture>
 --- @field MiddleHighlight Texture
+--- @field TabTextures table<number, Texture>
 --- @field RightHighlight Texture
+--- @field TabTextures table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1622)
 --- Template
@@ -807,6 +805,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1624)
 --- Template
+--- Adds itself to the parent with key `MaxMinButtonFrame`
 --- @class MaximizeMinimizeButtonFrameTemplate : Frame, MaximizeMinimizeButtonFrameMixin
 --- @field MaximizeButton MaximizeMinimizeButtonFrameTemplate_MaximizeButton
 --- @field MinimizeButton MaximizeMinimizeButtonFrameTemplate_MinimizeButton
@@ -1336,10 +1335,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2979)
 --- child of SearchBoxListAllButtonTemplate
 --- @class SearchBoxListAllButtonTemplate_SearchBoxListAllButtonTemplateText : FontString, GameFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2987)
---- child of SearchBoxListAllButtonTemplate
---- @class  : Texture, _SearchBarSm
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2967)
 --- Template

@@ -51,7 +51,6 @@ BFAMissionFrameTab3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L1504)
 --- child of  (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
 BFAMissionFrameFollowersClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L1495)
@@ -97,10 +96,6 @@ BFAMissionFrameMissionsTab1 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L1266)
 --- child of BFAMissionFrameMissions (created in template GarrisonMissionListTemplate)
 --- @type GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2
---- @field MissionStart Texture
---- @field MissionStartText GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartText
---- @field GlowHighlight Texture
---- @field MissionStartAnim GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartAnim
 BFAMissionFrameMissionsTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L169)
@@ -119,64 +114,25 @@ BFAMissionFrameMissions["Tab2"] = BFAMissionFrameMissionsTab2 -- inherited
 --- child of 
 --- @class BFAMissionFrame_MissionTab_MissionPage : Button, OrderHallMissionPageTemplate, GarrisonMissionPageMixin, GarrisonFollowerMissionPageMixin, OrderHallFollowerMissionPageMixin, BFAFollowerMissionPageMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L200)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L201)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L202)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L203)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L204)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L205)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L206)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L207)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L208)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L209)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L210)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L211)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L212)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L167)
 --- child of BFAMissionFrame
 --- @class BFAMissionFrame_MissionTab : Frame
 --- @field MissionList BFAMissionFrame_MissionTab_BFAMissionFrameMissions
 --- @field ZoneSupportMissionPageBackground BFAMissionFrame_MissionTab_ZoneSupportMissionPageBackground
 --- @field MissionPage BFAMissionFrame_MissionTab_MissionPage
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L215)
 --- child of BFAMissionFrame
@@ -244,8 +200,11 @@ BFAMissionFrameMissions["Tab2"] = BFAMissionFrameMissionsTab2 -- inherited
 --- @field OverlayElements BFAMissionFrame_OverlayElements
 --- @field TitleScroll BFAMissionFrame_TitleScroll
 --- @field Tab1 BFAMissionFrame_BFAMissionFrameTab1
+--- @field Tabs table<number, BFAMissionFrame_BFAMissionFrameTab1>
 --- @field Tab2 BFAMissionFrame_BFAMissionFrameTab2
+--- @field Tabs table<number, BFAMissionFrame_BFAMissionFrameTab2>
 --- @field Tab3 BFAMissionFrame_BFAMissionFrameTab3
+--- @field Tabs table<number, BFAMissionFrame_BFAMissionFrameTab3>
 --- @field FollowerList BFAMissionFrame_BFAMissionFrameFollowers
 --- @field MapTab BFAMissionFrame_MapTab
 --- @field MissionTab BFAMissionFrame_MissionTab

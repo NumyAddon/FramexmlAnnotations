@@ -246,8 +246,8 @@ PlayerPVPTimerText = {}
 --- @field PlayerFrameContent PlayerFrame_PlayerFrameContent
 PlayerFrame = {}
 PlayerFrame["disablePortraitMask"] = true
-PlayerFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 PlayerFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Player -- inherited
+PlayerFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L481)
 --- Template

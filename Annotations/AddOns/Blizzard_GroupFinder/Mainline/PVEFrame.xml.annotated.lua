@@ -207,23 +207,27 @@ PVEFrameTopFiligree = {}
 --- @class PVEFrame_PVEFrameBottomFiligree : Texture
 PVEFrameBottomFiligree = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L1095)
 --- child of PVEFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 PVEFrameCloseButton = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L1062)
+--- child of PVEFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+PVEFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L56)
 --- @class PVEFrame : Frame, PortraitFrameTemplate, PVEFrameMixin
 --- @field Inset PVEFrame_PVEFrameLeftInset
 --- @field tab1 PVEFrame_PVEFrameTab1
+--- @field Tabs table<number, PVEFrame_PVEFrameTab1>
 --- @field tab2 PVEFrame_PVEFrameTab2
+--- @field Tabs table<number, PVEFrame_PVEFrameTab2>
 --- @field tab3 PVEFrame_PVEFrameTab3
+--- @field Tabs table<number, PVEFrame_PVEFrameTab3>
 --- @field tab4 PVEFrame_PVEFrameTab4
+--- @field Tabs table<number, PVEFrame_PVEFrameTab4>
 --- @field shadows PVEFrame_shadows
 PVEFrame = {}
 PVEFrame["Inset"] = PVEFrameLeftInset
@@ -231,7 +235,7 @@ PVEFrame["tab1"] = PVEFrameTab1
 PVEFrame["tab2"] = PVEFrameTab2
 PVEFrame["tab3"] = PVEFrameTab3
 PVEFrame["tab4"] = PVEFrameTab4
-PVEFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-PVEFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 PVEFrame["CloseButton"] = PVEFrameCloseButton -- inherited
+PVEFrame["Bg"] = PVEFrameBg -- inherited
+PVEFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

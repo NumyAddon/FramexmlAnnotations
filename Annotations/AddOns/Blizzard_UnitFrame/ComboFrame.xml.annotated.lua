@@ -53,5 +53,14 @@ ComboPoint9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/ComboFrame.xml#L37)
 --- @class ComboFrame : Frame
+--- @field ComboPoints table<number, ComboFrame_ComboPoint1>
+--- @field ComboPoints table<number, ComboFrame_ComboPoint2>
+--- @field ComboPoints table<number, ComboFrame_ComboPoint3>
+--- @field ComboPoints table<number, ComboFrame_ComboPoint4>
+--- @field ComboPoints table<number, ComboFrame_ComboPoint5>
+--- @field ComboPoints table<number, ComboFrame_ComboPoint6>
+--- @field ComboPoints table<number, ComboFrame_ComboPoint7>
+--- @field ComboPoints table<number, ComboFrame_ComboPoint8>
+--- @field ComboPoints table<number, ComboFrame_ComboPoint9>
 ComboFrame = {}
 

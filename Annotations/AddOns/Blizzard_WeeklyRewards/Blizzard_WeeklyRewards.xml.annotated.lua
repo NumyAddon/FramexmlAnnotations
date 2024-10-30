@@ -22,18 +22,10 @@
 --- @field Border Texture
 --- @field Name WeeklyRewardActivityTypeTemplate_Name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L161)
---- child of 
---- @class  : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L146)
 --- child of 
 --- @class WeeklyRewardActivityTemplate_RewardGenerated_Sparkles_Sparkle3 : Frame
 --- @field Sparkle3 Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L184)
---- child of 
---- @class  : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L140)
 --- child of 
@@ -42,18 +34,10 @@
 --- @field Sparkle1 Texture
 --- @field Sparkle2 Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L209)
---- child of 
---- @class  : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L194)
 --- child of 
 --- @class WeeklyRewardActivityTemplate_RewardGenerated_BurstFX : Frame
 --- @field Swirl Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L243)
---- child of 
---- @class  : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L220)
 --- child of 
@@ -76,18 +60,10 @@
 --- child of WeeklyRewardActivityTemplate
 --- @class WeeklyRewardActivityTemplate_UnselectedFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L292)
---- child of 
---- @class  : AnimationGroup
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L277)
 --- child of 
 --- @class WeeklyRewardActivityTemplate_SelectionGlow_SideGlows : Frame
 --- @field SideGlows Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L328)
---- child of 
---- @class  : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L298)
 --- child of 
@@ -131,6 +107,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L73)
 --- Template
+--- Adds itself to the parent inside the array `Activities`
 --- @class WeeklyRewardActivityTemplate : Frame, WeeklyRewardsActivityMixin
 --- @field RewardGenerated WeeklyRewardActivityTemplate_RewardGenerated
 --- @field ItemFrame WeeklyRewardActivityTemplate_ItemFrame
@@ -192,11 +169,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L477)
 --- child of WeeklyRewardOverlayTemplate
 --- @class WeeklyRewardOverlayTemplate_ModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L478)
---- child of WeeklyRewardOverlayTemplate
---- @class  : Frame
---- @field Orb Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L460)
 --- child of WeeklyRewardOverlayTemplate
@@ -277,10 +249,6 @@
 --- child of 
 --- @class WeeklyRewardsFrame_ConcessionFrame_UnselectedFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L648)
---- child of 
---- @class  : FontString, SystemFont_Shadow_Large2
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L616)
 --- child of WeeklyRewardsFrame
 --- @class WeeklyRewardsFrame_ConcessionFrame : Frame, WeeklyRewardsConcessionMixin
@@ -316,6 +284,7 @@
 --- @field WorldFrame WeeklyRewardsFrame_WorldFrame
 --- @field ModelScene WeeklyRewardsFrame_ModelScene
 --- @field ConcessionFrame WeeklyRewardsFrame_ConcessionFrame
+--- @field Activities table<number, WeeklyRewardsFrame_ConcessionFrame>
 --- @field SelectRewardButton WeeklyRewardsFrame_SelectRewardButton
 --- @field CloseButton WeeklyRewardsFrame_CloseButton
 --- @field Background Texture

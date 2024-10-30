@@ -67,14 +67,6 @@
 --- child of CovenantMissionFollowerButtonTemplate
 --- @class CovenantMissionFollowerButtonTemplate_DurabilityFrame : Frame, GarrisonMissionFollowerDurabilityFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L210)
---- child of CovenantMissionFollowerButtonTemplate
---- @class  : Frame, GarrisonMissionAbilityCounterTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L215)
---- child of CovenantMissionFollowerButtonTemplate
---- @class  : Frame, GarrisonFollowerListButtonAbilityTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L226)
 --- child of CovenantMissionFollowerButtonTemplate
 --- @class CovenantMissionFollowerButtonTemplate_BusyFrame : Frame
@@ -84,6 +76,8 @@
 --- Template
 --- @class CovenantMissionFollowerButtonTemplate : Button, CovenantFollowerButtonTemplate
 --- @field DurabilityFrame CovenantMissionFollowerButtonTemplate_DurabilityFrame
+--- @field Counters table<number, >
+--- @field Abilities table<number, >
 --- @field BusyFrame CovenantMissionFollowerButtonTemplate_BusyFrame
 --- @field AbilitiesBG Texture
 
@@ -117,10 +111,6 @@
 --- @class CovenantMissionPageFollowerTemplate_PortraitFrame : Frame, GarrisonFollowerMissionPortraitTemplate
 --- @field Caution Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L343)
---- child of CovenantMissionPageFollowerTemplate
---- @class  : Frame, CovenantMissionAutoSpellAbilityTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L348)
 --- child of CovenantMissionPageFollowerTemplate
 --- @class CovenantMissionPageFollowerTemplate_Durability : Frame, GarrisonMissionFollowerDurabilityFrameTemplate
@@ -133,6 +123,7 @@
 --- Template
 --- @class CovenantMissionPageFollowerTemplate : Frame
 --- @field PortraitFrame CovenantMissionPageFollowerTemplate_PortraitFrame
+--- @field Abilities table<number, >
 --- @field Durability CovenantMissionPageFollowerTemplate_Durability
 --- @field DurabilityBackground Texture
 --- @field Name CovenantMissionPageFollowerTemplate_Name
@@ -174,6 +165,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L507)
 --- Template
+--- Adds itself to the parent inside the array `Abilities`
 --- @class CovenantStatLineTemplate : Frame
 --- @field RightString CovenantStatLineTemplate_RightString
 --- @field LeftString CovenantStatLineTemplate_LeftString
@@ -188,6 +180,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L528)
 --- Template
+--- Adds itself to the parent inside the array `Abilities`
 --- @class CovenantStatLineLandingPageTemplate : Frame
 --- @field RightString CovenantStatLineLandingPageTemplate_RightString
 --- @field LeftString CovenantStatLineLandingPageTemplate_LeftString
@@ -361,10 +354,6 @@
 --- @field RareOverlay Texture
 --- @field EliteOverlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L1012)
---- child of CovenantMissionListButtonTemplate
---- @class  : Frame, GarrisonMissionListButtonRewardTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L1017)
 --- child of CovenantMissionListButtonTemplate
 --- @class CovenantMissionListButtonTemplate_EncounterIcon : Frame, CovenantMissionEncounterIconTemplate
@@ -389,6 +378,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L960)
 --- Template
 --- @class CovenantMissionListButtonTemplate : Button
+--- @field Rewards table<number, >
 --- @field EncounterIcon CovenantMissionListButtonTemplate_EncounterIcon
 --- @field Overlay CovenantMissionListButtonTemplate_Overlay
 --- @field ButtonBG Texture

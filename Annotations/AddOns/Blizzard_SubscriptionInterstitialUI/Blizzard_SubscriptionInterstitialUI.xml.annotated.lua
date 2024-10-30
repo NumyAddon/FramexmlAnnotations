@@ -138,7 +138,7 @@ SubscriptionInterstitialFrameTopTileStreaks = {}
 --- @field CloseButton SubscriptionInterstitialFrame_CloseButton
 --- @field ClosePanelButton SubscriptionInterstitialFrame_ClosePanelButton
 SubscriptionInterstitialFrame = {}
-SubscriptionInterstitialFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 SubscriptionInterstitialFrame["Bg"] = SubscriptionInterstitialFrameBg -- inherited
 SubscriptionInterstitialFrame["TopTileStreaks"] = SubscriptionInterstitialFrameTopTileStreaks -- inherited
+SubscriptionInterstitialFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 

@@ -42,7 +42,6 @@ StaticPopup1ExtraButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L116)
 --- child of StaticPopup1 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateEditBox
---- @field Instructions StaticPopupTemplate_StaticPopupTemplateEditBox_Instructions
 StaticPopup1EditBox = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L110)
@@ -77,28 +76,16 @@ StaticPopup1MoneyFrame["GoldButton"] = StaticPopup1MoneyFrameGoldButton -- inher
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L6)
 --- child of StaticPopup1MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateGold
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup1MoneyInputFrameGold = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L80)
 --- child of StaticPopup1MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup1MoneyInputFrameSilver = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L155)
 --- child of StaticPopup1MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup1MoneyInputFrameCopper = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L183)
@@ -116,7 +103,6 @@ StaticPopup1MoneyInputFrame["copper"] = StaticPopup1MoneyInputFrameCopper -- inh
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L188)
 --- child of StaticPopup1 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateItemFrame
---- @field Text StaticPopupTemplate_StaticPopupTemplateItemFrame_StaticPopupTemplateItemFrameText
 StaticPopup1ItemFrame = {}
 StaticPopup1ItemFrame["Text"] = StaticPopupTemplateItemFrameText
 
@@ -187,7 +173,6 @@ StaticPopup2ExtraButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L116)
 --- child of StaticPopup2 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateEditBox
---- @field Instructions StaticPopupTemplate_StaticPopupTemplateEditBox_Instructions
 StaticPopup2EditBox = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L110)
@@ -222,28 +207,16 @@ StaticPopup2MoneyFrame["GoldButton"] = StaticPopup2MoneyFrameGoldButton -- inher
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L6)
 --- child of StaticPopup2MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateGold
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup2MoneyInputFrameGold = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L80)
 --- child of StaticPopup2MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup2MoneyInputFrameSilver = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L155)
 --- child of StaticPopup2MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup2MoneyInputFrameCopper = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L183)
@@ -261,7 +234,6 @@ StaticPopup2MoneyInputFrame["copper"] = StaticPopup2MoneyInputFrameCopper -- inh
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L188)
 --- child of StaticPopup2 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateItemFrame
---- @field Text StaticPopupTemplate_StaticPopupTemplateItemFrame_StaticPopupTemplateItemFrameText
 StaticPopup2ItemFrame = {}
 StaticPopup2ItemFrame["Text"] = StaticPopupTemplateItemFrameText
 
@@ -332,7 +304,6 @@ StaticPopup3ExtraButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L116)
 --- child of StaticPopup3 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateEditBox
---- @field Instructions StaticPopupTemplate_StaticPopupTemplateEditBox_Instructions
 StaticPopup3EditBox = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L110)
@@ -367,28 +338,16 @@ StaticPopup3MoneyFrame["GoldButton"] = StaticPopup3MoneyFrameGoldButton -- inher
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L6)
 --- child of StaticPopup3MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateGold
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup3MoneyInputFrameGold = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L80)
 --- child of StaticPopup3MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup3MoneyInputFrameSilver = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L155)
 --- child of StaticPopup3MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup3MoneyInputFrameCopper = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L183)
@@ -406,7 +365,6 @@ StaticPopup3MoneyInputFrame["copper"] = StaticPopup3MoneyInputFrameCopper -- inh
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L188)
 --- child of StaticPopup3 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateItemFrame
---- @field Text StaticPopupTemplate_StaticPopupTemplateItemFrame_StaticPopupTemplateItemFrameText
 StaticPopup3ItemFrame = {}
 StaticPopup3ItemFrame["Text"] = StaticPopupTemplateItemFrameText
 
@@ -477,7 +435,6 @@ StaticPopup4ExtraButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L116)
 --- child of StaticPopup4 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateEditBox
---- @field Instructions StaticPopupTemplate_StaticPopupTemplateEditBox_Instructions
 StaticPopup4EditBox = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L110)
@@ -512,28 +469,16 @@ StaticPopup4MoneyFrame["GoldButton"] = StaticPopup4MoneyFrameGoldButton -- inher
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L6)
 --- child of StaticPopup4MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateGold
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup4MoneyInputFrameGold = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L80)
 --- child of StaticPopup4MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateSilver
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup4MoneyInputFrameSilver = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L155)
 --- child of StaticPopup4MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_MoneyInputFrameTemplateCopper
---- @field left Texture
---- @field right Texture
---- @field texture Texture
---- @field label FontString
 StaticPopup4MoneyInputFrameCopper = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L183)
@@ -551,7 +496,6 @@ StaticPopup4MoneyInputFrame["copper"] = StaticPopup4MoneyInputFrameCopper -- inh
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L188)
 --- child of StaticPopup4 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateItemFrame
---- @field Text StaticPopupTemplate_StaticPopupTemplateItemFrame_StaticPopupTemplateItemFrameText
 StaticPopup4ItemFrame = {}
 StaticPopup4ItemFrame["Text"] = StaticPopupTemplateItemFrameText
 

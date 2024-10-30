@@ -2,6 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseCategoriesList.xml#L5)
 --- Template
+--- Adds itself to the parent inside the array `FilterButtons`
 --- @class AuctionCategoryButtonTemplate : Button, TruncatedTooltipScriptTemplate
 --- @field Lines Texture
 --- @field NormalTexture Texture

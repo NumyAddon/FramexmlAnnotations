@@ -168,9 +168,13 @@
 --- @class ProfessionsSpecPageTemplate_TreePreview : Frame
 --- @field PathIcon ProfessionsSpecPageTemplate_TreePreview_PathIcon
 --- @field Highlight1 ProfessionsSpecPageTemplate_TreePreview_Highlight1
+--- @field Highlights table<number, ProfessionsSpecPageTemplate_TreePreview_Highlight1>
 --- @field Highlight2 ProfessionsSpecPageTemplate_TreePreview_Highlight2
+--- @field Highlights table<number, ProfessionsSpecPageTemplate_TreePreview_Highlight2>
 --- @field Highlight3 ProfessionsSpecPageTemplate_TreePreview_Highlight3
+--- @field Highlights table<number, ProfessionsSpecPageTemplate_TreePreview_Highlight3>
 --- @field Highlight4 ProfessionsSpecPageTemplate_TreePreview_Highlight4
+--- @field Highlights table<number, ProfessionsSpecPageTemplate_TreePreview_Highlight4>
 --- @field Background Texture
 --- @field Title ProfessionsSpecPageTemplate_TreePreview_Title
 --- @field Description ProfessionsSpecPageTemplate_TreePreview_Description

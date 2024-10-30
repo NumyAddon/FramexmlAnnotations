@@ -41,16 +41,26 @@
 --- @field FillIncrement ShardTemplate_FillIncrement
 --- @field Background Texture
 --- @field Frame_Glow Texture
+--- @field fxTextures table<number, Texture>
 --- @field Shard_Icon Texture
 --- @field FB_DepleteA Texture
+--- @field fxFlipBooks table<number, Texture>
 --- @field FB_DepleteB Texture
+--- @field fxFlipBooks table<number, Texture>
 --- @field FB_DepleteC Texture
+--- @field fxFlipBooks table<number, Texture>
 --- @field Shard_Refill Texture
+--- @field fxTextures table<number, Texture>
 --- @field Shard_RefillFX Texture
+--- @field fxTextures table<number, Texture>
 --- @field Shard_IconFX2 Texture
+--- @field fxTextures table<number, Texture>
 --- @field Shard_IconGlow Texture
+--- @field fxTextures table<number, Texture>
 --- @field Shard_IconFX3 Texture
+--- @field fxTextures table<number, Texture>
 --- @field Shard_Soul Texture
+--- @field fxFlipBooks table<number, Texture>
 --- @field emptyToFullAnim ShardTemplate_emptyToFullAnim
 --- @field fillDoneAnim ShardTemplate_fillDoneAnim
 --- @field readyLoopAnim ShardTemplate_readyLoopAnim
@@ -68,8 +78,8 @@
 --- @field showTooltip boolean # true
 WarlockPowerFrame = {}
 WarlockPowerFrame["showTooltip"] = true
-WarlockPowerFrame["isManagedFrame"] = true -- inherited
-WarlockPowerFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
-WarlockPowerFrame["maxUsablePoints"] = 5 -- inherited
 WarlockPowerFrame["powerToken"] = "SOUL_SHARDS" -- inherited
+WarlockPowerFrame["maxUsablePoints"] = 5 -- inherited
+WarlockPowerFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+WarlockPowerFrame["isManagedFrame"] = true -- inherited
 

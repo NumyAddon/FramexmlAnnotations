@@ -157,9 +157,6 @@ InspectModelFrameBorderBottom2 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L67)
 --- child of InspectModelFrame (created in template ModelWithControlsTemplate)
 --- @type ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame
---- @field panButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton
---- @field rotateLeftButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton
---- @field rotateRightButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton
 InspectModelFrameControlFrame = {}
 InspectModelFrameControlFrame["panButton"] = ModelWithControlsTemplateControlFramePanButton
 InspectModelFrameControlFrame["rotateLeftButton"] = ModelWithControlsTemplateControlFrameRotateLeftButton
@@ -340,10 +337,6 @@ InspectTrinket1SlotFrame = {}
 --- child of InspectPaperDollItemsFrame
 --- @class InspectPaperDollFrame_InspectPaperDollItemsFrame_InspectTrinket1Slot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectTrinket1Slot = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L304)
---- child of InspectMainHandSlot
---- @class  : Texture, Char-Slot-Bottom-Left
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPaperDollFrame.xml#L73)
 --- child of InspectMainHandSlot (created in template InspectPaperDollItemSlotButtonBottomTemplate)

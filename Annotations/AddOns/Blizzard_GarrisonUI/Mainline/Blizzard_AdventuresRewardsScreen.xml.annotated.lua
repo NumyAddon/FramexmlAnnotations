@@ -60,10 +60,6 @@
 --- child of 
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_ContinueButton_FlashAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L206)
---- child of 
---- @class  : Texture, UIPanelButtonHighlightTexture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L195)
 --- child of 
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_ContinueButton : Button, UIPanelButtonTemplate, AdventuresRewardsScreenContinueButtonMixin

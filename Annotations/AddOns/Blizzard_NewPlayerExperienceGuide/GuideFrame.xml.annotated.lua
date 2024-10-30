@@ -14,15 +14,15 @@
 --- @class GuideFrame_Title : FontString, Fancy30Font, AutoScalingFontStringMixin
 --- @field minLineHeight number # 16
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L1095)
 --- child of GuideFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 GuideFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L1062)
+--- child of GuideFrame (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+GuideFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L5)
 --- @class GuideFrame : Frame, PortraitFrameTemplate, GuideFrameMixin
@@ -30,7 +30,7 @@ GuideFrameCloseButton = {}
 --- @field Background Texture
 --- @field Title GuideFrame_Title
 GuideFrame = {}
-GuideFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-GuideFrame["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 GuideFrame["CloseButton"] = GuideFrameCloseButton -- inherited
+GuideFrame["Bg"] = GuideFrameBg -- inherited
+GuideFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

@@ -6,6 +6,6 @@
 UIWidgetBelowMinimapContainerFrame = {}
 UIWidgetBelowMinimapContainerFrame["verticalAnchorPoint"] = "TOPRIGHT"
 UIWidgetBelowMinimapContainerFrame["showAndHideOnWidgetSetRegistration"] = true -- inherited
-UIWidgetBelowMinimapContainerFrame["isManagedFrame"] = true -- inherited
 UIWidgetBelowMinimapContainerFrame["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
+UIWidgetBelowMinimapContainerFrame["isManagedFrame"] = true -- inherited
 

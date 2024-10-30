@@ -51,10 +51,6 @@ Background = {}
 --- @field FilterLabel DeveloperConsole_Filters_FilterLabel
 --- @field BorderLeft Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L225)
---- child of 
---- @class  : FontString, ConsoleFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L208)
 --- child of DeveloperConsole
 --- @class DeveloperConsole_CheatBrowserToggle : Button

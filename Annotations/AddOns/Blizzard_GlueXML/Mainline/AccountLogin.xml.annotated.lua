@@ -88,10 +88,6 @@ LoginBackgroundModel = {}
 --- @field Label AccountLogin_UI_AccountEditBox_Label
 --- @field Fill AccountLogin_UI_AccountEditBox_Fill
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L271)
---- child of 
---- @class  : FontString, GlueFontNormalLarge
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L264)
 --- child of 
 --- @class AccountLogin_UI_PasswordEditBox : EditBox, AccountLoginEditBoxBehaviorTemplateAccountLoginBackdropTemplate
@@ -179,10 +175,6 @@ ServerAlertFrame = {}
 --- child of 
 --- @class AccountLogin_UI_CaptchaEntryDialog_Background_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L502)
---- child of 
---- @class  : FontString, GlueFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L495)
 --- child of 
 --- @class AccountLogin_UI_CaptchaEntryDialog_Background_EditBox : EditBox, AccountLoginBackdropTemplate
@@ -222,10 +214,6 @@ ServerAlertFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L581)
 --- child of 
 --- @class AccountLogin_UI_TokenEntryDialog_Background_Border : Frame, DialogBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L589)
---- child of 
---- @class  : FontString, GlueFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L582)
 --- child of 
@@ -287,14 +275,22 @@ WorldOfWarcraftRating = {}
 --- child of AccountLogin
 --- @class AccountLogin_UI : Frame
 --- @field AccountEditBox AccountLogin_UI_AccountEditBox
+--- @field ManualLoginRegions table<number, AccountLogin_UI_AccountEditBox>
 --- @field PasswordEditBox AccountLogin_UI_PasswordEditBox
+--- @field ManualLoginRegions table<number, AccountLogin_UI_PasswordEditBox>
 --- @field LoginButton AccountLogin_UI_LoginButton
+--- @field ManualLoginRegions table<number, AccountLogin_UI_LoginButton>
 --- @field SaveAccountNameCheckButton AccountLogin_UI_SaveAccountNameCheckButton
+--- @field ManualLoginRegions table<number, AccountLogin_UI_SaveAccountNameCheckButton>
 --- @field ReconnectLoginButton AccountLogin_UI_ReconnectLoginButton
+--- @field ReconnectLoginRegions table<number, AccountLogin_UI_ReconnectLoginButton>
 --- @field ReconnectSwitchButton AccountLogin_UI_ReconnectSwitchButton
+--- @field ReconnectLoginRegions table<number, AccountLogin_UI_ReconnectSwitchButton>
 --- @field ExitButton AccountLogin_UI_ExitButton
 --- @field CreateAccountButton AccountLogin_UI_CreateAccountButton
+--- @field NormalLoginRegions table<number, AccountLogin_UI_CreateAccountButton>
 --- @field MenuButton AccountLogin_UI_MenuButton
+--- @field NormalLoginRegions table<number, AccountLogin_UI_MenuButton>
 --- @field WoWAccountSelectDialog AccountLogin_UI_WoWAccountSelectDialog
 --- @field CaptchaEntryDialog AccountLogin_UI_CaptchaEntryDialog
 --- @field TokenEntryDialog AccountLogin_UI_TokenEntryDialog

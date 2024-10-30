@@ -33,10 +33,6 @@
 --- child of OrderHallMissionPageTemplate
 --- @class OrderHallMissionPageTemplate_BuffsFrame : Frame, GarrisonMissionPartyBuffsFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L89)
---- child of OrderHallMissionPageTemplate
---- @class  : Button, StartMissionButtonTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L94)
 --- child of OrderHallMissionPageTemplate
 --- @class OrderHallMissionPageTemplate_CostFrame : Frame, GarrisonMissionPageCostWithTooltipTemplate
@@ -53,6 +49,7 @@
 --- @field ItemLevelHitboxFrame OrderHallMissionPageTemplate_ItemLevelHitboxFrame
 --- @field BuffsFrameAnchor Frame
 --- @field BuffsFrame OrderHallMissionPageTemplate_BuffsFrame
+--- @field StartMissionButton StartMissionButtonTemplate
 --- @field CostFrame OrderHallMissionPageTemplate_CostFrame
 --- @field EmptyString OrderHallMissionPageTemplate_EmptyString
 
@@ -87,7 +84,6 @@ OrderHallMissionFrameTab3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L1504)
 --- child of  (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
 OrderHallMissionFrameFollowersClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L1495)
@@ -201,10 +197,6 @@ OrderHallMissionFrameMissionsTab1 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L1266)
 --- child of OrderHallMissionFrameMissions (created in template GarrisonMissionListTemplate)
 --- @type GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2
---- @field MissionStart Texture
---- @field MissionStartText GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartText
---- @field GlowHighlight Texture
---- @field MissionStartAnim GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartAnim
 OrderHallMissionFrameMissionsTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L370)
@@ -236,10 +228,6 @@ OrderHallMissionFrameMissions["Tab2"] = OrderHallMissionFrameMissionsTab2 -- inh
 --- child of 
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllySpell : Frame, GarrisonFollowerCombatAllySpellTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L569)
---- child of 
---- @class  : Button, StartMissionButtonTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L585)
 --- child of 
 --- @class OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllyLabel_Text : FontString, SystemFont_Shadow_Huge3
@@ -266,7 +254,9 @@ OrderHallMissionFrameMissions["Tab2"] = OrderHallMissionFrameMissionsTab2 -- inh
 --- @field CloseButton OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CloseButton
 --- @field CostFrame OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CostFrame
 --- @field Follower1 OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_Follower1
+--- @field Followers table<number, OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_Follower1>
 --- @field CombatAllySpell OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllySpell
+--- @field StartMissionButton StartMissionButtonTemplate
 --- @field CombatAllyLabel OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllyLabel
 --- @field ButtonFrame Texture
 --- @field CombatAllyDescriptionLabel OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage_CombatAllyDescriptionLabel
@@ -275,58 +265,6 @@ OrderHallMissionFrameMissions["Tab2"] = OrderHallMissionFrameMissionsTab2 -- inh
 --- child of 
 --- @class OrderHallMissionFrame_MissionTab_MissionPage : Button, OrderHallMissionPageTemplate, GarrisonMissionPageMixin, GarrisonFollowerMissionPageMixin, OrderHallFollowerMissionPageMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L630)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L631)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L632)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L633)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L634)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L635)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L636)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L637)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L638)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L639)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L640)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L641)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L642)
---- child of 
---- @class  : PlayerModel, MissionCompletePreloadModelTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L368)
 --- child of OrderHallMissionFrame
 --- @class OrderHallMissionFrame_MissionTab : Frame
@@ -334,6 +272,19 @@ OrderHallMissionFrameMissions["Tab2"] = OrderHallMissionFrameMissionsTab2 -- inh
 --- @field ZoneSupportMissionPageBackground OrderHallMissionFrame_MissionTab_ZoneSupportMissionPageBackground
 --- @field ZoneSupportMissionPage OrderHallMissionFrame_MissionTab_ZoneSupportMissionPage
 --- @field MissionPage OrderHallMissionFrame_MissionTab_MissionPage
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
+--- @field MissionCompletePreloadModels table<number, >
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L645)
 --- child of OrderHallMissionFrame
@@ -400,8 +351,11 @@ OrderHallMissionFrameMissions["Tab2"] = OrderHallMissionFrameMissionsTab2 -- inh
 --- @field followerTypeID any # Enum.GarrisonFollowerType.FollowerType_7_0_GarrisonFollower
 --- @field ClassHallIcon OrderHallMissionFrame_ClassHallIcon
 --- @field Tab1 OrderHallMissionFrame_OrderHallMissionFrameTab1
+--- @field Tabs table<number, OrderHallMissionFrame_OrderHallMissionFrameTab1>
 --- @field Tab2 OrderHallMissionFrame_OrderHallMissionFrameTab2
+--- @field Tabs table<number, OrderHallMissionFrame_OrderHallMissionFrameTab2>
 --- @field Tab3 OrderHallMissionFrame_OrderHallMissionFrameTab3
+--- @field Tabs table<number, OrderHallMissionFrame_OrderHallMissionFrameTab3>
 --- @field FollowerList OrderHallMissionFrame_OrderHallMissionFrameFollowers
 --- @field MapTab OrderHallMissionFrame_MapTab
 --- @field MissionTab OrderHallMissionFrame_MissionTab

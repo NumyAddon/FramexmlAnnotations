@@ -77,6 +77,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L108)
 --- Template
+--- Adds itself to the parent inside the array `SessionManagementDialogs`
 --- @class QuestSessionDialogTemplate : Frame, ResizeLayoutFrame, QuestSessionDialogMixin
 --- @field heightPadding number # 0
 --- @field Border QuestSessionDialogTemplate_Border
@@ -152,15 +153,26 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L203)
 --- @class QuestSessionManager : Frame, QuestSessionManagerMixin
 --- @field CheckStartDialog QuestSessionManager_CheckStartDialog
+--- @field SessionManagementDialogs table<number, QuestSessionManager_CheckStartDialog>
 --- @field StartDialog QuestSessionManager_StartDialog
+--- @field SessionManagementDialogs table<number, QuestSessionManager_StartDialog>
 --- @field CheckStopDialog QuestSessionManager_CheckStopDialog
+--- @field SessionManagementDialogs table<number, QuestSessionManager_CheckStopDialog>
 --- @field CheckLeavePartyDialog QuestSessionManager_CheckLeavePartyDialog
+--- @field SessionManagementDialogs table<number, QuestSessionManager_CheckLeavePartyDialog>
 --- @field CheckConvertToRaidDialog QuestSessionManager_CheckConvertToRaidDialog
+--- @field SessionManagementDialogs table<number, QuestSessionManager_CheckConvertToRaidDialog>
 --- @field ConfirmJoinGroupRequestDialog QuestSessionManager_ConfirmJoinGroupRequestDialog
+--- @field SessionManagementDialogs table<number, QuestSessionManager_ConfirmJoinGroupRequestDialog>
 --- @field ConfirmInviteToGroupDialog QuestSessionManager_ConfirmInviteToGroupDialog
+--- @field SessionManagementDialogs table<number, QuestSessionManager_ConfirmInviteToGroupDialog>
 --- @field ConfirmInviteToGroupReceivedDialog QuestSessionManager_ConfirmInviteToGroupReceivedDialog
+--- @field SessionManagementDialogs table<number, QuestSessionManager_ConfirmInviteToGroupReceivedDialog>
 --- @field ConfirmRequestToJoinGroupDialog QuestSessionManager_ConfirmRequestToJoinGroupDialog
+--- @field SessionManagementDialogs table<number, QuestSessionManager_ConfirmRequestToJoinGroupDialog>
 --- @field ConfirmBNJoinGroupRequestDialog QuestSessionManager_ConfirmBNJoinGroupRequestDialog
+--- @field SessionManagementDialogs table<number, QuestSessionManager_ConfirmBNJoinGroupRequestDialog>
 --- @field ConfirmInviteTravelPassConfirmationDialog QuestSessionManager_ConfirmInviteTravelPassConfirmationDialog
+--- @field SessionManagementDialogs table<number, QuestSessionManager_ConfirmInviteTravelPassConfirmationDialog>
 QuestSessionManager = {}
 

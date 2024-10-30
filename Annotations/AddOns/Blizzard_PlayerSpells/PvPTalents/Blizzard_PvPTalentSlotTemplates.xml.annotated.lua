@@ -38,8 +38,11 @@
 --- Template
 --- @class PvPTalentSlotTrayTemplate : Frame, CallbackRegistrantTemplate, PvPTalentSlotTrayMixin
 --- @field TalentSlot1 PvPTalentSlotTrayTemplate_TalentSlot1
+--- @field Slots table<number, PvPTalentSlotTrayTemplate_TalentSlot1>
 --- @field TalentSlot2 PvPTalentSlotTrayTemplate_TalentSlot2
+--- @field Slots table<number, PvPTalentSlotTrayTemplate_TalentSlot2>
 --- @field TalentSlot3 PvPTalentSlotTrayTemplate_TalentSlot3
+--- @field Slots table<number, PvPTalentSlotTrayTemplate_TalentSlot3>
 --- @field NewContainer PvPTalentSlotTrayTemplate_NewContainer
 --- @field Label PvPTalentSlotTrayTemplate_Label
 

@@ -36,6 +36,7 @@
 --- @class UIWidgetBaseResourceTemplate : Frame, UIWidgetTemplateTooltipFrame, UIWidgetBaseResourceTemplateMixin
 --- @field Icon Texture
 --- @field Text UIWidgetBaseResourceTemplate_Text
+--- @field ColoredStrings table<number, UIWidgetBaseResourceTemplate_Text>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L62)
 --- child of UIWidgetBaseCurrencyTemplate
@@ -53,8 +54,10 @@
 --- Template
 --- @class UIWidgetBaseCurrencyTemplate : Frame, UIWidgetTemplateTooltipFrame, UIWidgetBaseCurrencyTemplateMixin
 --- @field LeadingText UIWidgetBaseCurrencyTemplate_LeadingText
+--- @field ColoredStrings table<number, UIWidgetBaseCurrencyTemplate_LeadingText>
 --- @field Icon Texture
 --- @field Text UIWidgetBaseCurrencyTemplate_Text
+--- @field ColoredStrings table<number, UIWidgetBaseCurrencyTemplate_Text>
 --- @field LineGlow Texture
 --- @field SoftGlow Texture
 --- @field StarBurst Texture
@@ -76,6 +79,7 @@
 --- @field IconMask MaskTexture
 --- @field CircleMask MaskTexture
 --- @field Text UIWidgetBaseSpellTemplate_Text
+--- @field ColoredStrings table<number, UIWidgetBaseSpellTemplate_Text>
 --- @field Border Texture
 --- @field DebuffBorder Texture
 --- @field AmountBorder Texture
@@ -183,6 +187,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L388)
 --- Template
+--- Adds itself to the parent with key `Tooltip`
 --- @class UIWidgetBaseItemEmbeddedTooltipTemplate : GameTooltip, GameTooltipTemplate
 --- @field IsEmbedded boolean # true
 

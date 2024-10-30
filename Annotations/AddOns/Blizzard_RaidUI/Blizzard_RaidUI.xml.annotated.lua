@@ -41,10 +41,6 @@
 --- Template
 --- @class RaidGroupButtonTemplate : Button, SecureUnitButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L216)
---- child of RaidGroupSlotTemplate
---- @class  : FontString, GameFontDarkGraySmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L212)
 --- Template
 --- @class RaidGroupSlotTemplate : Button
@@ -101,10 +97,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L508)
 --- child of 
 --- @class RaidPulloutButtonTemplateTargetTargetName : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L501)
---- child of RaidPulloutButtonTemplateTargetTarget
---- @class  : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L479)
 --- child of RaidPulloutButtonTemplate
@@ -675,7 +667,6 @@ RaidGroupButton1Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton1 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton1ReadyCheck = {}
 RaidGroupButton1ReadyCheck["useRaidIcons"] = true
 
@@ -721,7 +712,6 @@ RaidGroupButton2Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton2 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton2ReadyCheck = {}
 RaidGroupButton2ReadyCheck["useRaidIcons"] = true
 
@@ -767,7 +757,6 @@ RaidGroupButton3Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton3 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton3ReadyCheck = {}
 RaidGroupButton3ReadyCheck["useRaidIcons"] = true
 
@@ -813,7 +802,6 @@ RaidGroupButton4Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton4 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton4ReadyCheck = {}
 RaidGroupButton4ReadyCheck["useRaidIcons"] = true
 
@@ -859,7 +847,6 @@ RaidGroupButton5Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton5 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton5ReadyCheck = {}
 RaidGroupButton5ReadyCheck["useRaidIcons"] = true
 
@@ -905,7 +892,6 @@ RaidGroupButton6Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton6 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton6ReadyCheck = {}
 RaidGroupButton6ReadyCheck["useRaidIcons"] = true
 
@@ -951,7 +937,6 @@ RaidGroupButton7Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton7 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton7ReadyCheck = {}
 RaidGroupButton7ReadyCheck["useRaidIcons"] = true
 
@@ -997,7 +982,6 @@ RaidGroupButton8Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton8 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton8ReadyCheck = {}
 RaidGroupButton8ReadyCheck["useRaidIcons"] = true
 
@@ -1043,7 +1027,6 @@ RaidGroupButton9Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton9 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton9ReadyCheck = {}
 RaidGroupButton9ReadyCheck["useRaidIcons"] = true
 
@@ -1089,7 +1072,6 @@ RaidGroupButton10Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton10 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton10ReadyCheck = {}
 RaidGroupButton10ReadyCheck["useRaidIcons"] = true
 
@@ -1135,7 +1117,6 @@ RaidGroupButton11Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton11 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton11ReadyCheck = {}
 RaidGroupButton11ReadyCheck["useRaidIcons"] = true
 
@@ -1181,7 +1162,6 @@ RaidGroupButton12Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton12 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton12ReadyCheck = {}
 RaidGroupButton12ReadyCheck["useRaidIcons"] = true
 
@@ -1227,7 +1207,6 @@ RaidGroupButton13Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton13 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton13ReadyCheck = {}
 RaidGroupButton13ReadyCheck["useRaidIcons"] = true
 
@@ -1273,7 +1252,6 @@ RaidGroupButton14Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton14 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton14ReadyCheck = {}
 RaidGroupButton14ReadyCheck["useRaidIcons"] = true
 
@@ -1319,7 +1297,6 @@ RaidGroupButton15Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton15 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton15ReadyCheck = {}
 RaidGroupButton15ReadyCheck["useRaidIcons"] = true
 
@@ -1365,7 +1342,6 @@ RaidGroupButton16Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton16 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton16ReadyCheck = {}
 RaidGroupButton16ReadyCheck["useRaidIcons"] = true
 
@@ -1411,7 +1387,6 @@ RaidGroupButton17Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton17 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton17ReadyCheck = {}
 RaidGroupButton17ReadyCheck["useRaidIcons"] = true
 
@@ -1457,7 +1432,6 @@ RaidGroupButton18Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton18 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton18ReadyCheck = {}
 RaidGroupButton18ReadyCheck["useRaidIcons"] = true
 
@@ -1503,7 +1477,6 @@ RaidGroupButton19Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton19 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton19ReadyCheck = {}
 RaidGroupButton19ReadyCheck["useRaidIcons"] = true
 
@@ -1549,7 +1522,6 @@ RaidGroupButton20Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton20 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton20ReadyCheck = {}
 RaidGroupButton20ReadyCheck["useRaidIcons"] = true
 
@@ -1595,7 +1567,6 @@ RaidGroupButton21Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton21 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton21ReadyCheck = {}
 RaidGroupButton21ReadyCheck["useRaidIcons"] = true
 
@@ -1641,7 +1612,6 @@ RaidGroupButton22Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton22 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton22ReadyCheck = {}
 RaidGroupButton22ReadyCheck["useRaidIcons"] = true
 
@@ -1687,7 +1657,6 @@ RaidGroupButton23Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton23 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton23ReadyCheck = {}
 RaidGroupButton23ReadyCheck["useRaidIcons"] = true
 
@@ -1733,7 +1702,6 @@ RaidGroupButton24Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton24 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton24ReadyCheck = {}
 RaidGroupButton24ReadyCheck["useRaidIcons"] = true
 
@@ -1779,7 +1747,6 @@ RaidGroupButton25Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton25 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton25ReadyCheck = {}
 RaidGroupButton25ReadyCheck["useRaidIcons"] = true
 
@@ -1825,7 +1792,6 @@ RaidGroupButton26Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton26 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton26ReadyCheck = {}
 RaidGroupButton26ReadyCheck["useRaidIcons"] = true
 
@@ -1871,7 +1837,6 @@ RaidGroupButton27Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton27 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton27ReadyCheck = {}
 RaidGroupButton27ReadyCheck["useRaidIcons"] = true
 
@@ -1917,7 +1882,6 @@ RaidGroupButton28Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton28 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton28ReadyCheck = {}
 RaidGroupButton28ReadyCheck["useRaidIcons"] = true
 
@@ -1963,7 +1927,6 @@ RaidGroupButton29Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton29 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton29ReadyCheck = {}
 RaidGroupButton29ReadyCheck["useRaidIcons"] = true
 
@@ -2009,7 +1972,6 @@ RaidGroupButton30Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton30 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton30ReadyCheck = {}
 RaidGroupButton30ReadyCheck["useRaidIcons"] = true
 
@@ -2055,7 +2017,6 @@ RaidGroupButton31Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton31 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton31ReadyCheck = {}
 RaidGroupButton31ReadyCheck["useRaidIcons"] = true
 
@@ -2101,7 +2062,6 @@ RaidGroupButton32Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton32 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton32ReadyCheck = {}
 RaidGroupButton32ReadyCheck["useRaidIcons"] = true
 
@@ -2147,7 +2107,6 @@ RaidGroupButton33Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton33 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton33ReadyCheck = {}
 RaidGroupButton33ReadyCheck["useRaidIcons"] = true
 
@@ -2193,7 +2152,6 @@ RaidGroupButton34Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton34 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton34ReadyCheck = {}
 RaidGroupButton34ReadyCheck["useRaidIcons"] = true
 
@@ -2239,7 +2197,6 @@ RaidGroupButton35Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton35 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton35ReadyCheck = {}
 RaidGroupButton35ReadyCheck["useRaidIcons"] = true
 
@@ -2285,7 +2242,6 @@ RaidGroupButton36Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton36 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton36ReadyCheck = {}
 RaidGroupButton36ReadyCheck["useRaidIcons"] = true
 
@@ -2331,7 +2287,6 @@ RaidGroupButton37Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton37 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton37ReadyCheck = {}
 RaidGroupButton37ReadyCheck["useRaidIcons"] = true
 
@@ -2377,7 +2332,6 @@ RaidGroupButton38Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton38 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton38ReadyCheck = {}
 RaidGroupButton38ReadyCheck["useRaidIcons"] = true
 
@@ -2423,7 +2377,6 @@ RaidGroupButton39Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton39 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton39ReadyCheck = {}
 RaidGroupButton39ReadyCheck["useRaidIcons"] = true
 
@@ -2469,7 +2422,6 @@ RaidGroupButton40Role = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L149)
 --- child of RaidGroupButton40 (created in template RaidGroupButtonTemplate)
 --- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
---- @field useRaidIcons boolean # true
 RaidGroupButton40ReadyCheck = {}
 RaidGroupButton40ReadyCheck["useRaidIcons"] = true
 

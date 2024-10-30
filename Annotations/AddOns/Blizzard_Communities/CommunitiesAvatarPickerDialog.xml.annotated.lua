@@ -18,10 +18,6 @@
 --- child of CommunitiesAvatarPickerDialog
 --- @class CommunitiesAvatarPickerDialog_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L37)
---- child of CommunitiesAvatarPickerDialog
---- @class  : FontString, GameFontHighlightSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L21)
 --- @class CommunitiesAvatarPickerDialog : Frame, CommunitiesAvatarPickerDialogMixin
 --- @field Selector CommunitiesAvatarPickerDialog_Selector

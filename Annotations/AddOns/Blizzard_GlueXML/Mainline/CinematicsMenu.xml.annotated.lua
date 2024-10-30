@@ -65,7 +65,7 @@ CinematicsMenuTopTileStreaks = {}
 --- @field PageControl CinematicsMenu_PageControl
 --- @field SubtitlesLabel CinematicsMenu_SubtitlesLabel
 CinematicsMenu = {}
-CinematicsMenu["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 CinematicsMenu["Bg"] = CinematicsMenuBg -- inherited
 CinematicsMenu["TopTileStreaks"] = CinematicsMenuTopTileStreaks -- inherited
+CinematicsMenu["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 

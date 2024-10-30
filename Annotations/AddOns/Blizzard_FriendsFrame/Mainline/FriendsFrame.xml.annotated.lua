@@ -228,10 +228,6 @@ FriendsFrameBattlenetFrameTexture = {}
 --- child of 
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_CancelButton : Button, FriendsFrameButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L584)
---- child of 
---- @class  : FontString, GameFontNormalMed3
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L577)
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame : Frame, FriendsBroadcastFrameMixin
@@ -300,8 +296,11 @@ FriendsTabHeaderTab3 = {}
 --- @field maxTabWidth number # 110
 --- @field StatusDropdown FriendsFrame_FriendsTabHeader_FriendsFrameStatusDropdown
 --- @field Tab1 FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab1
+--- @field Tabs table<number, FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab1>
 --- @field Tab2 FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab2
+--- @field Tabs table<number, FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab2>
 --- @field Tab3 FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab3
+--- @field Tabs table<number, FriendsFrame_FriendsTabHeader_FriendsTabHeaderTab3>
 FriendsTabHeader = {}
 FriendsTabHeader["StatusDropdown"] = FriendsFrameStatusDropdown
 FriendsTabHeader["Tab1"] = FriendsTabHeaderTab1
@@ -346,10 +345,6 @@ FriendsListFramePlayerIcon = {}
 --- child of 
 --- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFrameTitle : FontString, GameFontNormal
 FriendsListFrameTitle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L810)
---- child of 
---- @class  : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L773)
 --- child of FriendsListFrame
@@ -702,31 +697,35 @@ FriendsFrameIcon = {}
 --- @class FriendsFrame_FriendsFrameTitleText : FontString, GameFontNormal
 FriendsFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1148)
 --- child of FriendsFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 FriendsFrameInset = {}
 FriendsFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1142)
+--- child of FriendsFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+FriendsFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1125)
+--- child of FriendsFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+FriendsFrameBg = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L495)
 --- @class FriendsFrame : Frame, ButtonFrameTemplate
 --- @field FriendsTabHeader FriendsFrame_FriendsTabHeader
+--- @field Tabs table<number, FriendsFrame_FriendsFrameTab1>
+--- @field Tabs table<number, FriendsFrame_FriendsFrameTab2>
+--- @field Tabs table<number, FriendsFrame_FriendsFrameTab3>
+--- @field Tabs table<number, FriendsFrame_FriendsFrameTab4>
 FriendsFrame = {}
 FriendsFrame["FriendsTabHeader"] = FriendsTabHeader
-FriendsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-FriendsFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-FriendsFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 FriendsFrame["Inset"] = FriendsFrameInset -- inherited
+FriendsFrame["CloseButton"] = FriendsFrameCloseButton -- inherited
+FriendsFrame["Bg"] = FriendsFrameBg -- inherited
+FriendsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1223)
 --- child of AddFriendFrame
@@ -762,14 +761,6 @@ AddFriendInfoFrameLeftTitle = {}
 --- child of AddFriendInfoFrame
 --- @class AddFriendFrame_AddFriendInfoFrame_AddFriendInfoFrameRightTitle : FontString, GameFontNormal
 AddFriendInfoFrameRightTitle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1263)
---- child of AddFriendInfoFrame
---- @class  : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1269)
---- child of AddFriendInfoFrame
---- @class  : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1224)
 --- child of AddFriendFrame
@@ -907,10 +898,6 @@ FriendsFriendsFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 --- child of FriendsFriendsFrame
 --- @class FriendsFriendsFrame_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1520)
---- child of FriendsFriendsWaitFrame
---- @class  : FontString, ChatFontNormal
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1513)
 --- child of FriendsFriendsFrame
 --- @class FriendsFriendsFrame_FriendsFriendsWaitFrame : Frame
@@ -944,18 +931,6 @@ FriendsFriendsFrame["FriendsDropdown"] = FriendsFriendsFrameDropdown
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1589)
 --- child of BattleTagInviteFrame
 --- @class BattleTagInviteFrame_Border : Frame, DialogBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1590)
---- child of BattleTagInviteFrame
---- @class  : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1603)
---- child of BattleTagInviteFrame
---- @class  : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1569)
---- child of BattleTagInviteFrame
---- @class  : FontString, FriendsFont_Normal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1574)
 --- child of BattleTagInviteFrame

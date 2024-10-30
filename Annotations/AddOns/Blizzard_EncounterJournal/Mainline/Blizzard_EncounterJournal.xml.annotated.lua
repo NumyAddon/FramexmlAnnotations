@@ -325,14 +325,6 @@
 --- child of EncounterInstanceButtonTemplate
 --- @class EncounterInstanceButtonTemplate_EncounterInstanceButtonTemplateRange : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L351)
---- child of EncounterInstanceButtonTemplate
---- @class  : Texture, UI-EJ-DungeonButton-Up
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L355)
---- child of EncounterInstanceButtonTemplate
---- @class  : Texture, UI-EJ-DungeonButton-Highlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L319)
 --- Template
 --- @class EncounterInstanceButtonTemplate : Button
@@ -349,10 +341,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L419)
 --- child of EncounterSearchSMTemplate
 --- @class EncounterSearchSMTemplate_name : FontString, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L429)
---- child of EncounterSearchSMTemplate
---- @class  : Texture, _SearchBarSm
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L393)
 --- Template
@@ -382,14 +370,6 @@
 --- child of EncounterSearchLGTemplate
 --- @class EncounterSearchLGTemplate_resultType : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L500)
---- child of EncounterSearchLGTemplate
---- @class  : Texture, _SearchBarLg
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L504)
---- child of EncounterSearchLGTemplate
---- @class  : Texture, UI-Common-SearchBarHighlightLg
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L460)
 --- Template
 --- @class EncounterSearchLGTemplate : Button, EncounterSearchResultLGMixin
@@ -398,14 +378,6 @@
 --- @field name EncounterSearchLGTemplate_name
 --- @field path EncounterSearchLGTemplate_path
 --- @field resultType EncounterSearchLGTemplate_resultType
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L537)
---- child of EncounterCreatureButtonTemplate
---- @class  : Texture, UI-EJ-BossModelButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L538)
---- child of EncounterCreatureButtonTemplate
---- @class  : Texture, UI-EJ-BossModelButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L525)
 --- Template
@@ -417,31 +389,10 @@
 --- @class EncounterBossButtonTemplate_DefeatedOverlay : Button
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L597)
---- child of EncounterBossButtonTemplate
---- @class  : Frame
---- @field creature Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L619)
---- child of EncounterBossButtonTemplate
---- @class  : Texture, UI-EJ-BossButton-Up
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L623)
---- child of EncounterBossButtonTemplate
---- @class  : Texture, UI-EJ-BossButton-Highlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L574)
 --- Template
 --- @class EncounterBossButtonTemplate : Button, EncounterBossButtonMixin
 --- @field DefeatedOverlay EncounterBossButtonTemplate_DefeatedOverlay
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L645)
---- child of EncounterTabTemplate
---- @class  : Texture, UI-EJ-Tab-UnSelected
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L648)
---- child of EncounterTabTemplate
---- @class  : Texture, UI-EJ-Tab-Highlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L643)
 --- Template
@@ -450,14 +401,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L663)
 --- child of EncounterDifficultyTemplate
 --- @class EncounterDifficultyTemplate_EncounterDifficultyTemplateSelected : Texture, UI-EJ-FilterButtonSelect
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L670)
---- child of EncounterDifficultyTemplate
---- @class  : Texture, UI-EJ-FilterButtonUp
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L674)
---- child of EncounterDifficultyTemplate
---- @class  : Texture, UI-EJ-FilterButtonHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L659)
 --- Template
@@ -479,6 +422,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L712)
 --- Template
+--- Adds itself to the parent inside the array `Bullets`
 --- @class EncounterOverviewBulletTemplate : Frame
 --- @field Text EncounterOverviewBulletTemplate_Text
 --- @field Bullet EncounterOverviewBulletTemplate_Bullet
@@ -609,9 +553,13 @@
 --- child of EncounterInfoTemplate
 --- @class EncounterInfoTemplate_EncounterInfoTemplateHeaderButton : Button
 --- @field icon1 EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon1
+--- @field icons table<number, EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon1>
 --- @field icon2 EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon2
+--- @field icons table<number, EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon2>
 --- @field icon3 EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon3
+--- @field icons table<number, EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon3>
 --- @field icon4 EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon4
+--- @field icons table<number, EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonIcon4>
 --- @field portrait EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonPortrait
 --- @field expandedIcon EncounterInfoTemplate_EncounterInfoTemplateHeaderButton_EncounterInfoTemplateHeaderButtonExpandedIcon
 --- @field abilityIcon Texture
@@ -632,10 +580,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1010)
 --- child of EncounterInfoTemplate
 --- @class EncounterInfoTemplate_overviewDescription : Frame, EncounterDescriptionTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1016)
---- child of EncounterInfoTemplate
---- @class  : Frame, EncounterOverviewBulletTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1024)
 --- child of EncounterInfoTemplate
@@ -658,6 +602,7 @@
 --- @class EncounterInfoTemplate : Frame, InlineHyperlinkFrameTemplate
 --- @field button EncounterInfoTemplate_EncounterInfoTemplateHeaderButton
 --- @field overviewDescription EncounterInfoTemplate_overviewDescription
+--- @field Bullets table<number, EncounterOverviewBulletTemplate>
 --- @field description EncounterInfoTemplate_EncounterInfoTemplateDescription
 --- @field descriptionBG EncounterInfoTemplate_EncounterInfoTemplateDescriptionBG
 --- @field descriptionBGBottom EncounterInfoTemplate_descriptionBGBottom
@@ -761,17 +706,6 @@
 --- child of EncounterJournal
 --- @class EncounterJournal_LootJournalViewDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1504)
---- child of SearchBoxListTemplate (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
---- @field texture Texture
-SearchBoxListTemplateClearButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1495)
---- child of SearchBoxListTemplate (created in template SearchBoxTemplate)
---- @type Texture
-SearchBoxListTemplateSearchIcon = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2872)
 --- child of SearchBoxListTemplateSearchProgressLoading
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_spinner : Frame, SpinnerTemplate
@@ -802,12 +736,19 @@ SearchBoxListTemplateSearchIcon = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2838)
 --- child of EncounterJournalSearchBox (created in template SearchBoxListTemplate)
 --- @type SearchBoxListTemplate_SearchBoxListTemplateSearchProgress
---- @field loading SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading
---- @field bar SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar
---- @field background Texture
 EncounterJournalSearchBoxSearchProgress = {}
 EncounterJournalSearchBoxSearchProgress["loading"] = SearchBoxListTemplateSearchProgressLoading
 EncounterJournalSearchBoxSearchProgress["bar"] = SearchBoxListTemplateSearchProgressBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1504)
+--- child of EncounterJournalSearchBox (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+EncounterJournalSearchBoxClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1495)
+--- child of EncounterJournalSearchBox (created in template SearchBoxTemplate)
+--- @type Texture
+EncounterJournalSearchBoxSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1336)
 --- child of EncounterJournal
@@ -815,10 +756,10 @@ EncounterJournalSearchBoxSearchProgress["bar"] = SearchBoxListTemplateSearchProg
 --- @field buttonTemplate string # "EncounterSearchSMTemplate"
 EncounterJournalSearchBox = {}
 EncounterJournalSearchBox["buttonTemplate"] = "EncounterSearchSMTemplate"
-EncounterJournalSearchBox["instructionText"] = SEARCH -- inherited
-EncounterJournalSearchBox["clearButton"] = SearchBoxListTemplateClearButton -- inherited
-EncounterJournalSearchBox["searchIcon"] = SearchBoxListTemplateSearchIcon -- inherited
 EncounterJournalSearchBox["searchProgress"] = EncounterJournalSearchBoxSearchProgress -- inherited
+EncounterJournalSearchBox["instructionText"] = SEARCH -- inherited
+EncounterJournalSearchBox["clearButton"] = EncounterJournalSearchBoxClearButton -- inherited
+EncounterJournalSearchBox["searchIcon"] = EncounterJournalSearchBoxSearchIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2746)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
@@ -1047,14 +988,6 @@ EncounterJournalEncounterFrameInstanceFrame["title"] = EncounterJournalEncounter
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoInstanceButton_EncounterJournalEncounterFrameInfoInstanceButtonIcon : Texture
 EncounterJournalEncounterFrameInfoInstanceButtonIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1618)
---- child of EncounterJournalEncounterFrameInfoInstanceButton
---- @class  : Texture, UI-EJ-BossModelButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1619)
---- child of EncounterJournalEncounterFrameInfoInstanceButton
---- @class  : Texture, UI-EJ-BossModelButton
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1603)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoInstanceButton : Button
@@ -1171,10 +1104,6 @@ EncounterJournalEncounterFrameInfoOverviewScrollFrame["scrollBarX"] = -15
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_EncounterJournalEncounterFrameInfoClassFilterClearFrame_EncounterJournalEncounterFrameInfoClassFilterClearFrameExitButton : Button
 --- @field texture Texture
 EncounterJournalEncounterFrameInfoClassFilterClearFrameExitButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1863)
---- child of EncounterJournalEncounterFrameInfoClassFilterClearFrame
---- @class  : Texture, UI-EJ-FilterBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1871)
 --- child of EncounterJournalEncounterFrameInfoClassFilterClearFrame
@@ -1318,6 +1247,7 @@ EncounterJournalEncounterFrameInfoInstanceTitle = {}
 --- @field overviewScroll EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewScrollFrame
 --- @field LootContainer EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer
 --- @field model EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame
+--- @field creatureButtons table<number, EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoCreatureButton1>
 --- @field leftShadow EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoLeftHeaderShadow
 --- @field rightShadow EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoRightHeaderShadow
 --- @field encounterTitle EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoEncounterTitle
@@ -1368,10 +1298,6 @@ EncounterJournalMonthlyActivitiesFrame = {}
 --- @class EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_centerDisplay : Frame
 --- @field title EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_centerDisplay_title
 --- @field description EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_centerDisplay_description
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2119)
---- child of 
---- @class  : Texture, UIPanelButtonHighlightTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2108)
 --- child of 
@@ -1751,15 +1677,15 @@ EncounterJournalLootJournalTab["midHighlight"] = EncounterJournalLootJournalTabM
 EncounterJournalLootJournalTab["leftHighlight"] = EncounterJournalLootJournalTabLeftHighlight -- inherited
 EncounterJournalLootJournalTab["rightHighlight"] = EncounterJournalLootJournalTabRightHighlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1062)
---- child of PortraitFrameTemplateNoCloseButton (created in template PortraitFrameTexturedBaseTemplate)
---- @type Texture
-PortraitFrameTemplateNoCloseButtonBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1095)
 --- child of EncounterJournal (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 EncounterJournalCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1062)
+--- child of EncounterJournal (created in template PortraitFrameTexturedBaseTemplate)
+--- @type Texture
+EncounterJournalBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1323)
 --- @class EncounterJournal : Frame, PortraitFrameTemplate
@@ -1773,10 +1699,15 @@ EncounterJournalCloseButton = {}
 --- @field MonthlyActivitiesFrame EncounterJournal_EncounterJournalMonthlyActivitiesFrame
 --- @field suggestFrame EncounterJournal_EncounterJournalSuggestFrame
 --- @field MonthlyActivitiesTab EncounterJournal_EncounterJournalMonthlyActivitiesTab
+--- @field Tabs table<number, EncounterJournal_EncounterJournalMonthlyActivitiesTab>
 --- @field suggestTab EncounterJournal_EncounterJournalSuggestTab
+--- @field Tabs table<number, EncounterJournal_EncounterJournalSuggestTab>
 --- @field dungeonsTab EncounterJournal_EncounterJournalDungeonTab
+--- @field Tabs table<number, EncounterJournal_EncounterJournalDungeonTab>
 --- @field raidsTab EncounterJournal_EncounterJournalRaidTab
+--- @field Tabs table<number, EncounterJournal_EncounterJournalRaidTab>
 --- @field LootJournalTab EncounterJournal_EncounterJournalLootJournalTab
+--- @field Tabs table<number, EncounterJournal_EncounterJournalLootJournalTab>
 EncounterJournal = {}
 EncounterJournal["searchBox"] = EncounterJournalSearchBox
 EncounterJournal["searchResults"] = EncounterJournalSearchResults
@@ -1791,184 +1722,184 @@ EncounterJournal["suggestTab"] = EncounterJournalSuggestTab
 EncounterJournal["dungeonsTab"] = EncounterJournalDungeonTab
 EncounterJournal["raidsTab"] = EncounterJournalRaidTab
 EncounterJournal["LootJournalTab"] = EncounterJournalLootJournalTab
-EncounterJournal["layoutType"] = "PortraitFrameTemplate" -- inherited
-EncounterJournal["Bg"] = PortraitFrameTemplateNoCloseButtonBg -- inherited
 EncounterJournal["CloseButton"] = EncounterJournalCloseButton -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L35)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
-SharedTooltipTemplateTextLeft1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L36)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
-SharedTooltipTemplateTextRight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L41)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
-SharedTooltipTemplateTextLeft2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L42)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
-SharedTooltipTemplateTextRight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L47)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
-SharedTooltipTemplateTexture1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L48)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
-SharedTooltipTemplateTexture2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L49)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
-SharedTooltipTemplateTexture3 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L50)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
-SharedTooltipTemplateTexture4 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L51)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
-SharedTooltipTemplateTexture5 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L52)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
-SharedTooltipTemplateTexture6 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L53)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
-SharedTooltipTemplateTexture7 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L54)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
-SharedTooltipTemplateTexture8 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L55)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
-SharedTooltipTemplateTexture9 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L56)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
-SharedTooltipTemplateTexture10 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L57)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
-SharedTooltipTemplateTexture11 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L58)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
-SharedTooltipTemplateTexture12 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L59)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
-SharedTooltipTemplateTexture13 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L60)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
-SharedTooltipTemplateTexture14 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L61)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
-SharedTooltipTemplateTexture15 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L62)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
-SharedTooltipTemplateTexture16 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L63)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
-SharedTooltipTemplateTexture17 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L64)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
-SharedTooltipTemplateTexture18 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L65)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
-SharedTooltipTemplateTexture19 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L66)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
-SharedTooltipTemplateTexture20 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L67)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
-SharedTooltipTemplateTexture21 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L68)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
-SharedTooltipTemplateTexture22 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L69)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
-SharedTooltipTemplateTexture23 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L70)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
-SharedTooltipTemplateTexture24 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L71)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
-SharedTooltipTemplateTexture25 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L72)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
-SharedTooltipTemplateTexture26 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L73)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
-SharedTooltipTemplateTexture27 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L74)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
-SharedTooltipTemplateTexture28 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L75)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
-SharedTooltipTemplateTexture29 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L76)
---- child of SharedTooltipTemplate (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
-SharedTooltipTemplateTexture30 = {}
+EncounterJournal["Bg"] = EncounterJournalBg -- inherited
+EncounterJournal["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L9)
 --- child of EncounterJournalTooltipItem1Tooltip (created in template GameTooltipTemplate)
 --- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
 EncounterJournalTooltipItem1TooltipStatusBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L35)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
+EncounterJournalTooltipItem1TooltipTextLeft1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L36)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
+EncounterJournalTooltipItem1TooltipTextRight1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L41)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
+EncounterJournalTooltipItem1TooltipTextLeft2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L42)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
+EncounterJournalTooltipItem1TooltipTextRight2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L47)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
+EncounterJournalTooltipItem1TooltipTexture1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L48)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
+EncounterJournalTooltipItem1TooltipTexture2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L49)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
+EncounterJournalTooltipItem1TooltipTexture3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L50)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
+EncounterJournalTooltipItem1TooltipTexture4 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L51)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
+EncounterJournalTooltipItem1TooltipTexture5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L52)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
+EncounterJournalTooltipItem1TooltipTexture6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L53)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
+EncounterJournalTooltipItem1TooltipTexture7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L54)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
+EncounterJournalTooltipItem1TooltipTexture8 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L55)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
+EncounterJournalTooltipItem1TooltipTexture9 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L56)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
+EncounterJournalTooltipItem1TooltipTexture10 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L57)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
+EncounterJournalTooltipItem1TooltipTexture11 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L58)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
+EncounterJournalTooltipItem1TooltipTexture12 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L59)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
+EncounterJournalTooltipItem1TooltipTexture13 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L60)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
+EncounterJournalTooltipItem1TooltipTexture14 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L61)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
+EncounterJournalTooltipItem1TooltipTexture15 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L62)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
+EncounterJournalTooltipItem1TooltipTexture16 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L63)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
+EncounterJournalTooltipItem1TooltipTexture17 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L64)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
+EncounterJournalTooltipItem1TooltipTexture18 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L65)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
+EncounterJournalTooltipItem1TooltipTexture19 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L66)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
+EncounterJournalTooltipItem1TooltipTexture20 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L67)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
+EncounterJournalTooltipItem1TooltipTexture21 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L68)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
+EncounterJournalTooltipItem1TooltipTexture22 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L69)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
+EncounterJournalTooltipItem1TooltipTexture23 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L70)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
+EncounterJournalTooltipItem1TooltipTexture24 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L71)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
+EncounterJournalTooltipItem1TooltipTexture25 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L72)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
+EncounterJournalTooltipItem1TooltipTexture26 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L73)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
+EncounterJournalTooltipItem1TooltipTexture27 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L74)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
+EncounterJournalTooltipItem1TooltipTexture28 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L75)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
+EncounterJournalTooltipItem1TooltipTexture29 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L76)
+--- child of EncounterJournalTooltipItem1Tooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
+EncounterJournalTooltipItem1TooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2341)
 --- child of EncounterJournalTooltipItem1
@@ -1976,13 +1907,13 @@ EncounterJournalTooltipItem1TooltipStatusBar = {}
 --- @field IsEmbedded boolean # true
 EncounterJournalTooltipItem1Tooltip = {}
 EncounterJournalTooltipItem1Tooltip["IsEmbedded"] = true
-EncounterJournalTooltipItem1Tooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
-EncounterJournalTooltipItem1Tooltip["TextLeft1"] = SharedTooltipTemplateTextLeft1 -- inherited
-EncounterJournalTooltipItem1Tooltip["TextRight1"] = SharedTooltipTemplateTextRight1 -- inherited
-EncounterJournalTooltipItem1Tooltip["TextLeft2"] = SharedTooltipTemplateTextLeft2 -- inherited
-EncounterJournalTooltipItem1Tooltip["TextRight2"] = SharedTooltipTemplateTextRight2 -- inherited
 EncounterJournalTooltipItem1Tooltip["supportsDataRefresh"] = true -- inherited
 EncounterJournalTooltipItem1Tooltip["StatusBar"] = EncounterJournalTooltipItem1TooltipStatusBar -- inherited
+EncounterJournalTooltipItem1Tooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+EncounterJournalTooltipItem1Tooltip["TextLeft1"] = EncounterJournalTooltipItem1TooltipTextLeft1 -- inherited
+EncounterJournalTooltipItem1Tooltip["TextRight1"] = EncounterJournalTooltipItem1TooltipTextRight1 -- inherited
+EncounterJournalTooltipItem1Tooltip["TextLeft2"] = EncounterJournalTooltipItem1TooltipTextLeft2 -- inherited
+EncounterJournalTooltipItem1Tooltip["TextRight2"] = EncounterJournalTooltipItem1TooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2302)
 --- child of EncounterJournalTooltipItem1

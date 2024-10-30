@@ -37,10 +37,6 @@
 --- child of RoleSelectionTemplate
 --- @class RoleSelectionTemplate_CancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/RoleSelectionTemplate.xml#L53)
---- child of RoleSelectionTemplate
---- @class  : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/RoleSelectionTemplate.xml#L58)
 --- child of RoleSelectionTemplate
 --- @class RoleSelectionTemplate_QueueWarningText : FontString, GameFontHighlight
@@ -51,8 +47,11 @@
 --- @field Border RoleSelectionTemplate_Border
 --- @field CloseButton RoleSelectionTemplate_CloseButton
 --- @field RoleButtonTank RoleSelectionTemplate_RoleButtonTank
+--- @field Roles table<number, RoleSelectionTemplate_RoleButtonTank>
 --- @field RoleButtonHealer RoleSelectionTemplate_RoleButtonHealer
+--- @field Roles table<number, RoleSelectionTemplate_RoleButtonHealer>
 --- @field RoleButtonDPS RoleSelectionTemplate_RoleButtonDPS
+--- @field Roles table<number, RoleSelectionTemplate_RoleButtonDPS>
 --- @field AcceptButton RoleSelectionTemplate_AcceptButton
 --- @field CancelButton RoleSelectionTemplate_CancelButton
 --- @field QueueWarningText RoleSelectionTemplate_QueueWarningText

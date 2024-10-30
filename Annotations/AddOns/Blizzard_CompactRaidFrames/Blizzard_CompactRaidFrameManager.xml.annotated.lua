@@ -185,7 +185,9 @@ CompactRaidFrameManagerDisplayFrameRaidMarkersBG-regular = {}
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers : Frame, CRFRaidMarkersMixin
 --- @field raidMarkerUnitTab CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarkerUnitTab
+--- @field Tabs table<number, CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarkerUnitTab>
 --- @field raidMarkerGroundTab CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarkerGroundTab
+--- @field Tabs table<number, CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRaidMarkers_CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarkerGroundTab>
 CompactRaidFrameManagerDisplayFrameRaidMarkers = {}
 CompactRaidFrameManagerDisplayFrameRaidMarkers["raidMarkerUnitTab"] = CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarkerUnitTab
 CompactRaidFrameManagerDisplayFrameRaidMarkers["raidMarkerGroundTab"] = CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarkerGroundTab
@@ -304,10 +306,15 @@ CompactRaidFrameManagerBG-party-regulars = {}
 --- @field toggleButton CompactRaidFrameManager_CompactRaidFrameManagerToggleButton
 --- @field displayFrame CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame
 --- @field BGLeads CompactRaidFrameManager_CompactRaidFrameManagerBG_leads
+--- @field backgrounds table<number, CompactRaidFrameManager_CompactRaidFrameManagerBG_leads>
 --- @field BGAssists CompactRaidFrameManager_CompactRaidFrameManagerBG_assists
+--- @field backgrounds table<number, CompactRaidFrameManager_CompactRaidFrameManagerBG_assists>
 --- @field BGRegulars CompactRaidFrameManager_CompactRaidFrameManagerBG_regulars
+--- @field backgrounds table<number, CompactRaidFrameManager_CompactRaidFrameManagerBG_regulars>
 --- @field BGPartyLeads CompactRaidFrameManager_CompactRaidFrameManagerBG_party_leads
+--- @field backgrounds table<number, CompactRaidFrameManager_CompactRaidFrameManagerBG_party_leads>
 --- @field BGPartyRegulars CompactRaidFrameManager_CompactRaidFrameManagerBG_party_regulars
+--- @field backgrounds table<number, CompactRaidFrameManager_CompactRaidFrameManagerBG_party_regulars>
 CompactRaidFrameManager = {}
 CompactRaidFrameManager["toggleButton"] = CompactRaidFrameManagerToggleButton
 CompactRaidFrameManager["displayFrame"] = CompactRaidFrameManagerDisplayFrame

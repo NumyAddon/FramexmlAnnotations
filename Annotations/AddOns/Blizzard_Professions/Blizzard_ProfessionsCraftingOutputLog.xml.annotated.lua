@@ -65,8 +65,11 @@
 --- @class ProfessionsCraftingOutputLogElementTemplate : Frame, ProfessionsCraftingOutputLogElementMixin
 --- @field ItemContainer ProfessionsCraftingOutputLogElementTemplate_ItemContainer
 --- @field Multicraft ProfessionsCraftingOutputLogElementTemplate_Multicraft
+--- @field Rows table<number, ProfessionsCraftingOutputLogElementTemplate_Multicraft>
 --- @field Resources ProfessionsCraftingOutputLogElementTemplate_Resources
+--- @field Rows table<number, ProfessionsCraftingOutputLogElementTemplate_Resources>
 --- @field BonusCraft ProfessionsCraftingOutputLogElementTemplate_BonusCraft
+--- @field Rows table<number, ProfessionsCraftingOutputLogElementTemplate_BonusCraft>
 --- @field ShowAnim ProfessionsCraftingOutputLogElementTemplate_ShowAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.xml#L134)

@@ -81,34 +81,6 @@
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_FxModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L331)
---- child of ClassTalentsFrameTemplate
---- @class  : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L344)
---- child of ClassTalentsFrameTemplate
---- @class  : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L349)
---- child of ClassTalentsFrameTemplate
---- @class  : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L354)
---- child of ClassTalentsFrameTemplate
---- @class  : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L362)
---- child of ClassTalentsFrameTemplate
---- @class  : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L370)
---- child of ClassTalentsFrameTemplate
---- @class  : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L378)
---- child of ClassTalentsFrameTemplate
---- @class  : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L19)
 --- Template
 --- @class ClassTalentsFrameTemplate : Frame, TalentFrameBaseTemplate, ClassTalentsFrameMixin
@@ -130,9 +102,12 @@
 --- @field BlackBG Texture
 --- @field BottomBar Texture
 --- @field Background Texture
+--- @field specBackgrounds table<number, Texture>
 --- @field OverlayBackgroundRight Texture
+--- @field specBackgrounds table<number, Texture>
 --- @field OverlayBackgroundRightMask MaskTexture
 --- @field OverlayBackgroundMid Texture
+--- @field specBackgrounds table<number, Texture>
 --- @field OverlayBackgroundMidMask MaskTexture
 --- @field Clouds1 Texture
 --- @field Clouds2 Texture
@@ -141,9 +116,21 @@
 --- @field ActivationExpandFx Texture
 --- @field ActivationExpandFxMask MaskTexture
 --- @field ActivationClassFx Texture
+--- @field classActivationTextures table<number, Texture>
 --- @field ActivationClassFx2 Texture
+--- @field classActivationTextures table<number, Texture>
 --- @field ActivationClassFx3 Texture
+--- @field classActivationTextures table<number, Texture>
 --- @field ActivationClassFx4 Texture
+--- @field classActivationTextures table<number, Texture>
 --- @field ActivationTitansFX Texture
+--- @field Textures table<number, Texture>
 --- @field FullMask MaskTexture
+--- @field commitFlashAnims table<number, >
+--- @field backgroundAnims table<number, >
+--- @field backgroundAnims table<number, >
+--- @field backgroundAnims table<number, >
+--- @field backgroundAnims table<number, >
+--- @field backgroundAnims table<number, >
+--- @field backgroundAnims table<number, >
 

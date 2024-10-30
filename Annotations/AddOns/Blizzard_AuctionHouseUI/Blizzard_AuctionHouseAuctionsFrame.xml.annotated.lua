@@ -81,7 +81,9 @@
 --- Template
 --- @class AuctionHouseAuctionsFrameTemplate : Frame, AuctionHouseAuctionsFrameMixin
 --- @field AuctionsTab AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateAuctionsTab
+--- @field Tabs table<number, AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateAuctionsTab>
 --- @field BidsTab AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateBidsTab
+--- @field Tabs table<number, AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateBidsTab>
 --- @field CancelAuctionButton AuctionHouseAuctionsFrameTemplate_CancelAuctionButton
 --- @field BuyoutFrame AuctionHouseAuctionsFrameTemplate_BuyoutFrame
 --- @field BidFrame AuctionHouseAuctionsFrameTemplate_BidFrame

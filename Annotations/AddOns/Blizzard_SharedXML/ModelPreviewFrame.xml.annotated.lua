@@ -87,21 +87,21 @@ ModelPreviewFrameRight = {}
 ModelPreviewFrameCloseButton = {}
 ModelPreviewFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L1142)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
-ButtonFrameTemplateCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L1125)
---- child of ButtonFrameTemplate (created in template ButtonFrameBaseTemplate)
---- @type Texture
-ButtonFrameTemplateBg = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L1148)
 --- child of ModelPreviewFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ModelPreviewFrameInset = {}
 ModelPreviewFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L1142)
+--- child of ModelPreviewFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+ModelPreviewFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L1125)
+--- child of ModelPreviewFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+ModelPreviewFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L3)
 --- @class ModelPreviewFrame : Frame, ButtonFrameTemplate
@@ -109,8 +109,8 @@ ModelPreviewFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field CloseButton ModelPreviewFrame_ModelPreviewFrameCloseButton
 ModelPreviewFrame = {}
 ModelPreviewFrame["CloseButton"] = ModelPreviewFrameCloseButton
-ModelPreviewFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-ModelPreviewFrame["CloseButton"] = ButtonFrameTemplateCloseButton -- inherited
-ModelPreviewFrame["Bg"] = ButtonFrameTemplateBg -- inherited
 ModelPreviewFrame["Inset"] = ModelPreviewFrameInset -- inherited
+ModelPreviewFrame["CloseButton"] = ModelPreviewFrameCloseButton -- inherited
+ModelPreviewFrame["Bg"] = ModelPreviewFrameBg -- inherited
+ModelPreviewFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

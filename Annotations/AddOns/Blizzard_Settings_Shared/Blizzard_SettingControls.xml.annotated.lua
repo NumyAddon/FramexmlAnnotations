@@ -23,7 +23,7 @@
 --- @field Text SettingsAddOnDisabledLabelTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L56)
---- child of 
+--- child of SettingsListElementTemplate_Tooltip
 --- @class SettingsListElementTemplate_Tooltip_HoverBackground : Texture, HoverBackgroundTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L49)

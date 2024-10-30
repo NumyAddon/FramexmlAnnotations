@@ -5,7 +5,7 @@
 --- @class GlueMenuFrameButtonTemplate : Button, GlueButtonSmallTemplateBlue
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L37)
---- child of 
+--- child of GlueMenuFrame_OptionsButton
 --- @class GlueMenuFrame_OptionsButton_New : Frame, NewFeatureLabelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/GlueMenuFrame.xml#L32)

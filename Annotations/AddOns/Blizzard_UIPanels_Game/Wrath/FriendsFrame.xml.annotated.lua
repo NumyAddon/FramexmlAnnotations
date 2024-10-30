@@ -181,7 +181,7 @@
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L152)
---- child of  (created in template UIPanelInfoButton)
+--- child of FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton (created in template UIPanelInfoButton)
 --- @type Texture
 FriendsFrameBattlenetFrameTexture = {}
 
@@ -190,7 +190,7 @@ FriendsFrameBattlenetFrameTexture = {}
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton : Button, UIPanelInfoButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L963)
---- child of 
+--- child of FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame_EditBox
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame_EditBox_PromptText : FontString, FriendsFont_Small
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L959)
@@ -230,7 +230,7 @@ FriendsFrameBattlenetFrameScrollFrameScrollBar["ScrollDownButton"] = FriendsFram
 FriendsFrameBattlenetFrameScrollFrameScrollBar["ThumbTexture"] = FriendsFrameBattlenetFrameScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L856)
---- child of 
+--- child of FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 --- @field EditBox FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame_EditBox
 --- @field UpdateButton FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame_UpdateButton
@@ -254,11 +254,11 @@ FriendsFrameBattlenetFrameScrollFrame["ScrollBar"] = FriendsFrameBattlenetFrameS
 --- @field ScrollFrame FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastFrame_FriendsFrameBattlenetFrameScrollFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1005)
---- child of 
+--- child of FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoFrame_Label : FontString, FriendsFont_Large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1017)
---- child of 
+--- child of FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoFrame_Text : FontString, FriendsFont_Normal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L995)
@@ -446,28 +446,28 @@ FriendsFrameSendMessageButton = {}
 FriendsFrameSendMessageButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1290)
---- child of 
+--- child of FriendsFrame_FriendsListFrame_RIDWarning
 --- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFrameContinueButton : Button, UIPanelButtonTemplate
 FriendsListFrameContinueButton = {}
 FriendsListFrameContinueButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1256)
---- child of 
+--- child of FriendsFrame_FriendsListFrame_RIDWarning
 --- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFrameLeft : Texture
 FriendsListFrameLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1263)
---- child of 
+--- child of FriendsFrame_FriendsListFrame_RIDWarning
 --- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFrameBattlenetIcon : Texture
 FriendsListFrameBattlenetIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1270)
---- child of 
+--- child of FriendsFrame_FriendsListFrame_RIDWarning
 --- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFramePlayerIcon : Texture
 FriendsListFramePlayerIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1275)
---- child of 
+--- child of FriendsFrame_FriendsListFrame_RIDWarning
 --- @class FriendsFrame_FriendsListFrame_RIDWarning_FriendsListFrameTitle : FontString, GameFontNormal
 FriendsListFrameTitle = {}
 
@@ -476,56 +476,56 @@ FriendsListFrameTitle = {}
 --- @class FriendsFrame_FriendsListFrame_RIDWarning : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1367)
---- child of 
+--- child of FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton_Flash
 --- @class FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton_Flash_Anim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1365)
---- child of 
+--- child of FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton
 --- @class FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton_Flash : Texture
 --- @field Anim FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton_Flash_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L985)
---- child of  (created in template UIMenuButtonStretchTemplate)
+--- child of FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 FriendsFrameFriendsScrollFrameTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L992)
---- child of  (created in template UIMenuButtonStretchTemplate)
+--- child of FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 FriendsFrameFriendsScrollFrameTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L999)
---- child of  (created in template UIMenuButtonStretchTemplate)
+--- child of FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 FriendsFrameFriendsScrollFrameBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1006)
---- child of  (created in template UIMenuButtonStretchTemplate)
+--- child of FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 FriendsFrameFriendsScrollFrameBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1013)
---- child of  (created in template UIMenuButtonStretchTemplate)
+--- child of FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 FriendsFrameFriendsScrollFrameTopMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1021)
---- child of  (created in template UIMenuButtonStretchTemplate)
+--- child of FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 FriendsFrameFriendsScrollFrameMiddleLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1029)
---- child of  (created in template UIMenuButtonStretchTemplate)
+--- child of FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 FriendsFrameFriendsScrollFrameMiddleRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1037)
---- child of  (created in template UIMenuButtonStretchTemplate)
+--- child of FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 FriendsFrameFriendsScrollFrameBottomMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/FriendsFrame.xml#L1045)
---- child of  (created in template UIMenuButtonStretchTemplate)
+--- child of FriendsFrame_FriendsListFrame_FriendsFrameFriendsScrollFrame_PendingInvitesHeaderButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 FriendsFrameFriendsScrollFrameMiddleMiddle = {}
 

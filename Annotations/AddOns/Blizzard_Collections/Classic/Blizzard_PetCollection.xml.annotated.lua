@@ -5,7 +5,7 @@
 --- @class ExpBar_Divider : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L93)
---- child of 
+--- child of CompanionListButtonTemplate_dragButton
 --- @class CompanionListButtonTemplate_dragButton_Cooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L77)
@@ -43,11 +43,11 @@
 --- @field newGlow Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L136)
---- child of 
+--- child of PetJournal_PetCount
 --- @class PetJournal_PetCount_Count : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L141)
---- child of 
+--- child of PetJournal_PetCount
 --- @class PetJournal_PetCount_Label : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L129)
@@ -204,42 +204,42 @@ PetJournalSearchBox["searchIcon"] = PetJournalSearchBoxSearchIcon -- inherited
 --- @class PetJournal_ScrollBar : EventFrame, WowTrimScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L266)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L271)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L279)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L287)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L295)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L301)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L307)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L313)
---- child of  (created in template ShadowOverlayTemplate)
+--- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardRight = {}
 
@@ -288,11 +288,11 @@ PetJournalPetCardPetInfo["subName"] = PetJournalPetCardPetInfoSubName
 PetJournalPetCardPetInfo["favorite"] = PetJournalPetCardPetInfoFavorite
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L310)
---- child of 
+--- child of PetJournal_PetJournalPetCard_modelScene
 --- @class PetJournal_PetJournalPetCard_modelScene_RotateLeftButton : Button, RotateOrbitCameraLeftButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L311)
---- child of 
+--- child of PetJournal_PetJournalPetCard_modelScene
 --- @class PetJournal_PetJournalPetCard_modelScene_RotateRightButton : Button, RotateOrbitCameraRightButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L304)

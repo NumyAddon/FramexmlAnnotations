@@ -87,7 +87,7 @@ QuestMapDetailsScrollFrameScrollBar["ScrollDownButton"] = QuestMapDetailsScrollF
 QuestMapDetailsScrollFrameScrollBar["ThumbTexture"] = QuestMapDetailsScrollFrameScrollBarThumbTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L203)
---- child of 
+--- child of QuestMapFrame_DetailsFrame
 --- @class QuestMapFrame_DetailsFrame_QuestMapDetailsScrollFrame : EventScrollFrame, UIPanelScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
 QuestMapDetailsScrollFrame = {}

@@ -9,7 +9,7 @@ NamePlateDriverFrame = {}
 --- @class NamePlateFullBorderTemplate : Frame, NamePlateBorderTemplateMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L37)
---- child of 
+--- child of BaseNamePlateUnitFrameTemplate_healthBar
 --- @class BaseNamePlateUnitFrameTemplate_healthBar_border : Frame, NamePlateFullBorderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L31)
@@ -33,7 +33,7 @@ NamePlateDriverFrame = {}
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L97)
---- child of 
+--- child of BaseNamePlateUnitFrameTemplate_LevelFrame
 --- @class BaseNamePlateUnitFrameTemplate_LevelFrame_levelText : FontString, SystemFont_NamePlateLevel
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L90)

@@ -22,11 +22,11 @@
 --- @field maxLetters number # 250
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L140)
---- child of 
+--- child of CommunitiesSettingsDialog_CrossFactionToggle
 --- @class CommunitiesSettingsDialog_CrossFactionToggle_CheckButton : CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L154)
---- child of 
+--- child of CommunitiesSettingsDialog_CrossFactionToggle
 --- @class CommunitiesSettingsDialog_CrossFactionToggle_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L134)
@@ -36,11 +36,11 @@
 --- @field Label CommunitiesSettingsDialog_CrossFactionToggle_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L173)
---- child of 
+--- child of CommunitiesSettingsDialog_ShouldListClub
 --- @class CommunitiesSettingsDialog_ShouldListClub_Button : CheckButton, ClubFinderCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L188)
---- child of 
+--- child of CommunitiesSettingsDialog_ShouldListClub
 --- @class CommunitiesSettingsDialog_ShouldListClub_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L167)
@@ -50,11 +50,11 @@
 --- @field Label CommunitiesSettingsDialog_ShouldListClub_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L203)
---- child of 
+--- child of CommunitiesSettingsDialog_AutoAcceptApplications
 --- @class CommunitiesSettingsDialog_AutoAcceptApplications_Button : CheckButton, ClubFinderCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L212)
---- child of 
+--- child of CommunitiesSettingsDialog_AutoAcceptApplications
 --- @class CommunitiesSettingsDialog_AutoAcceptApplications_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L197)
@@ -64,11 +64,11 @@
 --- @field Label CommunitiesSettingsDialog_AutoAcceptApplications_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L227)
---- child of 
+--- child of CommunitiesSettingsDialog_MaxLevelOnly
 --- @class CommunitiesSettingsDialog_MaxLevelOnly_Button : CheckButton, ClubFinderCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L236)
---- child of 
+--- child of CommunitiesSettingsDialog_MaxLevelOnly
 --- @class CommunitiesSettingsDialog_MaxLevelOnly_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L221)
@@ -78,20 +78,20 @@
 --- @field Label CommunitiesSettingsDialog_MaxLevelOnly_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L251)
---- child of 
+--- child of CommunitiesSettingsDialog_MinIlvlOnly
 --- @class CommunitiesSettingsDialog_MinIlvlOnly_Button : CheckButton, ClubFinderCheckboxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L273)
---- child of 
+--- child of CommunitiesSettingsDialog_MinIlvlOnly_EditBox
 --- @class CommunitiesSettingsDialog_MinIlvlOnly_EditBox_Text : FontString, GameFontDisable
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L266)
---- child of 
+--- child of CommunitiesSettingsDialog_MinIlvlOnly
 --- @class CommunitiesSettingsDialog_MinIlvlOnly_EditBox : EditBox, InputBoxTemplate
 --- @field Text CommunitiesSettingsDialog_MinIlvlOnly_EditBox_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L290)
---- child of 
+--- child of CommunitiesSettingsDialog_MinIlvlOnly
 --- @class CommunitiesSettingsDialog_MinIlvlOnly_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L245)

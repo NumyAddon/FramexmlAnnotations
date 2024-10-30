@@ -256,7 +256,7 @@ WorldMapTooltipTooltipTexture9 = {}
 WorldMapTooltipTooltipTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L103)
---- child of  (created in template InternalEmbeddedItemTooltipTemplate)
+--- child of WorldMapTooltip_ItemTooltip (created in template InternalEmbeddedItemTooltipTemplate)
 --- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateTooltip
 WorldMapTooltipTooltip = {}
 WorldMapTooltipTooltip["IsEmbedded"] = true

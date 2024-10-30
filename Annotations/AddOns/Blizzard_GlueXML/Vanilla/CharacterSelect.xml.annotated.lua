@@ -89,7 +89,7 @@
 --- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L447)
---- child of 
+--- child of CharacterVASTemplate_Timer
 --- @class CharacterVASTemplate_Timer_TimerText : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L440)
@@ -98,7 +98,7 @@
 --- @field TimerText CharacterVASTemplate_Timer_TimerText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L467)
---- child of 
+--- child of CharacterVASTemplate_GlowSpin
 --- @class CharacterVASTemplate_GlowSpin_SpinAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L456)
@@ -107,7 +107,7 @@
 --- @field SpinAnim CharacterVASTemplate_GlowSpin_SpinAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L486)
---- child of 
+--- child of CharacterVASTemplate_GlowPulse
 --- @class CharacterVASTemplate_GlowPulse_PulseAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L472)
@@ -388,7 +388,7 @@ CharacterSelectRotateLeft = {}
 CharacterSelectRotateRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L851)
---- child of 
+--- child of CharacterSelect_CharacterSelectUI_ConfigurationWarnings
 --- @class CharacterSelect_CharacterSelectUI_ConfigurationWarnings_PulseAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L840)
@@ -1215,7 +1215,7 @@ CharacterSelectCharacterFrame["layoutType"] = "TooltipDefaultLayout" -- inherite
 CharSelectServicesCover = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1434)
---- child of 
+--- child of CharacterSelect_CharacterSelectUI_WarningText
 --- @class CharacterSelect_CharacterSelectUI_WarningText_WarningString : FontString, GameFontNormalMed2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1427)
@@ -1224,7 +1224,7 @@ CharSelectServicesCover = {}
 --- @field WarningString CharacterSelect_CharacterSelectUI_WarningText_WarningString
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1473)
---- child of 
+--- child of CharacterSelect_CharacterSelectUI_UpgradePopupFrame_Timer
 --- @class CharacterSelect_CharacterSelectUI_UpgradePopupFrame_Timer_TimerText : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1466)
@@ -1259,7 +1259,7 @@ CharSelectServicesCover = {}
 UpgradePopupFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1564)
---- child of 
+--- child of CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_ErrorMessageContainer
 --- @class CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_ErrorMessageContainer_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1557)
@@ -1281,7 +1281,7 @@ CharacterServicesMaster = {}
 --- @class CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_BackButton : Button, GlueButtonSmallTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1610)
---- child of 
+--- child of CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_NextButton
 --- @class CharacterSelect_CharacterSelectUI_CharSelectServicesFlowFrame_NextButton_PulseAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L1607)
@@ -1586,7 +1586,7 @@ CopyCharacterFrameRegionID = {}
 CopyCharacterFrameRegionID["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2305)
---- child of 
+--- child of CopyCharacterFrame_RealmName
 --- @class CopyCharacterFrame_RealmName_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2298)
@@ -1595,7 +1595,7 @@ CopyCharacterFrameRegionID["menuMixin"] = MenuStyle1Mixin -- inherited
 --- @field Text CopyCharacterFrame_RealmName_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2328)
---- child of 
+--- child of CopyCharacterFrame_CharacterName
 --- @class CopyCharacterFrame_CharacterName_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterSelect.xml#L2321)

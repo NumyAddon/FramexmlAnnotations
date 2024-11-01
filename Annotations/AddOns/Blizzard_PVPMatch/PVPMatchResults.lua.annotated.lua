@@ -81,5 +81,5 @@ function PVPMatchResultsRatingMixin:Init(rating, ratingChange) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L528)
 function PVPMatchResultsRatingMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L548)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L558)
 function PVPMatchResultsRatingMixin:OnLeave() end

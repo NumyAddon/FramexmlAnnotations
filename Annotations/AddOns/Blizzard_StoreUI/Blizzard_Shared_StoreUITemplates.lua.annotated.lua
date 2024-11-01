@@ -33,11 +33,11 @@ function CategoryTreeScrollContainerMixin:OnLoad() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L215)
 function CategoryTreeScrollContainerMixin:ExpandSelectFirstChild(node, dataProvider) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L228)
 function CategoryTreeScrollContainerMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L234)
 function CategoryTreeScrollContainerMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L280)
 function CategoryTreeScrollContainerMixin:UpdateCategories() end

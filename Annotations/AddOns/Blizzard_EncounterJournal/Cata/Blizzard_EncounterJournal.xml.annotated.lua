@@ -706,25 +706,25 @@
 --- @field leftHighlight BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftHighlight
 --- @field rightHighlight BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2870)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2872)
 --- child of SearchBoxListTemplateSearchProgressLoading
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_spinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2861)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2863)
 --- child of SearchBoxListTemplateSearchProgressLoading
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_SearchBoxListTemplateSearchProgressLoadingText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2854)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2856)
 --- child of SearchBoxListTemplateSearchProgress
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading : Frame
 --- @field spinner SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_spinner
 --- @field text SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_SearchBoxListTemplateSearchProgressLoadingText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2896)
 --- child of SearchBoxListTemplateSearchProgressBar
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar_text : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2878)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2880)
 --- child of SearchBoxListTemplateSearchProgress
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar : StatusBar
 --- @field barBackground Texture
@@ -733,7 +733,7 @@
 --- @field barBorderRight Texture
 --- @field barBorderCenter Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2836)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2838)
 --- child of EncounterJournalSearchBox (created in template SearchBoxListTemplate)
 --- @type SearchBoxListTemplate_SearchBoxListTemplateSearchProgress
 EncounterJournalSearchBoxSearchProgress = {}
@@ -761,62 +761,62 @@ EncounterJournalSearchBox["instructionText"] = SEARCH -- inherited
 EncounterJournalSearchBox["clearButton"] = EncounterJournalSearchBoxClearButton -- inherited
 EncounterJournalSearchBox["searchIcon"] = EncounterJournalSearchBoxSearchIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2744)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2746)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateCloseButton
 EncounterJournalSearchResultsCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2671)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2673)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type Texture
 EncounterJournalSearchResultsBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2680)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2682)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTitleText
 EncounterJournalSearchResultsTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2687)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2689)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopLeftCorner
 EncounterJournalSearchResultsTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2692)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2694)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopRightCorner
 EncounterJournalSearchResultsTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2697)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2699)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopBorder
 EncounterJournalSearchResultsTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2703)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2705)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateLeftBorder
 EncounterJournalSearchResultsLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2709)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2711)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateRightBorder
 EncounterJournalSearchResultsRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2717)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2719)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopTileStreaks
 EncounterJournalSearchResultsTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2725)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2727)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopLeftCorner2
 EncounterJournalSearchResultsTopLeftCorner2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2730)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2732)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopRightCorner2
 EncounterJournalSearchResultsTopRightCorner2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2735)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2737)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopBorder2
 EncounterJournalSearchResultsTopBorder2 = {}

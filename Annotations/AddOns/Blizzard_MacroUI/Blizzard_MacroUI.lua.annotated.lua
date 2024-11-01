@@ -20,53 +20,53 @@ function MacroButtonMixin:OnDragStart() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L48)
 function MacroFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L92)
 function MacroFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L101)
 function MacroFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L114)
 function MacroFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L121)
 function MacroFrameMixin:RefreshIconDataProvider() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L129)
 function MacroFrameMixin:SelectTab(tab) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L136)
 function MacroFrameMixin:ChangeTab(tabID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L146)
 function MacroFrameMixin:SetAccountMacros() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L154)
 function MacroFrameMixin:SetCharacterMacros() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L162)
 function MacroFrameMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L185)
 function MacroFrameMixin:UpdateButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L240)
 function MacroFrameMixin:GetMacroDataIndex(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L262)
-function MacroFrameMixin:SelectMacro(index) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L263)
+function MacroFrameMixin:SelectMacro(index, scrollToSelected) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L290)
 function MacroFrameMixin:GetSelectedIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L294)
 function MacroFrameMixin:DeleteMacro() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L321)
 function MacroFrameMixin:HideDetails() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L325)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L330)
 function MacroFrameMixin:ShowDetails() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L335)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L340)
 function MacroFrameMixin:SaveMacro() end

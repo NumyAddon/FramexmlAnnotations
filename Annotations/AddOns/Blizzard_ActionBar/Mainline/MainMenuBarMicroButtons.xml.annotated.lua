@@ -11,7 +11,7 @@ MicroButtonAndBagsBar = {}
 --- @field PushedBackground Texture
 --- @field FlashBorder Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L41)
 --- @class MicroMenuContainer : Frame, EditModeMicroMenuSystemTemplate, MicroMenuContainerMixin
 MicroMenuContainer = {}
 MicroMenuContainer["system"] = Enum.EditModeSystem.MicroMenu -- inherited
@@ -21,7 +21,7 @@ MicroMenuContainer["system"] = Enum.EditModeSystem.MicroMenu -- inherited
 --- @type Texture
 CharacterMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L48)
 --- @class CharacterMicroButton : Button, MainMenuBarMicroButton, CharacterMicroButtonMixin
 --- @field commandName string # "TOGGLECHARACTER0"
 --- @field Shadow Texture
@@ -37,7 +37,7 @@ CharacterMicroButton["Flash"] = CharacterMicroButtonFlash -- inherited
 --- @type Texture
 ProfessionMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L93)
 --- @class ProfessionMicroButton : Button, MainMenuBarMicroButton, ProfessionMicroButtonMixin
 --- @field commandName string # "TOGGLEPROFESSIONBOOK"
 --- @field FlashContent Texture
@@ -50,7 +50,7 @@ ProfessionMicroButton["Flash"] = ProfessionMicroButtonFlash -- inherited
 --- @type Texture
 PlayerSpellsMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L116)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L109)
 --- @class PlayerSpellsMicroButton : Button, MainMenuBarMicroButton, PlayerSpellsMicroButtonMixin
 --- @field commandName string # "TOGGLETALENTS"
 --- @field FlashContent Texture
@@ -63,7 +63,7 @@ PlayerSpellsMicroButton["Flash"] = PlayerSpellsMicroButtonFlash -- inherited
 --- @type Texture
 AchievementMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L125)
 --- @class AchievementMicroButton : Button, MainMenuBarMicroButton, AchievementMicroButtonMixin
 --- @field commandName string # "TOGGLEACHIEVEMENT"
 --- @field FlashContent Texture
@@ -76,7 +76,7 @@ AchievementMicroButton["Flash"] = AchievementMicroButtonFlash -- inherited
 --- @type Texture
 QuestLogMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L149)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L142)
 --- @class QuestLogMicroButton : Button, MainMenuBarMicroButton, QuestLogMicroButtonMixin
 --- @field commandName string # "TOGGLEQUESTLOG"
 --- @field FlashContent Texture
@@ -84,7 +84,7 @@ QuestLogMicroButton = {}
 QuestLogMicroButton["commandName"] = "TOGGLEQUESTLOG"
 QuestLogMicroButton["Flash"] = QuestLogMicroButtonFlash -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L184)
 --- child of GuildMicroButton
 --- @class GuildMicroButton_NotificationOverlay : Frame
 --- @field UnreadNotificationIcon Texture
@@ -94,7 +94,7 @@ QuestLogMicroButton["Flash"] = QuestLogMicroButtonFlash -- inherited
 --- @type Texture
 GuildMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L165)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L158)
 --- @class GuildMicroButton : Button, MainMenuBarMicroButton, GuildMicroButtonMixin
 --- @field commandName string # "TOGGLEGUILDTAB"
 --- @field NotificationOverlay GuildMicroButton_NotificationOverlay
@@ -110,7 +110,7 @@ GuildMicroButton["Flash"] = GuildMicroButtonFlash -- inherited
 --- @type Texture
 LFDMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L205)
 --- @class LFDMicroButton : Button, MainMenuBarMicroButton, LFDMicroButtonMixin
 --- @field commandName string # "TOGGLEGROUPFINDER"
 --- @field FlashContent Texture
@@ -123,7 +123,7 @@ LFDMicroButton["Flash"] = LFDMicroButtonFlash -- inherited
 --- @type Texture
 CollectionsMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L223)
 --- @class CollectionsMicroButton : Button, MainMenuBarMicroButton, CollectionMicroButtonMixin
 --- @field lastNumMountsNeedingFanfare number # 0
 --- @field FlashContent Texture
@@ -136,7 +136,7 @@ CollectionsMicroButton["Flash"] = CollectionsMicroButtonFlash -- inherited
 --- @type Texture
 EJMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L242)
 --- @class EJMicroButton : Button, MainMenuBarMicroButton, EJMicroButtonMixin
 --- @field commandName string # "TOGGLEENCOUNTERJOURNAL"
 --- @field FlashContent Texture
@@ -149,7 +149,7 @@ EJMicroButton["Flash"] = EJMicroButtonFlash -- inherited
 --- @type Texture
 HelpMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L267)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L260)
 --- @class HelpMicroButton : Button, MainMenuBarMicroButton, HelpMicroButtonMixin
 --- @field tooltipText any # HELP_BUTTON
 --- @field FlashContent Texture
@@ -162,7 +162,7 @@ HelpMicroButton["Flash"] = HelpMicroButtonFlash -- inherited
 --- @type Texture
 StoreMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L275)
 --- @class StoreMicroButton : Button, MainMenuBarMicroButton, StoreMicroButtonMixin
 --- @field FlashContent Texture
 StoreMicroButton = {}
@@ -173,7 +173,7 @@ StoreMicroButton["Flash"] = StoreMicroButtonFlash -- inherited
 --- @type Texture
 MainMenuMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L289)
 --- @class MainMenuMicroButton : Button, MainMenuBarMicroButton, MainMenuMicroButtonMixin
 --- @field commandName string # "TOGGLEGAMEMENU"
 --- @field FlashContent Texture
@@ -182,7 +182,7 @@ MainMenuMicroButton = {}
 MainMenuMicroButton["commandName"] = "TOGGLEGAMEMENU"
 MainMenuMicroButton["Flash"] = MainMenuMicroButtonFlash -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L314)
 --- @class MicroMenu : Frame, GridLayoutFrame, MicroMenuMixin
 --- @field childXPadding number # -5
 MicroMenu = {}

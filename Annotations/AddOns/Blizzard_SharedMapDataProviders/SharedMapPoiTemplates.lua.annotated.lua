@@ -4,194 +4,206 @@
 --- @class BaseMapPoiPinMixin : MapCanvasPinMixin
 BaseMapPoiPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L419)
 --- @class MapPinPingMixin : MapCanvasPinMixin
 MapPinPingMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L551)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L619)
 --- @class SuperTrackablePoiPinMixin : SuperTrackablePinMixin
 SuperTrackablePoiPinMixin = CreateFromMixins(SuperTrackablePinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L175)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L188)
 --- @class MapPinAnimatedHighlightMixin
 MapPinAnimatedHighlightMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L421)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L471)
 --- @class MapPinPingDriverAnimationMixin
 MapPinPingDriverAnimationMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L434)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L484)
 --- @class SuperTrackablePinMixin
 SuperTrackablePinMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L562)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L630)
 --- @class LegendHighlightablePoiPinMixin
 LegendHighlightablePoiPinMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L7)
 function BaseMapPoiPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L15)
 function BaseMapPoiPinMixin:SetTexture(poiInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L57)
-function BaseMapPoiPinMixin:OnAcquired(poiInfo) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L60)
+function BaseMapPoiPinMixin:GetTextureSizeInfo(poiInfo) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L70)
+function BaseMapPoiPinMixin:OnAcquired(poiInfo) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L83)
 function BaseMapPoiPinMixin:GetPoiInfo() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L87)
 function BaseMapPoiPinMixin:UseSetAreaLabel() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L91)
 function BaseMapPoiPinMixin:UseMapLegend() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L95)
 function BaseMapPoiPinMixin:UseTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L99)
 function BaseMapPoiPinMixin:GetFallbackName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L103)
 function BaseMapPoiPinMixin:GetTooltipInstructions() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L107)
 function BaseMapPoiPinMixin:CheckSetAreaLabel() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L115)
 function BaseMapPoiPinMixin:CheckClearAreaLabel() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L121)
 function BaseMapPoiPinMixin:CheckMapLegendMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L127)
 function BaseMapPoiPinMixin:CheckMapLegendMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L133)
 function BaseMapPoiPinMixin:CheckShowTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L140)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L153)
 function BaseMapPoiPinMixin:CheckHideTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L159)
 function BaseMapPoiPinMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L165)
 function BaseMapPoiPinMixin:OnMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L171)
 function BaseMapPoiPinMixin:GetBestNameAndDescription() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L190)
 function MapPinAnimatedHighlightMixin:SetPulseCount(pulseCount) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L194)
 function MapPinAnimatedHighlightMixin:SetMaxPulseCount(maxPulseCount) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L198)
 function MapPinAnimatedHighlightMixin:CheckEndPulses(forceEnd) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L213)
 function MapPinAnimatedHighlightMixin:EndBackgroundPulses() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L221)
 function MapPinAnimatedHighlightMixin:SetHighlightShown(shown, texture, params) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L421)
 function MapPinPingMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L426)
 function MapPinPingMixin:SetNumLoops(numLoops) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L430)
 function MapPinPingMixin:SetID(id) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L384)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L434)
 function MapPinPingMixin:GetID(id) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L438)
 function MapPinPingMixin:PlayAt(x, y) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L399)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L449)
 function MapPinPingMixin:PlayLoop() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L455)
 function MapPinPingMixin:HasLoopsLeft() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L409)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L459)
 function MapPinPingMixin:Stop() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L416)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L466)
 function MapPinPingMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L473)
 function MapPinPingDriverAnimationMixin:OnFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L436)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L486)
 function SuperTrackablePinMixin:IsSuperTrackingExternallyHandled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L444)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L494)
 function SuperTrackablePinMixin:IsSuperTrackAction(button, action) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L498)
 function SuperTrackablePinMixin:DoesMapTypeAllowSuperTrack() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L458)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L508)
 function SuperTrackablePinMixin:UpdateMousePropagation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L462)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L512)
 function SuperTrackablePinMixin:OnAcquired(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L469)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L519)
 function SuperTrackablePinMixin:OnMouseClickAction(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L483)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L533)
+function SuperTrackablePinMixin:OnMouseDownAction(button) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L539)
+function SuperTrackablePinMixin:OnMouseUpAction(button, upInside) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L545)
 function SuperTrackablePinMixin:SuperTrack_OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L487)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L549)
 function SuperTrackablePinMixin:SuperTrack_OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L491)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L553)
 function SuperTrackablePinMixin:OnSuperTrackingChanged(manager) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L557)
 function SuperTrackablePinMixin:UpdateSuperTrackedState(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L499)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L561)
 function SuperTrackablePinMixin:SetSuperTracked(superTracked) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L511)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L573)
 function SuperTrackablePinMixin:IsSuperTracked() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L515)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L577)
 function SuperTrackablePinMixin:UpdateSuperTrackTextureAnchors() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L591)
+function SuperTrackablePinMixin:GetSuperTrackMarkerOffset() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L596)
 function SuperTrackablePinMixin:GetSuperTrackData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L532)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L600)
 function SuperTrackablePinMixin:GetSuperTrackAccessorAPIName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L604)
 function SuperTrackablePinMixin:GetSuperTrackMutatorAPIName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L540)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L608)
 function SuperTrackablePinMixin:DoesSuperTrackDataMatch(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L553)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L621)
 function SuperTrackablePoiPinMixin:OnAcquired(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L558)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L626)
 function SuperTrackablePoiPinMixin:GetSuperTrackData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L564)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L632)
 function LegendHighlightablePoiPinMixin:ShowMapLegendGlow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L580)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L648)
 function LegendHighlightablePoiPinMixin:HideMapLegendGlow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L586)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L654)
 function LegendHighlightablePoiPinMixin:OnLegendPinMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L658)
 function LegendHighlightablePoiPinMixin:OnLegendPinMouseLeave() end

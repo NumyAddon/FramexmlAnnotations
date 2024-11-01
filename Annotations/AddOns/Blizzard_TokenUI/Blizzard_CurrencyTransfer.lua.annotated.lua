@@ -8,27 +8,31 @@ CurrencyTransferToggleButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin
 --- @class CurrencyTransferMenuMixin : CallbackRegistryMixin
 CurrencyTransferMenuMixin = CreateFromMixins(CallbackRegistryMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L313)
 --- @class CurrencyTransferBalancePreviewMixin : CurrencyTransferSystemMixin
 CurrencyTransferBalancePreviewMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L326)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L344)
 --- @class CurrencyTransferConfirmButtonMixin : CurrencyTransferSystemMixin
 CurrencyTransferConfirmButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L335)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L353)
 --- @class CurrencyTransferCancelButtonMixin : CurrencyTransferSystemMixin
 CurrencyTransferCancelButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L359)
+--- @class CurrencyTransferAmountSelectorMixin : CallbackRegistryMixin
+CurrencyTransferAmountSelectorMixin = CreateFromMixins(CallbackRegistryMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L407)
 --- @class CurrencyTransferAmountInputBoxMixin : CurrencyTransferSystemMixin
 CurrencyTransferAmountInputBoxMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L410)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L459)
 --- @class CurrencyTransferCostDisplayMixin : CurrencyTransferSystemMixin
 CurrencyTransferCostDisplayMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L422)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L471)
 --- @class CurrencyTransferSourceSelectorMixin : CurrencyTransferSystemMixin
 CurrencyTransferSourceSelectorMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
@@ -36,19 +40,15 @@ CurrencyTransferSourceSelectorMixin = CreateFromMixins(CurrencyTransferSystemMix
 --- @class CurrencyTransferSystemMixin
 CurrencyTransferSystemMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L341)
---- @class CurrencyTransferAmountSelectorMixin
-CurrencyTransferAmountSelectorMixin = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L550)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L599)
 --- @class CurrencyTransferLogMixin
 CurrencyTransferLogMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L634)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L683)
 --- @class CurrencyTransferLogEntryMixin
 CurrencyTransferLogEntryMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L679)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L728)
 --- @class CurrencyTransferLogToggleButtonMixin
 CurrencyTransferLogToggleButtonMixin = {}
 
@@ -124,170 +124,185 @@ function CurrencyTransferMenuMixin:GetCurrencyInfo() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L223)
 function CurrencyTransferMenuMixin:CalculateEarnableCurrencyLimit() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L248)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L256)
 function CurrencyTransferMenuMixin:GetCurrencyID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L260)
 function CurrencyTransferMenuMixin:GetCurrencyIcon() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L264)
 function CurrencyTransferMenuMixin:GetPlayerCurrencyQuantity() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L268)
 function CurrencyTransferMenuMixin:GetSourceCharacterData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L272)
 function CurrencyTransferMenuMixin:GetSourceCharacterCurrencyQuantity() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L276)
 function CurrencyTransferMenuMixin:GetSourceCharacterName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L280)
 function CurrencyTransferMenuMixin:GetRequestedCurrencyTransferAmount() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L284)
 function CurrencyTransferMenuMixin:GetTotalCurrencyTransferCost() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L288)
 function CurrencyTransferMenuMixin:GetCurrencyTransferLoss() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L292)
 function CurrencyTransferMenuMixin:RefreshSourceCharacterBalancePreview() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L296)
 function CurrencyTransferMenuMixin:RefreshPlayerBalancePreview() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L301)
 function CurrencyTransferMenuMixin:FullRefresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L307)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L315)
 function CurrencyTransferBalancePreviewMixin:SetCharacterAndCurrencyBalance(characterName, balance) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L321)
 function CurrencyTransferBalancePreviewMixin:SetCurrencyIcon(icon) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L317)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L325)
 function CurrencyTransferBalancePreviewMixin:SetCharacterName(characterName) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L329)
 function CurrencyTransferBalancePreviewMixin:SetCurrencyBalance(amount) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L334)
+function CurrencyTransferBalancePreviewMixin:RefreshTransferCostDisplay() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L346)
 function CurrencyTransferConfirmButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L337)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L355)
 function CurrencyTransferCancelButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L343)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L365)
+function CurrencyTransferAmountSelectorMixin:OnLoad() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L376)
 function CurrencyTransferAmountSelectorMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L347)
-function CurrencyTransferAmountSelectorMixin:GetRequestedCurrencyTransferAmount() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L351)
-function CurrencyTransferAmountSelectorMixin:Reset() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L355)
-function CurrencyTransferAmountSelectorMixin:ValidateAndSetValue() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L359)
-function CurrencyTransferAmountSelectorMixin:CalculateTotalCurrencyTransferCost(currencyID) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L363)
-function CurrencyTransferAmountSelectorMixin:CalculateCurrencyTransferLoss(currencyID) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L371)
-function CurrencyTransferAmountInputBoxMixin:OnShow() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L375)
-function CurrencyTransferAmountInputBoxMixin:OnEditFocusLost() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L380)
-function CurrencyTransferAmountInputBoxMixin:ValidateAndSetValue() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L381)
+function CurrencyTransferAmountSelectorMixin:OnRequestSetSourceCharacterMaxQuantity() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L385)
-function CurrencyTransferAmountInputBoxMixin:GetClampedInputAmount(inputAmount) end
+function CurrencyTransferAmountSelectorMixin:GetRequestedCurrencyTransferAmount() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L406)
-function CurrencyTransferAmountInputBoxMixin:Reset() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L389)
+function CurrencyTransferAmountSelectorMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L412)
-function CurrencyTransferCostDisplayMixin:OnEnter() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L393)
+function CurrencyTransferAmountSelectorMixin:ValidateAndSetValue() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L418)
-function CurrencyTransferCostDisplayMixin:OnLeave() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L397)
+function CurrencyTransferAmountSelectorMixin:CalculateTotalCurrencyTransferCost(currencyID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L424)
-function CurrencyTransferSourceSelectorMixin:OnLoad() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L401)
+function CurrencyTransferAmountSelectorMixin:CalculateCurrencyTransferLoss(currencyID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L428)
-function CurrencyTransferSourceSelectorMixin:OnShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L409)
+function CurrencyTransferAmountInputBoxMixin:OnEditFocusLost() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L414)
+function CurrencyTransferAmountInputBoxMixin:ValidateAndSetValue() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L426)
+function CurrencyTransferAmountInputBoxMixin:TrySetFullSourceCharacterCurrencyQuantity() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L432)
+function CurrencyTransferAmountInputBoxMixin:GetClampedInputAmount(inputAmount) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L447)
+function CurrencyTransferAmountInputBoxMixin:Reset() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L451)
+function CurrencyTransferAmountInputBoxMixin:OnTextChanged() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L455)
+function CurrencyTransferAmountInputBoxMixin:GetMaxTransferAmountPerTransaction() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L461)
+function CurrencyTransferCostDisplayMixin:OnEnter() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L467)
+function CurrencyTransferCostDisplayMixin:OnLeave() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L473)
+function CurrencyTransferSourceSelectorMixin:OnLoad() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L477)
+function CurrencyTransferSourceSelectorMixin:OnShow() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L481)
 function CurrencyTransferSourceSelectorMixin:RefreshPlayerName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L436)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L485)
 function CurrencyTransferSourceSelectorMixin:GetRosterCurrencyData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L440)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L489)
 function CurrencyTransferSourceSelectorMixin:RefreshSelectedSource() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L444)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L493)
 function CurrencyTransferSourceSelectorMixin:AutoSelectHighestQuantitySource() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L456)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L505)
 function CurrencyTransferSourceSelectorMixin:SetupCharacterDropdown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L590)
 function CurrencyTransferSourceSelectorMixin:RefreshRosterCurrencyData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L605)
 function CurrencyTransferLogMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L561)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L610)
 function CurrencyTransferLogMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L618)
 function CurrencyTransferLogMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L573)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L622)
 function CurrencyTransferLogMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L579)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L628)
 function CurrencyTransferLogMixin:InitializeFrameVisuals() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L593)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L642)
 function CurrencyTransferLogMixin:InitializeScrollBox() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L604)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L653)
 function CurrencyTransferLogMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L622)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L671)
 function CurrencyTransferLogMixin:Toggle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L636)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L685)
 function CurrencyTransferLogEntryMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L689)
 function CurrencyTransferLogEntryMixin:Initialize(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L652)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L701)
 function CurrencyTransferLogEntryMixin:RefreshBackgroundHighlight() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L657)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L706)
 function CurrencyTransferLogEntryMixin:RefreshHighlightVisuals() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L661)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L710)
 function CurrencyTransferLogEntryMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L673)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L722)
 function CurrencyTransferLogEntryMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L681)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L730)
 function CurrencyTransferLogToggleButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L685)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L734)
 function CurrencyTransferLogToggleButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L691)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L740)
 function CurrencyTransferLogToggleButtonMixin:OnLeave() end

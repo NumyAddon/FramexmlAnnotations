@@ -504,11 +504,11 @@ EventToastManagerSideDisplay = {}
 --- @field animInStartDelay number # 0
 --- @field Contents EventToastManagerWeeklyRewardToastUpgradeTemplate_Contents
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1370)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1363)
 --- child of EventToastFlightpointDiscoveredTemplate
 --- @class EventToastFlightpointDiscoveredTemplate_Title : FontString, GameFontNormalHuge3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1369)
 --- child of EventToastFlightpointDiscoveredTemplate
 --- @class EventToastFlightpointDiscoveredTemplate_SubTitle : FontString, SystemFont_Shadow_Med2
 
@@ -516,9 +516,9 @@ EventToastManagerSideDisplay = {}
 --- Template
 --- @class EventToastFlightpointDiscoveredTemplate : Frame, EventToastWithIconLargeTextTemplate, EventToastFlightpointDiscoveredMixin
 --- @field animInStartDelay number # 0
---- @field FiligreeGlow Texture
 --- @field TopIcon Texture
 --- @field Title EventToastFlightpointDiscoveredTemplate_Title
 --- @field SubTitle EventToastFlightpointDiscoveredTemplate_SubTitle
 --- @field Filigree Texture
+--- @field FiligreeGlow Texture
 

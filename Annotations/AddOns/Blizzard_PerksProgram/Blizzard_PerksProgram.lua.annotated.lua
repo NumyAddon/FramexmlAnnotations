@@ -63,7 +63,7 @@ function PerksProgramMixin:ToggleHideArmorSetting(playerArmorSetting) end
 function PerksProgramMixin:GetAttackAnimationSetting() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L139)
-function PerksProgramMixin:PlayerSetAttackAnimationOnClick(playAttackAnimation) end
+function PerksProgramMixin:PlayerSetAttackAnimationOnClick(playAttackAnimation, forceUpdate) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L146)
 function PerksProgramMixin:GetUseNativeForm() end

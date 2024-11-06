@@ -12,15 +12,15 @@ SuperTrackableVignettePinMixin = CreateFromMixins(SuperTrackablePinMixin)
 --- @class VignettePinBaseMixin : MapCanvasPinMixin
 VignettePinBaseMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L541)
 --- @class VignettePinMixin : SuperTrackableVignettePinMixin, VignettePinBaseMixin
 VignettePinMixin = CreateFromMixins(SuperTrackableVignettePinMixin, VignettePinBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L508)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L542)
 --- @class VignettePinPOIButtonMixin : VignettePinBaseMixin, POIButtonMixin
 VignettePinPOIButtonMixin = CreateFromMixins(VignettePinBaseMixin, POIButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L568)
 --- @class FyrakkFlightVignettePinMixin : VignettePinMixin
 FyrakkFlightVignettePinMixin = CreateFromMixins(VignettePinMixin)
 
@@ -118,91 +118,100 @@ function VignettePinBaseMixin:IsUnique() end
 function VignettePinBaseMixin:GetRemainingHealthPercentage() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L304)
+function VignettePinBaseMixin:GetRecommendedGroupSize() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L308)
 function VignettePinBaseMixin:GetRemainingHealthPercentageString() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L318)
+function VignettePinBaseMixin:GetRecommendedGroupSizeString() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L336)
+function VignettePinBaseMixin:GetObjectiveString() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L345)
 function VignettePinBaseMixin:GetVignetteID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L349)
 function VignettePinBaseMixin:GetVignetteGUID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L320)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L353)
 function VignettePinBaseMixin:GetObjectGUID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L357)
 function VignettePinBaseMixin:GetVignetteType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L361)
 function VignettePinBaseMixin:GetVignetteName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L332)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L365)
 function VignettePinBaseMixin:GetRewardQuestID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L373)
 function VignettePinBaseMixin:UpdateFogOfWar(vignetteInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L380)
 function VignettePinBaseMixin:OnCanvasScaleChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L399)
 function VignettePinBaseMixin:UpdatePosition(bestUniqueVignette) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L377)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L410)
 function VignettePinBaseMixin:ShouldUseForcedHighlightType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L414)
 function VignettePinBaseMixin:GetHighlightType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L408)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L441)
 function VignettePinBaseMixin:UpdateSupertrackedHighlight() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L412)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L445)
 function VignettePinBaseMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L481)
 function VignettePinBaseMixin:OnMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L486)
 function VignettePinBaseMixin:DisplayNormalTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L474)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L508)
 function VignettePinBaseMixin:DisplayPvpBountyTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L497)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L531)
 function VignettePinBaseMixin:DisplayTorghastTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L502)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L536)
 function VignettePinBaseMixin:Remove() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L544)
 function VignettePinPOIButtonMixin:DisableInheritedMotionScriptsWarning() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L550)
 function VignettePinPOIButtonMixin:IsSuperTrackingExternallyHandled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L520)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L554)
 function VignettePinPOIButtonMixin:OnAcquired(vignetteGUID, vignetteInfo, frameIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L526)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L560)
 function VignettePinPOIButtonMixin:ApplyTextures() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L570)
 function FyrakkFlightVignettePinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L550)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L584)
 function FyrakkFlightVignettePinMixin:ApplyTextures() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L588)
 function FyrakkFlightVignettePinMixin:UpdateFogOfWar(vignetteInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L558)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L592)
 function FyrakkFlightVignettePinMixin:SetFrameLevelType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L597)
 function FyrakkFlightVignettePinMixin:UpdatePosition() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L579)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L613)
 function FyrakkFlightVignettePinMixin:Remove() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L617)
 function FyrakkFlightVignettePinMixin:UpdateSuperTrackTextureAnchors() end

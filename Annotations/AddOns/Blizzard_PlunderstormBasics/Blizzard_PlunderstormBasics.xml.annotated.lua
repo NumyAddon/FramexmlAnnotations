@@ -2,54 +2,54 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L4)
 --- Template
---- @class PlunderstormAccountStoreToggleTemplate : Button, BigRedThreeSliceButtonTemplate, PlunderstormAccountStoreToggleMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L93)
---- child of PlunderstormBasicsContainerFrame_PlunderDisplay
---- @class PlunderstormBasicsContainerFrame_PlunderDisplay_PlunderLabel : FontString, SystemFont_Huge2
+--- @class PlunderstormAccountStoreToggleTemplate : Button, BigGoldRedThreeSliceButtonTemplate, PlunderstormAccountStoreToggleMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L99)
 --- child of PlunderstormBasicsContainerFrame_PlunderDisplay
+--- @class PlunderstormBasicsContainerFrame_PlunderDisplay_PlunderLabel : FontString, SystemFont_Huge2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L105)
+--- child of PlunderstormBasicsContainerFrame_PlunderDisplay
 --- @class PlunderstormBasicsContainerFrame_PlunderDisplay_PlunderAmount : FontString, SystemFont_Huge2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L86)
 --- child of PlunderstormBasicsContainerFrame
 --- @class PlunderstormBasicsContainerFrame_PlunderDisplay : Button, NineSlicePanelTemplate
 --- @field layoutIndex number # 6
 --- @field PlunderLabel PlunderstormBasicsContainerFrame_PlunderDisplay_PlunderLabel
 --- @field PlunderAmount PlunderstormBasicsContainerFrame_PlunderDisplay_PlunderAmount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L114)
 --- child of PlunderstormBasicsContainerFrame
 --- @class PlunderstormBasicsContainerFrame_Border : Frame, NineSlicePanelTemplate
 --- @field layoutType string # "PerksProgramProductsPanelTemplate"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L25)
 --- child of PlunderstormBasicsContainerFrame
 --- @class PlunderstormBasicsContainerFrame_PlunderstormSwords : Texture
 --- @field layoutIndex number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L36)
 --- child of PlunderstormBasicsContainerFrame
 --- @class PlunderstormBasicsContainerFrame_PlunderstormBasicsTitle : FontString, SystemFont_Huge2
 --- @field layoutIndex number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L48)
 --- child of PlunderstormBasicsContainerFrame
 --- @class PlunderstormBasicsContainerFrame_PlunderstormLine : Texture
 --- @field layoutIndex number # 3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L59)
 --- child of PlunderstormBasicsContainerFrame
 --- @class PlunderstormBasicsContainerFrame_PlunderstormBasicsBody : FontString, Game16Font
 --- @field layoutIndex number # 4
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L72)
 --- child of PlunderstormBasicsContainerFrame
 --- @class PlunderstormBasicsContainerFrame_PlunderstormBasicsLine : Texture
 --- @field layoutIndex number # 5
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L15)
 --- @class PlunderstormBasicsContainerFrame : Frame, VerticalLayoutFrame, PlunderstormBasicsContainerFrameMixin
 --- @field fixedWidth string # "476"
 --- @field PlunderDisplay PlunderstormBasicsContainerFrame_PlunderDisplay

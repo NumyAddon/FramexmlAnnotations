@@ -13,16 +13,21 @@
 --- @class EndOfMatchButtonBaseTemplate : Button, BigRedThreeSliceButtonTemplate, EndOfMatchButtonBaseMixin
 --- @field isLarge boolean # false
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L48)
+--- Template
+--- @class EndOfMatchButtonGoldButtonBaseTemplate : Button, BigGoldRedThreeSliceButtonTemplate, EndOfMatchButtonBaseMixin
+--- @field isLarge boolean # false
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L85)
 --- child of EndOfMatchFrame
 --- @class EndOfMatchFrame_ScreenOverlayContainer : Frame
 --- @field ScreenOverlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L98)
 --- child of EndOfMatchFrame
 --- @class EndOfMatchFrame_DetailsContainer : Frame, VerticalLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L103)
 --- child of EndOfMatchFrame
 --- @class EndOfMatchFrame_DetailsBackgroundContainer : Frame
 --- @field SwordIcon Texture
@@ -31,17 +36,17 @@
 --- @field BackgroundFade Texture
 --- @field BottomDecal Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L142)
 --- child of EndOfMatchFrame
 --- @class EndOfMatchFrame_CenterActionsContainer : Frame, HorizontalLayoutFrame
 --- @field spacing number # 16
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L152)
 --- child of EndOfMatchFrame
 --- @class EndOfMatchFrame_ActionsContainer : Frame, HorizontalLayoutFrame
 --- @field spacing number # 16
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EndOfMatchUI/Blizzard_EndOfMatchUI.xml#L60)
 --- @class EndOfMatchFrame : Frame, EndOfMatchFrameMixin
 --- @field ScreenOverlayContainer EndOfMatchFrame_ScreenOverlayContainer
 --- @field DetailsContainer EndOfMatchFrame_DetailsContainer

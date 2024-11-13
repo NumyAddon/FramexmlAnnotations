@@ -236,3 +236,13 @@ PVEFrame["CloseButton"] = PVEFrameCloseButton -- inherited
 PVEFrame["Bg"] = PVEFrameBg -- inherited
 PVEFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L283)
+--- child of PlunderstormQueueTutorialFrame
+--- @class PlunderstormQueueTutorialFrame_NewText : Frame, NewFeatureLabelNoAnimateTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L271)
+--- @class PlunderstormQueueTutorialFrame : Frame, PlunderstormQueueTutorialMixin
+--- @field NewText PlunderstormQueueTutorialFrame_NewText
+--- @field BadgeTexture Texture
+PlunderstormQueueTutorialFrame = {}
+

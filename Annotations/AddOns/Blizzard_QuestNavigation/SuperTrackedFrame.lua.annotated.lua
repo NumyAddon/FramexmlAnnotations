@@ -19,29 +19,29 @@ function SuperTrackedFrameMixin:UpdateClampedState() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L65)
 function SuperTrackedFrameMixin:PingNavFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L200)
 function SuperTrackedFrameMixin:UpdateDistanceText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L218)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L212)
 function SuperTrackedFrameMixin:UpdateIconSize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L228)
 function SuperTrackedFrameMixin:UpdateIcon() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L272)
 function SuperTrackedFrameMixin:ShouldClearSuperTrackWhenDestinationReached(isWaypoint) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L287)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L281)
 function SuperTrackedFrameMixin:OnDestinationReached(isWaypoint) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L289)
 function SuperTrackedFrameMixin:InitializeNavigationFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L307)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L301)
 function SuperTrackedFrameMixin:SetEllipticalRadii(major, minor) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L315)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L309)
 function SuperTrackedFrameMixin:CheckInitializeNavigationFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L315)
 function SuperTrackedFrameMixin:ShutdownNavigationFrame() end

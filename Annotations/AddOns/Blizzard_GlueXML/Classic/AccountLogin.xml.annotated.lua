@@ -99,6 +99,10 @@ ChinaAgeAppropriatenessWarning = {}
 --- @class AccountLogin_LoginBackgroundModel : ModelFFX
 LoginBackgroundModel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L219)
+--- child of AccountLogin_UI
+--- @class AccountLogin_UI_GameLogo : Frame, GlueGameLogoTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L232)
 --- child of AccountLogin_UI_AccountEditBox
 --- @class AccountLogin_UI_AccountEditBox_Label : FontString, GlueFontNormal
@@ -351,7 +355,7 @@ WoWAccountSelectDialogScrollFrame = {}
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_ClientVersion : FontString, GlueFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L210)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_WorldOfWarcraftRating : Texture
 WorldOfWarcraftRating = {}
@@ -363,6 +367,7 @@ WorldOfWarcraftRating = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/AccountLogin.xml#L189)
 --- child of AccountLogin
 --- @class AccountLogin_UI : Frame
+--- @field GameLogo AccountLogin_UI_GameLogo
 --- @field AccountEditBox AccountLogin_UI_AccountEditBox
 --- @field PasswordEditBox AccountLogin_UI_PasswordEditBox
 --- @field CachedLoginFrameContainer Frame
@@ -383,7 +388,6 @@ WorldOfWarcraftRating = {}
 --- @field AccountsDropdown AccountLogin_UI_AccountsDropdown
 --- @field BlizzDisclaimer AccountLogin_UI_BlizzDisclaimer
 --- @field ClientVersion AccountLogin_UI_ClientVersion
---- @field GameLogo Texture
 --- @field FadeIn AccountLogin_UI_FadeIn
 --- @field ManualLoginRegions table<number, AccountLogin_UI_AccountEditBox | AccountLogin_UI_PasswordEditBox | Frame | AccountLogin_UI_LoginButton | AccountLogin_UI_SaveAccountNameCheckButton>
 --- @field ReconnectLoginRegions table<number, AccountLogin_UI_ReconnectLoginButton | AccountLogin_UI_ReconnectSwitchButton>

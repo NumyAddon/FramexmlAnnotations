@@ -77,10 +77,20 @@ WorldMapZoomOutButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L366)
 --- child of WorldMapFrame
+--- @class WorldMapFrame_WorldMapLevelUpButton : Button
+WorldMapLevelUpButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L384)
+--- child of WorldMapFrame
+--- @class WorldMapFrame_WorldMapLevelDownButton : Button
+WorldMapLevelDownButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L402)
+--- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapMagnifyingGlassButton : Button
 WorldMapMagnifyingGlassButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L409)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L445)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapFrameCloseButton : Button, UIPanelCloseButton
 WorldMapFrameCloseButton = {}
@@ -95,7 +105,7 @@ WorldMapTrackQuestText = {}
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 WorldMapTrackQuestText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L454)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapTrackQuest : CheckButton, OptionsSmallCheckButtonTemplate
 WorldMapTrackQuest = {}
@@ -111,13 +121,13 @@ WorldMapQuestShowObjectivesText = {}
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 WorldMapQuestShowObjectivesText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L438)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L474)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapQuestShowObjectives : CheckButton, OptionsSmallCheckButtonTemplate
 WorldMapQuestShowObjectives = {}
 WorldMapQuestShowObjectives["Text"] = WorldMapQuestShowObjectivesText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L458)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Wrath/Blizzard_WorldMap.xml#L494)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_MaximizeMinimizeFrame : Frame, MaximizeMinimizeButtonFrameTemplate
 

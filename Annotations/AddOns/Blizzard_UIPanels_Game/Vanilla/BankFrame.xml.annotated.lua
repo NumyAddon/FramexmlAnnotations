@@ -446,6 +446,6 @@ BankPortraitTexture = {}
 BankFrameTitleText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/BankFrame.xml#L83)
---- @class BankFrame : Frame
+--- @class BankFrame : Frame, BankFrameMixin
 BankFrame = {}
 

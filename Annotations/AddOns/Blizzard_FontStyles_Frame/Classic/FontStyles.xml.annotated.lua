@@ -418,21 +418,25 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L340)
 --- Template
---- @class OptionsFontSmall : Font, GameFontNormalSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L341)
---- Template
---- @class OptionsFontHighlightSmall : Font, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L342)
---- Template
---- @class OptionsFontHighlight : Font, GameFontHighlight
+--- @class LFGActivityEntryDifficult : Font, GameFontNormalLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L343)
 --- Template
---- @class OptionsFontLarge : Font, GameFontNormalLarge
+--- @class OptionsFontSmall : Font, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L344)
+--- Template
+--- @class OptionsFontHighlightSmall : Font, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L345)
+--- Template
+--- @class OptionsFontHighlight : Font, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L346)
+--- Template
+--- @class OptionsFontLarge : Font, GameFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L347)
 --- Template
 --- @class OptionsFontLeft : Font, GameFontNormal
 

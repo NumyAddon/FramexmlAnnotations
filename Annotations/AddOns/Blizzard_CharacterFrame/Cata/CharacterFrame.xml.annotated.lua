@@ -434,7 +434,7 @@ CharacterStatsPaneCategory1CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory1ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L421)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory1 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory1 = {}
@@ -515,7 +515,7 @@ CharacterStatsPaneCategory2CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory2ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L422)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory2 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory2 = {}
@@ -596,7 +596,7 @@ CharacterStatsPaneCategory3CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory3ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L420)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L423)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory3 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory3 = {}
@@ -677,7 +677,7 @@ CharacterStatsPaneCategory4CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory4ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L421)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L424)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory4 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory4 = {}
@@ -758,7 +758,7 @@ CharacterStatsPaneCategory5CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory5ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L422)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L425)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory5 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory5 = {}
@@ -839,7 +839,7 @@ CharacterStatsPaneCategory6CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory6ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L426)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory6 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory6 = {}
@@ -920,7 +920,7 @@ CharacterStatsPaneCategory7CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory7ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L424)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L427)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory7 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory7 = {}
@@ -932,7 +932,7 @@ CharacterStatsPaneCategory7["NameText"] = CharacterStatsPaneCategory7NameText --
 CharacterStatsPaneCategory7["CollapsedIcon"] = CharacterStatsPaneCategory7CollapsedIcon -- inherited
 CharacterStatsPaneCategory7["ExpandedIcon"] = CharacterStatsPaneCategory7ExpandedIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L412)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L415)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents : Frame, ResizeLayoutFrame
 --- @field scrollable boolean # true
@@ -940,11 +940,13 @@ CharacterStatsPaneCategory7["ExpandedIcon"] = CharacterStatsPaneCategory7Expande
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L406)
 --- child of CharacterStatsPane
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox : Frame, WowScrollBox
+--- @field wheelPanScalar number # 0.1
 --- @field Contents CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L432)
 --- child of CharacterStatsPane
 --- @class CharacterFrame_CharacterStatsPane_ScrollBar : EventFrame, MinimalScrollBar
+--- @field wheelPanScalar number # 0.1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L391)
 --- child of CharacterFrame

@@ -1341,7 +1341,9 @@ AchievementFrameTab2["middleHighlight"] = AchievementFrameTab2MiddleHighlight --
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Classic/Blizzard_AchievementUI.xml#L3197)
 --- child of AchievementFrame
 --- @class AchievementFrame_AchievementFrameFilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
+--- @field text any # ACHIEVEMENTFRAME_FILTER_ALL
 AchievementFrameFilterDropdown = {}
+AchievementFrameFilterDropdown["text"] = ACHIEVEMENTFRAME_FILTER_ALL
 AchievementFrameFilterDropdown["text"] = FILTER -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AchievementUI/Classic/Blizzard_AchievementUI.xml#L2051)

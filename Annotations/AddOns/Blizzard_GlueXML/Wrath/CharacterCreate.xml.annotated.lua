@@ -40,27 +40,23 @@
 --- Template
 --- @class CharacterCustomizationFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L229)
---- child of CharacterCreateWoWLogo
---- @class CharacterCreate_CharacterCreateFrame_CharacterCreateWoWLogo_CharacterCreateLogo : Texture
-CharacterCreateLogo = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L220)
 --- child of CharacterCreateFrame
---- @class CharacterCreate_CharacterCreateFrame_CharacterCreateWoWLogo : Frame
-CharacterCreateWoWLogo = {}
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateGameLogo : Frame, GlueGameLogoTemplate
+CharacterCreateGameLogo = {}
+CharacterCreateGameLogo["useShrunkenLogoHeight"] = false -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L280)
 --- child of CharacterCreateRaceScrollChild
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceScrollFrame_CharacterCreateRaceScrollChild_CharacterCreateRaceAbilityText : FontString, GlueFontNormalSmall
 CharacterCreateRaceAbilityText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L286)
 --- child of CharacterCreateRaceScrollChild
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceScrollFrame_CharacterCreateRaceScrollChild_CharacterCreateRaceText : FontString, GlueFontCharacterCreate
 CharacterCreateRaceText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L276)
 --- child of CharacterCreateRaceScrollFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceScrollFrame_CharacterCreateRaceScrollChild : Frame
 CharacterCreateRaceScrollChild = {}
@@ -82,39 +78,39 @@ CharacterCreateRaceScrollFrameScrollBar = {}
 CharacterCreateRaceScrollFrameScrollBar["ScrollUpButton"] = CharacterCreateRaceScrollFrameScrollBarScrollUpButton -- inherited
 CharacterCreateRaceScrollFrameScrollBar["ScrollDownButton"] = CharacterCreateRaceScrollFrameScrollBarScrollDownButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L259)
 --- child of CharacterCreateCharacterRace
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceScrollFrame : ScrollFrame, GlueScrollFrameTemplate
 CharacterCreateRaceScrollFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L236)
 --- child of CharacterCreateCharacterRace
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceIcon : Texture
 CharacterCreateRaceIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L250)
 --- child of CharacterCreateCharacterRace
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace_CharacterCreateRaceLabel : FontString, FactionName_Shadow_Huge
 CharacterCreateRaceLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L242)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L226)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterRace : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_WRATH_CHARACTER_CREATE_TOOLTIP_32_32
 CharacterCreateCharacterRace = {}
 CharacterCreateCharacterRace["backdropInfo"] = BACKDROP_WRATH_CHARACTER_CREATE_TOOLTIP_32_32
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L353)
 --- child of CharacterCreateClassScrollChild
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterClass_CharacterCreateClassScrollFrame_CharacterCreateClassScrollChild_CharacterCreateClassRolesText : FontString, GlueFontNormalSmall
 CharacterCreateClassRolesText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L359)
 --- child of CharacterCreateClassScrollChild
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterClass_CharacterCreateClassScrollFrame_CharacterCreateClassScrollChild_CharacterCreateClassText : FontString, GlueFontCharacterCreate
 CharacterCreateClassText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L365)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L349)
 --- child of CharacterCreateClassScrollFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterClass_CharacterCreateClassScrollFrame_CharacterCreateClassScrollChild : Frame
 CharacterCreateClassScrollChild = {}
@@ -136,22 +132,22 @@ CharacterCreateClassScrollFrameScrollBar = {}
 CharacterCreateClassScrollFrameScrollBar["ScrollUpButton"] = CharacterCreateClassScrollFrameScrollBarScrollUpButton -- inherited
 CharacterCreateClassScrollFrameScrollBar["ScrollDownButton"] = CharacterCreateClassScrollFrameScrollBarScrollDownButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L332)
 --- child of CharacterCreateCharacterClass
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterClass_CharacterCreateClassScrollFrame : ScrollFrame, GlueScrollFrameTemplate
 CharacterCreateClassScrollFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L325)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L309)
 --- child of CharacterCreateCharacterClass
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterClass_CharacterCreateClassIcon : Texture
 CharacterCreateClassIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L323)
 --- child of CharacterCreateCharacterClass
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterClass_CharacterCreateClassLabel : FontString, FactionName_Shadow_Huge
 CharacterCreateClassLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L315)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L299)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateCharacterClass : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_WRATH_CHARACTER_CREATE_TOOLTIP_32_32
@@ -188,7 +184,7 @@ CharacterCreateRaceButton1BevelEdge = {}
 --- @type Texture
 CharacterCreateRaceButton1DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L488)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton1 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton1 = {}
@@ -223,7 +219,7 @@ CharacterCreateRaceButton2BevelEdge = {}
 --- @type Texture
 CharacterCreateRaceButton2DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L509)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L493)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton2 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton2 = {}
@@ -258,7 +254,7 @@ CharacterCreateRaceButton3BevelEdge = {}
 --- @type Texture
 CharacterCreateRaceButton3DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L502)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton3 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton3 = {}
@@ -293,7 +289,7 @@ CharacterCreateRaceButton4BevelEdge = {}
 --- @type Texture
 CharacterCreateRaceButton4DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L527)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L511)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton4 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton4 = {}
@@ -328,7 +324,7 @@ CharacterCreateRaceButton5BevelEdge = {}
 --- @type Texture
 CharacterCreateRaceButton5DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L520)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton5 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton5 = {}
@@ -363,7 +359,7 @@ CharacterCreateRaceButton6BevelEdge = {}
 --- @type Texture
 CharacterCreateRaceButton6DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L545)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L529)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton6 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton6 = {}
@@ -398,7 +394,7 @@ CharacterCreateRaceButton7BevelEdge = {}
 --- @type Texture
 CharacterCreateRaceButton7DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L538)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton7 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton7 = {}
@@ -433,7 +429,7 @@ CharacterCreateRaceButton8BevelEdge = {}
 --- @type Texture
 CharacterCreateRaceButton8DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L547)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton8 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton8 = {}
@@ -468,7 +464,7 @@ CharacterCreateRaceButton9BevelEdge = {}
 --- @type Texture
 CharacterCreateRaceButton9DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L572)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L556)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton9 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton9 = {}
@@ -503,7 +499,7 @@ CharacterCreateRaceButton10BevelEdge = {}
 --- @type Texture
 CharacterCreateRaceButton10DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L581)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L565)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton10 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton10 = {}
@@ -533,7 +529,7 @@ CharacterCreateClassButton1BevelEdge = {}
 --- @type Texture
 CharacterCreateClassButton1DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L574)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton1 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton1 = {}
@@ -563,7 +559,7 @@ CharacterCreateClassButton2BevelEdge = {}
 --- @type Texture
 CharacterCreateClassButton2DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L599)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L583)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton2 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton2 = {}
@@ -593,7 +589,7 @@ CharacterCreateClassButton3BevelEdge = {}
 --- @type Texture
 CharacterCreateClassButton3DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L608)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L592)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton3 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton3 = {}
@@ -623,7 +619,7 @@ CharacterCreateClassButton4BevelEdge = {}
 --- @type Texture
 CharacterCreateClassButton4DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L617)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L601)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton4 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton4 = {}
@@ -653,7 +649,7 @@ CharacterCreateClassButton5BevelEdge = {}
 --- @type Texture
 CharacterCreateClassButton5DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L610)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton5 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton5 = {}
@@ -683,7 +679,7 @@ CharacterCreateClassButton6BevelEdge = {}
 --- @type Texture
 CharacterCreateClassButton6DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L635)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L619)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton6 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton6 = {}
@@ -713,7 +709,7 @@ CharacterCreateClassButton7BevelEdge = {}
 --- @type Texture
 CharacterCreateClassButton7DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L644)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L628)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton7 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton7 = {}
@@ -743,7 +739,7 @@ CharacterCreateClassButton8BevelEdge = {}
 --- @type Texture
 CharacterCreateClassButton8DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L653)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L637)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton8 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton8 = {}
@@ -773,7 +769,7 @@ CharacterCreateClassButton9BevelEdge = {}
 --- @type Texture
 CharacterCreateClassButton9DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L662)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L646)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton9 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton9 = {}
@@ -803,7 +799,7 @@ CharacterCreateClassButton10BevelEdge = {}
 --- @type Texture
 CharacterCreateClassButton10DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L671)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L655)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton10 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton10 = {}
@@ -833,7 +829,7 @@ CharacterCreateGenderButtonMaleBevelEdge = {}
 --- @type Texture
 CharacterCreateGenderButtonMaleDisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L680)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L664)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateGenderButtonMale : CheckButton, CharacterCreateGenderButtonTemplate
 CharacterCreateGenderButtonMale = {}
@@ -863,7 +859,7 @@ CharacterCreateGenderButtonFemaleBevelEdge = {}
 --- @type Texture
 CharacterCreateGenderButtonFemaleDisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L705)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L689)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateGenderButtonFemale : CheckButton, CharacterCreateGenderButtonTemplate
 CharacterCreateGenderButtonFemale = {}
@@ -898,7 +894,7 @@ CharacterCustomizationButtonFrame1Middle = {}
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText
 CharacterCustomizationButtonFrame1Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L730)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L714)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCustomizationButtonFrame1 : Frame, CharacterCustomizationFrameTemplate
 CharacterCustomizationButtonFrame1 = {}
@@ -933,7 +929,7 @@ CharacterCustomizationButtonFrame2Middle = {}
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText
 CharacterCustomizationButtonFrame2Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L739)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L723)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCustomizationButtonFrame2 : Frame, CharacterCustomizationFrameTemplate
 CharacterCustomizationButtonFrame2 = {}
@@ -968,7 +964,7 @@ CharacterCustomizationButtonFrame3Middle = {}
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText
 CharacterCustomizationButtonFrame3Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L748)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L732)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCustomizationButtonFrame3 : Frame, CharacterCustomizationFrameTemplate
 CharacterCustomizationButtonFrame3 = {}
@@ -1003,7 +999,7 @@ CharacterCustomizationButtonFrame4Middle = {}
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText
 CharacterCustomizationButtonFrame4Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L757)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L741)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCustomizationButtonFrame4 : Frame, CharacterCustomizationFrameTemplate
 CharacterCustomizationButtonFrame4 = {}
@@ -1038,67 +1034,67 @@ CharacterCustomizationButtonFrame5Middle = {}
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText
 CharacterCustomizationButtonFrame5Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L766)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L750)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCustomizationButtonFrame5 : Frame, CharacterCustomizationFrameTemplate
 CharacterCustomizationButtonFrame5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L775)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L759)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharCreateRandomizeButton : Button, GlueButtonSmallTemplate
 CharCreateRandomizeButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L401)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L385)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateOuterBorder1 : Texture
 CharacterCreateOuterBorder1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L414)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L398)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateOuterBorder2 : Texture
 CharacterCreateOuterBorder2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L427)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L411)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateOuterBorder3 : Texture
 CharacterCreateOuterBorder3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L440)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L424)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateBanners : Texture
 CharacterCreateBanners = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L452)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L436)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_AllianceText : FontString, FactionName_Shadow_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L461)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L445)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_HordeText : FontString, FactionName_Shadow_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L470)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L454)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassName : FontString, CharacterCreateTooltipFont
 CharacterCreateClassName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L460)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateGender : FontString, CharacterCreateTooltipFont
 CharacterCreateGender = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L468)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateBackground : Texture
 CharacterCreateBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L372)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame : Frame
 --- @field AllianceText CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_AllianceText
 --- @field HordeText CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_HordeText
 CharacterCreateConfigurationFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L798)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L782)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateNameEdit : EditBox, TooltipBackdropTemplate
 --- @field layoutType string # "TooltipGluesLayout"
@@ -1106,27 +1102,27 @@ CharacterCreateNameEdit = {}
 CharacterCreateNameEdit["layoutType"] = "TooltipGluesLayout"
 CharacterCreateNameEdit["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L843)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L827)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateRandomName : Button, GlueButtonSmallTemplate
 CharacterCreateRandomName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L865)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L849)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateRotateLeft : Button
 CharacterCreateRotateLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L903)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L887)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateRotateRight : Button
 CharacterCreateRotateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L937)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L921)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharCreateOkayButton : Button, GlueButtonTemplate
 CharCreateOkayButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L949)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L933)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharCreateBackButton : Button, GlueButtonSmallTemplate
 CharCreateBackButton = {}
@@ -1134,7 +1130,9 @@ CharCreateBackButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L218)
 --- child of CharacterCreate
 --- @class CharacterCreate_CharacterCreateFrame : Frame, CharacterCreateMixin
+--- @field GameLogo CharacterCreate_CharacterCreateFrame_CharacterCreateGameLogo
 CharacterCreateFrame = {}
+CharacterCreateFrame["GameLogo"] = CharacterCreateGameLogo
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlueXML/Wrath/CharacterCreate.xml#L216)
 --- @class CharacterCreate : ModelFFX

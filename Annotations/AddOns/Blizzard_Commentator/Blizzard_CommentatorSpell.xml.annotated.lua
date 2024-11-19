@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.xml#L21)
 --- child of CommentatorSpellBaseTemplate
---- @class CommentatorSpellBaseTemplate_Cooldown : Cooldown, CooldownFrameTemplate
+--- @class CommentatorSpellBaseTemplate_Cooldown : Cooldown, CooldownFrameTemplate, CommentatorCooldownMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.xml#L5)
 --- Template

@@ -17,51 +17,51 @@
 --- @field BackgroundGlowBottom Texture
 --- @field NormalTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L90)
 --- child of GameEnvironmentButtonPulsingTemplate
 --- @class GameEnvironmentButtonPulsingTemplate_PulseAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L72)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L73)
 --- Template
 --- @class GameEnvironmentButtonPulsingTemplate : Button, GameEnvironmentButtonTemplate, SelectableButtonMixin, GameEnvironmentButtonPulsingMixin
 --- @field PulseTexture Texture
 --- @field PulseTextureTwo Texture
 --- @field PulseAnim GameEnvironmentButtonPulsingTemplate_PulseAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L129)
 --- child of GameEnvironmentFrameTemplate
 --- @class GameEnvironmentFrameTemplate_SelectWoWToggle : Button, GameEnvironmentButtonTemplate
 --- @field gameEnvironment any # Enum.GameEnvironment.WoW
 --- @field NormalTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L167)
 --- child of GameEnvironmentFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText
 --- @class GameEnvironmentFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText_BGLabel : FontString, GameFontNormal_NoShadow
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L175)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L176)
 --- child of GameEnvironmentFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText
 --- @class GameEnvironmentFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText_Label : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L159)
 --- child of GameEnvironmentFrameTemplate_SelectWoWLabsToggle
 --- @class GameEnvironmentFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText : Frame
 --- @field BGLabel GameEnvironmentFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText_BGLabel
 --- @field Label GameEnvironmentFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText_Label
 --- @field Glow Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L147)
 --- child of GameEnvironmentFrameTemplate
 --- @class GameEnvironmentFrameTemplate_SelectWoWLabsToggle : Button, GameEnvironmentButtonPulsingTemplate
 --- @field gameEnvironment any # Enum.GameEnvironment.WoWLabs
 --- @field LimitedTimeEventText GameEnvironmentFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText
 --- @field NormalTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L120)
 --- child of GameEnvironmentFrameTemplate
 --- @class GameEnvironmentFrameTemplate_NoGameModesText : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.xml#L106)
 --- Template
 --- @class GameEnvironmentFrameTemplate : Frame, ResizeLayoutFrame, GameEnvironmentFrameMixin
 --- @field fixedHeight string # "122"

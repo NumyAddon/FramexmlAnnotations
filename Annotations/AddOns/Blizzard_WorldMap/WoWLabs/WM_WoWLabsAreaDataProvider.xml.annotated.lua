@@ -19,15 +19,15 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/WoWLabs/WM_WoWLabsAreaDataProvider.xml#L35)
 --- child of WoWLabsAreaSelectionControlsPinTemplate
---- @class WoWLabsAreaSelectionControlsPinTemplate_AutoSelectButton : Button, WoWLabsAreaSelectionControlsButtonTemplate
+--- @class WoWLabsAreaSelectionControlsPinTemplate_ConfirmSelectionButton : Button, WoWLabsAreaSelectionControlsButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/WoWLabs/WM_WoWLabsAreaDataProvider.xml#L40)
 --- child of WoWLabsAreaSelectionControlsPinTemplate
---- @class WoWLabsAreaSelectionControlsPinTemplate_ConfirmSelectionButton : Button, WoWLabsAreaSelectionControlsButtonTemplate
+--- @class WoWLabsAreaSelectionControlsPinTemplate_AutoSelectButton : Button, WoWLabsAreaSelectionControlsButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/WoWLabs/WM_WoWLabsAreaDataProvider.xml#L33)
 --- Template
 --- @class WoWLabsAreaSelectionControlsPinTemplate : Frame, WoWLabsAreaSelectionControlsPinMixin
---- @field AutoSelectButton WoWLabsAreaSelectionControlsPinTemplate_AutoSelectButton
 --- @field ConfirmSelectionButton WoWLabsAreaSelectionControlsPinTemplate_ConfirmSelectionButton
+--- @field AutoSelectButton WoWLabsAreaSelectionControlsPinTemplate_AutoSelectButton
 

@@ -55,7 +55,7 @@ PingKeybindReminder["keybind"] = "TOGGLEPINGLISTENER"
 --- @class InteractionKeybindReminderTemplate_RightIndicator : Texture
 --- @field layoutIndex number # 3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/WoWLabs/PingKeybindReminder.xml#L104)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/WoWLabs/PingKeybindReminder.xml#L108)
 --- child of InteractionKeybindReminderTemplate
 --- @class InteractionKeybindReminderTemplate_SlotSpell : Texture
 --- @field layoutIndex number # 4
@@ -71,14 +71,14 @@ PingKeybindReminder["keybind"] = "TOGGLEPINGLISTENER"
 --- @field RightIndicator InteractionKeybindReminderTemplate_RightIndicator
 --- @field SlotSpell InteractionKeybindReminderTemplate_SlotSpell
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/WoWLabs/PingKeybindReminder.xml#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/WoWLabs/PingKeybindReminder.xml#L124)
 --- @class InteractLeftLootKeybindReminder : Frame, InteractionKeybindReminderTemplate
 --- @field keybind string # "LOOTLEFT"
 InteractLeftLootKeybindReminder = {}
 InteractLeftLootKeybindReminder["keybind"] = "LOOTLEFT"
 InteractLeftLootKeybindReminder["fixedHeight"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/WoWLabs/PingKeybindReminder.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/WoWLabs/PingKeybindReminder.xml#L136)
 --- @class InteractRightLootKeybindReminder : Frame, InteractionKeybindReminderTemplate
 --- @field keybind string # "INTERACTTARGET"
 InteractRightLootKeybindReminder = {}

@@ -129,4 +129,7 @@ function TrainingLobbyQueueMixin:OnShow() end
 function TrainingLobbyQueueMixin:OnHide() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormPrematchUI/Blizzard_PlunderstormPrematchUI.lua#L280)
+function StartQueueButtonMixin:OnShow() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlunderstormPrematchUI/Blizzard_PlunderstormPrematchUI.lua#L284)
 function StartQueueButtonMixin:OnClick() end

@@ -883,83 +883,83 @@ ConquestFrame["JoinButton"] = ConquestJoinButton
 --- @field Background Texture
 PlunderstormFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1506)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1508)
 --- child of PVPQueueFrame
 --- @class PVPUIFrame_PVPQueueFrame_LFGListPVPStub : Frame
 LFGListPVPStub = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1548)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1550)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset_CasualPanel
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_CasualPanel_HonorLevelDisplay : Cooldown, HonorLevelDisplayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1536)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset_CasualPanel
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_CasualPanel_HKLabel : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1539)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1541)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset_CasualPanel
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_CasualPanel_HKValue : FontString, GameFontNormalHuge2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1531)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1533)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_CasualPanel : Frame, PVPWeeklyCasualPanelMixin
 --- @field HonorLevelDisplay PVPUIFrame_PVPQueueFrame_HonorInset_CasualPanel_HonorLevelDisplay
 --- @field HKLabel PVPUIFrame_PVPQueueFrame_HonorInset_CasualPanel_HKLabel
 --- @field HKValue PVPUIFrame_PVPQueueFrame_HonorInset_CasualPanel_HKValue
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1560)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1562)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_HonorLevelDisplay : Cooldown, HonorLevelDisplayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1580)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1582)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_Tier
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_Tier_NextTier : Frame
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1571)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1573)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_Tier
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_Tier_Title : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1565)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1567)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_Tier : Frame, PVPRatedTierTemplate
 --- @field NextTier PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_Tier_NextTier
 --- @field Title PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_Tier_Title
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1609)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_SeasonRewardFrame : Frame, SeasonRewardFrameTemplate
 --- @field Ring Texture
 --- @field Icon Texture
 --- @field CircleMask MaskTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1558)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1560)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel : Frame, PVPWeeklyRatedPanelMixin
 --- @field HonorLevelDisplay PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_HonorLevelDisplay
 --- @field Tier PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_Tier
 --- @field SeasonRewardFrame PVPUIFrame_PVPQueueFrame_HonorInset_RatedPanel_SeasonRewardFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1670)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1672)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset_PlunderstormPanel
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_PlunderstormPanel_PlunderstoreButton : Button, BigGoldRedThreeSliceButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1655)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1657)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset_PlunderstormPanel
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_PlunderstormPanel_PlunderDesc : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1661)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1663)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset_PlunderstormPanel
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_PlunderstormPanel_PlunderDisplay : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1652)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1654)
 --- child of PVPUIFrame_PVPQueueFrame_HonorInset
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset_PlunderstormPanel : Frame, PlunderstormPanelMixin
 --- @field PlunderstoreButton PVPUIFrame_PVPQueueFrame_HonorInset_PlunderstormPanel_PlunderstoreButton
 --- @field PlunderDesc PVPUIFrame_PVPQueueFrame_HonorInset_PlunderstormPanel_PlunderDesc
 --- @field PlunderDisplay PVPUIFrame_PVPQueueFrame_HonorInset_PlunderstormPanel_PlunderDisplay
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1515)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1517)
 --- child of PVPQueueFrame
 --- @class PVPUIFrame_PVPQueueFrame_HonorInset : Frame, InsetFrameTemplate, PVPUIHonorInsetMixin
 --- @field CasualPanel PVPUIFrame_PVPQueueFrame_HonorInset_CasualPanel
@@ -967,18 +967,18 @@ LFGListPVPStub = {}
 --- @field PlunderstormPanel PVPUIFrame_PVPQueueFrame_HonorInset_PlunderstormPanel
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1705)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1707)
 --- child of PVPUIFrame_PVPQueueFrame_NewSeasonPopup
 --- @class PVPUIFrame_PVPQueueFrame_NewSeasonPopup_SeasonRewardFrame : Frame, SeasonRewardFrameTemplate
 --- @field Ring Texture
 --- @field Icon Texture
 --- @field CircleMask MaskTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1695)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1697)
 --- child of PVPUIFrame_PVPQueueFrame_NewSeasonPopup
 --- @class PVPUIFrame_PVPQueueFrame_NewSeasonPopup_SeasonRewardText : FontString, SystemFont_Med3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1688)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1690)
 --- child of PVPQueueFrame
 --- @class PVPUIFrame_PVPQueueFrame_NewSeasonPopup : Frame, PVPSeasonChangesNoticeTemplate
 --- @field SeasonRewardFrame PVPUIFrame_PVPQueueFrame_NewSeasonPopup_SeasonRewardFrame
@@ -1006,63 +1006,63 @@ PVPQueueFrame["CategoryButton4"] = PVPQueueFrameCategoryButton4
 --- @class PVPUIFrame : Frame
 PVPUIFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1767)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1769)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_Title : FontString, GameFontNormalMed3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1772)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1774)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_Tier : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1777)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1779)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_SpecRank : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1782)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1784)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_WeeklyLabel : FontString, GameFontNormalMed3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1787)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1789)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_WeeklyBest : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1792)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1794)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_WeeklyWon : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1797)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1799)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_WeeklyPlayed : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1804)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_WeeklyMostPlayedSpec : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1807)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1809)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_SeasonLabel : FontString, GameFontNormalMed3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1812)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1814)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_SeasonBest : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1817)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1819)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_SeasonWon : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1822)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1824)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_SeasonPlayed : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1827)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1829)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_SeasonMostPlayedSpec : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1832)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1834)
 --- child of ConquestTooltip
 --- @class ConquestTooltip_ModeDescription : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1759)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1761)
 --- @class ConquestTooltip : Frame, TooltipBackdropTemplate, ResizeLayoutFrame
 --- @field minimumWidth number # 152
 --- @field Title ConquestTooltip_Title
@@ -1084,19 +1084,19 @@ ConquestTooltip = {}
 ConquestTooltip["minimumWidth"] = 152
 ConquestTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1882)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1884)
 --- child of PvPObjectiveBannerFrame
 --- @class PvPObjectiveBannerFrame_Title : FontString, QuestFont_Super_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1889)
 --- child of PvPObjectiveBannerFrame
 --- @class PvPObjectiveBannerFrame_TitleFlash : FontString, QuestFont_Super_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1893)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1895)
 --- child of PvPObjectiveBannerFrame
 --- @class PvPObjectiveBannerFrame_BonusLabel : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1901)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1903)
 --- child of PvPObjectiveBannerFrame
 --- @class PvPObjectiveBannerFrame_Anim : AnimationGroup
 --- @field BG1Translation Translation
@@ -1104,7 +1104,7 @@ ConquestTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 --- @field BonusLabelTranslation Translation
 --- @field IconTranslation Translation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1840)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1842)
 --- @class PvPObjectiveBannerFrame : Frame
 --- @field Icon Texture
 --- @field Icon2 Texture

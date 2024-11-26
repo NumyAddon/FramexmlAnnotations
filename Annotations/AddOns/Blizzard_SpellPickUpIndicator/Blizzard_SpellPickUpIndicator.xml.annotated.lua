@@ -20,6 +20,11 @@
 --- @class SpellPickupIndicatorTemplate_SlotSpell : Texture
 --- @field layoutIndex number # 4
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L49)
+--- child of SpellPickupIndicatorTemplate
+--- @class SpellPickupIndicatorTemplate_BG : Texture
+--- @field ignoreInLayout boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L4)
 --- Template
 --- @class SpellPickupIndicatorTemplate : Frame, HorizontalLayoutFrame, SpellPickupIndicatorMixin
@@ -27,18 +32,19 @@
 --- @field KeyIcon SpellPickupIndicatorTemplate_KeyIcon
 --- @field PickupArrow SpellPickupIndicatorTemplate_PickupArrow
 --- @field SlotSpell SpellPickupIndicatorTemplate_SlotSpell
+--- @field BG SpellPickupIndicatorTemplate_BG
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L69)
 --- child of SpellPickupDisplay
 --- @class SpellPickupDisplay_LeftSpellPickupIndicator : Frame, SpellPickupIndicatorTemplate
 --- @field spellSlot number # 0
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L75)
 --- child of SpellPickupDisplay
 --- @class SpellPickupDisplay_RightSpellPickupIndicator : Frame, SpellPickupIndicatorTemplate
 --- @field spellSlot number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L62)
 --- @class SpellPickupDisplay : Frame, CallbackRegistrantTemplate, VerticalLayoutFrame, SpellPickupDisplayMixin
 --- @field LeftSpellPickupIndicator SpellPickupDisplay_LeftSpellPickupIndicator
 --- @field RightSpellPickupIndicator SpellPickupDisplay_RightSpellPickupIndicator

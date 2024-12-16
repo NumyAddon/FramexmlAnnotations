@@ -41,7 +41,7 @@ QuestLogCollapseAllButtonGroupMates = {}
 --- @type Texture
 QuestLogCollapseAllButtonCheck = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L77)
 --- child of QuestLogCollapseAllButton (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogCollapseAllButtonHighlight = {}
@@ -50,9 +50,6 @@ QuestLogCollapseAllButtonHighlight = {}
 --- child of QuestLogExpandButtonFrame
 --- @class QuestLogFrame_QuestLogExpandButtonFrame_QuestLogCollapseAllButton : Button, QuestLogTitleButtonTemplate
 QuestLogCollapseAllButton = {}
-QuestLogCollapseAllButton["tag"] = QuestLogCollapseAllButtonTag -- inherited
-QuestLogCollapseAllButton["groupMates"] = QuestLogCollapseAllButtonGroupMates -- inherited
-QuestLogCollapseAllButton["check"] = QuestLogCollapseAllButtonCheck -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L202)
 --- child of QuestLogFrame
@@ -197,7 +194,7 @@ QuestLogTitle1GroupMates = {}
 --- @type Texture
 QuestLogTitle1Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L77)
 --- child of QuestLogTitle1 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle1Highlight = {}
@@ -206,9 +203,6 @@ QuestLogTitle1Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle1 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle1 = {}
-QuestLogTitle1["tag"] = QuestLogTitle1Tag -- inherited
-QuestLogTitle1["groupMates"] = QuestLogTitle1GroupMates -- inherited
-QuestLogTitle1["check"] = QuestLogTitle1Check -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L10)
 --- child of QuestLogTitle2 (created in template QuestLogTitleButtonTemplate)
@@ -225,7 +219,7 @@ QuestLogTitle2GroupMates = {}
 --- @type Texture
 QuestLogTitle2Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L77)
 --- child of QuestLogTitle2 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle2Highlight = {}
@@ -234,9 +228,6 @@ QuestLogTitle2Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle2 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle2 = {}
-QuestLogTitle2["tag"] = QuestLogTitle2Tag -- inherited
-QuestLogTitle2["groupMates"] = QuestLogTitle2GroupMates -- inherited
-QuestLogTitle2["check"] = QuestLogTitle2Check -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L10)
 --- child of QuestLogTitle3 (created in template QuestLogTitleButtonTemplate)
@@ -253,7 +244,7 @@ QuestLogTitle3GroupMates = {}
 --- @type Texture
 QuestLogTitle3Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L77)
 --- child of QuestLogTitle3 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle3Highlight = {}
@@ -262,9 +253,6 @@ QuestLogTitle3Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle3 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle3 = {}
-QuestLogTitle3["tag"] = QuestLogTitle3Tag -- inherited
-QuestLogTitle3["groupMates"] = QuestLogTitle3GroupMates -- inherited
-QuestLogTitle3["check"] = QuestLogTitle3Check -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L10)
 --- child of QuestLogTitle4 (created in template QuestLogTitleButtonTemplate)
@@ -281,7 +269,7 @@ QuestLogTitle4GroupMates = {}
 --- @type Texture
 QuestLogTitle4Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L77)
 --- child of QuestLogTitle4 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle4Highlight = {}
@@ -290,9 +278,6 @@ QuestLogTitle4Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle4 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle4 = {}
-QuestLogTitle4["tag"] = QuestLogTitle4Tag -- inherited
-QuestLogTitle4["groupMates"] = QuestLogTitle4GroupMates -- inherited
-QuestLogTitle4["check"] = QuestLogTitle4Check -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L10)
 --- child of QuestLogTitle5 (created in template QuestLogTitleButtonTemplate)
@@ -309,7 +294,7 @@ QuestLogTitle5GroupMates = {}
 --- @type Texture
 QuestLogTitle5Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L77)
 --- child of QuestLogTitle5 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle5Highlight = {}
@@ -318,9 +303,6 @@ QuestLogTitle5Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle5 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle5 = {}
-QuestLogTitle5["tag"] = QuestLogTitle5Tag -- inherited
-QuestLogTitle5["groupMates"] = QuestLogTitle5GroupMates -- inherited
-QuestLogTitle5["check"] = QuestLogTitle5Check -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L10)
 --- child of QuestLogTitle6 (created in template QuestLogTitleButtonTemplate)
@@ -337,7 +319,7 @@ QuestLogTitle6GroupMates = {}
 --- @type Texture
 QuestLogTitle6Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L77)
 --- child of QuestLogTitle6 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle6Highlight = {}
@@ -346,9 +328,6 @@ QuestLogTitle6Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle6 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle6 = {}
-QuestLogTitle6["tag"] = QuestLogTitle6Tag -- inherited
-QuestLogTitle6["groupMates"] = QuestLogTitle6GroupMates -- inherited
-QuestLogTitle6["check"] = QuestLogTitle6Check -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L163)
 --- child of QuestLogListScrollFrame (created in template FauxScrollFrameTemplate)
@@ -705,8 +684,8 @@ QuestLogHonorFrameHonorReceiveText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L200)
 --- child of QuestLogHonorFrame (created in template QuestHonorFrameTemplate)
---- @type QuestHonorFrameTemplate_QuestHonorFrameTemplateHonorPoints
-QuestLogHonorFrameHonorPoints = {}
+--- @type QuestHonorFrameTemplate_QuestHonorFrameTemplatePoints
+QuestLogHonorFramePoints = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L209)
 --- child of QuestLogHonorFrame (created in template QuestHonorFrameTemplate)
@@ -717,30 +696,30 @@ QuestLogHonorFrameIcon = {}
 --- child of QuestLogDetailScrollChildFrame
 --- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogHonorFrame : Frame, QuestHonorFrameTemplate
 QuestLogHonorFrame = {}
-QuestLogHonorFrame["Points"] = QuestLogHonorFrameHonorPoints -- inherited
+QuestLogHonorFrame["Points"] = QuestLogHonorFramePoints -- inherited
 QuestLogHonorFrame["Icon"] = QuestLogHonorFrameIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L228)
 --- child of QuestLogPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type Texture
 QuestLogPlayerTitleFrameIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L236)
 --- child of QuestLogPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type Texture
 QuestLogPlayerTitleFrameTitleFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L245)
 --- child of QuestLogPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type Texture
 QuestLogPlayerTitleFrameTitleFrameCenter = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L265)
 --- child of QuestLogPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type QuestPlayerTitleFrameTemplate_QuestPlayerTitleFrameTemplateTitleLabel
 QuestLogPlayerTitleFrameTitleLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L273)
 --- child of QuestLogPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type QuestPlayerTitleFrameTemplate_QuestPlayerTitleFrameTemplateTitle
 QuestLogPlayerTitleFrameTitle = {}
@@ -749,7 +728,6 @@ QuestLogPlayerTitleFrameTitle = {}
 --- child of QuestLogDetailScrollChildFrame
 --- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogPlayerTitleFrame : Frame, QuestPlayerTitleFrameTemplate
 QuestLogPlayerTitleFrame = {}
-QuestLogPlayerTitleFrame["Title"] = QuestLogPlayerTitleFrameTitle -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestLogFrame.xml#L18)
 --- child of QuestLogRequiredMoneyFrame (created in template MoneyFrameTemplate)

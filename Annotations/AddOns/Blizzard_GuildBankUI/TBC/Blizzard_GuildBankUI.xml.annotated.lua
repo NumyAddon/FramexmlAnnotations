@@ -316,7 +316,7 @@ GuildBankFrameTab1Middle = {}
 --- @type Texture
 GuildBankFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L114)
 --- child of GuildBankFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 GuildBankFrameTab1HighlightTexture = {}
@@ -356,7 +356,7 @@ GuildBankFrameTab2Middle = {}
 --- @type Texture
 GuildBankFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L114)
 --- child of GuildBankFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 GuildBankFrameTab2HighlightTexture = {}
@@ -396,7 +396,7 @@ GuildBankFrameTab3Middle = {}
 --- @type Texture
 GuildBankFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L114)
 --- child of GuildBankFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 GuildBankFrameTab3HighlightTexture = {}
@@ -436,7 +436,7 @@ GuildBankFrameTab4Middle = {}
 --- @type Texture
 GuildBankFrameTab4Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L114)
 --- child of GuildBankFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 GuildBankFrameTab4HighlightTexture = {}

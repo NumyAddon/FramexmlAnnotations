@@ -70,22 +70,17 @@ QuestInfoObjective1 = {}
 --- @field Objectives table<number, QuestInfoObjectivesFrame_QuestInfoObjective1>
 QuestInfoObjectivesFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.xml#L123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.xml#L122)
 --- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
 --- @type Texture
 QuestInfoSpellObjectiveFrameIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.xml#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.xml#L128)
 --- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
 --- @type Texture
 QuestInfoSpellObjectiveFrameNameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.xml#L137)
---- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
---- @type Texture
-QuestInfoSpellObjectiveFrameSpellBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.xml#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.xml#L136)
 --- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
 --- @type QuestSpellTemplate_QuestSpellTemplateName
 QuestInfoSpellObjectiveFrameName = {}
@@ -159,8 +154,8 @@ QuestInfoRewardsFrameHonorReceiveText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.xml#L200)
 --- child of QuestInfoRewardsFrame_HonorFrame (created in template QuestHonorFrameTemplate)
---- @type QuestHonorFrameTemplate_QuestHonorFrameTemplateHonorPoints
-QuestInfoRewardsFrameHonorPoints = {}
+--- @type QuestHonorFrameTemplate_QuestHonorFrameTemplatePoints
+QuestInfoRewardsFramePoints = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.xml#L209)
 --- child of QuestInfoRewardsFrame_HonorFrame (created in template QuestHonorFrameTemplate)
@@ -386,8 +381,8 @@ MapQuestInfoRewardsFrameHonorReceiveText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.xml#L200)
 --- child of MapQuestInfoRewardsFrame_HonorFrame (created in template QuestHonorFrameTemplate)
---- @type QuestHonorFrameTemplate_QuestHonorFrameTemplateHonorPoints
-MapQuestInfoRewardsFrameHonorPoints = {}
+--- @type QuestHonorFrameTemplate_QuestHonorFrameTemplatePoints
+MapQuestInfoRewardsFramePoints = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.xml#L209)
 --- child of MapQuestInfoRewardsFrame_HonorFrame (created in template QuestHonorFrameTemplate)
